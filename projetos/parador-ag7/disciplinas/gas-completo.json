@@ -1,0 +1,133 @@
+{
+  "disciplina": "Gás (GLP)",
+  "categorias": [
+    {
+      "nome": "Tubulações GLP",
+      "items": [
+        {
+          "descricao": "Tubulação GLP ø 1 1/4\" (cobre)",
+          "diametro": "1 1/4\"",
+          "comprimento": 259.7,
+          "unidade": "m",
+          "observacao": "Rede primária e secundária"
+        },
+        {
+          "descricao": "Tubulação GLP ø 2\" (cobre)",
+          "diametro": "2\"",
+          "comprimento": 143.16,
+          "unidade": "m",
+          "observacao": "Rede primária - distribuição principal"
+        }
+      ]
+    },
+    {
+      "nome": "Registros e Válvulas",
+      "items": [
+        {
+          "descricao": "Registro de corte de fecho rápido",
+          "quantidade": 110,
+          "unidade": "un",
+          "observacao": "Um registro por ponto de consumo (fogões + aquecedores)"
+        },
+        {
+          "descricao": "Válvula de corte de gás",
+          "quantidade": 7,
+          "unidade": "un",
+          "observacao": "Válvulas principais de bloqueio (uma por bloco/setor)"
+        }
+      ]
+    },
+    {
+      "nome": "Pontos de Consumo",
+      "items": [
+        {
+          "descricao": "Ponto para fogão 5 bocas (140 kcal/min)",
+          "quantidade": 39,
+          "unidade": "un",
+          "observacao": "Cozinhas dos apartamentos"
+        },
+        {
+          "descricao": "Ponto para aquecedor (755 kcal/min)",
+          "quantidade": 71,
+          "unidade": "un",
+          "observacao": "Banheiros e áreas de serviço"
+        }
+      ]
+    },
+    {
+      "nome": "Medição e Controle",
+      "items": [
+        {
+          "descricao": "Medidor de gás individual",
+          "quantidade": 34,
+          "unidade": "un",
+          "observacao": "Medidores por apartamento/unidade"
+        },
+        {
+          "descricao": "Regulador de pressão (2º estágio)",
+          "quantidade": 4,
+          "unidade": "un",
+          "observacao": "Reguladores de pressão no sistema"
+        }
+      ]
+    },
+    {
+      "nome": "Ventilação",
+      "items": [
+        {
+          "descricao": "Prumada de ventilação PVC ø 75mm",
+          "quantidade": 13,
+          "unidade": "un",
+          "observacao": "Ventilação permanente dos medidores"
+        },
+        {
+          "descricao": "Terminal de ventilação",
+          "quantidade": 13,
+          "unidade": "un",
+          "observacao": "Saídas na cobertura"
+        },
+        {
+          "descricao": "Ventilação permanente (área livre 200cm²)",
+          "quantidade": 110,
+          "unidade": "un",
+          "observacao": "Ventilação em forros e ambientes com aquecedores"
+        }
+      ]
+    },
+    {
+      "nome": "Infraestrutura",
+      "items": [
+        {
+          "descricao": "Abrigo para registro de fecho rápido (32x60x20cm)",
+          "quantidade": 59,
+          "unidade": "un",
+          "observacao": "Abrigos externos para proteção dos registros"
+        },
+        {
+          "descricao": "Duto de exaustão metálico rígido ø 100mm",
+          "quantidade": 71,
+          "unidade": "un",
+          "observacao": "Um por aquecedor, para ventilação dos produtos de combustão"
+        }
+      ]
+    }
+  ],
+  "resumo_quantitativo": {
+    "tubulacoes_total": 402.86,
+    "unidade_tubulacoes": "m",
+    "pontos_consumo_total": 110,
+    "registros_valvulas_total": 117,
+    "medidores": 34,
+    "prumadas_ventilacao": 13
+  },
+  "observacoes_gerais": [
+    "Sistema de GLP (Gás Liquefeito de Petróleo) para edifício residencial multifamiliar",
+    "Projeto executivo contempla subsolo, térreo, pavimentos tipo, duplex e coberturas",
+    "7 blocos (A, B, C, D, E, F, G) com instalações independentes",
+    "Tubulações em cobre conforme normas ABNT NBR 13523 e NBR 15526",
+    "Ventilação permanente conforme IN08",
+    "Cada unidade possui medidor individual",
+    "Sistema com reguladores de 1º estágio (central) e 2º estágio (por apartamento)",
+    "Total de 35 pranchas executivas processadas"
+  ]
+}

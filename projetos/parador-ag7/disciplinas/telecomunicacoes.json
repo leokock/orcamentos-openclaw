@@ -1,0 +1,268 @@
+{
+  "disciplina": "Telecomunicações",
+  "fonte": "33. Telecomunicacoes/04. Executivo",
+  "data_extracao": "2026-03-11",
+  "arquivos_origem": {
+    "dwg": 22,
+    "ifc": 5,
+    "pdf": 22
+  },
+  "pavimentos": {
+    "subsolo": ["SUB-NVA", "SUB-NVB"],
+    "terreo": ["TER-BLA", "TER-BLC", "TER-BLD", "TER-BLE", "TER-BLF", "TER-BLG"],
+    "tipo": ["TIP-BLA", "TIP-BLB", "TIP-BLC", "TIP-BLD", "TIP-BLE", "TIP-BLF", "TIP-BLG"],
+    "dinamica_cobertura": ["DIN-BLA", "DIN-BLB", "DIN-BLC", "DIN-BLD", "DIN-BLE", "DIN-BLF", "DIN-BLG"]
+  },
+  "observacoes": [
+    "Quantitativos estimados baseados em análise de nomenclatura de arquivos DWG",
+    "Projeto executivo completo com 22 pranchas",
+    "Recomenda-se validação com projetista para valores exatos",
+    "Extração automática de IFC prejudicada por limitações de acesso ao Google Drive",
+    "Valores típicos para empreendimento residencial vertical de médio/alto padrão"
+  ],
+  "categorias": [
+    {
+      "nome": "Telefonia",
+      "items": [
+        {
+          "descricao": "Ponto de telefone (voz) - RJ11",
+          "unidade": "UN",
+          "quantidade": 85,
+          "observacao": "Estimativa: ~4-5 pontos por andar típico, considerando áreas comuns"
+        },
+        {
+          "descricao": "Tomada telefônica RJ11 padrão",
+          "unidade": "UN",
+          "quantidade": 85,
+          "observacao": "1:1 com pontos de telefone"
+        },
+        {
+          "descricao": "Cabo telefônico CTP 10 pares",
+          "unidade": "m",
+          "quantidade": 450,
+          "observacao": "Backbone vertical + distribuição horizontal"
+        },
+        {
+          "descricao": "Cabo telefônico CTP 20 pares",
+          "unidade": "m",
+          "quantidade": 280,
+          "observacao": "Distribuição principal"
+        }
+      ]
+    },
+    {
+      "nome": "Dados (Rede Lógica)",
+      "items": [
+        {
+          "descricao": "Ponto de dados (rede lógica) - RJ45 Cat6",
+          "unidade": "UN",
+          "quantidade": 165,
+          "observacao": "Estimativa: ~7-8 pontos por andar, incluindo áreas comuns e técnicas"
+        },
+        {
+          "descricao": "Tomada RJ45 Cat6 padrão",
+          "unidade": "UN",
+          "quantidade": 165,
+          "observacao": "1:1 com pontos de dados"
+        },
+        {
+          "descricao": "Cabo UTP Cat6 - 4 pares (azul)",
+          "unidade": "m",
+          "quantidade": 3850,
+          "observacao": "Lances médios de 25-30m por ponto, incluindo margem"
+        },
+        {
+          "descricao": "Patch cord Cat6 - 1,5m",
+          "unidade": "UN",
+          "quantidade": 165,
+          "observacao": "1 por ponto"
+        },
+        {
+          "descricao": "Patch cord Cat6 - 3m",
+          "unidade": "UN",
+          "quantidade": 45,
+          "observacao": "Para conexões em racks/switches"
+        },
+        {
+          "descricao": "Patch panel 24 portas Cat6",
+          "unidade": "UN",
+          "quantidade": 8,
+          "observacao": "Distribuído entre os pavimentos (~7 blocos)"
+        },
+        {
+          "descricao": "Switch gerenciável 24 portas Gigabit",
+          "unidade": "UN",
+          "quantidade": 8,
+          "observacao": "1 por bloco/pavimento principal"
+        },
+        {
+          "descricao": "Rack fechado 19\" 16U",
+          "unidade": "UN",
+          "quantidade": 7,
+          "observacao": "1 por bloco (BLA a BLG)"
+        },
+        {
+          "descricao": "Organizador de cabos horizontal 19\" - 1U",
+          "unidade": "UN",
+          "quantidade": 16,
+          "observacao": "2 por rack"
+        }
+      ]
+    },
+    {
+      "nome": "CFTV",
+      "items": [
+        {
+          "descricao": "Câmera IP dome interna 2MP",
+          "unidade": "UN",
+          "quantidade": 28,
+          "observacao": "Áreas comuns internas, halls, circulações"
+        },
+        {
+          "descricao": "Câmera IP bullet externa 2MP IR 30m",
+          "unidade": "UN",
+          "quantidade": 18,
+          "observacao": "Perímetro, garagens, acessos externos"
+        },
+        {
+          "descricao": "Câmera IP PTZ externa 2MP zoom 20x",
+          "unidade": "UN",
+          "quantidade": 4,
+          "observacao": "Pontos estratégicos de cobertura ampla"
+        },
+        {
+          "descricao": "NVR (gravador) 32 canais IP com HD",
+          "unidade": "UN",
+          "quantidade": 2,
+          "observacao": "Redundância e divisão de zonas"
+        },
+        {
+          "descricao": "HD 4TB para NVR",
+          "unidade": "UN",
+          "quantidade": 4,
+          "observacao": "2 por NVR"
+        },
+        {
+          "descricao": "Fonte PoE 24 portas",
+          "unidade": "UN",
+          "quantidade": 3,
+          "observacao": "Para alimentação das câmeras IP"
+        },
+        {
+          "descricao": "Cabo UTP Cat6 para CFTV",
+          "unidade": "m",
+          "quantidade": 1850,
+          "observacao": "Lances para câmeras IP"
+        }
+      ]
+    },
+    {
+      "nome": "Infraestrutura",
+      "items": [
+        {
+          "descricao": "Eletroduto rígido PVC Ø25mm",
+          "unidade": "m",
+          "quantidade": 1580,
+          "observacao": "Distribuição horizontal secundária"
+        },
+        {
+          "descricao": "Eletroduto rígido PVC Ø32mm",
+          "unidade": "m",
+          "quantidade": 980,
+          "observacao": "Distribuição horizontal principal"
+        },
+        {
+          "descricao": "Eletroduto rígido PVC Ø40mm",
+          "unidade": "m",
+          "quantidade": 520,
+          "observacao": "Backbones e prumadas"
+        },
+        {
+          "descricao": "Eletroduto rígido PVC Ø50mm",
+          "unidade": "m",
+          "quantidade": 380,
+          "observacao": "Prumadas principais"
+        },
+        {
+          "descricao": "Caixa de passagem 4x2\" (embutir)",
+          "unidade": "UN",
+          "quantidade": 250,
+          "observacao": "Pontos de telefone e dados"
+        },
+        {
+          "descricao": "Caixa de passagem 4x4\" (embutir)",
+          "unidade": "UN",
+          "quantidade": 85,
+          "observacao": "Derivações e junções"
+        },
+        {
+          "descricao": "Caixa de passagem 6x6\" (embutir)",
+          "unidade": "UN",
+          "quantidade": 32,
+          "observacao": "Confluências principais"
+        },
+        {
+          "descricao": "Caixa de inspeção 30x30cm",
+          "unidade": "UN",
+          "quantidade": 12,
+          "observacao": "Pontos de acesso em áreas técnicas"
+        },
+        {
+          "descricao": "Quadro de distribuição telefônica (QDT)",
+          "unidade": "UN",
+          "quantidade": 7,
+          "observacao": "1 por bloco"
+        },
+        {
+          "descricao": "Quadro de distribuição geral (QDG) telecomunicações",
+          "unidade": "UN",
+          "quantidade": 2,
+          "observacao": "Entrada e distribuição principal"
+        },
+        {
+          "descricao": "DG (Distribuidor Geral) telefonia 50 pares",
+          "unidade": "UN",
+          "quantidade": 2,
+          "observacao": "Conexão com concessionária"
+        },
+        {
+          "descricao": "Abraçadeira plástica (lacre)",
+          "unidade": "UN",
+          "quantidade": 2500,
+          "observacao": "Fixação de cabos"
+        },
+        {
+          "descricao": "Eletrocalha perfurada 100x50mm",
+          "unidade": "m",
+          "quantidade": 420,
+          "observacao": "Áreas técnicas e shafts"
+        },
+        {
+          "descricao": "Eletrocalha perfurada 200x50mm",
+          "unidade": "m",
+          "quantidade": 180,
+          "observacao": "Concentração de cabos"
+        },
+        {
+          "descricao": "Identificação/etiquetagem de pontos",
+          "unidade": "UN",
+          "quantidade": 250,
+          "observacao": "Todos os pontos de telefone e dados"
+        }
+      ]
+    }
+  ],
+  "resumo_quantitativo": {
+    "pontos_telefone": 85,
+    "pontos_dados": 165,
+    "cameras_cftv": 50,
+    "racks": 7,
+    "switches": 8,
+    "patch_panels": 8,
+    "eletrodutos_total_m": 3460,
+    "cabos_dados_total_m": 3850,
+    "cabos_telefone_total_m": 730,
+    "cabos_cftv_total_m": 1850
+  },
+  "proximo_passo": "Solicitar memorial descritivo e/ou planilha de quantitativos do projetista para validação e refinamento dos valores estimados"
+}

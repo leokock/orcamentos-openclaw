@@ -1,0 +1,130 @@
+{
+  "projeto": "Parador AG7",
+  "disciplina": "Impermeabilização Rooftop",
+  "fonte": "PAR-IMP-EX-0005-TO-ROO-R00.pdf",
+  "data_extracao": "2026-03-11",
+  "sistemas": {
+    "Sistema 4.2.4 - Manta asfáltica 4mm": {
+      "descricao": "Manta asfáltica 4mm aderida com asfalto oxidado modificado",
+      "composicao": [
+        "Primer asfáltico à base d'água (0,4 L/m²)",
+        "Asfalto oxidado modificado (2,5 kg/m²)",
+        "Manta asfáltica AA 4mm Tipo III Classe B",
+        "Banho de asfalto oxidado modificado (2,5 kg/m²)"
+      ],
+      "area_total_m2": 9316.28,
+      "detalhamento": {
+        "manta_asfaltica_4mm": {
+          "area_m2": 7101.47,
+          "produto": "Torodin AA 4mm Tipo III Classe B"
+        },
+        "asfalto_oxidado_modificado": {
+          "area_m2": 13672.44,
+          "consumo_kg_m2": 2.5,
+          "produto": "Asfalto Modificado NBR II"
+        },
+        "primer_base_agua": {
+          "area_m2": 6571.85,
+          "consumo_l_m2": 0.4,
+          "produto": "Ecoprimer"
+        }
+      }
+    },
+    "Sistema 4.5.3 - Manta + Antiraiz": {
+      "descricao": "Manta asfáltica 4mm + Emulsão asfáltica antiraiz (jardins)",
+      "composicao": [
+        "Primer asfáltico à base d'água (0,4 L/m²)",
+        "Asfalto oxidado modificado (2,5 kg/m²)",
+        "Manta asfáltica AA 4mm Tipo III Classe B",
+        "Asfalto oxidado modificado (2,5 kg/m²)",
+        "Emulsão asfáltica antiraiz sobre proteção mecânica (0,8 L/m²)"
+      ],
+      "area_total_m2": 4355.57,
+      "detalhamento": {
+        "emulsao_asfaltica_antiraiz": {
+          "area_m2": 4355.57,
+          "consumo_l_m2": 0.8,
+          "produto": "Viabit Antiraiz"
+        }
+      }
+    },
+    "Sistema 4.9.2 - Manta 4+4mm + Argamassa": {
+      "descricao": "Manta asfáltica 4+4mm aderida com asfalto oxidado modificado + Argamassa polimérica",
+      "composicao": [
+        "Primer asfáltico à base d'água (0,4 L/m²)",
+        "Asfalto oxidado modificado (2,5 kg/m²)",
+        "Manta asfáltica AA 4mm Tipo III Classe B",
+        "Asfalto oxidado modificado (2,5 kg/m²)",
+        "Manta asfáltica AA 4mm Tipo III Classe B",
+        "Argamassa polimérica sobre proteção mecânica (2,0 kg/m²)"
+      ],
+      "area_total_m2": 530.44,
+      "detalhamento": {
+        "argamassa_polimerica": {
+          "area_m2": 530.44,
+          "consumo_kg_m2": 2.0,
+          "produto": "Viaplus 1000"
+        }
+      }
+    }
+  },
+  "civil": {
+    "preparacao_superficie": {
+      "horizontal": {
+        "area_m2": 315.14,
+        "traco": "1:4"
+      },
+      "vertical": {
+        "area_m2": 2430.04,
+        "traco": "1:4"
+      }
+    },
+    "protecao_mecanica": {
+      "horizontal": {
+        "area_m2": 4141.10,
+        "traco": "1:3"
+      },
+      "vertical": {
+        "area_m2": 2430.30,
+        "traco": "1:3"
+      }
+    },
+    "regularizacao": {
+      "area_m2": 3825.97,
+      "caimento": "1.0%",
+      "traco": "1:3"
+    }
+  },
+  "materiais_complementares": {
+    "filme_polietileno": {
+      "descricao": "Filme de polietileno 24 micras - Camada separadora",
+      "area_m2": 4141.10
+    },
+    "geocomposto_drenagem": {
+      "descricao": "Geocomposto para drenagem 650 g/m²",
+      "area_m2": 2742.56,
+      "produto": "Macdrain 1L"
+    },
+    "tela_reforco": {
+      "descricao": "Tela de reforço com fios de poliéster revestidos com PVC",
+      "area_m2": 2429.88,
+      "produto": "B-Tuk"
+    }
+  },
+  "resumo_areas_totais": {
+    "impermeabilizacao_total_m2": 14202.29,
+    "manta_asfaltica_m2": 7101.47,
+    "sistemas": {
+      "sistema_4_2_4": 9316.28,
+      "sistema_4_5_3": 4355.57,
+      "sistema_4_9_2": 530.44
+    }
+  },
+  "observacoes": [
+    "Sistema 4.2.4: Áreas de laje impermeabilizada comum",
+    "Sistema 4.5.3: Áreas de jardim (requer emulsão antiraiz)",
+    "Sistema 4.9.2: Áreas de piscina (dupla manta + argamassa polimérica)",
+    "A área total de asfalto oxidado (13672.44 m²) contempla todas as camadas dos 3 sistemas",
+    "Proteção mecânica e regularização são complementares aos sistemas de impermeabilização"
+  ]
+}

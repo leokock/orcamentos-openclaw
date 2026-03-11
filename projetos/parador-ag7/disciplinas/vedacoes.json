@@ -1,0 +1,88 @@
+{
+  "disciplina": "Vedações",
+  "projeto": "Parador AG7",
+  "fonte": "AltoQi Visus - Quantitativo Arquitetura (R01)",
+  "arquivo_origem": "AltoQi Visus_Quantitativo_Arquitetura.xlsx",
+  "data_extracao": "2026-03-11",
+  "resumo": {
+    "total_alvenaria_m2": 25241.94,
+    "total_vergas_contravergas_m": 1595.77,
+    "total_encunhamento_m": 10880.22
+  },
+  "categorias": [
+    {
+      "nome": "Alvenaria Interna",
+      "descricao": "Blocos cerâmicos de 9cm e 14cm para vedação interna",
+      "items": [
+        {
+          "codigo": "2.1.1",
+          "descricao": "ALVENARIA BLOCO 14",
+          "tipo_bloco": "Bloco Cerâmico",
+          "espessura_cm": 14,
+          "unidade": "m²",
+          "quantidade": 8009.82
+        },
+        {
+          "codigo": "2.1.3",
+          "descricao": "ALVENARIA BLOCO 9",
+          "tipo_bloco": "Bloco Cerâmico",
+          "espessura_cm": 9,
+          "unidade": "m²",
+          "quantidade": 9265.81
+        },
+        {
+          "codigo": "11.1.55",
+          "descricao": "ALVENARIA BLOCO 9 - CER11- PASTILHA GRANADA VERMELHA - APOIO PISCINA -",
+          "tipo_bloco": "Bloco Cerâmico",
+          "espessura_cm": 9,
+          "unidade": "m²",
+          "quantidade": 0.43
+        }
+      ]
+    },
+    {
+      "nome": "Alvenaria Externa",
+      "descricao": "Blocos cerâmicos de 19cm para vedação externa",
+      "items": [
+        {
+          "codigo": "2.1.2",
+          "descricao": "ALVENARIA BLOCO 19",
+          "tipo_bloco": "Bloco Cerâmico",
+          "espessura_cm": 19,
+          "unidade": "m²",
+          "quantidade": 7965.88
+        }
+      ]
+    },
+    {
+      "nome": "Vergas e Contravergas - Portas",
+      "descricao": "Vergas e contravergas para vãos de portas",
+      "items": [
+        {
+          "codigo": "3.1.1",
+          "descricao": "Verga e ContraVerga",
+          "unidade": "m",
+          "quantidade": 195.63
+        },
+        {
+          "codigo": "3.3.1",
+          "descricao": "Verga e ContraVerga",
+          "unidade": "m",
+          "quantidade": 1400.14
+        }
+      ]
+    },
+    {
+      "nome": "Encunhamento",
+      "descricao": "Encunhamento entre laje e alvenaria",
+      "items": [
+        {
+          "codigo": "3.2.1",
+          "descricao": "ENCUNHAMENTO",
+          "unidade": "m",
+          "quantidade": 10880.22
+        }
+      ]
+    }
+  ]
+}

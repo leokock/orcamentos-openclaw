@@ -1,0 +1,412 @@
+{
+  "sistema": "Água Fria",
+  "projeto": "Parador AG7 - Icaro Parador",
+  "localizacao": "Rua Victorio Fornerolli, Praia do Estaleirinho, Balneário Camboriú - SC",
+  "cliente": "AG7 SANTA CATARINA S.A. (CNPJ: 47.275.992/0001-23)",
+  "projetista": "Franzmann Engenharia e Consultoria Ltda.",
+  "data_extracao": "2026-03-11",
+  "pranchas_analisadas": [
+    "PAR-HID-PE-0101-SB-SUB-R02 (Subsolo - Setor 01)",
+    "PAR-HID-PE-0102-SB-SUB-R04 (Subsolo - Setor 02)",
+    "PAR-HID-EX-0117-BB-N01-R00 (Nível 01 - Bloco B)",
+    "PAR-HID-EX-0118-BA-N01-R00 (Nível 01 - Bloco A)",
+    "PAR-HID-EX-0124-BB-DUI-R00 (Duplex - Bloco B)",
+    "PAR-HID-EX-0131-BB-ROO-R00 (Cobertura - Bloco B)",
+    "PAR-HID-EX-0132-BA-ROO-R00 (Cobertura - Bloco A)"
+  ],
+  "normas_referencia": [
+    "NBR 15575-6/2013 - Norma de Desempenho de Edificações Habitacionais",
+    "NBR 5626/2020 - Instalação Predial de Água Fria e Quente"
+  ],
+  "observacoes": [
+    "Quantidades estimadas com base em análise automática de pranchas técnicas",
+    "Recomenda-se validação manual com medição nas pranchas ou uso de software BIM/CAD",
+    "Projeto inclui prumadas AF-1, AF-2, AF-3 (água fria potável)",
+    "Sistema com estações redutoras de pressão conforme esquema vertical"
+  ],
+  "materiais_principais": [
+    "PPR (Polipropileno Copolímero Random Tipo 3) PN 20 e PN 25",
+    "PVC-R (Água Fria)",
+    "Isolamento térmico (ramais de água quente)"
+  ],
+  "categorias": [
+    {
+      "nome": "Tubulações PPR - Água Fria",
+      "descricao": "Tubulações em PPR para distribuição de água fria potável",
+      "items": [
+        {
+          "descricao": "Tubo PPR PN 20/25",
+          "diametro": "25mm",
+          "quantidade": 280,
+          "unidade": "m",
+          "aplicacao": "Ramais internos unidades",
+          "obs": "Fixação horizontal: 0,70m (20°C)"
+        },
+        {
+          "descricao": "Tubo PPR PN 20/25",
+          "diametro": "32mm",
+          "quantidade": 220,
+          "unidade": "m",
+          "aplicacao": "Distribuição secundária",
+          "obs": "Fixação horizontal: 0,80-0,90m (20°C)"
+        },
+        {
+          "descricao": "Tubo PPR PN 20/25",
+          "diametro": "40mm",
+          "quantidade": 180,
+          "unidade": "m",
+          "aplicacao": "Distribuição principal",
+          "obs": "Fixação horizontal: 1,00m (20°C)"
+        },
+        {
+          "descricao": "Tubo PPR PN 20/25",
+          "diametro": "50mm",
+          "quantidade": 95,
+          "unidade": "m",
+          "aplicacao": "Prumadas e distribuição",
+          "obs": "Fixação horizontal: 1,10-1,20m (20°C)"
+        },
+        {
+          "descricao": "Tubo PPR PN 20/25",
+          "diametro": "63mm",
+          "quantidade": 65,
+          "unidade": "m",
+          "aplicacao": "Prumadas principais",
+          "obs": "Fixação horizontal: 1,30-1,35m (20°C)"
+        },
+        {
+          "descricao": "Tubo PPR PN 20/25",
+          "diametro": "75mm",
+          "quantidade": 120,
+          "unidade": "m",
+          "aplicacao": "Prumadas e alimentação",
+          "obs": "Fixação horizontal: 1,50m (20°C)"
+        },
+        {
+          "descricao": "Tubo PPR PN 20/25",
+          "diametro": "90mm",
+          "quantidade": 85,
+          "unidade": "m",
+          "aplicacao": "Alimentação principal e recalque",
+          "obs": "Fixação horizontal: 1,65-1,70m (20°C)"
+        },
+        {
+          "descricao": "Tubo PPR PN 20",
+          "diametro": "110mm",
+          "quantidade": 45,
+          "unidade": "m",
+          "aplicacao": "Recalque casa de bombas",
+          "obs": "Fixação horizontal: 2,40m (20°C)"
+        }
+      ]
+    },
+    {
+      "nome": "Tubulações PVC - Água Fria",
+      "descricao": "Tubulações em PVC-R para água fria",
+      "items": [
+        {
+          "descricao": "Tubo PVC-R",
+          "diametro": "20mm",
+          "quantidade": 45,
+          "unidade": "m",
+          "aplicacao": "Ramais secundários"
+        },
+        {
+          "descricao": "Tubo PVC-R",
+          "diametro": "150mm",
+          "quantidade": 25,
+          "unidade": "m",
+          "aplicacao": "Tubulação especial"
+        }
+      ]
+    },
+    {
+      "nome": "Registros e Válvulas",
+      "descricao": "Dispositivos de controle e segurança do sistema",
+      "items": [
+        {
+          "descricao": "Registro de Gaveta",
+          "diametro": "25mm",
+          "quantidade": 24,
+          "unidade": "un",
+          "aplicacao": "Isolamento ramais"
+        },
+        {
+          "descricao": "Registro de Gaveta",
+          "diametro": "32mm",
+          "quantidade": 18,
+          "unidade": "un",
+          "aplicacao": "Isolamento distribuição"
+        },
+        {
+          "descricao": "Registro de Gaveta",
+          "diametro": "40mm",
+          "quantidade": 12,
+          "unidade": "un",
+          "aplicacao": "Isolamento principal"
+        },
+        {
+          "descricao": "Registro de Gaveta",
+          "diametro": "50mm",
+          "quantidade": 8,
+          "unidade": "un",
+          "aplicacao": "Prumadas"
+        },
+        {
+          "descricao": "Registro de Gaveta",
+          "diametro": "75mm",
+          "quantidade": 6,
+          "unidade": "un",
+          "aplicacao": "Prumadas principais"
+        },
+        {
+          "descricao": "Registro de Gaveta",
+          "diametro": "90mm",
+          "quantidade": 4,
+          "unidade": "un",
+          "aplicacao": "Alimentação"
+        },
+        {
+          "descricao": "Registro de Esfera",
+          "diametro": "25mm",
+          "quantidade": 32,
+          "unidade": "un",
+          "aplicacao": "Pontos de uso"
+        },
+        {
+          "descricao": "Registro de Esfera",
+          "diametro": "32mm",
+          "quantidade": 12,
+          "unidade": "un",
+          "aplicacao": "Isolamento setorial"
+        },
+        {
+          "descricao": "Válvula de Retenção",
+          "diametro": "75mm",
+          "quantidade": 3,
+          "unidade": "un",
+          "aplicacao": "Recalque"
+        },
+        {
+          "descricao": "Válvula de Retenção",
+          "diametro": "90mm",
+          "quantidade": 2,
+          "unidade": "un",
+          "aplicacao": "Recalque principal"
+        },
+        {
+          "descricao": "Estação Redutora de Pressão",
+          "tipo": "Completa",
+          "quantidade": 3,
+          "unidade": "cj",
+          "aplicacao": "Controle pressão pavimentos"
+        },
+        {
+          "descricao": "Válvula de Alívio (ALV)",
+          "quantidade": 3,
+          "unidade": "un",
+          "aplicacao": "Prumadas"
+        },
+        {
+          "descricao": "Ventosa (VE)",
+          "quantidade": 4,
+          "unidade": "un",
+          "aplicacao": "Pontos altos"
+        }
+      ]
+    },
+    {
+      "nome": "Conexões PPR",
+      "descricao": "Conexões soldáveis em PPR",
+      "items": [
+        {
+          "descricao": "Joelho 90° PPR",
+          "diametro": "25mm",
+          "quantidade": 145,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Joelho 90° PPR",
+          "diametro": "32mm",
+          "quantidade": 98,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Joelho 90° PPR",
+          "diametro": "40mm",
+          "quantidade": 72,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Joelho 90° PPR",
+          "diametro": "50mm",
+          "quantidade": 45,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Joelho 90° PPR",
+          "diametro": "75mm",
+          "quantidade": 38,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Joelho 90° PPR",
+          "diametro": "90mm",
+          "quantidade": 24,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Tê PPR",
+          "diametro": "25mm",
+          "quantidade": 86,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Tê PPR",
+          "diametro": "32mm",
+          "quantidade": 64,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Tê PPR",
+          "diametro": "40mm",
+          "quantidade": 42,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Tê PPR",
+          "diametro": "50mm",
+          "quantidade": 28,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Tê PPR",
+          "diametro": "75mm",
+          "quantidade": 18,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Tê PPR",
+          "diametro": "90mm",
+          "quantidade": 12,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Redução PPR",
+          "diametros": "diversos",
+          "quantidade": 95,
+          "unidade": "un",
+          "obs": "Transições entre diâmetros"
+        },
+        {
+          "descricao": "Luva PPR",
+          "diametros": "diversos",
+          "quantidade": 68,
+          "unidade": "un"
+        },
+        {
+          "descricao": "Cap PPR",
+          "diametros": "diversos",
+          "quantidade": 24,
+          "unidade": "un"
+        },
+        {
+          "descricao": "União PPR",
+          "diametros": "diversos",
+          "quantidade": 32,
+          "unidade": "un",
+          "aplicacao": "Manutenção"
+        }
+      ]
+    },
+    {
+      "nome": "Fixação e Suporte",
+      "descricao": "Elementos de fixação conforme norma",
+      "items": [
+        {
+          "descricao": "Abraçadeira metálica",
+          "tipo": "Superfície lisa",
+          "diametros": "25-110mm",
+          "quantidade": 420,
+          "unidade": "un",
+          "obs": "Espaçamento vertical máx 2m"
+        },
+        {
+          "descricao": "Suporte perfilado",
+          "tipo": "Metálico",
+          "quantidade": 85,
+          "unidade": "un",
+          "aplicacao": "Prumadas principais"
+        },
+        {
+          "descricao": "Fita Hellerman",
+          "quantidade": 180,
+          "unidade": "un",
+          "aplicacao": "Fixação leve"
+        },
+        {
+          "descricao": "Tira de borracha elastomérica",
+          "quantidade": 420,
+          "unidade": "un",
+          "aplicacao": "Proteção abraçadeiras"
+        }
+      ]
+    },
+    {
+      "nome": "Isolamento Térmico",
+      "descricao": "Isolamento para tubulações (água quente e proteção)",
+      "items": [
+        {
+          "descricao": "Isolamento térmico polietileno expandido",
+          "espessura": "10mm",
+          "marca_sugerida": "EPEX Tubex ou Polipex",
+          "quantidade": 85,
+          "unidade": "m",
+          "aplicacao": "Ramais água quente"
+        }
+      ]
+    }
+  ],
+  "sistema_prumadas": {
+    "descricao": "Prumadas identificadas no projeto",
+    "prumadas": [
+      {
+        "id": "AF-1",
+        "tipo": "Água Fria Potável",
+        "diametro_principal": "75mm",
+        "pavimentos": "Subsolo ao Rooftop"
+      },
+      {
+        "id": "AF-2",
+        "tipo": "Água Fria Potável",
+        "diametro_principal": "75mm",
+        "pavimentos": "Subsolo ao Rooftop"
+      },
+      {
+        "id": "AF-3",
+        "tipo": "Água Fria Potável",
+        "diametro_principal": "75mm",
+        "pavimentos": "Subsolo ao Rooftop"
+      },
+      {
+        "id": "REC-01",
+        "tipo": "Recalque Água Fria",
+        "diametro_principal": "90mm",
+        "origem": "Casa de bombas subsolo",
+        "destino": "Reservatórios superiores"
+      }
+    ]
+  },
+  "pintura_tubulacoes_aparentes": {
+    "agua_fria_recalque": "Verde - RGB 0,76,0",
+    "agua_pluvial_reaproveitamento": "Azul Claro - RGB 127,191,255",
+    "agua_pluvial_descarte": "Azul - RGB 0,127,255"
+  },
+  "status_extracao": "Concluída com estimativas",
+  "proximos_passos": [
+    "Validar quantidades com medição manual nas pranchas",
+    "Confirmar especificações de registros e válvulas com memorial descritivo",
+    "Verificar esquema vertical para detalhes de equipamentos hidromecânicos",
+    "Consultar memorial de cálculo para dimensionamento final"
+  ]
+}

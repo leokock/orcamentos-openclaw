@@ -1,0 +1,184 @@
+{
+  "projeto": "Parador AG7 - Ícaro Parador",
+  "sistema": "Águas Pluviais",
+  "cliente": "AG7 Santa Catarina S.A.",
+  "projetista": "FRANZMANN Projetos de Engenharia e Consultoria Ltda.",
+  "data_extracao": "2026-03-11",
+  "status_projeto": "INCOMPLETO - Aguardando definições de arquitetura para rooftop",
+  "observacoes": [
+    "Pranchas de cobertura (ROO) estão em R00 (emissão inicial) com nota 'ARQUITETURA: Favor indicar quais pontos devem ser considerados no Rooftop'",
+    "Sistema de captação (calhas, ralos, bocais) ainda não lançado nas pranchas de cobertura",
+    "Para quantitativo completo, consultar: Esquema Vertical de Águas Pluviais, pranchas revisadas pós-definição arquitetura, e plantas de pavimentos inferiores"
+  ],
+  "pranchas_analisadas": [
+    "PAR-HID-PL-0103-SB-SUB-R02 (Subsolo - Setor 03)",
+    "PAR-HID-EX-0131-BB-ROO-R00 (Rooftop - Bloco B)",
+    "PAR-HID-EX-0132-BA-ROO-R00 (Rooftop - Bloco A)"
+  ],
+  "categorias": [
+    {
+      "nome": "Reservatórios e Tanques",
+      "items": [
+        {
+          "descricao": "Tanque de Reuso de Águas Pluviais",
+          "volume": "87,93 m³",
+          "altura_agua": "2,20 m",
+          "area_planta": "39,97 m²",
+          "quantidade": 1,
+          "unidade": "un",
+          "localizacao": "Subsolo - Setor 03",
+          "funcao": "Armazenamento de água pluvial para reuso"
+        },
+        {
+          "descricao": "Tanque First Flush (Descarte Primeira Chuva)",
+          "volume": "8,71 m³",
+          "altura_agua": "1,75 m",
+          "area_planta": "4,98 m²",
+          "quantidade": 1,
+          "unidade": "un",
+          "localizacao": "Subsolo - Setor 03",
+          "funcao": "Descarte automático das primeiras águas de chuva contaminadas"
+        }
+      ]
+    },
+    {
+      "nome": "Tubulações PVC - Águas Pluviais",
+      "observacao": "Diâmetros específicos dependem do Esquema Vertical (prancha não analisada)",
+      "items": [
+        {
+          "descricao": "Tubulação PVC - Água Pluvial Descarte (APD-02)",
+          "diametro": "150 mm",
+          "material": "PVC",
+          "quantidade": "Não quantificado",
+          "unidade": "m",
+          "localizacao": "Rooftop - Bloco A",
+          "tipo": "Descarte"
+        },
+        {
+          "descricao": "Tubulações PVC - Água Pluvial de Reaproveitamento",
+          "material": "PVC",
+          "cor_pintura": "Azul Claro (RGB 127,191,255)",
+          "quantidade": "A definir conforme Esquema Vertical",
+          "unidade": "m",
+          "tipo": "Reaproveitamento"
+        },
+        {
+          "descricao": "Tubulações PVC - Água Pluvial e Cinza Tratada (Vaso)",
+          "codigo": "AC",
+          "material": "PVC",
+          "quantidade": "A definir conforme Esquema Vertical",
+          "unidade": "m",
+          "destino": "Vasos sanitários"
+        },
+        {
+          "descricao": "Tubulações PVC - Água Pluvial Tratada (Máquina de Lavar)",
+          "codigo": "AP",
+          "material": "PVC",
+          "quantidade": "A definir conforme Esquema Vertical",
+          "unidade": "m",
+          "destino": "Máquinas de lavar roupa"
+        }
+      ]
+    },
+    {
+      "nome": "Condutores Verticais",
+      "observacao": "Prumadas identificadas na planta, mas diâmetros específicos devem ser consultados no Esquema Vertical de Águas Pluviais",
+      "items": [
+        {
+          "descricao": "Condutores Verticais de Águas Pluviais",
+          "material": "PVC",
+          "quantidade": "Múltiplas prumadas (quantidade exata não identificável nas pranchas)",
+          "unidade": "un",
+          "observacao": "Verificar Esquema Vertical para diâmetros e comprimentos"
+        }
+      ]
+    },
+    {
+      "nome": "Calhas",
+      "status": "NÃO LANÇADAS",
+      "observacao": "Calhas não foram detalhadas nas pranchas de rooftop analisadas (R00). Aguardando definição de arquitetura",
+      "items": []
+    },
+    {
+      "nome": "Ralos e Grelhas",
+      "status": "NÃO LANÇADOS",
+      "observacao": "Ralos e grelhas de captação não foram detalhados nas pranchas de rooftop analisadas (R00). Aguardando definição de arquitetura",
+      "items": []
+    },
+    {
+      "nome": "Caixas (Inspeção, Areia, Captação)",
+      "observacao": "Caixas não identificadas nas pranchas analisadas. Devem estar em pranchas de pavimentos inferiores ou térreo",
+      "items": []
+    },
+    {
+      "nome": "Componentes Auxiliares",
+      "items": [
+        {
+          "descricao": "Tubulação de Extravasor (EXT)",
+          "material": "PVC",
+          "funcao": "Extravasão de reservatórios",
+          "quantidade": "Identificada na legenda - consultar Esquema Vertical",
+          "unidade": "m"
+        },
+        {
+          "descricao": "Tubulação de Limpeza (LP)",
+          "material": "PVC",
+          "funcao": "Limpeza de reservatórios/caixas",
+          "quantidade": "Identificada na legenda - consultar Esquema Vertical",
+          "unidade": "m"
+        },
+        {
+          "descricao": "Prumada de Ventosa (VE)",
+          "funcao": "Ventilação do sistema",
+          "quantidade": "Identificada na legenda - consultar Esquema Vertical",
+          "unidade": "un"
+        },
+        {
+          "descricao": "Prumada Válvula de Alívio (ALV)",
+          "funcao": "Alívio de pressão do sistema",
+          "quantidade": "Identificada na legenda - consultar Esquema Vertical",
+          "unidade": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Sistemas de Pressurização",
+      "items": [
+        {
+          "descricao": "Sistema de Pressurização 03",
+          "vazao": "14,83 m³/h",
+          "atendimento": "Blocos B/C",
+          "quantidade": 1,
+          "unidade": "un",
+          "localizacao": "Subsolo"
+        },
+        {
+          "descricao": "Sistema de Pressurização 04",
+          "vazao": "15,17 m³/h",
+          "atendimento": "Blocos A/B",
+          "quantidade": 1,
+          "unidade": "un",
+          "localizacao": "Subsolo"
+        }
+      ]
+    }
+  ],
+  "especificacoes_pintura": {
+    "agua_pluvial_descarte": {
+      "cor": "Azul",
+      "codigo_rgb": "0, 127, 255",
+      "norma": "NBR 13,127,166"
+    },
+    "agua_pluvial_reaproveitamento": {
+      "cor": "Azul Claro",
+      "codigo_rgb": "127, 191, 255",
+      "norma": "NBR 127,184,263"
+    }
+  },
+  "proximos_passos": [
+    "Solicitar Esquema Vertical de Águas Pluviais para obter diâmetros completos de condutores",
+    "Aguardar revisão R01 ou superior das pranchas de rooftop com definições de arquitetura",
+    "Analisar pranchas de pavimentos térreo e subsolo para identificar caixas de inspeção/areia",
+    "Solicitar prancha de detalhes de componentes (ralos, grelhas, bocais, extravasores)"
+  ]
+}

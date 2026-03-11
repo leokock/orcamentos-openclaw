@@ -1,0 +1,496 @@
+{
+  "disciplina": "Acústica",
+  "projeto": "Ícaro Parador AG7",
+  "fonte": "Anteprojeto/Executivo PDFs",
+  "pdfs_processados": [
+    "PAR-ACU-AP-0001-TO-GER-R00.pdf",
+    "PAR-ACU-AP-0002-REL-GE-R00.pdf",
+    "PAR-ACU-EX-1000-BA-SNE-R00.pdf",
+    "PAR-ACU-EX-1000-BA-SNE-R01_1.pdf",
+    "PAR-ACU-EX-1001-BE-SNE-R00.pdf",
+    "PAR-ACU-EX-1001-BE-SNE-R01.pdf",
+    "PAR-ACU-EX-1001-BE-SNE-R01_1.pdf"
+  ],
+  "versoes": {
+    "R00": "Anteprojeto (documentos 1 e 2)",
+    "R01": "Executivo Blocos A, B, E (documentos 3-7)"
+  },
+  "blocos_edificio": ["A", "B", "C", "D", "E", "F", "G"],
+  
+  "materiais": [
+    {
+      "tipo": "Manta acústica - grânulos de pneus reciclados aglomerados com poliuretano",
+      "fabricante": "Aubicon Sound Soft Contrapiso",
+      "espessura_mm": 5,
+      "densidade": "Baixa densidade",
+      "delta_lw_db": 29,
+      "aplicacao": "Contrapiso flutuante em pavimentos tipo e salão de festas",
+      "categoria": "Isolamento de ruído de impacto"
+    },
+    {
+      "tipo": "Manta acústica - espuma de polietileno",
+      "fabricante": "Armacell ArmaComfort Laje",
+      "espessura_mm": 5,
+      "densidade": "Baixa densidade",
+      "delta_lw_db": 29,
+      "aplicacao": "Contrapiso flutuante em pavimentos tipo e salão de festas",
+      "categoria": "Isolamento de ruído de impacto"
+    },
+    {
+      "tipo": "Manta acústica ondulada - grânulos reciclados",
+      "fabricante": "Aubicon Sound Soft Ondulada",
+      "espessura_mm": "10/5",
+      "aplicacao": "Contrapiso flutuante em academia",
+      "categoria": "Isolamento de ruído de impacto"
+    },
+    {
+      "tipo": "Piso emborrachado",
+      "fabricante": "Aubicon Impact Soft Peso Livre",
+      "espessura_mm": 15,
+      "aplicacao": "Academia (sobre contrapiso flutuante)",
+      "categoria": "Amortecimento de impacto"
+    },
+    {
+      "tipo": "Lã de rocha",
+      "espessura_mm": 50,
+      "densidade_kg_m3": 32,
+      "revestimento": "Véu de vidro + chapa metálica expandida + perfis metálicos tipo cartola",
+      "aplicacao": "Revestimento interno de sala de gerador e bombas",
+      "categoria": "Isolamento acústico de áreas técnicas"
+    },
+    {
+      "tipo": "Lã de vidro",
+      "espessura_mm": 50,
+      "densidade_kg_m3": 32,
+      "revestimento": "Véu de vidro + chapa metálica expandida + perfis metálicos tipo cartola",
+      "aplicacao": "Revestimento interno de sala de gerador e bombas (alternativa à lã de rocha)",
+      "categoria": "Isolamento acústico de áreas técnicas"
+    },
+    {
+      "tipo": "Manta resiliente para tubulações",
+      "fabricante": "Aubicon Tubulação",
+      "espessura_mm": 3.5,
+      "aplicacao": "Tubulações hidrossanitárias passantes por unidades",
+      "categoria": "Isolamento de tubulações"
+    },
+    {
+      "tipo": "Isotubos em lã de rocha",
+      "espessura_mm": 40,
+      "aplicacao": "Tubulações hidrossanitárias passantes por unidades",
+      "categoria": "Isolamento de tubulações"
+    },
+    {
+      "tipo": "Atenuador de ruído retangular",
+      "descricao": "Lamelas em lã de rocha e estrutura metálica em aço galvanizado",
+      "dimensao": "1,0 m de comprimento (tomada e exaustão – 1,0 × 1,20 m a confirmar)",
+      "aplicacao": "Aberturas de tomada e exaustão de ar em salas de gerador e bombas",
+      "categoria": "Atenuação de ruído de equipamentos"
+    },
+    {
+      "tipo": "Kit atenuador para gerador aberto a diesel",
+      "fabricante": "Trox linha MS",
+      "desempenho_alvo": "70 dB @ 1m",
+      "aplicacao": "Gerador",
+      "categoria": "Atenuação de ruído de equipamentos"
+    },
+    {
+      "tipo": "Silenciador de escape",
+      "aplicacao": "Escape do gerador",
+      "categoria": "Atenuação de ruído de equipamentos"
+    }
+  ],
+  
+  "sistemas_construtivos": [
+    {
+      "descricao": "Parede externa - bloco cerâmico",
+      "versao": "R00",
+      "componentes": "Bloco cerâmico de 19 cm (8 kg/bloco – 4,5 MPa) + emboço de 2,5 cm de cada lado + pintura",
+      "aplicacao": "Fachadas gerais",
+      "blocos": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "descricao": "Parede externa - concreto aparente",
+      "versao": "R00",
+      "componentes": "Paredes laterais dos blocos em concreto aparente com espessura de 20 cm + reboco interno de 2,5 cm",
+      "aplicacao": "Fachadas em concreto aparente",
+      "blocos": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "descricao": "Parede externa - Bloco A",
+      "versao": "R01",
+      "componentes": "Bloco cerâmico de 19 cm (8 kg/bloco – 4,5 MPa) + emboço de 3 cm na face interna e 6 cm na face externa",
+      "aplicacao": "Fachadas Bloco A",
+      "blocos": ["A"]
+    },
+    {
+      "descricao": "Parede externa - Blocos B/E",
+      "versao": "R01",
+      "componentes": "Bloco cerâmico de 19 cm (8 kg/bloco – 4,5 MPa) + emboço de 3 cm na face interna e 6 cm na face externa",
+      "aplicacao": "Fachadas Blocos B e E",
+      "blocos": ["B", "E"]
+    },
+    {
+      "descricao": "Parede dupla entre unidades (áreas secas) – sem dormitório",
+      "versao": "R00",
+      "componentes": "Bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + distância de 3 cm + bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + emboço de 2,5 cm de cada lado + pintura",
+      "desempenho_dntw_db": 61,
+      "nivel_desempenho": "SUPERIOR",
+      "aplicacao": "Paredes entre unidades onde não haja dormitório",
+      "blocos": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "descricao": "Parede dupla entre unidades (sanitários) – sem dormitório",
+      "versao": "R00",
+      "componentes": "Bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + distância de 3 cm + bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + emboço de 2,5 cm + revestimento em pedra (3 cm)",
+      "desempenho_dntw_db": 64,
+      "nivel_desempenho": "SUPERIOR",
+      "aplicacao": "Sanitários entre unidades",
+      "blocos": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "descricao": "Parede dupla entre unidades – com dormitório",
+      "versao": "R00",
+      "componentes": "Bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + distância de 3 cm + bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + emboço de 2,5 cm de cada lado + pintura",
+      "desempenho_dntw_db": 61,
+      "nivel_desempenho": "SUPERIOR",
+      "aplicacao": "Paredes entre unidades onde há dormitório",
+      "blocos": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "descricao": "Parede dupla entre unidades – sanitários serviço (sem dormitório)",
+      "versao": "R01",
+      "componentes": "Bloco cerâmico de 14 cm (5,3 kg/bloco – 4,5 MPa) + distância de 3 cm + bloco cerâmico de 14 cm (5,3 kg/bloco – 4,5 MPa) + emboço de 4 cm com revestimento cerâmico",
+      "aplicacao": "Sanitários de serviço entre unidades – Bloco A",
+      "blocos": ["A"]
+    },
+    {
+      "descricao": "Parede dupla entre unidades – com dormitório",
+      "versao": "R01",
+      "componentes": "Bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + distância de 3 cm + bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + emboço de 3 cm de cada lado + pintura",
+      "aplicacao": "Paredes entre unidades onde há dormitório – Bloco A",
+      "blocos": ["A"]
+    },
+    {
+      "descricao": "Parede dupla entre unidades – sanitários (sem dormitório)",
+      "versao": "R01",
+      "componentes": "Bloco cerâmico de 9 cm + distância de 3 cm + bloco cerâmico de 9 cm + emboço de 4 cm com revestimento cerâmico; Sanitários Serv.: Bloco cerâmico de 14 cm + distância de 3 cm + bloco cerâmico de 14 cm + emboço de 4 cm com revestimento cerâmico",
+      "aplicacao": "Sanitários entre unidades – Blocos B e E",
+      "blocos": ["B", "E"]
+    },
+    {
+      "descricao": "Parede dupla entre unidades – com dormitório",
+      "versao": "R01",
+      "componentes": "Bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + distância de 3 cm + bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + emboço de 3 cm de cada lado + pintura",
+      "aplicacao": "Paredes entre unidades onde há dormitório – Blocos B e E",
+      "blocos": ["B", "E"]
+    },
+    {
+      "descricao": "Parede entre unidade e áreas comuns de trânsito eventual (sem dormitório)",
+      "versao": "R00",
+      "componentes": "Bloco cerâmico de 19 cm (8 kg/bloco – 4,5 MPa) + emboço de 2,5 cm de cada lado + pintura",
+      "desempenho_dntw_db": 41,
+      "nivel_desempenho": "SUPERIOR",
+      "requisito_minimo_db": 30,
+      "aplicacao": "Escadarias – todos os blocos",
+      "blocos": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "descricao": "Parede entre unidade e áreas comuns de trânsito eventual (sem dormitório) – Bloco A",
+      "versao": "R00",
+      "componentes": "Bloco cerâmico de 19 cm (8 kg/bloco – 4,5 MPa) + emboço de 2,5 cm + marcenaria na outra face (5 cm)",
+      "desempenho_dntw_db": 43,
+      "nivel_desempenho": "SUPERIOR",
+      "requisito_minimo_db": 30,
+      "aplicacao": "Bloco A – acesso ao terraço",
+      "blocos": ["A"]
+    },
+    {
+      "descricao": "Parede entre dormitório/sala e áreas comuns de permanência",
+      "versao": "R00",
+      "componentes": "Bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + distância de 3 cm + bloco cerâmico de 9 cm (5,3 kg/bloco – 4,5 MPa) + emboço de 2,5 cm de cada lado + pintura",
+      "desempenho_dntw_db": 61,
+      "nivel_desempenho": "SUPERIOR",
+      "requisito_minimo_db": 45,
+      "aplicacao": "Bloco E (sala multiuso / quarto de serviço) e Bloco G (salão de festas)",
+      "blocos": ["E", "G"]
+    },
+    {
+      "descricao": "Parede entre unidade e áreas comuns de trânsito eventual (sem dormitório)",
+      "versao": "R01",
+      "componentes": "Escadaria: Bloco cerâmico de 19 cm + emboço de 3 cm na sala e 7 cm na escadaria; Áreas molhadas: Bloco cerâmico de 19 cm + emboço de 4 cm + revestimento cerâmico; Shafts: vedação em bloco cerâmico de 14 cm (DnT,w = 41 / Superior) com emboço de 3 cm nas salas e 7 cm na escadaria",
+      "aplicacao": "Bloco A",
+      "blocos": ["A"]
+    },
+    {
+      "descricao": "Parede entre unidade e áreas comuns de trânsito eventual (sem dormitório)",
+      "versao": "R01",
+      "componentes": "Escadaria: Bloco cerâmico de 19 cm + emboço de 3 cm na sala e 7 cm na escadaria; Áreas molhadas: Bloco cerâmico de 19 cm + emboço de 4 cm + revestimento cerâmico; Shafts: vedação em bloco cerâmico de 6 cm (DnT,w = 41 / Superior) com emboço de 3 cm nas salas e 7 cm na escadaria",
+      "aplicacao": "Blocos B e E",
+      "blocos": ["B", "E"]
+    },
+    {
+      "descricao": "Parede entre dormitório/sala e áreas comuns de permanência",
+      "versao": "R01",
+      "componentes": "Bloco cerâmico de 19 cm (8 kg/bloco – 4,5 MPa) + emboço de 3 cm de cada lado + pintura",
+      "aplicacao": "Unidade × Salão de festas – Bloco A",
+      "blocos": ["A"]
+    },
+    {
+      "descricao": "Empena em concreto - envoltória da piscina",
+      "componentes": "Concreto com 19 cm de espessura",
+      "desempenho_dntw_db": 59,
+      "aplicacao": "Isolamento de envoltória da área da piscina"
+    },
+    {
+      "descricao": "Paredes perimetrais - áreas técnicas",
+      "componentes": "Bloco de concreto de 19 cm (10,8 kg/bloco) + argamassa em ambas as faces com 2 cm de espessura",
+      "aplicacao": "Sala de gerador e bombas"
+    },
+    {
+      "descricao": "Revestimento interno - áreas técnicas",
+      "componentes": "Lã de rocha ou lã de vidro (50 mm, 32 kg/m³) + véu de vidro + chapa metálica expandida + perfis metálicos tipo cartola",
+      "aplicacao": "Sala de gerador e bombas"
+    }
+  ],
+  
+  "vedacoes_acusticas": {
+    "portas": [
+      {
+        "codigo": "PM01",
+        "versao": "R00",
+        "descricao": "Porta com folha em madeira maciça",
+        "espessura_mm": 30,
+        "especificacao": "Batente em madeira maciça, vedação no batente com gaxetas, fresta inferior ≤ 3 mm",
+        "desempenho_rw_db": "> 23",
+        "aplicacao": "Acesso terraço – todos os blocos",
+        "blocos": ["A", "B", "C", "D", "E", "F", "G"]
+      },
+      {
+        "codigo": "PO04",
+        "versao": "R01",
+        "descricao": "Porta de madeira em painel de giro",
+        "espessura_folha_mm": 6,
+        "especificacao": "Folha sólida, batentes e perfil de alumínio (Ref. Pormade Laqueada Sólida)",
+        "aplicacao": "Acesso terraço – Blocos A, B, E",
+        "blocos": ["A", "B", "E"]
+      }
+    ],
+    "janelas": [],
+    "outros_elementos": [
+      {
+        "descricao": "Conjunto paredes e portas (sem dormitório)",
+        "versao": "R00",
+        "componentes": "Bloco cerâmico de 19 cm + marcenaria nas duas faces (5 cm) + PM01",
+        "desempenho_dntw_db": 43,
+        "nivel_desempenho": "ATENDE AO REQUISITO",
+        "requisito_minimo_db": 40,
+        "aplicacao": "Acesso terraço",
+        "blocos": ["A", "B", "C", "D", "E", "F", "G"]
+      },
+      {
+        "descricao": "Conjunto paredes e portas (sem dormitório)",
+        "versao": "R01",
+        "componentes_bloco_a": "Bloco cerâmico de 19 cm + emboço de 4 cm na face externa e 6 cm na face interna + PO04",
+        "componentes_blocos_be": "Bloco cerâmico de 19 cm + emboço de 7 cm na face externa e 6 cm na face interna + PO04",
+        "aplicacao": "Acesso terraço",
+        "blocos": ["A", "B", "E"]
+      }
+    ]
+  },
+  
+  "tratamento_ruido": {
+    "ruido_impacto": [
+      {
+        "solucao": "Contrapiso flutuante com manta acústica",
+        "material": "Aubicon Sound Soft Contrapiso (5 mm) ou Armacell ArmaComfort Laje (5 mm)",
+        "reducao_delta_lw_db": 29,
+        "aplicacao": "Pavimentos tipo e salão de festas",
+        "categoria": "Piso flutuante sobre laje"
+      },
+      {
+        "solucao": "Contrapiso flutuante com manta ondulada",
+        "material": "Aubicon Sound Soft Ondulada (10/5 mm)",
+        "aplicacao": "Academia",
+        "categoria": "Piso flutuante sobre laje"
+      },
+      {
+        "solucao": "Piso emborrachado sobre contrapiso flutuante",
+        "material": "Aubicon Impact Soft Peso Livre (15 mm)",
+        "aplicacao": "Academia - área de peso livre",
+        "categoria": "Revestimento amortecedor"
+      },
+      {
+        "solucao": "Envelopamento de tubulações",
+        "material": "Manta resiliente Aubicon Tubulação (3,5 mm) + Isotubos em lã de rocha (40 mm)",
+        "aplicacao": "Tubulações hidrossanitárias passantes por unidades",
+        "categoria": "Isolamento de tubulações"
+      }
+    ],
+    "ruido_aereo": [
+      {
+        "solucao": "Paredes duplas entre unidades",
+        "descricao": "Bloco cerâmico de 9 cm + distância de 3 cm + bloco cerâmico de 9 cm + emboço",
+        "desempenho_dntw_db": 61,
+        "aplicacao": "Separação entre unidades habitacionais",
+        "categoria": "Vedação vertical"
+      },
+      {
+        "solucao": "Paredes duplas sanitários entre unidades",
+        "descricao": "Bloco cerâmico de 9 cm ou 14 cm + distância de 3 cm + bloco cerâmico + emboço + revestimento",
+        "desempenho_dntw_db": 64,
+        "aplicacao": "Sanitários entre unidades",
+        "categoria": "Vedação vertical áreas molhadas"
+      },
+      {
+        "solucao": "Revestimento acústico interno - áreas técnicas",
+        "descricao": "Lã de rocha/vidro (50 mm, 32 kg/m³) + véu de vidro + chapa metálica expandida",
+        "aplicacao": "Sala de gerador e bombas",
+        "categoria": "Revestimento absorvente"
+      },
+      {
+        "solucao": "Atenuadores de ruído",
+        "descricao": "Atenuador retangular com lamelas em lã de rocha (1,0 m comprimento)",
+        "aplicacao": "Aberturas de tomada e exaustão de ar - áreas técnicas",
+        "categoria": "Atenuação em dutos"
+      },
+      {
+        "solucao": "Kit atenuador para gerador",
+        "descricao": "Kit atenuador para gerador aberto a diesel (Trox linha MS)",
+        "desempenho_alvo": "70 dB @ 1m",
+        "aplicacao": "Gerador",
+        "categoria": "Atenuação de equipamento"
+      },
+      {
+        "solucao": "Silenciador de escape",
+        "aplicacao": "Escape do gerador",
+        "categoria": "Atenuação de equipamento"
+      }
+    ]
+  },
+  
+  "normas": [
+    "NBR 15575 - Edificações habitacionais — Desempenho",
+    "NBR 10152 - Acústica - Níveis de pressão sonora em ambientes internos",
+    "NBR 10151 - Acústica - Medição e avaliação de níveis de pressão sonora em áreas habitadas"
+  ],
+  
+  "especificacoes": {
+    "criterios_desempenho": {
+      "paredes_entre_unidades_com_dormitorio": {
+        "parametro": "DnT,w",
+        "minimo_db": 45,
+        "intermediario_db": "45-49",
+        "superior_db": "≥ 50",
+        "atingido_db": 61,
+        "nivel": "SUPERIOR"
+      },
+      "paredes_entre_unidades_sem_dormitorio": {
+        "parametro": "DnT,w",
+        "minimo_db": 40,
+        "intermediario_db": "40-44",
+        "superior_db": "≥ 45",
+        "atingido_db": 61,
+        "nivel": "SUPERIOR"
+      },
+      "paredes_unidade_areas_comuns_transito": {
+        "parametro": "DnT,w",
+        "minimo_db": 30,
+        "intermediario_db": "30-34",
+        "superior_db": "≥ 35",
+        "atingido_db": 41,
+        "nivel": "SUPERIOR"
+      },
+      "paredes_unidade_areas_comuns_permanencia": {
+        "parametro": "DnT,w",
+        "minimo_db": 45,
+        "intermediario_db": "45-49",
+        "superior_db": "≥ 50",
+        "atingido_db": 61,
+        "nivel": "SUPERIOR"
+      },
+      "conjunto_paredes_portas": {
+        "parametro": "DnT,w",
+        "minimo_db": 40,
+        "atingido_db": 43,
+        "nivel": "ATENDE AO REQUISITO"
+      },
+      "ruido_impacto_pisos": {
+        "parametro": "L'nT,w",
+        "maximo_db": 80,
+        "intermediario_db": "66-80",
+        "superior_db": "≤ 65",
+        "reducao_delta_lw_db": 29,
+        "observacao": "Uso de contrapiso flutuante com manta acústica"
+      }
+    },
+    "materiais_referenciados": {
+      "mantas_acusticas": [
+        "Aubicon Sound Soft Contrapiso",
+        "Aubicon Sound Soft Ondulada",
+        "Aubicon Tubulação",
+        "Armacell ArmaComfort Laje"
+      ],
+      "pisos": [
+        "Aubicon Impact Soft Peso Livre"
+      ],
+      "absorventes": [
+        "Lã de rocha (densidade 32 kg/m³)",
+        "Lã de vidro (densidade 32 kg/m³)"
+      ],
+      "atenuadores": [
+        "Trox linha MS (kit atenuador gerador)",
+        "Atenuador retangular com lamelas em lã de rocha"
+      ],
+      "isolamento_tubulacoes": [
+        "Manta resiliente Aubicon Tubulação (3,5 mm)",
+        "Isotubos em lã de rocha (40 mm)"
+      ]
+    },
+    "blocos_ceramicos": {
+      "tipo_9cm": {
+        "espessura_cm": 9,
+        "massa_kg": 5.3,
+        "resistencia_mpa": 4.5,
+        "uso": "Paredes duplas entre unidades"
+      },
+      "tipo_14cm": {
+        "espessura_cm": 14,
+        "massa_kg": 5.3,
+        "resistencia_mpa": 4.5,
+        "uso": "Sanitários de serviço entre unidades, Shafts (Blocos B/E)"
+      },
+      "tipo_19cm": {
+        "espessura_cm": 19,
+        "massa_kg": 8.0,
+        "resistencia_mpa": 4.5,
+        "uso": "Fachadas, Paredes unidade × áreas comuns, Acesso terraço"
+      },
+      "tipo_19cm_concreto": {
+        "espessura_cm": 19,
+        "massa_kg": 10.8,
+        "material": "Concreto",
+        "uso": "Áreas técnicas (gerador/bombas)"
+      }
+    },
+    "observacoes_tecnicas": [
+      "Todos os sistemas atendem ou superam os requisitos mínimos da NBR 15575",
+      "Nível de desempenho predominante: SUPERIOR",
+      "Paredes duplas entre unidades com 3 cm de distância entre blocos",
+      "Diferença entre versões R00 (Anteprojeto) e R01 (Executivo) principalmente nas espessuras de emboço",
+      "Áreas técnicas (gerador/bombas) com tratamento acústico especial devido a ruído de equipamentos",
+      "Academia com duplo tratamento: contrapiso flutuante + piso emborrachado",
+      "Tubulações hidrossanitárias com envelopamento acústico obrigatório nas passagens por unidades",
+      "Empena da piscina em concreto de 19 cm garante isolamento adequado",
+      "Portas de acesso ao terraço com especificações acústicas (vedação com gaxetas, fresta ≤ 3 mm)"
+    ]
+  },
+  
+  "quantitativos_observacoes": {
+    "nota": "Os PDFs analisados contêm especificações técnicas detalhadas dos sistemas e materiais, mas não apresentam quadros de quantitativos consolidados com áreas totais em m². Os quantitativos precisos de área por sistema deverão ser extraídos de planilhas orçamentárias ou medições diretas dos projetos executivos.",
+    "dados_extraidos": "Espessuras, componentes dos sistemas, desempenho acústico (dB), especificações de materiais e fabricantes",
+    "dados_nao_encontrados": "Áreas totais em m² por sistema construtivo, quantidades totais de materiais (kg, m³), metragem de tubulações a isolar"
+  },
+  
+  "data_processamento": "2026-03-11",
+  "processado_por": "Subagente Jarvis - Extração de quantitativos de acústica"
+}

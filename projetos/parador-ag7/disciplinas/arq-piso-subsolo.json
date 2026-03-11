@@ -1,0 +1,106 @@
+{
+  "pavimento": "Subsolo",
+  "observacao": "Especificações inferidas a partir das plantas de arquitetura PAR-ARQ-EX-0011-PG-SUB-R06 e PAR-ARQ-EX-2013-SB-SUB-R01. As pranchas analisadas não contêm especificações detalhadas de acabamentos. Áreas estimadas com base nos ambientes identificados nas plantas.",
+  "categorias": [
+    {
+      "nome": "Pisos - Áreas de Circulação de Veículos",
+      "items": [
+        {
+          "tipo": "Piso de concreto polido com endurecedor superficial",
+          "localizacao": "Estacionamento - vagas de veículos",
+          "area": "Estimada (área predominante do subsolo)",
+          "unidade": "m²",
+          "observacao": "Recomendado para tráfego de veículos. Especificação a confirmar em memorial de acabamentos."
+        }
+      ]
+    },
+    {
+      "nome": "Pisos - Circulação de Pedestres",
+      "items": [
+        {
+          "tipo": "Porcelanato antiderrapante 60x60cm",
+          "localizacao": "Passeio de pedestres (2 trechos identificados)",
+          "area": "A dimensionar",
+          "unidade": "m²",
+          "observacao": "Especificação típica para circulação de pedestres em subsolo."
+        },
+        {
+          "tipo": "Porcelanato 60x60cm ou 80x80cm",
+          "localizacao": "Halls de elevador e escadas (blocos A, B, C)",
+          "area": "A dimensionar",
+          "unidade": "m²",
+          "observacao": "Acabamento premium para áreas comuns de circulação vertical."
+        }
+      ]
+    },
+    {
+      "nome": "Pisos - Áreas Sociais",
+      "items": [
+        {
+          "tipo": "Porcelanato 80x80cm ou 1,20x1,20m",
+          "localizacao": "Salões de festa",
+          "area": "A dimensionar",
+          "unidade": "m²",
+          "observacao": "Acabamento premium para áreas de convívio social."
+        },
+        {
+          "tipo": "Porcelanato antiderrapante 60x60cm",
+          "localizacao": "Cozinha de apoio",
+          "area": "A dimensionar",
+          "unidade": "m²",
+          "observacao": "Material resistente e de fácil limpeza para área de preparo de alimentos."
+        }
+      ]
+    },
+    {
+      "nome": "Pisos - Áreas de Serviço",
+      "items": [
+        {
+          "tipo": "Piso industrial epóxi ou concreto polido",
+          "localizacao": "Casa de máquinas e áreas técnicas",
+          "area": "A dimensionar",
+          "unidade": "m²",
+          "observacao": "Material resistente para ambientes técnicos."
+        },
+        {
+          "tipo": "Concreto polido ou porcelanato básico 45x45cm",
+          "localizacao": "Depósitos (16 unidades identificadas)",
+          "area": "A dimensionar",
+          "unidade": "m²",
+          "observacao": "Acabamento econômico para áreas de armazenamento."
+        },
+        {
+          "tipo": "Piso antiderrapante impermeável",
+          "localizacao": "Tanque de reuso e first flush",
+          "area": "A dimensionar",
+          "unidade": "m²",
+          "observacao": "Material resistente à umidade e impermeável."
+        }
+      ]
+    }
+  ],
+  "informacoes_tecnicas": {
+    "fonte_dados": [
+      "PAR-ARQ-EX-0011-PG-SUB-R06.pdf - Planta Geral Subsolo",
+      "PAR-ARQ-EX-2013-SB-SUB-R01.pdf - Planta de Instalações Blocos A, B, C"
+    ],
+    "limitacoes": [
+      "Pranchas analisadas não contêm legenda de acabamentos ou especificações detalhadas de pisos",
+      "Áreas não puderam ser quantificadas precisamente sem prancha de acabamentos",
+      "Materiais especificados são inferências baseadas em padrões típicos de empreendimentos residenciais de alto padrão"
+    ],
+    "proximos_passos": [
+      "Localizar e analisar prancha de acabamentos ou mapa de acabamentos do subsolo",
+      "Consultar memorial descritivo de especificações técnicas",
+      "Verificar caderno de especificações do projeto",
+      "Quantificar áreas precisas de cada tipo de piso"
+    ]
+  },
+  "projeto": {
+    "nome": "PARADOR",
+    "localizacao": "Rua Victorio Fontanella, Estaleirinho, Balneário Camboriú - SC",
+    "cliente": "AG7 Partners Participações Societárias S.A.",
+    "arquiteto": "Isay Weinfeld Arquiteto",
+    "configuracao": "Blocos A a G em configuração sinuosa/orgânica"
+  }
+}

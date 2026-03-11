@@ -1,0 +1,803 @@
+{
+  "disciplina": "Paisagismo",
+  "fonte": "PDFs executivos",
+  "empreendimento": "Ícaro Parador - Condomínio Vertical Residencial",
+  "cliente": "AG7 Partners Participações Societárias SA",
+  "localizacao": "Rua Victorio Fornerolli, Estaleirinho, Balneário Camboriú - SC",
+  "bioma": "Mata Atlântica",
+  "ecossistema": "Restinga",
+  "certificacoes_almejadas": ["GBC Condomínio V3", "GBC Biodiversidade", "Fitwel"],
+  "pdfs_processados": [
+    {
+      "arquivo": "Mapa de Vegetacao para Paisagismo-R00_1.pdf",
+      "tipo": "Mapa de Árvores Existentes - Inventário para Corte",
+      "data": "Maio 2023",
+      "consultor": "KOEDDERMANN Consultores Associados",
+      "responsavel_tecnico": "ENG. FLORESTAL HEIKO BUDAG - CREA-SC: 63.997-3"
+    },
+    {
+      "arquivo": "PAR_SUS_REV_Paisagismo_R01.pdf",
+      "tipo": "Revisão de Sustentabilidade - Lista de Espécies do Projeto",
+      "data": "26/03/2025",
+      "revisao": "R01",
+      "consultoria": "Bloco Base"
+    },
+    {
+      "arquivo": "PAR-PAI-EX-1001-BA-COR-R00.pdf",
+      "tipo": "Projeto Executivo - Cortes e Detalhes Construtivos",
+      "data": "05/12/2025",
+      "revisao": "R00",
+      "autoria": "Rodrigo Oliveira",
+      "status": "NÃO LIBERADO OBRA"
+    }
+  ],
+  
+  "arvores_existentes_para_corte": {
+    "fonte": "Mapa de Vegetacao para Paisagismo-R00_1.pdf",
+    "descricao": "Inventário georreferenciado de árvores nativas isoladas para autorização de supressão",
+    "total_individuos": 42,
+    "total_especies": 14,
+    "especies": [
+      {
+        "nome_cientifico": "Eugenia astringens",
+        "nome_popular": "Guamirim / Pitanga-da-restinga",
+        "quantidade": 7,
+        "pontos_controle": [27, 28, 29, 30, 31, 33, 34],
+        "observacoes": "Espécie mais frequente no inventário"
+      },
+      {
+        "nome_cientifico": "Cupania vernalis",
+        "nome_popular": "Camboatá / Cuvatã",
+        "quantidade": 6,
+        "pontos_controle": [18, 19, 20, 21, 22, 23]
+      },
+      {
+        "nome_cientifico": "Bougainvillea glabra",
+        "nome_popular": "Três-marias / Buganvília",
+        "quantidade": 5,
+        "pontos_controle": [7, 8, 9, 10, 15]
+      },
+      {
+        "nome_cientifico": "Syagrus romanzoffiana",
+        "nome_popular": "Jerivá / Coqueiro-jerivá",
+        "quantidade": 5,
+        "pontos_controle": [5, 6, 11, 12, 13]
+      },
+      {
+        "nome_cientifico": "Schinus terebinthifolius",
+        "nome_popular": "Aroeira-vermelha / Aroeira-pimenteira",
+        "quantidade": 5,
+        "pontos_controle": [1, 2, 16, 17, 26]
+      },
+      {
+        "nome_cientifico": "Ocotea pulchella",
+        "nome_popular": "Canela-lageana / Canelinha",
+        "quantidade": 3,
+        "pontos_controle": [24, 25, 41]
+      },
+      {
+        "nome_cientifico": "Handroanthus heptaphyllus",
+        "nome_popular": "Ipê-roxo",
+        "quantidade": 2,
+        "pontos_controle": [3, 4]
+      },
+      {
+        "nome_cientifico": "Tabernaemontana catharinensis",
+        "nome_popular": "Jasmim-catavento / Cobrina",
+        "quantidade": 2,
+        "pontos_controle": [35, 40]
+      },
+      {
+        "nome_cientifico": "Psidium cattleianum",
+        "nome_popular": "Araçá",
+        "quantidade": 1,
+        "pontos_controle": [14]
+      },
+      {
+        "nome_cientifico": "Myrsine umbellata",
+        "nome_popular": "Capororoca / Capororocão",
+        "quantidade": 1,
+        "pontos_controle": [32]
+      },
+      {
+        "nome_cientifico": "Coussapoa microcarpa",
+        "nome_popular": "Figueira-mata-pau / Mata-pau",
+        "quantidade": 1,
+        "pontos_controle": [37]
+      },
+      {
+        "nome_cientifico": "Myrcia brasiliensis",
+        "nome_popular": "Guamirim / Murta",
+        "quantidade": 1,
+        "pontos_controle": [38]
+      },
+      {
+        "nome_cientifico": "Heisteria silviani",
+        "nome_popular": "Casca-de-tatu",
+        "quantidade": 1,
+        "pontos_controle": [39]
+      },
+      {
+        "nome_cientifico": "Cyrtophalla declinata",
+        "nome_popular": null,
+        "quantidade": 1,
+        "pontos_controle": [42]
+      },
+      {
+        "nome_cientifico": null,
+        "nome_popular": "Indivíduo morto (sem identificação)",
+        "quantidade": 1,
+        "pontos_controle": [36]
+      }
+    ],
+    "coordenadas_utm": {
+      "projecao": "Universal Transversa de Mercator (UTM)",
+      "datum_vertical": "Imbituba - SC",
+      "datum_horizontal": "SIRGAS-2000",
+      "origem_utm": "Equador e Meridiano 51° W.GR."
+    }
+  },
+
+  "especies_projeto_paisagistico": {
+    "fonte": "PAR_SUS_REV_Paisagismo_R01.pdf",
+    "descricao": "Lista completa de espécies vegetais especificadas no projeto paisagístico",
+    "total_especies": 88,
+    "especies_nativas": 71,
+    "especies_endemicas": 28,
+    "especies_em_risco": 6,
+    "especies_exoticas_nao_conformes": 17,
+    "percentual_nativas": "80%",
+    "observacao": "Este documento NÃO apresenta quantidades individuais por espécie. Quantidades devem estar nas folhas de implantação do projeto executivo.",
+    
+    "especies": [
+      {
+        "nome_popular": "Abricó de Macaco",
+        "nome_cientifico": "Couroupita guianensis",
+        "bioma_original": "Amazônia",
+        "ecossistema": null,
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Acerola",
+        "nome_cientifico": "Malpighia glabra",
+        "bioma_original": "Antilhas",
+        "ecossistema": null,
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Alecrim do Campo",
+        "nome_cientifico": "Baccharis dracunculifolia",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Ameixa da Mata",
+        "nome_cientifico": "Eugenia candolleana",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Araçá Amarelo",
+        "nome_cientifico": "Psidium cattleyanum",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Araçá Piranga",
+        "nome_cientifico": "Eugenia leitonii",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Desconhecido",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Araçá Roxo",
+        "nome_cientifico": "Psidium myrtoides",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Araçá Vermelho",
+        "nome_cientifico": "Psidium cattleianum var. purpureum",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Bauhinia",
+        "nome_cientifico": "Bauhinia forficata",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Brinco de Princesa",
+        "nome_cientifico": "Clusia fluminensis",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Bromélia Porto Seguro",
+        "nome_cientifico": "Aechmea blanchetiana",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica em Risco"
+      },
+      {
+        "nome_popular": "Cabeludinha",
+        "nome_cientifico": "Myciaria glaziovana",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Caliandra Rosa",
+        "nome_cientifico": "Calliandra brevipes",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Cambuí Vermelho",
+        "nome_cientifico": "Myrciaria tenella",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Cananfístula",
+        "nome_cientifico": "Peltophorum dubium",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Capim Rabo de Burro",
+        "nome_cientifico": "Andropogon bicornis",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Vegetação Sobre Afloramentos Rochosos",
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Capim dos Pampas",
+        "nome_cientifico": "Cortaderia selloana",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Capororoca de Restinga",
+        "nome_cientifico": "Myrsine parvifolia",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Carqueja",
+        "nome_cientifico": "Baccharis trimera (analisada como Baccharis crispa)",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Cássia Grandis",
+        "nome_cientifico": "Cassia grandis",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Cerejeira do Rio Grande",
+        "nome_cientifico": "Eugenia involucrata",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Clusia",
+        "nome_cientifico": "Clusia fluminensis",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Coco Vedeliano",
+        "nome_cientifico": "Syagrus weddelliana",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica em Risco"
+      },
+      {
+        "nome_popular": "Copaíba",
+        "nome_cientifico": "Copaifera langsdorffii",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Costus",
+        "nome_cientifico": "Costus spiralis",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Crista Galli",
+        "nome_cientifico": "Erythrina crista-galli",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Dinheiro em Penca",
+        "nome_cientifico": "Pilea nummularifolia",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Embaúba",
+        "nome_cientifico": "Cecropia pachystachya",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Embira de Sapo",
+        "nome_cientifico": "Muellera campestris",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Estacional Semidecidual",
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Evolvulus",
+        "nome_cientifico": "Evolvulus glomeratus",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Filodendro Cascata",
+        "nome_cientifico": "Philodedron spp. Cascata",
+        "bioma_original": null,
+        "ecossistema": null,
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Filodendro Imbê",
+        "nome_cientifico": "Philodendron imbe",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Filodendro Cordatum",
+        "nome_cientifico": "Philodendron cordatum",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Filodendro Speciosum",
+        "nome_cientifico": "Thaumatophyllum speciosum",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Filodendro Undulatum",
+        "nome_cientifico": "Thaumatophyllum undulatum",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Filodendro Xanadu",
+        "nome_cientifico": "Thaumatophyllum xanadu",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Desconhecido",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Flor-do-Guarujá",
+        "nome_cientifico": "Turnera subulata",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Frutinha de Leite",
+        "nome_cientifico": "Cordia taguahyensis",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Grama Amendoim",
+        "nome_cientifico": "Arachis repens",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Área Antrópica",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Grumixama Mirim",
+        "nome_cientifico": "Eugenia blastantha (sinônimo: Eugenia longipedunculata)",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Guaricanga de Bengala",
+        "nome_cientifico": "Geonoma elegans",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Guaimbê",
+        "nome_cientifico": "Philodendron bipinnatifidum (sinônimo: Thaumatophyllum bipinnatifidum)",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Guajiru",
+        "nome_cientifico": "Chrysobalanus icaco",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Guamirim da Restinga",
+        "nome_cientifico": "Eugenia catharinae",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Heliconia Chapéu de Bispo",
+        "nome_cientifico": "Heliconia episcopalis",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Heliconia Farinosa",
+        "nome_cientifico": "Heliconia farinosa",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Heliconia Papagaio",
+        "nome_cientifico": "Heliconia psittacorum",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Ipê Amarelo",
+        "nome_cientifico": "Handroanthus chrysotrichus",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica em Risco"
+      },
+      {
+        "nome_popular": "Ipê Branco",
+        "nome_cientifico": "Handroanthus roseo-alba",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Cerrado",
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Ipê Roxo",
+        "nome_cientifico": "Handroanthus heptaphyllus",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Ipomea de Restinga",
+        "nome_cientifico": "Ipomoea pes-caprae",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Íris Azul",
+        "nome_cientifico": "Neomarica caerulea",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Iris da Praia",
+        "nome_cientifico": "Neomarica candida",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Jabuticabeira",
+        "nome_cientifico": "Myrciaria trunciflora",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Jacarandá Caroba",
+        "nome_cientifico": "Jacaranda micrantha",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Jaquínia",
+        "nome_cientifico": "Jacquinia armillaris",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Jatobá",
+        "nome_cientifico": "Hymenaea courbaril",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Lírio dos Ventos Branca",
+        "nome_cientifico": "Zephyranthes candida",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Semidecidual",
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Lophantera",
+        "nome_cientifico": "Lophanthera lactescens",
+        "bioma_original": "Amazônia",
+        "ecossistema": null,
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Manacá de Cheiro",
+        "nome_cientifico": "Brunfelsia uniflora",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Maranta Burle Marxii",
+        "nome_cientifico": "Calathea burle-marxii H.A. Kenn (sinônimo: Goeppertia burle-marxii)",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Maranta Charuto",
+        "nome_cientifico": "Calathea lutea",
+        "bioma_original": "Amazônia",
+        "ecossistema": "Floresta Ciliar",
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Mini Clúsia",
+        "nome_cientifico": "Clusia fluminensis nana",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Mini Pitanga",
+        "nome_cientifico": "Eugenia mattosii",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Mirindiba",
+        "nome_cientifico": "Lafoensia glyptocarpa",
+        "bioma_original": "Cerrado",
+        "ecossistema": null,
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Norantea",
+        "nome_cientifico": "Norantea guianensis",
+        "bioma_original": "Amazônia",
+        "ecossistema": null,
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Pacová",
+        "nome_cientifico": "Philodendron martianum",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Palmeira Prateada",
+        "nome_cientifico": "Lytocaryum hoehnei (sinônimo: Syagrus hoehnei)",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Palmeira Pati",
+        "nome_cientifico": "Syagrus botryophora",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica em Risco"
+      },
+      {
+        "nome_popular": "Pau Brasil",
+        "nome_cientifico": "Caesalpinia echinata (sinônimo: Paubrasilia echinata)",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa Endêmica em Risco"
+      },
+      {
+        "nome_popular": "Pau Mulato",
+        "nome_cientifico": "Calycophyllum spruceanum",
+        "bioma_original": "Amazônia",
+        "ecossistema": null,
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Orelha de Onça",
+        "nome_cientifico": "Tibouchina heteromalla (sinônimo: Pleroma heteromallum)",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Ombrófila",
+        "status": "Nativa Endêmica"
+      },
+      {
+        "nome_popular": "Peroba Rosa",
+        "nome_cientifico": "Aspidosperma polyneuron",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Floresta Estacional Semidecidual",
+        "status": "Espécie Exótica"
+      },
+      {
+        "nome_popular": "Pitanga",
+        "nome_cientifico": "Eugenia uniflora",
+        "bioma_original": "Mata Atlântica",
+        "ecossistema": "Restinga",
+        "status": "Nativa"
+      },
+      {
+        "nome_popular": "Papiro",
+        "nome_cientifico": "Cyperus papyrus",
+        "bioma_original": "Egito",
+        "ecossistema": null,
+        "status": "Espécie Exótica"
+      }
+    ],
+    
+    "especies_em_risco_extincao": [
+      "Aechmea blanchetiana (Bromélia Porto Seguro)",
+      "Syagrus weddelliana (Coco Vedeliano)",
+      "Handroanthus chrysotrichus (Ipê Amarelo)",
+      "Syagrus botryophora (Palmeira Pati)",
+      "Paubrasilia echinata (Pau Brasil)"
+    ]
+  },
+
+  "sistemas": {
+    "fonte": "PAR-PAI-EX-1001-BA-COR-R00.pdf",
+    
+    "niveis_minimos_terra": {
+      "forracao": "30 cm",
+      "arbustos": "45 cm",
+      "arvoretas": "60 cm",
+      "arvores_palmeiras": "80 cm"
+    },
+    
+    "cargas_estruturais": {
+      "arvores_sobre_laje_3a5m": "1.000 kg (carga pontual)",
+      "terra_plantio_umida": "1.600 a 1.800 kg/m³",
+      "terra_apiloada_umida": "1.600 a 2.000 kg/m³",
+      "observacoes": [
+        "Equipe de estrutura deve validar e considerar os valores informados no cálculo da carga para todos os jardins sobre laje e floreiras acopladas ao edifício",
+        "Projeto estrutural deverá considerar o plantio sobre laje sempre em canteiros/jardineiras com contenção em concreto ou alvenaria",
+        "Considerar jardineiras com as alturas indicadas no projeto"
+      ]
+    },
+    
+    "irrigacao": {
+      "tipo": "Automatizada",
+      "abrangencia": "Todas as áreas ajardinadas",
+      "responsavel_projeto": "Empresa especializada",
+      "observacao": "Consultar projeto elaborado por empresa especializada"
+    },
+    
+    "impermeabilizacao": {
+      "areas": [
+        "Todos os jardins sobre laje",
+        "Áreas molhadas",
+        "Áreas externas"
+      ],
+      "responsavel_projeto": "Empresa especializada",
+      "observacao": "Consultar projeto elaborado por empresa especializada"
+    },
+    
+    "drenagem": {
+      "jardins_sobre_laje": {
+        "camadas": [
+          "Substrato para plantio (superior)",
+          "Brita rolada/solta cinza Ø 1-3 cm",
+          "Tubo PVC Ø4\" com perfurações",
+          "Manta geotêxtil",
+          "Camada de drenagem (argila expandida ou brita leve)",
+          "Manta de proteção mecânica",
+          "Impermeabilização",
+          "Laje estrutural"
+        ],
+        "elementos_complementares": [
+          "Tubulação 3/4\" embutida na alvenaria",
+          "Tampa de PVC Ø 60mm com saída para manutenção (pintura preta fosca)",
+          "Torneira com rosca para mangueira"
+        ]
+      },
+      "jardins_sobre_solo": {
+        "camadas": [
+          "Substrato para plantio (superior)",
+          "Brita rolada solta cinza Ø 1-3 cm",
+          "Tubo PVC Ø4\" com perfurações",
+          "Tubulação 3/4\"",
+          "Torneira com rosca para mangueira"
+        ],
+        "reforco": "Reforço de drenagem em todos os jardins sobre solo natural"
+      },
+      "ralos": {
+        "ralo_superficial_laje": {
+          "componentes": [
+            "Tampa em PVC para manutenção e limpeza (pintura preta fosca)",
+            "Tubo PVC Ø 75mm com furação/drenagem",
+            "Ralo tartaruga",
+            "Manta geotêxtil",
+            "Drenaflex/dreno",
+            "Pintura anti-raiz",
+            "Manta de proteção",
+            "Regularização e cimento"
+          ]
+        },
+        "ralo_superficial_solo": {
+          "componentes": [
+            "Ralo de superfície Ø ~15cm",
+            "Areia limpa",
+            "Manta geotêxtil DP extra nº2",
+            "Tubo dreno PVC Ø 100mm perfurado",
+            "Solo natural"
+          ]
+        },
+        "observacao": "Ralos em todas as floreiras sobre laje - verificar local e dimensões no projeto de hidráulica"
+      }
+    },
+    
+    "substratos": {
+      "composicao": "Substrato para plantio",
+      "complementos": "Compostos + substratos + reguladores",
+      "observacao": "Especificações detalhadas de composição devem estar nas especificações técnicas do projeto ou memorial descritivo"
+    }
+  },
+
+  "observacoes_gerais": [
+    "O projeto visa certificações GBC Condomínio V3, GBC Biodiversidade e Fitwel",
+    "Ecossistema de Restinga requer atendimento à Lei da Mata Atlântica nº 11.428/2006",
+    "17 espécies exóticas (não conformes) identificadas - possível necessidade de revisão",
+    "Folha executiva 1001 marcada como 'NÃO LIBERADO OBRA' - aguardar aprovação",
+    "42 árvores nativas isoladas mapeadas para corte - requer autorização ambiental",
+    "Quantidades específicas por espécie do projeto paisagístico devem estar nas folhas de implantação",
+    "Instalações hidráulicas devem estar prontas antes da execução do paisagismo",
+    "Não alterar projeto sem autorização do paisagista responsável",
+    "Convocar reunião antes da execução do projeto de paisagismo",
+    "Para início da execução, local deve estar livre de entulho e material estocado"
+  ],
+  
+  "data_extracao": "2026-03-11",
+  "responsavel_extracao": "Jarvis - Subagente"
+}

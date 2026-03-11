@@ -1,0 +1,128 @@
+{
+  "projeto": "ÍCARO PARADOR - AG7 Santa Catarina S.A.",
+  "disciplina": "Hidráulica - Água Quente",
+  "empresa_projetista": "Franzmann Engenharia e Consultoria Ltda.",
+  "data_extracao": "2026-03-11",
+  "pranchas_analisadas": [
+    "PAR-HID-EX-0117-BB-N01-R00",
+    "PAR-HID-EX-0118-BA-N01-R00",
+    "PAR-HID-EX-0124-BB-DUI-R00"
+  ],
+  "observacoes_gerais": [
+    "As pranchas analisadas apresentam sistema de água quente completo (distribuição, retorno e isolamento)",
+    "Informações sobre aquecedores (tipo, marca, capacidade) e reservatórios de AQ não constam nas plantas baixas",
+    "Segundo notas das pranchas, esses dados estão no Esquema Vertical de Água Potável (não disponível no conjunto analisado)",
+    "Todas as tubulações de AQ são especificadas em PPR (Polipropileno Copolímero Random Tipo 3)",
+    "Sistema inclui circuito de retorno de água quente para manter temperatura nas extremidades"
+  ],
+  "tubulacoes_ppr": {
+    "material": "PPR - Polipropileno Copolímero Random Tipo 3",
+    "pressao_nominal": "PN 20 e PN 25 (conforme tabela de suportes)",
+    "diametros_identificados": [
+      {
+        "diametro_mm": 20,
+        "aplicacao": "Ramais secundários para pontos de consumo",
+        "pranchas": ["PAR-HID-EX-0124-BB-DUI-R00"]
+      },
+      {
+        "diametro_mm": 25,
+        "aplicacao": "Ramais de AQ para pontos de consumo (lavatórios, chuveiros)",
+        "pranchas": ["PAR-HID-EX-0117-BB-N01-R00", "PAR-HID-EX-0118-BA-N01-R00", "PAR-HID-EX-0124-BB-DUI-R00"]
+      },
+      {
+        "diametro_mm": 32,
+        "aplicacao": "Trechos de distribuição intermediária",
+        "pranchas": ["PAR-HID-EX-0117-BB-N01-R00", "PAR-HID-EX-0118-BA-N01-R00", "PAR-HID-EX-0124-BB-DUI-R00"]
+      },
+      {
+        "diametro_mm": 40,
+        "aplicacao": "Alimentação principal e barriletes de AQ",
+        "pranchas": ["PAR-HID-EX-0117-BB-N01-R00", "PAR-HID-EX-0118-BA-N01-R00", "PAR-HID-EX-0124-BB-DUI-R00"]
+      }
+    ],
+    "espacamento_suportes": {
+      "fonte": "Tabela constante na prancha PAR-HID-EX-0118-BA-N01-R00",
+      "nota": "Espaçamento varia conforme diâmetro nominal (DN), classe de pressão (PN 20 ou PN 25) e temperatura de operação",
+      "temperaturas_operacao": ["20°C", "40°C", "60°C"],
+      "exemplos_ppr_pn20": {
+        "dn25_20c": "0,70 m",
+        "dn32_20c": "0,80 m",
+        "dn40_20c": "1,00 m",
+        "dn40_60c": "0,88 m"
+      },
+      "exemplos_ppr_pn25": {
+        "dn25_20c": "0,70 m",
+        "dn25_40c": "0,60 m",
+        "dn32_20c": "0,90 m",
+        "dn32_40c": "0,70 m",
+        "dn40_20c": "1,00 m",
+        "dn40_40c": "0,80 m"
+      }
+    }
+  },
+  "isolamento_termico": {
+    "especificacao": "Polietileno expandido - espessura 10 mm",
+    "aplicacao": "Toda tubulação de água quente",
+    "produtos_sugeridos": [
+      {
+        "marca": "EPEX",
+        "produto": "Tubex 10 mm",
+        "tipo": "Polietileno expandido"
+      },
+      {
+        "marca": "POLIPEX",
+        "produto": "Polipex Tubos Isolantes 10 mm",
+        "tipo": "Polietileno expandido"
+      }
+    ],
+    "fixacao": {
+      "descricao": "Fixação com tira de borracha elastomérica e abraçadeira",
+      "referencia": "Detalhe gráfico constante na prancha PAR-HID-EX-0118-BA-N01-R00"
+    }
+  },
+  "aquecedores": {
+    "status": "Informação não disponível nas pranchas analisadas",
+    "observacao": "Dados de aquecedores (tipo, marca, modelo, capacidade) constam no Esquema Vertical de Água Potável, conforme referência nas notas das pranchas",
+    "localizacao_esperada": "Provavelmente no subsolo, área técnica ou cobertura (conforme esquema vertical não fornecido)"
+  },
+  "reservatorios_agua_quente": {
+    "status": "Informação não disponível nas pranchas analisadas",
+    "observacao": "Dados de reservatórios de AQ constam no Esquema Vertical, conforme referência nas notas das pranchas"
+  },
+  "sistema_recirculacao": {
+    "presente": true,
+    "descricao": "Sistema de recirculação de água quente (retorno) para manter temperatura nas extremidades da rede",
+    "representacao": "Linha de 'Água Quente - Retorno' identificada na legenda das três pranchas analisadas"
+  },
+  "pavimentos_com_agua_quente": [
+    {
+      "pavimento": "Nível 01",
+      "bloco": "B",
+      "prancha": "PAR-HID-EX-0117-BB-N01-R00",
+      "elementos": "Distribuição completa de AQ, retorno, isolamento especificado"
+    },
+    {
+      "pavimento": "Nível 01",
+      "bloco": "A",
+      "prancha": "PAR-HID-EX-0118-BA-N01-R00",
+      "elementos": "Distribuição completa de AQ, retorno, isolamento especificado, tabela de suportes"
+    },
+    {
+      "pavimento": "Duplex Inferior",
+      "bloco": "B",
+      "prancha": "PAR-HID-EX-0124-BB-DUI-R00",
+      "elementos": "Distribuição de AQ em unidades duplex, retorno, isolamento especificado"
+    }
+  ],
+  "pendencias_arquitetura": {
+    "descricao": "Múltiplas pendências de compatibilização com arquitetura identificadas nas pranchas",
+    "exemplos": [
+      "Necessário deslocar lavatório, vaso sanitário e ducha higiênica para viabilizar instalação hidráulica",
+      "Favor indicar posição do filtro (múltiplas ocorrências)",
+      "Rooftop (Blocos A e B): aguardando definição de pontos pela arquitetura"
+    ]
+  },
+  "normas_referencia": {
+    "observacao": "Não explicitadas nas pranchas analisadas. Recomenda-se consultar memorial descritivo ou especificações técnicas do projeto"
+  }
+}

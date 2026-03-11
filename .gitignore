@@ -1,0 +1,38 @@
+# Arquivos binários pesados
+*.pdf
+*.PDF
+*.ifc
+*.IFC
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.skp
+*.dwg
+*.dxf
+*.rvt
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Imagens
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+
+# Secrets / configs sensíveis
+scripts/slack_config.json
+*.env
+credentials*
+
+# Outros
+*.pyc
+__pycache__/
+.DS_Store
+*.tmp

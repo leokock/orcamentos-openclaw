@@ -1,0 +1,337 @@
+{
+  "disciplina": "Paisagismo",
+  "fonte": "PDFs executivos - Pranchas Civis",
+  "projeto": "ÍCARO PARADOR",
+  "cliente": "AG7 PARTNERS PARTICIPAÇÕES SOCIÉTARIAS SA",
+  "localizacao": "Praia do Estaleiro - Balneário Camboriú - SC",
+  "autor": "Rodrigo Oliveira",
+  "data_extracao": "2026-03-11",
+  "status_projeto": "NÃO LIBERADO OBRA",
+  
+  "pdfs_processados": [
+    {
+      "arquivo": "PAR-PAI-EX-0050-TO-COBE-R00.pdf",
+      "folha": "0050",
+      "assunto": "Cobertura - Civil",
+      "escala": "1:200",
+      "data": "14.11.2025",
+      "revisao": "R00 - Emissão Inicial"
+    },
+    {
+      "arquivo": "PAR-PAI-EX-0050-TO-COBE-R00_1.pdf",
+      "folha": "0050",
+      "assunto": "Cobertura - Civil",
+      "escala": "1:200",
+      "data": "14.11.2025",
+      "revisao": "R00 - Emissão Inicial",
+      "observacao": "Duplicata do arquivo anterior"
+    },
+    {
+      "arquivo": "PAR-PAI-EX-0040-TO-DUI-R00.pdf",
+      "folha": "0040",
+      "assunto": "Duplex Inferior - Civil",
+      "escala": "1:200",
+      "data": "05.12.2025",
+      "revisao": "R00 - Emissão Inicial"
+    },
+    {
+      "arquivo": "PAR-PAI-EX-0040-TO-DUI-R00_1.pdf",
+      "folha": "0040",
+      "assunto": "Duplex Inferior - Civil",
+      "escala": "1:200",
+      "data": "05.12.2025",
+      "revisao": "R00 - Emissão Inicial",
+      "observacao": "Duplicata do arquivo anterior"
+    }
+  ],
+  
+  "observacao_importante": "As pranchas processadas são plantas CIVIS/TÉCNICAS de implantação. O quadro detalhado de espécies vegetais com nome científico, nome popular e quantidades específicas NÃO consta nestas folhas. Essas informações provavelmente estão em pranchas complementares (quadro de plantio/vegetação).",
+  
+  "especies": {
+    "observacao": "Informações categóricas extraídas - quantitativos e nomes científicos não disponíveis nas pranchas civis",
+    "categorias_identificadas": [
+      {
+        "categoria": "Árvore e palmeira existente a ser mantida",
+        "status": "Existente - manter no local",
+        "simbolo": "Círculo específico na legenda",
+        "quantidade": "Não quantificado nas pranchas civis"
+      },
+      {
+        "categoria": "Árvore e palmeira nova",
+        "status": "Nova - a ser plantada",
+        "simbolo": "Círculo diferenciado na legenda",
+        "quantidade": "Não quantificado nas pranchas civis"
+      }
+    ],
+    "niveis_minimos_terra": [
+      {
+        "tipo": "Forração",
+        "profundidade_minima_cm": 30
+      },
+      {
+        "tipo": "Arbustos",
+        "profundidade_minima_cm": 45
+      },
+      {
+        "tipo": "Arvoretas",
+        "profundidade_minima_cm": 60
+      },
+      {
+        "tipo": "Árvores e Palmeiras",
+        "profundidade_minima_cm": 80
+      }
+    ],
+    "areas_de_plantio": [
+      {
+        "tipo": "Canteiro sobre solo natural",
+        "localizacao": "Áreas perimetrais em terreno natural",
+        "caracteristica": "Solo natural existente"
+      },
+      {
+        "tipo": "Canteiro sobre laje",
+        "localizacao": "Cobertura e Duplex Inferior",
+        "caracteristica": "Floreiras e jardins sobre estrutura"
+      }
+    ]
+  },
+  
+  "sistemas": {
+    "irrigacao": {
+      "tipo": "Irrigação automatizada",
+      "abrangencia": "Todas as áreas ajardinadas",
+      "responsavel": "Projeto específico elaborado por empresa especializada",
+      "pontos_torneira": {
+        "descricao": "Pontos de torneira previstos no piso/alvenaria/canteiro",
+        "referencia": "Conforme projeto de hidráulica"
+      }
+    },
+    
+    "drenagem": {
+      "diretrizes_gerais": [
+        "Prever ralos em TODAS as lajes",
+        "Prever ralos em TODAS as floreiras sobre laje",
+        "Prever reforço de drenagem em TODOS os jardins sobre solo natural",
+        "Verificar dimensionamento no projeto de hidráulica"
+      ],
+      
+      "sistema_ralos": {
+        "tubo_principal": {
+          "material": "PVC",
+          "diametro": "5 polegadas (Ø 5\")",
+          "caracteristicas": "Com ranhuras ou furos concentrados na parte de baixo para passagem de água",
+          "protecao": "Manta Bidim (geotêxtil) envolvendo o tubo",
+          "protecao_adicional": "Tela de nylon sobre o ralo"
+        },
+        "tubo_manutencao": {
+          "material": "PVC",
+          "diametro": "10 polegadas (Ø 10\")",
+          "funcao": "Manutenção e limpeza do ralo",
+          "preenchimento": "Argila expandida ou brita/cinasita",
+          "procedimento": "Retirar o tubo após o preenchimento",
+          "acesso": "Tampa em PVC removível"
+        }
+      },
+      
+      "tipos_ralos": [
+        {
+          "tipo": "Ralo pontual",
+          "descricao": "Ponto de ralo para escoamento de água",
+          "referencia": "Ver projeto de hidráulica"
+        },
+        {
+          "tipo": "Ralo linear infinity",
+          "descricao": "Ralo linear para escoamento de água",
+          "referencia": "Ver projeto de hidráulica"
+        }
+      ],
+      
+      "sistema_floreiras_sobre_laje": {
+        "camadas_de_baixo_para_cima": [
+          "Laje estrutural",
+          "Regularização com caimento para ralos",
+          "Impermeabilização",
+          "Manta geotêxtil (Bidim)",
+          "Camada de cinasita/argila expandida (H = 5 cm)",
+          "Manta geotêxtil (Bidim) - filtro superior",
+          "Solo/terra de plantio"
+        ],
+        "nota": "Prever drenagem na laje - verificar com equipe de hidráulica"
+      }
+    },
+    
+    "impermeabilizacao": {
+      "abrangencia": "Todos os jardins sobre laje, áreas molhadas e áreas externas",
+      "responsavel": "Projeto elaborado por empresa especializada",
+      "condicao": "Deve estar pronta, posicionada e em boas condições ANTES da execução do paisagismo",
+      "posicionamento": "Sob a camada drenante, sobre a regularização da laje"
+    }
+  },
+  
+  "substratos": {
+    "cargas_substratos": [
+      {
+        "descricao": "Terra para plantio úmida",
+        "carga_kg_m3": "1.600 a 1.800"
+      },
+      {
+        "descricao": "Terra apiloada úmida",
+        "carga_kg_m3": "1.600 a 2.000"
+      }
+    ],
+    
+    "cargas_grande_porte": [
+      {
+        "descricao": "Árvores e palmeiras sobre laje (3 a 5 m altura)",
+        "carga_pontual_kg": 1000
+      }
+    ],
+    
+    "sistema_camadas_plantio_sobre_laje": {
+      "sequencia_construtiva": [
+        {
+          "ordem": 1,
+          "camada": "Laje estrutural",
+          "observacao": "Conforme projeto estrutural"
+        },
+        {
+          "ordem": 2,
+          "camada": "Regularização",
+          "observacao": "Com caimento para os ralos"
+        },
+        {
+          "ordem": 3,
+          "camada": "Impermeabilização",
+          "observacao": "Consultar projeto especializado"
+        },
+        {
+          "ordem": 4,
+          "camada": "Manta geotêxtil (Bidim)",
+          "observacao": "Separação e proteção da impermeabilização"
+        },
+        {
+          "ordem": 5,
+          "camada": "Argila expandida/cinasita",
+          "observacao": "Camada drenante - H = 5 cm"
+        },
+        {
+          "ordem": 6,
+          "camada": "Manta geotêxtil (Bidim)",
+          "observacao": "Filtro/separação superior"
+        },
+        {
+          "ordem": 7,
+          "camada": "Terra/substrato de plantio",
+          "observacao": "Conforme profundidade mínima por tipo vegetal"
+        }
+      ]
+    },
+    
+    "notas_estruturais": [
+      "Plantio sobre laje sempre em canteiros/jardineiras",
+      "Contenção em concreto ou alvenaria conforme especificado",
+      "Considerar jardineiras com alturas indicadas no projeto ao calcular estrutura",
+      "Equipe de estrutura deve validar e considerar os valores de carga informados"
+    ]
+  },
+  
+  "equipamentos_lazer": {
+    "observacao": "As pranchas civis não detalham modelos específicos de equipamentos de lazer. Informações provavelmente em pranchas complementares.",
+    
+    "identificados": [
+      {
+        "tipo": "Bebedouro",
+        "simbolo": "B",
+        "status": "Modelo a definir",
+        "referencia": "Ver projeto de hidráulica"
+      },
+      {
+        "tipo": "Guarda-corpo",
+        "localizacao": "Perímetro da cobertura",
+        "altura": "1,10 m",
+        "referencia": "Ver Projeto de Arquitetura"
+      },
+      {
+        "tipo": "Acesso Passarela",
+        "localizacao": "Lado norte/praia - Cobertura",
+        "funcao": "Conexão cobertura-praia"
+      },
+      {
+        "tipo": "Acesso Areia",
+        "localizacao": "Lado praia - Cobertura",
+        "funcao": "Acesso direto à Praia do Estaleirinho"
+      }
+    ],
+    
+    "nota_brinquedos_equipamentos": "O executor e/ou fornecedor deve se responsabilizar pela qualidade das peças, fixação correta, estabilidade do sistema e ausência de pregos, parafusos e qualquer outro objeto que possa oferecer risco aos usuários."
+  },
+  
+  "niveis_cotas": {
+    "cobertura": {
+      "niveis_identificados": [
+        {"nivel_original": "17.90", "nivel_acabamento": "18.65", "area": "Áreas perimetrais"},
+        {"nivel_original": "18.30", "nivel_acabamento": "18.65", "area": "Canteiros internos"},
+        {"nivel_original": "18.30", "nivel_acabamento": "18.70", "area": "Canteiros internos (variação)"},
+        {"nivel_original": "18.30", "nivel_acabamento": "18.85", "area": "Canteiros elevados"}
+      ],
+      "referencia_comum": "+20.00 (cota de referência em diversos pontos)"
+    },
+    
+    "duplex_inferior": {
+      "niveis_identificados": [
+        {"nivel_original": "15.10", "nivel_acabamento": "15.20"},
+        {"nivel_original": "15.00", "nivel_acabamento": "15.19"}
+      ]
+    },
+    
+    "niveis_piso_cobertura": [
+      {"cota": "0.00", "descricao": "Nível de referência"},
+      {"cota": "+0.05", "descricao": "Nível elevado (bordas de canteiro)"},
+      {"cota": "-0.05", "descricao": "Nível rebaixado"},
+      {"cota": "+0.15", "descricao": "Nível de contenção de canteiro"}
+    ]
+  },
+  
+  "notas_execucao": [
+    {
+      "numero": "01",
+      "nota": "Conferir medidas no local conforme o projeto. Nenhuma medida deverá ser mensurada em escala. (Medidas em metros, salvo onde indicado)"
+    },
+    {
+      "numero": "02",
+      "nota": "Para dar início à execução do paisagismo, o local da obra deve estar livre de entulho, lixo ou material estocado"
+    },
+    {
+      "numero": "03",
+      "nota": "As instalações hidráulicas (ralos, canos de drenagem, irrigação, impermeabilização) deverão estar prontas, posicionadas e em boas condições quando o paisagismo for executado - NÃO sendo de responsabilidade do paisagista"
+    },
+    {
+      "numero": "04",
+      "nota": "Não alterar o projeto de paisagismo sem autorização do paisagista responsável. Para qualquer mudança, entrar em contato antes da execução"
+    },
+    {
+      "numero": "05",
+      "nota": "Convocar reunião antes da execução do projeto de paisagismo"
+    }
+  ],
+  
+  "direitos_autorais": "Este desenho é de propriedade do paisagista autor do projeto, não podendo ser reproduzido no todo ou em parte sem autorização do mesmo. Toda e qualquer alteração de projeto e/ou especificações deverão ser efetuadas apenas com a aprovação de seu autor.",
+  
+  "informacoes_ausentes": {
+    "quadro_especies_vegetais": "Nomes científicos, nomes populares e quantidades específicas NÃO constam nestas pranchas civis",
+    "especificacoes_mudas": "Altura, DAP, circunferência - NÃO disponíveis nestas folhas",
+    "projeto_irrigacao_detalhado": "Remitido a projeto específico por empresa especializada",
+    "projeto_impermeabilizacao_detalhado": "Remitido a projeto específico por empresa especializada",
+    "projeto_hidraulico_completo": "Ralos, tubulações e dimensionamentos - ver projeto de hidráulica",
+    "detalhamento_equipamentos_lazer": "Modelos específicos provavelmente em pranchas complementares",
+    "recomendacao": "Solicitar as demais folhas do projeto de paisagismo (especialmente quadro de plantio/vegetação, planta de plantio com legenda botânica e detalhamentos complementares) para obtenção completa das espécies, quantidades e especificações de mudas"
+  },
+  
+  "resumo_quantitativo": {
+    "total_pdfs_processados": 4,
+    "pdfs_unicos": 2,
+    "pranchas_unicas": ["0050 - Cobertura Civil", "0040 - Duplex Inferior Civil"],
+    "tipo_pranchas": "Plantas civis/técnicas de implantação",
+    "escala": "1:200",
+    "status": "Projeto Executivo - NÃO LIBERADO OBRA"
+  }
+}

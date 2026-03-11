@@ -1,0 +1,244 @@
+{
+  "projeto": "Parador AG7",
+  "disciplina": "Esgoto Sanitário",
+  "pavimento": "Térreo (N00)",
+  "setores": ["S01", "S02", "S03"],
+  "pranchas_analisadas": [
+    "PAR-SAN-EX-0104-S01-N00-R00.pdf",
+    "PAR-SAN-EX-0105-S02-N00-R00.pdf",
+    "PAR-SAN-EX-0106-S03-N00-R00.pdf"
+  ],
+  "data_extracao": "2026-03-11",
+  "observacoes": "Quantitativos estimados via análise visual de pranchas PDF. Geometria curvilínea da edificação aumenta conexões. Recomenda-se acréscimo de 10-15% para perdas.",
+  
+  "tubulacoes_pvc_esgoto": {
+    "DN40": {
+      "descricao": "Ramais de lavatórios, pias menores",
+      "S01": 8,
+      "S02": 45,
+      "S03": 40,
+      "total_metros": 93,
+      "unidade": "m"
+    },
+    "DN50": {
+      "descricao": "Ramais de pias, tanques, máquinas de lavar",
+      "S01": 25,
+      "S02": 35,
+      "S03": 58,
+      "total_metros": 118,
+      "unidade": "m"
+    },
+    "DN75": {
+      "descricao": "Ramais coletores de banheiros, transições",
+      "S01": 15,
+      "S02": 60,
+      "S03": 48,
+      "total_metros": 123,
+      "unidade": "m"
+    },
+    "DN100": {
+      "descricao": "Rede coletora principal, ramais de vasos sanitários",
+      "S01": 55,
+      "S02": 180,
+      "S03": 140,
+      "total_metros": 375,
+      "unidade": "m"
+    },
+    "DN150": {
+      "descricao": "Coletor predial / subcoletor",
+      "S01": 30,
+      "S02": 120,
+      "S03": 70,
+      "total_metros": 220,
+      "unidade": "m"
+    }
+  },
+  
+  "tubulacoes_ventilacao": {
+    "DN40": {
+      "descricao": "Ventilação secundária",
+      "total_metros": 12,
+      "unidade": "m"
+    },
+    "DN50": {
+      "descricao": "Ventilação de caixas sifonadas",
+      "total_metros": 35,
+      "unidade": "m"
+    },
+    "DN75": {
+      "descricao": "Coluna de ventilação principal",
+      "total_metros": 18,
+      "unidade": "m"
+    }
+  },
+  
+  "ralos": {
+    "RS_DN50": {
+      "descricao": "Ralo sifonado DN50",
+      "S01": 6,
+      "S02": 12,
+      "S03": 14,
+      "total": 32,
+      "unidade": "un"
+    },
+    "RS_DN75": {
+      "descricao": "Ralo sifonado DN75",
+      "S01": 2,
+      "S02": 0,
+      "S03": 0,
+      "total": 2,
+      "unidade": "un"
+    },
+    "RSF_DN50": {
+      "descricao": "Ralo seco DN50",
+      "S01": 2,
+      "S02": 6,
+      "S03": 7,
+      "total": 15,
+      "unidade": "un"
+    },
+    "RL_linear": {
+      "descricao": "Ralo linear / grelha",
+      "S01": 3,
+      "S02": 3,
+      "S03": 4,
+      "total": 10,
+      "unidade": "un"
+    }
+  },
+  
+  "caixas": {
+    "caixa_sifonada_150x150x50": {
+      "descricao": "Caixa sifonada 150x150x50mm",
+      "S01": 8,
+      "S02": 12,
+      "S03": 10,
+      "total": 30,
+      "unidade": "un"
+    },
+    "caixa_inspecao_60x60": {
+      "descricao": "Caixa de inspeção 60x60cm",
+      "S01": 3,
+      "S02": 10,
+      "S03": 8,
+      "total": 21,
+      "unidade": "un"
+    },
+    "caixa_inspecao_40x40": {
+      "descricao": "Caixa de inspeção 40x40cm",
+      "S01": 0,
+      "S02": 4,
+      "S03": 4,
+      "total": 8,
+      "unidade": "un"
+    },
+    "caixa_gordura_50x50": {
+      "descricao": "Caixa de gordura 50x50cm",
+      "S01": 2,
+      "S02": 4,
+      "S03": 5,
+      "total": 11,
+      "unidade": "un"
+    },
+    "caixa_passagem_40x40": {
+      "descricao": "Caixa de passagem 40x40cm",
+      "S01": 2,
+      "S02": 4,
+      "S03": 3,
+      "total": 9,
+      "unidade": "un"
+    }
+  },
+  
+  "conexoes": {
+    "joelho_45": {
+      "DN40": 3,
+      "DN50": 12,
+      "DN75": 8,
+      "DN100": 20,
+      "DN150": 6,
+      "total": 49,
+      "unidade": "un"
+    },
+    "joelho_90": {
+      "DN40": 6,
+      "DN50": 18,
+      "DN75": 10,
+      "DN100": 28,
+      "DN150": 8,
+      "total": 70,
+      "unidade": "un"
+    },
+    "te_90": {
+      "DN40": 2,
+      "DN50": 10,
+      "DN75": 6,
+      "DN100": 22,
+      "DN150": 6,
+      "total": 46,
+      "unidade": "un"
+    },
+    "juncao_45_y": {
+      "DN50": 6,
+      "DN75": 4,
+      "DN100": 12,
+      "DN150": 6,
+      "total": 28,
+      "unidade": "un"
+    },
+    "reducao": {
+      "50x40": 5,
+      "75x50": 8,
+      "100x75": 6,
+      "150x100": 6,
+      "total": 25,
+      "unidade": "un"
+    },
+    "luva_simples": {
+      "descricao": "Luvas de emenda",
+      "total": 45,
+      "unidade": "un"
+    }
+  },
+  
+  "resumo_quantitativo": {
+    "tubulacao_esgoto_total": {
+      "valor": 929,
+      "unidade": "m",
+      "detalhamento": "DN40:93m + DN50:118m + DN75:123m + DN100:375m + DN150:220m"
+    },
+    "tubulacao_ventilacao_total": {
+      "valor": 65,
+      "unidade": "m",
+      "detalhamento": "DN40:12m + DN50:35m + DN75:18m"
+    },
+    "ralos_total": {
+      "valor": 59,
+      "unidade": "un",
+      "detalhamento": "RS DN50:32 + RS DN75:2 + RSF DN50:15 + Linear:10"
+    },
+    "caixas_total": {
+      "valor": 79,
+      "unidade": "un",
+      "detalhamento": "CS:30 + CI-60x60:21 + CI-40x40:8 + CG:11 + CP:9"
+    },
+    "conexoes_total": {
+      "valor": 263,
+      "unidade": "un",
+      "detalhamento": "Joelhos 45°:49 + Joelhos 90°:70 + Tês:46 + Junções Y:28 + Reduções:25 + Luvas:45"
+    }
+  },
+  
+  "metadados": {
+    "metodo_extracao": "Análise visual de PDF + reconhecimento via IA",
+    "precisao_estimada": "±15%",
+    "recomendacoes": [
+      "Acréscimo de 10-15% para perdas e ajustes de obra",
+      "Validação via arquivo DWG/BIM para quantitativo definitivo",
+      "Geometria curva aumenta quantidade de conexões",
+      "Verificar conflitos estruturais apontados nas notas das pranchas"
+    ],
+    "autor_extracao": "Jarvis (subagente)",
+    "tempo_processamento": "~4min"
+  }
+}

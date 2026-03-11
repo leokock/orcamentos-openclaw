@@ -1,0 +1,136 @@
+{
+  "info": {
+    "nome": "624-25",
+    "descricao": "N/A"
+  },
+  "elementos": {
+    "IfcColumn": 193,
+    "IfcBeam": 721,
+    "IfcSlab": 299,
+    "IfcWall": 0,
+    "IfcFooting": 0,
+    "IfcPile": 0,
+    "IfcReinforcingBar": 0,
+    "IfcReinforcingMesh": 0,
+    "IfcBuildingStorey": 23
+  },
+  "volumes": {
+    "pilares_m3": 197.06643199999965,
+    "pilares_qtd": 193,
+    "vigas_m3": 376.6725601160021,
+    "vigas_qtd": 721,
+    "lajes_m3": 1025.5004903256513,
+    "total_concreto_m3": 1599.24
+  },
+  "areas": {},
+  "materiais": {},
+  "pavimentos": {
+    "total": 23,
+    "lista": [
+      {
+        "nome": "_PROVISÓRIO",
+        "elevation": -329.0
+      },
+      {
+        "nome": "_SUBSOLO",
+        "elevation": -310.0
+      },
+      {
+        "nome": "1PAVTO",
+        "elevation": -16.000000000000004
+      },
+      {
+        "nome": "2PAVTO",
+        "elevation": 307.0000000000001
+      },
+      {
+        "nome": "3PAVTO",
+        "elevation": 595.0000000000001
+      },
+      {
+        "nome": "4PAVTO",
+        "elevation": 883.0000000000001
+      },
+      {
+        "nome": "5PAVTO",
+        "elevation": 1171.0000000000002
+      },
+      {
+        "nome": "6PAVTO",
+        "elevation": 1459.0
+      },
+      {
+        "nome": "7PAVTO-TRANS",
+        "elevation": 1747.0
+      },
+      {
+        "nome": "8PAVTO",
+        "elevation": 1891.0000000000002
+      },
+      {
+        "nome": "9PAVTO-TRANS",
+        "elevation": 2179.0
+      },
+      {
+        "nome": "10PAVTO",
+        "elevation": 2467.0000000000005
+      },
+      {
+        "nome": "11PAVTO",
+        "elevation": 2611.0
+      },
+      {
+        "nome": "12PAVTO",
+        "elevation": 2899.0
+      },
+      {
+        "nome": "13PAVTO",
+        "elevation": 3187.0000000000005
+      },
+      {
+        "nome": "14PAVTO",
+        "elevation": 3475.0
+      },
+      {
+        "nome": "15PAVTO",
+        "elevation": 3763.0000000000005
+      },
+      {
+        "nome": "16PAVTO",
+        "elevation": 4051.000000000001
+      },
+      {
+        "nome": "_BARRILETE",
+        "elevation": 4339.0
+      },
+      {
+        "nome": "CASA-MAQUINAS",
+        "elevation": 4448.0
+      },
+      {
+        "nome": "RESERVATORIO",
+        "elevation": 4739.0
+      },
+      {
+        "nome": "TAMPA-RES",
+        "elevation": 4994.0
+      },
+      {
+        "nome": "DUTO",
+        "elevation": 5159.0
+      }
+    ]
+  },
+  "fundacao": {},
+  "estrutura": {
+    "tipos_laje": {
+      "Piso:TQS h=20 - Concreto C40": 232,
+      "Patamar monolítico:Espessura de 150 mm": 15,
+      "Pisos 1:Pisos 1": 1,
+      "Pisos 2:Pisos 2": 1,
+      "Pisos 3:Pisos 2": 1,
+      "Piso:TQS h=15 - Concreto C40": 1,
+      "TQS - Tubulao:TQS - Tubulao": 48
+    }
+  }
+}
