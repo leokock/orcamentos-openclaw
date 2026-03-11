@@ -26,6 +26,9 @@ SCRIPT_DIR = Path(__file__).parent
 CONFIG_PATH = SCRIPT_DIR / "slack_config.json"
 PROJETOS_DIR = SCRIPT_DIR.parent / "projetos"
 
+# Arquivos acima desse limite (MB) geram aviso para usar Google Drive
+LARGE_FILE_THRESHOLD_MB = 100
+
 
 def load_config():
     with open(CONFIG_PATH) as f:
@@ -128,6 +131,7 @@ def main():
     parser.add_argument("--tipo", help="Filtrar por extensão (xlsx, pdf, ifc, dwg, etc.)")
     parser.add_argument("--arquivo", help="Nome específico do arquivo para baixar")
     parser.add_argument("--destino", help="Diretório de destino para o download")
+    parser.add_argument("--force", action="store_true", help="Forçar download mesmo de arquivos grandes")
     args = parser.parse_args()
 
     if not args.listar and not args.baixar:
@@ -159,7 +163,15 @@ def main():
         where = f"na thread" if args.thread else "no canal"
         print(f"Arquivos encontrados {where} ({len(arquivos)}):")
         for i, arq in enumerate(arquivos, 1):
-            print(f"  {i}. {arq['name']} ({arq['size_mb']} MB, .{arq['ext']}) — ts: {arq['timestamp']}")
+            large_tag = " ⚠️ ARQUIVO GRANDE" if arq["size_mb"] > LARGE_FILE_THRESHOLD_MB else ""
+            print(f"  {i}. {arq['name']} ({arq['size_mb']} MB, .{arq['ext']}){large_tag} — ts: {arq['timestamp']}")
+        # Avisar sobre arquivos grandes
+        large_files = [a for a in arquivos if a["size_mb"] > LARGE_FILE_THRESHOLD_MB]
+        if large_files:
+            print(f"\n⚠️  {len(large_files)} arquivo(s) acima de {LARGE_FILE_THRESHOLD_MB} MB detectado(s).")
+            print("   Recomendação: pedir ao usuário para subir no Google Drive e compartilhar o link.")
+            for lf in large_files:
+                print(f"   - {lf['name']} ({lf['size_mb']} MB)")
         return
 
     # Baixar
@@ -177,6 +189,14 @@ def main():
     else:
         target = arquivos[0]
         print(f"Usando arquivo mais recente: {target['name']}")
+
+    # Checar tamanho antes de baixar
+    if target["size_mb"] > LARGE_FILE_THRESHOLD_MB and not args.force:
+        print(f"\n⚠️  ARQUIVO GRANDE DETECTADO: {target['name']} ({target['size_mb']} MB)")
+        print(f"   Limite configurado: {LARGE_FILE_THRESHOLD_MB} MB")
+        print(f"   Recomendação: pedir ao usuário para subir no Google Drive e compartilhar o link.")
+        print(f"   Para forçar o download mesmo assim, use --force")
+        sys.exit(2)  # Exit code 2 = arquivo grande
 
     dest_path = download_arquivo(target, token, destino=args.destino)
     print(f"\n--- Arquivo baixado ---")

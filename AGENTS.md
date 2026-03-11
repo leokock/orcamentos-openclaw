@@ -70,10 +70,29 @@ Se não encontrar dados, informe "não temos esse dado na base de calibração" 
 
 **O bot NÃO consegue processar mensagens do Slack que contêm arquivos anexados** (xlsx, pdf, ifc, etc.). Essas mensagens chegam ao gateway mas travam silenciosamente. Somente mensagens de **texto puro** são processadas.
 
+### Arquivos grandes (>100 MB) — Google Drive
+
+Quando o script de download detectar um arquivo acima de 100 MB (exit code 2) ou ao listar arquivos e ver o aviso `⚠️ ARQUIVO GRANDE`:
+
+1. **NÃO tente baixar** — vai travar ou consumir muita memória
+2. **Instrua o usuário** a subir no Google Drive e compartilhar o link:
+
+> "Esse arquivo tem XX MB — é grande demais pra eu processar direto pelo Slack 😅
+> Pode subir no *Google Drive* e me mandar o link de compartilhamento? Assim consigo acessar sem problema!
+> _Dica: botão direito no arquivo → Compartilhar → Copiar link_"
+
+3. Quando o usuário enviar o link do Drive, usar `gdown` ou `curl` pra baixar direto:
+```bash
+# Se o link for público
+pip install gdown 2>/dev/null
+gdown "https://drive.google.com/uc?id=FILE_ID" -O projetos/downloads/arquivo.ifc
+```
+
 ### Busca proativa de arquivos
 
 Ao responder pedindo um arquivo, SEMPRE inclua:
 > "Envie o arquivo aqui na thread. Depois me avise com texto puro: @Cartesiano já enviei o arquivo"
+> ⚠️ Se o arquivo for muito grande (acima de ~100 MB), suba no Google Drive e me mande o link!
 
 ### Workflow para receber arquivos do time
 
@@ -235,6 +254,12 @@ Quando o time pedir para gerar um paramétrico, **SEMPRE verifique a fonte de da
 O time pode enviar arquivos `.ifc` (modelos BIM) no canal para extração automática de dados.
 
 **Limitação conhecida:** Mensagens com arquivos anexados (xlsx, pdf, ifc, etc.) NÃO são processadas pelo bot — o evento chega mas trava silenciosamente. Somente mensagens de TEXTO PURO são processadas. O fluxo funciona em etapas separadas:
+
+#### Passo 0 — Verificar tamanho do IFC
+Arquivos IFC podem ser enormes (100-500+ MB). Ao listar arquivos, se o IFC tiver mais de 100 MB:
+- **NÃO tente baixar direto** — instrua o usuário a subir no Google Drive e compartilhar o link
+- Use a mensagem padrão de redirecionamento pro Drive (ver seção "Arquivos grandes" acima)
+- Arquivos abaixo de 100 MB → fluxo normal pelo Slack
 
 #### Passo 1 — Usuário envia o IFC
 O usuário faz upload do arquivo `.ifc` no canal ou dentro de uma thread do Slack.
