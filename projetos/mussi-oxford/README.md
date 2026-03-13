@@ -91,7 +91,17 @@
 
 **[LICOES-APRENDIDAS-OXFORD.md](LICOES-APRENDIDAS-OXFORD.md)** (18 KB, 12 seções)
 
-**⚠️ REGRA CRÍTICA:** Orçamento executivo SEMPRE com extração por pavimento (nunca consolidar em linha única)
+**⚠️ REGRA CRÍTICA (atualizada 13/mar/2026):**
+Orçamento executivo SEMPRE com extração por pavimento em **TODAS as disciplinas**:
+- ✅ Estrutura (por pavimento)
+- ✅ Hidrossanitário (por pavimento)
+- ✅ Elétrico (por pavimento)
+- ✅ PPCI (por pavimento)
+- ✅ Vedações (por pavimento)
+- ✅ Acabamentos (por pavimento)
+- ✅ Resumo Geral (consolidado)
+
+**Nunca consolidar em linha única sem quebra por pavimento.**
 
 Documento completo com aprendizados do projeto:
 1. Estrutura de dados e documentação

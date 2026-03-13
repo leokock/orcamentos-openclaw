@@ -74,11 +74,13 @@
 - BDI aplicado via fórmulas
 - **Padrão:** Usar openpyxl para gerar orçamentos executivos (não apenas CSV)
 
-**2.4 ⚠️ REGRA CRÍTICA: Extração SEMPRE por Pavimento**
+**2.4 ⚠️ REGRA CRÍTICA: Extração SEMPRE por Pavimento (TODAS AS DISCIPLINAS)**
 - **OBRIGATÓRIO:** Orçamento executivo SEMPRE com quantitativos separados por pavimento
-- **Motivo:** Permite análise de custo por andar, validação de multiplicadores, rastreabilidade
-- **Implementação:** Script `gerar-orcamento-executivo.py` deve estruturar dados por pavimento
+- **Abrangência:** TODAS as disciplinas — Estrutura, Hidro, Elétrico, PPCI, Vedações, Acabamentos
+- **Motivo:** Permite análise de custo por andar, validação de multiplicadores, rastreabilidade completa
+- **Implementação:** Script `gerar-orcamento-completo-por-pavimento.py` estrutura 7 abas (6 disciplinas + resumo)
 - **Nunca fazer:** Consolidar tudo em uma linha única sem quebra por pavimento
+- **Atualização (13/mar/2026):** Regra estendida de estrutura para TODAS as disciplinas (solicitação Leo)
 
 ### ⚠️ PROBLEMAS TÉCNICOS ENCONTRADOS
 
@@ -347,10 +349,12 @@
 - [ ] Backup antes de edições grandes
 
 **Checklist orçamento executivo:**
-- [ ] **⚠️ EXTRAÇÃO POR PAVIMENTO** (regra obrigatória — nunca consolidar em linha única)
+- [ ] **⚠️ EXTRAÇÃO POR PAVIMENTO EM TODAS AS DISCIPLINAS** (regra obrigatória — nunca consolidar)
+- [ ] **7 abas mínimas:** Estrutura + Hidro + Elétrico + PPCI + Vedações + Acabamentos + Resumo
+- [ ] Cada aba: quantitativos separados por pavimento (27 níveis no Oxford)
 - [ ] Formatação profissional (bordas, cores, hierarquia)
 - [ ] BDI aplicado corretamente
-- [ ] Subtotais por grupo
+- [ ] Subtotais por pavimento e por disciplina
 - [ ] Totais por sistema com BDI
 - [ ] Custos unitários atualizados (SINAPI)
 
@@ -460,7 +464,8 @@
 
 ### ✅ SEMPRE FAZER
 
-- [ ] **⚠️ ORÇAMENTO EXECUTIVO: Extração SEMPRE por pavimento** (nunca consolidar em linha única)
+- [ ] **⚠️ ORÇAMENTO EXECUTIVO: Extração SEMPRE por pavimento EM TODAS AS DISCIPLINAS** (estrutura + hidro + elétrico + PPCI + vedações + acabamentos)
+- [ ] **7 abas mínimas:** cada disciplina com quantitativos separados por pavimento + resumo geral
 - [ ] Solicitar dados críticos no Dia 0 (quadro de áreas, memorial, especificações)
 - [ ] Validar completude do IFC antes de confiar
 - [ ] Usar timeout mínimo 15 min para processamento pesado
