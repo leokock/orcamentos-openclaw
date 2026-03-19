@@ -381,6 +381,8 @@ python3.11 scripts/slack_uploader.py --bot cartesiano --file output/<arquivo>.xl
 
 **IMPORTANTE:** Se a conversa está em uma thread, passe `--thread <thread_ts>` para o arquivo aparecer na thread certa.
 
+**Mirror automático:** O script agora faz mirror automático dos entregáveis para o #jarvis (canal do Leo). Isso acontece por padrão em todo upload. Se por algum motivo NÃO quiser o mirror, passe `--no-mirror`.
+
 #### Fluxo completo (resumo)
 
 1. Extrair dados do projeto (PDF/IFC/briefing manual)

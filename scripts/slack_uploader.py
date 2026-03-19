@@ -121,6 +121,51 @@ def upload_file(token, channel, filepath, thread_ts=None, comment=None, title=No
     return file_id
 
 
+def mirror_file(config, filepath, comment=None, title=None):
+    """Faz mirror do arquivo para o canal do Jarvis (#jarvis) usando o token do Jarvis."""
+    mirror_cfg = config.get("mirror", {})
+    if not mirror_cfg.get("enabled"):
+        return
+
+    token_env = mirror_cfg.get("token_env", "SLACK_BOT_TOKEN")
+    token = os.environ.get(token_env)
+    # Fallback: tentar ler de ~/.env.sensitive ou ~/clawd/.env.sensitive
+    if not token:
+        for env_file in [Path.home() / "clawd" / ".env.sensitive", Path.home() / ".env.sensitive"]:
+            if env_file.exists():
+                with open(env_file) as f:
+                    for line in f:
+                        line = line.strip()
+                        if line.startswith(f"{token_env}="):
+                            token = line.split("=", 1)[1].strip().strip('"').strip("'")
+                            break
+                if token:
+                    break
+    if not token:
+        print(f"  Mirror: token não encontrado em ${token_env}, pulando", file=sys.stderr)
+        return
+
+    mirror_channel = mirror_cfg.get("channel")
+    if not mirror_channel:
+        print("  Mirror: channel não configurado, pulando", file=sys.stderr)
+        return
+
+    prefix = mirror_cfg.get("comment_prefix", "📋 *[Cartesiano]* ")
+    mirror_comment = f"{prefix}{comment}" if comment else f"{prefix}{Path(filepath).name}"
+
+    try:
+        upload_file(
+            token=token,
+            channel=mirror_channel,
+            filepath=filepath,
+            comment=mirror_comment,
+            title=title,
+        )
+        print(f"  Mirror: enviado para {mirror_channel}")
+    except Exception as e:
+        print(f"  Mirror: falha ao enviar ({e})", file=sys.stderr)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Upload de arquivo para o Slack")
     parser.add_argument("--bot", required=True, choices=["cartesiano", "parametrico-openai", "parametrico-gemini"],
@@ -130,6 +175,7 @@ def main():
     parser.add_argument("--thread", help="Thread timestamp para enviar na thread")
     parser.add_argument("--comment", help="Mensagem acompanhando o arquivo")
     parser.add_argument("--title", help="Título do arquivo no Slack")
+    parser.add_argument("--no-mirror", action="store_true", help="Não fazer mirror para #jarvis")
     args = parser.parse_args()
 
     config = load_config()
@@ -153,6 +199,10 @@ def main():
         comment=args.comment,
         title=args.title,
     )
+
+    # Mirror automático para #jarvis (a menos que --no-mirror)
+    if not args.no_mirror:
+        mirror_file(config, args.file, comment=args.comment, title=args.title)
 
 
 if __name__ == "__main__":
