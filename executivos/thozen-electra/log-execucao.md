@@ -16,25 +16,25 @@
 
 ## Indice de Disciplinas
 
-| # | Disciplina | Status | Revisao | Arquivo-chave |
-|---|-----------|--------|---------|---------------|
-| 01 | Estrutura | Briefing R00 | R00 | [[estrutura-r00]] |
-| 02 | Arquitetura | Briefing R00 | R00 | [[arquitetura-r00]] |
-| 03 | Alvenaria | Briefing R00-R01, DXF pendente | R01 | [[alvenaria-r01]] |
-| 04 | Esquadria | Briefing R00 | R00 | [[esquadria-r00]] |
-| 05 | Hidraulico | Briefing R00 | R00 | [[hidraulico-r00]] |
-| 06 | Sanitario | Briefing R00 | R00 | [[sanitario-r00]] |
-| 07 | PCI Civil | Briefing R00 | R00 | [[pci-civil-r00]] |
-| 08 | PCI Eletrico | Briefing R00 | R00 | [[pci-eletrico-r00]] |
-| 09 | Eletrico | Discipline pack R01 + Memorial | R01 | [[eletrico-r01-memorial]] |
-| 10 | Telefonico | Briefing R00 + dados IFC | R00 | [[telefonico-r00]] |
-| 11 | SPDA | Briefing R00 | R00 | [[spda-r00]] |
-| 12 | Ventilacao | Briefing R00-R02 (DWG bloqueado) | R02 | [[ventilacao-r02]] |
-| 13 | Exaustao | Briefing R00-R02 (DXF processado) | R02 | [[exaustao-r02]] |
-| 14 | Ar-Condicionado | Briefing R00-R01 (DWG bloqueado) | R01 | [[ar-condicionado-r01]] |
-| -- | Tecnico/Adm | Analise EAP + preenchimento | R00 | [[electra_analise_tecnico_adm]] |
-| -- | EAP | Reestruturada em 4 UCs | v2 | [[EAP-Electra-4UCs-v2.xlsx]] |
-| -- | Consolidado | R00 -> R01 -> R02 -> R03 | R03 | [[CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx]] |
+| #   | Disciplina      | Status                            | Revisao | Arquivo-chave                                         |
+| --- | --------------- | --------------------------------- | ------- | ----------------------------------------------------- |
+| 01  | Estrutura       | Briefing R00                      | R00     | [[estrutura-r00]]                                     |
+| 02  | Arquitetura     | Briefing R00                      | R00     | [[arquitetura-r00]]                                   |
+| 03  | Alvenaria       | Briefing R00-R01, DXF pendente    | R01     | [[alvenaria-r01]]                                     |
+| 04  | Esquadria       | Briefing R00                      | R00     | [[esquadria-r00]]                                     |
+| 05  | Hidraulico      | Briefing R00                      | R00     | [[hidraulico-r00]]                                    |
+| 06  | Sanitario       | Briefing R00                      | R00     | [[sanitario-r00]]                                     |
+| 07  | PCI Civil       | Briefing R00                      | R00     | [[pci-civil-r00]]                                     |
+| 08  | PCI Eletrico    | Briefing R00                      | R00     | [[pci-eletrico-r00]]                                  |
+| 09  | Eletrico        | Discipline pack R01 + Memorial    | R01     | [[eletrico-r01-memorial]]                             |
+| 10  | Telefonico      | Briefing R00 + dados IFC          | R00     | [[telefonico-r00]]                                    |
+| 11  | SPDA            | Briefing R00                      | R00     | [[spda-r00]]                                          |
+| 12  | Ventilacao      | Briefing R00-R02 (DWG bloqueado)  | R02     | [[ventilacao-r02]]                                    |
+| 13  | Exaustao        | Briefing R00-R02 (DXF processado) | R02     | [[exaustao-r02]]                                      |
+| 14  | Ar-Condicionado | Briefing R00-R01 (DWG bloqueado)  | R01     | [[ar-condicionado-r01]]                               |
+| --  | Tecnico/Adm     | Analise EAP + preenchimento       | R00     | [[electra_analise_tecnico_adm]]                       |
+| --  | EAP             | Reestruturada em 4 UCs            | v2      | [[EAP-Electra-4UCs-v2.xlsx]]                          |
+| --  | Consolidado     | R00 -> R01 -> R02 -> R03          | R03     | [[CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx]] |
 
 ---
 
