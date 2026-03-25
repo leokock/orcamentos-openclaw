@@ -27,6 +27,9 @@ scripts/slack_config.json
 *.env
 credentials*
 
+# Apresentacoes (pptx pode passar de 100MB — GitHub bloqueia)
+*.pptx
+
 # Outros
 *.pyc
 __pycache__/

@@ -22,11 +22,11 @@
 | 02  | Arquitetura     | Briefing R00                      | R00     | [[arquitetura-r00]]                                   |
 | 03  | Alvenaria       | Briefing R00-R01, DXF pendente    | R01     | [[alvenaria-r01]]                                     |
 | 04  | Esquadria       | Briefing R00                      | R00     | [[esquadria-r00]]                                     |
-| 05  | Hidraulico      | Briefing R00                      | R00     | [[hidraulico-r00]]                                    |
+| 05  | Hidraulico      | Planilha R00 (IFC+DWG, T.A/T.B)  | R00     | [[hidro-electra-r00.xlsx]]                            |
 | 06  | Sanitario       | Briefing R00                      | R00     | [[sanitario-r00]]                                     |
 | 07  | PCI Civil       | Briefing R00                      | R00     | [[pci-civil-r00]]                                     |
 | 08  | PCI Eletrico    | Briefing R00                      | R00     | [[pci-eletrico-r00]]                                  |
-| 09  | Eletrico        | Discipline pack R01 + Memorial    | R01     | [[eletrico-r01-memorial]]                             |
+| 09  | Eletrico        | Planilha R00 (IFC+DXF, T.A/T.B)  | R01     | [[eletrico-electra-r00.xlsx]]                         |
 | 10  | Telefonico      | R01 — IFC + 18 DWGs processados   | R01     | [[telecomunicacoes-electra-r01.xlsx]]                  |
 | 11  | SPDA            | Briefing R00                      | R00     | [[spda-r00]]                                          |
 | 12  | Ventilacao      | Briefing R00-R02 (DWG bloqueado)  | R02     | [[ventilacao-r02]]                                    |
@@ -156,10 +156,57 @@
 
 ## 6. Instalacoes Hidrossanitarias
 
-**Fonte:** IFCs + DWGs rev.01
-**Entregas:** [[hidraulico-r00]], [[sanitario-r00]]
+**Fonte:** IFC H00 completo rev.01 + 20 DWGs rev.01 (H01-H20) — Projetista R. Rubens Alves
+**Entregas iniciais:** [[hidraulico-r00]], [[sanitario-r00]]
 
-**Pendente:** Extracao detalhada de tubulacoes por diametro e metragem
+### IFC H00 — Quantitativos Gerais
+- **Arquivo:** `348 - H00 [00] rev.01 - EL_R.Rubens Alves - COMPLETO.ifc`
+- **Elementos totais:** 5.841 (2.715 tubulacoes + 3.116 conexoes + 10 terminais)
+- **100% dos elementos com coordenada X** — permite split por torre
+- **12 pavimentos modelados:** Terreo, G1-G5, Lazer, Tipo (x24), Casa de Maquinas, Reservatorio
+
+**Tubulacoes totais (IFC):**
+- PVC Soldavel: 193.367 m (66,3%) — DN63, DN81, DN101, DN127, DN152, DN190
+- CPVC FlowGuard: 62.520 m (21,4%) — DN55, DN71, DN38 (agua quente)
+- PPR PN25: 35.669 m (12,2%) — DN228 (recalque e pressurizacao)
+- **Total:** 291.557 m (sem multiplicacao do tipo)
+
+**Estimativa com tipo x24:** 3.066.013 m tubulacoes, 36.926 conexoes, 2.708 registros
+
+**Equipamentos identificados:**
+- 2 reservatorios polietileno 7.500L A'Melo (06° Pavto G5)
+- 4 pressurizadores Schneider VFD BC-92 (2CV) — Casa de Maquinas
+- Hidrometros multijato 3/4" (30 un Terreo + 8 un G4)
+
+### DWG H01-H20 — Extracao de Conexoes por Torre (25/mar/2026)
+- **20 DWGs** convertidos para DXF via ODA File Converter (batch)
+- DWGs ja vinham separados por torre no filename: `[T.A]` / `[T.B]`
+- **Componentes extraidos (blocos INSERT):** joelhos PVC/CPVC, adaptadores, luvas, registros de esfera, curvas, bucha reducao, uniao, valvulas, hidrometros, flanges
+
+**Componentes DXF — Pavimento Tipo (por torre, por pavimento):**
+- T.A: 578 componentes (197 joelhos PVC, 140 joelhos CPVC, 61 c/ bucha latao, 57 registros, 39 adaptadores, 36 curvas, 19 bucha red., 13 luva LR, 7 joelho 45° CPVC, 4 uniao, 4 hidrometro)
+- T.B: 593 componentes (237 joelhos PVC, 133 joelhos CPVC, 57 registros, 56 c/ bucha latao, 41 adaptadores, 31 curvas, 16 bucha red., 5 luva LR, 5 joelho 90° CPVC, 4 joelho 45° CPVC, 4 uniao, 4 hidrometro)
+
+**Ratios Torre (IFC):**
+- Pavimento Tipo: T.A 51,6% / T.B 48,4%
+- Terreo: 66% / 34%
+- Lazer: 57% / 43%
+- Casa de Maquinas: 50% / 50%
+
+### Planilha R00 executiva — separada Emb / T.A / T.B (25/mar/2026)
+- **Arquivo:** [[hidro-electra-r00.xlsx]]
+- **Fonte dados:** IFC H00 (tubulacoes) + DWG H01-H20 (conexoes por torre) + briefing R00 (equipamentos) — SOMENTE Electra
+- **Formato:** aba unica sequencial — Embasamento → Torre A → Torre B
+- **Embasamento:** 96 itens (Terreo, G01-G05, Lazer, Casa Maquinas, Reservatorio) — quantidades cheias
+- **Torre A:** 19 itens — Pav Tipo x24 (tubulacoes por ratio IFC 51,6% + conexoes DXF direto)
+- **Torre B:** 19 itens — Pav Tipo x24 (tubulacoes por ratio IFC 48,4% + conexoes DXF direto)
+- **Coluna K (custo unitario):** em branco — Leo precisa preencher/validar PUs
+
+**Pendente:**
+- Preencher custos unitarios da planilha hidro
+- Sanitario (disciplina separada — pasta `06 SANITARIO`)
+- Aguas pluviais (disciplina separada)
+- Gas (disciplina separada)
 
 ---
 
@@ -188,6 +235,17 @@
 - [[eletrico-r01-memorial]] / `.docx`
 - [[eletrico-r01-confianca]]
 - [[eletrico-r01-por-pavimento.xlsx]]
+
+**Planilha R00 executiva — separada T.A / T.B (25/mar/2026):**
+- Arquivo: [[eletrico-electra-r00.xlsx]]
+- Fonte dados: IFC rev.01 (9 arquivos) + DXF (dispositivos) — SOMENTE dados do Electra
+- Separacao por torre: coordenada X do IFC (midpoint X=366.0)
+- Formato: aba unica sequencial — Embasamento (compartilhado) → Torre A → Torre B
+- Embasamento: 120 itens (Geral, Terreo, G01-G05, Lazer, Casa Maquinas) — quantidades cheias
+- Torre A: 23 itens — Pav Tipo x24 (~52% pelo ratio IFC)
+- Torre B: 23 itens — Pav Tipo x24 (~48% pelo ratio IFC)
+- 12 subgrupos EAP: Barramento, Dispositivos, Eletrodutos, Entrada de Energia, Gerador, Interruptores, Luminarias, Mao de Obra, Quadros, Sensores, Subestacao, Tomadas
+- Template visual: Elizabeth II (somente estilos, nenhum dado)
 
 **Pendente:** Processar 18 DWGs para especificacoes tecnicas, cotacoes de subestacao e gerador, detalhamento de quadros e tomadas
 
@@ -426,8 +484,8 @@
 - [x] Loucas e Metais ✅ (preenchido 24/mar — separado T.A + T.B, fonte IFC Arq R07/R08)
 - [ ] Equipamentos Especiais
 - [ ] Piscina
-- [ ] Eletrico
-- [ ] Hidrossanitario
+- [x] Eletrico ✅ (R00 25/mar — IFC+DXF, separado Emb/T.A/T.B, aba unica)
+- [x] Hidrossanitario ✅ (R00 25/mar — IFC H00 + 20 DWGs, separado Emb/T.A/T.B, conexoes DXF por torre)
 - [ ] PPCI
 - [ ] Sprinkler
 - [x] Telecomunicacao ✅ (R01 25/mar — IFC + 18 DWGs processados, 96 itens novos)
@@ -441,7 +499,7 @@
 
 ## Bloqueadores Tecnicos
 
-1. **DWG binario** — Ventilacao, Ar-Condicionado, Alvenaria precisam de conversao DWG -> DXF (ODA File Converter instalado e funcional — usado com sucesso no Telefonico 24/mar)
+1. **DWG binario** — Ventilacao, Ar-Condicionado, Alvenaria precisam de conversao DWG -> DXF (ODA File Converter instalado e funcional — usado com sucesso no Telefonico 24/mar e Hidraulico 25/mar)
 2. **Memorial descritivo** — necessario para validar premissas de Ventilacao, PCI, Climatizacao
 3. **CPUs no Memorial** — Leo precisa vincular N4 manualmente (match automatico falhou)
 
