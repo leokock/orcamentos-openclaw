@@ -79,16 +79,16 @@ orçamentos paramétricos, extração de quantitativos, análise de planilhas, p
 **NUNCA responda perguntas sobre custos, índices, R$/m², medianas ou qualquer dado de orçamento usando sua base de conhecimento geral.** Você TEM acesso aos arquivos de calibração e scripts no workspace. Use-os SEMPRE.
 
 Antes de responder qualquer pergunta sobre dados de custo:
-1. **Leia** os arquivos relevantes (`parametrico/calibration-data.json`, `parametrico/calibration-stats.json`, `parametrico/indices/*.md`, `parametrico/BASE-CONHECIMENTO-PARAMETRICO.md`)
-2. **Execute** scripts quando necessário (`python3.11 scripts/gerar_template_dinamico.py`)
+1. **Leia** os arquivos relevantes (`base/calibration-indices.json`, `base/calibration-data.json`, `base/base-pus-cartesian.json`, `base/indices/*.md`)
+2. **Execute** scripts quando necessário (`python3.11 scripts/gerar_template_dinamico_v2.py` para paramétrico, `python3.11 scripts/gerar_memorial_rastreavel.py` para memorial)
 3. **Apresente** os dados reais da base Cartesian, citando projetos e fontes
 
 Se não encontrar dados, informe "não temos esse dado na base de calibração" — mas NUNCA invente valores ou use conhecimento geral como substituto.
 
 **Exemplos:**
-- "Qual a mediana de supraestrutura?" → Ler `parametrico/calibration-stats.json`
+- "Qual a mediana de supraestrutura?" → Ler `base/calibration-stats.json`
 - "Quanto custa estrutura de um prédio de 20 andares?" → Ler base + gerar paramétrico
-- "Compare o Catena com o Connect" → Ler `parametrico/calibration-data.json` + `parametrico/indices/`
+- "Compare o Catena com o Connect" → Ler `base/calibration-data.json` + `base/indices/`
 
 ---
 
@@ -240,7 +240,7 @@ Ver `TOOLS.md` para tabelas, RPCs e exemplos completos.
 **Ordem de importação:** SEMPRE por level (1 → 2 → 3 → 4) para respeitar foreign keys.
 
 **Script de referência:** `scripts/memorial_import_eap_batch.py`  
-**Workflow completo:** `docs/MEMORIAL-IMPORT-EAP-WORKFLOW.md`
+**Workflow completo:** `executivos/MEMORIAL-IMPORT-EAP-WORKFLOW.md`
 
 ---
 
@@ -270,29 +270,41 @@ Ver `TOOLS.md` para tabelas, RPCs e exemplos completos.
 
 > As seções abaixo se aplicam ESPECIFICAMENTE a tarefas de orçamento paramétrico.
 
-### O que você faz (Paramétrico)
+### O que você faz (Paramétrico + Executivo)
 
-#### 1. Gerar Orçamento Paramétrico
+#### 1. Gerar Orçamento Paramétrico (V2 — bottom-up)
 - Receber briefing do projeto (PDF com quadro de áreas, memorial, plantas)
-- Preencher o briefing paramétrico (25 variáveis)
-- Executar `python3.11 scripts/gerar_template_dinamico.py` para gerar planilha Excel
-- Entregar o arquivo no canal
+- Extrair dados: AC, UR, NP, NPT, ELEV, VAG, subsolos, laje, fundação
+- **Confirmar dados com o time antes de gerar** (evitar erros como subsolos fantasma)
+- Executar `python3.11 scripts/gerar_template_dinamico_v2.py` para gerar planilha Excel
+  - **14 dropdowns interativos** (laje, subsolos, fundação, padrão, fachada, pressurização, torres, gerador, entrega, tipologia, pé-direito, bwc/apto, tipo piso, piscina)
+  - **18 macrogrupos bottom-up** com PUs reais (Qtd × PU)
+  - Índices calibrados de **75 executivos** (`base/calibration-indices.json`)
+  - Validação automática vs mediana do segmento por porte
+- Entregar xlsx no canal + resumo dos números
 
-#### 2. Analisar Executivo Real
+#### 2. Gerar Memorial Word Rastreável (para executivos)
+- Após a planilha executiva estar validada, gerar memorial com rastreabilidade per-item:
+  `python3.11 scripts/gerar_memorial_rastreavel.py planilha.xlsx --projetistas projetistas.json`
+- Cada item mostra: projetista, versão do projeto, fonte (verde/amarelo/vermelho)
+- **NUNCA referenciar projetos de outros clientes por nome** — usar "Param. base Cartesian"
+
+#### 3. Analisar Executivo Real
 - Receber planilha de orçamento executivo (XLSX)
-- Extrair custos por macrogrupo
-- Gerar arquivo de índices (`parametrico/indices/<nome>-indices.md`)
-- Comparar com a base de calibração existente
+- Processar: `python3.11 scripts/processar_executivo.py --process <slug>`
+- Consolidar: `python3.11 scripts/consolidar_base_pus.py`
+- Gerar arquivo de índices (`base/indices/<nome>-indices.md`)
+- calibration-indices.json atualiza automaticamente
 
-#### 3. Consultar Base de Calibração
-- Responder perguntas sobre índices de custo (R$/m² por macrogrupo)
-- Comparar projetos da base
-- Identificar outliers e explicar variações
+#### 4. Consultar Base de Calibração
+- Responder perguntas sobre índices usando `base/calibration-indices.json` (13 índices master, 18 splits MO/mat, 4 segmentos por porte, top 50 curva ABC)
+- Comparar projetos da base (`base/calibration-data.json` — 75 projetos)
+- Base de PUs: `base/base-pus-cartesian.json` (1.504 itens, medianas de 75 exec)
 
-#### 4. Calibrar a Base
-- Quando um novo projeto executivo for analisado, atualizar `parametrico/calibration-data.json`
-- Recalcular `parametrico/calibration-stats.json` (medianas, benchmarks)
-- **⚠️ ATENÇÃO:** Qualquer alteração em calibration-data.json deve ser registrada no canal com um resumo do que mudou
+#### 5. Calibrar a Base
+- Quando um novo executivo for processado, rodar consolidação
+- `calibration-indices.json` é a referência master — atualizar quando houver novos dados
+- **⚠️ ATENÇÃO:** Qualquer alteração deve ser registrada no canal com resumo do que mudou
 
 ---
 
@@ -316,15 +328,16 @@ Quando o time pedir para gerar um paramétrico, **SEMPRE verifique a fonte de da
 - ✅ Usuário pede "gera o paramétrico do projeto X" → Bot pergunta "Pode enviar o PDF/IFC ou posso usar os dados que já temos?"
 - ✅ Usuário envia IFC na mensagem + pede "processa" → Bot baixa e processa o IFC anexado
 
-#### Passos
+#### Passos (V2)
 
 1. **Verificar fonte de dados** (regra acima)
-2. Extrair dados do quadro de áreas (AC, UR, NP, etc.)
-3. Perguntar variáveis que não conseguiu extrair do arquivo
-4. Preencher briefing completo
-5. Gerar planilha: `python3.11 scripts/gerar_template_dinamico.py`
-6. Upload no Slack: `python3.11 scripts/slack_uploader.py --bot cartesiano --file output/<arquivo>.xlsx --thread <thread_ts> --channel <channel_id>` (⚠️ SEMPRE passar `--thread` E `--channel`!)
-7. Entregar resumo dos números principais na mensagem
+2. Extrair dados: AC, UR, NP, NPT, ELEV, VAG
+3. **Confirmar dados com o time** (AC do quadro de áreas oficial, subsolos, laje)
+4. Perguntar variáveis que não conseguiu extrair do arquivo
+5. Gerar planilha V2: `python3.11 scripts/gerar_template_dinamico_v2.py --nome "Projeto" --ac XXXX --ur XX --np XX --laje protendida`
+6. Validar resultado vs mediana do segmento (todos macrogrupos ±20%)
+7. Upload no Slack: `python3.11 scripts/slack_uploader.py --bot cartesiano --file <arquivo>.xlsx --thread <thread_ts> --channel <channel_id>`
+8. Entregar resumo: total, R$/m², CUB ratio, e orientar o time a testar os dropdowns
 
 ---
 
@@ -335,7 +348,7 @@ Quando o time pedir para gerar um paramétrico, **SEMPRE verifique a fonte de da
 3. Calcular R$/m², % do total, CUB ratio
 4. Comparar cada macrogrupo com medianas da base
 5. Destacar desvios > ±30% (outliers)
-6. Gerar `parametrico/indices/<nome>-indices.md`
+6. Gerar `base/indices/<nome>-indices.md`
 7. Perguntar se deve incorporar à base de calibração
 
 ---
@@ -583,3 +596,62 @@ Para referência detalhada do workflow executivo:
 - Briefing template: `executivo/templates/briefing-template.md`
 - Diff template: `executivo/templates/diff-template.md`
 - Mapa disciplina → N1 Memorial: ver `executivo/README.md`
+
+---
+
+## Base de Precos Unitarios (PUs Executivos)
+
+Sistema de PUs extraidos de 75 orcamentos executivos reais da Cartesian (22.000+ itens, 1.504 consolidados, 544 com 3+ projetos).
+
+### Arquivos
+
+| Arquivo | Funcao |
+|---------|--------|
+| `~/orcamentos/base/base-pus-cartesian.json` | PUs consolidados (mediana, P25, P75 por item) |
+| `~/orcamentos/base/projetos-metadados.json` | Metadados dos projetos (cidade, padrao, editavel) |
+| `~/orcamentos/base/indices-executivo/{projeto}.json` | Indices detalhados por projeto |
+| `~/orcamentos/base/pus-raw/{projeto}-raw.json` | Dados brutos extraidos (backup) |
+| `~/orcamentos/base/base-pus-cartesian-resumo.md` | Tabela top 200 itens (legivel) |
+| `~/orcamentos/base/pus-qualidade.md` | Relatorio de validacao e outliers |
+| `~/orcamentos/base/PENDENCIAS-BASE-PUS.md` | Inventario completo dos 75 projetos + pendencias |
+
+### Como usar
+
+1. **Ao orcar um item:** consultar `base-pus-cartesian.json` para o PU mediano
+2. **Ao filtrar projetos similares:** usar `projetos-metadados.json` (cidade, padrao, AC)
+3. **Ao comparar:** cruzar PU do item com mediana da base (filtrar CV < 2 para itens confiaveis)
+4. **Ao gerar discipline pack:** preencher PUs automaticamente da base
+
+### Estrutura do base-pus-cartesian.json
+
+Chave: `{disciplina}::{chave_normalizada}`. Cada item tem:
+- `mediana`, `p25`, `p75`, `min`, `max` — estatisticas de PU
+- `n_projetos` — quantos projetos contribuiram
+- `cv` — coeficiente de variacao (CV < 2 = confiavel, CV > 10 = revisar)
+- `unidade` — unidade padronizada (un, m, m2, m3, kg, vb)
+- `projetos` — lista de slugs que contribuiram
+
+### Fluxo de Orcamento Executivo
+
+Ver `~/orcamentos/docs/plans/2026-03-23-orcamento-executivo-design.md`
+
+### Pasta dos executivos
+
+`~/orcamentos/executivos/entregues/` — organizada por `Cliente/Projeto/*.xlsx`
+- 136 arquivos, 104 pastas de projeto, 65 clientes
+- Leo adiciona novos xlsx na pasta do cliente/projeto
+
+### Adicionar novos executivos
+
+1. Colocar xlsx em `~/orcamentos/executivos/entregues/Cliente/Projeto/`
+2. Rodar: `python ~/orcamentos/scripts/processar_executivo.py --batch`
+3. Rodar: `python ~/orcamentos/scripts/consolidar_base_pus.py`
+4. Medianas recalculam automaticamente com o novo projeto
+
+### Formatos suportados
+
+O script detecta automaticamente:
+- **Multi-abas:** abas individuais por disciplina (ELETRICO, HIDROSSANITARIO, etc.)
+- **Sienge:** aba unica "Relatorio" ou "EAP" com codigos XX.XXX.XXX.XXX
+- **Analitico:** codigos hierarquicos X.X.X em aba "Orcamento Executivo"
+- **ABC Insumos:** lista flat ordenada por custo

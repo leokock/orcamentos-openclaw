@@ -1,0 +1,766 @@
+{
+  "projeto": "adore-cacupe",
+  "ac": 6494.63,
+  "ur": null,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Movimentacao de Terra": {
+      "total": 4367.728382595803,
+      "rsm2": 0.6725138125799011,
+      "n_itens": 5,
+      "subcategorias": {}
+    },
+    "Infraestrutura": {
+      "total": 1901299.5619200002,
+      "rsm2": 292.74948102047387,
+      "n_itens": 5,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 1901299.5619200002,
+          "n_itens": 0
+        },
+        "TOTAL INFRAESTRUTURA": {
+          "total": 1901299.5619200002,
+          "n_itens": 0
+        }
+      }
+    },
+    "Supraestrutura": {
+      "total": 4975870.685324,
+      "rsm2": 766.151526002867,
+      "n_itens": 13,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 4000980.267724001,
+          "n_itens": 6
+        },
+        "TOTAL SUPRAESTRUTURA": {
+          "total": 4975870.685324001,
+          "n_itens": 0
+        }
+      }
+    },
+    "Sistemas Especiais": {
+      "total": 1498526.7550000001,
+      "rsm2": 230.73319881194158,
+      "n_itens": 14,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 472230.00000000006,
+          "n_itens": 10
+        },
+        "TOTAL SISTEMAS ESPECIAIS": {
+          "total": 1498526.7550000001,
+          "n_itens": 0
+        }
+      }
+    },
+    "Servicos Complementares": {
+      "total": 862100.3600000001,
+      "rsm2": 132.7404886806485,
+      "n_itens": 6,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 862100.3600000001,
+          "n_itens": 0
+        },
+        "TOTAL COMPLEMENTARES": {
+          "total": 862100.3600000001,
+          "n_itens": 0
+        }
+      }
+    },
+    "Alvenaria": {
+      "total": 2884207.9576887502,
+      "rsm2": 444.09118882657674,
+      "n_itens": 18,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 1139723.7217162498,
+          "n_itens": 9
+        },
+        "TOTAL ALVENARIA": {
+          "total": 1744481.2659725,
+          "n_itens": 0
+        }
+      }
+    },
+    "Fachada": {
+      "total": 1720170.4410000003,
+      "rsm2": 264.8604217638265,
+      "n_itens": 2,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 907867.7327500002,
+          "n_itens": 1
+        },
+        "TOTAL FACHADA": {
+          "total": 1720170.4410000003,
+          "n_itens": 0
+        }
+      }
+    },
+    "Impermeabilizacao": {
+      "total": 393341.41154000006,
+      "rsm2": 60.56409857682424,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 393341.41154000006,
+          "n_itens": 0
+        },
+        "TOTAL IMPERMEABILIZAÇÃO": {
+          "total": 393341.41154000006,
+          "n_itens": 0
+        }
+      }
+    },
+    "Forro": {
+      "total": 747843.6552400001,
+      "rsm2": 115.14800000000001,
+      "n_itens": 4,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 747843.65524,
+          "n_itens": 0
+        },
+        "TOTAL FORRO": {
+          "total": 747843.65524,
+          "n_itens": 0
+        }
+      }
+    },
+    "Pintura": {
+      "total": 711770.466,
+      "rsm2": 109.59368986377977,
+      "n_itens": 4,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 711770.466,
+          "n_itens": 0
+        },
+        "TOTAL IMPERMEABILIZAÇÃO": {
+          "total": 711770.466,
+          "n_itens": 0
+        }
+      }
+    },
+    "Esquadrias": {
+      "total": 2180211.517,
+      "rsm2": 335.6944917570362,
+      "n_itens": 11,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 2180211.517,
+          "n_itens": 0
+        },
+        "TOTAL ESQUADRIAS": {
+          "total": 2180211.517,
+          "n_itens": 0
+        }
+      }
+    },
+    "Cobertura": {
+      "total": 46527.195,
+      "rsm2": 7.163948523626442,
+      "n_itens": 2,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 46527.195,
+          "n_itens": 0
+        },
+        "TOTAL COMPLEMENTARES": {
+          "total": 46527.195,
+          "n_itens": 0
+        }
+      }
+    }
+  },
+  "indices_consumo": {},
+  "split_mo_material": {
+    "Movimentacao de Terra": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.3,
+      "material_pct": 0.7
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.356,
+      "material_pct": 0.644
+    },
+    "Sistemas Especiais": {
+      "mo_pct": 0.159,
+      "material_pct": 0.841
+    },
+    "Servicos Complementares": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Alvenaria": {
+      "mo_pct": 0.225,
+      "material_pct": 0.775
+    },
+    "Fachada": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Impermeabilizacao": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Forro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Pintura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Esquadrias": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Cobertura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Movimentacao de Terra": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 5,
+      "itens": [
+        {
+          "desc": "Movimentação de terra das estacas",
+          "pct": 0.266,
+          "total": 1163.771582595803
+        },
+        {
+          "desc": "Escavação mecanizada para blocos e baldrames",
+          "pct": 0.231,
+          "total": 1008.3216000000001
+        },
+        {
+          "desc": "Movimentação de bota-fora",
+          "pct": 0.231,
+          "total": 1008.3216000000001
+        },
+        {
+          "desc": "Lastro de concreto magto e=5cm",
+          "pct": 0.219,
+          "total": 954.624
+        },
+        {
+          "desc": "Reaterro para blocos e baldrames",
+          "pct": 0.053,
+          "total": 232.68960000000004
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 5,
+      "itens": [
+        {
+          "desc": "Armação",
+          "pct": 0.302,
+          "total": 574712.2867200001
+        },
+        {
+          "desc": "Concreto (40 Mpa)",
+          "pct": 0.273,
+          "total": 519595.87680000014
+        },
+        {
+          "desc": "Mão de obra",
+          "pct": 0.249,
+          "total": 472538.88
+        },
+        {
+          "desc": "Piso de concreto armado",
+          "pct": 0.124,
+          "total": 236269.44
+        },
+        {
+          "desc": "Fabricação, montagem e desmontagem de forma para blocos e ba",
+          "pct": 0.052,
+          "total": 98183.07840000003
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 13,
+      "itens": [
+        {
+          "desc": "Mão de obra - estrutura em concreto armado",
+          "pct": 0.345,
+          "total": 1714582.32
+        },
+        {
+          "desc": "Armadura Convencional para Estrutura",
+          "pct": 0.192,
+          "total": 954324.0771240002
+        },
+        {
+          "desc": "Concreto",
+          "pct": 0.133,
+          "total": 660353.0956000001
+        },
+        {
+          "desc": "Fabricação forma",
+          "pct": 0.099,
+          "total": 491156.39375000005
+        },
+        {
+          "desc": "Armadura Convencional para Estrutura",
+          "pct": 0.083,
+          "total": 412585.50960000005
+        },
+        {
+          "desc": "Concreto",
+          "pct": 0.06,
+          "total": 299766.852
+        },
+        {
+          "desc": "Fabricação forma",
+          "pct": 0.023,
+          "total": 113704.66800000002
+        },
+        {
+          "desc": "Escoramento",
+          "pct": 0.018,
+          "total": 89273.8
+        },
+        {
+          "desc": "Escoramento",
+          "pct": 0.018,
+          "total": 89273.8
+        },
+        {
+          "desc": "Cubetas",
+          "pct": 0.01,
+          "total": 49222.8
+        },
+        {
+          "desc": "Perfuração de vigas",
+          "pct": 0.009,
+          "total": 46640.00000000001
+        },
+        {
+          "desc": "Montagem de forma",
+          "pct": 0.009,
+          "total": 44650.58125
+        },
+        {
+          "desc": "Montagem de forma",
+          "pct": 0.002,
+          "total": 10336.788000000002
+        }
+      ]
+    },
+    "Sistemas Especiais": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 14,
+      "itens": [
+        {
+          "desc": "Elevadores",
+          "pct": 0.48,
+          "total": 718921.5
+        },
+        {
+          "desc": "Infraestrutura para Instalação de Ar Condicionado",
+          "pct": 0.137,
+          "total": 204600.00000000003
+        },
+        {
+          "desc": "Outros sistemas",
+          "pct": 0.095,
+          "total": 142881.86000000002
+        },
+        {
+          "desc": "Churrasqueiras",
+          "pct": 0.086,
+          "total": 128700.00000000001
+        },
+        {
+          "desc": "Ventokit",
+          "pct": 0.071,
+          "total": 105930.00000000001
+        },
+        {
+          "desc": "Interfone",
+          "pct": 0.024,
+          "total": 35720.465000000004
+        },
+        {
+          "desc": "Automação, telecomunicação e sistemas de segurança",
+          "pct": 0.024,
+          "total": 35720.465000000004
+        },
+        {
+          "desc": "Instalação de Ar Condicionado",
+          "pct": 0.022,
+          "total": 33000.0
+        },
+        {
+          "desc": "Equipamento de piscina",
+          "pct": 0.018,
+          "total": 27500.000000000004
+        },
+        {
+          "desc": "TV e internet",
+          "pct": 0.014,
+          "total": 21432.279000000002
+        },
+        {
+          "desc": "Grupo de geradores",
+          "pct": 0.013,
+          "total": 19800.0
+        },
+        {
+          "desc": "CFTV",
+          "pct": 0.01,
+          "total": 14288.186000000002
+        },
+        {
+          "desc": "Bombas",
+          "pct": 0.006,
+          "total": 8800.0
+        },
+        {
+          "desc": "Infra de carro elétrico",
+          "pct": 0.001,
+          "total": 1232.0
+        }
+      ]
+    },
+    "Servicos Complementares": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 6,
+      "itens": [
+        {
+          "desc": "Móveis e decoração",
+          "pct": 0.619,
+          "total": 533472.082
+        },
+        {
+          "desc": "Limpeza",
+          "pct": 0.124,
+          "total": 107161.395
+        },
+        {
+          "desc": "Paisagismo",
+          "pct": 0.099,
+          "total": 85729.11600000001
+        },
+        {
+          "desc": "Comunicação visual",
+          "pct": 0.083,
+          "total": 71440.93000000001
+        },
+        {
+          "desc": "Desmobilização",
+          "pct": 0.041,
+          "total": 35720.465000000004
+        },
+        {
+          "desc": "Ligações definitivas",
+          "pct": 0.033,
+          "total": 28576.372000000003
+        }
+      ]
+    },
+    "Alvenaria": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 18,
+      "itens": [
+        {
+          "desc": "Drywall tipo",
+          "pct": 0.369,
+          "total": 1064886.98085
+        },
+        {
+          "desc": "Mão de obra",
+          "pct": 0.142,
+          "total": 409108.5265575
+        },
+        {
+          "desc": "Alvenaria tipo",
+          "pct": 0.126,
+          "total": 363029.6525625
+        },
+        {
+          "desc": "Mão de obra",
+          "pct": 0.083,
+          "total": 239694.68869500002
+        },
+        {
+          "desc": "Serviços complementares",
+          "pct": 0.051,
+          "total": 146110.18805625002
+        },
+        {
+          "desc": "Alvenaria tipo",
+          "pct": 0.05,
+          "total": 145211.861025
+        },
+        {
+          "desc": "Alvenaria escadas",
+          "pct": 0.036,
+          "total": 105018.16710000002
+        },
+        {
+          "desc": "Alvenaria escadas",
+          "pct": 0.035,
+          "total": 100017.30200000001
+        },
+        {
+          "desc": "Serviços complementares",
+          "pct": 0.03,
+          "total": 85605.24596250002
+        },
+        {
+          "desc": "Alvenaria embasamento",
+          "pct": 0.02,
+          "total": 56582.955
+        },
+        {
+          "desc": "Alvenaria embasamento",
+          "pct": 0.02,
+          "total": 56582.955
+        },
+        {
+          "desc": "Alvenaria cobertura / reservatório",
+          "pct": 0.012,
+          "total": 35202.875400000004
+        },
+        {
+          "desc": "Alvenaria cobertura / reservatório",
+          "pct": 0.012,
+          "total": 35202.875400000004
+        },
+        {
+          "desc": "Alvenaria refratárias",
+          "pct": 0.006,
+          "total": 17787.0
+        },
+        {
+          "desc": "Alvenaria refratárias",
+          "pct": 0.004,
+          "total": 10395.0
+        },
+        {
+          "desc": "Alvenaria lazer",
+          "pct": 0.002,
+          "total": 6884.357040000001
+        },
+        {
+          "desc": "Alvenaria lazer",
+          "pct": 0.002,
+          "total": 6884.357040000001
+        },
+        {
+          "desc": "ALVENARIA",
+          "pct": 0.0,
+          "total": 2.97
+        }
+      ]
+    },
+    "Fachada": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 2,
+      "itens": [
+        {
+          "desc": "Chapisco e reboco",
+          "pct": 0.528,
+          "total": 907867.7327500002
+        },
+        {
+          "desc": "Textura",
+          "pct": 0.472,
+          "total": 812302.7082500001
+        }
+      ]
+    },
+    "Impermeabilizacao": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Impermeabilizações com manta asfaltica",
+          "pct": 0.321,
+          "total": 126128.961915
+        },
+        {
+          "desc": "Impermeabilizações cimenticias",
+          "pct": 0.272,
+          "total": 107161.395
+        },
+        {
+          "desc": "Regularização de Superfície",
+          "pct": 0.164,
+          "total": 64518.30388300001
+        },
+        {
+          "desc": "Baldrames",
+          "pct": 0.128,
+          "total": 50535.40800000001
+        },
+        {
+          "desc": "Proteção Mecânica",
+          "pct": 0.082,
+          "total": 32105.553942000002
+        },
+        {
+          "desc": "Ralos",
+          "pct": 0.018,
+          "total": 7144.093000000001
+        },
+        {
+          "desc": "Impermeabilização de peitoril",
+          "pct": 0.011,
+          "total": 4286.4558
+        },
+        {
+          "desc": "Poço do elevador",
+          "pct": 0.004,
+          "total": 1461.2400000000005
+        }
+      ]
+    },
+    "Forro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 4,
+      "itens": [
+        {
+          "desc": "Forro gesso acartonado st",
+          "pct": 0.525,
+          "total": 392925.11500000005
+        },
+        {
+          "desc": "Forro gesso acartonado ru",
+          "pct": 0.229,
+          "total": 171458.23200000005
+        },
+        {
+          "desc": "Negativo",
+          "pct": 0.177,
+          "total": 132022.83864000003
+        },
+        {
+          "desc": "Estucamento",
+          "pct": 0.069,
+          "total": 51437.4696
+        }
+      ]
+    },
+    "Pintura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 4,
+      "itens": [
+        {
+          "desc": "Pintura Interna",
+          "pct": 0.602,
+          "total": 428645.58
+        },
+        {
+          "desc": "Pintura piso epoxi",
+          "pct": 0.213,
+          "total": 151262.10000000003
+        },
+        {
+          "desc": "Textura escadas",
+          "pct": 0.151,
+          "total": 107161.395
+        },
+        {
+          "desc": "Pintura acrílica antiderrapante",
+          "pct": 0.035,
+          "total": 24701.391
+        }
+      ]
+    },
+    "Esquadrias": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 11,
+      "itens": [
+        {
+          "desc": "Esquadrias de Alumínio",
+          "pct": 0.482,
+          "total": 1050181.671
+        },
+        {
+          "desc": "Esquadrias de Madeira",
+          "pct": 0.14,
+          "total": 306240.0
+        },
+        {
+          "desc": "Gradil - BRISE",
+          "pct": 0.095,
+          "total": 206533.88800000004
+        },
+        {
+          "desc": "Brise de aluminio",
+          "pct": 0.086,
+          "total": 186531.84
+        },
+        {
+          "desc": "Guarda-corpo - vidro",
+          "pct": 0.068,
+          "total": 147269.10000000003
+        },
+        {
+          "desc": "Fechadura Biometrica",
+          "pct": 0.064,
+          "total": 140250.0
+        },
+        {
+          "desc": "Serralherias",
+          "pct": 0.033,
+          "total": 71440.93000000001
+        },
+        {
+          "desc": "PCF",
+          "pct": 0.014,
+          "total": 30800.000000000004
+        },
+        {
+          "desc": "Corrimão madeira",
+          "pct": 0.009,
+          "total": 20537.088
+        },
+        {
+          "desc": "Portão de alumínio",
+          "pct": 0.009,
+          "total": 19800.0
+        },
+        {
+          "desc": "Corrimão inox",
+          "pct": 0.0,
+          "total": 627.0
+        }
+      ]
+    },
+    "Cobertura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 2,
+      "itens": [
+        {
+          "desc": "Estrutura e telhamento",
+          "pct": 0.917,
+          "total": 42685.5
+        },
+        {
+          "desc": "Serviços complementares",
+          "pct": 0.083,
+          "total": 3841.695
+        }
+      ]
+    }
+  }
+}

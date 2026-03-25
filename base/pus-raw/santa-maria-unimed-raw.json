@@ -1,0 +1,970 @@
+{
+  "projeto": "santa-maria-unimed",
+  "arquivo": "entrega-Santa-Maria-Unimed--CTN-STM-UNI - Gerenciamento_executivo_R01.xlsx",
+  "ac": 52516.04,
+  "ur": null,
+  "disciplinas": {
+    "Movimentacao de Terra": {
+      "total": 493616.3792459616,
+      "n_itens": 6,
+      "itens": [
+        {
+          "descricao": "Rebaixamento de Lençol",
+          "quantidade": 10.0,
+          "unidade": "dias",
+          "pu": 150.0,
+          "total": 1500.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "rebaixamento_lencol"
+        },
+        {
+          "descricao": "Escavação vertical",
+          "quantidade": 3290.07,
+          "unidade": "m3",
+          "pu": 1.5,
+          "total": 263205.60000000003,
+          "subgrupo": "TOTAL",
+          "pavimento": "ESCAVAÇÃO VERTICAL PARA SUBSOLO",
+          "chave_normalizada": "escavacao_vertical"
+        },
+        {
+          "descricao": "Escavação mecanizada para blocos e baldrames",
+          "quantidade": 1389.3776000000003,
+          "unidade": "m3",
+          "pu": 0.5,
+          "total": 86837.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "ESCAVAÇÃO VERTICAL PARA SUBSOLO",
+          "chave_normalizada": "escavacao_mecanizada_para_blocos_baldrames"
+        },
+        {
+          "descricao": "Reaterro para blocos e baldrames",
+          "quantidade": 320.6256000000001,
+          "unidade": "m3",
+          "pu": 0.2,
+          "total": 8016.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "ESCAVAÇÃO VERTICAL PARA SUBSOLO",
+          "chave_normalizada": "reaterro_para_blocos_baldrames"
+        },
+        {
+          "descricao": "Movimentação de terra das estacas",
+          "quantidade": 2189.061761021368,
+          "unidade": "m3",
+          "pu": 1.3,
+          "total": 98507.77924596156,
+          "subgrupo": "TOTAL",
+          "pavimento": "ESCAVAÇÃO VERTICAL PARA SUBSOLO",
+          "chave_normalizada": "movimentacao_terra_estacas"
+        },
+        {
+          "descricao": "Lastro de concreto magro e= 10cm - Blocos",
+          "quantidade": 1015.695,
+          "unidade": "m2",
+          "pu": 0.5,
+          "total": 35550.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "ESCAVAÇÃO VERTICAL PARA SUBSOLO",
+          "chave_normalizada": "lastro_concreto_magro_10cm_blocos"
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "total": 8139024.988551055,
+      "n_itens": 19,
+      "itens": [
+        {
+          "descricao": "Estaca Escavada Diâmetro 100 Raiz",
+          "quantidade": 2144.0,
+          "unidade": "m",
+          "pu": 8.0,
+          "total": 257280.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "estaca_escavada_diametro_100_raiz"
+        },
+        {
+          "descricao": "Armação",
+          "quantidade": 168389.3662324129,
+          "unidade": "kg",
+          "pu": 100.0,
+          "total": 1431310.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "armacao"
+        },
+        {
+          "descricao": "Concreto",
+          "quantidade": 1683.893662324129,
+          "unidade": "m3",
+          "pu": 650.0,
+          "total": 1203984.1,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "concreto"
+        },
+        {
+          "descricao": "Mobilização",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 150000.0,
+          "total": 150000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mobilizacao"
+        },
+        {
+          "descricao": "Fabricação, montagem e desmontagem de forma para blocos e baldrames",
+          "quantidade": 2671.88,
+          "unidade": "m2",
+          "pu": 0.76,
+          "total": 160312.80000000002,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "fabricacao_montagem_desmontagem_forma_para_blocos_baldrames"
+        },
+        {
+          "descricao": "Armação",
+          "quantidade": 106875.20000000001,
+          "unidade": "kg",
+          "pu": 100.0,
+          "total": 865689.1200000001,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "armacao"
+        },
+        {
+          "descricao": "Concreto",
+          "quantidade": 1068.7520000000002,
+          "unidade": "m3",
+          "pu": 0.4,
+          "total": 729423.2400000002,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "concreto"
+        },
+        {
+          "descricao": "Mão de obra",
+          "quantidade": 7093.74,
+          "unidade": "m2",
+          "pu": 240.0,
+          "total": 2553746.4,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mao_obra"
+        },
+        {
+          "descricao": "Estaca Raiz Diâmetro 310",
+          "quantidade": 429.0,
+          "unidade": "m",
+          "pu": 3.0,
+          "total": 64350.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "estaca_raiz_diametro_310"
+        },
+        {
+          "descricao": "Estaca Raiz Diâmetro 250",
+          "quantidade": 282.0,
+          "unidade": "m",
+          "pu": 3.0,
+          "total": 42300.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "estaca_raiz_diametro_250"
+        },
+        {
+          "descricao": "Armação",
+          "quantidade": 34320.0,
+          "unidade": "kg",
+          "pu": 80.0,
+          "total": 291720.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "armacao"
+        },
+        {
+          "descricao": "Concreto",
+          "quantidade": 84.23395302437633,
+          "unidade": "m3",
+          "pu": 0.03152609886086813,
+          "total": 63680.8684864285,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "concreto"
+        },
+        {
+          "descricao": "Forma para viga de coroamento - 50x30",
+          "quantidade": 40.3395,
+          "unidade": "m2",
+          "pu": 50.0,
+          "total": 2016.9750000000001,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "forma_para_viga_coroamento_50x30"
+        },
+        {
+          "descricao": "Concreto para viga de coroamento",
+          "quantidade": 40.3395,
+          "unidade": "m3",
+          "pu": 590.0,
+          "total": 24990.32025,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "concreto_para_viga_coroamento"
+        },
+        {
+          "descricao": "Armação para viga de coroamento",
+          "quantidade": 3227.16,
+          "unidade": "vb",
+          "pu": 80.0,
+          "total": 23558.268,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "armacao_para_viga_coroamento"
+        },
+        {
+          "descricao": "Mão de obra para viga de coroamento",
+          "quantidade": 40.3395,
+          "unidade": "m3",
+          "pu": 950.0,
+          "total": 38322.525,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mao_obra_para_viga_coroamento"
+        },
+        {
+          "descricao": "Mão de obra armação",
+          "quantidade": 34320.0,
+          "unidade": "kg",
+          "pu": 2.5,
+          "total": 85800.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mao_obra_armacao"
+        },
+        {
+          "descricao": "Mão de obra concretagem",
+          "quantidade": 84.23395302437633,
+          "unidade": "m3",
+          "pu": 600.0,
+          "total": 50540.3718146258,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mao_obra_concretagem"
+        },
+        {
+          "descricao": "Mobilização",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 100000.0,
+          "total": 100000.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mobilizacao"
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "total": 35464738.2625,
+      "n_itens": 7,
+      "itens": [
+        {
+          "descricao": "Fabricação forma",
+          "quantidade": 16411.2625,
+          "unidade": "m2",
+          "pu": 25.0,
+          "total": 2051407.8125,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "fabricacao_forma"
+        },
+        {
+          "descricao": "Montagem de forma",
+          "quantidade": 131290.1,
+          "unidade": "m2",
+          "pu": 2.5,
+          "total": 1509836.1500000001,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "montagem_forma"
+        },
+        {
+          "descricao": "Escoramento - Torre",
+          "quantidade": 32687.940000000002,
+          "unidade": "m2",
+          "pu": 60.0,
+          "total": 1961276.4000000001,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "escoramento_torre"
+        },
+        {
+          "descricao": "Escoramento - Embasamento",
+          "quantidade": 19828.1,
+          "unidade": "m2",
+          "pu": 60.0,
+          "total": 1189686.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "escoramento_embasamento"
+        },
+        {
+          "descricao": "Armadura Convencional para Estrutura",
+          "quantidade": 1050320.8,
+          "unidade": "kg",
+          "pu": 80.0,
+          "total": 8927726.8,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "armadura_convencional_para_estrutura"
+        },
+        {
+          "descricao": "Concreto",
+          "quantidade": 13129.01,
+          "unidade": "m3",
+          "pu": 0.25,
+          "total": 7220955.5,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "concreto"
+        },
+        {
+          "descricao": "Mão de obra",
+          "quantidade": 52516.04,
+          "unidade": "m2",
+          "pu": 240.0,
+          "total": 12603849.6,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mao_obra"
+        }
+      ]
+    },
+    "Alvenaria": {
+      "total": 6057180.09,
+      "n_itens": 6,
+      "itens": [
+        {
+          "descricao": "Alvenaria",
+          "quantidade": 38509.02,
+          "unidade": "m2",
+          "pu": 60.0,
+          "total": 2310541.1999999997,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "alvenaria"
+        },
+        {
+          "descricao": "Drywall (MAT E MO)",
+          "quantidade": 16798.23,
+          "unidade": "m2",
+          "pu": 80.0,
+          "total": 1343858.4,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "drywall_mat_mo"
+        },
+        {
+          "descricao": "Bloco de concreto autoclavado",
+          "quantidade": 7155.39,
+          "unidade": "m2",
+          "pu": 50.0,
+          "total": 357769.5,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "bloco_concreto_autoclavado"
+        },
+        {
+          "descricao": "Serviços complementares",
+          "quantidade": 45664.409999999996,
+          "unidade": "m2",
+          "pu": 9.0,
+          "total": 410979.68999999994,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "servicos_complementares"
+        },
+        {
+          "descricao": "Mão de obra - Bloco Cerâmico",
+          "quantidade": 38509.02,
+          "unidade": "m2",
+          "pu": 35.0,
+          "total": 1347815.7,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mao_obra_bloco_ceramico"
+        },
+        {
+          "descricao": "Mão de obra - Bloco Concreto",
+          "quantidade": 7155.39,
+          "unidade": "m2",
+          "pu": 40.0,
+          "total": 286215.60000000003,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mao_obra_bloco_concreto"
+        }
+      ]
+    },
+    "Sistemas Especiais": {
+      "total": 18029530.72,
+      "n_itens": 13,
+      "itens": [
+        {
+          "descricao": "Infraestrutura para Instalação de Ar Condicionado",
+          "quantidade": 30.0,
+          "unidade": "un",
+          "pu": 1500.0,
+          "total": 45000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "infraestrutura_para_instalacao_ar_condicionado"
+        },
+        {
+          "descricao": "Máquinas de Ar Condiocinado para as áreas comuns",
+          "quantidade": 30.0,
+          "unidade": "un",
+          "pu": 6000.0,
+          "total": 180000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "maquinas_ar_condiocinado_para_as_areas_comuns"
+        },
+        {
+          "descricao": "Exaustão Mecânica Garagens",
+          "quantidade": 8.0,
+          "unidade": "un",
+          "pu": 150000.0,
+          "total": 1200000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "exaustao_mecanica_garagens"
+        },
+        {
+          "descricao": "Ventokit",
+          "quantidade": 476.0,
+          "unidade": "un",
+          "pu": 1000.0,
+          "total": 476000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "ventokit"
+        },
+        {
+          "descricao": "Exaustão Mecânica Corredores",
+          "quantidade": 22.0,
+          "unidade": "pvto",
+          "pu": 100000.0,
+          "total": 2200000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "exaustao_mecanica_corredores"
+        },
+        {
+          "descricao": "CFTV",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 3.0,
+          "total": 157548.12,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "cftv"
+        },
+        {
+          "descricao": "Interfone",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 10.0,
+          "total": 525160.4,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "interfone"
+        },
+        {
+          "descricao": "TV e internet",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 12.0,
+          "total": 630192.48,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "tv_internet"
+        },
+        {
+          "descricao": "Automação, telecomunicação e sistemas de segurança",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 15.0,
+          "total": 787740.6,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "automacao_telecomunicacao_sistemas_seguranca"
+        },
+        {
+          "descricao": "Outros sistemas",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 20.0,
+          "total": 1050320.8,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "outros_sistemas"
+        },
+        {
+          "descricao": "Elevadores sociais",
+          "quantidade": 14.0,
+          "unidade": "un",
+          "pu": 9645900.0,
+          "total": 9645900.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "elevadores_sociais"
+        },
+        {
+          "descricao": "Grupo de geradores",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 500000.0,
+          "total": 500000.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "grupo_geradores"
+        },
+        {
+          "descricao": "Escada pressurizada",
+          "quantidade": 68.0,
+          "unidade": "pvto",
+          "pu": 9289.24,
+          "total": 631668.32,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "escada_pressurizada"
+        }
+      ]
+    },
+    "Impermeabilizacao": {
+      "total": 1182990.9989999998,
+      "n_itens": 8,
+      "itens": [
+        {
+          "descricao": "Regularização de Superfície",
+          "quantidade": 8661.934000000001,
+          "unidade": "m2",
+          "pu": 15.5,
+          "total": 134259.977,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "regularizacao_superficie"
+        },
+        {
+          "descricao": "Poço do elevador",
+          "quantidade": 119.25,
+          "unidade": "m2",
+          "pu": 45.0,
+          "total": 5366.25,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "poco_elevador"
+        },
+        {
+          "descricao": "Baldrame",
+          "quantidade": 1870.316,
+          "unidade": "m2",
+          "pu": 45.0,
+          "total": 84164.22,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "baldrame"
+        },
+        {
+          "descricao": "Ralos",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 2.8,
+          "total": 147044.91199999998,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "ralos"
+        },
+        {
+          "descricao": "Impermeabilizações cimenticias",
+          "quantidade": 5251.604,
+          "unidade": "m2",
+          "pu": 0.1,
+          "total": 210064.16,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "impermeabilizacoes_cimenticias"
+        },
+        {
+          "descricao": "Impermeabilizações com manta asfaltica",
+          "quantidade": 3410.33,
+          "unidade": "m2",
+          "pu": 0.2,
+          "total": 358084.64999999997,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "impermeabilizacoes_com_manta_asfaltica"
+        },
+        {
+          "descricao": "Impermeabilização de peitoril",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 0.75,
+          "total": 39387.03,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "impermeabilizacao_peitoril"
+        },
+        {
+          "descricao": "Proteção Mecânica",
+          "quantidade": 3410.33,
+          "unidade": "m2",
+          "pu": 60.0,
+          "total": 204619.8,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "protecao_mecanica"
+        }
+      ]
+    },
+    "Forro": {
+      "total": 1768251.2,
+      "n_itens": 3,
+      "itens": [
+        {
+          "descricao": "Forro modular",
+          "quantidade": 19273.44,
+          "unidade": "m2",
+          "pu": 50.0,
+          "total": 963671.9999999999,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "forro_modular"
+        },
+        {
+          "descricao": "Forro de gesso",
+          "quantidade": 9741.85,
+          "unidade": "m2",
+          "pu": 80.0,
+          "total": 779348.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "forro_gesso"
+        },
+        {
+          "descricao": "Forro de gesso",
+          "quantidade": 210.26,
+          "unidade": "m2",
+          "pu": 120.0,
+          "total": 25231.199999999997,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "forro_gesso"
+        }
+      ]
+    },
+    "Pintura": {
+      "total": 3901853.6999999997,
+      "n_itens": 3,
+      "itens": [
+        {
+          "descricao": "Pintura acrílica paredes",
+          "quantidade": 798.5400000000001,
+          "unidade": "m2",
+          "pu": 70.0,
+          "total": 55897.8,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "pintura_acrilica_paredes"
+        },
+        {
+          "descricao": "Pintura acrílica piso",
+          "quantidade": 17457.530000000002,
+          "unidade": "m2",
+          "pu": 70.0,
+          "total": 1222027.1,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "pintura_acrilica_piso"
+        },
+        {
+          "descricao": "Textura grafiato paredes",
+          "quantidade": 32799.11,
+          "unidade": "m2",
+          "pu": 80.0,
+          "total": 2623928.8,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "textura_grafiato_paredes"
+        }
+      ]
+    },
+    "Esquadrias": {
+      "total": 12489032.007,
+      "n_itens": 8,
+      "itens": [
+        {
+          "descricao": "Esquadrias de Alumínio",
+          "quantidade": 367.76,
+          "unidade": "m2",
+          "pu": 1800.0,
+          "total": 661968.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "esquadrias_aluminio"
+        },
+        {
+          "descricao": "Guarda corpo de vidro",
+          "quantidade": 1925.31,
+          "unidade": "m2",
+          "pu": 1279.7,
+          "total": 2463819.207,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "guarda_corpo_vidro"
+        },
+        {
+          "descricao": "Serralherias",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 800000.0,
+          "total": 800000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "serralherias"
+        },
+        {
+          "descricao": "PCF",
+          "quantidade": 156.0,
+          "unidade": "un",
+          "pu": 1750.0,
+          "total": 273000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "pcf"
+        },
+        {
+          "descricao": "Corrimão",
+          "quantidade": 1789.76,
+          "unidade": "m",
+          "pu": 80.0,
+          "total": 143180.8,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "corrimao"
+        },
+        {
+          "descricao": "Esquadrias Internas de Madeira",
+          "quantidade": 641.0,
+          "unidade": "un",
+          "pu": 3000.0,
+          "total": 1923000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "esquadrias_internas_madeira"
+        },
+        {
+          "descricao": "Portão de alumínio",
+          "quantidade": 3.0,
+          "unidade": "un",
+          "pu": 50000.0,
+          "total": 150000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "portao_aluminio"
+        },
+        {
+          "descricao": "Esquadrias de Vidro",
+          "quantidade": 5061.72,
+          "unidade": "m2",
+          "pu": 1200.0,
+          "total": 6074064.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "esquadrias_vidro"
+        }
+      ]
+    },
+    "Cobertura": {
+      "total": 168613.867,
+      "n_itens": 2,
+      "itens": [
+        {
+          "descricao": "Cobertura",
+          "quantidade": 745.09,
+          "unidade": "m2",
+          "pu": 200.0,
+          "total": 149018.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cobertura",
+          "chave_normalizada": "cobertura"
+        },
+        {
+          "descricao": "Complementares",
+          "quantidade": 1.0,
+          "unidade": "m2",
+          "pu": 26.3,
+          "total": 19595.867000000002,
+          "subgrupo": "GERAL",
+          "pavimento": "Cobertura",
+          "chave_normalizada": "complementares"
+        }
+      ]
+    },
+    "Fachada": {
+      "total": 28242436.241800003,
+      "n_itens": 8,
+      "itens": [
+        {
+          "descricao": "Chapisco e Reboco",
+          "quantidade": 5284.5,
+          "unidade": "m2",
+          "pu": 25.0,
+          "total": 132112.5,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "chapisco_reboco"
+        },
+        {
+          "descricao": "Mão de obra",
+          "quantidade": 5284.5,
+          "unidade": "m2",
+          "pu": 55.0,
+          "total": 290647.5,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mao_obra"
+        },
+        {
+          "descricao": "Pele de Vidro - área de vidro",
+          "quantidade": 6305.5,
+          "unidade": "m2",
+          "pu": 1918.22,
+          "total": 12095336.21,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "pele_vidro_area_vidro"
+        },
+        {
+          "descricao": "Pele de Vidro - área ACM plano",
+          "quantidade": 2655.6,
+          "unidade": "m2",
+          "pu": 1983.59,
+          "total": 5267621.603999999,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "pele_vidro_area_acm_plano"
+        },
+        {
+          "descricao": "Pele de Vidro - área ACM volume",
+          "quantidade": 311.31,
+          "unidade": "m2",
+          "pu": 5759.26,
+          "total": 1792915.2306000001,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "pele_vidro_area_acm_volume"
+        },
+        {
+          "descricao": "Pele de Vidro - área de vidro",
+          "quantidade": 3958.3,
+          "unidade": "m2",
+          "pu": 2006.69,
+          "total": 7943081.027000001,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "pele_vidro_area_vidro"
+        },
+        {
+          "descricao": "Pele de Vidro - área ACM plano",
+          "quantidade": 232.0,
+          "unidade": "m2",
+          "pu": 2072.06,
+          "total": 480717.92,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "pele_vidro_area_acm_plano"
+        },
+        {
+          "descricao": "Revestimento em ACM",
+          "quantidade": 186.07,
+          "unidade": "m2",
+          "pu": 1289.86,
+          "total": 240004.25019999998,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "revestimento_acm"
+        }
+      ]
+    },
+    "Servicos Complementares": {
+      "total": 10578808.88,
+      "n_itens": 6,
+      "itens": [
+        {
+          "descricao": "Móveis e decoração",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 2700.0,
+          "total": 5484753.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "moveis_decoracao"
+        },
+        {
+          "descricao": "Comunicação visual",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 35.0,
+          "total": 1838061.4000000001,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "comunicacao_visual"
+        },
+        {
+          "descricao": "Paisagismo",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 30.0,
+          "total": 1575481.2,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "paisagismo"
+        },
+        {
+          "descricao": "Ligações definitivas",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 10.0,
+          "total": 525160.4,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "ligacoes_definitivas"
+        },
+        {
+          "descricao": "Desmobilização",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 7.0,
+          "total": 367612.28,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "desmobilizacao"
+        },
+        {
+          "descricao": "Limpeza",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 15.0,
+          "total": 787740.6,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "limpeza"
+        }
+      ]
+    }
+  }
+}

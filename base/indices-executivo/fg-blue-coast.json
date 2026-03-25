@@ -1,0 +1,848 @@
+{
+  "projeto": "fg-blue-coast",
+  "ac": 13131.849999999999,
+  "ur": 35,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Loucas e Metais": {
+      "total": 2897.66490836,
+      "rsm2": 0.22065930606578665,
+      "n_itens": 21,
+      "subcategorias": {}
+    },
+    "Instalacoes Hidraulicas": {
+      "total": 1400999.3872708334,
+      "rsm2": 106.6871299375818,
+      "n_itens": 1003,
+      "subcategorias": {
+        "SEMIENTERRADO": {
+          "total": 6812.920747500001,
+          "n_itens": 43
+        },
+        "TÉRREO": {
+          "total": 62242.967884999984,
+          "n_itens": 137
+        },
+        "GARAGEM 4": {
+          "total": 1754.0851949999997,
+          "n_itens": 37
+        },
+        "LAZER 1": {
+          "total": 4112.897899166665,
+          "n_itens": 60
+        },
+        "LAZER 2": {
+          "total": 19252.083313333336,
+          "n_itens": 53
+        },
+        "DIFERENCIADO 1": {
+          "total": 11702.832244166666,
+          "n_itens": 99
+        },
+        "DIFERENCIADO 2": {
+          "total": 16260.731157499999,
+          "n_itens": 97
+        },
+        "TIPO (29x) HIDRÁULICO": {
+          "total": 125165.25526499999,
+          "n_itens": 29
+        },
+        "TIPO (30X) SANITÁRIO": {
+          "total": 139005.97395000007,
+          "n_itens": 59
+        },
+        "TIPO 30 HIDRÁULICO": {
+          "total": 122548.28245,
+          "n_itens": 25
+        },
+        "DUPLEX INFERIOR": {
+          "total": 21878.956459999994,
+          "n_itens": 68
+        },
+        "DUPLEX SUPERIOR": {
+          "total": 8909.865740000001,
+          "n_itens": 70
+        },
+        "ROOFTOP": {
+          "total": 4309.2281025,
+          "n_itens": 52
+        },
+        "TÉCNICOS": {
+          "total": 84992.29697750001,
+          "n_itens": 46
+        },
+        "PRUMADAS": {
+          "total": 232317.5631225,
+          "n_itens": 54
+        },
+        "HALL": {
+          "total": 309406.797615,
+          "n_itens": 71
+        },
+        "ESTIMATIVAS POR AUSÊNCIA DE QUANTIDADES": {
+          "total": 229453.33805999998,
+          "n_itens": 3
+        }
+      }
+    },
+    "Climatizacao": {
+      "total": 464.0,
+      "rsm2": 0.035333940000837664,
+      "n_itens": 3,
+      "subcategorias": {}
+    },
+    "Escoramento": {
+      "total": 31569.88479573185,
+      "rsm2": 2.404069860357212,
+      "n_itens": 48,
+      "subcategorias": {}
+    },
+    "Supraestrutura": {
+      "total": 573220.5328,
+      "rsm2": 43.651163606041806,
+      "n_itens": 81,
+      "subcategorias": {}
+    },
+    "Estacas": {
+      "total": 2790.0,
+      "rsm2": 0.21246054440158854,
+      "n_itens": 1,
+      "subcategorias": {}
+    },
+    "Canteiro": {
+      "total": 329902.53033333336,
+      "rsm2": 25.122319424402,
+      "n_itens": 14,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 246602.53033333336,
+          "n_itens": 8
+        }
+      }
+    },
+    "Gas": {
+      "total": 235624.4231,
+      "rsm2": 17.942972475317646,
+      "n_itens": 148,
+      "subcategorias": {
+        "TÉRREO": {
+          "total": 9596.794899999999,
+          "n_itens": 5
+        },
+        "GARAGEM 1": {
+          "total": 10659.1513,
+          "n_itens": 8
+        },
+        "LAZER 1": {
+          "total": 3898.780400000001,
+          "n_itens": 18
+        },
+        "LAZER 2": {
+          "total": 3489.0987,
+          "n_itens": 16
+        },
+        "DIFERENCIADO 1": {
+          "total": 4190.0702,
+          "n_itens": 22
+        },
+        "DIFERENCIADO 2": {
+          "total": 3722.3638000000005,
+          "n_itens": 21
+        },
+        "TIPO (30x)": {
+          "total": 116673.31199999998,
+          "n_itens": 22
+        },
+        "DUPLEX SUPERIOR (x3)": {
+          "total": 12391.129500000001,
+          "n_itens": 25
+        },
+        "PRUMADAS - EMBASAMENTO": {
+          "total": 18370.520800000002,
+          "n_itens": 3
+        },
+        "PRUMADAS - TORRE": {
+          "total": 52404.29700000001,
+          "n_itens": 8
+        }
+      }
+    }
+  },
+  "indices_consumo": {},
+  "split_mo_material": {
+    "Loucas e Metais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Hidraulicas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Climatizacao": {
+      "mo_pct": 0.203,
+      "material_pct": 0.797
+    },
+    "Escoramento": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Estacas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Gas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Loucas e Metais": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 21,
+      "itens": [
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.312,
+          "total": 904.0
+        },
+        {
+          "desc": "Ralo",
+          "pct": 0.196,
+          "total": 569.0
+        },
+        {
+          "desc": "Ralos comum",
+          "pct": 0.167,
+          "total": 483.0
+        },
+        {
+          "desc": "Acabamento de Registro Comum",
+          "pct": 0.089,
+          "total": 258.0
+        },
+        {
+          "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "pct": 0.078,
+          "total": 226.0
+        },
+        {
+          "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "pct": 0.078,
+          "total": 226.0
+        },
+        {
+          "desc": "Barra de apoio PNE",
+          "pct": 0.025,
+          "total": 72.0
+        },
+        {
+          "desc": "Acabamento de Registro Pressão",
+          "pct": 0.016,
+          "total": 47.0
+        },
+        {
+          "desc": "Sifão ajustável multiuso",
+          "pct": 0.008,
+          "total": 22.0
+        },
+        {
+          "desc": "Bancada Banheiros",
+          "pct": 0.005,
+          "total": 15.66490836
+        },
+        {
+          "desc": "Torneira de Jardins",
+          "pct": 0.005,
+          "total": 14.0
+        },
+        {
+          "desc": "Torneira Lavatório mesa",
+          "pct": 0.005,
+          "total": 14.0
+        },
+        {
+          "desc": "Válvula de escoamento para lavatório",
+          "pct": 0.005,
+          "total": 14.0
+        },
+        {
+          "desc": "Banheiro - Bacia Sanitária PNE",
+          "pct": 0.003,
+          "total": 9.0
+        },
+        {
+          "desc": "Torneira misturador pia cozinha",
+          "pct": 0.002,
+          "total": 7.0
+        },
+        {
+          "desc": "Banheiro - Cuba de Sobrepor - PNE",
+          "pct": 0.002,
+          "total": 6.0
+        },
+        {
+          "desc": "Válvula de escoamento para Pia",
+          "pct": 0.001,
+          "total": 4.0
+        },
+        {
+          "desc": "Cozinha - Cuba / Inox",
+          "pct": 0.001,
+          "total": 2.0
+        },
+        {
+          "desc": "Banheiro - Bacia Sanitária PCD",
+          "pct": 0.001,
+          "total": 2.0
+        },
+        {
+          "desc": "Banheiro - Cuba / Lavatorio PCD",
+          "pct": 0.001,
+          "total": 2.0
+        }
+      ]
+    },
+    "Instalacoes Hidraulicas": {
+      "top_20_pct": 0.573,
+      "n_itens_total": 1003,
+      "itens": [
+        {
+          "desc": "Isaolamento termico",
+          "pct": 0.086,
+          "total": 120853.33805999998
+        },
+        {
+          "desc": "Série Reforçada 150",
+          "pct": 0.072,
+          "total": 101004.11151083332
+        },
+        {
+          "desc": "Sistema Quickstream",
+          "pct": 0.044,
+          "total": 61000.0
+        },
+        {
+          "desc": "Válvula de esfera com alavanca vermelha ø32 mmxø32 mm",
+          "pct": 0.043,
+          "total": 59754.0
+        },
+        {
+          "desc": "Série Reforçada 100",
+          "pct": 0.041,
+          "total": 57812.984345
+        },
+        {
+          "desc": "Bombas",
+          "pct": 0.034,
+          "total": 47600.0
+        },
+        {
+          "desc": "Válvula redutora de pressão pilotada BERMAD - ver ESV HID ø5",
+          "pct": 0.03,
+          "total": 42640.0
+        },
+        {
+          "desc": "Base misturador monocomando para chuveiro ø22 mmxø22 mmxø22 ",
+          "pct": 0.025,
+          "total": 35028.0
+        },
+        {
+          "desc": "Base misturador monocomando para chuveiro ø22 mmxø22 mmxø22 ",
+          "pct": 0.024,
+          "total": 33860.399999999994
+        },
+        {
+          "desc": "Super CPVC FlowGuard ø73",
+          "pct": 0.02,
+          "total": 27445.661374999996
+        },
+        {
+          "desc": "Válvula de esfera com alavanca azul ø40 mmxø40 mm",
+          "pct": 0.019,
+          "total": 27000.0
+        },
+        {
+          "desc": "Super CPVC FlowGuard 22",
+          "pct": 0.017,
+          "total": 24262.451599999997
+        },
+        {
+          "desc": "Super CPVC FlowGuard 22",
+          "pct": 0.017,
+          "total": 23596.30781333333
+        },
+        {
+          "desc": "Registro de Gaveta - 3/4\" ø22 mmxø22 mm",
+          "pct": 0.016,
+          "total": 22828.8
+        },
+        {
+          "desc": "Super CPVC FlowGuard ø89",
+          "pct": 0.015,
+          "total": 20691.74484
+        },
+        {
+          "desc": "JOELHO 45 ESG SR DN150",
+          "pct": 0.015,
+          "total": 20348.76
+        },
+        {
+          "desc": "Válvula de alívio de pressão pilotada BERMAD - ver ESV HID ø",
+          "pct": 0.014,
+          "total": 19831.5
+        },
+        {
+          "desc": "Registro de Gaveta - 3/4\" ø22 mmxø22 mm",
+          "pct": 0.014,
+          "total": 19680.0
+        },
+        {
+          "desc": "Válvula de esfera com alavanca azul ø75 mmxø75 mm",
+          "pct": 0.014,
+          "total": 18961.05
+        },
+        {
+          "desc": "Hidrômetro ø25 mmxø25 mm",
+          "pct": 0.013,
+          "total": 18067.32
+        }
+      ]
+    },
+    "Climatizacao": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 3,
+      "itens": [
+        {
+          "desc": "Pontos de climatização",
+          "pct": 0.595,
+          "total": 276.0
+        },
+        {
+          "desc": "Exastor Mecânico Banheiros",
+          "pct": 0.203,
+          "total": 94.0
+        },
+        {
+          "desc": "Instalação de Exaustores",
+          "pct": 0.203,
+          "total": 94.0
+        }
+      ]
+    },
+    "Escoramento": {
+      "top_20_pct": 0.654,
+      "n_itens_total": 48,
+      "itens": [
+        {
+          "desc": "225.52",
+          "pct": 0.052,
+          "total": 1654.3727848876003
+        },
+        {
+          "desc": "196.01000000000002",
+          "pct": 0.052,
+          "total": 1654.3727848876003
+        },
+        {
+          "desc": "760.92",
+          "pct": 0.05,
+          "total": 1585.6590540108043
+        },
+        {
+          "desc": "759.95",
+          "pct": 0.049,
+          "total": 1553.3423414897372
+        },
+        {
+          "desc": "759.95",
+          "pct": 0.049,
+          "total": 1551.3621831665957
+        },
+        {
+          "desc": "759.95",
+          "pct": 0.049,
+          "total": 1551.3621831665957
+        },
+        {
+          "desc": "760.92",
+          "pct": 0.049,
+          "total": 1551.3621831665957
+        },
+        {
+          "desc": "196.01000000000002",
+          "pct": 0.049,
+          "total": 1551.3621831665957
+        },
+        {
+          "desc": "196.01000000000002",
+          "pct": 0.049,
+          "total": 1551.3621831665957
+        },
+        {
+          "desc": "244.51",
+          "pct": 0.029,
+          "total": 915.1694639191596
+        },
+        {
+          "desc": "196.01000000000002",
+          "pct": 0.029,
+          "total": 915.1694639191596
+        },
+        {
+          "desc": "718.76",
+          "pct": 0.023,
+          "total": 738.3828891109913
+        },
+        {
+          "desc": "196.01000000000002",
+          "pct": 0.023,
+          "total": 727.8667847083035
+        },
+        {
+          "desc": "151.43",
+          "pct": 0.019,
+          "total": 588.6102790903146
+        },
+        {
+          "desc": "307.43",
+          "pct": 0.016,
+          "total": 490.319810818288
+        },
+        {
+          "desc": "196.01000000000002",
+          "pct": 0.016,
+          "total": 490.319810818288
+        },
+        {
+          "desc": "196.25",
+          "pct": 0.012,
+          "total": 393.79553417268625
+        },
+        {
+          "desc": "196.25",
+          "pct": 0.012,
+          "total": 393.79553417268625
+        },
+        {
+          "desc": "196.25",
+          "pct": 0.012,
+          "total": 393.79553417268625
+        },
+        {
+          "desc": "196.25",
+          "pct": 0.012,
+          "total": 393.79553417268625
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 0.856,
+      "n_itens_total": 81,
+      "itens": [
+        {
+          "desc": "15202",
+          "pct": 0.252,
+          "total": 144265.1332
+        },
+        {
+          "desc": "13872",
+          "pct": 0.165,
+          "total": 94657.0
+        },
+        {
+          "desc": "10786.566666666668",
+          "pct": 0.126,
+          "total": 72057.8
+        },
+        {
+          "desc": "478",
+          "pct": 0.057,
+          "total": 32564.0032
+        },
+        {
+          "desc": "5594",
+          "pct": 0.055,
+          "total": 31705.0
+        },
+        {
+          "desc": "852",
+          "pct": 0.03,
+          "total": 17044.13
+        },
+        {
+          "desc": "Lajes",
+          "pct": 0.024,
+          "total": 13563.0
+        },
+        {
+          "desc": "1556",
+          "pct": 0.018,
+          "total": 10426.0
+        },
+        {
+          "desc": "852",
+          "pct": 0.018,
+          "total": 10329.0
+        },
+        {
+          "desc": "1535",
+          "pct": 0.017,
+          "total": 9796.0
+        },
+        {
+          "desc": "90",
+          "pct": 0.017,
+          "total": 9470.001199999999
+        },
+        {
+          "desc": "Lajes",
+          "pct": 0.013,
+          "total": 7728.03
+        },
+        {
+          "desc": "12",
+          "pct": 0.012,
+          "total": 6717.0
+        },
+        {
+          "desc": "228",
+          "pct": 0.01,
+          "total": 5525.0
+        },
+        {
+          "desc": "50",
+          "pct": 0.008,
+          "total": 4578.0
+        },
+        {
+          "desc": "79",
+          "pct": 0.007,
+          "total": 4274.0019999999995
+        },
+        {
+          "desc": "Lajes",
+          "pct": 0.007,
+          "total": 4141.0
+        },
+        {
+          "desc": "100",
+          "pct": 0.007,
+          "total": 3976.0
+        },
+        {
+          "desc": "Pináculo",
+          "pct": 0.007,
+          "total": 3971.13
+        },
+        {
+          "desc": "Geral",
+          "pct": 0.007,
+          "total": 3971.13
+        }
+      ]
+    },
+    "Estacas": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 1,
+      "itens": [
+        {
+          "desc": "Torre 1",
+          "pct": 1.0,
+          "total": 2790.0
+        }
+      ]
+    },
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 14,
+      "itens": [
+        {
+          "desc": "Vestiário/banheiro",
+          "pct": 0.378,
+          "total": 124660.10700000002
+        },
+        {
+          "desc": "Refeitório",
+          "pct": 0.208,
+          "total": 68664.024
+        },
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.145,
+          "total": 48000.0
+        },
+        {
+          "desc": "Almoxarifado",
+          "pct": 0.091,
+          "total": 30016.8
+        },
+        {
+          "desc": "Escritório",
+          "pct": 0.058,
+          "total": 19290.304
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.03,
+          "total": 10000.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.027,
+          "total": 9000.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.019,
+          "total": 6400.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.012,
+          "total": 4000.0
+        },
+        {
+          "desc": "Sala do cliente",
+          "pct": 0.01,
+          "total": 3336.155333333333
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.007,
+          "total": 2400.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.006,
+          "total": 2000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.005,
+          "total": 1500.0
+        },
+        {
+          "desc": "Baias de material",
+          "pct": 0.002,
+          "total": 635.1400000000001
+        }
+      ]
+    },
+    "Gas": {
+      "top_20_pct": 0.831,
+      "n_itens_total": 148,
+      "itens": [
+        {
+          "desc": "Tubo - Cobre 35",
+          "pct": 0.13,
+          "total": 30728.699999999997
+        },
+        {
+          "desc": "Tubo - Cobre 79",
+          "pct": 0.102,
+          "total": 23960.290100000002
+        },
+        {
+          "desc": "Tubo - Cobre 66",
+          "pct": 0.099,
+          "total": 23345.858200000002
+        },
+        {
+          "desc": "Medidor de Gás - G 6,0",
+          "pct": 0.075,
+          "total": 17640.0
+        },
+        {
+          "desc": "Tubo - Cobre 79",
+          "pct": 0.07,
+          "total": 16589.948800000002
+        },
+        {
+          "desc": "Tubo - Cobre 28",
+          "pct": 0.067,
+          "total": 15724.800000000001
+        },
+        {
+          "desc": "Tubo - Cobre 79",
+          "pct": 0.038,
+          "total": 8973.7513
+        },
+        {
+          "desc": "Tubo - Cobre 15",
+          "pct": 0.032,
+          "total": 7646.103000000001
+        },
+        {
+          "desc": "Válvula Fecho Rápido - Acionador PVC 28",
+          "pct": 0.027,
+          "total": 6342.599999999999
+        },
+        {
+          "desc": "Registro de Fecho Rápido - Tipo Global 22",
+          "pct": 0.026,
+          "total": 6194.4
+        },
+        {
+          "desc": "Tubo - Cobre 79",
+          "pct": 0.024,
+          "total": 5702.7949
+        },
+        {
+          "desc": "Te - Cobre 79x79x22",
+          "pct": 0.024,
+          "total": 5667.0
+        },
+        {
+          "desc": "Regulador de Pressão 2º Estágio - 12 kg/h Laranja - Aliança ",
+          "pct": 0.02,
+          "total": 4626.9
+        },
+        {
+          "desc": "Tubo - Cobre 35",
+          "pct": 0.018,
+          "total": 4155.3
+        },
+        {
+          "desc": "Válvula Fecho Rápido - Acionador PVC 15",
+          "pct": 0.017,
+          "total": 3900.0
+        },
+        {
+          "desc": "Joelho 90º - Cobre 35",
+          "pct": 0.014,
+          "total": 3186.8999999999996
+        },
+        {
+          "desc": "Joelho 90º - Cobre 79",
+          "pct": 0.013,
+          "total": 3089.8999999999996
+        },
+        {
+          "desc": "Joelho 90º - Cobre 28",
+          "pct": 0.013,
+          "total": 2985.0
+        },
+        {
+          "desc": "Tubo - Cobre 54",
+          "pct": 0.012,
+          "total": 2763.7511999999997
+        },
+        {
+          "desc": "Te - Cobre 35x35x15",
+          "pct": 0.011,
+          "total": 2634.0
+        }
+      ]
+    }
+  }
+}

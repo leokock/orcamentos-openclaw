@@ -1,0 +1,265 @@
+{
+  "projeto": "grandezza-gran-royal",
+  "ac": 5225.33,
+  "ur": null,
+  "total": 10020041.553764636,
+  "rsm2": 1917.5901911964672,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 3441809.4857795984,
+      "rsm2": 658.6779180988757
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 199250.14117370688,
+      "rsm2": 38.13158999980994
+    },
+    "INFRAESTRUTURA": {
+      "valor": 2237029.402416665,
+      "rsm2": 428.1125598606528
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 4141952.524394666,
+      "rsm2": 792.6681232371287
+    }
+  },
+  "disciplinas": {
+    "Canteiro": {
+      "total": 107734.79333333333,
+      "rsm2": 20.617797025897566,
+      "n_itens": 14,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 79984.79333333333,
+          "n_itens": 8
+        }
+      }
+    },
+    "Estacas": {
+      "total": 930.0,
+      "rsm2": 0.17797918983107286,
+      "n_itens": 2,
+      "subcategorias": {
+        "Estaca": {
+          "total": 930.0,
+          "n_itens": 2
+        }
+      }
+    },
+    "Escoramento": {
+      "total": 10696.884660000002,
+      "rsm2": 2.047121360756163,
+      "n_itens": 19,
+      "subcategorias": {}
+    }
+  },
+  "indices_consumo": {},
+  "split_mo_material": {
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Estacas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Escoramento": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 14,
+      "itens": [
+        {
+          "desc": "Almoxarifado",
+          "pct": 0.279,
+          "total": 30016.8
+        },
+        {
+          "desc": "Vestiário/banheiro",
+          "pct": 0.218,
+          "total": 23440.362
+        },
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.13,
+          "total": 14000.0
+        },
+        {
+          "desc": "Refeitório",
+          "pct": 0.12,
+          "total": 12911.184000000001
+        },
+        {
+          "desc": "Escritório",
+          "pct": 0.09,
+          "total": 9645.152
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.033,
+          "total": 3600.0
+        },
+        {
+          "desc": "Sala do cliente",
+          "pct": 0.031,
+          "total": 3336.155333333333
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.03,
+          "total": 3200.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.028,
+          "total": 3000.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.011,
+          "total": 1200.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.009,
+          "total": 1000.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.008,
+          "total": 900.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.008,
+          "total": 850.0
+        },
+        {
+          "desc": "Baias de material",
+          "pct": 0.006,
+          "total": 635.1400000000001
+        }
+      ]
+    },
+    "Estacas": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 2,
+      "itens": [
+        {
+          "desc": "Estaca",
+          "pct": 0.645,
+          "total": 600.0
+        },
+        {
+          "desc": "Estaca",
+          "pct": 0.355,
+          "total": 330.0
+        }
+      ]
+    },
+    "Escoramento": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 19,
+      "itens": [
+        {
+          "desc": "222.75",
+          "pct": 0.111,
+          "total": 1189.9260450000002
+        },
+        {
+          "desc": "362.94",
+          "pct": 0.076,
+          "total": 807.75072
+        },
+        {
+          "desc": "362.94",
+          "pct": 0.069,
+          "total": 741.214215
+        },
+        {
+          "desc": "362.94",
+          "pct": 0.069,
+          "total": 741.214215
+        },
+        {
+          "desc": "399.74",
+          "pct": 0.069,
+          "total": 741.214215
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.062,
+          "total": 663.0710625
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        },
+        {
+          "desc": "222.75",
+          "pct": 0.042,
+          "total": 447.11493750000005
+        }
+      ]
+    }
+  }
+}

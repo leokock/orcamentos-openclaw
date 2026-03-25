@@ -1,0 +1,1041 @@
+{
+  "projeto": "indepy-stella-marina",
+  "ac": null,
+  "ur": null,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Movimentacao de Terra": {
+      "total": 110109.76,
+      "rsm2": null,
+      "n_itens": 6,
+      "subcategorias": {
+        "MOVIMENTAÇÃO DE TERRA": {
+          "total": 110109.76,
+          "n_itens": 6
+        }
+      }
+    },
+    "Contencao": {
+      "total": 111987.72,
+      "rsm2": null,
+      "n_itens": 5,
+      "subcategorias": {
+        "CONTENÇÕES": {
+          "total": 111987.72,
+          "n_itens": 5
+        }
+      }
+    },
+    "Infraestrutura": {
+      "total": 988103.12,
+      "rsm2": null,
+      "n_itens": 12,
+      "subcategorias": {
+        "FUNDAÇÃO PROFUNDA": {
+          "total": 581588.49,
+          "n_itens": 6
+        },
+        "FUNDAÇÃO RASA": {
+          "total": 406514.63,
+          "n_itens": 6
+        }
+      }
+    },
+    "Supraestrutura": {
+      "total": 2961640.34,
+      "rsm2": null,
+      "n_itens": 8,
+      "subcategorias": {
+        "SUPRAESTRUTURA": {
+          "total": 2961640.34,
+          "n_itens": 8
+        }
+      }
+    },
+    "Alvenaria": {
+      "total": 584956.74,
+      "rsm2": null,
+      "n_itens": 6,
+      "subcategorias": {
+        "ALVENARIA, VEDAÇÕES E DIVISÓRIAS": {
+          "total": 584956.74,
+          "n_itens": 6
+        }
+      }
+    },
+    "Instalacoes Eletricas": {
+      "total": 832170.9199999999,
+      "rsm2": null,
+      "n_itens": 7,
+      "subcategorias": {
+        "SISTEMAS E INSTALAÇÕES ELÉTRICAS": {
+          "total": 832170.92,
+          "n_itens": 7
+        }
+      }
+    },
+    "Instalacoes Hidraulicas": {
+      "total": 424577.0,
+      "rsm2": null,
+      "n_itens": 4,
+      "subcategorias": {
+        "SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM": {
+          "total": 424577.0,
+          "n_itens": 4
+        }
+      }
+    },
+    "Loucas e Metais": {
+      "total": 376104.07,
+      "rsm2": null,
+      "n_itens": 15,
+      "subcategorias": {
+        "LOUÇAS E METAIS": {
+          "total": 376104.07,
+          "n_itens": 15
+        }
+      }
+    },
+    "PCI": {
+      "total": 123127.33,
+      "rsm2": null,
+      "n_itens": 4,
+      "subcategorias": {
+        "INSTALAÇÕES PREVENTIVAS E GLP": {
+          "total": 123127.33,
+          "n_itens": 4
+        }
+      }
+    },
+    "Sistemas Especiais": {
+      "total": 1047453.08,
+      "rsm2": null,
+      "n_itens": 7,
+      "subcategorias": {
+        "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+          "total": 1047453.08,
+          "n_itens": 7
+        }
+      }
+    },
+    "Impermeabilizacao": {
+      "total": 281543.65,
+      "rsm2": null,
+      "n_itens": 9,
+      "subcategorias": {
+        "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+          "total": 281543.65,
+          "n_itens": 9
+        }
+      }
+    },
+    "Revestimentos": {
+      "total": 2006809.47,
+      "rsm2": null,
+      "n_itens": 42,
+      "subcategorias": {
+        "REVESTIMENTOS INTERNOS EM PISO E PAREDE": {
+          "total": 746319.35,
+          "n_itens": 8
+        },
+        "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+          "total": 210520.1,
+          "n_itens": 6
+        },
+        "ACABAMENTOS EM PISO E PAREDE": {
+          "total": 793154.65,
+          "n_itens": 22
+        },
+        "REVESTIMENTOS E ACABAMENTOS EM FACHADA": {
+          "total": 256815.37,
+          "n_itens": 6
+        }
+      }
+    },
+    "Pintura": {
+      "total": 509419.31,
+      "rsm2": null,
+      "n_itens": 9,
+      "subcategorias": {
+        "SISTEMAS DE PINTURA INTERNA": {
+          "total": 509419.31,
+          "n_itens": 9
+        }
+      }
+    },
+    "Esquadrias": {
+      "total": 1915759.04,
+      "rsm2": null,
+      "n_itens": 24,
+      "subcategorias": {
+        "ESQUADRIAS, VIDROS E FERRAGENS": {
+          "total": 1915759.04,
+          "n_itens": 24
+        }
+      }
+    },
+    "Servicos Complementares": {
+      "total": 812089.24,
+      "rsm2": null,
+      "n_itens": 6,
+      "subcategorias": {
+        "SERVIÇOS COMPLEMENTARES E FINAIS": {
+          "total": 812089.24,
+          "n_itens": 6
+        }
+      }
+    }
+  },
+  "indices_consumo": {
+    "Supraestrutura": {
+      "aco_kg_por_m3_concreto": 53.6,
+      "forma_m2_por_m3_concreto": 5.16
+    }
+  },
+  "split_mo_material": {
+    "Movimentacao de Terra": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Contencao": {
+      "mo_pct": 0.235,
+      "material_pct": 0.765
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.166,
+      "material_pct": 0.834
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.35,
+      "material_pct": 0.65
+    },
+    "Alvenaria": {
+      "mo_pct": 0.293,
+      "material_pct": 0.707
+    },
+    "Instalacoes Eletricas": {
+      "mo_pct": 0.281,
+      "material_pct": 0.719
+    },
+    "Instalacoes Hidraulicas": {
+      "mo_pct": 0.5,
+      "material_pct": 0.5
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "PCI": {
+      "mo_pct": 0.414,
+      "material_pct": 0.586
+    },
+    "Sistemas Especiais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Impermeabilizacao": {
+      "mo_pct": 0.124,
+      "material_pct": 0.876
+    },
+    "Revestimentos": {
+      "mo_pct": 0.551,
+      "material_pct": 0.449
+    },
+    "Pintura": {
+      "mo_pct": 0.65,
+      "material_pct": 0.35
+    },
+    "Esquadrias": {
+      "mo_pct": 0.011,
+      "material_pct": 0.989
+    },
+    "Servicos Complementares": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Movimentacao de Terra": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 6,
+      "itens": [
+        {
+          "desc": "Movimentação de bota - fora",
+          "pct": 0.621,
+          "total": 68327.22
+        },
+        {
+          "desc": "Rebaixamento de lençol freático",
+          "pct": 0.182,
+          "total": 20000.0
+        },
+        {
+          "desc": "Escavação vertical de terreno - Incluindo Bota Fora",
+          "pct": 0.063,
+          "total": 6935.4
+        },
+        {
+          "desc": "Lastro de concreto magro",
+          "pct": 0.06,
+          "total": 6589.52
+        },
+        {
+          "desc": "Escavação mecânica de valas",
+          "pct": 0.046,
+          "total": 5108.17
+        },
+        {
+          "desc": "Reaterro mecanizado de valas",
+          "pct": 0.029,
+          "total": 3149.45
+        }
+      ]
+    },
+    "Contencao": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 5,
+      "itens": [
+        {
+          "desc": "Cravação de perfil metálico para fundação",
+          "pct": 0.311,
+          "total": 34780.0
+        },
+        {
+          "desc": "Armação de aço CA - 50, corte e dobra em obra",
+          "pct": 0.295,
+          "total": 32992.43
+        },
+        {
+          "desc": "Mão de obra para execução de estrutura em concreto armado",
+          "pct": 0.235,
+          "total": 26293.4
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 35MPa, slump = 8 +/- 2 B1, i",
+          "pct": 0.147,
+          "total": 16480.33
+        },
+        {
+          "desc": "Contenção em perfil pranchado com pranchão de madeira",
+          "pct": 0.013,
+          "total": 1441.56
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 12,
+      "itens": [
+        {
+          "desc": "Concreto usinado bombeável, fck 30MPa, slump = 22 +/- 3 B0, ",
+          "pct": 0.387,
+          "total": 382056.4
+        },
+        {
+          "desc": "Mão de obra para execução de estrutura em concreto armado",
+          "pct": 0.166,
+          "total": 163816.8
+        },
+        {
+          "desc": "Armação de aço CA - 50, corte e dobra em obra",
+          "pct": 0.121,
+          "total": 119522.92
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 35MPa, slump = 8 +/- 2 B1, i",
+          "pct": 0.104,
+          "total": 102678.03
+        },
+        {
+          "desc": "Perfuração de estaca hélice contínua, diâmetro 70cm",
+          "pct": 0.1,
+          "total": 98686.0
+        },
+        {
+          "desc": "Armação de aço CA - 50, corte e dobra em obra",
+          "pct": 0.066,
+          "total": 65084.15
+        },
+        {
+          "desc": "Perfuração de estaca hélice contínua, diâmetro 60cm",
+          "pct": 0.021,
+          "total": 20748.0
+        },
+        {
+          "desc": "Material para fabricação de forma para estruturas de concret",
+          "pct": 0.018,
+          "total": 18278.26
+        },
+        {
+          "desc": "Perfuração de estaca hélice contínua, diâmetro 25cm",
+          "pct": 0.008,
+          "total": 7980.0
+        },
+        {
+          "desc": "Mobilização de equipamentos de fundação",
+          "pct": 0.007,
+          "total": 7033.94
+        },
+        {
+          "desc": "Armação de aço CA - 60, corte e dobra em obra",
+          "pct": 0.002,
+          "total": 1959.92
+        },
+        {
+          "desc": "Material para montagem e desmontagem de forma para estrutura",
+          "pct": 0.0,
+          "total": 258.7
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Mão de obra para execução de estrutura em concreto armado",
+          "pct": 0.347,
+          "total": 1027334.0
+        },
+        {
+          "desc": "Armação de aço CA - 50, corte e dobra em obra",
+          "pct": 0.299,
+          "total": 886590.61
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 35MPa, slump = 8 +/- 2 B1, i",
+          "pct": 0.217,
+          "total": 643918.28
+        },
+        {
+          "desc": "Locação de escoramento metálico",
+          "pct": 0.065,
+          "total": 191059.65
+        },
+        {
+          "desc": "Material para fabricação de forma para estruturas de concret",
+          "pct": 0.037,
+          "total": 109281.83
+        },
+        {
+          "desc": "Armação de aço CA - 60, corte e dobra em obra",
+          "pct": 0.023,
+          "total": 67578.04
+        },
+        {
+          "desc": "Fabricação de escoras de viga do tipo garfo, em madeira",
+          "pct": 0.009,
+          "total": 27714.83
+        },
+        {
+          "desc": "Material para montagem e desmontagem de forma para estrutura",
+          "pct": 0.003,
+          "total": 8163.1
+        }
+      ]
+    },
+    "Alvenaria": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 6,
+      "itens": [
+        {
+          "desc": "Alvenaria de vedação de blocos de concreto 19x19x39cm (espes",
+          "pct": 0.411,
+          "total": 240297.2
+        },
+        {
+          "desc": "Mão de obra para vedações internas e externas - assentamento",
+          "pct": 0.293,
+          "total": 171678.0
+        },
+        {
+          "desc": "Alvenaria de vedação de blocos de concreto de 9x19x39cm (esp",
+          "pct": 0.135,
+          "total": 79156.82
+        },
+        {
+          "desc": "Alvenaria de vedação de blocos de concreto 14x19x39cm (espes",
+          "pct": 0.104,
+          "total": 61127.34
+        },
+        {
+          "desc": "Verga / contraverga moldada in loco em concreto",
+          "pct": 0.052,
+          "total": 30671.15
+        },
+        {
+          "desc": "Encunhamento de alvenaria de vedação",
+          "pct": 0.003,
+          "total": 2026.23
+        }
+      ]
+    },
+    "Instalacoes Eletricas": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 7,
+      "itens": [
+        {
+          "desc": "Mão de obra para instalações elétricas",
+          "pct": 0.281,
+          "total": 233517.35
+        },
+        {
+          "desc": "Fios e cabos elétricos",
+          "pct": 0.204,
+          "total": 169830.8
+        },
+        {
+          "desc": "Acabamentos elétricos",
+          "pct": 0.143,
+          "total": 118881.56
+        },
+        {
+          "desc": "Quadros elétricos e disjuntores",
+          "pct": 0.128,
+          "total": 106144.25
+        },
+        {
+          "desc": "Eletrodutos e Eletrocalhas",
+          "pct": 0.102,
+          "total": 84915.4
+        },
+        {
+          "desc": "Luminárias, lâmpadas e acessórios",
+          "pct": 0.102,
+          "total": 84915.4
+        },
+        {
+          "desc": "Entrada de energia",
+          "pct": 0.041,
+          "total": 33966.16
+        }
+      ]
+    },
+    "Instalacoes Hidraulicas": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 4,
+      "itens": [
+        {
+          "desc": "Mão de obra para instalações hidrossanitárias",
+          "pct": 0.5,
+          "total": 212288.5
+        },
+        {
+          "desc": "Instalações de água fria",
+          "pct": 0.22,
+          "total": 93406.94
+        },
+        {
+          "desc": "Instalações de esgoto",
+          "pct": 0.18,
+          "total": 76423.86
+        },
+        {
+          "desc": "Instalações de água pluvial",
+          "pct": 0.1,
+          "total": 42457.7
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 15,
+      "itens": [
+        {
+          "desc": "Bacia sanitária com caixa acoplada - Linha Comum",
+          "pct": 0.301,
+          "total": 113216.35
+        },
+        {
+          "desc": "Cuba simples de aço inox de embutir",
+          "pct": 0.153,
+          "total": 57479.08
+        },
+        {
+          "desc": "Cuba de louça de embutir",
+          "pct": 0.136,
+          "total": 51204.39
+        },
+        {
+          "desc": "Barra de apoio para PNE",
+          "pct": 0.088,
+          "total": 32991.2
+        },
+        {
+          "desc": "Torneira de lavatório",
+          "pct": 0.083,
+          "total": 31304.0
+        },
+        {
+          "desc": "Chuveiro elétrico",
+          "pct": 0.061,
+          "total": 22951.8
+        },
+        {
+          "desc": "Acabamentos de registros de gaveta",
+          "pct": 0.044,
+          "total": 16529.24
+        },
+        {
+          "desc": "Bacia sanitária com caixa acoplada - Linha PNE",
+          "pct": 0.042,
+          "total": 15755.32
+        },
+        {
+          "desc": "Lavatório de canto com coluna",
+          "pct": 0.032,
+          "total": 11995.2
+        },
+        {
+          "desc": "Acabamento de ralo inox",
+          "pct": 0.024,
+          "total": 9213.12
+        },
+        {
+          "desc": "Acabamentos de registros de pressão",
+          "pct": 0.02,
+          "total": 7695.8
+        },
+        {
+          "desc": "Lavatório com coluna",
+          "pct": 0.007,
+          "total": 2499.0
+        },
+        {
+          "desc": "Tanque de louça de embutir",
+          "pct": 0.005,
+          "total": 1907.91
+        },
+        {
+          "desc": "Torneira para tanque",
+          "pct": 0.002,
+          "total": 811.68
+        },
+        {
+          "desc": "Torneira para pia",
+          "pct": 0.001,
+          "total": 549.98
+        }
+      ]
+    },
+    "PCI": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 4,
+      "itens": [
+        {
+          "desc": "Instalações do sistema preventivo de incêndio",
+          "pct": 0.414,
+          "total": 50949.24
+        },
+        {
+          "desc": "Mão de obra para instalações de sistema preventivo de incênd",
+          "pct": 0.276,
+          "total": 33966.16
+        },
+        {
+          "desc": "Instalações de proteção e aterramentos - SPDA",
+          "pct": 0.172,
+          "total": 21228.85
+        },
+        {
+          "desc": "Mão de obra de instalações de proteção e aterramentos - SPDA",
+          "pct": 0.138,
+          "total": 16983.08
+        }
+      ]
+    },
+    "Sistemas Especiais": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 7,
+      "itens": [
+        {
+          "desc": "Elevadores definitivos de obra",
+          "pct": 0.619,
+          "total": 648000.0
+        },
+        {
+          "desc": "Exaustão mecânica",
+          "pct": 0.103,
+          "total": 108000.0
+        },
+        {
+          "desc": "Sistema de pressurização de escadas",
+          "pct": 0.093,
+          "total": 97500.0
+        },
+        {
+          "desc": "Infraestrutura de climatização",
+          "pct": 0.069,
+          "total": 72000.0
+        },
+        {
+          "desc": "Sistemas lógicos e telecomunicação",
+          "pct": 0.049,
+          "total": 50953.08
+        },
+        {
+          "desc": "Aquecimento global",
+          "pct": 0.048,
+          "total": 50000.0
+        },
+        {
+          "desc": "Equipamentos de ar condicionado",
+          "pct": 0.02,
+          "total": 21000.0
+        }
+      ]
+    },
+    "Impermeabilizacao": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 9,
+      "itens": [
+        {
+          "desc": "Impermeabilização de superfície com manta asfáltica, duas ca",
+          "pct": 0.32,
+          "total": 90090.0
+        },
+        {
+          "desc": "Impermeabilização de superfície com argamassa polimérica, 3 ",
+          "pct": 0.176,
+          "total": 49504.0
+        },
+        {
+          "desc": "Impermeabilização de superfície com argamassa polimérica, 4 ",
+          "pct": 0.151,
+          "total": 42525.0
+        },
+        {
+          "desc": "Mão de obra para regularização de superfície",
+          "pct": 0.124,
+          "total": 34974.0
+        },
+        {
+          "desc": "Impermeabilização de superfície com membrana à base de resin",
+          "pct": 0.076,
+          "total": 21420.3
+        },
+        {
+          "desc": "Tratamento de ralo com argamassa polimérica reforçado com vé",
+          "pct": 0.053,
+          "total": 15019.2
+        },
+        {
+          "desc": "Proteção mecânica com argamassa cimento e areia, 1:3",
+          "pct": 0.044,
+          "total": 12405.0
+        },
+        {
+          "desc": "Regularização de superfície para impermeabilização, com arga",
+          "pct": 0.04,
+          "total": 11312.15
+        },
+        {
+          "desc": "Impermeabilização de vigas baldrames com tinta asfáltica",
+          "pct": 0.015,
+          "total": 4294.0
+        }
+      ]
+    },
+    "Revestimentos": {
+      "top_20_pct": 0.932,
+      "n_itens_total": 42,
+      "itens": [
+        {
+          "desc": "Mão de obra para aplicação de gesso desempenado",
+          "pct": 0.124,
+          "total": 249800.0
+        },
+        {
+          "desc": "Emboço aplicado em paredes internas em argamassa industriali",
+          "pct": 0.102,
+          "total": 203897.32
+        },
+        {
+          "desc": "Mão de obra para assentamento de revestimento cerâmico",
+          "pct": 0.098,
+          "total": 196192.0
+        },
+        {
+          "desc": "Revestimento porcelanato em piso, placa 60x60cm, aplicação e",
+          "pct": 0.082,
+          "total": 165040.24
+        },
+        {
+          "desc": "Revestimento porcelanato em parede, placa 60x60cm, aplicação",
+          "pct": 0.081,
+          "total": 162981.61
+        },
+        {
+          "desc": "Aplicação de resina acústica",
+          "pct": 0.058,
+          "total": 115433.5
+        },
+        {
+          "desc": "Forro de gesso acartonado - material e mão de obra",
+          "pct": 0.056,
+          "total": 112586.1
+        },
+        {
+          "desc": "Emboço aplicado em paredes externas, argamassa industrializa",
+          "pct": 0.047,
+          "total": 94262.77
+        },
+        {
+          "desc": "Mão de obra para aplicação de emboço interno",
+          "pct": 0.035,
+          "total": 69384.0
+        },
+        {
+          "desc": "Mão de obra para execução de contrapiso",
+          "pct": 0.033,
+          "total": 67212.0
+        },
+        {
+          "desc": "Mão de obra para aplicação de gesso desempenado",
+          "pct": 0.033,
+          "total": 66209.2
+        },
+        {
+          "desc": "Revestimento porcelanato em piso, placa 80x80cm, aplicação e",
+          "pct": 0.03,
+          "total": 59320.8
+        },
+        {
+          "desc": "Mão de obra para aplicação de reboco externo",
+          "pct": 0.026,
+          "total": 52156.0
+        },
+        {
+          "desc": "Revestimento porcelanato em parede, placa 30x60cm, aplicação",
+          "pct": 0.024,
+          "total": 47722.02
+        },
+        {
+          "desc": "Mão de obra para aplicação de textura em fachada",
+          "pct": 0.023,
+          "total": 46020.0
+        },
+        {
+          "desc": "Mão de obra para execução de rodapé em porcelanato",
+          "pct": 0.018,
+          "total": 36302.2
+        },
+        {
+          "desc": "Massa texturizada acrílica ibratin",
+          "pct": 0.017,
+          "total": 34275.39
+        },
+        {
+          "desc": "Revestimento porcelanato em piso, placa 60x60cm, aplicação e",
+          "pct": 0.017,
+          "total": 34243.71
+        },
+        {
+          "desc": "Contrapiso em argamassa pronta, espessura 4cm",
+          "pct": 0.015,
+          "total": 30805.0
+        },
+        {
+          "desc": "Peitoril em granito, largura 15cm",
+          "pct": 0.013,
+          "total": 26763.64
+        }
+      ]
+    },
+    "Pintura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 9,
+      "itens": [
+        {
+          "desc": "Mão de obra para execução de pintura interna",
+          "pct": 0.608,
+          "total": 309867.3
+        },
+        {
+          "desc": "Pintura de parede com tinta acrílica, massa PVA",
+          "pct": 0.24,
+          "total": 122067.2
+        },
+        {
+          "desc": "Pintura de teto com tinta acrílica, massa PVA, 2 demãos",
+          "pct": 0.086,
+          "total": 43836.16
+        },
+        {
+          "desc": "Mão de obra para execução de textura acrílica",
+          "pct": 0.031,
+          "total": 15547.2
+        },
+        {
+          "desc": "Mão de obra para pintura de piso",
+          "pct": 0.011,
+          "total": 5825.0
+        },
+        {
+          "desc": "Pintura de teto com tinta acrílica, massa acrílica, 2 demãos",
+          "pct": 0.011,
+          "total": 5781.55
+        },
+        {
+          "desc": "Textura acrílica em parede interna",
+          "pct": 0.005,
+          "total": 2470.34
+        },
+        {
+          "desc": "Pintura de piso com tinta acrílica, 3 demãos",
+          "pct": 0.004,
+          "total": 2241.65
+        },
+        {
+          "desc": "Textura acrílica em teto",
+          "pct": 0.003,
+          "total": 1782.91
+        }
+      ]
+    },
+    "Esquadrias": {
+      "top_20_pct": 0.998,
+      "n_itens_total": 24,
+      "itens": [
+        {
+          "desc": "Esquadrias de alumínio - Porta Janela",
+          "pct": 0.466,
+          "total": 891794.33
+        },
+        {
+          "desc": "Guarda - corpo de alumínio e vidro",
+          "pct": 0.181,
+          "total": 346730.0
+        },
+        {
+          "desc": "Gradil de alumínio",
+          "pct": 0.078,
+          "total": 150144.0
+        },
+        {
+          "desc": "Esquadrias de alumínio - Janelas",
+          "pct": 0.049,
+          "total": 93137.05
+        },
+        {
+          "desc": "Porta corta fogo P120, 110x180cm",
+          "pct": 0.042,
+          "total": 80500.0
+        },
+        {
+          "desc": "Porta corta fogo P120, 150x180cm",
+          "pct": 0.04,
+          "total": 77000.0
+        },
+        {
+          "desc": "Porta de abrir de madeira, 80x210cm",
+          "pct": 0.03,
+          "total": 56548.39
+        },
+        {
+          "desc": "Porta corta - fogo P120, em inox, 93x211cm",
+          "pct": 0.029,
+          "total": 55250.0
+        },
+        {
+          "desc": "Porta de abrir de madeira, 60x210cm",
+          "pct": 0.017,
+          "total": 32731.26
+        },
+        {
+          "desc": "Esquadrias de alumínio - Portas venezianas",
+          "pct": 0.013,
+          "total": 25337.16
+        },
+        {
+          "desc": "Corrimão metálico duplo, em aço galvanizado",
+          "pct": 0.013,
+          "total": 25213.95
+        },
+        {
+          "desc": "Mão de obra para instalação de portas de madeira",
+          "pct": 0.011,
+          "total": 21040.0
+        },
+        {
+          "desc": "Fechadura de embutir com cilindro, interna",
+          "pct": 0.007,
+          "total": 14277.72
+        },
+        {
+          "desc": "Porta de abrir de madeira, 80x210cm, com chapa inox",
+          "pct": 0.005,
+          "total": 9637.31
+        },
+        {
+          "desc": "Dobradiça em aço",
+          "pct": 0.004,
+          "total": 7866.33
+        },
+        {
+          "desc": "Fechadura para Banheiro",
+          "pct": 0.004,
+          "total": 7333.81
+        },
+        {
+          "desc": "Porta corta - fogo P120, em inox, 80x210cm",
+          "pct": 0.003,
+          "total": 6500.0
+        },
+        {
+          "desc": "Perfil vertical de ferro, aplicado em áreas técnicas",
+          "pct": 0.002,
+          "total": 4320.0
+        },
+        {
+          "desc": "Porta de abrir de madeira, 50x80cm",
+          "pct": 0.002,
+          "total": 3976.69
+        },
+        {
+          "desc": "Pintura esmalte sintético, 2 demãos em corrimão",
+          "pct": 0.001,
+          "total": 1873.0
+        }
+      ]
+    },
+    "Servicos Complementares": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 6,
+      "itens": [
+        {
+          "desc": "Ambientação",
+          "pct": 0.615,
+          "total": 499640.0
+        },
+        {
+          "desc": "Imprevistos e Contingências",
+          "pct": 0.209,
+          "total": 170000.0
+        },
+        {
+          "desc": "Limpeza final de obra",
+          "pct": 0.063,
+          "total": 50949.24
+        },
+        {
+          "desc": "Comunicação visual",
+          "pct": 0.062,
+          "total": 50000.0
+        },
+        {
+          "desc": "Paisagismo",
+          "pct": 0.043,
+          "total": 35000.0
+        },
+        {
+          "desc": "Desmobilização de canteiro",
+          "pct": 0.008,
+          "total": 6500.0
+        }
+      ]
+    }
+  }
+}

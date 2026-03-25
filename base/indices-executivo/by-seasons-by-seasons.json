@@ -1,0 +1,429 @@
+{
+  "projeto": "by-seasons-by-seasons",
+  "ac": 6348.509999999999,
+  "ur": 67,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Canteiro": {
+      "total": 41800.0,
+      "rsm2": 6.584222124561512,
+      "n_itens": 9,
+      "subcategorias": {
+        "TOTAL MOBILIARIO": {
+          "total": 14800.0,
+          "n_itens": 3
+        },
+        "TOTAL EQUIPAMENTOS": {
+          "total": 27000.0,
+          "n_itens": 0
+        }
+      }
+    },
+    "Gas": {
+      "total": 49.0,
+      "rsm2": 0.007718346509653447,
+      "n_itens": 49,
+      "subcategorias": {}
+    },
+    "Fundacoes": {
+      "total": 30.6432,
+      "rsm2": 0.004826833382951276,
+      "n_itens": 4,
+      "subcategorias": {}
+    },
+    "Infraestrutura": {
+      "total": 1657.1,
+      "rsm2": 0.26102187757442297,
+      "n_itens": 11,
+      "subcategorias": {}
+    },
+    "Loucas e Metais": {
+      "total": 232317.41,
+      "rsm2": 36.59400552255569,
+      "n_itens": 96,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 1096.98,
+          "n_itens": 22
+        }
+      }
+    }
+  },
+  "indices_consumo": {},
+  "split_mo_material": {
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Gas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Fundacoes": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 9,
+      "itens": [
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.574,
+          "total": 24000.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.12,
+          "total": 5000.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.086,
+          "total": 3600.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.077,
+          "total": 3200.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.048,
+          "total": 2000.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.029,
+          "total": 1200.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.024,
+          "total": 1000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.024,
+          "total": 1000.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.019,
+          "total": 800.0
+        }
+      ]
+    },
+    "Gas": {
+      "top_20_pct": 0.408,
+      "n_itens_total": 49,
+      "itens": [
+        {
+          "desc": "0.25",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.15",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.15",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.15",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.4",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.12",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.4",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.4",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.12",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.7",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.65",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.15",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.3",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.2",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.4",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.12",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.3",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.3",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.3",
+          "pct": 0.02,
+          "total": 1.0
+        },
+        {
+          "desc": "0.4",
+          "pct": 0.02,
+          "total": 1.0
+        }
+      ]
+    },
+    "Fundacoes": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 4,
+      "itens": [
+        {
+          "desc": "13.93",
+          "pct": 0.455,
+          "total": 13.949499999999999
+        },
+        {
+          "desc": "10.86",
+          "pct": 0.265,
+          "total": 8.126
+        },
+        {
+          "desc": "9.86",
+          "pct": 0.235,
+          "total": 7.2132000000000005
+        },
+        {
+          "desc": "9.03",
+          "pct": 0.044,
+          "total": 1.3544999999999998
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 11,
+      "itens": [
+        {
+          "desc": "TOTAL",
+          "pct": 0.656,
+          "total": 1087.0
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.056,
+          "total": 93.1
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.053,
+          "total": 88.3
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.035,
+          "total": 57.5
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.034,
+          "total": 57.0
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.032,
+          "total": 52.7
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.031,
+          "total": 51.6
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.029,
+          "total": 47.9
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.028,
+          "total": 45.7
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.024,
+          "total": 39.3
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.022,
+          "total": 37.0
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 0.994,
+      "n_itens_total": 96,
+      "itens": [
+        {
+          "desc": "Vaso sanitário deca branco",
+          "pct": 0.455,
+          "total": 105591.20000000001
+        },
+        {
+          "desc": "Cuba inox cozinha",
+          "pct": 0.305,
+          "total": 70886.44
+        },
+        {
+          "desc": "Acabamento metálico para registro de gaveta",
+          "pct": 0.086,
+          "total": 19948.800000000003
+        },
+        {
+          "desc": "Torneira pia inox bancada",
+          "pct": 0.046,
+          "total": 10730.0
+        },
+        {
+          "desc": "Cuba de embutir",
+          "pct": 0.021,
+          "total": 4888.72
+        },
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.019,
+          "total": 4441.099999999999
+        },
+        {
+          "desc": "Válvula de escoamento para cuba",
+          "pct": 0.014,
+          "total": 3146.5
+        },
+        {
+          "desc": "Bancada em granito",
+          "pct": 0.011,
+          "total": 2488.3
+        },
+        {
+          "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "pct": 0.01,
+          "total": 2227.25
+        },
+        {
+          "desc": "Vaso sanitário deca branco PNE",
+          "pct": 0.005,
+          "total": 1199.9
+        },
+        {
+          "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "pct": 0.005,
+          "total": 1183.7
+        },
+        {
+          "desc": "Barra de apoio PNE",
+          "pct": 0.004,
+          "total": 1037.32
+        },
+        {
+          "desc": "Sifão ajustável multiuso",
+          "pct": 0.004,
+          "total": 875.7
+        },
+        {
+          "desc": "Cuba inox tanque",
+          "pct": 0.002,
+          "total": 560.0
+        },
+        {
+          "desc": "Ducha",
+          "pct": 0.002,
+          "total": 540.0
+        },
+        {
+          "desc": "Torneira de jardim",
+          "pct": 0.002,
+          "total": 385.0
+        },
+        {
+          "desc": "Lavatório PNE de canto",
+          "pct": 0.001,
+          "total": 265.9
+        },
+        {
+          "desc": "Torneira banheiro PNE",
+          "pct": 0.001,
+          "total": 229.9
+        },
+        {
+          "desc": "Torneira tanque inox parede",
+          "pct": 0.001,
+          "total": 220.0
+        },
+        {
+          "desc": "Acabamento metálico para registro de pressão",
+          "pct": 0.001,
+          "total": 189.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+/Users/leokock/clawd/orcamento-parametrico/TEMPLATE-MEMORIA-PROJETO.md

@@ -1,0 +1,683 @@
+{
+  "projeto": "brasin-redentor",
+  "ac": 16727.83,
+  "ur": 40,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Loucas e Metais": {
+      "total": 2140.0,
+      "rsm2": 0.12793052057559168,
+      "n_itens": 15,
+      "subcategorias": {}
+    },
+    "Instalacoes Eletricas": {
+      "total": 1947780.558274359,
+      "rsm2": 116.43952373226885,
+      "n_itens": 110,
+      "subcategorias": {
+        "ELÉTRICA": {
+          "total": 1808112.1231743586,
+          "n_itens": 85
+        },
+        "TELEFONE": {
+          "total": 139668.4351,
+          "n_itens": 25
+        }
+      }
+    },
+    "Instalacoes Hidraulicas": {
+      "total": 881324.0574041667,
+      "rsm2": 52.686096009115744,
+      "n_itens": 200,
+      "subcategorias": {
+        "HIDROSSANITÁRIO": {
+          "total": 496654.14980000013,
+          "n_itens": 120
+        },
+        "SANITÁRIO": {
+          "total": 384669.90760416654,
+          "n_itens": 80
+        }
+      }
+    },
+    "Infraestrutura": {
+      "total": 3096.9999999999995,
+      "rsm2": 0.18514057113205953,
+      "n_itens": 8,
+      "subcategorias": {}
+    },
+    "Fundacoes": {
+      "total": 7.01,
+      "rsm2": 0.00041906212581069985,
+      "n_itens": 3,
+      "subcategorias": {}
+    },
+    "Supraestrutura": {
+      "total": 935191.7999999999,
+      "rsm2": 55.90634290281524,
+      "n_itens": 51,
+      "subcategorias": {}
+    },
+    "Escoramento": {
+      "total": 34238.07272048214,
+      "rsm2": 2.0467731152505815,
+      "n_itens": 43,
+      "subcategorias": {}
+    }
+  },
+  "indices_consumo": {
+    "Instalacoes Eletricas": {
+      "eletroduto_m_por_m2_ac": 1.77,
+      "pontos_eletricos_por_ur": 36.2
+    },
+    "Instalacoes Hidraulicas": {
+      "tubulacao_m_por_m2_ac": 0.87
+    }
+  },
+  "split_mo_material": {
+    "Loucas e Metais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Eletricas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Hidraulicas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Fundacoes": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Escoramento": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Loucas e Metais": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 15,
+      "itens": [
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.379,
+          "total": 812.0
+        },
+        {
+          "desc": "Ralos comum",
+          "pct": 0.273,
+          "total": 584.0
+        },
+        {
+          "desc": "Acabamento de Registro Comum",
+          "pct": 0.095,
+          "total": 204.0
+        },
+        {
+          "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "pct": 0.095,
+          "total": 203.0
+        },
+        {
+          "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "pct": 0.095,
+          "total": 203.0
+        },
+        {
+          "desc": "Barra de apoio PNE",
+          "pct": 0.03,
+          "total": 64.0
+        },
+        {
+          "desc": "Sifão ajustável multiuso",
+          "pct": 0.01,
+          "total": 21.0
+        },
+        {
+          "desc": "Torneira Lavatório mesa",
+          "pct": 0.007,
+          "total": 14.0
+        },
+        {
+          "desc": "Válvula de escoamento para lavatório",
+          "pct": 0.007,
+          "total": 14.0
+        },
+        {
+          "desc": "Banheiro - Bacia Sanitária PNE",
+          "pct": 0.004,
+          "total": 8.0
+        },
+        {
+          "desc": "Banheiro - Lavatorio PNE",
+          "pct": 0.004,
+          "total": 8.0
+        },
+        {
+          "desc": "Ducha",
+          "pct": 0.001,
+          "total": 2.0
+        },
+        {
+          "desc": "Tanque Fibra",
+          "pct": 0.0,
+          "total": 1.0
+        },
+        {
+          "desc": "Torneira tanque",
+          "pct": 0.0,
+          "total": 1.0
+        },
+        {
+          "desc": "Válvula de escoamento para tanque",
+          "pct": 0.0,
+          "total": 1.0
+        }
+      ]
+    },
+    "Instalacoes Eletricas": {
+      "top_20_pct": 0.963,
+      "n_itens_total": 110,
+      "itens": [
+        {
+          "desc": "Verba complementar Fios e Cabos Elétricos",
+          "pct": 0.258,
+          "total": 501834.9
+        },
+        {
+          "desc": "Verba complementar Instalações de Infraestrutura Elétrica",
+          "pct": 0.15,
+          "total": 292737.025
+        },
+        {
+          "desc": "Verba complementar Equipamentos e Acabamentos Elétricos",
+          "pct": 0.129,
+          "total": 250917.45
+        },
+        {
+          "desc": "Verba complementar Instalações Elétricas Especiais",
+          "pct": 0.129,
+          "total": 250917.45
+        },
+        {
+          "desc": "Barramento Blindado BWW01-MA250J-54",
+          "pct": 0.097,
+          "total": 188474.35897435897
+        },
+        {
+          "desc": "Verba complementar Entrada de energia",
+          "pct": 0.047,
+          "total": 92003.065
+        },
+        {
+          "desc": "Eletroduto flexível corrugado Reforçado, em PVC na cor laran",
+          "pct": 0.045,
+          "total": 87230.7216
+        },
+        {
+          "desc": "Quadro de distribuição váriavel (Apartamentos)",
+          "pct": 0.021,
+          "total": 40800.0
+        },
+        {
+          "desc": "Eletroduto flexível corrugado Reforçado, em PVC na cor laran",
+          "pct": 0.019,
+          "total": 37794.3552
+        },
+        {
+          "desc": "Eletrocalha perfurada Tipo \"U\" de aço carbono galvanizado a ",
+          "pct": 0.018,
+          "total": 35950.0
+        },
+        {
+          "desc": "Eletroduto de PVC Rígido Roscável antichamas, conforme NBR15",
+          "pct": 0.007,
+          "total": 14079.072
+        },
+        {
+          "desc": "Conjunto montado com 1 Sensor de presença, posto vertical, 1",
+          "pct": 0.006,
+          "total": 12133.8
+        },
+        {
+          "desc": "Conjunto montado de 2 Tomadas para Telefone RJ11/Internet RJ",
+          "pct": 0.006,
+          "total": 11919.44
+        },
+        {
+          "desc": "Caixa de Passagem de sobrepor, 30x30x30cm, fabricado em Alum",
+          "pct": 0.006,
+          "total": 11428.2
+        },
+        {
+          "desc": "Cofre de Derivação extraível, DWB 250A, 11,5x45x18cm",
+          "pct": 0.006,
+          "total": 11284.56
+        },
+        {
+          "desc": "Conjunto montado de 1 Tomada 2P+T, 20A, posto vertical, 4''x",
+          "pct": 0.005,
+          "total": 10053.12
+        },
+        {
+          "desc": "Eletroduto de PVC Rígido Roscável antichamas, conforme NBR15",
+          "pct": 0.004,
+          "total": 8669.115
+        },
+        {
+          "desc": "Caixa de Passagem conjugada para a prumada Telecomunicações,",
+          "pct": 0.004,
+          "total": 6953.8
+        },
+        {
+          "desc": "Caixa de Passagem padrão CELESC, tampa em ferro fundido, dim",
+          "pct": 0.003,
+          "total": 5859.56
+        },
+        {
+          "desc": "Caixa de Passagem padrão CELESC, tampa em ferro fundido, dim",
+          "pct": 0.003,
+          "total": 5547.09
+        }
+      ]
+    },
+    "Instalacoes Hidraulicas": {
+      "top_20_pct": 0.743,
+      "n_itens_total": 200,
+      "itens": [
+        {
+          "desc": "TUBO PVC ESG SR DN100",
+          "pct": 0.147,
+          "total": 129330.95199083333
+        },
+        {
+          "desc": "Misturador Monocomando Ø3/4\"",
+          "pct": 0.08,
+          "total": 70292.2
+        },
+        {
+          "desc": "Verba para Bombas da cisterna",
+          "pct": 0.068,
+          "total": 60000.0
+        },
+        {
+          "desc": "TUBO CPVC - ø35",
+          "pct": 0.064,
+          "total": 56615.117999999995
+        },
+        {
+          "desc": "TUBO CPVC - ø22",
+          "pct": 0.062,
+          "total": 54762.079999999994
+        },
+        {
+          "desc": "CONECT TRANS FM SUPER CPVC DN22X1/2 CB",
+          "pct": 0.037,
+          "total": 32701.199999999997
+        },
+        {
+          "desc": "TUBO CPVC - ø28",
+          "pct": 0.037,
+          "total": 32688.80933333333
+        },
+        {
+          "desc": "TUBO PVC ESG SN DN100",
+          "pct": 0.036,
+          "total": 31348.697895
+        },
+        {
+          "desc": "TUBO PVC ESG SR DN150",
+          "pct": 0.031,
+          "total": 27102.49275
+        },
+        {
+          "desc": "Registro de Gaveta Ø3/4\"",
+          "pct": 0.028,
+          "total": 24822.930000000004
+        },
+        {
+          "desc": "PPR PN20 - ø75",
+          "pct": 0.024,
+          "total": 20889.617833333337
+        },
+        {
+          "desc": "TUBO PVC ESG SN DN50",
+          "pct": 0.017,
+          "total": 14792.164799999997
+        },
+        {
+          "desc": "ANEL ORING ESG SBR DN50 DUR40",
+          "pct": 0.016,
+          "total": 14166.880000000001
+        },
+        {
+          "desc": "CURVA 90 CPVC 22MM CB",
+          "pct": 0.016,
+          "total": 13960.8
+        },
+        {
+          "desc": "JUNCAO SIMP RED ESG SN DN100X50 CB",
+          "pct": 0.016,
+          "total": 13944.099999999999
+        },
+        {
+          "desc": "GRELHA CEGA INOX RALO LINEAR 90CM",
+          "pct": 0.014,
+          "total": 12481.82
+        },
+        {
+          "desc": "CAIXA SIF QD G. BRANCA DN150X150X50",
+          "pct": 0.014,
+          "total": 12452.699999999999
+        },
+        {
+          "desc": "ANEL ORING ESG SBR DN100 DUR40",
+          "pct": 0.013,
+          "total": 11872.980000000001
+        },
+        {
+          "desc": "LUVA SIMP ESG SR DN100 CB",
+          "pct": 0.012,
+          "total": 10688.0
+        },
+        {
+          "desc": "JOELHO 90 ESG SR DN100 CB",
+          "pct": 0.012,
+          "total": 10339.5
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "TOTAL",
+          "pct": 0.81,
+          "total": 2509.4999999999995
+        },
+        {
+          "desc": "V136+V137+V139+V140+V141",
+          "pct": 0.081,
+          "total": 251.2
+        },
+        {
+          "desc": "ARRANQUE",
+          "pct": 0.039,
+          "total": 120.0
+        },
+        {
+          "desc": "V142+V143+V144+V145",
+          "pct": 0.025,
+          "total": 78.6
+        },
+        {
+          "desc": "V129+V130+V131+V132+V133+V134",
+          "pct": 0.017,
+          "total": 53.4
+        },
+        {
+          "desc": "V103+V104+V105+V106+V107",
+          "pct": 0.009,
+          "total": 28.9
+        },
+        {
+          "desc": "V110+V111+V112+V113",
+          "pct": 0.009,
+          "total": 27.7
+        },
+        {
+          "desc": "V118+V120+V121",
+          "pct": 0.009,
+          "total": 27.7
+        }
+      ]
+    },
+    "Fundacoes": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 3,
+      "itens": [
+        {
+          "desc": "B30",
+          "pct": 0.34,
+          "total": 2.38
+        },
+        {
+          "desc": "B12",
+          "pct": 0.34,
+          "total": 2.38
+        },
+        {
+          "desc": "CISTERNA",
+          "pct": 0.321,
+          "total": 2.25
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 0.799,
+      "n_itens_total": 51,
+      "itens": [
+        {
+          "desc": "Torre",
+          "pct": 0.284,
+          "total": 265145.39999999997
+        },
+        {
+          "desc": "Tipo 3 (x19)",
+          "pct": 0.129,
+          "total": 120364.19999999995
+        },
+        {
+          "desc": "Embasamento",
+          "pct": 0.079,
+          "total": 73639.8
+        },
+        {
+          "desc": "Tipo 2 (x7)",
+          "pct": 0.061,
+          "total": 57371.4
+        },
+        {
+          "desc": "Tipo 1 (x6)",
+          "pct": 0.061,
+          "total": 56836.8
+        },
+        {
+          "desc": "LAZER",
+          "pct": 0.016,
+          "total": 15024.6
+        },
+        {
+          "desc": "LAZER",
+          "pct": 0.016,
+          "total": 15024.6
+        },
+        {
+          "desc": "Mezanino",
+          "pct": 0.015,
+          "total": 14072.400000000001
+        },
+        {
+          "desc": "Mezanino",
+          "pct": 0.015,
+          "total": 14072.400000000001
+        },
+        {
+          "desc": "Tipo 1 (x6)",
+          "pct": 0.012,
+          "total": 11646.0
+        },
+        {
+          "desc": "G1",
+          "pct": 0.012,
+          "total": 10809.0
+        },
+        {
+          "desc": "G1",
+          "pct": 0.012,
+          "total": 10809.0
+        },
+        {
+          "desc": "G2",
+          "pct": 0.011,
+          "total": 10722.6
+        },
+        {
+          "desc": "G3",
+          "pct": 0.011,
+          "total": 10722.6
+        },
+        {
+          "desc": "G2",
+          "pct": 0.011,
+          "total": 10722.6
+        },
+        {
+          "desc": "G3",
+          "pct": 0.011,
+          "total": 10722.6
+        },
+        {
+          "desc": "G4",
+          "pct": 0.011,
+          "total": 10654.199999999999
+        },
+        {
+          "desc": "G4",
+          "pct": 0.011,
+          "total": 10654.199999999999
+        },
+        {
+          "desc": "Tipo 2 - Diferenciado",
+          "pct": 0.01,
+          "total": 9037.8
+        },
+        {
+          "desc": "Tipo 2 - Diferenciado",
+          "pct": 0.01,
+          "total": 9037.8
+        }
+      ]
+    },
+    "Escoramento": {
+      "top_20_pct": 0.613,
+      "n_itens_total": 43,
+      "itens": [
+        {
+          "desc": "390.29",
+          "pct": 0.054,
+          "total": 1855.1143072929412
+        },
+        {
+          "desc": "867.42",
+          "pct": 0.052,
+          "total": 1783.5510570574681
+        },
+        {
+          "desc": "811.04",
+          "pct": 0.052,
+          "total": 1770.751476968706
+        },
+        {
+          "desc": "873.69",
+          "pct": 0.052,
+          "total": 1769.4653947588304
+        },
+        {
+          "desc": "866.79",
+          "pct": 0.05,
+          "total": 1699.2072084850881
+        },
+        {
+          "desc": "853.25",
+          "pct": 0.048,
+          "total": 1655.6573261865065
+        },
+        {
+          "desc": "298.42",
+          "pct": 0.034,
+          "total": 1162.0089133814008
+        },
+        {
+          "desc": "308.59",
+          "pct": 0.027,
+          "total": 916.3304309390617
+        },
+        {
+          "desc": "230.6",
+          "pct": 0.026,
+          "total": 888.3481489209108
+        },
+        {
+          "desc": "358.67",
+          "pct": 0.023,
+          "total": 783.1564791452623
+        },
+        {
+          "desc": "358.67",
+          "pct": 0.021,
+          "total": 719.7077413590695
+        },
+        {
+          "desc": "358.67",
+          "pct": 0.021,
+          "total": 719.7077413590695
+        },
+        {
+          "desc": "358.67",
+          "pct": 0.021,
+          "total": 719.7077413590695
+        },
+        {
+          "desc": "358.67",
+          "pct": 0.021,
+          "total": 719.7077413590695
+        },
+        {
+          "desc": "390.35",
+          "pct": 0.021,
+          "total": 719.7077413590695
+        },
+        {
+          "desc": "298.42",
+          "pct": 0.02,
+          "total": 686.4589609984654
+        },
+        {
+          "desc": "145.03",
+          "pct": 0.018,
+          "total": 619.2310069137275
+        },
+        {
+          "desc": "298.42",
+          "pct": 0.017,
+          "total": 598.8100041162448
+        },
+        {
+          "desc": "298.42",
+          "pct": 0.017,
+          "total": 598.8100041162448
+        },
+        {
+          "desc": "298.42",
+          "pct": 0.017,
+          "total": 598.8100041162448
+        }
+      ]
+    }
+  }
+}

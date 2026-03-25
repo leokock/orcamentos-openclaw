@@ -1,0 +1,412 @@
+{
+  "projeto": "caledonia-mowe-caledonia-mowe",
+  "ac": 329.57,
+  "ur": 1,
+  "total": 1603246.825985587,
+  "rsm2": 4864.662517782525,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 243899.46582717574,
+      "rsm2": 740.0536026555079
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 10084.167840185286,
+      "rsm2": 30.597954426025687
+    },
+    "INFRAESTRUTURA": {
+      "valor": 102925.63074964285,
+      "rsm2": 312.30279075657023
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 190194.42273595065,
+      "rsm2": 577.0987126739408
+    },
+    "ALVENARIA": {
+      "valor": 60429.04230820599,
+      "rsm2": 183.35723005190397
+    },
+    "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS": {
+      "valor": 127201.76085779698,
+      "rsm2": 385.9628026149133
+    },
+    "CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO": {
+      "valor": 11221.223,
+      "rsm2": 34.04807172982978
+    },
+    "INSTALAÇÕES ESPECIAIS": {
+      "valor": 10955.697999999999,
+      "rsm2": 33.24240070394757
+    },
+    "REVESTIMENTOS ARGAMASSADOS PISO": {
+      "valor": 26511.9595078,
+      "rsm2": 80.44409232575781
+    },
+    "REVESTIMENTOS ARGAMASSADOS PAREDE": {
+      "valor": 33446.834324250005,
+      "rsm2": 101.4862831090512
+    },
+    "REVESTIMENTOS ARGAMASSADOS TETO": {
+      "valor": 380.6722,
+      "rsm2": 1.1550571957399034
+    },
+    "IMPERMEABILIZAÇÃO": {
+      "valor": 90264.6502106553,
+      "rsm2": 273.8861249830242
+    },
+    "ACABAMENTOS INTERNOS EM PAREDE": {
+      "valor": 28197.116854000004,
+      "rsm2": 85.55729239311832
+    },
+    "ACABAMENTOS EM PISOS E PAVIMENTAÇÕES": {
+      "valor": 122733.17982400004,
+      "rsm2": 372.40398041083847
+    },
+    "ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 50092.53,
+      "rsm2": 151.99359771823893
+    },
+    "PINTURA INTERNA": {
+      "valor": 41028.63363603333,
+      "rsm2": 124.4914089147475
+    },
+    "PINTURA DE FACHADA": {
+      "valor": 49075.81434067121,
+      "rsm2": 148.9086213571357
+    },
+    "REVESTIMENTOS ARGAMASSADOS DE FACHADA": {
+      "valor": 48409.09187455999,
+      "rsm2": 146.8856142080893
+    },
+    "ACABAMENTOS DE FACHADA": {
+      "valor": 100308.05190661384,
+      "rsm2": 304.3603844603994
+    },
+    "ESQUADRIAS, VIDROS E FERRAGENS": {
+      "valor": 137257.00257303804,
+      "rsm2": 416.4729877508209
+    },
+    "LOUÇAS E METAIS": {
+      "valor": 68854.816,
+      "rsm2": 208.92319082440758
+    },
+    "SERVIÇOS COMPLEMENTARES": {
+      "valor": 23121.19160798,
+      "rsm2": 70.1556319081834
+    },
+    "IMPREVISTOS": {
+      "valor": 26653.869807027662,
+      "rsm2": 80.87468461033366
+    }
+  },
+  "disciplinas": {
+    "Fundacoes": {
+      "total": 2.41,
+      "rsm2": 0.007312558788724702,
+      "n_itens": 15,
+      "subcategorias": {}
+    },
+    "Infraestrutura": {
+      "total": 424.59999999999997,
+      "rsm2": 1.2883454197894224,
+      "n_itens": 3,
+      "subcategorias": {}
+    },
+    "Supraestrutura": {
+      "total": 2824.2000000000003,
+      "rsm2": 8.569347938222533,
+      "n_itens": 9,
+      "subcategorias": {}
+    },
+    "Loucas e Metais": {
+      "total": 68967.3515,
+      "rsm2": 209.2646524258883,
+      "n_itens": 48,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 15754.66,
+          "n_itens": 16
+        }
+      }
+    }
+  },
+  "indices_consumo": {},
+  "split_mo_material": {
+    "Fundacoes": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Fundacoes": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 15,
+      "itens": [
+        {
+          "desc": "SAPATA 2",
+          "pct": 0.124,
+          "total": 0.3
+        },
+        {
+          "desc": "SAPATA 3",
+          "pct": 0.079,
+          "total": 0.19
+        },
+        {
+          "desc": "SAPATA 7",
+          "pct": 0.079,
+          "total": 0.19
+        },
+        {
+          "desc": "SAPATA 24",
+          "pct": 0.079,
+          "total": 0.19
+        },
+        {
+          "desc": "SAPATA 1",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 4",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 5 E 8",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 6",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 10",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 11",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 12",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 14",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 15",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 16",
+          "pct": 0.058,
+          "total": 0.14
+        },
+        {
+          "desc": "SAPATA 17",
+          "pct": 0.058,
+          "total": 0.14
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 3,
+      "itens": [
+        {
+          "desc": "TOTAL",
+          "pct": 0.614,
+          "total": 260.59999999999997
+        },
+        {
+          "desc": "AGM.08.VigasTérreo1.R00.pdf",
+          "pct": 0.314,
+          "total": 133.2
+        },
+        {
+          "desc": "AGM.09.VigasTérreo2.R00.pdf",
+          "pct": 0.073,
+          "total": 30.8
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 9,
+      "itens": [
+        {
+          "desc": "1053.7",
+          "pct": 0.233,
+          "total": 659.4000000000001
+        },
+        {
+          "desc": "1053.7",
+          "pct": 0.233,
+          "total": 659.4000000000001
+        },
+        {
+          "desc": "509.3",
+          "pct": 0.105,
+          "total": 295.6
+        },
+        {
+          "desc": "120",
+          "pct": 0.105,
+          "total": 295.6
+        },
+        {
+          "desc": "537.8",
+          "pct": 0.105,
+          "total": 295.6
+        },
+        {
+          "desc": "424.70000000000005",
+          "pct": 0.076,
+          "total": 214.0
+        },
+        {
+          "desc": "437.50000000000006",
+          "pct": 0.076,
+          "total": 214.0
+        },
+        {
+          "desc": "135.6",
+          "pct": 0.062,
+          "total": 174.6
+        },
+        {
+          "desc": "5",
+          "pct": 0.006,
+          "total": 16.0
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 0.999,
+      "n_itens_total": 48,
+      "itens": [
+        {
+          "desc": "Banheira",
+          "pct": 0.223,
+          "total": 15386.250000000002
+        },
+        {
+          "desc": "Cuba de embutir",
+          "pct": 0.124,
+          "total": 8555.26
+        },
+        {
+          "desc": "Bancada em granito",
+          "pct": 0.122,
+          "total": 8439.76
+        },
+        {
+          "desc": "Torneira Lavatório mesa",
+          "pct": 0.107,
+          "total": 7384.51
+        },
+        {
+          "desc": "Vaso sanitário deca branco",
+          "pct": 0.104,
+          "total": 7199.400000000001
+        },
+        {
+          "desc": "Cuba Pia Cozinha - Lazer",
+          "pct": 0.085,
+          "total": 5832.121999999999
+        },
+        {
+          "desc": "Chuveiro Monocromado",
+          "pct": 0.07,
+          "total": 4850.0
+        },
+        {
+          "desc": "Acabamento de Registro Pressão",
+          "pct": 0.036,
+          "total": 2468.5
+        },
+        {
+          "desc": "Torneira misturador pia cozinha",
+          "pct": 0.031,
+          "total": 2109.86
+        },
+        {
+          "desc": "Acabamento de Registro Comum",
+          "pct": 0.028,
+          "total": 1923.28
+        },
+        {
+          "desc": "Cozinha - Cuba / Inox",
+          "pct": 0.016,
+          "total": 1126.922
+        },
+        {
+          "desc": "Torneira tanque",
+          "pct": 0.015,
+          "total": 1054.93
+        },
+        {
+          "desc": "Tanque Inox",
+          "pct": 0.015,
+          "total": 1008.922
+        },
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.009,
+          "total": 598.8
+        },
+        {
+          "desc": "Torneira de jardim",
+          "pct": 0.008,
+          "total": 550.0
+        },
+        {
+          "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "pct": 0.002,
+          "total": 147.5
+        },
+        {
+          "desc": "Sifão ajustável multiuso",
+          "pct": 0.002,
+          "total": 139.0
+        },
+        {
+          "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "pct": 0.001,
+          "total": 79.80000000000001
+        },
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.0,
+          "total": 16.0
+        },
+        {
+          "desc": "Torneira de jardim",
+          "pct": 0.0,
+          "total": 8.0
+        }
+      ]
+    }
+  }
+}

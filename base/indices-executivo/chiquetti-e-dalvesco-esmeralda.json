@@ -1,0 +1,766 @@
+{
+  "projeto": "chiquetti-e-dalvesco-esmeralda",
+  "ac": 5579.71,
+  "ur": 37,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Supraestrutura": {
+      "total": 105330.0,
+      "rsm2": 18.87732516564481,
+      "n_itens": 25,
+      "subcategorias": {}
+    },
+    "Canteiro": {
+      "total": 55700.0,
+      "rsm2": 9.982597661885654,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 20200.0,
+          "n_itens": 3
+        }
+      }
+    },
+    "Loucas e Metais": {
+      "total": 750.1113,
+      "rsm2": 0.13443553518014378,
+      "n_itens": 25,
+      "subcategorias": {}
+    },
+    "Impermeabilizacao": {
+      "total": 5346.882000000001,
+      "rsm2": 0.9582723833317505,
+      "n_itens": 4,
+      "subcategorias": {}
+    },
+    "Infraestrutura": {
+      "total": 19012.0,
+      "rsm2": 3.4073455430479362,
+      "n_itens": 9,
+      "subcategorias": {
+        "TÉRREO": {
+          "total": 581.0,
+          "n_itens": 6
+        }
+      }
+    },
+    "Instalacoes Hidraulicas": {
+      "total": 429218.136835128,
+      "rsm2": 76.92481093732972,
+      "n_itens": 155,
+      "subcategorias": {}
+    },
+    "Exaustao": {
+      "total": 198608.88408333334,
+      "rsm2": 35.59483989012571,
+      "n_itens": 107,
+      "subcategorias": {}
+    },
+    "Instalacoes Eletricas": {
+      "total": 1087844.4463333334,
+      "rsm2": 194.96433440686585,
+      "n_itens": 406,
+      "subcategorias": {}
+    }
+  },
+  "indices_consumo": {
+    "Instalacoes Hidraulicas": {
+      "tubulacao_m_por_m2_ac": 1.66
+    },
+    "Instalacoes Eletricas": {
+      "eletroduto_m_por_m2_ac": 0.05,
+      "pontos_eletricos_por_ur": 57.8
+    }
+  },
+  "split_mo_material": {
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Impermeabilizacao": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Hidraulicas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Exaustao": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Eletricas": {
+      "mo_pct": 0.01,
+      "material_pct": 0.99
+    }
+  },
+  "curva_abc": {
+    "Supraestrutura": {
+      "top_20_pct": 0.994,
+      "n_itens_total": 25,
+      "itens": [
+        {
+          "desc": "4594",
+          "pct": 0.17,
+          "total": 17955.0
+        },
+        {
+          "desc": "4594",
+          "pct": 0.17,
+          "total": 17955.0
+        },
+        {
+          "desc": "4594",
+          "pct": 0.17,
+          "total": 17955.0
+        },
+        {
+          "desc": "2887",
+          "pct": 0.112,
+          "total": 11799.0
+        },
+        {
+          "desc": "904",
+          "pct": 0.056,
+          "total": 5924.0
+        },
+        {
+          "desc": "975",
+          "pct": 0.049,
+          "total": 5118.0
+        },
+        {
+          "desc": "959",
+          "pct": 0.045,
+          "total": 4734.0
+        },
+        {
+          "desc": "959",
+          "pct": 0.045,
+          "total": 4734.0
+        },
+        {
+          "desc": "Lajes/Escadas",
+          "pct": 0.039,
+          "total": 4108.0
+        },
+        {
+          "desc": "Lajes/Escadas",
+          "pct": 0.039,
+          "total": 4088.0
+        },
+        {
+          "desc": "Lajes/Escadas",
+          "pct": 0.036,
+          "total": 3753.0
+        },
+        {
+          "desc": "748",
+          "pct": 0.014,
+          "total": 1422.0
+        },
+        {
+          "desc": "280",
+          "pct": 0.012,
+          "total": 1239.0
+        },
+        {
+          "desc": "519",
+          "pct": 0.009,
+          "total": 912.0
+        },
+        {
+          "desc": "1008",
+          "pct": 0.007,
+          "total": 757.0
+        },
+        {
+          "desc": "Lajes/Escadas",
+          "pct": 0.005,
+          "total": 575.0
+        },
+        {
+          "desc": "403",
+          "pct": 0.005,
+          "total": 503.0
+        },
+        {
+          "desc": "110",
+          "pct": 0.004,
+          "total": 441.0
+        },
+        {
+          "desc": "Vigas",
+          "pct": 0.004,
+          "total": 441.0
+        },
+        {
+          "desc": "376",
+          "pct": 0.003,
+          "total": 320.0
+        }
+      ]
+    },
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.583,
+          "total": 32500.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.18,
+          "total": 10000.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.072,
+          "total": 4000.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.065,
+          "total": 3600.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.036,
+          "total": 2000.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.029,
+          "total": 1600.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.018,
+          "total": 1000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.018,
+          "total": 1000.0
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 0.993,
+      "n_itens_total": 25,
+      "itens": [
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.496,
+          "total": 372.0
+        },
+        {
+          "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "pct": 0.135,
+          "total": 101.0
+        },
+        {
+          "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "pct": 0.125,
+          "total": 94.0
+        },
+        {
+          "desc": "Banheiro - Bacia Sanitária / Caixa Acoplada",
+          "pct": 0.123,
+          "total": 92.0
+        },
+        {
+          "desc": "Bancada Cozinha",
+          "pct": 0.023,
+          "total": 17.4713
+        },
+        {
+          "desc": "Sifão ajustável multiuso",
+          "pct": 0.013,
+          "total": 10.0
+        },
+        {
+          "desc": "Acabamento de Registro Comum",
+          "pct": 0.012,
+          "total": 9.0
+        },
+        {
+          "desc": "Barra de apoio PNE",
+          "pct": 0.011,
+          "total": 8.0
+        },
+        {
+          "desc": "Chuveiro Elétrico",
+          "pct": 0.007,
+          "total": 5.0
+        },
+        {
+          "desc": "Torneira Lavatório mesa",
+          "pct": 0.007,
+          "total": 5.0
+        },
+        {
+          "desc": "Acabamento de Registro Pressão",
+          "pct": 0.007,
+          "total": 5.0
+        },
+        {
+          "desc": "Válvula de escoamento para lavatório",
+          "pct": 0.007,
+          "total": 5.0
+        },
+        {
+          "desc": "Banheiro - Cuba",
+          "pct": 0.005,
+          "total": 4.0
+        },
+        {
+          "desc": "Torneira de Jardins",
+          "pct": 0.005,
+          "total": 4.0
+        },
+        {
+          "desc": "Cozinha - Cuba / Inox",
+          "pct": 0.004,
+          "total": 3.0
+        },
+        {
+          "desc": "Torneira misturador pia cozinha",
+          "pct": 0.004,
+          "total": 3.0
+        },
+        {
+          "desc": "Válvula de escoamento para Pia",
+          "pct": 0.004,
+          "total": 3.0
+        },
+        {
+          "desc": "Bancada Banheiros",
+          "pct": 0.003,
+          "total": 2.008
+        },
+        {
+          "desc": "Bancada Tanque",
+          "pct": 0.002,
+          "total": 1.6320000000000001
+        },
+        {
+          "desc": "Banheiro - Bacia Sanitária PNE",
+          "pct": 0.001,
+          "total": 1.0
+        }
+      ]
+    },
+    "Impermeabilizacao": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 4,
+      "itens": [
+        {
+          "desc": "214836.6583333333",
+          "pct": 0.959,
+          "total": 5127.416000000001
+        },
+        {
+          "desc": "878",
+          "pct": 0.014,
+          "total": 76.0
+        },
+        {
+          "desc": "1726",
+          "pct": 0.014,
+          "total": 76.0
+        },
+        {
+          "desc": "124.47083333333332",
+          "pct": 0.013,
+          "total": 67.46600000000001
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 9,
+      "itens": [
+        {
+          "desc": "TOTAL",
+          "pct": 0.344,
+          "total": 6531.0
+        },
+        {
+          "desc": "PROJETO: CDV_ESM_EST_EX_004_BLOCOS_R00\nRESUMO:  CDV_ESM_EST_",
+          "pct": 0.164,
+          "total": 3126.0
+        },
+        {
+          "desc": "BLOCOS",
+          "pct": 0.164,
+          "total": 3126.0
+        },
+        {
+          "desc": "RESUMO:  CDV_ESM_EST_EX_QUANTITATIVO_R00",
+          "pct": 0.139,
+          "total": 2644.0
+        },
+        {
+          "desc": "TÉRREO",
+          "pct": 0.085,
+          "total": 1618.0
+        },
+        {
+          "desc": "RESUMO:  CDV_ESM_EST_EX_QUANTITATIVO_R00",
+          "pct": 0.04,
+          "total": 761.0
+        },
+        {
+          "desc": "PISCINA",
+          "pct": 0.039,
+          "total": 743.0
+        },
+        {
+          "desc": "TÉRREO",
+          "pct": 0.023,
+          "total": 445.0
+        },
+        {
+          "desc": "PISCINA",
+          "pct": 0.001,
+          "total": 18.0
+        }
+      ]
+    },
+    "Instalacoes Hidraulicas": {
+      "top_20_pct": 0.729,
+      "n_itens_total": 155,
+      "itens": [
+        {
+          "desc": "Tubo - Esgoto - Série Normal Diâmetro 100",
+          "pct": 0.092,
+          "total": 39551.422375031994
+        },
+        {
+          "desc": "Registro de Gaveta: b. RG_Ø3/4\" (25mm)",
+          "pct": 0.087,
+          "total": 37228.0
+        },
+        {
+          "desc": "Luva Simples 100mm, Esgoto Série Normal - TIGRE",
+          "pct": 0.078,
+          "total": 33332.8
+        },
+        {
+          "desc": "Registro de Gaveta: b. RG_Ø3/4\" (25mm)",
+          "pct": 0.056,
+          "total": 24108.0
+        },
+        {
+          "desc": "Tubo - Esgoto - Série Normal Diâmetro 75",
+          "pct": 0.055,
+          "total": 23402.49817134667
+        },
+        {
+          "desc": "PPR_Registro Monocomando Ø3/4\"",
+          "pct": 0.045,
+          "total": 19106.1
+        },
+        {
+          "desc": "Tanque Fortlev -  10000 Litros",
+          "pct": 0.035,
+          "total": 14997.0
+        },
+        {
+          "desc": "Luva Simples 50mm, Esgoto Série Normal - TIGRE",
+          "pct": 0.034,
+          "total": 14485.599999999999
+        },
+        {
+          "desc": "Tubo Marrom - Água Fria - Soldável Diâmetro 25mm",
+          "pct": 0.032,
+          "total": 13788.168022324002
+        },
+        {
+          "desc": "Hidrômetro: HD ¾\" - 5m³",
+          "pct": 0.028,
+          "total": 12168.0
+        },
+        {
+          "desc": "Luva Simples 75mm, Esgoto Série Normal - TIGRE",
+          "pct": 0.028,
+          "total": 12030.720000000001
+        },
+        {
+          "desc": "Tubo - Esgoto - Série Normal Diâmetro 200",
+          "pct": 0.027,
+          "total": 11663.064199032002
+        },
+        {
+          "desc": "Tubo - Esgoto - Série Normal Diâmetro 50",
+          "pct": 0.025,
+          "total": 10681.27715925
+        },
+        {
+          "desc": "Tubo PPR - PN20 - Água Fria/Quente Diâmetro 25mm",
+          "pct": 0.022,
+          "total": 9498.518281527
+        },
+        {
+          "desc": "Conector macho 25x1/2, PPR - TIGRE",
+          "pct": 0.019,
+          "total": 7990.95
+        },
+        {
+          "desc": "Joelho 90º 100mm, Esgoto Série Normal - TIGRE",
+          "pct": 0.016,
+          "total": 6973.5199999999995
+        },
+        {
+          "desc": "Joelho 45º 100mm, Esgoto Série Normal - TIGRE",
+          "pct": 0.014,
+          "total": 6016.92
+        },
+        {
+          "desc": "Tubo - Esgoto - Série Normal Diâmetro 150",
+          "pct": 0.014,
+          "total": 5813.697356302
+        },
+        {
+          "desc": "Joelho 45º 50mm, Esgoto Série Normal - TIGRE",
+          "pct": 0.012,
+          "total": 5015.450000000001
+        },
+        {
+          "desc": "Joelho 45º 75mm, Esgoto Série Normal - TIGRE",
+          "pct": 0.011,
+          "total": 4898.34
+        }
+      ]
+    },
+    "Exaustao": {
+      "top_20_pct": 0.782,
+      "n_itens_total": 107,
+      "itens": [
+        {
+          "desc": "SISTEMA DE CLIMATIZAÇÃO SPLIT INVERTER COM CAPACIDADE DE 32.",
+          "pct": 0.164,
+          "total": 32667.300000000003
+        },
+        {
+          "desc": "UNIDADE EVAPORADORA SPLIT INVERTER, NO MODELO HI WALL, COM C",
+          "pct": 0.077,
+          "total": 15387.300000000001
+        },
+        {
+          "desc": "UNIDADE CONDENSADORA SPLIT INVERTER, MODELO HI WALL, COM CAP",
+          "pct": 0.077,
+          "total": 15387.300000000001
+        },
+        {
+          "desc": "SISTEMA DE CLIMATIZAÇÃO SPLIT INVERTER COM CAPACIDADE DE 36.",
+          "pct": 0.064,
+          "total": 12797.1
+        },
+        {
+          "desc": "UNIDADE EVAPORADORA SPLIT INVERTER, NO MODELO HI WALL, COM C",
+          "pct": 0.054,
+          "total": 10797.0
+        },
+        {
+          "desc": "UNIDADE CONDENSADORA SPLIT INVERTER, MODELO HI WALL, COM CAP",
+          "pct": 0.054,
+          "total": 10797.0
+        },
+        {
+          "desc": "VENTILADOR HELICOCENTRÍFUGO, BAIXO NÍVEL DE RUÍDO, COM ELEME",
+          "pct": 0.033,
+          "total": 6606.0
+        },
+        {
+          "desc": "TUBULAÇÃO DE COBRE PARA INSTALAÇÕES DE AR CONDICIONADO TIPO ",
+          "pct": 0.028,
+          "total": 5647.34625
+        },
+        {
+          "desc": "TUBULAÇÃO DE COBRE PARA INSTALAÇÕES DE AR CONDICIONADO TIPO ",
+          "pct": 0.028,
+          "total": 5580.51375
+        },
+        {
+          "desc": "VENTILADOR HELICOCENTRÍFUGO, BAIXO NÍVEL DE RUÍDO, COM ELEME",
+          "pct": 0.028,
+          "total": 5505.0
+        },
+        {
+          "desc": "TUBULAÇÃO DE COBRE PARA INSTALAÇÕES DE AR CONDICIONADO TIPO ",
+          "pct": 0.025,
+          "total": 5019.533333333334
+        },
+        {
+          "desc": "TUBULAÇÃO DE COBRE PARA INSTALAÇÕES DE AR CONDICIONADO TIPO ",
+          "pct": 0.024,
+          "total": 4814.082666666666
+        },
+        {
+          "desc": "TUBULAÇÃO DE COBRE PARA INSTALAÇÕES DE AR CONDICIONADO TIPO ",
+          "pct": 0.021,
+          "total": 4100.0
+        },
+        {
+          "desc": "TUBULAÇÃO DE COBRE PARA INSTALAÇÕES DE AR CONDICIONADO TIPO ",
+          "pct": 0.018,
+          "total": 3500.0
+        },
+        {
+          "desc": "VENTILADOR HELICOCENTRÍFUGO COM CAIXA DE BORNES EXTERNA, MOT",
+          "pct": 0.016,
+          "total": 3213.0
+        },
+        {
+          "desc": "VENTILADOR HELICOCENTRÍFUGO, BAIXO NÍVEL DE RUÍDO, COM ELEME",
+          "pct": 0.015,
+          "total": 2936.0
+        },
+        {
+          "desc": "UNIDADE EVAPORADORA SPLIT INVERTER, NO MODELO HI WALL, COM C",
+          "pct": 0.014,
+          "total": 2708.1
+        },
+        {
+          "desc": "UNIDADE CONDENSADORA SPLIT INVERTER, MODELO HI WALL, COM CAP",
+          "pct": 0.014,
+          "total": 2708.1
+        },
+        {
+          "desc": "VENTILADOR HELICOCENTRÍFUGO, BAIXO NÍVEL DE RUÍDO, COM ELEME",
+          "pct": 0.013,
+          "total": 2569.0
+        },
+        {
+          "desc": "CABO PP 4 x1,5 MM² PARA INTERLIGAÇÃO ELÉTRICA DE UNIDADES SP",
+          "pct": 0.013,
+          "total": 2558.8289999999997
+        }
+      ]
+    },
+    "Instalacoes Eletricas": {
+      "top_20_pct": 0.785,
+      "n_itens_total": 406,
+      "itens": [
+        {
+          "desc": "Cotação Allume",
+          "pct": 0.261,
+          "total": 283656.33
+        },
+        {
+          "desc": "CABOS DO TIPO ANTI-CHAMA, ISOLAMENTO PARA 750 V, NAS SEGUINT",
+          "pct": 0.093,
+          "total": 101218.0
+        },
+        {
+          "desc": "CABOS  DO TIPO \"EPROTENAX\" 1000 V (90o), NAS SEGUINTES SEÇÕE",
+          "pct": 0.09,
+          "total": 97766.49999999999
+        },
+        {
+          "desc": "CABOS  DO TIPO \"EPROTENAX\" 1000 V (90o), NAS SEGUINTES SEÇÕE",
+          "pct": 0.059,
+          "total": 64524.2
+        },
+        {
+          "desc": "Grupo gerador de emergência, completo com usca e  quadro de ",
+          "pct": 0.047,
+          "total": 51291.0
+        },
+        {
+          "desc": "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,00 METR",
+          "pct": 0.037,
+          "total": 40466.159999999996
+        },
+        {
+          "desc": "CABOS  DO TIPO \"EPROTENAX\" 1000 V (90o), NAS SEGUINTES SEÇÕE",
+          "pct": 0.034,
+          "total": 37037.0
+        },
+        {
+          "desc": "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,00 METR",
+          "pct": 0.026,
+          "total": 27800.85
+        },
+        {
+          "desc": "CABOS  DO TIPO \"EPROTENAX\" 1000 V (90o), NAS SEGUINTES SEÇÕE",
+          "pct": 0.02,
+          "total": 21292.309999999998
+        },
+        {
+          "desc": "CABOS DO TIPO ANTI-CHAMA, ISOLAMENTO PARA 750 V, NAS SEGUINT",
+          "pct": 0.02,
+          "total": 21277.1
+        },
+        {
+          "desc": "Caixa de PVC rígido, cor amarela  com  orelhas metálicas, fa",
+          "pct": 0.013,
+          "total": 14525.28
+        },
+        {
+          "desc": "Interruptor acionamento da persiana",
+          "pct": 0.013,
+          "total": 14478.0
+        },
+        {
+          "desc": "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,00 METR",
+          "pct": 0.013,
+          "total": 13624.695
+        },
+        {
+          "desc": "Eletrocalha lisa, com tampa  e acessórios para instalação, g",
+          "pct": 0.011,
+          "total": 12040.0
+        },
+        {
+          "desc": "01 tomada 2P+T (20A)",
+          "pct": 0.009,
+          "total": 10018.800000000001
+        },
+        {
+          "desc": "CABOS DO TIPO ANTI-CHAMA, ISOLAMENTO PARA 750 V, NAS SEGUINT",
+          "pct": 0.009,
+          "total": 9933.95
+        },
+        {
+          "desc": "02 tomadas 2P+T (10A)",
+          "pct": 0.009,
+          "total": 9585.0
+        },
+        {
+          "desc": "Tomada blindada para conector tipo \"F\" para antena  de telev",
+          "pct": 0.008,
+          "total": 8446.84
+        },
+        {
+          "desc": "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,00 METR",
+          "pct": 0.008,
+          "total": 8170.89
+        },
+        {
+          "desc": "CABOS DO TIPO ANTI-CHAMA, ISOLAMENTO PARA 750 V, NAS SEGUINT",
+          "pct": 0.006,
+          "total": 6431.75
+        }
+      ]
+    }
+  }
+}

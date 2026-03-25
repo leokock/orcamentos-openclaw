@@ -1,0 +1,1411 @@
+{
+  "projeto": "xpcon-porto-cerro",
+  "ac": 13188.75,
+  "ur": 86,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Canteiro": {
+      "total": 55700.0,
+      "rsm2": 4.223296370012321,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 20200.0,
+          "n_itens": 3
+        }
+      }
+    },
+    "Fundacoes": {
+      "total": 17.58,
+      "rsm2": 0.0013329542223485924,
+      "n_itens": 7,
+      "subcategorias": {}
+    },
+    "Infraestrutura": {
+      "total": 5132.559345454545,
+      "rsm2": 0.38916192553915613,
+      "n_itens": 8,
+      "subcategorias": {
+        "BLOCOS": {
+          "total": 822.9090909090909,
+          "n_itens": 7
+        }
+      }
+    },
+    "Supraestrutura": {
+      "total": 37582.98158,
+      "rsm2": 2.8496242312577005,
+      "n_itens": 24,
+      "subcategorias": {
+        "463.93424": {
+          "total": 514.55424,
+          "n_itens": 3
+        },
+        "472.83543999999995": {
+          "total": 768.29664,
+          "n_itens": 3
+        },
+        "509.90632": {
+          "total": 502.4352,
+          "n_itens": 6
+        },
+        "391.34171999999995": {
+          "total": 985.9344,
+          "n_itens": 8
+        }
+      }
+    },
+    "Alvenaria": {
+      "total": 13776.2023224,
+      "rsm2": 1.0445419256866648,
+      "n_itens": 10,
+      "subcategorias": {}
+    },
+    "Servicos Complementares": {
+      "total": 10197.3391016042,
+      "rsm2": 0.7731846537089717,
+      "n_itens": 19,
+      "subcategorias": {
+        "2648.14": {
+          "total": 1279.8132877362616,
+          "n_itens": 6
+        }
+      }
+    },
+    "Esquadrias": {
+      "total": 54314.87832559972,
+      "rsm2": 4.118273401618783,
+      "n_itens": 49,
+      "subcategorias": {}
+    },
+    "Loucas e Metais": {
+      "total": 365754.744,
+      "rsm2": 27.732328234290588,
+      "n_itens": 103,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 1739.774,
+          "n_itens": 11
+        },
+        "TOTAL METAIS": {
+          "total": 665.0,
+          "n_itens": 7
+        },
+        "TOTAL LOUÇAS": {
+          "total": 23264.52,
+          "n_itens": 15
+        },
+        "TOTAL BANCADAS": {
+          "total": 8996.29,
+          "n_itens": 1
+        }
+      }
+    },
+    "Gas": {
+      "total": 2213.87,
+      "rsm2": 0.1678604871576154,
+      "n_itens": 81,
+      "subcategorias": {}
+    },
+    "PCI": {
+      "total": 1692.2749999999999,
+      "rsm2": 0.12831200834044165,
+      "n_itens": 56,
+      "subcategorias": {}
+    },
+    "SPDA": {
+      "total": 2172.1499999999996,
+      "rsm2": 0.16469718510093828,
+      "n_itens": 11,
+      "subcategorias": {}
+    },
+    "Climatizacao": {
+      "total": 19832.489999999998,
+      "rsm2": 1.5037429627523455,
+      "n_itens": 77,
+      "subcategorias": {}
+    },
+    "Instalacoes Hidraulicas": {
+      "total": 45953.71,
+      "rsm2": 3.484311250118472,
+      "n_itens": 753,
+      "subcategorias": {}
+    },
+    "Instalacoes Eletricas": {
+      "total": 19540.37,
+      "rsm2": 1.4815937825798502,
+      "n_itens": 169,
+      "subcategorias": {}
+    }
+  },
+  "indices_consumo": {
+    "Instalacoes Hidraulicas": {
+      "tubulacao_m_por_m2_ac": 0.42
+    },
+    "Instalacoes Eletricas": {
+      "eletroduto_m_por_m2_ac": 0.67,
+      "pontos_eletricos_por_ur": 17.9
+    }
+  },
+  "split_mo_material": {
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Fundacoes": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Alvenaria": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Servicos Complementares": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Esquadrias": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Gas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "PCI": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "SPDA": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Climatizacao": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Hidraulicas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Eletricas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.583,
+          "total": 32500.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.18,
+          "total": 10000.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.072,
+          "total": 4000.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.065,
+          "total": 3600.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.036,
+          "total": 2000.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.029,
+          "total": 1600.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.018,
+          "total": 1000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.018,
+          "total": 1000.0
+        }
+      ]
+    },
+    "Fundacoes": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 7,
+      "itens": [
+        {
+          "desc": "P42",
+          "pct": 0.229,
+          "total": 4.03
+        },
+        {
+          "desc": "CISTERNA",
+          "pct": 0.189,
+          "total": 3.33
+        },
+        {
+          "desc": "P32=P41=P49",
+          "pct": 0.13,
+          "total": 2.28
+        },
+        {
+          "desc": "P20=P51",
+          "pct": 0.13,
+          "total": 2.28
+        },
+        {
+          "desc": "P33",
+          "pct": 0.112,
+          "total": 1.97
+        },
+        {
+          "desc": "P52=P55",
+          "pct": 0.111,
+          "total": 1.96
+        },
+        {
+          "desc": "DEA",
+          "pct": 0.098,
+          "total": 1.73
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "TOTAL",
+          "pct": 0.58,
+          "total": 2977.734218181818
+        },
+        {
+          "desc": "ARMADURA LJ DEA E CISTERNA",
+          "pct": 0.153,
+          "total": 784.6524
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.064,
+          "total": 328.1363636363636
+        },
+        {
+          "desc": "BLOCOS",
+          "pct": 0.052,
+          "total": 266.5181818181818
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.048,
+          "total": 248.42727272727268
+        },
+        {
+          "desc": "VIGAS BALDRAME",
+          "pct": 0.042,
+          "total": 215.1909090909091
+        },
+        {
+          "desc": "BLOCOS",
+          "pct": 0.041,
+          "total": 208.85454545454544
+        },
+        {
+          "desc": "BLOCOS",
+          "pct": 0.02,
+          "total": 103.04545454545453
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 0.994,
+      "n_itens_total": 24,
+      "itens": [
+        {
+          "desc": "4823.2416618181815",
+          "pct": 0.306,
+          "total": 11497.84198
+        },
+        {
+          "desc": "2145.74206",
+          "pct": 0.153,
+          "total": 5733.820799999999
+        },
+        {
+          "desc": "705.85746",
+          "pct": 0.055,
+          "total": 2084.4748799999998
+        },
+        {
+          "desc": "696.95626",
+          "pct": 0.049,
+          "total": 1830.73248
+        },
+        {
+          "desc": "884.3049599999999",
+          "pct": 0.049,
+          "total": 1823.3316600000003
+        },
+        {
+          "desc": "742.92834",
+          "pct": 0.048,
+          "total": 1818.6134399999999
+        },
+        {
+          "desc": "1036.2228799999998",
+          "pct": 0.036,
+          "total": 1367.7315
+        },
+        {
+          "desc": "206.35538",
+          "pct": 0.033,
+          "total": 1242.0438
+        },
+        {
+          "desc": "206.35538",
+          "pct": 0.033,
+          "total": 1242.0438
+        },
+        {
+          "desc": "206.35538",
+          "pct": 0.033,
+          "total": 1242.0438
+        },
+        {
+          "desc": "508.27392",
+          "pct": 0.028,
+          "total": 1069.23702
+        },
+        {
+          "desc": "177.8181818181818",
+          "pct": 0.028,
+          "total": 1046.83
+        },
+        {
+          "desc": "24.635",
+          "pct": 0.025,
+          "total": 947.0178
+        },
+        {
+          "desc": "24.635",
+          "pct": 0.025,
+          "total": 947.0178
+        },
+        {
+          "desc": "492.96324",
+          "pct": 0.022,
+          "total": 837.3972600000002
+        },
+        {
+          "desc": "BARRILETE",
+          "pct": 0.022,
+          "total": 836.83
+        },
+        {
+          "desc": "Lajes",
+          "pct": 0.022,
+          "total": 836.83
+        },
+        {
+          "desc": "554.51858",
+          "pct": 0.015,
+          "total": 579.11022
+        },
+        {
+          "desc": "177.8181818181818",
+          "pct": 0.006,
+          "total": 209.99999999999997
+        },
+        {
+          "desc": "43.96392",
+          "pct": 0.004,
+          "total": 151.63002
+        }
+      ]
+    },
+    "Alvenaria": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 10,
+      "itens": [
+        {
+          "desc": "16800",
+          "pct": 0.406,
+          "total": 5600.0
+        },
+        {
+          "desc": "11100",
+          "pct": 0.269,
+          "total": 3700.0
+        },
+        {
+          "desc": "6900",
+          "pct": 0.167,
+          "total": 2300.0
+        },
+        {
+          "desc": "1890",
+          "pct": 0.046,
+          "total": 630.0
+        },
+        {
+          "desc": "1500",
+          "pct": 0.036,
+          "total": 500.0
+        },
+        {
+          "desc": "1500",
+          "pct": 0.036,
+          "total": 500.0
+        },
+        {
+          "desc": "1050",
+          "pct": 0.025,
+          "total": 350.0
+        },
+        {
+          "desc": "540",
+          "pct": 0.013,
+          "total": 180.0
+        },
+        {
+          "desc": "40.1166",
+          "pct": 0.001,
+          "total": 13.3722
+        },
+        {
+          "desc": "8.4903672",
+          "pct": 0.0,
+          "total": 2.8301224
+        }
+      ]
+    },
+    "Servicos Complementares": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 19,
+      "itens": [
+        {
+          "desc": "9047.97",
+          "pct": 0.169,
+          "total": 1727.268207471921
+        },
+        {
+          "desc": "8499.64",
+          "pct": 0.159,
+          "total": 1622.5913599356143
+        },
+        {
+          "desc": "6615.67",
+          "pct": 0.147,
+          "total": 1498.3224
+        },
+        {
+          "desc": "6570.47",
+          "pct": 0.123,
+          "total": 1254.310518176788
+        },
+        {
+          "desc": "2206.78",
+          "pct": 0.061,
+          "total": 618.7956373692488
+        },
+        {
+          "desc": "2856.1",
+          "pct": 0.053,
+          "total": 545.2328784645124
+        },
+        {
+          "desc": "2809.03",
+          "pct": 0.053,
+          "total": 536.2471596208709
+        },
+        {
+          "desc": "2629",
+          "pct": 0.049,
+          "total": 501.87921903406846
+        },
+        {
+          "desc": "2062.39",
+          "pct": 0.039,
+          "total": 393.71269781044975
+        },
+        {
+          "desc": "1929.17",
+          "pct": 0.036,
+          "total": 368.2808417588261
+        },
+        {
+          "desc": "1660.76",
+          "pct": 0.031,
+          "total": 317.04105431837945
+        },
+        {
+          "desc": "885.69",
+          "pct": 0.017,
+          "total": 169.0792717787311
+        },
+        {
+          "desc": "799.21",
+          "pct": 0.015,
+          "total": 152.57013717923843
+        },
+        {
+          "desc": "692.05",
+          "pct": 0.013,
+          "total": 132.11316604508448
+        },
+        {
+          "desc": "592.66",
+          "pct": 0.011,
+          "total": 113.13949712922442
+        },
+        {
+          "desc": "557.58",
+          "pct": 0.01,
+          "total": 106.44268351046631
+        },
+        {
+          "desc": "333.66",
+          "pct": 0.006,
+          "total": 63.69608985276047
+        },
+        {
+          "desc": "243.63",
+          "pct": 0.005,
+          "total": 46.509256041563376
+        },
+        {
+          "desc": "157.71",
+          "pct": 0.003,
+          "total": 30.107026106452242
+        }
+      ]
+    },
+    "Esquadrias": {
+      "top_20_pct": 0.494,
+      "n_itens_total": 49,
+      "itens": [
+        {
+          "desc": "PORTAO BASCULANTE, 1 FOLHA, MATERIAL A CONFIRMAR, MEDIDA A C",
+          "pct": 0.048,
+          "total": 2601.9256619443695
+        },
+        {
+          "desc": "PORTAO BASCULANTE, 1 FOLHA, MATERIAL A CONFIRMAR, MEDIDAS A ",
+          "pct": 0.048,
+          "total": 2601.9256619443695
+        },
+        {
+          "desc": "GUARDA-CORPO, VIDRO E ALUMINIO, 100 cm",
+          "pct": 0.026,
+          "total": 1406.7884253554087
+        },
+        {
+          "desc": "GUARDA-CORPO, VIDRO E ALUMINIO, 105 cm",
+          "pct": 0.026,
+          "total": 1406.7884253554087
+        },
+        {
+          "desc": "PORTA DE CORRER, 2 FOLHAS, VIDRO E ALUMÍNIO, 180 x 310 cm",
+          "pct": 0.022,
+          "total": 1190.8763369888056
+        },
+        {
+          "desc": "PORTA DE CORRER, 2 FOLHAS, VIDRO E ALUMÍNIO, 270 x 310 cm",
+          "pct": 0.022,
+          "total": 1190.8763369888056
+        },
+        {
+          "desc": "PORTA DE CORRER, 2 FOLHAS, VIDRO E ALUMÍNIO, 230 x 260 cm",
+          "pct": 0.022,
+          "total": 1190.8763369888056
+        },
+        {
+          "desc": "PORTA DE CORRER, 2 FOLHAS, VIDRO E ALUMÍNIO, 330 x 260 cm",
+          "pct": 0.022,
+          "total": 1190.8763369888056
+        },
+        {
+          "desc": "PORTA DE CORRER, 3 FOLHAS, VIDRO E ALUMÍNIO, 300 x 260 cm",
+          "pct": 0.022,
+          "total": 1190.8763369888056
+        },
+        {
+          "desc": "PORTA DE CORRER, 4 FOLHAS, VIDRO E ALUMÍNIO, 500 x 270 cm",
+          "pct": 0.022,
+          "total": 1190.8763369888056
+        },
+        {
+          "desc": "PORTA DE ABRIR, 1 FOLHA, ALUMINIO VENEZIANA, 100 x 180 cm",
+          "pct": 0.022,
+          "total": 1190.5476586538475
+        },
+        {
+          "desc": "PORTA DE ABRIR, 1 FOLHA, ALUMÍNIO VENEZIANA, 70 x 110 cm",
+          "pct": 0.022,
+          "total": 1190.5476586538475
+        },
+        {
+          "desc": "PORTA DE CORRER, 2 FOLHAS, ALUMÍNIO VENEZIANA, 127 x 180 cm",
+          "pct": 0.022,
+          "total": 1190.5476586538475
+        },
+        {
+          "desc": "PORTA DE CORRER, 2 FOLHAS, ALUMÍNIO VENEZIANA, 185 x 173 cm",
+          "pct": 0.022,
+          "total": 1190.5476586538475
+        },
+        {
+          "desc": "PORTA DE ABRIR, 1 FOLHA, ALUMÍNIO VENEZIANA, 70 x 260 cm",
+          "pct": 0.022,
+          "total": 1190.5476586538475
+        },
+        {
+          "desc": "PORTA DE ABRIR, 1 FOLHA, ALUMÍNIO ANODIZADO, 70 x 210 cm",
+          "pct": 0.022,
+          "total": 1186.6016275362883
+        },
+        {
+          "desc": "PORTA DE ABRIR, 1 FOLHA, ALUMÍNIO ANODIZADO, 80 x 210 cm",
+          "pct": 0.022,
+          "total": 1186.6016275362883
+        },
+        {
+          "desc": "JANELA DE CORRER, 2 FOLHAS, ALUMÍNIO E VIDRO, 140 x 220 cm",
+          "pct": 0.021,
+          "total": 1117.932004918354
+        },
+        {
+          "desc": "JANELA DE CORRER, 2 FOLHAS, ALUMÍNIO E VIDRO, 160 x 150 cm",
+          "pct": 0.021,
+          "total": 1117.932004918354
+        },
+        {
+          "desc": "JANELA DE CORRER, 2 FOLHAS, ALUMÍNIO E VIDRO, 160 x 220 cm",
+          "pct": 0.021,
+          "total": 1117.932004918354
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 0.987,
+      "n_itens_total": 103,
+      "itens": [
+        {
+          "desc": "Vaso sanitário deca branco",
+          "pct": 0.682,
+          "total": 249579.2
+        },
+        {
+          "desc": "Acabamento metálico para registro de gaveta",
+          "pct": 0.071,
+          "total": 25933.440000000002
+        },
+        {
+          "desc": "Vaso sanitário deca branco",
+          "pct": 0.052,
+          "total": 19198.4
+        },
+        {
+          "desc": "Vaso sanitário deca branco",
+          "pct": 0.03,
+          "total": 10799.1
+        },
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.028,
+          "total": 10379.199999999999
+        },
+        {
+          "desc": "Vaso sanitário deca branco",
+          "pct": 0.026,
+          "total": 9599.2
+        },
+        {
+          "desc": "Bancada em granito",
+          "pct": 0.025,
+          "total": 8996.29
+        },
+        {
+          "desc": "Cuba de embutir",
+          "pct": 0.02,
+          "total": 7333.08
+        },
+        {
+          "desc": "Cuba de cozinha",
+          "pct": 0.01,
+          "total": 3666.54
+        },
+        {
+          "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "pct": 0.008,
+          "total": 3068.0
+        },
+        {
+          "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "pct": 0.008,
+          "total": 2766.4
+        },
+        {
+          "desc": "Acabamento metálico para registro de gaveta",
+          "pct": 0.005,
+          "total": 1994.88
+        },
+        {
+          "desc": "Torneira banheiro",
+          "pct": 0.005,
+          "total": 1674.0
+        },
+        {
+          "desc": "Vaso sanitário deca branco PNE",
+          "pct": 0.003,
+          "total": 1199.9
+        },
+        {
+          "desc": "Acabamento metálico para registro de gaveta",
+          "pct": 0.003,
+          "total": 1122.1200000000001
+        },
+        {
+          "desc": "Barra de apoio PNE",
+          "pct": 0.003,
+          "total": 1037.32
+        },
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.002,
+          "total": 798.4
+        },
+        {
+          "desc": "Torneira cozinha",
+          "pct": 0.002,
+          "total": 747.0
+        },
+        {
+          "desc": "Acabamento metálico para registro de gaveta",
+          "pct": 0.002,
+          "total": 623.4000000000001
+        },
+        {
+          "desc": "Chuveiro Elétrico",
+          "pct": 0.001,
+          "total": 500.0
+        }
+      ]
+    },
+    "Gas": {
+      "top_20_pct": 0.934,
+      "n_itens_total": 81,
+      "itens": [
+        {
+          "desc": "Tubo - Gás Multicamada 20",
+          "pct": 0.505,
+          "total": 1118.13
+        },
+        {
+          "desc": "Joelho 90º 20mm, Alpex Gás – TIGRE ø20xø20",
+          "pct": 0.07,
+          "total": 156.0
+        },
+        {
+          "desc": "Válvula esfera angular Macho/Macho 1/2\"x1/2\" ø16xø16",
+          "pct": 0.035,
+          "total": 78.0
+        },
+        {
+          "desc": "Conector macho de cobre 20mmX3/4\" ø20xø20",
+          "pct": 0.035,
+          "total": 78.0
+        },
+        {
+          "desc": "Bucha de redução de ferro galvanizado ø15xø8",
+          "pct": 0.035,
+          "total": 78.0
+        },
+        {
+          "desc": "Tê de redução de ferro galvanizado ø25xø25xø20",
+          "pct": 0.035,
+          "total": 78.0
+        },
+        {
+          "desc": "Joelho 90º RF 20mm, Alpex Gás – TIGRE ø20xø16",
+          "pct": 0.035,
+          "total": 78.0
+        },
+        {
+          "desc": "Medidor de gás G-0,6 (GLP) + Conjunto Regulador de Pressão d",
+          "pct": 0.035,
+          "total": 78.0
+        },
+        {
+          "desc": "Tubo - Gás Multicamada 20",
+          "pct": 0.028,
+          "total": 62.41
+        },
+        {
+          "desc": "Tubo - Gás Multicamada 20",
+          "pct": 0.026,
+          "total": 58.43
+        },
+        {
+          "desc": "Tubo - Gás Multicamada 20",
+          "pct": 0.025,
+          "total": 54.44
+        },
+        {
+          "desc": "Tubo - Ferro Galvanizado 40",
+          "pct": 0.017,
+          "total": 36.92
+        },
+        {
+          "desc": "Bujão com rebordo de ferro galvanizado ø25",
+          "pct": 0.012,
+          "total": 26.0
+        },
+        {
+          "desc": "Tubo - Ferro Galvanizado 40",
+          "pct": 0.011,
+          "total": 24.23
+        },
+        {
+          "desc": "Te de ferro galvanizado ø25xø25xø25",
+          "pct": 0.006,
+          "total": 13.0
+        },
+        {
+          "desc": "Tê de redução de ferro galvanizado ø40xø40xø25",
+          "pct": 0.006,
+          "total": 13.0
+        },
+        {
+          "desc": "Abrigo medidor de gás 120x80x20",
+          "pct": 0.006,
+          "total": 13.0
+        },
+        {
+          "desc": "Joelho 90º 20mm, Alpex Gás – TIGRE ø20xø20",
+          "pct": 0.004,
+          "total": 8.0
+        },
+        {
+          "desc": "Joelho 90º 20mm, Alpex Gás – TIGRE ø20xø20",
+          "pct": 0.004,
+          "total": 8.0
+        },
+        {
+          "desc": "Tubo - Ferro Galvanizado 25",
+          "pct": 0.003,
+          "total": 7.539999999999999
+        }
+      ]
+    },
+    "PCI": {
+      "top_20_pct": 0.919,
+      "n_itens_total": 56,
+      "itens": [
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO MÉDIO 1\"",
+          "pct": 0.197,
+          "total": 333.84
+        },
+        {
+          "desc": "TAMPÃO PVC P/ CONDULETE Tampão Plástico 3/4\"",
+          "pct": 0.067,
+          "total": 114.0
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO LEVE 3/4\"",
+          "pct": 0.064,
+          "total": 108.71999999999998
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO LEVE 1\"",
+          "pct": 0.061,
+          "total": 104.064
+        },
+        {
+          "desc": "ACESSÓRIOS Fixador para Eletroduto - 1/4x24mm - Pino de Aço ",
+          "pct": 0.054,
+          "total": 91.0
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO MÉDIO 1.1/4\"",
+          "pct": 0.052,
+          "total": 87.672
+        },
+        {
+          "desc": "ELETROCALHA LISA TIPO U – PREVENTIVO 75x75mm (Eletrocalha, e",
+          "pct": 0.049,
+          "total": 82.22500000000001
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO MÉDIO 3/4\"",
+          "pct": 0.048,
+          "total": 80.52
+        },
+        {
+          "desc": "TAMPA P/ ELETROCALHA LISA TIPO U 75x75mm",
+          "pct": 0.044,
+          "total": 74.75
+        },
+        {
+          "desc": "Iluminação Bloco Autônomo Simples - 110/220 Vac | 100lm | 2 ",
+          "pct": 0.035,
+          "total": 59.0
+        },
+        {
+          "desc": "CAIXA DE PASSAGEM – PAREDE 2x4\" - Embutido - PVC - Tigre",
+          "pct": 0.034,
+          "total": 58.0
+        },
+        {
+          "desc": "PLACA 4x2\"e 4x4\" Placa p/ 1 função",
+          "pct": 0.034,
+          "total": 57.0
+        },
+        {
+          "desc": "SUPORTE P/ PLACA 4x2\" e 4x4\" Suporte 4x2\"  - INCLUSO ITEM AC",
+          "pct": 0.034,
+          "total": 57.0
+        },
+        {
+          "desc": "TOMADA Módulo - Tomada 2P+T 10A",
+          "pct": 0.034,
+          "total": 57.0
+        },
+        {
+          "desc": "CAIXA DE PASSAGEM – PAREDE 2x4\" - Aparente - Condulete 5 Ent",
+          "pct": 0.022,
+          "total": 38.0
+        },
+        {
+          "desc": "CAIXA DE PASSAGEM – TETO 4x4\" - Octogonal - Embutido - PVC –",
+          "pct": 0.021,
+          "total": 36.0
+        },
+        {
+          "desc": "Iluminação Placa de Saída Autônoma 25x16cm - 110/220V | 30lm",
+          "pct": 0.018,
+          "total": 31.0
+        },
+        {
+          "desc": "TAMPA PVC P/ CONDULETE Tampa p/ 1 tomada",
+          "pct": 0.017,
+          "total": 29.0
+        },
+        {
+          "desc": "TOMADA Módulo - Tomada 2P+T 10A para Condulete",
+          "pct": 0.017,
+          "total": 29.0
+        },
+        {
+          "desc": "Iluminação Bloco Autônomo Duplo  - 110/220 Vac | 200lm | 2 h",
+          "pct": 0.017,
+          "total": 28.0
+        }
+      ]
+    },
+    "SPDA": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 11,
+      "itens": [
+        {
+          "desc": "Cordoalha em Aço Galvanizado ou vergalhão",
+          "pct": 0.437,
+          "total": 948.7499999999999
+        },
+        {
+          "desc": "Cabo de Cobre",
+          "pct": 0.188,
+          "total": 408.2
+        },
+        {
+          "desc": "ELETRODUTO PVC RÍGIDO",
+          "pct": 0.152,
+          "total": 329.7
+        },
+        {
+          "desc": "Barra Chata de Alumínio",
+          "pct": 0.094,
+          "total": 204.75
+        },
+        {
+          "desc": "Cabo de cobre",
+          "pct": 0.063,
+          "total": 136.5
+        },
+        {
+          "desc": "ELETRODUTO PVC RÍGIDO",
+          "pct": 0.051,
+          "total": 110.25
+        },
+        {
+          "desc": "Minicaptor em Barra Chata de Alumínio, 7/8″ x 1/8″ x 300 mm",
+          "pct": 0.006,
+          "total": 12.0
+        },
+        {
+          "desc": "Conector ATERRINSERT com disco em latão e rosca fêmea M12 . ",
+          "pct": 0.005,
+          "total": 10.0
+        },
+        {
+          "desc": "HASTE DE ATERRAMENTO Eletrodo de Aterramento em aço revestid",
+          "pct": 0.003,
+          "total": 7.0
+        },
+        {
+          "desc": "Caixa de Equipotencialização com 8 Terminais para uso Intern",
+          "pct": 0.002,
+          "total": 4.0
+        },
+        {
+          "desc": "ACESSÓRIOS Terminal Mecânico para Aterramento de Eletroduto",
+          "pct": 0.0,
+          "total": 1.0
+        }
+      ]
+    },
+    "Climatizacao": {
+      "top_20_pct": 0.899,
+      "n_itens_total": 77,
+      "itens": [
+        {
+          "desc": "Tubo de Cobre Flexível para Ar Condicionado (L)1/4\"",
+          "pct": 0.155,
+          "total": 3074.24
+        },
+        {
+          "desc": "Eletroduto Flexível Tipo Leve 3/4\"",
+          "pct": 0.155,
+          "total": 3074.24
+        },
+        {
+          "desc": "Isolamento Térmico (L) 6 mm",
+          "pct": 0.139,
+          "total": 2762.04
+        },
+        {
+          "desc": "Isolamento Térmico (S) 12 mm",
+          "pct": 0.139,
+          "total": 2762.04
+        },
+        {
+          "desc": "Tubo de Cobre Flexível para Ar Condicionado (S)3/8\"",
+          "pct": 0.105,
+          "total": 2074.3
+        },
+        {
+          "desc": "Tubo de Cobre Flexível para Ar Condicionado (S)1/2\"",
+          "pct": 0.035,
+          "total": 687.75
+        },
+        {
+          "desc": "Tubo - PVC Esgoto - Série Normal 100 mm",
+          "pct": 0.021,
+          "total": 411.87
+        },
+        {
+          "desc": "Tubo de Cobre Flexível para Ar Condicionado (S)5/8\"",
+          "pct": 0.016,
+          "total": 312.2
+        },
+        {
+          "desc": "Isolamento Térmico (L) 10 mm",
+          "pct": 0.016,
+          "total": 312.2
+        },
+        {
+          "desc": "Isolamento Térmico (S) 18 mm",
+          "pct": 0.016,
+          "total": 312.2
+        },
+        {
+          "desc": "Tubo de Cobre Flexível para Ar Condicionado (L)1/4\"",
+          "pct": 0.013,
+          "total": 254.8
+        },
+        {
+          "desc": "Eletroduto Flexível Tipo Leve 3/4\"",
+          "pct": 0.013,
+          "total": 254.8
+        },
+        {
+          "desc": "Isolamento Térmico (L) 6 mm",
+          "pct": 0.013,
+          "total": 254.8
+        },
+        {
+          "desc": "Isolamento Térmico (S) 12 mm",
+          "pct": 0.013,
+          "total": 254.8
+        },
+        {
+          "desc": "Tubo de Cobre Flexível para Ar Condicionado (S)3/8\"",
+          "pct": 0.009,
+          "total": 184.21
+        },
+        {
+          "desc": "Caixa de passagem 12.000 BTU/h",
+          "pct": 0.009,
+          "total": 182.0
+        },
+        {
+          "desc": "Luva Simples 100mm, Esgoto Série Normal – TIGRE ø100xø100",
+          "pct": 0.009,
+          "total": 182.0
+        },
+        {
+          "desc": "Eletroduto Flexível Tipo Leve 3/4\"",
+          "pct": 0.009,
+          "total": 177.96
+        },
+        {
+          "desc": "Luva Soldável com Rosca 25 x 1/2'' ø25xø20",
+          "pct": 0.008,
+          "total": 156.0
+        },
+        {
+          "desc": "Tubo de Cobre Flexível para Ar Condicionado (L) 1/4\"",
+          "pct": 0.007,
+          "total": 148.42
+        }
+      ]
+    },
+    "Instalacoes Hidraulicas": {
+      "top_20_pct": 0.558,
+      "n_itens_total": 753,
+      "itens": [
+        {
+          "desc": "Tubo - PVC Soldável - Marrom25",
+          "pct": 0.12,
+          "total": 5533.32
+        },
+        {
+          "desc": "Joelho 90º Soldávelø25xø25",
+          "pct": 0.081,
+          "total": 3718.0
+        },
+        {
+          "desc": "Luva Simples 50mm, Esgoto Série Normal - TIGREø50xø50",
+          "pct": 0.042,
+          "total": 1924.0
+        },
+        {
+          "desc": "Tubo - PVC Esgoto - Série Reforçada100",
+          "pct": 0.036,
+          "total": 1672.45
+        },
+        {
+          "desc": "Joelho 45ºø50xø50",
+          "pct": 0.034,
+          "total": 1573.0
+        },
+        {
+          "desc": "Tubo - PVC Esgoto - Série Normal50",
+          "pct": 0.033,
+          "total": 1506.18
+        },
+        {
+          "desc": "Tubo - PVC Esgoto - Série Normal100",
+          "pct": 0.026,
+          "total": 1212.64
+        },
+        {
+          "desc": "Luva Simples 100mm, Esgoto Série Normal - TIGREø100xø100",
+          "pct": 0.019,
+          "total": 871.0
+        },
+        {
+          "desc": "Tubo - PVC Soldável - Marrom32",
+          "pct": 0.019,
+          "total": 865.4099999999999
+        },
+        {
+          "desc": "Adaptador Soldável Curto com Bolsa e Rosca para Registro 25 ",
+          "pct": 0.017,
+          "total": 793.0
+        },
+        {
+          "desc": "Joelho 90ºø50xø50",
+          "pct": 0.017,
+          "total": 793.0
+        },
+        {
+          "desc": "Plug Roscável 1/2'', PVC Branco, Água Fria - TIGREø20",
+          "pct": 0.016,
+          "total": 715.0
+        },
+        {
+          "desc": "Joelho 90º Soldável com Bucha de Latão 25 x 1/2''ø25xø20",
+          "pct": 0.016,
+          "total": 715.0
+        },
+        {
+          "desc": "Tê Soldávelø25xø25xø25",
+          "pct": 0.014,
+          "total": 650.0
+        },
+        {
+          "desc": "Tubo - PVC Esgoto - Série Normal40",
+          "pct": 0.014,
+          "total": 642.3299999999999
+        },
+        {
+          "desc": "Tubo - PVC Esgoto - Série Reforçada75",
+          "pct": 0.013,
+          "total": 593.4499999999999
+        },
+        {
+          "desc": "Luva Simples 50mm, Esgoto Série Reforçada - TIGREø50xø50",
+          "pct": 0.012,
+          "total": 546.0
+        },
+        {
+          "desc": "Tubo - PVC Esgoto - Série Reforçada100",
+          "pct": 0.01,
+          "total": 450.57
+        },
+        {
+          "desc": "Joelho 45ºø100xø100",
+          "pct": 0.009,
+          "total": 429.0
+        },
+        {
+          "desc": "Luva Simples 100mm, Esgoto Série Reforçada - TIGREø100xø100",
+          "pct": 0.009,
+          "total": 429.0
+        }
+      ]
+    },
+    "Instalacoes Eletricas": {
+      "top_20_pct": 0.812,
+      "n_itens_total": 169,
+      "itens": [
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO MÉDIO 3/4\"",
+          "pct": 0.204,
+          "total": 3991.272
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO LEVE 3/4\"",
+          "pct": 0.11,
+          "total": 2155.752
+        },
+        {
+          "desc": "CAIXA DE PASSAGEM – PAREDE 2x4\" - Embutido - PVC - Tigre",
+          "pct": 0.054,
+          "total": 1052.0
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO MÉDIO 3/4\"",
+          "pct": 0.049,
+          "total": 951.72
+        },
+        {
+          "desc": "SUPORTE P/ PLACA 4x2\" e 4x4\" Suporte 4x2\"",
+          "pct": 0.049,
+          "total": 951.0
+        },
+        {
+          "desc": "ACESSÓRIOS Fixador para Eletroduto - 1/4x24mm - Pino de Aço ",
+          "pct": 0.044,
+          "total": 865.0
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO MÉDIO 1\"",
+          "pct": 0.038,
+          "total": 732.888
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO LEVE 3/4\"",
+          "pct": 0.036,
+          "total": 703.5479999999999
+        },
+        {
+          "desc": "CAIXA DE PASSAGEM – TETO 4x4\" - Octogonal - Embutido - PVC -",
+          "pct": 0.036,
+          "total": 694.0
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO MÉDIO 3/4\"",
+          "pct": 0.034,
+          "total": 669.6239999999999
+        },
+        {
+          "desc": "PLACA 4x2\"e 4x4\" Placa p/ 1 função",
+          "pct": 0.034,
+          "total": 658.0
+        },
+        {
+          "desc": "TOMADA Módulo - Tomada 2P+T 10A",
+          "pct": 0.029,
+          "total": 559.0
+        },
+        {
+          "desc": "TAMPA P/ ELETROCALHA LISA TIPO U 100x100mm",
+          "pct": 0.016,
+          "total": 309.54
+        },
+        {
+          "desc": "ELETROCALHA LISA TIPO U 100x100mm",
+          "pct": 0.015,
+          "total": 291.34600000000006
+        },
+        {
+          "desc": "TOMADA Módulo - Tomada 2P+T 20A",
+          "pct": 0.013,
+          "total": 252.0
+        },
+        {
+          "desc": "INTERRUPTOR Módulo - Interruptor Simples",
+          "pct": 0.012,
+          "total": 244.0
+        },
+        {
+          "desc": "TETO Plafon LED",
+          "pct": 0.012,
+          "total": 225.0
+        },
+        {
+          "desc": "ELETRODUTO FLEXÍVEL TIPO MÉDIO 2\"",
+          "pct": 0.01,
+          "total": 194.016
+        },
+        {
+          "desc": "INTERRUPTOR Módulo - Interruptor Paralelo",
+          "pct": 0.01,
+          "total": 191.0
+        },
+        {
+          "desc": "PLACA 4x2\"e 4x4\" Placa p/ 2 funções",
+          "pct": 0.009,
+          "total": 180.0
+        }
+      ]
+    }
+  }
+}

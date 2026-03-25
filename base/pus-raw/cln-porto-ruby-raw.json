@@ -1,0 +1,998 @@
+{
+  "projeto": "cln-porto-ruby",
+  "arquivo": "entrega-CLN-Porto-Ruby--CTN_CLN_PBY - Orçamento - R01.xlsx",
+  "ac": 12972.67,
+  "ur": 44,
+  "disciplinas": {
+    "Canteiro": {
+      "total": 41500.0,
+      "n_itens": 8,
+      "itens": [
+        {
+          "descricao": "Cadeira",
+          "quantidade": 6.0,
+          "unidade": "un",
+          "pu": 200.0,
+          "total": 1200.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "cadeira"
+        },
+        {
+          "descricao": "Mesa",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 1000.0,
+          "total": 1000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mesa"
+        },
+        {
+          "descricao": "Ar condicionado",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 5000.0,
+          "total": 10000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "ar_condicionado"
+        },
+        {
+          "descricao": "Armário",
+          "quantidade": 4.0,
+          "unidade": "m",
+          "pu": 900.0,
+          "total": 3600.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "armario"
+        },
+        {
+          "descricao": "Escrivaninha",
+          "quantidade": 4.0,
+          "unidade": "un",
+          "pu": 800.0,
+          "total": 3200.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "escrivaninha"
+        },
+        {
+          "descricao": "Computador pessoal",
+          "quantidade": 3.0,
+          "unidade": "un",
+          "pu": 6500.0,
+          "total": 19500.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "computador_pessoal"
+        },
+        {
+          "descricao": "Impressora",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 2000.0,
+          "total": 2000.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "impressora"
+        },
+        {
+          "descricao": "Roteador",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 500.0,
+          "total": 1000.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "roteador"
+        }
+      ]
+    },
+    "Fundacoes": {
+      "total": 15.579999999999998,
+      "n_itens": 4,
+      "itens": [
+        {
+          "descricao": "B24, B3",
+          "quantidade": 2.56,
+          "unidade": "0.5",
+          "pu": 2.96,
+          "total": 2.38,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "b24_b3"
+        },
+        {
+          "descricao": "B35, B15",
+          "quantidade": 2.56,
+          "unidade": "0.64",
+          "pu": 4.6,
+          "total": 4.6,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "b35_b15"
+        },
+        {
+          "descricao": "B14",
+          "quantidade": 2.3,
+          "unidade": "0.63",
+          "pu": 4.0,
+          "total": 4.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "b14"
+        },
+        {
+          "descricao": "B25",
+          "quantidade": 2.56,
+          "unidade": "0.64",
+          "pu": 4.6,
+          "total": 4.6,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "b25"
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "total": 3884.367216,
+      "n_itens": 2,
+      "itens": [
+        {
+          "descricao": "VIGAS",
+          "quantidade": 391.147646,
+          "unidade": "2050.62058",
+          "pu": 2182.294045,
+          "total": 1942.183608,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "vigas"
+        },
+        {
+          "descricao": "TOTAL",
+          "quantidade": 1453.746779,
+          "unidade": "2050.62058",
+          "pu": 13681.51041,
+          "total": 1942.183608,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "total"
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "total": 162305.0,
+      "n_itens": 64,
+      "itens": [
+        {
+          "descricao": "5.0",
+          "quantidade": 8.0,
+          "unidade": "10.0",
+          "pu": 12.5,
+          "total": 16.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "5_0"
+        },
+        {
+          "descricao": "331",
+          "quantidade": 284.0,
+          "unidade": "612",
+          "pu": 1640.0,
+          "total": 623.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "331"
+        },
+        {
+          "descricao": "331.0",
+          "quantidade": 284.0,
+          "unidade": "612.0",
+          "pu": 1640.0,
+          "total": 623.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "331_0"
+        },
+        {
+          "descricao": "639",
+          "quantidade": 2226.0,
+          "unidade": "2950",
+          "pu": 1927.0,
+          "total": 1044.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "639"
+        },
+        {
+          "descricao": "344.0",
+          "quantidade": 287.0,
+          "unidade": "1952.0",
+          "pu": 1118.0,
+          "total": 574.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "344_0"
+        },
+        {
+          "descricao": "283.0",
+          "quantidade": 68.0,
+          "unidade": "790.0",
+          "pu": 514.0,
+          "total": 443.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "283_0"
+        },
+        {
+          "descricao": "12.0",
+          "quantidade": 1871.0,
+          "unidade": "208.0",
+          "pu": 295.0,
+          "total": 27.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "12_0"
+        },
+        {
+          "descricao": "343",
+          "quantidade": 4567.0,
+          "unidade": "5437",
+          "pu": 5218.0,
+          "total": 3376.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "343"
+        },
+        {
+          "descricao": "267.0",
+          "quantidade": 248.0,
+          "unidade": "1877.0",
+          "pu": 973.0,
+          "total": 402.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "267_0"
+        },
+        {
+          "descricao": "66.0",
+          "quantidade": 2085.0,
+          "unidade": "534.0",
+          "pu": 301.0,
+          "total": 638.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "66_0"
+        },
+        {
+          "descricao": "10.0",
+          "quantidade": 2234.0,
+          "unidade": "3026.0",
+          "pu": 3944.0,
+          "total": 2336.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "10_0"
+        },
+        {
+          "descricao": "312",
+          "quantidade": 2539.0,
+          "unidade": "4549",
+          "pu": 4981.0,
+          "total": 4058.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "312"
+        },
+        {
+          "descricao": "234.0",
+          "quantidade": 263.0,
+          "unidade": "1850.0",
+          "pu": 1001.0,
+          "total": 813.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "234_0"
+        },
+        {
+          "descricao": "67.0",
+          "quantidade": 154.0,
+          "unidade": "297.0",
+          "pu": 358.0,
+          "total": 574.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "67_0"
+        },
+        {
+          "descricao": "11.0",
+          "quantidade": 2122.0,
+          "unidade": "2402.0",
+          "pu": 3622.0,
+          "total": 2671.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "11_0"
+        },
+        {
+          "descricao": "284",
+          "quantidade": 3346.0,
+          "unidade": "3483",
+          "pu": 5158.0,
+          "total": 3903.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "284"
+        },
+        {
+          "descricao": "237.0",
+          "quantidade": 938.0,
+          "unidade": "786.0",
+          "pu": 931.0,
+          "total": 687.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "237_0"
+        },
+        {
+          "descricao": "42.0",
+          "quantidade": 164.0,
+          "unidade": "293.0",
+          "pu": 387.0,
+          "total": 691.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "42_0"
+        },
+        {
+          "descricao": "5.0",
+          "quantidade": 2244.0,
+          "unidade": "2404.0",
+          "pu": 3840.0,
+          "total": 2525.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "5_0"
+        },
+        {
+          "descricao": "515",
+          "quantidade": 2648.0,
+          "unidade": "1969",
+          "pu": 4635.0,
+          "total": 2722.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "515"
+        },
+        {
+          "descricao": "443.0",
+          "quantidade": 832.0,
+          "unidade": "-",
+          "pu": 1323.0,
+          "total": 823.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "443_0"
+        },
+        {
+          "descricao": "64.0",
+          "quantidade": 190.0,
+          "unidade": "200.0",
+          "pu": 229.0,
+          "total": 460.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "64_0"
+        },
+        {
+          "descricao": "8.0",
+          "quantidade": 1626.0,
+          "unidade": "1769.0",
+          "pu": 3083.0,
+          "total": 1439.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "8_0"
+        },
+        {
+          "descricao": "315",
+          "quantidade": 4764.0,
+          "unidade": "3927",
+          "pu": 5050.0,
+          "total": 4151.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "315"
+        },
+        {
+          "descricao": "266.0",
+          "quantidade": 829.0,
+          "unidade": "-",
+          "pu": 817.0,
+          "total": 739.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "266_0"
+        },
+        {
+          "descricao": "44.0",
+          "quantidade": 1265.0,
+          "unidade": "293.0",
+          "pu": 458.0,
+          "total": 1210.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "44_0"
+        },
+        {
+          "descricao": "5.0",
+          "quantidade": 2670.0,
+          "unidade": "3634.0",
+          "pu": 3775.0,
+          "total": 2202.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "5_0"
+        },
+        {
+          "descricao": "347",
+          "quantidade": 1624.0,
+          "unidade": "593",
+          "pu": 1355.0,
+          "total": 1270.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "347"
+        },
+        {
+          "descricao": "293.0",
+          "quantidade": 1073.0,
+          "unidade": "-",
+          "pu": 877.0,
+          "total": 639.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "293_0"
+        },
+        {
+          "descricao": "40.0",
+          "quantidade": 292.0,
+          "unidade": "337.0",
+          "pu": 262.0,
+          "total": 447.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "40_0"
+        },
+        {
+          "descricao": "14.0",
+          "quantidade": 259.0,
+          "unidade": "256.0",
+          "pu": 216.0,
+          "total": 184.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "14_0"
+        },
+        {
+          "descricao": "267",
+          "quantidade": 2253.0,
+          "unidade": "932",
+          "pu": 1654.0,
+          "total": 2131.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "267"
+        },
+        {
+          "descricao": "219.0",
+          "quantidade": 178.0,
+          "unidade": "-",
+          "pu": 585.0,
+          "total": 1285.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "219_0"
+        },
+        {
+          "descricao": "45.0",
+          "quantidade": 1577.0,
+          "unidade": "288.0",
+          "pu": 568.0,
+          "total": 471.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "45_0"
+        },
+        {
+          "descricao": "3.0",
+          "quantidade": 498.0,
+          "unidade": "644.0",
+          "pu": 501.0,
+          "total": 375.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "3_0"
+        },
+        {
+          "descricao": "326",
+          "quantidade": 622.0,
+          "unidade": "520",
+          "pu": 1093.0,
+          "total": 2124.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "326"
+        },
+        {
+          "descricao": "177.0",
+          "quantidade": 138.0,
+          "unidade": "-",
+          "pu": 491.0,
+          "total": 1198.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "177_0"
+        },
+        {
+          "descricao": "149.0",
+          "quantidade": 301.0,
+          "unidade": "274.0",
+          "pu": 214.0,
+          "total": 573.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "149_0"
+        },
+        {
+          "descricao": "Lajes",
+          "quantidade": 183.0,
+          "unidade": "246.0",
+          "pu": 388.0,
+          "total": 353.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "lajes"
+        },
+        {
+          "descricao": "6462",
+          "quantidade": 17463.0,
+          "unidade": "7578",
+          "pu": 25082.0,
+          "total": 29044.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "6462"
+        },
+        {
+          "descricao": "450",
+          "quantidade": 5310.0,
+          "unidade": "1170",
+          "pu": 3366.0,
+          "total": 8442.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "450"
+        },
+        {
+          "descricao": "558",
+          "quantidade": 11286.0,
+          "unidade": "6408",
+          "pu": 5400.0,
+          "total": 5328.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "558"
+        },
+        {
+          "descricao": "874",
+          "quantidade": 938.0,
+          "unidade": "1294",
+          "pu": 2946.0,
+          "total": 2346.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "874"
+        },
+        {
+          "descricao": "114",
+          "quantidade": 424.0,
+          "unidade": "502",
+          "pu": 308.0,
+          "total": 586.0,
+          "subgrupo": "666",
+          "pavimento": "GERAL",
+          "chave_normalizada": "114"
+        },
+        {
+          "descricao": "94",
+          "quantidade": 514.0,
+          "unidade": "792",
+          "pu": 702.0,
+          "total": 332.0,
+          "subgrupo": "666",
+          "pavimento": "GERAL",
+          "chave_normalizada": "94"
+        },
+        {
+          "descricao": "418",
+          "quantidade": 446.0,
+          "unidade": "670",
+          "pu": 1397.0,
+          "total": 1114.0,
+          "subgrupo": "666",
+          "pavimento": "GERAL",
+          "chave_normalizada": "418"
+        },
+        {
+          "descricao": "59",
+          "quantidade": 210.0,
+          "unidade": "322",
+          "pu": 215.0,
+          "total": 301.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "59"
+        },
+        {
+          "descricao": "26",
+          "quantidade": 236.0,
+          "unidade": "348",
+          "pu": 214.0,
+          "total": 99.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "26"
+        },
+        {
+          "descricao": "616",
+          "quantidade": 579.0,
+          "unidade": "776",
+          "pu": 1767.0,
+          "total": 412.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "616"
+        },
+        {
+          "descricao": "47.0",
+          "quantidade": 222.0,
+          "unidade": "280.0",
+          "pu": 178.0,
+          "total": 274.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "47_0"
+        },
+        {
+          "descricao": "47.0",
+          "quantidade": 357.0,
+          "unidade": "496.0",
+          "pu": 202.0,
+          "total": 138.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "47_0"
+        },
+        {
+          "descricao": "630",
+          "quantidade": 486.0,
+          "unidade": "764",
+          "pu": 1791.0,
+          "total": 262.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "630"
+        },
+        {
+          "descricao": "60.0",
+          "quantidade": 226.0,
+          "unidade": "398.0",
+          "pu": 168.0,
+          "total": 183.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "60_0"
+        },
+        {
+          "descricao": "48.0",
+          "quantidade": 260.0,
+          "unidade": "366.0",
+          "pu": 236.0,
+          "total": 79.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "48_0"
+        },
+        {
+          "descricao": "521",
+          "quantidade": 334.0,
+          "unidade": "688",
+          "pu": 2030.0,
+          "total": 1020.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "521"
+        },
+        {
+          "descricao": "31.0",
+          "quantidade": 229.0,
+          "unidade": "339.0",
+          "pu": 178.0,
+          "total": 216.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "31_0"
+        },
+        {
+          "descricao": "48.0",
+          "quantidade": 105.0,
+          "unidade": "349.0",
+          "pu": 659.0,
+          "total": 804.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "48_0"
+        },
+        {
+          "descricao": "678",
+          "quantidade": 420.0,
+          "unidade": "649",
+          "pu": 1487.0,
+          "total": 242.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "678"
+        },
+        {
+          "descricao": "188.0",
+          "quantidade": 315.0,
+          "unidade": "327.0",
+          "pu": 306.0,
+          "total": 207.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "188_0"
+        },
+        {
+          "descricao": "41.0",
+          "quantidade": 105.0,
+          "unidade": "322.0",
+          "pu": 64.0,
+          "total": 35.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "41_0"
+        },
+        {
+          "descricao": "203",
+          "quantidade": 39.0,
+          "unidade": "22",
+          "pu": 568.0,
+          "total": 16.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "203"
+        },
+        {
+          "descricao": "114",
+          "quantidade": 285.0,
+          "unidade": "10",
+          "pu": 249.0,
+          "total": 49.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "114"
+        },
+        {
+          "descricao": "Vigas",
+          "quantidade": 210.0,
+          "unidade": "4.0",
+          "pu": 0.23333333333333334,
+          "total": 49.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "vigas"
+        },
+        {
+          "descricao": "14360",
+          "quantidade": 46040.0,
+          "unidade": "37513",
+          "pu": 70264.0,
+          "total": 59907.0,
+          "subgrupo": "333",
+          "pavimento": "GERAL",
+          "chave_normalizada": "14360"
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "total": 934.72,
+      "n_itens": 18,
+      "itens": [
+        {
+          "descricao": "Banheiro - Bacia Sanitária / Caixa Acoplada",
+          "quantidade": 203.0,
+          "unidade": "un",
+          "pu": 2.0,
+          "total": 203.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "banheiro_bacia_sanitaria_caixa_acoplada"
+        },
+        {
+          "descricao": "Banheiro - Bacia Sanitária PNE",
+          "quantidade": 7.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 7.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "banheiro_bacia_sanitaria_pne"
+        },
+        {
+          "descricao": "Banheiro - Lavatorio / Suspenso",
+          "quantidade": 11.0,
+          "unidade": "un",
+          "pu": 2.0,
+          "total": 11.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "banheiro_lavatorio_suspenso"
+        },
+        {
+          "descricao": "Banheiro - Lavatorio PNE",
+          "quantidade": 7.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 7.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "banheiro_lavatorio_pne"
+        },
+        {
+          "descricao": "Cozinha - Cuba / Inox",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 2.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "cozinha_cuba_inox"
+        },
+        {
+          "descricao": "Cozinha - Cuba Dupla / Inox",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 1.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "cozinha_cuba_dupla_inox"
+        },
+        {
+          "descricao": "Tanque Fibra",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 1.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "tanque_fibra"
+        },
+        {
+          "descricao": "Mictório Louça",
+          "quantidade": 3.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 3.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mictorio_louca"
+        },
+        {
+          "descricao": "Ducha",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 1.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "ducha"
+        },
+        {
+          "descricao": "Torneira de Jardins",
+          "quantidade": 4.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 4.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "torneira_jardins"
+        },
+        {
+          "descricao": "Torneira misturador pia cozinha",
+          "quantidade": 3.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 3.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "torneira_misturador_pia_cozinha"
+        },
+        {
+          "descricao": "Torneira tanque",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 1.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "torneira_tanque"
+        },
+        {
+          "descricao": "Torneira Lavatório mesa",
+          "quantidade": 18.0,
+          "unidade": "un",
+          "pu": 2.0,
+          "total": 18.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "torneira_lavatorio_mesa"
+        },
+        {
+          "descricao": "Barra de apoio PNE",
+          "quantidade": 20.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 20.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "barra_apoio_pne"
+        },
+        {
+          "descricao": "Acabamento de Registro",
+          "quantidade": 400.0,
+          "unidade": "un",
+          "pu": 4.0,
+          "total": 400.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "acabamento_registro"
+        },
+        {
+          "descricao": "Acabamento de Registro Pressão",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 1.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "acabamento_registro_pressao"
+        },
+        {
+          "descricao": "Monocomando",
+          "quantidade": 146.0,
+          "unidade": "un",
+          "pu": 1.0,
+          "total": 146.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "monocomando"
+        },
+        {
+          "descricao": "Bancada Banheiros",
+          "quantidade": 105.72,
+          "unidade": "m2",
+          "pu": 1.0,
+          "total": 105.72,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "bancada_banheiros"
+        }
+      ]
+    }
+  }
+}

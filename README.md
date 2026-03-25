@@ -1,170 +1,109 @@
-# Orçamentos Cartesian Engenharia
+# Orcamentos Cartesian Engenharia
 
-Workspace de orçamentação paramétrica e executiva da Cartesian Engenharia.
-
----
-
-## 📚 Documentação Principal
-
-**Leia antes de iniciar qualquer projeto:**
-
-1. **[ORCAMENTO-WORKFLOW.md](docs/ORCAMENTO-WORKFLOW.md)** — Processo completo de orçamentação (4 fases)
-2. **[LICOES-APRENDIDAS-OXFORD.md](docs/LICOES-APRENDIDAS-OXFORD.md)** — Lições do projeto Oxford (12 seções, armadilhas + boas práticas)
+Workspace centralizado de orcamentacao parametrica e executiva.
 
 ---
 
-## 🗂️ Estrutura
+## Estrutura
 
 ```
 ~/orcamentos/
-├── docs/                    # Documentação de processos
-│   ├── ORCAMENTO-WORKFLOW.md         # Workflow completo ⭐
-│   └── LICOES-APRENDIDAS-OXFORD.md   # Lições aprendidas ⭐
-├── projetos/                # Projetos de orçamentação
-│   ├── mussi-oxford/        # Oxford 600 Residence (referência completa)
+├── base/                  # Conhecimento para gerar orcamentos
+│   ├── indices/           # 78 indices extraidos de executivos reais
+│   ├── calibration-*.json # Dados calibrados (medianas, P10, P90)
+│   ├── templates/         # Templates parametrico + executivo
+│   └── *.md               # Base conhecimento, briefing, subdisciplinas
+│
+├── parametricos/          # Parametricos entregues (planilhas + apresentacoes)
+│
+├── executivos/            # Executivos entregues (por projeto)
+│   ├── templates/         # Templates de EAP, briefing, diff
+│   └── thozen-electra/    # Projeto executivo completo (referencia)
+│
+├── projetos/              # Projetos — inputs para parametrico E/OU executivo
+│   ├── mussi-oxford/      # Referencia completa (param + exec + memorial)
+│   ├── parador-ag7/
+│   ├── thozen-electra/    # Fontes DXF/DWG
 │   └── ...
-├── scripts/                 # Scripts Python auxiliares
-├── parametrico/            # Symlink → ~/clawd/orcamento-parametrico
-└── executivo/              # Templates de orçamento executivo
+│
+├── scripts/               # Scripts reutilizaveis (extracoes, IFC, DWG, Slack)
+├── docs/                  # Workflows e processos genericos
+├── memory/                # Memoria do Cartesiano
+└── skills/                # Skills do Cartesiano (apresentacoes)
 ```
 
 ---
 
-## 🚀 Início Rápido
+## Fluxo de Trabalho
 
-### Novo Projeto de Orçamentação
-
-1. **Ler documentação obrigatória:**
-   - [ORCAMENTO-WORKFLOW.md](docs/ORCAMENTO-WORKFLOW.md) (workflow completo)
-   - [LICOES-APRENDIDAS-OXFORD.md](docs/LICOES-APRENDIDAS-OXFORD.md) (armadilhas + boas práticas)
-
-2. **Criar estrutura do projeto:**
-   ```bash
-   cd ~/orcamentos/projetos
-   mkdir <nome-projeto>
-   cd <nome-projeto>
-   
-   # Criar pastas por disciplina
-   mkdir "01. PROJETO ARQUITETONICO"
-   mkdir "02. PROJETO ESTRUTURAL"
-   mkdir "03. PROJETO HIDROSSANITARIO"
-   mkdir "04. PROJETO ELETRICO"
-   mkdir "05. PROJETO PPCI"
-   ```
-
-3. **Seguir Fase 1 do workflow:**
-   - Solicitar dados críticos ao cliente (Dia 0)
-   - Fazer análise preliminar (inventário de arquivos)
-
-4. **Consultar projeto de referência:**
-   - `projetos/mussi-oxford/` — exemplo completo com 4 entregáveis
+```
+Cliente envia projeto → projetos/<nome>/
+                              ↓
+                    base/ (indices + calibracao + templates)
+                              ↓
+              ┌───────────────┴───────────────┐
+              │                               │
+        parametricos/                   executivos/
+        (planilha 14 abas)              (planilha + memorial)
+              │                               │
+              └───────────┬───────────────────┘
+                          ↓
+              Executivo processado → base/indices/<nome>-indices.md
+                                  → recalibra calibration-data.json
+```
 
 ---
 
-## 📖 Workflow Resumido
+## Inicio Rapido
 
-### Fase 1: Recebimento (Dia 0)
-✅ Solicitar quadro de áreas, memorial, especificações, IFC  
-✅ Inventário de arquivos por disciplina  
-✅ Identificar bloqueadores
+### Novo Parametrico
+1. Receber dados do projeto → `projetos/<nome>/`
+2. Ler `docs/ORCAMENTO-WORKFLOW.md` (Fase 1-3)
+3. Responder briefing: `base/BRIEFING-PARAMETRICO.md` (25 perguntas)
+4. Gerar com `scripts/gerar_template_dinamico.py`
+5. Entrega vai em `parametricos/`
 
-### Fase 2: Análise (Dias 1-2)
-✅ Arquitetura → Hidro → Estrutura (IFC + PDFs) → PPCI → Elétrico  
-✅ Amostragem inteligente + multiplicadores  
-✅ Validar taxa de aço, dimensionamentos
+### Novo Executivo
+1. Receber projetos completos → `projetos/<nome>/`
+2. Ler `docs/LICOES-APRENDIDAS-OXFORD.md`
+3. Usar templates de `executivos/templates/`
+4. Entrega vai em `executivos/<nome>/`
 
-### Fase 3: Entregáveis (Dia 3)
-✅ Briefing → Paramétrico → Executivo → Memorial (com rastreabilidade)
-
-### Fase 4: Validação (Dia 4)
-✅ Validações técnicas (taxa aço, potência vs trafo, custo/m² vs CUB)  
-✅ Backup e entrega
-
----
-
-## 🎯 Entregáveis Padrão
-
-1. **Orçamento Paramétrico** — Excel 14 abas
-   - Briefing dinâmico (25 dropdowns)
-   - 18 macrogrupos orçamentários
-   - Sistema de validação (semáforo P10-P90)
-   - Base calibrada com 75 projetos reais
-
-2. **Orçamento Executivo** — Excel 8 abas
-   - Estrutura, hidro, elétrico, PPCI, vedações, acabamentos, lazer
-   - BDI 25% aplicado
-   - Formatação profissional
-   - Custos unitários SINAPI
-
-3. **Memorial Descritivo** — Markdown (→ DOCX)
-   - 14 seções estruturadas
-   - 20-25 tabelas de rastreabilidade (memorial ↔ orçamento)
-   - Normas técnicas completas
-
-4. **Briefing Final** — Markdown
-   - Dados confirmados ✅ vs estimados ⚠️ vs indisponíveis ❌
-   - Lista de bloqueadores críticos
-   - Próximos passos
+### Alimentar Base (pos-executivo)
+1. Processar executivo real entregue
+2. Extrair indices → `base/indices/<nome>-indices.md`
+3. Atualizar `base/calibration-data.json`
+4. Recalibrar medianas automaticamente
 
 ---
 
-## ⚙️ Stack Técnico
+## Documentacao
 
-**Python:**
-- `ifcopenshell` → IFC estrutural
-- `pandas` + `openpyxl` → Excel (leitura/escrita)
-- `pdfplumber` → Extração de PDFs
-
-**Scripts principais:**
-- `~/clawd/orcamento-parametrico/scripts/gerar_template_dinamico.py` — Gerador de orçamento paramétrico
-
----
-
-## 📊 Projeto de Referência — Oxford 600 Residence
-
-**Localização:** `projetos/mussi-oxford/`
-
-**Entregáveis gerados:**
-- ✅ Orçamento Paramétrico (14 abas, 33 KB)
-- ✅ Orçamento Executivo (8 abas, 24 KB)
-- ✅ Memorial Descritivo (77 KB, 21 tabelas rastreáveis)
-- ✅ Briefing Final (dados consolidados)
-
-**Métricas:**
-- 779 arquivos processados
-- 1 IFC estrutural (21 MB)
-- ~6h30 de trabalho total
-- 4 entregáveis completos
-
-**Lições aprendidas:** [docs/LICOES-APRENDIDAS-OXFORD.md](docs/LICOES-APRENDIDAS-OXFORD.md)
+| Doc | Quando ler |
+|-----|------------|
+| `docs/ORCAMENTO-WORKFLOW.md` | Antes de qualquer orcamento |
+| `docs/LICOES-APRENDIDAS-OXFORD.md` | Antes de executivo |
+| `docs/ESTRATEGIA-DOIS-TIERS.md` | Entender param vs exec |
+| `docs/FRAMEWORK-EXECUTIVO-PARA-PARAMETRICO.md` | Converter exec → param |
+| `base/BRIEFING-PARAMETRICO.md` | Perguntas do briefing |
+| `base/BASE-CONHECIMENTO.md` | Base textual 40+ projetos |
 
 ---
 
-## ⚠️ Checklist Obrigatório
+## Projeto de Referencia — Oxford 600 Residence
 
-### ✅ SEMPRE FAZER
-- Solicitar dados críticos no Dia 0
-- Validar completude do IFC antes de confiar
-- Usar timeout realista (15-20 min para processamento pesado)
-- Incluir rastreabilidade memorial ↔ orçamento
-- Marcar estimativas claramente (✅ ⚠️ ❌)
-- Fazer backup antes de enviar
+**Localizacao:** `projetos/mussi-oxford/`
 
-### ⛔ NUNCA FAZER
-- Confiar 100% em IFC sem validar completude
-- Usar timeout otimista (<15 min) para >20 PDFs
-- Entregar estimativas sem marcar claramente
-- Pular validações cruzadas (taxa aço, potência vs trafo)
+Entregaveis: Parametrico (14 abas) + Executivo (8 abas) + Memorial (21 tabelas) + Briefing
 
 ---
 
-## 🔗 Links Úteis
+## Links
 
-- **Sistema Paramétrico:** `~/clawd/orcamento-parametrico/`
+- **Base parametrica:** `base/` (indices, calibracao, templates)
+- **Fonte dos dados:** `~/clawd/orcamento-parametrico/` (git tracked)
 - **Workspace Jarvis:** `~/clawd/`
-- **Documentação OpenClaw:** `~/clawd/docs/`
 
 ---
 
-**Última atualização:** 13/março/2026  
-**Baseado em:** Projeto Oxford 600 Residence (Mussi Empreendimentos)
+**Ultima atualizacao:** 23/marco/2026

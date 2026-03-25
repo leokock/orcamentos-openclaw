@@ -1,0 +1,344 @@
+{
+  "projeto": "be-brave-meraki",
+  "ac": 22461.09,
+  "ur": 104,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Canteiro": {
+      "total": 49300.0,
+      "rsm2": 2.1949068366673212,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 20300.0,
+          "n_itens": 3
+        }
+      }
+    },
+    "Infraestrutura": {
+      "total": 19946.0,
+      "rsm2": 0.8880245793948557,
+      "n_itens": 3,
+      "subcategorias": {}
+    },
+    "Supraestrutura": {
+      "total": 339710.0,
+      "rsm2": 15.124377312053868,
+      "n_itens": 42,
+      "subcategorias": {}
+    },
+    "Loucas e Metais": {
+      "total": 684063.8,
+      "rsm2": 30.455503272548217,
+      "n_itens": 157,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 2492.5,
+          "n_itens": 22
+        }
+      }
+    }
+  },
+  "indices_consumo": {},
+  "split_mo_material": {
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.197,
+      "material_pct": 0.803
+    }
+  },
+  "curva_abc": {
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.527,
+          "total": 26000.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.203,
+          "total": 10000.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.065,
+          "total": 3200.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.055,
+          "total": 2700.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.049,
+          "total": 2400.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.041,
+          "total": 2000.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.041,
+          "total": 2000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.02,
+          "total": 1000.0
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 3,
+      "itens": [
+        {
+          "desc": "TOTAL",
+          "pct": 0.5,
+          "total": 9973.0
+        },
+        {
+          "desc": "BLOCOS DE FUNDAÇÃO",
+          "pct": 0.395,
+          "total": 7887.0
+        },
+        {
+          "desc": "VIGAS TÉRREO",
+          "pct": 0.105,
+          "total": 2086.0
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 0.985,
+      "n_itens_total": 42,
+      "itens": [
+        {
+          "desc": "18959",
+          "pct": 0.334,
+          "total": 113327.0
+        },
+        {
+          "desc": "12481",
+          "pct": 0.223,
+          "total": 75650.0
+        },
+        {
+          "desc": "50",
+          "pct": 0.164,
+          "total": 55575.0
+        },
+        {
+          "desc": "1100",
+          "pct": 0.032,
+          "total": 10900.0
+        },
+        {
+          "desc": "11331",
+          "pct": 0.027,
+          "total": 9175.0
+        },
+        {
+          "desc": "635",
+          "pct": 0.02,
+          "total": 6849.0
+        },
+        {
+          "desc": "2",
+          "pct": 0.019,
+          "total": 6445.0
+        },
+        {
+          "desc": "638",
+          "pct": 0.018,
+          "total": 6050.0
+        },
+        {
+          "desc": "2",
+          "pct": 0.016,
+          "total": 5506.0
+        },
+        {
+          "desc": "627",
+          "pct": 0.016,
+          "total": 5502.0
+        },
+        {
+          "desc": "957",
+          "pct": 0.016,
+          "total": 5492.0
+        },
+        {
+          "desc": "638",
+          "pct": 0.015,
+          "total": 5211.0
+        },
+        {
+          "desc": "2",
+          "pct": 0.014,
+          "total": 4864.0
+        },
+        {
+          "desc": "2",
+          "pct": 0.014,
+          "total": 4842.0
+        },
+        {
+          "desc": "2",
+          "pct": 0.014,
+          "total": 4731.0
+        },
+        {
+          "desc": "738",
+          "pct": 0.011,
+          "total": 3787.0
+        },
+        {
+          "desc": "418",
+          "pct": 0.011,
+          "total": 3642.0
+        },
+        {
+          "desc": "2",
+          "pct": 0.009,
+          "total": 3172.0
+        },
+        {
+          "desc": "62",
+          "pct": 0.008,
+          "total": 2867.0
+        },
+        {
+          "desc": "186",
+          "pct": 0.003,
+          "total": 922.0
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 0.996,
+      "n_itens_total": 157,
+      "itens": [
+        {
+          "desc": "Vaso sanitário deca branco",
+          "pct": 0.646,
+          "total": 441563.2
+        },
+        {
+          "desc": "Mão de obra",
+          "pct": 0.197,
+          "total": 134940.54
+        },
+        {
+          "desc": "Acabamento metálico para registro de gaveta",
+          "pct": 0.035,
+          "total": 24187.920000000002
+        },
+        {
+          "desc": "Vaso sanitário deca branco PNE",
+          "pct": 0.025,
+          "total": 16798.600000000002
+        },
+        {
+          "desc": "Barra de apoio PNE",
+          "pct": 0.018,
+          "total": 12447.84
+        },
+        {
+          "desc": "Bancada em granito",
+          "pct": 0.017,
+          "total": 11890.4
+        },
+        {
+          "desc": "Cuba de cozinha",
+          "pct": 0.014,
+          "total": 9777.44
+        },
+        {
+          "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "pct": 0.009,
+          "total": 6047.5
+        },
+        {
+          "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "pct": 0.007,
+          "total": 5080.6
+        },
+        {
+          "desc": "Chuveiro",
+          "pct": 0.006,
+          "total": 4229.233333333334
+        },
+        {
+          "desc": "Lavatório PNE de canto",
+          "pct": 0.005,
+          "total": 3722.5999999999995
+        },
+        {
+          "desc": "Torneira banheiro PNE",
+          "pct": 0.005,
+          "total": 3218.6
+        },
+        {
+          "desc": "Cuba de embutir",
+          "pct": 0.004,
+          "total": 2444.36
+        },
+        {
+          "desc": "Cuba dupla de cozinha",
+          "pct": 0.002,
+          "total": 1640.3333333333333
+        },
+        {
+          "desc": "Acabamento misturador monocomando para chuveiro deca",
+          "pct": 0.001,
+          "total": 917.8333333333335
+        },
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.001,
+          "total": 698.6
+        },
+        {
+          "desc": "Válvula de escoamento para cuba",
+          "pct": 0.001,
+          "total": 542.5
+        },
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.001,
+          "total": 500.0
+        },
+        {
+          "desc": "Torneira mesa para lavatório",
+          "pct": 0.001,
+          "total": 459.8
+        },
+        {
+          "desc": "Válvula de escoamento para lavatório",
+          "pct": 0.001,
+          "total": 394.2
+        }
+      ]
+    }
+  }
+}

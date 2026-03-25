@@ -1,0 +1,755 @@
+{
+  "projeto": "santa-maria-unimed",
+  "ac": 52516.04,
+  "ur": null,
+  "total": 84236844.1525,
+  "rsm2": 1604.021250507464,
+  "macrogrupos": {
+    "FUNDAÇÃO RASA": {
+      "valor": 4309171.5600000005,
+      "rsm2": 82.05438871628554
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 35464738.2625,
+      "rsm2": 675.3125
+    },
+    "ALVENARIA": {
+      "valor": 6057180.089999999,
+      "rsm2": 115.33961985709507
+    },
+    "INSTALAÇÕES ELÉTRICAS": {
+      "valor": 9190307.0,
+      "rsm2": 175.0
+    },
+    "INSTALAÇÕES HIDRÁULICAS": {
+      "valor": 8822694.72,
+      "rsm2": 168.0
+    },
+    "INSTALAÇÕES PREVENTIVAS E GLP": {
+      "valor": 4463863.4,
+      "rsm2": 85.0
+    },
+    "CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO": {
+      "valor": 4101000.0,
+      "rsm2": 78.09042722947122
+    },
+    "OUTROS SISTEMAS ESPECIAIS": {
+      "valor": 1050320.8,
+      "rsm2": 20.0
+    },
+    "EQUIPAMENTOS": {
+      "valor": 10777568.32,
+      "rsm2": 205.22431470461217
+    }
+  },
+  "disciplinas": {
+    "Movimentacao de Terra": {
+      "total": 493616.3792459616,
+      "rsm2": 9.399345023843413,
+      "n_itens": 6,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 1500.0,
+          "n_itens": 5
+        }
+      }
+    },
+    "Infraestrutura": {
+      "total": 8139024.988551055,
+      "rsm2": 154.9816968025589,
+      "n_itens": 19,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 3042574.1,
+          "n_itens": 15
+        }
+      }
+    },
+    "Supraestrutura": {
+      "total": 35464738.2625,
+      "rsm2": 675.3125,
+      "n_itens": 7,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 35464738.2625,
+          "n_itens": 0
+        }
+      }
+    },
+    "Alvenaria": {
+      "total": 6057180.09,
+      "rsm2": 115.33961985709509,
+      "n_itens": 6,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 6057180.089999999,
+          "n_itens": 0
+        }
+      }
+    },
+    "Sistemas Especiais": {
+      "total": 18029530.72,
+      "rsm2": 343.3147419340834,
+      "n_itens": 13,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 4101000.0,
+          "n_itens": 8
+        }
+      }
+    },
+    "Impermeabilizacao": {
+      "total": 1182990.9989999998,
+      "rsm2": 22.52627957096536,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 1182990.999,
+          "n_itens": 0
+        }
+      }
+    },
+    "Forro": {
+      "total": 1768251.2,
+      "rsm2": 33.6706880412156,
+      "n_itens": 3,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 1768251.2,
+          "n_itens": 0
+        }
+      }
+    },
+    "Pintura": {
+      "total": 3901853.6999999997,
+      "rsm2": 74.29832295047379,
+      "n_itens": 3,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 3901853.7,
+          "n_itens": 0
+        }
+      }
+    },
+    "Esquadrias": {
+      "total": 12489032.007,
+      "rsm2": 237.81366620560118,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 12489032.007,
+          "n_itens": 0
+        }
+      }
+    },
+    "Cobertura": {
+      "total": 168613.867,
+      "rsm2": 3.210711755874967,
+      "n_itens": 2,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 168613.867,
+          "n_itens": 0
+        }
+      }
+    },
+    "Fachada": {
+      "total": 28242436.241800003,
+      "rsm2": 537.7868598203521,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 422760.0,
+          "n_itens": 6
+        }
+      }
+    },
+    "Servicos Complementares": {
+      "total": 10578808.88,
+      "rsm2": 201.43957693687491,
+      "n_itens": 6,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 10578808.879999999,
+          "n_itens": 0
+        }
+      }
+    }
+  },
+  "indices_consumo": {
+    "Supraestrutura": {
+      "concreto_m3_por_m2_ac": 0.25,
+      "aco_kg_por_m3_concreto": 80.0,
+      "forma_m2_por_m3_concreto": 11.25
+    }
+  },
+  "split_mo_material": {
+    "Movimentacao de Terra": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.355,
+      "material_pct": 0.645
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.398,
+      "material_pct": 0.602
+    },
+    "Alvenaria": {
+      "mo_pct": 0.27,
+      "material_pct": 0.73
+    },
+    "Sistemas Especiais": {
+      "mo_pct": 0.002,
+      "material_pct": 0.998
+    },
+    "Impermeabilizacao": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Forro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Pintura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Esquadrias": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Cobertura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Fachada": {
+      "mo_pct": 0.01,
+      "material_pct": 0.99
+    },
+    "Servicos Complementares": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Movimentacao de Terra": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 6,
+      "itens": [
+        {
+          "desc": "Escavação vertical",
+          "pct": 0.533,
+          "total": 263205.60000000003
+        },
+        {
+          "desc": "Movimentação de terra das estacas",
+          "pct": 0.2,
+          "total": 98507.77924596156
+        },
+        {
+          "desc": "Escavação mecanizada para blocos e baldrames",
+          "pct": 0.176,
+          "total": 86837.0
+        },
+        {
+          "desc": "Lastro de concreto magro e= 10cm - Blocos",
+          "pct": 0.072,
+          "total": 35550.0
+        },
+        {
+          "desc": "Reaterro para blocos e baldrames",
+          "pct": 0.016,
+          "total": 8016.0
+        },
+        {
+          "desc": "Rebaixamento de Lençol",
+          "pct": 0.003,
+          "total": 1500.0
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 19,
+      "itens": [
+        {
+          "desc": "Mão de obra",
+          "pct": 0.314,
+          "total": 2553746.4
+        },
+        {
+          "desc": "Armação",
+          "pct": 0.176,
+          "total": 1431310.0
+        },
+        {
+          "desc": "Concreto",
+          "pct": 0.148,
+          "total": 1203984.1
+        },
+        {
+          "desc": "Armação",
+          "pct": 0.106,
+          "total": 865689.1200000001
+        },
+        {
+          "desc": "Concreto",
+          "pct": 0.09,
+          "total": 729423.2400000002
+        },
+        {
+          "desc": "Armação",
+          "pct": 0.036,
+          "total": 291720.0
+        },
+        {
+          "desc": "Estaca Escavada Diâmetro 100 Raiz",
+          "pct": 0.032,
+          "total": 257280.0
+        },
+        {
+          "desc": "Fabricação, montagem e desmontagem de forma para blocos e ba",
+          "pct": 0.02,
+          "total": 160312.80000000002
+        },
+        {
+          "desc": "Mobilização",
+          "pct": 0.018,
+          "total": 150000.0
+        },
+        {
+          "desc": "Mobilização",
+          "pct": 0.012,
+          "total": 100000.0
+        },
+        {
+          "desc": "Mão de obra armação",
+          "pct": 0.011,
+          "total": 85800.0
+        },
+        {
+          "desc": "Estaca Raiz Diâmetro 310",
+          "pct": 0.008,
+          "total": 64350.0
+        },
+        {
+          "desc": "Concreto",
+          "pct": 0.008,
+          "total": 63680.8684864285
+        },
+        {
+          "desc": "Mão de obra concretagem",
+          "pct": 0.006,
+          "total": 50540.3718146258
+        },
+        {
+          "desc": "Estaca Raiz Diâmetro 250",
+          "pct": 0.005,
+          "total": 42300.0
+        },
+        {
+          "desc": "Mão de obra para viga de coroamento",
+          "pct": 0.005,
+          "total": 38322.525
+        },
+        {
+          "desc": "Concreto para viga de coroamento",
+          "pct": 0.003,
+          "total": 24990.32025
+        },
+        {
+          "desc": "Armação para viga de coroamento",
+          "pct": 0.003,
+          "total": 23558.268
+        },
+        {
+          "desc": "Forma para viga de coroamento - 50x30",
+          "pct": 0.0,
+          "total": 2016.9750000000001
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 7,
+      "itens": [
+        {
+          "desc": "Mão de obra",
+          "pct": 0.355,
+          "total": 12603849.6
+        },
+        {
+          "desc": "Armadura Convencional para Estrutura",
+          "pct": 0.252,
+          "total": 8927726.8
+        },
+        {
+          "desc": "Concreto",
+          "pct": 0.204,
+          "total": 7220955.5
+        },
+        {
+          "desc": "Fabricação forma",
+          "pct": 0.058,
+          "total": 2051407.8125
+        },
+        {
+          "desc": "Escoramento - Torre",
+          "pct": 0.055,
+          "total": 1961276.4000000001
+        },
+        {
+          "desc": "Montagem de forma",
+          "pct": 0.043,
+          "total": 1509836.1500000001
+        },
+        {
+          "desc": "Escoramento - Embasamento",
+          "pct": 0.034,
+          "total": 1189686.0
+        }
+      ]
+    },
+    "Alvenaria": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 6,
+      "itens": [
+        {
+          "desc": "Alvenaria",
+          "pct": 0.381,
+          "total": 2310541.1999999997
+        },
+        {
+          "desc": "Mão de obra - Bloco Cerâmico",
+          "pct": 0.223,
+          "total": 1347815.7
+        },
+        {
+          "desc": "Drywall (MAT E MO)",
+          "pct": 0.222,
+          "total": 1343858.4
+        },
+        {
+          "desc": "Serviços complementares",
+          "pct": 0.068,
+          "total": 410979.68999999994
+        },
+        {
+          "desc": "Bloco de concreto autoclavado",
+          "pct": 0.059,
+          "total": 357769.5
+        },
+        {
+          "desc": "Mão de obra - Bloco Concreto",
+          "pct": 0.047,
+          "total": 286215.60000000003
+        }
+      ]
+    },
+    "Sistemas Especiais": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 13,
+      "itens": [
+        {
+          "desc": "Elevadores sociais",
+          "pct": 0.535,
+          "total": 9645900.0
+        },
+        {
+          "desc": "Exaustão Mecânica Corredores",
+          "pct": 0.122,
+          "total": 2200000.0
+        },
+        {
+          "desc": "Exaustão Mecânica Garagens",
+          "pct": 0.067,
+          "total": 1200000.0
+        },
+        {
+          "desc": "Outros sistemas",
+          "pct": 0.058,
+          "total": 1050320.8
+        },
+        {
+          "desc": "Automação, telecomunicação e sistemas de segurança",
+          "pct": 0.044,
+          "total": 787740.6
+        },
+        {
+          "desc": "Escada pressurizada",
+          "pct": 0.035,
+          "total": 631668.32
+        },
+        {
+          "desc": "TV e internet",
+          "pct": 0.035,
+          "total": 630192.48
+        },
+        {
+          "desc": "Interfone",
+          "pct": 0.029,
+          "total": 525160.4
+        },
+        {
+          "desc": "Grupo de geradores",
+          "pct": 0.028,
+          "total": 500000.0
+        },
+        {
+          "desc": "Ventokit",
+          "pct": 0.026,
+          "total": 476000.0
+        },
+        {
+          "desc": "Máquinas de Ar Condiocinado para as áreas comuns",
+          "pct": 0.01,
+          "total": 180000.0
+        },
+        {
+          "desc": "CFTV",
+          "pct": 0.009,
+          "total": 157548.12
+        },
+        {
+          "desc": "Infraestrutura para Instalação de Ar Condicionado",
+          "pct": 0.002,
+          "total": 45000.0
+        }
+      ]
+    },
+    "Impermeabilizacao": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Impermeabilizações com manta asfaltica",
+          "pct": 0.303,
+          "total": 358084.64999999997
+        },
+        {
+          "desc": "Impermeabilizações cimenticias",
+          "pct": 0.178,
+          "total": 210064.16
+        },
+        {
+          "desc": "Proteção Mecânica",
+          "pct": 0.173,
+          "total": 204619.8
+        },
+        {
+          "desc": "Ralos",
+          "pct": 0.124,
+          "total": 147044.91199999998
+        },
+        {
+          "desc": "Regularização de Superfície",
+          "pct": 0.113,
+          "total": 134259.977
+        },
+        {
+          "desc": "Baldrame",
+          "pct": 0.071,
+          "total": 84164.22
+        },
+        {
+          "desc": "Impermeabilização de peitoril",
+          "pct": 0.033,
+          "total": 39387.03
+        },
+        {
+          "desc": "Poço do elevador",
+          "pct": 0.005,
+          "total": 5366.25
+        }
+      ]
+    },
+    "Forro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 3,
+      "itens": [
+        {
+          "desc": "Forro modular",
+          "pct": 0.545,
+          "total": 963671.9999999999
+        },
+        {
+          "desc": "Forro de gesso",
+          "pct": 0.441,
+          "total": 779348.0
+        },
+        {
+          "desc": "Forro de gesso",
+          "pct": 0.014,
+          "total": 25231.199999999997
+        }
+      ]
+    },
+    "Pintura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 3,
+      "itens": [
+        {
+          "desc": "Textura grafiato paredes",
+          "pct": 0.672,
+          "total": 2623928.8
+        },
+        {
+          "desc": "Pintura acrílica piso",
+          "pct": 0.313,
+          "total": 1222027.1
+        },
+        {
+          "desc": "Pintura acrílica paredes",
+          "pct": 0.014,
+          "total": 55897.8
+        }
+      ]
+    },
+    "Esquadrias": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Esquadrias de Vidro",
+          "pct": 0.486,
+          "total": 6074064.0
+        },
+        {
+          "desc": "Guarda corpo de vidro",
+          "pct": 0.197,
+          "total": 2463819.207
+        },
+        {
+          "desc": "Esquadrias Internas de Madeira",
+          "pct": 0.154,
+          "total": 1923000.0
+        },
+        {
+          "desc": "Serralherias",
+          "pct": 0.064,
+          "total": 800000.0
+        },
+        {
+          "desc": "Esquadrias de Alumínio",
+          "pct": 0.053,
+          "total": 661968.0
+        },
+        {
+          "desc": "PCF",
+          "pct": 0.022,
+          "total": 273000.0
+        },
+        {
+          "desc": "Portão de alumínio",
+          "pct": 0.012,
+          "total": 150000.0
+        },
+        {
+          "desc": "Corrimão",
+          "pct": 0.011,
+          "total": 143180.8
+        }
+      ]
+    },
+    "Cobertura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 2,
+      "itens": [
+        {
+          "desc": "Cobertura",
+          "pct": 0.884,
+          "total": 149018.0
+        },
+        {
+          "desc": "Complementares",
+          "pct": 0.116,
+          "total": 19595.867000000002
+        }
+      ]
+    },
+    "Fachada": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Pele de Vidro - área de vidro",
+          "pct": 0.428,
+          "total": 12095336.21
+        },
+        {
+          "desc": "Pele de Vidro - área de vidro",
+          "pct": 0.281,
+          "total": 7943081.027000001
+        },
+        {
+          "desc": "Pele de Vidro - área ACM plano",
+          "pct": 0.187,
+          "total": 5267621.603999999
+        },
+        {
+          "desc": "Pele de Vidro - área ACM volume",
+          "pct": 0.063,
+          "total": 1792915.2306000001
+        },
+        {
+          "desc": "Pele de Vidro - área ACM plano",
+          "pct": 0.017,
+          "total": 480717.92
+        },
+        {
+          "desc": "Mão de obra",
+          "pct": 0.01,
+          "total": 290647.5
+        },
+        {
+          "desc": "Revestimento em ACM",
+          "pct": 0.008,
+          "total": 240004.25019999998
+        },
+        {
+          "desc": "Chapisco e Reboco",
+          "pct": 0.005,
+          "total": 132112.5
+        }
+      ]
+    },
+    "Servicos Complementares": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 6,
+      "itens": [
+        {
+          "desc": "Móveis e decoração",
+          "pct": 0.518,
+          "total": 5484753.0
+        },
+        {
+          "desc": "Comunicação visual",
+          "pct": 0.174,
+          "total": 1838061.4000000001
+        },
+        {
+          "desc": "Paisagismo",
+          "pct": 0.149,
+          "total": 1575481.2
+        },
+        {
+          "desc": "Limpeza",
+          "pct": 0.074,
+          "total": 787740.6
+        },
+        {
+          "desc": "Ligações definitivas",
+          "pct": 0.05,
+          "total": 525160.4
+        },
+        {
+          "desc": "Desmobilização",
+          "pct": 0.035,
+          "total": 367612.28
+        }
+      ]
+    }
+  }
+}

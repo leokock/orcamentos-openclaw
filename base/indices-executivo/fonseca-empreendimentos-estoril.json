@@ -1,0 +1,921 @@
+{
+  "projeto": "fonseca-empreendimentos-estoril",
+  "ac": 14491.98,
+  "ur": 110,
+  "total": 48960377.088515654,
+  "rsm2": 3378.4463605743076,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 7708531.257570997,
+      "rsm2": 531.9170505045547
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 232854.63189118457,
+      "rsm2": 16.06782730111307
+    },
+    "INFRAESTRUTURA": {
+      "valor": 2322516.431218453,
+      "rsm2": 160.26218854969807
+    },
+    "CONTENÇÃO": {
+      "valor": 158685.56637871027,
+      "rsm2": 10.949888585183686
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 10288913.260686979,
+      "rsm2": 709.9729133415158
+    },
+    "ALVENARIA": {
+      "valor": 2427735.266876452,
+      "rsm2": 167.52267577490807
+    },
+    "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS": {
+      "valor": 6124248.556193459,
+      "rsm2": 422.59570853627037
+    },
+    "CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO": {
+      "valor": 612800.74684,
+      "rsm2": 42.28550873241614
+    },
+    "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+      "valor": 1608624.4121586666,
+      "rsm2": 111.00100967284433
+    },
+    "INSTALAÇÕES ESPECIAIS": {
+      "valor": 323409.5172240437,
+      "rsm2": 22.31644794045008
+    },
+    "REVESTIMENTOS ARGAMASSADOS PISO": {
+      "valor": 453752.7464009168,
+      "rsm2": 31.310610862071076
+    },
+    "REVESTIMENTOS ARGAMASSADOS PAREDE": {
+      "valor": 298822.95706925,
+      "rsm2": 20.61988472722499
+    },
+    "REVESTIMENTOS ARGAMASSADOS TETO": {
+      "valor": 65937.565093,
+      "rsm2": 4.549934866940197
+    },
+    "IMPERMEABILIZAÇÃO": {
+      "valor": 1025622.7183355999,
+      "rsm2": 70.77174536092376
+    },
+    "ACABAMENTOS INTERNOS EM PAREDE": {
+      "valor": 394291.22104999993,
+      "rsm2": 27.207546591287038
+    },
+    "ACABAMENTOS EM PISOS E PAVIMENTAÇÕES": {
+      "valor": 998404.9958220001,
+      "rsm2": 68.89362225327389
+    },
+    "ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 479917.32,
+      "rsm2": 33.11606281543309
+    },
+    "PINTURA INTERNA": {
+      "valor": 2016215.7824851065,
+      "rsm2": 139.12631555419662
+    },
+    "PINTURA DE FACHADA": {
+      "valor": 571818.2865087601,
+      "rsm2": 39.45756801408504
+    },
+    "REVESTIMENTOS ARGAMASSADOS DE FACHADA": {
+      "valor": 552136.837983794,
+      "rsm2": 38.09947557088776
+    },
+    "ACABAMENTOS DE FACHADA": {
+      "valor": 2625453.54908305,
+      "rsm2": 181.16596552597022
+    },
+    "ESQUADRIAS, VIDROS E FERRAGENS": {
+      "valor": 4527501.260491387,
+      "rsm2": 312.4142636472992
+    },
+    "LOUÇAS E METAIS": {
+      "valor": 399900.19739999995,
+      "rsm2": 27.594586619633752
+    },
+    "COBERTURA": {
+      "valor": 260448.6966562497,
+      "rsm2": 17.971919410339353
+    },
+    "SERVIÇOS COMPLEMENTARES": {
+      "valor": 1836516.608499999,
+      "rsm2": 126.72641064230001
+    },
+    "IMPREVISTOS": {
+      "valor": 645316.6985975945,
+      "rsm2": 44.5292291734873
+    }
+  },
+  "disciplinas": {
+    "Canteiro": {
+      "total": 55700.0,
+      "rsm2": 3.8435051663057775,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 20200.0,
+          "n_itens": 3
+        }
+      }
+    },
+    "Supraestrutura": {
+      "total": 108513.20000000001,
+      "rsm2": 7.487810499324455,
+      "n_itens": 52,
+      "subcategorias": {
+        "200.6": {
+          "total": 542.2,
+          "n_itens": 2
+        },
+        "141.4": {
+          "total": 686.8,
+          "n_itens": 42
+        }
+      }
+    },
+    "Esquadrias": {
+      "total": 15804.504,
+      "rsm2": 1.090568990572717,
+      "n_itens": 59,
+      "subcategorias": {}
+    },
+    "Infraestrutura": {
+      "total": 252.01,
+      "rsm2": 0.017389618257822603,
+      "n_itens": 23,
+      "subcategorias": {}
+    },
+    "Instalacoes Hidraulicas": {
+      "total": 903652.088659525,
+      "rsm2": 62.35532264463,
+      "n_itens": 231,
+      "subcategorias": {}
+    },
+    "SPDA": {
+      "total": 81892.518,
+      "rsm2": 5.650885386261918,
+      "n_itens": 16,
+      "subcategorias": {}
+    },
+    "Climatizacao": {
+      "total": 475167.9114,
+      "rsm2": 32.78833612798251,
+      "n_itens": 43,
+      "subcategorias": {
+        "CLI-Terreo": {
+          "total": 58682.77506666666,
+          "n_itens": 16
+        },
+        "CLI-Lazer": {
+          "total": 94895.49450666666,
+          "n_itens": 15
+        },
+        "CLI-T1 Diferenciado": {
+          "total": 10905.201799999999,
+          "n_itens": 4
+        },
+        "CLI-Tipo": {
+          "total": 113825.86026666666,
+          "n_itens": 3
+        },
+        "CLI-COBERTURA": {
+          "total": 6791.4151999999995,
+          "n_itens": 4
+        },
+        "GERAL": {
+          "total": 190067.16456,
+          "n_itens": 1
+        }
+      }
+    },
+    "Loucas e Metais": {
+      "total": 604.0,
+      "rsm2": 0.04167822478363895,
+      "n_itens": 2,
+      "subcategorias": {}
+    }
+  },
+  "indices_consumo": {
+    "Instalacoes Hidraulicas": {
+      "tubulacao_m_por_m2_ac": 2.36
+    }
+  },
+  "split_mo_material": {
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Esquadrias": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Hidraulicas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "SPDA": {
+      "mo_pct": 0.708,
+      "material_pct": 0.292
+    },
+    "Climatizacao": {
+      "mo_pct": 0.4,
+      "material_pct": 0.6
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.583,
+          "total": 32500.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.18,
+          "total": 10000.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.072,
+          "total": 4000.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.065,
+          "total": 3600.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.036,
+          "total": 2000.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.029,
+          "total": 1600.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.018,
+          "total": 1000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.018,
+          "total": 1000.0
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 0.863,
+      "n_itens_total": 52,
+      "itens": [
+        {
+          "desc": "22476.4",
+          "pct": 0.381,
+          "total": 41367.80000000001
+        },
+        {
+          "desc": "1506.5",
+          "pct": 0.044,
+          "total": 4753.5
+        },
+        {
+          "desc": "1506.5",
+          "pct": 0.044,
+          "total": 4753.5
+        },
+        {
+          "desc": "1027.6999999999998",
+          "pct": 0.041,
+          "total": 4476.3
+        },
+        {
+          "desc": "1462.4999999999998",
+          "pct": 0.036,
+          "total": 3915.100000000001
+        },
+        {
+          "desc": "5074.35",
+          "pct": 0.029,
+          "total": 3180.0
+        },
+        {
+          "desc": "652.75",
+          "pct": 0.028,
+          "total": 3091.15
+        },
+        {
+          "desc": "652.75",
+          "pct": 0.028,
+          "total": 3091.15
+        },
+        {
+          "desc": "652.75",
+          "pct": 0.028,
+          "total": 3091.15
+        },
+        {
+          "desc": "652.75",
+          "pct": 0.028,
+          "total": 3091.15
+        },
+        {
+          "desc": "491.40000000000003",
+          "pct": 0.024,
+          "total": 2654.9
+        },
+        {
+          "desc": "504.6",
+          "pct": 0.023,
+          "total": 2503.2000000000003
+        },
+        {
+          "desc": "905.5",
+          "pct": 0.022,
+          "total": 2355.4
+        },
+        {
+          "desc": "798.5",
+          "pct": 0.016,
+          "total": 1768.5
+        },
+        {
+          "desc": "798.5",
+          "pct": 0.016,
+          "total": 1768.5
+        },
+        {
+          "desc": "285.8",
+          "pct": 0.015,
+          "total": 1603.8
+        },
+        {
+          "desc": "932.55",
+          "pct": 0.014,
+          "total": 1554.7
+        },
+        {
+          "desc": "932.55",
+          "pct": 0.014,
+          "total": 1554.7
+        },
+        {
+          "desc": "935.55",
+          "pct": 0.014,
+          "total": 1554.7
+        },
+        {
+          "desc": "935.55",
+          "pct": 0.014,
+          "total": 1554.7
+        }
+      ]
+    },
+    "Esquadrias": {
+      "top_20_pct": 0.986,
+      "n_itens_total": 59,
+      "itens": [
+        {
+          "desc": "PCF - PORTA DE ABRIR, 1 FOLHA, AÇO GALVANIZADO, 90 x 210 cm",
+          "pct": 0.813,
+          "total": 12852.0
+        },
+        {
+          "desc": "P00 - PORTA DE ABRIR, 1 FOLHA, A DEFINIR, 80 x 210 cm  - MAD",
+          "pct": 0.044,
+          "total": 702.2400000000001
+        },
+        {
+          "desc": "PJ06 - PORTA DE CORRER, 2 FOLHAS, ALUMINIO E VIDRO, 200 x 24",
+          "pct": 0.032,
+          "total": 506.76
+        },
+        {
+          "desc": "J13 - JANELA MAXIM-AR, 1+2 FOLHAS, ALUMÍNIO E VIDRO, 200 x 1",
+          "pct": 0.025,
+          "total": 395.92
+        },
+        {
+          "desc": "PJ07 - PORTA DE CORRER, 2 FOLHAS, ALUMINIO E VIDRO, 250 x 24",
+          "pct": 0.021,
+          "total": 338.25
+        },
+        {
+          "desc": "P01 - PORTA DE ABRIR, 1 FOLHA, A DEFINIR, 90 x 210 cm  - ALU",
+          "pct": 0.014,
+          "total": 226.8
+        },
+        {
+          "desc": "J14 - JANELA MAXIM-AR, 1+2 FOLHAS, ALUMÍNIO E VIDRO, 140 x 1",
+          "pct": 0.005,
+          "total": 83.776
+        },
+        {
+          "desc": "J17 - JANELA MAXIM-AR, 1+2 FOLHAS, ALUMÍNIO E VIDRO, 130 x 1",
+          "pct": 0.005,
+          "total": 83.655
+        },
+        {
+          "desc": "J16 - JANELA MAXIM-AR, 1+1+1 FOLHAS, ALUMÍNIO E VIDRO, 90 x ",
+          "pct": 0.005,
+          "total": 75.46499999999999
+        },
+        {
+          "desc": "J15 - JANELA MAXIM-AR, 1 FOLHA, ALUMÍNIO E VIDRO, 70 x 60 cm",
+          "pct": 0.004,
+          "total": 68.46
+        },
+        {
+          "desc": "JANELA FIXA, 1 FOLHA, TELA AÇO GALVANIZADO, 120 x 80 cm",
+          "pct": 0.004,
+          "total": 61.44
+        },
+        {
+          "desc": "J17 - JANELA MAXIM-AR, 1+1+1 FOLHAS, ALUMÍNIO E VIDRO, 70 x ",
+          "pct": 0.003,
+          "total": 42.315
+        },
+        {
+          "desc": "PJ04 - PORTA DE CORRER, 2+1 FOLHAS, ALUMINIO E VIDRO, 200 x ",
+          "pct": 0.002,
+          "total": 24.8
+        },
+        {
+          "desc": "PJ08 - PORTA DE CORRER, 2 FOLHAS, ALUMINIO E VIDRO, 170 x 24",
+          "pct": 0.001,
+          "total": 20.909999999999997
+        },
+        {
+          "desc": "PJ10 - PORTA DE CORRER, 4 FOLHAS, ALUMINIO E VIDRO, 400 x 23",
+          "pct": 0.001,
+          "total": 18.4
+        },
+        {
+          "desc": "P02 - PORTÂO ABRIR, 1 FOLHA, ALUMINIO VENEZIANA, 450 x 185 c",
+          "pct": 0.001,
+          "total": 16.650000000000002
+        },
+        {
+          "desc": "P10 - PORTA DE ABRIR, 1 FOLHA, A DEFINIR, 90 x 230 cm  - MAD",
+          "pct": 0.001,
+          "total": 16.56
+        },
+        {
+          "desc": "PJ05 - PORTA DE CORRER, 4 FOLHAS, ALUMINIO E VIDRO, 525 x 31",
+          "pct": 0.001,
+          "total": 16.275000000000002
+        },
+        {
+          "desc": "J05 - JANELA MAXIM-AR, 1+2+1 FOLHAS, ALUMÍNIO E VIDRO, 200 x",
+          "pct": 0.001,
+          "total": 15.600000000000001
+        },
+        {
+          "desc": "PJ09 - PORTA DE CORRER, 2 FOLHAS, ALUMINIO E VIDRO, 285 x 24",
+          "pct": 0.001,
+          "total": 14.022
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 0.949,
+      "n_itens_total": 23,
+      "itens": [
+        {
+          "desc": "V55 - Viga C-45 - Seção Retangular 110 X 60 (Pilar ou Viga)",
+          "pct": 0.106,
+          "total": 26.6
+        },
+        {
+          "desc": "V38 - Viga C-45 - Seção Retangular 20 X 50 (Pilar ou Viga)",
+          "pct": 0.071,
+          "total": 17.9
+        },
+        {
+          "desc": "V36 - Viga C-45 - Seção Retangular 20 X 50 (Pilar ou Viga)",
+          "pct": 0.07,
+          "total": 17.599999999999998
+        },
+        {
+          "desc": "V31 - Viga C-45 - Seção Retangular 20 X 50 (Pilar ou Viga)",
+          "pct": 0.069,
+          "total": 17.3
+        },
+        {
+          "desc": "V17 - Viga C-45 - Seção Retangular 20 X 60 (Pilar ou Viga)",
+          "pct": 0.063,
+          "total": 15.979999999999999
+        },
+        {
+          "desc": "V35 - Viga C-45 - Seção Retangular 20 X 60 (Pilar ou Viga)",
+          "pct": 0.056,
+          "total": 14.099999999999998
+        },
+        {
+          "desc": "V3 - Viga C-45 - Seção Retangular 20 X 50 (Pilar ou Viga)",
+          "pct": 0.055,
+          "total": 13.959999999999999
+        },
+        {
+          "desc": "V4 - Viga C-45 - Seção Retangular 20 X 50 (Pilar ou Viga)",
+          "pct": 0.053,
+          "total": 13.34
+        },
+        {
+          "desc": "V30 - Viga C-45 - Seção Retangular 20 X 50 (Pilar ou Viga)",
+          "pct": 0.044,
+          "total": 11.1
+        },
+        {
+          "desc": "V10 - Viga C-45 - Seção Retangular 20 X 50 (Pilar ou Viga)",
+          "pct": 0.044,
+          "total": 11.02
+        },
+        {
+          "desc": "V8 - Viga C-45 - Seção Retangular 20 X 50 (Pilar ou Viga)",
+          "pct": 0.043,
+          "total": 10.76
+        },
+        {
+          "desc": "V29 - Viga C-45 - Seção Retangular 30 X 60 (Pilar ou Viga)",
+          "pct": 0.04,
+          "total": 10.18
+        },
+        {
+          "desc": "V22 - Viga C-45 - Seção Retangular 20 X 70 (Pilar ou Viga)",
+          "pct": 0.035,
+          "total": 8.7
+        },
+        {
+          "desc": "V39 - Viga C-45 - Seção Retangular 15 X 50 (Pilar ou Viga)",
+          "pct": 0.033,
+          "total": 8.43
+        },
+        {
+          "desc": "V37 - Viga C-45 - Seção Retangular 15 X 50 (Pilar ou Viga)",
+          "pct": 0.031,
+          "total": 7.83
+        },
+        {
+          "desc": "V32 - Viga C-45 - Seção Retangular 15 X 50 (Pilar ou Viga)",
+          "pct": 0.03,
+          "total": 7.630000000000001
+        },
+        {
+          "desc": "V16 - Viga C-45 - Seção Retangular 20 X 70 (Pilar ou Viga)",
+          "pct": 0.029,
+          "total": 7.199999999999999
+        },
+        {
+          "desc": "V34 - Viga C-45 - Seção Retangular 15 X 40 (Pilar ou Viga)",
+          "pct": 0.028,
+          "total": 7.15
+        },
+        {
+          "desc": "V21 - Viga C-45 - Seção Retangular 20 X 40 (Pilar ou Viga)",
+          "pct": 0.025,
+          "total": 6.32
+        },
+        {
+          "desc": "V9 - Viga C-45 - Seção Retangular 15 X 50 (Pilar ou Viga)",
+          "pct": 0.024,
+          "total": 6.17
+        }
+      ]
+    },
+    "Instalacoes Hidraulicas": {
+      "top_20_pct": 0.742,
+      "n_itens_total": 231,
+      "itens": [
+        {
+          "desc": "HIDRÔMETROS MULTIJATO CLASSE B DN25 (1\") QN: 2,50 M³/H",
+          "pct": 0.108,
+          "total": 97541.6
+        },
+        {
+          "desc": "TUBO PVC ESG SN DN100",
+          "pct": 0.077,
+          "total": 69800.07512499999
+        },
+        {
+          "desc": "TUBO CPVC DN28",
+          "pct": 0.073,
+          "total": 65665.56349999999
+        },
+        {
+          "desc": "TUBO PVC SOLD DN 25",
+          "pct": 0.071,
+          "total": 63749.35875000001
+        },
+        {
+          "desc": "TUBO CPVC DN22",
+          "pct": 0.066,
+          "total": 59218.79805000001
+        },
+        {
+          "desc": "MISTURADOR MONOCOMANDO Ø3/4\"",
+          "pct": 0.055,
+          "total": 49419.4
+        },
+        {
+          "desc": "TUBO PVC ESG SR DN100",
+          "pct": 0.039,
+          "total": 35387.05618000001
+        },
+        {
+          "desc": "REGISTRO DE GAVETA Ø3/4\"",
+          "pct": 0.03,
+          "total": 27501.239999999998
+        },
+        {
+          "desc": "CONECT TRANS FM SUPER CPVC DN22X1/2 CB",
+          "pct": 0.027,
+          "total": 24142.719999999998
+        },
+        {
+          "desc": "TUBO PVC ESG SN DN50",
+          "pct": 0.026,
+          "total": 23928.4295
+        },
+        {
+          "desc": "Conjunto motobombas de recalque - 6,97m³/h 95,73 mca 4cv",
+          "pct": 0.026,
+          "total": 23239.4
+        },
+        {
+          "desc": "PVC SOLD DE32",
+          "pct": 0.02,
+          "total": 18471.921000000002
+        },
+        {
+          "desc": "ANEL ORING ESG SBR DN50 DUR40",
+          "pct": 0.019,
+          "total": 17323.68
+        },
+        {
+          "desc": "ANEL ORING ESG SBR DN100 DUR40",
+          "pct": 0.019,
+          "total": 16949.4
+        },
+        {
+          "desc": "REGISTRO DE GAVETA Ø1\"",
+          "pct": 0.018,
+          "total": 16024.65
+        },
+        {
+          "desc": "JUNCAO SIMP ESG SN DN100 CB",
+          "pct": 0.015,
+          "total": 13938.3
+        },
+        {
+          "desc": "CURVA 90 CTA ESG SN  DN75 CB",
+          "pct": 0.014,
+          "total": 12274.5
+        },
+        {
+          "desc": "LUVA SIMP ESG SN DN100 CB",
+          "pct": 0.014,
+          "total": 12210.800000000001
+        },
+        {
+          "desc": "JUNCAO SIMP RED ESG SN DN100X50 CB",
+          "pct": 0.013,
+          "total": 12082.499999999998
+        },
+        {
+          "desc": "TUBO PVC ESG SN DN40",
+          "pct": 0.013,
+          "total": 11852.739499999998
+        }
+      ]
+    },
+    "SPDA": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 16,
+      "itens": [
+        {
+          "desc": "Mão de obra instalações SPDA",
+          "pct": 0.708,
+          "total": 57967.92
+        },
+        {
+          "desc": "Barra redonda de aço, Ø8mm (50mm²), Re-bar, em barras de 4m",
+          "pct": 0.095,
+          "total": 7764.050000000001
+        },
+        {
+          "desc": "Clip de aço galvanizado para conexão de barras de 8 a 10 mm ",
+          "pct": 0.069,
+          "total": 5674.92
+        },
+        {
+          "desc": "Barras Chatas em Alumínio, 7/8″ x 1/8″ (70mm²), sem furos",
+          "pct": 0.049,
+          "total": 3978.0
+        },
+        {
+          "desc": "Cabo de Cobre Isolado 750V 16mm² Verde",
+          "pct": 0.019,
+          "total": 1586.208
+        },
+        {
+          "desc": "Caixa de Equipotencialização com 5 Terminais para uso Intern",
+          "pct": 0.018,
+          "total": 1500.0
+        },
+        {
+          "desc": "Minicaptor em Barra Chata de Alumínio, 7/8″ x 1/8″ x 300 mm",
+          "pct": 0.01,
+          "total": 822.0
+        },
+        {
+          "desc": "Curva 90° Horizontal de Barra Chata em Alumínio, 7/8″ x 1/8″",
+          "pct": 0.009,
+          "total": 716.3
+        },
+        {
+          "desc": "Curva 90° de Barra Chata em Alumínio, 7/8″ x 1/8″ x 300 mm (",
+          "pct": 0.006,
+          "total": 454.68
+        },
+        {
+          "desc": "Conector ATERRINSERT com disco em latão e rosca fêmea M12 . ",
+          "pct": 0.005,
+          "total": 408.84000000000003
+        },
+        {
+          "desc": "Parafusos Cabeça Chata para Emenda de Barras, Ø1/4″ x7/8″",
+          "pct": 0.004,
+          "total": 342.16
+        },
+        {
+          "desc": "Parafuso Autoatarrachante em Aço Inox, Ø4,2 x 32mm, fornecid",
+          "pct": 0.004,
+          "total": 306.0
+        },
+        {
+          "desc": "Redutor prisoneiro com parafuso, M12 x 3/16″ em latão com pa",
+          "pct": 0.002,
+          "total": 180.0
+        },
+        {
+          "desc": "Terminal Estanhado 1 Furo 1 Compressão, 50mm²",
+          "pct": 0.002,
+          "total": 134.4
+        },
+        {
+          "desc": "Parafuso sextavado em Aço Inox, M6x60mm, fornecido com bucha",
+          "pct": 0.001,
+          "total": 43.32
+        },
+        {
+          "desc": "Parafusos Cabeça Chata para Emenda de Barras, Ø1/4″ x 5/8″",
+          "pct": 0.0,
+          "total": 13.719999999999999
+        }
+      ]
+    },
+    "Climatizacao": {
+      "top_20_pct": 0.919,
+      "n_itens_total": 43,
+      "itens": [
+        {
+          "desc": "Mão de obra",
+          "pct": 0.4,
+          "total": 190067.16456
+        },
+        {
+          "desc": "Rede frigorígena para Split de 9000Btu/h contendo: Linha de\n",
+          "pct": 0.146,
+          "total": 69318.76853333334
+        },
+        {
+          "desc": "Rede frigorígena para Split de 18000Btu/h contendo: Linha de",
+          "pct": 0.078,
+          "total": 37165.674666666666
+        },
+        {
+          "desc": "Unidade Condensadora 36.000 BTU/h, LG ou similar",
+          "pct": 0.047,
+          "total": 22500.0
+        },
+        {
+          "desc": "Unidade Evaporadora Hi wall, 36000 BTU/h, LG ou similar",
+          "pct": 0.045,
+          "total": 21262.649999999998
+        },
+        {
+          "desc": "Unidade Condensadora 36.000 BTU/h, LG ou similar",
+          "pct": 0.019,
+          "total": 9000.0
+        },
+        {
+          "desc": "Unidade Evaporadora Hi wall, 36000 BTU/h, LG ou similar",
+          "pct": 0.018,
+          "total": 8505.06
+        },
+        {
+          "desc": "Unidade Condensadora 24.000 BTU/h, LG ou similar",
+          "pct": 0.016,
+          "total": 7803.18
+        },
+        {
+          "desc": "Unidade Condensadora 24.000 BTU/h, LG ou similar",
+          "pct": 0.016,
+          "total": 7803.18
+        },
+        {
+          "desc": "Rede frigorígena para Split de 12000Btu/h contendo: Linha de",
+          "pct": 0.015,
+          "total": 7341.417066666666
+        },
+        {
+          "desc": "Unidade Evaporadora Hi wall, 24000 BTU/h, LG ou similar",
+          "pct": 0.014,
+          "total": 6622.84
+        },
+        {
+          "desc": "Unidade Evaporadora Hi wall, 24000 BTU/h, LG ou similar",
+          "pct": 0.014,
+          "total": 6622.84
+        },
+        {
+          "desc": "Unidade Condensadora Multisplit 36.000 BTU/h, LG ou similar",
+          "pct": 0.014,
+          "total": 6558.35
+        },
+        {
+          "desc": "Rede frigorígena para Split de 9000Btu/h contendo: Linha de\n",
+          "pct": 0.013,
+          "total": 6171.416106666667
+        },
+        {
+          "desc": "Rede frigorígena para Split de 36000Btu/h contendo: Linha de",
+          "pct": 0.012,
+          "total": 5757.489386666666
+        },
+        {
+          "desc": "Unidade Condensadora 12.000 BTU/h, LG ou similar",
+          "pct": 0.012,
+          "total": 5754.24
+        },
+        {
+          "desc": "Unidade Evaporadora Hi wall, 12000 BTU/h, LG ou similar",
+          "pct": 0.011,
+          "total": 5376.03
+        },
+        {
+          "desc": "Unidade Evaporadora Hi wall, 9000 BTU/h, LG ou similar",
+          "pct": 0.01,
+          "total": 4875.0
+        },
+        {
+          "desc": "Unidade Condensadora 9.000 BTU/h, LG ou similar",
+          "pct": 0.009,
+          "total": 4474.799999999999
+        },
+        {
+          "desc": "Unidade Condensadora 12.000 BTU/h, LG ou similar",
+          "pct": 0.008,
+          "total": 3836.16
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 2,
+      "itens": [
+        {
+          "desc": "Acabamento de Registro Comum",
+          "pct": 0.969,
+          "total": 585.0
+        },
+        {
+          "desc": "Torneira de Jardins",
+          "pct": 0.031,
+          "total": 19.0
+        }
+      ]
+    }
+  }
+}

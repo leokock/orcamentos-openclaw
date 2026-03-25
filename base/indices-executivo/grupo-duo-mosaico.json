@@ -1,0 +1,540 @@
+{
+  "projeto": "grupo-duo-mosaico",
+  "ac": 7672.04,
+  "ur": 81,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Canteiro": {
+      "total": 49700.0,
+      "rsm2": 6.478068414658943,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 14200.0,
+          "n_itens": 3
+        }
+      }
+    },
+    "Fundacoes": {
+      "total": 40.69,
+      "rsm2": 0.005303674120572885,
+      "n_itens": 14,
+      "subcategorias": {}
+    },
+    "Infraestrutura": {
+      "total": 6884.7,
+      "rsm2": 0.8973754047163466,
+      "n_itens": 7,
+      "subcategorias": {}
+    },
+    "Supraestrutura": {
+      "total": 16.0,
+      "rsm2": 0.0020854948618620342,
+      "n_itens": 1,
+      "subcategorias": {}
+    },
+    "SPDA": {
+      "total": 183071.6596,
+      "rsm2": 23.86218784052221,
+      "n_itens": 92,
+      "subcategorias": {
+        "INCENDIO": {
+          "total": 46520.270000000004,
+          "n_itens": 40
+        },
+        "GÁS": {
+          "total": 45335.13,
+          "n_itens": 34
+        },
+        "SPDA": {
+          "total": 91216.25960000002,
+          "n_itens": 18
+        }
+      }
+    },
+    "Instalacoes Eletricas": {
+      "total": 730512.69886667,
+      "rsm2": 95.21753000071298,
+      "n_itens": 149,
+      "subcategorias": {
+        "GERAL": {
+          "total": 730512.6988666704,
+          "n_itens": 149
+        }
+      }
+    },
+    "Climatizacao": {
+      "total": 75511.0,
+      "rsm2": 9.842362657129003,
+      "n_itens": 6,
+      "subcategorias": {
+        "CLIMATIZAÇÃO": {
+          "total": 58711.0,
+          "n_itens": 6
+        }
+      }
+    }
+  },
+  "indices_consumo": {
+    "Instalacoes Eletricas": {
+      "eletroduto_m_por_m2_ac": 2.66,
+      "pontos_eletricos_por_ur": 41.9
+    }
+  },
+  "split_mo_material": {
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Fundacoes": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "SPDA": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Eletricas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Climatizacao": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.654,
+          "total": 32500.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.101,
+          "total": 5000.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.08,
+          "total": 4000.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.072,
+          "total": 3600.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.04,
+          "total": 2000.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.02,
+          "total": 1000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.02,
+          "total": 1000.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.012,
+          "total": 600.0
+        }
+      ]
+    },
+    "Fundacoes": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 14,
+      "itens": [
+        {
+          "desc": "CISTERNA",
+          "pct": 0.104,
+          "total": 4.25
+        },
+        {
+          "desc": "CISTERNA",
+          "pct": 0.104,
+          "total": 4.25
+        },
+        {
+          "desc": "CISTERNA",
+          "pct": 0.104,
+          "total": 4.25
+        },
+        {
+          "desc": "CISTERNA",
+          "pct": 0.09,
+          "total": 3.65
+        },
+        {
+          "desc": "CISTERNA",
+          "pct": 0.09,
+          "total": 3.65
+        },
+        {
+          "desc": "CISTERNA",
+          "pct": 0.084,
+          "total": 3.4
+        },
+        {
+          "desc": "CISTERNA",
+          "pct": 0.084,
+          "total": 3.4
+        },
+        {
+          "desc": "CISTERNA",
+          "pct": 0.084,
+          "total": 3.4
+        },
+        {
+          "desc": "DUTO",
+          "pct": 0.059,
+          "total": 2.4
+        },
+        {
+          "desc": "P31",
+          "pct": 0.044,
+          "total": 1.78
+        },
+        {
+          "desc": "P11",
+          "pct": 0.043,
+          "total": 1.77
+        },
+        {
+          "desc": "P35",
+          "pct": 0.043,
+          "total": 1.77
+        },
+        {
+          "desc": "P2",
+          "pct": 0.033,
+          "total": 1.36
+        },
+        {
+          "desc": "P32",
+          "pct": 0.033,
+          "total": 1.36
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 7,
+      "itens": [
+        {
+          "desc": "TOTAL",
+          "pct": 0.507,
+          "total": 3487.6
+        },
+        {
+          "desc": "PROJETO",
+          "pct": 0.239,
+          "total": 1644.0
+        },
+        {
+          "desc": "PROJETO",
+          "pct": 0.071,
+          "total": 490.6
+        },
+        {
+          "desc": "PROJETO",
+          "pct": 0.066,
+          "total": 452.0
+        },
+        {
+          "desc": "PROJETO",
+          "pct": 0.042,
+          "total": 290.4
+        },
+        {
+          "desc": "PROJETO",
+          "pct": 0.039,
+          "total": 266.6
+        },
+        {
+          "desc": "PROJETO",
+          "pct": 0.037,
+          "total": 253.5
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 1,
+      "itens": [
+        {
+          "desc": "5",
+          "pct": 1.0,
+          "total": 16.0
+        }
+      ]
+    },
+    "SPDA": {
+      "top_20_pct": 0.885,
+      "n_itens_total": 92,
+      "itens": [
+        {
+          "desc": "Barra redonda de aço, Ø8mm (50mm²)",
+          "pct": 0.291,
+          "total": 53235.6174
+        },
+        {
+          "desc": "Tubulação de aço galvanizado com costura f 3/4”",
+          "pct": 0.077,
+          "total": 14142.6
+        },
+        {
+          "desc": "Parafuso Autoatarrachante em Aço Inox, Ø4,2 x 32mm, fornecid",
+          "pct": 0.072,
+          "total": 13113.0
+        },
+        {
+          "desc": "Tubulação de aço galvanizado com costura f 1”",
+          "pct": 0.069,
+          "total": 12704.0
+        },
+        {
+          "desc": "Barras Chatas em Alumínio,  7/8″ x 1/8″ (70mm²), com Furos Ø",
+          "pct": 0.062,
+          "total": 11387.484
+        },
+        {
+          "desc": "Solda Exotérmica, molde HCL 5/8.50-5 REF.: MHCL5850-05, cart",
+          "pct": 0.049,
+          "total": 8969.6
+        },
+        {
+          "desc": "Tubulação de aço galvanizado com costura f 1/2”",
+          "pct": 0.044,
+          "total": 8140.000000000001
+        },
+        {
+          "desc": "Barra Tubo Fe. Galv comprimento 6,00 m - ø2 1.2''",
+          "pct": 0.042,
+          "total": 7644.0
+        },
+        {
+          "desc": "Eletroduto de PVC rígido, anti-chama de 1\", barra de 3 metro",
+          "pct": 0.024,
+          "total": 4416.0
+        },
+        {
+          "desc": "Extintor de Pó Químico – PQS 4 kg",
+          "pct": 0.024,
+          "total": 4352.0
+        },
+        {
+          "desc": "Caixa para abrigo de mangueiras 60x90x17 cm, embutir",
+          "pct": 0.021,
+          "total": 3835.0
+        },
+        {
+          "desc": "Mangueira predial 1 ½\" 15+15m - tipo 1",
+          "pct": 0.018,
+          "total": 3300.0
+        },
+        {
+          "desc": "Barra Tubo Fe. Galv comprimento 6,00 m - ø3''",
+          "pct": 0.015,
+          "total": 2832.0
+        },
+        {
+          "desc": "Cabo trançado 0,5mm², 3 vias, blindado",
+          "pct": 0.015,
+          "total": 2757.5
+        },
+        {
+          "desc": "Detetor de fumaça",
+          "pct": 0.013,
+          "total": 2303.0
+        },
+        {
+          "desc": "Hastes de aterramento Cobreada Alta Camada, Ø3/4'' x 3,00m (",
+          "pct": 0.01,
+          "total": 1919.84
+        },
+        {
+          "desc": "Medidor de gás",
+          "pct": 0.01,
+          "total": 1881.0
+        },
+        {
+          "desc": "Registro de gaveta Ø 3”",
+          "pct": 0.009,
+          "total": 1695.0
+        },
+        {
+          "desc": "Abertura de ventilação permanente 20cm(alt.) x20cm(larg.) co",
+          "pct": 0.009,
+          "total": 1680.0
+        },
+        {
+          "desc": "Luminária de Emergência 3 lux",
+          "pct": 0.009,
+          "total": 1620.0
+        }
+      ]
+    },
+    "Instalacoes Eletricas": {
+      "top_20_pct": 0.777,
+      "n_itens_total": 149,
+      "itens": [
+        {
+          "desc": "Eletroduto flexível corrugado Reforçado, em PVC na cor laran",
+          "pct": 0.228,
+          "total": 166786.0
+        },
+        {
+          "desc": "Cabo isolado de cobre em PVC, 1 KV - 10 mm² - Cor azul claro",
+          "pct": 0.05,
+          "total": 36765.0
+        },
+        {
+          "desc": "Cabo isolado de cobre em PVC, 1 KV - 10 mm² - Cor verde",
+          "pct": 0.05,
+          "total": 36765.0
+        },
+        {
+          "desc": "Cabo isolado de cobre em PVC, 1 KV - 10 mm² - Cor vermelha",
+          "pct": 0.041,
+          "total": 29925.000000000004
+        },
+        {
+          "desc": "Cabo isolado de cobre em PVC, 750 V - 2.5 mm² - Cor preta",
+          "pct": 0.04,
+          "total": 29564.48
+        },
+        {
+          "desc": "Cabo isolado de cobre em PVC, 750 V - 2.5 mm² - Cor azul cla",
+          "pct": 0.04,
+          "total": 28892.559999999998
+        },
+        {
+          "desc": "Cabo isolado de cobre em PVC, 1 KV - 10 mm² - Cor preta",
+          "pct": 0.037,
+          "total": 27360.000000000004
+        },
+        {
+          "desc": "Cabo isolado de cobre em PVC, 1 KV - 10 mm² - Cor branco",
+          "pct": 0.035,
+          "total": 25650.000000000004
+        },
+        {
+          "desc": "Cabo isolado de cobre em PVC, 750 V - 2.5 mm² - Cor verde",
+          "pct": 0.03,
+          "total": 22173.36
+        },
+        {
+          "desc": "Quadro de medição de energia com 33 medidores, incluindo bar",
+          "pct": 0.03,
+          "total": 22067.64
+        },
+        {
+          "desc": "Cabo isolado de cobre em PVC, 750 V - 2.5 mm² - Cor amarelo",
+          "pct": 0.027,
+          "total": 19821.64
+        },
+        {
+          "desc": "Cabo isolado de cobre em EPR, 1 KV  - 185 mm² - Cor preta",
+          "pct": 0.025,
+          "total": 18042.9312
+        },
+        {
+          "desc": "Cabo isolado de cobre em EPR, 1 KV  - 185 mm² - Cor vermelha",
+          "pct": 0.025,
+          "total": 18042.9312
+        },
+        {
+          "desc": "Cabo isolado de cobre em EPR, 1 KV  - 185 mm² - Cor branca",
+          "pct": 0.025,
+          "total": 18042.9312
+        },
+        {
+          "desc": "Cabo isolado de cobre em EPR, 1 KV  - 185 mm² - Cor azul cla",
+          "pct": 0.025,
+          "total": 18042.9312
+        },
+        {
+          "desc": "Interruptor residual tetrapolar 40 A, 30mA",
+          "pct": 0.019,
+          "total": 13681.66
+        },
+        {
+          "desc": "Conjunto montado de 1 Tomada 2P+T, 10A, posto horizontal, 4'",
+          "pct": 0.015,
+          "total": 11208.0
+        },
+        {
+          "desc": "Arruela lisa Ø3/8'', de aço carbono galvanizado",
+          "pct": 0.013,
+          "total": 9792.0
+        },
+        {
+          "desc": "Perfilado Perfurado, de chapa de aço carbono galvanizada 200",
+          "pct": 0.01,
+          "total": 7431.049999999999
+        },
+        {
+          "desc": "Conjunto montado de 2 Tomadas 2P+T, 10A, postos horizontais,",
+          "pct": 0.01,
+          "total": 7406.64
+        }
+      ]
+    },
+    "Climatizacao": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 6,
+      "itens": [
+        {
+          "desc": "CLIMATIZADOR CENTRAL COM CAPACIDADE DE 30.700 BTU/H.",
+          "pct": 0.477,
+          "total": 35998.0
+        },
+        {
+          "desc": "EXAUSTOR AXIAL EXTRA FINO, IPX4, CLASSE II, COM COMPORTA ANT",
+          "pct": 0.222,
+          "total": 16800.0
+        },
+        {
+          "desc": "CLIMATIZADOR SPLIT HI-WALL COM CAPACIDADE DE 24.000 BTU/H.",
+          "pct": 0.163,
+          "total": 12300.0
+        },
+        {
+          "desc": "CLIMATIZADOR SPLIT HI-WALL COM CAPACIDADE DE 18.000 BTU/H.",
+          "pct": 0.084,
+          "total": 6360.0
+        },
+        {
+          "desc": "CLIMATIZADOR SPLIT HI-WALL COM CAPACIDADE DE 12.000 BTU/H.",
+          "pct": 0.03,
+          "total": 2249.0
+        },
+        {
+          "desc": "CLIMATIZADOR SPLIT HI-WALL COM CAPACIDADE DE 9.000 BTU/H.",
+          "pct": 0.024,
+          "total": 1804.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "projeto": "cln-porto-ruby",
+  "ac": 12972.67,
+  "ur": 44,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Canteiro": {
+      "total": 41500.0,
+      "rsm2": 3.199033044084217,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 19000.0,
+          "n_itens": 3
+        }
+      }
+    },
+    "Fundacoes": {
+      "total": 15.579999999999998,
+      "rsm2": 0.0012009863813694482,
+      "n_itens": 4,
+      "subcategorias": {}
+    },
+    "Infraestrutura": {
+      "total": 3884.367216,
+      "rsm2": 0.299426965767263,
+      "n_itens": 2,
+      "subcategorias": {}
+    },
+    "Supraestrutura": {
+      "total": 162305.0,
+      "rsm2": 12.511302607712985,
+      "n_itens": 64,
+      "subcategorias": {
+        "666": {
+          "total": 1428.0,
+          "n_itens": 3
+        },
+        "333": {
+          "total": 714.0,
+          "n_itens": 18
+        }
+      }
+    },
+    "Loucas e Metais": {
+      "total": 934.72,
+      "rsm2": 0.0720530160714795,
+      "n_itens": 18,
+      "subcategorias": {}
+    }
+  },
+  "indices_consumo": {},
+  "split_mo_material": {
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Fundacoes": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.47,
+          "total": 19500.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.241,
+          "total": 10000.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.087,
+          "total": 3600.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.077,
+          "total": 3200.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.048,
+          "total": 2000.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.029,
+          "total": 1200.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.024,
+          "total": 1000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.024,
+          "total": 1000.0
+        }
+      ]
+    },
+    "Fundacoes": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 4,
+      "itens": [
+        {
+          "desc": "B35, B15",
+          "pct": 0.295,
+          "total": 4.6
+        },
+        {
+          "desc": "B25",
+          "pct": 0.295,
+          "total": 4.6
+        },
+        {
+          "desc": "B14",
+          "pct": 0.257,
+          "total": 4.0
+        },
+        {
+          "desc": "B24, B3",
+          "pct": 0.153,
+          "total": 2.38
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 2,
+      "itens": [
+        {
+          "desc": "VIGAS",
+          "pct": 0.5,
+          "total": 1942.183608
+        },
+        {
+          "desc": "TOTAL",
+          "pct": 0.5,
+          "total": 1942.183608
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 0.878,
+      "n_itens_total": 64,
+      "itens": [
+        {
+          "desc": "14360",
+          "pct": 0.369,
+          "total": 59907.0
+        },
+        {
+          "desc": "6462",
+          "pct": 0.179,
+          "total": 29044.0
+        },
+        {
+          "desc": "450",
+          "pct": 0.052,
+          "total": 8442.0
+        },
+        {
+          "desc": "558",
+          "pct": 0.033,
+          "total": 5328.0
+        },
+        {
+          "desc": "315",
+          "pct": 0.026,
+          "total": 4151.0
+        },
+        {
+          "desc": "312",
+          "pct": 0.025,
+          "total": 4058.0
+        },
+        {
+          "desc": "284",
+          "pct": 0.024,
+          "total": 3903.0
+        },
+        {
+          "desc": "343",
+          "pct": 0.021,
+          "total": 3376.0
+        },
+        {
+          "desc": "515",
+          "pct": 0.017,
+          "total": 2722.0
+        },
+        {
+          "desc": "11.0",
+          "pct": 0.016,
+          "total": 2671.0
+        },
+        {
+          "desc": "5.0",
+          "pct": 0.016,
+          "total": 2525.0
+        },
+        {
+          "desc": "874",
+          "pct": 0.014,
+          "total": 2346.0
+        },
+        {
+          "desc": "10.0",
+          "pct": 0.014,
+          "total": 2336.0
+        },
+        {
+          "desc": "5.0",
+          "pct": 0.014,
+          "total": 2202.0
+        },
+        {
+          "desc": "267",
+          "pct": 0.013,
+          "total": 2131.0
+        },
+        {
+          "desc": "326",
+          "pct": 0.013,
+          "total": 2124.0
+        },
+        {
+          "desc": "8.0",
+          "pct": 0.009,
+          "total": 1439.0
+        },
+        {
+          "desc": "219.0",
+          "pct": 0.008,
+          "total": 1285.0
+        },
+        {
+          "desc": "347",
+          "pct": 0.008,
+          "total": 1270.0
+        },
+        {
+          "desc": "44.0",
+          "pct": 0.007,
+          "total": 1210.0
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 18,
+      "itens": [
+        {
+          "desc": "Acabamento de Registro",
+          "pct": 0.428,
+          "total": 400.0
+        },
+        {
+          "desc": "Banheiro - Bacia Sanitária / Caixa Acoplada",
+          "pct": 0.217,
+          "total": 203.0
+        },
+        {
+          "desc": "Monocomando",
+          "pct": 0.156,
+          "total": 146.0
+        },
+        {
+          "desc": "Bancada Banheiros",
+          "pct": 0.113,
+          "total": 105.72
+        },
+        {
+          "desc": "Barra de apoio PNE",
+          "pct": 0.021,
+          "total": 20.0
+        },
+        {
+          "desc": "Torneira Lavatório mesa",
+          "pct": 0.019,
+          "total": 18.0
+        },
+        {
+          "desc": "Banheiro - Lavatorio / Suspenso",
+          "pct": 0.012,
+          "total": 11.0
+        },
+        {
+          "desc": "Banheiro - Bacia Sanitária PNE",
+          "pct": 0.007,
+          "total": 7.0
+        },
+        {
+          "desc": "Banheiro - Lavatorio PNE",
+          "pct": 0.007,
+          "total": 7.0
+        },
+        {
+          "desc": "Torneira de Jardins",
+          "pct": 0.004,
+          "total": 4.0
+        },
+        {
+          "desc": "Mictório Louça",
+          "pct": 0.003,
+          "total": 3.0
+        },
+        {
+          "desc": "Torneira misturador pia cozinha",
+          "pct": 0.003,
+          "total": 3.0
+        },
+        {
+          "desc": "Cozinha - Cuba / Inox",
+          "pct": 0.002,
+          "total": 2.0
+        },
+        {
+          "desc": "Cozinha - Cuba Dupla / Inox",
+          "pct": 0.001,
+          "total": 1.0
+        },
+        {
+          "desc": "Tanque Fibra",
+          "pct": 0.001,
+          "total": 1.0
+        },
+        {
+          "desc": "Ducha",
+          "pct": 0.001,
+          "total": 1.0
+        },
+        {
+          "desc": "Torneira tanque",
+          "pct": 0.001,
+          "total": 1.0
+        },
+        {
+          "desc": "Acabamento de Registro Pressão",
+          "pct": 0.001,
+          "total": 1.0
+        }
+      ]
+    }
+  }
+}

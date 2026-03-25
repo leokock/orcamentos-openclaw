@@ -1,0 +1,678 @@
+{
+  "projeto": "beco-castelo-chateau-de-versailes",
+  "ac": 32507.25,
+  "ur": 142,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Estacas": {
+      "total": 1.0,
+      "rsm2": 3.076236839474271e-05,
+      "n_itens": 1,
+      "subcategorias": {}
+    },
+    "Gas": {
+      "total": 59.0,
+      "rsm2": 0.00181497973528982,
+      "n_itens": 59,
+      "subcategorias": {}
+    },
+    "Fundacoes": {
+      "total": 783.0282983,
+      "rsm2": 0.024087804975813087,
+      "n_itens": 3,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 783.0282983,
+          "n_itens": 0
+        }
+      }
+    },
+    "Telecom": {
+      "total": 2643148.23,
+      "rsm2": 81.30949957317213,
+      "n_itens": 54,
+      "subcategorias": {}
+    },
+    "Instalacoes Eletricas": {
+      "total": 2257293.234,
+      "rsm2": 69.43968603926817,
+      "n_itens": 377,
+      "subcategorias": {
+        "ELETRODUTOS": {
+          "total": 542529.5139999999,
+          "n_itens": 21
+        },
+        "LUMINÁRIAS": {
+          "total": 116998.46999999999,
+          "n_itens": 10
+        },
+        "TOMADAS": {
+          "total": 461470.17,
+          "n_itens": 27
+        },
+        "FIOS E CABOS": {
+          "total": 727354.5,
+          "n_itens": 20
+        },
+        "DISJUNTORES E QUADROS": {
+          "total": 408940.58,
+          "n_itens": 299
+        }
+      }
+    },
+    "Loucas e Metais": {
+      "total": 1561832.26,
+      "rsm2": 48.04565935291358,
+      "n_itens": 22,
+      "subcategorias": {}
+    },
+    "Esquadrias": {
+      "total": 1605.0657,
+      "rsm2": 0.04937562236116559,
+      "n_itens": 109,
+      "subcategorias": {}
+    }
+  },
+  "indices_consumo": {
+    "Instalacoes Eletricas": {
+      "eletroduto_m_por_m2_ac": 1.65,
+      "pontos_eletricos_por_ur": 56.8
+    }
+  },
+  "split_mo_material": {
+    "Estacas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Gas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Fundacoes": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Telecom": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Eletricas": {
+      "mo_pct": 0.027,
+      "material_pct": 0.973
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.104,
+      "material_pct": 0.896
+    },
+    "Esquadrias": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Estacas": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 1,
+      "itens": [
+        {
+          "desc": "PESO kg/m",
+          "pct": 1.0,
+          "total": 1.0
+        }
+      ]
+    },
+    "Gas": {
+      "top_20_pct": 0.339,
+      "n_itens_total": 59,
+      "itens": [
+        {
+          "desc": "0.19",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.19",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        },
+        {
+          "desc": "0.17",
+          "pct": 0.017,
+          "total": 1.0
+        }
+      ]
+    },
+    "Fundacoes": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 3,
+      "itens": [
+        {
+          "desc": "279.0188",
+          "pct": 0.977,
+          "total": 765.0
+        },
+        {
+          "desc": "65.791946",
+          "pct": 0.013,
+          "total": 9.8687919
+        },
+        {
+          "desc": "40.797532",
+          "pct": 0.01,
+          "total": 8.1595064
+        }
+      ]
+    },
+    "Telecom": {
+      "top_20_pct": 0.989,
+      "n_itens_total": 54,
+      "itens": [
+        {
+          "desc": "Sistema completo de antena  de televisão para 1240 pontos, c",
+          "pct": 0.322,
+          "total": 851880.0
+        },
+        {
+          "desc": "Quadro de distribuição para telecomunicações (10U/10\") , dim",
+          "pct": 0.134,
+          "total": 355000.0
+        },
+        {
+          "desc": "QUADRO GERAL E OU DE DISTRIBUIÇÃO METÁLICO PARA SUPERVISÃO E",
+          "pct": 0.107,
+          "total": 284000.0
+        },
+        {
+          "desc": "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, Ø ¾”",
+          "pct": 0.104,
+          "total": 273899.99999999994
+        },
+        {
+          "desc": "Arame guia galvanizado, seção 14 AWG, para ser passado em to",
+          "pct": 0.073,
+          "total": 192000.0
+        },
+        {
+          "desc": "Cabo de logica UTP-4P tipo par trançado - categoria 6 gigala",
+          "pct": 0.059,
+          "total": 155269.4
+        },
+        {
+          "desc": "Cabo interno òptico - Cabo Fiber-Lan 50/125x2 Fibras Furukaw",
+          "pct": 0.059,
+          "total": 155269.4
+        },
+        {
+          "desc": "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, Ø 1”",
+          "pct": 0.051,
+          "total": 133536.0
+        },
+        {
+          "desc": "QUADRO GERAL E OU DE DISTRIBUIÇÃO METÁLICO PARA SUPERVISÃO E",
+          "pct": 0.02,
+          "total": 52000.0
+        },
+        {
+          "desc": "Placa com 2 tomadas para conector RJ-45",
+          "pct": 0.015,
+          "total": 40289.34
+        },
+        {
+          "desc": "20 x 20 x 10 cm (de embutir) - Caixa de passagem",
+          "pct": 0.011,
+          "total": 30000.0
+        },
+        {
+          "desc": "Sistema completo de CFTV, com gravação digital colorida de i",
+          "pct": 0.01,
+          "total": 27375.0
+        },
+        {
+          "desc": "40 x 40 x 12 cm  (QDT) - QUADRO GERAL E OU DE DISTRIBUIÇÃO P",
+          "pct": 0.004,
+          "total": 11000.0
+        },
+        {
+          "desc": "Caixa de PVC rígido, cor amarela  com  orelhas metálicas, fa",
+          "pct": 0.004,
+          "total": 10303.210000000001
+        },
+        {
+          "desc": "Sistema completo de porteiro eletrônico/interfone, com centr",
+          "pct": 0.004,
+          "total": 9877.5
+        },
+        {
+          "desc": "40 x 40 x 12 cm  (QDTV) - QUADRO GERAL E OU DE DISTRIBUIÇÃO ",
+          "pct": 0.003,
+          "total": 9000.0
+        },
+        {
+          "desc": "Eletrocalha lisa, com tampa  e acessórios para instalação, g",
+          "pct": 0.003,
+          "total": 7410.0
+        },
+        {
+          "desc": "01 placa com furo central para conector \"F\" para TV",
+          "pct": 0.002,
+          "total": 6185.0
+        },
+        {
+          "desc": "15 x15 x 10 cm (de embutir) - Caixa de passagem",
+          "pct": 0.002,
+          "total": 5500.0
+        },
+        {
+          "desc": "Rack 19\" completo , com estrutura em alumínio com perfis per",
+          "pct": 0.002,
+          "total": 5114.32
+        }
+      ]
+    },
+    "Instalacoes Eletricas": {
+      "top_20_pct": 0.736,
+      "n_itens_total": 377,
+      "itens": [
+        {
+          "desc": "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, Ø ¾”",
+          "pct": 0.154,
+          "total": 348599.99999999994
+        },
+        {
+          "desc": "CABOS DO TIPO ANTI-CHAMA, ISOLAMENTO PARA 750 V (70o) 2,5mm²",
+          "pct": 0.149,
+          "total": 335820.0
+        },
+        {
+          "desc": "CABOS DO TIPO ANTI-CHAMA, ISOLAMENTO PARA 750 V (70o) 10mm²",
+          "pct": 0.078,
+          "total": 176872.30000000002
+        },
+        {
+          "desc": "01 leitor Biometria",
+          "pct": 0.061,
+          "total": 137598.0
+        },
+        {
+          "desc": "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, Ø 1 ¼”",
+          "pct": 0.03,
+          "total": 66866.0
+        },
+        {
+          "desc": "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, Ø 1”",
+          "pct": 0.03,
+          "total": 66768.0
+        },
+        {
+          "desc": "01 interrupor de comando da persiana",
+          "pct": 0.027,
+          "total": 60254.88
+        },
+        {
+          "desc": "Arandela blindada em alumínio pintado, modelo a ser definido",
+          "pct": 0.024,
+          "total": 54393.1
+        },
+        {
+          "desc": "CABOS DO TIPO ANTI-CHAMA, ISOLAMENTO PARA 750 V (70o) 16mm²",
+          "pct": 0.024,
+          "total": 53742.96000000001
+        },
+        {
+          "desc": "Caixa de PVC rígido, cor amarela  com  orelhas metálicas, fa",
+          "pct": 0.021,
+          "total": 47495.25000000001
+        },
+        {
+          "desc": "QUADRO DE MEDIÇÃO EM ALUMÍNIO PARA 12 MEDIDORES, PADRÃO PARA",
+          "pct": 0.018,
+          "total": 39721.92
+        },
+        {
+          "desc": "CABOS  DO TIPO EPROTENAX  1000 V (90o) 185mm²",
+          "pct": 0.017,
+          "total": 38865.399999999994
+        },
+        {
+          "desc": "01 pulsador ou teclado de comando da iluminação",
+          "pct": 0.016,
+          "total": 35752.36
+        },
+        {
+          "desc": "Eletrocalha lisa com tampa  e acessórios para instalação, ga",
+          "pct": 0.015,
+          "total": 34900.6
+        },
+        {
+          "desc": "CAIXA DE EMBUTIR EM PVC, COM PORTA OPACA, 48 MÓDULOS, IP40",
+          "pct": 0.014,
+          "total": 32574.359999999997
+        },
+        {
+          "desc": "02 tomadas 2P+T (10A)",
+          "pct": 0.013,
+          "total": 28844.059999999998
+        },
+        {
+          "desc": "Caixa de PVC rígido, cor amarela com orelhas metálicas, fabr",
+          "pct": 0.013,
+          "total": 28684.04
+        },
+        {
+          "desc": "CABOS  DO TIPO EPROTENAX  1000 V (90o) 35mm²",
+          "pct": 0.012,
+          "total": 28156.800000000003
+        },
+        {
+          "desc": "01 tomada 2P+T (20A)  do tipo AQUATIC",
+          "pct": 0.01,
+          "total": 23197.8
+        },
+        {
+          "desc": "01 tomada 2P+T (20A)",
+          "pct": 0.01,
+          "total": 21985.2
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 22,
+      "itens": [
+        {
+          "desc": "Banheiro - Bacia Sanitária / Caixa Acoplada",
+          "pct": 0.531,
+          "total": 828699.0
+        },
+        {
+          "desc": "Acabamento de Registro",
+          "pct": 0.293,
+          "total": 457659.89999999997
+        },
+        {
+          "desc": "Mão de obra para instalação de louças e metais",
+          "pct": 0.104,
+          "total": 162536.25
+        },
+        {
+          "desc": "Torneira Lavatório mesa",
+          "pct": 0.011,
+          "total": 17933.81
+        },
+        {
+          "desc": "Banheiro - Cuba",
+          "pct": 0.011,
+          "total": 17315.1
+        },
+        {
+          "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "pct": 0.009,
+          "total": 13880.4
+        },
+        {
+          "desc": "Cozinha - Cuba / Inox",
+          "pct": 0.009,
+          "total": 13751.900000000001
+        },
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.008,
+          "total": 12280.800000000001
+        },
+        {
+          "desc": "Banheiro - Bacia Sanitária PNE",
+          "pct": 0.006,
+          "total": 9749.400000000001
+        },
+        {
+          "desc": "Banheiro - Lavatorio PNE",
+          "pct": 0.004,
+          "total": 6296.4
+        },
+        {
+          "desc": "Torneira misturador pia cozinha",
+          "pct": 0.003,
+          "total": 5274.650000000001
+        },
+        {
+          "desc": "Barra de apoio PNE",
+          "pct": 0.003,
+          "total": 4070.3999999999996
+        },
+        {
+          "desc": "Banheiro - Cuba de Sobrepor - PNE",
+          "pct": 0.002,
+          "total": 3625.18
+        },
+        {
+          "desc": "Chuveiro Elétrico",
+          "pct": 0.002,
+          "total": 3300.0
+        },
+        {
+          "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "pct": 0.002,
+          "total": 2580.0
+        },
+        {
+          "desc": "Válvula de escoamento para lavatório",
+          "pct": 0.001,
+          "total": 1105.0
+        },
+        {
+          "desc": "Torneira de Jardins",
+          "pct": 0.0,
+          "total": 664.47
+        },
+        {
+          "desc": "Tanque Fibra",
+          "pct": 0.0,
+          "total": 450.0
+        },
+        {
+          "desc": "Válvula de escoamento para Pia",
+          "pct": 0.0,
+          "total": 325.0
+        },
+        {
+          "desc": "Sifão ajustável multiuso",
+          "pct": 0.0,
+          "total": 204.70000000000002
+        }
+      ]
+    },
+    "Esquadrias": {
+      "top_20_pct": 0.723,
+      "n_itens_total": 109,
+      "itens": [
+        {
+          "desc": "GUARDA-CORPO, VIDRO E ALUMÍNIO, 110 cm",
+          "pct": 0.202,
+          "total": 324.445
+        },
+        {
+          "desc": "GUARDA-CORPO, VIDRO E ALUMÍNIO, 85 cm",
+          "pct": 0.182,
+          "total": 291.3715
+        },
+        {
+          "desc": "GUARDA-CORPO, VIDRO E ALUMÍNIO, 200 cm",
+          "pct": 0.065,
+          "total": 104.82
+        },
+        {
+          "desc": "GUARDA-CORPO, VIDRO E ALUMÍNIO, 112 cm",
+          "pct": 0.033,
+          "total": 52.5392
+        },
+        {
+          "desc": "GUARDA-CORPO, VIDRO E ALUMÍNIO, 100cm",
+          "pct": 0.025,
+          "total": 40.5
+        },
+        {
+          "desc": "VIDRO FIXO - 1050 x 314 cm",
+          "pct": 0.021,
+          "total": 32.97
+        },
+        {
+          "desc": "VIDRO FIXO - 1050 x 289 cm",
+          "pct": 0.019,
+          "total": 30.345000000000002
+        },
+        {
+          "desc": "VIDRO FIXO, VIDRO, 1284 x 220 cm",
+          "pct": 0.018,
+          "total": 28.248
+        },
+        {
+          "desc": "VIDRO FIXO, VIDRO, 992.65x 274 cm",
+          "pct": 0.017,
+          "total": 27.1808
+        },
+        {
+          "desc": "TELA COR PRETA, 841.63 x 309 cm",
+          "pct": 0.016,
+          "total": 25.9869
+        },
+        {
+          "desc": "TELA COR PRETA, 801 x 315 cm",
+          "pct": 0.016,
+          "total": 25.231499999999997
+        },
+        {
+          "desc": "TELA COR PRETA, 1111 x 224 cm",
+          "pct": 0.016,
+          "total": 24.886400000000002
+        },
+        {
+          "desc": "GUARDA-CORPO, VIDRO E ALUMÍNIO, 180 cm",
+          "pct": 0.013,
+          "total": 21.366
+        },
+        {
+          "desc": "VIDRO FIXO - 1015 x 204 cm",
+          "pct": 0.013,
+          "total": 20.706
+        },
+        {
+          "desc": "VIDRO FIXO - 570 x 260 cm",
+          "pct": 0.012,
+          "total": 20.02
+        },
+        {
+          "desc": "VIDRO FIXO SALA DE JOGOS",
+          "pct": 0.012,
+          "total": 20.02
+        },
+        {
+          "desc": "VIDRO FIXO - 675 x 289 cm",
+          "pct": 0.012,
+          "total": 19.5075
+        },
+        {
+          "desc": "VIDRO FIXO - 490 x 365 cm",
+          "pct": 0.011,
+          "total": 17.885
+        },
+        {
+          "desc": "PJ10 PORTA DE CORRER, 4 FOLHAS, VIDRO E ALUMÍNIO, 718 x 230 ",
+          "pct": 0.01,
+          "total": 16.514
+        },
+        {
+          "desc": "VIDRO FIXO - 1015 x 153 cm",
+          "pct": 0.01,
+          "total": 15.5295
+        }
+      ]
+    }
+  }
+}

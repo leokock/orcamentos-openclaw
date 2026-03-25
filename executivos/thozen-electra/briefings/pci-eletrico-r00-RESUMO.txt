@@ -1,0 +1,102 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                    SISTEMA PCI ELÉTRICO - THOZEN ELECTRA                       ║
+║                           Resumo de Quantitativos                              ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+📋 RESUMO EXECUTIVO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Edifício: Residencial multifamiliar — 33 pavimentos
+Sistema: Detecção e alarme de incêndio endereçável
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ EQUIPAMENTO                              │  QUANTIDADE  │  STATUS          │
+├─────────────────────────────────────────┼──────────────┼──────────────────┤
+│ Detectores de Fumaça Ópticos            │    494 UN    │  ✅ Confirmado   │
+│ Acionadores Manuais de Alarme           │     72 UN    │  ✅ Confirmado   │
+│ Avisadores Audiovisuais                 │    102 UN    │  ✅ Confirmado   │
+│ Centrais de Alarme                      │      3 UN    │  ✅ Confirmado   │
+│ Quadros de Comando                      │  40-50 UN*   │  ⚠️  A revisar   │
+└─────────────────────────────────────────┴──────────────┴──────────────────┘
+
+* Quantidade extraída do IFC (1.189 UN) está superestimada — usar estimativa realista
+
+
+🏢 DISTRIBUIÇÃO POR PAVIMENTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+┌────────────────────┬──────────┬──────────┬──────────┬──────────────────────┐
+│ PAVIMENTO          │ DETEC.   │ ACION.   │ AVISAD.  │ OBSERVAÇÃO           │
+├────────────────────┼──────────┼──────────┼──────────┼──────────────────────┤
+│ 01° Térreo         │    21    │     3    │     6    │ Áreas comuns         │
+│ 02° Garagem G1     │    27    │     2    │     5    │ Garagem              │
+│ 03° Garagem G2     │    25    │     2    │     5    │ Garagem              │
+│ 04° Garagem G3     │    27    │     2    │     5    │ Garagem              │
+│ 05° Garagem G4     │    25    │     2    │     5    │ Garagem              │
+│ 06° Garagem G5     │    25    │     2    │     5    │ Garagem              │
+│ 07° Lazer          │    24    │     3    │    16    │ Múltiplas áreas      │
+│ 08°~31° Tipo (×24) │   312    │    48    │    48    │ 13+2+2 por pav.      │
+│ Casa de Máquinas   │    10    │     —    │     —    │ Cobertura            │
+├────────────────────┼──────────┼──────────┼──────────┼──────────────────────┤
+│ TOTAL              │   494    │    72    │   102    │                      │
+└────────────────────┴──────────┴──────────┴──────────┴──────────────────────┘
+
+
+⚠️  DADOS FALTANTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Os arquivos IFC (formato IFC2X3) NÃO contêm dados de:
+
+  ❌  Cabos (bitolas, metragens, especificações)
+  ❌  Eletrodutos (diâmetros, metragens)
+  ❌  Caixas de passagem
+  ❌  Terminais de linha (EOL)
+  ❌  Módulos de interface
+  ❌  Baterias backup
+
+📊 ESTIMATIVAS PARAMÉTRICAS (a confirmar com projeto executivo):
+
+  • Cabo de sinal:        ~10.000 m  (15-20m por ponto × 566 pontos)
+  • Eletrodutos:          ~6.000 m   (10-12m por ponto)
+  • Caixas de passagem:  ~190 UN     (1 a cada 3 pontos)
+
+
+📂 FONTES DE DADOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅  9 arquivos IFC processados (rev.01)
+📁  18 arquivos DWG disponíveis (não processados)
+❌  Memorial descritivo: NÃO fornecido
+❌  Planilha de quantitativos: NÃO fornecida
+
+
+🎯 PRÓXIMAS AÇÕES RECOMENDADAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 📋 Solicitar MEMORIAL DESCRITIVO do sistema PCI
+2. 📋 Solicitar PLANILHA DE QUANTITATIVOS do projetista
+3. 🔍 Conferir pranchas DWG (legendas, tabelas de especificações)
+4. ⚠️  Validar quantidade real de QUADROS DE COMANDO
+5. 📊 Confirmar especificações de CABOS e ELETRODUTOS
+6. 🏢 Verificar MARCA/MODELO da central especificada
+
+
+💰 ORÇAMENTO PARAMÉTRICO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Índice de referência para PCI residencial: R$ 45-65/m²
+(Verificar base de calibração Cartesian para índice atualizado)
+
+Para orçamento EXECUTIVO completo, é ESSENCIAL ter:
+  • Memorial descritivo
+  • Especificações técnicas (marca/modelo)
+  • Quantitativos de cabos e eletrodutos
+
+
+══════════════════════════════════════════════════════════════════════════════════
+
+Briefing completo: executivo/thozen-electra/briefings/pci-eletrico-r00.md
+Data de extração: 20/03/2026
+Extraído por: Cartesiano (processamento automático IFC)
+
+══════════════════════════════════════════════════════════════════════════════════

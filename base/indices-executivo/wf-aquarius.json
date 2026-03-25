@@ -1,0 +1,362 @@
+{
+  "projeto": "wf-aquarius",
+  "ac": 16789.049999999996,
+  "ur": 84,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Canteiro": {
+      "total": 51300.0,
+      "rsm2": 3.055563000884506,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 15800.0,
+          "n_itens": 3
+        }
+      }
+    },
+    "Infraestrutura": {
+      "total": 12470.300000000001,
+      "rsm2": 0.7427638847939583,
+      "n_itens": 25,
+      "subcategorias": {
+        "E02- BLOCOS DE FUNDAÇÃO- FOLHA 18": {
+          "total": 1731.4,
+          "n_itens": 19
+        }
+      }
+    },
+    "Supraestrutura": {
+      "total": 340883.89360759495,
+      "rsm2": 20.30394177202373,
+      "n_itens": 88,
+      "subcategorias": {
+        "8": {
+          "total": 655.3,
+          "n_itens": 1
+        },
+        "16.5": {
+          "total": 550.5,
+          "n_itens": 7
+        },
+        "28.2": {
+          "total": 539.2,
+          "n_itens": 7
+        },
+        "90.7": {
+          "total": 737.3,
+          "n_itens": 0
+        },
+        "48.1": {
+          "total": 616.2,
+          "n_itens": 2
+        },
+        "96.7": {
+          "total": 770.3,
+          "n_itens": 0
+        },
+        "83": {
+          "total": 737.3,
+          "n_itens": 2
+        },
+        "10": {
+          "total": 528.6,
+          "n_itens": 0
+        },
+        "E22- PILARES DO LAZER- FOLHA 4": {
+          "total": 613.5,
+          "n_itens": 15
+        },
+        "72.5": {
+          "total": 600.7,
+          "n_itens": 6
+        },
+        "106": {
+          "total": 562.2,
+          "n_itens": 6
+        },
+        "104.8": {
+          "total": 552.4,
+          "n_itens": 38
+        }
+      }
+    }
+  },
+  "indices_consumo": {},
+  "split_mo_material": {
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.634,
+          "total": 32500.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.097,
+          "total": 5000.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.078,
+          "total": 4000.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.07,
+          "total": 3600.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.043,
+          "total": 2200.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.039,
+          "total": 2000.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.019,
+          "total": 1000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.019,
+          "total": 1000.0
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 0.994,
+      "n_itens_total": 25,
+      "itens": [
+        {
+          "desc": "TOTAL",
+          "pct": 0.445,
+          "total": 5555.0
+        },
+        {
+          "desc": "PROJETO: E01A-LOCAÇÃO DOS BLOCOS-R1.pdf",
+          "pct": 0.21,
+          "total": 2617.6
+        },
+        {
+          "desc": "PROJETO:",
+          "pct": 0.151,
+          "total": 1885.1000000000004
+        },
+        {
+          "desc": "PROJETO:",
+          "pct": 0.069,
+          "total": 863.2
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 19",
+          "pct": 0.017,
+          "total": 209.0
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 2",
+          "pct": 0.012,
+          "total": 151.9
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 20",
+          "pct": 0.012,
+          "total": 151.9
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 9",
+          "pct": 0.009,
+          "total": 112.0
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 8",
+          "pct": 0.009,
+          "total": 109.5
+        },
+        {
+          "desc": "E03- PILARES DO TÉRREO- FOLHA 8",
+          "pct": 0.009,
+          "total": 106.2
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 10",
+          "pct": 0.008,
+          "total": 102.2
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 23",
+          "pct": 0.007,
+          "total": 83.7
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 11",
+          "pct": 0.006,
+          "total": 79.6
+        },
+        {
+          "desc": "E02- BLOCOS DE FUNDAÇÃO- FOLHA 14",
+          "pct": 0.006,
+          "total": 77.4
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 15",
+          "pct": 0.005,
+          "total": 61.5
+        },
+        {
+          "desc": "E02- BLOCOS DE FUNDAÇÃO- FOLHA 13",
+          "pct": 0.005,
+          "total": 57.3
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 17",
+          "pct": 0.004,
+          "total": 48.6
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 16",
+          "pct": 0.004,
+          "total": 45.7
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 12",
+          "pct": 0.003,
+          "total": 42.5
+        },
+        {
+          "desc": "E05- VIGAS DO TÉRREO- FOLHA 5",
+          "pct": 0.003,
+          "total": 39.9
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 0.893,
+      "n_itens_total": 88,
+      "itens": [
+        {
+          "desc": "9022.394962025317",
+          "pct": 0.298,
+          "total": 101658.94687341774
+        },
+        {
+          "desc": "6551.4000000000015",
+          "pct": 0.176,
+          "total": 60126.4
+        },
+        {
+          "desc": "3712.8",
+          "pct": 0.099,
+          "total": 33769.2
+        },
+        {
+          "desc": "1669.9",
+          "pct": 0.057,
+          "total": 19519.600000000002
+        },
+        {
+          "desc": "358.9",
+          "pct": 0.053,
+          "total": 18083.00000000001
+        },
+        {
+          "desc": "2038.8000000000002",
+          "pct": 0.049,
+          "total": 16693.199999999997
+        },
+        {
+          "desc": "8.2",
+          "pct": 0.026,
+          "total": 9032.6
+        },
+        {
+          "desc": "432.29999999999995",
+          "pct": 0.018,
+          "total": 6141.2
+        },
+        {
+          "desc": "437.3",
+          "pct": 0.016,
+          "total": 5395.3
+        },
+        {
+          "desc": "418.39496202531643",
+          "pct": 0.011,
+          "total": 3805.446873417721
+        },
+        {
+          "desc": "E34- LAJES DO TIPO 2 (20x)",
+          "pct": 0.011,
+          "total": 3757.2000000000003
+        },
+        {
+          "desc": "329.29999999999995",
+          "pct": 0.009,
+          "total": 3141.9000000000005
+        },
+        {
+          "desc": "325.20000000000005",
+          "pct": 0.009,
+          "total": 3024.9999999999995
+        },
+        {
+          "desc": "321.8",
+          "pct": 0.009,
+          "total": 2983.9
+        },
+        {
+          "desc": "317.3",
+          "pct": 0.009,
+          "total": 2922.2
+        },
+        {
+          "desc": "315.1",
+          "pct": 0.009,
+          "total": 2904.2999999999997
+        },
+        {
+          "desc": "297.2",
+          "pct": 0.008,
+          "total": 2876.0000000000005
+        },
+        {
+          "desc": "312.79999999999995",
+          "pct": 0.008,
+          "total": 2865.0
+        },
+        {
+          "desc": "310.5",
+          "pct": 0.008,
+          "total": 2824.7999999999997
+        },
+        {
+          "desc": "309.4",
+          "pct": 0.008,
+          "total": 2814.1
+        }
+      ]
+    }
+  }
+}

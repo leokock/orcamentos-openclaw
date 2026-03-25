@@ -1,0 +1,545 @@
+{
+  "projeto": "viva4-barra4",
+  "ac": 13223.259999999998,
+  "ur": 99,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Canteiro": {
+      "total": 55700.0,
+      "rsm2": 4.212274431569825,
+      "n_itens": 8,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 20200.0,
+          "n_itens": 3
+        }
+      }
+    },
+    "Loucas e Metais": {
+      "total": 407636.768,
+      "rsm2": 30.827251978710244,
+      "n_itens": 255,
+      "subcategorias": {
+        "TOTAL": {
+          "total": 1588.0430000000003,
+          "n_itens": 23
+        }
+      }
+    },
+    "Fundacoes": {
+      "total": 6192.232004369799,
+      "rsm2": 0.46828331322002287,
+      "n_itens": 171,
+      "subcategorias": {}
+    },
+    "Infraestrutura": {
+      "total": 14130.6,
+      "rsm2": 1.0686169673741575,
+      "n_itens": 18,
+      "subcategorias": {
+        "PLANILHA: VIV-BRR-EX-000-QUANTITATIVO-R49": {
+          "total": 26260.181818181816,
+          "n_itens": 2
+        }
+      }
+    },
+    "Instalacoes Eletricas": {
+      "total": 1941696.2715636666,
+      "rsm2": 146.83945347544153,
+      "n_itens": 166,
+      "subcategorias": {}
+    }
+  },
+  "indices_consumo": {
+    "Instalacoes Eletricas": {
+      "eletroduto_m_por_m2_ac": 2.55,
+      "pontos_eletricos_por_ur": 55.7
+    }
+  },
+  "split_mo_material": {
+    "Canteiro": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Loucas e Metais": {
+      "mo_pct": 0.195,
+      "material_pct": 0.805
+    },
+    "Fundacoes": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Infraestrutura": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    },
+    "Instalacoes Eletricas": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Canteiro": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 8,
+      "itens": [
+        {
+          "desc": "Computador pessoal",
+          "pct": 0.583,
+          "total": 32500.0
+        },
+        {
+          "desc": "Ar condicionado",
+          "pct": 0.18,
+          "total": 10000.0
+        },
+        {
+          "desc": "Escrivaninha",
+          "pct": 0.072,
+          "total": 4000.0
+        },
+        {
+          "desc": "Armário",
+          "pct": 0.065,
+          "total": 3600.0
+        },
+        {
+          "desc": "Impressora",
+          "pct": 0.036,
+          "total": 2000.0
+        },
+        {
+          "desc": "Cadeira",
+          "pct": 0.029,
+          "total": 1600.0
+        },
+        {
+          "desc": "Mesa",
+          "pct": 0.018,
+          "total": 1000.0
+        },
+        {
+          "desc": "Roteador",
+          "pct": 0.018,
+          "total": 1000.0
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "top_20_pct": 0.995,
+      "n_itens_total": 255,
+      "itens": [
+        {
+          "desc": "Vaso sanitário deca branco",
+          "pct": 0.586,
+          "total": 238780.1
+        },
+        {
+          "desc": "Mão de obra",
+          "pct": 0.195,
+          "total": 79339.56
+        },
+        {
+          "desc": "Acabamento metálico para registro de gaveta",
+          "pct": 0.07,
+          "total": 28364.7
+        },
+        {
+          "desc": "Bancada em granito",
+          "pct": 0.039,
+          "total": 15900.904999999997
+        },
+        {
+          "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
+          "pct": 0.025,
+          "total": 10079.8
+        },
+        {
+          "desc": "Cuba de embutir",
+          "pct": 0.024,
+          "total": 9777.44
+        },
+        {
+          "desc": "Cuba de cozinha",
+          "pct": 0.018,
+          "total": 7333.08
+        },
+        {
+          "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "pct": 0.008,
+          "total": 3082.75
+        },
+        {
+          "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "pct": 0.007,
+          "total": 2686.6000000000004
+        },
+        {
+          "desc": "Vaso sanitário deca branco PNE",
+          "pct": 0.006,
+          "total": 2399.8
+        },
+        {
+          "desc": "Barra de apoio PNE",
+          "pct": 0.005,
+          "total": 2074.64
+        },
+        {
+          "desc": "Torneira de jardim",
+          "pct": 0.003,
+          "total": 1320.0
+        },
+        {
+          "desc": "Ducha de parede",
+          "pct": 0.002,
+          "total": 758.0
+        },
+        {
+          "desc": "Tanque de embutir",
+          "pct": 0.002,
+          "total": 738.0
+        },
+        {
+          "desc": "Torneira mesa para lavatório",
+          "pct": 0.002,
+          "total": 689.7
+        },
+        {
+          "desc": "Cuba suspensa",
+          "pct": 0.001,
+          "total": 559.3
+        },
+        {
+          "desc": "Lavatório PNE de canto",
+          "pct": 0.001,
+          "total": 531.8
+        },
+        {
+          "desc": "Válvula de escoamento para cuba",
+          "pct": 0.001,
+          "total": 488.25
+        },
+        {
+          "desc": "Tanque Lavanderia Deca de Cerâmica",
+          "pct": 0.001,
+          "total": 369.0
+        },
+        {
+          "desc": "Válvula de escoamento para lavatório",
+          "pct": 0.001,
+          "total": 240.89999999999998
+        }
+      ]
+    },
+    "Fundacoes": {
+      "top_20_pct": 0.995,
+      "n_itens_total": 171,
+      "itens": [
+        {
+          "desc": "BLOCO B E C",
+          "pct": 0.993,
+          "total": 6145.9170043697995
+        },
+        {
+          "desc": "ÚNICA SAPATA",
+          "pct": 0.001,
+          "total": 5.46
+        },
+        {
+          "desc": "BLOCO A E B",
+          "pct": 0.0,
+          "total": 1.89
+        },
+        {
+          "desc": "P96/P97",
+          "pct": 0.0,
+          "total": 0.7
+        },
+        {
+          "desc": "PNA8/PNB1",
+          "pct": 0.0,
+          "total": 0.6
+        },
+        {
+          "desc": "VIV-BRR-EST-EX-FUN-023-DET SAPATAS C2 10-16-R03",
+          "pct": 0.0,
+          "total": 0.515
+        },
+        {
+          "desc": "P54",
+          "pct": 0.0,
+          "total": 0.47
+        },
+        {
+          "desc": "P51/P235",
+          "pct": 0.0,
+          "total": 0.46
+        },
+        {
+          "desc": "P130",
+          "pct": 0.0,
+          "total": 0.42
+        },
+        {
+          "desc": "P151",
+          "pct": 0.0,
+          "total": 0.42
+        },
+        {
+          "desc": "P172",
+          "pct": 0.0,
+          "total": 0.42
+        },
+        {
+          "desc": "P31/P233",
+          "pct": 0.0,
+          "total": 0.4
+        },
+        {
+          "desc": "P85/P86",
+          "pct": 0.0,
+          "total": 0.4
+        },
+        {
+          "desc": "P116/P117",
+          "pct": 0.0,
+          "total": 0.4
+        },
+        {
+          "desc": "P138/P139",
+          "pct": 0.0,
+          "total": 0.4
+        },
+        {
+          "desc": "P159/P160",
+          "pct": 0.0,
+          "total": 0.4
+        },
+        {
+          "desc": "P91/P92",
+          "pct": 0.0,
+          "total": 0.4
+        },
+        {
+          "desc": "P99/P98",
+          "pct": 0.0,
+          "total": 0.4
+        },
+        {
+          "desc": "P100/P101",
+          "pct": 0.0,
+          "total": 0.4
+        },
+        {
+          "desc": "P104/P105",
+          "pct": 0.0,
+          "total": 0.4
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 18,
+      "itens": [
+        {
+          "desc": "GERAL",
+          "pct": 0.413,
+          "total": 5831.7
+        },
+        {
+          "desc": "GERAL",
+          "pct": 0.413,
+          "total": 5831.7
+        },
+        {
+          "desc": "GERAL",
+          "pct": 0.024,
+          "total": 337.7
+        },
+        {
+          "desc": "GERAL",
+          "pct": 0.017,
+          "total": 241.8
+        },
+        {
+          "desc": "BLOCO A",
+          "pct": 0.016,
+          "total": 232.7
+        },
+        {
+          "desc": "BLOCO C",
+          "pct": 0.014,
+          "total": 195.2
+        },
+        {
+          "desc": "BLOCO C",
+          "pct": 0.014,
+          "total": 192.2
+        },
+        {
+          "desc": "BLOCO C",
+          "pct": 0.013,
+          "total": 178.0
+        },
+        {
+          "desc": "BLOCO A",
+          "pct": 0.012,
+          "total": 163.8
+        },
+        {
+          "desc": "BLOCO D",
+          "pct": 0.011,
+          "total": 155.6
+        },
+        {
+          "desc": "BLOCO A",
+          "pct": 0.011,
+          "total": 152.8
+        },
+        {
+          "desc": "BLOCO B",
+          "pct": 0.009,
+          "total": 126.4
+        },
+        {
+          "desc": "BLOCO B",
+          "pct": 0.008,
+          "total": 115.9
+        },
+        {
+          "desc": "BLOCO A",
+          "pct": 0.006,
+          "total": 89.1
+        },
+        {
+          "desc": "BLOCO A",
+          "pct": 0.006,
+          "total": 79.6
+        },
+        {
+          "desc": "BLOCO A",
+          "pct": 0.005,
+          "total": 77.2
+        },
+        {
+          "desc": "BLOCO B",
+          "pct": 0.005,
+          "total": 70.1
+        },
+        {
+          "desc": "BLOCO B",
+          "pct": 0.004,
+          "total": 59.1
+        }
+      ]
+    },
+    "Instalacoes Eletricas": {
+      "top_20_pct": 0.823,
+      "n_itens_total": 166,
+      "itens": [
+        {
+          "desc": "Quadro distrib. chapa pintada - embutir",
+          "pct": 0.127,
+          "total": 247520.0
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol. XLPE - 0,6/1kV (ref. Prysmian ",
+          "pct": 0.076,
+          "total": 146648.55659999998
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol. XLPE - 0,6/1kV (ref. Prysmian\n",
+          "pct": 0.075,
+          "total": 146481.71459999998
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol. XLPE - 0,6/1kV (ref. Prysmian ",
+          "pct": 0.075,
+          "total": 146481.71459999998
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol. XLPE - 0,6/1kV (ref. Prysmian\n",
+          "pct": 0.075,
+          "total": 146481.71459999998
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol. XLPE - 0,6/1kV (ref. Prysmian\n",
+          "pct": 0.075,
+          "total": 146481.71459999998
+        },
+        {
+          "desc": "Eletroduto PVC flexível - Eletroduto leve - 3/4\"",
+          "pct": 0.054,
+          "total": 104355.37125
+        },
+        {
+          "desc": "Eletroduto PVC flexível - Eletroduto pesado - 1.1/4\"",
+          "pct": 0.049,
+          "total": 95255.16
+        },
+        {
+          "desc": "Disjuntor Tripolar Termomagnético -\nnorma DIN (Curva C) - 50",
+          "pct": 0.048,
+          "total": 92852.43000000001
+        },
+        {
+          "desc": "Disjuntor Tripolar Termomagnético -\nnorma DIN (Curva C) - 63",
+          "pct": 0.045,
+          "total": 87749.5
+        },
+        {
+          "desc": "Interruptor bipolar DR (fase/neutro - In\n30mA) - DIN - 40 A",
+          "pct": 0.016,
+          "total": 31432.140000000003
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol.PVC - 450/750V (ref. Pirastic E",
+          "pct": 0.016,
+          "total": 31080.594999999998
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol.PVC - 450/750V (ref. Pirastic E",
+          "pct": 0.016,
+          "total": 31011.107399999997
+        },
+        {
+          "desc": "Interruptor tetrapolar DR (3 fases/neutro - In 30mA) - DIN -",
+          "pct": 0.013,
+          "total": 25794.78
+        },
+        {
+          "desc": "S/ placa - Tomada hexagonal (NBR 14136) 2P+T 10A",
+          "pct": 0.012,
+          "total": 24166.100000000002
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol.PVC - 450/750V (ref. Pirastic E",
+          "pct": 0.012,
+          "total": 23959.699399999998
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol.PVC - 450/750V (ref. Pirastic E",
+          "pct": 0.012,
+          "total": 23460.265399999997
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol.PVC - 450/750V (ref. Pirastic E",
+          "pct": 0.008,
+          "total": 15629.328
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol.PVC - 450/750V (ref. Pirastic E",
+          "pct": 0.008,
+          "total": 15629.328
+        },
+        {
+          "desc": "Cabo Unipolar (cobre) - Isol. XLPE - 0,6/1kV (ref. Prysmian ",
+          "pct": 0.008,
+          "total": 15043.210493999999
+        }
+      ]
+    }
+  }
+}

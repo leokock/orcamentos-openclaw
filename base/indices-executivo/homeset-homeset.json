@@ -1,0 +1,1326 @@
+{
+  "projeto": "homeset-homeset",
+  "ac": 7959.45,
+  "ur": null,
+  "total": null,
+  "rsm2": null,
+  "macrogrupos": {},
+  "disciplinas": {
+    "Infraestrutura": {
+      "total": 2720597.06,
+      "rsm2": 341.80716758067456,
+      "n_itens": 39,
+      "subcategorias": {
+        "FUNDAÇÃO PROFUNDA": {
+          "total": 289704.61,
+          "n_itens": 20
+        },
+        "FUNDAÇÃO RASA": {
+          "total": 378921.17,
+          "n_itens": 19
+        }
+      }
+    },
+    "Supraestrutura": {
+      "total": 1673949.02,
+      "rsm2": 210.30963445966745,
+      "n_itens": 67,
+      "subcategorias": {
+        "SUPRAESTRUTURA": {
+          "total": 393879.91,
+          "n_itens": 67
+        }
+      }
+    },
+    "Alvenaria": {
+      "total": 2638221.7800000003,
+      "rsm2": 331.4577992197954,
+      "n_itens": 83,
+      "subcategorias": {
+        "VEDAÇÕES E DIVISÓRIAS": {
+          "total": 624191.62,
+          "n_itens": 83
+        }
+      }
+    },
+    "Instalacoes Hidraulicas": {
+      "total": 1080186.72,
+      "rsm2": 135.7112262781976,
+      "n_itens": 73,
+      "subcategorias": {
+        "SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM": {
+          "total": 182403.38,
+          "n_itens": 73
+        }
+      }
+    },
+    "PCI": {
+      "total": 357115.76,
+      "rsm2": 44.86688904384097,
+      "n_itens": 62,
+      "subcategorias": {
+        "INSTALAÇÕES PREVENTIVAS": {
+          "total": 28865.08,
+          "n_itens": 38
+        },
+        "INSTALAÇÕES DE GLP": {
+          "total": 44107.73,
+          "n_itens": 20
+        },
+        "INSTALAÇÕES DE SPDA": {
+          "total": 7647.34,
+          "n_itens": 4
+        }
+      }
+    },
+    "Instalacoes Eletricas": {
+      "total": 1321564.13,
+      "rsm2": 166.037116886217,
+      "n_itens": 35,
+      "subcategorias": {
+        "SISTEMAS E INSTALAÇÕES ELÉTRICAS": {
+          "total": 205667.78,
+          "n_itens": 35
+        }
+      }
+    },
+    "Impermeabilizacao": {
+      "total": 712823.53,
+      "rsm2": 89.55688269918149,
+      "n_itens": 47,
+      "subcategorias": {
+        "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+          "total": 159931.88,
+          "n_itens": 47
+        }
+      }
+    },
+    "Revestimentos": {
+      "total": 4189176.92,
+      "rsm2": 526.3148735151298,
+      "n_itens": 190,
+      "subcategorias": {
+        "REVESTIMENTOS INTERNOS EM PISO E PAREDE": {
+          "total": 242726.22,
+          "n_itens": 31
+        },
+        "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+          "total": 61729.38,
+          "n_itens": 23
+        },
+        "ACABAMENTOS EM PISO E PAREDE": {
+          "total": 371869.53,
+          "n_itens": 101
+        },
+        "REVESTIMENTOS E ACABAMENTOS EM FACHADA": {
+          "total": 198696.84,
+          "n_itens": 35
+        }
+      }
+    },
+    "Pintura": {
+      "total": 558394.32,
+      "rsm2": 70.15488758645384,
+      "n_itens": 54,
+      "subcategorias": {
+        "SISTEMAS DE PINTURA INTERNA": {
+          "total": 129480.53,
+          "n_itens": 54
+        }
+      }
+    },
+    "Esquadrias": {
+      "total": 1391769.14,
+      "rsm2": 174.85745120579938,
+      "n_itens": 61,
+      "subcategorias": {
+        "ESQUADRIAS, VIDROS E FERRAGENS": {
+          "total": 388702.92,
+          "n_itens": 61
+        }
+      }
+    },
+    "Servicos Complementares": {
+      "total": 697289.21,
+      "rsm2": 87.60520010804767,
+      "n_itens": 10,
+      "subcategorias": {
+        "SERVIÇOS COMPLEMENTARES E FINAIS": {
+          "total": 19411.32,
+          "n_itens": 10
+        }
+      }
+    }
+  },
+  "indices_consumo": {
+    "Supraestrutura": {
+      "concreto_m3_por_m2_ac": 0.1,
+      "aco_kg_por_m3_concreto": 35.6,
+      "forma_m2_por_m3_concreto": 1.25
+    }
+  },
+  "split_mo_material": {
+    "Infraestrutura": {
+      "mo_pct": 0.187,
+      "material_pct": 0.813
+    },
+    "Supraestrutura": {
+      "mo_pct": 0.255,
+      "material_pct": 0.745
+    },
+    "Alvenaria": {
+      "mo_pct": 0.451,
+      "material_pct": 0.549
+    },
+    "Instalacoes Hidraulicas": {
+      "mo_pct": 0.276,
+      "material_pct": 0.724
+    },
+    "PCI": {
+      "mo_pct": 0.213,
+      "material_pct": 0.787
+    },
+    "Instalacoes Eletricas": {
+      "mo_pct": 0.26,
+      "material_pct": 0.74
+    },
+    "Impermeabilizacao": {
+      "mo_pct": 0.2,
+      "material_pct": 0.8
+    },
+    "Revestimentos": {
+      "mo_pct": 0.472,
+      "material_pct": 0.528
+    },
+    "Pintura": {
+      "mo_pct": 0.764,
+      "material_pct": 0.236
+    },
+    "Esquadrias": {
+      "mo_pct": 0.105,
+      "material_pct": 0.895
+    },
+    "Servicos Complementares": {
+      "mo_pct": 0.0,
+      "material_pct": 1.0
+    }
+  },
+  "curva_abc": {
+    "Infraestrutura": {
+      "top_20_pct": 0.898,
+      "n_itens_total": 39,
+      "itens": [
+        {
+          "desc": "Concreto usinado bombeável, para estacas, fck 30MPa, slump =",
+          "pct": 0.083,
+          "total": 225868.61
+        },
+        {
+          "desc": "Concreto usinado bombeável, para estacas, fck 30MPa, slump =",
+          "pct": 0.083,
+          "total": 225868.61
+        },
+        {
+          "desc": "Concreto usinado bombeável, para estacas, fck 30MPa, slump =",
+          "pct": 0.083,
+          "total": 225868.61
+        },
+        {
+          "desc": "Concreto usinado bombeável, para estacas, fck 30MPa, slump =",
+          "pct": 0.083,
+          "total": 225868.61
+        },
+        {
+          "desc": "Custo de armadura realizado - TORRE - CTN",
+          "pct": 0.065,
+          "total": 176488.05
+        },
+        {
+          "desc": "Custo de armadura realizado - TORRE - CTN",
+          "pct": 0.065,
+          "total": 176488.05
+        },
+        {
+          "desc": "Custo de armadura realizado - TORRE - CTN",
+          "pct": 0.065,
+          "total": 176488.05
+        },
+        {
+          "desc": "Custo de armadura realizado - TORRE - CTN",
+          "pct": 0.065,
+          "total": 176488.05
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1,",
+          "pct": 0.03,
+          "total": 81978.62
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1,",
+          "pct": 0.03,
+          "total": 81978.62
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1,",
+          "pct": 0.03,
+          "total": 81978.62
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1,",
+          "pct": 0.03,
+          "total": 81978.62
+        },
+        {
+          "desc": "Mão de obra para execução de blocos e baldrames - CTN",
+          "pct": 0.026,
+          "total": 70393.2
+        },
+        {
+          "desc": "Mão de obra para execução de blocos e baldrames - CTN",
+          "pct": 0.026,
+          "total": 70393.2
+        },
+        {
+          "desc": "Mão de obra para execução de blocos e baldrames - CTN",
+          "pct": 0.026,
+          "total": 70393.2
+        },
+        {
+          "desc": "Mão de obra para execução de blocos e baldrames - CTN",
+          "pct": 0.026,
+          "total": 70393.2
+        },
+        {
+          "desc": "Perfuratriz Hélice Contínua d=600mm *",
+          "pct": 0.021,
+          "total": 56256.0
+        },
+        {
+          "desc": "Perfuratriz Hélice Contínua d=600mm *",
+          "pct": 0.021,
+          "total": 56256.0
+        },
+        {
+          "desc": "Perfuratriz Hélice Contínua d=600mm *",
+          "pct": 0.021,
+          "total": 56256.0
+        },
+        {
+          "desc": "Perfuratriz Hélice Contínua d=600mm *",
+          "pct": 0.021,
+          "total": 56256.0
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "top_20_pct": 0.854,
+      "n_itens_total": 67,
+      "itens": [
+        {
+          "desc": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1,",
+          "pct": 0.077,
+          "total": 128229.74
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1,",
+          "pct": 0.077,
+          "total": 128229.74
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1,",
+          "pct": 0.077,
+          "total": 128229.74
+        },
+        {
+          "desc": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1,",
+          "pct": 0.065,
+          "total": 109260.88
+        },
+        {
+          "desc": "Mão de obra para execução de estrutura em concreto armado - ",
+          "pct": 0.063,
+          "total": 105144.65
+        },
+        {
+          "desc": "Mão de obra para execução de estrutura em concreto armado - ",
+          "pct": 0.063,
+          "total": 104990.6
+        },
+        {
+          "desc": "Mão de obra para execução de estrutura em concreto armado - ",
+          "pct": 0.063,
+          "total": 104990.6
+        },
+        {
+          "desc": "Mão de obra para execução de estrutura em concreto armado - ",
+          "pct": 0.063,
+          "total": 104990.6
+        },
+        {
+          "desc": "Laje Pré-Moldada Convencional 12cm *",
+          "pct": 0.045,
+          "total": 76100.0
+        },
+        {
+          "desc": "Laje Pré-Moldada Convencional 12cm *",
+          "pct": 0.045,
+          "total": 76100.0
+        },
+        {
+          "desc": "Laje Pré-Moldada Convencional 12cm *",
+          "pct": 0.045,
+          "total": 76100.0
+        },
+        {
+          "desc": "Laje Pré-Moldada Convencional 12cm *",
+          "pct": 0.045,
+          "total": 76100.0
+        },
+        {
+          "desc": "Locação de escoramento metálico - CTN",
+          "pct": 0.02,
+          "total": 32837.28
+        },
+        {
+          "desc": "Tela Soldada CA-60, Q61, diâmetro 3,4mm - CTN",
+          "pct": 0.017,
+          "total": 27939.52
+        },
+        {
+          "desc": "Armadura CA-50 Diâmetro 6,30mm Cortada e Dobrada *",
+          "pct": 0.016,
+          "total": 26394.9
+        },
+        {
+          "desc": "Tela Soldada CA-60, Q61, diâmetro 3,4mm - CTN",
+          "pct": 0.016,
+          "total": 26211.31
+        },
+        {
+          "desc": "Tela Soldada CA-60, Q61, diâmetro 3,4mm - CTN",
+          "pct": 0.016,
+          "total": 26211.31
+        },
+        {
+          "desc": "Tela Soldada CA-60, Q61, diâmetro 3,4mm - CTN",
+          "pct": 0.016,
+          "total": 26211.31
+        },
+        {
+          "desc": "Armadura CA-50 Diâmetro 6,30mm Cortada e Dobrada *",
+          "pct": 0.013,
+          "total": 22522.66
+        },
+        {
+          "desc": "Armadura CA-50 Diâmetro 6,30mm Cortada e Dobrada *",
+          "pct": 0.013,
+          "total": 22522.66
+        }
+      ]
+    },
+    "Alvenaria": {
+      "top_20_pct": 0.835,
+      "n_itens_total": 83,
+      "itens": [
+        {
+          "desc": "Mão de obra - Execução de paredes em alvenaria estrutural",
+          "pct": 0.104,
+          "total": 275527.84
+        },
+        {
+          "desc": "Mão de obra - Execução de paredes em alvenaria estrutural",
+          "pct": 0.104,
+          "total": 275527.84
+        },
+        {
+          "desc": "Mão de obra - Execução de paredes em alvenaria estrutural",
+          "pct": 0.104,
+          "total": 275527.84
+        },
+        {
+          "desc": "Mão de obra - Execução de paredes em alvenaria estrutural",
+          "pct": 0.1,
+          "total": 263919.56
+        },
+        {
+          "desc": "Alvenaria estrutural - Tipo 01, 02 e 03 - Torre 02, 03, 04 -",
+          "pct": 0.071,
+          "total": 186198.64
+        },
+        {
+          "desc": "Alvenaria estrutural - Tipo 01, 02 e 03 - Torre 02, 03, 04 -",
+          "pct": 0.071,
+          "total": 186198.64
+        },
+        {
+          "desc": "Alvenaria estrutural - Tipo 01, 02 e 03 - Torre 02, 03, 04 -",
+          "pct": 0.071,
+          "total": 186198.64
+        },
+        {
+          "desc": "Alvenaria estrutural - Tipo 01, 02 e 03 - Torre 01",
+          "pct": 0.067,
+          "total": 176114.65
+        },
+        {
+          "desc": "Alvenaria estrutural - Térreo - Torre 02, 03, 04 - CTN",
+          "pct": 0.013,
+          "total": 35570.9
+        },
+        {
+          "desc": "Alvenaria estrutural - Térreo - Torre 02, 03, 04 - CTN",
+          "pct": 0.013,
+          "total": 35570.9
+        },
+        {
+          "desc": "Alvenaria estrutural - Térreo - Torre 02, 03, 04 - CTN",
+          "pct": 0.013,
+          "total": 35570.9
+        },
+        {
+          "desc": "Alvenaria estrutural - Térreo - Torre 01",
+          "pct": 0.013,
+          "total": 34122.89
+        },
+        {
+          "desc": "Alvenaria estrutural - Tipo 04 - Torre 01",
+          "pct": 0.012,
+          "total": 32687.44
+        },
+        {
+          "desc": "Mão de obra - Alvenaria vedação bloco de concreto - CTN",
+          "pct": 0.012,
+          "total": 32218.2
+        },
+        {
+          "desc": "Alvenaria de vedação de blocos de concreto 14x19x29cm (espes",
+          "pct": 0.012,
+          "total": 32178.82
+        },
+        {
+          "desc": "Alvenaria estrutural - Tipo 04 - Torre 02, 03, 04 - CTN",
+          "pct": 0.011,
+          "total": 30336.17
+        },
+        {
+          "desc": "Alvenaria estrutural - Tipo 04 - Torre 02, 03, 04 - CTN",
+          "pct": 0.011,
+          "total": 30336.17
+        },
+        {
+          "desc": "Alvenaria estrutural - Tipo 04 - Torre 02, 03, 04 - CTN",
+          "pct": 0.011,
+          "total": 30336.17
+        },
+        {
+          "desc": "Tela Soldada CA-60, Q61, diâmetro 3,4mm - CTN",
+          "pct": 0.01,
+          "total": 26067.29
+        },
+        {
+          "desc": "Armadura CA-50 Diâmetro 10,0mm Cortada e Dobrada *",
+          "pct": 0.008,
+          "total": 22212.23
+        }
+      ]
+    },
+    "Instalacoes Hidraulicas": {
+      "top_20_pct": 0.792,
+      "n_itens_total": 73,
+      "itens": [
+        {
+          "desc": "Tanque Séptico / Filtro Anaeróbio *",
+          "pct": 0.125,
+          "total": 135000.0
+        },
+        {
+          "desc": "Mão de Obra Hidráulica *",
+          "pct": 0.052,
+          "total": 56616.35
+        },
+        {
+          "desc": "Mão de Obra Hidráulica *",
+          "pct": 0.052,
+          "total": 56533.4
+        },
+        {
+          "desc": "Mão de Obra Hidráulica *",
+          "pct": 0.052,
+          "total": 56533.4
+        },
+        {
+          "desc": "Mão de Obra Hidráulica *",
+          "pct": 0.052,
+          "total": 56533.4
+        },
+        {
+          "desc": "Instalações de Esgoto/Pluvial - Torre 02, 03 e 04",
+          "pct": 0.036,
+          "total": 39252.62
+        },
+        {
+          "desc": "Instalações de Esgoto/Pluvial - Torre 02, 03 e 04",
+          "pct": 0.036,
+          "total": 39252.62
+        },
+        {
+          "desc": "Instalações de Esgoto/Pluvial - Torre 02, 03 e 04",
+          "pct": 0.036,
+          "total": 39252.62
+        },
+        {
+          "desc": "Mão de obra para Rede de Drenagem - CTN",
+          "pct": 0.034,
+          "total": 36800.0
+        },
+        {
+          "desc": "Mão de Obra Hidráulica *",
+          "pct": 0.033,
+          "total": 35295.05
+        },
+        {
+          "desc": "Instalações de Água Fria - Torre 02, 03 e 04",
+          "pct": 0.03,
+          "total": 32227.39
+        },
+        {
+          "desc": "Instalações de Água Fria - Torre 02, 03 e 04",
+          "pct": 0.03,
+          "total": 32227.39
+        },
+        {
+          "desc": "Instalações de Água Fria - Torre 02, 03 e 04",
+          "pct": 0.03,
+          "total": 32227.39
+        },
+        {
+          "desc": "Bacia sanitária de louça com caixa acoplada - CTN",
+          "pct": 0.029,
+          "total": 31439.69
+        },
+        {
+          "desc": "Bacia sanitária de louça com caixa acoplada - CTN",
+          "pct": 0.029,
+          "total": 31439.69
+        },
+        {
+          "desc": "Bacia sanitária de louça com caixa acoplada - CTN",
+          "pct": 0.029,
+          "total": 31439.69
+        },
+        {
+          "desc": "Bacia sanitária de louça com caixa acoplada - CTN",
+          "pct": 0.029,
+          "total": 31439.69
+        },
+        {
+          "desc": "Instalações de Esgoto/Pluvial - Torre 01",
+          "pct": 0.028,
+          "total": 30435.9
+        },
+        {
+          "desc": "Instalações de Água Fria - Torre 01",
+          "pct": 0.028,
+          "total": 29947.36
+        },
+        {
+          "desc": "Instalações de Esgoto/Pluvial - Áreas Comuns",
+          "pct": 0.02,
+          "total": 21937.72
+        }
+      ]
+    },
+    "PCI": {
+      "top_20_pct": 0.755,
+      "n_itens_total": 62,
+      "itens": [
+        {
+          "desc": "Tubulação de gás - Áreas Comuns",
+          "pct": 0.066,
+          "total": 23592.5
+        },
+        {
+          "desc": "Tubulação de gás - Torre 01",
+          "pct": 0.061,
+          "total": 21808.07
+        },
+        {
+          "desc": "Tubulação de gás - Torre 02, 03 e 04",
+          "pct": 0.061,
+          "total": 21808.07
+        },
+        {
+          "desc": "Tubulação de gás - Torre 02, 03 e 04",
+          "pct": 0.061,
+          "total": 21808.07
+        },
+        {
+          "desc": "Tubulação de gás - Torre 02, 03 e 04",
+          "pct": 0.061,
+          "total": 21808.07
+        },
+        {
+          "desc": "Abrigo com 4 Medidores Tipo Home Set - 1.1/2\" *",
+          "pct": 0.043,
+          "total": 15392.0
+        },
+        {
+          "desc": "Abrigo com 4 Medidores Tipo Home Set - 1.1/2\" *",
+          "pct": 0.043,
+          "total": 15392.0
+        },
+        {
+          "desc": "Abrigo com 4 Medidores Tipo Home Set - 1.1/2\" *",
+          "pct": 0.043,
+          "total": 15392.0
+        },
+        {
+          "desc": "Abrigo com 4 Medidores Tipo Home Set - 1.1/2\" *",
+          "pct": 0.043,
+          "total": 15392.0
+        },
+        {
+          "desc": "Mão de obra para instalações preventivas - CTN",
+          "pct": 0.028,
+          "total": 10029.18
+        },
+        {
+          "desc": "Mão de obra para instalações preventivas - CTN",
+          "pct": 0.028,
+          "total": 10014.49
+        },
+        {
+          "desc": "Mão de obra para instalações preventivas - CTN",
+          "pct": 0.028,
+          "total": 10014.49
+        },
+        {
+          "desc": "Mão de obra para instalações preventivas - CTN",
+          "pct": 0.028,
+          "total": 10014.49
+        },
+        {
+          "desc": "Tubulações de incêndio - Torre 01",
+          "pct": 0.024,
+          "total": 8656.43
+        },
+        {
+          "desc": "Tubulações de incêndio - Torre 02, 03 e 04",
+          "pct": 0.024,
+          "total": 8476.76
+        },
+        {
+          "desc": "Tubulações de incêndio - Torre 02, 03 e 04",
+          "pct": 0.024,
+          "total": 8476.76
+        },
+        {
+          "desc": "Tubulações de incêndio - Torre 02, 03 e 04",
+          "pct": 0.024,
+          "total": 8476.76
+        },
+        {
+          "desc": "Instalações de SPDA - Torre 01",
+          "pct": 0.021,
+          "total": 7647.34
+        },
+        {
+          "desc": "Instalações de SPDA - Torre 02",
+          "pct": 0.021,
+          "total": 7647.34
+        },
+        {
+          "desc": "Instalações de SPDA - Torre 02",
+          "pct": 0.021,
+          "total": 7647.34
+        }
+      ]
+    },
+    "Instalacoes Eletricas": {
+      "top_20_pct": 0.916,
+      "n_itens_total": 35,
+      "itens": [
+        {
+          "desc": "Fios e Cabos Elétricos - Áreas Comuns",
+          "pct": 0.256,
+          "total": 338018.94
+        },
+        {
+          "desc": "Mão de obra para instalações elétricas - CTN",
+          "pct": 0.056,
+          "total": 74410.06
+        },
+        {
+          "desc": "Mão de obra para instalações elétricas - CTN",
+          "pct": 0.056,
+          "total": 74301.04
+        },
+        {
+          "desc": "Mão de obra para instalações elétricas - CTN",
+          "pct": 0.056,
+          "total": 74301.04
+        },
+        {
+          "desc": "Mão de obra para instalações elétricas - CTN",
+          "pct": 0.056,
+          "total": 74301.04
+        },
+        {
+          "desc": "Fios e Cabos Elétricos - Torre 02, 03 e 04",
+          "pct": 0.055,
+          "total": 72415.0
+        },
+        {
+          "desc": "Fios e Cabos Elétricos - Torre 02, 03 e 04",
+          "pct": 0.055,
+          "total": 72415.0
+        },
+        {
+          "desc": "Fios e Cabos Elétricos - Torre 02, 03 e 04",
+          "pct": 0.055,
+          "total": 72415.0
+        },
+        {
+          "desc": "Fios e Cabos Elétricos - Torre 01",
+          "pct": 0.053,
+          "total": 70432.65
+        },
+        {
+          "desc": "Mão de obra para instalações elétricas - CTN",
+          "pct": 0.035,
+          "total": 46387.78
+        },
+        {
+          "desc": "Caixa de Passagem Alvenaria 65x85x80cm com Tampa *",
+          "pct": 0.031,
+          "total": 40600.0
+        },
+        {
+          "desc": "Quadros Elétricos e Disjuntores - Áreas Comuns",
+          "pct": 0.029,
+          "total": 38613.64
+        },
+        {
+          "desc": "Quadros Elétricos e Disjuntores - Torre 01",
+          "pct": 0.015,
+          "total": 20391.43
+        },
+        {
+          "desc": "Quadros Elétricos e Disjuntores - Torre 02, 03 e 04",
+          "pct": 0.015,
+          "total": 20391.43
+        },
+        {
+          "desc": "Quadros Elétricos e Disjuntores - Torre 02, 03 e 04",
+          "pct": 0.015,
+          "total": 20391.43
+        },
+        {
+          "desc": "Quadros Elétricos e Disjuntores - Torre 02, 03 e 04",
+          "pct": 0.015,
+          "total": 20391.43
+        },
+        {
+          "desc": "Eletrodutos e Eletrocalhas - Torre 02, 03 e 04",
+          "pct": 0.015,
+          "total": 20154.52
+        },
+        {
+          "desc": "Eletrodutos e Eletrocalhas - Torre 02, 03 e 04",
+          "pct": 0.015,
+          "total": 20154.52
+        },
+        {
+          "desc": "Eletrodutos e Eletrocalhas - Torre 02, 03 e 04",
+          "pct": 0.015,
+          "total": 20154.52
+        },
+        {
+          "desc": "Eletrodutos e Eletrocalhas - Torre 01",
+          "pct": 0.015,
+          "total": 20033.37
+        }
+      ]
+    },
+    "Impermeabilizacao": {
+      "top_20_pct": 0.707,
+      "n_itens_total": 47,
+      "itens": [
+        {
+          "desc": "Impermeabilização com manta asfáltica - CTN",
+          "pct": 0.052,
+          "total": 37032.48
+        },
+        {
+          "desc": "Impermeabilização com manta asfáltica - CTN",
+          "pct": 0.052,
+          "total": 37032.48
+        },
+        {
+          "desc": "Impermeabilização com manta asfáltica - CTN",
+          "pct": 0.052,
+          "total": 37032.48
+        },
+        {
+          "desc": "Impermeabilização com manta asfáltica - CTN",
+          "pct": 0.052,
+          "total": 37032.48
+        },
+        {
+          "desc": "Impermeabilização com manta asfáltica - CTN",
+          "pct": 0.049,
+          "total": 34931.52
+        },
+        {
+          "desc": "Impermeabilização com argamassa polimérica - CTN",
+          "pct": 0.041,
+          "total": 29333.0
+        },
+        {
+          "desc": "Impermeabilização com argamassa polimérica - CTN",
+          "pct": 0.041,
+          "total": 29333.0
+        },
+        {
+          "desc": "Impermeabilização com argamassa polimérica - CTN",
+          "pct": 0.041,
+          "total": 29333.0
+        },
+        {
+          "desc": "Impermeabilização com argamassa polimérica - CTN",
+          "pct": 0.041,
+          "total": 29333.0
+        },
+        {
+          "desc": "Pintura Impermeabilizante, 2 Demãos, aplicada em vigas baldr",
+          "pct": 0.037,
+          "total": 26148.0
+        },
+        {
+          "desc": "Pintura Impermeabilizante, 2 Demãos, aplicada em vigas baldr",
+          "pct": 0.037,
+          "total": 26148.0
+        },
+        {
+          "desc": "Pintura Impermeabilizante, 2 Demãos, aplicada em vigas baldr",
+          "pct": 0.037,
+          "total": 26148.0
+        },
+        {
+          "desc": "Pintura Impermeabilizante, 2 Demãos, aplicada em vigas baldr",
+          "pct": 0.037,
+          "total": 26148.0
+        },
+        {
+          "desc": "Mão de obra para execução de proteção mecânica - CTN",
+          "pct": 0.02,
+          "total": 14401.52
+        },
+        {
+          "desc": "Mão de obra para execução de proteção mecânica - CTN",
+          "pct": 0.02,
+          "total": 14401.52
+        },
+        {
+          "desc": "Mão de obra para execução de proteção mecânica - CTN",
+          "pct": 0.02,
+          "total": 14401.52
+        },
+        {
+          "desc": "Mão de obra para execução de proteção mecânica - CTN",
+          "pct": 0.02,
+          "total": 14401.52
+        },
+        {
+          "desc": "Junta de dilatação em isopor - CTN",
+          "pct": 0.019,
+          "total": 13820.18
+        },
+        {
+          "desc": "Junta de dilatação em isopor - CTN",
+          "pct": 0.019,
+          "total": 13820.18
+        },
+        {
+          "desc": "Junta de dilatação em isopor - CTN",
+          "pct": 0.019,
+          "total": 13820.18
+        }
+      ]
+    },
+    "Revestimentos": {
+      "top_20_pct": 0.434,
+      "n_itens_total": 190,
+      "itens": [
+        {
+          "desc": "Mão de obra para assentamento de piso intertravado - CTN",
+          "pct": 0.05,
+          "total": 211011.0
+        },
+        {
+          "desc": "Paver Natural *",
+          "pct": 0.032,
+          "total": 133769.8
+        },
+        {
+          "desc": "Revestimento Interno Parede Gesso - Terceirizado *",
+          "pct": 0.023,
+          "total": 94956.8
+        },
+        {
+          "desc": "Revestimento Interno Parede Gesso - Terceirizado *",
+          "pct": 0.023,
+          "total": 94956.8
+        },
+        {
+          "desc": "Revestimento Interno Parede Gesso - Terceirizado *",
+          "pct": 0.023,
+          "total": 94956.8
+        },
+        {
+          "desc": "Revestimento Interno Parede Gesso - Terceirizado *",
+          "pct": 0.022,
+          "total": 93875.2
+        },
+        {
+          "desc": "Mão de obra para execução de reboco externo - CTN",
+          "pct": 0.02,
+          "total": 83830.76
+        },
+        {
+          "desc": "Mão de obra para execução de reboco externo - CTN",
+          "pct": 0.02,
+          "total": 83626.4
+        },
+        {
+          "desc": "Mão de obra para execução de reboco externo - CTN",
+          "pct": 0.02,
+          "total": 83626.4
+        },
+        {
+          "desc": "Mão de obra para execução de reboco externo - CTN",
+          "pct": 0.02,
+          "total": 83626.4
+        },
+        {
+          "desc": "Revestimento interno de piso cerâmico, placa 60x60cm - CTN",
+          "pct": 0.02,
+          "total": 82740.53
+        },
+        {
+          "desc": "Revestimento interno de piso cerâmico, placa 60x60cm - CTN",
+          "pct": 0.02,
+          "total": 82622.91
+        },
+        {
+          "desc": "Revestimento interno de piso cerâmico, placa 60x60cm - CTN",
+          "pct": 0.02,
+          "total": 82622.91
+        },
+        {
+          "desc": "Revestimento interno de piso cerâmico, placa 60x60cm - CTN",
+          "pct": 0.02,
+          "total": 82622.91
+        },
+        {
+          "desc": "Mão de obra para assentamento e rejuntamento de piso cerâmic",
+          "pct": 0.018,
+          "total": 77387.52
+        },
+        {
+          "desc": "Mão de obra para assentamento e rejuntamento de piso cerâmic",
+          "pct": 0.018,
+          "total": 77278.08
+        },
+        {
+          "desc": "Mão de obra para assentamento e rejuntamento de piso cerâmic",
+          "pct": 0.018,
+          "total": 77278.08
+        },
+        {
+          "desc": "Mão de obra para assentamento e rejuntamento de piso cerâmic",
+          "pct": 0.018,
+          "total": 77278.08
+        },
+        {
+          "desc": "Mão de obra para execução de reboco interno - CTN",
+          "pct": 0.016,
+          "total": 65239.3
+        },
+        {
+          "desc": "Revestimento azulejo cerâmico em parede, placa 30x58cm - CTN",
+          "pct": 0.014,
+          "total": 56833.72
+        }
+      ]
+    },
+    "Pintura": {
+      "top_20_pct": 0.961,
+      "n_itens_total": 54,
+      "itens": [
+        {
+          "desc": "Mão de obra para pintura interna - CTN",
+          "pct": 0.17,
+          "total": 94699.08
+        },
+        {
+          "desc": "Mão de obra para pintura interna - CTN",
+          "pct": 0.17,
+          "total": 94699.08
+        },
+        {
+          "desc": "Mão de obra para pintura interna - CTN",
+          "pct": 0.17,
+          "total": 94699.08
+        },
+        {
+          "desc": "Mão de obra para pintura interna - CTN",
+          "pct": 0.168,
+          "total": 94049.06
+        },
+        {
+          "desc": "Mão de obra para pintura interna - CTN",
+          "pct": 0.048,
+          "total": 26926.34
+        },
+        {
+          "desc": "Pintura com tinta acrílica em paredes internas, acabamento f",
+          "pct": 0.034,
+          "total": 19204.12
+        },
+        {
+          "desc": "Pintura com tinta acrílica em paredes internas, acabamento f",
+          "pct": 0.034,
+          "total": 19204.12
+        },
+        {
+          "desc": "Pintura com tinta acrílica em paredes internas, acabamento f",
+          "pct": 0.034,
+          "total": 19204.12
+        },
+        {
+          "desc": "Pintura com tinta acrílica em paredes internas, acabamento f",
+          "pct": 0.034,
+          "total": 19051.14
+        },
+        {
+          "desc": "Pintura com tinta acrílica em paredes internas, acabamento f",
+          "pct": 0.013,
+          "total": 7296.23
+        },
+        {
+          "desc": "Pintura com tinta acrílica em teto, acabamento fosco, 3 demã",
+          "pct": 0.012,
+          "total": 6532.2
+        },
+        {
+          "desc": "Pintura com tinta acrílica em teto, acabamento fosco, 3 demã",
+          "pct": 0.012,
+          "total": 6532.2
+        },
+        {
+          "desc": "Pintura com tinta acrílica em teto, acabamento fosco, 3 demã",
+          "pct": 0.012,
+          "total": 6532.2
+        },
+        {
+          "desc": "Pintura com tinta acrílica em teto, acabamento fosco, 3 demã",
+          "pct": 0.012,
+          "total": 6486.66
+        },
+        {
+          "desc": "Massa Corrida PVA teto, 2 Demãos *",
+          "pct": 0.006,
+          "total": 3595.21
+        },
+        {
+          "desc": "Massa Corrida PVA teto, 2 Demãos *",
+          "pct": 0.006,
+          "total": 3595.21
+        },
+        {
+          "desc": "Massa Corrida PVA teto, 2 Demãos *",
+          "pct": 0.006,
+          "total": 3595.21
+        },
+        {
+          "desc": "Massa Corrida PVA teto, 2 Demãos *",
+          "pct": 0.006,
+          "total": 3570.15
+        },
+        {
+          "desc": "Mão de obra para textura interna - CTN",
+          "pct": 0.006,
+          "total": 3526.4
+        },
+        {
+          "desc": "Mão de obra para textura interna - CTN",
+          "pct": 0.006,
+          "total": 3526.4
+        }
+      ]
+    },
+    "Esquadrias": {
+      "top_20_pct": 0.8,
+      "n_itens_total": 61,
+      "itens": [
+        {
+          "desc": "Esquadrias de alumínio - Janelas - CTN",
+          "pct": 0.075,
+          "total": 104766.89
+        },
+        {
+          "desc": "Esquadrias de alumínio - Janelas - CTN",
+          "pct": 0.075,
+          "total": 103891.48
+        },
+        {
+          "desc": "Esquadrias de alumínio - Janelas - CTN",
+          "pct": 0.075,
+          "total": 103891.48
+        },
+        {
+          "desc": "Esquadrias de alumínio - Janelas - CTN",
+          "pct": 0.075,
+          "total": 103891.48
+        },
+        {
+          "desc": "Porta Madeira Interna Leve/Media 80x210cm *",
+          "pct": 0.072,
+          "total": 100419.9
+        },
+        {
+          "desc": "Porta Madeira Interna Leve/Media 80x210cm *",
+          "pct": 0.058,
+          "total": 80335.92
+        },
+        {
+          "desc": "Porta Madeira Interna Leve/Media 80x210cm *",
+          "pct": 0.058,
+          "total": 80335.92
+        },
+        {
+          "desc": "Porta Madeira Interna Leve/Media 80x210cm *",
+          "pct": 0.058,
+          "total": 80335.92
+        },
+        {
+          "desc": "Corrimão de Escadas Ferro *",
+          "pct": 0.053,
+          "total": 73260.0
+        },
+        {
+          "desc": "Porta Madeira Interna Leve/Media 70x210cm *",
+          "pct": 0.023,
+          "total": 31965.22
+        },
+        {
+          "desc": "Porta Madeira Interna Leve/Media 70x210cm *",
+          "pct": 0.019,
+          "total": 26918.08
+        },
+        {
+          "desc": "Porta Madeira Interna Leve/Media 70x210cm *",
+          "pct": 0.019,
+          "total": 26918.08
+        },
+        {
+          "desc": "Porta Madeira Interna Leve/Media 70x210cm *",
+          "pct": 0.019,
+          "total": 26918.08
+        },
+        {
+          "desc": "Guarda-Corpo em Ferro Galvanizado *",
+          "pct": 0.018,
+          "total": 25384.5
+        },
+        {
+          "desc": "Mão de obra para fixação de contramarco - CTN",
+          "pct": 0.018,
+          "total": 24960.0
+        },
+        {
+          "desc": "Mão de obra para fixação de contramarco - CTN",
+          "pct": 0.018,
+          "total": 24960.0
+        },
+        {
+          "desc": "Mão de obra para fixação de contramarco - CTN",
+          "pct": 0.018,
+          "total": 24960.0
+        },
+        {
+          "desc": "Mão de obra para fixação de contramarco - CTN",
+          "pct": 0.018,
+          "total": 24720.0
+        },
+        {
+          "desc": "Fornecimento e Instalação Fachada Pele de Vidro *",
+          "pct": 0.016,
+          "total": 22659.0
+        },
+        {
+          "desc": "Fixação de contramarco de alumínio - CTN",
+          "pct": 0.016,
+          "total": 22472.43
+        }
+      ]
+    },
+    "Servicos Complementares": {
+      "top_20_pct": 1.0,
+      "n_itens_total": 10,
+      "itens": [
+        {
+          "desc": "Mobília e Decoração *",
+          "pct": 0.396,
+          "total": 276021.5
+        },
+        {
+          "desc": "Imprevistos e contingências - CTN",
+          "pct": 0.312,
+          "total": 217892.75
+        },
+        {
+          "desc": "Comunicação Visual *",
+          "pct": 0.067,
+          "total": 47000.0
+        },
+        {
+          "desc": "Execução do Paisagismo *",
+          "pct": 0.062,
+          "total": 43413.84
+        },
+        {
+          "desc": "Desmobilização Pessoal / Equipamentos",
+          "pct": 0.033,
+          "total": 23300.0
+        },
+        {
+          "desc": "Limpeza Final de Obra *",
+          "pct": 0.028,
+          "total": 19411.32
+        },
+        {
+          "desc": "Limpeza Final de Obra *",
+          "pct": 0.028,
+          "total": 19382.88
+        },
+        {
+          "desc": "Limpeza Final de Obra *",
+          "pct": 0.028,
+          "total": 19382.88
+        },
+        {
+          "desc": "Limpeza Final de Obra *",
+          "pct": 0.028,
+          "total": 19382.88
+        },
+        {
+          "desc": "Limpeza Final de Obra *",
+          "pct": 0.017,
+          "total": 12101.16
+        }
+      ]
+    }
+  }
+}
