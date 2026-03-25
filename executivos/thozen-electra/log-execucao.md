@@ -27,7 +27,7 @@
 | 07  | PCI Civil       | Briefing R00                      | R00     | [[pci-civil-r00]]                                     |
 | 08  | PCI Eletrico    | Briefing R00                      | R00     | [[pci-eletrico-r00]]                                  |
 | 09  | Eletrico        | Discipline pack R01 + Memorial    | R01     | [[eletrico-r01-memorial]]                             |
-| 10  | Telefonico      | Briefing R00 + dados IFC          | R00     | [[telefonico-r00]]                                    |
+| 10  | Telefonico      | R01 — IFC + 18 DWGs processados   | R01     | [[telecomunicacoes-electra-r01.xlsx]]                  |
 | 11  | SPDA            | Briefing R00                      | R00     | [[spda-r00]]                                          |
 | 12  | Ventilacao      | Briefing R00-R02 (DWG bloqueado)  | R02     | [[ventilacao-r02]]                                    |
 | 13  | Exaustao        | Briefing R00-R02 (DXF processado) | R02     | [[exaustao-r02]]                                      |
@@ -218,13 +218,48 @@
 - [[relatorio-extracao-telefonico-thozen]]
 - [[thozen-electra-telefonico-consolidado.json]]
 
-**Planilha preenchida (24/mar/2026):**
+**Planilha R00 (24/mar/2026):**
 - Arquivo: `telecomunicacoes-electra-r00.xlsx`
 - Base: template Elizabeth II (Gessele) adaptado pro Electra
 - Pavimentos: Terreo, G1-G5, Lazer, Tipo (x24), Casa de Maquinas
 - Total estimado: R$ 424.322 (R$ 11,76/m²)
 - Fonte quantitativos: IFC rev.01 | Fonte precos: Elizabeth II (Gessele)
-- Status: ✅ Preenchido — pendente validacao com DWG
+
+**Processamento DWG (24/mar/2026 — noite):**
+- 18 DWGs convertidos para DXF via ODA File Converter (CLI batch)
+- Script: `quantitativos/telefonico/extrair_telefonico.py`
+- Dados brutos: `quantitativos/telefonico/dados_brutos_telefonico.json` (142 KB)
+- 18 extrações individuais: `quantitativos/telefonico/extracao_t02.md` a `extracao_t19.md`
+- Consolidado: `quantitativos/telefonico/consolidado_telefonico.md`
+
+**Planilha R01 (25/mar/2026):**
+- Arquivo: `telecomunicacoes-electra-r01.xlsx`
+- Revisao: `R01 - Jarvis/IFC+DWG 24/03/2026`
+- 96 novos itens adicionados (distribuidos em 9 pavimentos)
+- Formatacao e formulas preservadas da R00
+
+**Dados NOVOS do DWG (nao existiam no IFC):**
+- Eletrodutos ø1.1/4" e ø3" (IFC so tinha ø1" e ø3/4")
+- 9 novas dimensoes de caixas de passagem (40x120, 80x120, 60x120, etc)
+- 4.414 cotovelos de eletroduto
+- 415 conectores box + 132 buchas terminal
+- 324 trechos de condutores classificados (CFTV, UTP, CCI, Cordplast)
+- 222 pontos de uso novos (interfones, cameras, controle de acesso, dados/telefone)
+
+**Comparativo R00 vs R01:**
+- Pontos ativos: 90 → 312 (+246%)
+- Diametros de eletroduto: 2 → 4
+- Tipos de caixa de passagem: 1 → 10
+- Acessorios quantificados: 0 → 5.102 un
+- Condutores identificados: 0 → 324 trechos
+
+**Pendencias restantes (nem IFC nem DWG):**
+- Metragens de cabos UTP/CFTV (estimativa ~6.858m)
+- Especificacao de racks e patch panels
+- DG (Distribuidor Geral)
+- Dimensoes de calhas (100x50 ou 150x50mm)
+- Categoria dos cabos (CAT6 vs CAT6A)
+- Esses dados devem estar em memorial descritivo do projetista
 
 ---
 
@@ -294,7 +329,44 @@
 
 ---
 
-## 14. Consolidacao Geral (R01 -> R02 -> R03)
+## 14. Loucas e Metais
+
+**Fonte:** IFC Arquitetura R07 (TIPO) + R08 (EMBASAMENTO + COBERTURA) — Escritorio Dallo
+**Metodo de separacao T.A / T.B:** Coordenada X dos elementos no IFC (midpoint entre torres)
+
+**Quantitativos extraidos por torre (por pavimento tipo):**
+
+| Item | Torre A | Torre B | Total/pav |
+|------|---------|---------|-----------|
+| Bacia Sanitaria c/ Caixa Acoplada | 16 | 16 | 32 |
+| Cuba Sobrepor Quadrada (Banheiro) | 11 | 2 | 13 |
+| Cuba Semi-Encaixe (BWC) | 0 | 6 | 6 |
+| Cuba Inox Cozinha (Apto) | 4 | 8 | 12 |
+| Cuba Inox Cozinha (Lazer/Comum) | 4 | 3 | 7 |
+| Tanque Simples | 4 | 4 | 8 |
+| Chuveiro Quadrado | 12 | 12 | 24 |
+| Aquecedor a Gas | 4 | 3 | 7 |
+| Churrasqueira (Espeto) | 4 | 4 | 8 |
+| Condensadora Split | 19 | 20 | 39 |
+
+**Embasamento (Terreo + Lazer):**
+- T.A: 12 bacias, 7 cubas sobrepor, 5 cubas PNE, 2 bacias PNE, 10 barras apoio PNE, 6 chuv
+- T.B: 11 bacias, 6 cubas sobrepor, 4 cubas PNE, 1 bacia PNE, 8 barras apoio PNE, 3 chuv
+
+**Observacao sobre IFC:** Louças NAO estavam modeladas nos IFCs de Sanitario (apenas ETE/lodo ativado). Foram encontradas no IFC de Arquitetura como familias Dallo e Deca. "Familia2" = Bacia Sanitaria c/ Caixa Acoplada.
+
+**Metais derivados:** Fórmulas automaticas na planilha (torneiras, sifoes, valvulas, aneis de vedacao) — calculam a partir das quantidades de louças.
+
+**Entregas:**
+- v1: [[loucas-metais-electra-r00.xlsx]] — versao unificada (torres juntas x24)
+- v2 (ATUAL): [[loucas-metais-electra-TA-TB-r00.xlsx]] — separada Torre A + Torre B, 3 pavimentos cada (Terreo x1, Lazer x1, Tipo x24)
+- 28 itens em 4 secoes: Louças (12), Metais (13), Pontos Especiais (2), Ar-Condicionado (1)
+
+**Pendente:** Validar com DWG/memorial descritivo. Separacao por coordenada pode ter margem de erro em itens de area comum.
+
+---
+
+## 15. Consolidacao Geral (R01 -> R02 -> R03)
 
 **R01:** Primeira versao consolidada com todas as disciplinas disponiveis
 **R02:** Formato Elizabeth II + memorial rastreavel + doc Word
@@ -336,7 +408,7 @@
 - [ ] Resumo Estrutura
 - [ ] Escoramento
 - [ ] ARQUITETURA
-- [ ] LOUCAS E METAIS
+- [x] LOUCAS E METAIS ✅ (preenchido 24/mar — T.A + T.B separadas)
 - [ ] ESQUADRIAS
 - [ ] Exaustao e Climatizacao
 - [ ] MOBILIARIO
@@ -351,14 +423,14 @@
 - [ ] Resumo Estrutura
 - [ ] Escoramento
 - [ ] Impermeabilizacao
-- [ ] Loucas e Metais
+- [x] Loucas e Metais ✅ (preenchido 24/mar — separado T.A + T.B, fonte IFC Arq R07/R08)
 - [ ] Equipamentos Especiais
 - [ ] Piscina
 - [ ] Eletrico
 - [ ] Hidrossanitario
 - [ ] PPCI
 - [ ] Sprinkler
-- [x] Telecomunicacao ✅ (preenchido 24/mar — validar com DWG)
+- [x] Telecomunicacao ✅ (R01 25/mar — IFC + 18 DWGs processados, 96 itens novos)
 - [ ] Gas
 - [ ] Automacao
 - [ ] Climatizacao
@@ -369,7 +441,7 @@
 
 ## Bloqueadores Tecnicos
 
-1. **DWG binario** — Ventilacao, Ar-Condicionado, Alvenaria precisam de conversao DWG -> DXF (ODA File Converter ou solicitar DXF ao projetista Rubens Alves)
+1. **DWG binario** — Ventilacao, Ar-Condicionado, Alvenaria precisam de conversao DWG -> DXF (ODA File Converter instalado e funcional — usado com sucesso no Telefonico 24/mar)
 2. **Memorial descritivo** — necessario para validar premissas de Ventilacao, PCI, Climatizacao
 3. **CPUs no Memorial** — Leo precisa vincular N4 manualmente (match automatico falhou)
 
@@ -395,6 +467,7 @@
 | [[REVISAO-ELECTRA-R00]] | Analise detalhada da planilha R00 |
 | `briefings/*.md` | 14 briefings por disciplina |
 | `scripts/*.py` | Scripts de extracao e processamento |
+| [[telecomunicacoes-electra-r01.xlsx]] | Planilha telecom R01 (IFC + DWG) |
 | **Este arquivo** | [[log-execucao]] — memorial de execucao |
 
 ---
