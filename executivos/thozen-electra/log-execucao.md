@@ -166,6 +166,94 @@
 
 ---
 
+### 2026-03-24 (noite) — Sessao 4b: Reestruturacao EAP + Gestao Projetos
+
+**O que aconteceu:**
+- Leo enviou planilha de EAP original (684 linhas, 28 colunas) e pediu reestruturacao
+- Planilha de Gestao de Projetos (aba PROJETOS) preenchida com todos os IFC/DWG recebidos por disciplina
+- EAP reestruturada de 2 UCs para 4 UCs:
+  - UC1: **Despesas Indiretas** (ex-Gerenciamento Tecnico e Administrativo)
+  - UC2: **Embasamento** (infraestrutura + fundacoes + etapas "-EMBASSAMENTO")
+  - UC3: **Torre A** (etapas "-TORRE A")
+  - UC4: **Torre B** (etapas "-TORRE B")
+- Primeira versao (v1) saiu sem formatacao — Leo reclamou
+- Segunda versao (v2) gerada com formatacao completa: Poppins, bold por nivel, colunas ocultas A/B/E, merges, formulas LARGE/OFFSET preservadas
+
+**Decisoes do Leo:**
+- Dividir em 4 UCs (Despesas Indiretas + Embasamento + Torre A + Torre B)
+- Manter despesas indiretas na EAP
+- Regra documentada: SEMPRE manter formatacao original ao modificar planilhas
+
+**Entregas geradas:**
+- `entregas/EAP-Electra-4UCs-v2.xlsx` — EAP reestruturada com formatacao original
+- `entregas/Projetos-Electra-Preenchido.xlsx` — Gestao de projetos com IFC/DWG mapeados
+
+**Documentacao:**
+- Criado `~/clawd/clientes/thozen/CONTEXTO.md` — contexto geral do projeto
+- Regra de formatacao de planilhas adicionada ao AGENTS.md
+- Leo indicou que `log-execucao.md` (este arquivo) e o registro principal e deve ser sempre atualizado
+
+**Licao aprendida:** Ao gerar planilhas modificadas, SEMPRE copiar estilos celula a celula do original. Nunca criar aba nova desformatada.
+
+---
+
+**Proxima acao:** Leo vai passar a proxima disciplina/aba para preenchimento.
+
+---
+
+## Checklist de Preenchimento — Planilha R00
+
+### Abas Gerais
+- [ ] **CAPA** — Falta preencher
+- [x] **PROJETOS** — OK (falta validar) ✅ Preenchido 24/mar
+- [x] **EAP** — Preenchido ✅
+- [ ] **EAP Análise** — Falta preencher
+
+### Abas de Composição (Base)
+- [ ] **CPU** — Falta vincular com EAP
+- [ ] **Insumos** — Falta validar preços
+- [ ] **BASES** — Falta preencher
+
+### Abas por Disciplina (planilha)
+- [ ] **Ger_Tec e Adm** — Falta preencher
+- [ ] **Ger_Executivo** — Falta preencher
+- [ ] **Equipamentos Especiais** — Falta preencher
+- [ ] **EPCs** — Falta preencher
+- [ ] **CANTEIRO** — Falta preencher
+- [ ] **Cont.Tecnol.** — Falta preencher
+- [ ] **Estacas** — Falta preencher
+- [ ] **Fund. Rasa | Contenção** — Falta preencher
+- [ ] **Resumo Estrutura** — Falta preencher
+- [ ] **Escoramento** — Falta preencher
+- [ ] **ARQUITETURA** — Falta preencher
+- [ ] **LOUÇAS E METAIS** — Falta preencher
+- [ ] **ESQUADRIAS** — Falta preencher
+- [ ] **Exaustão e Climatização** — Falta preencher
+- [ ] **MOBILIÁRIO** — Falta preencher
+
+### Disciplinas do orçamento (preenchimento técnico)
+- [ ] Estacas
+- [ ] Fundação Rasa / Contenção
+- [ ] Resumo Estrutura
+- [ ] Cálculo de Apoio
+- [ ] Escoramento
+- [ ] Impermeabilização
+- [ ] Louças e Metais
+- [ ] Equipamentos Especiais
+- [ ] Piscina
+- [ ] Elétrico
+- [ ] Hidrossanitário
+- [ ] PPCI
+- [ ] Sprinkler
+- [ ] Telecomunicação
+- [ ] Gás
+- [ ] Automação
+- [ ] Climatização
+- [ ] Iluminação
+- [ ] Mobiliário
+
+---
+
 ## Status Atual
 
 ### Planilha R00 — O que ja tem valor
