@@ -32,9 +32,13 @@ python3.11 scripts/slack_file_downloader.py --bot cartesiano --baixar --thread <
 
 ---
 
-## ⛔ REGRA #2 — UPLOAD DE ARQUIVOS SEMPRE NA THREAD + CANAL CORRETO
+## ⛔ REGRA #2 — UPLOAD OBRIGATÓRIO DE TODOS OS ARQUIVOS GERADOS
 
-Ao gerar QUALQUER arquivo (planilha, análise, relatório), o upload DEVE ir na **mesma thread E mesmo canal** da conversa:
+**TODA VEZ que gerar um arquivo (xlsx, docx, json, md, pdf), DEVE fazer upload na thread.**
+A equipe NÃO tem acesso à pasta output/ — se não fizer upload, ninguém vê o arquivo.
+**Isto é OBRIGATÓRIO, não opcional. Sem upload = entrega não feita.**
+
+Ao gerar QUALQUER arquivo, o upload DEVE ir na **mesma thread E mesmo canal** da conversa:
 
 ```bash
 # SEMPRE com --thread E --channel! Ambos são OBRIGATÓRIOS.
