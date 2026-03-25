@@ -526,13 +526,20 @@ O orçamento executivo complementa o BIM com planilhas detalhadas por disciplina
 
 ### Google Drive — Symlinks (Sync Automatico)
 
-Tres pastas sao **symlinks** para o Google Drive compartilhado da Cartesian (`03 CTN Projetos > 2. Projetos em Andamento`):
+Pastas com **symlinks** para o Google Drive compartilhado da Cartesian (`03 CTN Projetos > 2. Projetos em Andamento`):
 
 | Pasta local | Drive | Conteudo |
 |-------------|-------|----------|
 | `~/orcamentos/projetos/` | `_Projetos_IA/` | IFCs, DWGs, PDFs dos projetos (inputs) |
-| `~/orcamentos/executivos/entregues/` | `_Entregas/Orçamento_executivo/` | Planilhas executivas entregues |
-| `~/orcamentos/parametricos/` | `_Entregas/Orçamento_parametrico/` | Parametricos entregues + base de indices |
+| `~/orcamentos/executivos/entregues/` | `_Entregas/Orçamento_executivo/` | Historico de todas as entregas executivas |
+| `~/orcamentos/parametricos/` | `_Parametrico_IA/` | Parametricos entregues + base de indices |
+| `~/orcamentos/executivos/[projeto]/entregas/` | `_Executivo_IA/[projeto]/` | Entregas do projeto ativo (xlsx, docx) |
+
+**Separacao git vs Drive:**
+- **Git:** briefings (.md), scripts (.py), JSONs, log-execucao — trabalho tecnico
+- **Drive:** xlsx, docx — entregas pro cliente/equipe
+
+Ao iniciar executivo novo, criar symlink: `executivos/[projeto]/entregas/` → `_Executivo_IA/[projeto]/`
 
 **Fluxo para novos projetos:**
 1. Equipe cria pasta no Drive: `_Projetos_IA/[cliente]-[obra]/`
