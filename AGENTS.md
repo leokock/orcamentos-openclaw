@@ -532,8 +532,10 @@ Pastas com **symlinks** para o Google Drive compartilhado da Cartesian (`03 CTN 
 |-------------|-------|----------|
 | `~/orcamentos/projetos/` | `_Projetos_IA/` | IFCs, DWGs, PDFs dos projetos (inputs) |
 | `~/orcamentos/executivos/entregues/` | `_Entregas/Orçamento_executivo/` | Historico de todas as entregas executivas |
-| `~/orcamentos/parametricos/` | `_Parametrico_IA/` | Parametricos entregues + base de indices |
+| `~/orcamentos/parametricos/` | `_Parametrico_IA/` | Projetos parametricos ativos (pastas por projeto) |
 | `~/orcamentos/executivos/[projeto]/entregas/` | `_Executivo_IA/[projeto]/` | Entregas do projeto ativo (xlsx, docx) |
+
+**Obs:** Base historica de indices parametricos fica em `_Entregas/Orçamento_parametrico/` (43 pastas por projeto + _templates).
 
 **Separacao git vs Drive:**
 - **Git:** briefings (.md), scripts (.py), JSONs, log-execucao — trabalho tecnico
