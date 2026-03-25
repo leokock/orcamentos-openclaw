@@ -565,15 +565,29 @@ executivo/
         └── fontes/               # PDFs/IFCs originais
 ```
 
+### Regra de Entrega — 3 Arquivos Obrigatorios
+
+Toda atualizacao de disciplina gera 3 entregas:
+1. **Planilha atualizada** (.xlsx) → `entregas/` (Drive)
+2. **log-execucao.md atualizado** → git
+3. **Memorial Word regenerado** (.docx) → `entregas/` (Drive)
+
+Comando para gerar o Word:
+```bash
+pandoc executivos/[projeto]/log-execucao.md -o executivos/[projeto]/entregas/Memorial-Execucao-[Projeto].docx --from markdown --to docx
+```
+
+O Word fica no Drive para a equipe acessar sem depender de Markdown.
+
 ### Workflow: Primeira Versão (R00)
 
-1. Time envia PDFs/IFCs da disciplina
-2. Baixar via `slack_file_downloader.py` → salvar em `executivo/projetos/<nome>/fontes/`
-3. Extrair quantitativos, especificações, premissas
-4. Gerar briefing usando template (`executivo/templates/briefing-template.md`)
-5. Gerar planilha Excel → salvar em `executivo/projetos/<nome>/planilhas/`
-6. Upload no Slack
-7. Apresentar resumo ao time
+1. Time envia PDFs/IFCs da disciplina (via Drive `_Projetos_IA/` ou Slack)
+2. Extrair quantitativos, especificações, premissas
+3. Gerar briefing (.md no git)
+4. Gerar planilha Excel → `entregas/` (Drive)
+5. Atualizar `log-execucao.md` com fontes, decisoes, pendentes
+6. Regenerar Memorial Word (.docx) → `entregas/` (Drive)
+7. Apresentar resumo ao Leo/time
 
 ### Workflow: Atualização (R01, R02...)
 
