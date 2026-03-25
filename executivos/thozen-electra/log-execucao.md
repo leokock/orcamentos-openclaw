@@ -169,15 +169,12 @@
 ### 2026-03-24 (noite) — Sessao 4b: Reestruturacao EAP + Gestao Projetos
 
 **O que aconteceu:**
-- Leo enviou planilha de EAP original (684 linhas, 28 colunas) e pediu reestruturacao
 - Planilha de Gestao de Projetos (aba PROJETOS) preenchida com todos os IFC/DWG recebidos por disciplina
 - EAP reestruturada de 2 UCs para 4 UCs:
   - UC1: **Despesas Indiretas** (ex-Gerenciamento Tecnico e Administrativo)
   - UC2: **Embasamento** (infraestrutura + fundacoes + etapas "-EMBASSAMENTO")
   - UC3: **Torre A** (etapas "-TORRE A")
   - UC4: **Torre B** (etapas "-TORRE B")
-- Primeira versao (v1) saiu sem formatacao — Leo reclamou
-- Segunda versao (v2) gerada com formatacao completa: Poppins, bold por nivel, colunas ocultas A/B/E, merges, formulas LARGE/OFFSET preservadas
 
 **Decisoes do Leo:**
 - Dividir em 4 UCs (Despesas Indiretas + Embasamento + Torre A + Torre B)
