@@ -1,6 +1,6 @@
 # Base de PUs Cartesian — Resumo
 
-**Data:** 2026-03-23
+**Data:** 2026-03-25
 **Total itens:** 1504
 **Itens com 3+ projetos:** 544
 

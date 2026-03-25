@@ -1,6 +1,6 @@
 # Relatório de Qualidade — Base PUs Cartesian
 
-**Data:** 2026-03-23
+**Data:** 2026-03-25
 **Projetos processados:** 75
 **Itens únicos (n>=2):** 1504
 **Itens com 3+ projetos:** 544
