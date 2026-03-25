@@ -27,6 +27,26 @@ from openpyxl.worksheet.datavalidation import DataValidation
 # === PATHS ===
 BASE_DIR = os.path.expanduser("~/orcamentos")
 CAL_PATH = os.path.join(BASE_DIR, "base", "calibration-indices.json")
+META_PATH = os.path.join(BASE_DIR, "base", "projetos-metadados.json")
+
+# === REGIOES (clusters de cidades para benchmark regional) ===
+REGIOES = {
+    'Litoral Norte SC': ['Itajaí', 'Balneário Camboriú', 'Navegantes', 'Camboriú', 'Itapema', 'Porto Belo', 'Bombinhas', 'Penha', 'Piçarras'],
+    'Grande Florianópolis': ['Florianópolis', 'São José', 'Palhoça', 'Biguaçu', 'Santo Amaro da Imperatriz', 'Governador Celso Ramos'],
+    'Norte SC': ['Joinville', 'Jaraguá do Sul', 'Blumenau', 'Brusque', 'Gaspar', 'Indaial', 'Timbó'],
+    'Sul SC': ['Criciúma', 'Tubarão', 'Laguna', 'Araranguá', 'Içara'],
+}
+
+def get_regiao(cidade):
+    """Retorna a região de uma cidade. Cidades da mesma região têm padrões similares."""
+    if not cidade:
+        return ''
+    cidade_lower = cidade.lower().strip()
+    for regiao, cidades in REGIOES.items():
+        for c in cidades:
+            if c.lower() in cidade_lower or cidade_lower in c.lower():
+                return regiao
+    return 'Outra'
 
 # === STYLES ===
 DARK = "2C3E50"
@@ -765,7 +785,9 @@ def main():
     parser.add_argument('--vag', type=int, default=100, help='Nº vagas')
     parser.add_argument('--prazo', type=int, default=30, help='Prazo (meses)')
     parser.add_argument('--cub', type=float, default=3028.45, help='CUB atual')
-    parser.add_argument('--cidade', default='', help='Cidade/UF')
+    parser.add_argument('--cidade', default='', help='Cidade/UF (usado para benchmark regional)')
+    parser.add_argument('--estado', default='SC', help='Estado (default: SC)')
+    parser.add_argument('--regiao', default='', help='Regiao (auto-detectada pela cidade se nao informada)')
     parser.add_argument('-o', '--output', help='Arquivo de saída (.xlsx)')
     args = parser.parse_args()
 
@@ -779,6 +801,7 @@ def main():
             'nome': args.nome, 'ac': args.ac, 'ur': args.ur, 'np': args.np,
             'npt': args.npt or max(1, args.np - 5), 'elev': args.elev, 'vag': args.vag,
             'prazo': args.prazo, 'cub': args.cub, 'cidade': args.cidade,
+            'estado': args.estado, 'regiao': args.regiao or get_regiao(args.cidade),
         }
 
     output = args.output or f"{P.get('nome', 'projeto').replace(' ', '-')}-Parametrico-V2.xlsx"
