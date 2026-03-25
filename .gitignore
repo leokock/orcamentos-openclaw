@@ -30,6 +30,10 @@ credentials*
 # Apresentacoes (pptx pode passar de 100MB — GitHub bloqueia)
 *.pptx
 
+# Symlinks pro Google Drive (arquivos vivem no Drive, nao no git)
+executivos/entregues/
+projetos/
+
 # Outros
 *.pyc
 __pycache__/
