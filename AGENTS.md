@@ -524,6 +524,19 @@ O orçamento executivo complementa o BIM com planilhas detalhadas por disciplina
 4. **Gerar planilha** — Excel compatível com Memorial Cartesiano
 5. **Comparar revisões** — quando chega atualização, identificar mudanças
 
+### Projetos no Google Drive (Sync Automatico)
+
+`~/orcamentos/projetos/` e um **symlink** para o Google Drive compartilhado da Cartesian:
+`03 CTN Projetos > 2. Projetos em Andamento > _Projetos_IA`
+
+**Fluxo para novos projetos:**
+1. Equipe cria pasta no Drive: `_Projetos_IA/[cliente]-[obra]/`
+2. Sobe IFCs, DWGs, PDFs
+3. Avisa Leo ou Jarvis: "tem projeto novo no Drive: [cliente]-[obra]"
+4. Cartesiano/Jarvis acessa direto de `~/orcamentos/projetos/[cliente]-[obra]/`
+
+Nao precisa baixar nem enviar arquivos — o Drive sincroniza automaticamente pro Mac.
+
 ### Estrutura de Arquivos (Executivo)
 
 ```
@@ -531,7 +544,7 @@ executivo/
 ├── templates/
 │   ├── briefing-template.md     # Template de briefing
 │   └── diff-template.md         # Template de relatório de mudanças
-└── projetos/
+└── projetos/                    # SYMLINK → Google Drive compartilhado
     └── [nome-projeto]/
         ├── PROJETO.md            # Dados do projeto
         ├── briefings/            # Briefings por disciplina e revisão
