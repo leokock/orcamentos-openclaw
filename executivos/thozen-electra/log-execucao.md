@@ -18,23 +18,23 @@
 
 | # | Disciplina | Status | Revisao | Arquivo-chave |
 |---|-----------|--------|---------|---------------|
-| 01 | Estrutura | Briefing R00 | R00 | `briefings/estrutura-r00.md` |
-| 02 | Arquitetura | Briefing R00 | R00 | `briefings/arquitetura-r00.md` |
-| 03 | Alvenaria | Briefing R00-R01, DXF pendente | R01 | `briefings/alvenaria-r01.md` |
-| 04 | Esquadria | Briefing R00 | R00 | `briefings/esquadria-r00.md` |
-| 05 | Hidraulico | Briefing R00 | R00 | `briefings/hidraulico-r00.md` |
-| 06 | Sanitario | Briefing R00 | R00 | `briefings/sanitario-r00.md` |
-| 07 | PCI Civil | Briefing R00 | R00 | `briefings/pci-civil-r00.md` |
-| 08 | PCI Eletrico | Briefing R00 | R00 | `briefings/pci-eletrico-r00.md` |
-| 09 | Eletrico | Discipline pack R01 + Memorial | R01 | `entregas/eletrico-r01-memorial.md` |
-| 10 | Telefonico | Briefing R00 + dados IFC | R00 | `briefings/telefonico-r00.md` |
-| 11 | SPDA | Briefing R00 | R00 | `briefings/spda-r00.md` |
-| 12 | Ventilacao | Briefing R00-R02 (DWG bloqueado) | R02 | `briefings/ventilacao-r02.md` |
-| 13 | Exaustao | Briefing R00-R02 (DXF processado) | R02 | `briefings/exaustao-r02.md` |
-| 14 | Ar-Condicionado | Briefing R00-R01 (DWG bloqueado) | R01 | `briefings/ar-condicionado-r01.md` |
-| -- | Tecnico/Adm | Analise EAP + preenchimento | R00 | `entregas/electra_analise_tecnico_adm.md` |
-| -- | EAP | Reestruturada em 4 UCs | v2 | `entregas/EAP-Electra-4UCs-v2.xlsx` |
-| -- | Consolidado | R00 -> R01 -> R02 -> R03 | R03 | `entregas/CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx` |
+| 01 | Estrutura | Briefing R00 | R00 | [[estrutura-r00]] |
+| 02 | Arquitetura | Briefing R00 | R00 | [[arquitetura-r00]] |
+| 03 | Alvenaria | Briefing R00-R01, DXF pendente | R01 | [[alvenaria-r01]] |
+| 04 | Esquadria | Briefing R00 | R00 | [[esquadria-r00]] |
+| 05 | Hidraulico | Briefing R00 | R00 | [[hidraulico-r00]] |
+| 06 | Sanitario | Briefing R00 | R00 | [[sanitario-r00]] |
+| 07 | PCI Civil | Briefing R00 | R00 | [[pci-civil-r00]] |
+| 08 | PCI Eletrico | Briefing R00 | R00 | [[pci-eletrico-r00]] |
+| 09 | Eletrico | Discipline pack R01 + Memorial | R01 | [[eletrico-r01-memorial]] |
+| 10 | Telefonico | Briefing R00 + dados IFC | R00 | [[telefonico-r00]] |
+| 11 | SPDA | Briefing R00 | R00 | [[spda-r00]] |
+| 12 | Ventilacao | Briefing R00-R02 (DWG bloqueado) | R02 | [[ventilacao-r02]] |
+| 13 | Exaustao | Briefing R00-R02 (DXF processado) | R02 | [[exaustao-r02]] |
+| 14 | Ar-Condicionado | Briefing R00-R01 (DWG bloqueado) | R01 | [[ar-condicionado-r01]] |
+| -- | Tecnico/Adm | Analise EAP + preenchimento | R00 | [[electra_analise_tecnico_adm]] |
+| -- | EAP | Reestruturada em 4 UCs | v2 | [[EAP-Electra-4UCs-v2.xlsx]] |
+| -- | Consolidado | R00 -> R01 -> R02 -> R03 | R03 | [[CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx]] |
 
 ---
 
@@ -48,8 +48,8 @@
 - UC3: **Torre A** (etapas "-TORRE A")
 - UC4: **Torre B** (etapas "-TORRE B")
 
-**Fonte:** Planilha original `CTN-TZN_ELT_Orcamento_Executivo_R00.xlsx` (684 linhas, 28 colunas)
-**Entrega:** `entregas/EAP-Electra-4UCs-v2.xlsx` (com formatacao original preservada — Poppins, bold por nivel, merges, formulas)
+**Fonte:** Planilha original [[CTN-TZN_ELT_Orcamento_Executivo_R00.xlsx]] (684 linhas, 28 colunas)
+**Entrega:** [[EAP-Electra-4UCs-v2.xlsx]] (com formatacao original preservada — Poppins, bold por nivel, merges, formulas)
 
 **Importacao no Memorial Cartesiano:**
 - 108 itens importados (N1-N3): 2 UCs, 27 Celulas, 79 Etapas
@@ -59,7 +59,7 @@
 ### Gestao de Projetos (aba PROJETOS)
 
 **Decisao:** Preencher com todos os IFC/DWG recebidos, por disciplina
-**Entrega:** `entregas/Projetos-Electra-Preenchido.xlsx`
+**Entrega:** [[Projetos-Electra-Preenchido.xlsx]]
 
 ### Planilha R00 — Analise do que ja existia
 
@@ -87,9 +87,9 @@
 **Decisao:** Itens de gerenciamento sao servicos intelectuais, consultorias e custos operacionais — NAO constam em bancos tradicionais (SINAPI, PINI). Fontes recomendadas: historico Cartesian, cotacoes, tabelas de honorarios (CAU, CREA, AsBEA).
 
 **Entregas:**
-- `entregas/electra_analise_tecnico_adm.md` — analise detalhada dos 117 servicos
-- `entregas/Tec_Adm_Electra_Preenchido.xlsx` — planilha com recomendacoes por item
-- `entregas/Justificativas_Tec_Adm_Electra_Base_Cartesian.docx` — justificativas
+- [[electra_analise_tecnico_adm]] — analise detalhada dos 117 servicos
+- [[Tec_Adm_Electra_Preenchido.xlsx]] — planilha com recomendacoes por item
+- [[Justificativas_Tec_Adm_Electra_Base_Cartesian.docx]] — justificativas
 
 **Pendente:** Cotacoes reais para os 74 itens sem preco (laboratorios, empreiteiras, consultorias)
 
@@ -112,7 +112,7 @@
 
 **Decisao:** Aguardar memorial descritivo estrutural e prancha de fundacoes para complementar.
 
-**Entrega:** `briefings/estrutura-r00.md` + `briefings/estrutura-r00.json`
+**Entrega:** [[estrutura-r00]] + [[estrutura-r00.json]]
 
 ---
 
@@ -126,8 +126,8 @@
 
 **Decisao:** Solicitar DXF ao projetista ou instalar ODA File Converter para conversao automatica.
 
-**Scripts criados:** `scripts/extrair_alvenaria_dxf.py`, `scripts/processar_todos_alvenaria.sh`
-**Entrega:** `briefings/alvenaria-r00.md`, `briefings/alvenaria-r01.md`
+**Scripts criados:** [[extrair_alvenaria_dxf.py]], [[processar_todos_alvenaria.sh]]
+**Entrega:** [[alvenaria-r00]], [[alvenaria-r01]]
 
 **Pendente:** Conversao DWG -> DXF e extracao automatizada
 
@@ -137,7 +137,7 @@
 
 **Fonte:** DWGs de arquitetura
 **Dados extraidos:** Mapa preliminar de tipologias (portas madeira P1/P2/P3, aluminio, vidros temperados)
-**Entrega:** `briefings/esquadria-r00.md` + `briefings/esquadria-r00.json`
+**Entrega:** [[esquadria-r00]] + [[esquadria-r00.json]]
 
 **Pendente:** Quantitativos detalhados por pavimento, caderno de especificacoes
 
@@ -146,7 +146,7 @@
 ## 6. Instalacoes Hidrossanitarias
 
 **Fonte:** IFCs + DWGs rev.01
-**Entregas:** `briefings/hidraulico-r00.md`, `briefings/sanitario-r00.md`
+**Entregas:** [[hidraulico-r00]], [[sanitario-r00]]
 
 **Pendente:** Extracao detalhada de tubulacoes por diametro e metragem
 
@@ -173,10 +173,10 @@
 - Vermelho (41%): MO, gerador, quadros, tomadas, cabos (sem fonte direta)
 
 **Entregas:**
-- `entregas/eletrico-r01-discipline-pack.xlsx`
-- `entregas/eletrico-r01-memorial.md` / `.docx`
-- `entregas/eletrico-r01-confianca.md`
-- `entregas/eletrico-r01-por-pavimento.xlsx`
+- [[eletrico-r01-discipline-pack.xlsx]]
+- [[eletrico-r01-memorial]] / `.docx`
+- [[eletrico-r01-confianca]]
+- [[eletrico-r01-por-pavimento.xlsx]]
 
 **Pendente:** Processar 18 DWGs para especificacoes tecnicas, cotacoes de subestacao e gerador, detalhamento de quadros e tomadas
 
@@ -203,9 +203,9 @@
 - Pontos logicos nas garagens
 
 **Entregas:**
-- `briefings/telefonico-r00.md`
-- `entregas/relatorio-extracao-telefonico-thozen.md`
-- `entregas/thozen-electra-telefonico-consolidado.json`
+- [[telefonico-r00]]
+- [[relatorio-extracao-telefonico-thozen]]
+- [[thozen-electra-telefonico-consolidado.json]]
 
 **Pendente:** Preenchimento da aba de Telecomunicacao na planilha R00 (proxima acao)
 
@@ -214,7 +214,7 @@
 ## 9. SPDA (Para-raios)
 
 **Fonte:** DWGs (sem IFC)
-**Entrega:** `briefings/spda-r00.md` + `briefings/spda-r00.json`
+**Entrega:** [[spda-r00]] + [[spda-r00.json]]
 
 **Pendente:** Extracao detalhada — depende de conversao DWG -> DXF
 
@@ -225,7 +225,7 @@
 ### PCI Civil
 **Fonte:** IFC rev.01 (Torre A e B) + 11 pranchas DWG
 **Quantitativos extraidos:** 78 abrigos, 73 extintores, 67m tubulacao (SUBESTIMADO)
-**Entrega:** `briefings/pci-civil-r00.md` + resumo + anexo pavimentos
+**Entrega:** [[pci-civil-r00]] + resumo + anexo pavimentos
 
 **Pendentes criticos:**
 - Reservatorios e bombas de incendio (nao encontrados no IFC)
@@ -235,7 +235,7 @@
 
 ### PCI Eletrico
 **Fonte:** IFC + DWGs
-**Entrega:** `briefings/pci-eletrico-r00.md`
+**Entrega:** [[pci-eletrico-r00]]
 
 ---
 
@@ -253,7 +253,7 @@
 
 **Decisao:** Todos os 46 itens marcados como NAO VALIDADO. Incerteza mantida em +/- 30-50%.
 
-**Entregas:** `briefings/ventilacao-r00.md` ate `briefings/ventilacao-r02.md` + checklists
+**Entregas:** [[ventilacao-r00]] ate [[ventilacao-r02]] + checklists
 **Pendente:** Solicitar DXF + memorial descritivo ao projetista Rubens Alves
 
 ---
@@ -261,7 +261,7 @@
 ## 12. Exaustao
 
 **Fonte:** DXF processado com sucesso
-**Entregas:** `briefings/exaustao-r00.md` ate `briefings/exaustao-r02.md`
+**Entregas:** [[exaustao-r00]] ate [[exaustao-r02]]
 **Dados:** Processamento DXF com dados reais extraidos
 
 ---
@@ -272,7 +272,7 @@
 **Bloqueador:** DWG binario nao processavel (mesmo problema da Ventilacao)
 **Estimativa parametrica:** R$ 80-150/m2 AC -> R$ 1,6M - 4,5M (+/- 30-40%)
 
-**Entregas:** `briefings/ar-condicionado-r00.md`, `briefings/ar-condicionado-r01.md`
+**Entregas:** [[ar-condicionado-r00]], [[ar-condicionado-r01]]
 **Pendente:** Conversao DWG -> DXF ou dados do projetista
 
 ---
@@ -290,8 +290,8 @@
 | **CUB Ratio** | **1.48** |
 
 **Entregas:**
-- `entregas/CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx`
-- `entregas/CTN-TZN_ELT-Orcamento-Executivo-R03-MEMORIAL.docx`
+- [[CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx]]
+- [[CTN-TZN_ELT-Orcamento-Executivo-R03-MEMORIAL.docx]]
 
 **Modelo de rastreabilidade per-item:**
 - Verde: Proj. [Projetista] [IFC/DXF] [rev]
@@ -372,13 +372,13 @@
 
 | Arquivo | Descricao |
 |---------|-----------|
-| `CTN-TZN_ELT_Orcamento_Executivo_R00.xlsx` | Planilha original do cliente |
-| `CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx` | Ultima versao consolidada (IA) |
-| `CTN-TZN_ELT-Orcamento-Executivo-R03-MEMORIAL.docx` | Memorial rastreavel R03 |
-| `REVISAO-ELECTRA-R00.md` | Analise detalhada da planilha R00 |
+| [[CTN-TZN_ELT_Orcamento_Executivo_R00.xlsx]] | Planilha original do cliente |
+| [[CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx]] | Ultima versao consolidada (IA) |
+| [[CTN-TZN_ELT-Orcamento-Executivo-R03-MEMORIAL.docx]] | Memorial rastreavel R03 |
+| [[REVISAO-ELECTRA-R00]] | Analise detalhada da planilha R00 |
 | `briefings/*.md` | 14 briefings por disciplina |
 | `scripts/*.py` | Scripts de extracao e processamento |
-| **Este arquivo** | `log-execucao.md` — memorial de execucao |
+| **Este arquivo** | [[log-execucao]] — memorial de execucao |
 
 ---
 
