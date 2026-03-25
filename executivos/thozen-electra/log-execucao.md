@@ -207,7 +207,13 @@
 - [[relatorio-extracao-telefonico-thozen]]
 - [[thozen-electra-telefonico-consolidado.json]]
 
-**Pendente:** Preenchimento da aba de Telecomunicacao na planilha R00 (proxima acao)
+**Planilha preenchida (24/mar/2026):**
+- Arquivo: `telecomunicacoes-electra-r00.xlsx`
+- Base: template Elizabeth II (Gessele) adaptado pro Electra
+- Pavimentos: Terreo, G1-G5, Lazer, Tipo (x24), Casa de Maquinas
+- Total estimado: R$ 424.322 (R$ 11,76/m²)
+- Fonte quantitativos: IFC rev.01 | Fonte precos: Elizabeth II (Gessele)
+- Status: ✅ Preenchido — pendente validacao com DWG
 
 ---
 
@@ -341,7 +347,7 @@
 - [ ] Hidrossanitario
 - [ ] PPCI
 - [ ] Sprinkler
-- [ ] Telecomunicacao (proxima)
+- [x] Telecomunicacao ✅ (preenchido 24/mar — validar com DWG)
 - [ ] Gas
 - [ ] Automacao
 - [ ] Climatizacao
