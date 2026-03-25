@@ -33,7 +33,7 @@
 | 13  | Exaustao        | Briefing R00-R02 (DXF processado) | R02     | [[exaustao-r02]]                                      |
 | 14  | Ar-Condicionado | Briefing R00-R01 (DWG bloqueado)  | R01     | [[ar-condicionado-r01]]                               |
 | --  | Tecnico/Adm     | Analise EAP + preenchimento       | R00     | [[electra_analise_tecnico_adm]]                       |
-| --  | EAP             | Reestruturada em 4 UCs            | v2      | [[EAP-Electra-4UCs-v2.xlsx]]                          |
+| --  | EAP             | 4 UCs × pavimentos (v3 definitiva)| v3      | [[EAP_Electra_Pavimentos.xlsx]]                       |
 | --  | Consolidado     | R00 -> R01 -> R02 -> R03          | R03     | [[CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx]] |
 
 ---
@@ -49,7 +49,18 @@
 - UC4: **Torre B** (etapas "-TORRE B")
 
 **Fonte:** Planilha original [[CTN-TZN_ELT_Orcamento_Executivo_R00.xlsx]] (684 linhas, 28 colunas)
-**Entrega:** [[EAP-Electra-4UCs-v2.xlsx]] (com formatacao original preservada — Poppins, bold por nivel, merges, formulas)
+
+**Evolucao:**
+- v1: [[EAP-Electra-4UCs.xlsx]] — separacao em 4 abas simples
+- v2: [[EAP-Electra-4UCs-v2.xlsx]] — formatacao preservada, codigos renumerados
+- v3 (DEFINITIVA): [[EAP_Electra_Pavimentos.xlsx]] — cada CC aberta por pavimento (24/mar/2026)
+
+**EAP v3 — Estrutura por pavimento:**
+- *Despesas Indiretas:* 3 CCs, 29 itens (sem quebra por pavimento)
+- *Embasamento:* 24 CCs, cada uma aberta por 8 pavimentos (Terreo, Terreo 02, G1-G5, 7° Lazer). Infraestrutura mantida sem quebra (obra geral)
+- *Torre A:* 19 CCs × 4 pavimentos (Tipo x24, Telhado, Casa de Maquinas, Reservatorio)
+- *Torre B:* 19 CCs × 4 pavimentos (mesma estrutura Torre A)
+- Garagens: cada uma separada (G1, G2, G3, G4, G5)
 
 **Importacao no Memorial Cartesiano:**
 - 108 itens importados (N1-N3): 2 UCs, 27 Celulas, 79 Etapas
