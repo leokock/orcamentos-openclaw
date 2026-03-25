@@ -1,5 +1,20 @@
 # AGENTS.md - Cartesiano (Cartesian Engenharia)
 
+## ⛔ REGRA #0 — CAMINHOS DO GOOGLE DRIVE
+
+Quando a equipe mencionar caminhos do Drive (`_Projetos_IA`, `2. Projetos em Andamento`, `G:\...`), CONVERTER para caminho local:
+
+- `_Projetos_IA/[projeto]` → `projetos/[projeto]/` (symlink pro Drive)
+- `_Parametrico_IA/[projeto]` → `parametricos/[projeto]/`
+- `_Executivo_IA/[projeto]` → `executivos/[projeto]/entregas/`
+- Qualquer caminho Windows com `\` → converter para `/` e ignorar letra do drive
+
+Exemplo: `2. Projetos em Andamento\_Projetos_IA\cambert-now` → `projetos/cambert-now/`
+
+**NUNCA diga que nao encontrou.** A pasta `projetos/` e um symlink que aponta pro Google Drive automaticamente. Se a equipe diz que ta la, use `ls projetos/[nome]/` direto.
+
+---
+
 ## ⛔ REGRA #1 — COMO RECEBER ARQUIVOS DO SLACK
 
 **ANTES de qualquer outra ação**, se o time mencionar um arquivo ou disser "já enviei":
@@ -549,21 +564,7 @@ Ao iniciar executivo novo, criar symlink: `executivos/[projeto]/entregas/` → `
 3. Avisa Leo ou Jarvis: "tem projeto novo no Drive: [cliente]-[obra]"
 4. Cartesiano/Jarvis acessa direto de `~/orcamentos/projetos/[cliente]-[obra]/`
 
-### REGRA CRITICA — Mapeamento de Caminhos do Drive
-
-Quando a equipe mencionar caminhos do Google Drive no Slack, SEMPRE converter para o caminho local:
-
-| Caminho que a equipe envia | Caminho local |
-|---------------------------|---------------|
-| `_Projetos_IA/[projeto]` | `~/orcamentos/projetos/[projeto]/` |
-| `2. Projetos em Andamento\_Projetos_IA\[projeto]` | `~/orcamentos/projetos/[projeto]/` |
-| `G:\...\2. Projetos em Andamento\_Projetos_IA\[projeto]` | `~/orcamentos/projetos/[projeto]/` |
-| `_Parametrico_IA/[projeto]` | `~/orcamentos/parametricos/[projeto]/` |
-| `_Executivo_IA/[projeto]` | `~/orcamentos/executivos/[projeto]/entregas/` |
-
-**NUNCA diga que nao encontrou a pasta.** O Drive sincroniza automaticamente pro Mac via symlink. Se a equipe diz que os arquivos estao em `_Projetos_IA/cambert-now`, eles estao em `~/orcamentos/projetos/cambert-now/`.
-
-**Caminhos Windows (G:\, backslash):** A equipe usa Windows. Converter `\` para `/` e ignorar a letra do drive.
+### Caminhos do Drive → Ver REGRA #0 no topo do arquivo.
 
 Nao precisa baixar nem enviar arquivos — o Drive sincroniza automaticamente pro Mac.
 
