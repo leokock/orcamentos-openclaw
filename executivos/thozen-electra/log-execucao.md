@@ -541,6 +541,13 @@ Este documento e organizado **por disciplina**, nao por dia. Cada secao registra
 
 **Regra de edicao:** Claude so adiciona no final de cada secao. Leo pode editar qualquer parte. Este MD sera a base do memorial Word final do projeto.
 
+**Regra de entrega (25/mar/2026):** Toda atualizacao de planilha gera 3 entregas obrigatorias:
+1. Planilha atualizada (.xlsx)
+2. Este log atualizado (log-execucao.md)
+3. **Documento Word (.docx) com o log de execucao convertido** — para a equipe acessar sem depender de Markdown
+
+**Envio:** Sempre que gerar atualizacao, enviar os 2 arquivos (planilha + Word do log) no Slack para a equipe acompanhar.
+
 ---
 
 *Criado em 2026-03-25 | Atualizado continuamente durante o projeto*
