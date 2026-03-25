@@ -524,10 +524,14 @@ O orçamento executivo complementa o BIM com planilhas detalhadas por disciplina
 4. **Gerar planilha** — Excel compatível com Memorial Cartesiano
 5. **Comparar revisões** — quando chega atualização, identificar mudanças
 
-### Projetos no Google Drive (Sync Automatico)
+### Google Drive — Symlinks (Sync Automatico)
 
-`~/orcamentos/projetos/` e um **symlink** para o Google Drive compartilhado da Cartesian:
-`03 CTN Projetos > 2. Projetos em Andamento > _Projetos_IA`
+Duas pastas sao **symlinks** para o Google Drive compartilhado da Cartesian (`03 CTN Projetos > 2. Projetos em Andamento`):
+
+| Pasta local | Drive | Conteudo |
+|-------------|-------|----------|
+| `~/orcamentos/projetos/` | `_Projetos_IA/` | IFCs, DWGs, PDFs dos projetos (inputs) |
+| `~/orcamentos/executivos/entregues/` | `_Entregas/Orçamento_executivo/` | Planilhas e apresentacoes entregues (outputs) |
 
 **Fluxo para novos projetos:**
 1. Equipe cria pasta no Drive: `_Projetos_IA/[cliente]-[obra]/`
