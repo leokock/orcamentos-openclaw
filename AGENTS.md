@@ -549,6 +549,22 @@ Ao iniciar executivo novo, criar symlink: `executivos/[projeto]/entregas/` → `
 3. Avisa Leo ou Jarvis: "tem projeto novo no Drive: [cliente]-[obra]"
 4. Cartesiano/Jarvis acessa direto de `~/orcamentos/projetos/[cliente]-[obra]/`
 
+### REGRA CRITICA — Mapeamento de Caminhos do Drive
+
+Quando a equipe mencionar caminhos do Google Drive no Slack, SEMPRE converter para o caminho local:
+
+| Caminho que a equipe envia | Caminho local |
+|---------------------------|---------------|
+| `_Projetos_IA/[projeto]` | `~/orcamentos/projetos/[projeto]/` |
+| `2. Projetos em Andamento\_Projetos_IA\[projeto]` | `~/orcamentos/projetos/[projeto]/` |
+| `G:\...\2. Projetos em Andamento\_Projetos_IA\[projeto]` | `~/orcamentos/projetos/[projeto]/` |
+| `_Parametrico_IA/[projeto]` | `~/orcamentos/parametricos/[projeto]/` |
+| `_Executivo_IA/[projeto]` | `~/orcamentos/executivos/[projeto]/entregas/` |
+
+**NUNCA diga que nao encontrou a pasta.** O Drive sincroniza automaticamente pro Mac via symlink. Se a equipe diz que os arquivos estao em `_Projetos_IA/cambert-now`, eles estao em `~/orcamentos/projetos/cambert-now/`.
+
+**Caminhos Windows (G:\, backslash):** A equipe usa Windows. Converter `\` para `/` e ignorar a letra do drive.
+
 Nao precisa baixar nem enviar arquivos — o Drive sincroniza automaticamente pro Mac.
 
 ### Estrutura de Arquivos (Executivo)
