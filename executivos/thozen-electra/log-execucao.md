@@ -1,4 +1,4 @@
-# Log de Execucao — Orcamento Executivo Electra Towers (Thozen)
+# Memorial de Execucao — Orcamento Executivo Electra Towers (Thozen)
 
 **Cliente:** Thozen
 **Empreendimento:** Electra Towers
@@ -9,192 +9,294 @@
 **Vagas:** 305
 **Pavimentos:** 1 Terreo + 5 Garagens + 1 Lazer + 24 Tipo + 3 tecnicos (por torre)
 **Prazo de obra:** 36 meses
+**Fundacao:** Estacas helice continua (O50cm e O60cm)
+**Projetista principal:** R. Rubens Alves (eletrico, telefonico, ventilacao)
 
 ---
 
 ## Indice de Disciplinas
 
-| #   | Disciplina      | Status                            | Revisao | Arquivo-chave                                                |
-| --- | --------------- | --------------------------------- | ------- | ------------------------------------------------------------ |
-| 01  | Estrutura       | Briefing R00                      | R00     | `briefings/estrutura-r00.md`                                 |
-| 02  | Arquitetura     | Briefing R00                      | R00     | `briefings/arquitetura-r00.md`                               |
-| 03  | Alvenaria       | Briefing R00-R01, DXF pendente    | R01     | `briefings/alvenaria-r01.md`                                 |
-| 04  | Esquadria       | Briefing R00                      | R00     | `briefings/esquadria-r00.md`                                 |
-| 05  | Hidraulico      | Briefing R00                      | R00     | `briefings/hidraulico-r00.md`                                |
-| 06  | Sanitario       | Briefing R00                      | R00     | `briefings/sanitario-r00.md`                                 |
-| 07  | PCI Civil       | Briefing R00                      | R00     | `briefings/pci-civil-r00.md`                                 |
-| 08  | PCI Eletrico    | Briefing R00                      | R00     | `briefings/pci-eletrico-r00.md`                              |
-| 09  | Eletrico        | Discipline pack R01 + Memorial    | R01     | `entregas/eletrico-r01-memorial.md`                          |
-| 10  | Telefonico      | Briefing R00 + dados IFC          | R00     | `briefings/telefonico-r00.md`                                |
-| 11  | SPDA            | Briefing R00                      | R00     | `briefings/spda-r00.md`                                      |
-| 12  | Ventilacao      | Briefing R00-R02 (DWG bloqueado)  | R02     | `briefings/ventilacao-r02.md`                                |
-| 13  | Exaustao        | Briefing R00-R02 (DXF processado) | R02     | `briefings/exaustao-r02.md`                                  |
-| 14  | Ar-Condicionado | Briefing R00-R01 (DWG bloqueado)  | R01     | `briefings/ar-condicionado-r01.md`                           |
-| --  | Tecnico/Adm     | Analise EAP + preenchimento       | R00     | `entregas/electra_analise_tecnico_adm.md`                    |
-| --  | Consolidado     | R00 -> R01 -> R02 -> R03          | R03     | `entregas/CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx` |
+| # | Disciplina | Status | Revisao | Arquivo-chave |
+|---|-----------|--------|---------|---------------|
+| 01 | Estrutura | Briefing R00 | R00 | `briefings/estrutura-r00.md` |
+| 02 | Arquitetura | Briefing R00 | R00 | `briefings/arquitetura-r00.md` |
+| 03 | Alvenaria | Briefing R00-R01, DXF pendente | R01 | `briefings/alvenaria-r01.md` |
+| 04 | Esquadria | Briefing R00 | R00 | `briefings/esquadria-r00.md` |
+| 05 | Hidraulico | Briefing R00 | R00 | `briefings/hidraulico-r00.md` |
+| 06 | Sanitario | Briefing R00 | R00 | `briefings/sanitario-r00.md` |
+| 07 | PCI Civil | Briefing R00 | R00 | `briefings/pci-civil-r00.md` |
+| 08 | PCI Eletrico | Briefing R00 | R00 | `briefings/pci-eletrico-r00.md` |
+| 09 | Eletrico | Discipline pack R01 + Memorial | R01 | `entregas/eletrico-r01-memorial.md` |
+| 10 | Telefonico | Briefing R00 + dados IFC | R00 | `briefings/telefonico-r00.md` |
+| 11 | SPDA | Briefing R00 | R00 | `briefings/spda-r00.md` |
+| 12 | Ventilacao | Briefing R00-R02 (DWG bloqueado) | R02 | `briefings/ventilacao-r02.md` |
+| 13 | Exaustao | Briefing R00-R02 (DXF processado) | R02 | `briefings/exaustao-r02.md` |
+| 14 | Ar-Condicionado | Briefing R00-R01 (DWG bloqueado) | R01 | `briefings/ar-condicionado-r01.md` |
+| -- | Tecnico/Adm | Analise EAP + preenchimento | R00 | `entregas/electra_analise_tecnico_adm.md` |
+| -- | EAP | Reestruturada em 4 UCs | v2 | `entregas/EAP-Electra-4UCs-v2.xlsx` |
+| -- | Consolidado | R00 -> R01 -> R02 -> R03 | R03 | `entregas/CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx` |
 
 ---
 
-## Historico de Trocas
+## 1. Estrutura (EAP e Organizacao do Orcamento)
 
-### 2026-03-20 — Dia 1: Briefings iniciais + EAP Memorial
+### EAP — Estrutura Analitica do Projeto
 
-**O que aconteceu:**
-- Criacao massiva de briefings R00 para TODAS as 14 disciplinas de uma so vez
-- Extracao automatizada via IFC (9 arquivos por torre) para: PCI, Telefonico, Estrutura, Eletrico
-- Extracao via DXF para: Exaustao, Ventilacao, Ar-Condicionado (tentativas — DWG bloqueou)
-- Processamento de quantitativos de alvenaria (DWG -> DXF pendente)
-- Scripts criados: extracao DXF alvenaria, processamento DXF exaustao/ventilacao
-- Importacao da EAP no Memorial Cartesiano (Supabase)
+**Decisao:** Reorganizar de 2 UCs para 4 UCs:
+- UC1: **Despesas Indiretas** (ex-Gerenciamento Tecnico e Administrativo)
+- UC2: **Embasamento** (infraestrutura + fundacoes + etapas "-EMBASSAMENTO")
+- UC3: **Torre A** (etapas "-TORRE A")
+- UC4: **Torre B** (etapas "-TORRE B")
 
-**Problemas encontrados:**
-- DWG em formato binario (AutoCAD 2018/2019/2020) — nao processavel sem ODA File Converter
-- Ventilacao: extracao via strings falhou (0 palavras-chave em 72.678 strings)
-- Ar-Condicionado: idem — DWG nao processavel
-- Memorial Cartesiano: codigos relativos nos filhos da EAP causaram duplicatas massivas
-- Supabase com latencia alta — scripts precisaram de timeout 30s+ e retry
+**Fonte:** Planilha original `CTN-TZN_ELT_Orcamento_Executivo_R00.xlsx` (684 linhas, 28 colunas)
+**Entrega:** `entregas/EAP-Electra-4UCs-v2.xlsx` (com formatacao original preservada — Poppins, bold por nivel, merges, formulas)
 
-**Resultados:**
-- 14 briefings R00 gerados (estrutura completa para todas as disciplinas)
-- EAP importada com sucesso: 108 itens N1-N3 (2 UCs, 27 Celulas, 79 Etapas)
-- Documentacao criada: MEMORIAL-IMPORT-EAP-WORKFLOW.md
-- Quantitativos IFC extraidos: luminarias (4.655 un), eletrodutos (~213.000 trechos), pontos telefonicos (90 pontos dados+voz), caixas passagem (~648), eletrodutos telefonico (~33.400 m)
-- Briefing PCI: 78 abrigos, 73 extintores, 67m tubulacao (subestimado)
-- Briefing Exaustao: processamento DXF com dados reais (R01-R02)
-- Briefing Ventilacao: premissas NBR 14880 (R00-R02, sem dados reais)
+**Importacao no Memorial Cartesiano:**
+- 108 itens importados (N1-N3): 2 UCs, 27 Celulas, 79 Etapas
+- CPUs (N4): vinculacao manual (match automatico falhou — nomenclaturas divergentes entre EAP e base de CPUs)
+- Project ID Memorial: `cdff0592-fb3c-4c13-9516-efde6b56b336`
 
-**Decisao do Leo:** Vincular CPUs (N4) manualmente no Memorial — match automatico nao funcionou (nomenclaturas divergentes).
+### Gestao de Projetos (aba PROJETOS)
 
-**Entregas geradas:**
-- `briefings/*.md` (14 disciplinas)
-- `entregas/relatorio-extracao-*.md` (telefonico, ar-condicionado, exaustao)
-- `entregas/thozen-electra-telefonico-consolidado.json`
-- `entregas/thozen-electra-exaustao-dados-r00.json`
-- Scripts em `scripts/` (extracao, importacao, processamento)
+**Decisao:** Preencher com todos os IFC/DWG recebidos, por disciplina
+**Entrega:** `entregas/Projetos-Electra-Preenchido.xlsx`
 
----
+### Planilha R00 — Analise do que ja existia
 
-### 2026-03-21 — Dia 2: Revisao da planilha R00
+**Achados na planilha original:**
+- 835 insumos + 926 CPUs ja na base
+- Estacas preenchidas (Torre 1: O50cm 17un + O60cm 406un)
+- Gerenciamento consolidado: R$ 10,3M (R$ 286/m2)
+- Instalacoes consolidado: R$ 9,8M (R$ 271/m2)
+- Sist. Especiais consolidado: R$ 3,9M (R$ 109/m2)
+- Supraestrutura muito baixo: R$ 152k (R$ 4/m2 — incompleto, benchmark ~R$ 500/m2)
+- Infraestrutura muito baixo: R$ 507k (R$ 14/m2 — incompleto, benchmark ~R$ 137/m2)
+- #REF! em Impermeabilizacao
+- Disciplinas zeradas: Alvenaria, Loucas, Esquadrias, Climatizacao, Revestimentos, Fachada, Teto
 
-**O que aconteceu:**
-- Analise completa da planilha `CTN-TZN_ELT_Orcamento_Executivo_R00.xlsx`
-- Mapeamento de TODAS as abas: CAPA, PROJETOS, BASES, EAP, EAP Analise, CPU, Insumos + abas por disciplina
-- Identificacao do que ja estava preenchido vs vazio
-- Benchmark com obras similares (SOHO 538, For Seasons, Eliat)
-
-**Achados criticos:**
-- Infraestrutura R$ 14/m2 vs benchmark R$ 137/m2 — claramente incompleto
-- Supraestrutura R$ 4/m2 vs benchmark R$ 500/m2 — definitivamente incompleto
-- Gerenciamento R$ 286/m2 (OK vs benchmark)
-- Instalacoes R$ 271/m2 (OK vs benchmark)
-- 835 insumos + 926 CPUs na base da planilha
-- Abas disciplinares com templates prontos mas vazios (Louças, Esquadrias, Climatizacao, etc.)
-
-**Resultado:** Documento `REVISAO-ELECTRA-R00.md` completo com analise, prioridades de preenchimento e benchmark.
-
-**Criacao do workflow incremental:** `WORKFLOW-EXECUTIVO-INCREMENTAL.md` — define o fluxo copiloto (Leo escolhe disciplina, sistema indica checklist, Leo preenche, sistema valida).
+**Benchmark utilizado:** SOHO 538 (R$ 2.161/m2), For Seasons (R$ 3.520/m2), Eliat (R$ 3.642/m2)
 
 ---
 
-### 2026-03-23 — Dia 3: Discipline pack Eletrico R01 + Consolidacao R01-R02-R03
+## 2. Gerenciamento Tecnico e Administrativo
 
-**O que aconteceu:**
-- Geracao do discipline pack de Instalacoes Eletricas (R01) — primeiro piloto do fluxo copiloto
-- Processamento dos 9 IFCs eletricos: contagem de luminarias, eletrodutos por diametro, distribuicao por pavimento
-- Referencia de precos: Elizabeth II Royal Home (Gessele, Itapema)
-- R$/m2 adotado: R$ 190/m2 (vs Elizabeth II R$ 213/m2 — ajustado pra medio-alto padrao)
-- Distribuicao por 13 subgrupos (subestacao 18%, barramento 6.8%, gerador 7%, MO 41%, etc.)
+**Fonte:** EAP original + base de 926 CPUs do Electra
+**Analise:** 117 servicos na EAP, 43 com preco definido, 74 sem preco
+**Match automatico com base de CPUs:** 0 itens (nomenclaturas completamente diferentes)
 
-**Entregas geradas:**
-- `entregas/eletrico-r01-discipline-pack.xlsx` — planilha com quantitativos
-- `entregas/eletrico-r01-memorial.md` — memorial descritivo
-- `entregas/eletrico-r01-memorial.docx` — versao Word
-- `entregas/eletrico-r01-confianca.md` — relatorio verde/amarelo/vermelho
-- `entregas/eletrico-r01-por-pavimento.xlsx` — detalhamento por pavimento
+**Decisao:** Itens de gerenciamento sao servicos intelectuais, consultorias e custos operacionais — NAO constam em bancos tradicionais (SINAPI, PINI). Fontes recomendadas: historico Cartesian, cotacoes, tabelas de honorarios (CAU, CREA, AsBEA).
 
-**Relatorio de confianca (eletrico R01):**
+**Entregas:**
+- `entregas/electra_analise_tecnico_adm.md` — analise detalhada dos 117 servicos
+- `entregas/Tec_Adm_Electra_Preenchido.xlsx` — planilha com recomendacoes por item
+- `entregas/Justificativas_Tec_Adm_Electra_Base_Cartesian.docx` — justificativas
+
+**Pendente:** Cotacoes reais para os 74 itens sem preco (laboratorios, empreiteiras, consultorias)
+
+---
+
+## 3. Estrutura (Infraestrutura + Supraestrutura)
+
+**Fonte:** IFC `1203 - THOZEN - RUBENS ALVES - BLOCOS+RAMPAS DE ACESSO - R26.ifc`
+**Dados extraidos do IFC:**
+- Volume estimado de concreto: ~12.784 m3
+- Elementos contados: 1.531 pilares, 3.531 vigas, 1.527 lajes, 70 infra
+- Distribuicao por pavimento mapeada
+
+**Dados faltantes (criticos):**
+- Estacas: tipo, diametro, comprimento, quantidade (parcialmente na aba Estacas da R00)
+- Classes de concreto (fck por elemento)
+- Armacao (taxa de aco, bitolas)
+- Areas de forma (m2)
+- Tipo de laje (macica ou nervurada — espessura 28cm sugere macica, mas pode ser nervurada + capa)
+
+**Decisao:** Aguardar memorial descritivo estrutural e prancha de fundacoes para complementar.
+
+**Entrega:** `briefings/estrutura-r00.md` + `briefings/estrutura-r00.json`
+
+---
+
+## 4. Alvenaria
+
+**Fonte:** 18 DWGs R01 (pre-executivo)
+**Bloqueador:** DWG em formato binario (AutoCAD 2018/2019/2020) — nao processavel sem ODA File Converter
+**Dados parciais na R00:** Terreo + 1o Subsolo preenchidos (Bloco 9cm, 14cm, 19cm)
+
+**Pavimentos mapeados:** 01 Terreo, 02-06 G1-G5, 07 Lazer, 08-31 Tipo (x24), 32 Res/Cob
+
+**Decisao:** Solicitar DXF ao projetista ou instalar ODA File Converter para conversao automatica.
+
+**Scripts criados:** `scripts/extrair_alvenaria_dxf.py`, `scripts/processar_todos_alvenaria.sh`
+**Entrega:** `briefings/alvenaria-r00.md`, `briefings/alvenaria-r01.md`
+
+**Pendente:** Conversao DWG -> DXF e extracao automatizada
+
+---
+
+## 5. Esquadrias
+
+**Fonte:** DWGs de arquitetura
+**Dados extraidos:** Mapa preliminar de tipologias (portas madeira P1/P2/P3, aluminio, vidros temperados)
+**Entrega:** `briefings/esquadria-r00.md` + `briefings/esquadria-r00.json`
+
+**Pendente:** Quantitativos detalhados por pavimento, caderno de especificacoes
+
+---
+
+## 6. Instalacoes Hidrossanitarias
+
+**Fonte:** IFCs + DWGs rev.01
+**Entregas:** `briefings/hidraulico-r00.md`, `briefings/sanitario-r00.md`
+
+**Pendente:** Extracao detalhada de tubulacoes por diametro e metragem
+
+---
+
+## 7. Instalacoes Eletricas
+
+**Fonte primaria:** 9 IFCs rev.01 (1 por pavimento) — Projetista R. Rubens Alves
+**Referencia de precos:** Elizabeth II Royal Home (Gessele, Itapema) — R$ 213/m2
+
+**Quantitativos extraidos dos IFCs:**
+- Luminarias: 4.655 un (837 por pavimento unico, tipo x24 = 3.984)
+- Eletrodutos: ~213.000 trechos (7 faixas de diametro: 3/4" a 4")
+- Distribuicao completa por pavimento
+
+**Decisao:** R$/m2 adotado R$ 190/m2 (ajuste de -10.8% vs Elizabeth II por ser medio-alto padrao, nao alto puro)
+**Distribuicao por 13 subgrupos:** Subestacao 18%, MO 41%, Barramento 6.8%, Gerador 7%, Entrada 12.4%, etc.
+
+**Total:** R$ 6.856.881,50 (R$ 190/m2)
+
+**Relatorio de confianca:**
 - Verde (3%): luminarias + eletrodutos (rastreaveis ao IFC)
 - Amarelo (56%): subgrupos referenciados no Elizabeth II
-- Vermelho (41%): MO + itens sem fonte (gerador, quadros, tomadas, cabos)
+- Vermelho (41%): MO, gerador, quadros, tomadas, cabos (sem fonte direta)
 
-**Consolidacao R01-R02-R03:**
-- R01: primeira versao consolidada
-- R02: formato Elizabeth II + memorial rastreavel + doc Word
-- R03: ajustado (Mov.Terra, Loucas, Complementares) — R$ 161,3M | R$ 4.469/m2 | CUB 1.48
+**Entregas:**
+- `entregas/eletrico-r01-discipline-pack.xlsx`
+- `entregas/eletrico-r01-memorial.md` / `.docx`
+- `entregas/eletrico-r01-confianca.md`
+- `entregas/eletrico-r01-por-pavimento.xlsx`
 
-**Analise Tecnico/Administrativo:**
-- EAP com 117 servicos, 43 com preco definido, 74 sem preco
-- Base Electra: 926 composicoes + 835 insumos
-- Match automatico: 0 itens (nomenclaturas diferentes)
-- Geradas planilhas de preenchimento: `Tec_Adm_Electra_*.xlsx`
-
-**Entregas consolidadas:**
-- `CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx`
-- `CTN-TZN_ELT-Orcamento-Executivo-R03-MEMORIAL.docx`
-- `CTN-TZN_ELT-Orcamento-Executivo-R02-MEMORIAL-RASTREAVEL.docx`
-- Multiplas versoes intermediarias (R01 calibrado, R01 completo, R02 revisado, etc.)
+**Pendente:** Processar 18 DWGs para especificacoes tecnicas, cotacoes de subestacao e gerador, detalhamento de quadros e tomadas
 
 ---
 
-### 2026-03-24 — Dia 4: Rastreabilidade per-item + Parametrico V2
+## 8. Telecomunicacoes (Cabeamento Estruturado)
 
-**O que aconteceu:**
-- Definicao do modelo de rastreabilidade per-item para executivos
-- Tags de confianca: Verde (Proj. [Projetista] [IFC/DXF] [rev]), Amarelo (Param. base Cartesian), Vermelho (Estimado)
-- Script generico `gerar_memorial_rastreavel.py` criado
-- Modelo C+A: discipline packs + consolidacao automatica xlsx -> docx
-- Projetistas por projeto em `projetistas.json`
+**Fonte:** 9 IFCs rev.01 + 18 DWGs rev.01 — Projetista R. Rubens Alves
 
-**Contexto mais amplo:**
-- Redesign do Parametrico V2 (bottom-up, 18 macrogrupos, PUs reais)
-- Calibracao completa: 75 executivos processados, 1.504 PUs, 13 indices master
-- Electra como projeto piloto do novo fluxo
+**Quantitativos extraidos dos IFCs:**
+- 46 pontos de dados (RJ45) — concentrados no Terreo
+- 44 pontos de voz (RJ11) — Terreo + Tipo
+- ~648 caixas de passagem (4x2, 4x4, octogonais)
+- ~33.400 m de eletrodutos (incluindo Tipo x24)
+- 33 m de eletrocalhas (G1 apenas — shaft vertical)
+- 3.694 acessorios de fixacao
 
----
+**Dados NAO modelados nos IFCs (pendentes):**
+- Metragens de cabos UTP (CAT6/CAT6A)
+- Racks de telecomunicacoes (quantidade, localizacao)
+- Patch panels (tipo, portas)
+- DG (Distribuidor Geral)
+- Diametros de eletrodutos (buscar em DWGs)
+- Pontos logicos nas garagens
 
-### 2026-03-25 — Dia 5: Nova estrategia de copiloto
+**Entregas:**
+- `briefings/telefonico-r00.md`
+- `entregas/relatorio-extracao-telefonico-thozen.md`
+- `entregas/thozen-electra-telefonico-consolidado.json`
 
-**Decisao do Leo (via audio Telegram):**
-- Preencher a planilha completa de uma vez ficou muito pesado — Claude simplifica demais
-- Melhor abordagem: **copiloto incremental** — Leo passa uma disciplina por vez
-- Leo passa os dados do projeto, Claude preenche as informacoes e devolve
-- Leo adiciona no Excel master dele
-- Tudo registrado neste documento MD (log de execucao)
-- No final, gerar documento Word consolidado
-
-**Proxima acao:** Leo vai passar a proxima disciplina/aba para preenchimento.
-
----
-
-### 2026-03-24 (noite) — Sessao 4b: Reestruturacao EAP + Gestao Projetos
-
-**O que aconteceu:**
-- Planilha de Gestao de Projetos (aba PROJETOS) preenchida com todos os IFC/DWG recebidos por disciplina
-- EAP reestruturada de 2 UCs para 4 UCs:
-  - UC1: **Despesas Indiretas** (ex-Gerenciamento Tecnico e Administrativo)
-  - UC2: **Embasamento** (infraestrutura + fundacoes + etapas "-EMBASSAMENTO")
-  - UC3: **Torre A** (etapas "-TORRE A")
-  - UC4: **Torre B** (etapas "-TORRE B")
-
-**Decisoes do Leo:**
-- Dividir em 4 UCs (Despesas Indiretas + Embasamento + Torre A + Torre B)
-- Manter despesas indiretas na EAP
-- Regra documentada: SEMPRE manter formatacao original ao modificar planilhas
-
-**Entregas geradas:**
-- `entregas/EAP-Electra-4UCs-v2.xlsx` — EAP reestruturada com formatacao original
-- `entregas/Projetos-Electra-Preenchido.xlsx` — Gestao de projetos com IFC/DWG mapeados
-
-**Documentacao:**
-- Criado `~/clawd/clientes/thozen/CONTEXTO.md` — contexto geral do projeto
-- Regra de formatacao de planilhas adicionada ao AGENTS.md
-- Leo indicou que `log-execucao.md` (este arquivo) e o registro principal e deve ser sempre atualizado
-
-**Licao aprendida:** Ao gerar planilhas modificadas, SEMPRE copiar estilos celula a celula do original. Nunca criar aba nova desformatada.
+**Pendente:** Preenchimento da aba de Telecomunicacao na planilha R00 (proxima acao)
 
 ---
 
-**Proxima acao:** Leo vai passar a proxima disciplina/aba para preenchimento.
+## 9. SPDA (Para-raios)
+
+**Fonte:** DWGs (sem IFC)
+**Entrega:** `briefings/spda-r00.md` + `briefings/spda-r00.json`
+
+**Pendente:** Extracao detalhada — depende de conversao DWG -> DXF
+
+---
+
+## 10. PCI (Prevencao e Combate a Incendio)
+
+### PCI Civil
+**Fonte:** IFC rev.01 (Torre A e B) + 11 pranchas DWG
+**Quantitativos extraidos:** 78 abrigos, 73 extintores, 67m tubulacao (SUBESTIMADO)
+**Entrega:** `briefings/pci-civil-r00.md` + resumo + anexo pavimentos
+
+**Pendentes criticos:**
+- Reservatorios e bombas de incendio (nao encontrados no IFC)
+- Metragem real de tubulacao (espera-se >> 67m)
+- Sistema de sprinklers (nao identificado)
+- Memorial descritivo
+
+### PCI Eletrico
+**Fonte:** IFC + DWGs
+**Entrega:** `briefings/pci-eletrico-r00.md`
+
+---
+
+## 11. Ventilacao Mecanica (Escadas Pressurizadas)
+
+**Fonte:** DWG R05 (RA_EVM_LEGAL_PROJETO_R05.dwg, 5.39 MB) — Projetista Rubens Alves
+**Bloqueador:** DWG binario nao processavel. Extracao via strings: 0 palavras-chave em 72.678 strings.
+
+**Premissas adotadas (baseadas em NBR 14880:2024 — NAO VALIDADAS):**
+- 2 ventiladores centrifugos (8.000-12.000 m3/h, 5-7.5 CV)
+- 64 dampers corta-fogo 90min
+- 200 m de duto vertical O600mm
+- 42 grelhas/difusores
+- Custo estimado: R$ 342k - R$ 545k (com BDI + contingencia)
+
+**Decisao:** Todos os 46 itens marcados como NAO VALIDADO. Incerteza mantida em +/- 30-50%.
+
+**Entregas:** `briefings/ventilacao-r00.md` ate `briefings/ventilacao-r02.md` + checklists
+**Pendente:** Solicitar DXF + memorial descritivo ao projetista Rubens Alves
+
+---
+
+## 12. Exaustao
+
+**Fonte:** DXF processado com sucesso
+**Entregas:** `briefings/exaustao-r00.md` ate `briefings/exaustao-r02.md`
+**Dados:** Processamento DXF com dados reais extraidos
+
+---
+
+## 13. Ar-Condicionado e Climatizacao
+
+**Fonte:** DWG R05 (RA_ARC_EXE_00_TODAS CAD_R05.dwg, 5.0 MB)
+**Bloqueador:** DWG binario nao processavel (mesmo problema da Ventilacao)
+**Estimativa parametrica:** R$ 80-150/m2 AC -> R$ 1,6M - 4,5M (+/- 30-40%)
+
+**Entregas:** `briefings/ar-condicionado-r00.md`, `briefings/ar-condicionado-r01.md`
+**Pendente:** Conversao DWG -> DXF ou dados do projetista
+
+---
+
+## 14. Consolidacao Geral (R01 -> R02 -> R03)
+
+**R01:** Primeira versao consolidada com todas as disciplinas disponiveis
+**R02:** Formato Elizabeth II + memorial rastreavel + doc Word
+**R03 (atual):** Ajustado (Mov.Terra, Loucas, Complementares)
+
+| Item | Valor |
+|------|-------|
+| **Total** | **R$ 161,3M** |
+| **R$/m2** | **R$ 4.469** |
+| **CUB Ratio** | **1.48** |
+
+**Entregas:**
+- `entregas/CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx`
+- `entregas/CTN-TZN_ELT-Orcamento-Executivo-R03-MEMORIAL.docx`
+
+**Modelo de rastreabilidade per-item:**
+- Verde: Proj. [Projetista] [IFC/DXF] [rev]
+- Amarelo: Param. base Cartesian
+- Vermelho: Estimado
 
 ---
 
@@ -202,89 +304,54 @@
 
 ### Abas Gerais
 - [ ] **CAPA** — Falta preencher
-- [x] **PROJETOS** — OK (falta validar) ✅ Preenchido 24/mar
-- [x] **EAP** — Preenchido ✅
-- [ ] **EAP Análise** — Falta preencher
-
-### Abas de Composição (Base)
+- [x] **PROJETOS** — Preenchido (24/mar)
+- [x] **EAP** — Reestruturada em 4 UCs (24/mar)
+- [ ] **EAP Analise** — Falta preencher
 - [ ] **CPU** — Falta vincular com EAP
-- [ ] **Insumos** — Falta validar preços
+- [ ] **Insumos** — Falta validar precos
 - [ ] **BASES** — Falta preencher
 
-### Abas por Disciplina (planilha)
-- [ ] **Ger_Tec e Adm** — Falta preencher
-- [ ] **Ger_Executivo** — Falta preencher
-- [ ] **Equipamentos Especiais** — Falta preencher
-- [ ] **EPCs** — Falta preencher
-- [ ] **CANTEIRO** — Falta preencher
-- [ ] **Cont.Tecnol.** — Falta preencher
-- [ ] **Estacas** — Falta preencher
-- [ ] **Fund. Rasa | Contenção** — Falta preencher
-- [ ] **Resumo Estrutura** — Falta preencher
-- [ ] **Escoramento** — Falta preencher
-- [ ] **ARQUITETURA** — Falta preencher
-- [ ] **LOUÇAS E METAIS** — Falta preencher
-- [ ] **ESQUADRIAS** — Falta preencher
-- [ ] **Exaustão e Climatização** — Falta preencher
-- [ ] **MOBILIÁRIO** — Falta preencher
-
-### Disciplinas do orçamento (preenchimento técnico)
+### Abas por Disciplina
+- [ ] Ger_Tec e Adm
+- [ ] Ger_Executivo
 - [ ] Estacas
-- [ ] Fundação Rasa / Contenção
+- [ ] Fund. Rasa / Contencao
 - [ ] Resumo Estrutura
-- [ ] Cálculo de Apoio
 - [ ] Escoramento
-- [ ] Impermeabilização
-- [ ] Louças e Metais
+- [ ] ARQUITETURA
+- [ ] LOUCAS E METAIS
+- [ ] ESQUADRIAS
+- [ ] Exaustao e Climatizacao
+- [ ] MOBILIARIO
+- [ ] Equipamentos Especiais
+- [ ] EPCs
+- [ ] CANTEIRO
+- [ ] Cont.Tecnol.
+
+### Disciplinas tecnicas
+- [ ] Estacas
+- [ ] Fundacao Rasa / Contencao
+- [ ] Resumo Estrutura
+- [ ] Escoramento
+- [ ] Impermeabilizacao
+- [ ] Loucas e Metais
 - [ ] Equipamentos Especiais
 - [ ] Piscina
-- [ ] Elétrico
-- [ ] Hidrossanitário
+- [ ] Eletrico
+- [ ] Hidrossanitario
 - [ ] PPCI
 - [ ] Sprinkler
-- [ ] Telecomunicação
-- [ ] Gás
-- [ ] Automação
-- [ ] Climatização
-- [ ] Iluminação
-- [ ] Mobiliário
+- [ ] Telecomunicacao (proxima)
+- [ ] Gas
+- [ ] Automacao
+- [ ] Climatizacao
+- [ ] Iluminacao
+- [ ] Mobiliario
 
 ---
 
-## Status Atual
+## Bloqueadores Tecnicos
 
-### Planilha R00 — O que ja tem valor
-| Disciplina | R$/m2 | Status |
-|-----------|-------|--------|
-| Gerenciamento Tec/Adm | 285,96 | Consolidado |
-| Infraestrutura (Estacas) | 14,05 | Incompleto |
-| Supraestrutura | 4,22 | Incompleto |
-| Instalacoes (Elet/Hidro/GLP/Prev) | 270,66 | Consolidado |
-| Sist. Especiais | 109,43 | Consolidado |
-| Pintura Interna | 0,60 | Consolidado |
-
-### Planilha R03 (consolidacao IA) — Totais
-| Item | Valor |
-|------|-------|
-| **Total** | **R$ 161,3M** |
-| **R$/m2** | **R$ 4.469** |
-| **CUB Ratio** | **1.48** |
-
-### Disciplinas pendentes de preenchimento
-- Mov. Terra (R$ 0)
-- Contencao (R$ 0)
-- Alvenaria (R$ 0)
-- Impermeabilizacao (#REF!)
-- Revestimentos Argamassados (R$ 0)
-- Acabamentos Internos (R$ 0)
-- Pisos e Pavimentacoes (R$ 0)
-- Teto (R$ 0)
-- Fachada (R$ 0)
-- Loucas e Metais (R$ 0)
-- Esquadrias (R$ 0)
-- Climatizacao (R$ 0)
-
-### Bloqueadores tecnicos
 1. **DWG binario** — Ventilacao, Ar-Condicionado, Alvenaria precisam de conversao DWG -> DXF (ODA File Converter ou solicitar DXF ao projetista Rubens Alves)
 2. **Memorial descritivo** — necessario para validar premissas de Ventilacao, PCI, Climatizacao
 3. **CPUs no Memorial** — Leo precisa vincular N4 manualmente (match automatico falhou)
@@ -311,18 +378,21 @@
 | `REVISAO-ELECTRA-R00.md` | Analise detalhada da planilha R00 |
 | `briefings/*.md` | 14 briefings por disciplina |
 | `scripts/*.py` | Scripts de extracao e processamento |
-| **Este arquivo** | `log-execucao.md` — diario de bordo |
+| **Este arquivo** | `log-execucao.md` — memorial de execucao |
 
 ---
 
-## Convencoes deste Log
+## Convencoes deste Memorial
 
-- Cada sessao de trabalho e registrada com data e resumo
-- Decisoes do Leo sao destacadas
-- Entregas geradas sao listadas com caminho do arquivo
-- Problemas e bloqueadores sao documentados
-- Status atualizado ao final de cada sessao
+Este documento e organizado **por disciplina**, nao por dia. Cada secao registra:
+1. **Fontes** — de onde veio cada informacao (IFC, DWG, briefing, base PU)
+2. **Decisoes** — escolhas feitas e justificativas
+3. **Quantitativos** — dados extraidos e premissas
+4. **Entregas** — arquivos gerados
+5. **Pendentes** — dados faltantes, validacoes necessarias
+
+**Regra de edicao:** Claude so adiciona no final de cada secao. Leo pode editar qualquer parte. Este MD sera a base do memorial Word final do projeto.
 
 ---
 
-*Criado em 2026-03-25 | Fonte: historico de trocas desde 2026-03-20*
+*Criado em 2026-03-25 | Atualizado continuamente durante o projeto*
