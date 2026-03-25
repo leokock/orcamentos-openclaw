@@ -590,6 +590,24 @@ executivo/
 - Formatação BR (vírgula decimal)
 - Subtotais por N3, totais por N2
 
+### Modo Copiloto (OBRIGATÓRIO para novos projetos)
+
+**NÃO preencher planilha executiva inteira de uma vez** — fica pesado e o resultado simplifica demais. Fluxo correto:
+
+1. Leo passa UMA disciplina/aba por vez
+2. Cartesiano/Jarvis preenche e devolve (xlsx ou dados formatados)
+3. Leo cola no Excel master dele
+4. Tudo registrado no `log-execucao.md` do projeto (ex: `executivos/thozen-electra/log-execucao.md`)
+5. No final, gerar documento Word consolidado
+
+**Regra do log-execucao.md:** Só adicionar no final (novas sessões). NUNCA editar o que já está escrito — Leo pode estar editando no Windows ao mesmo tempo. Antes de escrever, fazer `git pull`. Depois, `commit+push` imediatamente.
+
+### Git Sync — Dois Repos
+
+Leo sincroniza via Obsidian Git plugin no Windows (auto-pull 5min). Quando pedir commit+push, fazer nos dois repos:
+1. `~/clawd` → `github.com/leokock/openclaw.git`
+2. `~/orcamentos` → `github.com/leokock/orcamentos-openclaw.git`
+
 ### Documentação Completa
 
 Para referência detalhada do workflow executivo:
