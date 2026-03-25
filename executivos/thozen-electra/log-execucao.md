@@ -14,24 +14,24 @@
 
 ## Indice de Disciplinas
 
-| # | Disciplina | Status | Revisao | Arquivo-chave |
-|---|-----------|--------|---------|---------------|
-| 01 | Estrutura | Briefing R00 | R00 | `briefings/estrutura-r00.md` |
-| 02 | Arquitetura | Briefing R00 | R00 | `briefings/arquitetura-r00.md` |
-| 03 | Alvenaria | Briefing R00-R01, DXF pendente | R01 | `briefings/alvenaria-r01.md` |
-| 04 | Esquadria | Briefing R00 | R00 | `briefings/esquadria-r00.md` |
-| 05 | Hidraulico | Briefing R00 | R00 | `briefings/hidraulico-r00.md` |
-| 06 | Sanitario | Briefing R00 | R00 | `briefings/sanitario-r00.md` |
-| 07 | PCI Civil | Briefing R00 | R00 | `briefings/pci-civil-r00.md` |
-| 08 | PCI Eletrico | Briefing R00 | R00 | `briefings/pci-eletrico-r00.md` |
-| 09 | Eletrico | Discipline pack R01 + Memorial | R01 | `entregas/eletrico-r01-memorial.md` |
-| 10 | Telefonico | Briefing R00 + dados IFC | R00 | `briefings/telefonico-r00.md` |
-| 11 | SPDA | Briefing R00 | R00 | `briefings/spda-r00.md` |
-| 12 | Ventilacao | Briefing R00-R02 (DWG bloqueado) | R02 | `briefings/ventilacao-r02.md` |
-| 13 | Exaustao | Briefing R00-R02 (DXF processado) | R02 | `briefings/exaustao-r02.md` |
-| 14 | Ar-Condicionado | Briefing R00-R01 (DWG bloqueado) | R01 | `briefings/ar-condicionado-r01.md` |
-| -- | Tecnico/Adm | Analise EAP + preenchimento | R00 | `entregas/electra_analise_tecnico_adm.md` |
-| -- | Consolidado | R00 -> R01 -> R02 -> R03 | R03 | `entregas/CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx` |
+| #   | Disciplina      | Status                            | Revisao | Arquivo-chave                                                |
+| --- | --------------- | --------------------------------- | ------- | ------------------------------------------------------------ |
+| 01  | Estrutura       | Briefing R00                      | R00     | `briefings/estrutura-r00.md`                                 |
+| 02  | Arquitetura     | Briefing R00                      | R00     | `briefings/arquitetura-r00.md`                               |
+| 03  | Alvenaria       | Briefing R00-R01, DXF pendente    | R01     | `briefings/alvenaria-r01.md`                                 |
+| 04  | Esquadria       | Briefing R00                      | R00     | `briefings/esquadria-r00.md`                                 |
+| 05  | Hidraulico      | Briefing R00                      | R00     | `briefings/hidraulico-r00.md`                                |
+| 06  | Sanitario       | Briefing R00                      | R00     | `briefings/sanitario-r00.md`                                 |
+| 07  | PCI Civil       | Briefing R00                      | R00     | `briefings/pci-civil-r00.md`                                 |
+| 08  | PCI Eletrico    | Briefing R00                      | R00     | `briefings/pci-eletrico-r00.md`                              |
+| 09  | Eletrico        | Discipline pack R01 + Memorial    | R01     | `entregas/eletrico-r01-memorial.md`                          |
+| 10  | Telefonico      | Briefing R00 + dados IFC          | R00     | `briefings/telefonico-r00.md`                                |
+| 11  | SPDA            | Briefing R00                      | R00     | `briefings/spda-r00.md`                                      |
+| 12  | Ventilacao      | Briefing R00-R02 (DWG bloqueado)  | R02     | `briefings/ventilacao-r02.md`                                |
+| 13  | Exaustao        | Briefing R00-R02 (DXF processado) | R02     | `briefings/exaustao-r02.md`                                  |
+| 14  | Ar-Condicionado | Briefing R00-R01 (DWG bloqueado)  | R01     | `briefings/ar-condicionado-r01.md`                           |
+| --  | Tecnico/Adm     | Analise EAP + preenchimento       | R00     | `entregas/electra_analise_tecnico_adm.md`                    |
+| --  | Consolidado     | R00 -> R01 -> R02 -> R03          | R03     | `entregas/CTN-TZN_ELT-Orcamento-Executivo-R03-AJUSTADO.xlsx` |
 
 ---
 
