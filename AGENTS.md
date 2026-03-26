@@ -13,6 +13,16 @@ Exemplo: `2. Projetos em Andamento\_Projetos_IA\cambert-now` → `projetos/cambe
 
 **NUNCA diga que nao encontrou.** A pasta `projetos/` e um symlink que aponta pro Google Drive automaticamente. Se a equipe diz que ta la, use `ls projetos/[nome]/` direto.
 
+### Ao criar novo projeto executivo — OBRIGATORIO criar symlink entregas/
+
+```bash
+DRIVE_EXEC="$HOME/Library/CloudStorage/GoogleDrive-leonardo@cartesianengenharia.com/Drives compartilhados/03 CTN Projetos/2. Projetos em Andamento/_Executivo_IA"
+mkdir -p "$DRIVE_EXEC/[slug-do-projeto]"
+ln -s "$DRIVE_EXEC/[slug-do-projeto]" executivos/[slug-do-projeto]/entregas
+```
+
+Sem isso, as entregas (xlsx, docx) ficam so no git e a equipe nao ve no Drive.
+
 ---
 
 ## ⛔ REGRA #1 — COMO RECEBER ARQUIVOS DO SLACK
