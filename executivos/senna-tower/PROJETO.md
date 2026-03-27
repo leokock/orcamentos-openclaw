@@ -23,9 +23,277 @@
 
 ## Status e Cronologia
 
-- **Início do orçamento:** Março/2026
+- **Proposta comercial:** Outubro/2025 (reunião com João Penido — FG)
+- **Início do orçamento:** Novembro/2025 (início imediato após proposta)
 - **Fase atual:** Revisão 01 em andamento (Fase 02)
 - **Custos incorridos até 31/12/2025:** R$ 11.943.399,07 (Sienge)
+- **CREA Summit:** Painel sobre o Senna Tower agendado para sábado 29/mar/2026
+
+---
+
+## Contexto Comercial e Estratégico (Reunião Proposta — 27/out/2025)
+
+**Participantes:** Leonardo Kock, Laura Heidrich (Cartesian) + João Vitor Moreira Penido (FG Empreendimentos)
+
+### Faseamento Contratual
+1. **Fase 1 — Estudo Preliminar (45 dias):**
+   - Definição da EAP
+   - Inclusão do orçamento paramétrico da FG no sistema Cartesian
+   - Extração de quantitativos disponíveis do modelo arquitetônico (alvenaria, drywall, contrapiso, esquadrias)
+   - Inclusão de quantitativos já disponíveis (estrutura, infra, contenção)
+   - Índices de custo para complementares sem lista de quantitativos
+   - Entrega: orçamento preliminar no sistema Cartesian + Excel + apresentação
+
+2. **Fase 2 — Orçamento Preliminar Consolidado (60 dias após entrega de projetos/listas atualizados):**
+   - Comparativos de custos entre processos construtivos
+   - Atualização dos quantitativos com base na evolução dos projetos
+   - Inclusão de quantitativos preliminares de complementares
+   - Cotações de preços
+   - Entrega: comparativos, cotações, orçamento no sistema + Excel + apresentação
+
+3. **Fase 3 — Orçamento Executivo (90 dias após entrega de projetos executivos):**
+   - Orçamento analítico completo
+   - Curva ABC de insumos e serviços
+   - Linha de base de custos
+   - Memorial do orçamento
+   - Extração de quantitativos a partir do modelo de arquitetura
+   - Entrega: sistema Cartesian + Excel + apresentação
+
+4. **Fase 4 — Inserção no ERP (45 dias após aprovação do executivo):**
+   - Inserção do orçamento executivo no MEGA (ERP da FG)
+
+### Diferenciais Apresentados
+- **Sistema próprio de orçamento Cartesian** — desenvolvido internamente, não é produto de mercado
+- **Rastreabilidade total:** cada valor rastreável até a origem (cotação, índice, BIM, paramétrico)
+- **Dashboard gerencial:** drill-down por sala construtiva (N1 → N4), curva ABC, distribuição por tipo de preço e quantidade
+- **Evolução por revisões:** cada revisão fica bloqueada mas consultável, com log de alterações
+- **4 tipos de extração de quantitativo:** Manual, BIM, Planilha, Índice
+- **5 tipos de precificação:** Médio de mercado, Fornecido pelo cliente, Cotação, Histórico, Estimado/Índice
+- **Área do cliente:** acesso web para FG visualizar orçamentos, custos unitários, cotações e entregas
+- **Exportação Excel:** mantida para flexibilidade
+- **Integração BIM:** plugin próprio para extração de quantitativos do Revit (parâmetros interno/externo em alvenarias)
+
+### Contexto do Cliente (FG)
+- FG já possuía **orçamento paramétrico próprio** do Senna — Cartesian incorporaria como ponto de partida
+- Planejamento 4D em andamento com **James Bolton** (inglês, nível de detalhe surpreendente segundo João)
+- João Penido queria **clareza máxima** na proposta para apresentar à diretoria
+- Expectativa de número confiável já para **novembro/2025** (fim do mês)
+- FG já tinha projetos de infra e supra, e quantitativos de estrutura por peça e pavimento chegando no fim do mês
+- Propostas já existentes de esquadrias e elevadores
+- Complementares ainda seriam paramétricos inicialmente
+- João pediu para usar **prazos em dias** (não datas fixas) — mais preciso para planejamento macro
+- **Inserção no ERP (MEGA)** prevista originalmente para abr/2027; João queria meio de 2026
+
+### Insights Estratégicos (conversa interna Leo + Laura pós-reunião)
+- João **quer fazer com a Cartesian** — confiança alta, primeiro ponto favorável
+- Sistema Cartesian impressionou — rastreabilidade é o argumento principal para diretores (independe de quem sai da empresa)
+- Leo quer construir narrativa de venda em torno do sistema: "não é sistema de mercado, é sistema que amarra todas as entregas"
+- Laura identificou que "todo mundo que teve contato com orçamento sabe dessa dor" — planilhas soltas, sem histórico
+- FG já é cliente (Cenário, Blue View) — Senna seria 3º empreendimento juntos
+- Outros empreendimentos FG no sistema: Cenário, Blue View
+
+---
+
+## Equipe do Projeto
+
+### Cartesian Engenharia
+- **Leonardo Kock** — Visão estratégica, relacionamento com FG, acompanhamento geral
+- **Patricia Bragato (Pathy)** — Ponto focal principal do projeto junto à FG
+- **Laura Heidrich** — Condução inicial (proposta e kick-off), transição para Pathy
+- **Raquel Arruda** — Equipe operacional, cotações e extrações
+
+### FG Empreendimentos
+- **João Vitor Moreira Penido** — Ponte FG ↔ TOLS, gestor do orçamento pela FG
+- **Márcio Antonius** — Apoio técnico, criou EAP padrão nova, composições de histograma MO
+- **Ângelo** — Apoio na validação do paramétrico
+- **Mário** — Diretor FG
+- **Micheline** — Lições aprendidas de áreas comuns
+- **Leonar** — Especialista de esquadria interno FG
+- **Fábio** — Gerente de segurança FG (dimensionamento EPCs/pessoal)
+- **GA** — Diretoria/conselho da FG
+
+### TOLS (Gerenciadora)
+- **Filipe** — Gerente de projeto na TOLS (ciente da contratação da Cartesian)
+- **Daniel** — Arquiteto e BIM Manager na TOLS (responsável arquitetura executiva e modelo)
+- **James Bolton** — Especialista inglês responsável pelo planejamento 4D
+
+### Projetistas/Fornecedores
+- **Bornstein Studies** — Projetista de fundação e contenção
+- **Fransma (Franzmann)** — Projetista de instalações (modelo BIM de baixa qualidade, sem listas de quantitativos)
+- **Somarsil** — Formas de madeira convencional/tradicional (tendência mais cara)
+- **SH + Concase** — SH com forma/escoramento metálico, Concase com mão de obra
+
+---
+
+## Setorização da Obra
+
+A obra é dividida em **5 setores** com faseamento de execução distinto:
+
+- **Setor A (Bloco A):** Na Rua Normando Tedesco, independente. Primeiro a subir — usado como provisório de obra. Conclusão prevista: meados de 2026
+- **Setor B:** Perímetro. Embasamento início ~2031
+- **Setor C (Core):** Torre principal — 798 estacas. Fundação iniciou 24/nov/2025, vai até mar-abr/2026. Embasamento início ~2029
+- **Setor D:** Perímetro
+- **Setor E:** Região do plantão de vendas — execução postergada (ficará para trás)
+
+### Status de Execução (novembro/2025)
+- Fundação Bloco A: executada ✅
+- Fundação Bloco B: executada ✅
+- Contenção Bloco B: em finalização
+- Fundação Bloco C: início 24/nov/2025 → mar-abr/2026
+- Supra Bloco A: inicia em paralelo à fundação C (independente)
+
+### Grandes Equipamentos
+- **3 gruas** (aquisição) + 1 grua preliminar adicional
+- **2 elevadores cremalheira**
+- **1 lança de concreto (braço de lança)**
+- **Subestação provisória:** 1 MW — em duas fases (menor → maior)
+- **Balancim:** Locação FG, para textura de fachada/reboco externo
+- **Guindaste de apoio estaca-hélice:** ~R$ 80.000/mês (locação FG)
+- **Prazo estrutura:** ~8 anos | **Prazo total obra:** ~9 anos
+
+### Elevadores e Transportes Verticais
+- Elevador social de emergência (Curva A — maior custo)
+- **4 escadas rolantes**
+- Elevador automotivo panorâmico
+- Elevador automotivo padrão
+- Elevador LPOMP (serviço/mudança especial)
+- Propostas disponíveis apenas para os 2 principais (social + emergência)
+
+---
+
+## Reuniões do Projeto (Transcrições Fireflies)
+
+### Reunião de Kick-off — 13/nov/2025 (58 min)
+**Participantes:** Leo, Laura, Patricia (Cartesian) + João Penido, Márcio (FG)
+
+**Decisões:**
+- EAP da FG mantida até 3º nível. Cartesian sugere ajustes pontuais acima disso
+- Fase 1 e Fase 2 tratadas juntas no cronograma (sugestão João)
+- FG precisa de número até final de 2025 → entrega semana 08-12/dez
+- **Inserção no MEGA removida do escopo** — FG ainda não migrou Senna para MEGA
+- Cartesian parte do paramétrico FG (extraído do Sienge) como base, não do zero
+- Patricia Bragato = ponto de contato principal
+- João faz ponte inicial FG ↔ TOLS, depois conexão direta por disciplina
+
+**Dados técnicos relevantes:**
+- Estacas: ~800 torre + ~307 perímetro ≈ **~1.100 total**
+- Documento válido de fundação: Bornstein Studies
+- Anteprojetos de todas as disciplinas no BIM 360 (estrutura com pré-formas, instalações, arquitetura)
+- Modelo BIM arquitetura: cerâmica, drywall, acabamentos no embasamento já modelados
+- Fransma (instalações): modelo BIM não serve para extração — "medição manual de planta 2D" no executivo
+- FG teve mudança de estratégia recente (out/2025), postergando data de término
+- Planejamento 4D com James Bolton: entradas de equipamentos desenhadas, saídas ainda não
+
+**Marcos:**
+- 17/nov: Apresentação do planejamento
+- 20/nov: Visita showroom (Leo + Pathy + João)
+- 22/nov: Reunião com Daniel (TOLS/arq)
+- 24/nov: Início fundação Bloco C + início extrações
+- 08-12/dez: Entrega Fase 1
+- 19/dez-02/jan: Recesso
+
+### Apresentação do Planejamento — 17/nov/2025 (63 min)
+**Participantes:** Leo, Patricia (Cartesian) + João Penido (FG)
+
+**Decisões:**
+- **4 frentes em paralelo** a partir de 24/nov:
+  1. Infra e Superestrutura — usar pav. 52 detalhado como referência
+  2. Elevadores — atualizar com última proposta
+  3. Indiretos — abrir verbas fechadas, 3 focos: Fábio (segurança), pessoal obra (histograma), Leonardo (instalações provisórias)
+  4. Arquitetura (torre) — esquadrias primeiro, depois drywall/acabamentos. Embasamento e fachada → Fase 2
+- Rastreabilidade obrigatória: João exige tags de "mexido" vs "não mexido" — transparência total
+- Fase 2: complementares, embasamento, fachada, estruturas metálicas, cotações finais → entrega fim de fevereiro
+- Checkpoint pós-recesso: 08-09/jan/2026
+
+**Dados técnicos relevantes:**
+- Quantitativo de aço revisado: de ~2.000 para **832 kg** por pavimento (voltou à normalidade)
+- Planilha de aço pendente: FCK, módulo e slump por pavimento
+- Pavimento 52: detalhamento estrutural completo — base de comparação
+- Contenção: mudou para estaca de 1 metro novamente, taxas de aço aumentaram
+- Projeto de fundação/contenção finalizado na semana de 11/nov
+- Esquadrias: modelo BIM tem fachada modelada (extraível). TOLS direciona cotação
+- Indiretos — despesa elétrica: no Garden (3 torres × 50 andares) verba é 3× maior — ~150 robôs elétricos
+- Daniel (TOLS) preparou apto padrão com tipos de acabamento (porcelanato 120×120, porta maciça, sem marca)
+- Desafio: bombeamento de água provisório até pavimentos superiores
+
+**Marcos Fase 2:**
+- 05-07/jan/2026: Retorno do recesso
+- 11-12/jan: Extrações Fase 2 a todo vapor
+- 06/fev: Status de alinhamento
+- Final fev: Apresentação preliminar consolidado
+- Março/2026: Início do Executivo (torre A prioritária)
+
+### Alinhamento de Orçamento — 27/nov/2025 (56 min)
+**Participantes:** Patricia, Raquel (Cartesian) + João Penido, Márcio Antonius (FG)
+
+**Decisões:**
+- EAP: Cartesian lança EAP completa com itens zerados (funciona como checklist)
+- Plano logístico: **descartado** (era contratação do planejamento)
+- **MO pré-supra:** Item novo criado — MO avulsa antes do empreiteiro principal (concretagem vigas, diafragma)
+- LEED: subetapa separada. Consultoria CTE (R$ 8M) em Indiretos. Itens permanentes na edificação → "Exigência certificação ambiental"
+- Superestrutura: **Bloco A separado** na EAP (independente, execução muito antes)
+- Lojas comerciais: entregues "cruas" — João define matriz de escopo
+- MEGA: Senna vai para MEGA no futuro, mas não nesta fase
+
+**Dados técnicos relevantes:**
+- Esquadrias: **Lumiarte negou ❌ | Vidro Real negou ❌** — busca de fornecedores curtain wall Platinum via SP
+- Referência curtain wall: Secknel (Unicruz) em SP
+- Mass damper: TOLS tem contato internacional em andamento
+- Histograma MO indireta: ~R$ 41M (gerenciamento) + ~R$ 13M (técnico/administrativo) = **~R$ 54M**
+- Ensaios: verba fechada R$ 5M no paramétrico — precisa abrir com referências
+- EPCs: R$ 18M (verba fechada no paramétrico)
+- Sala do cliente: R$ 60.000 (container caprichado no canteiro)
+- Balancim: R$ 400.000 (verba paramétrico)
+- Estrutura metálica torre/coroamento: quantitativos organizados, cotação de material entre 27-28/nov
+- Geodésias (passarela, "S" do Senna): sem projeto, estimativa
+- Daniel enviou documento de acabamentos (áreas comuns) no BIM 360
+
+**Marcos:**
+- 28/nov: Projeto executivo bloco central
+- 01/dez: Projeto executivo bloco A
+- 02/dez 13:30: Reunião indiretos detalhados
+- 08-12/dez: Entrega Fase 1
+
+### Status dos Projetos — 09/mar/2026
+- **Menção:** Leo comentou sobre painel no CREA Summit falando sobre o Senna Tower
+- João Penido havia pedido para falar com Leo (possivelmente sobre andamento ou aplicativo)
+
+### Alinhamento Projetos — 25/mar/2026
+- **Menção:** Leo vai ter conversa com João e representante da TOLS para alinhar painel do CREA Summit (sábado 29/mar)
+- Leo pediu atualização sobre entregas recentes do Senna ("tá tudo ali no drive?")
+- Discussão sobre parte do lazer do Senna em andamento
+
+---
+
+## Fornecedores e Riscos
+
+### Esquadrias (MAIOR RISCO)
+- **Status:** Nenhum fornecedor único capaz de atender a obra inteira
+- **Recusas:** Lumiarte ❌, Vidro Real ❌, fornecedores locais nem respondem
+- **Estratégia:** Consórcio de esquadrias — material importado (possivelmente internacional), montagem local
+- **TOLS** direciona cotação técnica | **Raquel** busca curtain wall Platinum via construtoras SP
+- **Referência:** Secknel (Unicruz) — empreendimento com curtain wall Platinum na região
+- **Risco de preço:** Faixa R$ 1.900-2.000/m² pode estar defasada, especialmente MO
+- **Especialista interno FG:** Leonar (estratégia com Filipe/TOLS)
+
+### Elevadores
+- FG tem orçamento, não equalizado tecnicamente
+- Importação prevista
+- Propostas disponíveis apenas para 2 principais (social + emergência)
+- Cotações soltas pela Cartesian, aguardando retorno
+
+### Estrutura (Formas)
+- **Somarsil:** Forma de madeira convencional (tendência mais cara)
+- **SH + Concase:** Forma metálica (SH) + MO (Concase) — sendo comparados
+
+### Mass Damper
+- TOLS tem contato internacional em andamento
+- Sem preço definido — risco de custo significativo
+
+### Certificação LEED Platinum
+- **Consultoria (CTE):** ~R$ 8 milhões (indiretos)
+- Itens permanentes: separados na EAP ("Exigência certificação ambiental")
+- Custos extras acima do padrão da edificação
 
 ---
 
