@@ -7,6 +7,11 @@
 - **Pavimentos:** 34 por torre (1° Térreo + 5 Garagens + 1 Lazer + 24 Tipo + 3 técnicos)
 - **Status:** Em orçamento executivo
 
+## ⚡ Arquivo Principal do Orçamento
+- **Arquivo atualizado:** `CTN-TZN_ELT - Orçamento Executivo_R00_Leo.xlsx`
+- **Localização:** Pasta do projeto no Google Drive (Drives compartilhados → 03 CTN Projetos → 2. Projetos em Andamento → _Executivo_IA → thozen-electra)
+- **Observação:** Esta é a versão de trabalho atual (atualizado em 2026-03-27). Orçamento em construção contínua.
+
 ## Disciplinas em Desenvolvimento
 
 ### Instalações Especiais — Prevenção e Combate a Incêndio (PCI)
@@ -129,6 +134,7 @@
 - `projetos/thozen-electra/projetos/14 AR-CONDICIONADO/DWG/` — RA_ARC_EXE_00_TODAS CAD_R05.dwg
 
 ## Histórico
+- **2026-03-27:** Definido arquivo principal do orçamento: `CTN-TZN_ELT - Orçamento Executivo_R00_Leo.xlsx` (Google Drive)
 - **2026-03-20:** Criação do briefing Ar-Condicionado R00 (estrutura completa, aguardando extração de dados)
 - **2026-03-20:** Criação do briefing Ventilação Mecânica R00 (baseado em premissas NBR 14880)
 - **2026-03-20:** Criação do briefing Telefônico R00 (extração IFC — infraestrutura passiva)
@@ -136,4 +142,4 @@
 
 ---
 
-*Última atualização: 2026-03-20*
+*Última atualização: 2026-03-27*

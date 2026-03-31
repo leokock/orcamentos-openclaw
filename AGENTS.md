@@ -2,16 +2,28 @@
 
 ## ⛔ REGRA #0 — CAMINHOS DO GOOGLE DRIVE
 
-Quando a equipe mencionar caminhos do Drive (`_Projetos_IA`, `2. Projetos em Andamento`, `G:\...`), CONVERTER para caminho local:
+Quando a equipe mencionar caminhos do Drive (`_Projetos_IA`, `2. Projetos em Andamento`, `03 CTN Projetos`, `G:\...`), CONVERTER para caminho local:
 
-- `_Projetos_IA/[projeto]` → `projetos/[projeto]/` (symlink pro Drive)
-- `_Parametrico_IA/[projeto]` → `parametricos/[projeto]/`
-- `_Executivo_IA/[projeto]` → `executivos/[projeto]/entregas/`
+| Caminho no Drive | Caminho local | Conteudo |
+|------------------|---------------|----------|
+| `_Projetos_IA/[projeto]` | `projetos/[projeto]/` | IFCs, DWGs, PDFs (inputs) |
+| `_Parametrico_IA/[projeto]` | `parametricos/[projeto]/` | Parametricos ativos |
+| `_Executivo_IA/[projeto]` | `executivos/[projeto]/entregas/` | Entregas executivo ativo |
+| `_Planejamento_IA/[projeto]` | `planejamento/[projeto]/` | Diagramas de rede, EAP, atas |
+| `_Entregas/Orçamento_executivo` | `executivos/entregues/` | Historico de entregas executivas |
+
+**Regras de conversao:**
 - Qualquer caminho Windows com `\` → converter para `/` e ignorar letra do drive
+- `03 CTN Projetos/2. Projetos em Andamento/` → prefixo do Drive, ignorar
+- `G:\Drives compartilhados\03 CTN Projetos\...` → mesmo mapeamento acima
 
-Exemplo: `2. Projetos em Andamento\_Projetos_IA\cambert-now` → `projetos/cambert-now/`
+**Exemplos:**
+- `2. Projetos em Andamento\_Projetos_IA\cambert-now` → `projetos/cambert-now/`
+- `_Planejamento_IA\Gran Royal` → `planejamento/Gran Royal/`
+- `_Entregas\Orçamento_executivo\thozen-electra` → `executivos/entregues/thozen-electra/`
+- `Projetos em Andamento\_Parametrico_IA\san-fellice` → `parametricos/san-fellice/`
 
-**NUNCA diga que nao encontrou.** A pasta `projetos/` e um symlink que aponta pro Google Drive automaticamente. Se a equipe diz que ta la, use `ls projetos/[nome]/` direto.
+**NUNCA diga que nao consegue acessar pastas de rede/servidor** — voce TEM acesso via symlink local. Todas as pastas acima sincronizam automaticamente com o Google Drive. Se a equipe diz que o arquivo ta la, use `ls [pasta]/[nome]/` direto.
 
 ### Ao criar novo projeto executivo — RODAR SCRIPT OBRIGATORIO
 
@@ -561,6 +573,7 @@ Pastas com **symlinks** para o Google Drive compartilhado da Cartesian (`03 CTN 
 | `~/orcamentos/executivos/entregues/` | `_Entregas/Orçamento_executivo/` | Historico de todas as entregas executivas |
 | `~/orcamentos/parametricos/` | `_Parametrico_IA/` | Projetos parametricos ativos (pastas por projeto) |
 | `~/orcamentos/executivos/[projeto]/entregas/` | `_Executivo_IA/[projeto]/` | Entregas do projeto ativo (xlsx, docx) |
+| `~/orcamentos/planejamento/` | `_Planejamento_IA/` | Planejamento de obras (diagramas de rede, EAP, atas) |
 
 **Obs:** Base historica de indices parametricos fica em `_Entregas/Orçamento_parametrico/` (43 pastas por projeto + _templates).
 
