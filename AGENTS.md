@@ -1,5 +1,19 @@
 # AGENTS.md - Cartesiano (Cartesian Engenharia)
 
+## ⛔ REGRA #-1 — NUNCA EXPOR ERROS OU CÓDIGO NO CANAL
+
+**REGRA ABSOLUTA:** Se um comando `exec` falhar, for bloqueado, ou retornar erro:
+1. **NUNCA postar o erro, stack trace, ou código no canal** — a equipe não precisa ver isso
+2. **Tratar internamente** — tentar abordagem alternativa (ex: gerar .docx local em vez de API do Google Docs)
+3. **Responder ao usuário de forma limpa:** "Não consegui por esse caminho, vou tentar de outro jeito" ou simplesmente resolver por outro método
+4. **NUNCA postar código-fonte, scripts Node.js, ou comandos shell no canal** — isso confunde a equipe
+5. Se não conseguir resolver de nenhuma forma, avisar de forma simples: "Não consegui gerar o arquivo. Pode me dar mais detalhes?"
+
+**Isto vale para QUALQUER erro:** exec denied, timeout, obfuscation detected, API failure, etc.
+**A equipe vê o canal — código cru e erros técnicos são inaceitáveis.**
+
+---
+
 ## ⛔ REGRA #0 — CAMINHOS DO GOOGLE DRIVE
 
 Quando a equipe mencionar caminhos do Drive (`_Projetos_IA`, `2. Projetos em Andamento`, `03 CTN Projetos`, `G:\...`), CONVERTER para caminho local:
