@@ -59,25 +59,20 @@
     }
   },
   "split_mo_material": {
-    "Canteiro": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "eletricas": {
+      "mo_valor": 1451470.87,
+      "material_valor": 1302365.59,
+      "mo_pct": 52.7
     },
-    "Loucas e Metais": {
-      "mo_pct": 0.195,
-      "material_pct": 0.805
+    "preventivas": {
+      "mo_valor": 196237.86,
+      "material_valor": 18231.95,
+      "mo_pct": 91.5
     },
-    "Fundacoes": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Infraestrutura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Instalacoes Eletricas": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "telecom": {
+      "mo_valor": 132232.4,
+      "material_valor": 181131.6,
+      "mo_pct": 42.2
     }
   },
   "curva_abc": {
@@ -541,5 +536,67 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1401838.68,
+    "eletricas": 2753836.46,
+    "preventivas": 214469.81,
+    "telecom": 313364.0
+  },
+  "instalacoes_extraction_method": "Ger_Executivo (Ger_Executivo)",
+  "indices_estruturais": {
+    "concreto_total_m3": 3769.28,
+    "concreto_m3_por_m2_ac": 0.285,
+    "aco_total_kg": 295209.57,
+    "aco_kg_por_m3_concreto": 78.32,
+    "forma_total_m2": 29611.19,
+    "forma_m2_por_m2_ac": 2.2393,
+    "fck_predominante": 35,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": null,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 1375.62,
+    "fundacao_aco_kg": 85686.18,
+    "mo_estrutural_rsm2": 405.24
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 1786807.32,
+    "ensaios": 26450,
+    "taxas_licencas": 17058.01,
+    "epcs": 3990,
+    "canteiro": 800.0
+  },
+  "sistemas_especiais_detail": {
+    "piscina": 20511.67,
+    "total": 20511.67
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 2633670.93
+    },
+    "metalicas_serralheria": {
+      "valor": 302389.91
+    },
+    "portas_madeira": {
+      "valor": 851777.16
+    },
+    "guarda_corpo": {
+      "valor": 15801.5
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 174137.3,
+    "juntas": 3383.52,
+    "textura_pintura_ext": 49659.31
+  },
+  "acabamentos_pus": {
+    "ceramica": 164.59,
+    "chapisco": 60.37,
+    "reboco": 27.44,
+    "porcelanato": 102.94,
+    "forro_gesso": 112.84,
+    "contrapiso": 49.75,
+    "rodape": 33.87,
+    "pintura": 78.43
   }
 }

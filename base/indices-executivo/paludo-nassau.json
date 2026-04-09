@@ -1,0 +1,147 @@
+{
+  "slug": "paludo-nassau",
+  "ac": 1402.94,
+  "total": 3735760.55,
+  "rsm2": 2662.81,
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 1322031.39,
+      "pct": 0.353885
+    },
+    "Mov.Terra": {
+      "valor": 26199.19,
+      "pct": 0.007013
+    },
+    "Infraestrutura": {
+      "valor": 125748.78,
+      "pct": 0.033661
+    },
+    "Supraestrutura": {
+      "valor": 490523.04,
+      "pct": 0.131305
+    },
+    "Alvenaria": {
+      "valor": 66213.62,
+      "pct": 0.017724
+    },
+    "Instalacoes": {
+      "valor": 219709.88,
+      "pct": 0.058813
+    },
+    "Sist.Especiais": {
+      "valor": 242061.2,
+      "pct": 0.064796
+    },
+    "Impermeabilizacao": {
+      "valor": 82871.26,
+      "pct": 0.022183
+    },
+    "Rev.Int.Parede": {
+      "valor": 128703.23,
+      "pct": 0.034452
+    },
+    "Teto": {
+      "valor": 69182.57,
+      "pct": 0.018519
+    },
+    "Pisos": {
+      "valor": 157914.81,
+      "pct": 0.042271
+    },
+    "Pintura": {
+      "valor": 166053.64,
+      "pct": 0.04445
+    },
+    "Esquadrias": {
+      "valor": 330931.36,
+      "pct": 0.088585
+    },
+    "Fachada": {
+      "valor": 118209.39,
+      "pct": 0.031643
+    },
+    "Complementares": {
+      "valor": 189407.19,
+      "pct": 0.050701
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Nassau Incorporadora SPE, Bombinhas/SC (Rua Ipe Amarelo, 301 - Canto Grande). 9 unidades. AC=1402.94m2 (derivada de total/rsm2). Empreitada Global (R$1.000.071) agregada em Gerenciamento. Cobertura (R$40.307) agregada em Complementares. Sem Loucas, Climatizacao ou Imprevistos separados.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 82218.4,
+    "eletricas": 92242.0,
+    "preventivas": 45249.48,
+    "telecom": 242061.2
+  },
+  "split_mo_material": {
+    "preventivas": {
+      "mo_valor": 42248.96,
+      "material_valor": 3000.52,
+      "mo_pct": 93.4
+    }
+  },
+  "instalacoes_extraction_method": "Relatório (Sienge)",
+  "indices_estruturais": {
+    "concreto_total_m3": 483.27,
+    "concreto_m3_por_m2_ac": 0.3445,
+    "aco_total_kg": 30815.0,
+    "aco_kg_por_m3_concreto": 63.76,
+    "forma_total_m2": 3654.84,
+    "forma_m2_por_m2_ac": 2.6051,
+    "fck_predominante": 30,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 515.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": null
+  },
+  "ci_detalhado": {
+    "ensaios": 14000,
+    "epcs": 33419.16,
+    "canteiro": 122103.03,
+    "equipamentos_carga": 115000
+  },
+  "sistemas_especiais_detail": {
+    "total": 242061.2,
+    "automacao": 15000
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 23575.6,
+      "pu": 13657.6
+    },
+    "portas_madeira": {
+      "valor": 98635.76,
+      "pu": 1517.47
+    },
+    "metalicas_serralheria": {
+      "valor": 5813.5
+    },
+    "guarda_corpo": {
+      "valor": 99747.53
+    },
+    "ferragens": {
+      "valor": 7800
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 22421.51,
+    "textura_pintura_ext": 14331.94,
+    "pastilha_porcelanato": 28778.09,
+    "pastilha_ceramica_valor": 18617.07,
+    "porcelanato_fachada_valor": 9506.62,
+    "juntas": 6462.92
+  },
+  "acabamentos_pus": {
+    "ceramica": 125.3,
+    "contrapiso": 60.23,
+    "chapisco": 6.34,
+    "reboco": 10.08,
+    "forro_gesso": 45.9,
+    "porcelanato": 106.54,
+    "rodape": 38.56,
+    "pintura": 13.5,
+    "laminado": 767.37
+  }
+}

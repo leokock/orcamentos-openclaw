@@ -656,5 +656,142 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "eletricas": 965418.35,
+    "hidrossanitarias": 566807.19
+  },
+  "instalacoes_extraction_method": "Separate sheets (ELÉTRICAS, HIDROSSANITÁRIO)",
+  "indices_estruturais": {
+    "concreto_total_m3": 839.39,
+    "concreto_m3_por_m2_ac": 0.1197,
+    "aco_total_kg": 38886.5,
+    "aco_kg_por_m3_concreto": 46.33,
+    "forma_total_m2": 2432.19,
+    "forma_m2_por_m2_ac": 0.3468,
+    "fck_predominante": "40MPa",
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 6155.5,
+    "estacas_qtd": 101,
+    "fundacao_concreto_m3": 71.89,
+    "fundacao_aco_kg": 4322.2,
+    "mo_estrutural_rsm2": 197.25
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": {
+      "valor": 2071326.18
+    },
+    "taxas_licencas": {
+      "valor": 8566972.579999998
+    },
+    "equipe_adm": {
+      "valor": 3604282.29,
+      "prazo_meses": null
+    },
+    "epcs": {
+      "valor": null
+    },
+    "equipamentos_carga": {
+      "valor": 957902.33
+    },
+    "ensaios": {
+      "valor": 151845
+    },
+    "canteiro": {
+      "valor": 542533.26
+    }
+  },
+  "loucas_metais_detail": {
+    "bacias_sanitarias": {
+      "qtd": 456,
+      "valor": null,
+      "pu": null
+    },
+    "cubas": {
+      "qtd": 66,
+      "valor": null,
+      "pu": null
+    },
+    "torneiras": {
+      "qtd": 21,
+      "valor": null,
+      "pu": null
+    },
+    "registros": {
+      "qtd": 7,
+      "valor": null
+    },
+    "chuveiros": {
+      "qtd": 1,
+      "valor": null
+    },
+    "bancadas_granito": {
+      "m2": 1,
+      "valor": null
+    },
+    "metais_total": {
+      "valor": null
+    },
+    "loucas_total": {
+      "valor": null
+    }
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 1189262.5,
+      "area_m2": 951.41,
+      "pu_m2": 1250.0
+    },
+    "guarda_corpo": {
+      "valor": 361978.19,
+      "comprimento_m": 337.15,
+      "pu_m": 1073.64
+    },
+    "portas_madeira": {
+      "valor": 328543.06,
+      "qtd": 412.0,
+      "pu_un": 797.43
+    },
+    "portas_corta_fogo": {
+      "valor": 29457.76,
+      "qtd": 47.0,
+      "pu_un": 626.76
+    },
+    "vidros": {
+      "valor": null
+    },
+    "pele_vidro": {
+      "valor": 89339.58
+    },
+    "brises": {
+      "valor": null
+    },
+    "total": 2205387.586678345
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": null
+    },
+    "textura_pintura_ext": {
+      "valor": null
+    },
+    "pastilha_porcelanato": {
+      "valor": null
+    },
+    "juntas": {
+      "valor": null
+    },
+    "total": 1829789.50242557
+  },
+  "acabamentos_pus": {
+    "porcelanato_pu_m2": null,
+    "ceramica_pu_m2": null,
+    "laminado_pu_m2": null,
+    "rodape_pu_m": null,
+    "contrapiso_pu_m2": null,
+    "forro_gesso_pu_m2": null,
+    "pintura_parede_pu_m2": null,
+    "chapisco_pu_m2": null,
+    "reboco_pu_m2": null
   }
 }

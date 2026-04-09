@@ -83,37 +83,20 @@
     }
   },
   "split_mo_material": {
-    "Canteiro": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "hidrossanitarias": {
+      "mo_valor": 459231.3,
+      "material_valor": 66290.67,
+      "mo_pct": 87.4
     },
-    "Fundacoes": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "eletricas": {
+      "mo_valor": 500979.6,
+      "material_valor": 303011.41,
+      "mo_pct": 62.3
     },
-    "Infraestrutura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Supraestrutura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Instalacoes Hidraulicas": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "SPDA": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Climatizacao": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Loucas e Metais": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "preventivas": {
+      "mo_valor": 107059.35,
+      "material_valor": 124884.5,
+      "mo_pct": 46.2
     }
   },
   "curva_abc": {
@@ -640,5 +623,33 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 525521.97,
+    "eletricas": 803991.01,
+    "preventivas": 231943.85
+  },
+  "instalacoes_extraction_method": "Ger_Executivo (Ger_Executivo)",
+  "indices_estruturais": {
+    "concreto_total_m3": 1724.42,
+    "concreto_m3_por_m2_ac": 0.4131,
+    "aco_total_kg": 117898.0,
+    "aco_kg_por_m3_concreto": 68.37,
+    "forma_total_m2": 13446.97,
+    "forma_m2_por_m2_ac": 3.221,
+    "fck_predominante": 35,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 1860.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 677.51,
+    "fundacao_aco_kg": 25532.0,
+    "mo_estrutural_rsm2": 249.49
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 320369.38,
+    "ensaios": 23820,
+    "taxas_licencas": 3607.99,
+    "epcs": 3334.46,
+    "canteiro": 800.0
   }
 }

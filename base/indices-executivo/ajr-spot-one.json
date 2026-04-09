@@ -591,6 +591,21 @@
     "Servicos Complementares": {
       "mo_pct": 0.0,
       "material_pct": 1.0
+    },
+    "eletricas": {
+      "mo_valor": 1456254.73,
+      "material_valor": 3465788.79,
+      "mo_pct": 29.6
+    },
+    "hidrossanitarias": {
+      "mo_valor": 1267442.14,
+      "material_valor": 2322528.79,
+      "mo_pct": 35.3
+    },
+    "preventivas": {
+      "mo_valor": 431220.0,
+      "material_valor": 203252.0,
+      "mo_pct": 68.0
     }
   },
   "curva_abc": {
@@ -1688,5 +1703,159 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "eletricas": 4922043.52,
+    "hidrossanitarias": 3589970.93,
+    "preventivas": 634472.0
+  },
+  "instalacoes_extraction_method": "Sienge Relatorio (v3)",
+  "indices_estruturais": {
+    "concreto_total_m3": 8234.53,
+    "aco_total_kg": 463695.0,
+    "aco_kg_por_m3_concreto": 56.31,
+    "forma_total_m2": 40972.98,
+    "fck_predominante": "40MPa",
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 3820.0,
+    "estacas_qtd": 9359,
+    "fundacao_concreto_m3": 2724.53,
+    "fundacao_aco_kg": 67235.0
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": {
+      "valor": 1700538.19
+    },
+    "taxas_licencas": {
+      "valor": 366000
+    },
+    "equipe_adm": {
+      "valor": 4164240.61,
+      "prazo_meses": null
+    },
+    "epcs": {
+      "valor": 862752.61
+    },
+    "equipamentos_carga": {
+      "valor": 3525716
+    },
+    "ensaios": {
+      "valor": 154288.19
+    },
+    "canteiro": {
+      "valor": 1786330
+    }
+  },
+  "loucas_metais_detail": {
+    "bacias_sanitarias": {
+      "qtd": null,
+      "valor": null,
+      "pu": null
+    },
+    "cubas": {
+      "qtd": null,
+      "valor": null,
+      "pu": null
+    },
+    "torneiras": {
+      "qtd": null,
+      "valor": null,
+      "pu": null
+    },
+    "registros": {
+      "qtd": null,
+      "valor": null
+    },
+    "chuveiros": {
+      "qtd": null,
+      "valor": null
+    },
+    "bancadas_granito": {
+      "m2": null,
+      "valor": null
+    },
+    "metais_total": {
+      "valor": null
+    },
+    "loucas_total": {
+      "valor": 714078.5
+    }
+  },
+  "sistemas_especiais_detail": {
+    "elevadores": {
+      "valor": 880000,
+      "qtd": null,
+      "pu_un": null
+    },
+    "gerador": {
+      "valor": null
+    },
+    "piscina": {
+      "valor": 174894.84
+    },
+    "ete": {
+      "valor": 77818
+    },
+    "automacao": {
+      "valor": 352807.28
+    }
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 5661789.12,
+      "area_m2": null,
+      "pu_m2": null
+    },
+    "guarda_corpo": {
+      "valor": 1502089.86,
+      "comprimento_m": 512.25,
+      "pu_m": 2932.34
+    },
+    "portas_madeira": {
+      "valor": 1375492.23,
+      "qtd": 1377,
+      "pu_un": 998.91
+    },
+    "portas_corta_fogo": {
+      "valor": 172562.0,
+      "qtd": 69,
+      "pu_un": 2500.9
+    },
+    "vidros": {
+      "valor": null
+    },
+    "pele_vidro": {
+      "valor": null
+    },
+    "brises": {
+      "valor": null
+    },
+    "total": 9145218.86
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 272217.36
+    },
+    "textura_pintura_ext": {
+      "valor": 294737.84
+    },
+    "pastilha_porcelanato": {
+      "valor": 331860.86
+    },
+    "juntas": {
+      "valor": 54239.6
+    },
+    "total": 2431359.99
+  },
+  "acabamentos_pus": {
+    "porcelanato_pu_m2": 197.56,
+    "ceramica_pu_m2": 48.48,
+    "laminado_pu_m2": 49.45,
+    "rodape_pu_m": 63.19,
+    "contrapiso_pu_m2": 39.36,
+    "forro_gesso_pu_m2": null,
+    "pintura_parede_pu_m2": 6.35,
+    "chapisco_pu_m2": 6.66,
+    "reboco_pu_m2": null
   }
 }

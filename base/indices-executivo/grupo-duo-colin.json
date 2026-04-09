@@ -124,38 +124,10 @@
     }
   },
   "split_mo_material": {
-    "Canteiro": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Fundacoes": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Infraestrutura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Supraestrutura": {
-      "mo_pct": 0.446,
-      "material_pct": 0.554
-    },
-    "Instalacoes Hidraulicas": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Instalacoes Eletricas": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "SPDA": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Climatizacao": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    }
+    "hidrossanitarias": 899441.4,
+    "eletricas": 899441.4,
+    "preventivas": 110700.48,
+    "gas": 69187.8
   },
   "curva_abc": {
     "Canteiro": {
@@ -676,5 +648,113 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 783283.61,
+    "eletricas": 1096394.46,
+    "preventivas": 148503.3,
+    "gas": 75483.89,
+    "telecom": 142565.73,
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 4390.42,
+    "concreto_m3_por_m2_ac": 0.6346,
+    "aco_total_kg": 384038.83,
+    "aco_kg_por_m3_concreto": 87.47,
+    "forma_total_m2": 33805.14,
+    "forma_m2_por_m2_ac": 4.886,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 1137.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 768.85,
+    "fundacao_aco_kg": 39972.7,
+    "mo_estrutural_rsm2": 963.4
+  },
+  "ci_detalhado": {
+    "servicos_tecnicos_total": 2405432.05,
+    "projetos_consultorias": 1545143.5099999998,
+    "estudos": 10300.0,
+    "projetos": 552152.35,
+    "consultorias": 150264.96,
+    "ensaios": 59854.44,
+    "taxas_licencas": 3265720.5799999996,
+    "licencas_taxas": 1609594.93,
+    "documentos": 23265.36,
+    "gerenciamento_adm_total": 1882298.58,
+    "epcs": 1038288.62,
+    "equipe_adm_canteiro": 2487866.41,
+    "epcs_equipamentos": 263507.36,
+    "meio_ambiente": 74599.31,
+    "equipe_gestao": 908029.37,
+    "despesas_consumo": 224191.37,
+    "canteiro_instalacoes": 84929.09,
+    "ligacoes_provisorias": 14250.75,
+    "equipamentos_total": 486160.0,
+    "equipamentos_carga": 972320.0,
+    "_metodo": "Ger_Tec_Adm:Ger_Tec e Adm"
+  },
+  "loucas_metais_detail": {
+    "total_valor": 197104.8,
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 1176214.96,
+    "elevadores": {
+      "valor": 860628.93
+    },
+    "piscina": {
+      "valor": 11541.75
+    },
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 1431245.35,
+      "qtd": 3054.0,
+      "pu": 468.65
+    },
+    "guarda_corpo": {
+      "valor": 702281.52,
+      "qtd": 409.1,
+      "pu": 1716.65
+    },
+    "portas_madeira": {
+      "valor": 446409.69,
+      "qtd": 574.0,
+      "pu": 777.72
+    },
+    "portas_corta_fogo": {
+      "valor": 68873.78,
+      "qtd": 84.0,
+      "pu": 819.93
+    },
+    "pele_vidro": {
+      "valor": 76837.56,
+      "qtd": 50.09,
+      "pu": 1533.99
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 260225.7
+    },
+    "textura_pintura_ext": {
+      "valor": 176275.11
+    },
+    "pastilha_porcelanato": {
+      "valor": 418348.57
+    },
+    "_total": 1075313.71
+  },
+  "acabamentos_pus": {
+    "ceramica": 68.71,
+    "pintura": 12.61,
+    "chapisco": 7.41,
+    "reboco": 15.9,
+    "porcelanato": 96.42,
+    "contrapiso": 46.49,
+    "rodape": 8.49
   }
 }

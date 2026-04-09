@@ -1,0 +1,106 @@
+{
+  "slug": "nova-empreendimentos-domus",
+  "ac": 5009.0,
+  "total": 38409996.88,
+  "rsm2": 7668.2,
+  "cub": 3012.64,
+  "cub_data_base": "2026-02",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 24594033.72,
+      "pct": 0.6403
+    },
+    "Mov.Terra": {
+      "valor": 470156.84,
+      "pct": 0.0122
+    },
+    "Infraestrutura": {
+      "valor": 1865319.14,
+      "pct": 0.0486
+    },
+    "Supraestrutura": {
+      "valor": 2286412.22,
+      "pct": 0.0595
+    },
+    "Alvenaria": {
+      "valor": 606794.24,
+      "pct": 0.0158
+    },
+    "Instalações": {
+      "valor": 2044789.77,
+      "pct": 0.0532
+    },
+    "Climatização": {
+      "valor": 153167.46,
+      "pct": 0.004
+    },
+    "Sist.Especiais": {
+      "valor": 533000.0,
+      "pct": 0.0139
+    },
+    "Impermeabilização": {
+      "valor": 510569.91,
+      "pct": 0.0133
+    },
+    "Rev.Int.Parede": {
+      "valor": 615415.02,
+      "pct": 0.016
+    },
+    "Teto": {
+      "valor": 216775.95,
+      "pct": 0.0056
+    },
+    "Pisos": {
+      "valor": 616937.02,
+      "pct": 0.0161
+    },
+    "Pintura": {
+      "valor": 253496.42,
+      "pct": 0.0066
+    },
+    "Esquadrias": {
+      "valor": 2500659.03,
+      "pct": 0.0651
+    },
+    "Louças": {
+      "valor": 101075.98,
+      "pct": 0.0026
+    },
+    "Fachada": {
+      "valor": 34289.44,
+      "pct": 0.0009
+    },
+    "Complementares": {
+      "valor": 1007104.73,
+      "pct": 0.0262
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orçamento Executivo R00 (MOE). AC=5009m2. Total=R$38.41M. R$/m2=7668 is very high because Gerenciamento (R$24.59M=64%) includes ADM with land costs, ITBI, incorporation, outorgas, plus MOE (mão de obra empreitada). Construction-only R$/m2~4196. Original had 29 MGs normalized to 17. CUB/SC R$3012.64 (fev/2026). No separate Fachada MG - only Coberturas R$34k. Infraestrutura = Contenções + Fundações.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 43835.13,
+    "eletricas": 88079.14,
+    "preventivas": 119067.34,
+    "telecom": 145818.13
+  },
+  "instalacoes_extraction_method": "INSTALAÇÕES sheet (INSTALAÇÕES ) + telecom from sheets",
+  "indices_estruturais": {
+    "concreto_total_m3": 3420.74,
+    "concreto_m3_por_m2_ac": 0.6829,
+    "aco_total_kg": 163991.23,
+    "aco_kg_por_m3_concreto": 47.94,
+    "forma_total_m2": 30987.94,
+    "forma_m2_por_m2_ac": 6.1865,
+    "fck_predominante": 35,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": 0.56,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 87.34,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": null
+  },
+  "ci_detalhado": {
+    "epcs": 4601.01,
+    "canteiro": 800.0
+  }
+}

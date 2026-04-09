@@ -1,0 +1,169 @@
+{
+  "projeto": "pass-e-passione",
+  "ac": 6681.54,
+  "total": 25287249.72,
+  "rsm2": 3784.64,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 4554675.86,
+      "rsm2": 681.68,
+      "pct": 0.1801
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 205454.92,
+      "rsm2": 30.75,
+      "pct": 0.0081
+    },
+    "INFRAESTRUTURA": {
+      "valor": 1634464.43,
+      "rsm2": 244.62,
+      "pct": 0.0646
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 4283212.96,
+      "rsm2": 641.05,
+      "pct": 0.1694
+    },
+    "ALVENARIA | VEDAÇÕES | DIVISÓRIAS": {
+      "valor": 1314396.15,
+      "rsm2": 196.72,
+      "pct": 0.052
+    },
+    "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS": {
+      "valor": 3072311.39,
+      "rsm2": 459.82,
+      "pct": 0.1215
+    },
+    "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+      "valor": 1607511.85,
+      "rsm2": 240.59,
+      "pct": 0.0636
+    },
+    "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+      "valor": 379249.67,
+      "rsm2": 56.76,
+      "pct": 0.015
+    },
+    "REVESTIMENTOS INTERNOS EM PISO E PAREDE": {
+      "valor": 1201147.66,
+      "rsm2": 179.77,
+      "pct": 0.0475
+    },
+    "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 589992.34,
+      "rsm2": 88.3,
+      "pct": 0.0233
+    },
+    "ACABAMENTOS EM PISO E PAREDE": {
+      "valor": 1238432.83,
+      "rsm2": 185.35,
+      "pct": 0.049
+    },
+    "SISTEMAS DE PINTURA INTERNA": {
+      "valor": 1190345.59,
+      "rsm2": 178.15,
+      "pct": 0.0471
+    },
+    "ESQUADRIAS - VIDROS E FERRAGENS": {
+      "valor": 1864111.96,
+      "rsm2": 278.99,
+      "pct": 0.0737
+    },
+    "COBERTURA": {
+      "valor": 169387.42,
+      "rsm2": 25.35,
+      "pct": 0.0067
+    },
+    "REVESTIMENTOS E ACABAMENTOS DE FACHADA": {
+      "valor": 1000997.89,
+      "rsm2": 149.82,
+      "pct": 0.0396
+    },
+    "SERVIÇOS COMPLEMENTARES E FINAIS": {
+      "valor": 176392.66,
+      "rsm2": 26.4,
+      "pct": 0.007
+    },
+    "IMPREVISTOS E CONTINGÊNCIAS": {
+      "valor": 805164.14,
+      "rsm2": 120.51,
+      "pct": 0.0318
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orçamento completo R05. AC=6681.54. 23 pavimentos. CUB/SC R$ 2907.85 (mar/2025).",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 900334.54,
+    "eletricas": 1096138.36,
+    "preventivas": 238000.0
+  },
+  "split_mo_material": {
+    "eletricas": {
+      "mo_valor": 800000.0,
+      "material_valor": 296138.36,
+      "mo_pct": 73.0
+    },
+    "hidrossanitarias": {
+      "mo_valor": 900000.0,
+      "material_valor": 334.54,
+      "mo_pct": 100.0
+    },
+    "preventivas": {
+      "mo_valor": 169000.0,
+      "material_valor": 69000.0,
+      "mo_pct": 71.0
+    }
+  },
+  "instalacoes_extraction_method": "Ger_Executivo (Ger_Executivo)",
+  "indices_estruturais": {
+    "concreto_total_m3": 2772.4,
+    "concreto_m3_por_m2_ac": 0.4149,
+    "aco_total_kg": 174730.94,
+    "aco_kg_por_m3_concreto": 63.03,
+    "forma_total_m2": 9438.67,
+    "forma_m2_por_m2_ac": 1.4126,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 2638.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 1220.64,
+    "fundacao_aco_kg": 45382.07,
+    "mo_estrutural_rsm2": 302.63
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 582187.2,
+    "ensaios": 20000,
+    "taxas_licencas": 12049.63,
+    "epcs": 6681.54,
+    "canteiro": 800.0
+  },
+  "esquadrias_detail": {
+    "vidros": {
+      "valor": 1864111.96
+    },
+    "aluminio": {
+      "valor": 1029533.39
+    },
+    "portas_madeira": {
+      "valor": 489600
+    },
+    "metalicas_serralheria": {
+      "valor": 109759.05
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 178558.45,
+    "textura_pintura_ext": 144590.82,
+    "juntas": 154768.11
+  },
+  "acabamentos_pus": {
+    "contrapiso": 65.11,
+    "ceramica": 85.0,
+    "chapisco": 58.0,
+    "reboco": 36.0,
+    "forro_gesso": 143.43,
+    "porcelanato": 112.23,
+    "rodape": 33.82,
+    "pintura": 77.91
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "mabrem-gran-torino",
+  "ac": 12518.96,
+  "total": 37237429.53,
+  "rsm2": 2974.48,
+  "cub": 2757.56,
+  "cub_data_base": "2024-04",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 4211407.44,
+      "pct": 0.1131
+    },
+    "Infraestrutura": {
+      "valor": 2039377.39,
+      "pct": 0.0548
+    },
+    "Supraestrutura": {
+      "valor": 8199898.76,
+      "pct": 0.2202
+    },
+    "Alvenaria": {
+      "valor": 1536405.4,
+      "pct": 0.0413
+    },
+    "Instalações": {
+      "valor": 4333910.09,
+      "pct": 0.1164
+    },
+    "Climatização": {
+      "valor": 265271.65,
+      "pct": 0.0071
+    },
+    "Sist.Especiais": {
+      "valor": 1779121.39,
+      "pct": 0.0478
+    },
+    "Impermeabilização": {
+      "valor": 542850.67,
+      "pct": 0.0146
+    },
+    "Rev.Int.Parede": {
+      "valor": 1830357.63,
+      "pct": 0.0492
+    },
+    "Teto": {
+      "valor": 752400.11,
+      "pct": 0.0202
+    },
+    "Pisos": {
+      "valor": 1919773.57,
+      "pct": 0.0516
+    },
+    "Pintura": {
+      "valor": 1872679.03,
+      "pct": 0.0503
+    },
+    "Esquadrias": {
+      "valor": 3613117.62,
+      "pct": 0.097
+    },
+    "Fachada": {
+      "valor": 1464673.47,
+      "pct": 0.0393
+    },
+    "Complementares": {
+      "valor": 2876185.32,
+      "pct": 0.0772
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orçamento comentado xlsx. AC=12518.96m2 (OBRA sheet). Total=R$37.24M (Gerenciamento R$4.21M + Executivo R$33.03M). Instalações=Elet+Hidro+Prev. Climatização separada. No Mov.Terra in this budget. CUB/SC R$2757.56 (abr/2024).",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1748574.5,
+    "eletricas": 2000291.68,
+    "preventivas": 585043.91,
+    "gas": null,
+    "telecom": null,
+    "_metodo": "DetailedExec:ORÇAMENTO_EXECUTIVO"
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 3479.52,
+    "concreto_m3_por_m2_ac": 0.2779,
+    "aco_total_kg": 258820.0,
+    "aco_kg_por_m3_concreto": 74.38,
+    "forma_total_m2": 31133.66,
+    "forma_m2_por_m2_ac": 2.4869,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 3216.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 3479.52,
+    "fundacao_aco_kg": 258820.0,
+    "mo_estrutural_rsm2": 292.58
+  },
+  "ci_detalhado": {
+    "ci_total": 4211407.44,
+    "servicos_tecnicos_total": 900745.62,
+    "projetos_consultorias": 803511.79,
+    "estudos": 155257.09,
+    "projetos": 380354.48,
+    "consultorias": 121532.68,
+    "taxas_licencas": 97233.83,
+    "gerenciamento_adm_total": 3310661.82,
+    "epcs": 464687.51,
+    "equipe_adm_canteiro": 1601254.31,
+    "canteiro_from_sheet": 39000.0,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "loucas_metais_detail": {
+    "total_valor": 2933.36,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 605327.21,
+    "piscina": {
+      "valor": 14913.3
+    },
+    "elevadores": {
+      "valor": 972620.88
+    },
+    "ete": {
+      "valor": 399000.0
+    },
+    "churrasqueiras_exaustao": {
+      "valor": 180400.0
+    },
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 1771416.52,
+      "qtd": 1597.49,
+      "pu": 1108.87
+    },
+    "guarda_corpo": {
+      "valor": 618062.41,
+      "qtd": 1666.72,
+      "pu": 370.82
+    },
+    "portas_madeira": {
+      "valor": 710108.71,
+      "qtd": 998.08,
+      "pu": 711.47
+    },
+    "portas_corta_fogo": {
+      "valor": 62787.6,
+      "qtd": 40.0,
+      "pu": 1569.69
+    },
+    "_total": 3613117.62
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 788986.75
+    },
+    "textura_pintura_ext": {
+      "valor": 352613.26
+    },
+    "pastilha_porcelanato": {
+      "valor": 237538.61
+    },
+    "juntas": {
+      "valor": 3929.28
+    },
+    "_total": 1433771.26
+  },
+  "acabamentos_pus": {
+    "contrapiso": 58.37,
+    "ceramica": 45.59,
+    "pintura": 13.87,
+    "chapisco": 1.7,
+    "reboco": 18.05,
+    "porcelanato": 89.58,
+    "rodape": 42.0
+  }
+}

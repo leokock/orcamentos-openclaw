@@ -1,0 +1,107 @@
+{
+  "slug": "inbrasul-opus",
+  "ac": 4410.5,
+  "total": 16756730.41,
+  "rsm2": 3799.28,
+  "cub_ref": 2643.16,
+  "data_base": "dez/2022",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 5396049.23,
+      "pct": 0.322
+    },
+    "Mov.Terra": {
+      "valor": 25773.05,
+      "pct": 0.0015
+    },
+    "Infraestrutura": {
+      "valor": 440323.78,
+      "pct": 0.0263
+    },
+    "Supraestrutura": {
+      "valor": 2662475.85,
+      "pct": 0.1589
+    },
+    "Alvenaria": {
+      "valor": 399570.28,
+      "pct": 0.0238
+    },
+    "Instalações": {
+      "valor": 1835642.37,
+      "pct": 0.1095
+    },
+    "Sist.Especiais": {
+      "valor": 742188.93,
+      "pct": 0.0443
+    },
+    "Impermeabilização": {
+      "valor": 181594.03,
+      "pct": 0.0108
+    },
+    "Rev.Int.Parede": {
+      "valor": 586101.12,
+      "pct": 0.035
+    },
+    "Teto": {
+      "valor": 146644.6,
+      "pct": 0.0088
+    },
+    "Pisos": {
+      "valor": 854765.84,
+      "pct": 0.051
+    },
+    "Pintura": {
+      "valor": 389629.16,
+      "pct": 0.0233
+    },
+    "Esquadrias": {
+      "valor": 1339903.5,
+      "pct": 0.08
+    },
+    "Fachada": {
+      "valor": 487518.06,
+      "pct": 0.0291
+    },
+    "Complementares": {
+      "valor": 1268550.61,
+      "pct": 0.0757
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orcamento Resumo. AC=4410.50. 36 unidades. Sem Imprevistos. CUB/SC dez/2022.",
+  "instalacoes_breakdown": {
+    "_nota": "consolidado - sem split por disciplina na fonte",
+    "total_consolidado": 1835642.37,
+    "_metodo": "Resumo:Orçamento Resumo"
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": null,
+    "concreto_m3_por_m2_ac": null,
+    "aco_total_kg": null,
+    "aco_kg_por_m3_concreto": null,
+    "forma_total_m2": null,
+    "forma_m2_por_m2_ac": null,
+    "fck_predominante": null,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": null,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": 99.84
+  },
+  "ci_detalhado": {
+    "ci_total": 5396049.23,
+    "_metodo": "Resumo:Orçamento Resumo"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 742188.93,
+    "_metodo": "Executivo_summary:Orçamento Resumo"
+  },
+  "esquadrias_detail": {
+    "_total": 1339903.5
+  },
+  "fachada_detail": {
+    "_total": 487518.06
+  },
+  "acabamentos_pus": {}
+}

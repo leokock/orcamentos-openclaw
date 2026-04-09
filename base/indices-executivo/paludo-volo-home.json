@@ -1,0 +1,169 @@
+{
+  "slug": "paludo-volo-home",
+  "ac": 3972.3,
+  "total": 12450664.73,
+  "rsm2": 3134.37,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 4664643.42,
+      "pct": 0.3747
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 130570.37,
+      "pct": 0.0105
+    },
+    "INFRAESTRUTURA": {
+      "valor": 240463.03,
+      "pct": 0.0193
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 1904909.21,
+      "pct": 0.153
+    },
+    "ALVENARIA | VEDAÇÕES | DIVISÓRIAS": {
+      "valor": 281224.0,
+      "pct": 0.0226
+    },
+    "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS": {
+      "valor": 668527.92,
+      "pct": 0.0537
+    },
+    "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+      "valor": 392311.51,
+      "pct": 0.0315
+    },
+    "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+      "valor": 281940.13,
+      "pct": 0.0226
+    },
+    "REVESTIMENTOS INTERNOS EM PISO E PAREDE": {
+      "valor": 503481.16,
+      "pct": 0.0404
+    },
+    "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 215027.2,
+      "pct": 0.0173
+    },
+    "ACABAMENTOS EM PISO E PAREDE": {
+      "valor": 369121.22,
+      "pct": 0.0296
+    },
+    "SISTEMAS DE PINTURA INTERNA": {
+      "valor": 655642.56,
+      "pct": 0.0527
+    },
+    "ESQUADRIAS - VIDROS E FERRAGENS": {
+      "valor": 1277545.14,
+      "pct": 0.1026
+    },
+    "COBERTURA": {
+      "valor": 53919.68,
+      "pct": 0.0043
+    },
+    "REVESTIMENTOS E ACABAMENTOS DE FACHADA": {
+      "valor": 395281.33,
+      "pct": 0.0317
+    },
+    "SERVIÇOS COMPLEMENTARES E FINAIS": {
+      "valor": 230363.64,
+      "pct": 0.0185
+    },
+    "IMPREVISTOS E CONTINGÊNCIAS": {
+      "valor": 185693.21,
+      "pct": 0.0149
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Sienge export Relatório. AC=3972.30 derivado de qty Alvarás (m2). Gramado/RS. Gerenciamento inclui Empreitada Global (R$3.670.000). Instalações = Elétricas + Hidro + Preventivas. Data base: 27/02/2024.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 369901.5,
+    "eletricas": 203583.97,
+    "preventivas": 95042.45,
+    "telecom": 392311.51
+  },
+  "split_mo_material": {
+    "preventivas": {
+      "mo_valor": 88265.15,
+      "material_valor": 6777.3,
+      "mo_pct": 92.9
+    }
+  },
+  "instalacoes_extraction_method": "Relatório (Sienge)",
+  "indices_estruturais": {
+    "concreto_total_m3": 1323.64,
+    "concreto_m3_por_m2_ac": 0.3332,
+    "aco_total_kg": 97475.0,
+    "aco_kg_por_m3_concreto": 73.64,
+    "forma_total_m2": 11041.85,
+    "forma_m2_por_m2_ac": 2.7797,
+    "fck_predominante": 30,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": null,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": null
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 269047,
+    "ensaios": 17744.02,
+    "taxas_licencas": 141204.01,
+    "epcs": 166430.51,
+    "canteiro": 193325.28,
+    "equipamentos_carga": 152799.2
+  },
+  "loucas_metais_detail": {
+    "bacias": null,
+    "cubas": null,
+    "torneiras": null,
+    "registros": null,
+    "chuveiros": null,
+    "bancadas": null,
+    "outros": 83451.16,
+    "total": 83451.16
+  },
+  "sistemas_especiais_detail": {
+    "total": 392311.51,
+    "automacao": 35010.81
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 1023619.07,
+      "pu": 982359.81
+    },
+    "portas_madeira": {
+      "valor": 129042.96,
+      "pu": 728.85
+    },
+    "metalicas_serralheria": {
+      "valor": 46449
+    },
+    "guarda_corpo": {
+      "valor": 16200.07
+    },
+    "ferragens": {
+      "valor": 29806.16
+    },
+    "vidros": {
+      "valor": 17273.35
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 62931.37,
+    "textura_pintura_ext": 42741.2,
+    "pastilha_porcelanato": 157576.63,
+    "porcelanato_fachada_valor": 15451.14,
+    "juntas": 15177.32
+  },
+  "acabamentos_pus": {
+    "contrapiso": 36.42,
+    "chapisco": 15.31,
+    "reboco": 21.81,
+    "forro_gesso": 54.55,
+    "porcelanato": 71.98,
+    "laminado": 72.41,
+    "rodape": 20.96,
+    "ceramica": 81.35,
+    "pintura": 14.0
+  }
+}

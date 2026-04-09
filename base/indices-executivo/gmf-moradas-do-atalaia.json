@@ -1,0 +1,150 @@
+{
+  "slug": "gmf-moradas-do-atalaia",
+  "ac": 7374.18,
+  "total": 25675656.81,
+  "rsm2": 3481.83,
+  "cub_ref": 2757.56,
+  "data_base": "abr/2024",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 3411276.86,
+      "pct": 0.1329
+    },
+    "Mov.Terra": {
+      "valor": 117226.62,
+      "pct": 0.0046
+    },
+    "Infraestrutura": {
+      "valor": 1700891.95,
+      "pct": 0.0662
+    },
+    "Supraestrutura": {
+      "valor": 5154482.22,
+      "pct": 0.2008
+    },
+    "Alvenaria": {
+      "valor": 910813.58,
+      "pct": 0.0355
+    },
+    "Instalações": {
+      "valor": 2870107.33,
+      "pct": 0.1118
+    },
+    "Sist.Especiais": {
+      "valor": 817781.32,
+      "pct": 0.0319
+    },
+    "Climatização": {
+      "valor": 216600.0,
+      "pct": 0.0084
+    },
+    "Impermeabilização": {
+      "valor": 482376.84,
+      "pct": 0.0188
+    },
+    "Rev.Int.Parede": {
+      "valor": 1159047.73,
+      "pct": 0.0451
+    },
+    "Teto": {
+      "valor": 405459.35,
+      "pct": 0.0158
+    },
+    "Pisos": {
+      "valor": 1762646.2,
+      "pct": 0.0687
+    },
+    "Pintura": {
+      "valor": 995637.62,
+      "pct": 0.0388
+    },
+    "Esquadrias": {
+      "valor": 3047560.2,
+      "pct": 0.1187
+    },
+    "Complementares": {
+      "valor": 1503162.83,
+      "pct": 0.0585
+    },
+    "Fachada": {
+      "valor": 420905.94,
+      "pct": 0.0164
+    },
+    "Imprevistos": {
+      "valor": 699680.22,
+      "pct": 0.0273
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "ORCAMENTO_EXECUTIVO (Exec column F). AC=7374.18. Contencao agregada a Infraestrutura. CUB/SC abr/2024. Itajai.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 932074.24,
+    "eletricas": 1046810.21,
+    "preventivas": 350445.22,
+    "gas": null,
+    "telecom": 145376.22,
+    "_metodo": "Fallback-Rel:Planilha1"
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 0.0,
+    "taxas_licencas": 0.0,
+    "epcs": 0.0,
+    "ci_total": 0.0,
+    "_metodo": "Relatório:Relatório"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 1034381.32,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 1725989.34,
+      "qtd": 3794.1,
+      "pu": 454.91
+    },
+    "guarda_corpo": {
+      "valor": 400662.17,
+      "qtd": 2064.13,
+      "pu": 194.11
+    },
+    "portas_madeira": {
+      "valor": 358908.29,
+      "qtd": 893.44,
+      "pu": 401.72
+    },
+    "portas_corta_fogo": {
+      "valor": 67050.35,
+      "qtd": 261.36,
+      "pu": 256.54
+    },
+    "pele_vidro": {
+      "valor": 31794.92
+    },
+    "brises": {
+      "valor": 193907.52,
+      "qtd": 287.33,
+      "pu": 674.86
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 219626.8
+    },
+    "textura_pintura_ext": {
+      "valor": 135364.8
+    },
+    "pastilha_porcelanato": {
+      "valor": 186889.5
+    }
+  },
+  "acabamentos_pus": {
+    "ceramica": 77.94,
+    "chapisco": 3.2,
+    "reboco": 17.86,
+    "forro_gesso": 60.0,
+    "contrapiso": 26.16,
+    "porcelanato": 107.92,
+    "rodape": 27.24,
+    "pintura": 18.7
+  }
+}

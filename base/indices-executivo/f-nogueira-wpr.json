@@ -1,0 +1,96 @@
+{
+  "slug": "f-nogueira-wpr",
+  "ac": 37483.31,
+  "total": 95548670.14,
+  "rsm2": 2549.1,
+  "cub_ref": 2470.83,
+  "data_base": "mai/2022",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 19727741.65,
+      "pct": 0.2065
+    },
+    "Mov.Terra": {
+      "valor": 204974.97,
+      "pct": 0.0021
+    },
+    "Infraestrutura": {
+      "valor": 3593617.07,
+      "pct": 0.0376
+    },
+    "Supraestrutura": {
+      "valor": 11620435.08,
+      "pct": 0.1216
+    },
+    "Alvenaria": {
+      "valor": 4248856.07,
+      "pct": 0.0445
+    },
+    "Instalações": {
+      "valor": 12448859.41,
+      "pct": 0.1303
+    },
+    "Sist.Especiais": {
+      "valor": 9550000.0,
+      "pct": 0.0999
+    },
+    "Impermeabilização": {
+      "valor": 1274714.19,
+      "pct": 0.0133
+    },
+    "Rev.Int.Parede": {
+      "valor": 2443137.49,
+      "pct": 0.0256
+    },
+    "Teto": {
+      "valor": 2601416.58,
+      "pct": 0.0272
+    },
+    "Pisos": {
+      "valor": 8691763.38,
+      "pct": 0.091
+    },
+    "Pintura": {
+      "valor": 2336276.62,
+      "pct": 0.0245
+    },
+    "Esquadrias": {
+      "valor": 7526997.33,
+      "pct": 0.0788
+    },
+    "Complementares": {
+      "valor": 4365591.96,
+      "pct": 0.0457
+    },
+    "Fachada": {
+      "valor": 3040785.0,
+      "pct": 0.0318
+    },
+    "Imprevistos": {
+      "valor": 1873503.34,
+      "pct": 0.0196
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Executivo sheet. AC CORRIGIDO (era null). Total CORRIGIDO de R$2106 para R$95.5M. CUB/SC mai/2022. 73 unidades.",
+  "instalacoes_breakdown": {
+    "_nota": "consolidado - sem split por disciplina na fonte",
+    "total_consolidado": 12448859.41,
+    "_metodo": "Executivo:Executivo"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 9550000.0,
+    "_metodo": "Executivo_summary:Executivo"
+  },
+  "ci_detalhado": {
+    "ci_total": 19727741.65,
+    "_metodo": "Executivo_summary:Executivo"
+  },
+  "esquadrias_detail": {
+    "_total": 7526997.33
+  },
+  "fachada_detail": {
+    "_total": 3040785.0
+  },
+  "acabamentos_pus": {}
+}

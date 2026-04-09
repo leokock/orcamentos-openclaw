@@ -1,0 +1,100 @@
+{
+  "slug": "lumis-live",
+  "ac": 14888.46,
+  "total": 43772260.74,
+  "rsm2": 2940.01,
+  "cub": 2662.47,
+  "cub_data_base": "2023-02",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 2866588.38,
+      "pct": 0.0655
+    },
+    "Mov.Terra": {
+      "valor": 1955643.6,
+      "pct": 0.0447
+    },
+    "Infraestrutura": {
+      "valor": 1478806.72,
+      "pct": 0.0338
+    },
+    "Supraestrutura": {
+      "valor": 9987703.09,
+      "pct": 0.2282
+    },
+    "Alvenaria": {
+      "valor": 2253919.57,
+      "pct": 0.0515
+    },
+    "Instalações": {
+      "valor": 4491140.07,
+      "pct": 0.1026
+    },
+    "Sist.Especiais": {
+      "valor": 1810855.85,
+      "pct": 0.0414
+    },
+    "Impermeabilização": {
+      "valor": 911049.55,
+      "pct": 0.0208
+    },
+    "Rev.Int.Parede": {
+      "valor": 2408016.38,
+      "pct": 0.055
+    },
+    "Teto": {
+      "valor": 567858.72,
+      "pct": 0.013
+    },
+    "Pisos": {
+      "valor": 3476426.22,
+      "pct": 0.0794
+    },
+    "Pintura": {
+      "valor": 896959.09,
+      "pct": 0.0205
+    },
+    "Esquadrias": {
+      "valor": 5862062.05,
+      "pct": 0.1339
+    },
+    "Fachada": {
+      "valor": 2534596.96,
+      "pct": 0.0579
+    },
+    "Complementares": {
+      "valor": 2270634.5,
+      "pct": 0.0519
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Apresentação xlsx. AC=14888.46m2 (from G6 Gerenciamento_Exec sheet). Total R$43.77M (with gerenciamento). CUB/SC R$2662.47 (fev/2023). Fachada = Rev.Ext.Fachada R$2265753 + Cobertura R$268844.",
+  "instalacoes_breakdown": {
+    "_nota": "consolidado - sem split por disciplina na fonte",
+    "total_consolidado": 4491140.07,
+    "_metodo": "Executivo:Gerenciamento_Exec"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 1810855.85,
+    "_metodo": "Executivo_summary:Gerenciamento executivo "
+  },
+  "ci_detalhado": {
+    "ci_total": 2866588.38,
+    "_metodo": "Executivo_summary:Gerenciamento_Exec"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 3441959.87
+    },
+    "portas_madeira": {
+      "valor": 1240084.8
+    },
+    "vidros": {
+      "valor": 1180017.38
+    }
+  },
+  "fachada_detail": {
+    "_total": 1840742.47
+  },
+  "acabamentos_pus": {}
+}

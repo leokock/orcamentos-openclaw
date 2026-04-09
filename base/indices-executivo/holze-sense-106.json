@@ -1,0 +1,161 @@
+{
+  "slug": "holze-sense-106",
+  "ac": 8700.0,
+  "total": 30584964.89,
+  "rsm2": 3515.51,
+  "cub_ref": null,
+  "data_base": "nov/2024",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 5309213.98,
+      "pct": 0.1736
+    },
+    "Mov.Terra": {
+      "valor": 149821.11,
+      "pct": 0.0049
+    },
+    "Infraestrutura": {
+      "valor": 2033142.16,
+      "pct": 0.0665
+    },
+    "Supraestrutura": {
+      "valor": 7512491.88,
+      "pct": 0.2456
+    },
+    "Alvenaria": {
+      "valor": 1061156.69,
+      "pct": 0.0347
+    },
+    "Instalações": {
+      "valor": 2805795.86,
+      "pct": 0.0917
+    },
+    "Climatização": {
+      "valor": 198050.0,
+      "pct": 0.0065
+    },
+    "Impermeabilização": {
+      "valor": 434083.04,
+      "pct": 0.0142
+    },
+    "Rev.Int.Parede": {
+      "valor": 1368092.66,
+      "pct": 0.0447
+    },
+    "Teto": {
+      "valor": 557343.62,
+      "pct": 0.0182
+    },
+    "Pisos": {
+      "valor": 1576198.26,
+      "pct": 0.0515
+    },
+    "Pintura": {
+      "valor": 1225835.07,
+      "pct": 0.0401
+    },
+    "Esquadrias": {
+      "valor": 2055708.75,
+      "pct": 0.0672
+    },
+    "Complementares": {
+      "valor": 1655821.92,
+      "pct": 0.0541
+    },
+    "Fachada": {
+      "valor": 825484.9,
+      "pct": 0.027
+    },
+    "Sist.Especiais": {
+      "valor": 1064716.1,
+      "pct": 0.0348
+    },
+    "Louças": {
+      "valor": 300014.33,
+      "pct": 0.0098
+    },
+    "Imprevistos": {
+      "valor": 451994.55,
+      "pct": 0.0148
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "ORCAMENTO detailed (CC level). AC=8700. 60 un, 27 pav. Custos Indiretos (5.3M) = Gerenciamento. 4 disciplinas de instalacoes combinadas. Sem CUB no arquivo.",
+  "instalacoes_breakdown": {
+    "_nota": "formulas quebradas (#NUM!) na planilha - valores de instalacoes nao calculados",
+    "_metodo": "nao_extraido"
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 3558.85,
+    "concreto_m3_por_m2_ac": 0.4091,
+    "aco_total_kg": 270842.49,
+    "aco_kg_por_m3_concreto": 76.1,
+    "forma_total_m2": 12775.86,
+    "forma_m2_por_m2_ac": 1.4685,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 3220.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": 673.8
+  },
+  "loucas_metais_detail": {
+    "chuveiros": 1,
+    "_metodo": "Louças_sheet:LOUÇAS&METAIS"
+  },
+  "sistemas_especiais_detail": {
+    "piscina": {
+      "valor": 68251.5
+    },
+    "_metodo": "PISCINA_sheet"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 1002939.95,
+      "qtd": 3503.69,
+      "pu": 286.25
+    },
+    "guarda_corpo": {
+      "valor": 210036.01,
+      "qtd": 826.22,
+      "pu": 254.21
+    },
+    "portas_madeira": {
+      "valor": 519973.84,
+      "qtd": 800.0,
+      "pu": 649.97
+    },
+    "portas_corta_fogo": {
+      "valor": 87983.77,
+      "qtd": 323.3,
+      "pu": 272.14
+    },
+    "brises": {
+      "valor": 3913.43,
+      "qtd": 7.86,
+      "pu": 497.89
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 367609.67
+    },
+    "textura_pintura_ext": {
+      "valor": 321660.85
+    },
+    "pastilha_porcelanato": {
+      "valor": 271540.94
+    },
+    "_total": 825484.9
+  },
+  "acabamentos_pus": {
+    "ceramica": 61.53,
+    "pintura": 12.84,
+    "contrapiso": 34.69,
+    "chapisco": 3.34,
+    "reboco": 16.0,
+    "porcelanato": 115.57,
+    "rodape": 54.7
+  }
+}

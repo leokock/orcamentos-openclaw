@@ -1,0 +1,130 @@
+{
+  "slug": "muller-empreendimentos-elleva",
+  "ac": 2969.0,
+  "total": 12939593.12,
+  "rsm2": 4358.23,
+  "macrogrupos": {
+    "Mov.Terra": {
+      "valor": 29438.05,
+      "pct": 0.0023
+    },
+    "Infraestrutura": {
+      "valor": 630592.19,
+      "pct": 0.0487
+    },
+    "Supraestrutura": {
+      "valor": 1289379.26,
+      "pct": 0.0996
+    },
+    "Alvenaria": {
+      "valor": 875410.82,
+      "pct": 0.0677
+    },
+    "Instalações": {
+      "valor": 1774467.5,
+      "pct": 0.1371
+    },
+    "Climatização": {
+      "valor": 631482.81,
+      "pct": 0.0488
+    },
+    "Sist.Especiais": {
+      "valor": 401580.0,
+      "pct": 0.031
+    },
+    "Impermeabilização": {
+      "valor": 276809.01,
+      "pct": 0.0214
+    },
+    "Rev.Int.Parede": {
+      "valor": 214658.93,
+      "pct": 0.0166
+    },
+    "Teto": {
+      "valor": 251497.8,
+      "pct": 0.0194
+    },
+    "Pisos": {
+      "valor": 971806.17,
+      "pct": 0.0751
+    },
+    "Pintura": {
+      "valor": 426982.45,
+      "pct": 0.033
+    },
+    "Esquadrias": {
+      "valor": 894390.63,
+      "pct": 0.0691
+    },
+    "Louças": {
+      "valor": 244694.32,
+      "pct": 0.0189
+    },
+    "Fachada": {
+      "valor": 869786.41,
+      "pct": 0.0672
+    },
+    "Complementares": {
+      "valor": 2941629.45,
+      "pct": 0.2273
+    },
+    "Imprevistos": {
+      "valor": 214987.33,
+      "pct": 0.0166
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orçamento xlsx R02. AC=2969m2 (from external source, not in spreadsheet). Total=R$12.94M (no Gerenciamento included). Has Climatização, Louças as separate MGs. Instalações=Elet+Hidro+Prev+Comunicações. Complementares=R$2.94M unusually high (22.7%). R$/m2=4358 is high because AC may be off or scope includes extras.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1132906.51,
+    "eletricas": 410875.78,
+    "preventivas": 115129.49,
+    "gas": null,
+    "telecom": 115555.72,
+    "_metodo": "Resumo-Rel:Resumo"
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 743.73,
+    "concreto_m3_por_m2_ac": 0.2505,
+    "aco_total_kg": 38980.0,
+    "aco_kg_por_m3_concreto": 52.41,
+    "forma_total_m2": 2611.32,
+    "forma_m2_por_m2_ac": 0.8795,
+    "fck_predominante": null,
+    "tipo_estaca": "Hélice Contínua",
+    "estacas_comprimento_total_m": 1686.0,
+    "estacas_qtd": 60,
+    "fundacao_concreto_m3": 227.93,
+    "fundacao_aco_kg": 1956.1,
+    "mo_estrutural_rsm2": null
+  },
+  "loucas_metais_detail": {
+    "total_valor": 244694.32,
+    "bacias": 67,
+    "torneiras": 144,
+    "registros": 136,
+    "chuveiros": 64,
+    "bancadas": 131,
+    "_metodo": "Consolidação:Louças e metais_Consolidação"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "qtd": 636.3
+    },
+    "portas_madeira": {
+      "qtd": 264.0
+    },
+    "portas_corta_fogo": {
+      "qtd": 20.0
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "qtd_m2": 1561.13
+    },
+    "textura_pintura_ext": {
+      "qtd_m2": 983.76
+    }
+  },
+  "acabamentos_pus": {}
+}

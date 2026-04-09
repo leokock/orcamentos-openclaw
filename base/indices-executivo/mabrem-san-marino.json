@@ -1,0 +1,137 @@
+{
+  "slug": "mabrem-san-marino",
+  "ac": null,
+  "total": 11639433.78,
+  "rsm2": null,
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 1079767.22,
+      "pct": 0.0928
+    },
+    "Mov. Terra": {
+      "valor": 0,
+      "pct": 0.0
+    },
+    "Infraestrutura": {
+      "valor": 1066234.74,
+      "pct": 0.0916
+    },
+    "Supraestrutura": {
+      "valor": 2700796.7,
+      "pct": 0.232
+    },
+    "Alvenaria": {
+      "valor": 458588.43,
+      "pct": 0.0394
+    },
+    "Impermeabilizacao": {
+      "valor": 240792.21,
+      "pct": 0.0207
+    },
+    "Instalacoes": {
+      "valor": 1199459.76,
+      "pct": 0.1031
+    },
+    "Sist. Especiais": {
+      "valor": 664500,
+      "pct": 0.0571
+    },
+    "Climatizacao": {
+      "valor": 193112.1,
+      "pct": 0.0166
+    },
+    "Rev. Int. Parede": {
+      "valor": 560885.69,
+      "pct": 0.0482
+    },
+    "Teto": {
+      "valor": 198035.44,
+      "pct": 0.017
+    },
+    "Pisos": {
+      "valor": 582750.03,
+      "pct": 0.0501
+    },
+    "Pintura": {
+      "valor": 434679.59,
+      "pct": 0.0373
+    },
+    "Esquadrias": {
+      "valor": 977056.98,
+      "pct": 0.0839
+    },
+    "Loucas e Metais": {
+      "valor": 0,
+      "pct": 0.0
+    },
+    "Fachada": {
+      "valor": 661089.85,
+      "pct": 0.0568
+    },
+    "Complementares": {
+      "valor": 451685.05,
+      "pct": 0.0388
+    },
+    "Imprevistos": {
+      "valor": 170000,
+      "pct": 0.0146
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orcamento Methodo R00, ref. nov/2020. AC nao disponivel na planilha. Total=R$11.64M (Ger R$1.08M + Exec R$10.56M). 2 elevadores (social+servico). Climatizacao separada (R$193k). Loucas nao separadas. Imprevistos R$170k extraidos de Complementares.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 506000.23,
+    "eletricas": 602403.53,
+    "preventivas": 91056,
+    "gas": null,
+    "telecom": null,
+    "_metodo": "Fallback-Rel:Sheet1"
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 2889.1,
+    "concreto_m3_por_m2_ac": null,
+    "aco_total_kg": 107711.11,
+    "aco_kg_por_m3_concreto": 37.28,
+    "forma_total_m2": 15639.38,
+    "forma_m2_por_m2_ac": null,
+    "fck_predominante": 35,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 3112.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": null
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 278563.6
+    },
+    "guarda_corpo": {
+      "valor": 195704.65
+    },
+    "portas_madeira": {
+      "valor": 7835.24
+    },
+    "portas_corta_fogo": {
+      "valor": 9300.0
+    },
+    "vidros": {
+      "valor": 1500.0
+    },
+    "pele_vidro": {
+      "valor": 1520.0
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 13346.29
+    },
+    "textura_pintura_ext": {
+      "valor": 17019.9
+    },
+    "pastilha_porcelanato": {
+      "valor": 7112.04
+    }
+  },
+  "acabamentos_pus": {}
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "rosner-reserva-sao-vicente",
+  "ac": 7007.86,
+  "total": 22650779.19,
+  "rsm2": 3232.2,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 3874063.51,
+      "pct": 0.171
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 144943.54,
+      "pct": 0.0064
+    },
+    "INFRAESTRUTURA": {
+      "valor": 1406808.89,
+      "pct": 0.0621
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 3231293.52,
+      "pct": 0.1427
+    },
+    "ALVENARIA | VEDAÇÕES | DIVISÓRIAS": {
+      "valor": 897409.4,
+      "pct": 0.0396
+    },
+    "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS": {
+      "valor": 2598271.92,
+      "pct": 0.1147
+    },
+    "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+      "valor": 1032847.78,
+      "pct": 0.0456
+    },
+    "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+      "valor": 235456.6,
+      "pct": 0.0104
+    },
+    "REVESTIMENTOS INTERNOS EM PISO E PAREDE": {
+      "valor": 1902266.07,
+      "pct": 0.084
+    },
+    "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 286518.23,
+      "pct": 0.0126
+    },
+    "ACABAMENTOS EM PISO E PAREDE": {
+      "valor": 1378642.99,
+      "pct": 0.0609
+    },
+    "SISTEMAS DE PINTURA INTERNA": {
+      "valor": 892038.32,
+      "pct": 0.0394
+    },
+    "ESQUADRIAS - VIDROS E FERRAGENS": {
+      "valor": 1531310.06,
+      "pct": 0.0676
+    },
+    "COBERTURA": {
+      "valor": 243341.08,
+      "pct": 0.0107
+    },
+    "REVESTIMENTOS E ACABAMENTOS DE FACHADA": {
+      "valor": 794825.41,
+      "pct": 0.0351
+    },
+    "SERVIÇOS COMPLEMENTARES E FINAIS": {
+      "valor": 1923253.46,
+      "pct": 0.0849
+    },
+    "IMPREVISTOS E CONTINGÊNCIAS": {
+      "valor": 277488.41,
+      "pct": 0.0123
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Aba Obra + ORÇAMENTO. AC=7007.86 da aba Obra. 15 pavimentos, 36 meses. Louças e Metais (R$270.737,76) agrupado em Acabamentos. Climatização+Automação agrupado em Equip.Especiais. CUB/SC R$2.868,56 (dez/2024). Data base: 25/02/2025.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1580460.0,
+    "eletricas": 3031397.21,
+    "preventivas": 418980.96,
+    "gas": 76150.46,
+    "telecom": 147910.76
+  },
+  "split_mo_material": {
+    "eletricas": {
+      "mo_valor": 385432.3,
+      "material_valor": 2645964.91,
+      "mo_pct": 12.7
+    }
+  },
+  "instalacoes_extraction_method": "INSTALAÇÕES sheet (INSTALAÇÕES)",
+  "indices_estruturais": {
+    "concreto_total_m3": 1920.96,
+    "concreto_m3_por_m2_ac": 0.2741,
+    "aco_total_kg": 208796.61,
+    "aco_kg_por_m3_concreto": 108.69,
+    "forma_total_m2": 7690.9,
+    "forma_m2_por_m2_ac": 1.0975,
+    "fck_predominante": 30,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 2635.0,
+    "estacas_qtd": 155,
+    "fundacao_concreto_m3": 579.76,
+    "fundacao_aco_kg": 11062.31,
+    "mo_estrutural_rsm2": null
+  },
+  "ci_detalhado": {
+    "epcs": 5302.32,
+    "canteiro": 50500
+  },
+  "loucas_metais_detail": {
+    "bacias": 281520.83,
+    "cubas": 7007.85,
+    "torneiras": 4219.72,
+    "registros": 41350.52,
+    "chuveiros": 117075.6,
+    "bancadas": null,
+    "outros": 96709.87,
+    "total": 547884.39
+  },
+  "sistemas_especiais_detail": {
+    "gerador": 38218.95,
+    "automacao": 31695.16,
+    "total": 224589.87,
+    "piscina": 27802.54,
+    "elevadores": {
+      "valor": 479500
+    }
+  },
+  "esquadrias_detail": {
+    "vidros": {
+      "valor": 1554213.85
+    },
+    "metalicas_serralheria": {
+      "valor": 9003.54
+    },
+    "portas_madeira": {
+      "valor": 545687.65
+    },
+    "aluminio": {
+      "valor": 340090.59
+    },
+    "guarda_corpo": {
+      "valor": 507484.48
+    },
+    "brises": {
+      "valor": 54600
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 152064.18,
+    "textura_pintura_ext": 82313.35,
+    "pastilha_porcelanato": 41093.99,
+    "juntas": 57773.87
+  },
+  "acabamentos_pus": {
+    "ceramica": 151.8,
+    "contrapiso": 40.0,
+    "chapisco": 40.0,
+    "reboco": 40.0,
+    "forro_gesso": 64.0,
+    "porcelanato": 97.92,
+    "rodape": 9.45,
+    "pintura": 53.62
+  }
+}

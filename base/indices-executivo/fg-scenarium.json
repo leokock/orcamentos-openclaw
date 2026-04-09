@@ -1,0 +1,176 @@
+{
+  "slug": "fg-scenarium",
+  "ac": 42277.77,
+  "total": 206674002.44,
+  "rsm2": 4888.48,
+  "cub_ref": 3190.77,
+  "data_base": "dez/2024",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 22842123.31,
+      "pct": 0.1105
+    },
+    "Mov.Terra": {
+      "valor": 3078669.41,
+      "pct": 0.0149
+    },
+    "Infraestrutura": {
+      "valor": 13428436.47,
+      "pct": 0.065
+    },
+    "Supraestrutura": {
+      "valor": 30247017.85,
+      "pct": 0.1464
+    },
+    "Alvenaria": {
+      "valor": 13469645.47,
+      "pct": 0.0652
+    },
+    "Instalações": {
+      "valor": 16985534.37,
+      "pct": 0.0822
+    },
+    "Sist.Especiais": {
+      "valor": 12866746.56,
+      "pct": 0.0623
+    },
+    "Impermeabilização": {
+      "valor": 2429082.62,
+      "pct": 0.0118
+    },
+    "Rev.Int.Parede": {
+      "valor": 3615206.34,
+      "pct": 0.0175
+    },
+    "Teto": {
+      "valor": 2666469.61,
+      "pct": 0.0129
+    },
+    "Pisos": {
+      "valor": 26983602.13,
+      "pct": 0.1306
+    },
+    "Pintura": {
+      "valor": 4509003.54,
+      "pct": 0.0218
+    },
+    "Esquadrias": {
+      "valor": 24788341.08,
+      "pct": 0.1199
+    },
+    "Complementares": {
+      "valor": 12068166.92,
+      "pct": 0.0584
+    },
+    "Fachada": {
+      "valor": 13641661.16,
+      "pct": 0.066
+    },
+    "Imprevistos": {
+      "valor": 3054295.6,
+      "pct": 0.0148
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "ORCAMENTO_EXECUTIVO sheet. AC CORRIGIDO de 540 para 42277.77. Alto padrao (Itajai). CUB/SC R16-A. Contencao agregada a Infraestrutura.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 7709706.1,
+    "eletricas": 7027221.27,
+    "preventivas": 1349680.57,
+    "gas": 513835.38,
+    "telecom": 1392907.64,
+    "_metodo": "Relatório:Relatório"
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 15403.25,
+    "concreto_m3_por_m2_ac": 0.3643,
+    "aco_total_kg": 881298.22,
+    "aco_kg_por_m3_concreto": 57.22,
+    "forma_total_m2": 68937.0,
+    "forma_m2_por_m2_ac": 1.6306,
+    "fck_predominante": 35,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 8732.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": 344.7
+  },
+  "loucas_metais_detail": {
+    "total_valor": 2631205.14,
+    "_metodo": "Relatório:09"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 9188310.96,
+    "ete": {
+      "valor": 273387.52
+    },
+    "elevadores": {
+      "valor": 4047826.58
+    },
+    "automacao": {
+      "valor": 2621002.38
+    },
+    "climatizacao": {
+      "valor": 3080709.3600000003
+    },
+    "churrasqueiras_exaustao": {
+      "valor": 4920574.800000001
+    },
+    "_metodo": "Relatório:14"
+  },
+  "ci_detalhado": {
+    "ci_total": 22842123.31,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 9564725.54,
+      "qtd": 8117.02,
+      "pu": 1178.35
+    },
+    "guarda_corpo": {
+      "valor": 8712584.31,
+      "qtd": 3717.76,
+      "pu": 2343.5
+    },
+    "portas_madeira": {
+      "valor": 2309538.42,
+      "qtd": 2234.0,
+      "pu": 1033.81
+    },
+    "portas_corta_fogo": {
+      "valor": 233632.0,
+      "qtd": 298.0,
+      "pu": 784.0
+    },
+    "brises": {
+      "valor": 3177124.55,
+      "qtd": 3193.09,
+      "pu": 995.0
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 589709.86
+    },
+    "textura_pintura_ext": {
+      "valor": 1002223.04
+    },
+    "pastilha_porcelanato": {
+      "valor": 146436.78
+    },
+    "juntas": {
+      "valor": 104.19
+    }
+  },
+  "acabamentos_pus": {
+    "ceramica": 52.73,
+    "contrapiso": 91.49,
+    "chapisco": 5.49,
+    "reboco": 27.13,
+    "rodape": 38.33,
+    "pintura": 7.28,
+    "porcelanato": 141.23
+  }
+}

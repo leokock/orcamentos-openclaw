@@ -1,0 +1,96 @@
+{
+  "slug": "macom-adda",
+  "ac": 4358.27,
+  "total": 13434812.16,
+  "rsm2": 3082.6,
+  "cub": 2725.79,
+  "cub_data_base": "2023-06",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 1447037.29,
+      "pct": 0.1077
+    },
+    "Mov.Terra": {
+      "valor": 72727.08,
+      "pct": 0.0054
+    },
+    "Infraestrutura": {
+      "valor": 854810.65,
+      "pct": 0.0636
+    },
+    "Supraestrutura": {
+      "valor": 3018599.12,
+      "pct": 0.2247
+    },
+    "Alvenaria": {
+      "valor": 551049.47,
+      "pct": 0.041
+    },
+    "Instalações": {
+      "valor": 1240277.7,
+      "pct": 0.0923
+    },
+    "Sist.Especiais": {
+      "valor": 761934.02,
+      "pct": 0.0567
+    },
+    "Impermeabilização": {
+      "valor": 174785.54,
+      "pct": 0.013
+    },
+    "Rev.Int.Parede": {
+      "valor": 499530.63,
+      "pct": 0.0372
+    },
+    "Teto": {
+      "valor": 146805.21,
+      "pct": 0.0109
+    },
+    "Pisos": {
+      "valor": 634372.38,
+      "pct": 0.0472
+    },
+    "Pintura": {
+      "valor": 561657.7,
+      "pct": 0.0418
+    },
+    "Esquadrias": {
+      "valor": 1474476.64,
+      "pct": 0.1098
+    },
+    "Fachada": {
+      "valor": 1002777.87,
+      "pct": 0.0746
+    },
+    "Complementares": {
+      "valor": 794763.01,
+      "pct": 0.0592
+    },
+    "Imprevistos": {
+      "valor": 199207.85,
+      "pct": 0.0148
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Apresentação xlsx R02. AC=4358.27m2 (H3, was incorrectly 332 before). Total=R$13.43M. CUB/Estado R$2725.79 (jun/2023). Fachada merged with Cobertura. 16 MGs + Imprevistos.",
+  "instalacoes_breakdown": {
+    "_nota": "consolidado - sem split por disciplina na fonte",
+    "total_consolidado": 1240277.7,
+    "_metodo": "OrcExec:ORÇAMENTO_EXECUTIVO"
+  },
+  "ci_detalhado": {
+    "ci_total": 1447037.29,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 761934.02,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "esquadrias_detail": {
+    "_total": 1474476.64
+  },
+  "fachada_detail": {
+    "_total": 972820.16
+  },
+  "acabamentos_pus": {}
+}
