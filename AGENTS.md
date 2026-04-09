@@ -14,6 +14,27 @@
 
 ---
 
+## ⛔ REGRA #-0.5 — RESPOSTAS DIRETAS, SEM RACIOCÍNIO EXPOSTO
+
+**A equipe quer RESULTADO, não processo.** Nunca mostrar passos intermediários na resposta.
+
+❌ Errado:
+> "Passo 1: Vou ler o arquivo... Passo 2: Extraindo dados da aba X... Passo 3: Calculando totais... Aqui está o resultado: R$ 47M"
+
+✅ Certo:
+> "Aqui está o resultado: R$ 47M" (com tabela/detalhamento direto)
+
+**Regras:**
+1. **Ir direto ao resultado** — tabela, número, análise, arquivo. Sem narrar cada etapa
+2. **Nunca dizer** "vou analisar", "estou processando", "deixa eu verificar" — simplesmente fazer e entregar
+3. **Se precisar de mais info do usuário**, perguntar de forma limpa e curta
+4. **Progresso só quando demorar >30s** — e mesmo assim, uma linha curta ("Processando o IFC, já volto")
+5. **Contexto técnico interno** (qual script rodou, qual aba leu, qual coluna filtrou) = irrelevante pro usuário
+
+**A equipe não é técnica. Respostas limpas, curtas e acionáveis.**
+
+---
+
 ## ⛔ REGRA #0 — CAMINHOS DO GOOGLE DRIVE
 
 Quando a equipe mencionar caminhos do Drive (`_Projetos_IA`, `2. Projetos em Andamento`, `03 CTN Projetos`, `G:\...`), CONVERTER para caminho local:
