@@ -1,2102 +1,457 @@
 {
-  "meta": {
-    "data": "2026-03-24",
-    "n_projetos_macro": 75,
-    "n_projetos_detalhe": 38,
-    "n_pus": 1504,
-    "cub_base": 2752.67,
-    "passos_calibracao": [
-      "Passo 1: Curva ABC extraída (2.199 insumos, 3.760 entradas)",
-      "Passo 2: 75/75 executivos processados (0 pendentes)",
-      "Passo 3: 79 .md narrativos parseados (equipe + estrutura)",
-      "Passo 4: SINAPI pulado (dados internos suficientes)",
-      "Passo 5: IFC Electra extraído (concreto 0.396 m³/m², elétrico R$ 207/m²)"
-    ]
+  "produto": {
+    "ac_por_ur": {
+      "n": 27,
+      "min": 51.1376,
+      "p10": 73.6618,
+      "p25": 93.9784,
+      "mediana": 133.5683,
+      "p75": 207.3311,
+      "p90": 230.867,
+      "max": 251.9904,
+      "media": 142.56
+    },
+    "custo_por_ur": {
+      "n": 21,
+      "min": 217435.3374,
+      "p10": 346528.739,
+      "p25": 443302.7325,
+      "mediana": 548447.5401,
+      "p75": 790226.5537,
+      "p90": 1272280.1449,
+      "max": 1804174.3764,
+      "media": 681163.6616
+    },
+    "cub_ratio": {
+      "n": 36,
+      "min": 0.6373,
+      "p10": 0.9353,
+      "p25": 1.1228,
+      "mediana": 1.2025,
+      "p75": 1.412,
+      "p90": 1.7014,
+      "max": 2.5156,
+      "media": 1.2858
+    },
+    "burn_rate_mensal": {
+      "n": 20,
+      "min": 114517.6304,
+      "p10": 461374.9274,
+      "p25": 637186.7685,
+      "mediana": 1027190.4493,
+      "p75": 1386046.9943,
+      "p90": 1418350.1874,
+      "max": 5993553.8483,
+      "media": 1187082.3416
+    },
+    "elevador_pu_un": null
   },
-  "indices_consumo": {
-    "Instalacoes Eletricas::eletroduto_m_por_m2_ac": {
-      "mediana": 1.77,
-      "media": 1.6389,
-      "n": 9,
-      "min": 0.05,
-      "max": 2.66,
-      "p25": 0.7,
-      "p75": 2.47
+  "estruturais": {
+    "concreto_m3_por_m2_ac": {
+      "n": 52,
+      "min": 0.1197,
+      "p10": 0.2116,
+      "p25": 0.273,
+      "mediana": 0.3431,
+      "p75": 0.4112,
+      "p90": 0.5701,
+      "max": 0.6829,
+      "media": 0.3584
     },
-    "Instalacoes Eletricas::pontos_eletricos_por_ur": {
-      "mediana": 39.05,
-      "media": 43.9167,
-      "n": 12,
-      "min": 8.2,
-      "max": 98.1,
-      "p25": 22.7,
-      "p75": 57.8
+    "aco_kg_por_m3_concreto": {
+      "n": 70,
+      "min": 34.6,
+      "p10": 48.21,
+      "p25": 62.01,
+      "mediana": 75.48,
+      "p75": 91.91,
+      "p90": 107.67,
+      "max": 147.59,
+      "media": 77.2576
     },
-    "Instalacoes Hidraulicas::tubulacao_m_por_m2_ac": {
-      "mediana": 1.075,
-      "media": 1.1512,
-      "n": 8,
-      "min": 0.42,
-      "max": 2.36,
-      "p25": 0.7,
-      "p75": 1.66
+    "aco_kg_por_m2_ac": {
+      "n": 51,
+      "min": 5.5449,
+      "p10": 14.6646,
+      "p25": 21.9646,
+      "mediana": 26.9746,
+      "p75": 33.1344,
+      "p90": 42.2077,
+      "max": 92.1972,
+      "media": 29.2397
     },
-    "Supraestrutura::aco_kg_por_m3_concreto": {
-      "mediana": 106.4,
-      "media": 94.3143,
-      "n": 7,
-      "min": 35.6,
-      "max": 128.3,
-      "p25": 80.0,
-      "p75": 109.0
-    },
-    "Supraestrutura::concreto_m3_por_m2_ac": {
-      "mediana": 0.25,
-      "media": 0.2294,
-      "n": 7,
-      "min": 0.1,
-      "max": 0.286,
-      "p25": 0.2116,
-      "p75": 0.2753
-    },
-    "Supraestrutura::forma_m2_por_m3_concreto": {
-      "mediana": 7.12,
-      "media": 6.6657,
-      "n": 7,
-      "min": 1.25,
-      "max": 11.25,
-      "p25": 4.69,
-      "p75": 8.79
+    "forma_m2_por_m2_ac": {
+      "n": 38,
+      "min": 0.3468,
+      "p10": 0.7757,
+      "p25": 1.2435,
+      "mediana": 1.6423,
+      "p75": 2.4166,
+      "p90": 2.6051,
+      "max": 2.7797,
+      "media": 1.6892
     }
   },
-  "split_mo_material": {
-    "Supraestrutura": {
-      "mo_pct": 0.326,
-      "material_pct": 1.0,
-      "n": 10
+  "instalacoes": {
+    "hidrossanitarias_pct_total": {
+      "n": 38,
+      "min": 0.0011,
+      "p10": 0.0158,
+      "p25": 0.0297,
+      "mediana": 0.0369,
+      "p75": 0.0493,
+      "p90": 0.0827,
+      "max": 0.1485,
+      "media": 0.0428
     },
-    "Alvenaria": {
-      "mo_pct": 0.357,
-      "material_pct": 0.6655,
-      "n": 9
+    "eletricas_pct_total": {
+      "n": 39,
+      "min": 0.0023,
+      "p10": 0.0179,
+      "p25": 0.0301,
+      "mediana": 0.0408,
+      "p75": 0.0533,
+      "p90": 0.0966,
+      "max": 0.1338,
+      "media": 0.0458
     },
-    "Instalacoes Eletricas": {
-      "mo_pct": 0.382,
-      "material_pct": 0.99,
-      "n": 11
+    "preventivas_pct_total": {
+      "n": 42,
+      "min": 0.0026,
+      "p10": 0.0047,
+      "p25": 0.0078,
+      "mediana": 0.011,
+      "p75": 0.0185,
+      "p90": 0.083,
+      "max": 0.1315,
+      "media": 0.0237
     },
-    "Instalacoes Hidraulicas": {
-      "mo_pct": 0.34,
-      "material_pct": 1.0,
-      "n": 7
+    "gas_pct_total": {
+      "n": 14,
+      "min": 0.0025,
+      "p10": 0.0032,
+      "p25": 0.0042,
+      "mediana": 0.0047,
+      "p75": 0.0055,
+      "p90": 0.0145,
+      "max": 0.0156,
+      "media": 0.006
     },
-    "Loucas e Metais": {
-      "mo_pct": 0.195,
-      "material_pct": 1.0,
-      "n": 3
-    },
-    "PCI": {
-      "mo_pct": 0.381,
-      "material_pct": 0.67,
-      "n": 7
-    },
-    "Sistemas Especiais": {
-      "mo_pct": 0.156,
-      "material_pct": 0.9225,
-      "n": 4
-    },
-    "Impermeabilizacao": {
-      "mo_pct": 0.565,
-      "material_pct": 0.8,
-      "n": 6
-    },
-    "Revestimentos": {
-      "mo_pct": 0.544,
-      "material_pct": 0.456,
-      "n": 7
-    },
-    "Pintura": {
-      "mo_pct": 0.662,
-      "material_pct": 0.373,
-      "n": 7
-    },
-    "Esquadrias": {
-      "mo_pct": 0.105,
-      "material_pct": 1.0,
-      "n": 7
-    },
-    "Cobertura": {
-      "mo_pct": 0.2315,
-      "material_pct": 0.918,
-      "n": 4
-    },
-    "Servicos Complementares": {
-      "mo_pct": 0.018,
-      "material_pct": 1.0,
-      "n": 3
-    },
-    "Insumos ABC": {
-      "mo_pct": 0.2245,
-      "material_pct": 0.7755,
-      "n": 2
-    },
-    "Infraestrutura": {
-      "mo_pct": 0.355,
-      "material_pct": 1.0,
-      "n": 7
-    },
-    "Forro": {
-      "mo_pct": 0.791,
-      "material_pct": 1.0,
-      "n": 2
-    },
-    "Climatizacao": {
-      "mo_pct": 0.487,
-      "material_pct": 1.0,
-      "n": 5
-    },
-    "Contencao": {
-      "mo_pct": 0.436,
-      "material_pct": 1.0,
-      "n": 2
+    "telecom_pct_total": {
+      "n": 21,
+      "min": 0.0023,
+      "p10": 0.0026,
+      "p25": 0.0038,
+      "mediana": 0.0064,
+      "p75": 0.0094,
+      "p90": 0.0239,
+      "max": 0.0648,
+      "media": 0.011
     }
   },
-  "medianas_por_macrogrupo": {
-    "Supraestrutura": {
-      "mediana_rsm2_base": 679.65,
-      "n": 73,
-      "p10": 490.87,
-      "p25": 619.63,
-      "p75": 763.36,
-      "p90": 843.1
+  "ci": {
+    "projetos_consultorias_pct_total": {
+      "n": 27,
+      "min": 0.004,
+      "p10": 0.014,
+      "p25": 0.0205,
+      "mediana": 0.0244,
+      "p75": 0.1207,
+      "p90": 0.1605,
+      "max": 0.1682,
+      "media": 0.0613
     },
-    "Rev. Int. Parede": {
-      "mediana_rsm2_base": 159.32,
-      "n": 74,
-      "p10": 102.61,
-      "p25": 121.17,
-      "p75": 199.89,
-      "p90": 227.56
-    },
-    "Esquadrias": {
-      "mediana_rsm2_base": 301.35,
-      "n": 74,
-      "p10": 211.11,
-      "p25": 254.06,
-      "p75": 367.23,
-      "p90": 483.43
-    },
-    "Instalações": {
-      "mediana_rsm2_base": 337.48,
-      "n": 74,
-      "p10": 256.77,
-      "p25": 300.72,
-      "p75": 386.84,
-      "p90": 445.76
-    },
-    "Infraestrutura": {
-      "mediana_rsm2_base": 198.74,
-      "n": 73,
-      "p10": 106.84,
-      "p25": 159.2,
-      "p75": 249.27,
-      "p90": 312.21
-    },
-    "Alvenaria": {
-      "mediana_rsm2_base": 147.73,
-      "n": 72,
-      "p10": 105.35,
-      "p25": 127.69,
-      "p75": 177.72,
-      "p90": 207.77
-    },
-    "Pisos": {
-      "mediana_rsm2_base": 181.16,
-      "n": 74,
-      "p10": 133.25,
-      "p25": 150.52,
-      "p75": 212.15,
-      "p90": 262.76
-    },
-    "Complementares": {
-      "mediana_rsm2_base": 168.78,
-      "n": 74,
-      "p10": 95.27,
-      "p25": 127.26,
-      "p75": 231.83,
-      "p90": 297.73
-    },
-    "Gerenciamento": {
-      "mediana_rsm2_base": 410.7,
-      "n": 69,
-      "p10": 257.68,
-      "p25": 322.61,
-      "p75": 506.65,
-      "p90": 768.3
-    },
-    "Impermeabilização": {
-      "mediana_rsm2_base": 54.9,
-      "n": 74,
-      "p10": 35.79,
-      "p25": 42.88,
-      "p75": 73.49,
-      "p90": 89.57
-    },
-    "Pintura": {
-      "mediana_rsm2_base": 128.87,
-      "n": 74,
-      "p10": 91.8,
-      "p25": 110.06,
-      "p75": 151.62,
-      "p90": 180.45
-    },
-    "Climatização": {
-      "mediana_rsm2_base": 50.94,
-      "n": 19,
-      "p10": 22.03,
-      "p25": 27.11,
-      "p75": 73.52,
-      "p90": 116.4
-    },
-    "Teto": {
-      "mediana_rsm2_base": 61.11,
-      "n": 74,
-      "p10": 34.69,
-      "p25": 49.11,
-      "p75": 76.13,
-      "p90": 94.08
-    },
-    "Sist. Especiais": {
-      "mediana_rsm2_base": 162.2,
-      "n": 74,
-      "p10": 96.38,
-      "p25": 122.44,
-      "p75": 197.16,
-      "p90": 240.25
-    },
-    "Mov. Terra": {
-      "mediana_rsm2_base": 15.97,
-      "n": 72,
-      "p10": 5.75,
-      "p25": 9.22,
-      "p75": 36.43,
-      "p90": 75.54
-    },
-    "Imprevistos": {
-      "mediana_rsm2_base": 50.39,
-      "n": 47,
-      "p10": 30.09,
-      "p25": 40.68,
-      "p75": 76.89,
-      "p90": 103.99
-    },
-    "Louças e Metais": {
-      "mediana_rsm2_base": 26.14,
-      "n": 19,
-      "p10": 6.0,
-      "p25": 23.53,
-      "p75": 38.76,
-      "p90": 76.56
-    },
-    "Fachada": {
-      "mediana_rsm2_base": 128.96,
-      "n": 73,
-      "p10": 69.77,
-      "p25": 96.06,
-      "p75": 170.21,
-      "p90": 225.41
-    },
-    "Cobertura": {
-      "mediana_rsm2_base": 15.57,
-      "n": 22,
-      "p10": 3.38,
-      "p25": 5.16,
-      "p75": 23.93,
-      "p90": 63.6
-    },
-    "Contenção": {
-      "mediana_rsm2_base": 148.97,
-      "n": 5,
-      "p10": 90.18,
-      "p25": 101.69,
-      "p75": 174.09,
-      "p90": 175.96
-    },
-    "Louças": {
-      "mediana_rsm2_base": 33.39,
-      "n": 4,
-      "p10": 32.74,
-      "p25": 33.38,
-      "p75": 37.88,
-      "p90": 37.88
-    }
-  },
-  "medianas_por_segmento": {
-    "pequeno_lt8k": {
-      "Supraestrutura": {
-        "mediana": 667.59,
-        "n": 31
-      },
-      "Rev. Int. Parede": {
-        "mediana": 172.37,
-        "n": 31
-      },
-      "Esquadrias": {
-        "mediana": 307.25,
-        "n": 31
-      },
-      "Instalações": {
-        "mediana": 345.24,
-        "n": 31
-      },
-      "Infraestrutura": {
-        "mediana": 229.04,
-        "n": 30
-      },
-      "Alvenaria": {
-        "mediana": 148.91,
-        "n": 30
-      },
-      "Pisos": {
-        "mediana": 194.62,
-        "n": 31
-      },
-      "Complementares": {
-        "mediana": 169.11,
-        "n": 31
-      },
-      "Gerenciamento": {
-        "mediana": 476.04,
-        "n": 30
-      },
-      "Impermeabilização": {
-        "mediana": 65.29,
-        "n": 31
-      },
-      "Pintura": {
-        "mediana": 119.3,
-        "n": 31
-      },
-      "Climatização": {
-        "mediana": 69.59,
-        "n": 7
-      },
-      "Teto": {
-        "mediana": 60.85,
-        "n": 31
-      },
-      "Sist. Especiais": {
-        "mediana": 178.68,
-        "n": 31
-      },
-      "Mov. Terra": {
-        "mediana": 17.59,
-        "n": 31
-      },
-      "Imprevistos": {
-        "mediana": 48.42,
-        "n": 19
-      },
-      "Louças e Metais": {
-        "mediana": 25.76,
-        "n": 8
-      },
-      "Fachada": {
-        "mediana": 131.91,
-        "n": 31
-      },
-      "Cobertura": {
-        "mediana": 10.33,
-        "n": 9
-      },
-      "Contenção": {
-        "mediana": 161.53,
-        "n": 2
-      }
-    },
-    "medio_8k_15k": {
-      "Gerenciamento": {
-        "mediana": 358.59,
-        "n": 31
-      },
-      "Mov. Terra": {
-        "mediana": 12.99,
-        "n": 29
-      },
-      "Infraestrutura": {
-        "mediana": 190.69,
-        "n": 31
-      },
-      "Supraestrutura": {
-        "mediana": 704.97,
-        "n": 30
-      },
-      "Alvenaria": {
-        "mediana": 146.1,
-        "n": 30
-      },
-      "Instalações": {
-        "mediana": 336.62,
-        "n": 31
-      },
-      "Sist. Especiais": {
-        "mediana": 141.02,
-        "n": 31
-      },
-      "Impermeabilização": {
-        "mediana": 56.23,
-        "n": 31
-      },
-      "Rev. Int. Parede": {
-        "mediana": 156.97,
-        "n": 31
-      },
-      "Teto": {
-        "mediana": 61.38,
-        "n": 31
-      },
-      "Pisos": {
-        "mediana": 179.98,
-        "n": 31
-      },
-      "Pintura": {
-        "mediana": 141.13,
-        "n": 31
-      },
-      "Esquadrias": {
-        "mediana": 303.74,
-        "n": 31
-      },
-      "Fachada": {
-        "mediana": 127.24,
-        "n": 30
-      },
-      "Complementares": {
-        "mediana": 175.25,
-        "n": 31
-      },
-      "Imprevistos": {
-        "mediana": 53.73,
-        "n": 20
-      },
-      "Cobertura": {
-        "mediana": 13.55,
-        "n": 7
-      },
-      "Climatização": {
-        "mediana": 50.02,
-        "n": 11
-      },
-      "Louças": {
-        "mediana": 33.38,
-        "n": 3
-      },
-      "Louças e Metais": {
-        "mediana": 29.01,
-        "n": 8
-      }
-    },
-    "grande_15k_25k": {
-      "Gerenciamento": {
-        "mediana": 377.41,
-        "n": 6
-      },
-      "Mov. Terra": {
-        "mediana": 13.53,
-        "n": 8
-      },
-      "Infraestrutura": {
-        "mediana": 174.55,
-        "n": 8
-      },
-      "Supraestrutura": {
-        "mediana": 624.58,
-        "n": 8
-      },
-      "Alvenaria": {
-        "mediana": 161.5,
-        "n": 8
-      },
-      "Instalações": {
-        "mediana": 324.15,
-        "n": 8
-      },
-      "Sist. Especiais": {
-        "mediana": 126.82,
-        "n": 8
-      },
-      "Impermeabilização": {
-        "mediana": 43.42,
-        "n": 8
-      },
-      "Rev. Int. Parede": {
-        "mediana": 110.51,
-        "n": 8
-      },
-      "Teto": {
-        "mediana": 72.36,
-        "n": 8
-      },
-      "Pisos": {
-        "mediana": 155.39,
-        "n": 8
-      },
-      "Pintura": {
-        "mediana": 107.12,
-        "n": 8
-      },
-      "Esquadrias": {
-        "mediana": 278.55,
-        "n": 8
-      },
-      "Cobertura": {
-        "mediana": 10.26,
-        "n": 3
-      },
-      "Fachada": {
-        "mediana": 105.83,
-        "n": 8
-      },
-      "Complementares": {
-        "mediana": 119.92,
-        "n": 8
-      },
-      "Imprevistos": {
-        "mediana": 38.53,
-        "n": 7
-      },
-      "Louças e Metais": {
-        "mediana": 16.87,
-        "n": 3
-      }
-    },
-    "muito_grande_gt25k": {
-      "Gerenciamento": {
-        "mediana": 528.02,
-        "n": 2
-      },
-      "Mov. Terra": {
-        "mediana": 37.65,
-        "n": 4
-      },
-      "Infraestrutura": {
-        "mediana": 273.2,
-        "n": 4
-      },
-      "Supraestrutura": {
-        "mediana": 700.85,
-        "n": 4
-      },
-      "Alvenaria": {
-        "mediana": 207.32,
-        "n": 4
-      },
-      "Instalações": {
-        "mediana": 437.05,
-        "n": 4
-      },
-      "Sist. Especiais": {
-        "mediana": 288.02,
-        "n": 4
-      },
-      "Impermeabilização": {
-        "mediana": 63.16,
-        "n": 4
-      },
-      "Rev. Int. Parede": {
-        "mediana": 162.47,
-        "n": 4
-      },
-      "Teto": {
-        "mediana": 57.24,
-        "n": 4
-      },
-      "Pisos": {
-        "mediana": 355.65,
-        "n": 4
-      },
-      "Pintura": {
-        "mediana": 113.35,
-        "n": 4
-      },
-      "Esquadrias": {
-        "mediana": 433.66,
-        "n": 4
-      },
-      "Cobertura": {
-        "mediana": 69.61,
-        "n": 3
-      },
-      "Fachada": {
-        "mediana": 245.59,
-        "n": 4
-      },
-      "Complementares": {
-        "mediana": 361.52,
-        "n": 4
-      }
-    }
-  },
-  "pus_referencia": {
-    "Canteiro::cadeira": {
-      "mediana": 200.0,
-      "unidade": "un",
-      "n": 21,
-      "p25": 200.0,
-      "p75": 200.0
-    },
-    "Canteiro::mesa": {
-      "mediana": 1000.0,
-      "unidade": "un",
-      "n": 21,
-      "p25": 1000.0,
-      "p75": 1000.0
-    },
-    "Canteiro::ar_condicionado": {
-      "mediana": 5000.0,
-      "unidade": "un",
-      "n": 21,
-      "p25": 5000.0,
-      "p75": 5000.0
-    },
-    "Canteiro::armario": {
-      "mediana": 900.0,
-      "unidade": "m",
-      "n": 21,
-      "p25": 900.0,
-      "p75": 900.0
-    },
-    "Canteiro::escrivaninha": {
-      "mediana": 800.0,
-      "unidade": "un",
-      "n": 21,
-      "p25": 800.0,
-      "p75": 800.0
-    },
-    "Canteiro::computador_pessoal": {
-      "mediana": 6500.0,
-      "unidade": "un",
-      "n": 21,
-      "p25": 6000.0,
-      "p75": 6500.0
-    },
-    "Canteiro::impressora": {
-      "mediana": 2000.0,
-      "unidade": "un",
-      "n": 21,
-      "p25": 2000.0,
-      "p75": 2000.0
-    },
-    "Canteiro::roteador": {
-      "mediana": 500.0,
-      "unidade": "un",
-      "n": 21,
-      "p25": 500.0,
-      "p75": 500.0
-    },
-    "Servicos Complementares::comunicacao_visual": {
-      "mediana": 47000.0,
-      "unidade": "vb",
+    "taxas_licencas_pct_total": {
       "n": 17,
-      "p25": 18750.0,
-      "p75": 65000.0
-    },
-    "Impermeabilizacao::regularizacao_superficie_para_impermeabilizacao": {
-      "mediana": 5.57,
-      "unidade": "m2",
-      "n": 15,
-      "p25": 3.27,
-      "p75": 5.97
-    },
-    "Loucas e Metais::torneira_jardim": {
-      "mediana": 8.5,
-      "unidade": "un",
-      "n": 15,
-      "p25": 2.0,
-      "p75": 17.75
-    },
-    "Alvenaria::tela_soldada_para_ligacao_alvenaria_estrutura_bloco_11_5_cm": {
-      "mediana": 3.1,
-      "unidade": "un",
-      "n": 15,
-      "p25": 2.11,
-      "p75": 3.6
-    },
-    "Servicos Complementares::paisagismo": {
-      "mediana": 30000.0,
-      "unidade": "vb",
-      "n": 14,
-      "p25": 15750.0,
-      "p75": 65270.96
-    },
-    "Instalacoes Eletricas::entrada_energia": {
-      "mediana": 27250.0,
-      "unidade": "vb",
-      "n": 14,
-      "p25": 2600.34,
-      "p75": 34301.41
-    },
-    "Supraestrutura::fabricacao_forma_para_laje_chapa_madeira_compensada_plastificada_18_mm": {
-      "mediana": 84.37,
-      "unidade": "m2",
-      "n": 14,
-      "p25": 65.08,
-      "p75": 101.42
-    },
-    "Alvenaria::encunhamento_alvenaria_vedacao_com_argamassa_expansiva": {
-      "mediana": 2.35,
-      "unidade": "m",
-      "n": 12,
-      "p25": 2.35,
-      "p75": 3.23
-    },
-    "Loucas e Metais::acabamento_registro": {
-      "mediana": 50.0,
-      "unidade": "un",
-      "n": 12,
-      "p25": 26.79,
-      "p75": 204.0
-    },
-    "Infraestrutura::total": {
-      "mediana": 3355.8,
-      "unidade": "1676",
-      "n": 12,
-      "p25": 1468.91,
-      "p75": 9171.6
-    },
-    "Instalacoes Hidraulicas::instalacoes_agua_fria": {
-      "mediana": 18301.11,
-      "unidade": "vb",
-      "n": 12,
-      "p25": 3588.99,
-      "p75": 136210.2
-    },
-    "Impermeabilizacao::impermeabilizacao_com_argamassa_polimerica": {
-      "mediana": 8.5,
-      "unidade": "m2",
-      "n": 11,
-      "p25": 5.75,
-      "p75": 17.5
-    },
-    "Esquadrias::esquadrias_aluminio": {
-      "mediana": 1049.07,
-      "unidade": "m2",
-      "n": 10,
-      "p25": 824.0,
-      "p75": 2025.0
-    },
-    "Servicos Complementares::imprevistos_contingencias": {
-      "mediana": 345000.0,
-      "unidade": "vb",
-      "n": 10,
-      "p25": 211053.3,
-      "p75": 926201.97
-    },
-    "Loucas e Metais::anel_vedacao_100_mm_para_saide_bacia_sanitaria": {
-      "mediana": 8.5,
-      "unidade": "un",
-      "n": 10,
-      "p25": 2.0,
-      "p75": 80.85
-    },
-    "Loucas e Metais::engate_rabicho_flexivel_inox_1_2_polx40mm": {
-      "mediana": 8.0,
-      "unidade": "un",
-      "n": 10,
-      "p25": 2.25,
-      "p75": 25.17
-    },
-    "Loucas e Metais::parafuso_niquelado_para_fixacao_bacia_sanitaria_tamanho_s_10": {
-      "mediana": 17.0,
-      "unidade": "un",
-      "n": 10,
-      "p25": 4.0,
-      "p75": 176.0
-    },
-    "Loucas e Metais::sifao_ajustavel_multiuso": {
-      "mediana": 2.0,
-      "unidade": "un",
-      "n": 10,
-      "p25": 1.0,
-      "p75": 8.9
-    },
-    "Loucas e Metais::barra_apoio_pne": {
-      "mediana": 8.0,
-      "unidade": "un",
-      "n": 10,
-      "p25": 2.0,
-      "p75": 84.8
-    },
-    "Supraestrutura::montagem_desmontagem_forma_laje_chapa_madeira_plastificada": {
-      "mediana": 3.7,
-      "unidade": "m2",
-      "n": 10,
-      "p25": 2.17,
-      "p75": 5.01
-    },
-    "Supraestrutura::mao_obra_empreitada_para_execucao_estrutura_concreto_armado_supraestrutura": {
-      "mediana": 180.0,
-      "unidade": "m2",
-      "n": 10,
-      "p25": 170.0,
-      "p75": 190.0
-    },
-    "Servicos Complementares::limpeza_final_obra": {
-      "mediana": 12.0,
-      "unidade": "m2",
-      "n": 10,
-      "p25": 10.25,
-      "p75": 35159.62
-    },
-    "Revestimentos::rodape_poliestireno_10cm": {
-      "mediana": 10.77,
-      "unidade": "m",
-      "n": 10,
-      "p25": 5.82,
-      "p75": 38.56
-    },
-    "Impermeabilizacao::impermeabilizacao_peitoril": {
-      "mediana": 15.3,
-      "unidade": "m2",
-      "n": 9,
-      "p25": 8.58,
-      "p75": 16.15
-    },
-    "Supraestrutura::armacao_aco_ca_50_diametro_10_0mm_para_supraestrutura_cortado_dobrado_industria": {
-      "mediana": 8.67,
-      "unidade": "kg",
-      "n": 9,
-      "p25": 8.17,
-      "p75": 9.4
-    },
-    "Instalacoes Eletricas::mao_obra_para_instalacoes_eletricas": {
-      "mediana": 50.0,
-      "unidade": "m2",
-      "n": 9,
-      "p25": 48.25,
-      "p75": 70.0
-    },
-    "PCI::instalacoes_gas": {
-      "mediana": 55000.0,
-      "unidade": "vb",
-      "n": 9,
-      "p25": 10173.0,
-      "p75": 64703.16
-    },
-    "Esquadrias::mao_obra_para_instalacao_portas_madeira": {
-      "mediana": 100.0,
-      "unidade": "un",
-      "n": 9,
-      "p25": 100.0,
-      "p75": 120.0
-    },
-    "Loucas e Metais::valvula_escoamento_para_lavatorio": {
-      "mediana": 2.0,
-      "unidade": "un",
-      "n": 9,
-      "p25": 1.0,
-      "p75": 13.5
-    },
-    "Loucas e Metais::valvula_escoamento_para_cuba": {
-      "mediana": 2.0,
-      "unidade": "un",
-      "n": 9,
-      "p25": 1.0,
-      "p75": 5.75
-    },
-    "Gerenciamento::iptu": {
-      "mediana": 1650.0,
-      "unidade": "mes",
-      "n": 9,
-      "p25": 1569.33,
-      "p75": 8285.0
-    },
-    "Gerenciamento::despesas_consumo_agua": {
-      "mediana": 1055.0,
-      "unidade": "mes",
-      "n": 9,
-      "p25": 827.73,
-      "p75": 1655.0
-    },
-    "Gerenciamento::despesas_consumo_material_expediente": {
-      "mediana": 236.46,
-      "unidade": "mes",
-      "n": 9,
-      "p25": 180.73,
-      "p75": 518.0
-    },
-    "Gerenciamento::despesas_consumo_material_limpeza": {
-      "mediana": 209.24,
-      "unidade": "mes",
-      "n": 9,
-      "p25": 204.62,
-      "p75": 558.0
-    },
-    "Gerenciamento::copias_plotagens": {
-      "mediana": 10000.0,
-      "unidade": "vb",
-      "n": 9,
-      "p25": 7500.0,
-      "p75": 12900.0
-    },
-    "Infraestrutura::armacao_aco_ca_50_diametro_10_0mm_para_blocos_baldrames_corte_dobra_obra": {
-      "mediana": 8.38,
-      "unidade": "kg",
-      "n": 9,
-      "p25": 8.01,
-      "p75": 9.23
-    },
-    "Instalacoes Hidraulicas::instalacoes_agua_quente": {
-      "mediana": 12899.0,
-      "unidade": "vb",
-      "n": 9,
-      "p25": 1997.3,
-      "p75": 100641.69
-    },
-    "Instalacoes Eletricas::eletrodutos_eletrocalhas": {
-      "mediana": 31031.06,
-      "unidade": "vb",
-      "n": 9,
-      "p25": 4849.25,
-      "p75": 89225.96
-    },
-    "Instalacoes Eletricas::fios_cabos_eletricos": {
-      "mediana": 28636.06,
-      "unidade": "vb",
-      "n": 9,
-      "p25": 9626.98,
-      "p75": 173853.6
-    },
-    "PCI::instalacoes_protecao_aterramento_spda": {
-      "mediana": 32612.01,
-      "unidade": "vb",
-      "n": 8,
-      "p25": 14469.5,
-      "p75": 44451.24
-    },
-    "Pintura::aplicacao_lixamento_massa_latex_pva_teto_2_demaos": {
-      "mediana": 4.29,
-      "unidade": "m2",
-      "n": 8,
-      "p25": 3.96,
-      "p75": 5.31
-    },
-    "Instalacoes Eletricas::luminarias_lampadas_acessorios": {
-      "mediana": 5073.41,
-      "unidade": "vb",
-      "n": 8,
-      "p25": 1170.4,
-      "p75": 6216.8
-    },
-    "Loucas e Metais::torneira_lavatorio_mesa": {
-      "mediana": 13.0,
-      "unidade": "un",
-      "n": 8,
-      "p25": 4.25,
-      "p75": 444.33
-    },
-    "Alvenaria::alvenaria_vedacao_blocos_ceramicos_furados_horizontal_11_5x19x19cm_espessura_11_": {
-      "mediana": 32.95,
-      "unidade": "m2",
-      "n": 8,
-      "p25": 28.21,
-      "p75": 45.24
-    },
-    "Alvenaria::verga_contraverga_concreto_moldada_in_loco": {
-      "mediana": 33.33,
-      "unidade": "m",
-      "n": 8,
-      "p25": 29.58,
-      "p75": 40.2
-    },
-    "Alvenaria::mao_obra_empreitada_vedacoes_internas_externas_assentamento_blocos_concreto": {
-      "mediana": 28.5,
-      "unidade": "m2",
-      "n": 8,
-      "p25": 27.0,
-      "p75": 29.0
-    },
-    "Esquadrias::porta_madeira_abrir_60x210cm_fixacao_com_espuma_expansiva": {
-      "mediana": 1146.75,
-      "unidade": "un",
-      "n": 8,
-      "p25": 975.12,
-      "p75": 1523.21
-    },
-    "Servicos Complementares::equipamentos_lazer": {
-      "mediana": 67500.0,
-      "unidade": "vb",
-      "n": 8,
-      "p25": 52500.0,
-      "p75": 150000.0
-    },
-    "Gerenciamento::projeto_impermeabilizacao": {
-      "mediana": 1.35,
-      "unidade": "m2",
-      "n": 8,
-      "p25": 1.2,
-      "p75": 13187.5
-    },
-    "Gerenciamento::taxa_habite_se": {
-      "mediana": 15587.2,
-      "unidade": "vb",
-      "n": 8,
-      "p25": 8325.0,
-      "p75": 20924.4
-    },
-    "Gerenciamento::elaboracao_programa_condicoes_meio_ambiente_trabalho_industria_construcao_pcmat": {
-      "mediana": 3845.0,
-      "unidade": "vb",
-      "n": 8,
-      "p25": 2540.82,
-      "p75": 6225.0
-    },
-    "Gerenciamento::elaboracao_programa_controle_medico_saude_ocupacional_pcmso": {
-      "mediana": 932.67,
-      "unidade": "vb",
-      "n": 8,
-      "p25": 365.35,
-      "p75": 2475.0
-    },
-    "Gerenciamento::despesas_consumo_internet": {
-      "mediana": 200.0,
-      "unidade": "mes",
-      "n": 8,
-      "p25": 200.0,
-      "p75": 242.5
-    },
-    "Gerenciamento::despesas_com_vizinhos": {
-      "mediana": 16000.0,
-      "unidade": "vb",
-      "n": 8,
-      "p25": 4225.0,
-      "p75": 20000.0
-    },
-    "Instalacoes Eletricas::quadros_disjuntores": {
-      "mediana": 400.0,
-      "unidade": "un",
-      "n": 8,
-      "p25": 250.0,
-      "p75": 400.0
-    },
-    "Infraestrutura::fabricacao_montagem_desmontagem_forma_para_bloco_baldrame_com_madeira_serrada": {
-      "mediana": 45.64,
-      "unidade": "m2",
-      "n": 8,
-      "p25": 23.63,
-      "p75": 115.54
-    },
-    "Instalacoes Hidraulicas::instalacoes_esgoto": {
-      "mediana": 47250.54,
-      "unidade": "vb",
-      "n": 8,
-      "p25": 34137.69,
-      "p75": 72264.48
-    },
-    "Gerenciamento::tela_poliester_para_fachada": {
-      "mediana": 8.11,
-      "unidade": "m2",
-      "n": 8,
-      "p25": 4.68,
-      "p75": 9.12
-    },
-    "Gerenciamento::estagiario": {
-      "mediana": 700.0,
-      "unidade": "mes",
-      "n": 8,
-      "p25": 700.0,
-      "p75": 1161.25
-    },
-    "Gerenciamento::equipamento_protecao_individual": {
-      "mediana": 907.5,
-      "unidade": "mes",
-      "n": 8,
-      "p25": 313.87,
-      "p75": 20752.5
-    },
-    "Esquadrias::porta_corta_fogo_0_80x2_10_m": {
-      "mediana": 438.32,
-      "unidade": "un",
-      "n": 8,
-      "p25": 438.32,
-      "p75": 910.0
-    },
-    "Instalacoes Hidraulicas::mao_obra_para_instalacoes_hidrossanitarias": {
-      "mediana": 46.52,
-      "unidade": "m2",
-      "n": 7,
-      "p25": 40.0,
-      "p75": 60.0
-    },
-    "Impermeabilizacao::mao_obra_para_regularizacao_superficie": {
-      "mediana": 19.5,
-      "unidade": "m2",
-      "n": 7,
-      "p25": 18.0,
-      "p75": 19.5
-    },
-    "Impermeabilizacao::mao_obra_para_impermeabilizacao_com_manta_asfaltica": {
-      "mediana": 68.0,
-      "unidade": "m2",
-      "n": 7,
-      "p25": 52.54,
-      "p75": 72.0
-    },
-    "Impermeabilizacao::mao_obra_para_execucao_protecao_mecanica_superficie_impermeabilizada": {
-      "mediana": 31.75,
-      "unidade": "m2",
-      "n": 7,
-      "p25": 31.75,
-      "p75": 35.0
-    },
-    "Loucas e Metais::torneira_tanque": {
-      "mediana": 1.0,
-      "unidade": "un",
-      "n": 7,
-      "p25": 1.0,
-      "p75": 234.15
-    },
-    "Infraestrutura::armacao_aco_ca_50_diametro_12_5mm_para_estacas_cortado_dobrado_industria": {
-      "mediana": 8.77,
-      "unidade": "kg",
-      "n": 7,
-      "p25": 8.37,
-      "p75": 9.49
-    },
-    "Gerenciamento::levantamento_topografico": {
-      "mediana": 1200.0,
-      "unidade": "vb",
-      "n": 7,
-      "p25": 1.49,
-      "p75": 5500.0
-    },
-    "Gerenciamento::projeto_automacao": {
-      "mediana": 0.45,
-      "unidade": "m2",
-      "n": 7,
-      "p25": 0.31,
-      "p75": 6500.0
-    },
-    "Instalacoes Eletricas::equipamentos_iluminacao": {
-      "mediana": 100.0,
-      "unidade": "un",
-      "n": 7,
-      "p25": 100.0,
-      "p75": 1092.2
-    },
-    "Gerenciamento::locacao_obra": {
-      "mediana": 23.87,
-      "unidade": "m2",
-      "n": 7,
-      "p25": 11.01,
-      "p75": 25.87
-    },
-    "Gerenciamento::bandejas_primarias": {
-      "mediana": 212.87,
-      "unidade": "m",
-      "n": 7,
-      "p25": 171.83,
-      "p75": 224.16
-    },
-    "Gerenciamento::bandejas_secundarias": {
-      "mediana": 210.73,
-      "unidade": "m",
-      "n": 7,
-      "p25": 141.11,
-      "p75": 294.53
-    },
-    "Impermeabilizacao::impermeabilizacao_com_manta_asfaltica_m_material": {
-      "mediana": 82.11,
-      "unidade": "m2",
-      "n": 7,
-      "p25": 82.11,
-      "p75": 150.0
-    },
-    "Supraestrutura::locacao_escoramento_metalico": {
-      "mediana": 50.0,
-      "unidade": "m2",
-      "n": 7,
-      "p25": 50.0,
-      "p75": 20496.54
-    },
-    "Sistemas Especiais::ventokit": {
-      "mediana": 200.0,
-      "unidade": "un",
-      "n": 6,
-      "p25": 200.0,
-      "p75": 728.75
-    },
-    "Movimentacao de Terra::escavacao_mecanizada_para_blocos_fundacao_vigas_baldrame_com_previsao_forma_com_": {
-      "mediana": 25.0,
-      "unidade": "m3",
-      "n": 6,
-      "p25": 18.85,
-      "p75": 32.11
-    },
-    "Movimentacao de Terra::reaterro_mecanizado_valas_para_blocos_baldrames_com_retroescavadeira": {
-      "mediana": 24.6,
-      "unidade": "m3",
-      "n": 6,
-      "p25": 7.35,
-      "p75": 55.2
-    },
-    "Instalacoes Eletricas::pontos_tomadas_interruptores_terreo": {
-      "mediana": 2195.53,
-      "unidade": "vb",
-      "n": 6,
-      "p25": 1066.24,
-      "p75": 16418.04
-    },
-    "PCI::instalacoes_sistema_preventivo_incendio": {
-      "mediana": 57724.62,
-      "unidade": "vb",
-      "n": 6,
-      "p25": 22830.0,
-      "p75": 128392.16
-    },
-    "Impermeabilizacao::impermeabilizacao_com_manta_liquida_peitoris": {
-      "mediana": 25.0,
-      "unidade": "m2",
-      "n": 6,
-      "p25": 22.85,
-      "p75": 25.91
-    },
-    "Servicos Complementares::limpeza_final": {
-      "mediana": 54200.0,
-      "unidade": "vb",
-      "n": 6,
-      "p25": 50000.0,
-      "p75": 71250.0
-    },
-    "Loucas e Metais::chuveiro_eletrico": {
-      "mediana": 60.0,
-      "unidade": "un",
-      "n": 6,
-      "p25": 2.0,
-      "p75": 500.0
-    },
-    "Loucas e Metais::bancada_granito": {
-      "mediana": 2.05,
-      "unidade": "m2",
-      "n": 6,
-      "p25": 1.12,
-      "p75": 4.26
-    },
-    "Loucas e Metais::banheiro_bacia_sanitaria_pne": {
-      "mediana": 8.0,
-      "unidade": "un",
-      "n": 6,
-      "p25": 1.0,
-      "p75": 9.0
-    },
-    "Loucas e Metais::cozinha_cuba_inox": {
-      "mediana": 2.5,
-      "unidade": "un",
-      "n": 6,
-      "p25": 1.0,
-      "p75": 846.69
-    },
-    "Loucas e Metais::torneira_misturador_pia_cozinha": {
-      "mediana": 6.0,
-      "unidade": "un",
-      "n": 6,
-      "p25": 2.0,
-      "p75": 1054.93
-    },
-    "Loucas e Metais::acabamento_registro_pressao": {
-      "mediana": 5.0,
-      "unidade": "un",
-      "n": 6,
-      "p25": 2.0,
-      "p75": 66.92
-    },
-    "Infraestrutura::concreto_usinado_bombeavel_para_blocos_baldrames_fck_35mpa_slump_10_2_incluindo_": {
-      "mediana": 513.0,
-      "unidade": "m3",
-      "n": 6,
-      "p25": 444.15,
-      "p75": 526.39
-    },
-    "Supraestrutura::concreto_usinado_bombeavel_para_supraestrutura_fck_35mpa_slump_10_2_incluindo_se": {
-      "mediana": 444.15,
-      "unidade": "m3",
-      "n": 6,
-      "p25": 444.15,
-      "p75": 444.15
-    },
-    "Instalacoes Eletricas::quadros_eletricos_caixas_disjuntores_torre": {
-      "mediana": 29038.32,
-      "unidade": "vb",
-      "n": 6,
-      "p25": 10217.94,
-      "p75": 29921.64
-    },
-    "PCI::instalacoes_preventivas": {
-      "mediana": 9404.39,
-      "unidade": "vb",
-      "n": 6,
-      "p25": 3846.27,
-      "p75": 55069.85
-    }
-  },
-  "indices_consumo_derivados": {
-    "pisos::area_piso_por_m2_ac": 2.4,
-    "revestimentos::area_parede_por_m2_ac": 2.85,
-    "teto::area_forro_por_m2_ac": 1.16,
-    "pintura::area_pintura_por_m2_ac": 5.65,
-    "fachada::area_fachada_por_m2_ac": 2.23,
-    "impermeabilizacao::area_impermeab_por_m2_ac": 0.37,
-    "alvenaria::area_alvenaria_por_m2_ac": 2.25
-  },
-  "curva_abc_top50": {
-    "mão de obra para execução de estrutura de concreto armado em": {
-      "desc": "Mão de Obra para Execução de Estrutura de Concreto Armado em",
-      "disc": "Supraestrutura",
-      "n": 28,
-      "rsm2_mediana": 18.39,
-      "pct_mediana": 0.037,
-      "total_mediana": 100382.0
-    },
-    "cadeira": {
-      "desc": "Cadeira",
-      "disc": "Canteiro",
-      "n": 23,
-      "rsm2_mediana": 0.18,
-      "pct_mediana": 0.029,
-      "total_mediana": 1600.0
-    },
-    "computador pessoal": {
-      "desc": "Computador pessoal",
-      "disc": "Canteiro",
-      "n": 21,
-      "rsm2_mediana": 3.46,
-      "pct_mediana": 0.583,
-      "total_mediana": 32500.0
-    },
-    "ar condicionado": {
-      "desc": "Ar condicionado",
-      "disc": "Canteiro",
-      "n": 21,
-      "rsm2_mediana": 0.76,
-      "pct_mediana": 0.18,
-      "total_mediana": 10000.0
-    },
-    "escrivaninha": {
-      "desc": "Escrivaninha",
-      "disc": "Canteiro",
-      "n": 21,
-      "rsm2_mediana": 0.49,
-      "pct_mediana": 0.072,
-      "total_mediana": 4000.0
-    },
-    "armário": {
-      "desc": "Armário",
-      "disc": "Canteiro",
-      "n": 21,
-      "rsm2_mediana": 0.38,
-      "pct_mediana": 0.065,
-      "total_mediana": 3600.0
-    },
-    "impressora": {
-      "desc": "Impressora",
-      "disc": "Canteiro",
-      "n": 21,
-      "rsm2_mediana": 0.21,
-      "pct_mediana": 0.039,
-      "total_mediana": 2000.0
-    },
-    "mesa": {
-      "desc": "Mesa",
-      "disc": "Canteiro",
-      "n": 21,
-      "rsm2_mediana": 0.11,
-      "pct_mediana": 0.018,
-      "total_mediana": 1000.0
-    },
-    "roteador": {
-      "desc": "Roteador",
-      "disc": "Canteiro",
-      "n": 21,
-      "rsm2_mediana": 0.11,
-      "pct_mediana": 0.018,
-      "total_mediana": 1000.0
-    },
-    "mão de obra para instalações elétricas": {
-      "desc": "Mão de Obra para Instalações Elétricas",
-      "disc": "Instalacoes Eletricas",
+      "min": 0.0002,
+      "p10": 0.0002,
+      "p25": 0.0026,
+      "mediana": 0.0054,
+      "p75": 0.0113,
+      "p90": 0.0343,
+      "max": 0.0398,
+      "media": 0.0105
+    },
+    "equipe_adm_pct_total": null,
+    "epcs_pct_total": {
       "n": 18,
-      "rsm2_mediana": 8.23,
-      "pct_mediana": 0.047,
-      "total_mediana": 34121.0
+      "min": 0.0001,
+      "p10": 0.0001,
+      "p25": 0.0002,
+      "mediana": 0.0056,
+      "p75": 0.0127,
+      "p90": 0.0134,
+      "max": 0.0157,
+      "media": 0.0063
     },
-    "0.17": {
-      "desc": "0.17",
-      "disc": "Gas",
-      "n": 18,
-      "rsm2_mediana": 0.0,
-      "pct_mediana": 0.017,
-      "total_mediana": 1.0
+    "equipamentos_carga_pct_total": {
+      "n": 12,
+      "min": 0.003,
+      "p10": 0.0037,
+      "p25": 0.0123,
+      "mediana": 0.0249,
+      "p75": 0.0388,
+      "p90": 0.0462,
+      "max": 0.1727,
+      "media": 0.0349
     },
-    "mão de obra para instalações de sistema preventivo de incênd": {
-      "desc": "Mão de obra para instalações de sistema preventivo de incênd",
-      "disc": "PCI",
-      "n": 16,
-      "rsm2_mediana": 0.75,
-      "pct_mediana": 0.02,
-      "total_mediana": 4123.0
+    "ensaios_pct_total": {
+      "n": 17,
+      "min": 0.0001,
+      "p10": 0.0003,
+      "p25": 0.0007,
+      "mediana": 0.0014,
+      "p75": 0.0022,
+      "p90": 0.0043,
+      "max": 0.0044,
+      "media": 0.0016
     },
-    "222.75": {
-      "desc": "222.75",
-      "disc": "Escoramento",
-      "n": 15,
-      "rsm2_mediana": 0.09,
-      "pct_mediana": 0.042,
-      "total_mediana": 447.0
-    },
-    "1": {
-      "desc": "1",
-      "disc": "Esquadrias",
-      "n": 14,
-      "rsm2_mediana": 0.0,
-      "pct_mediana": 0.0485,
-      "total_mediana": 2.0
-    },
-    "mão de obra vedações internas e externas - assentamento bloc": {
-      "desc": "Mão de Obra Vedações Internas e Externas - Assentamento Bloc",
-      "disc": "Alvenaria",
-      "n": 14,
-      "rsm2_mediana": 1.08,
-      "pct_mediana": 0.0115,
-      "total_mediana": 12808.0
-    },
-    "vigas baldrame": {
-      "desc": "VIGAS BALDRAME",
-      "disc": "Infraestrutura",
+    "canteiro_pct_total": {
       "n": 13,
-      "rsm2_mediana": 0.01,
-      "pct_mediana": 0.034,
-      "total_mediana": 57.0
-    },
-    "rebar ø 10mm x 3,00 m (80mm²)": {
-      "desc": "REBAR Ø 10mm x 3,00 m (80mm²)",
-      "disc": "SPDA",
-      "n": 12,
-      "rsm2_mediana": 0.1,
-      "pct_mediana": 0.02,
-      "total_mediana": 1626.0
-    },
-    "parafuso niquelado para fixação de bacia sanitária - tamanho": {
-      "desc": "Parafuso niquelado para fixação de bacia sanitária - tamanho",
-      "disc": "Loucas e Metais",
-      "n": 11,
-      "rsm2_mediana": 0.07,
-      "pct_mediana": 0.025,
-      "total_mediana": 812.0
-    },
-    "total": {
-      "desc": "TOTAL",
-      "disc": "Infraestrutura",
-      "n": 11,
-      "rsm2_mediana": 0.33,
-      "pct_mediana": 0.553,
-      "total_mediana": 2978.0
-    },
-    "alvenaria de vedação de blocos cerâmicos furados na horizont": {
-      "desc": "Alvenaria de Vedação de Blocos Cerâmicos Furados na Horizont",
-      "disc": "Alvenaria",
-      "n": 11,
-      "rsm2_mediana": 2.2,
-      "pct_mediana": 0.021,
-      "total_mediana": 19266.0
-    },
-    "barra de apoio pne": {
-      "desc": "Barra de apoio PNE",
-      "disc": "Loucas e Metais",
-      "n": 10,
-      "rsm2_mediana": 0.04,
-      "pct_mediana": 0.012,
-      "total_mediana": 555.0
-    },
-    "esquadrias de alumínio": {
-      "desc": "Esquadrias de Alumínio",
-      "disc": "Esquadrias",
-      "n": 10,
-      "rsm2_mediana": 15.08,
-      "pct_mediana": 0.056,
-      "total_mediana": 250763.0
-    },
-    "cisterna": {
-      "desc": "CISTERNA",
-      "disc": "Fundacoes",
-      "n": 10,
-      "rsm2_mediana": 0.0,
-      "pct_mediana": 0.097,
-      "total_mediana": 4.0
-    },
-    "mão de obra para aplicação de textura acrílica em paredes ex": {
-      "desc": "Mão de obra para aplicação de textura acrílica em paredes ex",
-      "disc": "Pintura",
-      "n": 10,
-      "rsm2_mediana": 6.13,
-      "pct_mediana": 0.017,
-      "total_mediana": 45512.0
-    },
-    "torneira de jardins": {
-      "desc": "Torneira de Jardins",
-      "disc": "Loucas e Metais",
-      "n": 10,
-      "rsm2_mediana": 0.0,
-      "pct_mediana": 0.227,
-      "total_mediana": 10.0
-    },
-    "moe - instalações preventivo (pci/spda) / execução geral": {
-      "desc": "MOE - Instalações Preventivo (PCI/SPDA) / Execução Geral",
-      "disc": "PCI",
-      "n": 10,
-      "rsm2_mediana": 0.72,
-      "pct_mediana": 0.0245,
-      "total_mediana": 7523.0
-    },
-    "escoramento lajes e vigas": {
-      "desc": "Escoramento Lajes e vigas",
-      "disc": "Escoramento",
-      "n": 10,
-      "rsm2_mediana": 2.02,
-      "pct_mediana": 0.055,
-      "total_mediana": 27338.0
-    },
-    "anel de vedação, 100 mm, para saíde de bacia sanitária": {
-      "desc": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
-      "disc": "Loucas e Metais",
-      "n": 9,
-      "rsm2_mediana": 0.08,
-      "pct_mediana": 0.008,
-      "total_mediana": 1184.0
-    },
-    "engate/ rabicho flexível inóx 1/2\"x40mm": {
-      "desc": "Engate/ rabicho flexível inóx 1/2\"x40mm",
-      "disc": "Loucas e Metais",
-      "n": 9,
-      "rsm2_mediana": 0.23,
-      "pct_mediana": 0.01,
-      "total_mediana": 2227.0
-    },
-    "mão de obra": {
-      "desc": "Mão de obra",
-      "disc": "Infraestrutura",
-      "n": 9,
-      "rsm2_mediana": 36.91,
-      "pct_mediana": 0.197,
-      "total_mediana": 290648.0
-    },
-    "mão de obra para instalações hidrossanitárias e sistema prev": {
-      "desc": "Mão de Obra para Instalações Hidrossanitárias e sistema prev",
-      "disc": "Instalacoes Hidraulicas",
-      "n": 9,
-      "rsm2_mediana": 9.44,
-      "pct_mediana": 0.035,
-      "total_mediana": 31000.0
-    },
-    "mão de obra para execução de argamassa polomérica impermeabi": {
-      "desc": "Mão de obra para execução de argamassa polomérica impermeabi",
-      "disc": "Impermeabilizacao",
-      "n": 9,
-      "rsm2_mediana": 1.71,
-      "pct_mediana": 0.038,
-      "total_mediana": 5616.0
-    },
-    "telecomunicação": {
-      "desc": "Telecomunicação",
-      "disc": "Sistemas Especiais",
-      "n": 9,
-      "rsm2_mediana": 2.29,
-      "pct_mediana": 0.019,
-      "total_mediana": 7523.0
-    },
-    "mão de obra para instalações hidrossanitárias": {
-      "desc": "Mão de Obra para Instalações Hidrossanitárias",
-      "disc": "Instalacoes Hidraulicas",
-      "n": 9,
-      "rsm2_mediana": 3.5,
-      "pct_mediana": 0.039,
-      "total_mediana": 30588.0
-    },
-    "execução de negativo em gesso liso": {
-      "desc": "Execução de Negativo em Gesso Liso",
-      "disc": "Forro",
-      "n": 9,
-      "rsm2_mediana": 3.31,
-      "pct_mediana": 0.036,
-      "total_mediana": 34716.0
-    },
-    "forro de gesso mineral - material e instalação": {
-      "desc": "Forro de gesso mineral - material e instalação",
-      "disc": "Forro",
-      "n": 9,
-      "rsm2_mediana": 2.88,
-      "pct_mediana": 0.031,
-      "total_mediana": 30144.0
-    },
-    "porta de madeira, abrir, incluso batentes, vistas e acabamen": {
-      "desc": "Porta de Madeira, Abrir, incluso Batentes, Vistas e Acabamen",
-      "disc": "Esquadrias",
-      "n": 9,
-      "rsm2_mediana": 4.54,
-      "pct_mediana": 0.016,
-      "total_mediana": 47618.0
-    },
-    "concreto": {
-      "desc": "Concreto",
-      "disc": "Infraestrutura",
-      "n": 8,
-      "rsm2_mediana": 73.92,
-      "pct_mediana": 0.106,
-      "total_mediana": 897162.0
-    },
-    "mão de obra para instalações de gás": {
-      "desc": "Mão de obra para instalações de gás",
-      "disc": "PCI",
-      "n": 8,
-      "rsm2_mediana": 0.43,
-      "pct_mediana": 0.008,
-      "total_mediana": 1404.0
-    },
-    "cabos  do tipo \"eprotenax\" 1000 v (90o), nas seguintes seçõe": {
-      "desc": "CABOS  DO TIPO \"EPROTENAX\" 1000 V (90o), NAS SEGUINTES SEÇÕE",
-      "disc": "Instalacoes Eletricas",
-      "n": 8,
-      "rsm2_mediana": 5.23,
-      "pct_mediana": 0.027,
-      "total_mediana": 29165.0
-    },
-    "5.310000000000059": {
-      "desc": "5.310000000000059",
-      "disc": "Contencao",
-      "n": 8,
-      "rsm2_mediana": 0.01,
-      "pct_mediana": 0.0285,
-      "total_mediana": 68.0
-    },
-    "concreto usinado bombeável, fck 30mpa, slump = 12 +/- 3, b1,": {
-      "desc": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1,",
-      "disc": "Infraestrutura",
-      "n": 8,
-      "rsm2_mediana": 12.01,
-      "pct_mediana": 0.0475,
-      "total_mediana": 95620.0
-    },
-    "mão de obra para aplicação de textura acrílica em paredes in": {
-      "desc": "Mão de Obra para Aplicação de Textura Acrílica em Paredes In",
-      "disc": "Pintura",
-      "n": 8,
-      "rsm2_mediana": 1.31,
-      "pct_mediana": 0.014,
-      "total_mediana": 13457.0
-    },
-    "execução de infraestrutura de climatização / split": {
-      "desc": "Execução de Infraestrutura de Climatização / Split",
-      "disc": "Climatizacao",
-      "n": 8,
-      "rsm2_mediana": 0.8,
-      "pct_mediana": 0.0285,
-      "total_mediana": 8374.0
-    },
-    "moe - pinturas / internas (pintura acrílica - incluído selad": {
-      "desc": "MOE - Pinturas / Internas (Pintura Acrílica - Incluído Selad",
-      "disc": "Pintura",
-      "n": 8,
-      "rsm2_mediana": 7.09,
-      "pct_mediana": 0.042,
-      "total_mediana": 74321.0
-    },
-    "bacia sanitária com caixa acoplada / linha comum": {
-      "desc": "Bacia Sanitária com Caixa Acoplada / linha Comum",
-      "disc": "Loucas e Metais",
-      "n": 8,
-      "rsm2_mediana": 0.66,
-      "pct_mediana": 0.0285,
-      "total_mediana": 6871.0
-    },
-    "viv_pio_con_ex_303_r02": {
-      "desc": "VIV_PIO_CON_EX_303_R02",
-      "disc": "Contencao",
-      "n": 8,
-      "rsm2_mediana": 0.0,
-      "pct_mediana": 0.1,
-      "total_mediana": 8.0
-    },
-    "válvula de escoamento para lavatório": {
-      "desc": "Válvula de escoamento para lavatório",
-      "disc": "Loucas e Metais",
-      "n": 7,
-      "rsm2_mediana": 0.0,
-      "pct_mediana": 0.005,
-      "total_mediana": 14.0
-    },
-    "vaso sanitário deca branco": {
-      "desc": "Vaso sanitário deca branco",
-      "disc": "Loucas e Metais",
-      "n": 7,
-      "rsm2_mediana": 16.63,
-      "pct_mediana": 0.455,
-      "total_mediana": 105591.0
-    },
-    "acabamento metálico para registro de gaveta": {
-      "desc": "Acabamento metálico para registro de gaveta",
-      "disc": "Loucas e Metais",
-      "n": 7,
-      "rsm2_mediana": 1.08,
-      "pct_mediana": 0.035,
-      "total_mediana": 19949.0
+      "min": 0.0004,
+      "p10": 0.0007,
+      "p25": 0.0022,
+      "mediana": 0.0155,
+      "p75": 0.0327,
+      "p90": 0.0674,
+      "max": 0.0694,
+      "media": 0.0236
     }
   },
-  "equipe_custo_mensal": {
-    "engenheiro": {
-      "mediana": 10500,
-      "n": 2,
-      "valores": [
-        12000.0,
-        9000.0
-      ]
+  "por_macrogrupo": {
+    "Gerenciamento_rsm2": {
+      "n": 131,
+      "min": 20.0,
+      "p10": 60.7294,
+      "p25": 126.25,
+      "mediana": 224.9132,
+      "p75": 507.7761,
+      "p90": 942.3292,
+      "max": 2996.8031,
+      "media": 424.1775
     },
-    "mestre": {
-      "mediana": 9940,
-      "n": 2,
-      "valores": [
-        12880.0,
-        7000.0
-      ]
+    "Mov.Terra_rsm2": {
+      "n": 58,
+      "min": 3.773,
+      "p10": 5.8436,
+      "p25": 13.1227,
+      "mediana": 21.5057,
+      "p75": 72.8201,
+      "p90": 145.1989,
+      "max": 1641.6231,
+      "media": 93.7239
     },
-    "almoxarife": {
-      "mediana": 3377,
+    "Infraestrutura_rsm2": {
+      "n": 63,
+      "min": 10.9499,
+      "p10": 82.0544,
+      "p25": 139.8415,
+      "mediana": 195.6617,
+      "p75": 240.5254,
+      "p90": 317.624,
+      "max": 2966.1628,
+      "media": 259.9984
+    },
+    "Supraestrutura_rsm2": {
+      "n": 56,
+      "min": 180.1426,
+      "p10": 404.7753,
+      "p25": 532.2501,
+      "mediana": 657.1572,
+      "p75": 718.2434,
+      "p90": 792.6681,
+      "max": 1034.0887,
+      "media": 627.8015
+    },
+    "Alvenaria_rsm2": {
+      "n": 130,
+      "min": 20.6199,
+      "p10": 91.7382,
+      "p25": 118.4024,
+      "mediana": 152.0568,
+      "p75": 203.9426,
+      "p90": 320.4948,
+      "max": 2842.9037,
+      "media": 234.5255
+    },
+    "Impermeabilização_rsm2": {
+      "n": 61,
+      "min": 16.6307,
+      "p10": 34.6303,
+      "p25": 44.2364,
+      "mediana": 61.1917,
+      "p75": 94.9432,
+      "p90": 577.2128,
+      "max": 2943.7219,
+      "media": 258.765
+    },
+    "Instalações_rsm2": {
+      "n": 80,
+      "min": 4.2362,
+      "p10": 28.2405,
+      "p25": 146.0526,
+      "mediana": 275.6604,
+      "p75": 367.835,
+      "p90": 446.7974,
+      "max": 2425.4667,
+      "media": 291.3599
+    },
+    "Sist.Especiais_rsm2": null,
+    "Climatização_rsm2": {
+      "n": 18,
+      "min": 21.1896,
+      "p10": 22.7644,
+      "p25": 29.3728,
+      "mediana": 39.2453,
+      "p75": 78.0904,
+      "p90": 124.6417,
+      "max": 212.6921,
+      "media": 58.2153
+    },
+    "Rev.Int.Parede_rsm2": {
+      "n": 61,
+      "min": 1.1551,
+      "p10": 37.6215,
+      "p25": 56.0839,
+      "mediana": 93.8016,
+      "p75": 149.4633,
+      "p90": 898.9455,
+      "max": 2985.4178,
+      "media": 312.0204
+    },
+    "Teto_rsm2": {
+      "n": 35,
+      "min": 30.2442,
+      "p10": 33.6843,
+      "p25": 46.721,
+      "mediana": 63.0703,
+      "p75": 84.7079,
+      "p90": 118.7749,
+      "max": 1043.0423,
+      "media": 93.9557
+    },
+    "Pisos_rsm2": {
+      "n": 42,
+      "min": 68.8936,
+      "p10": 125.4539,
+      "p25": 160.0,
+      "mediana": 201.8775,
+      "p75": 251.7739,
+      "p90": 638.2456,
+      "max": 2814.887,
+      "media": 366.7154
+    },
+    "Pintura_rsm2": {
+      "n": 61,
+      "min": 39.4576,
+      "p10": 60.2453,
+      "p25": 102.5452,
+      "mediana": 124.981,
+      "p75": 151.7688,
+      "p90": 193.4866,
+      "max": 2882.6488,
+      "media": 225.0675
+    },
+    "Esquadrias_rsm2": {
+      "n": 56,
+      "min": 135.3074,
+      "p10": 234.5997,
+      "p25": 261.7938,
+      "mediana": 308.1064,
+      "p75": 413.4411,
+      "p90": 547.8138,
+      "max": 2047.6855,
+      "media": 400.0639
+    },
+    "Louças_rsm2": {
+      "n": 21,
+      "min": 20.1789,
+      "p10": 22.9323,
+      "p25": 24.7943,
+      "mediana": 33.3158,
+      "p75": 82.4164,
+      "p90": 517.6985,
+      "max": 1169.8133,
+      "media": 159.2115
+    },
+    "Fachada_rsm2": {
+      "n": 33,
+      "min": 6.8456,
+      "p10": 67.5476,
+      "p25": 84.4721,
+      "mediana": 134.4738,
+      "p75": 196.3616,
+      "p90": 252.9689,
+      "max": 322.6675,
+      "media": 146.8616
+    },
+    "Complementares_rsm2": {
+      "n": 57,
+      "min": 26.4,
+      "p10": 70.1556,
+      "p25": 109.9536,
+      "mediana": 174.7741,
+      "p75": 247.4296,
+      "p90": 365.3412,
+      "max": 2709.0791,
+      "media": 273.2613
+    },
+    "Imprevistos_rsm2": {
+      "n": 23,
+      "min": 5.2958,
+      "p10": 38.9272,
+      "p25": 44.3331,
+      "mediana": 50.8858,
+      "p75": 72.546,
+      "p90": 94.8824,
+      "max": 1229.0183,
+      "media": 107.3319
+    }
+  },
+  "por_segmento": {
+    "pequeno_lt8k_rsm2": {
+      "n": 31,
+      "min": 1917.5902,
+      "p10": 2662.81,
+      "p25": 3082.6,
+      "mediana": 3650.32,
+      "p75": 4344.71,
+      "p90": 6091.07,
+      "max": 7668.2,
+      "media": 3894.0081
+    },
+    "medio_8k_15k_rsm2": {
+      "n": 16,
+      "min": 1519.6044,
+      "p10": 2455.59,
+      "p25": 2974.48,
+      "mediana": 3337.2732,
+      "p75": 3709.52,
+      "p90": 4346.61,
+      "max": 4642.46,
+      "media": 3298.9325
+    },
+    "grande_15k_25k_rsm2": {
       "n": 4,
-      "valores": [
-        4254.0,
-        2500.0,
-        2500.0,
-        5495.0
-      ]
+      "min": 1983.37,
+      "p10": 1983.37,
+      "p25": 3443.27,
+      "mediana": 3463.625,
+      "p75": 4345.32,
+      "p90": 4345.32,
+      "max": 4345.32,
+      "media": 3313.985
     },
-    "estagiário": {
-      "mediana": 1960,
-      "n": 1,
-      "valores": [
-        1960.0
-      ]
-    },
-    "assistente administrativo": {
-      "mediana": 2800,
-      "n": 1,
-      "valores": [
-        2800.0
-      ]
-    },
-    "operador de grua": {
-      "mediana": 15600,
-      "n": 1,
-      "valores": [
-        15600.0
-      ]
-    },
-    "vigilância contratada": {
-      "mediana": 15261,
-      "n": 1,
-      "valores": [
-        15261.0
-      ]
-    },
-    "engenheiro civil": {
-      "mediana": 7200,
-      "n": 3,
-      "valores": [
-        7200.0,
-        7200.0,
-        5000.0
-      ]
-    },
-    "mestre geral": {
-      "mediana": 5000,
-      "n": 2,
-      "valores": [
-        5000.0,
-        5000.0
-      ]
-    },
-    "estagiário engenharia": {
-      "mediana": 1200,
-      "n": 1,
-      "valores": [
-        1200.0
-      ]
-    },
-    "operador guincho": {
-      "mediana": 4500,
-      "n": 1,
-      "valores": [
-        4500.0
-      ]
-    },
-    "estagiário de engenharia": {
-      "mediana": 1300,
-      "n": 1,
-      "valores": [
-        1300.0
-      ]
-    },
-    "operador guincho/mini-grua": {
-      "mediana": 2500,
-      "n": 1,
-      "valores": [
-        2500.0
-      ]
-    },
-    "mestre de obra": {
-      "mediana": 13900,
-      "n": 2,
-      "valores": [
-        12800.0,
-        15000.0
-      ]
-    },
-    "gerenciamento técnico/admin": {
-      "mediana": 676,
-      "n": 1,
-      "valores": [
-        676.28
-      ]
-    },
-    "encarregado": {
-      "mediana": 8000,
-      "n": 1,
-      "valores": [
-        8000.0
-      ]
-    },
-    "engenheiro pj": {
-      "mediana": 10000,
-      "n": 1,
-      "valores": [
-        10000.0
-      ]
-    },
-    "técnico suprimentos": {
-      "mediana": 5000,
-      "n": 1,
-      "valores": [
-        5000.0
-      ]
-    }
-  },
-  "indices_estrutura_narrativos": {
-    "forma_pu_m2": {
-      "mediana": 41.06,
-      "n": 4
-    },
-    "aco_kg_m3": {
-      "mediana": 85.92,
-      "n": 11
-    },
-    "aco_pu_kg": {
-      "mediana": 18.1,
-      "n": 1
-    },
-    "concreto_m3_m2": {
-      "mediana": 0.21,
-      "n": 9
-    },
-    "concreto_pu_m3": {
-      "mediana": 550.66,
-      "n": 2
-    },
-    "forma_m2_m3": {
-      "mediana": 11.095,
-      "n": 2
-    }
-  },
-  "indices_ifc_reais": {
-    "electra_towers": {
-      "ac": 36088.85,
-      "pavimentos": 35,
-      "subsolos": 1,
-      "concreto_m3_por_m2_ac": 0.3958,
-      "nota": "Prédio grande (35 pav, 5 garagens, 1 subsolo) — índice maior que mediana",
-      "eletrico_rsm2": 207,
-      "hidro_rsm2": 227,
-      "ppci_rsm2": 52,
-      "telecom_rsm2": 13
-    },
-    "now_residence": {
-      "ac": 13200,
-      "pavimentos": 24,
-      "subsolos": 0,
-      "nota": "IFC sem quantitativos (IFC2X3 sem IfcQuantityVolume) — não foi possível extrair"
-    }
-  },
-  "indices_master": {
-    "supraestrutura": {
-      "concreto_m3_por_m2_ac": {
-        "fonte_indices_executivo": {
-          "mediana": 0.25,
-          "n": 7
-        },
-        "fonte_narrativos_md": {
-          "mediana": 0.21,
-          "n": 9
-        },
-        "fonte_ifc_electra": {
-          "valor": 0.396,
-          "nota": "prédio 35pav — acima da mediana"
-        },
-        "recomendado_convencional": 0.25,
-        "recomendado_protendida": 0.22,
-        "recomendado_grande_gt25k": 0.3
-      },
-      "aco_kg_por_m3": {
-        "fonte_indices_executivo": {
-          "mediana": 106.4,
-          "n": 7
-        },
-        "fonte_narrativos_md": {
-          "mediana": 85.9,
-          "n": 11
-        },
-        "recomendado_convencional": 106,
-        "recomendado_protendida": 70,
-        "nota": "Protendida: menos aço convencional + cordoalha 8 kg/m² laje"
-      },
-      "forma_m2_por_m3": {
-        "fonte_indices_executivo": {
-          "mediana": 7.12,
-          "n": 7
-        },
-        "fonte_narrativos_md": {
-          "mediana": 11.1,
-          "n": 2
-        },
-        "recomendado_convencional": 7.12,
-        "recomendado_protendida": 6.05,
-        "nota": "Protendida ×0.85 (menos vigas)"
-      },
-      "split_mo_material": {
-        "mo_pct": 0.326,
-        "n": 10
-      }
-    },
-    "instalacoes_eletricas": {
-      "eletroduto_m_por_m2_ac": {
-        "mediana": 1.77,
-        "n": 9
-      },
-      "pontos_por_ur": {
-        "mediana": 39.05,
-        "n": 12
-      },
-      "rsm2_ifc_electra": 207,
-      "rsm2_mediana_seg_medio": 130,
-      "split_mo_material": {
-        "mo_pct": 0.382,
-        "n": 11
-      }
-    },
-    "instalacoes_hidro": {
-      "tubulacao_m_por_m2_ac": {
-        "mediana": 1.075,
-        "n": 8
-      },
-      "rsm2_ifc_electra": 227,
-      "rsm2_mediana_seg_medio": 145,
-      "split_mo_material": {
-        "mo_pct": 0.34,
-        "n": 7
-      }
-    },
-    "pisos": {
-      "area_piso_por_m2_ac": {
-        "derivado": 1.7,
-        "nota": "Calibrado vs mediana seg 8-15k"
-      },
-      "split_mo_material": {
-        "mo_pct": 0.544,
-        "n": 7
-      }
-    },
-    "rev_int_parede": {
-      "area_parede_por_m2_ac": {
-        "derivado": 2.85,
-        "nota": "Derivado de R$/m² ÷ PU mix"
-      },
-      "split_mo_material": {
-        "mo_pct": 0.544,
-        "n": 7
-      }
-    },
-    "teto": {
-      "area_forro_por_m2_ac": {
-        "derivado": 1.16
-      },
-      "split_mo_material": {
-        "mo_pct": 0.791,
-        "n": 2
-      }
-    },
-    "pintura": {
-      "area_pintura_por_m2_ac": {
-        "derivado": 5.65,
-        "nota": "Inclui paredes + teto"
-      },
-      "split_mo_material": {
-        "mo_pct": 0.662,
-        "n": 7
-      }
-    },
-    "fachada": {
-      "area_fachada_por_m2_ac": {
-        "derivado": 1.55,
-        "nota": "Calibrado vs mediana seg 8-15k"
-      }
-    },
-    "impermeabilizacao": {
-      "area_impermeab_por_m2_ac": {
-        "derivado": 0.37
-      },
-      "split_mo_material": {
-        "mo_pct": 0.565,
-        "n": 6
-      }
-    },
-    "alvenaria": {
-      "area_alvenaria_por_m2_ac": {
-        "derivado": 2.25
-      },
-      "split_mo_material": {
-        "mo_pct": 0.357,
-        "n": 9
-      }
-    },
-    "equipe_adm": {
-      "engenheiro_pj_mes": {
-        "mediana": 10500,
-        "fontes": "executivos + narrativos",
-        "n": 5
-      },
-      "mestre_mes": {
-        "mediana": 9940,
-        "fontes": "narrativos",
-        "n": 4
-      },
-      "almoxarife_mes": {
-        "mediana": 3377,
-        "fontes": "narrativos",
-        "n": 4
-      },
-      "estagiario_mes": {
-        "mediana": 1580,
-        "fontes": "narrativos",
-        "n": 3
-      },
-      "epc_fixo_pequeno": 150000,
-      "epc_fixo_medio": 300000,
-      "epc_fixo_grande": 500000
+    "extra_gt25k_rsm2": {
+      "n": 5,
+      "min": 1604.0213,
+      "p10": 1604.0213,
+      "p25": 2549.1,
+      "mediana": 2634.07,
+      "p75": 4888.48,
+      "p90": 5219.45,
+      "max": 5219.45,
+      "media": 3379.0243
     }
   }
 }

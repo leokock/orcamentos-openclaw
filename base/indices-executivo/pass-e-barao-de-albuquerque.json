@@ -1,0 +1,161 @@
+{
+  "slug": "pass-e-barao-de-albuquerque",
+  "ac": 6022.06,
+  "total": 26164125.3,
+  "rsm2": 4344.71,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 3238048.81,
+      "pct": 0.1238
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 56861.45,
+      "pct": 0.0022
+    },
+    "INFRAESTRUTURA": {
+      "valor": 1255350.99,
+      "pct": 0.048
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 6227344.29,
+      "pct": 0.238
+    },
+    "ALVENARIA | VEDAÇÕES | DIVISÓRIAS": {
+      "valor": 1095393.54,
+      "pct": 0.0419
+    },
+    "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS": {
+      "valor": 2690640.93,
+      "pct": 0.1028
+    },
+    "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+      "valor": 1958122.73,
+      "pct": 0.0748
+    },
+    "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+      "valor": 252545.05,
+      "pct": 0.0097
+    },
+    "REVESTIMENTOS INTERNOS EM PISO E PAREDE": {
+      "valor": 938443.16,
+      "pct": 0.0359
+    },
+    "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 686468.6,
+      "pct": 0.0262
+    },
+    "ACABAMENTOS EM PISO E PAREDE": {
+      "valor": 1504579.01,
+      "pct": 0.0575
+    },
+    "SISTEMAS DE PINTURA INTERNA": {
+      "valor": 1061303.33,
+      "pct": 0.0406
+    },
+    "ESQUADRIAS - VIDROS E FERRAGENS": {
+      "valor": 2381657.34,
+      "pct": 0.091
+    },
+    "COBERTURA": {
+      "valor": 47812.8,
+      "pct": 0.0018
+    },
+    "REVESTIMENTOS E ACABAMENTOS DE FACHADA": {
+      "valor": 862053.27,
+      "pct": 0.0329
+    },
+    "SERVIÇOS COMPLEMENTARES E FINAIS": {
+      "valor": 1052500,
+      "pct": 0.0402
+    },
+    "IMPREVISTOS E CONTINGÊNCIAS": {
+      "valor": 855000.0,
+      "pct": 0.0327
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Sienge export Relatório. AC=6022.06 estimado via qty supraestrutura MO (m2). Itajaí/SC. 3 UCs: Ger.Técnico + Ger.Administrativo + Ger.Executivo. Instalações = Elétricas + Hidro + Preventivas. Data base: 01/04/2021.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1290070.5,
+    "eletricas": 960361.03,
+    "preventivas": 440209.4
+  },
+  "split_mo_material": {
+    "eletricas": {
+      "mo_valor": 907975.8,
+      "material_valor": 52385.23,
+      "mo_pct": 94.5
+    },
+    "hidrossanitarias": {
+      "mo_valor": 905115.6,
+      "material_valor": 384954.9,
+      "mo_pct": 70.2
+    },
+    "preventivas": {
+      "mo_valor": 221527.46,
+      "material_valor": 218681.94,
+      "mo_pct": 50.3
+    }
+  },
+  "instalacoes_extraction_method": "Relatório (Sienge)",
+  "indices_estruturais": {
+    "concreto_total_m3": 3971.85,
+    "concreto_m3_por_m2_ac": 0.6595,
+    "aco_total_kg": 306891.9,
+    "aco_kg_por_m3_concreto": 77.27,
+    "forma_total_m2": 22360.61,
+    "forma_m2_por_m2_ac": 3.7131,
+    "fck_predominante": 45,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 3174.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 1189.93,
+    "fundacao_aco_kg": 40012.4,
+    "mo_estrutural_rsm2": 317.65
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 475922.4,
+    "ensaios": 41929.49,
+    "taxas_licencas": 115650.01,
+    "epcs": 267636.66,
+    "canteiro": 148999.74,
+    "equipamentos_carga": 422150
+  },
+  "sistemas_especiais_detail": {
+    "total": 355000,
+    "automacao": 94122.73
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 28448.65,
+      "pu": 18948.65
+    },
+    "portas_madeira": {
+      "valor": 4801.15,
+      "pu": 960.23
+    },
+    "metalicas_serralheria": {
+      "valor": 14000
+    },
+    "guarda_corpo": {
+      "valor": 11293.81
+    },
+    "vidros": {
+      "valor": 85648
+    },
+    "ferragens": {
+      "valor": 625
+    }
+  },
+  "acabamentos_pus": {
+    "ceramica": 55.09,
+    "contrapiso": 40.01,
+    "chapisco": 6.34,
+    "reboco": 20.0,
+    "laminado": 6.05,
+    "forro_gesso": 75.6,
+    "porcelanato": 104.55,
+    "rodape": 38.56,
+    "pintura": 5.16
+  }
+}

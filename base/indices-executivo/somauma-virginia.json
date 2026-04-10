@@ -26,13 +26,20 @@
   },
   "indices_consumo": {},
   "split_mo_material": {
-    "Canteiro": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "eletricas": {
+      "mo_valor": 657047.95,
+      "material_valor": 3755573.42,
+      "mo_pct": 14.9
     },
-    "Escoramento": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "preventivas": {
+      "mo_valor": 252710.75,
+      "material_valor": 834158.97,
+      "mo_pct": 23.3
+    },
+    "telecom": {
+      "mo_valor": 50542.15,
+      "material_valor": 639310.69,
+      "mo_pct": 7.3
     }
   },
   "curva_abc": {
@@ -157,6 +164,49 @@
           "total": 0.28482045701849845
         }
       ]
+    }
+  },
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 2451991.82,
+    "eletricas": 4412621.37,
+    "preventivas": 1086869.72,
+    "telecom": 689852.84
+  },
+  "instalacoes_extraction_method": "ORÇAMENTO_EXECUTIVO (ORÇAMENTO_EXECUTIVO_COMENTADO)",
+  "indices_estruturais": {
+    "concreto_total_m3": 340.09,
+    "concreto_m3_por_m2_ac": 0.0336,
+    "aco_total_kg": 36618,
+    "aco_kg_por_m3_concreto": 107.67,
+    "forma_total_m2": 52.12,
+    "forma_m2_por_m2_ac": 0.0052,
+    "fck_predominante": 30,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": null,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 40.43,
+    "fundacao_aco_kg": 2595,
+    "mo_estrutural_rsm2": 27.88
+  },
+  "ci_detalhado": {
+    "ensaios": 144680.36,
+    "epcs": 60000,
+    "canteiro": 5000,
+    "equipamentos_carga": 418000
+  },
+  "loucas_metais_detail": {
+    "total": 54526.44
+  },
+  "sistemas_especiais_detail": {
+    "elevadores": {
+      "valor": 1202000
+    },
+    "gerador": 99400,
+    "total": 1391200
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 25375.48
     }
   }
 }

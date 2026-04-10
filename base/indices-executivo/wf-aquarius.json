@@ -86,17 +86,25 @@
   },
   "indices_consumo": {},
   "split_mo_material": {
-    "Canteiro": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "hidrossanitarias": {
+      "mo_valor": 1024132.05,
+      "material_valor": 1236431.76,
+      "mo_pct": 45.3
     },
-    "Infraestrutura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "eletricas": {
+      "mo_valor": 1108077.3,
+      "material_valor": 1687619.97,
+      "mo_pct": 39.6
     },
-    "Supraestrutura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "preventivas": {
+      "mo_valor": 268624.8,
+      "material_valor": 193074.08,
+      "mo_pct": 58.2
+    },
+    "gas": {
+      "mo_valor": 189313.6,
+      "material_valor": 23664.2,
+      "mo_pct": 88.9
     }
   },
   "curva_abc": {
@@ -358,5 +366,71 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 2260563.81,
+    "eletricas": 2795697.27,
+    "preventivas": 461698.88,
+    "gas": 212977.8,
+    "telecom": 220800.6
+  },
+  "instalacoes_extraction_method": "Ger_Executivo (Ger_Executivo)",
+  "indices_estruturais": {
+    "concreto_total_m3": 4664.89,
+    "concreto_m3_por_m2_ac": 0.2779,
+    "aco_total_kg": 442930.38,
+    "aco_kg_por_m3_concreto": 94.95,
+    "forma_total_m2": 25726.97,
+    "forma_m2_por_m2_ac": 1.5324,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 9325.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 874.86,
+    "fundacao_aco_kg": 89306.6,
+    "mo_estrutural_rsm2": 313.59
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 673064.46,
+    "ensaios": 104778,
+    "taxas_licencas": 14831.85,
+    "epcs": 9954,
+    "canteiro": 9469.22
+  },
+  "sistemas_especiais_detail": {
+    "piscina": 33272.99,
+    "total": 33272.99
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 7403109.48
+    },
+    "guarda_corpo": {
+      "valor": 929166.27
+    },
+    "portas_madeira": {
+      "valor": 1775962.77
+    },
+    "ferragens": {
+      "valor": 79800
+    },
+    "metalicas_serralheria": {
+      "valor": 111392.72
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 217232.72,
+    "textura_pintura_ext": 297095.62,
+    "pastilha_porcelanato": 62749.12
+  },
+  "acabamentos_pus": {
+    "ceramica": 169.53,
+    "chapisco": 37.22,
+    "reboco": 15.9,
+    "porcelanato": 103.48,
+    "forro_gesso": 100.0,
+    "contrapiso": 40.0,
+    "rodape": 33.87,
+    "pintura": 77.91
   }
 }

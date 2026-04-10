@@ -8,5 +8,94 @@
   "disciplinas": {},
   "indices_consumo": {},
   "split_mo_material": {},
-  "curva_abc": {}
+  "curva_abc": {},
+  "instalacoes_breakdown": {
+    "eletricas": 6820201.67,
+    "hidrossanitarias": 10779565.44,
+    "preventivas": 509592.28,
+    "gas": 662122.18
+  },
+  "instalacoes_extraction_method": "ORÇAMENTO_EXECUTIVO side-table (cols 9-10)",
+  "ci_detalhado": {
+    "projetos_consultorias": {
+      "valor": 31212607.64
+    },
+    "taxas_licencas": {
+      "valor": null
+    },
+    "equipe_adm": {
+      "valor": null,
+      "prazo_meses": null
+    },
+    "epcs": {
+      "valor": null
+    },
+    "equipamentos_carga": {
+      "valor": null
+    },
+    "ensaios": {
+      "valor": null
+    },
+    "canteiro": {
+      "valor": null
+    }
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": null,
+      "area_m2": null,
+      "pu_m2": null
+    },
+    "guarda_corpo": {
+      "valor": null,
+      "comprimento_m": null,
+      "pu_m": null
+    },
+    "portas_madeira": {
+      "valor": null,
+      "qtd": null,
+      "pu_un": null
+    },
+    "portas_corta_fogo": {
+      "valor": null,
+      "qtd": null,
+      "pu_un": null
+    },
+    "vidros": {
+      "valor": null
+    },
+    "pele_vidro": {
+      "valor": null
+    },
+    "brises": {
+      "valor": null
+    },
+    "total": 17998901.11
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": null
+    },
+    "textura_pintura_ext": {
+      "valor": null
+    },
+    "pastilha_porcelanato": {
+      "valor": null
+    },
+    "juntas": {
+      "valor": null
+    },
+    "total": 12584359.1
+  },
+  "acabamentos_pus": {
+    "porcelanato_pu_m2": null,
+    "ceramica_pu_m2": null,
+    "laminado_pu_m2": null,
+    "rodape_pu_m": null,
+    "contrapiso_pu_m2": null,
+    "forro_gesso_pu_m2": null,
+    "pintura_parede_pu_m2": null,
+    "chapisco_pu_m2": null,
+    "reboco_pu_m2": null
+  }
 }

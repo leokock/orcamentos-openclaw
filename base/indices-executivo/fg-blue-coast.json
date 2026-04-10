@@ -172,38 +172,11 @@
   },
   "indices_consumo": {},
   "split_mo_material": {
-    "Loucas e Metais": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Instalacoes Hidraulicas": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Climatizacao": {
-      "mo_pct": 0.203,
-      "material_pct": 0.797
-    },
-    "Escoramento": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Supraestrutura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Estacas": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Canteiro": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Gas": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    }
+    "hidrossanitarias": 1707140.5,
+    "eletricas": 1633447.56,
+    "preventivas": 835445.04,
+    "gas": 1139016.46,
+    "telecom": 1671690.39
   },
   "curva_abc": {
     "Loucas e Metais": {
@@ -844,5 +817,79 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 2254569.64,
+    "eletricas": 4347799.88,
+    "preventivas": null,
+    "gas": null,
+    "telecom": null,
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 8203.28,
+    "concreto_m3_por_m2_ac": 0.6247,
+    "aco_total_kg": 1210719.77,
+    "aco_kg_por_m3_concreto": 147.59,
+    "forma_total_m2": 48900.45,
+    "forma_m2_por_m2_ac": 3.7238,
+    "fck_predominante": 50,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 2790.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": 313.81
+  },
+  "ci_detalhado": {
+    "equipamentos_carga": 1428510.03,
+    "canteiro_from_sheet": 246602.53,
+    "_metodo": "Obra:Obra "
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 7811765.83,
+    "elevadores": {
+      "valor": 2376054.26
+    },
+    "climatizacao": {
+      "valor": 521104.56
+    },
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 10302932.72,
+      "qtd": 9788.89,
+      "pu": 1052.51
+    },
+    "portas_madeira": {
+      "valor": 1349520.8,
+      "qtd": 1030.0,
+      "pu": 1310.21
+    },
+    "portas_corta_fogo": {
+      "valor": 270536.38,
+      "qtd": 228.0,
+      "pu": 1186.56
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 60347.98
+    },
+    "textura_pintura_ext": {
+      "valor": 0.0
+    },
+    "pastilha_porcelanato": {
+      "valor": 1161728.11
+    }
+  },
+  "acabamentos_pus": {
+    "ceramica": 51.02,
+    "contrapiso": 37.48,
+    "reboco": 19.0,
+    "pintura": 13.97,
+    "porcelanato": 96.78,
+    "rodape": 19.73
   }
 }

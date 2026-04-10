@@ -1,0 +1,152 @@
+{
+  "projeto": "pavcor",
+  "ac": 14283.29,
+  "total": 49360278.61,
+  "rsm2": 3455.81,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 8279838.43,
+      "rsm2": 579.69,
+      "pct": 0.1677
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 311675.05,
+      "rsm2": 21.82,
+      "pct": 0.0063
+    },
+    "INFRAESTRUTURA": {
+      "valor": 2794693.43,
+      "rsm2": 195.66,
+      "pct": 0.0566
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 9285742.21,
+      "rsm2": 650.11,
+      "pct": 0.1881
+    },
+    "ALVENARIA | VEDAÇÕES | DIVISÓRIAS": {
+      "valor": 2207737.16,
+      "rsm2": 154.57,
+      "pct": 0.0447
+    },
+    "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+      "valor": 817531.93,
+      "rsm2": 57.24,
+      "pct": 0.0166
+    },
+    "INSTALAÇÕES HIDROSSANITÁRIAS": {
+      "valor": 2049838.33,
+      "rsm2": 143.51,
+      "pct": 0.0415
+    },
+    "INSTALAÇÕES ELÉTRICAS": {
+      "valor": 2630095.39,
+      "rsm2": 184.14,
+      "pct": 0.0533
+    },
+    "INSTALAÇÕES PREVENTIVAS": {
+      "valor": 383649.17,
+      "rsm2": 26.86,
+      "pct": 0.0078
+    },
+    "CLIMATIZAÇÃO": {
+      "valor": 1227838.7,
+      "rsm2": 85.96,
+      "pct": 0.0249
+    },
+    "INSTALAÇÕES DE COMUNICAÇÕES": {
+      "valor": 624378.48,
+      "rsm2": 43.71,
+      "pct": 0.0126
+    },
+    "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+      "valor": 1365973.46,
+      "rsm2": 95.63,
+      "pct": 0.0277
+    },
+    "REVESTIMENTOS INTERNOS DE PAREDE": {
+      "valor": 3402367.61,
+      "rsm2": 238.21,
+      "pct": 0.0689
+    },
+    "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 671038.8,
+      "rsm2": 46.98,
+      "pct": 0.0136
+    },
+    "PISOS E PAVIMENTAÇÕES": {
+      "valor": 2930070.54,
+      "rsm2": 205.14,
+      "pct": 0.0594
+    },
+    "SISTEMAS DE PINTURA INTERNA": {
+      "valor": 2065905.84,
+      "rsm2": 144.64,
+      "pct": 0.0419
+    },
+    "ESQUADRIAS - VIDROS E FERRAGENS": {
+      "valor": 3514562.67,
+      "rsm2": 246.06,
+      "pct": 0.0712
+    },
+    "LOUÇAS E METAIS": {
+      "valor": 380611.28,
+      "rsm2": 26.65,
+      "pct": 0.0077
+    },
+    "REVESTIMENTOS E ACABAMENTOS DE FACHADA": {
+      "valor": 1339795.55,
+      "rsm2": 93.8,
+      "pct": 0.0271
+    },
+    "SERVIÇOS COMPLEMENTARES E FINAIS": {
+      "valor": 2469834.48,
+      "rsm2": 172.92,
+      "pct": 0.05
+    },
+    "IMPREVISTOS E CONTINGÊNCIAS": {
+      "valor": 607100.1,
+      "rsm2": 42.5,
+      "pct": 0.0123
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orçamento executivo R01. AC=14283.29. 90 UH, 24 pav. Projeto Cinque. Inclui Mobiliário/Decoração (R$2.18M) e Limpeza em Serv.Complementares.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1842332.66,
+    "eletricas": 2630095.39,
+    "preventivas": 383649.17,
+    "gas": 207505.67,
+    "telecom": 624378.48
+  },
+  "split_mo_material": {
+    "preventivas": {
+      "mo_valor": 223676.32,
+      "material_valor": 159972.85,
+      "mo_pct": 58.3
+    }
+  },
+  "instalacoes_extraction_method": "Ger_Executivo (Ger_Executivo)",
+  "indices_estruturais": {
+    "concreto_total_m3": 3707.58,
+    "concreto_m3_por_m2_ac": 0.2596,
+    "aco_total_kg": 260766.87,
+    "aco_kg_por_m3_concreto": 70.33,
+    "forma_total_m2": 11240.06,
+    "forma_m2_por_m2_ac": 0.7869,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 3520.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 1845.06,
+    "fundacao_aco_kg": 53407.87,
+    "mo_estrutural_rsm2": 321.44
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 1313665.4100000001,
+    "ensaios": 15382.73,
+    "taxas_licencas": 9946.0,
+    "epcs": 7963.76,
+    "canteiro": 19400
+  }
+}

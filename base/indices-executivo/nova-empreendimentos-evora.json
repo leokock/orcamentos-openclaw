@@ -1,0 +1,170 @@
+{
+  "projeto": "nova-empreendimentos-evora",
+  "ac": 3477.2,
+  "total": 21291304.16,
+  "rsm2": 6123.12,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 9609598.28,
+      "rsm2": 2763.6,
+      "pct": 0.4513
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 233599.37,
+      "rsm2": 67.18,
+      "pct": 0.011
+    },
+    "INFRAESTRUTURA": {
+      "valor": 959710.87,
+      "rsm2": 276.0,
+      "pct": 0.0451
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 2309461.83,
+      "rsm2": 664.17,
+      "pct": 0.1085
+    },
+    "ALVENARIA | VEDAÇÕES | DIVISÓRIAS": {
+      "valor": 654919.1,
+      "rsm2": 188.35,
+      "pct": 0.0308
+    },
+    "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+      "valor": 360544.77,
+      "rsm2": 103.69,
+      "pct": 0.0169
+    },
+    "INSTALAÇÕES ELÉTRICAS": {
+      "valor": 816284.5,
+      "rsm2": 234.75,
+      "pct": 0.0383
+    },
+    "INSTALAÇÕES HIDROSSANITÁRIAS": {
+      "valor": 433130.82,
+      "rsm2": 124.56,
+      "pct": 0.0203
+    },
+    "INSTALAÇÕES PREVENTIVAS": {
+      "valor": 45400.36,
+      "rsm2": 13.06,
+      "pct": 0.0021
+    },
+    "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+      "valor": 218549.15,
+      "rsm2": 62.85,
+      "pct": 0.0103
+    },
+    "CLIMATIZAÇÃO": {
+      "valor": 97291.55,
+      "rsm2": 27.98,
+      "pct": 0.0046
+    },
+    "REVESTIMENTOS INTERNOS DE PAREDE": {
+      "valor": 1479941.37,
+      "rsm2": 425.61,
+      "pct": 0.0695
+    },
+    "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 91452.76,
+      "rsm2": 26.3,
+      "pct": 0.0043
+    },
+    "PISOS E PAVIMENTAÇÕES": {
+      "valor": 544068.22,
+      "rsm2": 156.47,
+      "pct": 0.0256
+    },
+    "SISTEMAS DE PINTURA INTERNA": {
+      "valor": 405512.69,
+      "rsm2": 116.62,
+      "pct": 0.019
+    },
+    "ESQUADRIAS - VIDROS E FERRAGENS": {
+      "valor": 1687649.47,
+      "rsm2": 485.35,
+      "pct": 0.0793
+    },
+    "LOUÇAS E METAIS": {
+      "valor": 84444.58,
+      "rsm2": 24.29,
+      "pct": 0.004
+    },
+    "REVESTIMENTOS E ACABAMENTOS DE FACHADA": {
+      "valor": 191051.58,
+      "rsm2": 54.94,
+      "pct": 0.009
+    },
+    "SERVIÇOS COMPLEMENTARES E FINAIS": {
+      "valor": 1068692.89,
+      "rsm2": 307.34,
+      "pct": 0.0502
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "EAP não-padrão: ADM + OBRA(MAT) + MÃO DE OBRA. Combinado MAT+MO por disciplina. ADM inclui terreno, comissões, projetos, consultorias.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1361395.37,
+    "eletricas": 2057907.97,
+    "preventivas": 373906.22,
+    "gas": 67289.97,
+    "telecom": 58883.3
+  },
+  "split_mo_material": {
+    "hidrossanitarias": {
+      "mo_valor": 4389.39,
+      "material_valor": 1357005.98,
+      "mo_pct": 0.3
+    },
+    "eletricas": {
+      "mo_valor": 18364.31,
+      "material_valor": 2039543.66,
+      "mo_pct": 0.9
+    }
+  },
+  "instalacoes_extraction_method": "ORÇAMENTO_EXECUTIVO (ORÇAMENTO_EXECUTIVO_COMENTADO)",
+  "indices_estruturais": {
+    "concreto_total_m3": 821.09,
+    "concreto_m3_por_m2_ac": 0.2361,
+    "aco_total_kg": 84902.9,
+    "aco_kg_por_m3_concreto": 103.4,
+    "forma_total_m2": 5147.34,
+    "forma_m2_por_m2_ac": 1.4803,
+    "fck_predominante": 35,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": null,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 163.75,
+    "fundacao_aco_kg": 17188.1,
+    "mo_estrutural_rsm2": null
+  },
+  "ci_detalhado": {
+    "canteiro": 39237.93,
+    "ensaios": 3000,
+    "epcs": 1376.02
+  },
+  "sistemas_especiais_detail": {
+    "total": 218549.15,
+    "elevadores": {
+      "valor": 193549.15
+    },
+    "automacao": 18000
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 2756652.92
+    },
+    "portas_madeira": {
+      "valor": 430280.75
+    },
+    "guarda_corpo": {
+      "valor": 7841.83
+    },
+    "metalicas_serralheria": {
+      "valor": 29678.0
+    }
+  },
+  "fachada_detail": {
+    "textura_pintura_ext": 80052.18,
+    "pastilha_porcelanato": 22719.6
+  }
+}

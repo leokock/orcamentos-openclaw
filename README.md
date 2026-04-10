@@ -34,6 +34,33 @@ Workspace centralizado de orcamentacao parametrica e executiva.
 
 ---
 
+## Arquitetura
+
+Este workspace é acessado diretamente por **bots no Slack** (principal: **Cartesiano**). Quando a equipe da Cartesian envia uma mensagem num canal do Slack, o bot lê e escreve arquivos nestas pastas — gerando orçamentos, processando IFCs, extraindo quantitativos — e faz upload do resultado na thread.
+
+```
+Equipe (Slack)  ──mensagem──→  Bot Cartesiano
+                                    │
+                         lê/escreve arquivos em
+                         ~/orcamentos/ (este repo)
+                                    │
+                         ┌──────────┴──────────┐
+                         │                     │
+                    Google Drive           Supabase
+                    (symlinks)          (Memorial Cartesiano)
+```
+
+### Relação com `~/clawd`
+
+| Workspace | Repo | Propósito |
+|-----------|------|-----------|
+| `~/clawd` | `github.com/leokock/openclaw.git` | Workspace principal do Jarvis — agente geral, configurações, skills compartilhadas |
+| `~/orcamentos` | `github.com/leokock/orcamentos-openclaw.git` | **Este repo** — workspace especializado em orçamentação, acessado pelo bot Cartesiano no Slack |
+
+Ambos sincronizam via Obsidian Git plugin (auto-pull 5min). Pastas de projetos e entregas sincronizam com o Google Drive da Cartesian via symlinks (ver `AGENTS.md` Regra #0 para mapeamento completo).
+
+---
+
 ## Fluxo de Trabalho
 
 ```
@@ -101,8 +128,8 @@ Entregaveis: Parametrico (14 abas) + Executivo (8 abas) + Memorial (21 tabelas) 
 ## Links
 
 - **Base parametrica:** `base/` (indices, calibracao, templates)
-- **Fonte dos dados:** `~/clawd/orcamento-parametrico/` (git tracked)
-- **Workspace Jarvis:** `~/clawd/`
+- **Workspace Jarvis (`~/clawd`):** agente geral — configs, skills, e fonte original dos dados parametricos
+- **Este repo (`~/orcamentos`):** workspace do bot Cartesiano no Slack — orcamentacao parametrica + executiva
 
 ---
 

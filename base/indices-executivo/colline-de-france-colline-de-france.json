@@ -1,0 +1,193 @@
+{
+  "slug": "colline-de-france-colline-de-france",
+  "ac": 27559.45,
+  "total": 143845292.36,
+  "rsm2": 5219.45,
+  "cub_ref": 2303.36,
+  "data_base": "mar/2025",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 13604537.98,
+      "pct": 0.0946
+    },
+    "Mov.Terra": {
+      "valor": 234405.56,
+      "pct": 0.0016
+    },
+    "Infraestrutura": {
+      "valor": 6385677.46,
+      "pct": 0.0444
+    },
+    "Supraestrutura": {
+      "valor": 19794394.21,
+      "pct": 0.1376
+    },
+    "Alvenaria": {
+      "valor": 11056107.15,
+      "pct": 0.0769
+    },
+    "Instalações": {
+      "valor": 13069277.9,
+      "pct": 0.0909
+    },
+    "Sist.Especiais": {
+      "valor": 11700691.24,
+      "pct": 0.0813
+    },
+    "Impermeabilização": {
+      "valor": 1769865.59,
+      "pct": 0.0123
+    },
+    "Rev.Int.Parede": {
+      "valor": 5528188.08,
+      "pct": 0.0384
+    },
+    "Teto": {
+      "valor": 3273371.57,
+      "pct": 0.0228
+    },
+    "Pisos": {
+      "valor": 10562763.97,
+      "pct": 0.0734
+    },
+    "Pintura": {
+      "valor": 4590037.17,
+      "pct": 0.0319
+    },
+    "Esquadrias": {
+      "valor": 27299549.47,
+      "pct": 0.1898
+    },
+    "Complementares": {
+      "valor": 10068602.33,
+      "pct": 0.07
+    },
+    "Fachada": {
+      "valor": 4907822.68,
+      "pct": 0.0341
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Apresentacao Parametrico TOTAL (Hotel+Residencial). AC=27559.45 (Hotel 6049 + Resid 21510). Alto padrao (Gramado). CUB/RJ. Louças e Climatizacao nao discriminados separadamente. R$/m2 alto justificado pelo padrao hotel+residencial.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1740794.31,
+    "eletricas": 2569332.53,
+    "preventivas": 395112.56,
+    "gas": 141111.63,
+    "telecom": 423334.89,
+    "_metodo": "Ger_Executivo:Ger_Executivo Hotel_H+Ger_Executivo Residêncial"
+  },
+  "split_mo_material": {
+    "hidrossanitarias": 953820,
+    "eletricas": 112889.3,
+    "preventivas": 56444.65
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 7438.47,
+    "concreto_m3_por_m2_ac": 0.2699,
+    "aco_total_kg": 892347.45,
+    "aco_kg_por_m3_concreto": 119.96,
+    "forma_total_m2": 84987.76,
+    "forma_m2_por_m2_ac": 3.0838,
+    "fck_predominante": null,
+    "tipo_estaca": "Pré-moldada",
+    "estacas_comprimento_total_m": 5460.0,
+    "estacas_qtd": 1274,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": 65639.5,
+    "mo_estrutural_rsm2": null
+  },
+  "ci_detalhado": {
+    "servicos_tecnicos_total": 4077479.43,
+    "projetos_consultorias": 3218719.74,
+    "estudos": 130366.44,
+    "projetos": 1020540.97,
+    "consultorias": 113118.0,
+    "ensaios": 345334.46,
+    "taxas_licencas": 4936239.12,
+    "licencas_taxas": 2294123.75,
+    "documentos": 173995.81,
+    "gerenciamento_adm_total": 6465641.43,
+    "epcs": 1828454.72,
+    "equipe_adm_canteiro": 10128474.2,
+    "epcs_equipamentos": 858313.14,
+    "meio_ambiente": 110041.15,
+    "equipe_gestao": 3582398.1100000003,
+    "despesas_consumo": 548851.47,
+    "canteiro_instalacoes": 565505.45,
+    "ligacoes_provisorias": 74132.23,
+    "equipamentos_total": 3323598.66,
+    "equipamentos_carga": 6647197.32,
+    "_metodo": "Ger_Tec_Adm:Ger_Tec e Adm"
+  },
+  "loucas_metais_detail": {
+    "total_valor": 944037.7,
+    "_metodo": "Ger_Executivo:Ger_Executivo Hotel_H"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 1233864.07,
+    "elevadores": {
+      "valor": 1097700.0
+    },
+    "_metodo": "Ger_Executivo:Ger_Executivo Hotel_H"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 2520680.77,
+      "qtd": 9911.31,
+      "pu": 254.32
+    },
+    "guarda_corpo": {
+      "valor": 298831.11,
+      "qtd": 326.32,
+      "pu": 915.76
+    },
+    "portas_madeira": {
+      "valor": 660347.04,
+      "qtd": 1104.0,
+      "pu": 598.14
+    },
+    "portas_corta_fogo": {
+      "valor": 55949.0,
+      "qtd": 94.0,
+      "pu": 595.2
+    },
+    "vidros": {
+      "valor": 8182.98,
+      "qtd": 8.07,
+      "pu": 1014.0
+    },
+    "pele_vidro": {
+      "valor": 2012867.4,
+      "qtd": 1024.36,
+      "pu": 1965.0
+    },
+    "brises": {
+      "valor": 1236421.2,
+      "qtd": 1471.78,
+      "pu": 840.09
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 656814.68
+    },
+    "textura_pintura_ext": {
+      "valor": 420017.78
+    },
+    "pastilha_porcelanato": {
+      "valor": 536014.73
+    },
+    "_total": 1810758.7
+  },
+  "acabamentos_pus": {
+    "contrapiso": 31.48,
+    "ceramica": 45.35,
+    "pintura": 7.49,
+    "chapisco": 8.53,
+    "reboco": 15.9,
+    "porcelanato": 98.6,
+    "rodape": 21.81,
+    "laminado": 1014.0
+  }
+}

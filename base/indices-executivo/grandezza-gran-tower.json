@@ -1,0 +1,176 @@
+{
+  "slug": "grandezza-gran-tower",
+  "ac": 6245.48,
+  "total": 21245650.53,
+  "rsm2": 3401.76,
+  "cub_ref": 2793.27,
+  "data_base": "jul/2024",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 2384931.88,
+      "pct": 0.1123
+    },
+    "Mov.Terra": {
+      "valor": 230869.63,
+      "pct": 0.0109
+    },
+    "Infraestrutura": {
+      "valor": 933522.84,
+      "pct": 0.0439
+    },
+    "Supraestrutura": {
+      "valor": 4384787.09,
+      "pct": 0.2064
+    },
+    "Alvenaria": {
+      "valor": 863630.83,
+      "pct": 0.0406
+    },
+    "Instalações": {
+      "valor": 1935344.22,
+      "pct": 0.0911
+    },
+    "Sist.Especiais": {
+      "valor": 1404690.9,
+      "pct": 0.0661
+    },
+    "Impermeabilização": {
+      "valor": 420004.94,
+      "pct": 0.0198
+    },
+    "Rev.Int.Parede": {
+      "valor": 1030085.41,
+      "pct": 0.0485
+    },
+    "Teto": {
+      "valor": 344380.88,
+      "pct": 0.0162
+    },
+    "Pisos": {
+      "valor": 1388564.53,
+      "pct": 0.0654
+    },
+    "Pintura": {
+      "valor": 712320.05,
+      "pct": 0.0335
+    },
+    "Esquadrias": {
+      "valor": 1623887.72,
+      "pct": 0.0764
+    },
+    "Complementares": {
+      "valor": 1708717.5,
+      "pct": 0.0804
+    },
+    "Fachada": {
+      "valor": 1579912.11,
+      "pct": 0.0744
+    },
+    "Imprevistos": {
+      "valor": 300000.0,
+      "pct": 0.0141
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Resumo sheet. AC=6245.48. CUB/SC jul/2024.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 581844.71,
+    "eletricas": 828826.45,
+    "preventivas": 99985.54,
+    "gas": 89985.54,
+    "telecom": 164481.09,
+    "_metodo": "Fallback-Rel:ORÇAMENTO_EXECUTIVO"
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 2399.33,
+    "concreto_m3_por_m2_ac": 0.3842,
+    "aco_total_kg": 147845.0,
+    "aco_kg_por_m3_concreto": 61.62,
+    "forma_total_m2": 546.72,
+    "forma_m2_por_m2_ac": 0.0875,
+    "fck_predominante": 30,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 1650.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 759.09,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": 213.19
+  },
+  "ci_detalhado": {
+    "ci_total": 2384931.88,
+    "servicos_tecnicos_total": 704184.6,
+    "projetos_consultorias": 511004.81,
+    "estudos": 65491.0,
+    "projetos": 408226.81,
+    "consultorias": 37287.0,
+    "taxas_licencas": 193179.79,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "loucas_metais_detail": {
+    "total_valor": 170220.89,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 1102590.9,
+    "piscina": {
+      "valor": 13536.96
+    },
+    "elevadores": {
+      "valor": 934183.9
+    },
+    "climatizacao": {
+      "valor": 22500.0
+    },
+    "churrasqueiras_exaustao": {
+      "valor": 67600.0
+    },
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 981232.49,
+      "qtd": 964.47,
+      "pu": 1017.38
+    },
+    "guarda_corpo": {
+      "valor": 176485.66,
+      "qtd": 1090.37,
+      "pu": 161.86
+    },
+    "portas_madeira": {
+      "valor": 598362.6,
+      "qtd": 495.88,
+      "pu": 634.74
+    },
+    "portas_corta_fogo": {
+      "valor": 29824.11,
+      "qtd": 19.0,
+      "pu": 1569.69
+    },
+    "brises": {
+      "valor": 109740.0,
+      "qtd": 274.35,
+      "pu": 400.0
+    },
+    "_total": 3247775.44
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 472010.21
+    },
+    "textura_pintura_ext": {
+      "valor": 1365292.24
+    },
+    "_total": 3159824.22
+  },
+  "acabamentos_pus": {
+    "ceramica": 71.67,
+    "pintura": 21.53,
+    "chapisco": 5.99,
+    "reboco": 19.42,
+    "porcelanato": 176.53,
+    "forro_gesso": 97.36,
+    "contrapiso": 26.12,
+    "rodape": 68.0
+  }
+}

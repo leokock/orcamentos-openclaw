@@ -1,0 +1,194 @@
+{
+  "slug": "hacasa-brisa-da-armacao",
+  "ac": 12828.33,
+  "total": 42283515.5,
+  "rsm2": 3296.1,
+  "cub_ref": 2863.73,
+  "data_base": "nov/2024",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 4609930.0,
+      "pct": 0.109
+    },
+    "Mov.Terra": {
+      "valor": 231016.84,
+      "pct": 0.0055
+    },
+    "Infraestrutura": {
+      "valor": 2489515.27,
+      "pct": 0.0589
+    },
+    "Supraestrutura": {
+      "valor": 8183443.76,
+      "pct": 0.1935
+    },
+    "Alvenaria": {
+      "valor": 1838976.92,
+      "pct": 0.0435
+    },
+    "Instalações": {
+      "valor": 2423175.52,
+      "pct": 0.0573
+    },
+    "Climatização": {
+      "valor": 874867.45,
+      "pct": 0.0207
+    },
+    "Rev.Int.Parede": {
+      "valor": 2544772.21,
+      "pct": 0.0602
+    },
+    "Teto": {
+      "valor": 599352.78,
+      "pct": 0.0142
+    },
+    "Impermeabilização": {
+      "valor": 1217962.53,
+      "pct": 0.0288
+    },
+    "Pisos": {
+      "valor": 1609363.8,
+      "pct": 0.0381
+    },
+    "Pintura": {
+      "valor": 1233864.07,
+      "pct": 0.0292
+    },
+    "Fachada": {
+      "valor": 1810758.7,
+      "pct": 0.0428
+    },
+    "Esquadrias": {
+      "valor": 7027535.95,
+      "pct": 0.1662
+    },
+    "Louças": {
+      "valor": 944037.7,
+      "pct": 0.0223
+    },
+    "Complementares": {
+      "valor": 2722514.25,
+      "pct": 0.0644
+    },
+    "Sist.Especiais": {
+      "valor": 1183730.0,
+      "pct": 0.028
+    },
+    "Imprevistos": {
+      "valor": 738697.75,
+      "pct": 0.0175
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Obra sheet summary. AC=12828.33. 117 un hab + 4 comerciais. 20 pavimentos. Separou Rev.Argamassados+Acabamentos em Rev.Int.Parede/Pisos/Teto. CUB/SC nov/2024.",
+  "instalacoes_breakdown": {
+    "_nota": "consolidado - sem split por disciplina na fonte",
+    "total_consolidado": 2423175.52,
+    "_metodo": "Obra:Obra "
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 217.08,
+    "concreto_m3_por_m2_ac": 0.0169,
+    "aco_total_kg": 2713.55,
+    "aco_kg_por_m3_concreto": 12.5,
+    "forma_total_m2": null,
+    "forma_m2_por_m2_ac": null,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 802.5,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 217.08,
+    "fundacao_aco_kg": 2713.55,
+    "mo_estrutural_rsm2": null
+  },
+  "ci_detalhado": {
+    "servicos_tecnicos_total": 586319.4,
+    "projetos_consultorias": 869114.9,
+    "estudos": 30575.83,
+    "projetos": 265788.02,
+    "consultorias": 101073.6,
+    "ensaios": 37120.0,
+    "taxas_licencas": 303523.9,
+    "licencas_taxas": 97239.61,
+    "documentos": 54522.34,
+    "gerenciamento_adm_total": 319651.01,
+    "epcs": 17939.76,
+    "meio_ambiente": 4000.0,
+    "equipe_adm_canteiro": 581941.13,
+    "equipe_gestao": 98910.0,
+    "despesas_consumo": 28946.34,
+    "canteiro_instalacoes": 172350.0,
+    "ligacoes_provisorias": 10474.79,
+    "equipamentos_total": 79200.0,
+    "equipamentos_carga": 158400.0,
+    "_metodo": "Ger_Tec_Adm:Ger_Tec e Adm"
+  },
+  "loucas_metais_detail": {
+    "bacias": 476,
+    "torneiras": 3,
+    "registros": 286,
+    "cubas": 10,
+    "bancadas": 3,
+    "_metodo": "Louças_sheet:Louças e metais"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 330868.32,
+    "piscina": {
+      "valor": 33364.59
+    },
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 988788.63,
+      "qtd": 1658.32,
+      "pu": 895.67
+    },
+    "guarda_corpo": {
+      "valor": 509638.73,
+      "qtd": 871.44,
+      "pu": 814.11
+    },
+    "portas_madeira": {
+      "valor": 336248.43,
+      "qtd": 646.0,
+      "pu": 544.97
+    },
+    "portas_corta_fogo": {
+      "valor": 15030.0,
+      "qtd": 34.0,
+      "pu": 536.79
+    },
+    "pele_vidro": {
+      "valor": 438293.25,
+      "qtd": 360.64,
+      "pu": 1965.0
+    },
+    "brises": {
+      "valor": 57613.15,
+      "qtd": 118.79,
+      "pu": 485.0
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 164740.11
+    },
+    "textura_pintura_ext": {
+      "valor": 23153.05
+    },
+    "pastilha_porcelanato": {
+      "valor": 6702.19
+    },
+    "_total": 241459.87
+  },
+  "acabamentos_pus": {
+    "ceramica": 47.73,
+    "pintura": 6.79,
+    "reboco": 15.9,
+    "chapisco": 8.21,
+    "porcelanato": 98.16,
+    "contrapiso": 29.97,
+    "rodape": 10.35
+  }
+}

@@ -21,14 +21,10 @@
   },
   "indices_consumo": {},
   "split_mo_material": {
-    "Impermeabilizacao": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Loucas e Metais": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    }
+    "hidrossanitarias": 419499.6,
+    "eletricas": 39349.8,
+    "preventivas": 1655652.44,
+    "gas": 1280.5
   },
   "curva_abc": {
     "Impermeabilizacao": {
@@ -148,5 +144,61 @@
         }
       ]
     }
+  },
+  "loucas_metais_detail": {
+    "total_valor": 326798.11,
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 1340430.28,
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 2166014.91,
+      "qtd": 10528.5,
+      "pu": 205.73
+    },
+    "guarda_corpo": {
+      "valor": 479637.14,
+      "qtd": 734.77,
+      "pu": 652.77
+    },
+    "portas_madeira": {
+      "valor": 699915.72,
+      "qtd": 844.0,
+      "pu": 829.28
+    },
+    "portas_corta_fogo": {
+      "valor": 516972.43,
+      "qtd": 3552.31,
+      "pu": 145.53
+    },
+    "brises": {
+      "valor": 529055.0,
+      "qtd": 556.9,
+      "pu": 950.0
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 538963.29
+    },
+    "textura_pintura_ext": {
+      "valor": 412771.5
+    },
+    "pastilha_porcelanato": {
+      "valor": 1419.19
+    },
+    "_total": 1898087.67
+  },
+  "acabamentos_pus": {
+    "pintura": 16.67,
+    "reboco": 17.29,
+    "chapisco": 9.62,
+    "forro_gesso": 128.62,
+    "contrapiso": 31.9,
+    "porcelanato": 111.39,
+    "rodape": 15.32
   }
 }

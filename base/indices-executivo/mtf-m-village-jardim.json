@@ -1,0 +1,88 @@
+{
+  "slug": "mtf-m-village-jardim",
+  "ac": 8852.83,
+  "total": 33040428.68,
+  "rsm2": 3732.19,
+  "cub": 2643.16,
+  "cub_data_base": "2022-06",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 4072301.8,
+      "pct": 0.1233
+    },
+    "Mov.Terra": {
+      "valor": 1253820.76,
+      "pct": 0.0379
+    },
+    "Infraestrutura": {
+      "valor": 7393277.11,
+      "pct": 0.2238
+    },
+    "Supraestrutura": {
+      "valor": 5582079.93,
+      "pct": 0.1689
+    },
+    "Alvenaria": {
+      "valor": 1484129.44,
+      "pct": 0.0449
+    },
+    "Instalações": {
+      "valor": 2583047.6,
+      "pct": 0.0782
+    },
+    "Sist.Especiais": {
+      "valor": 1082623.74,
+      "pct": 0.0328
+    },
+    "Impermeabilização": {
+      "valor": 531169.8,
+      "pct": 0.0161
+    },
+    "Rev.Int.Parede": {
+      "valor": 1327924.5,
+      "pct": 0.0402
+    },
+    "Teto": {
+      "valor": 796754.7,
+      "pct": 0.0241
+    },
+    "Pisos": {
+      "valor": 1416452.8,
+      "pct": 0.0429
+    },
+    "Pintura": {
+      "valor": 1018075.45,
+      "pct": 0.0308
+    },
+    "Esquadrias": {
+      "valor": 2659445.19,
+      "pct": 0.0805
+    },
+    "Fachada": {
+      "valor": 1042571.16,
+      "pct": 0.0316
+    },
+    "Complementares": {
+      "valor": 796754.7,
+      "pct": 0.0241
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Apresentação xlsx. AC=8852.83m2. Total=R$33.04M (Gerenciamento R$4.07M + obra R$28.97M). CUB/SC R$2643.16 (jun/2022). Infraestrutura R$7.4M is high (possible special foundation). MG values from parametric estimates in 'Gerenciamento executivo' sheet.",
+  "instalacoes_breakdown": {
+    "_nota": "consolidado - sem split por disciplina na fonte",
+    "total_consolidado": 1492954.25,
+    "_metodo": "Executivo:Executivo"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 863056.25,
+    "_metodo": "Executivo_summary:Executivo"
+  },
+  "esquadrias_detail": {
+    "_total": 1276209.9
+  },
+  "fachada_detail": {
+    "_total": 411254.22
+  },
+  "acabamentos_pus": {}
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "muller-empreendimentos-guanabara",
+  "ac": 4440.5,
+  "total": 14337198.41,
+  "rsm2": 3228.74,
+  "cub": 2591.01,
+  "cub_data_base": "2023-03",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 1356858.91,
+      "pct": 0.0946
+    },
+    "Mov.Terra": {
+      "valor": 19982.12,
+      "pct": 0.0014
+    },
+    "Infraestrutura": {
+      "valor": 1068053.13,
+      "pct": 0.0745
+    },
+    "Supraestrutura": {
+      "valor": 1410081.29,
+      "pct": 0.0984
+    },
+    "Alvenaria": {
+      "valor": 1423157.27,
+      "pct": 0.0993
+    },
+    "Instalações": {
+      "valor": 1826248.5,
+      "pct": 0.1274
+    },
+    "Louças": {
+      "valor": 106062.57,
+      "pct": 0.0074
+    },
+    "Sist.Especiais": {
+      "valor": 1078142.75,
+      "pct": 0.0752
+    },
+    "Impermeabilização": {
+      "valor": 322448.32,
+      "pct": 0.0225
+    },
+    "Rev.Int.Parede": {
+      "valor": 1247304.65,
+      "pct": 0.087
+    },
+    "Teto": {
+      "valor": 456659.62,
+      "pct": 0.0319
+    },
+    "Pisos": {
+      "valor": 1194226.7,
+      "pct": 0.0833
+    },
+    "Pintura": {
+      "valor": 460055.52,
+      "pct": 0.0321
+    },
+    "Esquadrias": {
+      "valor": 1041740.04,
+      "pct": 0.0727
+    },
+    "Fachada": {
+      "valor": 534054.65,
+      "pct": 0.0372
+    },
+    "Complementares": {
+      "valor": 574403.5,
+      "pct": 0.0401
+    },
+    "Imprevistos": {
+      "valor": 217718.87,
+      "pct": 0.0152
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Apresentação xlsx R02. AC=4440.5m2 (H5). Total=R$14.34M. CUB/MT R$2591.01 (mar/2023). Has Embasamento + Torre A + Torre B. MO Própria (R$363k) merged into Complementares. Louças separate MG.",
+  "instalacoes_breakdown": {
+    "_nota": "consolidado - sem split por disciplina na fonte",
+    "total_consolidado": 1826248.5,
+    "_metodo": "Resumo:Orçamento Resumo"
+  },
+  "instalacoes_extraction_method": "Resumo (Orçamento Resumo)",
+  "indices_estruturais": {
+    "concreto_total_m3": null,
+    "concreto_m3_por_m2_ac": null,
+    "aco_total_kg": null,
+    "aco_kg_por_m3_concreto": null,
+    "forma_total_m2": null,
+    "forma_m2_por_m2_ac": null,
+    "fck_predominante": null,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": null,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": 240.53
+  },
+  "ci_detalhado": {
+    "ci_total": 1356858.91,
+    "_metodo": "Resumo:Orçamento Resumo"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 1078142.75,
+    "_metodo": "Executivo_summary:Orçamento Resumo"
+  },
+  "esquadrias_detail": {
+    "vidros": {
+      "valor": 67259.5
+    }
+  },
+  "fachada_detail": {
+    "_total": 534054.65
+  },
+  "acabamentos_pus": {}
+}

@@ -1,0 +1,157 @@
+{
+  "slug": "nm-empreendimentos",
+  "ac": 1540.93,
+  "total": 4958343.62,
+  "rsm2": 3217.76,
+  "cub": 2651.17,
+  "cub_data_base": "2023-01",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 782447.43,
+      "pct": 0.1578
+    },
+    "Mov.Terra": {
+      "valor": 42400.27,
+      "pct": 0.0086
+    },
+    "Infraestrutura": {
+      "valor": 271479.61,
+      "pct": 0.0548
+    },
+    "Supraestrutura": {
+      "valor": 927188.89,
+      "pct": 0.187
+    },
+    "Alvenaria": {
+      "valor": 198208.18,
+      "pct": 0.04
+    },
+    "Instalações": {
+      "valor": 495318.47,
+      "pct": 0.0999
+    },
+    "Sist.Especiais": {
+      "valor": 272856.76,
+      "pct": 0.055
+    },
+    "Impermeabilização": {
+      "valor": 197303.64,
+      "pct": 0.0398
+    },
+    "Rev.Int.Parede": {
+      "valor": 296665.91,
+      "pct": 0.0598
+    },
+    "Teto": {
+      "valor": 101918.69,
+      "pct": 0.0206
+    },
+    "Pisos": {
+      "valor": 288829.21,
+      "pct": 0.0583
+    },
+    "Pintura": {
+      "valor": 208758.37,
+      "pct": 0.0421
+    },
+    "Esquadrias": {
+      "valor": 415398.7,
+      "pct": 0.0838
+    },
+    "Fachada": {
+      "valor": 334344.49,
+      "pct": 0.0674
+    },
+    "Complementares": {
+      "valor": 125225.0,
+      "pct": 0.0253
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orçamento R00 + Apresentação xlsx. AC=1540.93m2 (small building, derived from Total/R$/m2). Total=R$4.96M. CUB/SC R$2651.17 (jan/2023). Obra: Suíça Home (NM Empreendimentos). Instalações includes Elet+Hidro+Prev+Climatização from Apresentação. Fachada merged with Cobertura.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 156010.42,
+    "eletricas": 242217.39,
+    "preventivas": 97090.66
+  },
+  "split_mo_material": {
+    "eletricas": {
+      "mo_valor": 71653.25,
+      "material_valor": 170564.14,
+      "mo_pct": 29.6
+    },
+    "hidrossanitarias": {
+      "mo_valor": 63178.13,
+      "material_valor": 92832.29,
+      "mo_pct": 40.5
+    },
+    "preventivas": {
+      "mo_valor": 23113.95,
+      "material_valor": 73976.71,
+      "mo_pct": 23.8
+    }
+  },
+  "instalacoes_extraction_method": "Relatorio (Sienge simple N1)",
+  "indices_estruturais": {
+    "concreto_total_m3": 382.47,
+    "concreto_m3_por_m2_ac": 0.2482,
+    "aco_total_kg": 33370.2,
+    "aco_kg_por_m3_concreto": 87.25,
+    "forma_total_m2": 3062.36,
+    "forma_m2_por_m2_ac": 1.9873,
+    "fck_predominante": 30,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": null,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 112.4,
+    "fundacao_aco_kg": 8937.2,
+    "mo_estrutural_rsm2": 294.26
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 65186.65,
+    "ensaios": 7000,
+    "taxas_licencas": 43550,
+    "epcs": 77772.16,
+    "canteiro": 343938.62,
+    "equipamentos_carga": 176575.93
+  },
+  "sistemas_especiais_detail": {
+    "total": 253056.76,
+    "automacao": 17480.83
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 138752.61,
+      "pu": 939.74
+    },
+    "guarda_corpo": {
+      "valor": 115552.12
+    },
+    "metalicas_serralheria": {
+      "valor": 35256.01
+    },
+    "portas_madeira": {
+      "valor": 44297.44,
+      "pu": 677.07
+    },
+    "ferragens": {
+      "valor": 11145.31
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 52878.5,
+    "textura_pintura_ext": 34497.72,
+    "porcelanato_fachada_valor": 22471.79,
+    "pastilha_porcelanato": 11382.98
+  },
+  "acabamentos_pus": {
+    "ceramica": 48.0,
+    "reboco": 35.0,
+    "contrapiso": 35.28,
+    "chapisco": 52.0,
+    "forro_gesso": 102.9,
+    "porcelanato": 72.03,
+    "rodape": 8.95,
+    "pintura": 13.84
+  }
+}

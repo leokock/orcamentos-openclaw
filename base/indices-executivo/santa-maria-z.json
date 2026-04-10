@@ -659,65 +659,20 @@
     }
   },
   "split_mo_material": {
-    "Gerenciamento": {
-      "mo_pct": 0.001,
-      "material_pct": 0.999
+    "eletricas": {
+      "mo_valor": 2260764.94,
+      "material_valor": 526204.91,
+      "mo_pct": 81.1
     },
-    "Movimentacao de Terra": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "hidrossanitarias": {
+      "mo_valor": 1719335.82,
+      "material_valor": 709016.11,
+      "mo_pct": 70.8
     },
-    "Infraestrutura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Supraestrutura": {
-      "mo_pct": 0.309,
-      "material_pct": 0.691
-    },
-    "Alvenaria": {
-      "mo_pct": 0.167,
-      "material_pct": 0.833
-    },
-    "Pintura": {
-      "mo_pct": 0.573,
-      "material_pct": 0.427
-    },
-    "Esquadrias": {
-      "mo_pct": 0.029,
-      "material_pct": 0.971
-    },
-    "Cobertura": {
-      "mo_pct": 0.175,
-      "material_pct": 0.825
-    },
-    "Impermeabilizacao": {
-      "mo_pct": 0.091,
-      "material_pct": 0.909
-    },
-    "Fachada": {
-      "mo_pct": 0.407,
-      "material_pct": 0.593
-    },
-    "Instalacoes Eletricas": {
-      "mo_pct": 0.406,
-      "material_pct": 0.594
-    },
-    "Instalacoes Hidraulicas": {
-      "mo_pct": 0.353,
-      "material_pct": 0.647
-    },
-    "PCI": {
-      "mo_pct": 0.534,
-      "material_pct": 0.466
-    },
-    "Loucas e Metais": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Servicos Complementares": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "preventivas": {
+      "mo_valor": 99192.54,
+      "material_valor": 1071782.4,
+      "mo_pct": 8.5
     }
   },
   "curva_abc": {
@@ -1931,5 +1886,45 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 2428351.93,
+    "eletricas": 2786969.85,
+    "preventivas": 1170974.94
+  },
+  "instalacoes_extraction_method": "Relatório (Sienge)",
+  "indices_estruturais": {
+    "concreto_total_m3": 5211.0,
+    "concreto_m3_por_m2_ac": null,
+    "aco_total_kg": 631083.0,
+    "aco_kg_por_m3_concreto": 121.11,
+    "forma_total_m2": 24903.45,
+    "forma_m2_por_m2_ac": null,
+    "fck_predominante": 35,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": null,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": null,
+    "fundacao_aco_kg": null,
+    "mo_estrutural_rsm2": null
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 940073.95,
+    "ensaios": 125000,
+    "taxas_licencas": 797684.07,
+    "epcs": 331787.33,
+    "canteiro": 267314,
+    "equipamentos_carga": 1567800
+  },
+  "acabamentos_pus": {
+    "ceramica": 75.63,
+    "chapisco": 2.0,
+    "reboco": 17.0,
+    "contrapiso": 23.22,
+    "forro_gesso": 50.0,
+    "porcelanato": 108.53,
+    "rodape": 15.79,
+    "laminado": 67.15,
+    "pintura": 3.78
   }
 }

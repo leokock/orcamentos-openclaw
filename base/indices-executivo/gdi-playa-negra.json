@@ -1,0 +1,180 @@
+{
+  "slug": "gdi-playa-negra",
+  "ac": 8518.6,
+  "total": 37027025.39,
+  "rsm2": 4346.61,
+  "cub_ref": 2841.51,
+  "data_base": "ago/2024",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 12288227.32,
+      "pct": 0.3319
+    },
+    "Mov.Terra": {
+      "valor": 748566.23,
+      "pct": 0.0202
+    },
+    "Infraestrutura": {
+      "valor": 1211249.23,
+      "pct": 0.0327
+    },
+    "Supraestrutura": {
+      "valor": 5968880.65,
+      "pct": 0.1612
+    },
+    "Alvenaria": {
+      "valor": 1143407.1,
+      "pct": 0.0309
+    },
+    "Instalações": {
+      "valor": 2834254.78,
+      "pct": 0.0765
+    },
+    "Rev.Int.Parede": {
+      "valor": 2678553.08,
+      "pct": 0.0723
+    },
+    "Impermeabilização": {
+      "valor": 855401.26,
+      "pct": 0.0231
+    },
+    "Pisos": {
+      "valor": 1691413.35,
+      "pct": 0.0457
+    },
+    "Teto": {
+      "valor": 490056.09,
+      "pct": 0.0132
+    },
+    "Pintura": {
+      "valor": 997118.86,
+      "pct": 0.0269
+    },
+    "Fachada": {
+      "valor": 1415697.05,
+      "pct": 0.0382
+    },
+    "Esquadrias": {
+      "valor": 2272242.95,
+      "pct": 0.0614
+    },
+    "Louças": {
+      "valor": 283803.98,
+      "pct": 0.0077
+    },
+    "Sist.Especiais": {
+      "valor": 847698.1,
+      "pct": 0.0229
+    },
+    "Complementares": {
+      "valor": 936650.36,
+      "pct": 0.0253
+    },
+    "Imprevistos": {
+      "valor": 363805,
+      "pct": 0.0098
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Obra sheet summary. AC=8518.60. 69 unidades. Contencao agregada a Infraestrutura. Climatizacao+Equipamentos agrupados em Sist.Especiais. CUB/SC.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1415723.4,
+    "eletricas": 1012883.35,
+    "preventivas": 307612.57,
+    "gas": 164060.15,
+    "telecom": 98035.46,
+    "_metodo": "Fallback-Rel:Ger_Executivo"
+  },
+  "split_mo_material": {
+    "hidro_gas_mo": 365.11,
+    "eletrica_prev_mo": 1143.68
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 5291.97,
+    "concreto_m3_por_m2_ac": 0.6212,
+    "aco_total_kg": 524126.0,
+    "aco_kg_por_m3_concreto": 99.04,
+    "forma_total_m2": 34777.69,
+    "forma_m2_por_m2_ac": 4.0826,
+    "fck_predominante": null,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": null,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 240.8,
+    "fundacao_aco_kg": 10896.0,
+    "mo_estrutural_rsm2": null
+  },
+  "ci_detalhado": {
+    "ci_total": 12288227.32,
+    "_metodo": "Obra:Obra"
+  },
+  "loucas_metais_detail": {
+    "bacias": 476,
+    "torneiras": 3,
+    "registros": 286,
+    "cubas": 10,
+    "bancadas": 3,
+    "_metodo": "Louças_sheet:Louças e metais"
+  },
+  "sistemas_especiais_detail": {
+    "piscina": {
+      "valor": 33364.59
+    },
+    "_metodo": "PISCINA_sheet"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 2017544.57,
+      "qtd": 1452.86,
+      "pu": 925.22
+    },
+    "guarda_corpo": {
+      "valor": 1455414.44,
+      "qtd": 743.91,
+      "pu": 1041.1
+    },
+    "portas_madeira": {
+      "valor": 691925.15,
+      "qtd": 774.0,
+      "pu": 697.56
+    },
+    "portas_corta_fogo": {
+      "valor": 64766.44,
+      "qtd": 42.0,
+      "pu": 1102.28
+    },
+    "vidros": {
+      "valor": 133341.46,
+      "qtd": 1.0,
+      "pu": 1288.32
+    },
+    "pele_vidro": {
+      "valor": 400024.38,
+      "qtd": 207.0,
+      "pu": 1288.32
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 719168.07
+    },
+    "textura_pintura_ext": {
+      "valor": 308227.58
+    },
+    "pastilha_porcelanato": {
+      "valor": 724362.13
+    },
+    "juntas": {
+      "valor": 29941.19
+    }
+  },
+  "acabamentos_pus": {
+    "ceramica": 57.6,
+    "chapisco": 2.48,
+    "reboco": 16.0,
+    "contrapiso": 52.67,
+    "porcelanato": 118.18,
+    "rodape": 50.65,
+    "pintura": 11.72
+  }
+}

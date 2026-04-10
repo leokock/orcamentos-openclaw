@@ -1,0 +1,149 @@
+{
+  "projeto": "pass-e-connect",
+  "ac": 13144.27,
+  "total": 48758956.42,
+  "rsm2": 3709.52,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 4944872.81,
+      "rsm2": 376.2,
+      "pct": 0.1014
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 526768.68,
+      "rsm2": 40.08,
+      "pct": 0.0108
+    },
+    "INFRAESTRUTURA": {
+      "valor": 2615810.86,
+      "rsm2": 199.01,
+      "pct": 0.0536
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 9677354.04,
+      "rsm2": 736.24,
+      "pct": 0.1985
+    },
+    "ALVENARIA | VEDAÇÕES | DIVISÓRIAS": {
+      "valor": 3162915.84,
+      "rsm2": 240.63,
+      "pct": 0.0649
+    },
+    "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS": {
+      "valor": 4340442.44,
+      "rsm2": 330.22,
+      "pct": 0.089
+    },
+    "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+      "valor": 3001344.15,
+      "rsm2": 228.34,
+      "pct": 0.0616
+    },
+    "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+      "valor": 455189.76,
+      "rsm2": 34.63,
+      "pct": 0.0093
+    },
+    "REVESTIMENTOS INTERNOS EM PISO E PAREDE": {
+      "valor": 2223404.27,
+      "rsm2": 169.15,
+      "pct": 0.0456
+    },
+    "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 1052171.2,
+      "rsm2": 80.05,
+      "pct": 0.0216
+    },
+    "ACABAMENTOS EM PISO E PAREDE": {
+      "valor": 2072246.97,
+      "rsm2": 157.65,
+      "pct": 0.0425
+    },
+    "SISTEMAS DE PINTURA INTERNA": {
+      "valor": 2586848.13,
+      "rsm2": 196.8,
+      "pct": 0.0531
+    },
+    "ESQUADRIAS - VIDROS E FERRAGENS": {
+      "valor": 3487762.89,
+      "rsm2": 265.34,
+      "pct": 0.0715
+    },
+    "COBERTURA": {
+      "valor": 645945.79,
+      "rsm2": 49.14,
+      "pct": 0.0132
+    },
+    "REVESTIMENTOS E ACABAMENTOS DE FACHADA": {
+      "valor": 3949496.56,
+      "rsm2": 300.47,
+      "pct": 0.081
+    },
+    "SERVIÇOS COMPLEMENTARES E FINAIS": {
+      "valor": 1941571.95,
+      "rsm2": 147.71,
+      "pct": 0.0398
+    },
+    "IMPREVISTOS E CONTINGÊNCIAS": {
+      "valor": 2074810.08,
+      "rsm2": 157.85,
+      "pct": 0.0426
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orçamento completo R06. AC=13144.27. 156 UH + 1 UC. 20 pavimentos. Imprevistos inclui taxa ADM.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1632037.01,
+    "eletricas": 2026797.75,
+    "preventivas": 681607.68
+  },
+  "split_mo_material": {
+    "eletricas": {
+      "mo_valor": 1799999.99,
+      "material_valor": 226797.76,
+      "mo_pct": 88.8
+    },
+    "hidrossanitarias": {
+      "mo_valor": 1520003.38,
+      "material_valor": 112033.63,
+      "mo_pct": 93.1
+    },
+    "preventivas": {
+      "mo_valor": 514328.79,
+      "material_valor": 167278.89,
+      "mo_pct": 75.5
+    }
+  },
+  "instalacoes_extraction_method": "Ger_Executivo (Ger_Executivo)",
+  "indices_estruturais": {
+    "concreto_total_m3": 5037.27,
+    "concreto_m3_por_m2_ac": 0.3832,
+    "aco_total_kg": 368027.94,
+    "aco_kg_por_m3_concreto": 73.06,
+    "forma_total_m2": 11895.93,
+    "forma_m2_por_m2_ac": 0.905,
+    "fck_predominante": 50,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 3498.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 1877.71,
+    "fundacao_aco_kg": 56843.0,
+    "mo_estrutural_rsm2": 322.05
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 820329.6399999999,
+    "ensaios": 35000,
+    "taxas_licencas": 8211.23,
+    "epcs": 13144.27,
+    "canteiro": 800.0
+  },
+  "sistemas_especiais_detail": {
+    "piscina": 10166.45,
+    "total": 10166.45
+  },
+  "acabamentos_pus": {
+    "contrapiso": 65.12,
+    "ceramica": 59.61,
+    "chapisco": 6.69
+  }
+}

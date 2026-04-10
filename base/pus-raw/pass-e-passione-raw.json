@@ -1,0 +1,810 @@
+{
+  "projeto": "pass-e-passione",
+  "arquivo": "CTN_PAS_PSN - Orçamento_R05.xlsb.xlsx",
+  "ac": 6681.54,
+  "ur": 32,
+  "disciplinas": {
+    "Canteiro": {
+      "total": 31000.0,
+      "n_itens": 5,
+      "itens": [
+        {
+          "descricao": "Cadeira",
+          "quantidade": 10.0,
+          "unidade": "un",
+          "pu": 200.0,
+          "total": 2000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "cadeira"
+        },
+        {
+          "descricao": "Mesa",
+          "quantidade": 5.0,
+          "unidade": "un",
+          "pu": 1000.0,
+          "total": 5000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "mesa"
+        },
+        {
+          "descricao": "Armário",
+          "quantidade": 10.0,
+          "unidade": "m",
+          "pu": 900.0,
+          "total": 9000.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "armario"
+        },
+        {
+          "descricao": "Computador pessoal",
+          "quantidade": 1.6666666666666667,
+          "unidade": "un",
+          "pu": 6000.0,
+          "total": 10000.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "computador_pessoal"
+        },
+        {
+          "descricao": "Impressora",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 2500.0,
+          "total": 5000.0,
+          "subgrupo": "TOTAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "impressora"
+        }
+      ]
+    },
+    "Loucas e Metais": {
+      "total": 860.8648,
+      "n_itens": 14,
+      "itens": [
+        {
+          "descricao": "Banheiro - Bacia Sanitária PNE",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 2.0,
+          "total": 2.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "banheiro_bacia_sanitaria_pne"
+        },
+        {
+          "descricao": "Banheiro - Cuba de Sobrepor - PNE",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 2.0,
+          "total": 2.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "banheiro_cuba_sobrepor_pne"
+        },
+        {
+          "descricao": "Ducha",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 3.0,
+          "total": 3.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "ducha"
+        },
+        {
+          "descricao": "Torneira de Jardins",
+          "quantidade": 3.0,
+          "unidade": "un",
+          "pu": 15.0,
+          "total": 15.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "torneira_jardins"
+        },
+        {
+          "descricao": "Torneira Lavatório mesa",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 5.0,
+          "total": 5.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "torneira_lavatorio_mesa"
+        },
+        {
+          "descricao": "Barra de apoio PNE",
+          "quantidade": 4.0,
+          "unidade": "un",
+          "pu": 8.0,
+          "total": 8.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "barra_apoio_pne"
+        },
+        {
+          "descricao": "Acabamento de Registro Comum",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 9.0,
+          "total": 9.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "acabamento_registro_comum"
+        },
+        {
+          "descricao": "Acabamento de Registro Pressão",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 3.0,
+          "total": 3.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "acabamento_registro_pressao"
+        },
+        {
+          "descricao": "Sifão ajustável multiuso",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 9.0,
+          "total": 9.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "sifao_ajustavel_multiuso"
+        },
+        {
+          "descricao": "Anel de vedação, 100 mm, para saíde de bacia sanitária",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 133.0,
+          "total": 133.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "anel_vedacao_100_mm_para_saide_bacia_sanitaria"
+        },
+        {
+          "descricao": "Engate/ rabicho flexível inóx 1/2\"x40mm",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 134.0,
+          "total": 134.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "engate_rabicho_flexivel_inox_1_2_polx40mm"
+        },
+        {
+          "descricao": "Parafuso niquelado para fixação de bacia sanitária - tamanho S-10",
+          "quantidade": 4.0,
+          "unidade": "un",
+          "pu": 532.0,
+          "total": 532.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "parafuso_niquelado_para_fixacao_bacia_sanitaria_tamanho_s_10"
+        },
+        {
+          "descricao": "Válvula de escoamento para lavatório",
+          "quantidade": 1.0,
+          "unidade": "un",
+          "pu": 5.0,
+          "total": 5.0,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "valvula_escoamento_para_lavatorio"
+        },
+        {
+          "descricao": "Bancada Banheiros",
+          "quantidade": 0.1444,
+          "unidade": "m2",
+          "pu": 0.8648,
+          "total": 0.8648,
+          "subgrupo": "GERAL",
+          "pavimento": "Cuba Pia Cozinha - Lazer",
+          "chave_normalizada": "bancada_banheiros"
+        }
+      ]
+    },
+    "Supraestrutura": {
+      "total": 32591.773424106064,
+      "n_itens": 18,
+      "itens": [
+        {
+          "descricao": "5",
+          "quantidade": 8.0,
+          "unidade": "10",
+          "pu": 12.5,
+          "total": 16.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "5"
+        },
+        {
+          "descricao": "407.36689224643527",
+          "quantidade": 2207.358240036046,
+          "unidade": "2645.968497947884",
+          "pu": 3167.294918636824,
+          "total": 804.5880237535339,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "407_36689224643527"
+        },
+        {
+          "descricao": "70.86274298393398",
+          "quantidade": 503.9522551259459,
+          "unidade": "119.795203987272",
+          "pu": 677.352329363952,
+          "total": 557.55712537668,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "70_86274298393398"
+        },
+        {
+          "descricao": "336.5041492625013",
+          "quantidade": 1703.4059849101002,
+          "unidade": "2526.1732939606118",
+          "pu": 2489.9425892728723,
+          "total": 247.03089837685386,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "336_5041492625013"
+        },
+        {
+          "descricao": "393.25221238938065",
+          "quantidade": 2216.480821347455,
+          "unidade": "1104.985703338235",
+          "pu": 1410.730088495576,
+          "total": 1820.9070796460155,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "393_25221238938065"
+        },
+        {
+          "descricao": "13.440265486725654",
+          "quantidade": 204.09292035398235,
+          "unidade": "56.747787610619575",
+          "pu": 582.9092920353994,
+          "total": 1023.9491150442468,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "13_440265486725654"
+        },
+        {
+          "descricao": "379.811946902655",
+          "quantidade": 1823.3960176991145,
+          "unidade": "677.488938053099",
+          "pu": 442.0353982300896,
+          "total": 96.0730088495575,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "379_811946902655"
+        },
+        {
+          "descricao": "229.17243288126213",
+          "quantidade": 2256.5419085228236,
+          "unidade": "1180.3255068746284",
+          "pu": 1040.2435649045115,
+          "total": 1700.3598117907568,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "229_17243288126213"
+        },
+        {
+          "descricao": "8.469415997785763",
+          "quantidade": 213.72820370882923,
+          "unidade": "150.95488513700533",
+          "pu": 297.92416274564175,
+          "total": 957.0440077497921,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "8_469415997785763"
+        },
+        {
+          "descricao": "220.70301688347635",
+          "quantidade": 1820.9244395239427,
+          "unidade": "658.6216440631065",
+          "pu": 469.3052864655412,
+          "total": 109.10600608912269,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "220_70301688347635"
+        },
+        {
+          "descricao": "253.0860780514807",
+          "quantidade": 2601.4558538610586,
+          "unidade": "851.6745087185175",
+          "pu": 1013.3407140880158,
+          "total": 1616.6620536949902,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "253_0860780514807"
+        },
+        {
+          "descricao": "8.469415997785765",
+          "quantidade": 213.72820370882926,
+          "unidade": "150.9548851370054",
+          "pu": 297.9241627456418,
+          "total": 957.0440077497922,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "8_469415997785765"
+        },
+        {
+          "descricao": "220.7030168834763",
+          "quantidade": 1820.9244395239425,
+          "unidade": "658.6216440631064",
+          "pu": 469.3052864655411,
+          "total": 109.10600608912267,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "220_7030168834763"
+        },
+        {
+          "descricao": "231.556621172999",
+          "quantidade": 495.106862799046,
+          "unidade": "429.0267869416273",
+          "pu": 745.8877437418575,
+          "total": 2785.6185687477773,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "231_556621172999"
+        },
+        {
+          "descricao": "8.963482109922545",
+          "quantidade": 241.01807451125055,
+          "unidade": "196.20066396163767",
+          "pu": 253.46735521947636,
+          "total": 1183.6776097381055,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "8_963482109922545"
+        },
+        {
+          "descricao": "222.59313906307645",
+          "quantidade": 234.31933052313298,
+          "unidade": "190.7475541861866",
+          "pu": 246.42260172784034,
+          "total": 1150.7790261435694,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "222_59313906307645"
+        },
+        {
+          "descricao": "1514.434236741558",
+          "quantidade": 57686.69353907381,
+          "unidade": "7563.9810038208925",
+          "pu": 7377.497029866785,
+          "total": 8728.135537633074,
+          "subgrupo": "GERAL",
+          "pavimento": "TIPO  (X11)",
+          "chave_normalizada": "1514_434236741558"
+        },
+        {
+          "descricao": "1514.434236741558",
+          "quantidade": 60360.90902579947,
+          "unidade": "7563.9810038208925",
+          "pu": 7377.497029866785,
+          "total": 8728.135537633074,
+          "subgrupo": "GERAL",
+          "pavimento": "CASA DE MÁQUINAS",
+          "chave_normalizada": "1514_434236741558"
+        }
+      ]
+    },
+    "Infraestrutura": {
+      "total": 4383.493555038145,
+      "n_itens": 8,
+      "itens": [
+        {
+          "descricao": "PROJETO: AMA_PSN_EST_EX_C0001_FUN_CADBLOCOS_R00",
+          "quantidade": 439.0,
+          "unidade": "397",
+          "pu": 2045.0,
+          "total": 1198.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "projeto_ama_psn_est_ex_c0001_fun_cadblocos_r00"
+        },
+        {
+          "descricao": "BLOCOS",
+          "quantidade": 386.0,
+          "unidade": "289",
+          "pu": 1125.0,
+          "total": 968.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "blocos"
+        },
+        {
+          "descricao": "VIG. EQUILIBRIO",
+          "quantidade": 53.0,
+          "unidade": "108",
+          "pu": 920.0,
+          "total": 230.0,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "vig_equilibrio"
+        },
+        {
+          "descricao": "PILARES",
+          "quantidade": 58.39030499584048,
+          "unidade": "310.0192597276109",
+          "pu": 415.2524251963694,
+          "total": 98.710241846574,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "pilares"
+        },
+        {
+          "descricao": "VIGAS BALDRAME",
+          "quantidade": 132.7620032139572,
+          "unidade": "704.8906142771085",
+          "pu": 944.159202669881,
+          "total": 224.43742066801846,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "vigas_baldrame"
+        },
+        {
+          "descricao": "CISTERNA 1",
+          "quantidade": 20.68010255304,
+          "unidade": "109.79956492848001",
+          "pu": 147.07000997976002,
+          "total": 34.96022027232001,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "cisterna_1"
+        },
+        {
+          "descricao": "CISTERNA 2",
+          "quantidade": 21.673092863519997,
+          "unidade": "115.07177785824",
+          "pu": 154.13182674288,
+          "total": 36.63889473216001,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "cisterna_2"
+        },
+        {
+          "descricao": "TOTAL",
+          "quantidade": 672.5055036263576,
+          "unidade": "1636.7812167914394",
+          "pu": 3705.6134645888906,
+          "total": 1592.7467775190723,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "total"
+        }
+      ]
+    },
+    "Fundacoes": {
+      "total": 10.679200000000002,
+      "n_itens": 5,
+      "itens": [
+        {
+          "descricao": "P26",
+          "quantidade": 2.199,
+          "unidade": "0.45",
+          "pu": 2.5392,
+          "total": 2.0196,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "p26"
+        },
+        {
+          "descricao": "P28",
+          "quantidade": 2.199,
+          "unidade": "0.45",
+          "pu": 2.5392,
+          "total": 2.0196,
+          "subgrupo": "GERAL",
+          "pavimento": "GERAL",
+          "chave_normalizada": "p28"
+        },
+        {
+          "descricao": "CISTERNA 1",
+          "quantidade": 1.0,
+          "unidade": "12.24",
+          "pu": 15.0,
+          "total": 2.2,
+          "subgrupo": "GERAL",
+          "pavimento": "PROJETO: AMA_PSN_EST_PB_P0101_TER_FORMATERREO_R00 + AMA_PSN_EST_PB_P0102_TER_FORMATERREO_R00",
+          "chave_normalizada": "cisterna_1"
+        },
+        {
+          "descricao": "CISTERNA 2",
+          "quantidade": 1.0,
+          "unidade": "12.96",
+          "pu": 15.6,
+          "total": 2.2,
+          "subgrupo": "GERAL",
+          "pavimento": "PROJETO: AMA_PSN_EST_PB_P0101_TER_FORMATERREO_R00 + AMA_PSN_EST_PB_P0102_TER_FORMATERREO_R00",
+          "chave_normalizada": "cisterna_2"
+        },
+        {
+          "descricao": "ELEVADOR",
+          "quantidade": 1.0,
+          "unidade": "9.2545",
+          "pu": 12.76,
+          "total": 2.24,
+          "subgrupo": "GERAL",
+          "pavimento": "PROJETO: AMA_PSN_EST_PB_P0101_TER_FORMATERREO_R00 + AMA_PSN_EST_PB_P0102_TER_FORMATERREO_R00",
+          "chave_normalizada": "elevador"
+        }
+      ]
+    },
+    "Sistemas Especiais": {
+      "total": 144228.975,
+      "n_itens": 16,
+      "itens": [
+        {
+          "descricao": "Estimativa   para video porteiro",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 7183.650000000001,
+          "total": 7183.650000000001,
+          "subgrupo": "TÉRREO",
+          "pavimento": "TÉRREO",
+          "chave_normalizada": "estimativa_para_video_porteiro"
+        },
+        {
+          "descricao": "Estimativa   para som de ambiente",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 2394.55,
+          "total": 2394.55,
+          "subgrupo": "TÉRREO",
+          "pavimento": "TÉRREO",
+          "chave_normalizada": "estimativa_para_som_ambiente"
+        },
+        {
+          "descricao": "Estimativa   para cabeamento de internet",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 1676.1850000000002,
+          "total": 1676.1850000000002,
+          "subgrupo": "TÉRREO",
+          "pavimento": "TÉRREO",
+          "chave_normalizada": "estimativa_para_cabeamento_internet"
+        },
+        {
+          "descricao": "Estimativa   para sistema CFTV",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 5746.92,
+          "total": 5746.92,
+          "subgrupo": "TÉRREO",
+          "pavimento": "TÉRREO",
+          "chave_normalizada": "estimativa_para_sistema_cftv"
+        },
+        {
+          "descricao": "Estimativa   para aromatizador",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 2394.55,
+          "total": 2394.55,
+          "subgrupo": "TÉRREO",
+          "pavimento": "TÉRREO",
+          "chave_normalizada": "estimativa_para_aromatizador"
+        },
+        {
+          "descricao": "Estimativa   para sistema CFTV",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 3240.0,
+          "total": 3240.0,
+          "subgrupo": "GARAGEM 1",
+          "pavimento": "GARAGEM 1",
+          "chave_normalizada": "estimativa_para_sistema_cftv"
+        },
+        {
+          "descricao": "Estimativa   para sistema CFTV",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 3240.0,
+          "total": 3240.0,
+          "subgrupo": "GARAGEM 2",
+          "pavimento": "GARAGEM 2",
+          "chave_normalizada": "estimativa_para_sistema_cftv"
+        },
+        {
+          "descricao": "Estimativa   para sistema CFTV",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 3240.0,
+          "total": 3240.0,
+          "subgrupo": "GARAGEM 3",
+          "pavimento": "GARAGEM 3",
+          "chave_normalizada": "estimativa_para_sistema_cftv"
+        },
+        {
+          "descricao": "Estimativa   para som de ambiente",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 2700.0,
+          "total": 2700.0,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "estimativa_para_som_ambiente"
+        },
+        {
+          "descricao": "Estimativa   para cabeamento de internet",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 1890.0,
+          "total": 1890.0,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "estimativa_para_cabeamento_internet"
+        },
+        {
+          "descricao": "Estimativa   para sistema CFTV",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 6480.0,
+          "total": 6480.0,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "estimativa_para_sistema_cftv"
+        },
+        {
+          "descricao": "Estimativa   para aromatizador",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 2700.0,
+          "total": 2700.0,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "estimativa_para_aromatizador"
+        },
+        {
+          "descricao": "Estimativa   para som de ambiente",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 19871.199999999997,
+          "total": 19871.199999999997,
+          "subgrupo": "TIPO (X16)",
+          "pavimento": "TIPO (X16)",
+          "chave_normalizada": "estimativa_para_som_ambiente"
+        },
+        {
+          "descricao": "Estimativa   para cabeamento de internet",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 13909.84,
+          "total": 13909.84,
+          "subgrupo": "TIPO (X16)",
+          "pavimento": "TIPO (X16)",
+          "chave_normalizada": "estimativa_para_cabeamento_internet"
+        },
+        {
+          "descricao": "Estimativa   para sistema CFTV",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 47690.88,
+          "total": 47690.88,
+          "subgrupo": "TIPO (X16)",
+          "pavimento": "TIPO (X16)",
+          "chave_normalizada": "estimativa_para_sistema_cftv"
+        },
+        {
+          "descricao": "Estimativa   para aromatizador",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 19871.199999999997,
+          "total": 19871.199999999997,
+          "subgrupo": "TIPO (X16)",
+          "pavimento": "TIPO (X16)",
+          "chave_normalizada": "estimativa_para_aromatizador"
+        }
+      ]
+    },
+    "Climatizacao": {
+      "total": 211947.80484468973,
+      "n_itens": 10,
+      "itens": [
+        {
+          "descricao": "EV-03/CD-03 - Climatizador Hi-Wall Frio 18.000 BTU",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 3776.67,
+          "total": 7553.34,
+          "subgrupo": "TÉRREO",
+          "pavimento": "TÉRREO",
+          "chave_normalizada": "ev_03_cd_03_climatizador_hi_wall_frio_18_000_btu"
+        },
+        {
+          "descricao": "Instalação",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 12960.906010987177,
+          "total": 12960.906010987177,
+          "subgrupo": "TÉRREO",
+          "pavimento": "TÉRREO",
+          "chave_normalizada": "instalacao"
+        },
+        {
+          "descricao": "EX-01 Exaustor Axial- 126 m³/h 78Pa 4\" 60Hz 21W",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 549.0,
+          "total": 1098.0,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "ex_01_exaustor_axial_126_m3_h_78pa_4_60hz_21w"
+        },
+        {
+          "descricao": "EV-03/CD-03 - Climatizador Hi-Wall Frio 18.000 BTU",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 3776.67,
+          "total": 7553.34,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "ev_03_cd_03_climatizador_hi_wall_frio_18_000_btu"
+        },
+        {
+          "descricao": "EV-04/CD-04 - Climatizador Hi-Wall Quente/Frio 24.000 BTU",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 8766.66,
+          "total": 17533.32,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "ev_04_cd_04_climatizador_hi_wall_quente_frio_24_000_btu"
+        },
+        {
+          "descricao": "EV-05/CD-05 - Climatizador Cassete Quente/Frio 36.000 BTU",
+          "quantidade": 2.0,
+          "unidade": "un",
+          "pu": 17789.47,
+          "total": 35578.94,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "ev_05_cd_05_climatizador_cassete_quente_frio_36_000_btu"
+        },
+        {
+          "descricao": "Instalação",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 477.08728608783906,
+          "total": 477.08728608783906,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "instalacao"
+        },
+        {
+          "descricao": "Instalação",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 14614.205687776566,
+          "total": 14614.205687776566,
+          "subgrupo": "LAZER",
+          "pavimento": "LAZER",
+          "chave_normalizada": "instalacao"
+        },
+        {
+          "descricao": "Instalação",
+          "quantidade": 2.0,
+          "unidade": "vb",
+          "pu": 219.45131665066359,
+          "total": 7022.442132821235,
+          "subgrupo": "TIPO (X16)",
+          "pavimento": "TIPO (X16)",
+          "chave_normalizada": "instalacao"
+        },
+        {
+          "descricao": "Instalação",
+          "quantidade": 1.0,
+          "unidade": "vb",
+          "pu": 6722.263982938557,
+          "total": 107556.22372701691,
+          "subgrupo": "TIPO (X16)",
+          "pavimento": "TIPO (X16)",
+          "chave_normalizada": "instalacao"
+        }
+      ]
+    }
+  }
+}

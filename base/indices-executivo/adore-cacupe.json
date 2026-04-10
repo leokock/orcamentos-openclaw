@@ -762,5 +762,110 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "eletricas": {
+      "valor": 1003745.07,
+      "rsm2": 154.55
+    },
+    "hidrossanitarias": {
+      "valor": 1164487.16,
+      "rsm2": 179.3
+    },
+    "preventivas": {
+      "valor": 2417846.83,
+      "rsm2": 372.28
+    }
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 5622.2,
+    "concreto_m3_por_m2_ac": 0.8657,
+    "aco_total_kg": 385843.78,
+    "aco_kg_por_m3_concreto": 68.63,
+    "forma_total_m2": 45155.01,
+    "forma_m2_por_m2_ac": 6.9527,
+    "fck_predominante": "40MPa",
+    "tipo_estaca": "hélice contínua",
+    "estacas_qtd": 538,
+    "fundacao_concreto_m3": 1940.05,
+    "fundacao_aco_kg": 76107.82,
+    "mo_estrutural_rsm2": 264.0
+  },
+  "sistemas_especiais_detail": {
+    "elevadores": {
+      "valor": 718921.5,
+      "qtd": 2,
+      "pu_un": 326782.5
+    },
+    "gerador": {
+      "valor": 19800
+    },
+    "piscina": {
+      "valor": null
+    },
+    "ete": {
+      "valor": null
+    },
+    "automacao": {
+      "valor": null
+    }
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 1050181.671,
+      "area_m2": 974.1945,
+      "pu_m2": 980.0
+    },
+    "guarda_corpo": {
+      "valor": 147269.10000000003,
+      "comprimento_m": 162.28,
+      "pu_m": 825.0000000000001
+    },
+    "portas_madeira": {
+      "valor": 306240.0,
+      "qtd": null,
+      "pu_un": null
+    },
+    "portas_corta_fogo": {
+      "valor": 30800.000000000004,
+      "qtd": 16.0,
+      "pu_un": 1750.0
+    },
+    "vidros": {
+      "valor": null
+    },
+    "pele_vidro": {
+      "valor": null
+    },
+    "brises": {
+      "valor": 206533.88800000004
+    },
+    "total": 2180211.517
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 907867.7327500002
+    },
+    "textura_pintura_ext": {
+      "valor": 812302.7082500001
+    },
+    "pastilha_porcelanato": {
+      "valor": null
+    },
+    "juntas": {
+      "valor": null
+    },
+    "total": 1720170.4410000003
+  },
+  "acabamentos_pus": {
+    "porcelanato_pu_m2": 125.0,
+    "ceramica_pu_m2": null,
+    "laminado_pu_m2": null,
+    "rodape_pu_m": null,
+    "contrapiso_pu_m2": 71.5,
+    "forro_gesso_pu_m2": 124.14,
+    "pintura_parede_pu_m2": null,
+    "chapisco_pu_m2": 5.5,
+    "reboco_pu_m2": 55.0
   }
 }

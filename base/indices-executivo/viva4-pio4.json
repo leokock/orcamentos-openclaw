@@ -213,33 +213,10 @@
     }
   },
   "split_mo_material": {
-    "Canteiro": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Instalacoes Eletricas": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Escoramento": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Contencao": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "SPDA": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Climatizacao": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Loucas e Metais": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "telecom": {
+      "mo_valor": 135409.3,
+      "material_valor": 325971.47,
+      "mo_pct": 29.3
     }
   },
   "curva_abc": {
@@ -780,5 +757,67 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 812455.8,
+    "preventivas": 188083.52,
+    "telecom": 461380.77
+  },
+  "instalacoes_extraction_method": "Ger_Executivo (Ger_Executivo)",
+  "indices_estruturais": {
+    "concreto_total_m3": 5504.99,
+    "concreto_m3_por_m2_ac": 0.4065,
+    "aco_total_kg": 470330.35,
+    "aco_kg_por_m3_concreto": 85.44,
+    "forma_total_m2": 37340.59,
+    "forma_m2_por_m2_ac": 2.7576,
+    "fck_predominante": 35,
+    "tipo_estaca": null,
+    "estacas_comprimento_total_m": 1543.3,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 1408.26,
+    "fundacao_aco_kg": 111806.93,
+    "mo_estrutural_rsm2": 291.45
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 1123669.58,
+    "ensaios": 41948.21,
+    "taxas_licencas": 13838.51,
+    "epcs": 5018.96,
+    "canteiro": 800.0
+  },
+  "sistemas_especiais_detail": {
+    "piscina": 56109.85,
+    "total": 56109.85
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 4262040.3
+    },
+    "metalicas_serralheria": {
+      "valor": 516857.26
+    },
+    "portas_madeira": {
+      "valor": 905919.25
+    },
+    "guarda_corpo": {
+      "valor": 17745.45
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 182085.06,
+    "juntas": 3383.45,
+    "textura_pintura_ext": 258029.82,
+    "pastilha_porcelanato": 92912.89
+  },
+  "acabamentos_pus": {
+    "ceramica": 192.07,
+    "chapisco": 58.0,
+    "reboco": 40.0,
+    "porcelanato": 102.94,
+    "forro_gesso": 150.0,
+    "contrapiso": 118.88,
+    "rodape": 24.14,
+    "pintura": 41.0
   }
 }

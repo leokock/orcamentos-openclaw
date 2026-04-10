@@ -1,0 +1,178 @@
+{
+  "slug": "etr-zion-meridian-tower",
+  "ac": 4617.34,
+  "total": 19377746.95,
+  "rsm2": 4196.73,
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 2766421.59,
+      "pct": 0.1428
+    },
+    "Mov. Terra": {
+      "valor": 58251.29,
+      "pct": 0.003
+    },
+    "Infraestrutura": {
+      "valor": 1033443.31,
+      "pct": 0.0533
+    },
+    "Supraestrutura": {
+      "valor": 3490551.89,
+      "pct": 0.1801
+    },
+    "Alvenaria": {
+      "valor": 1097233.23,
+      "pct": 0.0566
+    },
+    "Impermeabilizacao": {
+      "valor": 262221.37,
+      "pct": 0.0135
+    },
+    "Instalacoes": {
+      "valor": 1671374.01,
+      "pct": 0.0863
+    },
+    "Sist. Especiais": {
+      "valor": 1000729.36,
+      "pct": 0.0516
+    },
+    "Climatizacao": {
+      "valor": 0,
+      "pct": 0.0
+    },
+    "Rev. Int. Parede": {
+      "valor": 1145549.46,
+      "pct": 0.0591
+    },
+    "Teto": {
+      "valor": 392597.05,
+      "pct": 0.0203
+    },
+    "Pisos": {
+      "valor": 1686337.16,
+      "pct": 0.087
+    },
+    "Pintura": {
+      "valor": 700768.22,
+      "pct": 0.0362
+    },
+    "Esquadrias": {
+      "valor": 1705516.5,
+      "pct": 0.088
+    },
+    "Loucas e Metais": {
+      "valor": 103669.54,
+      "pct": 0.0053
+    },
+    "Fachada": {
+      "valor": 1027052.42,
+      "pct": 0.053
+    },
+    "Complementares": {
+      "valor": 949659.92,
+      "pct": 0.049
+    },
+    "Imprevistos": {
+      "valor": 286370.64,
+      "pct": 0.0148
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orcamento CTN R01, jan/2025. AC=4617.34m2, 20 unidades, 13 pavimentos. CUB/SC R$2863.73 (nov/2024), 1.47 CUB. Nome interno: Mediterraneo Tower.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 584581.29,
+    "eletricas": 853567.75,
+    "preventivas": 189310.94,
+    "gas": null,
+    "telecom": 43914.02,
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "split_mo_material": {
+    "hidrossanitarias": 600254.2,
+    "eletricas": 75879.6
+  },
+  "indices_estruturais": {
+    "concreto_total_m3": 1695.19,
+    "concreto_m3_por_m2_ac": 0.3671,
+    "aco_total_kg": 121618.0,
+    "aco_kg_por_m3_concreto": 71.74,
+    "forma_total_m2": 7582.41,
+    "forma_m2_por_m2_ac": 1.6422,
+    "fck_predominante": 35,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 2975.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 554.12,
+    "fundacao_aco_kg": 23343.0,
+    "mo_estrutural_rsm2": 317.62
+  },
+  "ci_detalhado": {
+    "ci_total": 2766421.59,
+    "_metodo": "Obra:Obra"
+  },
+  "loucas_metais_detail": {
+    "total_valor": 103669.54,
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 700768.22,
+    "gerador": {
+      "valor": 27704.04
+    },
+    "piscina": {
+      "valor": 82241.0
+    },
+    "elevadores": {
+      "valor": 665988.36
+    },
+    "_metodo": "Ger_Executivo:Ger_Executivo"
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 904507.26,
+      "qtd": 668.0,
+      "pu": 1354.05
+    },
+    "guarda_corpo": {
+      "valor": 19788.07,
+      "qtd": 27.45,
+      "pu": 720.9
+    },
+    "portas_madeira": {
+      "valor": 340310.42,
+      "qtd": 410.0,
+      "pu": 830.03
+    },
+    "portas_corta_fogo": {
+      "valor": 50306.31,
+      "qtd": 32.0,
+      "pu": 1572.07
+    },
+    "brises": {
+      "valor": 183156.51,
+      "qtd": 292.47,
+      "pu": 626.24
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": {
+      "valor": 390914.27
+    },
+    "textura_pintura_ext": {
+      "valor": 372581.24
+    },
+    "pastilha_porcelanato": {
+      "valor": 90380.33
+    },
+    "_total": 1027052.42
+  },
+  "acabamentos_pus": {
+    "ceramica": 53.6,
+    "pintura": 12.94,
+    "chapisco": 2.9,
+    "reboco": 15.0,
+    "porcelanato": 306.01,
+    "contrapiso": 49.08,
+    "rodape": 58.92
+  }
+}

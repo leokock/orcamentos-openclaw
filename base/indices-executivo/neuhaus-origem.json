@@ -1,0 +1,131 @@
+{
+  "slug": "neuhaus-origem",
+  "ac": 14559.12,
+  "total": 67590131.02,
+  "rsm2": 4642.46,
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 13723637.59,
+      "pct": 0.203
+    },
+    "Infraestrutura": {
+      "valor": 3518112.2,
+      "pct": 0.0521
+    },
+    "Supraestrutura": {
+      "valor": 14465388.42,
+      "pct": 0.214
+    },
+    "Alvenaria": {
+      "valor": 3199967.42,
+      "pct": 0.0473
+    },
+    "Instalações": {
+      "valor": 4737605.5,
+      "pct": 0.0701
+    },
+    "Climatização": {
+      "valor": 639419.98,
+      "pct": 0.0095
+    },
+    "Louças": {
+      "valor": 690289.45,
+      "pct": 0.0102
+    },
+    "Sist.Especiais": {
+      "valor": 3072221.78,
+      "pct": 0.0455
+    },
+    "Impermeabilização": {
+      "valor": 1381564.53,
+      "pct": 0.0204
+    },
+    "Rev.Int.Parede": {
+      "valor": 1868736.23,
+      "pct": 0.0276
+    },
+    "Teto": {
+      "valor": 1178521.0,
+      "pct": 0.0174
+    },
+    "Pisos": {
+      "valor": 2750753.5,
+      "pct": 0.0407
+    },
+    "Pintura": {
+      "valor": 2611040.57,
+      "pct": 0.0386
+    },
+    "Esquadrias": {
+      "valor": 6022410.14,
+      "pct": 0.0891
+    },
+    "Fachada": {
+      "valor": 2858852.66,
+      "pct": 0.0423
+    },
+    "Complementares": {
+      "valor": 3815404.3,
+      "pct": 0.0564
+    },
+    "Imprevistos": {
+      "valor": 1056205.75,
+      "pct": 0.0156
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orçamento R00. AC=14559.12m2 (OBRA sheet). Total=R$67.59M (Gerenciamento R$13.72M includes terreno/incorporação R$3.92M + Construção R$53.87M). 23 MGs in original, normalized to 17. Gerenciamento very high because includes ITBI, outorgas, solo criado. Supraestrutura R$14.5M = R$993/m2 (35-story tower in BC). Esquadrias combined metal+madeira.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1962706.8,
+    "eletricas": 2036989.61,
+    "preventivas": 737909.09,
+    "telecom": 58822.16
+  },
+  "split_mo_material": {
+    "eletricas": {
+      "mo_valor": 936266.43,
+      "material_valor": 1100723.18,
+      "mo_pct": 46.0
+    },
+    "hidrossanitarias": {
+      "mo_valor": 1222091.16,
+      "material_valor": 740615.63,
+      "mo_pct": 62.3
+    },
+    "preventivas": {
+      "mo_valor": 308255.39,
+      "material_valor": 429653.7,
+      "mo_pct": 41.8
+    }
+  },
+  "instalacoes_extraction_method": "Ger_Executivo (Ger_Executivo) + telecom from sheets",
+  "indices_estruturais": {
+    "concreto_total_m3": 8062.49,
+    "concreto_m3_por_m2_ac": 0.5538,
+    "aco_total_kg": 594863.0,
+    "aco_kg_por_m3_concreto": 73.78,
+    "forma_total_m2": 18813.71,
+    "forma_m2_por_m2_ac": 1.2922,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 5248.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 8062.49,
+    "fundacao_aco_kg": 594863.0,
+    "mo_estrutural_rsm2": 311.81
+  },
+  "ci_detalhado": {
+    "taxas_licencas": 132000,
+    "projetos_consultorias": 270555.75,
+    "ensaios": 53600
+  },
+  "sistemas_especiais_detail": {
+    "piscina": 323738.06,
+    "total": 323738.06
+  },
+  "acabamentos_pus": {
+    "ceramica": 51.11,
+    "chapisco": 12.75,
+    "reboco": 31.8
+  }
+}

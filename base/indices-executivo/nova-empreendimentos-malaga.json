@@ -1,0 +1,138 @@
+{
+  "projeto": "nova-empreendimentos-malaga",
+  "ac": 4430.32,
+  "total": 23244532.72,
+  "rsm2": 5246.69,
+  "macrogrupos": {
+    "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": {
+      "valor": 7602209.55,
+      "rsm2": 1715.95,
+      "pct": 0.3271
+    },
+    "MOVIMENTAÇÃO DE TERRA": {
+      "valor": 346870.48,
+      "rsm2": 78.29,
+      "pct": 0.0149
+    },
+    "INFRAESTRUTURA": {
+      "valor": 1008205.39,
+      "rsm2": 227.57,
+      "pct": 0.0434
+    },
+    "SUPRAESTRUTURA": {
+      "valor": 3176784.19,
+      "rsm2": 717.06,
+      "pct": 0.1367
+    },
+    "ALVENARIA | VEDAÇÕES | DIVISÓRIAS": {
+      "valor": 880759.48,
+      "rsm2": 198.8,
+      "pct": 0.0379
+    },
+    "IMPERMEABILIZAÇÃO E TRATAMENTOS": {
+      "valor": 476297.41,
+      "rsm2": 107.51,
+      "pct": 0.0205
+    },
+    "INSTALAÇÕES ELÉTRICAS": {
+      "valor": 897376.35,
+      "rsm2": 202.55,
+      "pct": 0.0386
+    },
+    "INSTALAÇÕES HIDROSSANITÁRIAS": {
+      "valor": 778435.83,
+      "rsm2": 175.71,
+      "pct": 0.0335
+    },
+    "INSTALAÇÕES PREVENTIVAS": {
+      "valor": 60265.24,
+      "rsm2": 13.6,
+      "pct": 0.0026
+    },
+    "EQUIPAMENTOS E SISTEMAS ESPECIAIS": {
+      "valor": 316852.2,
+      "rsm2": 71.52,
+      "pct": 0.0136
+    },
+    "CLIMATIZAÇÃO": {
+      "valor": 107460.55,
+      "rsm2": 24.26,
+      "pct": 0.0046
+    },
+    "REVESTIMENTOS INTERNOS DE PAREDE": {
+      "valor": 1969790.85,
+      "rsm2": 444.62,
+      "pct": 0.0847
+    },
+    "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO": {
+      "valor": 166675.12,
+      "rsm2": 37.62,
+      "pct": 0.0072
+    },
+    "PISOS E PAVIMENTAÇÕES": {
+      "valor": 798169.68,
+      "rsm2": 180.16,
+      "pct": 0.0343
+    },
+    "SISTEMAS DE PINTURA INTERNA": {
+      "valor": 553705.91,
+      "rsm2": 124.98,
+      "pct": 0.0238
+    },
+    "ESQUADRIAS - VIDROS E FERRAGENS": {
+      "valor": 1273047.98,
+      "rsm2": 287.35,
+      "pct": 0.0548
+    },
+    "LOUÇAS E METAIS": {
+      "valor": 116007.77,
+      "rsm2": 26.18,
+      "pct": 0.005
+    },
+    "REVESTIMENTOS E ACABAMENTOS DE FACHADA": {
+      "valor": 289493.99,
+      "rsm2": 65.34,
+      "pct": 0.0125
+    },
+    "SERVIÇOS COMPLEMENTARES E FINAIS": {
+      "valor": 2426124.75,
+      "rsm2": 547.62,
+      "pct": 0.1044
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Apresentação. EAP não-padrão: ADM + OBRA(MAT+MO). Col H = Total combinado. ADM inclui terreno, comissões, projetos.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 765788.83,
+    "eletricas": 897376.35,
+    "preventivas": 60265.24,
+    "gas": 12647.0
+  },
+  "split_mo_material": {
+    "eletricas": {
+      "mo_valor": 261831.91,
+      "material_valor": 635544.44,
+      "mo_pct": 29.2
+    },
+    "hidrossanitarias": {
+      "mo_valor": 261831.91,
+      "material_valor": 503956.91,
+      "mo_pct": 34.2
+    }
+  },
+  "instalacoes_extraction_method": "orcamento sheet (N1 totals)",
+  "ci_detalhado": {
+    "canteiro": 676776.37
+  },
+  "loucas_metais_detail": {
+    "total": 84587.94
+  },
+  "sistemas_especiais_detail": {
+    "total": 316852.2
+  },
+  "esquadrias_detail": {
+    "vidros": {
+      "valor": 1220681.6
+    }
+  }
+}

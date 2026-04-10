@@ -1,0 +1,166 @@
+{
+  "slug": "mussi-empreendimentos-soho",
+  "ac": 12000.0,
+  "total": 29467078.29,
+  "rsm2": 2455.59,
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 2881198.11,
+      "pct": 0.0978
+    },
+    "Mov.Terra": {
+      "valor": 45275.65,
+      "pct": 0.0015
+    },
+    "Infraestrutura": {
+      "valor": 1862711.42,
+      "pct": 0.0632
+    },
+    "Supraestrutura": {
+      "valor": 6814618.16,
+      "pct": 0.2313
+    },
+    "Alvenaria": {
+      "valor": 1121666.25,
+      "pct": 0.0381
+    },
+    "Instalações": {
+      "valor": 3332008.75,
+      "pct": 0.1131
+    },
+    "Climatização": {
+      "valor": 434461.0,
+      "pct": 0.0147
+    },
+    "Sist.Especiais": {
+      "valor": 1515000.0,
+      "pct": 0.0514
+    },
+    "Impermeabilização": {
+      "valor": 527074.29,
+      "pct": 0.0179
+    },
+    "Rev.Int.Parede": {
+      "valor": 1420829.02,
+      "pct": 0.0482
+    },
+    "Teto": {
+      "valor": 553529.62,
+      "pct": 0.0188
+    },
+    "Pisos": {
+      "valor": 1988365.38,
+      "pct": 0.0675
+    },
+    "Pintura": {
+      "valor": 1062620.84,
+      "pct": 0.0361
+    },
+    "Esquadrias": {
+      "valor": 2902069.96,
+      "pct": 0.0985
+    },
+    "Fachada": {
+      "valor": 1013665.45,
+      "pct": 0.0344
+    },
+    "Complementares": {
+      "valor": 1991984.39,
+      "pct": 0.0676
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "Orçamento xlsx (Relatório format). AC=12000m2 (from external, not in xlsx). Total=R$29.47M (Gerenciamento R$2.88M + Construção R$26.59M). Instalações=Elet+Hidro+Prev. Climatização separate. Automação=R$0 (empty). Fachada includes Cobertura R$181k.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1477924.73,
+    "eletricas": 1458745.02,
+    "preventivas": 395339.0
+  },
+  "split_mo_material": {
+    "eletricas": {
+      "mo_valor": 1226902.0,
+      "material_valor": 231843.02,
+      "mo_pct": 84.1
+    },
+    "hidrossanitarias": {
+      "mo_valor": 954258.0,
+      "material_valor": 523666.73,
+      "mo_pct": 64.6
+    },
+    "preventivas": {
+      "mo_valor": 316272.0,
+      "material_valor": 79067.0,
+      "mo_pct": 80.0
+    }
+  },
+  "instalacoes_extraction_method": "Relatório (Sienge)",
+  "indices_estruturais": {
+    "concreto_total_m3": 4933.8,
+    "concreto_m3_por_m2_ac": 0.4112,
+    "aco_total_kg": 351613.1,
+    "aco_kg_por_m3_concreto": 71.27,
+    "forma_total_m2": 32768.5,
+    "forma_m2_por_m2_ac": 2.7307,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 4321.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 1867.3,
+    "fundacao_aco_kg": 44702.8,
+    "mo_estrutural_rsm2": 185.51
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 413075.04,
+    "ensaios": 20891,
+    "taxas_licencas": 117980,
+    "epcs": 150500,
+    "canteiro": 1201663.27,
+    "equipamentos_carga": 912400
+  },
+  "loucas_metais_detail": {
+    "bacias": null,
+    "cubas": null,
+    "torneiras": null,
+    "registros": null,
+    "chuveiros": null,
+    "bancadas": null,
+    "outros": 930587.73,
+    "total": 401655.73
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 17196.12,
+      "pu": 17196.12
+    },
+    "portas_madeira": {
+      "valor": 5742.4,
+      "pu": 957.07
+    },
+    "metalicas_serralheria": {
+      "valor": 5850
+    },
+    "brises": {
+      "valor": 291052.5
+    },
+    "guarda_corpo": {
+      "valor": 80000
+    },
+    "vidros": {
+      "valor": 112640
+    },
+    "ferragens": {
+      "valor": 1599.54
+    }
+  },
+  "acabamentos_pus": {
+    "ceramica": 68.79,
+    "contrapiso": 29.2,
+    "chapisco": 28.34,
+    "reboco": 28.34,
+    "forro_gesso": 25.81,
+    "porcelanato": 93.46,
+    "laminado": 79.54,
+    "rodape": 21.05,
+    "pintura": 2.7
+  }
+}

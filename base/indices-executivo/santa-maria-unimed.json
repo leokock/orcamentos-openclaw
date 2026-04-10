@@ -184,53 +184,10 @@
     }
   },
   "split_mo_material": {
-    "Movimentacao de Terra": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Infraestrutura": {
-      "mo_pct": 0.355,
-      "material_pct": 0.645
-    },
-    "Supraestrutura": {
-      "mo_pct": 0.398,
-      "material_pct": 0.602
-    },
-    "Alvenaria": {
-      "mo_pct": 0.27,
-      "material_pct": 0.73
-    },
-    "Sistemas Especiais": {
-      "mo_pct": 0.002,
-      "material_pct": 0.998
-    },
-    "Impermeabilizacao": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Forro": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Pintura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Esquadrias": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Cobertura": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
-    },
-    "Fachada": {
-      "mo_pct": 0.01,
-      "material_pct": 0.99
-    },
-    "Servicos Complementares": {
-      "mo_pct": 0.0,
-      "material_pct": 1.0
+    "eletricas": {
+      "mo_valor": 2888382.2,
+      "material_valor": 5251604.0,
+      "mo_pct": 35.5
     }
   },
   "curva_abc": {
@@ -751,5 +708,85 @@
         }
       ]
     }
+  },
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 3676122.8,
+    "eletricas": 8139986.2,
+    "preventivas": 3150962.4,
+    "gas": 1312901.0
+  },
+  "instalacoes_extraction_method": "INSTALAÇÕES sheet (Instalações)",
+  "indices_estruturais": {
+    "concreto_total_m3": 15881.65,
+    "concreto_m3_por_m2_ac": 0.3024,
+    "aco_total_kg": 1325585.37,
+    "aco_kg_por_m3_concreto": 83.47,
+    "forma_total_m2": 133961.98,
+    "forma_m2_por_m2_ac": 2.5509,
+    "fck_predominante": null,
+    "tipo_estaca": "raiz",
+    "estacas_comprimento_total_m": 2144,
+    "estacas_qtd": 268,
+    "fundacao_concreto_m3": 2752.64,
+    "fundacao_aco_kg": 275264.57,
+    "mo_estrutural_rsm2": 240.0
+  },
+  "sistemas_especiais_detail": {
+    "elevadores": {
+      "valor": 9645900
+    },
+    "gerador": 500000,
+    "piscina": null,
+    "ete": null,
+    "automacao": 787740.6,
+    "cftv": 157548.12,
+    "interfone": 525160.4,
+    "som_ambiente": null,
+    "total": 10777568.32
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 661968,
+      "qtd": 367.76,
+      "pu": 1800
+    },
+    "guarda_corpo": {
+      "valor": 2463819.21,
+      "qtd": 1925.31,
+      "pu": 1279.7
+    },
+    "metalicas_serralheria": {
+      "valor": 800000,
+      "qtd": 1,
+      "pu": 800000
+    },
+    "portas_corta_fogo": {
+      "valor": 273000,
+      "qtd": 156,
+      "pu": 1750
+    },
+    "portas_madeira": {
+      "valor": 1923000,
+      "qtd": 641,
+      "pu": 3000
+    },
+    "vidros": {
+      "valor": 6074064,
+      "qtd": 5061.72,
+      "pu": 1200
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 132112.5
+  },
+  "acabamentos_pus": {
+    "porcelanato": 50,
+    "laminado": 50,
+    "rodape": 30,
+    "contrapiso": 26,
+    "chapisco": 2.5,
+    "reboco": 30.5,
+    "forro_gesso": 120,
+    "pintura": 70
   }
 }

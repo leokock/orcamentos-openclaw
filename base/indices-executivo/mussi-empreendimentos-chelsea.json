@@ -1,0 +1,160 @@
+{
+  "slug": "mussi-empreendimentos-chelsea",
+  "ac": 15149.39,
+  "total": 52163485.94,
+  "rsm2": 3443.27,
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 5853384.74,
+      "pct": 0.112212
+    },
+    "Mov.Terra": {
+      "valor": 217215.97,
+      "pct": 0.004164
+    },
+    "Infraestrutura": {
+      "valor": 2453003.31,
+      "pct": 0.047025
+    },
+    "Supraestrutura": {
+      "valor": 12344909.98,
+      "pct": 0.236658
+    },
+    "Alvenaria": {
+      "valor": 1500671.65,
+      "pct": 0.028769
+    },
+    "Instalacoes": {
+      "valor": 4724786.97,
+      "pct": 0.090577
+    },
+    "Sist.Especiais": {
+      "valor": 2761364.08,
+      "pct": 0.052937
+    },
+    "Impermeabilizacao": {
+      "valor": 771210.95,
+      "pct": 0.014784
+    },
+    "Rev.Int.Parede": {
+      "valor": 3089605.67,
+      "pct": 0.059229
+    },
+    "Teto": {
+      "valor": 1832607.82,
+      "pct": 0.035132
+    },
+    "Pisos": {
+      "valor": 3252470.64,
+      "pct": 0.062351
+    },
+    "Pintura": {
+      "valor": 2041448.92,
+      "pct": 0.039136
+    },
+    "Esquadrias": {
+      "valor": 4885644.72,
+      "pct": 0.09366
+    },
+    "Loucas": {
+      "valor": 375618.01,
+      "pct": 0.007201
+    },
+    "Fachada": {
+      "valor": 1597006.63,
+      "pct": 0.030615
+    },
+    "Complementares": {
+      "valor": 3691646.91,
+      "pct": 0.070771
+    },
+    "Imprevistos": {
+      "valor": 770888.95,
+      "pct": 0.014778
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "17 macrogrupos. Climatizacao inclusa em Sist.Especiais. 41 unidades, 36 pavimentos, Mussi Empreendimentos. Loucas e Metais como grupo proprio.",
+  "instalacoes_breakdown": {
+    "hidrossanitarias": 1668608.78,
+    "eletricas": 2272079.59,
+    "preventivas": 580379.52,
+    "gas": 2423.74,
+    "telecom": 203719.09
+  },
+  "split_mo_material": {
+    "eletricas": {
+      "mo_valor": 1786813.55,
+      "material_valor": 485266.04,
+      "mo_pct": 78.6
+    },
+    "preventivas": {
+      "mo_valor": 453362.55,
+      "material_valor": 127016.96,
+      "mo_pct": 78.1
+    }
+  },
+  "instalacoes_extraction_method": "Ger_Executivo (Ger_Executivo) + gas from sheets",
+  "indices_estruturais": {
+    "concreto_total_m3": 6595.93,
+    "concreto_m3_por_m2_ac": 0.4354,
+    "aco_total_kg": 472074.1,
+    "aco_kg_por_m3_concreto": 71.57,
+    "forma_total_m2": 37019.06,
+    "forma_m2_por_m2_ac": 2.4436,
+    "fck_predominante": 40,
+    "tipo_estaca": "hélice contínua",
+    "estacas_comprimento_total_m": 4508.0,
+    "estacas_qtd": null,
+    "fundacao_concreto_m3": 1742.24,
+    "fundacao_aco_kg": 51155.92,
+    "mo_estrutural_rsm2": 279.56
+  },
+  "ci_detalhado": {
+    "projetos_consultorias": 1071079.84,
+    "ensaios": 112540,
+    "taxas_licencas": 284221.27,
+    "epcs": 6738.81,
+    "canteiro": 38000
+  },
+  "sistemas_especiais_detail": {
+    "piscina": 20511.67,
+    "total": 20511.67
+  },
+  "esquadrias_detail": {
+    "aluminio": {
+      "valor": 5984718.57
+    },
+    "metalicas_serralheria": {
+      "valor": 339548.56
+    },
+    "pele_vidro": {
+      "valor": 322628.27
+    },
+    "guarda_corpo": {
+      "valor": 1257136.02
+    },
+    "portas_madeira": {
+      "valor": 1447714.51
+    },
+    "ferragens": {
+      "valor": 210144.56
+    }
+  },
+  "fachada_detail": {
+    "reboco_externo": 181726.09,
+    "juntas": 9199.15,
+    "textura_pintura_ext": 135435.56,
+    "pastilha_porcelanato": 271916.89
+  },
+  "acabamentos_pus": {
+    "ceramica": 78.0,
+    "chapisco": 55.0,
+    "reboco": 38.28,
+    "forro_gesso": 82.04,
+    "contrapiso": 76.36,
+    "porcelanato": 121.76,
+    "rodape": 90.26,
+    "pintura": 74.91
+  }
+}

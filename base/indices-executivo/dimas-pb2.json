@@ -1,0 +1,92 @@
+{
+  "slug": "dimas-pb2",
+  "ac": 21215.27,
+  "total": 92187220.92,
+  "rsm2": 4345.32,
+  "cub_ref": 2965.54,
+  "data_base": "jul/2025",
+  "macrogrupos": {
+    "Gerenciamento": {
+      "valor": 12241863.8,
+      "pct": 0.1328
+    },
+    "Infraestrutura": {
+      "valor": 5832061.32,
+      "pct": 0.0633
+    },
+    "Supraestrutura": {
+      "valor": 16114000.56,
+      "pct": 0.1748
+    },
+    "Alvenaria": {
+      "valor": 3005592.03,
+      "pct": 0.0326
+    },
+    "Instalações": {
+      "valor": 9627103.59,
+      "pct": 0.1044
+    },
+    "Sist.Especiais": {
+      "valor": 3585403.35,
+      "pct": 0.0389
+    },
+    "Impermeabilização": {
+      "valor": 1648955.09,
+      "pct": 0.0179
+    },
+    "Rev.Int.Parede": {
+      "valor": 4388286.94,
+      "pct": 0.0476
+    },
+    "Teto": {
+      "valor": 1114675.18,
+      "pct": 0.0121
+    },
+    "Pisos": {
+      "valor": 5341451.01,
+      "pct": 0.0579
+    },
+    "Pintura": {
+      "valor": 5349079.32,
+      "pct": 0.058
+    },
+    "Esquadrias": {
+      "valor": 8201421.03,
+      "pct": 0.089
+    },
+    "Fachada": {
+      "valor": 3019064.72,
+      "pct": 0.0327
+    },
+    "Complementares": {
+      "valor": 11117753.74,
+      "pct": 0.1206
+    },
+    "Imprevistos": {
+      "valor": 1600509.24,
+      "pct": 0.0174
+    }
+  },
+  "fonte": "reprocessado-subagente",
+  "notas": "ORCAMENTO_EXECUTIVO. AC CORRIGIDO de 498 para 21215.27 (I3). Despesas Indiretas + Serv.Prelim = Gerenciamento. Estrutura = Supraestrutura. CUB/SC.",
+  "instalacoes_breakdown": {
+    "_nota": "consolidado - sem split por disciplina na fonte",
+    "total_consolidado": 9627103.59,
+    "_metodo": "OrcExec:ORÇAMENTO_EXECUTIVO"
+  },
+  "ci_detalhado": {
+    "ci_total": 10561249.94,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "sistemas_especiais_detail": {
+    "total_valor": 3585403.35,
+    "_metodo": "ORÇAMENTO_EXECUTIVO:ORÇAMENTO_EXECUTIVO"
+  },
+  "esquadrias_detail": {
+    "_total": 8201421.03
+  },
+  "fachada_detail": {
+    "_total": 3019064.72
+  },
+  "acabamentos_pus": {}
+}
