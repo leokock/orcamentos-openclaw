@@ -1,0 +1,54 @@
+{
+  "projeto": "viva4-pio4",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:14:39",
+  "duration_s": 68.5,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 0,\n    \"mao_obra_pct\": 0,\n    \"equipamento_pct\": 0,\n    \"outros_pct\": 100\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"[out] Outrogas\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Maior valor unitário da tabela\"\n    },\n    {\n      \"insumo\": \"[out] Projeto Arquitetônico Legal\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto valor unitário\"\n    },\n    {\n      \"insumo\": \"[out] Projeto Estrutural\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto valor unitário\"\n    },\n    {\n      \"insumo\": \"[out] Projeto Arquitetônico Executivo\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto valor unitário\"\n    },\n    {\n      \"insumo\": \"[out] Projeto Elétrico e Telecomunicações\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto valor unitário\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Projeto Arquitetônico\",\n    \"Projeto Estrutural\",\n    \"Projeto Elétrico e Telecomunicações\",\n    \"Projeto hidrossanitário\",\n    \"Projeto Preventivo de Incêndio (PPCI)\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Projeto Arquitetônico\",\n    \"Projeto Estrutural\",\n    \"Serviços jurídicos - Incorporação\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 0,
+      "mao_obra_pct": 0,
+      "equipamento_pct": 0,
+      "outros_pct": 100
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "[out] Outrogas",
+        "categoria": "outros",
+        "motivo": "Maior valor unitário da tabela"
+      },
+      {
+        "insumo": "[out] Projeto Arquitetônico Legal",
+        "categoria": "outros",
+        "motivo": "Alto valor unitário"
+      },
+      {
+        "insumo": "[out] Projeto Estrutural",
+        "categoria": "outros",
+        "motivo": "Alto valor unitário"
+      },
+      {
+        "insumo": "[out] Projeto Arquitetônico Executivo",
+        "categoria": "outros",
+        "motivo": "Alto valor unitário"
+      },
+      {
+        "insumo": "[out] Projeto Elétrico e Telecomunicações",
+        "categoria": "outros",
+        "motivo": "Alto valor unitário"
+      }
+    ],
+    "padroes_observados": [
+      "Projeto Arquitetônico",
+      "Projeto Estrutural",
+      "Projeto Elétrico e Telecomunicações",
+      "Projeto hidrossanitário",
+      "Projeto Preventivo de Incêndio (PPCI)"
+    ],
+    "macrogrupos_destaque": [
+      "Projeto Arquitetônico",
+      "Projeto Estrutural",
+      "Serviços jurídicos - Incorporação"
+    ]
+  }
+}

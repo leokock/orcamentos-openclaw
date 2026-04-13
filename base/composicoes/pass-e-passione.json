@@ -1,0 +1,54 @@
+{
+  "projeto": "pass-e-passione",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:08:31",
+  "duration_s": 81.1,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 35,\n    \"mao_obra_pct\": 15,\n    \"equipamento_pct\": 0,\n    \"outros_pct\": 50\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Serviço de Perfuração de vigas e lajes\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Possui o maior valor total (T=47773)\"\n    },\n    {\n      \"insumo\": \"Pergolado\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto valor total (T=30657)\"\n    },\n    {\n      \"insumo\": \"Rebaixamento de Lençol freático\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto valor total (T=26000)\"\n    },\n    {\n      \"insumo\": \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n      \"categoria\": \"mao\",\n      \"motivo\": \"Alto valor total (T=26000)\"\n    },\n    {\n      \"insumo\": \"Manutenção de cubetas proprias\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto valor total (T=20045)\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Aço CA50 (diversos diâmetros)\",\n    \"BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X... (vários tamanhos)\",\n    \"TELA ACO CARBONO CA60 M.150X150MM F.03,4MM 245X600CM Q61\",\n    \"Portão de Aluminio - fornecimento e instalação\",\n    \"Serviço de Perfuração de vigas e lajes\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Estrutura (Aços, Blocos, Telas)\",\n    \"Serviços de Fundação e Terraplanagem\",\n    \"Acabamento e Fachada\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 35,
+      "mao_obra_pct": 15,
+      "equipamento_pct": 0,
+      "outros_pct": 50
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Serviço de Perfuração de vigas e lajes",
+        "categoria": "out",
+        "motivo": "Possui o maior valor total (T=47773)"
+      },
+      {
+        "insumo": "Pergolado",
+        "categoria": "out",
+        "motivo": "Alto valor total (T=30657)"
+      },
+      {
+        "insumo": "Rebaixamento de Lençol freático",
+        "categoria": "out",
+        "motivo": "Alto valor total (T=26000)"
+      },
+      {
+        "insumo": "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+        "categoria": "mao",
+        "motivo": "Alto valor total (T=26000)"
+      },
+      {
+        "insumo": "Manutenção de cubetas proprias",
+        "categoria": "out",
+        "motivo": "Alto valor total (T=20045)"
+      }
+    ],
+    "padroes_observados": [
+      "Aço CA50 (diversos diâmetros)",
+      "BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X... (vários tamanhos)",
+      "TELA ACO CARBONO CA60 M.150X150MM F.03,4MM 245X600CM Q61",
+      "Portão de Aluminio - fornecimento e instalação",
+      "Serviço de Perfuração de vigas e lajes"
+    ],
+    "macrogrupos_destaque": [
+      "Estrutura (Aços, Blocos, Telas)",
+      "Serviços de Fundação e Terraplanagem",
+      "Acabamento e Fachada"
+    ]
+  }
+}

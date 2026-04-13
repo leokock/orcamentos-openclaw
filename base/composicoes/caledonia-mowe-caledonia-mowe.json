@@ -1,0 +1,54 @@
+{
+  "projeto": "caledonia-mowe-caledonia-mowe",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:52:43",
+  "duration_s": 79.1,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 35,\n    \"mao_obra_pct\": 30,\n    \"equipamento_pct\": 25,\n    \"outros_pct\": 10\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n      \"categoria\": \"mao_obra\",\n      \"motivo\": \"Alto impacto no custo total (T=32000)\"\n    },\n    {\n      \"insumo\": \"Sistema de Ancoragem Provisória e definitiva\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto impacto no custo total (T=15000)\"\n    },\n    {\n      \"insumo\": \"CORTE E DOBRA ARMADO ESTACA Ø60CM 9F 20,0 8MTS ESP75 PS20\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Maior preço unitário listado (PU=1609.666)\"\n    },\n    {\n      \"insumo\": \"Portão, 1 folha, 500x235 cm\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Item de alto custo em acabamento/esquadria (T=13012)\"\n    },\n    {\n      \"insumo\": \"Aço CA50 10,0 mm\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Material estrutural básico com alta repetição e impacto em diversas composições\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n    \"Portão, 1 folha\",\n    \"CORTE E DOBRA ARMADO ESTACA\",\n    \"Aço CA50\",\n    \"TELA ACO CARBONO CA60\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Serviços de Fundação/Estaca\",\n    \"Estrutura Metálica/Aço\",\n    \"Fechamentos/Esquadrias\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 35,
+      "mao_obra_pct": 30,
+      "equipamento_pct": 25,
+      "outros_pct": 10
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+        "categoria": "mao_obra",
+        "motivo": "Alto impacto no custo total (T=32000)"
+      },
+      {
+        "insumo": "Sistema de Ancoragem Provisória e definitiva",
+        "categoria": "outros",
+        "motivo": "Alto impacto no custo total (T=15000)"
+      },
+      {
+        "insumo": "CORTE E DOBRA ARMADO ESTACA Ø60CM 9F 20,0 8MTS ESP75 PS20",
+        "categoria": "outros",
+        "motivo": "Maior preço unitário listado (PU=1609.666)"
+      },
+      {
+        "insumo": "Portão, 1 folha, 500x235 cm",
+        "categoria": "outros",
+        "motivo": "Item de alto custo em acabamento/esquadria (T=13012)"
+      },
+      {
+        "insumo": "Aço CA50 10,0 mm",
+        "categoria": "material",
+        "motivo": "Material estrutural básico com alta repetição e impacto em diversas composições"
+      }
+    ],
+    "padroes_observados": [
+      "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+      "Portão, 1 folha",
+      "CORTE E DOBRA ARMADO ESTACA",
+      "Aço CA50",
+      "TELA ACO CARBONO CA60"
+    ],
+    "macrogrupos_destaque": [
+      "Serviços de Fundação/Estaca",
+      "Estrutura Metálica/Aço",
+      "Fechamentos/Esquadrias"
+    ]
+  }
+}

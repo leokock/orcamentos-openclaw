@@ -1,0 +1,54 @@
+{
+  "projeto": "grandezza-gran-royal",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:59:55",
+  "duration_s": 76.3,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 35,\n    \"mao_obra_pct\": 15,\n    \"equipamento_pct\": 10,\n    \"outros_pct\": 40\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"[out] Manutenção de cubetas proprias\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Maior custo total listado na seção CPU\"\n    },\n    {\n      \"insumo\": \"[out] Serviço de Perfuração de vigas e lajes\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total e repetição de serviço\"\n    },\n    {\n      \"insumo\": \"[out] Pergolado\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total e variações de composição\"\n    },\n    {\n      \"insumo\": \"[out] Pergolado com 4 pilares sustentação\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total específico\"\n    },\n    {\n      \"insumo\": \"[out] Pergolado com 2 pilares sustentação\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total específico\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Pergolado\",\n    \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n    \"Sistema de Ancoragem Provisória e definitiva\",\n    \"Aço CA50\",\n    \"TELA ACO CARBONO CA60 M.150X150MM\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Pergolado\",\n    \"Estrutura Metálica\",\n    \"Fundação e Serviços de Estaca\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 35,
+      "mao_obra_pct": 15,
+      "equipamento_pct": 10,
+      "outros_pct": 40
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "[out] Manutenção de cubetas proprias",
+        "categoria": "outros",
+        "motivo": "Maior custo total listado na seção CPU"
+      },
+      {
+        "insumo": "[out] Serviço de Perfuração de vigas e lajes",
+        "categoria": "outros",
+        "motivo": "Alto custo total e repetição de serviço"
+      },
+      {
+        "insumo": "[out] Pergolado",
+        "categoria": "outros",
+        "motivo": "Alto custo total e variações de composição"
+      },
+      {
+        "insumo": "[out] Pergolado com 4 pilares sustentação",
+        "categoria": "outros",
+        "motivo": "Alto custo total específico"
+      },
+      {
+        "insumo": "[out] Pergolado com 2 pilares sustentação",
+        "categoria": "outros",
+        "motivo": "Alto custo total específico"
+      }
+    ],
+    "padroes_observados": [
+      "Pergolado",
+      "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+      "Sistema de Ancoragem Provisória e definitiva",
+      "Aço CA50",
+      "TELA ACO CARBONO CA60 M.150X150MM"
+    ],
+    "macrogrupos_destaque": [
+      "Pergolado",
+      "Estrutura Metálica",
+      "Fundação e Serviços de Estaca"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "projeto": "beco-castelo-chateau-de-versailes",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:51:24",
+  "duration_s": 72.8,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 90,\n    \"mao_obra_pct\": 0,\n    \"equipamento_pct\": 0,\n    \"outros_pct\": 10\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Piso Cerâmico / Piscina\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário e impacto em área específica\"\n    },\n    {\n      \"insumo\": \"Piso Porcelanato / Halls\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário e área de circulação principal\"\n    },\n    {\n      \"insumo\": \"Piso Cerâmico / Halls\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário e área de circulação principal\"\n    },\n    {\n      \"insumo\": \"Argamassa Colante AC III\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Insumo repetido em múltiplas composições, fundamental para assentamento\"\n    },\n    {\n      \"insumo\": \"Piso Porcelanato / Áreas privativas\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário e relevância em áreas de uso constante\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Argamassa Colante AC III aparece em 10 composições\",\n    \"Piso Cerâmico / Áreas comuns aparece em 2 composições\",\n    \"Piso Porcelanato / Áreas comuns aparece em 2 composições\",\n    \"Piso Porcelanato / Áreas técnicas aparece em 2 composições\",\n    \"Piso Cerâmico / Áreas técnicas aparece em 2 composições\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Piso Cerâmico\",\n    \"Piso Porcelanato\",\n    \"Argamassa Colante AC III\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 90,
+      "mao_obra_pct": 0,
+      "equipamento_pct": 0,
+      "outros_pct": 10
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Piso Cerâmico / Piscina",
+        "categoria": "material",
+        "motivo": "Alto custo unitário e impacto em área específica"
+      },
+      {
+        "insumo": "Piso Porcelanato / Halls",
+        "categoria": "material",
+        "motivo": "Alto custo unitário e área de circulação principal"
+      },
+      {
+        "insumo": "Piso Cerâmico / Halls",
+        "categoria": "material",
+        "motivo": "Alto custo unitário e área de circulação principal"
+      },
+      {
+        "insumo": "Argamassa Colante AC III",
+        "categoria": "material",
+        "motivo": "Insumo repetido em múltiplas composições, fundamental para assentamento"
+      },
+      {
+        "insumo": "Piso Porcelanato / Áreas privativas",
+        "categoria": "material",
+        "motivo": "Alto custo unitário e relevância em áreas de uso constante"
+      }
+    ],
+    "padroes_observados": [
+      "Argamassa Colante AC III aparece em 10 composições",
+      "Piso Cerâmico / Áreas comuns aparece em 2 composições",
+      "Piso Porcelanato / Áreas comuns aparece em 2 composições",
+      "Piso Porcelanato / Áreas técnicas aparece em 2 composições",
+      "Piso Cerâmico / Áreas técnicas aparece em 2 composições"
+    ],
+    "macrogrupos_destaque": [
+      "Piso Cerâmico",
+      "Piso Porcelanato",
+      "Argamassa Colante AC III"
+    ]
+  }
+}

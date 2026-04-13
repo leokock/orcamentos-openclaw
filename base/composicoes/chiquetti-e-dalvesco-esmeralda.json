@@ -1,0 +1,54 @@
+{
+  "projeto": "chiquetti-e-dalvesco-esmeralda",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:54:09",
+  "duration_s": 85.7,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 30,\n    \"mao_obra_pct\": 15,\n    \"equipamento_pct\": 0,\n    \"outros_pct\": 55\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n      \"categoria\": \"mao_obra\",\n      \"motivo\": \"Alto custo unitário e impacto na fase inicial da obra\"\n    },\n    {\n      \"insumo\": \"Serviço de Perfuração de vigas e lajes\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo unitário e impacto na fase estrutural\"\n    },\n    {\n      \"insumo\": \"Pergolado\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo unitário, definindo o escopo de acabamento externo\"\n    },\n    {\n      \"insumo\": \"Rebaixamento de Lençol freático\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Custo elevado associado a serviços de infraestrutura\"\n    },\n    {\n      \"insumo\": \"Portão, 1 folha, 500x235 cm\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo unitário em fechamentos\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Aço CA50 (diversos diâmetros)\",\n    \"BLOCO CONCRETO ESTRUTURAL 04MPA (diversas dimensões)\",\n    \"Mobilização e desmobilização de equipamentos - Para execução de estaca (repetição de serviço)\",\n    \"Serviço de Perfuração de vigas e lajes (repetição de serviço)\",\n    \"Pergolado (repetição de serviço)\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Estrutura e Alvenaria (Aço, Blocos)\",\n    \"Serviços de Infraestrutura (Perfuração, Rebaixamento)\",\n    \"Fechamentos e Acabamentos (Portões, Pergolado)\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 30,
+      "mao_obra_pct": 15,
+      "equipamento_pct": 0,
+      "outros_pct": 55
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+        "categoria": "mao_obra",
+        "motivo": "Alto custo unitário e impacto na fase inicial da obra"
+      },
+      {
+        "insumo": "Serviço de Perfuração de vigas e lajes",
+        "categoria": "outros",
+        "motivo": "Alto custo unitário e impacto na fase estrutural"
+      },
+      {
+        "insumo": "Pergolado",
+        "categoria": "outros",
+        "motivo": "Alto custo unitário, definindo o escopo de acabamento externo"
+      },
+      {
+        "insumo": "Rebaixamento de Lençol freático",
+        "categoria": "outros",
+        "motivo": "Custo elevado associado a serviços de infraestrutura"
+      },
+      {
+        "insumo": "Portão, 1 folha, 500x235 cm",
+        "categoria": "outros",
+        "motivo": "Alto custo unitário em fechamentos"
+      }
+    ],
+    "padroes_observados": [
+      "Aço CA50 (diversos diâmetros)",
+      "BLOCO CONCRETO ESTRUTURAL 04MPA (diversas dimensões)",
+      "Mobilização e desmobilização de equipamentos - Para execução de estaca (repetição de serviço)",
+      "Serviço de Perfuração de vigas e lajes (repetição de serviço)",
+      "Pergolado (repetição de serviço)"
+    ],
+    "macrogrupos_destaque": [
+      "Estrutura e Alvenaria (Aço, Blocos)",
+      "Serviços de Infraestrutura (Perfuração, Rebaixamento)",
+      "Fechamentos e Acabamentos (Portões, Pergolado)"
+    ]
+  }
+}

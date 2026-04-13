@@ -1,0 +1,54 @@
+{
+  "projeto": "all-acacias-jk",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:44:57",
+  "duration_s": 75.6,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 50,\n    \"mao_obra_pct\": 35,\n    \"equipamento_pct\": 5,\n    \"outros_pct\": 10\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Sistema de linha de vida tipo varal de segurança com tubo h=7,5 e aces\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto preço unitário (PU=1500.0)\"\n    },\n    {\n      \"insumo\": \"AREIA MEDIA\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto preço unitário (PU=129.0)\"\n    },\n    {\n      \"insumo\": \"PO PEDRA A GRANEL (M3) - GRANULOMETRIA 1,2 A 4,75MM NBR 7211\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto preço unitário (PU=130.0)\"\n    },\n    {\n      \"insumo\": \"ADESIVO DE BASE ACRILICA COMPATIVEL COM CIMENTO\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto preço unitário (PU=17.99)\"\n    },\n    {\n      \"insumo\": \"ACO CA-50A 25,00 mm (1)\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Item estrutural com alto impacto em caso de variação de preço\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"ACO CA-50A (vários diâmetros)\",\n    \"TELA ACO CARBONO CA60 (vários formatos e espessuras)\",\n    \"MAO DE OBRA PARA EXECUCAO DE SUPRAESTRUTURA EM CONCRETO ARMADO\",\n    \"Concreto 35 MPA, brita 1, slump 12+-2\",\n    \"MAO DE OBRA PARA CHAPISCO E REBOCO EXTERNOS\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Estrutura Metálica/Armadura\",\n    \"Concretagem e Fundações\",\n    \"Acabamentos e Revestimentos\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 50,
+      "mao_obra_pct": 35,
+      "equipamento_pct": 5,
+      "outros_pct": 10
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Sistema de linha de vida tipo varal de segurança com tubo h=7,5 e aces",
+        "categoria": "material",
+        "motivo": "Alto preço unitário (PU=1500.0)"
+      },
+      {
+        "insumo": "AREIA MEDIA",
+        "categoria": "material",
+        "motivo": "Alto preço unitário (PU=129.0)"
+      },
+      {
+        "insumo": "PO PEDRA A GRANEL (M3) - GRANULOMETRIA 1,2 A 4,75MM NBR 7211",
+        "categoria": "outros",
+        "motivo": "Alto preço unitário (PU=130.0)"
+      },
+      {
+        "insumo": "ADESIVO DE BASE ACRILICA COMPATIVEL COM CIMENTO",
+        "categoria": "material",
+        "motivo": "Alto preço unitário (PU=17.99)"
+      },
+      {
+        "insumo": "ACO CA-50A 25,00 mm (1)",
+        "categoria": "material",
+        "motivo": "Item estrutural com alto impacto em caso de variação de preço"
+      }
+    ],
+    "padroes_observados": [
+      "ACO CA-50A (vários diâmetros)",
+      "TELA ACO CARBONO CA60 (vários formatos e espessuras)",
+      "MAO DE OBRA PARA EXECUCAO DE SUPRAESTRUTURA EM CONCRETO ARMADO",
+      "Concreto 35 MPA, brita 1, slump 12+-2",
+      "MAO DE OBRA PARA CHAPISCO E REBOCO EXTERNOS"
+    ],
+    "macrogrupos_destaque": [
+      "Estrutura Metálica/Armadura",
+      "Concretagem e Fundações",
+      "Acabamentos e Revestimentos"
+    ]
+  }
+}

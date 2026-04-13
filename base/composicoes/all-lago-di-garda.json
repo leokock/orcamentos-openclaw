@@ -1,0 +1,54 @@
+{
+  "projeto": "all-lago-di-garda",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:47:00",
+  "duration_s": 122.8,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 77.67,\n    \"mao_obra_pct\": 7.8,\n    \"equipamento_pct\": 5.46,\n    \"outros_pct\": 8.9\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"BLOCO CERAMICO VEDACAO 11,5 X 19 X 29 CM - FUROS NA HORIZONTAL\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Maior custo total na tabela\"\n    },\n    {\n      \"insumo\": \"BLOCO CERAMICO VEDACAO 14 X 19 X 29 CM - FUROS NA HORIZONTAL\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo total na tabela\"\n    },\n    {\n      \"insumo\": \"ACO CA-50A 6,30 MM (1/4)\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo total na tabela\"\n    },\n    {\n      \"insumo\": \"ARGAMASSA COLANTE AC II\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo total na tabela\"\n    },\n    {\n      \"insumo\": \"ACO CA-50A 12,50 MM (1/2)\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo total na tabela\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"ACO CA-50A (diversos diâmetros)\",\n    \"BLOCO CERAMICO VEDACAO (vários tamanhos)\",\n    \"MAO DE OBRA PARA CHAPISCO E REBOCO INTERNOS\",\n    \"TINTA ACRILICO PREMIUM FOSCO\",\n    \"ARGAMASSA COLANTE (AC II e AC III)\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Estrutura e Alvenaria\",\n    \"Acabamentos e Revestimentos\",\n    \"Materiais Metálicos e Ferragens\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 77.67,
+      "mao_obra_pct": 7.8,
+      "equipamento_pct": 5.46,
+      "outros_pct": 8.9
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "BLOCO CERAMICO VEDACAO 11,5 X 19 X 29 CM - FUROS NA HORIZONTAL",
+        "categoria": "material",
+        "motivo": "Maior custo total na tabela"
+      },
+      {
+        "insumo": "BLOCO CERAMICO VEDACAO 14 X 19 X 29 CM - FUROS NA HORIZONTAL",
+        "categoria": "material",
+        "motivo": "Alto custo total na tabela"
+      },
+      {
+        "insumo": "ACO CA-50A 6,30 MM (1/4)",
+        "categoria": "material",
+        "motivo": "Alto custo total na tabela"
+      },
+      {
+        "insumo": "ARGAMASSA COLANTE AC II",
+        "categoria": "material",
+        "motivo": "Alto custo total na tabela"
+      },
+      {
+        "insumo": "ACO CA-50A 12,50 MM (1/2)",
+        "categoria": "material",
+        "motivo": "Alto custo total na tabela"
+      }
+    ],
+    "padroes_observados": [
+      "ACO CA-50A (diversos diâmetros)",
+      "BLOCO CERAMICO VEDACAO (vários tamanhos)",
+      "MAO DE OBRA PARA CHAPISCO E REBOCO INTERNOS",
+      "TINTA ACRILICO PREMIUM FOSCO",
+      "ARGAMASSA COLANTE (AC II e AC III)"
+    ],
+    "macrogrupos_destaque": [
+      "Estrutura e Alvenaria",
+      "Acabamentos e Revestimentos",
+      "Materiais Metálicos e Ferragens"
+    ]
+  }
+}

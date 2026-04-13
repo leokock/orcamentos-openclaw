@@ -1,0 +1,54 @@
+{
+  "projeto": "pavcor",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:10:06",
+  "duration_s": 95.0,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 23,\n    \"mao_obra_pct\": 67,\n    \"equipamento_pct\": 0,\n    \"outros_pct\": 10\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"ARGAMASSA TRAÇO 1:5 (EM VOLUME DE CIMENTO E AREIA GROSSA ÚMIDA) PARA C\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário (PU=633.27)\"\n    },\n    {\n      \"insumo\": \"BLOCO DE concreto CORTA-FOGO 14X19X39 CM\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário (PU=6.5)\"\n    },\n    {\n      \"insumo\": \"Aço CA60 5,0mm\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário (PU=6.54)\"\n    },\n    {\n      \"insumo\": \"Aço CA50 6,3 mm\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário (PU=6.04)\"\n    },\n    {\n      \"insumo\": \"TIJOLO REFRATÁRIO 2,5 X 11,5 X 23 CM\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo unitário (PU=5.95)\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Porta de madeira de abrir - kit completo - fixação com espu\",\n    \"Aço CA50 (diferentes diâmetros)\",\n    \"BLOCO DE concreto CORTA-FOGO (diferentes dimensões)\",\n    \"Pergolado (múltiplas entradas)\",\n    \"Locação topográfica (DIAS e DIA)\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Mão de obra (Mobilização e desmobilização)\",\n    \"Acabamentos e Esquadrias (Porta de madeira, Brise de Alumínio)\",\n    \"Alvenaria e Estrutura (Blocos, Aço, Argamassa)\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 23,
+      "mao_obra_pct": 67,
+      "equipamento_pct": 0,
+      "outros_pct": 10
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "ARGAMASSA TRAÇO 1:5 (EM VOLUME DE CIMENTO E AREIA GROSSA ÚMIDA) PARA C",
+        "categoria": "material",
+        "motivo": "Alto custo unitário (PU=633.27)"
+      },
+      {
+        "insumo": "BLOCO DE concreto CORTA-FOGO 14X19X39 CM",
+        "categoria": "material",
+        "motivo": "Alto custo unitário (PU=6.5)"
+      },
+      {
+        "insumo": "Aço CA60 5,0mm",
+        "categoria": "material",
+        "motivo": "Alto custo unitário (PU=6.54)"
+      },
+      {
+        "insumo": "Aço CA50 6,3 mm",
+        "categoria": "material",
+        "motivo": "Alto custo unitário (PU=6.04)"
+      },
+      {
+        "insumo": "TIJOLO REFRATÁRIO 2,5 X 11,5 X 23 CM",
+        "categoria": "outros",
+        "motivo": "Alto custo unitário (PU=5.95)"
+      }
+    ],
+    "padroes_observados": [
+      "Porta de madeira de abrir - kit completo - fixação com espu",
+      "Aço CA50 (diferentes diâmetros)",
+      "BLOCO DE concreto CORTA-FOGO (diferentes dimensões)",
+      "Pergolado (múltiplas entradas)",
+      "Locação topográfica (DIAS e DIA)"
+    ],
+    "macrogrupos_destaque": [
+      "Mão de obra (Mobilização e desmobilização)",
+      "Acabamentos e Esquadrias (Porta de madeira, Brise de Alumínio)",
+      "Alvenaria e Estrutura (Blocos, Aço, Argamassa)"
+    ]
+  }
+}

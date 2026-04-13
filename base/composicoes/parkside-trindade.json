@@ -1,0 +1,54 @@
+{
+  "projeto": "parkside-trindade",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:05:57",
+  "duration_s": 94.7,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 35,\n    \"mao_obra_pct\": 15,\n    \"equipamento_pct\": 0,\n    \"outros_pct\": 50\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Espeçador junta piso 2mm\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total (T=35242)\"\n    },\n    {\n      \"insumo\": \"Pergolado\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo unitário e total em diferentes ocorrências\"\n    },\n    {\n      \"insumo\": \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n      \"categoria\": \"mao_obra\",\n      \"motivo\": \"Alto custo total em diferentes ocorrências\"\n    },\n    {\n      \"insumo\": \"Sistema de Ancoragem Provisória e definitiva\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo unitário (PU=15000.0)\"\n    },\n    {\n      \"insumo\": \"Portão de Aluminio - fornecimento e instalação\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário (PU=18000.0)\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Aço CA50 (diversos diâmetros)\",\n    \"PREGO DE ACO POLIDO COM CABECA (diversos tamanhos)\",\n    \"Pergolado (ocorre em múltiplas composições)\",\n    \"Mobilização e desmobilização de equipamentos - Para execução de estaca (ocorre em múltiplas composições)\",\n    \"Portão de Aluminio - fornecimento e instalação (ocorre em múltiplas composições)\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Estrutura Metálica/Armação (Aço CA50, Armação aço Média)\",\n    \"Acabamentos e Esquadrias (Portão de Aluminio, Tinta Epoxi)\",\n    \"Serviços de Campo e Infraestrutura (Rebaixamento de Lençol freático, Manutenção de cubetas proprias)\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 35,
+      "mao_obra_pct": 15,
+      "equipamento_pct": 0,
+      "outros_pct": 50
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Espeçador junta piso 2mm",
+        "categoria": "outros",
+        "motivo": "Alto custo total (T=35242)"
+      },
+      {
+        "insumo": "Pergolado",
+        "categoria": "outros",
+        "motivo": "Alto custo unitário e total em diferentes ocorrências"
+      },
+      {
+        "insumo": "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+        "categoria": "mao_obra",
+        "motivo": "Alto custo total em diferentes ocorrências"
+      },
+      {
+        "insumo": "Sistema de Ancoragem Provisória e definitiva",
+        "categoria": "outros",
+        "motivo": "Alto custo unitário (PU=15000.0)"
+      },
+      {
+        "insumo": "Portão de Aluminio - fornecimento e instalação",
+        "categoria": "material",
+        "motivo": "Alto custo unitário (PU=18000.0)"
+      }
+    ],
+    "padroes_observados": [
+      "Aço CA50 (diversos diâmetros)",
+      "PREGO DE ACO POLIDO COM CABECA (diversos tamanhos)",
+      "Pergolado (ocorre em múltiplas composições)",
+      "Mobilização e desmobilização de equipamentos - Para execução de estaca (ocorre em múltiplas composições)",
+      "Portão de Aluminio - fornecimento e instalação (ocorre em múltiplas composições)"
+    ],
+    "macrogrupos_destaque": [
+      "Estrutura Metálica/Armação (Aço CA50, Armação aço Média)",
+      "Acabamentos e Esquadrias (Portão de Aluminio, Tinta Epoxi)",
+      "Serviços de Campo e Infraestrutura (Rebaixamento de Lençol freático, Manutenção de cubetas proprias)"
+    ]
+  }
+}

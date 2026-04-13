@@ -1,0 +1,54 @@
+{
+  "projeto": "terrassa-amaro",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:11:44",
+  "duration_s": 97.6,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 40.6,\n    \"mao_obra_pct\": 25.7,\n    \"equipamento_pct\": 3.9,\n    \"outros_pct\": 29.8\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"MOE - Supraestrutura / Execução Geral\",\n      \"categoria\": \"mao_obra\",\n      \"motivo\": \"Maior custo de mão de obra na composição\"\n    },\n    {\n      \"insumo\": \"Esquadrias de alumínio\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo de material\"\n    },\n    {\n      \"insumo\": \"Concreto Usinado - fck 40 MPa\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo de material estrutural\"\n    },\n    {\n      \"insumo\": \"MOE - Revestimentos de Argamassa / Reboco Interno / Paredes (com Desco\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo de material de acabamento\"\n    },\n    {\n      \"insumo\": \"Argamassa Estabilizada para Uso Geral\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Material de uso geral com custo significativo\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Aço CA-50 (vários diâmetros: 6,3 mm, 25,0 mm, 12,5 mm)\",\n    \"MOE - Revestimentos Cerâmicos / Assentamento e Rejuntamento de Rodapés (Repetição em grupos e na lista principal)\",\n    \"MOE - Impermeabilizações (Múltiplas áreas específicas listadas)\",\n    \"MOE - Revestimentos Complementares / Assentamentos e Acabamentos em Gr (Repetição de serviço)\",\n    \"Equipe Técnica (Mencionado em diferentes contextos de custo)\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Estrutura e Fundações (Concreto Usinado, Aço CA-50, MOE - Supraestrutura)\",\n    \"Acabamentos e Revestimentos (Revestimento Cerâmico, Argamassa, Gesso)\",\n    \"Vedação e Instalações (Esquadrias de alumínio, Alvenaria, Hidrossanitárias)\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 40.6,
+      "mao_obra_pct": 25.7,
+      "equipamento_pct": 3.9,
+      "outros_pct": 29.8
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "MOE - Supraestrutura / Execução Geral",
+        "categoria": "mao_obra",
+        "motivo": "Maior custo de mão de obra na composição"
+      },
+      {
+        "insumo": "Esquadrias de alumínio",
+        "categoria": "material",
+        "motivo": "Alto custo de material"
+      },
+      {
+        "insumo": "Concreto Usinado - fck 40 MPa",
+        "categoria": "material",
+        "motivo": "Alto custo de material estrutural"
+      },
+      {
+        "insumo": "MOE - Revestimentos de Argamassa / Reboco Interno / Paredes (com Desco",
+        "categoria": "material",
+        "motivo": "Alto custo de material de acabamento"
+      },
+      {
+        "insumo": "Argamassa Estabilizada para Uso Geral",
+        "categoria": "material",
+        "motivo": "Material de uso geral com custo significativo"
+      }
+    ],
+    "padroes_observados": [
+      "Aço CA-50 (vários diâmetros: 6,3 mm, 25,0 mm, 12,5 mm)",
+      "MOE - Revestimentos Cerâmicos / Assentamento e Rejuntamento de Rodapés (Repetição em grupos e na lista principal)",
+      "MOE - Impermeabilizações (Múltiplas áreas específicas listadas)",
+      "MOE - Revestimentos Complementares / Assentamentos e Acabamentos em Gr (Repetição de serviço)",
+      "Equipe Técnica (Mencionado em diferentes contextos de custo)"
+    ],
+    "macrogrupos_destaque": [
+      "Estrutura e Fundações (Concreto Usinado, Aço CA-50, MOE - Supraestrutura)",
+      "Acabamentos e Revestimentos (Revestimento Cerâmico, Argamassa, Gesso)",
+      "Vedação e Instalações (Esquadrias de alumínio, Alvenaria, Hidrossanitárias)"
+    ]
+  }
+}

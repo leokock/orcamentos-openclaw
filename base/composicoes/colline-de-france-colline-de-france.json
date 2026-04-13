@@ -1,0 +1,54 @@
+{
+  "projeto": "colline-de-france-colline-de-france",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:55:36",
+  "duration_s": 86.5,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 12,\n    \"mao_obra_pct\": 23,\n    \"equipamento_pct\": 0,\n    \"outros_pct\": 65\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"TELA ACO CARBONO CA60 M.100X100MM F.04,2MM 245X600CM Q138 (32,34KG/UN)\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário e relevância estrutural\"\n    },\n    {\n      \"insumo\": \"TELA ACO CARBONO CA60 M.150X150MM F.04,2MM 245X600CM Q92 (21,8KG/UN)\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário e relevância estrutural\"\n    },\n    {\n      \"insumo\": \"Armação aço Média para estaca (Corte e Dobra em Obra)\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Material essencial para fundações e alta variação de preço\"\n    },\n    {\n      \"insumo\": \"BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X29CM NBR 6136\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Item repetido e fundamental para a alvenaria estrutural\"\n    },\n    {\n      \"insumo\": \"Serviço de Perfuração de vigas e lajes\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total e serviço especializado\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X29CM NBR 6136\",\n    \"TELA ACO CARBONO CA60 M.150X150MM\",\n    \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n    \"Portão de Aluminio - fornecimento e instalação\",\n    \"Aço CA50\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Estrutura e Fundações\",\n    \"Acabamentos e Esquadrias\",\n    \"Serviços de Terra e Perfuração\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 12,
+      "mao_obra_pct": 23,
+      "equipamento_pct": 0,
+      "outros_pct": 65
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "TELA ACO CARBONO CA60 M.100X100MM F.04,2MM 245X600CM Q138 (32,34KG/UN)",
+        "categoria": "material",
+        "motivo": "Alto custo unitário e relevância estrutural"
+      },
+      {
+        "insumo": "TELA ACO CARBONO CA60 M.150X150MM F.04,2MM 245X600CM Q92 (21,8KG/UN)",
+        "categoria": "material",
+        "motivo": "Alto custo unitário e relevância estrutural"
+      },
+      {
+        "insumo": "Armação aço Média para estaca (Corte e Dobra em Obra)",
+        "categoria": "material",
+        "motivo": "Material essencial para fundações e alta variação de preço"
+      },
+      {
+        "insumo": "BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X29CM NBR 6136",
+        "categoria": "material",
+        "motivo": "Item repetido e fundamental para a alvenaria estrutural"
+      },
+      {
+        "insumo": "Serviço de Perfuração de vigas e lajes",
+        "categoria": "outros",
+        "motivo": "Alto custo total e serviço especializado"
+      }
+    ],
+    "padroes_observados": [
+      "BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X29CM NBR 6136",
+      "TELA ACO CARBONO CA60 M.150X150MM",
+      "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+      "Portão de Aluminio - fornecimento e instalação",
+      "Aço CA50"
+    ],
+    "macrogrupos_destaque": [
+      "Estrutura e Fundações",
+      "Acabamentos e Esquadrias",
+      "Serviços de Terra e Perfuração"
+    ]
+  }
+}

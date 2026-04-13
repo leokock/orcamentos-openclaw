@@ -1,0 +1,54 @@
+{
+  "projeto": "fg-blue-coast",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:57:13",
+  "duration_s": 97.5,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 55,\n    \"mao_obra_pct\": 10,\n    \"equipamento_pct\": 0,\n    \"outros_pct\": 35\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Rebaixamento de Lençol freático\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto valor unitário (PU=6500.0)\"\n    },\n    {\n      \"insumo\": \"Porta de madeira de abrir - 110x220cm (kit completo) - fixação com esp\",\n      \"categoria\": \"mat\",\n      \"motivo\": \"Alto valor unitário (PU=3176.3844444444453)\"\n    },\n    {\n      \"insumo\": \"Porta corta-fogo, 1 folha, 106x210 cm\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto valor unitário (PU=3729.34)\"\n    },\n    {\n      \"insumo\": \"CORTE E DOBRA ARMADO ESTACA Ø60CM 9F 20,0 8MTS ESP75 PS20\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto valor unitário (PU=1609.666)\"\n    },\n    {\n      \"insumo\": \"CORTE E DOBRA ARMADO ESTACA Ø60CM 7F 20,0 6MTS ESP75 PS20\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto valor unitário (PU=937.639)\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Porta de madeira de abrir - 110x220cm (kit completo) - fixação com esp\",\n    \"Porta de madeira de abrir - 90x210cm (kit completo) - fixação com espu\",\n    \"Aço CA50\",\n    \"TELA ACO CARBONO CA60 M.150X150MM F.03,4MM 245X600CM Q61\",\n    \"Porta corta-fogo, 1 folha, 106x210 cm\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Portas (Madeira e Corta-fogo)\",\n    \"Aço (Armação e Telas)\",\n    \"Serviços Estruturais (Rebaixamento e Corte e Dobra)\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 55,
+      "mao_obra_pct": 10,
+      "equipamento_pct": 0,
+      "outros_pct": 35
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Rebaixamento de Lençol freático",
+        "categoria": "out",
+        "motivo": "Alto valor unitário (PU=6500.0)"
+      },
+      {
+        "insumo": "Porta de madeira de abrir - 110x220cm (kit completo) - fixação com esp",
+        "categoria": "mat",
+        "motivo": "Alto valor unitário (PU=3176.3844444444453)"
+      },
+      {
+        "insumo": "Porta corta-fogo, 1 folha, 106x210 cm",
+        "categoria": "out",
+        "motivo": "Alto valor unitário (PU=3729.34)"
+      },
+      {
+        "insumo": "CORTE E DOBRA ARMADO ESTACA Ø60CM 9F 20,0 8MTS ESP75 PS20",
+        "categoria": "out",
+        "motivo": "Alto valor unitário (PU=1609.666)"
+      },
+      {
+        "insumo": "CORTE E DOBRA ARMADO ESTACA Ø60CM 7F 20,0 6MTS ESP75 PS20",
+        "categoria": "out",
+        "motivo": "Alto valor unitário (PU=937.639)"
+      }
+    ],
+    "padroes_observados": [
+      "Porta de madeira de abrir - 110x220cm (kit completo) - fixação com esp",
+      "Porta de madeira de abrir - 90x210cm (kit completo) - fixação com espu",
+      "Aço CA50",
+      "TELA ACO CARBONO CA60 M.150X150MM F.03,4MM 245X600CM Q61",
+      "Porta corta-fogo, 1 folha, 106x210 cm"
+    ],
+    "macrogrupos_destaque": [
+      "Portas (Madeira e Corta-fogo)",
+      "Aço (Armação e Telas)",
+      "Serviços Estruturais (Rebaixamento e Corte e Dobra)"
+    ]
+  }
+}

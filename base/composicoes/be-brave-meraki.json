@@ -1,0 +1,54 @@
+{
+  "projeto": "be-brave-meraki",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:50:12",
+  "duration_s": 107.1,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 18.3,\n    \"mao_obra_pct\": 55.6,\n    \"equipamento_pct\": 0.0,\n    \"outros_pct\": 25.9\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n      \"categoria\": \"mao_obra\",\n      \"motivo\": \"Alto custo total (T=26000)\"\n    },\n    {\n      \"insumo\": \"Placa indicativa fixada na estrutura por pregos\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total (T=7891)\"\n    },\n    {\n      \"insumo\": \"Cuba Pia Cozinha - Lazer\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total (T=5845)\"\n    },\n    {\n      \"insumo\": \"BANNER LONA VINILICA\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total (T=3156)\"\n    },\n    {\n      \"insumo\": \"SUPORTE ACO CARBONO P/PLACA - REQ. CANTONEIRA 1.1/4\\\"X1/8\\\" 160X250CM\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário (PU=520.85)\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n    \"Cuba Pia Cozinha - Lazer\",\n    \"Bacia com caixa acoplada / Detalhe: Linha Living, branco, saída lado d\",\n    \"Lavatório suspenso \\\\ Detalhe: Cuba viggo 54cm branca\",\n    \"Ducha\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Banheiro\",\n    \"Serviços de Campo\",\n    \"Acabamentos/Louças\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 18.3,
+      "mao_obra_pct": 55.6,
+      "equipamento_pct": 0.0,
+      "outros_pct": 25.9
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+        "categoria": "mao_obra",
+        "motivo": "Alto custo total (T=26000)"
+      },
+      {
+        "insumo": "Placa indicativa fixada na estrutura por pregos",
+        "categoria": "outros",
+        "motivo": "Alto custo total (T=7891)"
+      },
+      {
+        "insumo": "Cuba Pia Cozinha - Lazer",
+        "categoria": "outros",
+        "motivo": "Alto custo total (T=5845)"
+      },
+      {
+        "insumo": "BANNER LONA VINILICA",
+        "categoria": "outros",
+        "motivo": "Alto custo total (T=3156)"
+      },
+      {
+        "insumo": "SUPORTE ACO CARBONO P/PLACA - REQ. CANTONEIRA 1.1/4\"X1/8\" 160X250CM",
+        "categoria": "material",
+        "motivo": "Alto custo unitário (PU=520.85)"
+      }
+    ],
+    "padroes_observados": [
+      "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+      "Cuba Pia Cozinha - Lazer",
+      "Bacia com caixa acoplada / Detalhe: Linha Living, branco, saída lado d",
+      "Lavatório suspenso \\ Detalhe: Cuba viggo 54cm branca",
+      "Ducha"
+    ],
+    "macrogrupos_destaque": [
+      "Banheiro",
+      "Serviços de Campo",
+      "Acabamentos/Louças"
+    ]
+  }
+}

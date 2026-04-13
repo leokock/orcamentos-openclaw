@@ -1,0 +1,54 @@
+{
+  "projeto": "pass-e-connect",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:07:10",
+  "duration_s": 73.3,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 35,\n    \"mao_obra_pct\": 30,\n    \"equipamento_pct\": 25,\n    \"outros_pct\": 10\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Serviço de Perfuração de vigas e lajes\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto custo total (T=93982)\"\n    },\n    {\n      \"insumo\": \"Manutenção de cubetas proprias\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto custo total (T=39433)\"\n    },\n    {\n      \"insumo\": \"Pergolado\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto custo total (T=34721)\"\n    },\n    {\n      \"insumo\": \"Rebaixamento de Lençol freático\",\n      \"categoria\": \"out\",\n      \"motivo\": \"Alto custo total (T=29600)\"\n    },\n    {\n      \"insumo\": \"Mobilização e desmobilização de equipamentos - Para execução de estaca\",\n      \"categoria\": \"mao\",\n      \"motivo\": \"Alto custo total (T=26000)\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Serviço de Perfuração de vigas e lajes\",\n    \"Manutenção de cubetas proprias\",\n    \"Pergolado\",\n    \"Sistema de Ancoragem Provisória e definitiva\",\n    \"BLOCO CONCRETO ESTRUTURAL 04MPA 14X19XXXCM NBR 6136\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Serviços de Fundação e Estrutura\",\n    \"Acabamentos e Arquitetura\",\n    \"Materiais de Concreto e Aço\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 35,
+      "mao_obra_pct": 30,
+      "equipamento_pct": 25,
+      "outros_pct": 10
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Serviço de Perfuração de vigas e lajes",
+        "categoria": "out",
+        "motivo": "Alto custo total (T=93982)"
+      },
+      {
+        "insumo": "Manutenção de cubetas proprias",
+        "categoria": "out",
+        "motivo": "Alto custo total (T=39433)"
+      },
+      {
+        "insumo": "Pergolado",
+        "categoria": "out",
+        "motivo": "Alto custo total (T=34721)"
+      },
+      {
+        "insumo": "Rebaixamento de Lençol freático",
+        "categoria": "out",
+        "motivo": "Alto custo total (T=29600)"
+      },
+      {
+        "insumo": "Mobilização e desmobilização de equipamentos - Para execução de estaca",
+        "categoria": "mao",
+        "motivo": "Alto custo total (T=26000)"
+      }
+    ],
+    "padroes_observados": [
+      "Serviço de Perfuração de vigas e lajes",
+      "Manutenção de cubetas proprias",
+      "Pergolado",
+      "Sistema de Ancoragem Provisória e definitiva",
+      "BLOCO CONCRETO ESTRUTURAL 04MPA 14X19XXXCM NBR 6136"
+    ],
+    "macrogrupos_destaque": [
+      "Serviços de Fundação e Estrutura",
+      "Acabamentos e Arquitetura",
+      "Materiais de Concreto e Aço"
+    ]
+  }
+}

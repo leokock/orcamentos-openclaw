@@ -1,0 +1,54 @@
+{
+  "projeto": "grupo-duo-mosaico",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:02:48",
+  "duration_s": 82.6,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 83,\n    \"mao_obra_pct\": 12,\n    \"equipamento_pct\": 4,\n    \"outros_pct\": 1\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Bandeja de Proteção Primária com estrutura metálica e trama de madeira\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto PU (1100.0) em unidades M3\"\n    },\n    {\n      \"insumo\": \"Bandeja de Proteção Secundária com estrutura metálica e trama de madei\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto PU (1100.0) em unidades M3\"\n    },\n    {\n      \"insumo\": \"Guarda-corpo de vãos, fixado em fôrma de madeira, em trama de madeira\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto PU (1100.0) em unidades M3\"\n    },\n    {\n      \"insumo\": \"Guarda corpo de laje após desforma de pontalete de madeira, travessões\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto PU (1100.0) em unidades M3\"\n    },\n    {\n      \"insumo\": \"Tela fachadeira mosqueteiro reforçada simples\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto PU (1100.0) em unidades M3\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Bandeja de Proteção Primária com estrutura metálica e trama de madeira\",\n    \"Bandeja de Proteção Secundária com estrutura metálica e trama de madei\",\n    \"Guarda-corpo de vãos, fixado em fôrma de madeira, em trama de madeira\",\n    \"Guarda corpo de laje após desforma de pontalete de madeira, travessões\",\n    \"Tela fachadeira mosqueteiro reforçada simples\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Proteções e Guarda-corpos\",\n    \"Estruturas de Madeira\",\n    \"Fachadas\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 83,
+      "mao_obra_pct": 12,
+      "equipamento_pct": 4,
+      "outros_pct": 1
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Bandeja de Proteção Primária com estrutura metálica e trama de madeira",
+        "categoria": "material",
+        "motivo": "Alto PU (1100.0) em unidades M3"
+      },
+      {
+        "insumo": "Bandeja de Proteção Secundária com estrutura metálica e trama de madei",
+        "categoria": "material",
+        "motivo": "Alto PU (1100.0) em unidades M3"
+      },
+      {
+        "insumo": "Guarda-corpo de vãos, fixado em fôrma de madeira, em trama de madeira",
+        "categoria": "material",
+        "motivo": "Alto PU (1100.0) em unidades M3"
+      },
+      {
+        "insumo": "Guarda corpo de laje após desforma de pontalete de madeira, travessões",
+        "categoria": "material",
+        "motivo": "Alto PU (1100.0) em unidades M3"
+      },
+      {
+        "insumo": "Tela fachadeira mosqueteiro reforçada simples",
+        "categoria": "outros",
+        "motivo": "Alto PU (1100.0) em unidades M3"
+      }
+    ],
+    "padroes_observados": [
+      "Bandeja de Proteção Primária com estrutura metálica e trama de madeira",
+      "Bandeja de Proteção Secundária com estrutura metálica e trama de madei",
+      "Guarda-corpo de vãos, fixado em fôrma de madeira, em trama de madeira",
+      "Guarda corpo de laje após desforma de pontalete de madeira, travessões",
+      "Tela fachadeira mosqueteiro reforçada simples"
+    ],
+    "macrogrupos_destaque": [
+      "Proteções e Guarda-corpos",
+      "Estruturas de Madeira",
+      "Fachadas"
+    ]
+  }
+}

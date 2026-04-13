@@ -1,0 +1,54 @@
+{
+  "projeto": "fonseca-empreendimentos-estoril",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T18:58:39",
+  "duration_s": 85.4,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 40,\n    \"mao_obra_pct\": 20,\n    \"equipamento_pct\": 5,\n    \"outros_pct\": 35\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Mobilização de equipamentos para estacas hélice\",\n      \"categoria\": \"equipamento\",\n      \"motivo\": \"Alto preço unitário (PU=18500.0)\"\n    },\n    {\n      \"insumo\": \"Escada marinheiro - fornecimento e instalação\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto preço unitário (PU=6500.0)\"\n    },\n    {\n      \"insumo\": \"Rebaixamento de Lençol freático\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto preço unitário (PU=6500.0)\"\n    },\n    {\n      \"insumo\": \"CORTE E DOBRA ARMADO ESTACA Ø60CM 9F 20,0 8MTS ESP75 PS20\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto preço unitário (PU=1609.666)\"\n    },\n    {\n      \"insumo\": \"Porta de madeira de abrir (kit porta pronta), folha leve/média, 90x230\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto volume de variações e impacto no custo de acabamento\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Porta de madeira de abrir (kit porta pronta), folha leve/média, [dimensões]\",\n    \"Aço CA50 [dimensões] mm\",\n    \"TELA ACO CARBONO CA60 M.150X150MM F.03,4MM 245X600CM Q61\",\n    \"Porta corta-fogo em aço galvanizado, 90x230cm com dobradiças e maçanet\",\n    \"CORTE E DOBRA ARMADO ESTACA\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Acabamentos/Esquadrias\",\n    \"Estrutura e Fundações\",\n    \"Serviços de Infraestrutura\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 40,
+      "mao_obra_pct": 20,
+      "equipamento_pct": 5,
+      "outros_pct": 35
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Mobilização de equipamentos para estacas hélice",
+        "categoria": "equipamento",
+        "motivo": "Alto preço unitário (PU=18500.0)"
+      },
+      {
+        "insumo": "Escada marinheiro - fornecimento e instalação",
+        "categoria": "material",
+        "motivo": "Alto preço unitário (PU=6500.0)"
+      },
+      {
+        "insumo": "Rebaixamento de Lençol freático",
+        "categoria": "outros",
+        "motivo": "Alto preço unitário (PU=6500.0)"
+      },
+      {
+        "insumo": "CORTE E DOBRA ARMADO ESTACA Ø60CM 9F 20,0 8MTS ESP75 PS20",
+        "categoria": "outros",
+        "motivo": "Alto preço unitário (PU=1609.666)"
+      },
+      {
+        "insumo": "Porta de madeira de abrir (kit porta pronta), folha leve/média, 90x230",
+        "categoria": "material",
+        "motivo": "Alto volume de variações e impacto no custo de acabamento"
+      }
+    ],
+    "padroes_observados": [
+      "Porta de madeira de abrir (kit porta pronta), folha leve/média, [dimensões]",
+      "Aço CA50 [dimensões] mm",
+      "TELA ACO CARBONO CA60 M.150X150MM F.03,4MM 245X600CM Q61",
+      "Porta corta-fogo em aço galvanizado, 90x230cm com dobradiças e maçanet",
+      "CORTE E DOBRA ARMADO ESTACA"
+    ],
+    "macrogrupos_destaque": [
+      "Acabamentos/Esquadrias",
+      "Estrutura e Fundações",
+      "Serviços de Infraestrutura"
+    ]
+  }
+}

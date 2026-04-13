@@ -1,0 +1,54 @@
+{
+  "projeto": "terrassa-dom-bosco",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:13:31",
+  "duration_s": 107.2,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 50,\n    \"mao_obra_pct\": 21,\n    \"equipamento_pct\": 4,\n    \"outros_pct\": 25\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Aço CA-50 - 10,0 mm / incluso Corte e Dobra\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo total e importância estrutural\"\n    },\n    {\n      \"insumo\": \"MOE - Revestimentos de Argamassa / Reboco Interno / Paredes (com Desconto de Vãos)\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo total e grande área de aplicação\"\n    },\n    {\n      \"insumo\": \"Concreto Usinado - fck 35 MPa\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo total e componente estrutural principal\"\n    },\n    {\n      \"insumo\": \"Esquadrias de alumínio\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo total e componente de vedação essencial\"\n    },\n    {\n      \"insumo\": \"MOE - Pinturas / Internas\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo total e grande área de aplicação\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"MOE - Revestimentos de Argamassa / Reboco Interno / Paredes\",\n    \"MOE - Instalações Elétricas / Execução Geral\",\n    \"MOE - Fundações / Execução Geral / Blocos, Pilares Arranque e Vigas Ba\",\n    \"MOE - Alvenarias e Vedações / Alvenaria de Vedação em Blocos Cerâmicos\",\n    \"Revestimento Cerâmico - 60x60 cm\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Revestimentos e Acabamentos (Argamassa, Pinturas, Cerâmicos)\",\n    \"Estrutura (Concreto Usinado, Aço CA-50, Fundações)\",\n    \"Vedação e Fechamentos (Esquadrias, Alvenarias)\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 50,
+      "mao_obra_pct": 21,
+      "equipamento_pct": 4,
+      "outros_pct": 25
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Aço CA-50 - 10,0 mm / incluso Corte e Dobra",
+        "categoria": "material",
+        "motivo": "Alto custo total e importância estrutural"
+      },
+      {
+        "insumo": "MOE - Revestimentos de Argamassa / Reboco Interno / Paredes (com Desconto de Vãos)",
+        "categoria": "material",
+        "motivo": "Alto custo total e grande área de aplicação"
+      },
+      {
+        "insumo": "Concreto Usinado - fck 35 MPa",
+        "categoria": "material",
+        "motivo": "Alto custo total e componente estrutural principal"
+      },
+      {
+        "insumo": "Esquadrias de alumínio",
+        "categoria": "material",
+        "motivo": "Alto custo total e componente de vedação essencial"
+      },
+      {
+        "insumo": "MOE - Pinturas / Internas",
+        "categoria": "material",
+        "motivo": "Alto custo total e grande área de aplicação"
+      }
+    ],
+    "padroes_observados": [
+      "MOE - Revestimentos de Argamassa / Reboco Interno / Paredes",
+      "MOE - Instalações Elétricas / Execução Geral",
+      "MOE - Fundações / Execução Geral / Blocos, Pilares Arranque e Vigas Ba",
+      "MOE - Alvenarias e Vedações / Alvenaria de Vedação em Blocos Cerâmicos",
+      "Revestimento Cerâmico - 60x60 cm"
+    ],
+    "macrogrupos_destaque": [
+      "Revestimentos e Acabamentos (Argamassa, Pinturas, Cerâmicos)",
+      "Estrutura (Concreto Usinado, Aço CA-50, Fundações)",
+      "Vedação e Fechamentos (Esquadrias, Alvenarias)"
+    ]
+  }
+}

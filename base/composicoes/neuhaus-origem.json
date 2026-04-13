@@ -1,0 +1,54 @@
+{
+  "projeto": "neuhaus-origem",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:04:22",
+  "duration_s": 93.8,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 30,\n    \"mao_obra_pct\": 45,\n    \"equipamento_pct\": 15,\n    \"outros_pct\": 10\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"SUBESTAÇÃO SUPORTE, PARA SUSTENTAÇÃO DO REVESTIMENTO EXTERIOR, ATRAVÉS\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo unitário (PU)\"\n    },\n    {\n      \"insumo\": \"Perfil U LSF\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário (PU)\"\n    },\n    {\n      \"insumo\": \"Perfil C LSF\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo unitário (PU)\"\n    },\n    {\n      \"insumo\": \"Serviço de Perfuração de vigas e lajes\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Maior impacto no custo total (T)\"\n    },\n    {\n      \"insumo\": \"Pergolado\",\n      \"categoria\": \"outros\",\n      \"motivo\": \"Alto custo total (T)\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X...\",\n    \"Porta de madeira de abrir - 90x215cm (kit completo) - fixação com espu\",\n    \"Pergolado\",\n    \"Serviço de Perfuração de vigas e lajes\",\n    \"Portão de madeira de correr - 80x210cm (kit completo) - fixação com esp\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Estrutura Metálica (Perfil C LSF, Perfil U LSF, TELA ACO)\",\n    \"Alvenaria (BLOCO CONCRETO ESTRUTURAL)\",\n    \"Esquadrias e Acabamentos (Portão, Porta de madeira)\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 30,
+      "mao_obra_pct": 45,
+      "equipamento_pct": 15,
+      "outros_pct": 10
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "SUBESTAÇÃO SUPORTE, PARA SUSTENTAÇÃO DO REVESTIMENTO EXTERIOR, ATRAVÉS",
+        "categoria": "outros",
+        "motivo": "Alto custo unitário (PU)"
+      },
+      {
+        "insumo": "Perfil U LSF",
+        "categoria": "material",
+        "motivo": "Alto custo unitário (PU)"
+      },
+      {
+        "insumo": "Perfil C LSF",
+        "categoria": "material",
+        "motivo": "Alto custo unitário (PU)"
+      },
+      {
+        "insumo": "Serviço de Perfuração de vigas e lajes",
+        "categoria": "outros",
+        "motivo": "Maior impacto no custo total (T)"
+      },
+      {
+        "insumo": "Pergolado",
+        "categoria": "outros",
+        "motivo": "Alto custo total (T)"
+      }
+    ],
+    "padroes_observados": [
+      "BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X...",
+      "Porta de madeira de abrir - 90x215cm (kit completo) - fixação com espu",
+      "Pergolado",
+      "Serviço de Perfuração de vigas e lajes",
+      "Portão de madeira de correr - 80x210cm (kit completo) - fixação com esp"
+    ],
+    "macrogrupos_destaque": [
+      "Estrutura Metálica (Perfil C LSF, Perfil U LSF, TELA ACO)",
+      "Alvenaria (BLOCO CONCRETO ESTRUTURAL)",
+      "Esquadrias e Acabamentos (Portão, Porta de madeira)"
+    ]
+  }
+}

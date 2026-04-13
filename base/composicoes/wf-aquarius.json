@@ -1,0 +1,54 @@
+{
+  "projeto": "wf-aquarius",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T19:15:47",
+  "duration_s": 67.3,
+  "raw": "{\n  \"distribuicao\": {\n    \"material_pct\": 60,\n    \"mao_obra_pct\": 20,\n    \"equipamento_pct\": 15,\n    \"outros_pct\": 5\n  },\n  \"insumos_criticos\": [\n    {\n      \"insumo\": \"Concreto Usinado bombeável para estacas 40MPa - incluindo serviço de\",\n      \"categoria\": \"material\",\n      \"motivo\": \"É um insumo estrutural de alto custo e volume.\"\n    },\n    {\n      \"insumo\": \"Esquadrias de Alumínio - fornecimento e instalação\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Alto custo por metro quadrado e componente essencial.\"\n    },\n    {\n      \"insumo\": \"Revestimento de Pedras Naturais em Pisos\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Material de acabamento de alto valor e repetição de uso.\"\n    },\n    {\n      \"insumo\": \"Aço CA50 6,3 mm\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Representa o custo de aço estrutural fundamental.\"\n    },\n    {\n      \"insumo\": \"Concreto Usinado FCK = 40MPa Bombeavel com impermebailizante\",\n      \"categoria\": \"material\",\n      \"motivo\": \"Material estrutural de alto volume e custo.\"\n    }\n  ],\n  \"padroes_observados\": [\n    \"Concreto Usinado (vários tipos e aplicações)\",\n    \"Placa indicativa fixada na estrutura por pregos\",\n    \"Revestimento de Pedras Naturais em Pisos\",\n    \"Aço CA50 (diversos diâmetros)\",\n    \"BLOCO CERÂMICO\"\n  ],\n  \"macrogrupos_destaque\": [\n    \"Estrutura (Concreto e Aço)\",\n    \"Acabamento (Revestimentos e Esquadrias)\",\n    \"Alvenaria (Blocos e Argamassas)\"\n  ]\n}",
+  "parsed": {
+    "distribuicao": {
+      "material_pct": 60,
+      "mao_obra_pct": 20,
+      "equipamento_pct": 15,
+      "outros_pct": 5
+    },
+    "insumos_criticos": [
+      {
+        "insumo": "Concreto Usinado bombeável para estacas 40MPa - incluindo serviço de",
+        "categoria": "material",
+        "motivo": "É um insumo estrutural de alto custo e volume."
+      },
+      {
+        "insumo": "Esquadrias de Alumínio - fornecimento e instalação",
+        "categoria": "material",
+        "motivo": "Alto custo por metro quadrado e componente essencial."
+      },
+      {
+        "insumo": "Revestimento de Pedras Naturais em Pisos",
+        "categoria": "material",
+        "motivo": "Material de acabamento de alto valor e repetição de uso."
+      },
+      {
+        "insumo": "Aço CA50 6,3 mm",
+        "categoria": "material",
+        "motivo": "Representa o custo de aço estrutural fundamental."
+      },
+      {
+        "insumo": "Concreto Usinado FCK = 40MPa Bombeavel com impermebailizante",
+        "categoria": "material",
+        "motivo": "Material estrutural de alto volume e custo."
+      }
+    ],
+    "padroes_observados": [
+      "Concreto Usinado (vários tipos e aplicações)",
+      "Placa indicativa fixada na estrutura por pregos",
+      "Revestimento de Pedras Naturais em Pisos",
+      "Aço CA50 (diversos diâmetros)",
+      "BLOCO CERÂMICO"
+    ],
+    "macrogrupos_destaque": [
+      "Estrutura (Concreto e Aço)",
+      "Acabamento (Revestimentos e Esquadrias)",
+      "Alvenaria (Blocos e Argamassas)"
+    ]
+  }
+}
