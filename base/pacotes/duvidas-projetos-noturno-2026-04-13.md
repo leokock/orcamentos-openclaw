@@ -1,230 +1,281 @@
-# Dúvidas — Noite de geração 2026-04-13
+# Briefing Final Noturno — 2026-04-13
 
-**3 projetos a serem gerados como Pacote Paramétrico → Executivo**
+**3 projetos → Pacote Paramétrico + Executivo cada**
 
-Cada projeto tem sua seção. Todas as perguntas têm **default sugerido** (entre parênteses). Basta responder apenas as que discordar do default. As que não responder eu uso o default.
-
-Pode responder ao longo do dia — só preciso de tudo antes das 23h.
+Documento consolidado com respostas do Leo + defaults adotados + plano de execução.
 
 ---
 
-## 📊 Resumo dos 3 projetos
+## ✅ Pendências resolvidas
 
-| Projeto                | AC (est.) | UR (est.) | Padrão | Cidade           | Total est. (cal.) | R$/m² |
-| ---------------------- | --------- | --------- | ------ | ---------------- | ----------------- | ----- |
-| thozen-electra         | 36.000    | 348       | alto   | Porto Belo       | R$ 111M           | 3.094 |
-| arthen-arboris         | 12.472    | 98        | médio  | Itapema/SC       | R$ 35M            | 2.813 |
-| placon-arminio-tavares | ~4.500    | 55        | médio  | Florianópolis/SC | R$ 12.7M          | 2.813 |
-
-**Total estimado dos 3 pacotes:** ~R$ 158.7M
-
----
-
-## ⚠️ 3 decisões cruzadas antes das perguntas específicas
-
-### D1. Arthen Arboris — refazer paramétrico ou só executivo?
-
-O Arthen já tem um paramétrico V2 gerado (`arthen-arboris-parametrico-v2.xlsx`) e análise completa (10 sheets). Opções:
-
-- **(a)** Rodar o pacote completo (paramétrico novo + executivo) — **substitui** o v2 existente pelo novo v2.1 enriquecido com camada qualitativa
-- **(b)** Manter paramétrico atual, gerar só o executivo
-- **(c)** Gerar paramétrico novo mas preservar o anterior como `-v2-backup.xlsx`
-
-**Default sugerido:** **(c)** — melhor dos dois mundos. Backup e versão nova.
-
-### D2. Thozen Electra — escala grande, cabe no fluxo?
-
-Thozen tem 36.000 m², 348 UR, 2 torres, 32 pavimentos. É o maior projeto da base Cartesian. O pacote vai rodar normalmente, mas a execução humana (validação do gate, revisão do output) vai demandar **mais tempo** pra Thozen do que os outros 2 juntos.
-
-**Default sugerido:** **seguir com os 3**. Se ficar apertado na madrugada, Thozen tem prioridade 2 (depois dos outros 2 que são menores).
-
-### D3. Placon — estimativa de AC e UR
-
-Do Quadro NBR I eu consegui extrair **55 unidades** e **17 pavimentos** confirmados. Mas a AC total está como estimativa (~4500 m²) porque pypdf quebrou a estrutura tabular.
-
-**Defaults sugeridos** baseados na soma parcial dos pavimentos visíveis:
-- AC = 4.500 m²
-- UR = 55 (confirmado)
-- NP = 17 (confirmado)
-- NPT = 9 (dedução: pavimentos tipo são 3-6 + 12-16, e alguns singles; total ~9)
-
-**Precisa confirmar:** AC total real. Posso re-extrair dos quadros se tiver um memorial com o número explícito, ou você me passa.
+1. **Thozen AT** = **2.095,43 m²** ✓
+   - Coef. de aproveitamento = 37.894 / 2.095 = **18,1** — agressivo mas coerente com lote urbano denso em Porto Belo
+2. **Placon fundação** = **hélice contínua** ✓
+3. **Placon piscina** = **analisar projeto arquitetônico na execução noturna** ✓
+   - Adicionei um **Bloco 0 — Análise Arquitetônica** no timeline noturno que vai:
+     - Ler PDFs de plantas, IFCs e memoriais da pasta de cada projeto
+     - Buscar por keywords: piscina, academia, salão festas, churrasqueira, playground, sauna, quadra, spa, ofurô, brinquedoteca, coworking
+     - Extrair áreas dos espaços de lazer quando possível
+     - Retornar um `analise-arquitetura-{slug}.json` com a lista de itens encontrados
+   - Isso vai rodar **pros 3 projetos** (Thozen, Arthen, Placon) antes do gate ser pré-populado, pra que a decisão "tem ou não tem piscina/academia/lazer" seja feita automaticamente a partir do projeto real, não de default.
 
 ---
 
-## 🏢 Projeto 1 — Thozen Electra
+## 📊 Briefing Final dos 3 projetos
 
-**Slug:** `thozen-electra`
-**Pasta:** `G:\...\_Projetos_IA\thozen-electra`
-**Arquivos encontrados:** 14 disciplinas, ~1.8 GB (DWG + IFC completos), NO memorial descritivo
-**Similares identificados:** beco-castelo-chateau-de-versailes (32.5k), f-nogueira-wpr (37k), fg-scenarium (42k), colline-de-france (27.5k), f-nogueira-soberano (27.2k)
+### 🏢 Projeto 1 — Thozen Electra
 
-### Dados básicos
+**Slug:** `thozen-electra` · **Prioridade: ALTA (entrega)**
 
-| # | Pergunta | Default sugerido |
+| Campo | Valor |
+|---|---|
+| **AC total** | **37.893,89 m²** ✓ |
+| **AT terreno** | **2.095,43 m²** ✓ (coef. aprov. = 18,1) |
+| **UR** | 348 |
+| **Nº pavimentos** | 32 |
+| **Nº pavimentos tipo** | 24 |
+| **Nº torres** | 2 |
+| **Nº elevadores** | 4 (2/torre: social + emergência) |
+| **Nº vagas** | 522 (1.5 vaga/UR) |
+| **Cidade** | **Porto Belo/SC** ✓ |
+| **CUB data-base** | **Março/2026** ✓ |
+| **Padrão** | Alto |
+| **Tipo de laje** | Protendida |
+| **Tipo de fundação** | Hélice contínua |
+| **Contenção** | Cortina ou solo grampeado (se subsolo) |
+| **Nº subsolos** | 1 |
+| **Tipologia predominante** | 1-2 dormitórios |
+| **Tipo de fachada** | Pastilha + textura |
+| **Piscina** | Sim |
+| **Gerador dedicado** | Sim |
+| **Pressurização** | Sim (PCI obrigatório >28m) |
+| **Prazo de obra** | 36 meses |
+| **BDI** | 25% |
+| **Similares na base** | beco-castelo, f-nogueira-wpr, fg-scenarium, colline-de-france, f-nogueira-soberano |
+| **Total estimado V2** | R$ 117M (3.094 R$/m² × 37.894) |
+
+**Sistemas especiais já quantificados do BIM (incluir no executivo):**
+- AC: 138 TR (80 evaporadoras + 117 condensadoras)
+- Exaustão: 195 churrasqueiras + 8 exaustores TCV 710 Berliner Luft
+- 8 prumadas, ~1.400-1.720 m de dutos galvanizado
+- Estimativa prévia exaustão: R$ 1,1-1,8M
+
+---
+
+### 🏢 Projeto 2 — Arthen Arboris
+
+**Slug:** `arthen-arboris` · **Prioridade: Média**
+**Decisão cruzada:** ✅ **Opção A — refazer paramétrico do zero** (substituir v2 atual)
+
+| Campo | Valor |
+|---|---|
+| **AC total** | 12.472,98 m² |
+| **AT terreno** | 1.008 m² |
+| **UR residenciais** | 90 |
+| **UR comerciais** | 8 |
+| **UR total** | 98 |
+| **Nº pavimentos** | 20 (14 tipo + 1 diferenciado + 3 garagens + térreo + cobertura) |
+| **Nº pavimentos tipo** | 15 |
+| **Nº pavimentos garagem** | 3 (G1, G2, G3 mezaninos) |
+| **Nº torres** | 1 |
+| **Nº elevadores** | 2 (1 social + 1 emergência) |
+| **Nº vagas** | 99 |
+| **Cidade** | Itapema/SC |
+| **CUB data-base** | mar/2026 — R$ 3.028,45 |
+| **Padrão** | Médio |
+| **Tipo de laje** | Convencional |
+| **Tipo de fundação** | Hélice contínua |
+| **Nº subsolos** | 0 (garagens são mezaninos) |
+| **Prazo de obra** | **36 meses** ✓ (revisado por Leo — aumenta burn rate coerente) |
+| **BDI** | 25% |
+| **Climatização** | ✅ **Só infra** (sem equipamentos) |
+| **Louças** | ✅ **Só bacias** (sem cubas/torneiras/bancadas) |
+| **Piscinas** | 2 piscinas + 1 ofurô |
+| **Gerador** | 1 un ~100 kVA |
+| **Tipologia** | Misto (~40% 1D, 35% 2D, 15% 3D, 10% studio) |
+| **Similares na base** | viva4-barra4, xpcon-porto-cerro, fonseca-estoril, cln-porto-ruby, somauma-virginia |
+| **Total estimado V2** | R$ 35M (2.813 R$/m² × 12.473) |
+
+**Importante:** Opção A = refazer o paramétrico inteiro. O v2 anterior (`arthen-arboris-parametrico-v2.xlsx`) já existe no Drive; vou preservá-lo como `-v2-backup.xlsx` antes de regenerar.
+
+---
+
+### 🏢 Projeto 3 — Placon Armínio Tavares
+
+**Slug:** `placon-arminio-tavares` · **Prioridade: Média**
+
+| Campo | Valor |
+|---|---|
+| **AC total** | **4.077,29 m²** ✓ (Quadro de Áreas - Projeto Legal) |
+| **AT terreno** | **900 m²** ✓ |
+| **UR total** | 55 (Studios + Aptos 1D) |
+| **Nº pavimentos** | 17 |
+| **Nº pavimentos tipo** | 9 (3-6 + 12-16) |
+| **Nº pavimentos garagem** | 3 (subsolo + 1º + parte 2º) |
+| **Nº torres** | 1 |
+| **Nº elevadores** | 2 |
+| **Nº vagas** | 55 (1/UR estimado) |
+| **Cidade** | Florianópolis/SC — Centro (Rua Dr. Armínio Tavares) |
+| **CUB data-base** | **mar/2026 CUB SC** ✓ |
+| **Padrão NBR** | Residencial Multifamiliar NORMAL |
+| **Padrão V2** | Médio |
+| **Tipo de laje** | Convencional |
+| **Tipo de fundação** | **Hélice contínua** ✓ |
+| **Contenção** | Sim (subsolo 1) |
+| **Tipologia predominante** | Studios (maioria) + Aptos 1 dormitório |
+| **Piscina** | _será determinada pela análise arquitetônica no Bloco 0_ |
+| **Gerador** | Sim (>12 pavimentos exige) |
+| **Prazo de obra** | 24 meses |
+| **BDI** | 25% |
+| **Incorporador** | Placon Empreendimentos Imobiliários Ltda |
+| **RT** | Luciana Balsini Francalacci (CREA-SC 041.266-8) |
+| **Custo NBR** | R$ 10,58M a R$ 11,93M (referência) |
+| **Similares na base** | xpcon-marena, muller-guanabara, nova-malaga, chiquetti-esmeralda, inbrasul-opus |
+| **Total estimado V2** | R$ 11,5M (2.813 R$/m² × 4.077) |
+
+**Validação:** estimativa V2 bate com NBR (R$ 11,5M vs R$ 10,58-11,93M) ± 3%. 🟢
+
+---
+
+## 📈 Resumo consolidado
+
+| Projeto | AC | UR | Cidade | Total est. | R$/m² |
+|---|---|---|---|---|---|
+| thozen-electra | 37.894 | 348 | Porto Belo/SC | R$ 117M | 3.094 |
+| arthen-arboris | 12.473 | 98 | Itapema/SC | R$ 35M | 2.813 |
+| placon-arminio-tavares | 4.077 | 55 | Florianópolis/SC | R$ 11,5M | 2.813 |
+| **TOTAL** | **54.444** | **501** | — | **R$ 163,5M** | — |
+
+---
+
+## ⏱ Plano de execução noturno
+
+### 🌅 17h — início (sem você, dando aula)
+
+#### Bloco 0 — Análise Arquitetônica (17h00-18h00)
+
+Criar e rodar `scripts/analise_arquitetura.py` que, pra cada projeto, varre a pasta do Drive buscando:
+
+**Fontes de dados:**
+- PDFs de plantas, memoriais, apresentações (lidos via pypdf)
+- Memoriais descritivos em .docx
+- IFCs via `ifcopenshell` (se instalado) — extrai `IfcSpace` com `LongName`
+- Nomes de arquivos DWG (nomes costumam ter "PLANTA_LAZER", "PISCINA", etc.)
+
+**Keywords caçadas** (case-insensitive, com variações):
+- Lazer: `piscina`, `piscina aquecida`, `ofurô`, `spa`, `sauna`, `jacuzzi`
+- Esportes: `academia`, `fitness`, `quadra`, `squash`, `musculação`
+- Social: `salão de festas`, `salão gourmet`, `gourmet`, `churrasqueira`, `fire place`, `pub`, `lounge`, `game room`
+- Infantil: `playground`, `brinquedoteca`, `kids`, `fraldário`
+- Trabalho: `coworking`, `home office`, `sala de reunião`
+- Serviço: `lavanderia`, `pet place`, `bicicletário`
+
+**Output por projeto:** `base/pacotes/{slug}/analise-arquitetura.json`
+```json
+{
+  "projeto": "thozen-electra",
+  "itens_encontrados": [
+    {"tipo": "piscina", "fonte": "02-TÉRREO_R01.pdf", "count": 2},
+    {"tipo": "academia", "fonte": "IFC arquitetura", "area_m2": 145},
+    {"tipo": "salão de festas", "fonte": "memorial.pdf", "count": 1}
+  ],
+  "arquivos_lidos": 12,
+  "total_keywords_hit": 23
+}
+```
+
+**Alimentação do gate:** os itens encontrados vão pré-popular as decisões do gate (piscina = sim/não, academia = sim/não, etc.), e o executivo automatizado vai usá-los no macrogrupo "Sistemas Especiais" e "Complementares".
+
+#### Bloco 1 — Melhorias 7.x (18h00-22h30)
+
+```
+18h00-18h20  [7.6] Memorial Word do paramétrico no pacote (~20 min)
+18h20-19h20  [7.4] Granularização via Gemma sub-disciplinas (~1h) ⭐ alta prioridade
+19h20-20h05  [7.2] Memorial Word do executivo (~45 min)
+20h05-20h35  [7.5] Validação por segmento (~30 min)
+20h35-21h05  [7.3] Aba RESUMO mais expressiva (~30 min)
+21h05-21h35  [7.1] Multiplicador diferencial por macrogrupo (~30 min)
+21h35-22h00  Testes end-to-end no pacote piloto, commit incremental a cada 7.x
+22h00-22h30  Pré-população dos 3 gates com respostas + análise arquitetônica
+```
+
+**Commits incrementais** a cada bloco terminado. Se alguma melhoria der problema, rollback isolado e sigo.
+
+**Relatório contínuo:** atualizo `~/orcamentos-openclaw/base/pacotes/noturno-progresso.md` a cada hora — você pode abrir quando chegar e ver o estado.
+
+### 🌙 22h30 — você volta
+
+```
+22h30-22h50  Você janta/descansa
+             Eu atualizo o progresso e faço pull final dos commits
+22h50-23h00  Disparo os 3 pacotes em sequência (arthen → placon → thozen)
+             Gera parametrico, executivo, memorial, validação pra cada
+             ~10-15 min no total
+```
+
+### 🌃 23h — revisão em sequência
+
+**Ordem sugerida:** dos menores/mais simples pros maiores. Isso garante que se a noite ficar longa, os 2 mais fáceis já estão prontos.
+
+```
+23h00-00h00  REVISA: placon-arminio-tavares (menor, ~R$ 11.5M, estrutura simples)
+             Você abre os 4 arquivos gerados + validação.md
+             Feedback por chat, eu itero ajustes em tempo real
+00h00-01h30  REVISA: arthen-arboris (12k m², Opção A = regeneração completa)
+             Compara com v2 anterior se quiser, eu gero diff
+01h30-03h30  REVISA: thozen-electra (o grande, 38k m², 2 torres)
+             Mais tempo porque é maior e tem sistemas especiais do BIM
+             Incluo na revisão os quantitativos BIM (138 TR AC, 195 churrasqueiras)
+```
+
+### 🌄 03h30 — fechamento
+
+```
+03h30-04h30  Ajustes finais nos 3 baseados nos feedbacks
+04h30-05h30  Regeneração final de cada, validação cruzada, commit/push
+05h30-06h30  Relatório consolidado da noite + cópia pros Drives dos 3 projetos
+06h30-07h00  Buffer de descanso
+```
+
+### 📊 Entregáveis por projeto (12 arquivos no total)
+
+Cada projeto vai gerar em `~/orcamentos-openclaw/base/pacotes/{slug}/`:
+
+1. `gate-{slug}-validado.xlsx` — gate pré-populado com as respostas deste briefing
+2. `parametrico-{slug}.xlsx` — paramétrico V2 calibrado
+3. `parametrico-{slug}.docx` — memorial Word do paramétrico (após 7.6)
+4. `executivo-{slug}.xlsx` — executivo automatizado com 18 macrogrupos + sub-disciplinas reais + confidence tags
+5. `executivo-{slug}.docx` — memorial Word do executivo (após 7.2)
+6. `validacao-{slug}.md` — relatório de coerência
+
+**Total de artefatos noturnos:** 18 arquivos (6 × 3 projetos) + 3 relatórios finais.
+
+---
+
+## ⚠️ Riscos identificados e mitigação
+
+| Risco | Probabilidade | Mitigação |
 |---|---|---|
-| 1 | AC total (m²) confirmada? | **36.000** |
-| 2 | UR (unidades residenciais) | **348** |
-| 3 | Nº total de pavimentos | **32** |
-| 4 | Nº pavimentos tipo | **24** |
-| 5 | Nº de torres/blocos | **2** |
-| 6 | Nº elevadores total | **4** (2 por torre: social + emergência) |
-| 7 | Nº vagas de garagem | **522** (1.5 vaga/UR) |
-| 8 | Área do terreno (AT m²) | **?** — não achei quadro de áreas, me passa |
-| 9 | Cidade / estado | **Itajaí/SC ou Balneário Camboriú/SC** |
-| 10 | CUB data-base | **CUB SC abr/2026** (R$ ? — usar atual) |
-
-### Decisões técnicas
-
-| # | Pergunta | Default sugerido |
-|---|---|---|
-| 11 | Tipo de laje | **Protendida** (típico em torres altas 32 pav com 2 torres) |
-| 12 | Tipo de fundação | **Hélice contínua** (padrão litoral norte SC) |
-| 13 | Contenção (se tiver subsolo) | **Cortina ou solo grampeado** |
-| 14 | Nº de subsolos | **1** (há 6 pavs de garagem G1-G5 + subsolo — verificar) |
-| 15 | Padrão de acabamento | **Alto** (348 UR, 2 torres = empreendimento médio-alto padrão) |
-| 16 | Tipologia predominante | **1-2 dormitórios** (348 UR em 36k m² ≈ 103 m²/UR) |
-| 17 | Tipo de fachada | **Pastilha + textura** |
-| 18 | Piscina | **Sim** (lazer 2 torres quase sempre tem) |
-| 19 | Gerador dedicado | **Sim** (obrigatório em escala) |
-| 20 | Pressurização | **Sim** (PCI obrigatório >28 m) |
-| 21 | Prazo de obra | **36 meses** (escala, 2 torres) |
-| 22 | BDI | **25%** |
-
-### Sistemas especiais já extraídos do BIM
-
-- **138 TR de AC** (80 evaporadoras + 117 condensadoras)
-- **195 churrasqueiras** (8 exaustores TCV 710 Berliner Luft)
-- 8 prumadas de dutos (~1.400-1.720 m galvanizado)
-- Custo estimado exaustão: R$ 1,1-1,8M (R02)
-
-**Decisão 23:** Incluir esses sistemas como já quantificados ou deixar o auto estimar?
-**Default:** **Incluir** — são números do BIM, precisos.
+| Bloco 0 não consegue ler IFCs (ifcopenshell não instalado) | Média | Fallback para PDFs + nomes de arquivo; instalar ifcopenshell durante o bloco se precisar |
+| Keywords do Bloco 0 falham em identificar piscina | Baixa | Se Placon não tiver hit claro, mostro no relatório como "indeterminado" e mantenho default sim |
+| Melhoria 7.4 (granularização) dá regressão | Média | Rollback isolado dessa, sigo com as outras |
+| Thozen muito grande, tempo de revisão estoura | Média | Prioridade 1 é placon+arthen, Thozen tem folga até 05h30 |
+| Gemma local trava (Ollama crash) | Baixa | Phase 7.4 é a única que usa Gemma; tudo mais é Python puro |
+| Drive G: fica offline | Baixa | Gates pré-populados salvos em git; geração ainda funciona |
 
 ---
 
-## 🏢 Projeto 2 — Arthen Arboris
+## 📁 Localização
 
-**Slug:** `arthen-arboris`
-**Pasta:** `G:\...\_Projetos_IA\arthen-arboris`
-**Contexto:** Já tem paramétrico V2 + memorial completo + análise v2 (10 sheets). Memorial validado.
-**Similares identificados:** viva4-barra4 (13.2k), xpcon-porto-cerro (13.2k), fonseca-estoril (14.5k), cln-porto-ruby (13k), somauma-virginia (10.1k)
-
-### Dados básicos (do memorial)
-
-| # | Pergunta | Default do memorial |
-|---|---|---|
-| 1 | AC total (m²) | **12.472,98** ✓ |
-| 2 | UR residenciais | **90** |
-| 3 | UR comerciais | **8** |
-| 4 | Nº total de pavimentos | **20** (14 tipo + 1 dif + garagens + térreo + cobertura) |
-| 5 | Nº pavimentos tipo | **15** |
-| 6 | Nº pavimentos garagem | **3** (G1, G2, G3 = mezaninos) |
-| 7 | Nº torres | **1** |
-| 8 | Nº elevadores | **2** (1 social + 1 emergência) |
-| 9 | Nº vagas | **99** |
-| 10 | AT (terreno) | **1.008 m²** |
-| 11 | Cidade | **Itapema/SC** |
-| 12 | CUB data-base | **mar/2026 R$ 3.028,45** |
-
-### Decisões técnicas (do memorial)
-
-| # | Pergunta | Default do memorial |
-|---|---|---|
-| 13 | Tipo de laje | **Convencional** |
-| 14 | Tipo de fundação | **Hélice contínua** |
-| 15 | Padrão acabamento | **Médio** |
-| 16 | Prazo | **30 meses** |
-| 17 | Subsolos | **0** (garagens são mezaninos, não subsolos) |
-
-### Dúvidas específicas (do paramétrico v2 existente)
-
-| #   | Pergunta                                                    | Default sugerido                                                       |
-| --- | ----------------------------------------------------------- | ---------------------------------------------------------------------- |
-| 18  | Climatização: só infra ou + equipamentos?                   | **Só infra** (memorial diz "AC split infra" = -R$ 515k) - ok! só infra |
-| 19  | Louças: só bacias ou + cubas/torneiras/bancadas?            | **Só bacias** (conforme memorial = -R$ 200k) - só bacias               |
-| 20  | **2 piscinas** + ofurô confirmados? (paramétrico estima 1)  | **Sim, 2 piscinas + ofurô** (+R$ 130-200k)                             |
-| 21  | Tipologia detalhada das 90 UR                               | **Misto** (~40% 1D, 35% 2D, 15% 3D, 10% studio)                        |
-| 22  | Burn rate alto (+38% vs mediana): justifica aumentar prazo? | **Manter 30 meses** (memorial validou) - pode considerar 36 meses      |
-| 23  | Gerador                                                     | **1 un ~100 kVA** (R$ 180k)                                            |
-
-### D1 (cruzada): Qual opção?
-- [a] Refazer paramétrico novo substituindo o v2
-- [b] Manter v2, só fazer executivo
-- [c] Gerar v2.1 preservando v2 como backup ← **default**
+- **Briefing (este):** `~/orcamentos-openclaw/base/pacotes/duvidas-projetos-noturno-2026-04-13.md`
+- **Progresso noturno:** `~/orcamentos-openclaw/base/pacotes/noturno-progresso.md` (criado às 17h)
+- **Pacotes gerados:** `~/orcamentos-openclaw/base/pacotes/{slug}/`
+- **Backup Arthen v2 anterior:** `~/orcamentos-openclaw/base/pacotes/arthen-arboris/parametrico-arthen-arboris-v2-backup.xlsx`
 
 ---
 
-## 🏢 Projeto 3 — Placon Armínio Tavares
+## ✍️ Quando responder
 
-**Slug:** `placon-arminio-tavares`
-**Pasta:** `G:\...\_Projetos_IA\placon-arminio-tavares`
-**Contexto:** 560 arquivos em 15 disciplinas BIM. Projeto em fase pré-executivo / início de obra.
-**Similares identificados:** xpcon-marena (4.1k), muller-guanabara (4.4k), nova-malaga (4.4k), chiquetti-esmeralda (5.6k), inbrasul-opus (4.4k)
+Até **17h** idealmente. Se não responder as 3 pendências, uso os defaults entre parênteses.
 
-### Dados extraídos do Quadro NBR 12.721
-
-| Campo | Valor | Fonte |
-|---|---|---|
-| Incorporador | Placon Empreendimentos Imobiliários Ltda | Quadro info |
-| Endereço | Rua Dr. Armínio Tavares, Centro, Florianópolis/SC | Quadro info |
-| Responsável Técnico | Luciana Balsini Francalacci (CREA-SC 041.266-8) | Quadro info |
-| Nº unidades autônomas | **55** ✓ | Quadro info |
-| Nº pavimentos | **17** ✓ | Quadro info |
-| Padrão NBR | **Residencial Multifamiliar NORMAL** | Quadro III |
-| Data-base CUB | **Janeiro 2026** | Quadro III |
-| Tipologia | Studios + Aptos 1 dormitório | Quadro II |
-| Custo Básico Global (NBR) | **R$ 10.580.596,97 a R$ 11.926.976,97** | Quadro IVA |
-
-### Dúvidas
-
-| #   | Pergunta                              | Default sugerido                                   |
-| --- | ------------------------------------- | -------------------------------------------------- |
-| 1   | AC total real (área construída total) | **~4.077,29 m²** (Quadro de áreas - projeto Legal) |
-| 2   | AT (área do terreno)                  | **900 m²**                                         |
-| 3   | Nº pavimentos tipo                    | **9** (3-6 + 12-16 = 9)                            |
-| 4   | Nº pavimentos garagem                 | **3** (subsolo + 1º + parte do 2º)                 |
-| 5   | Nº elevadores                         | **2**                                              |
-| 6   | Nº vagas                              | **55** (1 vaga/UR estimado)                        |
-| 7   | Tipo de laje                          | **Convencional** (padrão Normal)                   |
-| 8   | Tipo de fundação                      | **Sapata ou hélice** (Centro Floripa, solo varia)  |
-| 9   | Contenção / subsolo                   | **Subsolo 1, com contenção**                       |
-| 10  | Padrão real                           | **Médio** (NBR diz Normal = Médio no V2)           |
-| 11  | Tipologia predominante                | **Studios** (Quadro II mostra maioria studios)     |
-| 12  | Piscina                               | **Provavelmente sim** (central Floripa, mercado)   |
-| 13  | Gerador                               | **Sim** (>12 pav exige)                            |
-| 14  | Prazo                                 | **24 meses** (4.500 m², projeto menor)             |
-| 15  | BDI                                   | **25%**                                            |
-| 16  | CUB data-base                         | usar **mar/2026 CUB SC**                           |
-
-**Checagem com NBR:** se AC = 4.500 e custo NBR = R$ 10-12M, R$/m² NBR = R$ 2.222-2.650. O V2 calibrado estima R$ 2.813/m² → **20% acima do NBR** (que usa CUB padrão Normal, mais conservador). Faz sentido.
-
----
-
-## 📋 Checklist antes da noite
-
-- [ ] D1 — Arthen: qual opção (a/b/c)? Opção A (pode fazer tudo de novo, fiz um teste inicial)
-- [ ] D2 — Thozen: confirmar que cabe (ou substituir por outro projeto menor) - confirmar que cabe. importante fazermos dele, é um orçamento que preciso entregar
-- [ ] D3 — Placon: confirmar AC total (~4.500 m²?) ou me passar valor real - confirmado, na tabela
-- [ ] Thozen P8: AT m²?
-- [ ] Thozen P9: cidade - Porto Belo
-- [ ] Thozen P10: CUB data-base - Março/26
-- [ ] Placon P1: AC exata - na tabela
-- [ ] Placon P2: AT m² - na tabela
-- [ ] Demais perguntas: responder só as que discordar do default
-
----
-
-## 📁 Localização dos arquivos
-
-- Este arquivo: `~/orcamentos-openclaw/base/pacotes/duvidas-projetos-noturno-2026-04-13.md`
-- Pode responder editando este mesmo arquivo (append no final ou inline) ou por chat
-- Gates pré-populados vão ser salvos em `~/orcamentos-openclaw/base/pacotes/{slug}/gate-{slug}.xlsx`
-
----
-
-## ⏱ Timeline
-
-- **Agora até 17h:** você responde conforme disponível
-- **17h-22h30:** eu rodo as 6 melhorias 7.x (sem bloqueio de você)
-- **22h30+:** você volta, eu disparo os 3 pacotes, começamos a revisão
+**Canais:** edite este arquivo inline ou me manda no chat. Ambos funcionam.
