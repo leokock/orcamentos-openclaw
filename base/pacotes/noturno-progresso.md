@@ -1,12 +1,24 @@
 # Progresso Noturno — 2026-04-13
 
-_Última atualização: 17:54 BRT — **EXECUÇÃO COMPLETA** ✅_
+_Última atualização: 18:25 BRT — **EXECUÇÃO + REVISÃO PROFUNDA COMPLETAS** ✅_
 
-## 🎯 TUDO PRONTO
+## 🎯 TUDO PRONTO + REVISÃO PROFUNDA
 
-Os 3 pacotes (paramétrico + executivo + memoriais Word + validações) foram gerados, validados, sanity-checked e commitados/pushados. Você pode revisar quando quiser sem pressa de tempo.
+Os 3 pacotes (paramétrico + executivo + memoriais Word + PDFs + validações + audits) foram gerados, sanity-checkados duas vezes e commitados/pushados. Você pode revisar quando quiser.
 
-**Tempo total de execução autônoma:** ~50 min (vs ~14h orçados na noite). Sobrou ~13h de janela.
+**Tempo total de execução autônoma:** ~80 min (vs ~14h orçados). Sobrou ~12h.
+
+## 🔍 Revisão profunda concluída
+
+Após a primeira passada, fiz uma **segunda passada de revisão autônoma** (você pediu) que incluiu:
+
+1. **Auditoria das 21 abas de cada executivo** (×3 = 63 abas) → Confirmado: **TODOS os 18 macrogrupos preenchidos com itens reais** em todos os 3 (não havia 7 vazios como no piloto)
+2. **Comparação Arthen v2 anterior vs v2.1 novo** → -14,5% explicado: diferença estrutural top-down × bottom-up. Documentado no audit
+3. **Adição de seção 9 nos memoriais Thozen** com quantitativos BIM (138 TR AC + 195 churrasqueiras + 8 exaustores)
+4. **Validação de PUs sample** → coerentes entre projetos (almoxarife R$ 4.750 Arthen vs R$ 7.284 Thozen, etc.)
+5. **3 audit reports** (`audit-{slug}.md`) com achados específicos por projeto
+6. **6 PDFs gerados** dos memoriais via Word COM (paramétrico + executivo de cada)
+7. **Sanity check final** → 12 arquivos por projeto, 36 artefatos no total
 
 ## 📦 Resultado dos 3 pacotes
 
@@ -17,9 +29,9 @@ Os 3 pacotes (paramétrico + executivo + memoriais Word + validações) foram ge
 | 3 | **thozen-electra** | 37.894 m² | 348 | alto | **R$ 137.520.937** | R$ 3.629 | ✅ P10-P90 (Extra) |
 | | **TOTAL** | **54.444 m²** | **501** | — | **R$ 186.168.848** | **R$ 3.419** | — |
 
-## 📁 Artefatos gerados (27 arquivos)
+## 📁 Artefatos gerados (36 arquivos)
 
-Cada projeto tem 9 arquivos em `~/orcamentos-openclaw/base/pacotes/{slug}/`:
+Cada projeto tem **12 arquivos** em `~/orcamentos-openclaw/base/pacotes/{slug}/`:
 
 | Arquivo | Descrição |
 |---|---|
@@ -27,9 +39,12 @@ Cada projeto tem 9 arquivos em `~/orcamentos-openclaw/base/pacotes/{slug}/`:
 | `gate-{slug}-validado.xlsx` | Gate pré-populado com respostas do briefing + análise arquitetônica |
 | `parametrico-{slug}.xlsx` | Paramétrico V2 calibrado (24 abas) |
 | `parametrico-{slug}.docx` | Memorial Word do paramétrico |
+| `parametrico-{slug}.pdf` | **NOVO**: Memorial em PDF (via Word COM) |
 | `executivo-{slug}.xlsx` | Executivo automatizado (21 abas: RESUMO + 18 mg + REFERENCIAS + PREMISSAS) |
 | `executivo-{slug}.docx` | Memorial Word do executivo |
+| `executivo-{slug}.pdf` | **NOVO**: Memorial executivo em PDF |
 | `validacao-{slug}.md` | Relatório de coerência por segmento |
+| `audit-{slug}.md` | **NOVO**: Audit report com achados da revisão profunda |
 | `analise-arquitetura.json` | Resultado da análise multi-camada (IFC + DXF + PDF) |
 | `state.json` | Estado retomável do pacote |
 
