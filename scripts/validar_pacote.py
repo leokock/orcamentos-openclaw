@@ -63,6 +63,18 @@ def load_calibration() -> dict:
         return {}
 
 
+def segmento_por_ac(ac: float) -> tuple[str, str]:
+    """Retorna (nome_segmento, key_no_calibration)."""
+    if ac < 8000:
+        return ("Pequeno (<8k m²)", "pequeno_lt8k_rsm2")
+    elif ac < 15000:
+        return ("Médio (8-15k m²)", "medio_8k_15k_rsm2")
+    elif ac < 25000:
+        return ("Grande (15-25k m²)", "grande_15k_25k_rsm2")
+    else:
+        return ("Extra (>25k m²)", "extra_gt25k_rsm2")
+
+
 def validar(parametrico_path: Path | None, executivo_path: Path,
             ac: float, ur: int | None, output: Path) -> dict:
     summary = {
@@ -85,26 +97,49 @@ def validar(parametrico_path: Path | None, executivo_path: Path,
     summary["macrogrupos"] = exec_data["macrogrupos"]
 
     cal = load_calibration()
-    rsm2_alvo_med = None
-    if cal:
-        for k in ("rsm2_total", "custo_por_m2", "rsm2"):
-            v = cal.get(k)
-            if isinstance(v, dict) and v.get("mediana"):
-                rsm2_alvo_med = v["mediana"]
-                break
-    if rsm2_alvo_med:
-        delta = (summary["executivo_rsm2"] - rsm2_alvo_med) / rsm2_alvo_med * 100
+    seg_label, seg_key = segmento_por_ac(ac)
+    summary["segmento"] = seg_label
+
+    seg_stats = None
+    if cal and cal.get("por_segmento"):
+        seg_stats = cal["por_segmento"].get(seg_key)
+
+    if seg_stats:
+        rsm2_obtido = summary["executivo_rsm2"]
+        rsm2_med = seg_stats.get("mediana", 0)
+        rsm2_p10 = seg_stats.get("p10", 0)
+        rsm2_p25 = seg_stats.get("p25", 0)
+        rsm2_p75 = seg_stats.get("p75", 0)
+        rsm2_p90 = seg_stats.get("p90", 0)
+
+        if rsm2_p10 <= rsm2_obtido <= rsm2_p90:
+            faixa = "ok_p10_p90"
+            faixa_label = "✅ Dentro da faixa P10-P90 do segmento"
+        elif rsm2_obtido < rsm2_p10:
+            faixa = "abaixo_p10"
+            faixa_label = "⚠️ Abaixo do P10 do segmento (subdimensionado)"
+        else:
+            faixa = "acima_p90"
+            faixa_label = "⚠️ Acima do P90 do segmento (sobredimensionado)"
+
+        delta_med = (rsm2_obtido - rsm2_med) / rsm2_med * 100 if rsm2_med else 0
         summary["checks"].append({
-            "tipo": "rsm2_total",
-            "esperado_med": round(rsm2_alvo_med, 2),
-            "obtido": round(summary["executivo_rsm2"], 2),
-            "delta_pct": round(delta, 1),
-            "status": "ok" if abs(delta) < 30 else "alerta",
+            "tipo": "rsm2_segmento",
+            "segmento": seg_label,
+            "esperado_med": round(rsm2_med, 2),
+            "esperado_p10": round(rsm2_p10, 2),
+            "esperado_p25": round(rsm2_p25, 2),
+            "esperado_p75": round(rsm2_p75, 2),
+            "esperado_p90": round(rsm2_p90, 2),
+            "obtido": round(rsm2_obtido, 2),
+            "delta_med_pct": round(delta_med, 1),
+            "faixa": faixa,
+            "status": "ok" if faixa == "ok_p10_p90" else "alerta",
         })
-        if abs(delta) > 30:
+        if faixa != "ok_p10_p90":
             summary["alerts"].append(
-                f"R$/m² total ({summary['executivo_rsm2']:.2f}) está {abs(delta):.0f}% "
-                f"{'acima' if delta>0 else 'abaixo'} da mediana da base ({rsm2_alvo_med:.2f})"
+                f"R$/m² total {rsm2_obtido:.0f} está {faixa_label} "
+                f"(mediana {rsm2_med:.0f}, P10-P90: {rsm2_p10:.0f}-{rsm2_p90:.0f})"
             )
 
     sem_total = [mg for mg, d in exec_data["macrogrupos"].items() if not d.get("total")]
@@ -155,8 +190,16 @@ def write_report(output: Path, summary: dict) -> None:
         lines.append("## Checagens automáticas")
         for c in summary["checks"]:
             status_emoji = "✅" if c["status"] == "ok" else "⚠️"
-            lines.append(f"- {status_emoji} **{c['tipo']}**: esperado mediana={c['esperado_med']}, "
-                         f"obtido={c['obtido']}, delta={c['delta_pct']}%")
+            if c["tipo"] == "rsm2_segmento":
+                lines.append(f"- {status_emoji} **R$/m² vs segmento {c['segmento']}**")
+                lines.append(f"  - Obtido: R$ {c['obtido']:.2f}")
+                lines.append(f"  - Mediana: R$ {c['esperado_med']:.2f} (delta {c['delta_med_pct']:+.1f}%)")
+                lines.append(f"  - Faixa P10-P90: R$ {c['esperado_p10']:.0f} – R$ {c['esperado_p90']:.0f}")
+                lines.append(f"  - Faixa P25-P75: R$ {c['esperado_p25']:.0f} – R$ {c['esperado_p75']:.0f}")
+                lines.append(f"  - Status: {c['faixa']}")
+            else:
+                lines.append(f"- {status_emoji} **{c['tipo']}**: esperado={c.get('esperado_med')}, "
+                             f"obtido={c['obtido']}, delta={c.get('delta_pct', c.get('delta_med_pct'))}%")
         lines.append("")
 
     if summary.get("alerts"):

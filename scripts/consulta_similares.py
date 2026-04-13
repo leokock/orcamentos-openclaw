@@ -626,6 +626,43 @@ CALIBRATION_KEY_TO_MG = {
 }
 
 
+PADRAO_MULTIPLIERS = {
+    "Gerenciamento": {"medio": 1.0, "medio-alto": 1.05, "alto": 1.10, "luxo": 1.20, "economico": 0.90},
+    "Movimentação de Terra": {"medio": 1.0, "medio-alto": 1.0, "alto": 1.0, "luxo": 1.0, "economico": 1.0},
+    "Infraestrutura": {"medio": 1.0, "medio-alto": 1.0, "alto": 1.05, "luxo": 1.10, "economico": 0.95},
+    "Supraestrutura": {"medio": 1.0, "medio-alto": 1.02, "alto": 1.05, "luxo": 1.10, "economico": 0.95},
+    "Alvenaria": {"medio": 1.0, "medio-alto": 1.05, "alto": 1.10, "luxo": 1.15, "economico": 0.90},
+    "Impermeabilização": {"medio": 1.0, "medio-alto": 1.0, "alto": 1.05, "luxo": 1.10, "economico": 0.95},
+    "Instalações": {"medio": 1.0, "medio-alto": 1.10, "alto": 1.20, "luxo": 1.40, "economico": 0.85},
+    "Sistemas Especiais": {"medio": 1.0, "medio-alto": 1.15, "alto": 1.30, "luxo": 1.60, "economico": 0.75},
+    "Climatização": {"medio": 1.0, "medio-alto": 1.10, "alto": 1.30, "luxo": 1.50, "economico": 0.70},
+    "Rev. Interno Parede": {"medio": 1.0, "medio-alto": 1.15, "alto": 1.30, "luxo": 1.55, "economico": 0.85},
+    "Teto": {"medio": 1.0, "medio-alto": 1.10, "alto": 1.25, "luxo": 1.50, "economico": 0.85},
+    "Pisos": {"medio": 1.0, "medio-alto": 1.20, "alto": 1.40, "luxo": 1.70, "economico": 0.80},
+    "Pintura": {"medio": 1.0, "medio-alto": 1.10, "alto": 1.20, "luxo": 1.40, "economico": 0.90},
+    "Esquadrias": {"medio": 1.0, "medio-alto": 1.20, "alto": 1.40, "luxo": 1.70, "economico": 0.80},
+    "Louças e Metais": {"medio": 1.0, "medio-alto": 1.25, "alto": 1.50, "luxo": 2.00, "economico": 0.80},
+    "Fachada": {"medio": 1.0, "medio-alto": 1.15, "alto": 1.35, "luxo": 1.70, "economico": 0.85},
+    "Complementares": {"medio": 1.0, "medio-alto": 1.10, "alto": 1.20, "luxo": 1.40, "economico": 0.90},
+    "Imprevistos": {"medio": 1.0, "medio-alto": 1.0, "alto": 1.0, "luxo": 1.0, "economico": 1.0},
+}
+
+
+def _padrao_key(padrao: str | None) -> str:
+    if not padrao:
+        return "medio"
+    p = padrao.lower().strip()
+    if "luxo" in p:
+        return "luxo"
+    if "médio-alto" in p or "medio-alto" in p:
+        return "medio-alto"
+    if "alto" in p:
+        return "alto"
+    if "econ" in p or "baixo" in p:
+        return "economico"
+    return "medio"
+
+
 def valores_macrogrupos_calibrados(ac: float, padrao: str | None = None,
                                      usar_media: bool = False) -> dict:
     """Calcula totais por macrogrupo usando calibration-indices.json (base autoritativa V2).
@@ -633,13 +670,17 @@ def valores_macrogrupos_calibrados(ac: float, padrao: str | None = None,
     Esta é a FONTE PRIMÁRIA dos totais. Lê os 18 macrogrupos calibrados
     com R$/m² mediano de N projetos e multiplica pelo AC alvo.
 
+    Aplica multiplicador diferencial por macrogrupo conforme padrão (ver
+    PADRAO_MULTIPLIERS): acabamentos sobem mais em alto/luxo, estrutura
+    fica neutra.
+
     Args:
         ac: Área construída em m²
-        padrao: Padrão de acabamento (médio/alto/luxo) — ajusta multiplicador
+        padrao: Padrão de acabamento (médio/médio-alto/alto/luxo/econômico)
         usar_media: Se True, usa média ao invés de mediana
 
     Retorna:
-        {macrogrupo: {total_estimado, rsm2, n_amostras, source}}
+        {macrogrupo: {total_estimado, rsm2, multiplicador_aplicado, ...}}
     """
     cal_path = BASE / "calibration-indices.json"
     if not cal_path.exists():
@@ -654,17 +695,7 @@ def valores_macrogrupos_calibrados(ac: float, padrao: str | None = None,
     if not pm:
         return {}
 
-    multiplier = 1.0
-    if padrao:
-        p = padrao.lower()
-        if "luxo" in p:
-            multiplier = 1.25
-        elif "alto" in p:
-            multiplier = 1.10
-        elif "médio-alto" in p or "medio-alto" in p:
-            multiplier = 1.05
-        elif "econ" in p or "baixo" in p:
-            multiplier = 0.85
+    padrao_key = _padrao_key(padrao)
 
     result = {}
     for cal_key, mg in CALIBRATION_KEY_TO_MG.items():
@@ -674,7 +705,11 @@ def valores_macrogrupos_calibrados(ac: float, padrao: str | None = None,
         rsm2 = stats.get("media" if usar_media else "mediana", 0)
         if not rsm2:
             continue
+
+        mults = PADRAO_MULTIPLIERS.get(mg, {})
+        multiplier = mults.get(padrao_key, 1.0)
         rsm2_adj = rsm2 * multiplier
+
         result[mg] = {
             "rsm2_mediano": rsm2,
             "rsm2_ajustado": rsm2_adj,
@@ -687,11 +722,45 @@ def valores_macrogrupos_calibrados(ac: float, padrao: str | None = None,
             "total_estimado": rsm2_adj * ac,
             "n_amostras": stats.get("n", 0),
             "source": "calibration-indices.json",
-            "padrao_aplicado": padrao,
+            "padrao_aplicado": padrao_key,
             "multiplicador": multiplier,
         }
 
     return result
+
+
+def granular_via_gemma_subdisciplinas(similares: list[dict], macrogrupo: str,
+                                        max_subs: int = 8) -> list[dict]:
+    """Camada de granularização baseada na Fase 2 Gemma (qualitative.sub_disciplinas).
+
+    Quando enriquecer_executivo() retorna pouco/nada (porque os items detalhados
+    brutos não classificaram bem por keyword), esta função volta uma camada acima
+    e usa as sub-disciplinas que o Gemma JÁ identificou na Fase 2 — esses dados
+    estão classificados por macrogrupo (após normalização) e cada um vem com
+    fontes (slugs) e itens_exemplo.
+
+    Retorna lista pronta pra ir na aba do macrogrupo:
+        [{descricao, fontes, freq, itens_exemplo}]
+    """
+    enriq = enriquecer_parametrico(similares)
+    sub_por_mg = enriq.get("sub_disciplinas_por_mg", {})
+
+    target_norm = normalize_macrogrupo(macrogrupo).lower()
+
+    items = []
+    for mg_key, subs in sub_por_mg.items():
+        if mg_key.lower() != target_norm and macrogrupo.lower() not in mg_key.lower():
+            continue
+        for sd in subs[:max_subs]:
+            items.append({
+                "descricao": sd["sub"],
+                "freq_projetos": sd["freq"],
+                "fontes": sd["fontes"],
+                "itens_exemplo": sd["itens_exemplo"],
+                "source_layer": "gemma_sub_disciplinas",
+            })
+
+    return items
 
 
 def bdi_encargos_observados(similares: list[dict]) -> list[dict]:

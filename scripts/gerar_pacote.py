@@ -32,6 +32,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import gerar_gate_validacao  # noqa: E402
 import gerar_executivo_auto  # noqa: E402
+import gerar_memorial_pacote  # noqa: E402
 import validar_pacote  # noqa: E402
 
 BASE = Path.home() / "orcamentos-openclaw" / "base"
@@ -142,6 +143,18 @@ def etapa_continue(slug: str) -> dict:
         print(f"[parametrico] WARN: V2 script não encontrado em {V2_SCRIPT}")
         state["parametrico_status"] = "skipped"
 
+    parametrico_docx = pasta / f"parametrico-{slug}.docx"
+    print(f"[parametrico-memorial] gerando {parametrico_docx}")
+    try:
+        mem_result = gerar_memorial_pacote.gerar(slug, "parametrico", parametrico_docx)
+        state["parametrico_memorial_status"] = "done"
+        state["parametrico_docx"] = str(parametrico_docx)
+        state["parametrico_memorial_result"] = mem_result
+    except Exception as e:
+        print(f"[parametrico-memorial] ERR: {e}")
+        state["parametrico_memorial_status"] = "exception"
+        state["parametrico_memorial_error"] = str(e)
+
     executivo_xlsx = pasta / f"executivo-{slug}.xlsx"
     print(f"[executivo] gerando {executivo_xlsx}")
     try:
@@ -156,6 +169,19 @@ def etapa_continue(slug: str) -> dict:
         print(f"[executivo] FAIL: {e}")
         state["executivo_status"] = "failed"
         state["executivo_error"] = str(e)
+
+    executivo_docx = pasta / f"executivo-{slug}.docx"
+    if state.get("executivo_status") == "done":
+        print(f"[executivo-memorial] gerando {executivo_docx}")
+        try:
+            mem_result = gerar_memorial_pacote.gerar(slug, "executivo", executivo_docx)
+            state["executivo_memorial_status"] = "done"
+            state["executivo_docx"] = str(executivo_docx)
+            state["executivo_memorial_result"] = mem_result
+        except Exception as e:
+            print(f"[executivo-memorial] ERR: {e}")
+            state["executivo_memorial_status"] = "exception"
+            state["executivo_memorial_error"] = str(e)
 
     relatorio_md = pasta / f"validacao-{slug}.md"
     print(f"[validacao] gerando {relatorio_md}")

@@ -155,22 +155,25 @@ def confidence_label(item: dict) -> str:
 
 
 def aba_resumo(wb: Workbook, slug: str, ac: float, ur: int | None,
-                similares: list[dict], macrogrupos_data: dict) -> None:
+                similares: list[dict], macrogrupos_data: dict,
+                valores_calibrados: dict | None = None,
+                valores_similares: dict | None = None) -> None:
     ws = wb.create_sheet("RESUMO", 0)
     ws.sheet_properties.tabColor = ACCENT
 
     ws["A1"] = f"{slug.upper()} — ORÇAMENTO EXECUTIVO AUTOMATIZADO"
     ws["A1"].font = Font(bold=True, size=14, color=DARK, name="Arial")
-    ws.merge_cells("A1:F1")
+    ws.merge_cells("A1:I1")
 
     ws["A2"] = f"Gerado em {datetime.now().isoformat(timespec='seconds')} | "  \
                 f"AC={ac:.0f} m² | UR={ur or '?'} | "  \
                 f"baseado em {len(similares)} projetos similares"
     ws["A2"].font = Font(italic=True, size=9, color="666666", name="Arial")
-    ws.merge_cells("A2:F2")
+    ws.merge_cells("A2:I2")
 
-    hdr(ws, 4, ["#", "Macrogrupo", "Total R$", "R$/m²", "% do total", "N itens", "Confiança"],
-        [4, 28, 18, 14, 12, 10, 14])
+    hdr(ws, 4, ["#", "Macrogrupo", "Total R$", "R$/m²", "% do total",
+                "N itens", "Confiança", "Fonte total", "P10-P90 ref"],
+        [4, 26, 16, 12, 10, 8, 12, 18, 22])
 
     grand_total = 0.0
     rows_data = []
@@ -179,23 +182,51 @@ def aba_resumo(wb: Workbook, slug: str, ac: float, ur: int | None,
         total = d.get("total", 0)
         n = d.get("n_itens", 0)
         confianca = d.get("confianca_media", "—")
-        rows_data.append((i, mg, total, n, confianca))
+
+        if valores_calibrados and mg in valores_calibrados:
+            stats = valores_calibrados[mg]
+            fonte = f"calibrado (n={stats.get('n_amostras', 0)})"
+            p10p90 = f"{stats.get('rsm2_p10', 0):.0f}–{stats.get('rsm2_p90', 0):.0f}"
+        elif valores_similares and mg in valores_similares:
+            stats = valores_similares[mg]
+            fonte = f"similares (n={stats.get('n_amostras', 0)})"
+            p10p90 = f"{stats.get('rsm2_min', 0):.0f}–{stats.get('rsm2_max', 0):.0f}"
+        else:
+            fonte = "sem dados"
+            p10p90 = "—"
+
+        rows_data.append((i, mg, total, n, confianca, fonte, p10p90))
         grand_total += total
 
-    for i, (idx, mg, total, n, conf) in enumerate(rows_data, start=5):
-        cell(ws, i, 1, idx, align="center")
-        cell(ws, i, 2, mg, bold=True)
-        cell(ws, i, 3, total, fmt='"R$" #,##0', align="right")
-        cell(ws, i, 4, total / ac if ac else 0, fmt='"R$" #,##0.00', align="right")
-        cell(ws, i, 5, total / grand_total if grand_total else 0, fmt='0.0%', align="right")
-        cell(ws, i, 6, n, align="center")
-        cell(ws, i, 7, conf, align="center")
+    for i, (idx, mg, total, n, conf, fonte, p10p90) in enumerate(rows_data, start=5):
+        if "calibrado" in fonte:
+            row_fill = "E8F8F5"
+        elif "similares" in fonte:
+            row_fill = "FEF9E7"
+        else:
+            row_fill = "FADBD8"
+
+        cell(ws, i, 1, idx, align="center", fill=row_fill)
+        cell(ws, i, 2, mg, bold=True, fill=row_fill)
+        cell(ws, i, 3, total, fmt='"R$" #,##0', align="right", fill=row_fill)
+        cell(ws, i, 4, total / ac if ac else 0, fmt='"R$" #,##0.00', align="right", fill=row_fill)
+        cell(ws, i, 5, total / grand_total if grand_total else 0, fmt='0.0%', align="right", fill=row_fill)
+        cell(ws, i, 6, n, align="center", fill=row_fill)
+        cell(ws, i, 7, conf, align="center", fill=row_fill)
+        cell(ws, i, 8, fonte, align="center", fill=row_fill)
+        cell(ws, i, 9, p10p90, align="center", fill=row_fill)
 
     total_row = 5 + len(MACROGRUPOS_CANONICOS)
     cell(ws, total_row, 2, "TOTAL", bold=True, fill="EAEDED")
     cell(ws, total_row, 3, grand_total, bold=True, fmt='"R$" #,##0', fill="EAEDED", align="right")
     cell(ws, total_row, 4, grand_total / ac if ac else 0, bold=True, fmt='"R$" #,##0.00', fill="EAEDED", align="right")
     cell(ws, total_row, 5, 1.0, bold=True, fmt='0.0%', fill="EAEDED", align="right")
+
+    legend_row = total_row + 2
+    cell(ws, legend_row, 2, "Legenda fonte:", bold=True)
+    cell(ws, legend_row + 1, 2, "🟢 calibrado = base V2 calibration-indices.json", fill="E8F8F5")
+    cell(ws, legend_row + 2, 2, "🟡 similares = mediana dos 5 projetos similares", fill="FEF9E7")
+    cell(ws, legend_row + 3, 2, "🔴 sem dados = preencher manualmente", fill="FADBD8")
 
 
 def aba_macrogrupo(wb: Workbook, mg: str, itens: list[dict], ac: float,
@@ -239,13 +270,25 @@ def aba_macrogrupo(wb: Workbook, mg: str, itens: list[dict], ac: float,
         qtd_med = it.get("qtd_mediana") or 0
         total_med = pu * qtd_med if pu and qtd_med else (it.get("total_mediano") or 0)
         fill = confidence_color(it)
+        is_sub_gemma = it.get("is_subdisciplina_gemma")
+
+        desc = it.get("descricao", "")
+        if is_sub_gemma:
+            exemplos = it.get("itens_exemplo", [])
+            if exemplos:
+                desc = f"{desc} (ex: {' | '.join(str(e)[:25] for e in exemplos[:2])})"
 
         cell(ws, row, 1, i, align="center", fill=fill)
-        cell(ws, row, 2, it.get("descricao", ""), fill=fill)
-        cell(ws, row, 3, it.get("unidade", ""), align="center", fill=fill)
-        cell(ws, row, 4, qtd_med, fmt='#,##0.00', align="right", fill=fill)
-        cell(ws, row, 5, pu, fmt='"R$" #,##0.00', align="right", fill=fill)
-        cell(ws, row, 6, total_med, fmt='"R$" #,##0', align="right", fill=fill)
+        cell(ws, row, 2, desc, fill=fill)
+        cell(ws, row, 3, it.get("unidade", "") or ("sub" if is_sub_gemma else ""), align="center", fill=fill)
+        if is_sub_gemma:
+            cell(ws, row, 4, "—", align="right", fill=fill)
+            cell(ws, row, 5, "—", align="right", fill=fill)
+            cell(ws, row, 6, "—", align="right", fill=fill)
+        else:
+            cell(ws, row, 4, qtd_med, fmt='#,##0.00', align="right", fill=fill)
+            cell(ws, row, 5, pu, fmt='"R$" #,##0.00', align="right", fill=fill)
+            cell(ws, row, 6, total_med, fmt='"R$" #,##0', align="right", fill=fill)
         cell(ws, row, 7, it.get("freq_projetos", 0), align="center", fill=fill)
         cell(ws, row, 8, ", ".join(it.get("fontes", [])[:3]), fill=fill)
 
@@ -313,11 +356,30 @@ def gerar_executivo(slug: str, ac: float, ur: int | None, padrao: str | None,
     for mg in MACROGRUPOS_CANONICOS:
         enriq = cs.enriquecer_executivo(similares, mg, top_n=40, min_frequency=1)
         itens = enriq.get("itens_agregados", [])
+
+        if not itens:
+            sub_disc_items = cs.granular_via_gemma_subdisciplinas(similares, mg, max_subs=10)
+            for sd in sub_disc_items:
+                itens.append({
+                    "descricao": sd["descricao"],
+                    "unidade": "—",
+                    "pu_mediano": None,
+                    "qtd_mediana": None,
+                    "total_mediano": None,
+                    "freq_projetos": sd["freq_projetos"],
+                    "fontes": sd["fontes"],
+                    "n_ocorrencias": sd["freq_projetos"],
+                    "is_subdisciplina_gemma": True,
+                    "itens_exemplo": sd.get("itens_exemplo", []),
+                })
+
         macro_source = valores_calibrados.get(mg) or valores_similares.get(mg)
         stats = aba_macrogrupo(wb, mg, itens, ac, macro_source)
         macrogrupos_data[mg] = stats
 
-    aba_resumo(wb, slug, ac, ur, similares, macrogrupos_data)
+    aba_resumo(wb, slug, ac, ur, similares, macrogrupos_data,
+               valores_calibrados=valores_calibrados,
+               valores_similares=valores_similares)
     aba_referencias(wb, similares)
     aba_premissas(wb, gate.get("premissas_aprovadas", []), gate.get("decisoes", {}))
 
