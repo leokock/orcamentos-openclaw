@@ -139,14 +139,14 @@ Do Quadro NBR I eu consegui extrair **55 unidades** e **17 pavimentos** confirma
 
 ### Dúvidas específicas (do paramétrico v2 existente)
 
-| # | Pergunta | Default sugerido |
-|---|---|---|
-| 18 | Climatização: só infra ou + equipamentos? | **Só infra** (memorial diz "AC split infra" = -R$ 515k) |
-| 19 | Louças: só bacias ou + cubas/torneiras/bancadas? | **Só bacias** (conforme memorial = -R$ 200k) |
-| 20 | **2 piscinas** + ofurô confirmados? (paramétrico estima 1) | **Sim, 2 piscinas + ofurô** (+R$ 130-200k) |
-| 21 | Tipologia detalhada das 90 UR | **Misto** (~40% 1D, 35% 2D, 15% 3D, 10% studio) |
-| 22 | Burn rate alto (+38% vs mediana): justifica aumentar prazo? | **Manter 30 meses** (memorial validou) |
-| 23 | Gerador | **1 un ~100 kVA** (R$ 180k) |
+| #   | Pergunta                                                    | Default sugerido                                                       |
+| --- | ----------------------------------------------------------- | ---------------------------------------------------------------------- |
+| 18  | Climatização: só infra ou + equipamentos?                   | **Só infra** (memorial diz "AC split infra" = -R$ 515k) - ok! só infra |
+| 19  | Louças: só bacias ou + cubas/torneiras/bancadas?            | **Só bacias** (conforme memorial = -R$ 200k) - só bacias               |
+| 20  | **2 piscinas** + ofurô confirmados? (paramétrico estima 1)  | **Sim, 2 piscinas + ofurô** (+R$ 130-200k)                             |
+| 21  | Tipologia detalhada das 90 UR                               | **Misto** (~40% 1D, 35% 2D, 15% 3D, 10% studio)                        |
+| 22  | Burn rate alto (+38% vs mediana): justifica aumentar prazo? | **Manter 30 meses** (memorial validou) - pode considerar 36 meses      |
+| 23  | Gerador                                                     | **1 un ~100 kVA** (R$ 180k)                                            |
 
 ### D1 (cruzada): Qual opção?
 - [a] Refazer paramétrico novo substituindo o v2
@@ -178,24 +178,24 @@ Do Quadro NBR I eu consegui extrair **55 unidades** e **17 pavimentos** confirma
 
 ### Dúvidas
 
-| # | Pergunta | Default sugerido |
-|---|---|---|
-| 1 | AC total real (área construída total) | **~4.500 m²** (a confirmar — estimativa de soma parcial) |
-| 2 | AT (área do terreno) | **?** — me passa |
-| 3 | Nº pavimentos tipo | **9** (3-6 + 12-16 = 9) |
-| 4 | Nº pavimentos garagem | **3** (subsolo + 1º + parte do 2º) |
-| 5 | Nº elevadores | **2** |
-| 6 | Nº vagas | **55** (1 vaga/UR estimado) |
-| 7 | Tipo de laje | **Convencional** (padrão Normal) |
-| 8 | Tipo de fundação | **Sapata ou hélice** (Centro Floripa, solo varia) |
-| 9 | Contenção / subsolo | **Subsolo 1, com contenção** |
-| 10 | Padrão real | **Médio** (NBR diz Normal = Médio no V2) |
-| 11 | Tipologia predominante | **Studios** (Quadro II mostra maioria studios) |
-| 12 | Piscina | **Provavelmente sim** (central Floripa, mercado) |
-| 13 | Gerador | **Sim** (>12 pav exige) |
-| 14 | Prazo | **24 meses** (4.500 m², projeto menor) |
-| 15 | BDI | **25%** |
-| 16 | CUB data-base | **Jan/2026 CUB SC** (R$ ? — usar referência NBR) |
+| #   | Pergunta                              | Default sugerido                                   |
+| --- | ------------------------------------- | -------------------------------------------------- |
+| 1   | AC total real (área construída total) | **~4.077,29 m²** (Quadro de áreas - projeto Legal) |
+| 2   | AT (área do terreno)                  | **900 m²**                                         |
+| 3   | Nº pavimentos tipo                    | **9** (3-6 + 12-16 = 9)                            |
+| 4   | Nº pavimentos garagem                 | **3** (subsolo + 1º + parte do 2º)                 |
+| 5   | Nº elevadores                         | **2**                                              |
+| 6   | Nº vagas                              | **55** (1 vaga/UR estimado)                        |
+| 7   | Tipo de laje                          | **Convencional** (padrão Normal)                   |
+| 8   | Tipo de fundação                      | **Sapata ou hélice** (Centro Floripa, solo varia)  |
+| 9   | Contenção / subsolo                   | **Subsolo 1, com contenção**                       |
+| 10  | Padrão real                           | **Médio** (NBR diz Normal = Médio no V2)           |
+| 11  | Tipologia predominante                | **Studios** (Quadro II mostra maioria studios)     |
+| 12  | Piscina                               | **Provavelmente sim** (central Floripa, mercado)   |
+| 13  | Gerador                               | **Sim** (>12 pav exige)                            |
+| 14  | Prazo                                 | **24 meses** (4.500 m², projeto menor)             |
+| 15  | BDI                                   | **25%**                                            |
+| 16  | CUB data-base                         | usar **mar/2026 CUB SC**                           |
 
 **Checagem com NBR:** se AC = 4.500 e custo NBR = R$ 10-12M, R$/m² NBR = R$ 2.222-2.650. O V2 calibrado estima R$ 2.813/m² → **20% acima do NBR** (que usa CUB padrão Normal, mais conservador). Faz sentido.
 
@@ -203,14 +203,14 @@ Do Quadro NBR I eu consegui extrair **55 unidades** e **17 pavimentos** confirma
 
 ## 📋 Checklist antes da noite
 
-- [ ] D1 — Arthen: qual opção (a/b/c)?
-- [ ] D2 — Thozen: confirmar que cabe (ou substituir por outro projeto menor)
-- [ ] D3 — Placon: confirmar AC total (~4.500 m²?) ou me passar valor real
+- [ ] D1 — Arthen: qual opção (a/b/c)? Opção A (pode fazer tudo de novo, fiz um teste inicial)
+- [ ] D2 — Thozen: confirmar que cabe (ou substituir por outro projeto menor) - confirmar que cabe. importante fazermos dele, é um orçamento que preciso entregar
+- [ ] D3 — Placon: confirmar AC total (~4.500 m²?) ou me passar valor real - confirmado, na tabela
 - [ ] Thozen P8: AT m²?
-- [ ] Thozen P9: cidade
-- [ ] Thozen P10: CUB data-base
-- [ ] Placon P1: AC exata
-- [ ] Placon P2: AT m²
+- [ ] Thozen P9: cidade - Porto Belo
+- [ ] Thozen P10: CUB data-base - Março/26
+- [ ] Placon P1: AC exata - na tabela
+- [ ] Placon P2: AT m² - na tabela
 - [ ] Demais perguntas: responder só as que discordar do default
 
 ---
