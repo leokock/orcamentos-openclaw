@@ -1,0 +1,67 @@
+{
+  "projeto": "pass-e-barao-de-albuquerque",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:51:43",
+  "compact_chars": 1069,
+  "duration_s": 79.0,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 4…\",\n        \"Concreto usinado bombeável, para estacas, fck 30MPa, s…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armação aço CA-50, diâmetro de 12,5mm para supraestrut…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de Obra\",\n      \"itens_exemplo\": [\n        \"Mão de obra empreitada para execução de estrutura de c…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Vedação\",\n      \"sub_disciplina\": \"Drywall\",\n      \"itens_exemplo\": [\n        \"Parede drywall 90mm, com duas faces simples e guia sim…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Vedação\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio - TIPO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Vedação\",\n      \"sub_disciplina\": \"Guarda-corpo\",\n      \"itens_exemplo\": [\n        \"Guarda-corpo com corrimão, perfil de alumínio e fecham…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Ambientação\",\n      \"itens_exemplo\": [\n        \"Ambientação\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Uso de 'Concreto usinado bombeável' para diferentes elementos estruturais (supraestrutura e estacas).\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…",
+          "Concreto usinado bombeável, para estacas, fck 30MPa, s…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação aço CA-50, diâmetro de 12,5mm para supraestrut…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução de estrutura de c…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Vedação",
+        "sub_disciplina": "Drywall",
+        "itens_exemplo": [
+          "Parede drywall 90mm, com duas faces simples e guia sim…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Vedação",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - TIPO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Vedação",
+        "sub_disciplina": "Guarda-corpo",
+        "itens_exemplo": [
+          "Guarda-corpo com corrimão, perfil de alumínio e fecham…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Ambientação",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Uso de 'Concreto usinado bombeável' para diferentes elementos estruturais (supraestrutura e estacas)."
+    ],
+    "fora_da_curva": []
+  }
+}

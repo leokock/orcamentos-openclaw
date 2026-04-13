@@ -1,0 +1,78 @@
+{
+  "projeto": "eze-eilat",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:13:15",
+  "excerpt_chars": 1500,
+  "duration_s": 86.5,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"1.767,30\",\n    \"ur\": \"BOMBINHAS, SANTA CATARINA\",\n    \"tipologia\": null,\n    \"data_base\": \"15.11.2023\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"geral\",\n      \"premissa\": \"Custos considerando prazo de 36 meses de obra.\"\n    },\n    {\n      \"area\": \"infraestrutura\",\n      \"premissa\": \"Fundação em estacas tipo hélice contínua\"\n    },\n    {\n      \"area\": \"infraestrutura\",\n      \"premissa\": \"Armação com corte e dobra em obra\"\n    },\n    {\n      \"area\": \"infraestrutura\",\n      \"premissa\": \"Formas de sapatas e baldrames em madeira compensada resinada, considerando 2 utilizações\"\n    },\n    {\n      \"area\": \"superestrutura\",\n      \"premissa\": \"Fabricação de forma de pilares, vigas, lajes e escadarias em compensado plastificado 18 mm, considerando 2 jogos de forma\"\n    },\n    {\n      \"area\": \"alvenaria\",\n      \"premissa\": \"Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico\"\n    },\n    {\n      \"area\": \"alvenaria\",\n      \"premissa\": \"Consideração de blocos cerâmicos de vedação com argamassa produzida em obra para assentamento\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"infraestrutura\",\n      \"decisao\": \"Concreto usinado de 40 MPa para estacas.\"\n    },\n    {\n      \"contexto\": \"infraestrutura\",\n      \"decisao\": \"Concreto usinado de 30 MPa para sapatas e baldrames.\"\n    },\n    {\n      \"contexto\": \"superestrutura\",\n      \"decisao\": \"Concreto de 30 Mpa.\"\n    },\n    {\n      \"contexto\": \"alvenaria\",\n      \"decisao\": \"Verga e contraverga de concreto moldada in loco\"\n    },\n    {\n      \"contexto\": \"alvenaria\",\n      \"decisao\": \"Encunhamento com argamassa expansiva\"\n    },\n    {\n      \"contexto\": \"alvenaria\",\n      \"decisao\": \"Amarração de alvenaria e estrutura com tela soldada\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"EQUIPAMENTOS: EPIs e EPCs, Guarda-corpos de proteção, Bandejas de proteção primária e secundária, Tela fachadeira\",\n    \"MOVIMENTAÇÃO DE TERRA: Escavação e reaterro de valas; Movimentação de bota-fora; Lastro de concreto magro\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "1.767,30",
+      "ur": "BOMBINHAS, SANTA CATARINA",
+      "tipologia": null,
+      "data_base": "15.11.2023",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "geral",
+        "premissa": "Custos considerando prazo de 36 meses de obra."
+      },
+      {
+        "area": "infraestrutura",
+        "premissa": "Fundação em estacas tipo hélice contínua"
+      },
+      {
+        "area": "infraestrutura",
+        "premissa": "Armação com corte e dobra em obra"
+      },
+      {
+        "area": "infraestrutura",
+        "premissa": "Formas de sapatas e baldrames em madeira compensada resinada, considerando 2 utilizações"
+      },
+      {
+        "area": "superestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes e escadarias em compensado plastificado 18 mm, considerando 2 jogos de forma"
+      },
+      {
+        "area": "alvenaria",
+        "premissa": "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico"
+      },
+      {
+        "area": "alvenaria",
+        "premissa": "Consideração de blocos cerâmicos de vedação com argamassa produzida em obra para assentamento"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "infraestrutura",
+        "decisao": "Concreto usinado de 40 MPa para estacas."
+      },
+      {
+        "contexto": "infraestrutura",
+        "decisao": "Concreto usinado de 30 MPa para sapatas e baldrames."
+      },
+      {
+        "contexto": "superestrutura",
+        "decisao": "Concreto de 30 Mpa."
+      },
+      {
+        "contexto": "alvenaria",
+        "decisao": "Verga e contraverga de concreto moldada in loco"
+      },
+      {
+        "contexto": "alvenaria",
+        "decisao": "Encunhamento com argamassa expansiva"
+      },
+      {
+        "contexto": "alvenaria",
+        "decisao": "Amarração de alvenaria e estrutura com tela soldada"
+      }
+    ],
+    "observacoes_chave": [
+      "EQUIPAMENTOS: EPIs e EPCs, Guarda-corpos de proteção, Bandejas de proteção primária e secundária, Tela fachadeira",
+      "MOVIMENTAÇÃO DE TERRA: Escavação e reaterro de valas; Movimentação de bota-fora; Lastro de concreto magro"
+    ]
+  }
+}

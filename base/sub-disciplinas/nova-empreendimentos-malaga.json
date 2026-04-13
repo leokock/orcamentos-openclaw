@@ -1,0 +1,44 @@
+{
+  "projeto": "nova-empreendimentos-malaga",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:41:15",
+  "compact_chars": 524,
+  "duration_s": 53.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Forro\",\n      \"itens_exemplo\": [\n        \"Execução de forro em ACM\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Pavimentação\",\n      \"sub_disciplina\": \"Piso e Caminho\",\n      \"itens_exemplo\": [\n        \"Passeio em Paver\",\n        \"Pisograma\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Infraestrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Meio-Fio Concreto Pré-Fabricado\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Execução de forro em ACM\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Piso tátil Bolinha Alerta Inox, 1m\",\n      \"motivo\": \"Alerta\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Forro",
+        "itens_exemplo": [
+          "Execução de forro em ACM"
+        ]
+      },
+      {
+        "macrogrupo": "Pavimentação",
+        "sub_disciplina": "Piso e Caminho",
+        "itens_exemplo": [
+          "Passeio em Paver",
+          "Pisograma"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Meio-Fio Concreto Pré-Fabricado"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Execução de forro em ACM"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Piso tátil Bolinha Alerta Inox, 1m",
+        "motivo": "Alerta"
+      }
+    ]
+  }
+}

@@ -485,5 +485,109 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 13,
+      "total_itens": 6002,
+      "total_observacoes": 94,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/be-brave-meraki.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Vedação",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 45MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Vedação",
+        "sub_disciplina": "Alvenaria e Acabamentos",
+        "itens_exemplo": [
+          "Revestimento de parede com Hunter Douglas",
+          "Encunhamento de alvenaria de vedação com argamassa exp..."
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Baixa Tensão",
+        "itens_exemplo": [
+          "Quadros e Disjuntores",
+          "Cabos e Fiacoes",
+          "Mao de obra de instalacoes eletricas"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Mão de Obra",
+        "sub_disciplina": "Mão de Obra Especializada",
+        "itens_exemplo": [
+          "Mestre",
+          "Servente - 3",
+          "Engenheiro"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Mão de Obra",
+        "sub_disciplina": "Equipamentos e Locação",
+        "itens_exemplo": [
+          "Locação de Elevador cremalheira",
+          "Locação Manipulador telescópico",
+          "Locação Grua ascensional"
+        ]
+      },
+      {
+        "macrogrupo": "Complementar e Mobiliário",
+        "sub_disciplina": "Acabamentos e Decoração",
+        "itens_exemplo": [
+          "Acabamentos especiais",
+          "Decoração"
+        ]
+      },
+      {
+        "macrogrupo": "Projetos e Estudos",
+        "sub_disciplina": "Documentação Técnica",
+        "itens_exemplo": [
+          "Projeto Arquitetônico Executivo",
+          "Projeto estrutural",
+          "Estudo geológico"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade disponibilizada pelo projetista",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimativa",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimativa interna",
+        "observacao": "Estimado com base em índices históricos para elaboração interna",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Confrome cálculo da aba \"Canteiro\"",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "O item 'Demolições' aparece em múltiplas seções (Ger_Executivo, Ger_Tec e Adm, BASES).",
+      "O item 'Área:' aparece repetidamente na seção MOBILIARIO."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:39:53",
+      "duration_s": 88.4,
+      "compact_chars": 2664
+    }
   }
 }

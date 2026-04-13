@@ -1,0 +1,49 @@
+{
+  "projeto": "pass-e-barao-de-albuquerque",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:41:17",
+  "excerpt_chars": 4330,
+  "duration_s": 63.8,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": null,\n    \"ur\": null,\n    \"tipologia\": \"Construção Civil\",\n    \"data_base\": \"01/04/2021\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"GERENCIAMENTO TÉCNICO\",\n      \"premissa\": \"Unidade construtiva 1\"\n    },\n    {\n      \"area\": \"GERENCIAMENTO ADMINISTRATIVO\",\n      \"premissa\": \"Unidade construtiva 2\"\n    },\n    {\n      \"area\": \"GERENCIAMENTO EXECUTIVO\",\n      \"premissa\": \"Unidade construtiva 3\"\n    }\n  ],\n  \"bdi_encargos\": [\n    {\n      \"componente\": \"BDI\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": null\n    },\n    {\n      \"componente\": \"Encargos sociais\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": null\n    }\n  ],\n  \"decisoes_consolidadas\": [],\n  \"observacoes_chave\": [\n    \"Obra 106 - OBRA - Barão de Albuquerque\",\n    \"Endereço da obra Rua Onze de Junho - Esq. C/ Pedro Camilo da Silva - Fazenda, 131 - Fazenda - Itajaí/SC - 88301-660\",\n    \"Total da obra 25.069.286,48 100,00\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "Construção Civil",
+      "data_base": "01/04/2021",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "GERENCIAMENTO TÉCNICO",
+        "premissa": "Unidade construtiva 1"
+      },
+      {
+        "area": "GERENCIAMENTO ADMINISTRATIVO",
+        "premissa": "Unidade construtiva 2"
+      },
+      {
+        "area": "GERENCIAMENTO EXECUTIVO",
+        "premissa": "Unidade construtiva 3"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": null
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": null
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave": [
+      "Obra 106 - OBRA - Barão de Albuquerque",
+      "Endereço da obra Rua Onze de Junho - Esq. C/ Pedro Camilo da Silva - Fazenda, 131 - Fazenda - Itajaí/SC - 88301-660",
+      "Total da obra 25.069.286,48 100,00"
+    ]
+  }
+}

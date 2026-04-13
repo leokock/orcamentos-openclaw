@@ -94,5 +94,71 @@
   },
   "fachada_detail": {
     "total": 1154120.51
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 37,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mussi-empreendimentos-brookliin.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Instalações Gerais",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Vedação e Elementos Fixos",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA"
+        ]
+      },
+      {
+        "macrogrupo": "Vedação e Elementos Fixos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Apresentação de custo unitário (pu) e valor total para cada disciplina."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:25:30",
+      "duration_s": 68.2,
+      "compact_chars": 514
+    }
   }
 }

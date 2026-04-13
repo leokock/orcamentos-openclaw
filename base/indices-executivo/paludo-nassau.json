@@ -143,5 +143,77 @@
     "rodape": 38.56,
     "pintura": 13.5,
     "laminado": 767.37
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 1494,
+      "total_observacoes": 10,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/paludo-nassau.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para estacas, fck 30 MPa, …"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada e Teto",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas",
+        "sub_disciplina": "Elétrica/Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "Infraestrutura para instalação de ar condicionado *"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Vidros e Ferragens",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Identificação do Projeto",
+        "observacao": "461 - OBRA NASSAU INCORPORADORA SPE LTDA - CNO 90.005.27176/75",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Localização",
+        "observacao": "RUA IPÊ AMARELO, 301 - CANTO GRANDE - Bombinhas/SC - 88215-000",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Nomes de serviços e acabamentos aparecem em múltiplas seções (Executivo, Relatório, Observações de orçamentista)."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:44:47",
+      "duration_s": 83.6,
+      "compact_chars": 1707
+    }
   }
 }

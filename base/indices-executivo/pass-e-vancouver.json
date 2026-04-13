@@ -98,5 +98,80 @@
   "instalacoes_extraction_method": "Gerenciamento executivo (combined macro)",
   "sistemas_especiais_detail": {
     "total": 1133848.31
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 436,
+      "total_observacoes": 6,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/pass-e-vancouver.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Teto",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Especializados",
+        "itens_exemplo": [
+          "SISTEMAS E EQUIPAMENTOS ESPECIAIS"
+        ]
+      },
+      {
+        "macrogrupo": "Fechamento e Envelopamento",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Geral e Administrativo",
+        "sub_disciplina": "Gerenciamento e Infraestrutura",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+          "INFRAESTRUTURA"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "ACABAMENTOS EM PISO E PAREDE",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM PISO E PAREDE"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:58:41",
+      "duration_s": 69.4,
+      "compact_chars": 897
+    }
   }
 }

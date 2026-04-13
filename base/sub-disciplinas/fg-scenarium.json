@@ -1,0 +1,96 @@
+{
+  "projeto": "fg-scenarium",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:40:53",
+  "compact_chars": 1705,
+  "duration_s": 84.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Supraestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Revestimentos\",\n      \"itens_exemplo\": [\n        \"Piso elevado em marmore Travertino bruto 5cm - MAT + MO\",\n        \"Revestimento em Parede Externa com Mármore Travertino …\",\n        \"Revestimento em Piso com Mármore Travertino Bruto, rej…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias e Vidros\",\n      \"sub_disciplina\": \"Alumínio e Vidro\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio - fornecimento e instalação\",\n        \"Guarda Corpo vidro, com suporte de fixação em piso - …\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Serviços\",\n      \"sub_disciplina\": \"Instalações Gerais\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Gestão e Administração\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Áreas e Divisórias\",\n      \"sub_disciplina\": \"Área Privativa\",\n      \"itens_exemplo\": [\n        \"601\",\n        \"602\",\n        \"603\",\n        \"604\",\n        \"605\",\n        \"606\",\n        \"607\",\n        \"608\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"VALOR POR ÁREA PRIVATIVA (R$/m²)\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"VALOR POR UNIDADE TIPO 01\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"VALOR POR UNIDADE TIPO 02\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"VALOR POR UNIDADE TIPO 03\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"VALOR POR UNIDADE TIPO 04\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Uso recorrente de Mármore Travertino em diferentes aplicações (piso e parede)\",\n    \"Estrutura de cálculo de custo (qtd=X, pu=Y, R$Z) em itens do relatório\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Supraestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Piso elevado em marmore Travertino bruto 5cm - MAT + MO",
+          "Revestimento em Parede Externa com Mármore Travertino …",
+          "Revestimento em Piso com Mármore Travertino Bruto, rej…"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias e Vidros",
+        "sub_disciplina": "Alumínio e Vidro",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - fornecimento e instalação",
+          "Guarda Corpo vidro, com suporte de fixação em piso - …"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Serviços",
+        "sub_disciplina": "Instalações Gerais",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Gestão e Administração",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Áreas e Divisórias",
+        "sub_disciplina": "Área Privativa",
+        "itens_exemplo": [
+          "601",
+          "602",
+          "603",
+          "604",
+          "605",
+          "606",
+          "607",
+          "608"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR UNIDADE TIPO 01",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR UNIDADE TIPO 02",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR UNIDADE TIPO 03",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR UNIDADE TIPO 04",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso recorrente de Mármore Travertino em diferentes aplicações (piso e parede)",
+      "Estrutura de cálculo de custo (qtd=X, pu=Y, R$Z) em itens do relatório"
+    ],
+    "fora_da_curva": []
+  }
+}

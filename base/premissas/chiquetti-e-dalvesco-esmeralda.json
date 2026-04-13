@@ -1,0 +1,65 @@
+{
+  "projeto": "chiquetti-e-dalvesco-esmeralda",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:00:48",
+  "excerpt_chars": 4330,
+  "duration_s": 90.5,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"5579,63\",\n    \"ur\": \"39\",\n    \"tipologia\": \"Residencial\",\n    \"data_base\": \"Março/25\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Fundação e supraestrutura seguindo detalhamentos de projetos recebidos.\"\n    },\n    {\n      \"area\": \"Arquitetura\",\n      \"premissa\": \"Extração de quantidades realizada via visus, utilizando arquivo .ifc e projeto de Interiores.\"\n    },\n    {\n      \"area\": \"Instalações\",\n      \"premissa\": \"Instalações elétricas, telecomunicação, hidrossanitários, preventivas, GLP e SPDA utilizou os quantitativos recebido do projetista.\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Concreto fck de 40Mpa, incluindo serviço de bombeamento, consideração de 30% de perda.\"\n    },\n    {\n      \"area\": \"Fundação Rasa\",\n      \"premissa\": \"Concreto fck de 40 Mpa, incluindo serviço de bombeamento, em blocos e baldrames, com consideração de 5% de perda.\"\n    },\n    {\n      \"area\": \"Mão de Obra\",\n      \"premissa\": \"Mão de obra utilizando valores da empreitada global.\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Louças, metais e mobiliário\",\n      \"decisao\": \"Foram extraídos através do projeto 2D e imagens comerciais.\"\n    },\n    {\n      \"contexto\": \"Impermeabilização\",\n      \"decisao\": \"Considerado custo terceirizado para impermeabilização.\"\n    },\n    {\n      \"contexto\": \"Impermeabilização\",\n      \"decisao\": \"Consideração de mão de obra por serviço de regularização para impermeabilização inclusas na empreitada global.\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Gerenciamento Técnico e Administrativo inclui: Custos indiretos da obra; Administração de Canteiro; Instalações Provisórias.\",\n    \"Equipamentos e Sistemas Especiais incluem: Dois elevadores; Equipamentos de piscinas; Equipamento para... do cliente.\",\n    \"Preventivas e Gás: Luminotécnica considerada cotação recebida.\",\n    \"Supraestrutura: R$ 4.189.799,60 – R$ 750,91/m².\",\n    \"Alvenaria: R$ 1.098.309,44 – R$ 196,84 /m².\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "5579,63",
+      "ur": "39",
+      "tipologia": "Residencial",
+      "data_base": "Março/25",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Fundação e supraestrutura seguindo detalhamentos de projetos recebidos."
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Extração de quantidades realizada via visus, utilizando arquivo .ifc e projeto de Interiores."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Instalações elétricas, telecomunicação, hidrossanitários, preventivas, GLP e SPDA utilizou os quantitativos recebido do projetista."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck de 40Mpa, incluindo serviço de bombeamento, consideração de 30% de perda."
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Concreto fck de 40 Mpa, incluindo serviço de bombeamento, em blocos e baldrames, com consideração de 5% de perda."
+      },
+      {
+        "area": "Mão de Obra",
+        "premissa": "Mão de obra utilizando valores da empreitada global."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Louças, metais e mobiliário",
+        "decisao": "Foram extraídos através do projeto 2D e imagens comerciais."
+      },
+      {
+        "contexto": "Impermeabilização",
+        "decisao": "Considerado custo terceirizado para impermeabilização."
+      },
+      {
+        "contexto": "Impermeabilização",
+        "decisao": "Consideração de mão de obra por serviço de regularização para impermeabilização inclusas na empreitada global."
+      }
+    ],
+    "observacoes_chave": [
+      "Gerenciamento Técnico e Administrativo inclui: Custos indiretos da obra; Administração de Canteiro; Instalações Provisórias.",
+      "Equipamentos e Sistemas Especiais incluem: Dois elevadores; Equipamentos de piscinas; Equipamento para... do cliente.",
+      "Preventivas e Gás: Luminotécnica considerada cotação recebida.",
+      "Supraestrutura: R$ 4.189.799,60 – R$ 750,91/m².",
+      "Alvenaria: R$ 1.098.309,44 – R$ 196,84 /m²."
+    ]
+  }
+}

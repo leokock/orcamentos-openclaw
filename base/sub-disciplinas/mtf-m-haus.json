@@ -1,0 +1,71 @@
+{
+  "projeto": "mtf-m-haus",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:19:47",
+  "compact_chars": 748,
+  "duration_s": 80.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"CONCRETO USINADO BOMBEÁVEL - 45MPA (5% PERDA) - SUPRAE…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"ARMADURA VIGA, PILAR E LAJE CA50 - 20,0 MM\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"M.O. Estrutura\",\n      \"itens_exemplo\": [\n        \"M.O. EMPREITADA SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Revestimento Interno\",\n      \"itens_exemplo\": [\n        \"MAO DE OBRA EMPREITADA REVESTIMENTO INTERNO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Revestimento Externo\",\n      \"itens_exemplo\": [\n        \"M.O. EMPREITADA REVESTIMENTO EXTERNO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos\",\n      \"itens_exemplo\": [\n        \"M.O. EMPREITADA PISOS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Paredes e Painéis\",\n      \"itens_exemplo\": [\n        \"EMPREITADA DE MÃO DE OBRA - PAREDES E PAINÉIS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias\",\n      \"sub_disciplina\": \"Alumínio\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS DE ALUMÍNIO - MATERIAL E MÃO DE OBRA\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "CONCRETO USINADO BOMBEÁVEL - 45MPA (5% PERDA) - SUPRAE…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "ARMADURA VIGA, PILAR E LAJE CA50 - 20,0 MM"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "M.O. Estrutura",
+        "itens_exemplo": [
+          "M.O. EMPREITADA SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento Interno",
+        "itens_exemplo": [
+          "MAO DE OBRA EMPREITADA REVESTIMENTO INTERNO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento Externo",
+        "itens_exemplo": [
+          "M.O. EMPREITADA REVESTIMENTO EXTERNO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos",
+        "itens_exemplo": [
+          "M.O. EMPREITADA PISOS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Paredes e Painéis",
+        "itens_exemplo": [
+          "EMPREITADA DE MÃO DE OBRA - PAREDES E PAINÉIS"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "ESQUADRIAS DE ALUMÍNIO - MATERIAL E MÃO DE OBRA"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [],
+    "fora_da_curva": []
+  }
+}

@@ -1681,5 +1681,189 @@
     "vidros": {
       "valor": 12894.4
     }
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 2027,
+      "total_observacoes": 45,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/terrassa-dom-bosco.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado - fck 35 MPa",
+          "Concreto Usinado (SUPRAESTRUTURA) - fck 35 MPa / Brita..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Aço/Armadura",
+        "itens_exemplo": [
+          "Aço CA-50 - 10,0 mm / incluso Corte e Dobra",
+          "Armadura de Aço, incluso Corte e Dobra, (SUPRAESTRUTUR..."
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Revestimentos",
+        "sub_disciplina": "Revestimento/Argamassa",
+        "itens_exemplo": [
+          "MOE - Revestimentos de Argamassa / Reboco Interno / Pa…",
+          "Argamassa Estabilizada para Uso Geral",
+          "MOE - Revestimentos de Argamassa / Reboco Interno (com…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Revestimentos",
+        "sub_disciplina": "Pintura",
+        "itens_exemplo": [
+          "MOE - Pinturas / Internas"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias/Metais",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de alumínio"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Especiais",
+        "sub_disciplina": "Fundação/Estacas",
+        "itens_exemplo": [
+          "Estimativas / Estacas - Serviços Terceirizados",
+          "MOE - Fundações / Execução Geral / Blocos, Pilares Arr…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Especiais",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Elevadores"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Geral",
+        "observacao": "Estimativa seguindo índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Quantitativo preliminar de estrutura",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Forma",
+        "observacao": "Consideração de dois jogos de fôrmas, 10 reaproveitamentos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Forma",
+        "observacao": "Composição considerando apenas desmoldante e pregos para montagem de formas. Compensado considerado em fabric…",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Por não ter divisão por bitola, consideração de custo de bitola 10,00 c…",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Esquadrias de alumínio",
+      "Estimativas / Estacas - Serviços Terceirizados",
+      "MOE - Supraestrutura / Execução Geral"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Estrutura",
+        "motivo": "Quantitativo preliminar de estrutura"
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:13:31",
+      "duration_s": 90.0,
+      "compact_chars": 2529
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "TERRASSA DOM BOSCO",
+      "data_base": "16/08/2022",
+      "cub_referencia": "CUB/SC 2.633,22"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Custos Indiretos",
+        "premissa": "Contempla: Projetos, consultorias; Canteiro de obra; Taxas e documentos; Administração da obra."
+      },
+      {
+        "area": "Consumo",
+        "premissa": "As despesas de consumo consideram o prazo de 36 meses de obra."
+      },
+      {
+        "area": "Equipamentos",
+        "premissa": "Consideração de locação de cremalheira, mini grua e balancim."
+      },
+      {
+        "area": "Fundações",
+        "premissa": "Estimativa para execução de fundação profunda; Estimativa para execução de blocos de coroamento; Vigas baldrames seguindo quantitativo preliminar disponibilizado."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Formas de pilares, vigas e laje em chapa de madeira compensada plastificada; Consideração de dois jogos de forma; Concreto 35MPa para supraestrutura; Armação com corte e dobra em indústria; Locação de escoras metálicas."
+      },
+      {
+        "area": "Alvenaria",
+        "premissa": "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico; Vergas/contravergas moldadas in loco."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Os valores das instalações foram lançados seguindo quantitativos de projetos."
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Impermeabilização de peitoris com manta líquida; Impermeabilização de banheiros, cozinhas e sacadas com argamassa polimérica; Limpeza final."
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": "BDI não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": "Encargos sociais não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Itens orçados",
+        "decisao": "Todos os itens considerados nesta etapa seguem as definições preenchidas pelo cliente;"
+      },
+      {
+        "contexto": "Preços",
+        "decisao": "Preços expressos em R$ (REAL)"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "ORÇAMENTO EXECUTIVO: GERENCIAMENTO TÉCNICO E ADMINISTRATIVO 14,42%; INFRAESTRUTURA 6,06%; SUPRAESTRUTURA 19,23%.",
+      "TOTAL ORÇADO: 22.356.494,19 (100,00%).",
+      "ANÁLISE DE CUSTOS (OBRA SIMILAR): INFRAESTRUTURA (110,00 - 160,00); SUPRAESTRUTURA (450,00 - 520,00)."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:53:07",
+      "duration_s": 88.1,
+      "excerpt_chars": 4330
+    }
   }
 }

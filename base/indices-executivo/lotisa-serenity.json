@@ -96,5 +96,140 @@
   "fachada_detail": {
     "_total": 790907.42
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 56,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/lotisa-serenity.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "ESTRUTURA DE CONCRETO ARMADO",
+        "itens_exemplo": [
+          "ESTRUTURA DE CONCRETO ARMADO"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "FUNDAÇÃO",
+        "itens_exemplo": [
+          "FUNDAÇÃO - ESTACAS, BLOCOS E BALDRAMES"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "ESQUADRIAS",
+        "itens_exemplo": [
+          "ESQUADRIAS METÁLICAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "REBOCO E CONTRAPISO",
+        "itens_exemplo": [
+          "REBOCO INTERNO E CONTRAPISO"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "ELÉTRICAS E LÓGICAS",
+        "itens_exemplo": [
+          "SISTEMAS E INSTALAÇÕES ELÉTRICAS E LOGICAS"
+        ]
+      },
+      {
+        "macrogrupo": "Vedação",
+        "sub_disciplina": "ALVENARIA E DIVISÓRIAS",
+        "itens_exemplo": [
+          "ALVENARIA, VEDAÇÕES, DIVISÓRIAS, CAIXAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "PISO E PAREDE",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "A composição dos itens e os valores são idênticos nas abas Executivo e ETAPAS."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:08:46",
+      "duration_s": 73.3,
+      "compact_chars": 1342
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "JULHO/21",
+      "cub_referencia": "R$ 2.307,92"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Projetos, estudos, laudos e consultorias",
+        "premissa": "Os projetos, estudos, laudos e consultorias considerados estão estimados conforme valores de mercado, não foram informados os valores já contratados e nem os projetos que seriam contratados futuramente;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Estacas hélice conforme projeto disponibilizados; Os quantitativos de blocos e baldrames foram levantados a partir do projeto; Movimentação de terra considerando escavação para blocos e baldrames; Contenção para …ação de terra considerando escavação para blocos e baldrames; Contenção para bloco principal com tipologia de Estacas Justapostas; Considerado aço cortado e dobrado em obra; Preços unitários conforme cotações recentes."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Supraestrutura quantificada conforme projetos fornecidos pela Lotisa; A partir do pavimento 22 foram considerados valores estimados por índices calculados em obras similares. Conforme especificação foi considerado aço cortado e dobrado em obra até o tipo 1, após está contemplado aço cortado e dobrado em indústria;"
+      },
+      {
+        "area": "Louças e Metais",
+        "premissa": "Foram consideradas as áreas comuns completas e os apartamentos apenas com bacias sanitárias e acabamentos de registro."
+      },
+      {
+        "area": "Reboco Interno e Contrapiso",
+        "premissa": "Contrapiso acústico nas áreas internas do apartamento, com exceção de áreas molhadas; Paredes revestidas com chapisco e reboco."
+      },
+      {
+        "area": "Revestimentos Externo e Acabamentos em Fachada",
+        "premissa": "Paredes revestidas com chapisco e reboco. Textura com pintura nas paredes externas; Acabamentos especiais de fachada considerando chapa de ACM branca e chapa Hunter Douglas."
+      },
+      {
+        "area": "Tetos e Forros",
+        "premissa": "Forro em gesso acartonado; Garagens e térreo com lajes aparentes considerado estucamento; Escadas considerando estucamento e pintura."
+      },
+      {
+        "area": "Equipamentos e Sistemas Especiais",
+        "premissa": "2 unidades de elevadores sociais e 1 unidade de elevador de serviço; Sistema de automação e telefonia."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Equipe de Administração da Obra",
+        "decisao": "Foi considerado o rateio da equipe gerencial técnica indireta, conforme alinhado em reunião com a Lotisa, sendo o valor de R$ 30.000,00 / mês, ao longo da obra, iniciando a partir do mês de julho/21."
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "A partir do pavimento 22 foram considerados valores estimados por índices calculados em obras similares."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Os itens de alimentação (marmitas), ticket, plano de saúde e bonificação, não estão descritos visto que não temos essa informação.",
+      "As despesas de consumo foram estimadas conforme médias de mercado.",
+      "Os equipamentos para execução da obra foram estimados, não possuímos especificações de quais serão utilizados."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:10:37",
+      "duration_s": 102.2,
+      "excerpt_chars": 4331
+    }
+  }
 }

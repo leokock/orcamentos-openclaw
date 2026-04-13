@@ -1808,5 +1808,72 @@
     "porcelanato": 120.26,
     "laminado": 141.43,
     "pintura": 162.96
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 1694,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mz-central-park.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Alvenaria",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura de concreto arm…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Reboco e Chapisco",
+        "itens_exemplo": [
+          "Mão de obra para execução de chapisco e reboco interno…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - tipo"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Mão de Obra e Pessoal",
+        "itens_exemplo": [
+          "Engenheiro civil",
+          "Mestre de obras"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Ambientação",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      },
+      {
+        "macrogrupo": "Reserva",
+        "sub_disciplina": "Contingência",
+        "itens_exemplo": [
+          "Imprevistos e Contingências"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Uso de unidades de tempo (mes) e área (m2) para cálculo de mão de obra.",
+      "Estrutura de cálculo de custo consistente (qtd, pu, R$ total)."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:31:39",
+      "duration_s": 63.3,
+      "compact_chars": 634
+    }
   }
 }

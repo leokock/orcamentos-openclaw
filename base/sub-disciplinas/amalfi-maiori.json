@@ -1,0 +1,84 @@
+{
+  "projeto": "amalfi-maiori",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:33:00",
+  "compact_chars": 1773,
+  "duration_s": 86.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"SUPRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"REVESTIMENTOS INTERNOS DE PAREDE\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS DE PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"PISOS E PAVIMENTAÇÕES\",\n      \"itens_exemplo\": [\n        \"PISOS E PAVIMENTAÇÕES\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"INFRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"SERVIÇOS COMPLEMENTARES\",\n      \"itens_exemplo\": [\n        \"SERVIÇOS COMPLEMENTARES\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"SÓ CONSIDERA UM POUCO DE MANTA E POLIMERICO\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"NÃO CONSIDERA TUDO OS INTEREIORES\",\n      \"categoria\": \"alerta\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Os valores de GERENCIAMENTO TÉCNICO E ADMINISTRATIVO e INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS são idênticos em Planilha1, ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "REVESTIMENTOS INTERNOS DE PAREDE",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS DE PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "PISOS E PAVIMENTAÇÕES",
+        "itens_exemplo": [
+          "PISOS E PAVIMENTAÇÕES"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "SERVIÇOS COMPLEMENTARES",
+        "itens_exemplo": [
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "SÓ CONSIDERA UM POUCO DE MANTA E POLIMERICO",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "NÃO CONSIDERA TUDO OS INTEREIORES",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Os valores de GERENCIAMENTO TÉCNICO E ADMINISTRATIVO e INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS são idênticos em Planilha1, ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS."
+    ],
+    "fora_da_curva": []
+  }
+}

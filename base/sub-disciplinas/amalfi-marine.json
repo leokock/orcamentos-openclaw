@@ -1,0 +1,73 @@
+{
+  "projeto": "amalfi-marine",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:34:00",
+  "compact_chars": 1173,
+  "duration_s": 60.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Geral\",\n      \"sub_disciplina\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"itens_exemplo\": [\n        \"pu=3135.89\",\n        \"pu=885.31\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"SUPRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"pu=484.53\",\n        \"pu=822.21\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Infraestrutura\",\n      \"sub_disciplina\": \"INFRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"pu=343.98\",\n        \"pu=583.72\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n      \"itens_exemplo\": [\n        \"pu=281.28\",\n        \"pu=477.32\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Serviços\",\n      \"sub_disciplina\": \"SERVIÇOS COMPLEMENTARES\",\n      \"itens_exemplo\": [\n        \"pu=241.25\",\n        \"pu=409.39\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Serviços\",\n      \"sub_disciplina\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"itens_exemplo\": [\n        \"pu=237.47\",\n        \"pu=402.97\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos\",\n      \"sub_disciplina\": \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n      \"itens_exemplo\": [\n        \"pu=171.78\",\n        \"pu=291.50\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"A estrutura de categorias de custo (Gerenciamento Técnico e Administrativo, Supraestrutura, Infraestrutura, etc.) é idêntica e repetida entre as seções ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Geral",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "pu=3135.89",
+          "pu=885.31"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=484.53",
+          "pu=822.21"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=343.98",
+          "pu=583.72"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "pu=281.28",
+          "pu=477.32"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Serviços",
+        "sub_disciplina": "SERVIÇOS COMPLEMENTARES",
+        "itens_exemplo": [
+          "pu=241.25",
+          "pu=409.39"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Serviços",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "pu=237.47",
+          "pu=402.97"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos",
+        "sub_disciplina": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "itens_exemplo": [
+          "pu=171.78",
+          "pu=291.50"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "A estrutura de categorias de custo (Gerenciamento Técnico e Administrativo, Supraestrutura, Infraestrutura, etc.) é idêntica e repetida entre as seções ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS."
+    ],
+    "fora_da_curva": []
+  }
+}

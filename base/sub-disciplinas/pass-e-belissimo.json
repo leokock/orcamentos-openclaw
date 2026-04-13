@@ -1,0 +1,66 @@
+{
+  "projeto": "pass-e-belissimo",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:53:00",
+  "compact_chars": 504,
+  "duration_s": 77.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Alvenaria\",\n      \"itens_exemplo\": [\n        \"ALVENARIA ESTRUTURAL\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Infraestrutura\",\n      \"sub_disciplina\": \"Infraestrutura Geral\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica/Hidrossanitária\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Piso e Parede\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Gestão e Serviços\",\n      \"sub_disciplina\": \"Administrativo\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"A apresentação segue um padrão de custo unitário (pu=X) e custo total (R$Y) para cada macro-grupo.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA ESTRUTURAL"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "Infraestrutura Geral",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica/Hidrossanitária",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Serviços",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "A apresentação segue um padrão de custo unitário (pu=X) e custo total (R$Y) para cada macro-grupo."
+    ],
+    "fora_da_curva": []
+  }
+}

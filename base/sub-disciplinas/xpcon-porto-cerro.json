@@ -1,0 +1,101 @@
+{
+  "projeto": "xpcon-porto-cerro",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:23:14",
+  "compact_chars": 3325,
+  "duration_s": 115.6,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura/Execução\",\n      \"sub_disciplina\": \"Concreto/Fundação\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado bombeável para estacas 40MPa - inclu…\",\n        \"Locação de Escoramento Metálico\",\n        \"Mão de obra execução de massa única em paredes interna…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Instalações\",\n      \"sub_disciplina\": \"Louças e Metais\",\n      \"itens_exemplo\": [\n        \"Vaso sanitário deca branco\",\n        \"Cuba de embutir\",\n        \"Bancada em granito\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Técnicos/Administrativos\",\n      \"sub_disciplina\": \"Locação de Equipamentos\",\n      \"itens_exemplo\": [\n        \"Locação de Grua Tipo Torre Ascensional\",\n        \"Locação de Elevador Cremalheira\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Fundação/Estrutura\",\n      \"observacao\": \"Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 2 meses.\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Fundação/Estrutura\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Fundação/Estrutura\",\n      \"observacao\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Materiais/Perdas\",\n      \"observacao\": \"Considerado sem indicação em projeto, consideração de 13% de perda\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Revisão\",\n      \"observacao\": \"Adicionado/alterado em reivsao\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Orçamento\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Custos\",\n      \"observacao\": \"Custo de contratação Cartesian\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Cálculo\",\n      \"observacao\": \"Confrome cálculo da aba \\\"Canteiro\\\"\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Serviços de Terra\",\n      \"observacao\": \"Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 500,00/caçamba\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Área específica\",\n      \"observacao\": \"Cozinhas/areas de serviço\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"O bloco de itens 'Ger_Executivo' é repetido integralmente.\",\n    \"O bloco de itens 'Ger_Tec e Adm' é repetido integralmente.\",\n    \"O item 'Vaso sanitário deca branco' aparece múltiplas vezes com quantidades e valores diferentes.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura/Execução",
+        "sub_disciplina": "Concreto/Fundação",
+        "itens_exemplo": [
+          "Concreto Usinado bombeável para estacas 40MPa - inclu…",
+          "Locação de Escoramento Metálico",
+          "Mão de obra execução de massa única em paredes interna…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Instalações",
+        "sub_disciplina": "Louças e Metais",
+        "itens_exemplo": [
+          "Vaso sanitário deca branco",
+          "Cuba de embutir",
+          "Bancada em granito"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Técnicos/Administrativos",
+        "sub_disciplina": "Locação de Equipamentos",
+        "itens_exemplo": [
+          "Locação de Grua Tipo Torre Ascensional",
+          "Locação de Elevador Cremalheira"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 2 meses.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Materiais/Perdas",
+        "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Revisão",
+        "observacao": "Adicionado/alterado em reivsao",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custos",
+        "observacao": "Custo de contratação Cartesian",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Confrome cálculo da aba \"Canteiro\"",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Serviços de Terra",
+        "observacao": "Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 500,00/caçamba",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Área específica",
+        "observacao": "Cozinhas/areas de serviço",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "O bloco de itens 'Ger_Executivo' é repetido integralmente.",
+      "O bloco de itens 'Ger_Tec e Adm' é repetido integralmente.",
+      "O item 'Vaso sanitário deca branco' aparece múltiplas vezes com quantidades e valores diferentes."
+    ],
+    "fora_da_curva": []
+  }
+}

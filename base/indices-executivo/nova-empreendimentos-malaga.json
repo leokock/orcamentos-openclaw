@@ -134,5 +134,55 @@
     "vidros": {
       "valor": 1220681.6
     }
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 102,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/nova-empreendimentos-malaga.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Forro",
+        "itens_exemplo": [
+          "Execução de forro em ACM"
+        ]
+      },
+      {
+        "macrogrupo": "Pavimentação",
+        "sub_disciplina": "Piso e Caminho",
+        "itens_exemplo": [
+          "Passeio em Paver",
+          "Pisograma"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Meio-Fio Concreto Pré-Fabricado"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Execução de forro em ACM"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Piso tátil Bolinha Alerta Inox, 1m",
+        "motivo": "Alerta"
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:41:15",
+      "duration_s": 53.7,
+      "compact_chars": 524
+    }
   }
 }

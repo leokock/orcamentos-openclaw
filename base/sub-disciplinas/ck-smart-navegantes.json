@@ -1,0 +1,65 @@
+{
+  "projeto": "ck-smart-navegantes",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:14:09",
+  "compact_chars": 930,
+  "duration_s": 61.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto Armado\",\n      \"itens_exemplo\": [\n        \"Estrutura de Concreto Armado - MO - Contrato AJF - CT/…\",\n        \"Concreto Usinado 35Mpa Slump 10+-2 Bombeado\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Fundação\",\n      \"itens_exemplo\": [\n        \"Fundação em Hélice Contínua\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Equipamentos\",\n      \"itens_exemplo\": [\n        \"Máquinas e Equipamentos\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Área Comum\",\n      \"sub_disciplina\": \"Mobiliário e Decorações\",\n      \"itens_exemplo\": [\n        \"Área Comum (Mobiliário e decorações)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Contingência\",\n      \"itens_exemplo\": [\n        \"Itens eventuais e não orçados - 1,5% custo raso\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Localização\",\n      \"observacao\": \"Rua Manoel Candido Couto, 77 - Esquina com Rua Honorato Coelho da Rocha - Centro - Navegantes/SC - 88370-092\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Revisão de Projeto\",\n      \"observacao\": \"8 - 29/03/2021 - 08:13:27 - Revisão esquadrias R01\",\n      \"categoria\": \"revisao\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Estrutura de Concreto Armado - MO - Contrato AJF - CT/…\",\n    \"Concreto Usinado 35Mpa Slump 10+-2 Bombeado\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto Armado",
+        "itens_exemplo": [
+          "Estrutura de Concreto Armado - MO - Contrato AJF - CT/…",
+          "Concreto Usinado 35Mpa Slump 10+-2 Bombeado"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "Fundação em Hélice Contínua"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Máquinas e Equipamentos"
+        ]
+      },
+      {
+        "macrogrupo": "Área Comum",
+        "sub_disciplina": "Mobiliário e Decorações",
+        "itens_exemplo": [
+          "Área Comum (Mobiliário e decorações)"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Contingência",
+        "itens_exemplo": [
+          "Itens eventuais e não orçados - 1,5% custo raso"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Localização",
+        "observacao": "Rua Manoel Candido Couto, 77 - Esquina com Rua Honorato Coelho da Rocha - Centro - Navegantes/SC - 88370-092",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Revisão de Projeto",
+        "observacao": "8 - 29/03/2021 - 08:13:27 - Revisão esquadrias R01",
+        "categoria": "revisao"
+      }
+    ],
+    "padroes_identificados": [
+      "Estrutura de Concreto Armado - MO - Contrato AJF - CT/…",
+      "Concreto Usinado 35Mpa Slump 10+-2 Bombeado"
+    ],
+    "fora_da_curva": []
+  }
+}

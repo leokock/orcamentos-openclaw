@@ -1,0 +1,60 @@
+{
+  "projeto": "mussi-empreendimentos-brookliin",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:25:30",
+  "compact_chars": 514,
+  "duration_s": 68.2,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Instalações Gerais\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Piso e Parede\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Vedação e Elementos Fixos\",\n      \"sub_disciplina\": \"Alvenaria\",\n      \"itens_exemplo\": [\n        \"ALVENARIA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Vedação e Elementos Fixos\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Administrativo\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Apresentação de custo unitário (pu) e valor total para cada disciplina.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Instalações Gerais",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Vedação e Elementos Fixos",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA"
+        ]
+      },
+      {
+        "macrogrupo": "Vedação e Elementos Fixos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Apresentação de custo unitário (pu) e valor total para cada disciplina."
+    ],
+    "fora_da_curva": []
+  }
+}

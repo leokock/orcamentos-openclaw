@@ -127,5 +127,141 @@
     "ceramica": 51.11,
     "chapisco": 12.75,
     "reboco": 31.8
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 12,
+      "total_itens": 10680,
+      "total_observacoes": 127,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/neuhaus-origem.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4...",
+          "Concreto usinado bombeável, para estacas, fck 40MPa, s...",
+          "Concreto Usinado bombeável 20MPa Convencional"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura/Metais",
+        "itens_exemplo": [
+          "Aço CA50 10,0 mm",
+          "Aço CA50 12,5 mm",
+          "Aço CA50 16,0mm"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Execução",
+        "itens_exemplo": [
+          "Mão de Obra para Execução de Estrutura de Concreto Arm...",
+          "Central de fôrmas",
+          "BLOCO CONCRETO ESTRUTURAL 03MPA 14X19X39CM NBR 6136"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Esquadrias",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio Janelas e Portas - fornecimento..."
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos/Mobiliário",
+        "sub_disciplina": "Elevação",
+        "itens_exemplo": [
+          "Elevadores",
+          "Aquisição de elevador cremalheira"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos/Mobiliário",
+        "sub_disciplina": "Mobiliário e Decoração",
+        "itens_exemplo": [
+          "Cadeira bruta - Roberta Banqueri",
+          "Conjunto de Mesas de Centro Gota 1000 e 1200 Zanini de Zanine (SIMILAR)",
+          "CHAISE LONGUE FLUFE KONKRET (SIMILAR)"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços/Consultoria",
+        "sub_disciplina": "Serviços Técnicos",
+        "itens_exemplo": [
+          "ICAD",
+          "TPC",
+          "Solo Criado"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Pavimento G1",
+        "observacao": "Consideração de 2 jogos referentes ao pavimento G1",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Pavimento Tipo Graden",
+        "observacao": "Consideração de 3 jogos referentes ao pavimento Tipo Graden",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Telêfonia",
+        "observacao": "Não tem telefonia nesse pavimento",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Chapisco",
+        "observacao": "Considerado 30% do chapisco extraido do visus",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Chapisco",
+        "observacao": "Considerado 70% do chapisco extraido do visus",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cadeira Maya S - IV",
+        "observacao": "sem braço (SIMILAR)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Conjunto de Mesas de Centro Gota 1000 e 1200 Zanini de Zanine",
+        "observacao": "(SIMILAR)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Bar centro Teca",
+        "observacao": "(SIMILAR)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "CHAISE LONGUE FLUFE KONKRET",
+        "observacao": "(SIMILAR)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Aparador Freme - Jader Almeida",
+        "observacao": "(SIMILAR)",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso do termo (SIMILAR) em múltiplos itens de mobiliário.",
+      "Repetição de 'Central de aço' em diferentes unidades de medida (M2, M3, KG, UN).",
+      "Repetição do item 'Área:' com diferentes quantidades e valores no módulo MOBILIÁRIO."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:34:20",
+      "duration_s": 106.7,
+      "compact_chars": 2766
+    }
   }
 }

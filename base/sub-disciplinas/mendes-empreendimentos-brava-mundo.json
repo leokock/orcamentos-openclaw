@@ -1,0 +1,75 @@
+{
+  "projeto": "mendes-empreendimentos-brava-mundo",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:16:54",
+  "compact_chars": 1533,
+  "duration_s": 72.6,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto e Fundações\",\n      \"itens_exemplo\": [\n        \"Mão de Obra para Execução de Estrutura de Concreto Arm…\",\n        \"Mão de Obra para Execução de Infraestrutura - Blocos e…\",\n        \"Escavação mecanizada para blocos de fundação e vigas b…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armação de aço CA-50, diâmetro de 25,00mm para supraes…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fachada e Vedação\",\n      \"sub_disciplina\": \"Vidros e Alumínio\",\n      \"itens_exemplo\": [\n        \"Pele de vidro - Pvto. Diferenciado\",\n        \"Esquadrias de alumínio, fornecimento e instalação - 6°…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Mão de Obra\",\n      \"itens_exemplo\": [\n        \"Mestre de obras\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Brava Mundo\",\n      \"observacao\": \"Custo de Obra\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"BRAVA MUNDO\",\n      \"observacao\": \"CUSTOS DIRETOS DE OBRA\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Rua Delfim Mario de Padua Peixoto, 900 - Praia Brava - Itajaí/SC - 88306-813\",\n      \"observacao\": \"Endereço do projeto\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"20/04/2022 - 10:38:13\",\n      \"observacao\": \"Revisão do orçamento\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"BRAVA MUNDO\",\n      \"observacao\": \"AMBIENTAÇÃO\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Referência constante ao nome 'Brava Mundo' em títulos e observações.\",\n    \"A estrutura de custos é apresentada em blocos de resumo (TOTAL, SUPRAESTRUTURA, etc.) e detalhamento (Relatório).\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Fundações",
+        "itens_exemplo": [
+          "Mão de Obra para Execução de Estrutura de Concreto Arm…",
+          "Mão de Obra para Execução de Infraestrutura - Blocos e…",
+          "Escavação mecanizada para blocos de fundação e vigas b…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação de aço CA-50, diâmetro de 25,00mm para supraes…"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Vedação",
+        "sub_disciplina": "Vidros e Alumínio",
+        "itens_exemplo": [
+          "Pele de vidro - Pvto. Diferenciado",
+          "Esquadrias de alumínio, fornecimento e instalação - 6°…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Mestre de obras"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Brava Mundo",
+        "observacao": "Custo de Obra",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "BRAVA MUNDO",
+        "observacao": "CUSTOS DIRETOS DE OBRA",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Rua Delfim Mario de Padua Peixoto, 900 - Praia Brava - Itajaí/SC - 88306-813",
+        "observacao": "Endereço do projeto",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "20/04/2022 - 10:38:13",
+        "observacao": "Revisão do orçamento",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "BRAVA MUNDO",
+        "observacao": "AMBIENTAÇÃO",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Referência constante ao nome 'Brava Mundo' em títulos e observações.",
+      "A estrutura de custos é apresentada em blocos de resumo (TOTAL, SUPRAESTRUTURA, etc.) e detalhamento (Relatório)."
+    ],
+    "fora_da_curva": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "projeto": "terrassa-dom-bosco",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:53:07",
+  "excerpt_chars": 4330,
+  "duration_s": 88.1,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": null,\n    \"ur\": null,\n    \"tipologia\": \"TERRASSA DOM BOSCO\",\n    \"data_base\": \"16/08/2022\",\n    \"cub_referencia\": \"CUB/SC 2.633,22\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Custos Indiretos\",\n      \"premissa\": \"Contempla: Projetos, consultorias; Canteiro de obra; Taxas e documentos; Administração da obra.\"\n    },\n    {\n      \"area\": \"Consumo\",\n      \"premissa\": \"As despesas de consumo consideram o prazo de 36 meses de obra.\"\n    },\n    {\n      \"area\": \"Equipamentos\",\n      \"premissa\": \"Consideração de locação de cremalheira, mini grua e balancim.\"\n    },\n    {\n      \"area\": \"Fundações\",\n      \"premissa\": \"Estimativa para execução de fundação profunda; Estimativa para execução de blocos de coroamento; Vigas baldrames seguindo quantitativo preliminar disponibilizado.\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Formas de pilares, vigas e laje em chapa de madeira compensada plastificada; Consideração de dois jogos de forma; Concreto 35MPa para supraestrutura; Armação com corte e dobra em indústria; Locação de escoras metálicas.\"\n    },\n    {\n      \"area\": \"Alvenaria\",\n      \"premissa\": \"Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico; Vergas/contravergas moldadas in loco.\"\n    },\n    {\n      \"area\": \"Instalações\",\n      \"premissa\": \"Os valores das instalações foram lançados seguindo quantitativos de projetos.\"\n    },\n    {\n      \"area\": \"Impermeabilização\",\n      \"premissa\": \"Impermeabilização de peitoris com manta líquida; Impermeabilização de banheiros, cozinhas e sacadas com argamassa polimérica; Limpeza final.\"\n    }\n  ],\n  \"bdi_encargos\": [\n    {\n      \"componente\": \"BDI\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": \"BDI não aplicado\"\n    },\n    {\n      \"componente\": \"Encargos sociais\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": \"Encargos sociais não aplicado\"\n    }\n  ],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Itens orçados\",\n      \"decisao\": \"Todos os itens considerados nesta etapa seguem as definições preenchidas pelo cliente;\"\n    },\n    {\n      \"contexto\": \"Preços\",\n      \"decisao\": \"Preços expressos em R$ (REAL)\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"ORÇAMENTO EXECUTIVO: GERENCIAMENTO TÉCNICO E ADMINISTRATIVO 14,42%; INFRAESTRUTURA 6,06%; SUPRAESTRUTURA 19,23%.\",\n    \"TOTAL ORÇADO: 22.356.494,19 (100,00%).\",\n    \"ANÁLISE DE CUSTOS (OBRA SIMILAR): INFRAESTRUTURA (110,00 - 160,00); SUPRAESTRUTURA (450,00 - 520,00).\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "TERRASSA DOM BOSCO",
+      "data_base": "16/08/2022",
+      "cub_referencia": "CUB/SC 2.633,22"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Custos Indiretos",
+        "premissa": "Contempla: Projetos, consultorias; Canteiro de obra; Taxas e documentos; Administração da obra."
+      },
+      {
+        "area": "Consumo",
+        "premissa": "As despesas de consumo consideram o prazo de 36 meses de obra."
+      },
+      {
+        "area": "Equipamentos",
+        "premissa": "Consideração de locação de cremalheira, mini grua e balancim."
+      },
+      {
+        "area": "Fundações",
+        "premissa": "Estimativa para execução de fundação profunda; Estimativa para execução de blocos de coroamento; Vigas baldrames seguindo quantitativo preliminar disponibilizado."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Formas de pilares, vigas e laje em chapa de madeira compensada plastificada; Consideração de dois jogos de forma; Concreto 35MPa para supraestrutura; Armação com corte e dobra em indústria; Locação de escoras metálicas."
+      },
+      {
+        "area": "Alvenaria",
+        "premissa": "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico; Vergas/contravergas moldadas in loco."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Os valores das instalações foram lançados seguindo quantitativos de projetos."
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Impermeabilização de peitoris com manta líquida; Impermeabilização de banheiros, cozinhas e sacadas com argamassa polimérica; Limpeza final."
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": "BDI não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": "Encargos sociais não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Itens orçados",
+        "decisao": "Todos os itens considerados nesta etapa seguem as definições preenchidas pelo cliente;"
+      },
+      {
+        "contexto": "Preços",
+        "decisao": "Preços expressos em R$ (REAL)"
+      }
+    ],
+    "observacoes_chave": [
+      "ORÇAMENTO EXECUTIVO: GERENCIAMENTO TÉCNICO E ADMINISTRATIVO 14,42%; INFRAESTRUTURA 6,06%; SUPRAESTRUTURA 19,23%.",
+      "TOTAL ORÇADO: 22.356.494,19 (100,00%).",
+      "ANÁLISE DE CUSTOS (OBRA SIMILAR): INFRAESTRUTURA (110,00 - 160,00); SUPRAESTRUTURA (450,00 - 520,00)."
+    ]
+  }
+}

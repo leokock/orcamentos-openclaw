@@ -1,0 +1,61 @@
+{
+  "projeto": "nm-empreendimentos",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:32:42",
+  "excerpt_chars": 1500,
+  "duration_s": 70.0,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"1.540,93 m²\",\n    \"ur\": null,\n    \"tipologia\": \"RESIDENCIAL SUIÇA HOMENAVEGANTES\",\n    \"data_base\": \"JAN/23\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Contempla: Canteiro de obra; Administração da obra; Custos de projetos; Custos considerando prazo de 18 meses de obra.\"\n    },\n    {\n      \"area\": \"Equipamentos\",\n      \"premissa\": \"Locação de elevador cremalheira; Locação de andaime fachadeiro; Locação de carro com caçamba.\"\n    },\n    {\n      \"area\": \"Movimentação de Terra\",\n      \"premissa\": \"Escavação e reaterro de valas; Movimentação de bota-fora; Lastro de concreto magro.\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Fundação em sapatas; Armação com corte e dobra em obra; Formas de sapatas e baldrames em madeira compensada resinada, considerando 2 utilizações; Concreto usinado de 30 MPa para sapatas e baldrames.\"\n    },\n    {\n      \"area\": \"Superestrutura\",\n      \"premissa\": \"Fabricação de forma de pilares, vigas, lajes e escadarias em compensado plastificado 17 mm, considerando 2 jogos de forma; Lajes treliçadas com enchimento em EPS; Armação com corte e dobra em obra; Concreto de 30 Mpa.\"\n    },\n    {\n      \"area\": \"Alvenaria de Vedação\",\n      \"premissa\": \"Blocos cerâmicos de vedação com argamassa produzida em obra para assentamento; Verga e contraverga de concreto moldada in loco; Encunhamento com argamassa expansiva; Amarração de alvenaria e estrutura com tela soldada; Fechamento de shaft com tela estuque e reboco.\"\n    },\n    {\n      \"area\": \"Instalações\",\n      \"premissa\": \"Quantitativos levantados seguindo listas disponíveis.\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Formas de sapatas e baldrames\",\n      \"decisao\": \"Madeira compensada resinada, considerando 2 utilizações.\"\n    },\n    {\n      \"contexto\": \"Forma de pilares, vigas, lajes e escadarias\",\n      \"decisao\": \"Compensado plastificado 17 mm, considerando 2 jogos de forma.\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico.\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "1.540,93 m²",
+      "ur": null,
+      "tipologia": "RESIDENCIAL SUIÇA HOMENAVEGANTES",
+      "data_base": "JAN/23",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Contempla: Canteiro de obra; Administração da obra; Custos de projetos; Custos considerando prazo de 18 meses de obra."
+      },
+      {
+        "area": "Equipamentos",
+        "premissa": "Locação de elevador cremalheira; Locação de andaime fachadeiro; Locação de carro com caçamba."
+      },
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Escavação e reaterro de valas; Movimentação de bota-fora; Lastro de concreto magro."
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Fundação em sapatas; Armação com corte e dobra em obra; Formas de sapatas e baldrames em madeira compensada resinada, considerando 2 utilizações; Concreto usinado de 30 MPa para sapatas e baldrames."
+      },
+      {
+        "area": "Superestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes e escadarias em compensado plastificado 17 mm, considerando 2 jogos de forma; Lajes treliçadas com enchimento em EPS; Armação com corte e dobra em obra; Concreto de 30 Mpa."
+      },
+      {
+        "area": "Alvenaria de Vedação",
+        "premissa": "Blocos cerâmicos de vedação com argamassa produzida em obra para assentamento; Verga e contraverga de concreto moldada in loco; Encunhamento com argamassa expansiva; Amarração de alvenaria e estrutura com tela soldada; Fechamento de shaft com tela estuque e reboco."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Quantitativos levantados seguindo listas disponíveis."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Formas de sapatas e baldrames",
+        "decisao": "Madeira compensada resinada, considerando 2 utilizações."
+      },
+      {
+        "contexto": "Forma de pilares, vigas, lajes e escadarias",
+        "decisao": "Compensado plastificado 17 mm, considerando 2 jogos de forma."
+      }
+    ],
+    "observacoes_chave": [
+      "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico."
+    ]
+  }
+}

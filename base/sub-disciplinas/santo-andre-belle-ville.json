@@ -1,0 +1,114 @@
+{
+  "projeto": "santo-andre-belle-ville",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:07:38",
+  "compact_chars": 3638,
+  "duration_s": 114.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto e Fundações\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 4…\",\n        \"Mão de obra para execução de estrutura de concreto arm…\",\n        \"Concreto usinado bombeável, para estacas, fck 30MPa, s…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Revestimentos\",\n      \"sub_disciplina\": \"Pisos e Paredes\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias e Vidros\",\n      \"sub_disciplina\": \"Alumínio e Vidro\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Guarda Corpo de Vidro e Aluminio - fornecimento e inst…\",\n        \"Esquadrias de alumínio - TIPO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Sistemas\",\n      \"sub_disciplina\": \"Elétrica e Hidráulica\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n        \"Instalações de água quente\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Mobiliário e Equipamentos\",\n      \"itens_exemplo\": [\n        \"Mobiliário e decoração\",\n        \"Elevadores\",\n        \"Ambientação\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Área\",\n      \"observacao\": \"Considerado área do subsolo conforme projeto de terraplanagem\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Data de Entrega\",\n      \"observacao\": \"Valor considerado na entrega parcial dia 25/11/24\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Escopo\",\n      \"observacao\": \"Incluso quantidade da contenção\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Escopo\",\n      \"observacao\": \"Incluso dos blocos e vigas baldrames, mais da laje armada\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Cálculo de Estacas\",\n      \"observacao\": \"Considerado 30% de impolamento, considerando as estacas de contenção e estacas\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Detalhe de Forma\",\n      \"observacao\": \"Montagem e desmontagem de fôrma de pilares, em chapa de madeira compensada plastificada*\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Detalhe de Forma\",\n      \"observacao\": \"Montagem e desmontagem de fôrma de lajes, em chapa de madeira compensada plastificada*\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Detalhe de Forma\",\n      \"observacao\": \"Montagem e desmontagem de fôrma de escadarias, em chapa de madeira compensada plastificada*\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Detalhe de Forma\",\n      \"observacao\": \"Fabricação de fôrma para pilares, em chapa de madeira compensada plastificada, e=18mm*\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Detalhe de Forma\",\n      \"observacao\": \"Fabricação de fôrma para vigas, em chapa de madeira compensada plastificada, e=18mm*\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"Concreto usinado bombeável, para supraestrutura, fck 4…\",\n    \"Esquadrias\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Fundações",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…",
+          "Mão de obra para execução de estrutura de concreto arm…",
+          "Concreto usinado bombeável, para estacas, fck 30MPa, s…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias e Vidros",
+        "sub_disciplina": "Alumínio e Vidro",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Guarda Corpo de Vidro e Aluminio - fornecimento e inst…",
+          "Esquadrias de alumínio - TIPO"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "Instalações de água quente"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Mobiliário e Equipamentos",
+        "itens_exemplo": [
+          "Mobiliário e decoração",
+          "Elevadores",
+          "Ambientação"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Área",
+        "observacao": "Considerado área do subsolo conforme projeto de terraplanagem",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Data de Entrega",
+        "observacao": "Valor considerado na entrega parcial dia 25/11/24",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escopo",
+        "observacao": "Incluso quantidade da contenção",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escopo",
+        "observacao": "Incluso dos blocos e vigas baldrames, mais da laje armada",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo de Estacas",
+        "observacao": "Considerado 30% de impolamento, considerando as estacas de contenção e estacas",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhe de Forma",
+        "observacao": "Montagem e desmontagem de fôrma de pilares, em chapa de madeira compensada plastificada*",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhe de Forma",
+        "observacao": "Montagem e desmontagem de fôrma de lajes, em chapa de madeira compensada plastificada*",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhe de Forma",
+        "observacao": "Montagem e desmontagem de fôrma de escadarias, em chapa de madeira compensada plastificada*",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhe de Forma",
+        "observacao": "Fabricação de fôrma para pilares, em chapa de madeira compensada plastificada, e=18mm*",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhe de Forma",
+        "observacao": "Fabricação de fôrma para vigas, em chapa de madeira compensada plastificada, e=18mm*",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "Concreto usinado bombeável, para supraestrutura, fck 4…",
+      "Esquadrias"
+    ],
+    "fora_da_curva": []
+  }
+}

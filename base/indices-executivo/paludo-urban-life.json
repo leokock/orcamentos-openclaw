@@ -98,5 +98,129 @@
   "instalacoes_extraction_method": "Gerenciamento executivo (combined macro)",
   "sistemas_especiais_detail": {
     "total": 1003856.6
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 38,
+      "total_observacoes": 10,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/paludo-urban-life.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Envelopamento",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Interiores",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "MEP e Serviços Especiais",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "SISTEMAS E EQUIPAMENTOS ESPECIAIS"
+        ]
+      },
+      {
+        "macrogrupo": "Administrativo e Geral",
+        "sub_disciplina": "Gestão e Serviços",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "SUPRAESTRUTURA",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "ACABAMENTOS EM PISO E PAREDE"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:46:15",
+      "duration_s": 87.6,
+      "compact_chars": 1593
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "OBRA RESIDENCIAL",
+      "data_base": "04/02/2021",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Preços expressos em R$ (REAL)"
+      },
+      {
+        "area": "Escopo",
+        "premissa": "Tipo de obra 1 - Construção Civil"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": "BDI não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": "Encargos sociais não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Obra 511 - OBRA RESIDENCIAL URBAN LIFE",
+      "Unidade construtiva 3 - Custos Indiretos de Obra - UC 1",
+      "Unidade construtiva 4 - Custos Diretos de Obra - UC 2 (Materiais e Mão de Obra Aplicados)"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:38:45",
+      "duration_s": 59.9,
+      "excerpt_chars": 4331
+    }
   }
 }

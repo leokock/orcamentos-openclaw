@@ -1,0 +1,66 @@
+{
+  "projeto": "inbrasul-aguas-de-marco",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:59:51",
+  "compact_chars": 539,
+  "duration_s": 72.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"sub_disciplina\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"SUPRAESTRUTURA\",\n      \"sub_disciplina\": \"SUPRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ESQUADRIAS\",\n      \"sub_disciplina\": \"ESQUADRIAS\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…\",\n      \"sub_disciplina\": \"INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"SERVIÇOS COMPLEMENTARES\",\n      \"sub_disciplina\": \"SERVIÇOS COMPLEMENTARES\",\n      \"itens_exemplo\": [\n        \"SERVIÇOS COMPLEMENTARES\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"sub_disciplina\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"sub_disciplina\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Estrutura de apresentação: [MACROGRUPO] | pu=X | R$Y\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "SUPRAESTRUTURA",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS",
+        "sub_disciplina": "ESQUADRIAS",
+        "itens_exemplo": [
+          "ESQUADRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "SERVIÇOS COMPLEMENTARES",
+        "sub_disciplina": "SERVIÇOS COMPLEMENTARES",
+        "itens_exemplo": [
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS EM PISO E PAREDE",
+        "sub_disciplina": "ACABAMENTOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "sub_disciplina": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Estrutura de apresentação: [MACROGRUPO] | pu=X | R$Y"
+    ],
+    "fora_da_curva": []
+  }
+}

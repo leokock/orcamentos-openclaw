@@ -1,0 +1,97 @@
+{
+  "projeto": "viva4-pio4",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:17:32",
+  "compact_chars": 3079,
+  "duration_s": 91.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Fundação\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de fundação rasa e profunda\",\n        \"Considerado blocos e vigas de fundação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 35MPa Bombeavel\",\n        \"Mão de obra para execução de supraestrutura de concret…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica\",\n      \"itens_exemplo\": [\n        \"Mão de obra para instalações elétricas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidráulica\",\n      \"itens_exemplo\": [\n        \"Mão de obra Instalação Hidráulica\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Paredes e Texturas\",\n      \"itens_exemplo\": [\n        \"Mão de obra para pintura acrílica em paredes internas,…\",\n        \"Mão de obra para aplicação de textura em paredes exter…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Revestimentos\",\n      \"itens_exemplo\": [\n        \"Mão de Obra Piso Porcenato/ Cerâmico\",\n        \"REVESTIMENTOS INTERNOS DE PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias\",\n      \"sub_disciplina\": \"Vidros e Alumínio\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio Janelas e Portas - fornecimento…\",\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Considerando 30% de empolamento\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estrutura/Prazo\",\n      \"observacao\": \"Considerada uma bomba para cada 250m² de laje baldrame, e duração de 4 meses\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"observacao\": \"Considerado blocos e vigas de fundação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo Empreiteiro Global recebido Cliente\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Os valores de grandes grupos de custo (SUPRAESTRUTURA, INSTALAÇÕES, ESQUADRIAS, etc.) são idênticos entre as seções ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "Mão de obra para execução de fundação rasa e profunda",
+          "Considerado blocos e vigas de fundação"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 35MPa Bombeavel",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mão de obra para instalações elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica",
+        "itens_exemplo": [
+          "Mão de obra Instalação Hidráulica"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Paredes e Texturas",
+        "itens_exemplo": [
+          "Mão de obra para pintura acrílica em paredes internas,…",
+          "Mão de obra para aplicação de textura em paredes exter…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Mão de Obra Piso Porcenato/ Cerâmico",
+          "REVESTIMENTOS INTERNOS DE PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Vidros e Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio Janelas e Portas - fornecimento…",
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Geral",
+        "observacao": "Considerando 30% de empolamento",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura/Prazo",
+        "observacao": "Considerada uma bomba para cada 250m² de laje baldrame, e duração de 4 meses",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Considerado blocos e vigas de fundação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo Empreiteiro Global recebido Cliente",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Os valores de grandes grupos de custo (SUPRAESTRUTURA, INSTALAÇÕES, ESQUADRIAS, etc.) são idênticos entre as seções ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS."
+    ],
+    "fora_da_curva": []
+  }
+}

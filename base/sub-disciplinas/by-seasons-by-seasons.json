@@ -1,0 +1,106 @@
+{
+  "projeto": "by-seasons-by-seasons",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:51:25",
+  "compact_chars": 3053,
+  "duration_s": 100.5,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Acabamento\",\n      \"sub_disciplina\": \"Concreto e Fundação\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável para estacas FCK 40 MPA bri…\",\n        \"Mão de obra para execução de supraestrutura de concret…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Acabamento\",\n      \"sub_disciplina\": \"Fachada e Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Pele de vidro\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços e Consultoria\",\n      \"sub_disciplina\": \"Mão de Obra e Serviços Gerais\",\n      \"itens_exemplo\": [\n        \"Engenheiro\",\n        \"Mestre\",\n        \"Remoção de entulhos e resíduos\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Áreas e Superfícies\",\n      \"itens_exemplo\": [\n        \"Área:\",\n        \"Área:\",\n        \"Área:\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica e Energia\",\n      \"itens_exemplo\": [\n        \"Mao de obra de instalacoes eletricas\",\n        \"Quadros e Disjuntores\",\n        \"Entrada de Energia\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidráulica e Segurança\",\n      \"itens_exemplo\": [\n        \"Instalacoes de Agua Fria\",\n        \"Instalacoes de Esgoto\",\n        \"Instalacos do Sistema Preventivo de Incendio - incluso…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Louças e Metais\",\n      \"sub_disciplina\": \"Sanitários e Metais\",\n      \"itens_exemplo\": [\n        \"Vaso sanitário deca branco\",\n        \"Torneira pia inox bancada\",\n        \"Acabamento metálico para registro de gaveta\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Profundidade média premissada em 28m devido ausência de detalhe\",\n      \"observacao\": \"Profundidade média premissada em 28m devido ausência de detalhe\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estimado com base em índices históricos\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Valor informado em formulário COM EXECUÇÃO - projeto estimado com base em índices históricos\",\n      \"observacao\": \"Valor informado em formulário COM EXECUÇÃO - projeto estimado com base em índices históricos\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Custo de contratação Cartesian\",\n      \"observacao\": \"Custo de contratação Cartesian\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Área: (múltiplas entradas em MOBILIARIO)\",\n    \"Estimado com base em índices históricos (repetição de premissa)\",\n    \"Valor informado em formulário (repetição de premissa)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Acabamento",
+        "sub_disciplina": "Concreto e Fundação",
+        "itens_exemplo": [
+          "Concreto usinado bombeável para estacas FCK 40 MPA bri…",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Acabamento",
+        "sub_disciplina": "Fachada e Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Pele de vidro"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços e Consultoria",
+        "sub_disciplina": "Mão de Obra e Serviços Gerais",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Mestre",
+          "Remoção de entulhos e resíduos"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Áreas e Superfícies",
+        "itens_exemplo": [
+          "Área:",
+          "Área:",
+          "Área:"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Energia",
+        "itens_exemplo": [
+          "Mao de obra de instalacoes eletricas",
+          "Quadros e Disjuntores",
+          "Entrada de Energia"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica e Segurança",
+        "itens_exemplo": [
+          "Instalacoes de Agua Fria",
+          "Instalacoes de Esgoto",
+          "Instalacos do Sistema Preventivo de Incendio - incluso…"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e Metais",
+        "sub_disciplina": "Sanitários e Metais",
+        "itens_exemplo": [
+          "Vaso sanitário deca branco",
+          "Torneira pia inox bancada",
+          "Acabamento metálico para registro de gaveta"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Profundidade média premissada em 28m devido ausência de detalhe",
+        "observacao": "Profundidade média premissada em 28m devido ausência de detalhe",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimado com base em índices históricos",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Valor informado em formulário COM EXECUÇÃO - projeto estimado com base em índices históricos",
+        "observacao": "Valor informado em formulário COM EXECUÇÃO - projeto estimado com base em índices históricos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custo de contratação Cartesian",
+        "observacao": "Custo de contratação Cartesian",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Área: (múltiplas entradas em MOBILIARIO)",
+      "Estimado com base em índices históricos (repetição de premissa)",
+      "Valor informado em formulário (repetição de premissa)"
+    ],
+    "fora_da_curva": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "projeto": "ck-urbe",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:17:53",
+  "compact_chars": 1409,
+  "duration_s": 83.0,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Infraestrutura\",\n      \"sub_disciplina\": \"Movimentação de Terra\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA E MOVIMENTAÇÃO DE TERRA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Piso e Parede\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Fachada e Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\",\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Sistemas\",\n      \"sub_disciplina\": \"Instalações Elétricas e Hidráulicas\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n        \"INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Gestão\",\n      \"sub_disciplina\": \"Administrativo\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"ESQUADRIAS\",\n    \"TOTAL\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "Movimentação de Terra",
+        "itens_exemplo": [
+          "INFRAESTRUTURA E MOVIMENTAÇÃO DE TERRA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada e Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas",
+        "sub_disciplina": "Instalações Elétricas e Hidráulicas",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "ESQUADRIAS",
+      "TOTAL"
+    ],
+    "fora_da_curva": []
+  }
+}

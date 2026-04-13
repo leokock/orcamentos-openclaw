@@ -1,0 +1,93 @@
+{
+  "projeto": "brava-construtora-mar-a-vista",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:53:14",
+  "excerpt_chars": 4311,
+  "duration_s": 104.0,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"3.120,05\",\n    \"ur\": \"27\",\n    \"tipologia\": \"Apartamentos com espaço garden e infra para ofurô\",\n    \"data_base\": \"fev/2024\",\n    \"cub_referencia\": \"1.889,47\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Movimentação de Terra\",\n      \"premissa\": \"Movimentação de terra para bota fora, com 30% de fator de empolamento;\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"49 estacas raíz com diâmetro 40 cm;\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"23 estacas raíz com diâmetro 30cm;\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Concreto de blocos e baldrames com resistência de 30 Mpa;\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Parede de contenção em concreto com resistênciade 30 Mpa;\"\n    },\n    {\n      \"area\": \"Superestrutura\",\n      \"premissa\": \"Fabricação de forma em compensadoplastificado 17mm;\"\n    },\n    {\n      \"area\": \"Superestrutura\",\n      \"premissa\": \"Concreto com resistência de 30 Mpa considerando perda de 5%;\"\n    },\n    {\n      \"area\": \"Superestrutura\",\n      \"premissa\": \"Locação de escoramento metálico (1 jogo de escora por pavimento/mês);\"\n    },\n    {\n      \"area\": \"Sistemas Especiais\",\n      \"premissa\": \"Ventilação mecânica; Exaustão da churrasqueira no espaço gourmet; CFTV e interfonia.\"\n    },\n    {\n      \"area\": \"Áreas Molhadas\",\n      \"premissa\": \"Área molhada de cozinha, área de serviço, banheiros e lavabos c… …PVC;\"\n    },\n    {\n      \"area\": \"Acabamentos\",\n      \"premissa\": \"Considerado piso em deck de madeira tratada no Garden (imagem anterior).\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Sistemas Especiais\",\n      \"decisao\": \"Consideramos material e mão de obra para instalação dos sistemas especiais através das informações fornecidas pelo cliente.\"\n    },\n    {\n      \"contexto\": \"Áreas Molhadas\",\n      \"decisao\": \"Quantitativos retirados através do modelo arquitetônico;\"\n    },\n    {\n      \"contexto\": \"Serviços Complementares\",\n      \"decisao\": \"Valores considerados conforme informações fornecidas pela construtora.\"\n    },\n    {\n      \"contexto\": \"Imprevistos e Contingências\",\n      \"decisao\": \"Calculado um percentual de segurança para possíveis imprevistos de obra.\"\n    },\n    {\n      \"contexto\": \"Gerenciamento Técnico e Administrativo\",\n      \"decisao\": \"Itens lançados com valor igual a 0, conforme solicitação do cliente…\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Localização: Rua dos Tucanos, Loteamento Pérola do Mar, Nossa Senhora da Vitória, Ilhéus, BA\",\n    \"O empreendimento possui 3 pvtos residenciais Lazer e Rooftop.\",\n    \"Serviços incluem: Paisagismo; Ligações definitivas; Desmobilização; Limpeza final da obra.\",\n    \"O custo total orçado é de R$ 10.446.494,54, representando 100% da obra.\",\n    \"A análise de custos diretos mostra que o valor/m² total é de R$ 3.348,18.\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "3.120,05",
+      "ur": "27",
+      "tipologia": "Apartamentos com espaço garden e infra para ofurô",
+      "data_base": "fev/2024",
+      "cub_referencia": "1.889,47"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Movimentação de terra para bota fora, com 30% de fator de empolamento;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "49 estacas raíz com diâmetro 40 cm;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "23 estacas raíz com diâmetro 30cm;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Concreto de blocos e baldrames com resistência de 30 Mpa;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Parede de contenção em concreto com resistênciade 30 Mpa;"
+      },
+      {
+        "area": "Superestrutura",
+        "premissa": "Fabricação de forma em compensadoplastificado 17mm;"
+      },
+      {
+        "area": "Superestrutura",
+        "premissa": "Concreto com resistência de 30 Mpa considerando perda de 5%;"
+      },
+      {
+        "area": "Superestrutura",
+        "premissa": "Locação de escoramento metálico (1 jogo de escora por pavimento/mês);"
+      },
+      {
+        "area": "Sistemas Especiais",
+        "premissa": "Ventilação mecânica; Exaustão da churrasqueira no espaço gourmet; CFTV e interfonia."
+      },
+      {
+        "area": "Áreas Molhadas",
+        "premissa": "Área molhada de cozinha, área de serviço, banheiros e lavabos c… …PVC;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Considerado piso em deck de madeira tratada no Garden (imagem anterior)."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Sistemas Especiais",
+        "decisao": "Consideramos material e mão de obra para instalação dos sistemas especiais através das informações fornecidas pelo cliente."
+      },
+      {
+        "contexto": "Áreas Molhadas",
+        "decisao": "Quantitativos retirados através do modelo arquitetônico;"
+      },
+      {
+        "contexto": "Serviços Complementares",
+        "decisao": "Valores considerados conforme informações fornecidas pela construtora."
+      },
+      {
+        "contexto": "Imprevistos e Contingências",
+        "decisao": "Calculado um percentual de segurança para possíveis imprevistos de obra."
+      },
+      {
+        "contexto": "Gerenciamento Técnico e Administrativo",
+        "decisao": "Itens lançados com valor igual a 0, conforme solicitação do cliente…"
+      }
+    ],
+    "observacoes_chave": [
+      "Localização: Rua dos Tucanos, Loteamento Pérola do Mar, Nossa Senhora da Vitória, Ilhéus, BA",
+      "O empreendimento possui 3 pvtos residenciais Lazer e Rooftop.",
+      "Serviços incluem: Paisagismo; Ligações definitivas; Desmobilização; Limpeza final da obra.",
+      "O custo total orçado é de R$ 10.446.494,54, representando 100% da obra.",
+      "A análise de custos diretos mostra que o valor/m² total é de R$ 3.348,18."
+    ]
+  }
+}

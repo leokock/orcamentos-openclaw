@@ -819,5 +819,172 @@
     "contrapiso": 118.88,
     "rodape": 24.14,
     "pintura": 41.0
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 22,
+      "total_itens": 3981,
+      "total_observacoes": 217,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/viva4-pio4.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "Mão de obra para execução de fundação rasa e profunda",
+          "Considerado blocos e vigas de fundação"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 35MPa Bombeavel",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mão de obra para instalações elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica",
+        "itens_exemplo": [
+          "Mão de obra Instalação Hidráulica"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Paredes e Texturas",
+        "itens_exemplo": [
+          "Mão de obra para pintura acrílica em paredes internas,…",
+          "Mão de obra para aplicação de textura em paredes exter…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Mão de Obra Piso Porcenato/ Cerâmico",
+          "REVESTIMENTOS INTERNOS DE PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Vidros e Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio Janelas e Portas - fornecimento…",
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Geral",
+        "observacao": "Considerando 30% de empolamento",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura/Prazo",
+        "observacao": "Considerada uma bomba para cada 250m² de laje baldrame, e duração de 4 meses",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Considerado blocos e vigas de fundação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo Empreiteiro Global recebido Cliente",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Os valores de grandes grupos de custo (SUPRAESTRUTURA, INSTALAÇÕES, ESQUADRIAS, etc.) são idênticos entre as seções ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:17:32",
+      "duration_s": 91.8,
+      "compact_chars": 3079
+    },
+    "pdf_metadata": {
+      "ac_m2": "13.540,93",
+      "ur": null,
+      "tipologia": "15 pavimentos, 2 Subsolos, 1 Pavimento térreo | 1 Laje Técnica | 1 Pavimento Gardem | 2 Pavimentos Tipo | 1 Pavimento Duplex | 3 Pavimentos Tipo | 1 Pavimento Cobertura Lazer | Área Técnica",
+      "data_base": "Jun/25",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Escavação do subsolos; Escavação e reaterro de Fundação Rasa; Lastro de concreto magro em Fundação Rasa; Rebaixamento de lençol freático para o tempo de fun…"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Raíz de 31cm e 40cm; Mobilização de Equipamento de estaca; Corte e preparo de estacas; Armação com consideração de aço cortado e dobra em obra com 10% de perda; Concreto fck de 35 MPa com 30% perda para fundação profunda e 5% de perda para fundação rasa; Fabricação, montagem e desmontagem de forma em madeira serrada para fundaçãorasa ; Mão de obra…"
+      },
+      {
+        "area": "Contenção",
+        "premissa": "Fabricação, montagem e desmontagem de forma em madeira serrada; Armação com consideração de aço cortado e dobra em obra com 10% de perda; Concreto fck de 20 E 30MPa com 5% de perda para Contenção; Tirantes para contenção – material e mão de obra; Mão de obra para execução de contenção;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em tábua, considerando 2 jogos; Montagem e desmontagem de formas considerando 2 utilizações; Armação com consideração de aço cortado em obra em obra com 10% de perda; Concreto fck de 35 MPa na supraestrutura, consideração de 5% de perda; Locação Cubetas; Locaç…ra com 10% de perda; Concreto fck de 35 MPa na supraestrutura, consideração de 5% de perda; Locação de Escoramento; Protenção de Lajes – Material e mão de obra; Mão de obra empreitada global para execução de supraestrutura precificada pelorateio do custo;"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Blocos cer…"
+      },
+      {
+        "area": "Preventivas",
+        "premissa": "Instalações elétricas, hidrossanitários e SPDA quantificado conforme resumo disponibilizado; Elétrica foi estimado os custos com entrada de energia; Preventivas, foram estimados os custos de Extintores, Sinalização de emergência esistema hidráulico, recebido do projetista hidrantes e central de alarme;"
+      },
+      {
+        "area": "Instalações de Comunicações",
+        "premissa": "Sistema de interfonia, controle de acesso, CFTV e lógica quantificado conforme resumodisponibilizado, estimado custo de automações; Fechadura eletrônica para as unidades residenciais."
+      },
+      {
+        "area": "Equipamentos e Sistemas Especiais",
+        "premissa": "2 elevadores Residenciais e 1 Comercial; Plataforma elevatória…"
+      },
+      {
+        "area": "Revestimentos em Fachada",
+        "premissa": "Acabamento ArkoWall Leitoso; Tratamento de Concreto Aparente para Fachada; Textura acrílica cor Laranj…"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Mão de obra empreitada global para execução de supraestrutura precificada pelorateio do custo"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Orçamento Executivo_R00",
+      "Custos indiretos da obra; Administração de Canteiro; Equipamentos.",
+      "Pacotes de custo de execução de obra; Mão de obra Global; Imprevistos e contingências;",
+      "Quantificadas conforme resumo disponibilizado."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:58:50",
+      "duration_s": 117.1,
+      "excerpt_chars": 4329
+    }
   }
 }

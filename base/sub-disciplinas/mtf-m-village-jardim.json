@@ -1,0 +1,96 @@
+{
+  "projeto": "mtf-m-village-jardim",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:21:11",
+  "compact_chars": 1214,
+  "duration_s": 84.6,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Infraestrutura\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Paredes\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Alvenaria\",\n      \"itens_exemplo\": [\n        \"ALVENARIA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Instalações Gerais\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES\",\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Gerenciamento\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO ADMINISTRATIVO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Serviços Técnicos\",\n      \"itens_exemplo\": [\n        \"SERVIÇOS TÉCNICOS E FINAIS\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"observacao\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"observacao\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"observacao\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Infraestrutura",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Instalações Gerais",
+        "itens_exemplo": [
+          "INSTALAÇÕES",
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Gerenciamento",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Serviços Técnicos",
+        "itens_exemplo": [
+          "SERVIÇOS TÉCNICOS E FINAIS"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "ACABAMENTOS EM PISO E PAREDE",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "ACABAMENTOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS"
+    ],
+    "fora_da_curva": []
+  }
+}

@@ -146,5 +146,182 @@
     "porcelanato": 107.92,
     "rodape": 27.24,
     "pintura": 18.7
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 4,
+      "total_itens": 591,
+      "total_observacoes": 16,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/gmf-moradas-do-atalaia.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 35MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Escoramento",
+        "itens_exemplo": [
+          "Locação de escoramento metálico",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica",
+        "itens_exemplo": [
+          "Mão de obra Instalação Hidráulica"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e decoração"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Elevador"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+        "observacao": "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "VALOR POR UNIDADE TIPO 01",
+        "observacao": "VALOR POR UNIDADE TIPO 01",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "VALOR POR UNIDADE TIPO 02",
+        "observacao": "VALOR POR UNIDADE TIPO 02",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "VALOR POR UNIDADE TIPO 03",
+        "observacao": "VALOR POR UNIDADE TIPO 03",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "VALOR POR UNIDADE TIPO 04",
+        "observacao": "VALOR POR UNIDADE TIPO 04",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "orçamentista",
+        "observacao": "Considerado 310,00/m² no paramétrico",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "orçamentista",
+        "observacao": "Custo indexado do Central Park",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "orçamentista",
+        "observacao": "2 - Moradas do Atalaia - Custo Direto",
+        "categoria": "contexto"
+      },
+      {
+        "contexto": "orçamentista",
+        "observacao": "3 - GERENCIAMENTE TÉCNICO E ADMINISTRATIVO",
+        "categoria": "contexto"
+      }
+    ],
+    "padroes_identificados": [
+      "Os principais centros de custo (SUPRAESTRUTURA, INSTALAÇÕES ELÉTRICAS, ESQUADRIAS, etc.) são repetidos e comparados nas seções AREAS_PRIVATIVAS e ORÇAMENTO_EXECUTIVO."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:45:59",
+      "duration_s": 96.9,
+      "compact_chars": 2160
+    },
+    "pdf_metadata": {
+      "ac_m2": "7.374,18 m²",
+      "ur": "40",
+      "tipologia": "Residencial",
+      "data_base": "ABRIL/24",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Consideração de bloco de concreto sical em áreas com escadas, churrasqueiras e elevadore, com argamassa industrializada de assentamento;"
+      },
+      {
+        "area": "Geral",
+        "premissa": "Consideração de blocos cerâmicos para demais vedações, com argamassa industrializada de assentamento;"
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Impermeabilização de fundação e contenção com aditivo impermeabilizante;"
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Tratamento impermeabilizante de ralo com manta de poliéster;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 35 Mpa, incluindo serviço de bombeamento, em cortina de contenção, consideração de 5% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 40Mpa, incluindo serviço de bombeamento, consideração de 30% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 35Mpa, incluindo serviço de bombeamento, em blocos, sapatas e baldrames, consideração de 5% de perda;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "EAP",
+        "decisao": "Exceção das sapatas foram utilizandos índices devido ausência de quantitativo;"
+      },
+      {
+        "contexto": "Arquitetura",
+        "decisao": "Exceção de quantidades de louças, metais e mobiliário…"
+      },
+      {
+        "contexto": "Quantificação",
+        "decisao": "Quantificação seguindo detalhamentos de projetos e planilha com resumo de quantitativo disponibilizados."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "GMF – MORADAS DO ATALAIA | 08.05.2024",
+      "Localização: Rua Lila Heusi, 115, Fazendinha, Itajaí/SC",
+      "Área do Terreno: 825,00 m²",
+      "Tipos: 1A, 1B (x5), 2A, 2B (x3), 3A",
+      "Tipologia: (duplex inf) Ático (lazer e duplex superior)"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:07:32",
+      "duration_s": 75.4,
+      "excerpt_chars": 4289
+    }
   }
 }

@@ -651,5 +651,95 @@
     "taxas_licencas": 3607.99,
     "epcs": 3334.46,
     "canteiro": 800.0
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 19,
+      "total_itens": 8745,
+      "total_observacoes": 157,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/xpcon-marena.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação e Estacas",
+        "itens_exemplo": [
+          "Concreto Usinado bombeável para estacas 40MPa",
+          "Perfuração de estaca hélice contínua Ø 60cm",
+          "Locação de Escoramento Metálico"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Mobiliário e decoração"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Apoio e Logística",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Mestre de Obras",
+          "Almoxarife"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Apoio e Logística",
+        "sub_disciplina": "Equipamentos e Canteiro",
+        "itens_exemplo": [
+          "Aquisição Mini Grua",
+          "Locação de container",
+          "Instalações Provisórias (central de aço, formas, argam…"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Reunião com Glauber em 19/05/2025",
+        "observacao": "Considerado informações passada pelo cliente",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Reunião com Glauber em 19/05/2025",
+        "observacao": "Retirado conforme considerações informadas pelo cliente",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Projeto de formas dos blocos",
+        "observacao": "Considerado conforme detalhe do projeto de formas dos blocos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto de Fundação",
+        "observacao": "Considerado corte e dobra em obra",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Considerado informações passada pelo cliente em reunião com Glauber em 19/05/2025",
+      "Considerado conforme detalhe do projeto de formas dos blocos"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:21:18",
+      "duration_s": 85.7,
+      "compact_chars": 2817
+    }
   }
 }

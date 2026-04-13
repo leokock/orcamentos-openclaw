@@ -1843,5 +1843,134 @@
     "pintura_parede_pu_m2": 4.8,
     "chapisco_pu_m2": 2.12,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 4,
+      "total_itens": 2578,
+      "total_observacoes": 13,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/cambert-engenharia-portal-da-brava.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "CONCRETO USINADO BOMBEÁVEL, PARA ESTACAS, FCK 30MPA, S…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra Estrutural",
+        "itens_exemplo": [
+          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…",
+          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada e Teto",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica/Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias e Ferragens",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Decoração",
+        "itens_exemplo": [
+          "MOBIILIARIO E DECORAÇÃO*"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Acabamentos",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamentos",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamentos",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Especificação",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamentos",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "205 - EDIFICIO PORTAL DA BRAVA",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "2 - GERENCIAMENTO EXECUTIVO - EMBASAMENTO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Localização",
+        "observacao": "AV DOS ESTADOS, S/N - ESQUINA COM RUA JUVENTINO LINHARES - PRAIA DOS AMORES - Balneário Camboriú/SC",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Revisão",
+        "observacao": "2 - 06/08/2021 - 11:05:41 - REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "3 - GERENCIAMENTO EXECUTIVO - TORRE AMORES",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:55:07",
+      "duration_s": 121.5,
+      "compact_chars": 1930
+    }
   }
 }

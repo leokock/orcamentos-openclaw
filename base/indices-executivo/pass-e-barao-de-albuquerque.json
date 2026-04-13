@@ -157,5 +157,123 @@
     "porcelanato": 104.55,
     "rodape": 38.56,
     "pintura": 5.16
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 1744,
+      "total_observacoes": 5,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/pass-e-barao-de-albuquerque.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…",
+          "Concreto usinado bombeável, para estacas, fck 30MPa, s…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação aço CA-50, diâmetro de 12,5mm para supraestrut…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução de estrutura de c…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Vedação",
+        "sub_disciplina": "Drywall",
+        "itens_exemplo": [
+          "Parede drywall 90mm, com duas faces simples e guia sim…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Vedação",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - TIPO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Vedação",
+        "sub_disciplina": "Guarda-corpo",
+        "itens_exemplo": [
+          "Guarda-corpo com corrimão, perfil de alumínio e fecham…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Ambientação",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Uso de 'Concreto usinado bombeável' para diferentes elementos estruturais (supraestrutura e estacas)."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:51:43",
+      "duration_s": 79.0,
+      "compact_chars": 1069
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "Construção Civil",
+      "data_base": "01/04/2021",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "GERENCIAMENTO TÉCNICO",
+        "premissa": "Unidade construtiva 1"
+      },
+      {
+        "area": "GERENCIAMENTO ADMINISTRATIVO",
+        "premissa": "Unidade construtiva 2"
+      },
+      {
+        "area": "GERENCIAMENTO EXECUTIVO",
+        "premissa": "Unidade construtiva 3"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": null
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": null
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Obra 106 - OBRA - Barão de Albuquerque",
+      "Endereço da obra Rua Onze de Junho - Esq. C/ Pedro Camilo da Silva - Fazenda, 131 - Fazenda - Itajaí/SC - 88301-660",
+      "Total da obra 25.069.286,48 100,00"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:41:17",
+      "duration_s": 63.8,
+      "excerpt_chars": 4330
+    }
   }
 }

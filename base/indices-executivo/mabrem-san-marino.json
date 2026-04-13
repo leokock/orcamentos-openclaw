@@ -133,5 +133,74 @@
       "valor": 7112.04
     }
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 1130,
+      "total_observacoes": 50,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mabrem-san-marino.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto (M3)",
+        "itens_exemplo": [
+          "02.01.001.0003.0001",
+          "02.02.004.0003.0002"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Área (M2)",
+        "itens_exemplo": [
+          "02.01.002.0005.0001"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Volume (VB)",
+        "itens_exemplo": [
+          "02.17.001.0001.0001",
+          "02.04.001.0007.0001",
+          "02.13.004.0001.0003"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Escopo Geral",
+        "observacao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo Geral",
+        "observacao": "ESTUDOS | PROJETOS | CONSULTORIAS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Consultoria de Orçamento e Planejamento",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Laudo preventivo de danos a vizinhanca",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso de códigos de classificação numérica padronizada (ex: 02.XX.XXXX.XXXX.XXXX)",
+      "Repetição da unidade de medida VB (Volume/Bulk)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:13:20",
+      "duration_s": 67.6,
+      "compact_chars": 676
+    }
+  }
 }

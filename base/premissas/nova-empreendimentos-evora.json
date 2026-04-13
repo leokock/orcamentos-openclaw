@@ -1,0 +1,98 @@
+{
+  "projeto": "nova-empreendimentos-evora",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T01:12:30",
+  "excerpt_chars": 4330,
+  "duration_s": 113.4,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"3.477,2 m²\",\n    \"ur\": null,\n    \"tipologia\": \"studios, aptos. com 2 suítes, 1 ou 2 dormitórios\",\n    \"data_base\": \"01.08.2024\",\n    \"cub_referencia\": \"2,19 CUB\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"FUNDAÇÃO E SUPRAESTRUTURA\",\n      \"premissa\": \"Quantificação seguindo detalhamentos de projeto e resumo de quantitativos disponibilizados;\"\n    },\n    {\n      \"area\": \"ARQUITETURA\",\n      \"premissa\": \"Levantamento realizado via visus, utilizando arquivo .ifc;\"\n    },\n    {\n      \"area\": \"ARQUITETURA\",\n      \"premissa\": \"Exceção de quantidades de tijolos refratários, louças e metais e mobiliário, que foram levantados através do projeto 2D.\"\n    },\n    {\n      \"area\": \"FUNDAÇÃO E SUPRAESTRUTURA\",\n      \"premissa\": \"Armação de fundação rasa, consideração de 5% de perda em complementação aos 10% considerados pelo projetista no quantitativo;\"\n    },\n    {\n      \"area\": \"FUNDAÇÃO E SUPRAESTRUTURA\",\n      \"premissa\": \"Concreto fck de 30 MPa em fundação rasa sem perda adicional aos 20% considerados pelo projetista;\"\n    },\n    {\n      \"area\": \"SUPRAESTRUTURA\",\n      \"premissa\": \"Armação de supraestrutura com consideração de 5% de perda em complementação aos 10% considerados pelo projetista no quantitativo;\"\n    },\n    {\n      \"area\": \"SUPRAESTRUTURA\",\n      \"premissa\": \"Concreto fck de 35 MPa na supraestrutura, sem perda adicional aos 20% considerados pelo projetista;\"\n    },\n    {\n      \"area\": \"SUPRAESTRUTURA\",\n      \"premissa\": \"Concreto fck de 35 Mpa com aditivo impermeabil…\"\n    },\n    {\n      \"area\": \"REVESTIMENTOS ARGAMASSADOS\",\n      \"premissa\": \"Quantitativos e serviços considerados seguindo especificações de projeto específico;\"\n    }\n  ],\n  \"bdi_encargos\": [\n    {\n      \"componente\": \"FUNDO DE RESERVA\",\n      \"valor_pct\": \"18,41%\",\n      \"nota\": null\n    }\n  ],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"PISO\",\n      \"decisao\": \"Porcelanato 60x60 nas circulações, áreas internas, ban… o pisos antiderrapantes;\"\n    },\n    {\n      \"contexto\": \"PISO\",\n      \"decisao\": \"Rodapé em porcelanato para áreas externas;\"\n    },\n    {\n      \"contexto\": \"PISO\",\n      \"decisao\": \"Acabamentos de áreas comuns considerado junto à interiores;\"\n    },\n    {\n      \"contexto\": \"COBERTURA\",\n      \"decisao\": \"Telhado de fibrocimento 8mm, com estrutura em madeira angelim;\"\n    },\n    {\n      \"contexto\": \"PAREDES\",\n      \"decisao\": \"Azulejo cerâmico 30 x 60 cm em paredes de banheiro.\"\n    },\n    {\n      \"contexto\": \"LIMPEZA DA OBRA\",\n      \"decisao\": \"Serviço determinado em premissas de orçamento;\"\n    },\n    {\n      \"contexto\": \"ÁREA COMUM E MOBILÍA\",\n      \"decisao\": \"Custo repassado pela Nova;\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Localização: Rua Irmão Joaquim, 142 - Centro – Florianópolis | SC\",\n    \"Áreas comuns com SPA, espaço gourmet , parrilheira e academia;\",\n    \"GERENCIAMENTO EXECUTIVO: Pacotes de custo de execução de obra; Itens de Gás, Climatização e Exaustão, Cobertura e Fachada Globais; Demais itens por pavimento; Fundo reserva.\",\n    \"MOVIMENTAÇÕES DE TERRA R$ 233.599,37 67,18 50,00 -80,00\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "3.477,2 m²",
+      "ur": null,
+      "tipologia": "studios, aptos. com 2 suítes, 1 ou 2 dormitórios",
+      "data_base": "01.08.2024",
+      "cub_referencia": "2,19 CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "FUNDAÇÃO E SUPRAESTRUTURA",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativos disponibilizados;"
+      },
+      {
+        "area": "ARQUITETURA",
+        "premissa": "Levantamento realizado via visus, utilizando arquivo .ifc;"
+      },
+      {
+        "area": "ARQUITETURA",
+        "premissa": "Exceção de quantidades de tijolos refratários, louças e metais e mobiliário, que foram levantados através do projeto 2D."
+      },
+      {
+        "area": "FUNDAÇÃO E SUPRAESTRUTURA",
+        "premissa": "Armação de fundação rasa, consideração de 5% de perda em complementação aos 10% considerados pelo projetista no quantitativo;"
+      },
+      {
+        "area": "FUNDAÇÃO E SUPRAESTRUTURA",
+        "premissa": "Concreto fck de 30 MPa em fundação rasa sem perda adicional aos 20% considerados pelo projetista;"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Armação de supraestrutura com consideração de 5% de perda em complementação aos 10% considerados pelo projetista no quantitativo;"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Concreto fck de 35 MPa na supraestrutura, sem perda adicional aos 20% considerados pelo projetista;"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Concreto fck de 35 Mpa com aditivo impermeabil…"
+      },
+      {
+        "area": "REVESTIMENTOS ARGAMASSADOS",
+        "premissa": "Quantitativos e serviços considerados seguindo especificações de projeto específico;"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "FUNDO DE RESERVA",
+        "valor_pct": "18,41%",
+        "nota": null
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "PISO",
+        "decisao": "Porcelanato 60x60 nas circulações, áreas internas, ban… o pisos antiderrapantes;"
+      },
+      {
+        "contexto": "PISO",
+        "decisao": "Rodapé em porcelanato para áreas externas;"
+      },
+      {
+        "contexto": "PISO",
+        "decisao": "Acabamentos de áreas comuns considerado junto à interiores;"
+      },
+      {
+        "contexto": "COBERTURA",
+        "decisao": "Telhado de fibrocimento 8mm, com estrutura em madeira angelim;"
+      },
+      {
+        "contexto": "PAREDES",
+        "decisao": "Azulejo cerâmico 30 x 60 cm em paredes de banheiro."
+      },
+      {
+        "contexto": "LIMPEZA DA OBRA",
+        "decisao": "Serviço determinado em premissas de orçamento;"
+      },
+      {
+        "contexto": "ÁREA COMUM E MOBILÍA",
+        "decisao": "Custo repassado pela Nova;"
+      }
+    ],
+    "observacoes_chave": [
+      "Localização: Rua Irmão Joaquim, 142 - Centro – Florianópolis | SC",
+      "Áreas comuns com SPA, espaço gourmet , parrilheira e academia;",
+      "GERENCIAMENTO EXECUTIVO: Pacotes de custo de execução de obra; Itens de Gás, Climatização e Exaustão, Cobertura e Fachada Globais; Demais itens por pavimento; Fundo reserva.",
+      "MOVIMENTAÇÕES DE TERRA R$ 233.599,37 67,18 50,00 -80,00"
+    ]
+  }
+}

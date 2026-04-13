@@ -215,5 +215,104 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 18,
+      "total_observacoes": 5,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/ck-habitah.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "SUPRAESTRUTURA",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "DESPESAS INDIRETAS",
+        "sub_disciplina": "DESPESAS INDIRETAS",
+        "itens_exemplo": [
+          "DESPESAS INDIRETAS"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "ACABAMENTOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "SERVIÇOS",
+        "sub_disciplina": "SERVIÇOS COMPLEMENTARES",
+        "itens_exemplo": [
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      },
+      {
+        "macrogrupo": "SISTEMAS",
+        "sub_disciplina": "SISTEMAS E EQUIPAMENTOS ESPECIAIS",
+        "itens_exemplo": [
+          "SISTEMAS E EQUIPAMENTOS ESPECIAIS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "ACABAMENTOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:11:47",
+      "duration_s": 85.0,
+      "compact_chars": 835
+    }
   }
 }

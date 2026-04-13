@@ -172,5 +172,163 @@
     "rodape": 38.33,
     "pintura": 7.28,
     "porcelanato": 141.23
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 1045,
+      "total_observacoes": 6,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/fg-scenarium.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Supraestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Piso elevado em marmore Travertino bruto 5cm - MAT + MO",
+          "Revestimento em Parede Externa com Mármore Travertino …",
+          "Revestimento em Piso com Mármore Travertino Bruto, rej…"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias e Vidros",
+        "sub_disciplina": "Alumínio e Vidro",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - fornecimento e instalação",
+          "Guarda Corpo vidro, com suporte de fixação em piso - …"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Serviços",
+        "sub_disciplina": "Instalações Gerais",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Gestão e Administração",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Áreas e Divisórias",
+        "sub_disciplina": "Área Privativa",
+        "itens_exemplo": [
+          "601",
+          "602",
+          "603",
+          "604",
+          "605",
+          "606",
+          "607",
+          "608"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR UNIDADE TIPO 01",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR UNIDADE TIPO 02",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR UNIDADE TIPO 03",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "VALOR POR UNIDADE TIPO 04",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso recorrente de Mármore Travertino em diferentes aplicações (piso e parede)",
+      "Estrutura de cálculo de custo (qtd=X, pu=Y, R$Z) em itens do relatório"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:40:53",
+      "duration_s": 84.8,
+      "compact_chars": 1705
+    },
+    "pdf_metadata": {
+      "ac_m2": "42.277,77",
+      "ur": "m²",
+      "tipologia": "Complexo residencial/lazer (4 Torres)",
+      "data_base": "DEZEMBRO/2024",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Fechamento em Light Steel Frame, com divisórias em Drywall"
+      },
+      {
+        "area": "Lazer",
+        "premissa": "Lazer com mais de 3.800 m², piscinas aquecidas e borda infinita, áreas comuns completas, infra automação, aspiração central, aquecedor de passagem."
+      },
+      {
+        "area": "Quantificação",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativos disponibilizados de cada torre; Demais quantidades estimadas devido ausência de detalhamentos extrapolando índ…os."
+      },
+      {
+        "area": "Cronograma",
+        "premissa": "Custos consideram prazo de obra de 49 meses;"
+      },
+      {
+        "area": "Terra",
+        "premissa": "Limpeza de terreno mecanizada permanente; Terraplenagem considerando corte e reaterro em solo e rocha; Escavação e reaterro mecanizado de valas para blocos e baldrames; Apiloamento mecânico do solo para valas de infraestrutura; Movimentação de bota-fora para escavação do terreno, valas de infraestrutura e estacas, considerando 30% de empolamento;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck 40 MPa para estaca hélice, considerando perda de 20%; Argamassa para estaca raiz fck 30 MPa, considerando 30% de perda;"
+      },
+      {
+        "area": "Contenção",
+        "premissa": "Concreto fck 30 e 35 MPa em contenções, com consideração de 5% de perda e aditivo impermeabilizante;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "EAP",
+        "decisao": "Separação entre Area comum, embasamento, torre e pavimentos técnicos;"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Localização: Avenida Dr. Jose Medeiros Vieira, 240, Brava Norte - Itajaí - SC",
+      "Estrutura: 4 TORRES",
+      "Custos indiretos: Custos administrativos indiretos da obra;",
+      "Custos diretos: Pacotes de custo de execução de obra;"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:06:17",
+      "duration_s": 87.2,
+      "excerpt_chars": 4328
+    }
   }
 }

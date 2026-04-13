@@ -1,0 +1,67 @@
+{
+  "projeto": "viva4-barra4",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T01:25:12",
+  "excerpt_chars": 4331,
+  "duration_s": 101.9,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"13.223,26\",\n    \"ur\": null,\n    \"tipologia\": \"1 Pavimento térreo e Duplex 2 Pavimentos Tipo1 Pavimento Cobertura Lazer\",\n    \"data_base\": \"22.01.2025\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Fundação e Supraestrutura\",\n      \"premissa\": \"Quantificação seguindo detalhamentos de projeto e resumo de quantitativo disponibilizado\"\n    },\n    {\n      \"area\": \"Fundação Rasa\",\n      \"premissa\": \"Escavação e reaterro de Fundação Rasa\"\n    },\n    {\n      \"area\": \"Fundação Rasa\",\n      \"premissa\": \"Lastro de concreto magro em Fundação Rasa\"\n    },\n    {\n      \"area\": \"Fundação Rasa\",\n      \"premissa\": \"Rebaixamento de lençol freático para o tempo de fundação\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Armação com consideração de aço cortado e dobra em obra com 10% de perda\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Concreto fck de 35 MPa em rasa com 5% de perda\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em tábua, considerando 2 jogos\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Paredes e Painéis\",\n      \"decisao\": \"Consideração de blocos cerâmicos, concreto e concreto estrutural para as Vedações\"\n    },\n    {\n      \"contexto\": \"Instalações de Comunicações\",\n      \"decisao\": \"Sistema de interfonia, controle de acesso, CFTV e lógica quantificado conforme resumo disponibilizado\"\n    },\n    {\n      \"contexto\": \"Equipamentos e Sistemas Especiais\",\n      \"decisao\": \"Corrimão de madeira em escadaria anti-incêndio\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Levantamento realizado via visus, utilizando arquivo .ifc\",\n    \"Exceção de quantidades de louças e metais, que foram levantados através do projeto 2D.\",\n    \"Mão de obra empreitada global para execução de supraestrutura precificada pelo rateio do custo\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "13.223,26",
+      "ur": null,
+      "tipologia": "1 Pavimento térreo e Duplex 2 Pavimentos Tipo1 Pavimento Cobertura Lazer",
+      "data_base": "22.01.2025",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Fundação e Supraestrutura",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativo disponibilizado"
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Escavação e reaterro de Fundação Rasa"
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Lastro de concreto magro em Fundação Rasa"
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Rebaixamento de lençol freático para o tempo de fundação"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Armação com consideração de aço cortado e dobra em obra com 10% de perda"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Concreto fck de 35 MPa em rasa com 5% de perda"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em tábua, considerando 2 jogos"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Paredes e Painéis",
+        "decisao": "Consideração de blocos cerâmicos, concreto e concreto estrutural para as Vedações"
+      },
+      {
+        "contexto": "Instalações de Comunicações",
+        "decisao": "Sistema de interfonia, controle de acesso, CFTV e lógica quantificado conforme resumo disponibilizado"
+      },
+      {
+        "contexto": "Equipamentos e Sistemas Especiais",
+        "decisao": "Corrimão de madeira em escadaria anti-incêndio"
+      }
+    ],
+    "observacoes_chave": [
+      "Levantamento realizado via visus, utilizando arquivo .ifc",
+      "Exceção de quantidades de louças e metais, que foram levantados através do projeto 2D.",
+      "Mão de obra empreitada global para execução de supraestrutura precificada pelo rateio do custo"
+    ]
+  }
+}

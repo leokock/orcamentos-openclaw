@@ -1,0 +1,71 @@
+{
+  "projeto": "mendes-empreendimentos-brava-sixteen",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:18:03",
+  "compact_chars": 811,
+  "duration_s": 68.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 4…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armação aço CA-60, diâmetro de 6,3mm para viga de coro…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma\",\n      \"itens_exemplo\": [\n        \"Materiais para forma\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fachada e Vedação\",\n      \"sub_disciplina\": \"Revestimento\",\n      \"itens_exemplo\": [\n        \"Revestimento de fachada em chapa de ACM - material e m…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fachada e Vedação\",\n      \"sub_disciplina\": \"Alumínio\",\n      \"itens_exemplo\": [\n        \"Aluminio perfilado em diversos tipos e bitolas, para …\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mão de Obra e Serviços\",\n      \"sub_disciplina\": \"Equipe Especializada\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução das esquadrias\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mão de Obra e Serviços\",\n      \"sub_disciplina\": \"Mão de Obra Geral\",\n      \"itens_exemplo\": [\n        \"Salário da Equipe: 1 mestre, 2 carpinteiros, 1 guinche…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Mobiliário\",\n      \"sub_disciplina\": \"Mobiliário\",\n      \"itens_exemplo\": [\n        \"Mobiliário em geral e itens de decoração\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação aço CA-60, diâmetro de 6,3mm para viga de coro…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Materiais para forma"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Vedação",
+        "sub_disciplina": "Revestimento",
+        "itens_exemplo": [
+          "Revestimento de fachada em chapa de ACM - material e m…"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Vedação",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "Aluminio perfilado em diversos tipos e bitolas, para …"
+        ]
+      },
+      {
+        "macrogrupo": "Mão de Obra e Serviços",
+        "sub_disciplina": "Equipe Especializada",
+        "itens_exemplo": [
+          "Mão de obra para execução das esquadrias"
+        ]
+      },
+      {
+        "macrogrupo": "Mão de Obra e Serviços",
+        "sub_disciplina": "Mão de Obra Geral",
+        "itens_exemplo": [
+          "Salário da Equipe: 1 mestre, 2 carpinteiros, 1 guinche…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário em geral e itens de decoração"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [],
+    "fora_da_curva": []
+  }
+}

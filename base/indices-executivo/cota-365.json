@@ -184,5 +184,101 @@
     "chapisco": 7.5,
     "reboco": 15.9,
     "porcelanato": 107.25
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 17,
+      "total_itens": 1158,
+      "total_observacoes": 77,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/cota-365.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação e Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 40MPa Bombeavel",
+          "blocos, vigas de fundação, duto e cisterna",
+          "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "Pisos",
+          "Revestimento interno",
+          "Revestimento externo"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "Instal. Hidro, louças, metais, gás, shp",
+          "Projeto elétrico/comunicação/telefonia/luminotécnico",
+          "Consumo de luz/energia"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Técnicos e Administrativos",
+        "sub_disciplina": "Projetos e Legalização",
+        "itens_exemplo": [
+          "Projeto arquitetônico legal",
+          "Compatibilização de Projetos BIM",
+          "Legalização de incorporação"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Fundação",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cisterna",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Perdas de material",
+        "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Composição orçamentária",
+        "observacao": "Composição orçamentária com aço, concreto e outros itens - retirado mão de obra da composição",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimativa geral",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cronograma",
+        "observacao": "Período da fundação + 6 meses",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "A distribuição de custos (SUPRAESTRUTURA, INSTALAÇÕES ELÉTRICAS, ACABAMENTOS EM PISO E PAREDE, etc.) é idêntica em ORÇAMENTO_EXECUTIVO, DISTRIBUIÇÃO MO e MÃO DE OBRA.",
+      "O valor total de R$60.989.058 e o pu=3483.98 são repetidos em todas as três abas de orçamento."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:26:56",
+      "duration_s": 90.4,
+      "compact_chars": 2971
+    }
   }
 }

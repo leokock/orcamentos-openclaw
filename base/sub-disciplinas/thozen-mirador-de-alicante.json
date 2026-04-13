@@ -1,0 +1,72 @@
+{
+  "projeto": "thozen-mirador-de-alicante",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:14:43",
+  "compact_chars": 1537,
+  "duration_s": 72.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"SUPRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"INFRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"REVESTIMENTOS ARGAMASSADOS\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS ARGAMASSADOS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n      \"itens_exemplo\": [\n        \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"MÃO DE OBRA TA PEGANDO ERRADO\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Valores de algumas categorias (ex: ESQUADRIAS, VIDROS E FERRAGENS; REVESTIMENTOS ARGAMASSADOS) são idênticos em diferentes blocos de orçamento.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "REVESTIMENTOS ARGAMASSADOS",
+        "itens_exemplo": [
+          "REVESTIMENTOS ARGAMASSADOS"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "itens_exemplo": [
+          "EQUIPAMENTOS E SISTEMAS ESPECIAIS"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "MÃO DE OBRA TA PEGANDO ERRADO",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Valores de algumas categorias (ex: ESQUADRIAS, VIDROS E FERRAGENS; REVESTIMENTOS ARGAMASSADOS) são idênticos em diferentes blocos de orçamento."
+    ],
+    "fora_da_curva": []
+  }
+}

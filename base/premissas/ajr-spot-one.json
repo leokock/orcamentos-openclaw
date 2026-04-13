@@ -1,0 +1,66 @@
+{
+  "projeto": "ajr-spot-one",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:41:30",
+  "excerpt_chars": 4329,
+  "duration_s": 95.4,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": null,\n    \"ur\": null,\n    \"tipologia\": null,\n    \"data_base\": \"15.10.2021\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Gerenciamento Técnico e Administrativo\",\n      \"premissa\": \"Contempla: Projetos, consultorias; Canteiro de obra; Administração da obra\"\n    },\n    {\n      \"area\": \"Movimentação de Terra\",\n      \"premissa\": \"Para a estimativa de escavação foi considerado: área estimada do terreno * 1,00 m * 1,50 de empolamento\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Estacas hélice conforme projeto disponibilizado com preços unitários fornecidos pela União Fundações, valores de aço e concreto são de cotações recentes; Os quantitativos de blocos e baldrames foram levantados a partir do projeto, os valores dos insumos são valores de mercado.\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Os quantitativos de supraestrutura foram estimados pelo projetista. Para os valores de drywall foi considerada a proposta da Euro System. Foi considerada uma estimativa de 50 pontos de reforço OSB por apartamento.\"\n    },\n    {\n      \"area\": \"Revestimentos Armagassados\",\n      \"premissa\": \"Conforme premissa indicada nas especificações não foi considerado chapisco nas alvenarias, apenas na estrutura de concreto. Foi considerado contrapiso acústico nas áreas internas dos apartamentos, com exceção das áreas molhadas; Foi considerada regularização para a colocação de piso vinílico.\"\n    },\n    {\n      \"area\": \"Revestimentos e Acabamentos de Teto\",\n      \"premissa\": \"Não está contemplado forro de gesso nas sacadas conforme premissa informada.\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Tomada de preços\",\n      \"decisao\": \"disponibilizados pelo cliente e/ou cotações realizadas; quando não disponíveis foram estimados com índices de mercado.\"\n    },\n    {\n      \"contexto\": \"Consultorias\",\n      \"decisao\": \"Foi designada uma verba de R$ 120.000,00 para eventuais consultorias que possam ocorrer ao longo da obra.\"\n    },\n    {\n      \"contexto\": \"Supraestrutura\",\n      \"decisao\": \"Para a composição do orçamento a…lo arquitetônico disponibilizado pela AJR, conforme alinhado com o Eng Bruno no modelo não está considerada a estrutura.\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Os valores unitários dos insumos são cotações recentes.\",\n    \"As verbas consideradas na etapa de ambientação foram alinhadas com o Eng. Bruno.\",\n    \"As verbas consideradas na etapa de comunicação visual são estimadas considerando índices construtivos de empreendimentos com padrões similares.\",\n    \"As verbas consideradas na etapa de paisagismo foram alinhadas com o Eng. Bruno.\",\n    \"As verbas consideradas na etapa de limpeza são estimadas considerando índices de empreendimentos com padrões similares\",\n    \"Adotou-se como premissa as especificação preenchida.\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "15.10.2021",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Gerenciamento Técnico e Administrativo",
+        "premissa": "Contempla: Projetos, consultorias; Canteiro de obra; Administração da obra"
+      },
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Para a estimativa de escavação foi considerado: área estimada do terreno * 1,00 m * 1,50 de empolamento"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Estacas hélice conforme projeto disponibilizado com preços unitários fornecidos pela União Fundações, valores de aço e concreto são de cotações recentes; Os quantitativos de blocos e baldrames foram levantados a partir do projeto, os valores dos insumos são valores de mercado."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Os quantitativos de supraestrutura foram estimados pelo projetista. Para os valores de drywall foi considerada a proposta da Euro System. Foi considerada uma estimativa de 50 pontos de reforço OSB por apartamento."
+      },
+      {
+        "area": "Revestimentos Armagassados",
+        "premissa": "Conforme premissa indicada nas especificações não foi considerado chapisco nas alvenarias, apenas na estrutura de concreto. Foi considerado contrapiso acústico nas áreas internas dos apartamentos, com exceção das áreas molhadas; Foi considerada regularização para a colocação de piso vinílico."
+      },
+      {
+        "area": "Revestimentos e Acabamentos de Teto",
+        "premissa": "Não está contemplado forro de gesso nas sacadas conforme premissa informada."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Tomada de preços",
+        "decisao": "disponibilizados pelo cliente e/ou cotações realizadas; quando não disponíveis foram estimados com índices de mercado."
+      },
+      {
+        "contexto": "Consultorias",
+        "decisao": "Foi designada uma verba de R$ 120.000,00 para eventuais consultorias que possam ocorrer ao longo da obra."
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Para a composição do orçamento a…lo arquitetônico disponibilizado pela AJR, conforme alinhado com o Eng Bruno no modelo não está considerada a estrutura."
+      }
+    ],
+    "observacoes_chave": [
+      "Os valores unitários dos insumos são cotações recentes.",
+      "As verbas consideradas na etapa de ambientação foram alinhadas com o Eng. Bruno.",
+      "As verbas consideradas na etapa de comunicação visual são estimadas considerando índices construtivos de empreendimentos com padrões similares.",
+      "As verbas consideradas na etapa de paisagismo foram alinhadas com o Eng. Bruno.",
+      "As verbas consideradas na etapa de limpeza são estimadas considerando índices de empreendimentos com padrões similares",
+      "Adotou-se como premissa as especificação preenchida."
+    ]
+  }
+}

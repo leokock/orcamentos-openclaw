@@ -1513,5 +1513,140 @@
     "pintura_parede_pu_m2": 5.77,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 935,
+      "total_observacoes": 4,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/chiquetti-e-dalvesco-nautilus.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Administração e Gestão",
+        "sub_disciplina": "Taxas e Contingências",
+        "itens_exemplo": [
+          "Taxa administração da obra",
+          "Imprevistos e Contingências"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Vedação",
+        "sub_disciplina": "Esquadria em alumínio",
+        "itens_exemplo": [
+          "Esquadria em alumínio - Fornecimento e Instalação - Ti…",
+          "Esquadria em alumínio - Fornecimento e Instalação - Du…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Elementos Secundários",
+        "sub_disciplina": "Metálicos",
+        "itens_exemplo": [
+          "Brise metálico, acabamento amadeirado - Tipos",
+          "Estrutura metálica (ampliação)"
+        ]
+      },
+      {
+        "macrogrupo": "Global",
+        "sub_disciplina": "Empreitada",
+        "itens_exemplo": [
+          "Empreitada Global"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "TAXA DE ADMINISTRAÇÃO",
+        "observacao": "TAXA DE ADMINISTRAÇÃO",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "O termo 'Esquadria em alumínio - Fornecimento e Instalação' é repetido com diferentes especificações (Ti... e Du...).",
+      "A unidade 'vb' é utilizada para descrever itens de alto custo (Empreitada Global, Taxa administração, Imprevistos, etc.)."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:06:46",
+      "duration_s": 74.8,
+      "compact_chars": 876
+    },
+    "pdf_metadata": {
+      "ac_m2": "6.759,46",
+      "ur": null,
+      "tipologia": "Edifício (Nautilus)",
+      "data_base": "29.07.",
+      "cub_referencia": "CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Construção",
+        "premissa": "Área construída de 6.759,46 m²"
+      },
+      {
+        "area": "Pavimento tipo",
+        "premissa": "Cinco unidades: um apartamento de 130 m² (3 repetições), um apartamento de 131 m² (3 repetições), um apartamento de 127 m² (3 repetições) e um apartamento de 127 m² (3 repetições)"
+      },
+      {
+        "area": "Pavimento duplex",
+        "premissa": "Cinco unidades: uma apartamento de 203 m², um apartamento de 236 m², um apartamento de 205 m², um apartamento de 186 m², um apartamento 186 m²"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Alteração profundidade estacas para 10m, a partir da informação de sondagem disponibilizada pelo Eng. Clademir"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Administrativo",
+        "decisao": "Alteração do prazo de execução da obra para 36 meses (consumos, equipe, etc.)"
+      },
+      {
+        "contexto": "Estrutural",
+        "decisao": "Mudança do tipo de aço de cortado e dobrado para corte e dobra em obra (com consideração de perda)"
+      },
+      {
+        "contexto": "Impermeabilização",
+        "decisao": "Mudança de manta asfáltica duas camadas para manta asfáltica uma camada aplicada à quente"
+      },
+      {
+        "contexto": "Acabamento Interno",
+        "decisao": "Alteração de forro de gesso acartonado para gesso liso comum, considerada verba para serviços adicionais em gesso"
+      },
+      {
+        "contexto": "Acabamento",
+        "decisao": "Mudança de corrimão metálico para de madeira nas escadas de emergência."
+      },
+      {
+        "contexto": "Fachada",
+        "decisao": "Alteração do revestimento de fachada (sistema Stucco) para massa única, selador, textura acrílica e pintura"
+      },
+      {
+        "contexto": "Escopo",
+        "decisao": "Separação da unidade construtiva de ambientação, comunicação visual e paisagismo"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Alteração valor empreitada global de acordo com 41% CUB, considerando a inclusão da área da ampliação do duplex",
+      "Exclusão dos equipamentos que estarão no escopo do contrato do novo empreiteiro;",
+      "Alteração da impermeabilização do reservatório, de manta para polimérica;"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:02:18",
+      "duration_s": 89.3,
+      "excerpt_chars": 4329
+    }
   }
 }

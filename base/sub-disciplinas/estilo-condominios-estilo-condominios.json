@@ -1,0 +1,82 @@
+{
+  "projeto": "estilo-condominios-estilo-condominios",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:29:37",
+  "compact_chars": 661,
+  "duration_s": 81.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Infraestrutura Básica\",\n      \"sub_disciplina\": \"Pavimentação\",\n      \"itens_exemplo\": [\n        \"PAVIMENTAÇÃO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Infraestrutura Básica\",\n      \"sub_disciplina\": \"Terraplenagem\",\n      \"itens_exemplo\": [\n        \"TERRAPLENAGEM\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Infraestrutura Básica\",\n      \"sub_disciplina\": \"Muros e Cercamentos\",\n      \"itens_exemplo\": [\n        \"MUROS E CERCAMENTOS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Infraestrutura Básica\",\n      \"sub_disciplina\": \"Drenagem\",\n      \"itens_exemplo\": [\n        \"DRENAGEM\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Infraestrutura Básica\",\n      \"sub_disciplina\": \"Rede Elétrica\",\n      \"itens_exemplo\": [\n        \"REDE ELÉTRICA - subterranea\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços e Áreas Comuns\",\n      \"sub_disciplina\": \"Gestão e Administração\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços e Áreas Comuns\",\n      \"sub_disciplina\": \"Lazer e Portaria\",\n      \"itens_exemplo\": [\n        \"RECREAÇÃO COBERTA E PORTARIA\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"RECREAÇÃO COBERTA E PORTARIA\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"REDE ELÉTRICA - subterranea\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"O orçamento utiliza uma estrutura de custo unitário (pu) e custo total (R$) para listar os principais itens.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Pavimentação",
+        "itens_exemplo": [
+          "PAVIMENTAÇÃO"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Terraplenagem",
+        "itens_exemplo": [
+          "TERRAPLENAGEM"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Muros e Cercamentos",
+        "itens_exemplo": [
+          "MUROS E CERCAMENTOS"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Drenagem",
+        "itens_exemplo": [
+          "DRENAGEM"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Rede Elétrica",
+        "itens_exemplo": [
+          "REDE ELÉTRICA - subterranea"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços e Áreas Comuns",
+        "sub_disciplina": "Gestão e Administração",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços e Áreas Comuns",
+        "sub_disciplina": "Lazer e Portaria",
+        "itens_exemplo": [
+          "RECREAÇÃO COBERTA E PORTARIA"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "RECREAÇÃO COBERTA E PORTARIA",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REDE ELÉTRICA - subterranea",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "O orçamento utiliza uma estrutura de custo unitário (pu) e custo total (R$) para listar os principais itens."
+    ],
+    "fora_da_curva": []
+  }
+}

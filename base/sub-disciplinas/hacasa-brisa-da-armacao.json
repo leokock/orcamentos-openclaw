@@ -1,0 +1,135 @@
+{
+  "projeto": "hacasa-brisa-da-armacao",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:55:20",
+  "compact_chars": 3032,
+  "duration_s": 117.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Execução Geral\",\n      \"sub_disciplina\": \"Alvenaria e Vedação\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Pele de vidro\",\n        \"Mão de obra execução de massa única em paredes interna…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Execução Geral\",\n      \"sub_disciplina\": \"Acabamentos e Impermeabilização\",\n      \"itens_exemplo\": [\n        \"Piso concreto Alisado\",\n        \"Impermeabilização com manta asfáltica colada com asfal…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário e Acabamentos\",\n      \"sub_disciplina\": \"Área e Acabamentos Especiais\",\n      \"itens_exemplo\": [\n        \"Área:\",\n        \"Acabamentos Especiais\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica e Segurança\",\n      \"itens_exemplo\": [\n        \"Mao de obra de instalacoes eletricas\",\n        \"Quadros e Disjuntores\",\n        \"Instalacos do Sistema Preventivo de Incendio - incluso…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidráulica e Esgoto\",\n      \"itens_exemplo\": [\n        \"Instalacoes de Agua Fria\",\n        \"Instalacoes de Esgoto\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Preliminares e Projetos\",\n      \"sub_disciplina\": \"Projetos e Documentação\",\n      \"itens_exemplo\": [\n        \"Projeto Arquitetônico Legal\",\n        \"Projeto estrutural\",\n        \"Projeto Arquitetônico interiores/ambientação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Preliminares e Projetos\",\n      \"sub_disciplina\": \"Equipamentos de Canteiro\",\n      \"itens_exemplo\": [\n        \"Aquisição Elevador cremalheira\",\n        \"Aquisição Mini Grua\",\n        \"Mao De Obra Instalacoes De Canteiro\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Fundação/Estrutura\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cisterna\",\n      \"observacao\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Perdas de material\",\n      \"observacao\": \"Considerado sem indicação em projeto, consideração de 13% de perda\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Projeto\",\n      \"observacao\": \"Quantidade projeto - 30% de perda\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Pavimento\",\n      \"observacao\": \"7º AO 19º PAVIMENTO - TIPO (X13)\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Estimativa de custos\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Valor de custo\",\n      \"observacao\": \"Valor informado em formulário\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estimativa de custos\",\n      \"observacao\": \"Estimado com base em índices históricos para elaboração interna\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Valor de custo\",\n      \"observacao\": \"Valor informado em formulário COM EXECUÇÃO - projeto estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Custo de contratação\",\n      \"observacao\": \"Custo de contratação Cartesian\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Esquadrias de Alumínio - fornecimento e instalação\",\n    \"Área:\",\n    \"Projeto Arquitetônico legal\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Execução Geral",
+        "sub_disciplina": "Alvenaria e Vedação",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Pele de vidro",
+          "Mão de obra execução de massa única em paredes interna…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Execução Geral",
+        "sub_disciplina": "Acabamentos e Impermeabilização",
+        "itens_exemplo": [
+          "Piso concreto Alisado",
+          "Impermeabilização com manta asfáltica colada com asfal…"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário e Acabamentos",
+        "sub_disciplina": "Área e Acabamentos Especiais",
+        "itens_exemplo": [
+          "Área:",
+          "Acabamentos Especiais"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Segurança",
+        "itens_exemplo": [
+          "Mao de obra de instalacoes eletricas",
+          "Quadros e Disjuntores",
+          "Instalacos do Sistema Preventivo de Incendio - incluso…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica e Esgoto",
+        "itens_exemplo": [
+          "Instalacoes de Agua Fria",
+          "Instalacoes de Esgoto"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Preliminares e Projetos",
+        "sub_disciplina": "Projetos e Documentação",
+        "itens_exemplo": [
+          "Projeto Arquitetônico Legal",
+          "Projeto estrutural",
+          "Projeto Arquitetônico interiores/ambientação"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Preliminares e Projetos",
+        "sub_disciplina": "Equipamentos de Canteiro",
+        "itens_exemplo": [
+          "Aquisição Elevador cremalheira",
+          "Aquisição Mini Grua",
+          "Mao De Obra Instalacoes De Canteiro"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cisterna",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Perdas de material",
+        "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "Quantidade projeto - 30% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Pavimento",
+        "observacao": "7º AO 19º PAVIMENTO - TIPO (X13)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Estimativa de custos",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Valor de custo",
+        "observacao": "Valor informado em formulário",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa de custos",
+        "observacao": "Estimado com base em índices históricos para elaboração interna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Valor de custo",
+        "observacao": "Valor informado em formulário COM EXECUÇÃO - projeto estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo de contratação",
+        "observacao": "Custo de contratação Cartesian",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Esquadrias de Alumínio - fornecimento e instalação",
+      "Área:",
+      "Projeto Arquitetônico legal"
+    ],
+    "fora_da_curva": []
+  }
+}

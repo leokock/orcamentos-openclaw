@@ -1132,5 +1132,97 @@
     "ceramica": 58.32,
     "porcelanato": 76.38,
     "rodape": 7.48
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 848,
+      "total_observacoes": 54,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/indepy-stella-marina.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, fck 35MPa, slump = 8 +/- 2…",
+          "Concreto usinado bombeável, fck 30MPa, slump = 22 +/- …"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação de aço CA - 50, corte e dobra em obra"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de obra",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura em concreto arm…"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - Porta Janela"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Ambientação",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Técnicos",
+        "sub_disciplina": "Consultoria",
+        "itens_exemplo": [
+          "Engenheiro civil"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Observações de orçamentista",
+        "observacao": "Verificar consideração de custo para constrole téccnologico",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Observações de orçamentista",
+        "observacao": "Fazer comporativo de corpo de prova por caminhão",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Observações de orçamentista",
+        "observacao": "Verificar consideração de custo para segurança do trabalho de obra e demais itens acrescentados em vermelho.",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Observações de orçamentista",
+        "observacao": "Considerar valor de empresa tercerizada para assessoria de segurança do trabalho",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "O conteúdo detalhado do 'Relatório' é idêntico ao conteúdo do 'Orçamento - comparativo'."
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Itens acrescentados em vermelho",
+        "motivo": "Exigem verificação de custo para segurança do trabalho de obra."
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:04:33",
+      "duration_s": 71.3,
+      "compact_chars": 2481
+    }
   }
 }

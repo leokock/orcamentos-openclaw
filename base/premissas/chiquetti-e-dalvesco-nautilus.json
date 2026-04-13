@@ -1,0 +1,71 @@
+{
+  "projeto": "chiquetti-e-dalvesco-nautilus",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:02:18",
+  "excerpt_chars": 4329,
+  "duration_s": 89.3,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"6.759,46\",\n    \"ur\": null,\n    \"tipologia\": \"Edifício (Nautilus)\",\n    \"data_base\": \"29.07.\",\n    \"cub_referencia\": \"CUB\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Construção\",\n      \"premissa\": \"Área construída de 6.759,46 m²\"\n    },\n    {\n      \"area\": \"Pavimento tipo\",\n      \"premissa\": \"Cinco unidades: um apartamento de 130 m² (3 repetições), um apartamento de 131 m² (3 repetições), um apartamento de 127 m² (3 repetições) e um apartamento de 127 m² (3 repetições)\"\n    },\n    {\n      \"area\": \"Pavimento duplex\",\n      \"premissa\": \"Cinco unidades: uma apartamento de 203 m², um apartamento de 236 m², um apartamento de 205 m², um apartamento de 186 m², um apartamento 186 m²\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Alteração profundidade estacas para 10m, a partir da informação de sondagem disponibilizada pelo Eng. Clademir\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Administrativo\",\n      \"decisao\": \"Alteração do prazo de execução da obra para 36 meses (consumos, equipe, etc.)\"\n    },\n    {\n      \"contexto\": \"Estrutural\",\n      \"decisao\": \"Mudança do tipo de aço de cortado e dobrado para corte e dobra em obra (com consideração de perda)\"\n    },\n    {\n      \"contexto\": \"Impermeabilização\",\n      \"decisao\": \"Mudança de manta asfáltica duas camadas para manta asfáltica uma camada aplicada à quente\"\n    },\n    {\n      \"contexto\": \"Acabamento Interno\",\n      \"decisao\": \"Alteração de forro de gesso acartonado para gesso liso comum, considerada verba para serviços adicionais em gesso\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"decisao\": \"Mudança de corrimão metálico para de madeira nas escadas de emergência.\"\n    },\n    {\n      \"contexto\": \"Fachada\",\n      \"decisao\": \"Alteração do revestimento de fachada (sistema Stucco) para massa única, selador, textura acrílica e pintura\"\n    },\n    {\n      \"contexto\": \"Escopo\",\n      \"decisao\": \"Separação da unidade construtiva de ambientação, comunicação visual e paisagismo\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Alteração valor empreitada global de acordo com 41% CUB, considerando a inclusão da área da ampliação do duplex\",\n    \"Exclusão dos equipamentos que estarão no escopo do contrato do novo empreiteiro;\",\n    \"Alteração da impermeabilização do reservatório, de manta para polimérica;\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "6.759,46",
+      "ur": null,
+      "tipologia": "Edifício (Nautilus)",
+      "data_base": "29.07.",
+      "cub_referencia": "CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Construção",
+        "premissa": "Área construída de 6.759,46 m²"
+      },
+      {
+        "area": "Pavimento tipo",
+        "premissa": "Cinco unidades: um apartamento de 130 m² (3 repetições), um apartamento de 131 m² (3 repetições), um apartamento de 127 m² (3 repetições) e um apartamento de 127 m² (3 repetições)"
+      },
+      {
+        "area": "Pavimento duplex",
+        "premissa": "Cinco unidades: uma apartamento de 203 m², um apartamento de 236 m², um apartamento de 205 m², um apartamento de 186 m², um apartamento 186 m²"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Alteração profundidade estacas para 10m, a partir da informação de sondagem disponibilizada pelo Eng. Clademir"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Administrativo",
+        "decisao": "Alteração do prazo de execução da obra para 36 meses (consumos, equipe, etc.)"
+      },
+      {
+        "contexto": "Estrutural",
+        "decisao": "Mudança do tipo de aço de cortado e dobrado para corte e dobra em obra (com consideração de perda)"
+      },
+      {
+        "contexto": "Impermeabilização",
+        "decisao": "Mudança de manta asfáltica duas camadas para manta asfáltica uma camada aplicada à quente"
+      },
+      {
+        "contexto": "Acabamento Interno",
+        "decisao": "Alteração de forro de gesso acartonado para gesso liso comum, considerada verba para serviços adicionais em gesso"
+      },
+      {
+        "contexto": "Acabamento",
+        "decisao": "Mudança de corrimão metálico para de madeira nas escadas de emergência."
+      },
+      {
+        "contexto": "Fachada",
+        "decisao": "Alteração do revestimento de fachada (sistema Stucco) para massa única, selador, textura acrílica e pintura"
+      },
+      {
+        "contexto": "Escopo",
+        "decisao": "Separação da unidade construtiva de ambientação, comunicação visual e paisagismo"
+      }
+    ],
+    "observacoes_chave": [
+      "Alteração valor empreitada global de acordo com 41% CUB, considerando a inclusão da área da ampliação do duplex",
+      "Exclusão dos equipamentos que estarão no escopo do contrato do novo empreiteiro;",
+      "Alteração da impermeabilização do reservatório, de manta para polimérica;"
+    ]
+  }
+}

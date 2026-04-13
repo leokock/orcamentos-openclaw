@@ -1,0 +1,121 @@
+{
+  "projeto": "beco-castelo-chateau-de-versailes",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:42:02",
+  "compact_chars": 3352,
+  "duration_s": 129.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Execução\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 40 MPa Bombeavel\",\n        \"Mão de obra para execução de supraestrutura de concret…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Execução\",\n      \"sub_disciplina\": \"Acabamentos e Fachada\",\n      \"itens_exemplo\": [\n        \"Pastilha cerâmica branca para fachada\",\n        \"Esquadrias de Alumínio e vidro - fornecimento e instal…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica e Telecom\",\n      \"itens_exemplo\": [\n        \"Mao de obra de instalacoes eletricas\",\n        \"Sistema de telefone\",\n        \"Sistema de antena\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares/Administrativo\",\n      \"sub_disciplina\": \"Mão de Obra Fixa\",\n      \"itens_exemplo\": [\n        \"Engenheiro\",\n        \"Mestre\",\n        \"Almoxarife\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Pisos\",\n      \"sub_disciplina\": \"Revestimentos\",\n      \"itens_exemplo\": [\n        \"Revstimento com cerâmica/porcelanato\",\n        \"MO Revestimento cerâmico\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Marcenaria\",\n      \"itens_exemplo\": [\n        \"Marcenaria\",\n        \"Marcenaria\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Composição de custos\",\n      \"observacao\": \"Foi desconsiderado o 10% extra do projetista par aconsideração na composição\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"observacao\": \"Mesma composição de forma de blocos e baldrames\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Volume de cálculo\",\n      \"observacao\": \"Foi adotado o volume do projetista por ser maior que o calculado, custo repassado em contrato\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cálculo de vagas\",\n      \"observacao\": \"Considerado um ponto por carro na vaga (vagas com mais de um carro)\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cálculo de área\",\n      \"observacao\": \"Média em conta com a área de gerador\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cálculo de área\",\n      \"observacao\": \"Média em conta com a área de subestação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Hidrômetro\",\n      \"observacao\": \"Considerando um hidrometro por habitação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo alinhado com contrato Cartsian - custo difere do informado no formulário\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Segurança\",\n      \"observacao\": \"Estimativa de 2 tecnicos de segurança para a obra\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Mão de obra para execução de supraestrutura de concret…\",\n    \"Área:\",\n    \"Mão de obra\",\n    \"Mês\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Custo alinhado com contrato Cartsian - custo difere do informado no formulário\",\n      \"motivo\": \"Indica divergência entre o custo alinhado contratualmente e o valor informado no formulário.\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Execução",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 40 MPa Bombeavel",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Execução",
+        "sub_disciplina": "Acabamentos e Fachada",
+        "itens_exemplo": [
+          "Pastilha cerâmica branca para fachada",
+          "Esquadrias de Alumínio e vidro - fornecimento e instal…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Telecom",
+        "itens_exemplo": [
+          "Mao de obra de instalacoes eletricas",
+          "Sistema de telefone",
+          "Sistema de antena"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares/Administrativo",
+        "sub_disciplina": "Mão de Obra Fixa",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Mestre",
+          "Almoxarife"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Pisos",
+        "sub_disciplina": "Revestimentos",
+        "itens_exemplo": [
+          "Revstimento com cerâmica/porcelanato",
+          "MO Revestimento cerâmico"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Marcenaria",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Marcenaria"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Composição de custos",
+        "observacao": "Foi desconsiderado o 10% extra do projetista par aconsideração na composição",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Mesma composição de forma de blocos e baldrames",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Volume de cálculo",
+        "observacao": "Foi adotado o volume do projetista por ser maior que o calculado, custo repassado em contrato",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo de vagas",
+        "observacao": "Considerado um ponto por carro na vaga (vagas com mais de um carro)",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo de área",
+        "observacao": "Média em conta com a área de gerador",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo de área",
+        "observacao": "Média em conta com a área de subestação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Hidrômetro",
+        "observacao": "Considerando um hidrometro por habitação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo alinhado com contrato Cartsian - custo difere do informado no formulário",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Segurança",
+        "observacao": "Estimativa de 2 tecnicos de segurança para a obra",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Mão de obra para execução de supraestrutura de concret…",
+      "Área:",
+      "Mão de obra",
+      "Mês"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Custo alinhado com contrato Cartsian - custo difere do informado no formulário",
+        "motivo": "Indica divergência entre o custo alinhado contratualmente e o valor informado no formulário."
+      }
+    ]
+  }
+}

@@ -2670,5 +2670,81 @@
     "pintura_parede_pu_m2": 5.25,
     "chapisco_pu_m2": 2.72,
     "reboco_pu_m2": 15.7
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 3228,
+      "total_observacoes": 3,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/ck-duo-praia-brava.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado 35Mpa Slump 15+-3 Bombeado"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Estrutura de Concreto Armado",
+        "itens_exemplo": [
+          "Estrutura de Concreto Armado - MO",
+          "Estrutura de Concreto Armado - MO (Coeficiente 1,50)"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Mobiliário e Decoração",
+        "itens_exemplo": [
+          "Área Comum (Mobiliário e decorações)*"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Locação de Elevador Cremalheira"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Contingência",
+        "itens_exemplo": [
+          "Itens eventuais e não orçados - 1,5% custo raso*"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Rua Ariribá, 119 - Balneário Santa Clara - Itajaí/SC - 88306-780",
+        "observacao": "Endereço do projeto.",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "3 - 23/04/2021 - 15:23:30",
+        "observacao": "Atualização Instalações Hidrossanitárias",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "5",
+        "observacao": "EQUIPAMENTOS, SERVIÇOS COMPLEMENTARES E CONTINGÊNCIA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de Estrutura de Concreto Armado - MO com valores idênticos.",
+      "Repetição de Concreto Usinado 35Mpa Slump 15+-3 Bombeado com valores idênticos."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:10:22",
+      "duration_s": 90.1,
+      "compact_chars": 957
+    }
   }
 }

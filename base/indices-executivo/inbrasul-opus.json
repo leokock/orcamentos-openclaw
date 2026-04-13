@@ -103,5 +103,104 @@
   "fachada_detail": {
     "_total": 487518.06
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 18,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/inbrasul-opus.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "pu=1223.46"
+        ]
+      },
+      {
+        "macrogrupo": "SUPRAESTRUTURA",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=603.67"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…",
+        "itens_exemplo": [
+          "pu=416.20"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS",
+        "sub_disciplina": "ESQUADRIAS",
+        "itens_exemplo": [
+          "pu=303.80"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS EM PISO E PAREDE",
+        "sub_disciplina": "ACABAMENTOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "pu=193.80"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Formato de apresentação de custo: | pu=X | R$Y",
+      "Estrutura de resumo de custos por categoria principal"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:01:05",
+      "duration_s": 73.7,
+      "compact_chars": 519
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "OPUS HOUSE",
+      "data_base": "22/02/2022 - 16:32:05",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "N/A",
+        "premissa": "Tipo de obra: Construção Civil"
+      },
+      {
+        "area": "N/A",
+        "premissa": "Escopo: OPUS HOUSE - CUSTO DIRETO/INDIRETO"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": "BDI não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": "Encargos sociais não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Preços expressos em R$ (REAL)",
+      "Endereço da obra: Av. Prefeito José Juvenal Mafra, 604, esquina com Av. Conselheiro João Gaya., 604 - Centro - Navegantes/SC - 88375-000"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:24:53",
+      "duration_s": 67.5,
+      "excerpt_chars": 4326
+    }
+  }
 }

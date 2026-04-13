@@ -28,5 +28,65 @@
       "qtd_m2": 6828.76
     }
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 0,
+      "total_observacoes": 4,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mg3-la-vie.json"
+    },
+    "sub_disciplinas": [],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:18:26",
+      "duration_s": 23.4,
+      "compact_chars": 29
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "Padrão M3V",
+      "data_base": "22/05/2023",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": null,
+        "premissa": "Unidade construtiva 2 - GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "area": null,
+        "premissa": "Unidade construtiva 3 - GERENCIAMENTO EXECUTIVO"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": null,
+        "nota": "não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": null,
+        "nota": "não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Preços expressos em R$ (REAL)",
+      "Endereço da obra RUA 3150, 390 - CENTRO - Balneario Camboriú/SC - 88330-281"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:29:51",
+      "duration_s": 64.6,
+      "excerpt_chars": 4332
+    }
+  }
 }

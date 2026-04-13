@@ -1,0 +1,61 @@
+{
+  "projeto": "mz-central-park",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:31:39",
+  "compact_chars": 634,
+  "duration_s": 63.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto e Alvenaria\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de estrutura de concreto arm…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Reboco e Chapisco\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de chapisco e reboco interno…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio - tipo\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Mão de Obra e Pessoal\",\n      \"itens_exemplo\": [\n        \"Engenheiro civil\",\n        \"Mestre de obras\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Ambientação\",\n      \"itens_exemplo\": [\n        \"Ambientação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Reserva\",\n      \"sub_disciplina\": \"Contingência\",\n      \"itens_exemplo\": [\n        \"Imprevistos e Contingências\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Uso de unidades de tempo (mes) e área (m2) para cálculo de mão de obra.\",\n    \"Estrutura de cálculo de custo consistente (qtd, pu, R$ total).\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Alvenaria",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura de concreto arm…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Reboco e Chapisco",
+        "itens_exemplo": [
+          "Mão de obra para execução de chapisco e reboco interno…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - tipo"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Mão de Obra e Pessoal",
+        "itens_exemplo": [
+          "Engenheiro civil",
+          "Mestre de obras"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Ambientação",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      },
+      {
+        "macrogrupo": "Reserva",
+        "sub_disciplina": "Contingência",
+        "itens_exemplo": [
+          "Imprevistos e Contingências"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Uso de unidades de tempo (mes) e área (m2) para cálculo de mão de obra.",
+      "Estrutura de cálculo de custo consistente (qtd, pu, R$ total)."
+    ],
+    "fora_da_curva": []
+  }
+}

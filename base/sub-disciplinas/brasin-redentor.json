@@ -1,0 +1,131 @@
+{
+  "projeto": "brasin-redentor",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:48:36",
+  "compact_chars": 3564,
+  "duration_s": 121.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 5…\",\n        \"Mão de obra para execução de supraestrutura em concret…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armação aço CA-50 diâmetro 10,00mm para supraestrutura…\",\n        \"Armadura supraestrutura torre 6,3 mm - 32,00 Corte e D…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Escoramento\",\n      \"itens_exemplo\": [\n        \"Escoramento Metálico\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Revestimento\",\n      \"itens_exemplo\": [\n        \"Revestimento em ACM, cor bronze e concreto, aplicação …\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Equipamentos\",\n      \"sub_disciplina\": \"Elevadores\",\n      \"itens_exemplo\": [\n        \"Elevadores Emergência\",\n        \"Elevadores Social\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Equipamentos\",\n      \"sub_disciplina\": \"Segurança Contra Incêndio\",\n      \"itens_exemplo\": [\n        \"SISTEMA DE REDE DE SPRINKLER PVC FIRE\",\n        \"DETECTOR DE FUMAÇA ENDEREÇAVEL ANALOGICO MI-PSE-S2-IV\",\n        \"TUBO DE ACO 3' GALVANIZADO NBR 5580 6M CL\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais e Administrativo\",\n      \"sub_disciplina\": \"Mão de Obra\",\n      \"itens_exemplo\": [\n        \"Engenheiro\",\n        \"Mestre de obras\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Área\",\n      \"itens_exemplo\": [\n        \"Área:\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Fundação/Estrutura\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cisterna\",\n      \"observacao\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Perdas/Estimativa\",\n      \"observacao\": \"Considerado sem indicação em projeto, consideração de 13% de perda h=5cm\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Perdas/Estimativa\",\n      \"observacao\": \"Quantidade projeto - 30% de perda\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Prazo\",\n      \"observacao\": \"Tempo de permanência atualizado para 24 meses, conforme solicitado em revisão\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo repassado pela Brasin em revisão\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Exclusão de item\",\n      \"observacao\": \"Retirado do orçamento pois Brasin irá considerar no custo de incorporação, o qual não terá vinculo com o orça…\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Cálculo de custo\",\n      \"observacao\": \"Considerado 8800,00 por mês para 6 meses + 300 entrega.\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Esquadrias de Alumínio (R$11.000.000)\",\n    \"Revestimento em ACM, cor bronze e concreto, aplicação … (R$3.000.000)\",\n    \"Elevadores Emergência (R$2.233.527)\",\n    \"Escoramento Metálico (R$2.000.000)\",\n    \"Elevadores Social (R$1.999.046)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 5…",
+          "Mão de obra para execução de supraestrutura em concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação aço CA-50 diâmetro 10,00mm para supraestrutura…",
+          "Armadura supraestrutura torre 6,3 mm - 32,00 Corte e D…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Escoramento",
+        "itens_exemplo": [
+          "Escoramento Metálico"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento",
+        "itens_exemplo": [
+          "Revestimento em ACM, cor bronze e concreto, aplicação …"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Equipamentos",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Elevadores Emergência",
+          "Elevadores Social"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Equipamentos",
+        "sub_disciplina": "Segurança Contra Incêndio",
+        "itens_exemplo": [
+          "SISTEMA DE REDE DE SPRINKLER PVC FIRE",
+          "DETECTOR DE FUMAÇA ENDEREÇAVEL ANALOGICO MI-PSE-S2-IV",
+          "TUBO DE ACO 3' GALVANIZADO NBR 5580 6M CL"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Administrativo",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Mestre de obras"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Área",
+        "itens_exemplo": [
+          "Área:"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cisterna",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Perdas/Estimativa",
+        "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda h=5cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Perdas/Estimativa",
+        "observacao": "Quantidade projeto - 30% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Prazo",
+        "observacao": "Tempo de permanência atualizado para 24 meses, conforme solicitado em revisão",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo repassado pela Brasin em revisão",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Exclusão de item",
+        "observacao": "Retirado do orçamento pois Brasin irá considerar no custo de incorporação, o qual não terá vinculo com o orça…",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo de custo",
+        "observacao": "Considerado 8800,00 por mês para 6 meses + 300 entrega.",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Esquadrias de Alumínio (R$11.000.000)",
+      "Revestimento em ACM, cor bronze e concreto, aplicação … (R$3.000.000)",
+      "Elevadores Emergência (R$2.233.527)",
+      "Escoramento Metálico (R$2.000.000)",
+      "Elevadores Social (R$1.999.046)"
+    ],
+    "fora_da_curva": []
+  }
+}

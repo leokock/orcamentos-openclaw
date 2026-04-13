@@ -1,0 +1,75 @@
+{
+  "projeto": "exito-oiti",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:32:46",
+  "compact_chars": 863,
+  "duration_s": 83.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, FCK 3…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armação\",\n      \"itens_exemplo\": [\n        \"Armação aço para supraestrutura, corte e dobra em indú…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de Obra\",\n      \"itens_exemplo\": [\n        \"Mão de obra empreitada para execução de estrutura de c…\",\n        \"Mestre de obras\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Alumínio/Vidro\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio - Tipo (12x)\",\n        \"Guarda Corpo em Alumínio e Vidro\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Geral\",\n      \"itens_exemplo\": [\n        \"Ambientação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações (MEP)\",\n      \"sub_disciplina\": \"Aquecimento\",\n      \"itens_exemplo\": [\n        \"Sistema de aquecimento central de água\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"RESIDENCIAL OITI - OBRA\",\n      \"observacao\": \"61\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"RUA HEITOR LIBERATO, 2131 - SÃO JUDAS - ITAJAI/SC - 88303-101\",\n      \"observacao\": \"\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"1 - 26/09/2022 - 14:22:57\",\n      \"observacao\": \"\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, FCK 3…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armação",
+        "itens_exemplo": [
+          "Armação aço para supraestrutura, corte e dobra em indú…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução de estrutura de c…",
+          "Mestre de obras"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Alumínio/Vidro",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - Tipo (12x)",
+          "Guarda Corpo em Alumínio e Vidro"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Geral",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações (MEP)",
+        "sub_disciplina": "Aquecimento",
+        "itens_exemplo": [
+          "Sistema de aquecimento central de água"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "RESIDENCIAL OITI - OBRA",
+        "observacao": "61",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "RUA HEITOR LIBERATO, 2131 - SÃO JUDAS - ITAJAI/SC - 88303-101",
+        "observacao": "",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "1 - 26/09/2022 - 14:22:57",
+        "observacao": "",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [],
+    "fora_da_curva": []
+  }
+}

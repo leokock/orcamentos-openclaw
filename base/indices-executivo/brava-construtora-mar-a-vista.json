@@ -163,5 +163,164 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 53,
+      "total_observacoes": 3,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/brava-construtora-mar-a-vista.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Gerenciamento Técnico e Administrativo",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Supraestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "Infraestrutura",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Instalações",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Revestimentos",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS DE PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Pisos",
+        "itens_exemplo": [
+          "PISOS E PAVIMENTAÇÕES"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:49:44",
+      "duration_s": 68.2,
+      "compact_chars": 800
+    },
+    "pdf_metadata": {
+      "ac_m2": "3.120,05",
+      "ur": "27",
+      "tipologia": "Apartamentos com espaço garden e infra para ofurô",
+      "data_base": "fev/2024",
+      "cub_referencia": "1.889,47"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Movimentação de terra para bota fora, com 30% de fator de empolamento;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "49 estacas raíz com diâmetro 40 cm;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "23 estacas raíz com diâmetro 30cm;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Concreto de blocos e baldrames com resistência de 30 Mpa;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Parede de contenção em concreto com resistênciade 30 Mpa;"
+      },
+      {
+        "area": "Superestrutura",
+        "premissa": "Fabricação de forma em compensadoplastificado 17mm;"
+      },
+      {
+        "area": "Superestrutura",
+        "premissa": "Concreto com resistência de 30 Mpa considerando perda de 5%;"
+      },
+      {
+        "area": "Superestrutura",
+        "premissa": "Locação de escoramento metálico (1 jogo de escora por pavimento/mês);"
+      },
+      {
+        "area": "Sistemas Especiais",
+        "premissa": "Ventilação mecânica; Exaustão da churrasqueira no espaço gourmet; CFTV e interfonia."
+      },
+      {
+        "area": "Áreas Molhadas",
+        "premissa": "Área molhada de cozinha, área de serviço, banheiros e lavabos c… …PVC;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Considerado piso em deck de madeira tratada no Garden (imagem anterior)."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Sistemas Especiais",
+        "decisao": "Consideramos material e mão de obra para instalação dos sistemas especiais através das informações fornecidas pelo cliente."
+      },
+      {
+        "contexto": "Áreas Molhadas",
+        "decisao": "Quantitativos retirados através do modelo arquitetônico;"
+      },
+      {
+        "contexto": "Serviços Complementares",
+        "decisao": "Valores considerados conforme informações fornecidas pela construtora."
+      },
+      {
+        "contexto": "Imprevistos e Contingências",
+        "decisao": "Calculado um percentual de segurança para possíveis imprevistos de obra."
+      },
+      {
+        "contexto": "Gerenciamento Técnico e Administrativo",
+        "decisao": "Itens lançados com valor igual a 0, conforme solicitação do cliente…"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Localização: Rua dos Tucanos, Loteamento Pérola do Mar, Nossa Senhora da Vitória, Ilhéus, BA",
+      "O empreendimento possui 3 pvtos residenciais Lazer e Rooftop.",
+      "Serviços incluem: Paisagismo; Ligações definitivas; Desmobilização; Limpeza final da obra.",
+      "O custo total orçado é de R$ 10.446.494,54, representando 100% da obra.",
+      "A análise de custos diretos mostra que o valor/m² total é de R$ 3.348,18."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:53:14",
+      "duration_s": 104.0,
+      "excerpt_chars": 4311
+    }
   }
 }

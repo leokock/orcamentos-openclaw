@@ -1,0 +1,114 @@
+{
+  "projeto": "grupo-duo-mosaico",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:52:24",
+  "compact_chars": 3402,
+  "duration_s": 111.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Acabamentos\",\n      \"sub_disciplina\": \"Concreto e Alvenaria\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru...\",\n        \"Mão de obra execução de chapisco, emboço e reboco em p...\",\n        \"Considerado blocos, vigas de fundação, lajes,pilares de arranque, dutos e cisternas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fachadas e Vedação\",\n      \"sub_disciplina\": \"Acabamentos Externos\",\n      \"itens_exemplo\": [\n        \"Acabamento em ACM para Fachadas - Material e mão de ob...\",\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Rede de proteção, SLQA, leve\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações Elétricas e Mecânicas\",\n      \"sub_disciplina\": \"Cabeamento e Eletrodutos\",\n      \"itens_exemplo\": [\n        \"Cabo isolado de cobre em PVC, 1 KV - 10 mm² - Cor azul...\",\n        \"Eletroduto flexível corrugado Reforçado, em PVC na cor...\",\n        \"Cabos e Fiacoes\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações Elétricas e Mecânicas\",\n      \"sub_disciplina\": \"Equipamentos e Sistemas\",\n      \"itens_exemplo\": [\n        \"Quadros e Disjuntores\",\n        \"Sistema de tratamento de esgoto\",\n        \"Equipamento Escada Pressurizada\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais e Projetos\",\n      \"sub_disciplina\": \"Mão de Obra Geral\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de supraestrutura de concret...\",\n        \"Mão de obra para instalações elétricas\",\n        \"Equipe de apoio\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário e Acabamentos Internos\",\n      \"sub_disciplina\": \"Mobiliário Planejado\",\n      \"itens_exemplo\": [\n        \"Marcenaria\",\n        \"Área:\",\n        \"Maquina lava e seca\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Estrutura\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, lajes,pilares de arranque, dutos e cisternas\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Projetos\",\n      \"observacao\": \"Quantidade de Projetos - 10% de perda\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Projetos\",\n      \"observacao\": \"Quantidade de Projetos - 30% de perda\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Projeto\",\n      \"observacao\": \"Quantidade disponibilizada pelo projetista - 2 jogos do 3º pavimento\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Valor informado em formulário\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Detalhe\",\n      \"observacao\": \"Eletrodutos e eletrocalhas\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Detalhe\",\n      \"observacao\": \"Quadros elétricos e disjuntores\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição de itens de cabeamento com especificações de tensão e bitola (1 KV - 10 mm²)\",\n    \"Repetição de serviços de 'Área:' no grupo Mobiliário\",\n    \"Múltiplas ocorrências de 'Mão de obra' em diferentes grupos (Ger_Executivo e INSTALAÇÕES)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Acabamentos",
+        "sub_disciplina": "Concreto e Alvenaria",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru...",
+          "Mão de obra execução de chapisco, emboço e reboco em p...",
+          "Considerado blocos, vigas de fundação, lajes,pilares de arranque, dutos e cisternas"
+        ]
+      },
+      {
+        "macrogrupo": "Fachadas e Vedação",
+        "sub_disciplina": "Acabamentos Externos",
+        "itens_exemplo": [
+          "Acabamento em ACM para Fachadas - Material e mão de ob...",
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Rede de proteção, SLQA, leve"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações Elétricas e Mecânicas",
+        "sub_disciplina": "Cabeamento e Eletrodutos",
+        "itens_exemplo": [
+          "Cabo isolado de cobre em PVC, 1 KV - 10 mm² - Cor azul...",
+          "Eletroduto flexível corrugado Reforçado, em PVC na cor...",
+          "Cabos e Fiacoes"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações Elétricas e Mecânicas",
+        "sub_disciplina": "Equipamentos e Sistemas",
+        "itens_exemplo": [
+          "Quadros e Disjuntores",
+          "Sistema de tratamento de esgoto",
+          "Equipamento Escada Pressurizada"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Projetos",
+        "sub_disciplina": "Mão de Obra Geral",
+        "itens_exemplo": [
+          "Mão de obra para execução de supraestrutura de concret...",
+          "Mão de obra para instalações elétricas",
+          "Equipe de apoio"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário e Acabamentos Internos",
+        "sub_disciplina": "Mobiliário Planejado",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Área:",
+          "Maquina lava e seca"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, lajes,pilares de arranque, dutos e cisternas",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Projetos",
+        "observacao": "Quantidade de Projetos - 10% de perda",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Projetos",
+        "observacao": "Quantidade de Projetos - 30% de perda",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "Quantidade disponibilizada pelo projetista - 2 jogos do 3º pavimento",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Valor informado em formulário",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhe",
+        "observacao": "Eletrodutos e eletrocalhas",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhe",
+        "observacao": "Quadros elétricos e disjuntores",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de itens de cabeamento com especificações de tensão e bitola (1 KV - 10 mm²)",
+      "Repetição de serviços de 'Área:' no grupo Mobiliário",
+      "Múltiplas ocorrências de 'Mão de obra' em diferentes grupos (Ger_Executivo e INSTALAÇÕES)"
+    ],
+    "fora_da_curva": []
+  }
+}

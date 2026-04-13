@@ -1,0 +1,67 @@
+{
+  "projeto": "lotisa-serenity",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T01:10:37",
+  "excerpt_chars": 4331,
+  "duration_s": 102.2,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": null,\n    \"ur\": null,\n    \"tipologia\": null,\n    \"data_base\": \"JULHO/21\",\n    \"cub_referencia\": \"R$ 2.307,92\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Projetos, estudos, laudos e consultorias\",\n      \"premissa\": \"Os projetos, estudos, laudos e consultorias considerados estão estimados conforme valores de mercado, não foram informados os valores já contratados e nem os projetos que seriam contratados futuramente;\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"Estacas hélice conforme projeto disponibilizados; Os quantitativos de blocos e baldrames foram levantados a partir do projeto; Movimentação de terra considerando escavação para blocos e baldrames; Contenção para …ação de terra considerando escavação para blocos e baldrames; Contenção para bloco principal com tipologia de Estacas Justapostas; Considerado aço cortado e dobrado em obra; Preços unitários conforme cotações recentes.\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Supraestrutura quantificada conforme projetos fornecidos pela Lotisa; A partir do pavimento 22 foram considerados valores estimados por índices calculados em obras similares. Conforme especificação foi considerado aço cortado e dobrado em obra até o tipo 1, após está contemplado aço cortado e dobrado em indústria;\"\n    },\n    {\n      \"area\": \"Louças e Metais\",\n      \"premissa\": \"Foram consideradas as áreas comuns completas e os apartamentos apenas com bacias sanitárias e acabamentos de registro.\"\n    },\n    {\n      \"area\": \"Reboco Interno e Contrapiso\",\n      \"premissa\": \"Contrapiso acústico nas áreas internas do apartamento, com exceção de áreas molhadas; Paredes revestidas com chapisco e reboco.\"\n    },\n    {\n      \"area\": \"Revestimentos Externo e Acabamentos em Fachada\",\n      \"premissa\": \"Paredes revestidas com chapisco e reboco. Textura com pintura nas paredes externas; Acabamentos especiais de fachada considerando chapa de ACM branca e chapa Hunter Douglas.\"\n    },\n    {\n      \"area\": \"Tetos e Forros\",\n      \"premissa\": \"Forro em gesso acartonado; Garagens e térreo com lajes aparentes considerado estucamento; Escadas considerando estucamento e pintura.\"\n    },\n    {\n      \"area\": \"Equipamentos e Sistemas Especiais\",\n      \"premissa\": \"2 unidades de elevadores sociais e 1 unidade de elevador de serviço; Sistema de automação e telefonia.\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Equipe de Administração da Obra\",\n      \"decisao\": \"Foi considerado o rateio da equipe gerencial técnica indireta, conforme alinhado em reunião com a Lotisa, sendo o valor de R$ 30.000,00 / mês, ao longo da obra, iniciando a partir do mês de julho/21.\"\n    },\n    {\n      \"contexto\": \"Supraestrutura\",\n      \"decisao\": \"A partir do pavimento 22 foram considerados valores estimados por índices calculados em obras similares.\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Os itens de alimentação (marmitas), ticket, plano de saúde e bonificação, não estão descritos visto que não temos essa informação.\",\n    \"As despesas de consumo foram estimadas conforme médias de mercado.\",\n    \"Os equipamentos para execução da obra foram estimados, não possuímos especificações de quais serão utilizados.\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "JULHO/21",
+      "cub_referencia": "R$ 2.307,92"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Projetos, estudos, laudos e consultorias",
+        "premissa": "Os projetos, estudos, laudos e consultorias considerados estão estimados conforme valores de mercado, não foram informados os valores já contratados e nem os projetos que seriam contratados futuramente;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Estacas hélice conforme projeto disponibilizados; Os quantitativos de blocos e baldrames foram levantados a partir do projeto; Movimentação de terra considerando escavação para blocos e baldrames; Contenção para …ação de terra considerando escavação para blocos e baldrames; Contenção para bloco principal com tipologia de Estacas Justapostas; Considerado aço cortado e dobrado em obra; Preços unitários conforme cotações recentes."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Supraestrutura quantificada conforme projetos fornecidos pela Lotisa; A partir do pavimento 22 foram considerados valores estimados por índices calculados em obras similares. Conforme especificação foi considerado aço cortado e dobrado em obra até o tipo 1, após está contemplado aço cortado e dobrado em indústria;"
+      },
+      {
+        "area": "Louças e Metais",
+        "premissa": "Foram consideradas as áreas comuns completas e os apartamentos apenas com bacias sanitárias e acabamentos de registro."
+      },
+      {
+        "area": "Reboco Interno e Contrapiso",
+        "premissa": "Contrapiso acústico nas áreas internas do apartamento, com exceção de áreas molhadas; Paredes revestidas com chapisco e reboco."
+      },
+      {
+        "area": "Revestimentos Externo e Acabamentos em Fachada",
+        "premissa": "Paredes revestidas com chapisco e reboco. Textura com pintura nas paredes externas; Acabamentos especiais de fachada considerando chapa de ACM branca e chapa Hunter Douglas."
+      },
+      {
+        "area": "Tetos e Forros",
+        "premissa": "Forro em gesso acartonado; Garagens e térreo com lajes aparentes considerado estucamento; Escadas considerando estucamento e pintura."
+      },
+      {
+        "area": "Equipamentos e Sistemas Especiais",
+        "premissa": "2 unidades de elevadores sociais e 1 unidade de elevador de serviço; Sistema de automação e telefonia."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Equipe de Administração da Obra",
+        "decisao": "Foi considerado o rateio da equipe gerencial técnica indireta, conforme alinhado em reunião com a Lotisa, sendo o valor de R$ 30.000,00 / mês, ao longo da obra, iniciando a partir do mês de julho/21."
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "A partir do pavimento 22 foram considerados valores estimados por índices calculados em obras similares."
+      }
+    ],
+    "observacoes_chave": [
+      "Os itens de alimentação (marmitas), ticket, plano de saúde e bonificação, não estão descritos visto que não temos essa informação.",
+      "As despesas de consumo foram estimadas conforme médias de mercado.",
+      "Os equipamentos para execução da obra foram estimados, não possuímos especificações de quais serão utilizados."
+    ]
+  }
+}

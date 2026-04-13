@@ -1,0 +1,56 @@
+{
+  "projeto": "all-acacias-jk",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T01:01:46",
+  "excerpt_chars": 4330,
+  "duration_s": 68.9,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"1943,23\",\n    \"ur\": null,\n    \"tipologia\": \"1 Térreo – 3 aptos no andar, 5 tipos – 7 aptos por andar\",\n    \"data_base\": \"05.08.2024\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Concreto fck de 35 MPa na supraestrutura, consideração de 5% de perda;\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Armação com consideração de aço cortado em obra com 10% de perda;\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em compensado plastificado 14 mm, considerando 2 jogos;\"\n    },\n    {\n      \"area\": \"Paredes e Painéis\",\n      \"premissa\": \"Consideração de blocos de concreto 2 fiadas no perímetro dos Muros do Térreo com argamassa usinada para assentamento;\"\n    },\n    {\n      \"area\": \"Paredes e Painéis\",\n      \"premissa\": \"Consideração de blocos cerâmicos para demais vedação com argamassa usinada para assentamento;\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Quantificação de formas e infraestrutura\",\n      \"decisao\": \"Exceção de quantidades de formas, extraído manualmente através das plantas de formas e detalhamentos da estrutura.\"\n    },\n    {\n      \"contexto\": \"Levantamento de áreas\",\n      \"decisao\": \"Levantamento realizado via visus, utilizando arquivo .ifc;\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Localização: Rua das Acacias, 116 - Carvoeira - Florianópolis/SC\",\n    \"Área Construída: 1943,23m²\",\n    \"Estrutura: 8 pavimentos\",\n    \"Escopo inclui 20 itens, desde MOVIMENTAÇÃO DE TERRA até REVESTIMENTOS E ACABAMENTOS DE FAC.\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "1943,23",
+      "ur": null,
+      "tipologia": "1 Térreo – 3 aptos no andar, 5 tipos – 7 aptos por andar",
+      "data_base": "05.08.2024",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Supraestrutura",
+        "premissa": "Concreto fck de 35 MPa na supraestrutura, consideração de 5% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com consideração de aço cortado em obra com 10% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em compensado plastificado 14 mm, considerando 2 jogos;"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos de concreto 2 fiadas no perímetro dos Muros do Térreo com argamassa usinada para assentamento;"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos cerâmicos para demais vedação com argamassa usinada para assentamento;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Quantificação de formas e infraestrutura",
+        "decisao": "Exceção de quantidades de formas, extraído manualmente através das plantas de formas e detalhamentos da estrutura."
+      },
+      {
+        "contexto": "Levantamento de áreas",
+        "decisao": "Levantamento realizado via visus, utilizando arquivo .ifc;"
+      }
+    ],
+    "observacoes_chave": [
+      "Localização: Rua das Acacias, 116 - Carvoeira - Florianópolis/SC",
+      "Área Construída: 1943,23m²",
+      "Estrutura: 8 pavimentos",
+      "Escopo inclui 20 itens, desde MOVIMENTAÇÃO DE TERRA até REVESTIMENTOS E ACABAMENTOS DE FAC."
+    ]
+  }
+}

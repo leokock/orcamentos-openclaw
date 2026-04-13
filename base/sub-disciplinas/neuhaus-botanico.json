@@ -1,0 +1,48 @@
+{
+  "projeto": "neuhaus-botanico",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:32:34",
+  "compact_chars": 1135,
+  "duration_s": 54.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétricas\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Paredes\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Alvenaria\",\n      \"sub_disciplina\": \"Paredes\",\n      \"itens_exemplo\": [\n        \"ALVENARIA\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"SUPRAESTRUTURA\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"ESQUADRIAS\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétricas",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Alvenaria",
+        "sub_disciplina": "Paredes",
+        "itens_exemplo": [
+          "ALVENARIA"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "SUPRAESTRUTURA",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "ESQUADRIAS"
+    ],
+    "fora_da_curva": []
+  }
+}

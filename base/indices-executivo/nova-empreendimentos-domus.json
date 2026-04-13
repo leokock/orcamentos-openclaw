@@ -102,5 +102,205 @@
   "ci_detalhado": {
     "epcs": 4601.01,
     "canteiro": 800.0
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 21,
+      "total_itens": 11521,
+      "total_observacoes": 61,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/nova-empreendimentos-domus.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "FUNDAÇÕES",
+          "fundações"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Contenção",
+        "itens_exemplo": [
+          "CONTENÇÕES",
+          "Tirantes de Contenção"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA",
+          "SUPRAESTRUTURA - TORRE B",
+          "SUPRAESTRUTURA - TORRE A"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidrossanitárias",
+        "itens_exemplo": [
+          "INSTALAÇÕES HIDROSSANITÁRIAS",
+          "INSTALAÇÕES HIDROSSANITÁRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétricas e Telecom",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, TELEFÔNICAS E SPDA",
+          "INSTALAÇÕES ELÉTRICAS, TELEFÔNICAS E SPDA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Vedação",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS",
+          "Esquadrias de Alumínio e Vidro  - Portas e Janelas / r…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Terreno e Movimentação",
+        "itens_exemplo": [
+          "Locação Máquinas Escavações / Terraplanagem",
+          "Guarda-Corpos Alumínio / Barras Horizontais h=110cm"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Áreas Comuns",
+        "itens_exemplo": [
+          "ÁREAS COMUNS E PAISAGISMO",
+          "Itens complementares para áreas comuns"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Terreno/Viabilidade",
+        "observacao": "Custo total do terreno R$2.563.000,00 mais permuta das unidades 401A, 402A, 403A, 404A, 405A, 602B, 603B e 5 …",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Tabela de viabilidade financeira",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Administração",
+        "observacao": "CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviços de Terraplanagem",
+        "observacao": "Consideração de 8 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba por 24 meses",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escopo",
+        "observacao": "Proporcional à área de terreno do Malta",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Metodologia",
+        "observacao": "Levantado manualmente seguindo projeto de contenções",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Considerado resumo projetista + 5% de perda",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de valores e PU para FUNDAÇÕES e CONTENÇÕES em diferentes blocos de análise (CONTRUTORA, MÃO DE OBRA, EAP Análise)",
+      "Repetição de custos e PU para DOMUS - ADM em diferentes blocos de análise (CONTRUTORA, MÃO DE OBRA, EAP Análise)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:38:39",
+      "duration_s": 112.3,
+      "compact_chars": 2769
+    },
+    "pdf_metadata": {
+      "ac_m2": "5.008,85",
+      "ur": null,
+      "tipologia": null,
+      "data_base": "05.02.2026",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Arquitetura",
+        "premissa": "Levantamento realizado via Visus, utilizando arquivo .ifc ajustado;"
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Exceção de quantidades de louças e metais e mobiliário, que foram levantados através do projeto 2D."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Quantificação de instalações elétricas, telecomunicação, hidrossanitárias, preventivas, gás e SPDA seguindo detalhamentos de projeto e quantitativos disponibilizados;"
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Complementação de estimativas em itens ausentes;"
+      },
+      {
+        "area": "Mão de Obra",
+        "premissa": "Separação proporcional de contrato; Separação por Torres."
+      },
+      {
+        "area": "Contenção",
+        "premissa": "Contenção em parede diafragma, com muretas guias, vigas de travamento, tirantes e polímero;"
+      },
+      {
+        "area": "Instalações Hidrossanitárias",
+        "premissa": "Quantitativos provenientes de lista de materiais e projetos;"
+      },
+      {
+        "area": "Louças e Metais",
+        "premissa": "Quantitativos extraídos de projetos e detalhamentos considerando entrega completa em áreas comuns;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Contenção",
+        "decisao": "consideramos para fins de orçamento forma apenas das muretas guias e vigas de travamento."
+      },
+      {
+        "contexto": "Escoramento",
+        "decisao": "Escoramento considerando 1 escora por m2 (consumo informado para o Malta)"
+      },
+      {
+        "contexto": "Acabamentos",
+        "decisao": "Acabamentos de áreas comuns considerado junto à interiores;"
+      },
+      {
+        "contexto": "Instalações",
+        "decisao": "Melhoria de rede elétrica, SPDA e Elétrica PCI considerados em Torre B (ausência de separação por parte do projetista)"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Área do Terreno: 1.090,43 m²",
+      "MOVIMENTAÇÕES DE TERRA R$ 470.156,84 – R$ 93,87/m²",
+      "IMPERMEABILIZAÇÃO R$ 510.569,91 – R$ 101,93/m²",
+      "FORROS R$ 216.775,95 – R$ 43,28/m²",
+      "ELEVADORES E PLATAFORMAS R$ 533.000,00 - R…",
+      "LIMPEZA DA OBRA R$ 81.640,43 – R$ 16,30/m²",
+      "ÁREAS COMUNS E PAISAGISMO R$ 742.624,53 – R$ 148,26/m²"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:35:27",
+      "duration_s": 92.9,
+      "excerpt_chars": 4330
+    }
   }
 }

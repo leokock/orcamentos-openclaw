@@ -103,5 +103,108 @@
   "fachada_detail": {
     "_total": 879244.97
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 18,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/inbrasul-aguas-de-marco.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "SUPRAESTRUTURA",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS",
+        "sub_disciplina": "ESQUADRIAS",
+        "itens_exemplo": [
+          "ESQUADRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "SERVIÇOS COMPLEMENTARES",
+        "sub_disciplina": "SERVIÇOS COMPLEMENTARES",
+        "itens_exemplo": [
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS EM PISO E PAREDE",
+        "sub_disciplina": "ACABAMENTOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "sub_disciplina": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Estrutura de apresentação: [MACROGRUPO] | pu=X | R$Y"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:59:51",
+      "duration_s": 72.8,
+      "compact_chars": 539
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "Construção Civil",
+      "data_base": "14/02/2020",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": null,
+        "nota": "não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": null,
+        "nota": "não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Preços expressos em R$ (REAL)",
+      "O orçamento está dividido em unidades construtivas: PRÉ-OBRA (PROJETOS E INCORPORAÇÃO) e SERVIÇOS PRELIMINARES (CANTEIRO E ADMINISTRAÇÃO DA OBRA)."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:23:45",
+      "duration_s": 57.2,
+      "excerpt_chars": 4328
+    }
+  }
 }

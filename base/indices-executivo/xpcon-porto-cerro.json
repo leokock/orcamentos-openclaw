@@ -1471,5 +1471,112 @@
     "forro_gesso": 75.0,
     "rodape": 5.83,
     "pintura": 50.65
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 28,
+      "total_itens": 9744,
+      "total_observacoes": 322,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/xpcon-porto-cerro.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura/Execução",
+        "sub_disciplina": "Concreto/Fundação",
+        "itens_exemplo": [
+          "Concreto Usinado bombeável para estacas 40MPa - inclu…",
+          "Locação de Escoramento Metálico",
+          "Mão de obra execução de massa única em paredes interna…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Instalações",
+        "sub_disciplina": "Louças e Metais",
+        "itens_exemplo": [
+          "Vaso sanitário deca branco",
+          "Cuba de embutir",
+          "Bancada em granito"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Técnicos/Administrativos",
+        "sub_disciplina": "Locação de Equipamentos",
+        "itens_exemplo": [
+          "Locação de Grua Tipo Torre Ascensional",
+          "Locação de Elevador Cremalheira"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 2 meses.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Materiais/Perdas",
+        "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Revisão",
+        "observacao": "Adicionado/alterado em reivsao",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custos",
+        "observacao": "Custo de contratação Cartesian",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Confrome cálculo da aba \"Canteiro\"",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Serviços de Terra",
+        "observacao": "Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 500,00/caçamba",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Área específica",
+        "observacao": "Cozinhas/areas de serviço",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "O bloco de itens 'Ger_Executivo' é repetido integralmente.",
+      "O bloco de itens 'Ger_Tec e Adm' é repetido integralmente.",
+      "O item 'Vaso sanitário deca branco' aparece múltiplas vezes com quantidades e valores diferentes."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:23:14",
+      "duration_s": 115.6,
+      "compact_chars": 3325
+    }
   }
 }

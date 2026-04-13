@@ -1,0 +1,150 @@
+{
+  "projeto": "wf-aquarius",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:19:53",
+  "compact_chars": 3457,
+  "duration_s": 141.0,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 40MPa Bombeavel\",\n        \"Concreto Usinado bombeável para estacas 40MPa - inclu...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de supraestrutura de concret…\",\n        \"Mão de obra para execução de supraestrutura de concret…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fechamento e Acabamentos\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fechamento e Acabamentos\",\n      \"sub_disciplina\": \"Paredes e Drywall\",\n      \"itens_exemplo\": [\n        \"Parede Com Sistema Em Chapas De Gesso Para Drywall, Us…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica\",\n      \"itens_exemplo\": [\n        \"Mao de obra de instalacoes eletricas\",\n        \"Quadros e Disjuntores\",\n        \"Eletrodutos e Eletrocalhas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidráulica e Esgoto\",\n      \"itens_exemplo\": [\n        \"Instalações de esgoto e pluviais\",\n        \"Instalacoes de Agua Fria\",\n        \"Valvulas e complementos\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Gerenciamento e Mobiliário\",\n      \"itens_exemplo\": [\n        \"Mobiliário e decoração\",\n        \"Elevadores\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Outorga/Ajustes\",\n      \"observacao\": \"Adição de outorga onerosa, LAP LAI e LAO - Ajustes de EPC - Redução de equipe administrativa - ajustado para …\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Custos\",\n      \"observacao\": \"Lançamento de custos praticados\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Custos\",\n      \"observacao\": \"Ajust de custos repassados\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"observacao\": \"Troca de chapisco por arg estabilizada\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"observacao\": \"Troca de escadas em pintura epoxi para acrlica\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Projeto/Fundação\",\n      \"observacao\": \"Quantitade de Projetos, adotado profundidade media de 25m\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, lajes,pilares de arranque, dutos e cisternas\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Projeto\",\n      \"observacao\": \"Considerado 3 Jogos referentes ao pavimento tipo\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cálculo\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cálculo\",\n      \"observacao\": \"Determinado conforme aba auxiliar\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Outorga\",\n      \"observacao\": \"Ajustado conforme solicitado na reunião de apresentação - calculado como 8% do CUB para a area de outorga\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Ajustado conforme solicitado na reunião de apresentação\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Atualizado conforme reunião de apresentação\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"TOTAL | pu=3193.73 | R$53.619.740\",\n    \"SUPRAESTRUTURA | pu=594.64 | R$9.983.387\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO | pu=384.76 | R$6.459.784\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS | pu=341.35 | R$5.730.938\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS | pu=315.95 | R$5.304.562\",\n    \"INFRAESTRUTURA | pu=233.03 | R$3.912.291\",\n    \"ALVENARIA | pu=190.01 | R$3.190.023\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 40MPa Bombeavel",
+          "Concreto Usinado bombeável para estacas 40MPa - inclu..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "Mão de obra para execução de supraestrutura de concret…",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Fechamento e Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Fechamento e Acabamentos",
+        "sub_disciplina": "Paredes e Drywall",
+        "itens_exemplo": [
+          "Parede Com Sistema Em Chapas De Gesso Para Drywall, Us…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mao de obra de instalacoes eletricas",
+          "Quadros e Disjuntores",
+          "Eletrodutos e Eletrocalhas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica e Esgoto",
+        "itens_exemplo": [
+          "Instalações de esgoto e pluviais",
+          "Instalacoes de Agua Fria",
+          "Valvulas e complementos"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Gerenciamento e Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e decoração",
+          "Elevadores"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Outorga/Ajustes",
+        "observacao": "Adição de outorga onerosa, LAP LAI e LAO - Ajustes de EPC - Redução de equipe administrativa - ajustado para …",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custos",
+        "observacao": "Lançamento de custos praticados",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Custos",
+        "observacao": "Ajust de custos repassados",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "Troca de chapisco por arg estabilizada",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "Troca de escadas em pintura epoxi para acrlica",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Fundação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto/Fundação",
+        "observacao": "Quantitade de Projetos, adotado profundidade media de 25m",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, lajes,pilares de arranque, dutos e cisternas",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "Considerado 3 Jogos referentes ao pavimento tipo",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Determinado conforme aba auxiliar",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Outorga",
+        "observacao": "Ajustado conforme solicitado na reunião de apresentação - calculado como 8% do CUB para a area de outorga",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Ajustado conforme solicitado na reunião de apresentação",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Atualizado conforme reunião de apresentação",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "TOTAL | pu=3193.73 | R$53.619.740",
+      "SUPRAESTRUTURA | pu=594.64 | R$9.983.387",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO | pu=384.76 | R$6.459.784",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS | pu=341.35 | R$5.730.938",
+      "ESQUADRIAS, VIDROS E FERRAGENS | pu=315.95 | R$5.304.562",
+      "INFRAESTRUTURA | pu=233.03 | R$3.912.291",
+      "ALVENARIA | pu=190.01 | R$3.190.023"
+    ],
+    "fora_da_curva": []
+  }
+}

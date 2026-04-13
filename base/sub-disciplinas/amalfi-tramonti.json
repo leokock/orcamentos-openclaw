@@ -1,0 +1,84 @@
+{
+  "projeto": "amalfi-tramonti",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:20:05",
+  "compact_chars": 3225,
+  "duration_s": 96.9,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 35MPa Bombeavel\",\n        \"Concreto Usinado FCK = 45MPa Bombeavel\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armação Aço CA-50, Diâmetro de 12,5mm para Supraestrut…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica\",\n      \"itens_exemplo\": [\n        \"Mão de obra para instalações elétricas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Decoração\",\n      \"itens_exemplo\": [\n        \"Mobiliário e decoração\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"VALOR POR ÁREA PRIVATIVA\",\n      \"observacao\": \"VALOR POR ÁREA PRIVATIVA (R$/m²)\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Item foi reduzido para um valor proporcional ao do Ravello, considerando a área construida do Tramo…\",\n      \"observacao\": \"REVISÃO\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Legalização e INSS\",\n      \"observacao\": \"Estimado - Valor da legalização e INSS\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"ART\",\n      \"observacao\": \"Recebido + Incorporação de 1/9 do ART conforme solicitado na reunião do dia 30/05/25\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Projeto de elétrica\",\n      \"observacao\": \"REVISÃO do valor de projeto de elétrica(recebido na revisão do dia 14/05/25) + Aprovação e legalização elétri…\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Projeto de hidrosanitário\",\n      \"observacao\": \"REVISÃO do valor de projeto de hidrosanitário + Aprovação e legalização água e esgoto + 1/9 do ART\",\n      \"categoria\": \"revisao\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Valores de Gerenciamento Técnico e Administrativo (R$7.713.625) e Paredes e Painéis (R$3.110.674) se repetem em diferentes blocos de orçamento.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 35MPa Bombeavel",
+          "Concreto Usinado FCK = 45MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação Aço CA-50, Diâmetro de 12,5mm para Supraestrut…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mão de obra para instalações elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Decoração",
+        "itens_exemplo": [
+          "Mobiliário e decoração"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "VALOR POR ÁREA PRIVATIVA",
+        "observacao": "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Item foi reduzido para um valor proporcional ao do Ravello, considerando a área construida do Tramo…",
+        "observacao": "REVISÃO",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Legalização e INSS",
+        "observacao": "Estimado - Valor da legalização e INSS",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "ART",
+        "observacao": "Recebido + Incorporação de 1/9 do ART conforme solicitado na reunião do dia 30/05/25",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Projeto de elétrica",
+        "observacao": "REVISÃO do valor de projeto de elétrica(recebido na revisão do dia 14/05/25) + Aprovação e legalização elétri…",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Projeto de hidrosanitário",
+        "observacao": "REVISÃO do valor de projeto de hidrosanitário + Aprovação e legalização água e esgoto + 1/9 do ART",
+        "categoria": "revisao"
+      }
+    ],
+    "padroes_identificados": [
+      "Valores de Gerenciamento Técnico e Administrativo (R$7.713.625) e Paredes e Painéis (R$3.110.674) se repetem em diferentes blocos de orçamento."
+    ],
+    "fora_da_curva": []
+  }
+}

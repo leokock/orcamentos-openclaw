@@ -1,0 +1,88 @@
+{
+  "projeto": "santa-maria-z",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:05:43",
+  "compact_chars": 898,
+  "duration_s": 89.0,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura/Civil\",\n      \"sub_disciplina\": \"Infraestrutura\",\n      \"itens_exemplo\": [\n        \"Infraestrutura\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura/Civil\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeado, fck 35 Mpa **, Slup 16+-2\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura/Civil\",\n      \"sub_disciplina\": \"Estrutura Geral\",\n      \"itens_exemplo\": [\n        \"Mão de obra empreitada para execução de estrutura de c…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Arquitetura\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio **\",\n        \"Janelas redondas - especial\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Arquitetura\",\n      \"sub_disciplina\": \"Paredes\",\n      \"itens_exemplo\": [\n        \"Parede drywall 95mm, com chapa ST\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos/Instalações\",\n      \"sub_disciplina\": \"Vertical\",\n      \"itens_exemplo\": [\n        \"Elevador definitivo social **\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos/Instalações\",\n      \"sub_disciplina\": \"Mobiliário\",\n      \"itens_exemplo\": [\n        \"Mobiliário e equipamentos **\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"EDIFÍCIO Z CONVIVENCE - OBRAS\",\n      \"observacao\": \"126\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"GERENCIAMENTO EXECUTIVO\",\n      \"observacao\": \"3\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"RUA MARECHAL FLORIANO PEIXOTO, 148-O - CENTRO - Chapeco/SC - 89802-010\",\n      \"observacao\": \"Localização do projeto\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Revisão de Orçamento\",\n      \"observacao\": \"18/08/2022 - 15:27:03 - Revisão 01 orçamento - CTN\",\n      \"categoria\": \"revisao\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Uso de asteriscos (**) em itens de custo (Esquadrias, Elevador, Concreto, Mobiliário)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura/Civil",
+        "sub_disciplina": "Infraestrutura",
+        "itens_exemplo": [
+          "Infraestrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura/Civil",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeado, fck 35 Mpa **, Slup 16+-2"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura/Civil",
+        "sub_disciplina": "Estrutura Geral",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução de estrutura de c…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Arquitetura",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio **",
+          "Janelas redondas - especial"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Arquitetura",
+        "sub_disciplina": "Paredes",
+        "itens_exemplo": [
+          "Parede drywall 95mm, com chapa ST"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos/Instalações",
+        "sub_disciplina": "Vertical",
+        "itens_exemplo": [
+          "Elevador definitivo social **"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos/Instalações",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e equipamentos **"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "EDIFÍCIO Z CONVIVENCE - OBRAS",
+        "observacao": "126",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "GERENCIAMENTO EXECUTIVO",
+        "observacao": "3",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "RUA MARECHAL FLORIANO PEIXOTO, 148-O - CENTRO - Chapeco/SC - 89802-010",
+        "observacao": "Localização do projeto",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Revisão de Orçamento",
+        "observacao": "18/08/2022 - 15:27:03 - Revisão 01 orçamento - CTN",
+        "categoria": "revisao"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso de asteriscos (**) em itens de custo (Esquadrias, Elevador, Concreto, Mobiliário)"
+    ],
+    "fora_da_curva": []
+  }
+}

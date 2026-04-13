@@ -2088,5 +2088,80 @@
     "pintura_parede_pu_m2": 4.8,
     "chapisco_pu_m2": 2.12,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 4,
+      "total_itens": 2578,
+      "total_observacoes": 13,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/cambert-portal-da-brava.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "CONCRETO USINADO BOMBEÁVEL, PARA ESTACAS, FCK 30MPA, S…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra Estrutural",
+        "itens_exemplo": [
+          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…",
+          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Instalações",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Acabamentos",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamentos",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Materiais",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Revisão de Projeto",
+        "observacao": "REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…",
+      "ACABAMENTOS EM PISO E PAREDE"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:56:26",
+      "duration_s": 78.1,
+      "compact_chars": 1919
+    }
   }
 }

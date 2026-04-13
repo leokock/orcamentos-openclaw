@@ -384,5 +384,141 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 7,
+      "total_itens": 721,
+      "total_observacoes": 86,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/blue-heaven-aquos.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado bombeável 40MPa para Supraestrutura- …"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação Aço CA-50 para Supraestrutura, Corte e Dobra e…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Fôrma para Piscinas, em Borracha de Polietileno"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Revestimento em Mármore, referencia Tiger, Lemon, Spaz…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Esquadrias e Vidros",
+        "itens_exemplo": [
+          "Guarda Corpo de vidro - fornecimento e instalação",
+          "Esquadrias de Alumínio - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços e Gerenciamento",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Mestre Geral",
+          "Operador de Grua"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços e Gerenciamento",
+        "sub_disciplina": "Serviços de Apoio",
+        "itens_exemplo": [
+          "Equipe de apoio",
+          "Serviço de vigilância"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura e Terreno",
+        "sub_disciplina": "Movimentação de Terra",
+        "itens_exemplo": [
+          "MOVIMENTAÇÃO DE TERRA"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura e Terreno",
+        "sub_disciplina": "Perímetros",
+        "itens_exemplo": [
+          "Perímetro de projeção torre 1",
+          "Perímetro de projeção torre 2"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Consumos",
+        "observacao": "acrescimo de consumos com indice do Monolyt",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Mão de Obra",
+        "observacao": "aumento MO, atualização de valores",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Margem de Segurança",
+        "observacao": "sem vergase redução da margem de insegurança",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Equipamentos",
+        "observacao": "redução sistema de placas fotovoltaicas e dos equipamentos de piscina",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Proteção",
+        "observacao": "retirada proteção mecânica (sem manta)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Fundação",
+        "observacao": "Rebaixameno de lençol provisório considerando período de execução da fundação",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Forma",
+        "observacao": "Forma de madeira serrada sem reutilização",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Equipe de apoio"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "PROJETOS, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "motivo": "O valor listado na seção 'Obra' (15741908.111897433) é numericamente inconsistente com o valor total listado no comparativo (R$15.741.908)."
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:43:49",
+      "duration_s": 106.6,
+      "compact_chars": 3265
+    }
   }
 }

@@ -1,0 +1,40 @@
+{
+  "projeto": "arv-ingleses-spot",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:49:43",
+  "excerpt_chars": 4332,
+  "duration_s": 54.7,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": null,\n    \"ur\": null,\n    \"tipologia\": null,\n    \"data_base\": \"08/07/2024\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Unidade construtiva 1\",\n      \"premissa\": \"TERRENO, DESPESAS ADM E CUSTOS INDIRETOS\"\n    }\n  ],\n  \"bdi_encargos\": [\n    {\n      \"componente\": \"BDI\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": null\n    },\n    {\n      \"componente\": \"Encargos sociais\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": null\n    }\n  ],\n  \"decisoes_consolidadas\": [],\n  \"observacoes_chave\": [\n    \"Preços expressos em R$ (REAL)\",\n    \"BDI não aplicado Encargos sociais não aplicado\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "08/07/2024",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Unidade construtiva 1",
+        "premissa": "TERRENO, DESPESAS ADM E CUSTOS INDIRETOS"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": null
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": null
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave": [
+      "Preços expressos em R$ (REAL)",
+      "BDI não aplicado Encargos sociais não aplicado"
+    ]
+  }
+}

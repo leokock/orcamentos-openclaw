@@ -98,5 +98,134 @@
   "instalacoes_extraction_method": "Gerenciamento executivo (combined macro)",
   "sistemas_especiais_detail": {
     "total": 901318.03
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 39,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/paludo-volo-ocean.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Envelopamento",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Envelopamento",
+        "sub_disciplina": "Esquadrias e Fachadas",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Instalações Elétricas e Hidráulicas",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Sistemas Especiais",
+        "itens_exemplo": [
+          "SISTEMAS E EQUIPAMENTOS ESPECIAIS"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Serviços Gerais",
+        "sub_disciplina": "Administrativo e Complementar",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "SUPRAESTRUTURA",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "SERVIÇOS COMPLEMENTARES"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:48:48",
+      "duration_s": 63.8,
+      "compact_chars": 1342
+    },
+    "pdf_metadata": {
+      "ac_m2": "3.264,31",
+      "ur": null,
+      "tipologia": "RESIDENCIAL VOLO OCEAN",
+      "data_base": "DEZ/22",
+      "cub_referencia": "PALUDO INCORPORADORA LTDA."
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "DESPESAS INDIRETAS",
+        "premissa": "Contempla: Canteiro de obra; Administração da obra; Custos de projetos."
+      },
+      {
+        "area": "DESPESAS INDIRETAS",
+        "premissa": "Custos considerando prazo de 36 meses de obra."
+      },
+      {
+        "area": "MOVIMENTAÇÃO DE TERRA",
+        "premissa": "Rebaixamento de lençol freático; Escavação e reaterro de valas; Movimentação de bota-fora; Lastro de concreto magro."
+      },
+      {
+        "area": "INFRAESTRUTURA",
+        "premissa": "Fundação em estaca hélice; Concreto de 40 MPa em estacas hélice; Formas de blocos e baldrames em madeira serrada de pinus, considerando 2 utilizações; Concreto usinado de 35 MPa para blocos e baldrames."
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes e escadarias em madeira serrada de pinus, considerando 2 jogos de forma; Armação com corte e dobra em obra; Lajes protendidas; Concreto de 35 Mpa."
+      },
+      {
+        "area": "ALVENARIA DE VEDAÇÃO",
+        "premissa": "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico; Consideração de blocos cerâmicos de vedação com argamassa estabilizada para assentamento; Verga e contraverga de concreto moldada in loco; Encunhamento com argamassa expansiva; Amarração de alvenaria e estrutura com tela soldada."
+      },
+      {
+        "area": "INSTALAÇÕES",
+        "premissa": "Quantitativos levantados seguindo listas disponíveis."
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": "BDI não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": "Encargos sociais não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "EQUIPAMENTOS",
+        "decisao": "Considerados no contrato de empreitada global."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Orçamento Executivo",
+      "Endereço da obra RUA DOS ROBALOS, 540 - PALMAS - Governador Celso Ramos - SC/SC - 88190-000"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:40:14",
+      "duration_s": 88.4,
+      "excerpt_chars": 4330
+    }
   }
 }

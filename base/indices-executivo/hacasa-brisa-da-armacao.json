@@ -190,5 +190,146 @@
     "porcelanato": 98.16,
     "contrapiso": 29.97,
     "rodape": 10.35
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 16,
+      "total_itens": 5940,
+      "total_observacoes": 163,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/hacasa-brisa-da-armacao.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Execução Geral",
+        "sub_disciplina": "Alvenaria e Vedação",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Pele de vidro",
+          "Mão de obra execução de massa única em paredes interna…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Execução Geral",
+        "sub_disciplina": "Acabamentos e Impermeabilização",
+        "itens_exemplo": [
+          "Piso concreto Alisado",
+          "Impermeabilização com manta asfáltica colada com asfal…"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário e Acabamentos",
+        "sub_disciplina": "Área e Acabamentos Especiais",
+        "itens_exemplo": [
+          "Área:",
+          "Acabamentos Especiais"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Segurança",
+        "itens_exemplo": [
+          "Mao de obra de instalacoes eletricas",
+          "Quadros e Disjuntores",
+          "Instalacos do Sistema Preventivo de Incendio - incluso…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica e Esgoto",
+        "itens_exemplo": [
+          "Instalacoes de Agua Fria",
+          "Instalacoes de Esgoto"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Preliminares e Projetos",
+        "sub_disciplina": "Projetos e Documentação",
+        "itens_exemplo": [
+          "Projeto Arquitetônico Legal",
+          "Projeto estrutural",
+          "Projeto Arquitetônico interiores/ambientação"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Preliminares e Projetos",
+        "sub_disciplina": "Equipamentos de Canteiro",
+        "itens_exemplo": [
+          "Aquisição Elevador cremalheira",
+          "Aquisição Mini Grua",
+          "Mao De Obra Instalacoes De Canteiro"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cisterna",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Perdas de material",
+        "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "Quantidade projeto - 30% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Pavimento",
+        "observacao": "7º AO 19º PAVIMENTO - TIPO (X13)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Estimativa de custos",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Valor de custo",
+        "observacao": "Valor informado em formulário",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa de custos",
+        "observacao": "Estimado com base em índices históricos para elaboração interna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Valor de custo",
+        "observacao": "Valor informado em formulário COM EXECUÇÃO - projeto estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo de contratação",
+        "observacao": "Custo de contratação Cartesian",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Esquadrias de Alumínio - fornecimento e instalação",
+      "Área:",
+      "Projeto Arquitetônico legal"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:55:20",
+      "duration_s": 117.4,
+      "compact_chars": 3032
+    }
   }
 }

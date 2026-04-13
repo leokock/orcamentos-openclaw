@@ -159,5 +159,77 @@
       "valor": 499094.19
     }
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 744,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/eze-bella-vivie.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armaduras",
+        "itens_exemplo": [
+          "Armaduras (Blocos, vigas equilíbrio e baldrames)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento Externo",
+        "itens_exemplo": [
+          "Mão de obra para execução de reboco externo (com vãos …)"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias e Carpintaria",
+        "sub_disciplina": "Portas",
+        "itens_exemplo": [
+          "Fornecimento e instalação de portas de madeira"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias e Carpintaria",
+        "sub_disciplina": "Janelas/Esquadrias",
+        "itens_exemplo": [
+          "Fornecimento e instalação de esquadrias externas em al…"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos Especiais",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Fornecimento e instalação de elevador de passageiros (…)"
+        ]
+      },
+      {
+        "macrogrupo": "Segurança e Serviços",
+        "sub_disciplina": "Proteção Individual",
+        "itens_exemplo": [
+          "EPI (Equipamentos de proteção individual)"
+        ]
+      },
+      {
+        "macrogrupo": "Segurança e Serviços",
+        "sub_disciplina": "Proteção Coletiva",
+        "itens_exemplo": [
+          "EPC (Equipamentos de proteção coletiva) - Diversos"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "A estrutura de custos é apresentada em um formato hierárquico, detalhando de grandes macrogrupos (ORÇAMENTO_EXECUTIVO) para itens específicos (Relatório)."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:33:54",
+      "duration_s": 68.1,
+      "compact_chars": 1351
+    }
+  }
 }

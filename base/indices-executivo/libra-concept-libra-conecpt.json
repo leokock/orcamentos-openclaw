@@ -88,5 +88,104 @@
   "fachada_detail": {
     "_total": 513162.82
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 37,
+      "total_observacoes": 10,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/libra-concept-libra-conecpt.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "ACABAMENTOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Envelopamento",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas Especiais",
+        "sub_disciplina": "SISTEMAS E EQUIPAMENTOS ESPECIAIS",
+        "itens_exemplo": [
+          "SISTEMAS E EQUIPAMENTOS ESPECIAIS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "A lista de disciplinas de custo (SUPRAESTRUTURA, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO, etc.) é repetida nas seções Auxiliar e Executivo.",
+      "O formato de apresentação (TOTAL | Valor | pu=... | R$...) é idêntico nas duas seções."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:07:33",
+      "duration_s": 87.8,
+      "compact_chars": 1565
+    }
+  }
 }

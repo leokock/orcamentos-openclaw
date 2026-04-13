@@ -1,0 +1,45 @@
+{
+  "projeto": "paludo-urban-life",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:38:45",
+  "excerpt_chars": 4331,
+  "duration_s": 59.9,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": null,\n    \"ur\": null,\n    \"tipologia\": \"OBRA RESIDENCIAL\",\n    \"data_base\": \"04/02/2021\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Preços expressos em R$ (REAL)\"\n    },\n    {\n      \"area\": \"Escopo\",\n      \"premissa\": \"Tipo de obra 1 - Construção Civil\"\n    }\n  ],\n  \"bdi_encargos\": [\n    {\n      \"componente\": \"BDI\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": \"BDI não aplicado\"\n    },\n    {\n      \"componente\": \"Encargos sociais\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": \"Encargos sociais não aplicado\"\n    }\n  ],\n  \"decisoes_consolidadas\": [],\n  \"observacoes_chave\": [\n    \"Obra 511 - OBRA RESIDENCIAL URBAN LIFE\",\n    \"Unidade construtiva 3 - Custos Indiretos de Obra - UC 1\",\n    \"Unidade construtiva 4 - Custos Diretos de Obra - UC 2 (Materiais e Mão de Obra Aplicados)\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "OBRA RESIDENCIAL",
+      "data_base": "04/02/2021",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Preços expressos em R$ (REAL)"
+      },
+      {
+        "area": "Escopo",
+        "premissa": "Tipo de obra 1 - Construção Civil"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": "BDI não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": "Encargos sociais não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave": [
+      "Obra 511 - OBRA RESIDENCIAL URBAN LIFE",
+      "Unidade construtiva 3 - Custos Indiretos de Obra - UC 1",
+      "Unidade construtiva 4 - Custos Diretos de Obra - UC 2 (Materiais e Mão de Obra Aplicados)"
+    ]
+  }
+}

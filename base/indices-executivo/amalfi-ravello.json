@@ -169,5 +169,179 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 6,
+      "total_itens": 276,
+      "total_observacoes": 9,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/amalfi-ravello.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "SUPRAESTRUTURA",
+        "sub_disciplina": "Estrutura",
+        "itens_exemplo": [
+          "pu=637.85",
+          "pu=649.76"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "sub_disciplina": "MEP",
+        "itens_exemplo": [
+          "pu=304.42",
+          "pu=310.07"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "sub_disciplina": "Fechamentos",
+        "itens_exemplo": [
+          "pu=223.84",
+          "pu=228.01"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS INTERNOS DE PAREDE",
+        "sub_disciplina": "Acabamento",
+        "itens_exemplo": [
+          "pu=165.42",
+          "pu=168.51"
+        ]
+      },
+      {
+        "macrogrupo": "SERVIÇOS COMPLEMENTARES",
+        "sub_disciplina": "Serviços Gerais",
+        "itens_exemplo": [
+          "pu=165.48",
+          "pu=168.56"
+        ]
+      },
+      {
+        "macrogrupo": "INFRAESTRUTURA",
+        "sub_disciplina": "Terreno",
+        "itens_exemplo": [
+          "pu=167.92"
+        ]
+      },
+      {
+        "macrogrupo": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "sub_disciplina": "Gestão",
+        "itens_exemplo": [
+          "pu=353.33"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "O valor de TOTAL, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO e INFRAESTRUTURA é idêntico entre os cenários SEM IMPREVISTOS e GER_EXECUTIVO."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:35:21",
+      "duration_s": 81.6,
+      "compact_chars": 1012
+    },
+    "pdf_metadata": {
+      "ac_m2": "13.434,29",
+      "ur": null,
+      "tipologia": "20 pavimentos, 15 tipos – 5 aptos por andar, 3 pavimentos de garagem, 2 salas comerciais",
+      "data_base": "FEV/24",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativo disponibilizado"
+      },
+      {
+        "area": "Fundação e Supraestrutura",
+        "premissa": "Exceção de quantidades de formas definidas por índices devido ausência de quantitativo"
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Exceção de quantidades de tijolos refratários…"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Montagem e desmontagem de formas considerando 8 utilizações"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com aço cortado e dobra em obra, considerando 10% de perda"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Verba repassada pela Amalfi para concreto, consideração de 5% de perda"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Verba repassada pela Amalfi para locação de cubetas até o lazer e aquisição para os pavimentos tipo"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Verba repassada pela Amalafi para locação de escoramento metálico"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos de concreto sical em áreas de escadas, elevadores e reservatório, com argamassa usinada para assentamento"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos cerâmicos para demais vedação com argamassa usinada para assentamento"
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Consideração de material e mão de obra por serviço de impermeabilização"
+      },
+      {
+        "area": "Geral",
+        "premissa": "Custos considerando prazo de 42 meses de obra"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Movimentação de Terra",
+        "decisao": "Verba repassada pela Amalfi para movimentação, considerando volume de bota-fora"
+      },
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Verba repassada pela Amalfi para execução de estacas"
+      },
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Armação com aço cortado e dobra em obra, considerando 10% de perda"
+      },
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Verba repassada pela Amalfi para concreto, consideração de 5% de perda"
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Verba repassada pela Amalfi para locação de cubetas até o lazer e aquisição para os pavimentos tipo"
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Verba repassada pela Amalafi para locação de escoramento metálico"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Localização: Rua Osni Melo, 110, Itajaí /SC",
+      "EAP inclui 20 itens, de MOVIMENTAÇÃO DE TERRA a REVESTIM",
+      "Quantificação foi realizada via visus, utilizando arquivo .ifc",
+      "Serviços lançados conforme preenchimento de formulário de custos indiretos e itens preenchidos em planilha enviada por email",
+      "RAVELLO OBRAS DE REFERÊNCIA: R$ 353,33 / m² e R$ 320,00 – 440,00 / m²"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:48:48",
+      "duration_s": 105.5,
+      "excerpt_chars": 4331
+    }
   }
 }

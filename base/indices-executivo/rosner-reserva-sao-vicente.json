@@ -163,5 +163,244 @@
     "porcelanato": 97.92,
     "rodape": 9.45,
     "pintura": 53.62
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 14,
+      "total_itens": 1421,
+      "total_observacoes": 31,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/rosner-reserva-sao-vicente.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "AMBIENTAÇÃO",
+        "sub_disciplina": "Mão de Obra Geral",
+        "itens_exemplo": [
+          "MÃO DE OBRA PARA EXECUÇÃO DE SUPRAESTRUTURA",
+          "MÃO DE OBRA PARA EXECUÇÃO DE CHAPISCO EM PAREDES INTER…",
+          "MÃO DE OBRA PARA EXECUÇÃO DE REBOCO EM PAREDES INTERNAS"
+        ]
+      },
+      {
+        "macrogrupo": "AMBIENTAÇÃO",
+        "sub_disciplina": "Serviços Complementares",
+        "itens_exemplo": [
+          "VIGILÂNCIA CONTRATADA",
+          "ENGENHEIRO",
+          "MÃO DE OBRA PARA PINTURA SOBRE MASSA CORRIDA EM PAREDE…"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIARIO",
+        "sub_disciplina": "Área/Superfície",
+        "itens_exemplo": [
+          "Área:",
+          "Área:",
+          "Área:"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIARIO",
+        "sub_disciplina": "Marcenaria",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Marcenaria",
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES",
+        "sub_disciplina": "Elétrica/Comunicação",
+        "itens_exemplo": [
+          "Eletrodutos e Eletrocalhas",
+          "Mao de obra de instalacoes eletricas",
+          "Entrada de Energia"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES",
+        "sub_disciplina": "Hidráulica/Esgoto",
+        "itens_exemplo": [
+          "Mao de obra de instalacoes hidraulicas",
+          "Instalacoes de Esgoto e Aguas Pluviais",
+          "Instalacoes de Agua Fria"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS",
+        "sub_disciplina": "Vidros/Alumínio",
+        "itens_exemplo": [
+          "GUARDA CORPO, ALUMINIO, 110 cm",
+          "PORTA DE CORRER, 2 FOLHAS, ALUMÍNIO E VIDRO, 180 x 210…",
+          "JANELA DE CORRER, 2 FOLHAS, ALUMÍNIO E VIDRO, 150 x 12…"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS",
+        "sub_disciplina": "Madeira/Aberturas",
+        "itens_exemplo": [
+          "PORTA DE ABRIR, 1 FOLHA, MADEIRA, 80 x 210 cm",
+          "PORTA DE ABRIR, 1 FOLHA, ALUMÍNIO COM GRELHA DE VENTIL…",
+          "PORTA DE ABRIR, 1 FOLHA, MADEIRA, 70 x 210 cm"
+        ]
+      },
+      {
+        "macrogrupo": "ELETR",
+        "sub_disciplina": "Eletrodutos",
+        "itens_exemplo": [
+          "Eletroduto leve 3/4\"",
+          "Eletroduto leve 1\"",
+          "Eletroduto leve 1\""
+        ]
+      },
+      {
+        "macrogrupo": "ELETR",
+        "sub_disciplina": "Componentes Elétricos",
+        "itens_exemplo": [
+          "Disjuntor Tripolar Termomagnético - norma DIN (Curva C…",
+          "Caixa PVC 4x2\"",
+          "Quadro VDI 400x400mm"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo respondido no questionário dia 18/04/2024",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo baseado em índices Alameda Jardins",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo baseado em índices / Solicitado pelo cliente através do formulário para considerar custo/mês",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo e prazo respondido no questionário dia 18/04/2024",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo baseado em índices / Considerado 2 serventes e 1 carpinteiro",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Outro",
+        "observacao": "MOLDURA DE CHURRASQUEIRAS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Outro",
+        "observacao": "CORRIMÃOS E GUARDA-CORPOS",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Eletrodutos e Eletrocalhas (aparece em AMBIENTAÇÃO e INSTALAÇÕES)",
+      "Área: (repetição de itens em MOBILIARIO)",
+      "Eletroduto leve 1\" (repetição de item em ELETR)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:00:45",
+      "duration_s": 124.3,
+      "compact_chars": 3096
+    },
+    "pdf_metadata": {
+      "ac_m2": "7007,86 m²",
+      "ur": null,
+      "tipologia": "Empreendimento misto (Coworking e Minimarket no térreo; Lazer com piscina, academia, espaço gourmet, salão de festa e brinquedoteca; 15 pavimentos)",
+      "data_base": "DEZEMBRO/2024",
+      "cub_referencia": "R$ 2.868,56 dez -24 1,13 CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Quantificação",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativos; Demais quantidades estimadas devido ausência de detalhamentos, utilizando índices;"
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Levantamento realizado via visus, utilizando arquivo .ifc;"
+      },
+      {
+        "area": "Movimentação",
+        "premissa": "Movimentação de bota-fora para escavação do terreno, valas de infraestrutura e estacas, considerando 30% de empolamento;"
+      },
+      {
+        "area": "Movimentação",
+        "premissa": "Apiloamento mecânico do solo para valas de infraestrutura;"
+      },
+      {
+        "area": "Movimentação",
+        "premissa": "Lastro com material granular para regularização de valas com espessura de 5cm;"
+      },
+      {
+        "area": "Movimentação",
+        "premissa": "Rebaixamento de lençol freático com mobilização de bombas."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Perfuração de estaca hélice contínua de 40 e 50cm;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck 30 MPa para estaca hélice, considerando perda de 5%;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Armação de fundação rasa com corte e dobra em obra, com consideração 10% de perda proveniente do projetista;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck de 25 MPa em fundação rasa, com consideração de 5% de perda, para blocos;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck de 40 MPa, com consideração de 5% de perda, para vigas baldrame;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck de 50 MPa, com consideração de 5% de perda, para pilares de arranque;"
+      },
+      {
+        "area": "Especificidades",
+        "premissa": "Blocos cerâmicos e de concreto celular para vedação com arga massa industrializada para assentamento;"
+      },
+      {
+        "area": "Especificidades",
+        "premissa": "Tela soldada para ligação alvenaria/estrutura;"
+      },
+      {
+        "area": "Especificidades",
+        "premissa": "Verga e contraverga de concreto moldada in loco…"
+      },
+      {
+        "area": "Custos Indiretos",
+        "premissa": "Custos consideram prazo de obra de 36 meses;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Localização: Rua Yukio Kadóia, 30 – São Vicente - Itajaí - SC",
+      "O empreendimento possui lazer com piscina, academia, espaço gourmet, salão de festa e brinquedoteca.",
+      "Há infraestrutura para carros elétricos e painéis solares.",
+      "NOTA: Serviços lançados conforme preenchimento de formulário de custos indiretos preenchidos pela Rosner Empreendimentos;",
+      "Valor de referência da obra: R$ 552,82 / m²"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:46:13",
+      "duration_s": 100.7,
+      "excerpt_chars": 4327
+    }
   }
 }

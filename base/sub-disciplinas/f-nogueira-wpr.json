@@ -1,0 +1,85 @@
+{
+  "projeto": "f-nogueira-wpr",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:37:43",
+  "compact_chars": 914,
+  "duration_s": 82.5,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Piso e Parede\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Teto\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Fachada\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica/Hidráulica\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Envelopamento\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Itens listados nas 'observações de orçamentista' correspondem a categorias de custo já presentes no orçamento executivo.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Teto",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica/Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Envelopamento",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Itens listados nas 'observações de orçamentista' correspondem a categorias de custo já presentes no orçamento executivo."
+    ],
+    "fora_da_curva": []
+  }
+}

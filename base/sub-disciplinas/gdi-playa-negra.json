@@ -1,0 +1,121 @@
+{
+  "projeto": "gdi-playa-negra",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:44:22",
+  "compact_chars": 3484,
+  "duration_s": 109.5,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Terreno e Administração\",\n      \"sub_disciplina\": \"Direitos e Terrenos\",\n      \"itens_exemplo\": [\n        \"TERRENO 3 - Jordan Martins e João Martins\",\n        \"Compra de TDC (Transferência de Direito de Construir)\",\n        \"TERRENO 3 - Torna financeira - Jordan Martins e João M…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto e Execução\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeavel para supraestrutura Fck 40M…\",\n        \"Mão de obra - execução de supraestrutura\",\n        \"Escavação dos Subsolos e Remoção do Solo\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Instalações\",\n      \"sub_disciplina\": \"Alvenaria e Reboco\",\n      \"itens_exemplo\": [\n        \"Mão de obra - paredes / vergas e contra-vergas\",\n        \"Mão de obra para reboco interno\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Instalações\",\n      \"sub_disciplina\": \"Louças e Metais\",\n      \"itens_exemplo\": [\n        \"Vaso sanitário deca branco\",\n        \"Cuba de cozinha\",\n        \"Acabamento metálico para registro de gaveta\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário e Equipamentos\",\n      \"sub_disciplina\": \"Marcenaria e Móveis Fixos\",\n      \"itens_exemplo\": [\n        \"Marcenaria\",\n        \"Marcenaria/marmoaria\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário e Equipamentos\",\n      \"sub_disciplina\": \"Mobiliário Solto\",\n      \"itens_exemplo\": [\n        \"Sofá canto deck impermeável\",\n        \"Espreguiçadeira de madeira\",\n        \"Cadeiras de fio metálicas\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"GDI\",\n      \"observacao\": \"Mantido conforme lançamento inicial pela GDI\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"GDI\",\n      \"observacao\": \"Mantido conforme lançamento inicial pela GDI, ajuste de unidade e alocação na estrutura\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Quantitativo/Custo\",\n      \"observacao\": \"Conforme quantitativo do projetista, custo cotação encaminhada pela GDI, 10% de perda\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Reunião\",\n      \"observacao\": \"Ajuste realizado conforme alinhamento da reunião do dia 18/12/2024.\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Projeto\",\n      \"observacao\": \"Consideração de 2 jogos referentes ao pavimento tipo\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Norma\",\n      \"observacao\": \"Previsto por exigência de norma\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Formulário\",\n      \"observacao\": \"Previsto confrome preenchimento em fomulário no dia 26/02/2024\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Distribuição de Quantitativos\",\n      \"observacao\": \"Distribuição por pavimento não bate com separação previa da empreitada pela distribuição de uqantitativos, po…\",\n      \"categoria\": \"alerta\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Mão de Obra - Implantação do canteiros de Obras (Repetido em 3 blocos)\",\n    \"Mão de obra - execução de supraestrutura (Repetido em 3 blocos)\",\n    \"Mantido conforme lançamento inicial pela GDI (Repetição de observação)\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Mantido conforme lançamento inicial pela GDI - SUGERIDO REAPROPRIAÇÃO\",\n      \"motivo\": \"Sugestão de reapropriação de valor\"\n    },\n    {\n      \"item\": \"Distribuição por pavimento não bate com separação previa da empreitada pela distribuição de uqantitativos, po…\",\n      \"motivo\": \"Inconsistência na distribuição de quantitativos por pavimento\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Terreno e Administração",
+        "sub_disciplina": "Direitos e Terrenos",
+        "itens_exemplo": [
+          "TERRENO 3 - Jordan Martins e João Martins",
+          "Compra de TDC (Transferência de Direito de Construir)",
+          "TERRENO 3 - Torna financeira - Jordan Martins e João M…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Execução",
+        "itens_exemplo": [
+          "Concreto usinado bombeavel para supraestrutura Fck 40M…",
+          "Mão de obra - execução de supraestrutura",
+          "Escavação dos Subsolos e Remoção do Solo"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Alvenaria e Reboco",
+        "itens_exemplo": [
+          "Mão de obra - paredes / vergas e contra-vergas",
+          "Mão de obra para reboco interno"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Louças e Metais",
+        "itens_exemplo": [
+          "Vaso sanitário deca branco",
+          "Cuba de cozinha",
+          "Acabamento metálico para registro de gaveta"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário e Equipamentos",
+        "sub_disciplina": "Marcenaria e Móveis Fixos",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Marcenaria/marmoaria"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário e Equipamentos",
+        "sub_disciplina": "Mobiliário Solto",
+        "itens_exemplo": [
+          "Sofá canto deck impermeável",
+          "Espreguiçadeira de madeira",
+          "Cadeiras de fio metálicas"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "GDI",
+        "observacao": "Mantido conforme lançamento inicial pela GDI",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "GDI",
+        "observacao": "Mantido conforme lançamento inicial pela GDI, ajuste de unidade e alocação na estrutura",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Quantitativo/Custo",
+        "observacao": "Conforme quantitativo do projetista, custo cotação encaminhada pela GDI, 10% de perda",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Reunião",
+        "observacao": "Ajuste realizado conforme alinhamento da reunião do dia 18/12/2024.",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "Consideração de 2 jogos referentes ao pavimento tipo",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Norma",
+        "observacao": "Previsto por exigência de norma",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Formulário",
+        "observacao": "Previsto confrome preenchimento em fomulário no dia 26/02/2024",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Distribuição de Quantitativos",
+        "observacao": "Distribuição por pavimento não bate com separação previa da empreitada pela distribuição de uqantitativos, po…",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Mão de Obra - Implantação do canteiros de Obras (Repetido em 3 blocos)",
+      "Mão de obra - execução de supraestrutura (Repetido em 3 blocos)",
+      "Mantido conforme lançamento inicial pela GDI (Repetição de observação)"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Mantido conforme lançamento inicial pela GDI - SUGERIDO REAPROPRIAÇÃO",
+        "motivo": "Sugestão de reapropriação de valor"
+      },
+      {
+        "item": "Distribuição por pavimento não bate com separação previa da empreitada pela distribuição de uqantitativos, po…",
+        "motivo": "Inconsistência na distribuição de quantitativos por pavimento"
+      }
+    ]
+  }
+}

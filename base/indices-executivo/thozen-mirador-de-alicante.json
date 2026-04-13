@@ -81,5 +81,223 @@
   "instalacoes_breakdown": {
     "preventivas": 2908684.79
   },
-  "instalacoes_extraction_method": "ORÇAMENTO_EXECUTIVO (ORÇAMENTO_EXECUTIVO)"
+  "instalacoes_extraction_method": "ORÇAMENTO_EXECUTIVO (ORÇAMENTO_EXECUTIVO)",
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 76,
+      "total_observacoes": 1,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/thozen-mirador-de-alicante.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "REVESTIMENTOS ARGAMASSADOS",
+        "itens_exemplo": [
+          "REVESTIMENTOS ARGAMASSADOS"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "itens_exemplo": [
+          "EQUIPAMENTOS E SISTEMAS ESPECIAIS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "MÃO DE OBRA TA PEGANDO ERRADO",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Valores de algumas categorias (ex: ESQUADRIAS, VIDROS E FERRAGENS; REVESTIMENTOS ARGAMASSADOS) são idênticos em diferentes blocos de orçamento."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:14:43",
+      "duration_s": 72.8,
+      "compact_chars": 1537
+    },
+    "pdf_metadata": {
+      "ac_m2": "10.661,12m²",
+      "ur": "24 tipos – 2 aptos por andar",
+      "tipologia": "30 pavimentos",
+      "data_base": "DEZ/23",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Quantificação Geral",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativo disponibilizado;"
+      },
+      {
+        "area": "Quantificação Geral",
+        "premissa": "Exceção de quantidades de formas, extraído manualmente através das plantas de formas e detalhamentos da estrutura."
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Levantamento realizado via visus, utilizando arquivo .ifc;"
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Exceção de quantidades de tijolos refratários, louças e metais, mobiliário, rufos e contra-rufos, que foram levantados através do projeto 2D."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Quantificação de instalações elétricas, telecomunicação, hidrossanitárias, gás e SPDA seguindo detalhamentos de projeto e quantitativos disponibilizados;"
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Verba prevista para composição de insumos faltantes nas instalações preventivas e elétricas;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Fabricação, montagem e desmontagem de forma de blocos e baldrames em madeira serrada;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Armação com consideração de aço cortado e dobra em indústria;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Concreto fck de 30 MPa em blocos e baldrames, consideração de 5% de perda;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Execução de contenção com estaca orancha;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Mão de obra empreitada para execução de infraestrutura precificada pelo valor…"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "bricação de forma de pilares, vigas, lajes, rampas e escadarias em compensado super resinado 18 mm, considerando 2 jogos;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Montagem e desmontagem de formas considerando 8 utilizações;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Armação com consideração de aço cortado em obra em indústria;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Concreto fck de 30 MPa na supraestrutura, consideração de 5% de perda;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Aquisição rateada de sistema de escoramento metálico para os demais pavimentos;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Locação de cubetas;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Polimento de piso em garagens;"
+      },
+      {
+        "area": "Estrutura/Infraestrutura",
+        "premissa": "Mão de obra empreitada para execução de supraestrutura precificada pelo valor por área construída;"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos de concreto sical em áreas de escadas, elevadores e reservatório, com argamassa usinada para assentamento;"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos cerâmicos para demais vedação com argamassa usinada para assentamento;"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Assentamento de tijolos refratários aplicados em churrasqueiras;"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Verga e contraverga de concreto moldada in loco;"
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Impermeabilização de baldrames com tinta asfáltica;"
+      },
+      {
+        "area": "Geral",
+        "premissa": "Custos considerando prazo de 41 meses de obra."
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "Custo Total",
+        "valor_pct": "99%",
+        "nota": "Análise de Custos"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Paredes e Painéis",
+        "decisao": "Consideração de blocos de concreto sical em áreas de escadas, elevadores e reservatório, com argamassa usinada para assentamento;"
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Mão de obra empreitada para execução de supraestrutura precificada pelo valor por área construída;"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "THOZEN – MIRADOR DE ALICANTE | R03 - 23.05.2024 | PORTO BELO – SC",
+      "Localização: Rua Nereu Ramos, esquina com a Rua Gaudêncio de Campos | Perequê – Porto Belo/SC",
+      "Área do Terreno: 712,98m²",
+      "Área Construída: 10.661,12m²",
+      "5º pvto com área de lazer",
+      "NOTA: Serviços lançados conforme preenchimento de formulário de custos indiretos"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:55:24",
+      "duration_s": 136.7,
+      "excerpt_chars": 4318
+    }
+  }
 }

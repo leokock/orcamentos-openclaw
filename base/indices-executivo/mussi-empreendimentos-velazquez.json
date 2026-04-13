@@ -1700,5 +1700,106 @@
     "rodape": 21.05,
     "laminado": 94.01,
     "pintura": 2.7
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 1794,
+      "total_observacoes": 4,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mussi-empreendimentos-velazquez.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado Bombeável, para Supraestrutura Torre,..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação Aço CA-50, Diâmetro de 20,0mm para Supraestrut..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra Estrutural",
+        "itens_exemplo": [
+          "Mão de Obra para Execução de Estrutura de Concreto Arm..."
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e MEP",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mão de Obra para Instalações Elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e MEP",
+        "sub_disciplina": "Hidrossanitária",
+        "itens_exemplo": [
+          "Mão de Obra para Instalações Hidrossanitárias"
+        ]
+      },
+      {
+        "macrogrupo": "Fundação",
+        "sub_disciplina": "Estacas",
+        "itens_exemplo": [
+          "Serviço especializado em perfuração de estacas hélice ..."
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e Decorações para Área Comum"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos Verticais",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Elevador Social"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Observações de Orçamentista",
+        "observacao": "6 - VELAZQUEZ RESIDENCE - CUSTO DIRETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Observações de Orçamentista",
+        "observacao": "3 - VELAZQUEZ RESIDENCE - GERENCIAMENTO EXECUTIVO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Observações de Orçamentista",
+        "observacao": "RUA LAGUNA, 100 - FAZENDA - Itajaí/SC - 88301-460",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Observações de Orçamentista",
+        "observacao": "1 - 10/07/2020 - 10:00:09",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "VELAZQUEZ RESIDENCE",
+      "Mão de Obra para Instalações"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:30:36",
+      "duration_s": 82.7,
+      "compact_chars": 991
+    }
   }
 }

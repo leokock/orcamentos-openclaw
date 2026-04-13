@@ -153,5 +153,153 @@
     "porcelanato": 72.03,
     "rodape": 8.95,
     "pintura": 13.84
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 967,
+      "total_observacoes": 8,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/nm-empreendimentos.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Infraestrutura e Concreto",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura de concreto arm…",
+          "Mão de obra para execução de infraestrutura - sapata e…",
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Paredes e Pisos",
+        "itens_exemplo": [
+          "Mão de obra para execução de chapisco e reboco interno…",
+          "REVESTIMENTOS INTERNOS EM PISOS E PAREDES",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Equipamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio",
+          "ESQUADRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Locação e Serviços de Campo",
+        "itens_exemplo": [
+          "Carro com caçamba - locação",
+          "Elevador cremalheira - locação"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Engenharia",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "Engenheiro civil"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E GLP",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "SISTEMAS ESPECIAIS E EQUIPAMENTOS",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISOS E PAREDES",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "O item 'REVESTIMENTOS INTERNOS EM PISOS E PAREDES' aparece tanto na Planilha1 quanto nas observações de orçamentista.",
+      "A inclusão de serviços de mão de obra específica (ex: 'Mão de obra para execução de...') é um padrão de detalhamento de custo."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:35:35",
+      "duration_s": 74.4,
+      "compact_chars": 1433
+    },
+    "pdf_metadata": {
+      "ac_m2": "1.540,93 m²",
+      "ur": null,
+      "tipologia": "RESIDENCIAL SUIÇA HOMENAVEGANTES",
+      "data_base": "JAN/23",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Contempla: Canteiro de obra; Administração da obra; Custos de projetos; Custos considerando prazo de 18 meses de obra."
+      },
+      {
+        "area": "Equipamentos",
+        "premissa": "Locação de elevador cremalheira; Locação de andaime fachadeiro; Locação de carro com caçamba."
+      },
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Escavação e reaterro de valas; Movimentação de bota-fora; Lastro de concreto magro."
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Fundação em sapatas; Armação com corte e dobra em obra; Formas de sapatas e baldrames em madeira compensada resinada, considerando 2 utilizações; Concreto usinado de 30 MPa para sapatas e baldrames."
+      },
+      {
+        "area": "Superestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes e escadarias em compensado plastificado 17 mm, considerando 2 jogos de forma; Lajes treliçadas com enchimento em EPS; Armação com corte e dobra em obra; Concreto de 30 Mpa."
+      },
+      {
+        "area": "Alvenaria de Vedação",
+        "premissa": "Blocos cerâmicos de vedação com argamassa produzida em obra para assentamento; Verga e contraverga de concreto moldada in loco; Encunhamento com argamassa expansiva; Amarração de alvenaria e estrutura com tela soldada; Fechamento de shaft com tela estuque e reboco."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Quantitativos levantados seguindo listas disponíveis."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Formas de sapatas e baldrames",
+        "decisao": "Madeira compensada resinada, considerando 2 utilizações."
+      },
+      {
+        "contexto": "Forma de pilares, vigas, lajes e escadarias",
+        "decisao": "Compensado plastificado 17 mm, considerando 2 jogos de forma."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:32:42",
+      "duration_s": 70.0,
+      "excerpt_chars": 1500
+    }
   }
 }

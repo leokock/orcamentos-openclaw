@@ -1,0 +1,112 @@
+{
+  "projeto": "caledonia-mowe-caledonia-mowe",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:53:06",
+  "compact_chars": 3058,
+  "duration_s": 101.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Fundação\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de fundação\",\n        \"Concreto Usinado FCK = 30MPa Bombeavel Para Supraestru...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Fachada\",\n      \"sub_disciplina\": \"Alumínio e Brises\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Brise de Alumínio - Decoração Fachada\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidrossanitárias\",\n      \"itens_exemplo\": [\n        \"Sistema de tratamento de esgoto\",\n        \"Instalacoes de Agua Fria\",\n        \"Instalacoes de Esgoto e Aguas Pluviais\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétricas e Comunicação\",\n      \"itens_exemplo\": [\n        \"Luminarias\",\n        \"Sistema de telecomunicação\",\n        \"Quadros e Disjuntores\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais e Administrativo\",\n      \"sub_disciplina\": \"Gestão e Projeto\",\n      \"itens_exemplo\": [\n        \"Engenheiro\",\n        \"Projeto arquitetônico interiores/ambientação\",\n        \"Orçamento e planejamento\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Quantidade\",\n      \"observacao\": \"Quantidade disponibilizada pelo projetista de sapatas e levantameto da Cartesian de vigas e pilares\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Quantidade\",\n      \"observacao\": \"Quantidade de levantameto da Cartesian\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Quantidade\",\n      \"observacao\": \"Quantidade disponibilizada pelo projetista\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Quantidade\",\n      \"observacao\": \"Quantidade disponibilizada pelo projetista, considerando sem reutilização\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Quantidade\",\n      \"observacao\": \"Quantidade levantada em projeto\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estimativa\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cálculo\",\n      \"observacao\": \"Estimado como 11% da mão de obra da obra com indice de redução de 0,7\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Cálculo\",\n      \"observacao\": \"Confrome cálculo da aba \\\"Canteiro\\\"\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estimativa\",\n      \"observacao\": \"Estimado uma caçamba ao mês por 10 meses\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Contratação PJ (rateado em 2 obras)\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Os totais e a distribuição de custos (TOTAL, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO, SUPRAESTRUTURA, ESQUADRIAS, VIDROS E FERRAGENS, INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS, ACABAMENTOS EM PISOS E PAVIMENTAÇÕES, INFRAESTRUTURA, ACABAMENTOS DE FACHADA) são idênticos nas abas ORÇAMENTO_EXECUTIVO e EAP Análise.\",\n    \"O item 'Sistema de tratamento de esgoto' aparece em duas seções distintas (Ger_Executivo e INSTALAÇÕES).\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "Mão de obra para execução de fundação",
+          "Concreto Usinado FCK = 30MPa Bombeavel Para Supraestru..."
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fachada",
+        "sub_disciplina": "Alumínio e Brises",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Brise de Alumínio - Decoração Fachada"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidrossanitárias",
+        "itens_exemplo": [
+          "Sistema de tratamento de esgoto",
+          "Instalacoes de Agua Fria",
+          "Instalacoes de Esgoto e Aguas Pluviais"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétricas e Comunicação",
+        "itens_exemplo": [
+          "Luminarias",
+          "Sistema de telecomunicação",
+          "Quadros e Disjuntores"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Administrativo",
+        "sub_disciplina": "Gestão e Projeto",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Projeto arquitetônico interiores/ambientação",
+          "Orçamento e planejamento"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade disponibilizada pelo projetista de sapatas e levantameto da Cartesian de vigas e pilares",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade de levantameto da Cartesian",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade disponibilizada pelo projetista",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade disponibilizada pelo projetista, considerando sem reutilização",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade levantada em projeto",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Estimado como 11% da mão de obra da obra com indice de redução de 0,7",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Confrome cálculo da aba \"Canteiro\"",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa",
+        "observacao": "Estimado uma caçamba ao mês por 10 meses",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Contratação PJ (rateado em 2 obras)",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Os totais e a distribuição de custos (TOTAL, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO, SUPRAESTRUTURA, ESQUADRIAS, VIDROS E FERRAGENS, INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS, ACABAMENTOS EM PISOS E PAVIMENTAÇÕES, INFRAESTRUTURA, ACABAMENTOS DE FACHADA) são idênticos nas abas ORÇAMENTO_EXECUTIVO e EAP Análise.",
+      "O item 'Sistema de tratamento de esgoto' aparece em duas seções distintas (Ger_Executivo e INSTALAÇÕES)."
+    ],
+    "fora_da_curva": []
+  }
+}

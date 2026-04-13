@@ -227,5 +227,143 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 7,
+      "total_itens": 3324,
+      "total_observacoes": 188,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/all-acacias-jk.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "ACO CA-60 5,00 MM",
+          "ACO CA-50A 6,30 MM (1/4)",
+          "ACO CA-50A 8,00 MM (5/16)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Reboco e Massa",
+        "itens_exemplo": [
+          "Mao de obra para reboco interno, incluindo chapisco",
+          "Massa unica para reboco interno em argamassa estabiliz…",
+          "Contrapiso comum em argamassa estabilizada, nao aderid…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Revestimento interno de piso porcelanato placa 80x80cm…",
+          "Mao de obra para colocacao e rejuntamento de piso porc…",
+          "Revestimento em Cerâmica 60x60cm interno"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Serviços",
+        "sub_disciplina": "Gerenciamento e Projetos",
+        "itens_exemplo": [
+          "Projeto de Prevenção Combate a Incêndio",
+          "Projeto Comunicação e Dados",
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Materiais Complementares",
+        "sub_disciplina": "Argamassas e Detalhes",
+        "itens_exemplo": [
+          "Argamassa Para Rejuntamento",
+          "Rodape de poliestireno 10cm",
+          "Andaime, Escoramento Metalico E Balancim"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "ORÇAMENTO_EXECUTIVO",
+        "observacao": "SUPRAESTRUTURA",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESTUDOS | PROJETOS | CONSULTORIAS",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "Serviço Levantamento Topografico",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "O uso recorrente da unidade M2 para medição de áreas (Resumo_Parede e OBRA).",
+      "A repetição de itens de serviço como 'GERENCIAMENTO TÉCNICO E ADMINISTRATIVO' em diferentes seções de custo.",
+      "A lista de itens de aço (ACO CA-50A) cobrindo múltiplos diâmetros."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:30:02",
+      "duration_s": 84.7,
+      "compact_chars": 2477
+    },
+    "pdf_metadata": {
+      "ac_m2": "1943,23",
+      "ur": null,
+      "tipologia": "1 Térreo – 3 aptos no andar, 5 tipos – 7 aptos por andar",
+      "data_base": "05.08.2024",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Supraestrutura",
+        "premissa": "Concreto fck de 35 MPa na supraestrutura, consideração de 5% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com consideração de aço cortado em obra com 10% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em compensado plastificado 14 mm, considerando 2 jogos;"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos de concreto 2 fiadas no perímetro dos Muros do Térreo com argamassa usinada para assentamento;"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos cerâmicos para demais vedação com argamassa usinada para assentamento;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Quantificação de formas e infraestrutura",
+        "decisao": "Exceção de quantidades de formas, extraído manualmente através das plantas de formas e detalhamentos da estrutura."
+      },
+      {
+        "contexto": "Levantamento de áreas",
+        "decisao": "Levantamento realizado via visus, utilizando arquivo .ifc;"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Localização: Rua das Acacias, 116 - Carvoeira - Florianópolis/SC",
+      "Área Construída: 1943,23m²",
+      "Estrutura: 8 pavimentos",
+      "Escopo inclui 20 itens, desde MOVIMENTAÇÃO DE TERRA até REVESTIMENTOS E ACABAMENTOS DE FAC."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:01:46",
+      "duration_s": 68.9,
+      "excerpt_chars": 4330
+    }
   }
 }

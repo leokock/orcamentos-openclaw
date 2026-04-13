@@ -1,0 +1,86 @@
+{
+  "projeto": "indepy-stella-marina",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:04:33",
+  "compact_chars": 2481,
+  "duration_s": 71.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, fck 35MPa, slump = 8 +/- 2…\",\n        \"Concreto usinado bombeável, fck 30MPa, slump = 22 +/- …\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armação de aço CA - 50, corte e dobra em obra\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de obra\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de estrutura em concreto arm…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias\",\n      \"sub_disciplina\": \"Alumínio\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio - Porta Janela\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Ambientação\",\n      \"itens_exemplo\": [\n        \"Ambientação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Técnicos\",\n      \"sub_disciplina\": \"Consultoria\",\n      \"itens_exemplo\": [\n        \"Engenheiro civil\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Observações de orçamentista\",\n      \"observacao\": \"Verificar consideração de custo para constrole téccnologico\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Observações de orçamentista\",\n      \"observacao\": \"Fazer comporativo de corpo de prova por caminhão\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Observações de orçamentista\",\n      \"observacao\": \"Verificar consideração de custo para segurança do trabalho de obra e demais itens acrescentados em vermelho.\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Observações de orçamentista\",\n      \"observacao\": \"Considerar valor de empresa tercerizada para assessoria de segurança do trabalho\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"O conteúdo detalhado do 'Relatório' é idêntico ao conteúdo do 'Orçamento - comparativo'.\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Itens acrescentados em vermelho\",\n      \"motivo\": \"Exigem verificação de custo para segurança do trabalho de obra.\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, fck 35MPa, slump = 8 +/- 2…",
+          "Concreto usinado bombeável, fck 30MPa, slump = 22 +/- …"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação de aço CA - 50, corte e dobra em obra"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de obra",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura em concreto arm…"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - Porta Janela"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Ambientação",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Técnicos",
+        "sub_disciplina": "Consultoria",
+        "itens_exemplo": [
+          "Engenheiro civil"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Observações de orçamentista",
+        "observacao": "Verificar consideração de custo para constrole téccnologico",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Observações de orçamentista",
+        "observacao": "Fazer comporativo de corpo de prova por caminhão",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Observações de orçamentista",
+        "observacao": "Verificar consideração de custo para segurança do trabalho de obra e demais itens acrescentados em vermelho.",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Observações de orçamentista",
+        "observacao": "Considerar valor de empresa tercerizada para assessoria de segurança do trabalho",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "O conteúdo detalhado do 'Relatório' é idêntico ao conteúdo do 'Orçamento - comparativo'."
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Itens acrescentados em vermelho",
+        "motivo": "Exigem verificação de custo para segurança do trabalho de obra."
+      }
+    ]
+  }
+}

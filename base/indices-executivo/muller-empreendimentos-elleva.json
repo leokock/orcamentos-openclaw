@@ -126,5 +126,153 @@
       "qtd_m2": 983.76
     }
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 9,
+      "total_itens": 858,
+      "total_observacoes": 40,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/muller-empreendimentos-elleva.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Cozinha/Móveis Planejados",
+        "itens_exemplo": [
+          "cozinha com balcão de pia com gaveta, nicho e basculan…",
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Estofados/Assentos",
+        "itens_exemplo": [
+          "Sofá-cama 3 lugares sofo"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Consolidação",
+        "sub_disciplina": "Louças Sanitárias",
+        "itens_exemplo": [
+          "Bacia Sanitária com caixa acoplada",
+          "Bacia com caixa acoplada / Detalhe: Linha Izy, Bacia: …"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Consolidação",
+        "sub_disciplina": "Bancadas/Tampo",
+        "itens_exemplo": [
+          "Tampo de Granito de 120x60 (cm), com cuba de 30 (cm) -…",
+          "Tampo de Granito com cuba -85 x50cm",
+          "Tampo de Granito / Detalhe: 1,20 x 0,60"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Consolidação",
+        "sub_disciplina": "Metais/Ferragens",
+        "itens_exemplo": [
+          "Torneira Bica Alta 1/4 de volta",
+          "Parafuso Galvanizado",
+          "Cuba"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Pavimentos",
+        "sub_disciplina": "Louças Sanitárias",
+        "itens_exemplo": [
+          "Bacia Sanitária com caixa acoplada"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Pavimentos",
+        "sub_disciplina": "Metais/Ferragens",
+        "itens_exemplo": [
+          "Torneira de Jardim",
+          "Barra de apoio para deficiente",
+          "Chuveiro Elétrico"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Portas",
+        "itens_exemplo": [
+          "Porta abrir, veneziana",
+          "Porta abrir corta fogo",
+          "Porta abrir (pcd)"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Portas Correr",
+        "itens_exemplo": [
+          "Porta correr, tela metálica"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada",
+        "sub_disciplina": "Revestimento/Acabamento",
+        "itens_exemplo": [
+          "FACHADA FRONTAL",
+          "FACHADA FRONTAL DTR_PD.0.5 - REBOCO+PINTURA AZUL -",
+          "FACHADA FRONTAL DTR_PD.15 - AV.11.BLOCO+3.REBOCO+PINTU…"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Hall de entrada - externo",
+        "observacao": "Hall de entrada - externo",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento de Registro",
+        "observacao": "PNE",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Bacia Sanitária",
+        "observacao": "Bacia Sanitária com caixa acoplada",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Bacia Sanitária",
+        "observacao": "Bacia Sanitária p/ PNE com Caixa Montana",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Bancada",
+        "observacao": "Granito Siena - 85x50cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Mobiliário",
+        "observacao": "Banqueta Articulavel para Banheiro Deficiente",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Pavimento",
+        "observacao": "3º Pavimento ao 6° - Tipo 2",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Esquadrias",
+        "observacao": "Aluminio venezianado (PSCI)",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Bacia Sanitária com caixa acoplada",
+      "Tampo de Granito com cuba -85 x50cm",
+      "Barra de apoio para deficiente"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:23:03",
+      "duration_s": 112.1,
+      "compact_chars": 2911
+    }
+  }
 }

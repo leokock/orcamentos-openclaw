@@ -166,5 +166,204 @@
   "fachada_detail": {
     "textura_pintura_ext": 80052.18,
     "pastilha_porcelanato": 22719.6
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 6,
+      "total_itens": 2415,
+      "total_observacoes": 44,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/nova-empreendimentos-evora.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimentos",
+        "itens_exemplo": [
+          "REVESTIMENTOS ARGAMASSADOS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio e Contramarcos - Tipo"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Telecom",
+        "itens_exemplo": [
+          "SISTEMAS E INSTALAÇÕES ELÉTRICAS E TELEFÔNICAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "MÃO DE OBRA",
+          "CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Documentação",
+        "observacao": "Valor lançado conforme documentos enviados pelo Luis no dia 03.05.24",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Planejamento",
+        "observacao": "Custo previsto em estiativa inicial",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Formulário",
+        "observacao": "Valor preenchido em formulário (custo aprorpiado de R$ 5.000,00)",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Contrato",
+        "observacao": "Valor preenchido em formulário e definido em contrato",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Comprovante",
+        "observacao": "Valor preenchido em formulário e definido em comprovante enviado",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Detalhe técnico",
+        "observacao": "Guarda - corpo de desforma",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhe técnico",
+        "observacao": "Fechamento removível de vãos em madeira",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "O valor de SUPRAESTRUTURA (R$1.366.517) e REVESTIMENTOS ARGAMASSADOS (R$453.477) são repetidos entre ORÇAMENTO_EXECUTIVO e MÃO DE OBRA.",
+      "O valor de MALAGA - ADM (pu=2629.42) é idêntico em ORÇAMENTO_EXECUTIVO e MÃO DE OBRA."
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Valor Compra do Terreno",
+        "motivo": "Valor de R$4.820.633 é significativamente maior que a maioria dos demais itens orçamentários."
+      },
+      {
+        "item": "Repetições de pavimentos**",
+        "motivo": "Item marcado com asterisco duplo (**) na seção EPC's."
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:40:21",
+      "duration_s": 102.2,
+      "compact_chars": 2743
+    },
+    "pdf_metadata": {
+      "ac_m2": "3.477,2 m²",
+      "ur": null,
+      "tipologia": "studios, aptos. com 2 suítes, 1 ou 2 dormitórios",
+      "data_base": "01.08.2024",
+      "cub_referencia": "2,19 CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "FUNDAÇÃO E SUPRAESTRUTURA",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativos disponibilizados;"
+      },
+      {
+        "area": "ARQUITETURA",
+        "premissa": "Levantamento realizado via visus, utilizando arquivo .ifc;"
+      },
+      {
+        "area": "ARQUITETURA",
+        "premissa": "Exceção de quantidades de tijolos refratários, louças e metais e mobiliário, que foram levantados através do projeto 2D."
+      },
+      {
+        "area": "FUNDAÇÃO E SUPRAESTRUTURA",
+        "premissa": "Armação de fundação rasa, consideração de 5% de perda em complementação aos 10% considerados pelo projetista no quantitativo;"
+      },
+      {
+        "area": "FUNDAÇÃO E SUPRAESTRUTURA",
+        "premissa": "Concreto fck de 30 MPa em fundação rasa sem perda adicional aos 20% considerados pelo projetista;"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Armação de supraestrutura com consideração de 5% de perda em complementação aos 10% considerados pelo projetista no quantitativo;"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Concreto fck de 35 MPa na supraestrutura, sem perda adicional aos 20% considerados pelo projetista;"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Concreto fck de 35 Mpa com aditivo impermeabil…"
+      },
+      {
+        "area": "REVESTIMENTOS ARGAMASSADOS",
+        "premissa": "Quantitativos e serviços considerados seguindo especificações de projeto específico;"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "FUNDO DE RESERVA",
+        "valor_pct": "18,41%",
+        "nota": null
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "PISO",
+        "decisao": "Porcelanato 60x60 nas circulações, áreas internas, ban… o pisos antiderrapantes;"
+      },
+      {
+        "contexto": "PISO",
+        "decisao": "Rodapé em porcelanato para áreas externas;"
+      },
+      {
+        "contexto": "PISO",
+        "decisao": "Acabamentos de áreas comuns considerado junto à interiores;"
+      },
+      {
+        "contexto": "COBERTURA",
+        "decisao": "Telhado de fibrocimento 8mm, com estrutura em madeira angelim;"
+      },
+      {
+        "contexto": "PAREDES",
+        "decisao": "Azulejo cerâmico 30 x 60 cm em paredes de banheiro."
+      },
+      {
+        "contexto": "LIMPEZA DA OBRA",
+        "decisao": "Serviço determinado em premissas de orçamento;"
+      },
+      {
+        "contexto": "ÁREA COMUM E MOBILÍA",
+        "decisao": "Custo repassado pela Nova;"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Localização: Rua Irmão Joaquim, 142 - Centro – Florianópolis | SC",
+      "Áreas comuns com SPA, espaço gourmet , parrilheira e academia;",
+      "GERENCIAMENTO EXECUTIVO: Pacotes de custo de execução de obra; Itens de Gás, Climatização e Exaustão, Cobertura e Fachada Globais; Demais itens por pavimento; Fundo reserva.",
+      "MOVIMENTAÇÕES DE TERRA R$ 233.599,37 67,18 50,00 -80,00"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:12:30",
+      "duration_s": 113.4,
+      "excerpt_chars": 4330
+    }
   }
 }

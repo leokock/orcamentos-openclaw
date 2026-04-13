@@ -1,0 +1,106 @@
+{
+  "projeto": "gmf-moradas-do-atalaia",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:45:59",
+  "compact_chars": 2160,
+  "duration_s": 96.9,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 35MPa Bombeavel\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma e Escoramento\",\n      \"itens_exemplo\": [\n        \"Locação de escoramento metálico\",\n        \"Mão de obra para execução de supraestrutura de concret…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidráulica\",\n      \"itens_exemplo\": [\n        \"Mão de obra Instalação Hidráulica\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Mobiliário\",\n      \"itens_exemplo\": [\n        \"Mobiliário e decoração\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Equipamentos\",\n      \"itens_exemplo\": [\n        \"Elevador\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"VALOR POR ÁREA PRIVATIVA (R$/m²)\",\n      \"observacao\": \"VALOR POR ÁREA PRIVATIVA (R$/m²)\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"VALOR POR UNIDADE TIPO 01\",\n      \"observacao\": \"VALOR POR UNIDADE TIPO 01\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"VALOR POR UNIDADE TIPO 02\",\n      \"observacao\": \"VALOR POR UNIDADE TIPO 02\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"VALOR POR UNIDADE TIPO 03\",\n      \"observacao\": \"VALOR POR UNIDADE TIPO 03\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"VALOR POR UNIDADE TIPO 04\",\n      \"observacao\": \"VALOR POR UNIDADE TIPO 04\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"orçamentista\",\n      \"observacao\": \"Considerado 310,00/m² no paramétrico\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"orçamentista\",\n      \"observacao\": \"Custo indexado do Central Park\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"orçamentista\",\n      \"observacao\": \"2 - Moradas do Atalaia - Custo Direto\",\n      \"categoria\": \"contexto\"\n    },\n    {\n      \"contexto\": \"orçamentista\",\n      \"observacao\": \"3 - GERENCIAMENTE TÉCNICO E ADMINISTRATIVO\",\n      \"categoria\": \"contexto\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Os principais centros de custo (SUPRAESTRUTURA, INSTALAÇÕES ELÉTRICAS, ESQUADRIAS, etc.) são repetidos e comparados nas seções AREAS_PRIVATIVAS e ORÇAMENTO_EXECUTIVO.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 35MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Escoramento",
+        "itens_exemplo": [
+          "Locação de escoramento metálico",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica",
+        "itens_exemplo": [
+          "Mão de obra Instalação Hidráulica"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e decoração"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Elevador"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+        "observacao": "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "VALOR POR UNIDADE TIPO 01",
+        "observacao": "VALOR POR UNIDADE TIPO 01",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "VALOR POR UNIDADE TIPO 02",
+        "observacao": "VALOR POR UNIDADE TIPO 02",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "VALOR POR UNIDADE TIPO 03",
+        "observacao": "VALOR POR UNIDADE TIPO 03",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "VALOR POR UNIDADE TIPO 04",
+        "observacao": "VALOR POR UNIDADE TIPO 04",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "orçamentista",
+        "observacao": "Considerado 310,00/m² no paramétrico",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "orçamentista",
+        "observacao": "Custo indexado do Central Park",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "orçamentista",
+        "observacao": "2 - Moradas do Atalaia - Custo Direto",
+        "categoria": "contexto"
+      },
+      {
+        "contexto": "orçamentista",
+        "observacao": "3 - GERENCIAMENTE TÉCNICO E ADMINISTRATIVO",
+        "categoria": "contexto"
+      }
+    ],
+    "padroes_identificados": [
+      "Os principais centros de custo (SUPRAESTRUTURA, INSTALAÇÕES ELÉTRICAS, ESQUADRIAS, etc.) são repetidos e comparados nas seções AREAS_PRIVATIVAS e ORÇAMENTO_EXECUTIVO."
+    ],
+    "fora_da_curva": []
+  }
+}

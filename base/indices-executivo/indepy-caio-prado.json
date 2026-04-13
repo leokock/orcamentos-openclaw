@@ -200,5 +200,219 @@
     "contrapiso": 31.9,
     "porcelanato": 111.39,
     "rodape": 15.32
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 6,
+      "total_itens": 5145,
+      "total_observacoes": 106,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/indepy-caio-prado.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Acabamentos e Sistemas",
+        "itens_exemplo": [
+          "Forro Com Sistema Em Chapas De Gesso Para Drywall, Uso…",
+          "Parede Com Sistema Em Chapas De Gesso Para Drywall, Us…",
+          "Sistema Brise Sul Metais SMB30 (Cor Tabaco SM 7182)"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Pintura e Reboco",
+        "itens_exemplo": [
+          "Mão de obra para pintura em paredes internas, 3 demãos",
+          "Mão de obra para aplicação de textura em paredes exter…",
+          "Mao de obra para reboco externo - inclui chapisco"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio, linha 25 supreme - forneciment…"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIÁRIO",
+        "sub_disciplina": "Áreas e Itens",
+        "itens_exemplo": [
+          "Área:",
+          "Esteira Profissional Movement RT 2500 LED (linha comer…"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS",
+        "sub_disciplina": "Pisos",
+        "itens_exemplo": [
+          "Revestimento de Piso de granito itaunas",
+          "Revestimento de Piso emborrachado imitando madeira",
+          "Revestimento de Piso Porcelanato Acetinado Mirage, Pla…"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS",
+        "sub_disciplina": "Paredes e Acabamentos",
+        "itens_exemplo": [
+          "Revestimento em Pastilha vítrea decorada, padrão custo…",
+          "Revestimento de Mdf em parede",
+          "Área:"
+        ]
+      },
+      {
+        "macrogrupo": "ARQUITETURA",
+        "sub_disciplina": "Alvenaria e Vedação",
+        "itens_exemplo": [
+          "Alvenaria de vedação com bocos de concreto",
+          "BLOCO CORTA-FOGO ACÚSTICO 14 cm,",
+          "Encunhamento de alvenaria de vedação"
+        ]
+      },
+      {
+        "macrogrupo": "ARQUITETURA",
+        "sub_disciplina": "Blocos de Concreto",
+        "itens_exemplo": [
+          "BLOCO DE CONCRETO 14 cm,",
+          "BLOCO DE CONCRETO 19 cm,",
+          "BLOCO DE CONCRETO 09 cm,"
+        ]
+      },
+      {
+        "macrogrupo": "Obra",
+        "sub_disciplina": "Dados Gerais do Projeto",
+        "itens_exemplo": [
+          "MESES DE OBRA",
+          "ÁREA DO TERRENO",
+          "ÁREA CONSTRUÍDA"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Geral",
+        "observacao": "Da marca oterprem, conforme projeto acustico r03",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Impermeabilização",
+        "observacao": "Considerado somente nos pisos que recebem impermeabilização",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Impermeabilização",
+        "observacao": "Considerado somente nos pisos que recebem manta asfaltica",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade de itens",
+        "observacao": "Considerado 1 na cozinha + 2 no banheiro",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTOS ARGAMASSADOS PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "CIRCULAÇÕES TIPOS E LAZER",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "Circulação elevadores - subsolo",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Vestiário funcionário (x2)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "WC PNE Hall - Térreo (x2)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "Circulação elevadores - térreo",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "Sala de serviço - Lockers",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "Circulação elevadores - Pav 3",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Material",
+        "observacao": "BLOCO CORTA-FOGO ACÚSTICO 14 cm,",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Encunhamento de alvenaria de vedação",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Tela soldada para ligacao alvenaria/estrutura",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Área: (Repetição de cálculo de área em diferentes blocos)",
+      "BLOCO DE CONCRETO 14 cm, (Uso repetido em diferentes setores/blocos)",
+      "Circulação elevadores (Mencionado em diferentes pavimentos)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:03:21",
+      "duration_s": 136.5,
+      "compact_chars": 2938
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "Outubro/2025",
+      "cub_referencia": "R$ 2.481,34"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Alvenaria",
+        "premissa": "Blocos concreto corta-fogo (...amassa usinada para assentamento; Drywall com montantes de 70 em áreas do banheiros e cozinhas; Consideração de tratamento de junta em algumas paredes de drywall; Consideração de blocos de concreto nas demais áreas, com argamassa usinada para assentamento; Encunhamento com argamassa expansiva; Tela soldada para ligação de alvenaria/estrut…"
+      },
+      {
+        "area": "Louças e Metais",
+        "premissa": "Entrega de bacia sanitária e acabamento de registro nos apartamentos; Entrega completa de louças, metais e marmoraria de lava…"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Alvenaria",
+        "decisao": "Ação seguindo os projetos pré executivos, disponibilizados 02/07/2025, com todas as especificações consideradas nesse orçamento."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Extração de quantidades realizado via visus, utilizando arquivo .ifc;",
+      "Para os itens de louças, metais e mobiliário, foram extraídos através do projeto de interiores e dwg.",
+      "TOTAL R$ 16.586.329,77 100% R$ 2.390,52"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:26:06",
+      "duration_s": 73.4,
+      "excerpt_chars": 2554
+    }
   }
 }

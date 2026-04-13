@@ -1,0 +1,173 @@
+{
+  "projeto": "arv-ingleses-spot",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:37:28",
+  "compact_chars": 3675,
+  "duration_s": 126.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Ger_Tec e Adm\",\n      \"sub_disciplina\": \"Terreno\",\n      \"itens_exemplo\": [\n        \"Aquisição do Terreno\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Ger_Tec e Adm\",\n      \"sub_disciplina\": \"Administração e Consultoria\",\n      \"itens_exemplo\": [\n        \"Administração\",\n        \"Comissões de Vendas - Cotas\",\n        \"Consultoria Financeira e Gestão de Suprimentos\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Ger_Executivo\",\n      \"sub_disciplina\": \"Mobiliário e Acabamentos\",\n      \"itens_exemplo\": [\n        \"Mobiliário para Áreas Comuns\",\n        \"MOE - Esquadrias de aluminio\",\n        \"Climatização - material e mão de obra\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Ger_Executivo\",\n      \"sub_disciplina\": \"Infraestrutura e Instalações\",\n      \"itens_exemplo\": [\n        \"Elevador Social\",\n        \"Entrada de Energia\",\n        \"MAT - Instalações de água fria\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"MOBILIÁRIO\",\n      \"sub_disciplina\": \"Áreas e Acabamentos\",\n      \"itens_exemplo\": [\n        \"Área:\",\n        \"Acabamentos Especiais\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"MOBILIÁRIO\",\n      \"sub_disciplina\": \"Móveis Específicos\",\n      \"itens_exemplo\": [\n        \"Marcenaria\",\n        \"Espreguiçadeira Brisa Estofado Navy Base Alumínio Taup…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Louças e metais_Consolidação\",\n      \"sub_disciplina\": \"Bacias Sanitárias\",\n      \"itens_exemplo\": [\n        \"Bacia Sanitária com caixa acoplada\",\n        \"Bacia com caixa acoplada / Detalhe: Linha Izy, Bacia: …\",\n        \"Bacia Sanitária p/ PNE com Caixa Montana\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Louças e metais_Pavimentos\",\n      \"sub_disciplina\": \"Bacias Sanitárias\",\n      \"itens_exemplo\": [\n        \"Bacia Sanitária com caixa acoplada\",\n        \"Bacia Sanitária p/ PNE com Caixa Montana\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Louças e metais_Pavimentos\",\n      \"sub_disciplina\": \"Acessórios\",\n      \"itens_exemplo\": [\n        \"Acabamento de Registro\",\n        \"Barra de apoio para deficiente\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Etapa fora do escopo da Cartesian\",\n      \"observacao\": \"Etapa fora do escopo da Cartesian\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Lançamentos de Serviço ARV\",\n      \"observacao\": \"Mantido lançamento prévio do serviço da ARV\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Revisão de Valores ARV\",\n      \"observacao\": \"Mantido lançamento prévio do serviço da ARV e valor informado pela ARV para a ultima revisão\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Revisão de Valores ARV\",\n      \"observacao\": \"valor informado pela ARV para a ultima revisão\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Estimativa de Custos\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Revisão de Quantidade ARV\",\n      \"observacao\": \"valor informado pela ARV para a ultima revisão, alterado quantidade\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Cálculo de Escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação valor informado pela ARV para a ultima revisão\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cálculo de Perda\",\n      \"observacao\": \"Considerando 5% de perda pelo projetista - na composição - valor informado pela ARV para a ultima revisão\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Escopo de Acabamentos\",\n      \"observacao\": \"Seriam as placas de mdf e demais items de acabamentos de arquitetura, que não incluem móveis\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Escopo de Acabamentos\",\n      \"observacao\": \"Inclui itens pequenos de decoração + letreiriros e demais itens que podem não aparecer nas imagens comerciais\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Escopo de Mobiliário\",\n      \"observacao\": \"Incluso todos os itens de madeira fabricada e montada, como a caixa de correspondencia e demais móveis\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Itens Específicos\",\n      \"observacao\": \"Departamento permanente de lixo\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Itens Específicos\",\n      \"observacao\": \"Acabamento de Registro PNE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Itens Específicos\",\n      \"observacao\": \"Bacia Sanitária com caixa acoplada\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Itens Específicos\",\n      \"observacao\": \"Bacia Sanitária p/ PNE com Caixa Montana\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Valor informado pela ARV para a ultima revisão\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Etapa fora do escopo da Cartesian\",\n      \"motivo\": \"Fora do escopo\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Ger_Tec e Adm",
+        "sub_disciplina": "Terreno",
+        "itens_exemplo": [
+          "Aquisição do Terreno"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Tec e Adm",
+        "sub_disciplina": "Administração e Consultoria",
+        "itens_exemplo": [
+          "Administração",
+          "Comissões de Vendas - Cotas",
+          "Consultoria Financeira e Gestão de Suprimentos"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Mobiliário e Acabamentos",
+        "itens_exemplo": [
+          "Mobiliário para Áreas Comuns",
+          "MOE - Esquadrias de aluminio",
+          "Climatização - material e mão de obra"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Infraestrutura e Instalações",
+        "itens_exemplo": [
+          "Elevador Social",
+          "Entrada de Energia",
+          "MAT - Instalações de água fria"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIÁRIO",
+        "sub_disciplina": "Áreas e Acabamentos",
+        "itens_exemplo": [
+          "Área:",
+          "Acabamentos Especiais"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIÁRIO",
+        "sub_disciplina": "Móveis Específicos",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Espreguiçadeira Brisa Estofado Navy Base Alumínio Taup…"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Consolidação",
+        "sub_disciplina": "Bacias Sanitárias",
+        "itens_exemplo": [
+          "Bacia Sanitária com caixa acoplada",
+          "Bacia com caixa acoplada / Detalhe: Linha Izy, Bacia: …",
+          "Bacia Sanitária p/ PNE com Caixa Montana"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Pavimentos",
+        "sub_disciplina": "Bacias Sanitárias",
+        "itens_exemplo": [
+          "Bacia Sanitária com caixa acoplada",
+          "Bacia Sanitária p/ PNE com Caixa Montana"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Pavimentos",
+        "sub_disciplina": "Acessórios",
+        "itens_exemplo": [
+          "Acabamento de Registro",
+          "Barra de apoio para deficiente"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Etapa fora do escopo da Cartesian",
+        "observacao": "Etapa fora do escopo da Cartesian",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Lançamentos de Serviço ARV",
+        "observacao": "Mantido lançamento prévio do serviço da ARV",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Revisão de Valores ARV",
+        "observacao": "Mantido lançamento prévio do serviço da ARV e valor informado pela ARV para a ultima revisão",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Revisão de Valores ARV",
+        "observacao": "valor informado pela ARV para a ultima revisão",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Estimativa de Custos",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Revisão de Quantidade ARV",
+        "observacao": "valor informado pela ARV para a ultima revisão, alterado quantidade",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Cálculo de Escavação",
+        "observacao": "Considerado empolamento 30% da escavação valor informado pela ARV para a ultima revisão",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo de Perda",
+        "observacao": "Considerando 5% de perda pelo projetista - na composição - valor informado pela ARV para a ultima revisão",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escopo de Acabamentos",
+        "observacao": "Seriam as placas de mdf e demais items de acabamentos de arquitetura, que não incluem móveis",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo de Acabamentos",
+        "observacao": "Inclui itens pequenos de decoração + letreiriros e demais itens que podem não aparecer nas imagens comerciais",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo de Mobiliário",
+        "observacao": "Incluso todos os itens de madeira fabricada e montada, como a caixa de correspondencia e demais móveis",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Itens Específicos",
+        "observacao": "Departamento permanente de lixo",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Itens Específicos",
+        "observacao": "Acabamento de Registro PNE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Itens Específicos",
+        "observacao": "Bacia Sanitária com caixa acoplada",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Itens Específicos",
+        "observacao": "Bacia Sanitária p/ PNE com Caixa Montana",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Valor informado pela ARV para a ultima revisão"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Etapa fora do escopo da Cartesian",
+        "motivo": "Fora do escopo"
+      }
+    ]
+  }
+}

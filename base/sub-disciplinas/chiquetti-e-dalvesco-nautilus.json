@@ -1,0 +1,62 @@
+{
+  "projeto": "chiquetti-e-dalvesco-nautilus",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:06:46",
+  "compact_chars": 876,
+  "duration_s": 74.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Administração e Gestão\",\n      \"sub_disciplina\": \"Taxas e Contingências\",\n      \"itens_exemplo\": [\n        \"Taxa administração da obra\",\n        \"Imprevistos e Contingências\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 4…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fachada e Vedação\",\n      \"sub_disciplina\": \"Esquadria em alumínio\",\n      \"itens_exemplo\": [\n        \"Esquadria em alumínio - Fornecimento e Instalação - Ti…\",\n        \"Esquadria em alumínio - Fornecimento e Instalação - Du…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Elementos Secundários\",\n      \"sub_disciplina\": \"Metálicos\",\n      \"itens_exemplo\": [\n        \"Brise metálico, acabamento amadeirado - Tipos\",\n        \"Estrutura metálica (ampliação)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Global\",\n      \"sub_disciplina\": \"Empreitada\",\n      \"itens_exemplo\": [\n        \"Empreitada Global\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"TAXA DE ADMINISTRAÇÃO\",\n      \"observacao\": \"TAXA DE ADMINISTRAÇÃO\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"O termo 'Esquadria em alumínio - Fornecimento e Instalação' é repetido com diferentes especificações (Ti... e Du...).\",\n    \"A unidade 'vb' é utilizada para descrever itens de alto custo (Empreitada Global, Taxa administração, Imprevistos, etc.).\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Administração e Gestão",
+        "sub_disciplina": "Taxas e Contingências",
+        "itens_exemplo": [
+          "Taxa administração da obra",
+          "Imprevistos e Contingências"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Vedação",
+        "sub_disciplina": "Esquadria em alumínio",
+        "itens_exemplo": [
+          "Esquadria em alumínio - Fornecimento e Instalação - Ti…",
+          "Esquadria em alumínio - Fornecimento e Instalação - Du…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Elementos Secundários",
+        "sub_disciplina": "Metálicos",
+        "itens_exemplo": [
+          "Brise metálico, acabamento amadeirado - Tipos",
+          "Estrutura metálica (ampliação)"
+        ]
+      },
+      {
+        "macrogrupo": "Global",
+        "sub_disciplina": "Empreitada",
+        "itens_exemplo": [
+          "Empreitada Global"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "TAXA DE ADMINISTRAÇÃO",
+        "observacao": "TAXA DE ADMINISTRAÇÃO",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "O termo 'Esquadria em alumínio - Fornecimento e Instalação' é repetido com diferentes especificações (Ti... e Du...).",
+      "A unidade 'vb' é utilizada para descrever itens de alto custo (Empreitada Global, Taxa administração, Imprevistos, etc.)."
+    ],
+    "fora_da_curva": []
+  }
+}

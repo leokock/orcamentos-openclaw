@@ -1,0 +1,93 @@
+{
+  "projeto": "grandezza-gran-royal",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:47:30",
+  "compact_chars": 3388,
+  "duration_s": 91.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto Usinado\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru…\",\n        \"Concreto Usinado bombeável para lamelas 30MPa - inclu…\",\n        \"Concreto Usinado bombeável 40MPa para infraestrutura- …\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de Obra/Execução\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de supraestrutura de concret…\",\n        \"Mão de obra para execução de fundação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura/Detalhe\",\n      \"itens_exemplo\": [\n        \"Protenção de Cordoalhas para laje protendida - Materia…\",\n        \"Armação Aço CA-50, Diâmetro de 16,0mm para Supraestrut…\",\n        \"Tela SLQA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Gestão/Administrativo\",\n      \"itens_exemplo\": [\n        \"Equipe de apoio\",\n        \"Engenheiro Civil\",\n        \"Mestre De Obras\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Movimentação/Terra\",\n      \"itens_exemplo\": [\n        \"MOVIMENTAÇÃO DE TERRA\",\n        \"Escavação de volume do subsolo\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Escavação de volume do subsolo\",\n      \"observacao\": \"estimado pelo corte e detalhes de contenção\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Blocos, vigas de fundação e pilares\",\n      \"observacao\": \"devido a ausencia de projeto\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Altura\",\n      \"observacao\": \"10cm indicado em projet\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Volume de subsolo\",\n      \"observacao\": \"com 30% de empolamento\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Volume de valas\",\n      \"observacao\": \"com 30% de empolamento\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estimativa\",\n      \"observacao\": \"conrfome aba \\\"Cont. Tecnol.\\\"\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"TOTAL | pu=1917.59 | R$10.020.042\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"Mão de obra para execução de supraestrutura de concret…\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto Usinado",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru…",
+          "Concreto Usinado bombeável para lamelas 30MPa - inclu…",
+          "Concreto Usinado bombeável 40MPa para infraestrutura- …"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra/Execução",
+        "itens_exemplo": [
+          "Mão de obra para execução de supraestrutura de concret…",
+          "Mão de obra para execução de fundação"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura/Detalhe",
+        "itens_exemplo": [
+          "Protenção de Cordoalhas para laje protendida - Materia…",
+          "Armação Aço CA-50, Diâmetro de 16,0mm para Supraestrut…",
+          "Tela SLQA"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Gestão/Administrativo",
+        "itens_exemplo": [
+          "Equipe de apoio",
+          "Engenheiro Civil",
+          "Mestre De Obras"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Movimentação/Terra",
+        "itens_exemplo": [
+          "MOVIMENTAÇÃO DE TERRA",
+          "Escavação de volume do subsolo"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Escavação de volume do subsolo",
+        "observacao": "estimado pelo corte e detalhes de contenção",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Blocos, vigas de fundação e pilares",
+        "observacao": "devido a ausencia de projeto",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Altura",
+        "observacao": "10cm indicado em projet",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Volume de subsolo",
+        "observacao": "com 30% de empolamento",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Volume de valas",
+        "observacao": "com 30% de empolamento",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa",
+        "observacao": "conrfome aba \"Cont. Tecnol.\"",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "TOTAL | pu=1917.59 | R$10.020.042",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "Mão de obra para execução de supraestrutura de concret…"
+    ],
+    "fora_da_curva": []
+  }
+}

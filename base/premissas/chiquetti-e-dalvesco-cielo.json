@@ -1,0 +1,64 @@
+{
+  "projeto": "chiquetti-e-dalvesco-cielo",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:59:18",
+  "excerpt_chars": 4330,
+  "duration_s": 89.5,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"7.013,06 m²\",\n    \"ur\": \"18\",\n    \"tipologia\": \"Unidades residenciais\",\n    \"data_base\": \"Março/25\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Quantificação seguindo detalhamentos de projetos de estacas e supraestrutura disponibilizados no projeto.\"\n    },\n    {\n      \"area\": \"Quantificação\",\n      \"premissa\": \"Quantificação via visus, utilizando arquivo .ifc, tomando premissas para itens que não houveram correção no modelo como por exemplo a alvenaria.\"\n    },\n    {\n      \"area\": \"Instalações\",\n      \"premissa\": \"Instalações elétricas, telecomunicação, hidrossanitários, preventivas e GLP considerados os quantitativos recebidos exceto SPDA.\"\n    },\n    {\n      \"area\": \"Fundação Rasa\",\n      \"premissa\": \"Armação com aço cortado e dobra em indústria, considerando 10% de perda; Concreto fck de 40 Mpa, incluindo serviço de bombeamento, em blocos, sapatas e baldrames, consideração de 5% de perda.\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Armação com aço cortado e dobra em indústria, considerando 10% de perda; Concreto fck de 30 Mpa, incluindo serviço de bombeamento, consideração de 5% de perda.\"\n    },\n    {\n      \"area\": \"Paredes e Painéis\",\n      \"premissa\": \"Consideração de bloco de concreto, com argamassa industrializada de assentamento; Consideração de blocos cerâmicos, com argamassa industrializada de assentamento; Verga e Contraverga de concreto moldada in loco.\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Quantificação\",\n      \"decisao\": \"O modelo Recebido não permitiu que separar os quantitativos por pavime…merciais.\"\n    },\n    {\n      \"contexto\": \"Fundação/Estrutura\",\n      \"decisao\": \"Mão de obra utilizando valores da empreitada global fornecido pelo cliente.\"\n    },\n    {\n      \"contexto\": \"Paredes e Painéis\",\n      \"decisao\": \"SPDA estimadas, usando índices de obras similares, devido ausência de quantitativos.\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Localização: Rua Mário Moura, 198 / Cachoeira do Bom Jesus, FLORIANÓPOLIS - SC\",\n    \"O empreendimento possui 18 Unidades residenciais, Áreas de lazer, 42 vagas de garagem e 3 elevadores.\",\n    \"EAP inclui Custos indiretos da obra; Administração de Canteiro; Instalações Provisórias.\",\n    \"EAP inclui Pacotes de custo de execução de obra; Mão de obra terceirizada e empreitada global; Instalações de comunicação.\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "7.013,06 m²",
+      "ur": "18",
+      "tipologia": "Unidades residenciais",
+      "data_base": "Março/25",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Quantificação seguindo detalhamentos de projetos de estacas e supraestrutura disponibilizados no projeto."
+      },
+      {
+        "area": "Quantificação",
+        "premissa": "Quantificação via visus, utilizando arquivo .ifc, tomando premissas para itens que não houveram correção no modelo como por exemplo a alvenaria."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Instalações elétricas, telecomunicação, hidrossanitários, preventivas e GLP considerados os quantitativos recebidos exceto SPDA."
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Armação com aço cortado e dobra em indústria, considerando 10% de perda; Concreto fck de 40 Mpa, incluindo serviço de bombeamento, em blocos, sapatas e baldrames, consideração de 5% de perda."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com aço cortado e dobra em indústria, considerando 10% de perda; Concreto fck de 30 Mpa, incluindo serviço de bombeamento, consideração de 5% de perda."
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de bloco de concreto, com argamassa industrializada de assentamento; Consideração de blocos cerâmicos, com argamassa industrializada de assentamento; Verga e Contraverga de concreto moldada in loco."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Quantificação",
+        "decisao": "O modelo Recebido não permitiu que separar os quantitativos por pavime…merciais."
+      },
+      {
+        "contexto": "Fundação/Estrutura",
+        "decisao": "Mão de obra utilizando valores da empreitada global fornecido pelo cliente."
+      },
+      {
+        "contexto": "Paredes e Painéis",
+        "decisao": "SPDA estimadas, usando índices de obras similares, devido ausência de quantitativos."
+      }
+    ],
+    "observacoes_chave": [
+      "Localização: Rua Mário Moura, 198 / Cachoeira do Bom Jesus, FLORIANÓPOLIS - SC",
+      "O empreendimento possui 18 Unidades residenciais, Áreas de lazer, 42 vagas de garagem e 3 elevadores.",
+      "EAP inclui Custos indiretos da obra; Administração de Canteiro; Instalações Provisórias.",
+      "EAP inclui Pacotes de custo de execução de obra; Mão de obra terceirizada e empreitada global; Instalações de comunicação."
+    ]
+  }
+}

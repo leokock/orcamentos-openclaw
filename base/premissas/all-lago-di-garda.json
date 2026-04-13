@@ -1,0 +1,83 @@
+{
+  "projeto": "all-lago-di-garda",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T01:03:15",
+  "excerpt_chars": 4330,
+  "duration_s": 89.1,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"7055,73m²\",\n    \"ur\": \"19 pavimentos\",\n    \"tipologia\": \"Residencial/Lazer\",\n    \"data_base\": \"12.12.2024\",\n    \"cub_referencia\": \"ALL-LAGO-DI-GARDA\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Concreto fck de 40 MPa em fundação Profunda e rasa, consideração 35% perda para estaca hélice e 5% de perda para fundação rasa\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em compensadoplastificado 14 mm, considerando 2 jogos\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Montagem e desmontagem de formas considerando 2 utilizações\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Armação com consideração de aço cortado em obra com 10% de perda\"\n    },\n    {\n      \"area\": \"Paredes\",\n      \"premissa\": \"Consideração de blocos cerâmicos para as Vedação com argamassa usinada para assentamento\"\n    },\n    {\n      \"area\": \"Paredes\",\n      \"premissa\": \"Considerado blocos antichamas para as escadas\"\n    },\n    {\n      \"area\": \"Impermeabilização\",\n      \"premissa\": \"Impermeabilização de fundação rasa com tinta asfáltica\"\n    },\n    {\n      \"area\": \"Acabamentos\",\n      \"premissa\": \"Corrimão de madeira em escadaria anti-incêndio\"\n    },\n    {\n      \"area\": \"Acabamentos\",\n      \"premissa\": \"Considerado custo de material e mão de obra de instalação de esquadrias de alumínio e de ferro no serviço\"\n    },\n    {\n      \"area\": \"Cobertura\",\n      \"premissa\": \"Estrutura de telhamento em madeira Lei; Telha natural de fibrocimento ondulada 6 mm\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Quantificação\",\n      \"decisao\": \"Levantamento realizado via visus, utilizando arquivo .ifc; Exceção de quantidades de louças e metais, que foram levantados através do projeto 2D.\"\n    },\n    {\n      \"contexto\": \"Infraestrutura\",\n      \"decisao\": \"Mão de obra empreitada para execução de infraestrutura precificada pelo rateio do custo Global por área construída\"\n    },\n    {\n      \"contexto\": \"Supraestrutura\",\n      \"decisao\": \"Mão de obra empreitada para execução de supraestrutura precificada pelo rateio do custo Global por área construída\"\n    },\n    {\n      \"contexto\": \"Impermeabilização\",\n      \"decisao\": \"Consideração de material e mão de obra por serviço de impermeabilização Terceirizado\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"O escopo inclui: Gestão Técnica e Administrativa (Custos indiretos, Administração de Canteiro, Instalações Provisórias) e Gestão Executiva (Pacotes de custo, Mão de obra Global, Imprevistos e contingências).\",\n    \"Entrega completa de louças, metais e marmoraria em áreas comuns e para privativas consideramos bacias sanitárias e acabamentos de registros.\",\n    \"Aplicação de chapisco preparada em obra 1:4 em alvenaria; Aplicação de chapisco rolado em estrutura de concreto armado; Aplicação de massa única de 3,...\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "7055,73m²",
+      "ur": "19 pavimentos",
+      "tipologia": "Residencial/Lazer",
+      "data_base": "12.12.2024",
+      "cub_referencia": "ALL-LAGO-DI-GARDA"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Infraestrutura",
+        "premissa": "Concreto fck de 40 MPa em fundação Profunda e rasa, consideração 35% perda para estaca hélice e 5% de perda para fundação rasa"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em compensadoplastificado 14 mm, considerando 2 jogos"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Montagem e desmontagem de formas considerando 2 utilizações"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com consideração de aço cortado em obra com 10% de perda"
+      },
+      {
+        "area": "Paredes",
+        "premissa": "Consideração de blocos cerâmicos para as Vedação com argamassa usinada para assentamento"
+      },
+      {
+        "area": "Paredes",
+        "premissa": "Considerado blocos antichamas para as escadas"
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Impermeabilização de fundação rasa com tinta asfáltica"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Corrimão de madeira em escadaria anti-incêndio"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Considerado custo de material e mão de obra de instalação de esquadrias de alumínio e de ferro no serviço"
+      },
+      {
+        "area": "Cobertura",
+        "premissa": "Estrutura de telhamento em madeira Lei; Telha natural de fibrocimento ondulada 6 mm"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Quantificação",
+        "decisao": "Levantamento realizado via visus, utilizando arquivo .ifc; Exceção de quantidades de louças e metais, que foram levantados através do projeto 2D."
+      },
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Mão de obra empreitada para execução de infraestrutura precificada pelo rateio do custo Global por área construída"
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Mão de obra empreitada para execução de supraestrutura precificada pelo rateio do custo Global por área construída"
+      },
+      {
+        "contexto": "Impermeabilização",
+        "decisao": "Consideração de material e mão de obra por serviço de impermeabilização Terceirizado"
+      }
+    ],
+    "observacoes_chave": [
+      "O escopo inclui: Gestão Técnica e Administrativa (Custos indiretos, Administração de Canteiro, Instalações Provisórias) e Gestão Executiva (Pacotes de custo, Mão de obra Global, Imprevistos e contingências).",
+      "Entrega completa de louças, metais e marmoraria em áreas comuns e para privativas consideramos bacias sanitárias e acabamentos de registros.",
+      "Aplicação de chapisco preparada em obra 1:4 em alvenaria; Aplicação de chapisco rolado em estrutura de concreto armado; Aplicação de massa única de 3,..."
+    ]
+  }
+}

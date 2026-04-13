@@ -836,5 +836,142 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 12,
+      "total_itens": 7616,
+      "total_observacoes": 227,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/brasin-redentor.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 5…",
+          "Mão de obra para execução de supraestrutura em concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação aço CA-50 diâmetro 10,00mm para supraestrutura…",
+          "Armadura supraestrutura torre 6,3 mm - 32,00 Corte e D…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Escoramento",
+        "itens_exemplo": [
+          "Escoramento Metálico"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento",
+        "itens_exemplo": [
+          "Revestimento em ACM, cor bronze e concreto, aplicação …"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Equipamentos",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Elevadores Emergência",
+          "Elevadores Social"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Equipamentos",
+        "sub_disciplina": "Segurança Contra Incêndio",
+        "itens_exemplo": [
+          "SISTEMA DE REDE DE SPRINKLER PVC FIRE",
+          "DETECTOR DE FUMAÇA ENDEREÇAVEL ANALOGICO MI-PSE-S2-IV",
+          "TUBO DE ACO 3' GALVANIZADO NBR 5580 6M CL"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Administrativo",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Mestre de obras"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Área",
+        "itens_exemplo": [
+          "Área:"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cisterna",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Perdas/Estimativa",
+        "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda h=5cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Perdas/Estimativa",
+        "observacao": "Quantidade projeto - 30% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Prazo",
+        "observacao": "Tempo de permanência atualizado para 24 meses, conforme solicitado em revisão",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo repassado pela Brasin em revisão",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Exclusão de item",
+        "observacao": "Retirado do orçamento pois Brasin irá considerar no custo de incorporação, o qual não terá vinculo com o orça…",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo de custo",
+        "observacao": "Considerado 8800,00 por mês para 6 meses + 300 entrega.",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Esquadrias de Alumínio (R$11.000.000)",
+      "Revestimento em ACM, cor bronze e concreto, aplicação … (R$3.000.000)",
+      "Elevadores Emergência (R$2.233.527)",
+      "Escoramento Metálico (R$2.000.000)",
+      "Elevadores Social (R$1.999.046)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:48:36",
+      "duration_s": 121.1,
+      "compact_chars": 3564
+    }
   }
 }

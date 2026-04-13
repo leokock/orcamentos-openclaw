@@ -1,0 +1,114 @@
+{
+  "projeto": "etr-zion-meridian-tower",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:11:49",
+  "excerpt_chars": 4329,
+  "duration_s": 106.1,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"4.617,34 m²\",\n    \"ur\": \"20 Unidades residenciais\",\n    \"tipologia\": \"Residencial\",\n    \"data_base\": \"Novembro/2024\",\n    \"cub_referencia\": \"2.863,73\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Arquitetura\",\n      \"premissa\": \"Levantamento realizado via visus, utilizando arquivo .ifc\"\n    },\n    {\n      \"area\": \"Arquitetura\",\n      \"premissa\": \"Exceção de quantidades de tijolos refratários, louças, metais e mobiliário, que foram levantados através do projeto 2D.\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Escavação e reaterro mecanizado de valas para elementos enterrados;\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Movimentação de bota-fora, considerando 30% de empolamento;\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Lastro de concreto magro…\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"Armação de fundação rasa com corte e dobra em obra, com consideração 10% de perda;\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"Concreto fck de 40 MPa em estacas, com consideração de 30% de perda;\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"Concreto fck de 35 MPa em fundação rasa, com consideração de 5% de perda;\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Armação com corte e dobra em obra, com consideração 10% de perda;\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Concreto fck de 35 MPa em supraestrutura, com consideração de 5% de perda;\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Locação de escoramento metálico;\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Locação de cubetas para lajes – adotado ATEX 60X60;\"\n    },\n    {\n      \"area\": \"Acabamentos\",\n      \"premissa\": \"Kit porta pronta de madeira em ambientes internos;\"\n    },\n    {\n      \"area\": \"Acabamentos\",\n      \"premissa\": \"Fachadura digital em acesso às unidades residenciais;\"\n    },\n    {\n      \"area\": \"Acabamentos\",\n      \"premissa\": \"Portas corta-fogo P-90 e corrimão de escadaria em madeira;\"\n    },\n    {\n      \"area\": \"Acabamentos\",\n      \"premissa\": \"Escada marinheiro e alçapões de acesso;\"\n    },\n    {\n      \"area\": \"Acabamentos\",\n      \"premissa\": \"Corrimão de inox em acessos externos;\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"LOUÇAS E METAIS\",\n      \"decisao\": \"Quantitativos extraídos de projetos e detalhamentos considerando entrega completa em áreas comuns;\"\n    },\n    {\n      \"contexto\": \"LOUÇAS E METAIS\",\n      \"decisao\": \"Consideração de entrega de bacia sanitária em áreas privativas;\"\n    },\n    {\n      \"contexto\": \"COBERTURA\",\n      \"decisao\": \"Estrutura de telhamento em madeira de lei;\"\n    },\n    {\n      \"contexto\": \"COBERTURA\",\n      \"decisao\": \"Telhamento com telha ondulada de fibrocimento 6mm;\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"ETR – MEDITERRÂNEO TOWER| 06.01.2025\",\n    \"DATA BASE: Novembro/2024\",\n    \"Lazer: Salão de festas, Gourmet, Piscinas, Academia, Fireplace e Game Room\",\n    \"GERENCIAMENTO TÉCNICO E ADMINSITRATIVO\",\n    \"GERENCIAMENTO EXECUTIVO\",\n    \"OBRAS DE REFERÊNCIA R$ 370,00 – 530,00 / m²\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "4.617,34 m²",
+      "ur": "20 Unidades residenciais",
+      "tipologia": "Residencial",
+      "data_base": "Novembro/2024",
+      "cub_referencia": "2.863,73"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Arquitetura",
+        "premissa": "Levantamento realizado via visus, utilizando arquivo .ifc"
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Exceção de quantidades de tijolos refratários, louças, metais e mobiliário, que foram levantados através do projeto 2D."
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Escavação e reaterro mecanizado de valas para elementos enterrados;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Movimentação de bota-fora, considerando 30% de empolamento;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Lastro de concreto magro…"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Armação de fundação rasa com corte e dobra em obra, com consideração 10% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 40 MPa em estacas, com consideração de 30% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 35 MPa em fundação rasa, com consideração de 5% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com corte e dobra em obra, com consideração 10% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Concreto fck de 35 MPa em supraestrutura, com consideração de 5% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Locação de escoramento metálico;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Locação de cubetas para lajes – adotado ATEX 60X60;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Kit porta pronta de madeira em ambientes internos;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Fachadura digital em acesso às unidades residenciais;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Portas corta-fogo P-90 e corrimão de escadaria em madeira;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Escada marinheiro e alçapões de acesso;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Corrimão de inox em acessos externos;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "LOUÇAS E METAIS",
+        "decisao": "Quantitativos extraídos de projetos e detalhamentos considerando entrega completa em áreas comuns;"
+      },
+      {
+        "contexto": "LOUÇAS E METAIS",
+        "decisao": "Consideração de entrega de bacia sanitária em áreas privativas;"
+      },
+      {
+        "contexto": "COBERTURA",
+        "decisao": "Estrutura de telhamento em madeira de lei;"
+      },
+      {
+        "contexto": "COBERTURA",
+        "decisao": "Telhamento com telha ondulada de fibrocimento 6mm;"
+      }
+    ],
+    "observacoes_chave": [
+      "ETR – MEDITERRÂNEO TOWER| 06.01.2025",
+      "DATA BASE: Novembro/2024",
+      "Lazer: Salão de festas, Gourmet, Piscinas, Academia, Fireplace e Game Room",
+      "GERENCIAMENTO TÉCNICO E ADMINSITRATIVO",
+      "GERENCIAMENTO EXECUTIVO",
+      "OBRAS DE REFERÊNCIA R$ 370,00 – 530,00 / m²"
+    ]
+  }
+}

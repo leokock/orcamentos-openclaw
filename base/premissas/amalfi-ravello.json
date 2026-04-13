@@ -1,0 +1,101 @@
+{
+  "projeto": "amalfi-ravello",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:48:48",
+  "excerpt_chars": 4331,
+  "duration_s": 105.5,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"13.434,29\",\n    \"ur\": null,\n    \"tipologia\": \"20 pavimentos, 15 tipos – 5 aptos por andar, 3 pavimentos de garagem, 2 salas comerciais\",\n    \"data_base\": \"FEV/24\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Quantificação seguindo detalhamentos de projeto e resumo de quantitativo disponibilizado\"\n    },\n    {\n      \"area\": \"Fundação e Supraestrutura\",\n      \"premissa\": \"Exceção de quantidades de formas definidas por índices devido ausência de quantitativo\"\n    },\n    {\n      \"area\": \"Arquitetura\",\n      \"premissa\": \"Exceção de quantidades de tijolos refratários…\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Montagem e desmontagem de formas considerando 8 utilizações\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Armação com aço cortado e dobra em obra, considerando 10% de perda\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Verba repassada pela Amalfi para concreto, consideração de 5% de perda\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Verba repassada pela Amalfi para locação de cubetas até o lazer e aquisição para os pavimentos tipo\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Verba repassada pela Amalafi para locação de escoramento metálico\"\n    },\n    {\n      \"area\": \"Paredes e Painéis\",\n      \"premissa\": \"Consideração de blocos de concreto sical em áreas de escadas, elevadores e reservatório, com argamassa usinada para assentamento\"\n    },\n    {\n      \"area\": \"Paredes e Painéis\",\n      \"premissa\": \"Consideração de blocos cerâmicos para demais vedação com argamassa usinada para assentamento\"\n    },\n    {\n      \"area\": \"Impermeabilização\",\n      \"premissa\": \"Consideração de material e mão de obra por serviço de impermeabilização\"\n    },\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Custos considerando prazo de 42 meses de obra\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Movimentação de Terra\",\n      \"decisao\": \"Verba repassada pela Amalfi para movimentação, considerando volume de bota-fora\"\n    },\n    {\n      \"contexto\": \"Infraestrutura\",\n      \"decisao\": \"Verba repassada pela Amalfi para execução de estacas\"\n    },\n    {\n      \"contexto\": \"Infraestrutura\",\n      \"decisao\": \"Armação com aço cortado e dobra em obra, considerando 10% de perda\"\n    },\n    {\n      \"contexto\": \"Infraestrutura\",\n      \"decisao\": \"Verba repassada pela Amalfi para concreto, consideração de 5% de perda\"\n    },\n    {\n      \"contexto\": \"Supraestrutura\",\n      \"decisao\": \"Verba repassada pela Amalfi para locação de cubetas até o lazer e aquisição para os pavimentos tipo\"\n    },\n    {\n      \"contexto\": \"Supraestrutura\",\n      \"decisao\": \"Verba repassada pela Amalafi para locação de escoramento metálico\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Localização: Rua Osni Melo, 110, Itajaí /SC\",\n    \"EAP inclui 20 itens, de MOVIMENTAÇÃO DE TERRA a REVESTIM\",\n    \"Quantificação foi realizada via visus, utilizando arquivo .ifc\",\n    \"Serviços lançados conforme preenchimento de formulário de custos indiretos e itens preenchidos em planilha enviada por email\",\n    \"RAVELLO OBRAS DE REFERÊNCIA: R$ 353,33 / m² e R$ 320,00 – 440,00 / m²\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "13.434,29",
+      "ur": null,
+      "tipologia": "20 pavimentos, 15 tipos – 5 aptos por andar, 3 pavimentos de garagem, 2 salas comerciais",
+      "data_base": "FEV/24",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativo disponibilizado"
+      },
+      {
+        "area": "Fundação e Supraestrutura",
+        "premissa": "Exceção de quantidades de formas definidas por índices devido ausência de quantitativo"
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Exceção de quantidades de tijolos refratários…"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Montagem e desmontagem de formas considerando 8 utilizações"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com aço cortado e dobra em obra, considerando 10% de perda"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Verba repassada pela Amalfi para concreto, consideração de 5% de perda"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Verba repassada pela Amalfi para locação de cubetas até o lazer e aquisição para os pavimentos tipo"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Verba repassada pela Amalafi para locação de escoramento metálico"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos de concreto sical em áreas de escadas, elevadores e reservatório, com argamassa usinada para assentamento"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos cerâmicos para demais vedação com argamassa usinada para assentamento"
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Consideração de material e mão de obra por serviço de impermeabilização"
+      },
+      {
+        "area": "Geral",
+        "premissa": "Custos considerando prazo de 42 meses de obra"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Movimentação de Terra",
+        "decisao": "Verba repassada pela Amalfi para movimentação, considerando volume de bota-fora"
+      },
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Verba repassada pela Amalfi para execução de estacas"
+      },
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Armação com aço cortado e dobra em obra, considerando 10% de perda"
+      },
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Verba repassada pela Amalfi para concreto, consideração de 5% de perda"
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Verba repassada pela Amalfi para locação de cubetas até o lazer e aquisição para os pavimentos tipo"
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Verba repassada pela Amalafi para locação de escoramento metálico"
+      }
+    ],
+    "observacoes_chave": [
+      "Localização: Rua Osni Melo, 110, Itajaí /SC",
+      "EAP inclui 20 itens, de MOVIMENTAÇÃO DE TERRA a REVESTIM",
+      "Quantificação foi realizada via visus, utilizando arquivo .ifc",
+      "Serviços lançados conforme preenchimento de formulário de custos indiretos e itens preenchidos em planilha enviada por email",
+      "RAVELLO OBRAS DE REFERÊNCIA: R$ 353,33 / m² e R$ 320,00 – 440,00 / m²"
+    ]
+  }
+}

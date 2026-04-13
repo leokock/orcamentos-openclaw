@@ -1,0 +1,69 @@
+{
+  "projeto": "gmf-moradas-do-atalaia",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T01:07:32",
+  "excerpt_chars": 4289,
+  "duration_s": 75.4,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"7.374,18 m²\",\n    \"ur\": \"40\",\n    \"tipologia\": \"Residencial\",\n    \"data_base\": \"ABRIL/24\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Consideração de bloco de concreto sical em áreas com escadas, churrasqueiras e elevadore, com argamassa industrializada de assentamento;\"\n    },\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Consideração de blocos cerâmicos para demais vedações, com argamassa industrializada de assentamento;\"\n    },\n    {\n      \"area\": \"Impermeabilização\",\n      \"premissa\": \"Impermeabilização de fundação e contenção com aditivo impermeabilizante;\"\n    },\n    {\n      \"area\": \"Impermeabilização\",\n      \"premissa\": \"Tratamento impermeabilizante de ralo com manta de poliéster;\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"Concreto fck de 35 Mpa, incluindo serviço de bombeamento, em cortina de contenção, consideração de 5% de perda;\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"Concreto fck de 40Mpa, incluindo serviço de bombeamento, consideração de 30% de perda;\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"Concreto fck de 35Mpa, incluindo serviço de bombeamento, em blocos, sapatas e baldrames, consideração de 5% de perda;\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"EAP\",\n      \"decisao\": \"Exceção das sapatas foram utilizandos índices devido ausência de quantitativo;\"\n    },\n    {\n      \"contexto\": \"Arquitetura\",\n      \"decisao\": \"Exceção de quantidades de louças, metais e mobiliário…\"\n    },\n    {\n      \"contexto\": \"Quantificação\",\n      \"decisao\": \"Quantificação seguindo detalhamentos de projetos e planilha com resumo de quantitativo disponibilizados.\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"GMF – MORADAS DO ATALAIA | 08.05.2024\",\n    \"Localização: Rua Lila Heusi, 115, Fazendinha, Itajaí/SC\",\n    \"Área do Terreno: 825,00 m²\",\n    \"Tipos: 1A, 1B (x5), 2A, 2B (x3), 3A\",\n    \"Tipologia: (duplex inf) Ático (lazer e duplex superior)\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "7.374,18 m²",
+      "ur": "40",
+      "tipologia": "Residencial",
+      "data_base": "ABRIL/24",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Consideração de bloco de concreto sical em áreas com escadas, churrasqueiras e elevadore, com argamassa industrializada de assentamento;"
+      },
+      {
+        "area": "Geral",
+        "premissa": "Consideração de blocos cerâmicos para demais vedações, com argamassa industrializada de assentamento;"
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Impermeabilização de fundação e contenção com aditivo impermeabilizante;"
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Tratamento impermeabilizante de ralo com manta de poliéster;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 35 Mpa, incluindo serviço de bombeamento, em cortina de contenção, consideração de 5% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 40Mpa, incluindo serviço de bombeamento, consideração de 30% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 35Mpa, incluindo serviço de bombeamento, em blocos, sapatas e baldrames, consideração de 5% de perda;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "EAP",
+        "decisao": "Exceção das sapatas foram utilizandos índices devido ausência de quantitativo;"
+      },
+      {
+        "contexto": "Arquitetura",
+        "decisao": "Exceção de quantidades de louças, metais e mobiliário…"
+      },
+      {
+        "contexto": "Quantificação",
+        "decisao": "Quantificação seguindo detalhamentos de projetos e planilha com resumo de quantitativo disponibilizados."
+      }
+    ],
+    "observacoes_chave": [
+      "GMF – MORADAS DO ATALAIA | 08.05.2024",
+      "Localização: Rua Lila Heusi, 115, Fazendinha, Itajaí/SC",
+      "Área do Terreno: 825,00 m²",
+      "Tipos: 1A, 1B (x5), 2A, 2B (x3), 3A",
+      "Tipologia: (duplex inf) Ático (lazer e duplex superior)"
+    ]
+  }
+}

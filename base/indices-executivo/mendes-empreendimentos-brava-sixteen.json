@@ -1852,5 +1852,82 @@
     "ceramica": 83.84,
     "porcelanato": 116.97,
     "rodape": 35.6
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 836,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mendes-empreendimentos-brava-sixteen.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação aço CA-60, diâmetro de 6,3mm para viga de coro…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Materiais para forma"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Vedação",
+        "sub_disciplina": "Revestimento",
+        "itens_exemplo": [
+          "Revestimento de fachada em chapa de ACM - material e m…"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Vedação",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "Aluminio perfilado em diversos tipos e bitolas, para …"
+        ]
+      },
+      {
+        "macrogrupo": "Mão de Obra e Serviços",
+        "sub_disciplina": "Equipe Especializada",
+        "itens_exemplo": [
+          "Mão de obra para execução das esquadrias"
+        ]
+      },
+      {
+        "macrogrupo": "Mão de Obra e Serviços",
+        "sub_disciplina": "Mão de Obra Geral",
+        "itens_exemplo": [
+          "Salário da Equipe: 1 mestre, 2 carpinteiros, 1 guinche…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário em geral e itens de decoração"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:18:03",
+      "duration_s": 68.4,
+      "compact_chars": 811
+    }
   }
 }

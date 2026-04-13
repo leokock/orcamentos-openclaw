@@ -1,0 +1,35 @@
+# macom-villa-lobos — análise qualitativa Gemma
+
+_Gerado em 2026-04-12T22:15:42 por gemma4:e4b (69.3s)_
+
+## Sub-disciplinas identificadas
+### Estrutura
+- **SUPRAESTRUTURA**
+  - SUPRAESTRUTURA
+
+### Gestão
+- **GERENCIAMENTO TÉCNICO E ADMINISTRATIVO**
+  - GERENCIAMENTO TÉCNICO E ADMINISTRATIVO
+
+### Instalações
+- **INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS**
+  - INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS
+
+### Acabamentos
+- **ESQUADRIAS, VIDROS E FERRAGENS**
+  - ESQUADRIAS, VIDROS E FERRAGENS
+
+### Infraestrutura
+- **INFRAESTRUTURA**
+  - INFRAESTRUTURA
+
+### Fachada
+- **REVESTIMENTOS E ACABAMENTOS DE FACHADA**
+  - REVESTIMENTOS E ACABAMENTOS DE FACHADA
+
+### Equipamentos
+- **EQUIPAMENTOS E SISTEMAS ESPECIAIS**
+  - EQUIPAMENTOS E SISTEMAS ESPECIAIS
+
+## Padrões identificados
+- A lista de centros de custo (SUPRAESTRUTURA, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO, etc.) é idêntica em ambos os orçamentos (ORÇAMENTO_EXECUTIVO e ORÇAMENTO_PRIVATIVA).

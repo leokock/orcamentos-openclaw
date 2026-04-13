@@ -1,0 +1,66 @@
+{
+  "projeto": "paludo-nassau",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:44:47",
+  "compact_chars": 1707,
+  "duration_s": 83.6,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para estacas, fck 30 MPa, …\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Paredes\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Fachada e Teto\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Sistemas\",\n      \"sub_disciplina\": \"Elétrica/Hidráulica\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n        \"Infraestrutura para instalação de ar condicionado *\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias\",\n      \"sub_disciplina\": \"Vidros e Ferragens\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Identificação do Projeto\",\n      \"observacao\": \"461 - OBRA NASSAU INCORPORADORA SPE LTDA - CNO 90.005.27176/75\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Localização\",\n      \"observacao\": \"RUA IPÊ AMARELO, 301 - CANTO GRANDE - Bombinhas/SC - 88215-000\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Nomes de serviços e acabamentos aparecem em múltiplas seções (Executivo, Relatório, Observações de orçamentista).\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para estacas, fck 30 MPa, …"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada e Teto",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas",
+        "sub_disciplina": "Elétrica/Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "Infraestrutura para instalação de ar condicionado *"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Vidros e Ferragens",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Identificação do Projeto",
+        "observacao": "461 - OBRA NASSAU INCORPORADORA SPE LTDA - CNO 90.005.27176/75",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Localização",
+        "observacao": "RUA IPÊ AMARELO, 301 - CANTO GRANDE - Bombinhas/SC - 88215-000",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Nomes de serviços e acabamentos aparecem em múltiplas seções (Executivo, Relatório, Observações de orçamentista)."
+    ],
+    "fora_da_curva": []
+  }
+}

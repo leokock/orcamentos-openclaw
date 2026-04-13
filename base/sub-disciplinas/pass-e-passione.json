@@ -1,0 +1,105 @@
+{
+  "projeto": "pass-e-passione",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:57:31",
+  "compact_chars": 2948,
+  "duration_s": 95.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado bombeável para estacas 40MPa - inclu…\",\n        \"Concreto Usinado FCK = 35MPa Bombeavel Para Supraestru…\",\n        \"Mão de obra para execução de supraestrutura de concret…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Acabamentos\",\n      \"sub_disciplina\": \"Elétrica\",\n      \"itens_exemplo\": [\n        \"Fios e Cabos Elétricos\",\n        \"Quadros Elétricos e Disjuntores\",\n        \"Pontos de Tomadas e Interruptores\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços de Engenharia e Apoio\",\n      \"sub_disciplina\": \"Legal e Regulatório\",\n      \"itens_exemplo\": [\n        \"Outorga\",\n        \"Taxas alvará\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mão de Obra e Serviços Gerais\",\n      \"sub_disciplina\": \"Equipe de Obra\",\n      \"itens_exemplo\": [\n        \"Engenheiro Civil\",\n        \"Mestre De Obras\",\n        \"Servente\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Áreas Comuns\",\n      \"itens_exemplo\": [\n        \"Área:\",\n        \"Área:\",\n        \"Área:\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Considerado conforme indicado projeto\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo estimado com base no Connect\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Projetos\",\n      \"observacao\": \"Quantitade de Projetos| Custo médio recebido Cliente\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Quantidade projeto\",\n      \"observacao\": \"considerado 5% de perda para chegar no valor estipulado pela passe\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo informado no connect\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Estimado conforme custo repassado para o connect\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Canteiro\",\n      \"observacao\": \"Serviço Terceiro para Instalações e manutenções de Canteiro\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Outorga (aparece em Ger_Tec e Adm e BASES)\",\n    \"Bandeja de Proteção Primária (aparece em BASES e observações)\",\n    \"Mão de Obra (repetição de itens em ELÉTRICA_ESTIMATIVA)\",\n    \"Área: (repetição de itens em MOBILIÁRIO)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado bombeável para estacas 40MPa - inclu…",
+          "Concreto Usinado FCK = 35MPa Bombeavel Para Supraestru…",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Acabamentos",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Fios e Cabos Elétricos",
+          "Quadros Elétricos e Disjuntores",
+          "Pontos de Tomadas e Interruptores"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Engenharia e Apoio",
+        "sub_disciplina": "Legal e Regulatório",
+        "itens_exemplo": [
+          "Outorga",
+          "Taxas alvará"
+        ]
+      },
+      {
+        "macrogrupo": "Mão de Obra e Serviços Gerais",
+        "sub_disciplina": "Equipe de Obra",
+        "itens_exemplo": [
+          "Engenheiro Civil",
+          "Mestre De Obras",
+          "Servente"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Áreas Comuns",
+        "itens_exemplo": [
+          "Área:",
+          "Área:",
+          "Área:"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Geral",
+        "observacao": "Considerado conforme indicado projeto",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo estimado com base no Connect",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Projetos",
+        "observacao": "Quantitade de Projetos| Custo médio recebido Cliente",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Quantidade projeto",
+        "observacao": "considerado 5% de perda para chegar no valor estipulado pela passe",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo informado no connect",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Estimado conforme custo repassado para o connect",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Canteiro",
+        "observacao": "Serviço Terceiro para Instalações e manutenções de Canteiro",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Outorga (aparece em Ger_Tec e Adm e BASES)",
+      "Bandeja de Proteção Primária (aparece em BASES e observações)",
+      "Mão de Obra (repetição de itens em ELÉTRICA_ESTIMATIVA)",
+      "Área: (repetição de itens em MOBILIÁRIO)"
+    ],
+    "fora_da_curva": []
+  }
+}

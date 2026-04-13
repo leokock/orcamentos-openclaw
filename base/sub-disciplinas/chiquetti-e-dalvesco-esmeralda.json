@@ -1,0 +1,98 @@
+{
+  "projeto": "chiquetti-e-dalvesco-esmeralda",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:05:31",
+  "compact_chars": 2990,
+  "duration_s": 82.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Fundação\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de fundação\",\n        \"Concreto Usinado FCK = 30MPa Bombeavel\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de supraestrutura de concret…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica\",\n      \"itens_exemplo\": [\n        \"Fios e cabos elétricos\",\n        \"Elevadores\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Mobiliário\",\n      \"itens_exemplo\": [\n        \"Mobiliário e decoração\",\n        \"Marcenaria\",\n        \"Cadeira Fernanda Assento Estofado Encosto Palha Natura…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Projeto\",\n      \"itens_exemplo\": [\n        \"Projeto Arquitetônico Legal\",\n        \"Projeto estrutural\",\n        \"Projeto elétrico/comunicação/telefonia/luminotécnico\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Administração\",\n      \"itens_exemplo\": [\n        \"Taxa de administração\",\n        \"Engenheiro Civil\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"blocos, vigas de fundação, duto e cisterna\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"cisterna\",\n      \"observacao\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"projeto\",\n      \"observacao\": \"Considerado conforme indicação em projeto\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"quantidade projeto\",\n      \"observacao\": \"Quantidade projeto - 30% de perda\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"estimativa\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição de itens de custo em diferentes blocos (Ex: Mão de obra para apoio de canteiro e segurança; Taxa de administração)\",\n    \"Mão de obra para execução de supraestrutura de concret… aparece duas vezes no bloco Ger_Executivo\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "Mão de obra para execução de fundação",
+          "Concreto Usinado FCK = 30MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Fios e cabos elétricos",
+          "Elevadores"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e decoração",
+          "Marcenaria",
+          "Cadeira Fernanda Assento Estofado Encosto Palha Natura…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Projeto",
+        "itens_exemplo": [
+          "Projeto Arquitetônico Legal",
+          "Projeto estrutural",
+          "Projeto elétrico/comunicação/telefonia/luminotécnico"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Administração",
+        "itens_exemplo": [
+          "Taxa de administração",
+          "Engenheiro Civil"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "blocos, vigas de fundação, duto e cisterna",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "cisterna",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "projeto",
+        "observacao": "Considerado conforme indicação em projeto",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "quantidade projeto",
+        "observacao": "Quantidade projeto - 30% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "estimativa",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de itens de custo em diferentes blocos (Ex: Mão de obra para apoio de canteiro e segurança; Taxa de administração)",
+      "Mão de obra para execução de supraestrutura de concret… aparece duas vezes no bloco Ger_Executivo"
+    ],
+    "fora_da_curva": []
+  }
+}

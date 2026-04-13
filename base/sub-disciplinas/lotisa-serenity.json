@@ -1,0 +1,66 @@
+{
+  "projeto": "lotisa-serenity",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:08:46",
+  "compact_chars": 1342,
+  "duration_s": 73.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"ESTRUTURA DE CONCRETO ARMADO\",\n      \"itens_exemplo\": [\n        \"ESTRUTURA DE CONCRETO ARMADO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"FUNDAÇÃO\",\n      \"itens_exemplo\": [\n        \"FUNDAÇÃO - ESTACAS, BLOCOS E BALDRAMES\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"ESQUADRIAS\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS METÁLICAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"REBOCO E CONTRAPISO\",\n      \"itens_exemplo\": [\n        \"REBOCO INTERNO E CONTRAPISO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"ELÉTRICAS E LÓGICAS\",\n      \"itens_exemplo\": [\n        \"SISTEMAS E INSTALAÇÕES ELÉTRICAS E LOGICAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Vedação\",\n      \"sub_disciplina\": \"ALVENARIA E DIVISÓRIAS\",\n      \"itens_exemplo\": [\n        \"ALVENARIA, VEDAÇÕES, DIVISÓRIAS, CAIXAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"PISO E PAREDE\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"A composição dos itens e os valores são idênticos nas abas Executivo e ETAPAS.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "ESTRUTURA DE CONCRETO ARMADO",
+        "itens_exemplo": [
+          "ESTRUTURA DE CONCRETO ARMADO"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "FUNDAÇÃO",
+        "itens_exemplo": [
+          "FUNDAÇÃO - ESTACAS, BLOCOS E BALDRAMES"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "ESQUADRIAS",
+        "itens_exemplo": [
+          "ESQUADRIAS METÁLICAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "REBOCO E CONTRAPISO",
+        "itens_exemplo": [
+          "REBOCO INTERNO E CONTRAPISO"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "ELÉTRICAS E LÓGICAS",
+        "itens_exemplo": [
+          "SISTEMAS E INSTALAÇÕES ELÉTRICAS E LOGICAS"
+        ]
+      },
+      {
+        "macrogrupo": "Vedação",
+        "sub_disciplina": "ALVENARIA E DIVISÓRIAS",
+        "itens_exemplo": [
+          "ALVENARIA, VEDAÇÕES, DIVISÓRIAS, CAIXAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "PISO E PAREDE",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "A composição dos itens e os valores são idênticos nas abas Executivo e ETAPAS."
+    ],
+    "fora_da_curva": []
+  }
+}

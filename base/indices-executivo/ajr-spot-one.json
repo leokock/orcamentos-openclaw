@@ -1857,5 +1857,159 @@
     "pintura_parede_pu_m2": 6.35,
     "chapisco_pu_m2": 6.66,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 2412,
+      "total_observacoes": 9,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/ajr-spot-one.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação aço CA-50, diâmetro de 10,0mm para supraestrut…",
+          "Aço CP 190 RB 12,7mm, para protensão"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de obra Estrutural",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura de concreto arm…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fechamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - Tipo 03"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "HVAC/Climatização",
+        "itens_exemplo": [
+          "Infraestrutura para instalação de ar condicionado",
+          "Mão de obra para infraestrutura de instalação de ar co…"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Identificador",
+        "observacao": "2 - The Spot One - Custo Direto",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "ACABAMENTOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:28:38",
+      "duration_s": 85.1,
+      "compact_chars": 1856
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "15.10.2021",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Gerenciamento Técnico e Administrativo",
+        "premissa": "Contempla: Projetos, consultorias; Canteiro de obra; Administração da obra"
+      },
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Para a estimativa de escavação foi considerado: área estimada do terreno * 1,00 m * 1,50 de empolamento"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Estacas hélice conforme projeto disponibilizado com preços unitários fornecidos pela União Fundações, valores de aço e concreto são de cotações recentes; Os quantitativos de blocos e baldrames foram levantados a partir do projeto, os valores dos insumos são valores de mercado."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Os quantitativos de supraestrutura foram estimados pelo projetista. Para os valores de drywall foi considerada a proposta da Euro System. Foi considerada uma estimativa de 50 pontos de reforço OSB por apartamento."
+      },
+      {
+        "area": "Revestimentos Armagassados",
+        "premissa": "Conforme premissa indicada nas especificações não foi considerado chapisco nas alvenarias, apenas na estrutura de concreto. Foi considerado contrapiso acústico nas áreas internas dos apartamentos, com exceção das áreas molhadas; Foi considerada regularização para a colocação de piso vinílico."
+      },
+      {
+        "area": "Revestimentos e Acabamentos de Teto",
+        "premissa": "Não está contemplado forro de gesso nas sacadas conforme premissa informada."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Tomada de preços",
+        "decisao": "disponibilizados pelo cliente e/ou cotações realizadas; quando não disponíveis foram estimados com índices de mercado."
+      },
+      {
+        "contexto": "Consultorias",
+        "decisao": "Foi designada uma verba de R$ 120.000,00 para eventuais consultorias que possam ocorrer ao longo da obra."
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Para a composição do orçamento a…lo arquitetônico disponibilizado pela AJR, conforme alinhado com o Eng Bruno no modelo não está considerada a estrutura."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Os valores unitários dos insumos são cotações recentes.",
+      "As verbas consideradas na etapa de ambientação foram alinhadas com o Eng. Bruno.",
+      "As verbas consideradas na etapa de comunicação visual são estimadas considerando índices construtivos de empreendimentos com padrões similares.",
+      "As verbas consideradas na etapa de paisagismo foram alinhadas com o Eng. Bruno.",
+      "As verbas consideradas na etapa de limpeza são estimadas considerando índices de empreendimentos com padrões similares",
+      "Adotou-se como premissa as especificação preenchida."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:41:30",
+      "duration_s": 95.4,
+      "excerpt_chars": 4329
+    }
   }
 }

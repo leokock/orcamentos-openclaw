@@ -1,0 +1,58 @@
+{
+  "projeto": "paludo-volo-ocean",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:48:48",
+  "compact_chars": 1342,
+  "duration_s": 63.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Envelopamento\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Envelopamento\",\n      \"sub_disciplina\": \"Esquadrias e Fachadas\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\",\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Sistemas\",\n      \"sub_disciplina\": \"Instalações Elétricas e Hidráulicas\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Sistemas\",\n      \"sub_disciplina\": \"Sistemas Especiais\",\n      \"itens_exemplo\": [\n        \"SISTEMAS E EQUIPAMENTOS ESPECIAIS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Gestão e Serviços Gerais\",\n      \"sub_disciplina\": \"Administrativo e Complementar\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n        \"SERVIÇOS COMPLEMENTARES\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"SUPRAESTRUTURA\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"SERVIÇOS COMPLEMENTARES\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Envelopamento",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Envelopamento",
+        "sub_disciplina": "Esquadrias e Fachadas",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Instalações Elétricas e Hidráulicas",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Sistemas Especiais",
+        "itens_exemplo": [
+          "SISTEMAS E EQUIPAMENTOS ESPECIAIS"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Serviços Gerais",
+        "sub_disciplina": "Administrativo e Complementar",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "SUPRAESTRUTURA",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "SERVIÇOS COMPLEMENTARES"
+    ],
+    "fora_da_curva": []
+  }
+}

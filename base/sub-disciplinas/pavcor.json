@@ -1,0 +1,100 @@
+{
+  "projeto": "pavcor",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:22:14",
+  "compact_chars": 3546,
+  "duration_s": 110.5,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Fundações\",\n      \"sub_disciplina\": \"Concreto e Estacas\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado bombeável para estacas 40MPa - inclu…\",\n        \"Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Fachada\",\n      \"sub_disciplina\": \"Vidro e Alumínio\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio\",\n        \"Guarda Corpo de Vidro e Aluminio - fornecimento e inst…\",\n        \"Brise de Alumínio - Decoração Fachada\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Mão de Obra Especializada\",\n      \"itens_exemplo\": [\n        \"Engenheiro Civil\",\n        \"Mestre de Obras\",\n        \"Equipe de apoio (4 serventes)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos e Sistemas\",\n      \"sub_disciplina\": \"Movimentação Vertical\",\n      \"itens_exemplo\": [\n        \"Elevadores\",\n        \"Aquisição de elevador cremalheira\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Comunicações e Segurança\",\n      \"sub_disciplina\": \"CFTV e Portaria\",\n      \"itens_exemplo\": [\n        \"Estimativa para sistema CFTV\",\n        \"Estimativa para video porteiro\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Baseado no contrato Rharie\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"observacao\": \"Estimado rebaixamento provisório pelo perído da fundação rasa\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"observacao\": \"Rebaixamento de Lençol freático\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"observacao\": \"Quantidade de estacas levantado atraves de projeto de blocos, com comprimento médio estimado devido ausência …\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Equipamentos\",\n      \"observacao\": \"Locação 30 dias de cada equipamento de rebaixamento com 22,5 HP, vazão máxima = 100 m³/h, em operação ou a di…\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Equipamentos\",\n      \"observacao\": \"Locação 30 dias de cada mangote de descarga CDF-A com lance de 50,00 metros cada.\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Sem imagem comercial, SUPOSIÇÃO\",\n      \"categoria\": \"alerta\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição do item 'Estimativa para sistema CFTV' com diferentes valores unitários e quantidades.\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"SUPOSIÇÃO\",\n      \"motivo\": \"Sem imagem comercial, SUPOSIÇÃO\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Concreto e Estacas",
+        "itens_exemplo": [
+          "Concreto Usinado bombeável para estacas 40MPa - inclu…",
+          "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru..."
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fachada",
+        "sub_disciplina": "Vidro e Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio",
+          "Guarda Corpo de Vidro e Aluminio - fornecimento e inst…",
+          "Brise de Alumínio - Decoração Fachada"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Mão de Obra Especializada",
+        "itens_exemplo": [
+          "Engenheiro Civil",
+          "Mestre de Obras",
+          "Equipe de apoio (4 serventes)"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos e Sistemas",
+        "sub_disciplina": "Movimentação Vertical",
+        "itens_exemplo": [
+          "Elevadores",
+          "Aquisição de elevador cremalheira"
+        ]
+      },
+      {
+        "macrogrupo": "Comunicações e Segurança",
+        "sub_disciplina": "CFTV e Portaria",
+        "itens_exemplo": [
+          "Estimativa para sistema CFTV",
+          "Estimativa para video porteiro"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Geral",
+        "observacao": "Baseado no contrato Rharie",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Fundação",
+        "observacao": "Estimado rebaixamento provisório pelo perído da fundação rasa",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Fundação",
+        "observacao": "Rebaixamento de Lençol freático",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Fundação",
+        "observacao": "Quantidade de estacas levantado atraves de projeto de blocos, com comprimento médio estimado devido ausência …",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Equipamentos",
+        "observacao": "Locação 30 dias de cada equipamento de rebaixamento com 22,5 HP, vazão máxima = 100 m³/h, em operação ou a di…",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Equipamentos",
+        "observacao": "Locação 30 dias de cada mangote de descarga CDF-A com lance de 50,00 metros cada.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Sem imagem comercial, SUPOSIÇÃO",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição do item 'Estimativa para sistema CFTV' com diferentes valores unitários e quantidades."
+    ],
+    "fora_da_curva": [
+      {
+        "item": "SUPOSIÇÃO",
+        "motivo": "Sem imagem comercial, SUPOSIÇÃO"
+      }
+    ]
+  }
+}

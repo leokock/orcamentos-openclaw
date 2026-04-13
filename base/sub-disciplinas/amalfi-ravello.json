@@ -1,0 +1,71 @@
+{
+  "projeto": "amalfi-ravello",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:35:21",
+  "compact_chars": 1012,
+  "duration_s": 81.6,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"SUPRAESTRUTURA\",\n      \"sub_disciplina\": \"Estrutura\",\n      \"itens_exemplo\": [\n        \"pu=637.85\",\n        \"pu=649.76\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n      \"sub_disciplina\": \"MEP\",\n      \"itens_exemplo\": [\n        \"pu=304.42\",\n        \"pu=310.07\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"sub_disciplina\": \"Fechamentos\",\n      \"itens_exemplo\": [\n        \"pu=223.84\",\n        \"pu=228.01\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"REVESTIMENTOS INTERNOS DE PAREDE\",\n      \"sub_disciplina\": \"Acabamento\",\n      \"itens_exemplo\": [\n        \"pu=165.42\",\n        \"pu=168.51\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"SERVIÇOS COMPLEMENTARES\",\n      \"sub_disciplina\": \"Serviços Gerais\",\n      \"itens_exemplo\": [\n        \"pu=165.48\",\n        \"pu=168.56\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"INFRAESTRUTURA\",\n      \"sub_disciplina\": \"Terreno\",\n      \"itens_exemplo\": [\n        \"pu=167.92\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"sub_disciplina\": \"Gestão\",\n      \"itens_exemplo\": [\n        \"pu=353.33\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"O valor de TOTAL, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO e INFRAESTRUTURA é idêntico entre os cenários SEM IMPREVISTOS e GER_EXECUTIVO.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "SUPRAESTRUTURA",
+        "sub_disciplina": "Estrutura",
+        "itens_exemplo": [
+          "pu=637.85",
+          "pu=649.76"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "sub_disciplina": "MEP",
+        "itens_exemplo": [
+          "pu=304.42",
+          "pu=310.07"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "sub_disciplina": "Fechamentos",
+        "itens_exemplo": [
+          "pu=223.84",
+          "pu=228.01"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS INTERNOS DE PAREDE",
+        "sub_disciplina": "Acabamento",
+        "itens_exemplo": [
+          "pu=165.42",
+          "pu=168.51"
+        ]
+      },
+      {
+        "macrogrupo": "SERVIÇOS COMPLEMENTARES",
+        "sub_disciplina": "Serviços Gerais",
+        "itens_exemplo": [
+          "pu=165.48",
+          "pu=168.56"
+        ]
+      },
+      {
+        "macrogrupo": "INFRAESTRUTURA",
+        "sub_disciplina": "Terreno",
+        "itens_exemplo": [
+          "pu=167.92"
+        ]
+      },
+      {
+        "macrogrupo": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "sub_disciplina": "Gestão",
+        "itens_exemplo": [
+          "pu=353.33"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "O valor de TOTAL, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO e INFRAESTRUTURA é idêntico entre os cenários SEM IMPREVISTOS e GER_EXECUTIVO."
+    ],
+    "fora_da_curva": []
+  }
+}

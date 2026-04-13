@@ -1,0 +1,173 @@
+{
+  "projeto": "indepy-caio-prado",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:03:21",
+  "compact_chars": 2938,
+  "duration_s": 136.5,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Ger_Executivo\",\n      \"sub_disciplina\": \"Acabamentos e Sistemas\",\n      \"itens_exemplo\": [\n        \"Forro Com Sistema Em Chapas De Gesso Para Drywall, Uso…\",\n        \"Parede Com Sistema Em Chapas De Gesso Para Drywall, Us…\",\n        \"Sistema Brise Sul Metais SMB30 (Cor Tabaco SM 7182)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Ger_Executivo\",\n      \"sub_disciplina\": \"Pintura e Reboco\",\n      \"itens_exemplo\": [\n        \"Mão de obra para pintura em paredes internas, 3 demãos\",\n        \"Mão de obra para aplicação de textura em paredes exter…\",\n        \"Mao de obra para reboco externo - inclui chapisco\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Ger_Executivo\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio, linha 25 supreme - forneciment…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"MOBILIÁRIO\",\n      \"sub_disciplina\": \"Áreas e Itens\",\n      \"itens_exemplo\": [\n        \"Área:\",\n        \"Esteira Profissional Movement RT 2500 LED (linha comer…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"REVESTIMENTOS\",\n      \"sub_disciplina\": \"Pisos\",\n      \"itens_exemplo\": [\n        \"Revestimento de Piso de granito itaunas\",\n        \"Revestimento de Piso emborrachado imitando madeira\",\n        \"Revestimento de Piso Porcelanato Acetinado Mirage, Pla…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"REVESTIMENTOS\",\n      \"sub_disciplina\": \"Paredes e Acabamentos\",\n      \"itens_exemplo\": [\n        \"Revestimento em Pastilha vítrea decorada, padrão custo…\",\n        \"Revestimento de Mdf em parede\",\n        \"Área:\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ARQUITETURA\",\n      \"sub_disciplina\": \"Alvenaria e Vedação\",\n      \"itens_exemplo\": [\n        \"Alvenaria de vedação com bocos de concreto\",\n        \"BLOCO CORTA-FOGO ACÚSTICO 14 cm,\",\n        \"Encunhamento de alvenaria de vedação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ARQUITETURA\",\n      \"sub_disciplina\": \"Blocos de Concreto\",\n      \"itens_exemplo\": [\n        \"BLOCO DE CONCRETO 14 cm,\",\n        \"BLOCO DE CONCRETO 19 cm,\",\n        \"BLOCO DE CONCRETO 09 cm,\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Obra\",\n      \"sub_disciplina\": \"Dados Gerais do Projeto\",\n      \"itens_exemplo\": [\n        \"MESES DE OBRA\",\n        \"ÁREA DO TERRENO\",\n        \"ÁREA CONSTRUÍDA\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Da marca oterprem, conforme projeto acustico r03\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Impermeabilização\",\n      \"observacao\": \"Considerado somente nos pisos que recebem impermeabilização\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Impermeabilização\",\n      \"observacao\": \"Considerado somente nos pisos que recebem manta asfaltica\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Quantidade de itens\",\n      \"observacao\": \"Considerado 1 na cozinha + 2 no banheiro\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"observacao\": \"REVESTIMENTOS ARGAMASSADOS PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Área\",\n      \"observacao\": \"CIRCULAÇÕES TIPOS E LAZER\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Área\",\n      \"observacao\": \"Circulação elevadores - subsolo\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Quantidade\",\n      \"observacao\": \"Vestiário funcionário (x2)\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Quantidade\",\n      \"observacao\": \"WC PNE Hall - Térreo (x2)\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Área\",\n      \"observacao\": \"Circulação elevadores - térreo\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Área\",\n      \"observacao\": \"Sala de serviço - Lockers\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Área\",\n      \"observacao\": \"Circulação elevadores - Pav 3\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Material\",\n      \"observacao\": \"BLOCO CORTA-FOGO ACÚSTICO 14 cm,\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Serviço\",\n      \"observacao\": \"Encunhamento de alvenaria de vedação\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Serviço\",\n      \"observacao\": \"Tela soldada para ligacao alvenaria/estrutura\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Área: (Repetição de cálculo de área em diferentes blocos)\",\n    \"BLOCO DE CONCRETO 14 cm, (Uso repetido em diferentes setores/blocos)\",\n    \"Circulação elevadores (Mencionado em diferentes pavimentos)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Acabamentos e Sistemas",
+        "itens_exemplo": [
+          "Forro Com Sistema Em Chapas De Gesso Para Drywall, Uso…",
+          "Parede Com Sistema Em Chapas De Gesso Para Drywall, Us…",
+          "Sistema Brise Sul Metais SMB30 (Cor Tabaco SM 7182)"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Pintura e Reboco",
+        "itens_exemplo": [
+          "Mão de obra para pintura em paredes internas, 3 demãos",
+          "Mão de obra para aplicação de textura em paredes exter…",
+          "Mao de obra para reboco externo - inclui chapisco"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio, linha 25 supreme - forneciment…"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIÁRIO",
+        "sub_disciplina": "Áreas e Itens",
+        "itens_exemplo": [
+          "Área:",
+          "Esteira Profissional Movement RT 2500 LED (linha comer…"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS",
+        "sub_disciplina": "Pisos",
+        "itens_exemplo": [
+          "Revestimento de Piso de granito itaunas",
+          "Revestimento de Piso emborrachado imitando madeira",
+          "Revestimento de Piso Porcelanato Acetinado Mirage, Pla…"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS",
+        "sub_disciplina": "Paredes e Acabamentos",
+        "itens_exemplo": [
+          "Revestimento em Pastilha vítrea decorada, padrão custo…",
+          "Revestimento de Mdf em parede",
+          "Área:"
+        ]
+      },
+      {
+        "macrogrupo": "ARQUITETURA",
+        "sub_disciplina": "Alvenaria e Vedação",
+        "itens_exemplo": [
+          "Alvenaria de vedação com bocos de concreto",
+          "BLOCO CORTA-FOGO ACÚSTICO 14 cm,",
+          "Encunhamento de alvenaria de vedação"
+        ]
+      },
+      {
+        "macrogrupo": "ARQUITETURA",
+        "sub_disciplina": "Blocos de Concreto",
+        "itens_exemplo": [
+          "BLOCO DE CONCRETO 14 cm,",
+          "BLOCO DE CONCRETO 19 cm,",
+          "BLOCO DE CONCRETO 09 cm,"
+        ]
+      },
+      {
+        "macrogrupo": "Obra",
+        "sub_disciplina": "Dados Gerais do Projeto",
+        "itens_exemplo": [
+          "MESES DE OBRA",
+          "ÁREA DO TERRENO",
+          "ÁREA CONSTRUÍDA"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Geral",
+        "observacao": "Da marca oterprem, conforme projeto acustico r03",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Impermeabilização",
+        "observacao": "Considerado somente nos pisos que recebem impermeabilização",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Impermeabilização",
+        "observacao": "Considerado somente nos pisos que recebem manta asfaltica",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade de itens",
+        "observacao": "Considerado 1 na cozinha + 2 no banheiro",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTOS ARGAMASSADOS PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "CIRCULAÇÕES TIPOS E LAZER",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "Circulação elevadores - subsolo",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Vestiário funcionário (x2)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "WC PNE Hall - Térreo (x2)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "Circulação elevadores - térreo",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "Sala de serviço - Lockers",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área",
+        "observacao": "Circulação elevadores - Pav 3",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Material",
+        "observacao": "BLOCO CORTA-FOGO ACÚSTICO 14 cm,",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Encunhamento de alvenaria de vedação",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Tela soldada para ligacao alvenaria/estrutura",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Área: (Repetição de cálculo de área em diferentes blocos)",
+      "BLOCO DE CONCRETO 14 cm, (Uso repetido em diferentes setores/blocos)",
+      "Circulação elevadores (Mencionado em diferentes pavimentos)"
+    ],
+    "fora_da_curva": []
+  }
+}

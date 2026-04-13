@@ -4,6 +4,49 @@
 > 
 > **Projeto piloto:** Electra Towers (Thozen)
 > **Criado:** 21/03/2026
+> **Atualizado:** 13/04/2026 (adicionada consulta à camada qualitativa Gemma)
+
+---
+
+## ⭐ Camada Qualitativa Gemma — Consulta a cada disciplina
+
+A cada disciplina trabalhada no executivo, **antes de preencher**, consultar a camada qualitativa dos projetos similares:
+
+```python
+# Em ~/orcamentos-openclaw/
+import json
+from pathlib import Path
+
+BASE = Path.home() / "orcamentos-openclaw" / "base" / "indices-executivo"
+
+def consultar_macrogrupo(slug_alvo, macrogrupo, ac_alvo, n=5):
+    """Retorna sub-disciplinas e observações de projetos similares para um macrogrupo."""
+    todos = [json.loads(p.read_text(encoding="utf-8")) for p in BASE.glob("*.json")]
+    sims = [p for p in todos
+            if p.get("ac") and abs(p["ac"] - ac_alvo) < ac_alvo * 0.25
+            and p.get("qualitative", {}).get("sub_disciplinas")]
+    
+    out = []
+    for p in sims[:n]:
+        for sd in p["qualitative"]["sub_disciplinas"]:
+            if macrogrupo.lower() in sd.get("macrogrupo", "").lower():
+                out.append((p["projeto"], sd))
+    return out
+
+# Ex: trabalhando "Esquadrias" no Electra (AC=36000)
+refs = consultar_macrogrupo("electra", "Esquadrias", 36000)
+for slug, sd in refs:
+    print(f"{slug}: {sd['sub_disciplina']} — {sd.get('itens_exemplo', [])}")
+```
+
+**O que reaproveitar de cada projeto similar:**
+- **Sub-disciplinas** → como detalhar a aba do macrogrupo
+- **Observações de orçamentista** (`qualitative.observacoes_orcamentista`) → reutilizar como texto de justificativa no log
+- **Premissas técnicas** (`qualitative.premissas_tecnicas`) → premissas que costumam aparecer (perdas, prazos, fundação)
+- **Padrões identificados** (`qualitative.padroes_identificados`) → o que se repete cross-aba
+
+**Documentação canônica:** `~/orcamentos-openclaw/base/CAMADA-QUALITATIVA-GEMMA.md`
+**Cobertura:** 126 projetos com sub_disciplinas, 58 com PDF analisado, 269 padrões identificados
 
 ---
 

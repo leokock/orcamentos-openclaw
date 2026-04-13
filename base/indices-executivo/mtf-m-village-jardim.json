@@ -84,5 +84,142 @@
   "fachada_detail": {
     "_total": 411254.22
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 42,
+      "total_observacoes": 7,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mtf-m-village-jardim.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Infraestrutura",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Instalações Gerais",
+        "itens_exemplo": [
+          "INSTALAÇÕES",
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Gerenciamento",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Serviços Técnicos",
+        "itens_exemplo": [
+          "SERVIÇOS TÉCNICOS E FINAIS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "ACABAMENTOS EM PISO E PAREDE",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "ACABAMENTOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:21:11",
+      "duration_s": 84.6,
+      "compact_chars": 1214
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "Obra 18 - MHAUS BIGUAÇU",
+      "data_base": "14/06/2022",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": null,
+        "premissa": "Tipo de obra 1 - Construção Civil"
+      },
+      {
+        "area": null,
+        "premissa": "Endereço da obra Avenida Marcondes de Mattos, SN - Quadra A, lote 01 - CENTRO - BIGUAÇU/SC - 88180-000"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": "Encargos sociais não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Versão do orçamento 3 - 14/06/2022 - 10:33:26 - Versão com análises da Cartesian na unidade construtiva de Obra",
+      "Preços expressos em R$ (REAL)"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:30:46",
+      "duration_s": 54.1,
+      "excerpt_chars": 4332
+    }
+  }
 }

@@ -1,0 +1,119 @@
+{
+  "projeto": "nova-empreendimentos-domus",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:38:39",
+  "compact_chars": 2769,
+  "duration_s": 112.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Fundação\",\n      \"itens_exemplo\": [\n        \"FUNDAÇÕES\",\n        \"fundações\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Contenção\",\n      \"itens_exemplo\": [\n        \"CONTENÇÕES\",\n        \"Tirantes de Contenção\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\",\n        \"SUPRAESTRUTURA - TORRE B\",\n        \"SUPRAESTRUTURA - TORRE A\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidrossanitárias\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES HIDROSSANITÁRIAS\",\n        \"INSTALAÇÕES HIDROSSANITÁRIAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétricas e Telecom\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, TELEFÔNICAS E SPDA\",\n        \"INSTALAÇÕES ELÉTRICAS, TELEFÔNICAS E SPDA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Vedação\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS\",\n        \"Esquadrias de Alumínio e Vidro  - Portas e Janelas / r…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Terreno e Movimentação\",\n      \"itens_exemplo\": [\n        \"Locação Máquinas Escavações / Terraplanagem\",\n        \"Guarda-Corpos Alumínio / Barras Horizontais h=110cm\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Áreas Comuns\",\n      \"itens_exemplo\": [\n        \"ÁREAS COMUNS E PAISAGISMO\",\n        \"Itens complementares para áreas comuns\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Terreno/Viabilidade\",\n      \"observacao\": \"Custo total do terreno R$2.563.000,00 mais permuta das unidades 401A, 402A, 403A, 404A, 405A, 602B, 603B e 5 …\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Tabela de viabilidade financeira\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Administração\",\n      \"observacao\": \"CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Serviços de Terraplanagem\",\n      \"observacao\": \"Consideração de 8 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba por 24 meses\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Escopo\",\n      \"observacao\": \"Proporcional à área de terreno do Malta\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Metodologia\",\n      \"observacao\": \"Levantado manualmente seguindo projeto de contenções\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Cálculo\",\n      \"observacao\": \"Considerado resumo projetista + 5% de perda\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição de valores e PU para FUNDAÇÕES e CONTENÇÕES em diferentes blocos de análise (CONTRUTORA, MÃO DE OBRA, EAP Análise)\",\n    \"Repetição de custos e PU para DOMUS - ADM em diferentes blocos de análise (CONTRUTORA, MÃO DE OBRA, EAP Análise)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "FUNDAÇÕES",
+          "fundações"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Contenção",
+        "itens_exemplo": [
+          "CONTENÇÕES",
+          "Tirantes de Contenção"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA",
+          "SUPRAESTRUTURA - TORRE B",
+          "SUPRAESTRUTURA - TORRE A"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidrossanitárias",
+        "itens_exemplo": [
+          "INSTALAÇÕES HIDROSSANITÁRIAS",
+          "INSTALAÇÕES HIDROSSANITÁRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétricas e Telecom",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, TELEFÔNICAS E SPDA",
+          "INSTALAÇÕES ELÉTRICAS, TELEFÔNICAS E SPDA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Vedação",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS",
+          "Esquadrias de Alumínio e Vidro  - Portas e Janelas / r…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Terreno e Movimentação",
+        "itens_exemplo": [
+          "Locação Máquinas Escavações / Terraplanagem",
+          "Guarda-Corpos Alumínio / Barras Horizontais h=110cm"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Áreas Comuns",
+        "itens_exemplo": [
+          "ÁREAS COMUNS E PAISAGISMO",
+          "Itens complementares para áreas comuns"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Terreno/Viabilidade",
+        "observacao": "Custo total do terreno R$2.563.000,00 mais permuta das unidades 401A, 402A, 403A, 404A, 405A, 602B, 603B e 5 …",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Tabela de viabilidade financeira",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Administração",
+        "observacao": "CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviços de Terraplanagem",
+        "observacao": "Consideração de 8 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba por 24 meses",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escopo",
+        "observacao": "Proporcional à área de terreno do Malta",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Metodologia",
+        "observacao": "Levantado manualmente seguindo projeto de contenções",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Considerado resumo projetista + 5% de perda",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de valores e PU para FUNDAÇÕES e CONTENÇÕES em diferentes blocos de análise (CONTRUTORA, MÃO DE OBRA, EAP Análise)",
+      "Repetição de custos e PU para DOMUS - ADM em diferentes blocos de análise (CONTRUTORA, MÃO DE OBRA, EAP Análise)"
+    ],
+    "fora_da_curva": []
+  }
+}

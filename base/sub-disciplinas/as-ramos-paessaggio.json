@@ -1,0 +1,48 @@
+{
+  "projeto": "as-ramos-paessaggio",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:38:24",
+  "compact_chars": 1194,
+  "duration_s": 56.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"GERENCIAMENTO ADMINISTRATIVO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ALVENARIA, VEDAÇÕES E DIVISÓRIAS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"SISTEMAS E INSTALAÇÕES ELÉTRICAS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"INSTALAÇÕES PREVENTIVAS E GLP\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"MÃO DE OBRA\",\n    \"SUPRAESTRUTURA\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"INFRAESTRUTURA\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [],
+    "observacoes_relevantes": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "GERENCIAMENTO ADMINISTRATIVO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "SISTEMAS E INSTALAÇÕES ELÉTRICAS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "INSTALAÇÕES PREVENTIVAS E GLP",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "MÃO DE OBRA",
+      "SUPRAESTRUTURA",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "INFRAESTRUTURA"
+    ],
+    "fora_da_curva": []
+  }
+}

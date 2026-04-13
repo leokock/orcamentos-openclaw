@@ -1,0 +1,69 @@
+{
+  "projeto": "cambert-portal-da-brava",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:56:26",
+  "compact_chars": 1919,
+  "duration_s": 78.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"CONCRETO USINADO BOMBEÁVEL, PARA ESTACAS, FCK 30MPA, S…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de Obra Estrutural\",\n      \"itens_exemplo\": [\n        \"MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…\",\n        \"MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Piso e Parede\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Instalações\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Acabamentos\",\n      \"observacao\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Acabamentos\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Materiais\",\n      \"observacao\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Revisão de Projeto\",\n      \"observacao\": \"REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…\",\n    \"ACABAMENTOS EM PISO E PAREDE\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "CONCRETO USINADO BOMBEÁVEL, PARA ESTACAS, FCK 30MPA, S…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra Estrutural",
+        "itens_exemplo": [
+          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…",
+          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Instalações",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Acabamentos",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamentos",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Materiais",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Revisão de Projeto",
+        "observacao": "REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…",
+      "ACABAMENTOS EM PISO E PAREDE"
+    ],
+    "fora_da_curva": []
+  }
+}

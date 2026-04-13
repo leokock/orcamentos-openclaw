@@ -1,0 +1,53 @@
+{
+  "projeto": "santa-maria-unimed",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T01:15:34",
+  "excerpt_chars": 4296,
+  "duration_s": 89.9,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"52.516,04 m²\",\n    \"ur\": null,\n    \"tipologia\": \"SANTA MARIA – UNIMED\",\n    \"data_base\": \"16.01.2024\",\n    \"cub_referencia\": \"2.752,67 dez/23\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Movimentação de Terra\",\n      \"premissa\": \"Escavação mecanizada de valas para blocos e baldrames; Escavação vertical para subsolo; Rebaixamento de lençol freático; Reaterro para blocos e baldrames; Movimentação de terra para bota fora, com 30% de fator de empolamento; Regularização e apiloamento com lastro de concreto magro; Quantitativos estimados através de índices históricos.\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"268 estacas raiz com diâmetro 100mm e 8 metros de profundidade; Fabricação de forma para blocos e baldrames; Concreto de blocos e baldrames com resistência de 40 Mpa; Quantitativos estimados através de índices históricos.\"\n    },\n    {\n      \"area\": \"Contenção\",\n      \"premissa\": \"143 estacas raiz com diâmetro de 310mm e 3 metros de comprimento; 94 estacas raiz com diâmetro de 250mm e 3 metros de comprimento; Armadura para contenção; Concreto para contenção com resistência de 4...\"\n    },\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Custos considerando o prazo de 60 meses de obra.\"\n    }\n  ],\n  \"bdi_encargos\": [\n    {\n      \"componente\": \"Gerenciamento Técnico e Administrativo\",\n      \"valor_pct\": \"9,50%\",\n      \"nota\": \"Total (Análise por Área Construída)\"\n    }\n  ],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Equipamentos de Segurança\",\n      \"decisao\": \"Bandeja de proteção primária; Bandeja de proteção secundária; Guarda-corpo de vãos e...gurança, Meio Ambiente e Saúde\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"TOTAL ORÇAMENTO: R$ 169.134.504,62\",\n    \"CUSTO TOTAL POR M²: R$ 3.220,63\",\n    \"Equipamentos: Grua – 1 unidade por 36 meses; Balancim – 10 unidades por 9 meses; Cremalheira – 1 unidade por 36 meses; Andaime – 5 meses.\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "52.516,04 m²",
+      "ur": null,
+      "tipologia": "SANTA MARIA – UNIMED",
+      "data_base": "16.01.2024",
+      "cub_referencia": "2.752,67 dez/23"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Escavação mecanizada de valas para blocos e baldrames; Escavação vertical para subsolo; Rebaixamento de lençol freático; Reaterro para blocos e baldrames; Movimentação de terra para bota fora, com 30% de fator de empolamento; Regularização e apiloamento com lastro de concreto magro; Quantitativos estimados através de índices históricos."
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "268 estacas raiz com diâmetro 100mm e 8 metros de profundidade; Fabricação de forma para blocos e baldrames; Concreto de blocos e baldrames com resistência de 40 Mpa; Quantitativos estimados através de índices históricos."
+      },
+      {
+        "area": "Contenção",
+        "premissa": "143 estacas raiz com diâmetro de 310mm e 3 metros de comprimento; 94 estacas raiz com diâmetro de 250mm e 3 metros de comprimento; Armadura para contenção; Concreto para contenção com resistência de 4..."
+      },
+      {
+        "area": "Geral",
+        "premissa": "Custos considerando o prazo de 60 meses de obra."
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "Gerenciamento Técnico e Administrativo",
+        "valor_pct": "9,50%",
+        "nota": "Total (Análise por Área Construída)"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Equipamentos de Segurança",
+        "decisao": "Bandeja de proteção primária; Bandeja de proteção secundária; Guarda-corpo de vãos e...gurança, Meio Ambiente e Saúde"
+      }
+    ],
+    "observacoes_chave": [
+      "TOTAL ORÇAMENTO: R$ 169.134.504,62",
+      "CUSTO TOTAL POR M²: R$ 3.220,63",
+      "Equipamentos: Grua – 1 unidade por 36 meses; Balancim – 10 unidades por 9 meses; Cremalheira – 1 unidade por 36 meses; Andaime – 5 meses."
+    ]
+  }
+}

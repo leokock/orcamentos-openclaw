@@ -1,0 +1,47 @@
+{
+  "projeto": "amalfi-marine",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:47:02",
+  "excerpt_chars": 2916,
+  "duration_s": 65.2,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"4.498,66\",\n    \"ur\": \"27\",\n    \"tipologia\": \"Residencial/Lançamento Imobiliário\",\n    \"data_base\": \"JUL/23\",\n    \"cub_referencia\": \"R$ 2.750,52\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"ÁREA PRIVATIVA TOTAL\",\n      \"premissa\": \"2.651,04 m²\"\n    },\n    {\n      \"area\": \"UNIDADES\",\n      \"premissa\": \"27 un\"\n    },\n    {\n      \"area\": \"VAGAS DE GARAGEM\",\n      \"premissa\": \"29 un\"\n    },\n    {\n      \"area\": \"AP/AC\",\n      \"premissa\": \"58,93%\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"ANÁLISE DE CUSTOS\",\n      \"decisao\": \"Total de custo ajustado: -3.120,00 (2.583,13 vs 2.320,00)\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"TOTAL ORÇADO: R$ 14.107.283,05\",\n    \"Valor por Área Privativa (R$/m²): R$ 5.321,41\",\n    \"PRINCIPAIS CUSTOS PERCENTUAIS POR ETAPA DE EXECUÇÃO: SUPRAESTRUTURA (16,64%) e GERENCIAMENTO TÉCNICO (7,69%)\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "4.498,66",
+      "ur": "27",
+      "tipologia": "Residencial/Lançamento Imobiliário",
+      "data_base": "JUL/23",
+      "cub_referencia": "R$ 2.750,52"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "ÁREA PRIVATIVA TOTAL",
+        "premissa": "2.651,04 m²"
+      },
+      {
+        "area": "UNIDADES",
+        "premissa": "27 un"
+      },
+      {
+        "area": "VAGAS DE GARAGEM",
+        "premissa": "29 un"
+      },
+      {
+        "area": "AP/AC",
+        "premissa": "58,93%"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "ANÁLISE DE CUSTOS",
+        "decisao": "Total de custo ajustado: -3.120,00 (2.583,13 vs 2.320,00)"
+      }
+    ],
+    "observacoes_chave": [
+      "TOTAL ORÇADO: R$ 14.107.283,05",
+      "Valor por Área Privativa (R$/m²): R$ 5.321,41",
+      "PRINCIPAIS CUSTOS PERCENTUAIS POR ETAPA DE EXECUÇÃO: SUPRAESTRUTURA (16,64%) e GERENCIAMENTO TÉCNICO (7,69%)"
+    ]
+  }
+}

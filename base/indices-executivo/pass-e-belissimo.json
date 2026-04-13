@@ -104,5 +104,131 @@
   },
   "fachada_detail": {
     "total": 1365853.99
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 19,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/pass-e-belissimo.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA ESTRUTURAL"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "Infraestrutura Geral",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica/Hidrossanitária",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Serviços",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "A apresentação segue um padrão de custo unitário (pu=X) e custo total (R$Y) para cada macro-grupo."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:53:00",
+      "duration_s": 77.4,
+      "compact_chars": 504
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "Residenziale",
+      "data_base": "15/04/2021",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Estudos",
+        "premissa": "Levantamento topográfico"
+      },
+      {
+        "area": "Estudos",
+        "premissa": "Sondagem do terreno"
+      },
+      {
+        "area": "Projetos",
+        "premissa": "Projeto arquitetônico legal*"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Projeto de fundação*"
+      },
+      {
+        "area": "Execução",
+        "premissa": "Locação de escoramento metálico m2"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": null,
+        "nota": "não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": null,
+        "nota": "não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Obra 95 - OBRA - Belissimo Residenziale",
+      "Endereço da obra Rua Jaime Fernandes Vieira, 562 - Cordeiros - Itajaí/SC - 88310-693",
+      "Versão do orçamento 1 - 15/04/2021",
+      "Preços expressos em R$ (REAL)"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:42:17",
+      "duration_s": 59.3,
+      "excerpt_chars": 4330
+    }
   }
 }

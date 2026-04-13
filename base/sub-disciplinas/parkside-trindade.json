@@ -1,0 +1,99 @@
+{
+  "projeto": "parkside-trindade",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:50:24",
+  "compact_chars": 3434,
+  "duration_s": 95.2,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Laje e Vigas\",\n      \"itens_exemplo\": [\n        \"Laje em Vigota\",\n        \"Laje pré moldada unidirecional biapoiada enchimento em…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica e Hidráulica\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n        \"Instal. Hidro, louças, metais, gás, shp\",\n        \"Instal elétrica, sist comb incêndio, outros\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Esquadrias e Vidros\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\",\n        \"Estimativas / Esquadrias de Alumínio\",\n        \"Esquadrias de Alumínio + Vidro com persiana\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Pisos e Paredes\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\",\n        \"Mão de Obra de Empreitada Revestimento Cerâmicos\",\n        \"Mão de Obra de Empreitada Pintura\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Canteiro e Apoio\",\n      \"itens_exemplo\": [\n        \"Consultoria em Segurança do Trabalho\",\n        \"Equipamentos de Segurança do Trabalho\",\n        \"Barraco Provisório em Madeira\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Mobiliário e Equipamentos\",\n      \"itens_exemplo\": [\n        \"Móveis Soltos\",\n        \"Eletrodomésticos e Equipamentos\",\n        \"Máquina de Ar Condicionado\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Balancim - 2 unidades para o período de execução de fachada - Montagem em desmontagem não considerada\",\n      \"observacao\": \"Montagem em desmontagem não considerada\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Conforme abas \\\"CANTEIRO\\\" e \\\"EPC's\\\" - Bandejas, guarda corpo, tela fachadeira, linha de vida, slqa, EPI\",\n      \"observacao\": \"Considerado em abas \\\"CANTEIRO\\\" e \\\"EPC's\\\" - Bandejas, guarda corpo, tela fachadeira, linha de vida, slqa, EPI\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estimado com base em índices históricos\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Considerado 3 dias para execução (Diária R$ 380)\",\n      \"observacao\": \"Considerado 3 dias para execução (Diária R$ 380)\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"Estimado com base em índices históricos\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Guincho coluna + andaime + verba para ferramentas\",\n      \"motivo\": \"Mencionado como item separado de consideração\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Laje e Vigas",
+        "itens_exemplo": [
+          "Laje em Vigota",
+          "Laje pré moldada unidirecional biapoiada enchimento em…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "Instal. Hidro, louças, metais, gás, shp",
+          "Instal elétrica, sist comb incêndio, outros"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Esquadrias e Vidros",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "Estimativas / Esquadrias de Alumínio",
+          "Esquadrias de Alumínio + Vidro com persiana"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "Mão de Obra de Empreitada Revestimento Cerâmicos",
+          "Mão de Obra de Empreitada Pintura"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Canteiro e Apoio",
+        "itens_exemplo": [
+          "Consultoria em Segurança do Trabalho",
+          "Equipamentos de Segurança do Trabalho",
+          "Barraco Provisório em Madeira"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Mobiliário e Equipamentos",
+        "itens_exemplo": [
+          "Móveis Soltos",
+          "Eletrodomésticos e Equipamentos",
+          "Máquina de Ar Condicionado"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Balancim - 2 unidades para o período de execução de fachada - Montagem em desmontagem não considerada",
+        "observacao": "Montagem em desmontagem não considerada",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Conforme abas \"CANTEIRO\" e \"EPC's\" - Bandejas, guarda corpo, tela fachadeira, linha de vida, slqa, EPI",
+        "observacao": "Considerado em abas \"CANTEIRO\" e \"EPC's\" - Bandejas, guarda corpo, tela fachadeira, linha de vida, slqa, EPI",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimado com base em índices históricos",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Considerado 3 dias para execução (Diária R$ 380)",
+        "observacao": "Considerado 3 dias para execução (Diária R$ 380)",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "Estimado com base em índices históricos"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Guincho coluna + andaime + verba para ferramentas",
+        "motivo": "Mencionado como item separado de consideração"
+      }
+    ]
+  }
+}

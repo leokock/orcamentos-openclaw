@@ -1,0 +1,96 @@
+{
+  "projeto": "chiquetti-e-dalvesco-bela-vida",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:01:49",
+  "compact_chars": 1966,
+  "duration_s": 87.5,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Projetos e Serviços Complementares\",\n      \"sub_disciplina\": \"Projetos de Engenharia\",\n      \"itens_exemplo\": [\n        \"Projeto arquitetônico legal\",\n        \"Projeto complementares: estrutural, elétrico e telecom…\",\n        \"Projeto Impermeabilização\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mão de Obra e Serviços Especializados\",\n      \"sub_disciplina\": \"Serviços de Gestão\",\n      \"itens_exemplo\": [\n        \"Engenheiro Civil\",\n        \"Gerente de Planejamento Orçamento\",\n        \"Serviços Contabeis\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Segurança e Proteção\",\n      \"sub_disciplina\": \"Proteção Coletiva\",\n      \"itens_exemplo\": [\n        \"Rede de proteção tipo SLQA leve (media)\",\n        \"Mão de Obra Instalações de Proteções Coletivas\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Custo Ajustada Antigo + Atual\",\n      \"observacao\": \"Custo Ajustada Antigo + Atual\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Irrigação\",\n      \"observacao\": \"O custo que estava destinado a Irrigação se refere a Hidro e PPCI na planilha de contratação\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Ajustes de Orçamento\",\n      \"observacao\": \"Ajustado conforme reunião\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Ajustes de Orçamento\",\n      \"observacao\": \"Ajustado conforme Proposta Recebida\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Escopo de Obra\",\n      \"observacao\": \"onde sta cosndierado a escação do SS\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Escopo de Obra\",\n      \"observacao\": \"Onde esta considerado o materila escava da estaca?\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Escopo de Obra\",\n      \"observacao\": \"Cade o lastro de conreto do bloco?\",\n      \"categoria\": \"alerta\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição de projetos complementares (estrutural, elétrico, etc.) no Or Analitico\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"onde sta cosndierado a escação do SS\",\n      \"motivo\": \"Dúvida sobre escopo/consideração de custos\"\n    },\n    {\n      \"item\": \"Onde esta considerado o materila escava da estaca?\",\n      \"motivo\": \"Dúvida sobre escopo/consideração de materiais\"\n    },\n    {\n      \"item\": \"Cade o lastro de conreto do bloco?\",\n      \"motivo\": \"Dúvida sobre escopo/consideração de materiais\"\n    },\n    {\n      \"item\": \"Esse csuto esta considerado o que?\",\n      \"motivo\": \"Dúvida sobre o que o custo engloba\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Projetos e Serviços Complementares",
+        "sub_disciplina": "Projetos de Engenharia",
+        "itens_exemplo": [
+          "Projeto arquitetônico legal",
+          "Projeto complementares: estrutural, elétrico e telecom…",
+          "Projeto Impermeabilização"
+        ]
+      },
+      {
+        "macrogrupo": "Mão de Obra e Serviços Especializados",
+        "sub_disciplina": "Serviços de Gestão",
+        "itens_exemplo": [
+          "Engenheiro Civil",
+          "Gerente de Planejamento Orçamento",
+          "Serviços Contabeis"
+        ]
+      },
+      {
+        "macrogrupo": "Segurança e Proteção",
+        "sub_disciplina": "Proteção Coletiva",
+        "itens_exemplo": [
+          "Rede de proteção tipo SLQA leve (media)",
+          "Mão de Obra Instalações de Proteções Coletivas"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Custo Ajustada Antigo + Atual",
+        "observacao": "Custo Ajustada Antigo + Atual",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Irrigação",
+        "observacao": "O custo que estava destinado a Irrigação se refere a Hidro e PPCI na planilha de contratação",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Ajustes de Orçamento",
+        "observacao": "Ajustado conforme reunião",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Ajustes de Orçamento",
+        "observacao": "Ajustado conforme Proposta Recebida",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Escopo de Obra",
+        "observacao": "onde sta cosndierado a escação do SS",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Escopo de Obra",
+        "observacao": "Onde esta considerado o materila escava da estaca?",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Escopo de Obra",
+        "observacao": "Cade o lastro de conreto do bloco?",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de projetos complementares (estrutural, elétrico, etc.) no Or Analitico"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "onde sta cosndierado a escação do SS",
+        "motivo": "Dúvida sobre escopo/consideração de custos"
+      },
+      {
+        "item": "Onde esta considerado o materila escava da estaca?",
+        "motivo": "Dúvida sobre escopo/consideração de materiais"
+      },
+      {
+        "item": "Cade o lastro de conreto do bloco?",
+        "motivo": "Dúvida sobre escopo/consideração de materiais"
+      },
+      {
+        "item": "Esse csuto esta considerado o que?",
+        "motivo": "Dúvida sobre o que o custo engloba"
+      }
+    ]
+  }
+}

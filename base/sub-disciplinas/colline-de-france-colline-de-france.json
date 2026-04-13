@@ -1,0 +1,90 @@
+{
+  "projeto": "colline-de-france-colline-de-france",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:25:25",
+  "compact_chars": 3066,
+  "duration_s": 100.9,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto e Superestrutura\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru…\",\n        \"Mão de obra para execução de supraestrutura de concret…\",\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fundação\",\n      \"sub_disciplina\": \"Estacas e Movimentação\",\n      \"itens_exemplo\": [\n        \"Serviço especializado de estaca pré-moldada 50cm\",\n        \"Serviço especializado de estaca pré-moldada 30x30cm\",\n        \"MOVIMENTAÇÃO DE TERRA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Envelopamento e Fachada\",\n      \"sub_disciplina\": \"Vidros e Alumínio\",\n      \"itens_exemplo\": [\n        \"Pele de vidro\",\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Brise de Alumínio - Decoração Fachada\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Sistemas\",\n      \"sub_disciplina\": \"MEP e Elevadores\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n        \"Elevadores\",\n        \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Interiores\",\n      \"sub_disciplina\": \"Paredes e Pisos\",\n      \"itens_exemplo\": [\n        \"PAREDES E PAINÉIS\",\n        \"REVESTIMENTOS INTERNOS DE PAREDE\",\n        \"PISOS E PAVIMENTAÇÕES\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário e Complementares\",\n      \"sub_disciplina\": \"Decoração e Serviços\",\n      \"itens_exemplo\": [\n        \"Mobiliário e decoração\",\n        \"SERVIÇOS COMPLEMENTARES\",\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"ÁREA CONSTRUÍDA RESIDENCIAL\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"ÁREA CONSTRUÍDA RESIDENCIAL\",\n      \"observacao\": \"Considerado a área de aterro da rampa 51m2 pela largura da rampa 14, com 30% de empolamento para compactação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Orçamento Geral\",\n      \"observacao\": \"Quantidade projeto - 30% de perda\",\n      \"categoria\": \"alerta\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Esquadrias de Alumínio - fornecimento e instalação\",\n    \"Pele de vidro\",\n    \"Mobiliário e decoração\",\n    \"Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru…\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Superestrutura",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru…",
+          "Mão de obra para execução de supraestrutura de concret…",
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Fundação",
+        "sub_disciplina": "Estacas e Movimentação",
+        "itens_exemplo": [
+          "Serviço especializado de estaca pré-moldada 50cm",
+          "Serviço especializado de estaca pré-moldada 30x30cm",
+          "MOVIMENTAÇÃO DE TERRA"
+        ]
+      },
+      {
+        "macrogrupo": "Envelopamento e Fachada",
+        "sub_disciplina": "Vidros e Alumínio",
+        "itens_exemplo": [
+          "Pele de vidro",
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Brise de Alumínio - Decoração Fachada"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "MEP e Elevadores",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "Elevadores",
+          "EQUIPAMENTOS E SISTEMAS ESPECIAIS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Interiores",
+        "sub_disciplina": "Paredes e Pisos",
+        "itens_exemplo": [
+          "PAREDES E PAINÉIS",
+          "REVESTIMENTOS INTERNOS DE PAREDE",
+          "PISOS E PAVIMENTAÇÕES"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário e Complementares",
+        "sub_disciplina": "Decoração e Serviços",
+        "itens_exemplo": [
+          "Mobiliário e decoração",
+          "SERVIÇOS COMPLEMENTARES",
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "ÁREA CONSTRUÍDA RESIDENCIAL",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "ÁREA CONSTRUÍDA RESIDENCIAL",
+        "observacao": "Considerado a área de aterro da rampa 51m2 pela largura da rampa 14, com 30% de empolamento para compactação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Orçamento Geral",
+        "observacao": "Quantidade projeto - 30% de perda",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Esquadrias de Alumínio - fornecimento e instalação",
+      "Pele de vidro",
+      "Mobiliário e decoração",
+      "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestru…"
+    ],
+    "fora_da_curva": []
+  }
+}

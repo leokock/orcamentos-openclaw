@@ -165,5 +165,148 @@
     "porcelanato": 112.23,
     "rodape": 33.82,
     "pintura": 77.91
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 16,
+      "total_itens": 6958,
+      "total_observacoes": 161,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/pass-e-passione.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado bombeável para estacas 40MPa - inclu…",
+          "Concreto Usinado FCK = 35MPa Bombeavel Para Supraestru…",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Acabamentos",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Fios e Cabos Elétricos",
+          "Quadros Elétricos e Disjuntores",
+          "Pontos de Tomadas e Interruptores"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Engenharia e Apoio",
+        "sub_disciplina": "Legal e Regulatório",
+        "itens_exemplo": [
+          "Outorga",
+          "Taxas alvará"
+        ]
+      },
+      {
+        "macrogrupo": "Mão de Obra e Serviços Gerais",
+        "sub_disciplina": "Equipe de Obra",
+        "itens_exemplo": [
+          "Engenheiro Civil",
+          "Mestre De Obras",
+          "Servente"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Áreas Comuns",
+        "itens_exemplo": [
+          "Área:",
+          "Área:",
+          "Área:"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Geral",
+        "observacao": "Considerado conforme indicado projeto",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo estimado com base no Connect",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Projetos",
+        "observacao": "Quantitade de Projetos| Custo médio recebido Cliente",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Quantidade projeto",
+        "observacao": "considerado 5% de perda para chegar no valor estipulado pela passe",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo informado no connect",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Estimado conforme custo repassado para o connect",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Canteiro",
+        "observacao": "Serviço Terceiro para Instalações e manutenções de Canteiro",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Outorga (aparece em Ger_Tec e Adm e BASES)",
+      "Bandeja de Proteção Primária (aparece em BASES e observações)",
+      "Mão de Obra (repetição de itens em ELÉTRICA_ESTIMATIVA)",
+      "Área: (repetição de itens em MOBILIÁRIO)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:57:31",
+      "duration_s": 95.7,
+      "compact_chars": 2948
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": null,
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": null
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": null
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Obra 107 - OBRA - Passione",
+      "O BDI e os Encargos sociais não foram aplicados no orçamento.",
+      "O documento é um detalhamento de Composições de Serviços da Obra, abrangendo diversas subetapas (Ex: Serviços Preliminares, Infraestrutura, Supraestrutura, Bloco único)."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:44:32",
+      "duration_s": 45.9,
+      "excerpt_chars": 4331
+    }
   }
 }

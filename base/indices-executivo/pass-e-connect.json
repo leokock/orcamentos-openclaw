@@ -145,5 +145,196 @@
     "contrapiso": 65.12,
     "ceramica": 59.61,
     "chapisco": 6.69
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 38,
+      "total_itens": 15172,
+      "total_observacoes": 192,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/pass-e-connect.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto",
+          "Concreto Usinado FCK = 50MPa Bombeavel Para Supraestru..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armadura Convencional para Estrutura",
+          "Armadura Convencional para Estrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Execução",
+        "itens_exemplo": [
+          "Fabricação forma",
+          "Mão de obra - estrutura em concreto armado"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fachada",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "Acabamento em ACM para Fachadas - Material e mão de ob…",
+          "Revestimentos e Acabamentos de Fachada"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fachada",
+        "sub_disciplina": "Drywall/Gesso",
+        "itens_exemplo": [
+          "Parede Com Sistema Em Chapas De Gesso Para Drywall, Us…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Administrativo/Gerenciamento",
+        "itens_exemplo": [
+          "Taxa Administração",
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo",
+        "observacao": "Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Considerado sem indicação em projeto",
+        "observacao": "Considerado sem indicação em projeto",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Considerado sem indicação em projeto",
+        "observacao": "considerado nas lajes",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Considerado empolamento 30% da escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Quantitade de Projetos| Custo médio recebido Cliente",
+        "observacao": "Quantitade de Projetos| Custo médio recebido Cliente",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço Terceiro para Instalações e manutenções de Canteiro",
+        "observacao": "Serviço Terceiro para Instalações e manutenções de Canteiro",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição completa do bloco de itens em 'Ger_Executivo' (1711 itens)",
+      "Repetição do item 'Taxa Administração'",
+      "Repetição do item 'Mão de obra para execução de supraestrutura de concret...'",
+      "Repetição do item 'Acabamento em ACM para Fachadas - Material e mão de ob...'"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:55:55",
+      "duration_s": 102.5,
+      "compact_chars": 3225
+    },
+    "pdf_metadata": {
+      "ac_m2": "13.144,27",
+      "ur": null,
+      "tipologia": "CONNECT CELEBRATION ONCE PALACE",
+      "data_base": "Março/2025",
+      "cub_referencia": "CUB/SC 2.907,85"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "MOVIMENTAÇÃO DE TERRA",
+        "premissa": "Movimentação de terra para bota fora, com 30% de fator de empolamento"
+      },
+      {
+        "area": "INFRAESTRUTURA",
+        "premissa": "Estaca hélice contínua com diâmetros de 50, 60 e 80cm – profundidade média de 36m"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em compensadoplastificado 18 mm – 2 jogos"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Serviço de protensão em lajes (nervuras protendidas)"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Armação com aço cortado e dobra em obra, considerando 10% de perda"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Concreto fck de 40 e 50 MPa na supraestrutura, consideração de 5% de perda"
+      },
+      {
+        "area": "ALVENARIA",
+        "premissa": "Consideração de blocos de concreto sical em áreas de escadas, elevadores e reservatório, com argamassa usinada para assentamento"
+      },
+      {
+        "area": "ALVENARIA",
+        "premissa": "Drywall em paredes interiores"
+      },
+      {
+        "area": "ALVENARIA",
+        "premissa": "Demais pavimentos e disciplinas estimados devido a ausência de quantitativos"
+      },
+      {
+        "area": "ALVENARIA",
+        "premissa": "Consideração de entrega de bacias sanitárias em áreas privativas e comuns"
+      },
+      {
+        "area": "ESPECIFICAÇÕES",
+        "premissa": "2 elevadores"
+      },
+      {
+        "area": "ESPECIFICAÇÕES",
+        "premissa": "Custos considerando prazo de 48 meses de obra"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "ALVENARIA",
+        "decisao": "Demais pavimentos e disciplinas estimados devido a ausência de quantitativos"
+      },
+      {
+        "contexto": "ALVENARIA",
+        "decisao": "Consideração de entrega de bacias sanitárias em áreas privativas e comuns"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Orçamento Executivo",
+      "TOTAL 48.604.493,42R$ 100%",
+      "PRINCIPAIS CUSTOS PERCENTUAIS POR ETAPA DE EXECUÇÃO",
+      "ETAPAPARAMÉTRICO_R01INDEXADOEXECUTIVO_R00 DIFERENÇA -1,56%"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:14:04",
+      "duration_s": 93.7,
+      "excerpt_chars": 3623
+    }
   }
 }

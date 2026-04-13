@@ -1,0 +1,49 @@
+{
+  "projeto": "ck-unique",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:16:30",
+  "compact_chars": 608,
+  "duration_s": 75.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Estrutura de Concreto Armado - MO\",\n        \"Concreto Usinado 35Mpa Slump 10+-2 Bombeado\",\n        \"Concreto Usinado 40Mpa Slump 24+-2 Bombeado, Aplicação…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços de Apoio\",\n      \"sub_disciplina\": \"Pessoal\",\n      \"itens_exemplo\": [\n        \"Engenheiro\",\n        \"Vigilância\",\n        \"Mestre\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços de Apoio\",\n      \"sub_disciplina\": \"Equipamentos\",\n      \"itens_exemplo\": [\n        \"Locação de Elevador Cremalheira\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamento\",\n      \"sub_disciplina\": \"Mobiliário\",\n      \"itens_exemplo\": [\n        \"Área Comum (Mobiliário e decorações)*\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Serviços de pessoal (Engenheiro, Vigilância, Mestre) apresentam a mesma quantidade (qtd=26) e unidade (mes).\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Estrutura de Concreto Armado - MO",
+          "Concreto Usinado 35Mpa Slump 10+-2 Bombeado",
+          "Concreto Usinado 40Mpa Slump 24+-2 Bombeado, Aplicação…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Apoio",
+        "sub_disciplina": "Pessoal",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Vigilância",
+          "Mestre"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Apoio",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Locação de Elevador Cremalheira"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamento",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Área Comum (Mobiliário e decorações)*"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Serviços de pessoal (Engenheiro, Vigilância, Mestre) apresentam a mesma quantidade (qtd=26) e unidade (mes)."
+    ],
+    "fora_da_curva": []
+  }
+}

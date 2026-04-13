@@ -919,5 +919,170 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 18,
+      "total_itens": 5243,
+      "total_observacoes": 121,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/chiquetti-e-dalvesco-esmeralda.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "Mão de obra para execução de fundação",
+          "Concreto Usinado FCK = 30MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Fios e cabos elétricos",
+          "Elevadores"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e decoração",
+          "Marcenaria",
+          "Cadeira Fernanda Assento Estofado Encosto Palha Natura…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Projeto",
+        "itens_exemplo": [
+          "Projeto Arquitetônico Legal",
+          "Projeto estrutural",
+          "Projeto elétrico/comunicação/telefonia/luminotécnico"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Administração",
+        "itens_exemplo": [
+          "Taxa de administração",
+          "Engenheiro Civil"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "blocos, vigas de fundação, duto e cisterna",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "cisterna",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "projeto",
+        "observacao": "Considerado conforme indicação em projeto",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "quantidade projeto",
+        "observacao": "Quantidade projeto - 30% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "estimativa",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de itens de custo em diferentes blocos (Ex: Mão de obra para apoio de canteiro e segurança; Taxa de administração)",
+      "Mão de obra para execução de supraestrutura de concret… aparece duas vezes no bloco Ger_Executivo"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:05:31",
+      "duration_s": 82.8,
+      "compact_chars": 2990
+    },
+    "pdf_metadata": {
+      "ac_m2": "5579,63",
+      "ur": "39",
+      "tipologia": "Residencial",
+      "data_base": "Março/25",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Fundação e supraestrutura seguindo detalhamentos de projetos recebidos."
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Extração de quantidades realizada via visus, utilizando arquivo .ifc e projeto de Interiores."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Instalações elétricas, telecomunicação, hidrossanitários, preventivas, GLP e SPDA utilizou os quantitativos recebido do projetista."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck de 40Mpa, incluindo serviço de bombeamento, consideração de 30% de perda."
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Concreto fck de 40 Mpa, incluindo serviço de bombeamento, em blocos e baldrames, com consideração de 5% de perda."
+      },
+      {
+        "area": "Mão de Obra",
+        "premissa": "Mão de obra utilizando valores da empreitada global."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Louças, metais e mobiliário",
+        "decisao": "Foram extraídos através do projeto 2D e imagens comerciais."
+      },
+      {
+        "contexto": "Impermeabilização",
+        "decisao": "Considerado custo terceirizado para impermeabilização."
+      },
+      {
+        "contexto": "Impermeabilização",
+        "decisao": "Consideração de mão de obra por serviço de regularização para impermeabilização inclusas na empreitada global."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Gerenciamento Técnico e Administrativo inclui: Custos indiretos da obra; Administração de Canteiro; Instalações Provisórias.",
+      "Equipamentos e Sistemas Especiais incluem: Dois elevadores; Equipamentos de piscinas; Equipamento para... do cliente.",
+      "Preventivas e Gás: Luminotécnica considerada cotação recebida.",
+      "Supraestrutura: R$ 4.189.799,60 – R$ 750,91/m².",
+      "Alvenaria: R$ 1.098.309,44 – R$ 196,84 /m²."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:00:48",
+      "duration_s": 90.5,
+      "excerpt_chars": 4330
+    }
   }
 }

@@ -544,5 +544,180 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 13,
+      "total_itens": 3223,
+      "total_observacoes": 171,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/caledonia-mowe-caledonia-mowe.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "Mão de obra para execução de fundação",
+          "Concreto Usinado FCK = 30MPa Bombeavel Para Supraestru..."
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fachada",
+        "sub_disciplina": "Alumínio e Brises",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Brise de Alumínio - Decoração Fachada"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidrossanitárias",
+        "itens_exemplo": [
+          "Sistema de tratamento de esgoto",
+          "Instalacoes de Agua Fria",
+          "Instalacoes de Esgoto e Aguas Pluviais"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétricas e Comunicação",
+        "itens_exemplo": [
+          "Luminarias",
+          "Sistema de telecomunicação",
+          "Quadros e Disjuntores"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Administrativo",
+        "sub_disciplina": "Gestão e Projeto",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Projeto arquitetônico interiores/ambientação",
+          "Orçamento e planejamento"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade disponibilizada pelo projetista de sapatas e levantameto da Cartesian de vigas e pilares",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade de levantameto da Cartesian",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade disponibilizada pelo projetista",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade disponibilizada pelo projetista, considerando sem reutilização",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade levantada em projeto",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Estimado como 11% da mão de obra da obra com indice de redução de 0,7",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Confrome cálculo da aba \"Canteiro\"",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa",
+        "observacao": "Estimado uma caçamba ao mês por 10 meses",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Contratação PJ (rateado em 2 obras)",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Os totais e a distribuição de custos (TOTAL, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO, SUPRAESTRUTURA, ESQUADRIAS, VIDROS E FERRAGENS, INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS, ACABAMENTOS EM PISOS E PAVIMENTAÇÕES, INFRAESTRUTURA, ACABAMENTOS DE FACHADA) são idênticos nas abas ORÇAMENTO_EXECUTIVO e EAP Análise.",
+      "O item 'Sistema de tratamento de esgoto' aparece em duas seções distintas (Ger_Executivo e INSTALAÇÕES)."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:53:06",
+      "duration_s": 101.4,
+      "compact_chars": 3058
+    },
+    "pdf_metadata": {
+      "ac_m2": "329,57m²",
+      "ur": null,
+      "tipologia": "Condomínio Caledônia",
+      "data_base": "Ago/25",
+      "cub_referencia": "1,64 CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Limpeza e preparação do terreno; Escavação e reaterro de Fundação Rasa; Regularização com lastro de concreto magro; Movimentação de terra para bota fora, com 30% de fator de empolamento"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Fabricação, montagem e desmontagem de forma para fundação rasa em madeira serrada; Armação com consideração de aço cortado e dobra em obra; Montagem e desmontagem de formas; Armação com aço cortado e dobrado em obra, consideração de 10% de perda; Concreto fck de 30 Mpa, incluindo serviço de bombeamento, consideração de 5% de perda; Locação de escoramento metálico; Mão de obra de supraestrutura"
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de blocos cerâmicos Vedação internas com argamassa usinada para assentamento; Encunhamento com argamassa expansiva; Amarração de alvenaria com tela soldada; Vergas e contravergas moldadas in loco; Tijolo refratário no interior da…"
+      },
+      {
+        "area": "Gás e Comunicações",
+        "premissa": "Os valores das instalações hidráulicas e elétricas foram consideradas através de levantamento de IFC dos projetos disponibilizados; Consideração de entrega completa de louças, bancadas e metais; Custos de comunicação estimados através dos pontos sinalizados em projeto; As quantidades de Instalações d… za final da obra; Ligações definitivas."
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "Imprevistos e Contingências",
+        "valor_pct": "2%",
+        "nota": "Consideração de 2% dos itens do orçamento"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Gerenciamento Técnico e Administrativo",
+        "decisao": "Custos considerando prazo de 14 meses de obra."
+      },
+      {
+        "contexto": "Gás e Comunicações",
+        "decisao": "Os valores das instalações hidráulicas e elétricas foram consideradas através de levantamento de IFC dos projetos disponibilizados;"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Projeto: Caledônia Mowe",
+      "Localização: Camboriu – SC",
+      "Área do Terreno (Geral): 675,00m²",
+      "Área Construída (Geral): 7055,73m²",
+      "Unidade (Área do Terreno): 434,37m²",
+      "Unidade (Área Construída): 329,57m²",
+      "Descrição da Unidade: 2 Pavimentos / 1º Pavimento – Garagem, Home office, cozinha, sala, varanda gourmet, piscina, lavabos, depósito e casa de máquinas / 2º Pavimento – Suíte master, sacada, 3 suítes e 4 banheiros"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:54:59",
+      "duration_s": 104.3,
+      "excerpt_chars": 3622
+    }
   }
 }

@@ -788,5 +788,186 @@
     "reboco": 30.5,
     "forro_gesso": 120,
     "pintura": 70
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 15,
+      "total_itens": 164,
+      "total_observacoes": 6,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/santa-maria-unimed.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armadura Convencional para Estrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Escoramento",
+        "itens_exemplo": [
+          "Fabricação forma",
+          "Montagem de forma",
+          "Escoramento - Torre"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada",
+        "sub_disciplina": "Vidro e ACM",
+        "itens_exemplo": [
+          "Pele de Vidro - área de vidro",
+          "Pele de Vidro - área ACM plano",
+          "Pele de Vidro - área ACM volume"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada",
+        "sub_disciplina": "Acabamentos",
+        "itens_exemplo": [
+          "Revestimento em ACM",
+          "Chapisco e Reboco"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mão de Obra para Instalações Elétricas",
+          "Cabos e Fiações",
+          "Quadros e Disjuntores"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica e Gás",
+        "itens_exemplo": [
+          "Mão de Obra para Instalações Hidráulicas",
+          "Instalações de Água Fria",
+          "Instalações de GLP"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Equipamentos e Acabamentos",
+        "itens_exemplo": [
+          "Louças e Metais",
+          "Quadros e Disjuntores",
+          "Instalações Preventivas"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas Especiais",
+        "sub_disciplina": "Movimentação Vertical",
+        "itens_exemplo": [
+          "Elevadores sociais"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas Especiais",
+        "sub_disciplina": "Clima e Ventilação",
+        "itens_exemplo": [
+          "Exaustão Mecânica Corredores",
+          "Exaustão Mecânica Garagens"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas Especiais",
+        "sub_disciplina": "Segurança e Comunicação",
+        "itens_exemplo": [
+          "Automação, telecomunicação e sistemas de segurança",
+          "Escada pressurizada",
+          "Interfone"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Vidro e Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de Vidro",
+          "Guarda corpo de vidro",
+          "Esquadrias de Alumínio"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Metais e Madeira",
+        "itens_exemplo": [
+          "Esquadrias Internas de Madeira",
+          "Serralherias",
+          "Portão de alumínio"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Repetição do item 'Pele de Vidro - área de vidro' em diferentes blocos de custo."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:28:45",
+      "duration_s": 105.6,
+      "compact_chars": 2171
+    },
+    "pdf_metadata": {
+      "ac_m2": "52.516,04 m²",
+      "ur": null,
+      "tipologia": "SANTA MARIA – UNIMED",
+      "data_base": "16.01.2024",
+      "cub_referencia": "2.752,67 dez/23"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Escavação mecanizada de valas para blocos e baldrames; Escavação vertical para subsolo; Rebaixamento de lençol freático; Reaterro para blocos e baldrames; Movimentação de terra para bota fora, com 30% de fator de empolamento; Regularização e apiloamento com lastro de concreto magro; Quantitativos estimados através de índices históricos."
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "268 estacas raiz com diâmetro 100mm e 8 metros de profundidade; Fabricação de forma para blocos e baldrames; Concreto de blocos e baldrames com resistência de 40 Mpa; Quantitativos estimados através de índices históricos."
+      },
+      {
+        "area": "Contenção",
+        "premissa": "143 estacas raiz com diâmetro de 310mm e 3 metros de comprimento; 94 estacas raiz com diâmetro de 250mm e 3 metros de comprimento; Armadura para contenção; Concreto para contenção com resistência de 4..."
+      },
+      {
+        "area": "Geral",
+        "premissa": "Custos considerando o prazo de 60 meses de obra."
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "Gerenciamento Técnico e Administrativo",
+        "valor_pct": "9,50%",
+        "nota": "Total (Análise por Área Construída)"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Equipamentos de Segurança",
+        "decisao": "Bandeja de proteção primária; Bandeja de proteção secundária; Guarda-corpo de vãos e...gurança, Meio Ambiente e Saúde"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "TOTAL ORÇAMENTO: R$ 169.134.504,62",
+      "CUSTO TOTAL POR M²: R$ 3.220,63",
+      "Equipamentos: Grua – 1 unidade por 36 meses; Balancim – 10 unidades por 9 meses; Cremalheira – 1 unidade por 36 meses; Andaime – 5 meses."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:15:34",
+      "duration_s": 89.9,
+      "excerpt_chars": 4296
+    }
   }
 }

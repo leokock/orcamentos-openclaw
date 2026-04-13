@@ -1,0 +1,98 @@
+{
+  "projeto": "be-brave-meraki",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:39:53",
+  "compact_chars": 2664,
+  "duration_s": 88.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Vedação\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 45MPa Bombeavel\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Vedação\",\n      \"sub_disciplina\": \"Alvenaria e Acabamentos\",\n      \"itens_exemplo\": [\n        \"Revestimento de parede com Hunter Douglas\",\n        \"Encunhamento de alvenaria de vedação com argamassa exp...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica e Baixa Tensão\",\n      \"itens_exemplo\": [\n        \"Quadros e Disjuntores\",\n        \"Cabos e Fiacoes\",\n        \"Mao de obra de instalacoes eletricas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais e Mão de Obra\",\n      \"sub_disciplina\": \"Mão de Obra Especializada\",\n      \"itens_exemplo\": [\n        \"Mestre\",\n        \"Servente - 3\",\n        \"Engenheiro\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais e Mão de Obra\",\n      \"sub_disciplina\": \"Equipamentos e Locação\",\n      \"itens_exemplo\": [\n        \"Locação de Elevador cremalheira\",\n        \"Locação Manipulador telescópico\",\n        \"Locação Grua ascensional\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Complementar e Mobiliário\",\n      \"sub_disciplina\": \"Acabamentos e Decoração\",\n      \"itens_exemplo\": [\n        \"Acabamentos especiais\",\n        \"Decoração\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Projetos e Estudos\",\n      \"sub_disciplina\": \"Documentação Técnica\",\n      \"itens_exemplo\": [\n        \"Projeto Arquitetônico Executivo\",\n        \"Projeto estrutural\",\n        \"Estudo geológico\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Quantidade\",\n      \"observacao\": \"Quantidade disponibilizada pelo projetista\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Estimativa\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Estimativa interna\",\n      \"observacao\": \"Estimado com base em índices históricos para elaboração interna\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Cálculo\",\n      \"observacao\": \"Confrome cálculo da aba \\\"Canteiro\\\"\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"O item 'Demolições' aparece em múltiplas seções (Ger_Executivo, Ger_Tec e Adm, BASES).\",\n    \"O item 'Área:' aparece repetidamente na seção MOBILIARIO.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Vedação",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 45MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Vedação",
+        "sub_disciplina": "Alvenaria e Acabamentos",
+        "itens_exemplo": [
+          "Revestimento de parede com Hunter Douglas",
+          "Encunhamento de alvenaria de vedação com argamassa exp..."
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Baixa Tensão",
+        "itens_exemplo": [
+          "Quadros e Disjuntores",
+          "Cabos e Fiacoes",
+          "Mao de obra de instalacoes eletricas"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Mão de Obra",
+        "sub_disciplina": "Mão de Obra Especializada",
+        "itens_exemplo": [
+          "Mestre",
+          "Servente - 3",
+          "Engenheiro"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Mão de Obra",
+        "sub_disciplina": "Equipamentos e Locação",
+        "itens_exemplo": [
+          "Locação de Elevador cremalheira",
+          "Locação Manipulador telescópico",
+          "Locação Grua ascensional"
+        ]
+      },
+      {
+        "macrogrupo": "Complementar e Mobiliário",
+        "sub_disciplina": "Acabamentos e Decoração",
+        "itens_exemplo": [
+          "Acabamentos especiais",
+          "Decoração"
+        ]
+      },
+      {
+        "macrogrupo": "Projetos e Estudos",
+        "sub_disciplina": "Documentação Técnica",
+        "itens_exemplo": [
+          "Projeto Arquitetônico Executivo",
+          "Projeto estrutural",
+          "Estudo geológico"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Quantidade",
+        "observacao": "Quantidade disponibilizada pelo projetista",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimativa",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimativa interna",
+        "observacao": "Estimado com base em índices históricos para elaboração interna",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Confrome cálculo da aba \"Canteiro\"",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "O item 'Demolições' aparece em múltiplas seções (Ger_Executivo, Ger_Tec e Adm, BASES).",
+      "O item 'Área:' aparece repetidamente na seção MOBILIARIO."
+    ],
+    "fora_da_curva": []
+  }
+}

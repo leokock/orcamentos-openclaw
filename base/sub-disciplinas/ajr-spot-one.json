@@ -1,0 +1,86 @@
+{
+  "projeto": "ajr-spot-one",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:28:38",
+  "compact_chars": 1856,
+  "duration_s": 85.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 4…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armação aço CA-50, diâmetro de 10,0mm para supraestrut…\",\n        \"Aço CP 190 RB 12,7mm, para protensão\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de obra Estrutural\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de estrutura de concreto arm…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Fechamentos\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio - Tipo 03\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"HVAC/Climatização\",\n      \"itens_exemplo\": [\n        \"Infraestrutura para instalação de ar condicionado\",\n        \"Mão de obra para infraestrutura de instalação de ar co…\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Escopo/Detalhe\",\n      \"observacao\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Escopo/Detalhe\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Escopo/Detalhe\",\n      \"observacao\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Escopo/Detalhe\",\n      \"observacao\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Escopo/Detalhe\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Identificador\",\n      \"observacao\": \"2 - The Spot One - Custo Direto\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação aço CA-50, diâmetro de 10,0mm para supraestrut…",
+          "Aço CP 190 RB 12,7mm, para protensão"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de obra Estrutural",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura de concreto arm…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fechamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - Tipo 03"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "HVAC/Climatização",
+        "itens_exemplo": [
+          "Infraestrutura para instalação de ar condicionado",
+          "Mão de obra para infraestrutura de instalação de ar co…"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo/Detalhe",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Identificador",
+        "observacao": "2 - The Spot One - Custo Direto",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "ACABAMENTOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS"
+    ],
+    "fora_da_curva": []
+  }
+}

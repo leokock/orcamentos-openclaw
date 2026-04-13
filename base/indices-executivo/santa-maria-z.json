@@ -1926,5 +1926,126 @@
     "rodape": 15.79,
     "laminado": 67.15,
     "pintura": 3.78
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 2370,
+      "total_observacoes": 4,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/santa-maria-z.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura/Civil",
+        "sub_disciplina": "Infraestrutura",
+        "itens_exemplo": [
+          "Infraestrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura/Civil",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeado, fck 35 Mpa **, Slup 16+-2"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura/Civil",
+        "sub_disciplina": "Estrutura Geral",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução de estrutura de c…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Arquitetura",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio **",
+          "Janelas redondas - especial"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Arquitetura",
+        "sub_disciplina": "Paredes",
+        "itens_exemplo": [
+          "Parede drywall 95mm, com chapa ST"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos/Instalações",
+        "sub_disciplina": "Vertical",
+        "itens_exemplo": [
+          "Elevador definitivo social **"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos/Instalações",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e equipamentos **"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "EDIFÍCIO Z CONVIVENCE - OBRAS",
+        "observacao": "126",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "GERENCIAMENTO EXECUTIVO",
+        "observacao": "3",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "RUA MARECHAL FLORIANO PEIXOTO, 148-O - CENTRO - Chapeco/SC - 89802-010",
+        "observacao": "Localização do projeto",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Revisão de Orçamento",
+        "observacao": "18/08/2022 - 15:27:03 - Revisão 01 orçamento - CTN",
+        "categoria": "revisao"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso de asteriscos (**) em itens de custo (Esquadrias, Elevador, Concreto, Mobiliário)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:05:43",
+      "duration_s": 89.0,
+      "compact_chars": 898
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "EDIFÍCIO Z CONVIVENCE - OBRAS",
+      "data_base": "18/08/2022",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [],
+    "bdi_encargos": [
+      {
+        "componente": "BDI/Encargos Sociais",
+        "valor_pct": "não aplicado",
+        "nota": "Não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Preços expressos em R$ (REAL)",
+      "Unidade construtiva 2 - GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "Unidade construtiva 3 - GERENCIAMENTO EXECUTIVO"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:50:02",
+      "duration_s": 63.9,
+      "excerpt_chars": 4329
+    }
   }
 }

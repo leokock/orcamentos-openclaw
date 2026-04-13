@@ -158,5 +158,161 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 44,
+      "total_observacoes": 8,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/carraro-vertice.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Gerenciamento_Exec",
+        "sub_disciplina": "Estrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA",
+          "ALVENARIA ESTRUTURAL",
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Gerenciamento_Exec",
+        "sub_disciplina": "Instalações",
+        "itens_exemplo": [
+          "INSTALAÇÕES"
+        ]
+      },
+      {
+        "macrogrupo": "Gerenciamento_Exec",
+        "sub_disciplina": "Acabamentos e Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      },
+      {
+        "macrogrupo": "Executivo",
+        "sub_disciplina": "Estrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Executivo",
+        "sub_disciplina": "Instalações",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Executivo",
+        "sub_disciplina": "Acabamentos",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "ESQUADRIAS, VIDROS E FERRAGENS é listado em Gerenciamento_Exec e Executivo"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:57:42",
+      "duration_s": 76.7,
+      "compact_chars": 1391
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "AGOSTO/2022",
+      "cub_referencia": "CUB/SP - R16 1.850,46"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "ADMINISTRAÇÃO, CANTEIRO DE OBRAS E EQUIPAMENTOS",
+        "premissa": "Contempla: Canteiro de obra; Administração da obra; Equipamentos. Custos considerando prazo de 30 meses de obra."
+      },
+      {
+        "area": "EQUIPAMENTOS",
+        "premissa": "Equipamentos de apoio ao canteiro de obra – equipamentos de transportes em canteiro; Locação de 20 balancins; Locação de andaime para execução de fachada de pavimentos técnicos; Locação de duas gruas; Locação de dois cremalheiras de cabine simples."
+      },
+      {
+        "area": "MOVIMENTAÇÃO DE TERRA",
+        "premissa": "Escavações e transporte de terra; Demolições."
+      },
+      {
+        "area": "CONTENÇÕES",
+        "premissa": "Contenção em solo grampeado."
+      },
+      {
+        "area": "INFRAESTRUTURA",
+        "premissa": "Fundação em estaca hélice; Fundação em estaca escavada; Armação com corte e dobra em indústria."
+      },
+      {
+        "area": "ESPECIFICIDADES INFRAESTRUTURA",
+        "premissa": "Concreto de 30 Mpa em estacas hélice e 25 Mpa em estaca escavada. Perda de concreto informada em projeto; Forma de blocos e baldrames em madeira serrada, com duas reutilizações; Concreto usinado de 40 Mpa de blocos e baldrames."
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Fabricação de forma de pilares, vigas e lajes em compensado resinado para o embasamento em concreto armado; Considerado 3 jogos de forma para lajes em pavimentos em alvenaria estrutural; Armação com corte e dobra em indústria; Concreto de 40 Mpa em supraestrutura; Escoramento metálico."
+      },
+      {
+        "area": "ALVENARIA ESTRUTURAL",
+        "premissa": "Os quantitativos de alvenaria foram levantados a partir de modelo arquitetônico; Consideração de blocos de concreto de vedação com argamassa industrializada para assentamento; Verga e contraverga de concreto moldada in loco; Encunhamento com argamassa expansiva."
+      },
+      {
+        "area": "PINTURA INTERNA",
+        "premissa": "Aplicação de selador e pintura, considerando aplicação de gesso liso em paredes; Aplicação de textura em paredes do hall do térreo, subsolos e escadarias do térreo; Aplicação de textura em tetos de garagens e escadarias do térreo."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Preços",
+        "decisao": "Para a elaboração do orçamento executivo foram adotadas especificações respondidas… cliente."
+      },
+      {
+        "contexto": "Cotações",
+        "decisao": "Foram utilizados cotações, para os itens não cotados foram adotados valores de mercado."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "ORÇAMENTO EXECUTIVO – 12/09/2022",
+      "TOTAL 64.048.587,76",
+      "ANÁLISE DE CUSTOS OBRA SIMILAR"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:56:41",
+      "duration_s": 102.4,
+      "excerpt_chars": 3258
+    }
   }
 }

@@ -598,5 +598,146 @@
     "contrapiso": 49.75,
     "rodape": 33.87,
     "pintura": 78.43
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 20,
+      "total_itens": 6025,
+      "total_observacoes": 119,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/viva4-barra4.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Concreto e Estrutura",
+        "itens_exemplo": [
+          "Mão de obra para execução de supraestrutura de concret…",
+          "Concreto Usinado FCK = 35MPa Bombeavel",
+          "Mão de obra para execução de fundação rasa e profunda"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Serviços Técnicos",
+        "sub_disciplina": "Elétrica e Comunicação",
+        "itens_exemplo": [
+          "Fios e cabos elétricos",
+          "Projeto elétrico/comunicação/telefonia",
+          "Projeto elétrico/comunicação/telefonia"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Acabamentos Internos",
+        "itens_exemplo": [
+          "Forro de gesso Acartonado (chapa ST)- Material e Mão d…",
+          "REVESTIMENTOS INTERNOS DE PISO E PAREDE",
+          "Mobiliário e decoração"
+        ]
+      },
+      {
+        "macrogrupo": "Projetos e Documentação",
+        "sub_disciplina": "Documentação Legal e Projetos",
+        "itens_exemplo": [
+          "Projeto Arquitetônico Legal",
+          "Projeto estrutural",
+          "Outorga"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Estrutura",
+        "observacao": "Considerado sapatas, vigas de fundação, e lajes do levantamento de quantitativo de projetos realizados pela C…",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Equipamentos/Prazo",
+        "observacao": "Considerada uma bomba para cada 750m² de laje baldrame, e duração conforme planejamento de 75 dias utéis, arr…",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Projeto Arquitetônico Legal",
+      "Projeto estrutural",
+      "Projeto elétrico/comunicação/telefonia",
+      "Outorga"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:16:00",
+      "duration_s": 76.4,
+      "compact_chars": 2963
+    },
+    "pdf_metadata": {
+      "ac_m2": "13.223,26",
+      "ur": null,
+      "tipologia": "1 Pavimento térreo e Duplex 2 Pavimentos Tipo1 Pavimento Cobertura Lazer",
+      "data_base": "22.01.2025",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Fundação e Supraestrutura",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativo disponibilizado"
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Escavação e reaterro de Fundação Rasa"
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Lastro de concreto magro em Fundação Rasa"
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Rebaixamento de lençol freático para o tempo de fundação"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Armação com consideração de aço cortado e dobra em obra com 10% de perda"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Concreto fck de 35 MPa em rasa com 5% de perda"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em tábua, considerando 2 jogos"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Paredes e Painéis",
+        "decisao": "Consideração de blocos cerâmicos, concreto e concreto estrutural para as Vedações"
+      },
+      {
+        "contexto": "Instalações de Comunicações",
+        "decisao": "Sistema de interfonia, controle de acesso, CFTV e lógica quantificado conforme resumo disponibilizado"
+      },
+      {
+        "contexto": "Equipamentos e Sistemas Especiais",
+        "decisao": "Corrimão de madeira em escadaria anti-incêndio"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Levantamento realizado via visus, utilizando arquivo .ifc",
+      "Exceção de quantidades de louças e metais, que foram levantados através do projeto 2D.",
+      "Mão de obra empreitada global para execução de supraestrutura precificada pelo rateio do custo"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:25:12",
+      "duration_s": 101.9,
+      "excerpt_chars": 4331
+    }
   }
 }

@@ -1,0 +1,60 @@
+{
+  "projeto": "adore-level-up",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:27:13",
+  "compact_chars": 559,
+  "duration_s": 73.9,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Piso e Parede\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Sistemas\",\n      \"sub_disciplina\": \"MEP e Serviços\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Detalhes e Componentes\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos Especiais\",\n      \"sub_disciplina\": \"Sistemas Especiais\",\n      \"itens_exemplo\": [\n        \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Administrativo\",\n      \"sub_disciplina\": \"Gerenciamento\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"O orçamento detalha custos por 'AREAS_PRIVATIVAS', seguindo o formato de listagem de unidade de preço (pu) e custo total (R$) para cada componente.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "MEP e Serviços",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Detalhes e Componentes",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos Especiais",
+        "sub_disciplina": "Sistemas Especiais",
+        "itens_exemplo": [
+          "EQUIPAMENTOS E SISTEMAS ESPECIAIS"
+        ]
+      },
+      {
+        "macrogrupo": "Administrativo",
+        "sub_disciplina": "Gerenciamento",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "O orçamento detalha custos por 'AREAS_PRIVATIVAS', seguindo o formato de listagem de unidade de preço (pu) e custo total (R$) para cada componente."
+    ],
+    "fora_da_curva": []
+  }
+}

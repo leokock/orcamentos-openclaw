@@ -92,5 +92,77 @@
   "fachada_detail": {
     "_total": 972820.16
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 37,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/macom-adda.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=692.61",
+          "pu=1676.89"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "pu=338.32",
+          "pu=819.10"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "pu=284.58",
+          "pu=689.00"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Serviços",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "pu=332.02",
+          "pu=803.86"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "SERVIÇOS COMPLEMENTARES",
+        "itens_exemplo": [
+          "pu=182.36",
+          "pu=441.51"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=196.14",
+          "pu=474.86"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Estrutura de custos idêntica em ORÇAMENTO_EXECUTIVO e ORÇAMENTO_PRIVATIVA",
+      "Valor total de R$13.434.812 repetido em ambos orçamentos"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:14:32",
+      "duration_s": 71.8,
+      "compact_chars": 1020
+    }
+  }
 }

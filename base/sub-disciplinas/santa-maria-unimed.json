@@ -1,0 +1,126 @@
+{
+  "projeto": "santa-maria-unimed",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:28:45",
+  "compact_chars": 2171,
+  "duration_s": 105.6,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armadura Convencional para Estrutura\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma e Escoramento\",\n      \"itens_exemplo\": [\n        \"Fabricação forma\",\n        \"Montagem de forma\",\n        \"Escoramento - Torre\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fachada\",\n      \"sub_disciplina\": \"Vidro e ACM\",\n      \"itens_exemplo\": [\n        \"Pele de Vidro - área de vidro\",\n        \"Pele de Vidro - área ACM plano\",\n        \"Pele de Vidro - área ACM volume\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fachada\",\n      \"sub_disciplina\": \"Acabamentos\",\n      \"itens_exemplo\": [\n        \"Revestimento em ACM\",\n        \"Chapisco e Reboco\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica\",\n      \"itens_exemplo\": [\n        \"Mão de Obra para Instalações Elétricas\",\n        \"Cabos e Fiações\",\n        \"Quadros e Disjuntores\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidráulica e Gás\",\n      \"itens_exemplo\": [\n        \"Mão de Obra para Instalações Hidráulicas\",\n        \"Instalações de Água Fria\",\n        \"Instalações de GLP\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Equipamentos e Acabamentos\",\n      \"itens_exemplo\": [\n        \"Louças e Metais\",\n        \"Quadros e Disjuntores\",\n        \"Instalações Preventivas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Sistemas Especiais\",\n      \"sub_disciplina\": \"Movimentação Vertical\",\n      \"itens_exemplo\": [\n        \"Elevadores sociais\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Sistemas Especiais\",\n      \"sub_disciplina\": \"Clima e Ventilação\",\n      \"itens_exemplo\": [\n        \"Exaustão Mecânica Corredores\",\n        \"Exaustão Mecânica Garagens\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Sistemas Especiais\",\n      \"sub_disciplina\": \"Segurança e Comunicação\",\n      \"itens_exemplo\": [\n        \"Automação, telecomunicação e sistemas de segurança\",\n        \"Escada pressurizada\",\n        \"Interfone\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias\",\n      \"sub_disciplina\": \"Vidro e Alumínio\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Vidro\",\n        \"Guarda corpo de vidro\",\n        \"Esquadrias de Alumínio\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias\",\n      \"sub_disciplina\": \"Metais e Madeira\",\n      \"itens_exemplo\": [\n        \"Esquadrias Internas de Madeira\",\n        \"Serralherias\",\n        \"Portão de alumínio\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Repetição do item 'Pele de Vidro - área de vidro' em diferentes blocos de custo.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armadura Convencional para Estrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Escoramento",
+        "itens_exemplo": [
+          "Fabricação forma",
+          "Montagem de forma",
+          "Escoramento - Torre"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada",
+        "sub_disciplina": "Vidro e ACM",
+        "itens_exemplo": [
+          "Pele de Vidro - área de vidro",
+          "Pele de Vidro - área ACM plano",
+          "Pele de Vidro - área ACM volume"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada",
+        "sub_disciplina": "Acabamentos",
+        "itens_exemplo": [
+          "Revestimento em ACM",
+          "Chapisco e Reboco"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mão de Obra para Instalações Elétricas",
+          "Cabos e Fiações",
+          "Quadros e Disjuntores"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica e Gás",
+        "itens_exemplo": [
+          "Mão de Obra para Instalações Hidráulicas",
+          "Instalações de Água Fria",
+          "Instalações de GLP"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Equipamentos e Acabamentos",
+        "itens_exemplo": [
+          "Louças e Metais",
+          "Quadros e Disjuntores",
+          "Instalações Preventivas"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas Especiais",
+        "sub_disciplina": "Movimentação Vertical",
+        "itens_exemplo": [
+          "Elevadores sociais"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas Especiais",
+        "sub_disciplina": "Clima e Ventilação",
+        "itens_exemplo": [
+          "Exaustão Mecânica Corredores",
+          "Exaustão Mecânica Garagens"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas Especiais",
+        "sub_disciplina": "Segurança e Comunicação",
+        "itens_exemplo": [
+          "Automação, telecomunicação e sistemas de segurança",
+          "Escada pressurizada",
+          "Interfone"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Vidro e Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de Vidro",
+          "Guarda corpo de vidro",
+          "Esquadrias de Alumínio"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Metais e Madeira",
+        "itens_exemplo": [
+          "Esquadrias Internas de Madeira",
+          "Serralherias",
+          "Portão de alumínio"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Repetição do item 'Pele de Vidro - área de vidro' em diferentes blocos de custo."
+    ],
+    "fora_da_curva": []
+  }
+}

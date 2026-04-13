@@ -1,0 +1,55 @@
+{
+  "projeto": "chiquetti-e-dalvesco-santorini",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:07:53",
+  "compact_chars": 697,
+  "duration_s": 66.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para estrutura, fck 40MPa,...\",\n        \"Concreto usinado bombeável, para estacas, fck 40MPa, s...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Metálica\",\n      \"itens_exemplo\": [\n        \"Estrutura metálica (ampliação)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Alumínio\",\n      \"itens_exemplo\": [\n        \"Esquadria em alumínio - Fornecimento e Instalação - Ti...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Administrativo\",\n      \"itens_exemplo\": [\n        \"Empreitada Global\",\n        \"Taxa administração da obra\",\n        \"Imprevistos e Contingências\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Ambientação\",\n      \"itens_exemplo\": [\n        \"Ambientação\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Uso recorrente da unidade 'vb' (valor básico) para itens de serviço global.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para estrutura, fck 40MPa,...",
+          "Concreto usinado bombeável, para estacas, fck 40MPa, s..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Metálica",
+        "itens_exemplo": [
+          "Estrutura metálica (ampliação)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "Esquadria em alumínio - Fornecimento e Instalação - Ti..."
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "Empreitada Global",
+          "Taxa administração da obra",
+          "Imprevistos e Contingências"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Ambientação",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Uso recorrente da unidade 'vb' (valor básico) para itens de serviço global."
+    ],
+    "fora_da_curva": []
+  }
+}

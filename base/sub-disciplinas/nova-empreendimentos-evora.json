@@ -1,0 +1,99 @@
+{
+  "projeto": "nova-empreendimentos-evora",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:40:21",
+  "compact_chars": 2743,
+  "duration_s": 102.2,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Revestimentos\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS ARGAMASSADOS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio e Contramarcos - Tipo\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica e Telecom\",\n      \"itens_exemplo\": [\n        \"SISTEMAS E INSTALAÇÕES ELÉTRICAS E TELEFÔNICAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Mão de Obra\",\n      \"itens_exemplo\": [\n        \"MÃO DE OBRA\",\n        \"CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Documentação\",\n      \"observacao\": \"Valor lançado conforme documentos enviados pelo Luis no dia 03.05.24\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Planejamento\",\n      \"observacao\": \"Custo previsto em estiativa inicial\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Formulário\",\n      \"observacao\": \"Valor preenchido em formulário (custo aprorpiado de R$ 5.000,00)\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Contrato\",\n      \"observacao\": \"Valor preenchido em formulário e definido em contrato\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Comprovante\",\n      \"observacao\": \"Valor preenchido em formulário e definido em comprovante enviado\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Detalhe técnico\",\n      \"observacao\": \"Guarda - corpo de desforma\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Detalhe técnico\",\n      \"observacao\": \"Fechamento removível de vãos em madeira\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"O valor de SUPRAESTRUTURA (R$1.366.517) e REVESTIMENTOS ARGAMASSADOS (R$453.477) são repetidos entre ORÇAMENTO_EXECUTIVO e MÃO DE OBRA.\",\n    \"O valor de MALAGA - ADM (pu=2629.42) é idêntico em ORÇAMENTO_EXECUTIVO e MÃO DE OBRA.\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Valor Compra do Terreno\",\n      \"motivo\": \"Valor de R$4.820.633 é significativamente maior que a maioria dos demais itens orçamentários.\"\n    },\n    {\n      \"item\": \"Repetições de pavimentos**\",\n      \"motivo\": \"Item marcado com asterisco duplo (**) na seção EPC's.\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimentos",
+        "itens_exemplo": [
+          "REVESTIMENTOS ARGAMASSADOS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio e Contramarcos - Tipo"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Telecom",
+        "itens_exemplo": [
+          "SISTEMAS E INSTALAÇÕES ELÉTRICAS E TELEFÔNICAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "MÃO DE OBRA",
+          "CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Documentação",
+        "observacao": "Valor lançado conforme documentos enviados pelo Luis no dia 03.05.24",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Planejamento",
+        "observacao": "Custo previsto em estiativa inicial",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Formulário",
+        "observacao": "Valor preenchido em formulário (custo aprorpiado de R$ 5.000,00)",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Contrato",
+        "observacao": "Valor preenchido em formulário e definido em contrato",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Comprovante",
+        "observacao": "Valor preenchido em formulário e definido em comprovante enviado",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Detalhe técnico",
+        "observacao": "Guarda - corpo de desforma",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhe técnico",
+        "observacao": "Fechamento removível de vãos em madeira",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "O valor de SUPRAESTRUTURA (R$1.366.517) e REVESTIMENTOS ARGAMASSADOS (R$453.477) são repetidos entre ORÇAMENTO_EXECUTIVO e MÃO DE OBRA.",
+      "O valor de MALAGA - ADM (pu=2629.42) é idêntico em ORÇAMENTO_EXECUTIVO e MÃO DE OBRA."
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Valor Compra do Terreno",
+        "motivo": "Valor de R$4.820.633 é significativamente maior que a maioria dos demais itens orçamentários."
+      },
+      {
+        "item": "Repetições de pavimentos**",
+        "motivo": "Item marcado com asterisco duplo (**) na seção EPC's."
+      }
+    ]
+  }
+}

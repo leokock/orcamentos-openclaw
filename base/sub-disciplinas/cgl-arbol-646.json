@@ -1,0 +1,79 @@
+{
+  "projeto": "cgl-arbol-646",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:59:13",
+  "compact_chars": 1600,
+  "duration_s": 90.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de estrutura de concreto arm…\",\n        \"Concreto usinado bombeável, para blocos e baldrames, F…\",\n        \"Concreto usinado bombeável, para supraestrutura, fck 3…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Vedação e Alvenaria\",\n      \"sub_disciplina\": \"Blocos e Paredes\",\n      \"itens_exemplo\": [\n        \"Alvenaria de vedação de blocos cerâmicos furados na ho…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Paredes\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias e Metais\",\n      \"sub_disciplina\": \"Alumínio e Vidros\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio - Casa 01\",\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços de Campo\",\n      \"sub_disciplina\": \"Infraestrutura Civil\",\n      \"itens_exemplo\": [\n        \"Transporte com caminhão basculante 14 m3, em via urban…\",\n        \"Ambientação#\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"2 - GERENCIAMENTO EXECUTIVO - INFRAESTRUTURA E ÁREAS COMUNS\",\n      \"observacao\": \"Escopo de gerenciamento executivo para infraestrutura e áreas comuns.\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Rua Amália Túlio Costa, 640 - Curitiba/PR\",\n      \"observacao\": \"Localização do projeto.\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"9 - DESPESAS INDIRETAS DE OBRA\",\n      \"observacao\": \"Detalhe de despesas indiretas de obra.\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"Concreto usinado bombeável\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Imprevistos e contingência#\",\n      \"motivo\": \"Item de contingência que merece atenção.\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura de concreto arm…",
+          "Concreto usinado bombeável, para blocos e baldrames, F…",
+          "Concreto usinado bombeável, para supraestrutura, fck 3…"
+        ]
+      },
+      {
+        "macrogrupo": "Vedação e Alvenaria",
+        "sub_disciplina": "Blocos e Paredes",
+        "itens_exemplo": [
+          "Alvenaria de vedação de blocos cerâmicos furados na ho…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias e Metais",
+        "sub_disciplina": "Alumínio e Vidros",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - Casa 01",
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Campo",
+        "sub_disciplina": "Infraestrutura Civil",
+        "itens_exemplo": [
+          "Transporte com caminhão basculante 14 m3, em via urban…",
+          "Ambientação#"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "2 - GERENCIAMENTO EXECUTIVO - INFRAESTRUTURA E ÁREAS COMUNS",
+        "observacao": "Escopo de gerenciamento executivo para infraestrutura e áreas comuns.",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Rua Amália Túlio Costa, 640 - Curitiba/PR",
+        "observacao": "Localização do projeto.",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "9 - DESPESAS INDIRETAS DE OBRA",
+        "observacao": "Detalhe de despesas indiretas de obra.",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "ACABAMENTOS EM PISO E PAREDE",
+      "Concreto usinado bombeável"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Imprevistos e contingência#",
+        "motivo": "Item de contingência que merece atenção."
+      }
+    ]
+  }
+}

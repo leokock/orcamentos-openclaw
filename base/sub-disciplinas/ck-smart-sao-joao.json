@@ -1,0 +1,53 @@
+{
+  "projeto": "ck-smart-sao-joao",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:15:15",
+  "compact_chars": 744,
+  "duration_s": 65.5,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto e Fundação\",\n      \"itens_exemplo\": [\n        \"Estrutura de Concreto Armado - MO - Contrato AJF - CT/…\",\n        \"Fundação em Hélice Contínua - Contrato União Fundações…\",\n        \"Concreto Usinado 35Mpa Slump 10+-2 Bombeado\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Aco CA-50 Diametro 16,0mm\",\n        \"Aço CA-50 Diametro 10,0mm\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Reboco\",\n      \"itens_exemplo\": [\n        \"Reboco Interno - M.O. - Contrato AJF - CT/578\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidrossanitárias\",\n      \"itens_exemplo\": [\n        \"Mão de obra instalações hidrossanitárias - Contrato KA…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Áreas Comuns\",\n      \"sub_disciplina\": \"Mobiliário e Decorações\",\n      \"itens_exemplo\": [\n        \"Área Comum (Mobiliário e decorações)\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Fundação",
+        "itens_exemplo": [
+          "Estrutura de Concreto Armado - MO - Contrato AJF - CT/…",
+          "Fundação em Hélice Contínua - Contrato União Fundações…",
+          "Concreto Usinado 35Mpa Slump 10+-2 Bombeado"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Aco CA-50 Diametro 16,0mm",
+          "Aço CA-50 Diametro 10,0mm"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Reboco",
+        "itens_exemplo": [
+          "Reboco Interno - M.O. - Contrato AJF - CT/578"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidrossanitárias",
+        "itens_exemplo": [
+          "Mão de obra instalações hidrossanitárias - Contrato KA…"
+        ]
+      },
+      {
+        "macrogrupo": "Áreas Comuns",
+        "sub_disciplina": "Mobiliário e Decorações",
+        "itens_exemplo": [
+          "Área Comum (Mobiliário e decorações)"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [],
+    "fora_da_curva": []
+  }
+}

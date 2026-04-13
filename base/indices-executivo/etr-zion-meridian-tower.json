@@ -174,5 +174,238 @@
     "porcelanato": 306.01,
     "contrapiso": 49.08,
     "rodape": 58.92
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 26,
+      "total_itens": 1909,
+      "total_observacoes": 58,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/etr-zion-meridian-tower.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Concreto e Elementos",
+        "itens_exemplo": [
+          "Mão de obra para execução de supraestrutura de concret...",
+          "Concreto Usinado FCK = 35MPa Bombeavel",
+          "Aquisição de cubetas nervuradas"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Acabamentos",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Revestimento em Porcelanato Piso, rejunte acrílico - P...",
+          "Mao de obra para reboco externo - inclui chapisco"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Administrativo",
+        "sub_disciplina": "Mão de Obra/Serviços",
+        "itens_exemplo": [
+          "Engenheiro civil",
+          "Limpeza de obra",
+          "Mestre de obras"
+        ]
+      },
+      {
+        "macrogrupo": "Elétrica",
+        "sub_disciplina": "Cabos",
+        "itens_exemplo": [
+          "Cabo 10mm² flexível (750V) Preto",
+          "Cabo 10mm² flexível (750V) Branco",
+          "Cabo 10mm² flexível (750V) Vermelho"
+        ]
+      },
+      {
+        "macrogrupo": "Elétrica",
+        "sub_disciplina": "Eletrodutos",
+        "itens_exemplo": [
+          "Eletroduto Corrugado 1\"",
+          "Eletroduto Corrugado 3/4\"",
+          "Eletroduto Plano Flexível ⌀1\""
+        ]
+      },
+      {
+        "macrogrupo": "Hidráulica",
+        "sub_disciplina": "Tubos e Conexões",
+        "itens_exemplo": [
+          "Módulo/Válvula de Distribuição c/ 2 saídas, PEX, Água …",
+          "Tubo PVC rígido, cor marrom, linha soldável (Tubo de 6…",
+          "Tê, PEX, Água Quente/Fria 16Ø - 16Ø - 16Ø"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "escavação de blocos, vigas de fundação e vão poço do elevador",
+        "observacao": "Considerado escavação de blocos, vigas de fundação e vão poço do elevador",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "blocos, vigas de fundação",
+        "observacao": "Considerado blocos, vigas de fundação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "aba",
+        "observacao": "Quantidade de aba, advindo do projeto com retirada de perda",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "baldrame",
+        "observacao": "Para o baldrame foi considerado levantamento em dwg, devido a grande divergencia com o projetista",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "valor de indiretos",
+        "observacao": "Valor informado em formulário de indiretos.",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "estimativa de custo",
+        "observacao": "Valor estimado conforme obras de referência com características similares.",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "ausência de projetos",
+        "observacao": "Desconsiderado por ausência de projetos.",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "ajuste de orçamento",
+        "observacao": "Ajuste realizado conforme apontamentos do dia 12/11/2024.",
+        "categoria": "revisao"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso da unidade 'mês' para serviços de mão de obra no bloco Ger_Adm"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:31:23",
+      "duration_s": 105.3,
+      "compact_chars": 3582
+    },
+    "pdf_metadata": {
+      "ac_m2": "4.617,34 m²",
+      "ur": "20 Unidades residenciais",
+      "tipologia": "Residencial",
+      "data_base": "Novembro/2024",
+      "cub_referencia": "2.863,73"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Arquitetura",
+        "premissa": "Levantamento realizado via visus, utilizando arquivo .ifc"
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Exceção de quantidades de tijolos refratários, louças, metais e mobiliário, que foram levantados através do projeto 2D."
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Escavação e reaterro mecanizado de valas para elementos enterrados;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Movimentação de bota-fora, considerando 30% de empolamento;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Lastro de concreto magro…"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Armação de fundação rasa com corte e dobra em obra, com consideração 10% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 40 MPa em estacas, com consideração de 30% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 35 MPa em fundação rasa, com consideração de 5% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com corte e dobra em obra, com consideração 10% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Concreto fck de 35 MPa em supraestrutura, com consideração de 5% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Locação de escoramento metálico;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Locação de cubetas para lajes – adotado ATEX 60X60;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Kit porta pronta de madeira em ambientes internos;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Fachadura digital em acesso às unidades residenciais;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Portas corta-fogo P-90 e corrimão de escadaria em madeira;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Escada marinheiro e alçapões de acesso;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Corrimão de inox em acessos externos;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "LOUÇAS E METAIS",
+        "decisao": "Quantitativos extraídos de projetos e detalhamentos considerando entrega completa em áreas comuns;"
+      },
+      {
+        "contexto": "LOUÇAS E METAIS",
+        "decisao": "Consideração de entrega de bacia sanitária em áreas privativas;"
+      },
+      {
+        "contexto": "COBERTURA",
+        "decisao": "Estrutura de telhamento em madeira de lei;"
+      },
+      {
+        "contexto": "COBERTURA",
+        "decisao": "Telhamento com telha ondulada de fibrocimento 6mm;"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "ETR – MEDITERRÂNEO TOWER| 06.01.2025",
+      "DATA BASE: Novembro/2024",
+      "Lazer: Salão de festas, Gourmet, Piscinas, Academia, Fireplace e Game Room",
+      "GERENCIAMENTO TÉCNICO E ADMINSITRATIVO",
+      "GERENCIAMENTO EXECUTIVO",
+      "OBRAS DE REFERÊNCIA R$ 370,00 – 530,00 / m²"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:11:49",
+      "duration_s": 106.1,
+      "excerpt_chars": 4329
+    }
   }
 }

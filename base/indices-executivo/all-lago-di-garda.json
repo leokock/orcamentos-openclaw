@@ -382,5 +382,167 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 13,
+      "total_itens": 7269,
+      "total_observacoes": 287,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/all-lago-di-garda.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Mao de obra para colocacao e rejuntamento de piso porc…",
+          "Revestimento interno de piso porcelanato placa 80x80cm…",
+          "REVESTIMENTO - HIT GRIS 80X80 NAT RET"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Reboco e Chapisco",
+        "itens_exemplo": [
+          "Mao de obra para reboco interno, incluindo chapisco",
+          "MAO DE OBRA PARA CHAPISCO E REBOCO INTERNOS",
+          "ARGAMASSA ESTABILIZADA PARA REBOCO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Forros",
+        "itens_exemplo": [
+          "Forro de Gesso em Placa - material e mao de obra"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Alvenaria",
+        "sub_disciplina": "Blocos e Ferragens",
+        "itens_exemplo": [
+          "BLOCO CERAMICO VEDACAO 11,5 X 19 X 29 CM - FUROS NA HO…",
+          "BLOCO CERAMICO VEDACAO 14 X 19 X 29 CM - FUROS NA HORI…",
+          "ACO CA-50A 6,30 MM (1/4)"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Locação e Apoio",
+        "itens_exemplo": [
+          "LOCAÇÃO DE ESCORAS METÁLICAS (3,20MT)",
+          "Andaime, Escoramento Metalico E Balancim",
+          "ESPACADOR CIRCULAR 40MM"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Serviços de Projeto",
+        "observacao": "Projeto Elétrico/Comunicação/Telefonia/Luminotécnico",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Serviços de Projeto",
+        "observacao": "Projeto de Prevenção Combate a Incêndio",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Serviços de Projeto",
+        "observacao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de itens de mão de obra com variações de capitalização (ex: 'Mao de obra...' vs 'MAO DE OBRA...')",
+      "Itens de serviço de projeto (ex: 'Projeto Elétrico/Comunicação/Telefonia/Luminotécnico') listados em observações e representando custos recorrentes."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:25:26",
+      "duration_s": 103.5,
+      "compact_chars": 3217
+    },
+    "pdf_metadata": {
+      "ac_m2": "7055,73m²",
+      "ur": "19 pavimentos",
+      "tipologia": "Residencial/Lazer",
+      "data_base": "12.12.2024",
+      "cub_referencia": "ALL-LAGO-DI-GARDA"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Infraestrutura",
+        "premissa": "Concreto fck de 40 MPa em fundação Profunda e rasa, consideração 35% perda para estaca hélice e 5% de perda para fundação rasa"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em compensadoplastificado 14 mm, considerando 2 jogos"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Montagem e desmontagem de formas considerando 2 utilizações"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com consideração de aço cortado em obra com 10% de perda"
+      },
+      {
+        "area": "Paredes",
+        "premissa": "Consideração de blocos cerâmicos para as Vedação com argamassa usinada para assentamento"
+      },
+      {
+        "area": "Paredes",
+        "premissa": "Considerado blocos antichamas para as escadas"
+      },
+      {
+        "area": "Impermeabilização",
+        "premissa": "Impermeabilização de fundação rasa com tinta asfáltica"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Corrimão de madeira em escadaria anti-incêndio"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Considerado custo de material e mão de obra de instalação de esquadrias de alumínio e de ferro no serviço"
+      },
+      {
+        "area": "Cobertura",
+        "premissa": "Estrutura de telhamento em madeira Lei; Telha natural de fibrocimento ondulada 6 mm"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Quantificação",
+        "decisao": "Levantamento realizado via visus, utilizando arquivo .ifc; Exceção de quantidades de louças e metais, que foram levantados através do projeto 2D."
+      },
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Mão de obra empreitada para execução de infraestrutura precificada pelo rateio do custo Global por área construída"
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Mão de obra empreitada para execução de supraestrutura precificada pelo rateio do custo Global por área construída"
+      },
+      {
+        "contexto": "Impermeabilização",
+        "decisao": "Consideração de material e mão de obra por serviço de impermeabilização Terceirizado"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "O escopo inclui: Gestão Técnica e Administrativa (Custos indiretos, Administração de Canteiro, Instalações Provisórias) e Gestão Executiva (Pacotes de custo, Mão de obra Global, Imprevistos e contingências).",
+      "Entrega completa de louças, metais e marmoraria em áreas comuns e para privativas consideramos bacias sanitárias e acabamentos de registros.",
+      "Aplicação de chapisco preparada em obra 1:4 em alvenaria; Aplicação de chapisco rolado em estrutura de concreto armado; Aplicação de massa única de 3,..."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:03:15",
+      "duration_s": 89.1,
+      "excerpt_chars": 4330
+    }
   }
 }

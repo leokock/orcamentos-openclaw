@@ -1,0 +1,145 @@
+{
+  "projeto": "rosner-reserva-sao-vicente",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:00:45",
+  "compact_chars": 3096,
+  "duration_s": 124.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"AMBIENTAÇÃO\",\n      \"sub_disciplina\": \"Mão de Obra Geral\",\n      \"itens_exemplo\": [\n        \"MÃO DE OBRA PARA EXECUÇÃO DE SUPRAESTRUTURA\",\n        \"MÃO DE OBRA PARA EXECUÇÃO DE CHAPISCO EM PAREDES INTER…\",\n        \"MÃO DE OBRA PARA EXECUÇÃO DE REBOCO EM PAREDES INTERNAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"AMBIENTAÇÃO\",\n      \"sub_disciplina\": \"Serviços Complementares\",\n      \"itens_exemplo\": [\n        \"VIGILÂNCIA CONTRATADA\",\n        \"ENGENHEIRO\",\n        \"MÃO DE OBRA PARA PINTURA SOBRE MASSA CORRIDA EM PAREDE…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"MOBILIARIO\",\n      \"sub_disciplina\": \"Área/Superfície\",\n      \"itens_exemplo\": [\n        \"Área:\",\n        \"Área:\",\n        \"Área:\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"MOBILIARIO\",\n      \"sub_disciplina\": \"Marcenaria\",\n      \"itens_exemplo\": [\n        \"Marcenaria\",\n        \"Marcenaria\",\n        \"Marcenaria\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"INSTALAÇÕES\",\n      \"sub_disciplina\": \"Elétrica/Comunicação\",\n      \"itens_exemplo\": [\n        \"Eletrodutos e Eletrocalhas\",\n        \"Mao de obra de instalacoes eletricas\",\n        \"Entrada de Energia\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"INSTALAÇÕES\",\n      \"sub_disciplina\": \"Hidráulica/Esgoto\",\n      \"itens_exemplo\": [\n        \"Mao de obra de instalacoes hidraulicas\",\n        \"Instalacoes de Esgoto e Aguas Pluviais\",\n        \"Instalacoes de Agua Fria\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ESQUADRIAS\",\n      \"sub_disciplina\": \"Vidros/Alumínio\",\n      \"itens_exemplo\": [\n        \"GUARDA CORPO, ALUMINIO, 110 cm\",\n        \"PORTA DE CORRER, 2 FOLHAS, ALUMÍNIO E VIDRO, 180 x 210…\",\n        \"JANELA DE CORRER, 2 FOLHAS, ALUMÍNIO E VIDRO, 150 x 12…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ESQUADRIAS\",\n      \"sub_disciplina\": \"Madeira/Aberturas\",\n      \"itens_exemplo\": [\n        \"PORTA DE ABRIR, 1 FOLHA, MADEIRA, 80 x 210 cm\",\n        \"PORTA DE ABRIR, 1 FOLHA, ALUMÍNIO COM GRELHA DE VENTIL…\",\n        \"PORTA DE ABRIR, 1 FOLHA, MADEIRA, 70 x 210 cm\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ELETR\",\n      \"sub_disciplina\": \"Eletrodutos\",\n      \"itens_exemplo\": [\n        \"Eletroduto leve 3/4\\\"\",\n        \"Eletroduto leve 1\\\"\",\n        \"Eletroduto leve 1\\\"\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ELETR\",\n      \"sub_disciplina\": \"Componentes Elétricos\",\n      \"itens_exemplo\": [\n        \"Disjuntor Tripolar Termomagnético - norma DIN (Curva C…\",\n        \"Caixa PVC 4x2\\\"\",\n        \"Quadro VDI 400x400mm\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Orçamento\",\n      \"observacao\": \"Custo respondido no questionário dia 18/04/2024\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Orçamento\",\n      \"observacao\": \"Custo baseado em índices Alameda Jardins\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Orçamento\",\n      \"observacao\": \"Custo baseado em índices / Solicitado pelo cliente através do formulário para considerar custo/mês\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Orçamento\",\n      \"observacao\": \"Custo e prazo respondido no questionário dia 18/04/2024\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Orçamento\",\n      \"observacao\": \"Custo baseado em índices / Considerado 2 serventes e 1 carpinteiro\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Outro\",\n      \"observacao\": \"MOLDURA DE CHURRASQUEIRAS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Outro\",\n      \"observacao\": \"CORRIMÃOS E GUARDA-CORPOS\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Eletrodutos e Eletrocalhas (aparece em AMBIENTAÇÃO e INSTALAÇÕES)\",\n    \"Área: (repetição de itens em MOBILIARIO)\",\n    \"Eletroduto leve 1\\\" (repetição de item em ELETR)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "AMBIENTAÇÃO",
+        "sub_disciplina": "Mão de Obra Geral",
+        "itens_exemplo": [
+          "MÃO DE OBRA PARA EXECUÇÃO DE SUPRAESTRUTURA",
+          "MÃO DE OBRA PARA EXECUÇÃO DE CHAPISCO EM PAREDES INTER…",
+          "MÃO DE OBRA PARA EXECUÇÃO DE REBOCO EM PAREDES INTERNAS"
+        ]
+      },
+      {
+        "macrogrupo": "AMBIENTAÇÃO",
+        "sub_disciplina": "Serviços Complementares",
+        "itens_exemplo": [
+          "VIGILÂNCIA CONTRATADA",
+          "ENGENHEIRO",
+          "MÃO DE OBRA PARA PINTURA SOBRE MASSA CORRIDA EM PAREDE…"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIARIO",
+        "sub_disciplina": "Área/Superfície",
+        "itens_exemplo": [
+          "Área:",
+          "Área:",
+          "Área:"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIARIO",
+        "sub_disciplina": "Marcenaria",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Marcenaria",
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES",
+        "sub_disciplina": "Elétrica/Comunicação",
+        "itens_exemplo": [
+          "Eletrodutos e Eletrocalhas",
+          "Mao de obra de instalacoes eletricas",
+          "Entrada de Energia"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES",
+        "sub_disciplina": "Hidráulica/Esgoto",
+        "itens_exemplo": [
+          "Mao de obra de instalacoes hidraulicas",
+          "Instalacoes de Esgoto e Aguas Pluviais",
+          "Instalacoes de Agua Fria"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS",
+        "sub_disciplina": "Vidros/Alumínio",
+        "itens_exemplo": [
+          "GUARDA CORPO, ALUMINIO, 110 cm",
+          "PORTA DE CORRER, 2 FOLHAS, ALUMÍNIO E VIDRO, 180 x 210…",
+          "JANELA DE CORRER, 2 FOLHAS, ALUMÍNIO E VIDRO, 150 x 12…"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS",
+        "sub_disciplina": "Madeira/Aberturas",
+        "itens_exemplo": [
+          "PORTA DE ABRIR, 1 FOLHA, MADEIRA, 80 x 210 cm",
+          "PORTA DE ABRIR, 1 FOLHA, ALUMÍNIO COM GRELHA DE VENTIL…",
+          "PORTA DE ABRIR, 1 FOLHA, MADEIRA, 70 x 210 cm"
+        ]
+      },
+      {
+        "macrogrupo": "ELETR",
+        "sub_disciplina": "Eletrodutos",
+        "itens_exemplo": [
+          "Eletroduto leve 3/4\"",
+          "Eletroduto leve 1\"",
+          "Eletroduto leve 1\""
+        ]
+      },
+      {
+        "macrogrupo": "ELETR",
+        "sub_disciplina": "Componentes Elétricos",
+        "itens_exemplo": [
+          "Disjuntor Tripolar Termomagnético - norma DIN (Curva C…",
+          "Caixa PVC 4x2\"",
+          "Quadro VDI 400x400mm"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo respondido no questionário dia 18/04/2024",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo baseado em índices Alameda Jardins",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo baseado em índices / Solicitado pelo cliente através do formulário para considerar custo/mês",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo e prazo respondido no questionário dia 18/04/2024",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Custo baseado em índices / Considerado 2 serventes e 1 carpinteiro",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Outro",
+        "observacao": "MOLDURA DE CHURRASQUEIRAS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Outro",
+        "observacao": "CORRIMÃOS E GUARDA-CORPOS",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Eletrodutos e Eletrocalhas (aparece em AMBIENTAÇÃO e INSTALAÇÕES)",
+      "Área: (repetição de itens em MOBILIARIO)",
+      "Eletroduto leve 1\" (repetição de item em ELETR)"
+    ],
+    "fora_da_curva": []
+  }
+}

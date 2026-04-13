@@ -1,0 +1,54 @@
+{
+  "projeto": "dimas-pb2",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:28:16",
+  "compact_chars": 487,
+  "duration_s": 80.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"Estrutura\",\n      \"itens_exemplo\": [\n        \"ESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"Sistemas\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"Acabamentos e Fachada\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\",\n        \"PINTURA INTERNA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"Infraestrutura Geral\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA\",\n        \"SERVIÇOS COMPLEMENTARES\",\n        \"DESPESAS INDIRETAS\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"AC=21215.27m²\",\n      \"observacao\": \"UR=?\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Estrutura de custos por Unidade de Preço (pu) e Valor Total (R$)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "Estrutura",
+        "itens_exemplo": [
+          "ESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "Sistemas",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "Acabamentos e Fachada",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "PINTURA INTERNA"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "Infraestrutura Geral",
+        "itens_exemplo": [
+          "INFRAESTRUTURA",
+          "SERVIÇOS COMPLEMENTARES",
+          "DESPESAS INDIRETAS"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "AC=21215.27m²",
+        "observacao": "UR=?",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Estrutura de custos por Unidade de Preço (pu) e Valor Total (R$)"
+    ],
+    "fora_da_curva": []
+  }
+}

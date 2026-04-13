@@ -1,0 +1,63 @@
+{
+  "projeto": "f-nogueira-soberano",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:36:21",
+  "compact_chars": 895,
+  "duration_s": 80.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"sub_disciplina\": \"Revestimentos Internos\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ACABAMENTOS E REVESTIMENTOS\",\n      \"sub_disciplina\": \"Fachada\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"observacao\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"observacao\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"observacao\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ACABAMENTOS EM PISO E PAREDE",
+        "sub_disciplina": "Revestimentos Internos",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS E REVESTIMENTOS",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "ACABAMENTOS EM PISO E PAREDE",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [],
+    "fora_da_curva": []
+  }
+}

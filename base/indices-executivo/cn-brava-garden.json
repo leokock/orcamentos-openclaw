@@ -126,5 +126,147 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 18,
+      "total_observacoes": 5,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/cn-brava-garden.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "ACABAMENTOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:20:53",
+      "duration_s": 77.3,
+      "compact_chars": 923
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "Home Club",
+      "data_base": "01/02/2022",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Estudos",
+        "premissa": "Levantamento topográfico"
+      },
+      {
+        "area": "Estudos",
+        "premissa": "Estudo geológico"
+      },
+      {
+        "area": "Estudos",
+        "premissa": "Estudo ambiental"
+      },
+      {
+        "area": "Estudos",
+        "premissa": "Sondagem do terreno"
+      },
+      {
+        "area": "Projetos",
+        "premissa": "Elaboração de projeto arquitetônico executivo"
+      },
+      {
+        "area": "Licenciamento",
+        "premissa": "Taxas de alvarás"
+      },
+      {
+        "area": "Licenciamento",
+        "premissa": "IPTU - Imposto Predial e Territorial Urbano"
+      },
+      {
+        "area": "Segurança",
+        "premissa": "Treinamento de segurança do trabalho"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "O orçamento é detalhado e abrange desde estudos preliminares (topografia, geológico, ambiental) até serviços de infraestrutura (alvenaria, armadura) e licenciamento.",
+      "A data de referência do orçamento é 01/02/2022."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:06:41",
+      "duration_s": 82.1,
+      "excerpt_chars": 4331
+    }
   }
 }

@@ -1,0 +1,134 @@
+{
+  "projeto": "cn-brava-ocean",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:22:40",
+  "compact_chars": 1211,
+  "duration_s": 107.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"SUPRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"pu=766.93\",\n        \"R$47.368.932\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"itens_exemplo\": [\n        \"pu=505.35\",\n        \"R$31.212.608\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n      \"itens_exemplo\": [\n        \"pu=308.49\",\n        \"R$19.053.308\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"itens_exemplo\": [\n        \"pu=291.41\",\n        \"R$17.998.901\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"PISOS E PAVIMENTAÇÕES\",\n      \"itens_exemplo\": [\n        \"pu=225.10\",\n        \"R$13.903.360\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"INFRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"pu=220.24\",\n        \"R$13.602.786\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n      \"itens_exemplo\": [\n        \"pu=203.75\",\n        \"R$12.584.359\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"AREAS PRIVATIVAS\",\n      \"sub_disciplina\": \"SUPRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"pu=1411.40\",\n        \"R$47.368.932\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"AREAS PRIVATIVAS\",\n      \"sub_disciplina\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"itens_exemplo\": [\n        \"pu=930.00\",\n        \"R$31.212.608\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"AREAS PRIVATIVAS\",\n      \"sub_disciplina\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n      \"itens_exemplo\": [\n        \"pu=567.71\",\n        \"R$19.053.308\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"AREAS PRIVATIVAS\",\n      \"sub_disciplina\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"itens_exemplo\": [\n        \"pu=536.29\",\n        \"R$17.998.901\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"AREAS PRIVATIVAS\",\n      \"sub_disciplina\": \"PISOS E PAVIMENTAÇÕES\",\n      \"itens_exemplo\": [\n        \"pu=414.26\",\n        \"R$13.903.360\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"AREAS PRIVATIVAS\",\n      \"sub_disciplina\": \"INFRAESTRUTURA\",\n      \"itens_exemplo\": [\n        \"pu=405.31\",\n        \"R$13.602.786\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"AREAS PRIVATIVAS\",\n      \"sub_disciplina\": \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n      \"itens_exemplo\": [\n        \"pu=374.96\",\n        \"R$12.584.359\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Os valores de custo (R$) e os valores de PU (Unidade de Preço) para as 7 categorias listadas são idênticos entre a seção ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS.\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"UR\",\n      \"motivo\": \"?\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=766.93",
+          "R$47.368.932"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "pu=505.35",
+          "R$31.212.608"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "pu=308.49",
+          "R$19.053.308"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "pu=291.41",
+          "R$17.998.901"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "PISOS E PAVIMENTAÇÕES",
+        "itens_exemplo": [
+          "pu=225.10",
+          "R$13.903.360"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=220.24",
+          "R$13.602.786"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "itens_exemplo": [
+          "pu=203.75",
+          "R$12.584.359"
+        ]
+      },
+      {
+        "macrogrupo": "AREAS PRIVATIVAS",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=1411.40",
+          "R$47.368.932"
+        ]
+      },
+      {
+        "macrogrupo": "AREAS PRIVATIVAS",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "pu=930.00",
+          "R$31.212.608"
+        ]
+      },
+      {
+        "macrogrupo": "AREAS PRIVATIVAS",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "pu=567.71",
+          "R$19.053.308"
+        ]
+      },
+      {
+        "macrogrupo": "AREAS PRIVATIVAS",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "pu=536.29",
+          "R$17.998.901"
+        ]
+      },
+      {
+        "macrogrupo": "AREAS PRIVATIVAS",
+        "sub_disciplina": "PISOS E PAVIMENTAÇÕES",
+        "itens_exemplo": [
+          "pu=414.26",
+          "R$13.903.360"
+        ]
+      },
+      {
+        "macrogrupo": "AREAS PRIVATIVAS",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=405.31",
+          "R$13.602.786"
+        ]
+      },
+      {
+        "macrogrupo": "AREAS PRIVATIVAS",
+        "sub_disciplina": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "itens_exemplo": [
+          "pu=374.96",
+          "R$12.584.359"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Os valores de custo (R$) e os valores de PU (Unidade de Preço) para as 7 categorias listadas são idênticos entre a seção ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS."
+    ],
+    "fora_da_curva": [
+      {
+        "item": "UR",
+        "motivo": "?"
+      }
+    ]
+  }
+}

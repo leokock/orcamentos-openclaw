@@ -1,0 +1,68 @@
+{
+  "projeto": "nobria",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:33:54",
+  "excerpt_chars": 3249,
+  "duration_s": 71.8,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"12.879,93 m²\",\n    \"ur\": \"56 apartamentos\",\n    \"tipologia\": \"Residencial/Comercial\",\n    \"data_base\": \"15.01.2024\",\n    \"cub_referencia\": \"2.752,67\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Terreno\",\n      \"premissa\": \"Execução de demolição e limpeza do terreno; Escavação de valas para blocos e baldrames; Drenagem do terreno; Reaterro para blocos e baldrames.\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"44 Estacas hélice contínua com diâmetro 40cm e 10 metros de profundidade; 86 Estacas hélice contínua com diâmetro 50cm e 12 metros de profundidade; 57 Estacas hélice contínua com diâmetro 60cm e 14 metros de profundidade.\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Concreto de blocos e baldrames com resistência de 35 Mpa.\"\n    },\n    {\n      \"area\": \"Acabamento\",\n      \"premissa\": \"Consideração de manta acústica nos apartamentos.\"\n    }\n  ],\n  \"bdi_encargos\": [\n    {\n      \"componente\": \"Gerenciamento Técnico e Administrativo\",\n      \"valor_pct\": \"13,30%\",\n      \"nota\": \"Área Construída\"\n    },\n    {\n      \"componente\": \"Movimentação de Terra\",\n      \"valor_pct\": \"0,64%\",\n      \"nota\": \"Área Construída\"\n    },\n    {\n      \"componente\": \"Infraestrutura\",\n      \"valor_pct\": \"7,00%\",\n      \"nota\": \"Área Construída\"\n    }\n  ],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Alvenaria\",\n      \"decisao\": \"Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico.\"\n    },\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"Todos os itens considerados nesta etapa seguem especificações preenchidas pelo cliente.\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"NOBRIA – MAISON BEACH | BOMBINHAS, SC\",\n    \"Orçamento Executivo\",\n    \"Custos administrativos dimensionados considerando 42 meses de obra.\",\n    \"O custo é relacionado ao prazo da obra e a estrutura administrativa da obra.\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "12.879,93 m²",
+      "ur": "56 apartamentos",
+      "tipologia": "Residencial/Comercial",
+      "data_base": "15.01.2024",
+      "cub_referencia": "2.752,67"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Terreno",
+        "premissa": "Execução de demolição e limpeza do terreno; Escavação de valas para blocos e baldrames; Drenagem do terreno; Reaterro para blocos e baldrames."
+      },
+      {
+        "area": "Fundação",
+        "premissa": "44 Estacas hélice contínua com diâmetro 40cm e 10 metros de profundidade; 86 Estacas hélice contínua com diâmetro 50cm e 12 metros de profundidade; 57 Estacas hélice contínua com diâmetro 60cm e 14 metros de profundidade."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto de blocos e baldrames com resistência de 35 Mpa."
+      },
+      {
+        "area": "Acabamento",
+        "premissa": "Consideração de manta acústica nos apartamentos."
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "Gerenciamento Técnico e Administrativo",
+        "valor_pct": "13,30%",
+        "nota": "Área Construída"
+      },
+      {
+        "componente": "Movimentação de Terra",
+        "valor_pct": "0,64%",
+        "nota": "Área Construída"
+      },
+      {
+        "componente": "Infraestrutura",
+        "valor_pct": "7,00%",
+        "nota": "Área Construída"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Alvenaria",
+        "decisao": "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico."
+      },
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "Todos os itens considerados nesta etapa seguem especificações preenchidas pelo cliente."
+      }
+    ],
+    "observacoes_chave": [
+      "NOBRIA – MAISON BEACH | BOMBINHAS, SC",
+      "Orçamento Executivo",
+      "Custos administrativos dimensionados considerando 42 meses de obra.",
+      "O custo é relacionado ao prazo da obra e a estrutura administrativa da obra."
+    ]
+  }
+}

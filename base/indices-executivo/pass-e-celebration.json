@@ -105,5 +105,46 @@
   "sistemas_especiais_detail": {
     "automacao": 159698.31,
     "total": 1532141.43
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 4,
+      "total_itens": 82,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/pass-e-celebration.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
+        "sub_disciplina": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
+        "itens_exemplo": [
+          "pu=161.09",
+          "R$1.281.641"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "sub_disciplina": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "pu=120.23",
+          "R$956.553"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "SUPRAESTRUTURA (R$6.062.339) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB.",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS (R$2.468.327) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB.",
+      "ESQUADRIAS, VIDROS E FERRAGENS (R$1.955.058) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:54:13",
+      "duration_s": 72.9,
+      "compact_chars": 1626
+    }
   }
 }

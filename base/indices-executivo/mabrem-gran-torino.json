@@ -172,5 +172,142 @@
     "reboco": 18.05,
     "porcelanato": 89.58,
     "rodape": 42.0
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 7,
+      "total_itens": 1891,
+      "total_observacoes": 58,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mabrem-gran-torino.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeavel para supraestrutura Fck 40M…",
+          "Concreto usinado bombeavel para estacas Fck 40MPa com …"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Mao de obra para execucacao de estrutura de concreto a…",
+          "Mao de obra para reboco interno, incluindo chapisco"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Marcenaria e Assentos",
+        "itens_exemplo": [
+          "Marcenaria e pinturas",
+          "Marcenaria",
+          "Assento Almofada Futon Sob Medida Impermeável"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Decoração e Equipamentos",
+        "itens_exemplo": [
+          "Mobiliario e decoracoes para areas comuns",
+          "Quadro Decorativo 1 Tela: Obra Abstrata Moderna e Sofi...",
+          "Esquadrias de Aluminio - Fornecimento e instalacao inc…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais/Infraestrutura",
+        "sub_disciplina": "Medições de Área",
+        "itens_exemplo": [
+          "ÁREA DO TERRENO",
+          "ÁREA CONSTRUÍDA"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais/Infraestrutura",
+        "sub_disciplina": "Perímetros e Bandejas",
+        "itens_exemplo": [
+          "Perímetro de projeção do embasamento",
+          "Perímetro de projeção da torre",
+          "Bandeja de proteção secundária"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Custos Indiretos",
+        "observacao": "Valor repassado pela Mabrem em formulário de custos indiretos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimativa de Custos",
+        "observacao": "Verba estimada conforme índices históricos de obras similares",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Testes de Material",
+        "observacao": "Custo de mercado por corpo de prova",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo de Testes",
+        "observacao": "Consideração de 4 corpos de prova por caminhão de 8m³",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cronograma",
+        "observacao": "Consideração de prazo de obra previsto em planejamento",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "Cobertura Courino Estofada",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área Comum",
+        "observacao": "ÁREA PISCINA - solarium, terraço e piscinas",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área Comum",
+        "observacao": "TOTAL Sacada Gourmet Kids",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Área Comum",
+        "observacao": "TOTAL Salão de festas sacada",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Guarda - corpo de desforma",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "Fechamento removível de vãos em madeira",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Segurança",
+        "observacao": "Varal de segurança com cabo de aço",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Perímetro de projeção da torre",
+      "Assento Almofada Futon Sob Medida Impermeável",
+      "Marcenaria"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:12:13",
+      "duration_s": 100.9,
+      "compact_chars": 2813
+    }
   }
 }

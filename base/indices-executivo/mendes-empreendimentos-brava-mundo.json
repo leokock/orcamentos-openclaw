@@ -127,5 +127,86 @@
   "fachada_detail": {
     "_total": 743529.71
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 2039,
+      "total_observacoes": 5,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mendes-empreendimentos-brava-mundo.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Fundações",
+        "itens_exemplo": [
+          "Mão de Obra para Execução de Estrutura de Concreto Arm…",
+          "Mão de Obra para Execução de Infraestrutura - Blocos e…",
+          "Escavação mecanizada para blocos de fundação e vigas b…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação de aço CA-50, diâmetro de 25,00mm para supraes…"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Vedação",
+        "sub_disciplina": "Vidros e Alumínio",
+        "itens_exemplo": [
+          "Pele de vidro - Pvto. Diferenciado",
+          "Esquadrias de alumínio, fornecimento e instalação - 6°…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Mestre de obras"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Brava Mundo",
+        "observacao": "Custo de Obra",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "BRAVA MUNDO",
+        "observacao": "CUSTOS DIRETOS DE OBRA",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Rua Delfim Mario de Padua Peixoto, 900 - Praia Brava - Itajaí/SC - 88306-813",
+        "observacao": "Endereço do projeto",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "20/04/2022 - 10:38:13",
+        "observacao": "Revisão do orçamento",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "BRAVA MUNDO",
+        "observacao": "AMBIENTAÇÃO",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Referência constante ao nome 'Brava Mundo' em títulos e observações.",
+      "A estrutura de custos é apresentada em blocos de resumo (TOTAL, SUPRAESTRUTURA, etc.) e detalhamento (Relatório)."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:16:54",
+      "duration_s": 72.6,
+      "compact_chars": 1533
+    }
+  }
 }

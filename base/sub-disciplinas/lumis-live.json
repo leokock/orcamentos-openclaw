@@ -1,0 +1,117 @@
+{
+  "projeto": "lumis-live",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:10:32",
+  "compact_chars": 1111,
+  "duration_s": 105.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Envelopamento\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Envelopamento\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica e Hidráulica\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Paredes\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS EM PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS EM PISO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais e Gestão\",\n      \"sub_disciplina\": \"Gerenciamento\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais e Gestão\",\n      \"sub_disciplina\": \"Complementares\",\n      \"itens_exemplo\": [\n        \"SERVIÇOS COMPLEMENTARES\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"INSTALAÇÃO CANTEIRO DE OBRAS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"TERRAPLENAGEM E REBAIXAMENTO DE LENÇOL\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"IMPERMEABILIZAÇÃO E TRATAMENTOS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Instalações\",\n      \"observacao\": \"INSTAL. HIDROS. LOUÇAS, METAIS, GÁS, SHP\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Instalações\",\n      \"observacao\": \"INSTAL. ELÉTRICA, SIST. COMB. INCÊNDIO, PROTEÇÃO ATMOSFÉRICA, COMUNICAÇÃO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"observacao\": \"REVESTIMENTO INTERNO - NÍVEL 01\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"observacao\": \"REVESTIMENTO INTERNO - NÍVEL 01 - CHAPISCO E REBOCO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"observacao\": \"REVESTIMENTO INTERNO - NÍVEL 01 - ACABAMENTOS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"observacao\": \"REVESTIMENTO INTERNO - NÍVEL 02\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"observacao\": \"REVESTIMENTO INTERNO - NÍVEL 02 - CHAPISCO E REBOCO\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"O ciclo de acabamento interno segue um padrão de etapas (Nível 01 e Nível 02) com a sequência: Chapisco e Reboco -> Acabamentos.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Envelopamento",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Envelopamento",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Paredes",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos",
+        "itens_exemplo": [
+          "REVESTIMENTOS EM PISO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Gestão",
+        "sub_disciplina": "Gerenciamento",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Gestão",
+        "sub_disciplina": "Complementares",
+        "itens_exemplo": [
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Geral",
+        "observacao": "INSTALAÇÃO CANTEIRO DE OBRAS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "TERRAPLENAGEM E REBAIXAMENTO DE LENÇOL",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "IMPERMEABILIZAÇÃO E TRATAMENTOS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Instalações",
+        "observacao": "INSTAL. HIDROS. LOUÇAS, METAIS, GÁS, SHP",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Instalações",
+        "observacao": "INSTAL. ELÉTRICA, SIST. COMB. INCÊNDIO, PROTEÇÃO ATMOSFÉRICA, COMUNICAÇÃO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 01",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 01 - CHAPISCO E REBOCO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 01 - ACABAMENTOS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 02",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 02 - CHAPISCO E REBOCO",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "O ciclo de acabamento interno segue um padrão de etapas (Nível 01 e Nível 02) com a sequência: Chapisco e Reboco -> Acabamentos."
+    ],
+    "fora_da_curva": []
+  }
+}

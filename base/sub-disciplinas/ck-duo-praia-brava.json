@@ -1,0 +1,70 @@
+{
+  "projeto": "ck-duo-praia-brava",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:10:22",
+  "compact_chars": 957,
+  "duration_s": 90.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado 35Mpa Slump 15+-3 Bombeado\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Estrutura de Concreto Armado\",\n      \"itens_exemplo\": [\n        \"Estrutura de Concreto Armado - MO\",\n        \"Estrutura de Concreto Armado - MO (Coeficiente 1,50)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Mobiliário e Decoração\",\n      \"itens_exemplo\": [\n        \"Área Comum (Mobiliário e decorações)*\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Equipamentos\",\n      \"itens_exemplo\": [\n        \"Locação de Elevador Cremalheira\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Contingência\",\n      \"itens_exemplo\": [\n        \"Itens eventuais e não orçados - 1,5% custo raso*\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Rua Ariribá, 119 - Balneário Santa Clara - Itajaí/SC - 88306-780\",\n      \"observacao\": \"Endereço do projeto.\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"3 - 23/04/2021 - 15:23:30\",\n      \"observacao\": \"Atualização Instalações Hidrossanitárias\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"5\",\n      \"observacao\": \"EQUIPAMENTOS, SERVIÇOS COMPLEMENTARES E CONTINGÊNCIA\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição de Estrutura de Concreto Armado - MO com valores idênticos.\",\n    \"Repetição de Concreto Usinado 35Mpa Slump 15+-3 Bombeado com valores idênticos.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado 35Mpa Slump 15+-3 Bombeado"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Estrutura de Concreto Armado",
+        "itens_exemplo": [
+          "Estrutura de Concreto Armado - MO",
+          "Estrutura de Concreto Armado - MO (Coeficiente 1,50)"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Mobiliário e Decoração",
+        "itens_exemplo": [
+          "Área Comum (Mobiliário e decorações)*"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Locação de Elevador Cremalheira"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Contingência",
+        "itens_exemplo": [
+          "Itens eventuais e não orçados - 1,5% custo raso*"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Rua Ariribá, 119 - Balneário Santa Clara - Itajaí/SC - 88306-780",
+        "observacao": "Endereço do projeto.",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "3 - 23/04/2021 - 15:23:30",
+        "observacao": "Atualização Instalações Hidrossanitárias",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "5",
+        "observacao": "EQUIPAMENTOS, SERVIÇOS COMPLEMENTARES E CONTINGÊNCIA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de Estrutura de Concreto Armado - MO com valores idênticos.",
+      "Repetição de Concreto Usinado 35Mpa Slump 15+-3 Bombeado com valores idênticos."
+    ],
+    "fora_da_curva": []
+  }
+}

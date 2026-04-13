@@ -1,0 +1,105 @@
+{
+  "projeto": "pass-e-connect",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:55:55",
+  "compact_chars": 3225,
+  "duration_s": 102.5,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto\",\n        \"Concreto Usinado FCK = 50MPa Bombeavel Para Supraestru...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armadura Convencional para Estrutura\",\n        \"Armadura Convencional para Estrutura\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma e Execução\",\n      \"itens_exemplo\": [\n        \"Fabricação forma\",\n        \"Mão de obra - estrutura em concreto armado\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Fachada\",\n      \"sub_disciplina\": \"Fachada\",\n      \"itens_exemplo\": [\n        \"Acabamento em ACM para Fachadas - Material e mão de ob…\",\n        \"Revestimentos e Acabamentos de Fachada\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Fachada\",\n      \"sub_disciplina\": \"Drywall/Gesso\",\n      \"itens_exemplo\": [\n        \"Parede Com Sistema Em Chapas De Gesso Para Drywall, Us…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Administrativo/Gerenciamento\",\n      \"itens_exemplo\": [\n        \"Taxa Administração\",\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Alvenaria\",\n      \"itens_exemplo\": [\n        \"ALVENARIA\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Considerado sem indicação em projeto\",\n      \"observacao\": \"Considerado sem indicação em projeto\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Considerado sem indicação em projeto\",\n      \"observacao\": \"considerado nas lajes\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Considerado empolamento 30% da escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Quantitade de Projetos| Custo médio recebido Cliente\",\n      \"observacao\": \"Quantitade de Projetos| Custo médio recebido Cliente\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Serviço Terceiro para Instalações e manutenções de Canteiro\",\n      \"observacao\": \"Serviço Terceiro para Instalações e manutenções de Canteiro\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição completa do bloco de itens em 'Ger_Executivo' (1711 itens)\",\n    \"Repetição do item 'Taxa Administração'\",\n    \"Repetição do item 'Mão de obra para execução de supraestrutura de concret...'\",\n    \"Repetição do item 'Acabamento em ACM para Fachadas - Material e mão de ob...'\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto",
+          "Concreto Usinado FCK = 50MPa Bombeavel Para Supraestru..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armadura Convencional para Estrutura",
+          "Armadura Convencional para Estrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Execução",
+        "itens_exemplo": [
+          "Fabricação forma",
+          "Mão de obra - estrutura em concreto armado"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fachada",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "Acabamento em ACM para Fachadas - Material e mão de ob…",
+          "Revestimentos e Acabamentos de Fachada"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fachada",
+        "sub_disciplina": "Drywall/Gesso",
+        "itens_exemplo": [
+          "Parede Com Sistema Em Chapas De Gesso Para Drywall, Us…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Administrativo/Gerenciamento",
+        "itens_exemplo": [
+          "Taxa Administração",
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo",
+        "observacao": "Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Considerado sem indicação em projeto",
+        "observacao": "Considerado sem indicação em projeto",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Considerado sem indicação em projeto",
+        "observacao": "considerado nas lajes",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Considerado empolamento 30% da escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Quantitade de Projetos| Custo médio recebido Cliente",
+        "observacao": "Quantitade de Projetos| Custo médio recebido Cliente",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço Terceiro para Instalações e manutenções de Canteiro",
+        "observacao": "Serviço Terceiro para Instalações e manutenções de Canteiro",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição completa do bloco de itens em 'Ger_Executivo' (1711 itens)",
+      "Repetição do item 'Taxa Administração'",
+      "Repetição do item 'Mão de obra para execução de supraestrutura de concret...'",
+      "Repetição do item 'Acabamento em ACM para Fachadas - Material e mão de ob...'"
+    ],
+    "fora_da_curva": []
+  }
+}

@@ -77,5 +77,148 @@
   "instalacoes_extraction_method": "ORÇAMENTO_EXECUTIVO (ORÇAMENTO_EXECUTIVO)",
   "sistemas_especiais_detail": {
     "total": 1952000
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 343,
+      "total_observacoes": 1,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/nobria.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de obra",
+        "itens_exemplo": [
+          "Mão de obra - Supraestrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Materiais estruturais",
+        "itens_exemplo": [
+          "Armadura Supra Estrutura",
+          "Concreto Usinado Fck 35 Bombeado"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Instalações Elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica",
+        "itens_exemplo": [
+          "Instalação de Água Fria e Água Quente"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Portas e Janelas em Alumínio Linha Gold"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Móveis e Decoração"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Preliminares",
+        "sub_disciplina": "Terraplanagem",
+        "itens_exemplo": [
+          "Escavação mecânica"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ÁREA CONSTRUÍDA PRIVATIVA",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de valores totais para o mesmo macrogrupo em diferentes linhas de resumo (Ex: SUPRAESTRUTURA)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:36:46",
+      "duration_s": 71.8,
+      "compact_chars": 1217
+    },
+    "pdf_metadata": {
+      "ac_m2": "12.879,93 m²",
+      "ur": "56 apartamentos",
+      "tipologia": "Residencial/Comercial",
+      "data_base": "15.01.2024",
+      "cub_referencia": "2.752,67"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Terreno",
+        "premissa": "Execução de demolição e limpeza do terreno; Escavação de valas para blocos e baldrames; Drenagem do terreno; Reaterro para blocos e baldrames."
+      },
+      {
+        "area": "Fundação",
+        "premissa": "44 Estacas hélice contínua com diâmetro 40cm e 10 metros de profundidade; 86 Estacas hélice contínua com diâmetro 50cm e 12 metros de profundidade; 57 Estacas hélice contínua com diâmetro 60cm e 14 metros de profundidade."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto de blocos e baldrames com resistência de 35 Mpa."
+      },
+      {
+        "area": "Acabamento",
+        "premissa": "Consideração de manta acústica nos apartamentos."
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "Gerenciamento Técnico e Administrativo",
+        "valor_pct": "13,30%",
+        "nota": "Área Construída"
+      },
+      {
+        "componente": "Movimentação de Terra",
+        "valor_pct": "0,64%",
+        "nota": "Área Construída"
+      },
+      {
+        "componente": "Infraestrutura",
+        "valor_pct": "7,00%",
+        "nota": "Área Construída"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Alvenaria",
+        "decisao": "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico."
+      },
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "Todos os itens considerados nesta etapa seguem especificações preenchidas pelo cliente."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "NOBRIA – MAISON BEACH | BOMBINHAS, SC",
+      "Orçamento Executivo",
+      "Custos administrativos dimensionados considerando 42 meses de obra.",
+      "O custo é relacionado ao prazo da obra e a estrutura administrativa da obra."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:33:54",
+      "duration_s": 71.8,
+      "excerpt_chars": 3249
+    }
   }
 }

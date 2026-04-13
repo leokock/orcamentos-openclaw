@@ -432,5 +432,229 @@
     "contrapiso": 40.0,
     "rodape": 33.87,
     "pintura": 77.91
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 19,
+      "total_itens": 5017,
+      "total_observacoes": 97,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/wf-aquarius.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 40MPa Bombeavel",
+          "Concreto Usinado bombeável para estacas 40MPa - inclu..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "Mão de obra para execução de supraestrutura de concret…",
+          "Mão de obra para execução de supraestrutura de concret…"
+        ]
+      },
+      {
+        "macrogrupo": "Fechamento e Acabamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Fechamento e Acabamentos",
+        "sub_disciplina": "Paredes e Drywall",
+        "itens_exemplo": [
+          "Parede Com Sistema Em Chapas De Gesso Para Drywall, Us…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mao de obra de instalacoes eletricas",
+          "Quadros e Disjuntores",
+          "Eletrodutos e Eletrocalhas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica e Esgoto",
+        "itens_exemplo": [
+          "Instalações de esgoto e pluviais",
+          "Instalacoes de Agua Fria",
+          "Valvulas e complementos"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Gerenciamento e Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e decoração",
+          "Elevadores"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Outorga/Ajustes",
+        "observacao": "Adição de outorga onerosa, LAP LAI e LAO - Ajustes de EPC - Redução de equipe administrativa - ajustado para …",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custos",
+        "observacao": "Lançamento de custos praticados",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Custos",
+        "observacao": "Ajust de custos repassados",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "Troca de chapisco por arg estabilizada",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "Troca de escadas em pintura epoxi para acrlica",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Fundação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto/Fundação",
+        "observacao": "Quantitade de Projetos, adotado profundidade media de 25m",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, lajes,pilares de arranque, dutos e cisternas",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "Considerado 3 Jogos referentes ao pavimento tipo",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo",
+        "observacao": "Determinado conforme aba auxiliar",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Outorga",
+        "observacao": "Ajustado conforme solicitado na reunião de apresentação - calculado como 8% do CUB para a area de outorga",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Ajustado conforme solicitado na reunião de apresentação",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Atualizado conforme reunião de apresentação",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "TOTAL | pu=3193.73 | R$53.619.740",
+      "SUPRAESTRUTURA | pu=594.64 | R$9.983.387",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO | pu=384.76 | R$6.459.784",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS | pu=341.35 | R$5.730.938",
+      "ESQUADRIAS, VIDROS E FERRAGENS | pu=315.95 | R$5.304.562",
+      "INFRAESTRUTURA | pu=233.03 | R$3.912.291",
+      "ALVENARIA | pu=190.01 | R$3.190.023"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:19:53",
+      "duration_s": 141.0,
+      "compact_chars": 3457
+    },
+    "pdf_metadata": {
+      "ac_m2": "16.789,05 m²",
+      "ur": null,
+      "tipologia": "AQUARIUS RESIDENCE",
+      "data_base": "JULHO/2025",
+      "cub_referencia": "1,08 CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Quantificação",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativos com complementação de estimativas devido à ausência de detalhamentos;"
+      },
+      {
+        "area": "Quantificação",
+        "premissa": "Levantamento realizado via visus, utilizando arquivo .ifc;"
+      },
+      {
+        "area": "Movimentações de Terra",
+        "premissa": "considerando 30% de empolamento;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "consideração de 5% de perda, para fundação rasa – aditivo em reservatórios;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "consideração de 10% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "consideração de 5% de perda – aditivo em reservatórios;"
+      },
+      {
+        "area": "Geral",
+        "premissa": "Custos consideram prazo de obra de 57 meses;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Quantificação",
+        "decisao": "Serviço de rebaixamento de lençol provisório – custo repassado pela WF;"
+      },
+      {
+        "contexto": "Quantificação",
+        "decisao": "Lastro com concreto para regularização de valas com espessura de 10cm;"
+      },
+      {
+        "contexto": "Quantificação",
+        "decisao": "Movimentação de bota-fora para estacas, considerando 30% de empolamento;"
+      },
+      {
+        "contexto": "Equipamentos de Segurança",
+        "decisao": "Locação de balancim motorizado – 17 meses – 1 unidade complementar;"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "AQUARIUS RESIDENCE – WF CONSTRUTORA",
+      "Espaço Coworking e Minimarket no térreo; Lazer com piscina, academia, espaço gourmet, salão de festa e brinquedoteca; Infra para carros elétricos e painéis solares;",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO: Custos administrativos indiretos da obra;",
+      "Análise de Custos Diretos: Sem custo de imprevisto e contingencias"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:18:20",
+      "duration_s": 80.8,
+      "excerpt_chars": 3955
+    }
   }
 }

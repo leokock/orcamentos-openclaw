@@ -1,0 +1,79 @@
+{
+  "projeto": "nova-empreendimentos-domus",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:35:27",
+  "excerpt_chars": 4330,
+  "duration_s": 92.9,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"5.008,85\",\n    \"ur\": null,\n    \"tipologia\": null,\n    \"data_base\": \"05.02.2026\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Arquitetura\",\n      \"premissa\": \"Levantamento realizado via Visus, utilizando arquivo .ifc ajustado;\"\n    },\n    {\n      \"area\": \"Arquitetura\",\n      \"premissa\": \"Exceção de quantidades de louças e metais e mobiliário, que foram levantados através do projeto 2D.\"\n    },\n    {\n      \"area\": \"Instalações\",\n      \"premissa\": \"Quantificação de instalações elétricas, telecomunicação, hidrossanitárias, preventivas, gás e SPDA seguindo detalhamentos de projeto e quantitativos disponibilizados;\"\n    },\n    {\n      \"area\": \"Instalações\",\n      \"premissa\": \"Complementação de estimativas em itens ausentes;\"\n    },\n    {\n      \"area\": \"Mão de Obra\",\n      \"premissa\": \"Separação proporcional de contrato; Separação por Torres.\"\n    },\n    {\n      \"area\": \"Contenção\",\n      \"premissa\": \"Contenção em parede diafragma, com muretas guias, vigas de travamento, tirantes e polímero;\"\n    },\n    {\n      \"area\": \"Instalações Hidrossanitárias\",\n      \"premissa\": \"Quantitativos provenientes de lista de materiais e projetos;\"\n    },\n    {\n      \"area\": \"Louças e Metais\",\n      \"premissa\": \"Quantitativos extraídos de projetos e detalhamentos considerando entrega completa em áreas comuns;\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Contenção\",\n      \"decisao\": \"consideramos para fins de orçamento forma apenas das muretas guias e vigas de travamento.\"\n    },\n    {\n      \"contexto\": \"Escoramento\",\n      \"decisao\": \"Escoramento considerando 1 escora por m2 (consumo informado para o Malta)\"\n    },\n    {\n      \"contexto\": \"Acabamentos\",\n      \"decisao\": \"Acabamentos de áreas comuns considerado junto à interiores;\"\n    },\n    {\n      \"contexto\": \"Instalações\",\n      \"decisao\": \"Melhoria de rede elétrica, SPDA e Elétrica PCI considerados em Torre B (ausência de separação por parte do projetista)\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Área do Terreno: 1.090,43 m²\",\n    \"MOVIMENTAÇÕES DE TERRA R$ 470.156,84 – R$ 93,87/m²\",\n    \"IMPERMEABILIZAÇÃO R$ 510.569,91 – R$ 101,93/m²\",\n    \"FORROS R$ 216.775,95 – R$ 43,28/m²\",\n    \"ELEVADORES E PLATAFORMAS R$ 533.000,00 - R…\",\n    \"LIMPEZA DA OBRA R$ 81.640,43 – R$ 16,30/m²\",\n    \"ÁREAS COMUNS E PAISAGISMO R$ 742.624,53 – R$ 148,26/m²\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "5.008,85",
+      "ur": null,
+      "tipologia": null,
+      "data_base": "05.02.2026",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Arquitetura",
+        "premissa": "Levantamento realizado via Visus, utilizando arquivo .ifc ajustado;"
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Exceção de quantidades de louças e metais e mobiliário, que foram levantados através do projeto 2D."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Quantificação de instalações elétricas, telecomunicação, hidrossanitárias, preventivas, gás e SPDA seguindo detalhamentos de projeto e quantitativos disponibilizados;"
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Complementação de estimativas em itens ausentes;"
+      },
+      {
+        "area": "Mão de Obra",
+        "premissa": "Separação proporcional de contrato; Separação por Torres."
+      },
+      {
+        "area": "Contenção",
+        "premissa": "Contenção em parede diafragma, com muretas guias, vigas de travamento, tirantes e polímero;"
+      },
+      {
+        "area": "Instalações Hidrossanitárias",
+        "premissa": "Quantitativos provenientes de lista de materiais e projetos;"
+      },
+      {
+        "area": "Louças e Metais",
+        "premissa": "Quantitativos extraídos de projetos e detalhamentos considerando entrega completa em áreas comuns;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Contenção",
+        "decisao": "consideramos para fins de orçamento forma apenas das muretas guias e vigas de travamento."
+      },
+      {
+        "contexto": "Escoramento",
+        "decisao": "Escoramento considerando 1 escora por m2 (consumo informado para o Malta)"
+      },
+      {
+        "contexto": "Acabamentos",
+        "decisao": "Acabamentos de áreas comuns considerado junto à interiores;"
+      },
+      {
+        "contexto": "Instalações",
+        "decisao": "Melhoria de rede elétrica, SPDA e Elétrica PCI considerados em Torre B (ausência de separação por parte do projetista)"
+      }
+    ],
+    "observacoes_chave": [
+      "Área do Terreno: 1.090,43 m²",
+      "MOVIMENTAÇÕES DE TERRA R$ 470.156,84 – R$ 93,87/m²",
+      "IMPERMEABILIZAÇÃO R$ 510.569,91 – R$ 101,93/m²",
+      "FORROS R$ 216.775,95 – R$ 43,28/m²",
+      "ELEVADORES E PLATAFORMAS R$ 533.000,00 - R…",
+      "LIMPEZA DA OBRA R$ 81.640,43 – R$ 16,30/m²",
+      "ÁREAS COMUNS E PAISAGISMO R$ 742.624,53 – R$ 148,26/m²"
+    ]
+  }
+}

@@ -1814,5 +1814,86 @@
     "rodape": 42.72,
     "laminado": 68.41,
     "pintura": 4.05
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 1043,
+      "total_observacoes": 3,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/exito-oiti.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, FCK 3…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armação",
+        "itens_exemplo": [
+          "Armação aço para supraestrutura, corte e dobra em indú…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução de estrutura de c…",
+          "Mestre de obras"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Alumínio/Vidro",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - Tipo (12x)",
+          "Guarda Corpo em Alumínio e Vidro"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Geral",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações (MEP)",
+        "sub_disciplina": "Aquecimento",
+        "itens_exemplo": [
+          "Sistema de aquecimento central de água"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "RESIDENCIAL OITI - OBRA",
+        "observacao": "61",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "RUA HEITOR LIBERATO, 2131 - SÃO JUDAS - ITAJAI/SC - 88303-101",
+        "observacao": "",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "1 - 26/09/2022 - 14:22:57",
+        "observacao": "",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:32:46",
+      "duration_s": 83.1,
+      "compact_chars": 863
+    }
   }
 }

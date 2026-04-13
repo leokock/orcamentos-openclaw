@@ -1,0 +1,115 @@
+{
+  "projeto": "fonseca-empreendimentos-estoril",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:42:32",
+  "compact_chars": 3055,
+  "duration_s": 99.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 4…\",\n        \"Concreto usinado bombeável, para estacas, fck 30MPa, c…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Execução Estrutural\",\n      \"itens_exemplo\": [\n        \"Mão de obra empreitada para execução estrutura de conc…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Mobiliário\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio - Tipo A\",\n        \"Esquadrias de alumínio - Tipo B\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Mobiliário\",\n      \"sub_disciplina\": \"Mobiliário e Áreas Comuns\",\n      \"itens_exemplo\": [\n        \"Ambientação (mobiliário, decoração)\",\n        \"Área:\",\n        \"Marcenaria\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica e Subestação\",\n      \"itens_exemplo\": [\n        \"Disjuntores\",\n        \"Subestação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidráulica e Climatização\",\n      \"itens_exemplo\": [\n        \"Infraestrutura para climatização - Material e mão de o…\",\n        \"Tubulação de esgoto sanitário e águas pluviais\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais e Administrativo\",\n      \"sub_disciplina\": \"Locação de Equipamentos\",\n      \"itens_exemplo\": [\n        \"Locação de balancim elétrico\",\n        \"Locação de grua\",\n        \"Locação de elevador cremalheira\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais e Administrativo\",\n      \"sub_disciplina\": \"Mão de Obra e Equipe\",\n      \"itens_exemplo\": [\n        \"Rateio equipe administrativa (escritório central) - 48…\",\n        \"Engenheiro civil\",\n        \"Mestre de obras\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Orçamentista\",\n      \"observacao\": \"Adotado conforme levantamento em projeto\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Orçamentista\",\n      \"observacao\": \"Considerando espaçamento de 0,80m por meses\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Orçamentista\",\n      \"observacao\": \"Valor do Sienge 126 mil/ apropriado 586 mil\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Orçamentista\",\n      \"observacao\": \"Custo no Sienge e apropriado divergem muito\",\n      \"categoria\": \"alerta\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Mão de obra empreitada para execução estrutura de conc… (repetido com valores idênticos)\",\n    \"Mão de Obra (repetido na seção INSTALAÇÕES)\",\n    \"Área: (repetido na seção MOBILIÁRIO)\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Valor do Sienge 126 mil/ apropriado 586 mil\",\n      \"motivo\": \"Grande diferença de valores entre Sienge e valor apropriado\"\n    },\n    {\n      \"item\": \"Custo no Sienge e apropriado divergem muito\",\n      \"motivo\": \"Indica discrepância significativa de custos\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…",
+          "Concreto usinado bombeável, para estacas, fck 30MPa, c…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Execução Estrutural",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução estrutura de conc…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - Tipo A",
+          "Esquadrias de alumínio - Tipo B"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Mobiliário e Áreas Comuns",
+        "itens_exemplo": [
+          "Ambientação (mobiliário, decoração)",
+          "Área:",
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Subestação",
+        "itens_exemplo": [
+          "Disjuntores",
+          "Subestação"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica e Climatização",
+        "itens_exemplo": [
+          "Infraestrutura para climatização - Material e mão de o…",
+          "Tubulação de esgoto sanitário e águas pluviais"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Administrativo",
+        "sub_disciplina": "Locação de Equipamentos",
+        "itens_exemplo": [
+          "Locação de balancim elétrico",
+          "Locação de grua",
+          "Locação de elevador cremalheira"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Administrativo",
+        "sub_disciplina": "Mão de Obra e Equipe",
+        "itens_exemplo": [
+          "Rateio equipe administrativa (escritório central) - 48…",
+          "Engenheiro civil",
+          "Mestre de obras"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Orçamentista",
+        "observacao": "Adotado conforme levantamento em projeto",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Orçamentista",
+        "observacao": "Considerando espaçamento de 0,80m por meses",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Orçamentista",
+        "observacao": "Valor do Sienge 126 mil/ apropriado 586 mil",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Orçamentista",
+        "observacao": "Custo no Sienge e apropriado divergem muito",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Mão de obra empreitada para execução estrutura de conc… (repetido com valores idênticos)",
+      "Mão de Obra (repetido na seção INSTALAÇÕES)",
+      "Área: (repetido na seção MOBILIÁRIO)"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Valor do Sienge 126 mil/ apropriado 586 mil",
+        "motivo": "Grande diferença de valores entre Sienge e valor apropriado"
+      },
+      {
+        "item": "Custo no Sienge e apropriado divergem muito",
+        "motivo": "Indica discrepância significativa de custos"
+      }
+    ]
+  }
+}

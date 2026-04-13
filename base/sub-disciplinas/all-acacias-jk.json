@@ -1,0 +1,80 @@
+{
+  "projeto": "all-acacias-jk",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:30:02",
+  "compact_chars": 2477,
+  "duration_s": 84.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"ACO CA-60 5,00 MM\",\n        \"ACO CA-50A 6,30 MM (1/4)\",\n        \"ACO CA-50A 8,00 MM (5/16)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Reboco e Massa\",\n      \"itens_exemplo\": [\n        \"Mao de obra para reboco interno, incluindo chapisco\",\n        \"Massa unica para reboco interno em argamassa estabiliz…\",\n        \"Contrapiso comum em argamassa estabilizada, nao aderid…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Revestimentos\",\n      \"itens_exemplo\": [\n        \"Revestimento interno de piso porcelanato placa 80x80cm…\",\n        \"Mao de obra para colocacao e rejuntamento de piso porc…\",\n        \"Revestimento em Cerâmica 60x60cm interno\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Serviços\",\n      \"sub_disciplina\": \"Gerenciamento e Projetos\",\n      \"itens_exemplo\": [\n        \"Projeto de Prevenção Combate a Incêndio\",\n        \"Projeto Comunicação e Dados\",\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Materiais Complementares\",\n      \"sub_disciplina\": \"Argamassas e Detalhes\",\n      \"itens_exemplo\": [\n        \"Argamassa Para Rejuntamento\",\n        \"Rodape de poliestireno 10cm\",\n        \"Andaime, Escoramento Metalico E Balancim\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"ORÇAMENTO_EXECUTIVO\",\n      \"observacao\": \"SUPRAESTRUTURA\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ESTUDOS | PROJETOS | CONSULTORIAS\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"Serviço Levantamento Topografico\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"O uso recorrente da unidade M2 para medição de áreas (Resumo_Parede e OBRA).\",\n    \"A repetição de itens de serviço como 'GERENCIAMENTO TÉCNICO E ADMINISTRATIVO' em diferentes seções de custo.\",\n    \"A lista de itens de aço (ACO CA-50A) cobrindo múltiplos diâmetros.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "ACO CA-60 5,00 MM",
+          "ACO CA-50A 6,30 MM (1/4)",
+          "ACO CA-50A 8,00 MM (5/16)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Reboco e Massa",
+        "itens_exemplo": [
+          "Mao de obra para reboco interno, incluindo chapisco",
+          "Massa unica para reboco interno em argamassa estabiliz…",
+          "Contrapiso comum em argamassa estabilizada, nao aderid…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Revestimento interno de piso porcelanato placa 80x80cm…",
+          "Mao de obra para colocacao e rejuntamento de piso porc…",
+          "Revestimento em Cerâmica 60x60cm interno"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Serviços",
+        "sub_disciplina": "Gerenciamento e Projetos",
+        "itens_exemplo": [
+          "Projeto de Prevenção Combate a Incêndio",
+          "Projeto Comunicação e Dados",
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Materiais Complementares",
+        "sub_disciplina": "Argamassas e Detalhes",
+        "itens_exemplo": [
+          "Argamassa Para Rejuntamento",
+          "Rodape de poliestireno 10cm",
+          "Andaime, Escoramento Metalico E Balancim"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "ORÇAMENTO_EXECUTIVO",
+        "observacao": "SUPRAESTRUTURA",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESTUDOS | PROJETOS | CONSULTORIAS",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "Serviço Levantamento Topografico",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "O uso recorrente da unidade M2 para medição de áreas (Resumo_Parede e OBRA).",
+      "A repetição de itens de serviço como 'GERENCIAMENTO TÉCNICO E ADMINISTRATIVO' em diferentes seções de custo.",
+      "A lista de itens de aço (ACO CA-50A) cobrindo múltiplos diâmetros."
+    ],
+    "fora_da_curva": []
+  }
+}

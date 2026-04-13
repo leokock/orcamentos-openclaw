@@ -1,0 +1,66 @@
+{
+  "projeto": "sak-engenharia",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:01:45",
+  "compact_chars": 1711,
+  "duration_s": 60.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para estacas, fck 40MPa, s…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma\",\n      \"itens_exemplo\": [\n        \"Fabricação de fôrma para vigas, em chapas de madeira c…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de Obra Estrutural\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de estrutura de concreto arm…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Reboco/Paredes\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de reboco externo, incluso c…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica\",\n      \"itens_exemplo\": [\n        \"Mão de obra para instalações elétricas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Legal/Aprovação\",\n      \"itens_exemplo\": [\n        \"Taxas aprovação/legal. Prefeitura + Outorga\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos Especiais\",\n      \"sub_disciplina\": \"Elevadores\",\n      \"itens_exemplo\": [\n        \"Elevador social\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Os valores de todos os macrogrupos (TOTAL, SUPRAESTRUTURA, ESQUADRIAS, etc.) são idênticos no ORÇAMENTO_EXECUTIVO e no ORÇAMENTO_PARAMÉTRICO.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para estacas, fck 40MPa, s…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Fabricação de fôrma para vigas, em chapas de madeira c…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra Estrutural",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura de concreto arm…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Reboco/Paredes",
+        "itens_exemplo": [
+          "Mão de obra para execução de reboco externo, incluso c…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mão de obra para instalações elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Legal/Aprovação",
+        "itens_exemplo": [
+          "Taxas aprovação/legal. Prefeitura + Outorga"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos Especiais",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Elevador social"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "Os valores de todos os macrogrupos (TOTAL, SUPRAESTRUTURA, ESQUADRIAS, etc.) são idênticos no ORÇAMENTO_EXECUTIVO e no ORÇAMENTO_PARAMÉTRICO."
+    ],
+    "fora_da_curva": []
+  }
+}

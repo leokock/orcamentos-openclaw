@@ -176,5 +176,132 @@
     "porcelanato": 118.18,
     "rodape": 50.65,
     "pintura": 11.72
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 19,
+      "total_itens": 4134,
+      "total_observacoes": 112,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/gdi-playa-negra.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Terreno e Administração",
+        "sub_disciplina": "Direitos e Terrenos",
+        "itens_exemplo": [
+          "TERRENO 3 - Jordan Martins e João Martins",
+          "Compra de TDC (Transferência de Direito de Construir)",
+          "TERRENO 3 - Torna financeira - Jordan Martins e João M…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Execução",
+        "itens_exemplo": [
+          "Concreto usinado bombeavel para supraestrutura Fck 40M…",
+          "Mão de obra - execução de supraestrutura",
+          "Escavação dos Subsolos e Remoção do Solo"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Alvenaria e Reboco",
+        "itens_exemplo": [
+          "Mão de obra - paredes / vergas e contra-vergas",
+          "Mão de obra para reboco interno"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Louças e Metais",
+        "itens_exemplo": [
+          "Vaso sanitário deca branco",
+          "Cuba de cozinha",
+          "Acabamento metálico para registro de gaveta"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário e Equipamentos",
+        "sub_disciplina": "Marcenaria e Móveis Fixos",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Marcenaria/marmoaria"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário e Equipamentos",
+        "sub_disciplina": "Mobiliário Solto",
+        "itens_exemplo": [
+          "Sofá canto deck impermeável",
+          "Espreguiçadeira de madeira",
+          "Cadeiras de fio metálicas"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "GDI",
+        "observacao": "Mantido conforme lançamento inicial pela GDI",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "GDI",
+        "observacao": "Mantido conforme lançamento inicial pela GDI, ajuste de unidade e alocação na estrutura",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Quantitativo/Custo",
+        "observacao": "Conforme quantitativo do projetista, custo cotação encaminhada pela GDI, 10% de perda",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Reunião",
+        "observacao": "Ajuste realizado conforme alinhamento da reunião do dia 18/12/2024.",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "Consideração de 2 jogos referentes ao pavimento tipo",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Norma",
+        "observacao": "Previsto por exigência de norma",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Formulário",
+        "observacao": "Previsto confrome preenchimento em fomulário no dia 26/02/2024",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Distribuição de Quantitativos",
+        "observacao": "Distribuição por pavimento não bate com separação previa da empreitada pela distribuição de uqantitativos, po…",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Mão de Obra - Implantação do canteiros de Obras (Repetido em 3 blocos)",
+      "Mão de obra - execução de supraestrutura (Repetido em 3 blocos)",
+      "Mantido conforme lançamento inicial pela GDI (Repetição de observação)"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Mantido conforme lançamento inicial pela GDI - SUGERIDO REAPROPRIAÇÃO",
+        "motivo": "Sugestão de reapropriação de valor"
+      },
+      {
+        "item": "Distribuição por pavimento não bate com separação previa da empreitada pela distribuição de uqantitativos, po…",
+        "motivo": "Inconsistência na distribuição de quantitativos por pavimento"
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:44:22",
+      "duration_s": 109.5,
+      "compact_chars": 3484
+    }
   }
 }

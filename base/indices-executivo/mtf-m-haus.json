@@ -1553,5 +1553,82 @@
     "porcelanato": 56.77,
     "contrapiso": 18.31,
     "rodape": 12.57
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 1027,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/mtf-m-haus.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "CONCRETO USINADO BOMBEÁVEL - 45MPA (5% PERDA) - SUPRAE…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "ARMADURA VIGA, PILAR E LAJE CA50 - 20,0 MM"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "M.O. Estrutura",
+        "itens_exemplo": [
+          "M.O. EMPREITADA SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento Interno",
+        "itens_exemplo": [
+          "MAO DE OBRA EMPREITADA REVESTIMENTO INTERNO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento Externo",
+        "itens_exemplo": [
+          "M.O. EMPREITADA REVESTIMENTO EXTERNO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos",
+        "itens_exemplo": [
+          "M.O. EMPREITADA PISOS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Paredes e Painéis",
+        "itens_exemplo": [
+          "EMPREITADA DE MÃO DE OBRA - PAREDES E PAINÉIS"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "ESQUADRIAS DE ALUMÍNIO - MATERIAL E MÃO DE OBRA"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:19:47",
+      "duration_s": 80.7,
+      "compact_chars": 748
+    }
   }
 }

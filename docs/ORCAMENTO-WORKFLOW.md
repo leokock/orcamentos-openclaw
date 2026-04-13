@@ -1,7 +1,23 @@
 # ORCAMENTO-WORKFLOW.md — Workflow Completo de Orçamentação
 
-**Última atualização:** 13/março/2026  
+**Última atualização:** 13/abril/2026  
 **Baseado em:** Projeto Oxford 600 Residence (Mussi Empreendimentos)
+
+---
+
+## Camada Qualitativa Gemma — Consulta Obrigatória (desde 13/04/2026)
+
+Antes de iniciar qualquer paramétrico ou executivo novo, **consultar a camada qualitativa** dos 126 projetos da base. Cada `~/orcamentos-openclaw/base/indices-executivo/[projeto].json` agora tem uma chave `qualitative` com sub-disciplinas, observações de orçamentista, premissas técnicas, BDI/encargos e decisões — extraídas via Gemma local sobre os xlsx e PDFs entregues.
+
+**Como usar:**
+1. Buscar 3-5 projetos similares (AC ± 20%, padrão equivalente)
+2. Olhar `qualitative.sub_disciplinas` → usar como base para detalhar cada macrogrupo do novo projeto
+3. Olhar `qualitative.premissas_tecnicas` → reutilizar premissas (perdas, prazo, fundação, cisterna, etc.)
+4. Olhar `qualitative.observacoes_orcamentista` → reutilizar textos no memorial e log
+
+**Documentação canônica:** `~/orcamentos-openclaw/base/CAMADA-QUALITATIVA-GEMMA.md`
+**Roadmap (Fases 4-7):** `~/orcamentos-openclaw/base/FASES-FUTURAS.md`
+**Estatísticas:** 761 sub-disciplinas, 553 observações, 269 padrões, 404 premissas, 34 BDI, 124 decisões em 126 projetos
 
 ---
 

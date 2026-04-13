@@ -1,0 +1,77 @@
+{
+  "projeto": "all-lago-di-garda",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:25:26",
+  "compact_chars": 3217,
+  "duration_s": 103.5,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Revestimentos\",\n      \"itens_exemplo\": [\n        \"Mao de obra para colocacao e rejuntamento de piso porc…\",\n        \"Revestimento interno de piso porcelanato placa 80x80cm…\",\n        \"REVESTIMENTO - HIT GRIS 80X80 NAT RET\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Reboco e Chapisco\",\n      \"itens_exemplo\": [\n        \"Mao de obra para reboco interno, incluindo chapisco\",\n        \"MAO DE OBRA PARA CHAPISCO E REBOCO INTERNOS\",\n        \"ARGAMASSA ESTABILIZADA PARA REBOCO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Forros\",\n      \"itens_exemplo\": [\n        \"Forro de Gesso em Placa - material e mao de obra\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Alvenaria\",\n      \"sub_disciplina\": \"Blocos e Ferragens\",\n      \"itens_exemplo\": [\n        \"BLOCO CERAMICO VEDACAO 11,5 X 19 X 29 CM - FUROS NA HO…\",\n        \"BLOCO CERAMICO VEDACAO 14 X 19 X 29 CM - FUROS NA HORI…\",\n        \"ACO CA-50A 6,30 MM (1/4)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Locação e Apoio\",\n      \"itens_exemplo\": [\n        \"LOCAÇÃO DE ESCORAS METÁLICAS (3,20MT)\",\n        \"Andaime, Escoramento Metalico E Balancim\",\n        \"ESPACADOR CIRCULAR 40MM\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Serviços de Projeto\",\n      \"observacao\": \"Projeto Elétrico/Comunicação/Telefonia/Luminotécnico\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Serviços de Projeto\",\n      \"observacao\": \"Projeto de Prevenção Combate a Incêndio\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Serviços de Projeto\",\n      \"observacao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição de itens de mão de obra com variações de capitalização (ex: 'Mao de obra...' vs 'MAO DE OBRA...')\",\n    \"Itens de serviço de projeto (ex: 'Projeto Elétrico/Comunicação/Telefonia/Luminotécnico') listados em observações e representando custos recorrentes.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Mao de obra para colocacao e rejuntamento de piso porc…",
+          "Revestimento interno de piso porcelanato placa 80x80cm…",
+          "REVESTIMENTO - HIT GRIS 80X80 NAT RET"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Reboco e Chapisco",
+        "itens_exemplo": [
+          "Mao de obra para reboco interno, incluindo chapisco",
+          "MAO DE OBRA PARA CHAPISCO E REBOCO INTERNOS",
+          "ARGAMASSA ESTABILIZADA PARA REBOCO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Forros",
+        "itens_exemplo": [
+          "Forro de Gesso em Placa - material e mao de obra"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Alvenaria",
+        "sub_disciplina": "Blocos e Ferragens",
+        "itens_exemplo": [
+          "BLOCO CERAMICO VEDACAO 11,5 X 19 X 29 CM - FUROS NA HO…",
+          "BLOCO CERAMICO VEDACAO 14 X 19 X 29 CM - FUROS NA HORI…",
+          "ACO CA-50A 6,30 MM (1/4)"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Locação e Apoio",
+        "itens_exemplo": [
+          "LOCAÇÃO DE ESCORAS METÁLICAS (3,20MT)",
+          "Andaime, Escoramento Metalico E Balancim",
+          "ESPACADOR CIRCULAR 40MM"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Serviços de Projeto",
+        "observacao": "Projeto Elétrico/Comunicação/Telefonia/Luminotécnico",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Serviços de Projeto",
+        "observacao": "Projeto de Prevenção Combate a Incêndio",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Serviços de Projeto",
+        "observacao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de itens de mão de obra com variações de capitalização (ex: 'Mao de obra...' vs 'MAO DE OBRA...')",
+      "Itens de serviço de projeto (ex: 'Projeto Elétrico/Comunicação/Telefonia/Luminotécnico') listados em observações e representando custos recorrentes."
+    ],
+    "fora_da_curva": []
+  }
+}

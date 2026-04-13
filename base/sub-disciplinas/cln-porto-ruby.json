@@ -1,0 +1,126 @@
+{
+  "projeto": "cln-porto-ruby",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:39:48",
+  "compact_chars": 3614,
+  "duration_s": 117.2,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Fundações\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 35MPa Bombeavel\",\n        \"Concreto Usinado FCK = 40MPa Bombeavel\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Fundações\",\n      \"sub_disciplina\": \"Alvenaria e Paredes\",\n      \"itens_exemplo\": [\n        \"Mão de obra execução de massa única em paredes interna…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços e Administração\",\n      \"sub_disciplina\": \"Mão de Obra e Pessoal\",\n      \"itens_exemplo\": [\n        \"Engenheiro\",\n        \"Mestre\",\n        \"Auxiliar Engenharia\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Instalações\",\n      \"sub_disciplina\": \"Sanitários e Louças\",\n      \"itens_exemplo\": [\n        \"Banheiro - Bacia Sanitária / Caixa Acoplada\",\n        \"Kit bacia sanitaria\",\n        \"Porta papel higienico \\\\ Detalhe: Cromado Vercci\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Instalações\",\n      \"sub_disciplina\": \"Metais e Ferragens\",\n      \"itens_exemplo\": [\n        \"Acabamento de Registro\",\n        \"Gancho\\\\ Detalhe: Cromado Vercci\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos e Mecânica\",\n      \"sub_disciplina\": \"Bombas e Geradores\",\n      \"itens_exemplo\": [\n        \"GERADOR DE COLORO BZ -20\",\n        \"MOTOBOMBA SYLLENT AUTO ESCORVANTE 1/3CV Mono\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos e Mecânica\",\n      \"sub_disciplina\": \"Estruturas de Piscina\",\n      \"itens_exemplo\": [\n        \"TAMPA GDA REBAIXADA C/ GRELHA 80X80cm CÓDIGO 3078\",\n        \"TAMPA ARTICULADA GDA 110X110cm CÓDIGO 3140\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 4 meses.\",\n      \"observacao\": \"Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 4 meses.\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\",\n      \"observacao\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Considerado sem indicação em projeto, consideração de 13% de perda\",\n      \"observacao\": \"Considerado sem indicação em projeto, consideração de 13% de perda\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Considerado empolamento 30% da escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estimado com base em índices históricos\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Definido conforme aba \\\"Canteiro\\\"\",\n      \"observacao\": \"Definido conforme aba \\\"Canteiro\\\"\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba\",\n      \"observacao\": \"Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Previsão para o período da infraestrutura\",\n      \"observacao\": \"Previsão para o período da infraestrutura\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Conforme estimativa da aba \\\"Canteiro\\\"\",\n      \"observacao\": \"Conforme estimativa da aba \\\"Canteiro\\\"\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição de itens de acabamento (Acabamento de Registro)\",\n    \"Múltiplas observações detalhando itens de banheiro (Bacia Sanitária)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 35MPa Bombeavel",
+          "Concreto Usinado FCK = 40MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Alvenaria e Paredes",
+        "itens_exemplo": [
+          "Mão de obra execução de massa única em paredes interna…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços e Administração",
+        "sub_disciplina": "Mão de Obra e Pessoal",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Mestre",
+          "Auxiliar Engenharia"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Sanitários e Louças",
+        "itens_exemplo": [
+          "Banheiro - Bacia Sanitária / Caixa Acoplada",
+          "Kit bacia sanitaria",
+          "Porta papel higienico \\ Detalhe: Cromado Vercci"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Instalações",
+        "sub_disciplina": "Metais e Ferragens",
+        "itens_exemplo": [
+          "Acabamento de Registro",
+          "Gancho\\ Detalhe: Cromado Vercci"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos e Mecânica",
+        "sub_disciplina": "Bombas e Geradores",
+        "itens_exemplo": [
+          "GERADOR DE COLORO BZ -20",
+          "MOTOBOMBA SYLLENT AUTO ESCORVANTE 1/3CV Mono"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos e Mecânica",
+        "sub_disciplina": "Estruturas de Piscina",
+        "itens_exemplo": [
+          "TAMPA GDA REBAIXADA C/ GRELHA 80X80cm CÓDIGO 3078",
+          "TAMPA ARTICULADA GDA 110X110cm CÓDIGO 3140"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 4 meses.",
+        "observacao": "Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 4 meses.",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Considerado sem indicação em projeto, consideração de 13% de perda",
+        "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Considerado empolamento 30% da escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimado com base em índices históricos",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Definido conforme aba \"Canteiro\"",
+        "observacao": "Definido conforme aba \"Canteiro\"",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba",
+        "observacao": "Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Previsão para o período da infraestrutura",
+        "observacao": "Previsão para o período da infraestrutura",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Conforme estimativa da aba \"Canteiro\"",
+        "observacao": "Conforme estimativa da aba \"Canteiro\"",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de itens de acabamento (Acabamento de Registro)",
+      "Múltiplas observações detalhando itens de banheiro (Bacia Sanitária)"
+    ],
+    "fora_da_curva": []
+  }
+}

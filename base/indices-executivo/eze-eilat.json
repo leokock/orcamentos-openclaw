@@ -1477,5 +1477,141 @@
   "acabamentos_pus": {
     "rodape": 65.61,
     "pintura": 8.66
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 753,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/eze-eilat.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Forma (Térreo)"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armaduras (Blocos, vigas equilíbrio e baldrames)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "Elementos/acabamentos para fachadas (Brise Vertical Me…)",
+          "Fornecimento e instalação de esquadrias externas em al…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Despesas com equipamentos da obra (instalação, manuten…)",
+          "Fornecimento e instalação de elevador de passageiros (…)"
+        ]
+      },
+      {
+        "macrogrupo": "Segurança",
+        "sub_disciplina": "EPI/EPC",
+        "itens_exemplo": [
+          "EPI (Equipamentos de proteção individual)",
+          "EPC (Equipamentos de proteção coletiva) - Diversos"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "A unidade 'mes' e a quantidade 'qtd=36' são aplicadas a Despesas com equipamentos, EPI e EPC.",
+      "A unidade 'vb' é utilizada para itens de Estrutura e Acabamentos."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:35:00",
+      "duration_s": 66.1,
+      "compact_chars": 776
+    },
+    "pdf_metadata": {
+      "ac_m2": "1.767,30",
+      "ur": "BOMBINHAS, SANTA CATARINA",
+      "tipologia": null,
+      "data_base": "15.11.2023",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "geral",
+        "premissa": "Custos considerando prazo de 36 meses de obra."
+      },
+      {
+        "area": "infraestrutura",
+        "premissa": "Fundação em estacas tipo hélice contínua"
+      },
+      {
+        "area": "infraestrutura",
+        "premissa": "Armação com corte e dobra em obra"
+      },
+      {
+        "area": "infraestrutura",
+        "premissa": "Formas de sapatas e baldrames em madeira compensada resinada, considerando 2 utilizações"
+      },
+      {
+        "area": "superestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes e escadarias em compensado plastificado 18 mm, considerando 2 jogos de forma"
+      },
+      {
+        "area": "alvenaria",
+        "premissa": "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico"
+      },
+      {
+        "area": "alvenaria",
+        "premissa": "Consideração de blocos cerâmicos de vedação com argamassa produzida em obra para assentamento"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "infraestrutura",
+        "decisao": "Concreto usinado de 40 MPa para estacas."
+      },
+      {
+        "contexto": "infraestrutura",
+        "decisao": "Concreto usinado de 30 MPa para sapatas e baldrames."
+      },
+      {
+        "contexto": "superestrutura",
+        "decisao": "Concreto de 30 Mpa."
+      },
+      {
+        "contexto": "alvenaria",
+        "decisao": "Verga e contraverga de concreto moldada in loco"
+      },
+      {
+        "contexto": "alvenaria",
+        "decisao": "Encunhamento com argamassa expansiva"
+      },
+      {
+        "contexto": "alvenaria",
+        "decisao": "Amarração de alvenaria e estrutura com tela soldada"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "EQUIPAMENTOS: EPIs e EPCs, Guarda-corpos de proteção, Bandejas de proteção primária e secundária, Tela fachadeira",
+      "MOVIMENTAÇÃO DE TERRA: Escavação e reaterro de valas; Movimentação de bota-fora; Lastro de concreto magro"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:13:15",
+      "duration_s": 86.5,
+      "excerpt_chars": 1500
+    }
   }
 }

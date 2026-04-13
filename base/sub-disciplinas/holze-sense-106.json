@@ -1,0 +1,126 @@
+{
+  "projeto": "holze-sense-106",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:57:03",
+  "compact_chars": 3015,
+  "duration_s": 103.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 3…\",\n        \"Concreto usinado bombeável, para estacas, fck 40MPa, s…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma\",\n      \"itens_exemplo\": [\n        \"Fabricação e montagem de forma Compensado Plástificado…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Acabamentos e Complementos\",\n      \"itens_exemplo\": [\n        \"Mão de obra empreitada para execução de estrutura de c…\",\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Outorga\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Área\",\n      \"itens_exemplo\": [\n        \"Área:\",\n        \"Área:\",\n        \"Área:\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Marcenaria\",\n      \"itens_exemplo\": [\n        \"Marcenaria\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Louças e Metais\",\n      \"sub_disciplina\": \"Louças\",\n      \"itens_exemplo\": [\n        \"Vaso sanitário deca branco\",\n        \"Cuba de cozinha\",\n        \"Vaso sanitário deca branco PNE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Louças e Metais\",\n      \"sub_disciplina\": \"Metais e Acessórios\",\n      \"itens_exemplo\": [\n        \"Mão de obra louças e metais\",\n        \"Acabamento metálico para registro de gaveta\",\n        \"Parafuso niquelado para fixação de bacia sanitária - t…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Piscina\",\n      \"sub_disciplina\": \"Filtragem e Bombas\",\n      \"itens_exemplo\": [\n        \"TROCADOR DE CALOR SODRAMAR SD 160 1cv\",\n        \"BOMBA DANCOR AUTO ASPITANTE PF-17 1,5cv\",\n        \"FILTRO DANCOR DRF-24-13\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Interfonia\",\n      \"sub_disciplina\": \"Componentes Eletrônicos\",\n      \"itens_exemplo\": [\n        \"Aparelho interfone\",\n        \"no Break\",\n        \"Porteiro externo\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo atualizado conforme solicitação do dia 27/10/2024\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo conforme respostas informadas no formulário de custos indiretos.\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo atualizado conforme solicitação do dia 27/10/2024 / Alteração na profundidade das estacas.\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo inserido conforme solicitação do dia 27/10/2024\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Quantitativo\",\n      \"observacao\": \"Quantitativo conforme projetos, englobando blocos e baldrames.\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"REVESTIMENTO DE PISO DE PEDRA\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Custo atualizado conforme solicitação do dia 27/10/2024\",\n    \"Área:\",\n    \"BOMBA DANCOR AUTO ASPITANTE PF-17\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 3…",
+          "Concreto usinado bombeável, para estacas, fck 40MPa, s…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Fabricação e montagem de forma Compensado Plástificado…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Acabamentos e Complementos",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução de estrutura de c…",
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Outorga"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Área",
+        "itens_exemplo": [
+          "Área:",
+          "Área:",
+          "Área:"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Marcenaria",
+        "itens_exemplo": [
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e Metais",
+        "sub_disciplina": "Louças",
+        "itens_exemplo": [
+          "Vaso sanitário deca branco",
+          "Cuba de cozinha",
+          "Vaso sanitário deca branco PNE"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e Metais",
+        "sub_disciplina": "Metais e Acessórios",
+        "itens_exemplo": [
+          "Mão de obra louças e metais",
+          "Acabamento metálico para registro de gaveta",
+          "Parafuso niquelado para fixação de bacia sanitária - t…"
+        ]
+      },
+      {
+        "macrogrupo": "Piscina",
+        "sub_disciplina": "Filtragem e Bombas",
+        "itens_exemplo": [
+          "TROCADOR DE CALOR SODRAMAR SD 160 1cv",
+          "BOMBA DANCOR AUTO ASPITANTE PF-17 1,5cv",
+          "FILTRO DANCOR DRF-24-13"
+        ]
+      },
+      {
+        "macrogrupo": "Interfonia",
+        "sub_disciplina": "Componentes Eletrônicos",
+        "itens_exemplo": [
+          "Aparelho interfone",
+          "no Break",
+          "Porteiro externo"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Custo",
+        "observacao": "Custo atualizado conforme solicitação do dia 27/10/2024",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo conforme respostas informadas no formulário de custos indiretos.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo atualizado conforme solicitação do dia 27/10/2024 / Alteração na profundidade das estacas.",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo inserido conforme solicitação do dia 27/10/2024",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Quantitativo",
+        "observacao": "Quantitativo conforme projetos, englobando blocos e baldrames.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "REVESTIMENTO DE PISO DE PEDRA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Custo atualizado conforme solicitação do dia 27/10/2024",
+      "Área:",
+      "BOMBA DANCOR AUTO ASPITANTE PF-17"
+    ],
+    "fora_da_curva": []
+  }
+}

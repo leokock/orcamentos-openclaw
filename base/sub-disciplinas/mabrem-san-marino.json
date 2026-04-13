@@ -1,0 +1,63 @@
+{
+  "projeto": "mabrem-san-marino",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:13:20",
+  "compact_chars": 676,
+  "duration_s": 67.6,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto (M3)\",\n      \"itens_exemplo\": [\n        \"02.01.001.0003.0001\",\n        \"02.02.004.0003.0002\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Área (M2)\",\n      \"itens_exemplo\": [\n        \"02.01.002.0005.0001\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Volume (VB)\",\n      \"itens_exemplo\": [\n        \"02.17.001.0001.0001\",\n        \"02.04.001.0007.0001\",\n        \"02.13.004.0001.0003\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"observacao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"observacao\": \"ESTUDOS | PROJETOS | CONSULTORIAS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Serviço\",\n      \"observacao\": \"Consultoria de Orçamento e Planejamento\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Serviço\",\n      \"observacao\": \"Laudo preventivo de danos a vizinhanca\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Uso de códigos de classificação numérica padronizada (ex: 02.XX.XXXX.XXXX.XXXX)\",\n    \"Repetição da unidade de medida VB (Volume/Bulk)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto (M3)",
+        "itens_exemplo": [
+          "02.01.001.0003.0001",
+          "02.02.004.0003.0002"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Área (M2)",
+        "itens_exemplo": [
+          "02.01.002.0005.0001"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Volume (VB)",
+        "itens_exemplo": [
+          "02.17.001.0001.0001",
+          "02.04.001.0007.0001",
+          "02.13.004.0001.0003"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Escopo Geral",
+        "observacao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo Geral",
+        "observacao": "ESTUDOS | PROJETOS | CONSULTORIAS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Consultoria de Orçamento e Planejamento",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Laudo preventivo de danos a vizinhanca",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso de códigos de classificação numérica padronizada (ex: 02.XX.XXXX.XXXX.XXXX)",
+      "Repetição da unidade de medida VB (Volume/Bulk)"
+    ],
+    "fora_da_curva": []
+  }
+}

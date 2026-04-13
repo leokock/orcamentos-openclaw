@@ -1,0 +1,60 @@
+{
+  "projeto": "fg-scenarium",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T01:06:17",
+  "excerpt_chars": 4328,
+  "duration_s": 87.2,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"42.277,77\",\n    \"ur\": \"m²\",\n    \"tipologia\": \"Complexo residencial/lazer (4 Torres)\",\n    \"data_base\": \"DEZEMBRO/2024\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Fechamento em Light Steel Frame, com divisórias em Drywall\"\n    },\n    {\n      \"area\": \"Lazer\",\n      \"premissa\": \"Lazer com mais de 3.800 m², piscinas aquecidas e borda infinita, áreas comuns completas, infra automação, aspiração central, aquecedor de passagem.\"\n    },\n    {\n      \"area\": \"Quantificação\",\n      \"premissa\": \"Quantificação seguindo detalhamentos de projeto e resumo de quantitativos disponibilizados de cada torre; Demais quantidades estimadas devido ausência de detalhamentos extrapolando índ…os.\"\n    },\n    {\n      \"area\": \"Cronograma\",\n      \"premissa\": \"Custos consideram prazo de obra de 49 meses;\"\n    },\n    {\n      \"area\": \"Terra\",\n      \"premissa\": \"Limpeza de terreno mecanizada permanente; Terraplenagem considerando corte e reaterro em solo e rocha; Escavação e reaterro mecanizado de valas para blocos e baldrames; Apiloamento mecânico do solo para valas de infraestrutura; Movimentação de bota-fora para escavação do terreno, valas de infraestrutura e estacas, considerando 30% de empolamento;\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"Concreto fck 40 MPa para estaca hélice, considerando perda de 20%; Argamassa para estaca raiz fck 30 MPa, considerando 30% de perda;\"\n    },\n    {\n      \"area\": \"Contenção\",\n      \"premissa\": \"Concreto fck 30 e 35 MPa em contenções, com consideração de 5% de perda e aditivo impermeabilizante;\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"EAP\",\n      \"decisao\": \"Separação entre Area comum, embasamento, torre e pavimentos técnicos;\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Localização: Avenida Dr. Jose Medeiros Vieira, 240, Brava Norte - Itajaí - SC\",\n    \"Estrutura: 4 TORRES\",\n    \"Custos indiretos: Custos administrativos indiretos da obra;\",\n    \"Custos diretos: Pacotes de custo de execução de obra;\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "42.277,77",
+      "ur": "m²",
+      "tipologia": "Complexo residencial/lazer (4 Torres)",
+      "data_base": "DEZEMBRO/2024",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Fechamento em Light Steel Frame, com divisórias em Drywall"
+      },
+      {
+        "area": "Lazer",
+        "premissa": "Lazer com mais de 3.800 m², piscinas aquecidas e borda infinita, áreas comuns completas, infra automação, aspiração central, aquecedor de passagem."
+      },
+      {
+        "area": "Quantificação",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativos disponibilizados de cada torre; Demais quantidades estimadas devido ausência de detalhamentos extrapolando índ…os."
+      },
+      {
+        "area": "Cronograma",
+        "premissa": "Custos consideram prazo de obra de 49 meses;"
+      },
+      {
+        "area": "Terra",
+        "premissa": "Limpeza de terreno mecanizada permanente; Terraplenagem considerando corte e reaterro em solo e rocha; Escavação e reaterro mecanizado de valas para blocos e baldrames; Apiloamento mecânico do solo para valas de infraestrutura; Movimentação de bota-fora para escavação do terreno, valas de infraestrutura e estacas, considerando 30% de empolamento;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck 40 MPa para estaca hélice, considerando perda de 20%; Argamassa para estaca raiz fck 30 MPa, considerando 30% de perda;"
+      },
+      {
+        "area": "Contenção",
+        "premissa": "Concreto fck 30 e 35 MPa em contenções, com consideração de 5% de perda e aditivo impermeabilizante;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "EAP",
+        "decisao": "Separação entre Area comum, embasamento, torre e pavimentos técnicos;"
+      }
+    ],
+    "observacoes_chave": [
+      "Localização: Avenida Dr. Jose Medeiros Vieira, 240, Brava Norte - Itajaí - SC",
+      "Estrutura: 4 TORRES",
+      "Custos indiretos: Custos administrativos indiretos da obra;",
+      "Custos diretos: Pacotes de custo de execução de obra;"
+    ]
+  }
+}

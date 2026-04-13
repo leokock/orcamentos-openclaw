@@ -162,5 +162,185 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 73,
+      "total_observacoes": 2,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/amalfi-maiori.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "REVESTIMENTOS INTERNOS DE PAREDE",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS DE PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "PISOS E PAVIMENTAÇÕES",
+        "itens_exemplo": [
+          "PISOS E PAVIMENTAÇÕES"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "SERVIÇOS COMPLEMENTARES",
+        "itens_exemplo": [
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "SÓ CONSIDERA UM POUCO DE MANTA E POLIMERICO",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "NÃO CONSIDERA TUDO OS INTEREIORES",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Os valores de GERENCIAMENTO TÉCNICO E ADMINISTRATIVO e INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS são idênticos em Planilha1, ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:33:00",
+      "duration_s": 86.7,
+      "compact_chars": 1773
+    },
+    "pdf_metadata": {
+      "ac_m2": "4.969,86",
+      "ur": "60 un",
+      "tipologia": "AMALFI – MAIORI",
+      "data_base": "JUL/23",
+      "cub_referencia": "2.747,90"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "premissa": "13,18%"
+      },
+      {
+        "area": "MOVIMENTAÇÃO DE TERRA",
+        "premissa": "0,24%"
+      },
+      {
+        "area": "INFRAESTRUTURA",
+        "premissa": "5,87%"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "19,67%"
+      },
+      {
+        "area": "PAREDES E PAINÉIS",
+        "premissa": "3,80%"
+      },
+      {
+        "area": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "premissa": "9,81%"
+      },
+      {
+        "area": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "premissa": "4,48%"
+      },
+      {
+        "area": "IMPERMEABILIZAÇÃO",
+        "premissa": "2,14%"
+      },
+      {
+        "area": "REVESTIMENTOS INTERNOS DE PAREDE",
+        "premissa": "6,51%"
+      },
+      {
+        "area": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "premissa": "1,92%"
+      },
+      {
+        "area": "PISOS E PAVIMENTAÇÕES",
+        "premissa": "4,43%"
+      },
+      {
+        "area": "PINTURA INTERNA",
+        "premissa": "4,54%"
+      },
+      {
+        "area": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "premissa": "11,10%"
+      },
+      {
+        "area": "LOUÇAS E METAIS",
+        "premissa": "0,82%"
+      },
+      {
+        "area": "COBERTURA",
+        "premissa": "0,49%"
+      },
+      {
+        "area": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "premissa": "4,96%"
+      },
+      {
+        "area": "SERVIÇOS COMPLEMENTARES",
+        "premissa": "6,04%"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Orçamento Executivo R02 – 05/02/2024",
+      "O orçamento detalha custos por etapa de execução, área privativa e unidade.",
+      "O custo total orçado é de 25.185.732,85."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:45:57",
+      "duration_s": 76.1,
+      "excerpt_chars": 1854
+    }
   }
 }

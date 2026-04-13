@@ -1,0 +1,128 @@
+{
+  "projeto": "grupo-duo-colin",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:50:33",
+  "compact_chars": 3282,
+  "duration_s": 104.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 35MPa Bombeavel\",\n        \"Concreto\",\n        \"Concreto\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armação Aço CA-50, Diâmetro de 10,0mm\",\n        \"Armadura Convencional para Estrutura\",\n        \"Armadura Convencional para Estrutura\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma\",\n      \"itens_exemplo\": [\n        \"Fabricação forma\",\n        \"Fabricação forma\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Fechamentos\",\n      \"sub_disciplina\": \"Vidros e Alumínio\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Guarda Corpo de vidro e aluminio h=110cm\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Fechamentos\",\n      \"sub_disciplina\": \"Gesso\",\n      \"itens_exemplo\": [\n        \"Forro de gesso acartonado - áreas secas - Material e M…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Técnicos e Consultoria\",\n      \"sub_disciplina\": \"Projetos e Legalização\",\n      \"itens_exemplo\": [\n        \"Projeto Arquitetônico legal - incluindo: executivo + i…\",\n        \"Projeto estrutural\",\n        \"Projeto Arquitetônico legal - incluindo: executivo + i…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Técnicos e Consultoria\",\n      \"sub_disciplina\": \"Taxas e Aprovações\",\n      \"itens_exemplo\": [\n        \"Outorga, aprovação e demais taxas\",\n        \"Outorga, aprovação e demais taxas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário e Decoração\",\n      \"sub_disciplina\": \"Móveis Planejados\",\n      \"itens_exemplo\": [\n        \"Marcenaria\",\n        \"Mesa de Jantar Redonda Lancer\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Considerado blocos e vigas de fundação\",\n      \"observacao\": \"Considerado blocos e vigas de fundação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Considerados os três subsolos\",\n      \"observacao\": \"Considerados os três subsolos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Quantitativos com base no projeto de infraestrutura\",\n      \"observacao\": \"Quantitativos com base no projeto de infraestrutura\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Considerado em blocos e baldrames sem indicação em projeto\",\n      \"observacao\": \"Considerado em blocos e baldrames sem indicação em projeto\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Considerado em lajes sem indicação em projeto\",\n      \"observacao\": \"Considerado em lajes sem indicação em projeto\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Coeficiente originário do Gran Torino (R$ 160,00/un)\",\n      \"observacao\": \"Coeficiente originário do Gran Torino (R$ 160,00/un)\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Estimado com base em índices históricos\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Previsto 4 caçambas por mês, durante o prazo da obra\",\n      \"observacao\": \"Previsto 4 caçambas por mês, durante o prazo da obra\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Outorga, aprovação e demais taxas\",\n    \"Projeto Arquitetônico legal - incluindo: executivo + i…\",\n    \"Aquisição Elevador cremalheira\",\n    \"qtd=6918.78\",\n    \"qtd=1522.13\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 35MPa Bombeavel",
+          "Concreto",
+          "Concreto"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação Aço CA-50, Diâmetro de 10,0mm",
+          "Armadura Convencional para Estrutura",
+          "Armadura Convencional para Estrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Fabricação forma",
+          "Fabricação forma"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fechamentos",
+        "sub_disciplina": "Vidros e Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Guarda Corpo de vidro e aluminio h=110cm"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Fechamentos",
+        "sub_disciplina": "Gesso",
+        "itens_exemplo": [
+          "Forro de gesso acartonado - áreas secas - Material e M…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Técnicos e Consultoria",
+        "sub_disciplina": "Projetos e Legalização",
+        "itens_exemplo": [
+          "Projeto Arquitetônico legal - incluindo: executivo + i…",
+          "Projeto estrutural",
+          "Projeto Arquitetônico legal - incluindo: executivo + i…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Técnicos e Consultoria",
+        "sub_disciplina": "Taxas e Aprovações",
+        "itens_exemplo": [
+          "Outorga, aprovação e demais taxas",
+          "Outorga, aprovação e demais taxas"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário e Decoração",
+        "sub_disciplina": "Móveis Planejados",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Mesa de Jantar Redonda Lancer"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Considerado blocos e vigas de fundação",
+        "observacao": "Considerado blocos e vigas de fundação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Considerados os três subsolos",
+        "observacao": "Considerados os três subsolos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Quantitativos com base no projeto de infraestrutura",
+        "observacao": "Quantitativos com base no projeto de infraestrutura",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Considerado em blocos e baldrames sem indicação em projeto",
+        "observacao": "Considerado em blocos e baldrames sem indicação em projeto",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Considerado em lajes sem indicação em projeto",
+        "observacao": "Considerado em lajes sem indicação em projeto",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Coeficiente originário do Gran Torino (R$ 160,00/un)",
+        "observacao": "Coeficiente originário do Gran Torino (R$ 160,00/un)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimado com base em índices históricos",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Previsto 4 caçambas por mês, durante o prazo da obra",
+        "observacao": "Previsto 4 caçambas por mês, durante o prazo da obra",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Outorga, aprovação e demais taxas",
+      "Projeto Arquitetônico legal - incluindo: executivo + i…",
+      "Aquisição Elevador cremalheira",
+      "qtd=6918.78",
+      "qtd=1522.13"
+    ],
+    "fora_da_curva": []
+  }
+}

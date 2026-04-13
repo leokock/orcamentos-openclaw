@@ -1,0 +1,84 @@
+{
+  "projeto": "terrassa-amaro",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:12:01",
+  "compact_chars": 3749,
+  "duration_s": 102.9,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Fundações\",\n      \"sub_disciplina\": \"Concreto e Fundações\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado (SUPRAESTRUTURA) - fck 40 MPa / Brita…\",\n        \"Solo criado / Outroga onerosa\",\n        \"Escoramento para Lajes e Vigas (Locação)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Revestimentos e Pinturas\",\n      \"itens_exemplo\": [\n        \"MOE - Revestimentos de Argamassa / Reboco Interno (com…)\",\n        \"MOE - Pinturas / Internas (Pintura Acrílica - Incluído…)\",\n        \"Esquadrias de alumínio\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Sistemas e Equipamentos\",\n      \"sub_disciplina\": \"Movimentação Vertical\",\n      \"itens_exemplo\": [\n        \"Elevadores\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Serviços Gerais\",\n      \"itens_exemplo\": [\n        \"MOE - Supraestrutura / Execução Geral\",\n        \"Equipamentos de Skyplace\",\n        \"Terreno / Despesas com Outorga Onerosa\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Custos Indiretos\",\n      \"observacao\": \"OS CUSTOS INDIRETOS FORAM LANÇADOS SEGUINDO FORMULÁRIO DE CUSTOS INDIRETOS PREENCHIDO EM 24/11/2023 PELO FLÁV…\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Custos Indiretos\",\n      \"observacao\": \"Valor preenchido em formulário de custos indiretos, preenchido em 24/11/2023 pelo Flávio\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Mão de Obra/Canteiro\",\n      \"observacao\": \"Previsão de 1 pedreiro, 2 serventes e 1 carpinteriro para limpeza e manutenção de canteiro e também montagem …\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Mão de Obra/Equipamento\",\n      \"observacao\": \"Previsão de 1 guincheiro (71,8% de encargos+benefícios)\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Material/Padrão\",\n      \"observacao\": \"Pavimento G1 como referência\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Esquadrias de alumínio\",\n    \"MOE - Supraestrutura / Execução Geral\",\n    \"Concreto Usinado (SUPRAESTRUTURA) - fck 40 MPa / Brita…\",\n    \"Elevadores\",\n    \"MOE - Pinturas / Internas\",\n    \"MOE - Revestimentos de Argamassa / Reboco Interno\",\n    \"Escoramento para Lajes e Vigas (Locação)\",\n    \"Solo criado / Outroga onerosa\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Concreto e Fundações",
+        "itens_exemplo": [
+          "Concreto Usinado (SUPRAESTRUTURA) - fck 40 MPa / Brita…",
+          "Solo criado / Outroga onerosa",
+          "Escoramento para Lajes e Vigas (Locação)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimentos e Pinturas",
+        "itens_exemplo": [
+          "MOE - Revestimentos de Argamassa / Reboco Interno (com…)",
+          "MOE - Pinturas / Internas (Pintura Acrílica - Incluído…)",
+          "Esquadrias de alumínio"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas e Equipamentos",
+        "sub_disciplina": "Movimentação Vertical",
+        "itens_exemplo": [
+          "Elevadores"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Serviços Gerais",
+        "itens_exemplo": [
+          "MOE - Supraestrutura / Execução Geral",
+          "Equipamentos de Skyplace",
+          "Terreno / Despesas com Outorga Onerosa"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Custos Indiretos",
+        "observacao": "OS CUSTOS INDIRETOS FORAM LANÇADOS SEGUINDO FORMULÁRIO DE CUSTOS INDIRETOS PREENCHIDO EM 24/11/2023 PELO FLÁV…",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custos Indiretos",
+        "observacao": "Valor preenchido em formulário de custos indiretos, preenchido em 24/11/2023 pelo Flávio",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Mão de Obra/Canteiro",
+        "observacao": "Previsão de 1 pedreiro, 2 serventes e 1 carpinteriro para limpeza e manutenção de canteiro e também montagem …",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Mão de Obra/Equipamento",
+        "observacao": "Previsão de 1 guincheiro (71,8% de encargos+benefícios)",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Material/Padrão",
+        "observacao": "Pavimento G1 como referência",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Esquadrias de alumínio",
+      "MOE - Supraestrutura / Execução Geral",
+      "Concreto Usinado (SUPRAESTRUTURA) - fck 40 MPa / Brita…",
+      "Elevadores",
+      "MOE - Pinturas / Internas",
+      "MOE - Revestimentos de Argamassa / Reboco Interno",
+      "Escoramento para Lajes e Vigas (Locação)",
+      "Solo criado / Outroga onerosa"
+    ],
+    "fora_da_curva": []
+  }
+}

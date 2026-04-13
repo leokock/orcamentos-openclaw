@@ -1,0 +1,85 @@
+{
+  "projeto": "nm-empreendimentos",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:35:35",
+  "compact_chars": 1433,
+  "duration_s": 74.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Infraestrutura e Concreto\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de estrutura de concreto arm…\",\n        \"Mão de obra para execução de infraestrutura - sapata e…\",\n        \"INFRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Revestimentos\",\n      \"sub_disciplina\": \"Paredes e Pisos\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de chapisco e reboco interno…\",\n        \"REVESTIMENTOS INTERNOS EM PISOS E PAREDES\",\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Equipamentos\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio\",\n        \"ESQUADRIAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Locação e Serviços de Campo\",\n      \"itens_exemplo\": [\n        \"Carro com caçamba - locação\",\n        \"Elevador cremalheira - locação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Gestão e Engenharia\",\n      \"sub_disciplina\": \"Administrativo\",\n      \"itens_exemplo\": [\n        \"Engenheiro civil\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Escopo detalhado de serviços\",\n      \"observacao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Escopo detalhado de serviços\",\n      \"observacao\": \"INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E GLP\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Escopo detalhado de serviços\",\n      \"observacao\": \"SISTEMAS ESPECIAIS E EQUIPAMENTOS\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Escopo detalhado de serviços\",\n      \"observacao\": \"REVESTIMENTOS INTERNOS EM PISOS E PAREDES\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Escopo detalhado de serviços\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"O item 'REVESTIMENTOS INTERNOS EM PISOS E PAREDES' aparece tanto na Planilha1 quanto nas observações de orçamentista.\",\n    \"A inclusão de serviços de mão de obra específica (ex: 'Mão de obra para execução de...') é um padrão de detalhamento de custo.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Infraestrutura e Concreto",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura de concreto arm…",
+          "Mão de obra para execução de infraestrutura - sapata e…",
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Paredes e Pisos",
+        "itens_exemplo": [
+          "Mão de obra para execução de chapisco e reboco interno…",
+          "REVESTIMENTOS INTERNOS EM PISOS E PAREDES",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Equipamentos",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio",
+          "ESQUADRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Locação e Serviços de Campo",
+        "itens_exemplo": [
+          "Carro com caçamba - locação",
+          "Elevador cremalheira - locação"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Engenharia",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "Engenheiro civil"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E GLP",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "SISTEMAS ESPECIAIS E EQUIPAMENTOS",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISOS E PAREDES",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escopo detalhado de serviços",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "O item 'REVESTIMENTOS INTERNOS EM PISOS E PAREDES' aparece tanto na Planilha1 quanto nas observações de orçamentista.",
+      "A inclusão de serviços de mão de obra específica (ex: 'Mão de obra para execução de...') é um padrão de detalhamento de custo."
+    ],
+    "fora_da_curva": []
+  }
+}

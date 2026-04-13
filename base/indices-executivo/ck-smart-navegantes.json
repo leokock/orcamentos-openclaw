@@ -1877,5 +1877,76 @@
     "pintura_parede_pu_m2": 4.69,
     "chapisco_pu_m2": 2.9,
     "reboco_pu_m2": 15.75
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 2579,
+      "total_observacoes": 2,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/ck-smart-navegantes.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto Armado",
+        "itens_exemplo": [
+          "Estrutura de Concreto Armado - MO - Contrato AJF - CT/…",
+          "Concreto Usinado 35Mpa Slump 10+-2 Bombeado"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "Fundação em Hélice Contínua"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Máquinas e Equipamentos"
+        ]
+      },
+      {
+        "macrogrupo": "Área Comum",
+        "sub_disciplina": "Mobiliário e Decorações",
+        "itens_exemplo": [
+          "Área Comum (Mobiliário e decorações)"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Contingência",
+        "itens_exemplo": [
+          "Itens eventuais e não orçados - 1,5% custo raso"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Localização",
+        "observacao": "Rua Manoel Candido Couto, 77 - Esquina com Rua Honorato Coelho da Rocha - Centro - Navegantes/SC - 88370-092",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Revisão de Projeto",
+        "observacao": "8 - 29/03/2021 - 08:13:27 - Revisão esquadrias R01",
+        "categoria": "revisao"
+      }
+    ],
+    "padroes_identificados": [
+      "Estrutura de Concreto Armado - MO - Contrato AJF - CT/…",
+      "Concreto Usinado 35Mpa Slump 10+-2 Bombeado"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:14:09",
+      "duration_s": 61.8,
+      "compact_chars": 930
+    }
   }
 }

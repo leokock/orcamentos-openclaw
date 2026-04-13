@@ -1,0 +1,86 @@
+{
+  "projeto": "paludo-barbados",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:23:47",
+  "compact_chars": 891,
+  "duration_s": 88.3,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Piso e Parede\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Fachada e Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\",\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pintura e Teto\",\n      \"itens_exemplo\": [\n        \"PINTURA INTERNA\",\n        \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Sistemas\",\n      \"sub_disciplina\": \"Instalações Gerais\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Gestão e Administração\",\n      \"sub_disciplina\": \"Gerenciamento\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Detalhamento de Escopo\",\n      \"observacao\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Detalhamento de Escopo\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Detalhamento de Escopo\",\n      \"observacao\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Detalhamento de Escopo\",\n      \"observacao\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Detalhamento de Escopo\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada e Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pintura e Teto",
+        "itens_exemplo": [
+          "PINTURA INTERNA",
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Instalações Gerais",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Administração",
+        "sub_disciplina": "Gerenciamento",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [],
+    "fora_da_curva": []
+  }
+}

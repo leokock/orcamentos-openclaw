@@ -793,5 +793,226 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 11,
+      "total_itens": 3056,
+      "total_observacoes": 113,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/chiquetti-e-dalvesco-cielo.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Execução",
+        "sub_disciplina": "Concreto e Fundações",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 30MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Execução",
+        "sub_disciplina": "Alvenaria e Acabamentos",
+        "itens_exemplo": [
+          "Mão de obra para assentamento de blocos cerâmicos",
+          "Mão de Obra Piso Porcenato/ Cerâmico",
+          "Mão de obra para pintura acrílica em paredes internas,..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Execução",
+        "sub_disciplina": "Sistemas Verticais",
+        "itens_exemplo": [
+          "Elevadores",
+          "Esquadrias de Alumínio - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Técnicos e Administrativos",
+        "sub_disciplina": "Administração e Gestão",
+        "itens_exemplo": [
+          "Taxa de Administração",
+          "Engenheiro Civil",
+          "Despesas de manutenção: Manutenção provisória do cante…"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Marcenaria",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "Elétrica e Instalações",
+        "sub_disciplina": "Cabeamento e Eletrodutos",
+        "itens_exemplo": [
+          "CABOS DO TIPO \"EPROTENAX\" 1000 V (90o), NAS SEGUINTES…",
+          "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,0…"
+        ]
+      },
+      {
+        "macrogrupo": "Elétrica e Instalações",
+        "sub_disciplina": "Climatização e Segurança",
+        "itens_exemplo": [
+          "SISTEMA DE CLIMATIZAÇÃO INVERTER COM CAPACIDADE DE 24.…",
+          "CONTROLE DE ACESSO FACIAL"
+        ]
+      },
+      {
+        "macrogrupo": "Elétrica e Instalações",
+        "sub_disciplina": "Iluminação e Equipamentos",
+        "itens_exemplo": [
+          "Luminotécnico",
+          "Grupo gerador de emergência, completo com usca e quad…"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Subsolo",
+        "observacao": "Considerado o volume de Terra so sub solo",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "Considerado sem indicação em projeto",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Terraplanagem",
+        "observacao": "Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Mão de Obra",
+        "observacao": "Considerado 2 profissionais Valor informado em formulário em outubro/23 + reajuste",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Preenchimento",
+        "observacao": "Valor informado em formulário",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Custo de contratação Cartesian",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Elétrica",
+        "observacao": "Quadros elétricos e disjuntores",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Elétrica",
+        "observacao": "Luminárias e lâmpadas e acessórios",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Elétrica",
+        "observacao": "Pontos de tomada e interruptores",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Elétrica",
+        "observacao": "Eletrodutos e eletrocalhas",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Instalações",
+        "observacao": "CD CONDOMÍNIO AUXILIAR (ESTAÇÕES DE CARREGAMENTO)",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "CABOS DO TIPO \"EPROTENAX\" 1000 V (90o), NAS SEGUINTES…",
+      "SISTEMA DE CLIMATIZAÇÃO INVERTER COM CAPACIDADE DE 24.…",
+      "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,0…"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:04:09",
+      "duration_s": 139.9,
+      "compact_chars": 3970
+    },
+    "pdf_metadata": {
+      "ac_m2": "7.013,06 m²",
+      "ur": "18",
+      "tipologia": "Unidades residenciais",
+      "data_base": "Março/25",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Quantificação seguindo detalhamentos de projetos de estacas e supraestrutura disponibilizados no projeto."
+      },
+      {
+        "area": "Quantificação",
+        "premissa": "Quantificação via visus, utilizando arquivo .ifc, tomando premissas para itens que não houveram correção no modelo como por exemplo a alvenaria."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Instalações elétricas, telecomunicação, hidrossanitários, preventivas e GLP considerados os quantitativos recebidos exceto SPDA."
+      },
+      {
+        "area": "Fundação Rasa",
+        "premissa": "Armação com aço cortado e dobra em indústria, considerando 10% de perda; Concreto fck de 40 Mpa, incluindo serviço de bombeamento, em blocos, sapatas e baldrames, consideração de 5% de perda."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com aço cortado e dobra em indústria, considerando 10% de perda; Concreto fck de 30 Mpa, incluindo serviço de bombeamento, consideração de 5% de perda."
+      },
+      {
+        "area": "Paredes e Painéis",
+        "premissa": "Consideração de bloco de concreto, com argamassa industrializada de assentamento; Consideração de blocos cerâmicos, com argamassa industrializada de assentamento; Verga e Contraverga de concreto moldada in loco."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Quantificação",
+        "decisao": "O modelo Recebido não permitiu que separar os quantitativos por pavime…merciais."
+      },
+      {
+        "contexto": "Fundação/Estrutura",
+        "decisao": "Mão de obra utilizando valores da empreitada global fornecido pelo cliente."
+      },
+      {
+        "contexto": "Paredes e Painéis",
+        "decisao": "SPDA estimadas, usando índices de obras similares, devido ausência de quantitativos."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Localização: Rua Mário Moura, 198 / Cachoeira do Bom Jesus, FLORIANÓPOLIS - SC",
+      "O empreendimento possui 18 Unidades residenciais, Áreas de lazer, 42 vagas de garagem e 3 elevadores.",
+      "EAP inclui Custos indiretos da obra; Administração de Canteiro; Instalações Provisórias.",
+      "EAP inclui Pacotes de custo de execução de obra; Mão de obra terceirizada e empreitada global; Instalações de comunicação."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:59:18",
+      "duration_s": 89.5,
+      "excerpt_chars": 4330
+    }
   }
 }

@@ -196,5 +196,159 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 13,
+      "total_itens": 756,
+      "total_observacoes": 92,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/blue-heaven-monolyt.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Fundação",
+        "itens_exemplo": [
+          "Concreto Usinado bombeável 40MPa para Supraestrutura-",
+          "Mão de obra para execução de fundação"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura e Protensão",
+        "itens_exemplo": [
+          "Armação Aço CA-50 para Supraestrutura, Corte e Dobra e…",
+          "Protensão"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Guarda Corpo de vidro - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Revestimento de piso madeira engenheirada, nas áreas p…",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão de Pessoal e Serviços",
+        "sub_disciplina": "Mão de Obra Especializada",
+        "itens_exemplo": [
+          "Mestre Geral",
+          "Operador de Grua",
+          "Operador de Bobcat"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão de Pessoal e Serviços",
+        "sub_disciplina": "Administrativo e Apoio",
+        "itens_exemplo": [
+          "Adminstração de obra",
+          "Equipe de apoio",
+          "Serviço de vigilância"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Geral",
+        "observacao": "adição de taxa administrativa",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "aumento MO, atualização de valores",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "sem vergase redução da margem de insegurança",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "retirada proteção mecânica (sem manta)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "redução estimativa de reboco (metade)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "redução significativa de area de forro de gesso (metade)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "aumento area de madeira engenheirada",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Rebaixameno de lençol provisório considerando período de execução da fundação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Forma de madeira serrada sem reutilização",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Valor estimado por área de projeção do embasamento",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Locação de escoramento metálico",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Conforme solicitado em 18/07 via whatsapp",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Considerado Medicamentos preventivos e de emergência, detetização, desratização e sanitização dos ambientes, …",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "7.000 + 84% de encargo - 2 mestres",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "As categorias de custo (SUPRAESTRUTURA, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO, ESQUADRIAS, VIDROS E FERRAGENS, EQUIPAMENTOS E SISTEMAS ESPECIAIS, INFRAESTRUTURA, INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS, ACABAMENTOS EM PISO E PAREDE) mantêm valores idênticos entre o comparativo e o orçamento preliminar."
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Margem de segurança",
+        "motivo": "Observação de que não houve redução da margem de insegurança."
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:45:51",
+      "duration_s": 122.1,
+      "compact_chars": 3597
+    }
   }
 }

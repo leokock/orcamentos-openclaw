@@ -1,0 +1,92 @@
+{
+  "projeto": "rosner-reserva-sao-vicente",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:46:13",
+  "excerpt_chars": 4327,
+  "duration_s": 100.7,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"7007,86 m²\",\n    \"ur\": null,\n    \"tipologia\": \"Empreendimento misto (Coworking e Minimarket no térreo; Lazer com piscina, academia, espaço gourmet, salão de festa e brinquedoteca; 15 pavimentos)\",\n    \"data_base\": \"DEZEMBRO/2024\",\n    \"cub_referencia\": \"R$ 2.868,56 dez -24 1,13 CUB\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Quantificação\",\n      \"premissa\": \"Quantificação seguindo detalhamentos de projeto e resumo de quantitativos; Demais quantidades estimadas devido ausência de detalhamentos, utilizando índices;\"\n    },\n    {\n      \"area\": \"Arquitetura\",\n      \"premissa\": \"Levantamento realizado via visus, utilizando arquivo .ifc;\"\n    },\n    {\n      \"area\": \"Movimentação\",\n      \"premissa\": \"Movimentação de bota-fora para escavação do terreno, valas de infraestrutura e estacas, considerando 30% de empolamento;\"\n    },\n    {\n      \"area\": \"Movimentação\",\n      \"premissa\": \"Apiloamento mecânico do solo para valas de infraestrutura;\"\n    },\n    {\n      \"area\": \"Movimentação\",\n      \"premissa\": \"Lastro com material granular para regularização de valas com espessura de 5cm;\"\n    },\n    {\n      \"area\": \"Movimentação\",\n      \"premissa\": \"Rebaixamento de lençol freático com mobilização de bombas.\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Perfuração de estaca hélice contínua de 40 e 50cm;\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Concreto fck 30 MPa para estaca hélice, considerando perda de 5%;\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Armação de fundação rasa com corte e dobra em obra, com consideração 10% de perda proveniente do projetista;\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Concreto fck de 25 MPa em fundação rasa, com consideração de 5% de perda, para blocos;\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Concreto fck de 40 MPa, com consideração de 5% de perda, para vigas baldrame;\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Concreto fck de 50 MPa, com consideração de 5% de perda, para pilares de arranque;\"\n    },\n    {\n      \"area\": \"Especificidades\",\n      \"premissa\": \"Blocos cerâmicos e de concreto celular para vedação com arga massa industrializada para assentamento;\"\n    },\n    {\n      \"area\": \"Especificidades\",\n      \"premissa\": \"Tela soldada para ligação alvenaria/estrutura;\"\n    },\n    {\n      \"area\": \"Especificidades\",\n      \"premissa\": \"Verga e contraverga de concreto moldada in loco…\"\n    },\n    {\n      \"area\": \"Custos Indiretos\",\n      \"premissa\": \"Custos consideram prazo de obra de 36 meses;\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [],\n  \"observacoes_chave\": [\n    \"Localização: Rua Yukio Kadóia, 30 – São Vicente - Itajaí - SC\",\n    \"O empreendimento possui lazer com piscina, academia, espaço gourmet, salão de festa e brinquedoteca.\",\n    \"Há infraestrutura para carros elétricos e painéis solares.\",\n    \"NOTA: Serviços lançados conforme preenchimento de formulário de custos indiretos preenchidos pela Rosner Empreendimentos;\",\n    \"Valor de referência da obra: R$ 552,82 / m²\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "7007,86 m²",
+      "ur": null,
+      "tipologia": "Empreendimento misto (Coworking e Minimarket no térreo; Lazer com piscina, academia, espaço gourmet, salão de festa e brinquedoteca; 15 pavimentos)",
+      "data_base": "DEZEMBRO/2024",
+      "cub_referencia": "R$ 2.868,56 dez -24 1,13 CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Quantificação",
+        "premissa": "Quantificação seguindo detalhamentos de projeto e resumo de quantitativos; Demais quantidades estimadas devido ausência de detalhamentos, utilizando índices;"
+      },
+      {
+        "area": "Arquitetura",
+        "premissa": "Levantamento realizado via visus, utilizando arquivo .ifc;"
+      },
+      {
+        "area": "Movimentação",
+        "premissa": "Movimentação de bota-fora para escavação do terreno, valas de infraestrutura e estacas, considerando 30% de empolamento;"
+      },
+      {
+        "area": "Movimentação",
+        "premissa": "Apiloamento mecânico do solo para valas de infraestrutura;"
+      },
+      {
+        "area": "Movimentação",
+        "premissa": "Lastro com material granular para regularização de valas com espessura de 5cm;"
+      },
+      {
+        "area": "Movimentação",
+        "premissa": "Rebaixamento de lençol freático com mobilização de bombas."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Perfuração de estaca hélice contínua de 40 e 50cm;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck 30 MPa para estaca hélice, considerando perda de 5%;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Armação de fundação rasa com corte e dobra em obra, com consideração 10% de perda proveniente do projetista;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck de 25 MPa em fundação rasa, com consideração de 5% de perda, para blocos;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck de 40 MPa, com consideração de 5% de perda, para vigas baldrame;"
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto fck de 50 MPa, com consideração de 5% de perda, para pilares de arranque;"
+      },
+      {
+        "area": "Especificidades",
+        "premissa": "Blocos cerâmicos e de concreto celular para vedação com arga massa industrializada para assentamento;"
+      },
+      {
+        "area": "Especificidades",
+        "premissa": "Tela soldada para ligação alvenaria/estrutura;"
+      },
+      {
+        "area": "Especificidades",
+        "premissa": "Verga e contraverga de concreto moldada in loco…"
+      },
+      {
+        "area": "Custos Indiretos",
+        "premissa": "Custos consideram prazo de obra de 36 meses;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [],
+    "observacoes_chave": [
+      "Localização: Rua Yukio Kadóia, 30 – São Vicente - Itajaí - SC",
+      "O empreendimento possui lazer com piscina, academia, espaço gourmet, salão de festa e brinquedoteca.",
+      "Há infraestrutura para carros elétricos e painéis solares.",
+      "NOTA: Serviços lançados conforme preenchimento de formulário de custos indiretos preenchidos pela Rosner Empreendimentos;",
+      "Valor de referência da obra: R$ 552,82 / m²"
+    ]
+  }
+}

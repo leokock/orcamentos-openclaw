@@ -1,0 +1,79 @@
+{
+  "projeto": "adore-cacupe",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:25:59",
+  "compact_chars": 3711,
+  "duration_s": 99.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de obra e Armadura\",\n      \"itens_exemplo\": [\n        \"Mão de obra supraestrutura\",\n        \"Armadura Convencional para Estrutura\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Concreto\",\n      \"sub_disciplina\": \"Tipos de Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto 30MPa\",\n        \"Concreto 40MPa\",\n        \"Concreto\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamento\",\n      \"sub_disciplina\": \"Pintura e Reboco\",\n      \"itens_exemplo\": [\n        \"Pintura parede (selador + massa + pintura)\",\n        \"Massa unica para reboco interno em argamassa estabiliz…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Alvenaria\",\n      \"sub_disciplina\": \"Tipos de Parede\",\n      \"itens_exemplo\": [\n        \"Drywall tipo\",\n        \"Alvenaria tipo\",\n        \"Alvenaria escadas\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Informado no formulário que não haverá contrapiso acústico\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Valor pedido pelo cliente para ser retirado dos indiretos e colocado no nos itens de supra\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Valor proporcional aberto na aba MO\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Considerado conforme estimativa de custos Level Up.\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Mão de obra supraestrutura\",\n    \"Armadura Convencional para Estrutura\",\n    \"Esquadria em alumínio - Fornecimento e Instalação*\",\n    \"Concreto 30MPa\",\n    \"Pintura parede (selador + massa + pintura)\",\n    \"Massa unica para reboco interno em argamassa estabiliz…\",\n    \"Imprevistos e Contingências\",\n    \"Porcelanato\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de obra e Armadura",
+        "itens_exemplo": [
+          "Mão de obra supraestrutura",
+          "Armadura Convencional para Estrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Concreto",
+        "sub_disciplina": "Tipos de Concreto",
+        "itens_exemplo": [
+          "Concreto 30MPa",
+          "Concreto 40MPa",
+          "Concreto"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamento",
+        "sub_disciplina": "Pintura e Reboco",
+        "itens_exemplo": [
+          "Pintura parede (selador + massa + pintura)",
+          "Massa unica para reboco interno em argamassa estabiliz…"
+        ]
+      },
+      {
+        "macrogrupo": "Alvenaria",
+        "sub_disciplina": "Tipos de Parede",
+        "itens_exemplo": [
+          "Drywall tipo",
+          "Alvenaria tipo",
+          "Alvenaria escadas"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Geral",
+        "observacao": "Informado no formulário que não haverá contrapiso acústico",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Valor pedido pelo cliente para ser retirado dos indiretos e colocado no nos itens de supra",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Valor proporcional aberto na aba MO",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Considerado conforme estimativa de custos Level Up.",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Mão de obra supraestrutura",
+      "Armadura Convencional para Estrutura",
+      "Esquadria em alumínio - Fornecimento e Instalação*",
+      "Concreto 30MPa",
+      "Pintura parede (selador + massa + pintura)",
+      "Massa unica para reboco interno em argamassa estabiliz…",
+      "Imprevistos e Contingências",
+      "Porcelanato"
+    ],
+    "fora_da_curva": []
+  }
+}

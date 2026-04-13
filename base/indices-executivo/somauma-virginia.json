@@ -208,5 +208,92 @@
     "aluminio": {
       "valor": 25375.48
     }
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 9,
+      "total_itens": 742,
+      "total_observacoes": 13,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/somauma-virginia.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Janela com caixilho 2 folhas de correr em vidro transp…",
+          "Esquadria Fixa com Bandeira superior"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pintura",
+        "itens_exemplo": [
+          "Mão de obra para pintura com tinta acrílica sobre gesso"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétricas/Hidráulicas",
+        "itens_exemplo": [
+          "Mão de obra de instalações elétricas",
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Demolições e Remoções",
+        "itens_exemplo": [
+          "Demolições e Remoções em Geral"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos e Sistemas",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Elevadores"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Locação de 3 Rompedores por 4 meses",
+        "observacao": "Custo mensal por unidade de R$1811,30",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Locação de 5 Marteletes por 4 meses",
+        "observacao": "Custo mensal por unidade de R$1298,00",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Verba prevista para complementação de reforços",
+        "observacao": "ainda em análise",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Orçamento enviado",
+        "observacao": "Adicionado verba prevista em orçamento enviado R10, por ausência de detalhamentos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Consideração de 2 jogos de forma",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "PAVIMENTAÇÃO (pu=161.18 | R$1.629.244)",
+      "SERVIÇOS COMPLEMENTARES (pu=217.63 | R$2.199.859)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:10:18",
+      "duration_s": 79.0,
+      "compact_chars": 2551
+    }
   }
 }

@@ -1,0 +1,101 @@
+{
+  "projeto": "estilo-condominios-estilo-condominios",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:10:03",
+  "excerpt_chars": 4329,
+  "duration_s": 98.3,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"467,58 m²\",\n    \"ur\": \"91 lotes\",\n    \"tipologia\": \"Loteamento/Condomínio\",\n    \"data_base\": \"19.06.2023\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Sem previsão de calçada – fora do escopo da construtora;\"\n    },\n    {\n      \"area\": \"Loteamento\",\n      \"premissa\": \"Muro palito com viga de base;\"\n    },\n    {\n      \"area\": \"Loteamento\",\n      \"premissa\": \"Gradil metálico;\"\n    },\n    {\n      \"area\": \"Loteamento\",\n      \"premissa\": \"Muro de arrimo com estrutura de pilares a cada 3m com uma estaca escavad…\"\n    },\n    {\n      \"area\": \"Loteamento\",\n      \"premissa\": \"Concreto de blocos com 20 Mpa e baldrames com 25 Mpa;\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Fabricação de forma em madeira compensada plastificada 12mm – 2 jogos;\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Armação com corte e dobra em obra;\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Blocos cerâmicos, com encunhamento, vergas e contravergas;\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Piso sobre solo de 8cm\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Contrapiso em argamassa de 1,5cm com traço 1:3;\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Chapisco interno com traço 1:2 em tetos da portaria e paredes;\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Impermeabilização de de baldrames com manta líquida;\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Impermeabilização de região enterrada com manta asfáltica 4mm;\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Lavabos e paredes hidráulicas de copas/cozinhas com argamassa polimérica;\"\n    },\n    {\n      \"area\": \"Edificações\",\n      \"premissa\": \"Peitoris com argamassa polimérica;\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Gerenciamento Executivo\",\n      \"decisao\": \"Separação entre infraestrutura (condomínio) e Recreação coberta e portaria (edificações);\"\n    },\n    {\n      \"contexto\": \"Gerenciamento Executivo\",\n      \"decisao\": \"Custo de mão de obra própria para infraestrutura e terceirizada para as edificações.\"\n    },\n    {\n      \"contexto\": \"Custos Diretos\",\n      \"decisao\": \"Considerado um empolamento do material de 30% em volume de aterro;\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"ESTILO – BOULEVARD VISTA ALEGRE | 19.06.2023\",\n    \"Área do Terreno: 23.967,18 m²\",\n    \"Amenities: Recreação coberta e portaria, Recreação descoberta, Quadra poliesportiva, Rua pavimentada, Bosques de reserva legal\",\n    \"Quadra poliesportiva\",\n    \"Quadra poliesportiva\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "467,58 m²",
+      "ur": "91 lotes",
+      "tipologia": "Loteamento/Condomínio",
+      "data_base": "19.06.2023",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Sem previsão de calçada – fora do escopo da construtora;"
+      },
+      {
+        "area": "Loteamento",
+        "premissa": "Muro palito com viga de base;"
+      },
+      {
+        "area": "Loteamento",
+        "premissa": "Gradil metálico;"
+      },
+      {
+        "area": "Loteamento",
+        "premissa": "Muro de arrimo com estrutura de pilares a cada 3m com uma estaca escavad…"
+      },
+      {
+        "area": "Loteamento",
+        "premissa": "Concreto de blocos com 20 Mpa e baldrames com 25 Mpa;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Fabricação de forma em madeira compensada plastificada 12mm – 2 jogos;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Armação com corte e dobra em obra;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Blocos cerâmicos, com encunhamento, vergas e contravergas;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Piso sobre solo de 8cm"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Contrapiso em argamassa de 1,5cm com traço 1:3;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Chapisco interno com traço 1:2 em tetos da portaria e paredes;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Impermeabilização de de baldrames com manta líquida;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Impermeabilização de região enterrada com manta asfáltica 4mm;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Lavabos e paredes hidráulicas de copas/cozinhas com argamassa polimérica;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Peitoris com argamassa polimérica;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Gerenciamento Executivo",
+        "decisao": "Separação entre infraestrutura (condomínio) e Recreação coberta e portaria (edificações);"
+      },
+      {
+        "contexto": "Gerenciamento Executivo",
+        "decisao": "Custo de mão de obra própria para infraestrutura e terceirizada para as edificações."
+      },
+      {
+        "contexto": "Custos Diretos",
+        "decisao": "Considerado um empolamento do material de 30% em volume de aterro;"
+      }
+    ],
+    "observacoes_chave": [
+      "ESTILO – BOULEVARD VISTA ALEGRE | 19.06.2023",
+      "Área do Terreno: 23.967,18 m²",
+      "Amenities: Recreação coberta e portaria, Recreação descoberta, Quadra poliesportiva, Rua pavimentada, Bosques de reserva legal",
+      "Quadra poliesportiva",
+      "Quadra poliesportiva"
+    ]
+  }
+}

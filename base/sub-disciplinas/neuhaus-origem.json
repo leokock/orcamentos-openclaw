@@ -1,0 +1,130 @@
+{
+  "projeto": "neuhaus-origem",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:34:20",
+  "compact_chars": 2766,
+  "duration_s": 106.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 4...\",\n        \"Concreto usinado bombeável, para estacas, fck 40MPa, s...\",\n        \"Concreto Usinado bombeável 20MPa Convencional\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura/Metais\",\n      \"itens_exemplo\": [\n        \"Aço CA50 10,0 mm\",\n        \"Aço CA50 12,5 mm\",\n        \"Aço CA50 16,0mm\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma e Execução\",\n      \"itens_exemplo\": [\n        \"Mão de Obra para Execução de Estrutura de Concreto Arm...\",\n        \"Central de fôrmas\",\n        \"BLOCO CONCRETO ESTRUTURAL 03MPA 14X19X39CM NBR 6136\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Esquadrias\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio Janelas e Portas - fornecimento...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos/Mobiliário\",\n      \"sub_disciplina\": \"Elevação\",\n      \"itens_exemplo\": [\n        \"Elevadores\",\n        \"Aquisição de elevador cremalheira\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos/Mobiliário\",\n      \"sub_disciplina\": \"Mobiliário e Decoração\",\n      \"itens_exemplo\": [\n        \"Cadeira bruta - Roberta Banqueri\",\n        \"Conjunto de Mesas de Centro Gota 1000 e 1200 Zanini de Zanine (SIMILAR)\",\n        \"CHAISE LONGUE FLUFE KONKRET (SIMILAR)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços/Consultoria\",\n      \"sub_disciplina\": \"Serviços Técnicos\",\n      \"itens_exemplo\": [\n        \"ICAD\",\n        \"TPC\",\n        \"Solo Criado\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Pavimento G1\",\n      \"observacao\": \"Consideração de 2 jogos referentes ao pavimento G1\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Pavimento Tipo Graden\",\n      \"observacao\": \"Consideração de 3 jogos referentes ao pavimento Tipo Graden\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Telêfonia\",\n      \"observacao\": \"Não tem telefonia nesse pavimento\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Chapisco\",\n      \"observacao\": \"Considerado 30% do chapisco extraido do visus\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Chapisco\",\n      \"observacao\": \"Considerado 70% do chapisco extraido do visus\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Cadeira Maya S - IV\",\n      \"observacao\": \"sem braço (SIMILAR)\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Conjunto de Mesas de Centro Gota 1000 e 1200 Zanini de Zanine\",\n      \"observacao\": \"(SIMILAR)\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Bar centro Teca\",\n      \"observacao\": \"(SIMILAR)\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"CHAISE LONGUE FLUFE KONKRET\",\n      \"observacao\": \"(SIMILAR)\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Aparador Freme - Jader Almeida\",\n      \"observacao\": \"(SIMILAR)\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Uso do termo (SIMILAR) em múltiplos itens de mobiliário.\",\n    \"Repetição de 'Central de aço' em diferentes unidades de medida (M2, M3, KG, UN).\",\n    \"Repetição do item 'Área:' com diferentes quantidades e valores no módulo MOBILIÁRIO.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4...",
+          "Concreto usinado bombeável, para estacas, fck 40MPa, s...",
+          "Concreto Usinado bombeável 20MPa Convencional"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura/Metais",
+        "itens_exemplo": [
+          "Aço CA50 10,0 mm",
+          "Aço CA50 12,5 mm",
+          "Aço CA50 16,0mm"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Execução",
+        "itens_exemplo": [
+          "Mão de Obra para Execução de Estrutura de Concreto Arm...",
+          "Central de fôrmas",
+          "BLOCO CONCRETO ESTRUTURAL 03MPA 14X19X39CM NBR 6136"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Esquadrias",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio Janelas e Portas - fornecimento..."
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos/Mobiliário",
+        "sub_disciplina": "Elevação",
+        "itens_exemplo": [
+          "Elevadores",
+          "Aquisição de elevador cremalheira"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos/Mobiliário",
+        "sub_disciplina": "Mobiliário e Decoração",
+        "itens_exemplo": [
+          "Cadeira bruta - Roberta Banqueri",
+          "Conjunto de Mesas de Centro Gota 1000 e 1200 Zanini de Zanine (SIMILAR)",
+          "CHAISE LONGUE FLUFE KONKRET (SIMILAR)"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços/Consultoria",
+        "sub_disciplina": "Serviços Técnicos",
+        "itens_exemplo": [
+          "ICAD",
+          "TPC",
+          "Solo Criado"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Pavimento G1",
+        "observacao": "Consideração de 2 jogos referentes ao pavimento G1",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Pavimento Tipo Graden",
+        "observacao": "Consideração de 3 jogos referentes ao pavimento Tipo Graden",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Telêfonia",
+        "observacao": "Não tem telefonia nesse pavimento",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Chapisco",
+        "observacao": "Considerado 30% do chapisco extraido do visus",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Chapisco",
+        "observacao": "Considerado 70% do chapisco extraido do visus",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cadeira Maya S - IV",
+        "observacao": "sem braço (SIMILAR)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Conjunto de Mesas de Centro Gota 1000 e 1200 Zanini de Zanine",
+        "observacao": "(SIMILAR)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Bar centro Teca",
+        "observacao": "(SIMILAR)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "CHAISE LONGUE FLUFE KONKRET",
+        "observacao": "(SIMILAR)",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Aparador Freme - Jader Almeida",
+        "observacao": "(SIMILAR)",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso do termo (SIMILAR) em múltiplos itens de mobiliário.",
+      "Repetição de 'Central de aço' em diferentes unidades de medida (M2, M3, KG, UN).",
+      "Repetição do item 'Área:' com diferentes quantidades e valores no módulo MOBILIÁRIO."
+    ],
+    "fora_da_curva": []
+  }
+}

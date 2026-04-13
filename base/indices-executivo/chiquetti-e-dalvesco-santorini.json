@@ -1797,5 +1797,133 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 939,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/chiquetti-e-dalvesco-santorini.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para estrutura, fck 40MPa,...",
+          "Concreto usinado bombeável, para estacas, fck 40MPa, s..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Metálica",
+        "itens_exemplo": [
+          "Estrutura metálica (ampliação)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "Esquadria em alumínio - Fornecimento e Instalação - Ti..."
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "Empreitada Global",
+          "Taxa administração da obra",
+          "Imprevistos e Contingências"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Ambientação",
+        "itens_exemplo": [
+          "Ambientação"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Uso recorrente da unidade 'vb' (valor básico) para itens de serviço global."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:07:53",
+      "duration_s": 66.7,
+      "compact_chars": 697
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "JUNHO/2022",
+      "cub_referencia": "CUB/SC 2.544,17"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Gerenciamento Técnico e Administrativo",
+        "premissa": "Contempla: Projetos, consultorias; Canteiro de obra; Taxas e documentos; Administração da obra"
+      },
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Escavação vertical de terreno; Reaterro de valas de blocos e baldrames; Lastro de concreto magro; Rebaixamento de lençol freático; Transporte com caminhão basculante para bota – fora."
+      },
+      {
+        "area": "Contenção",
+        "premissa": "Execução de cortina de contenção; Execução de parede diafragma; Concreto de 40 Mpa para cortina de contenção e parede diafragma. Aço cortado e dobrado em indústria."
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Estacas hélice contínua conforme projeto disponibilizado; Blocos conforme projeto disponibilizado; Concreto de 40 Mpa para estacas, blocos e baldrames."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de fôrma de pilares, vigas e lajes em compensado resinado; Concreto de 40MPa para supraestrutura; Laje de subpressão no subsolo; Armação com corte e dobra em indústria; Estrutura de protensão estimado conforme proposta do Atlantis."
+      },
+      {
+        "area": "Complementares e Ambientação",
+        "premissa": "Limpeza final. Ambientação; Comunicação visual; Paisagismo."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Base de Preço",
+        "decisao": "Adotou-se como base preço o mês de JUNHO/2022"
+      },
+      {
+        "contexto": "Especificações",
+        "decisao": "Todos os itens considerados nesta etapa seguem especificações preenchidas pelo cliente"
+      },
+      {
+        "contexto": "Custos não informados",
+        "decisao": "foram estimados com índices de mercado"
+      },
+      {
+        "contexto": "Despesas de consumo",
+        "decisao": "foram estimadas conforme médias de mercado, considerando a duração de 32 meses de obra e 4 meses de reforma"
+      },
+      {
+        "contexto": "Orçamento Executivo",
+        "decisao": "Foram utilizados cotações, para os itens não cotados foram adotados valores de mercado."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "CHIQUETTI DAL VESCO SANTORINI",
+      "Orçamento Executivo",
+      "03.08.2022"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:04:01",
+      "duration_s": 103.8,
+      "excerpt_chars": 2554
+    }
   }
 }

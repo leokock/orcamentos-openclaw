@@ -1,0 +1,56 @@
+{
+  "projeto": "eze-eilat",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:35:00",
+  "compact_chars": 776,
+  "duration_s": 66.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma\",\n      \"itens_exemplo\": [\n        \"Forma (Térreo)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armaduras (Blocos, vigas equilíbrio e baldrames)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Fachada\",\n      \"itens_exemplo\": [\n        \"Elementos/acabamentos para fachadas (Brise Vertical Me…)\",\n        \"Fornecimento e instalação de esquadrias externas em al…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Equipamentos\",\n      \"itens_exemplo\": [\n        \"Despesas com equipamentos da obra (instalação, manuten…)\",\n        \"Fornecimento e instalação de elevador de passageiros (…)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Segurança\",\n      \"sub_disciplina\": \"EPI/EPC\",\n      \"itens_exemplo\": [\n        \"EPI (Equipamentos de proteção individual)\",\n        \"EPC (Equipamentos de proteção coletiva) - Diversos\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"A unidade 'mes' e a quantidade 'qtd=36' são aplicadas a Despesas com equipamentos, EPI e EPC.\",\n    \"A unidade 'vb' é utilizada para itens de Estrutura e Acabamentos.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Forma (Térreo)"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armaduras (Blocos, vigas equilíbrio e baldrames)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "Elementos/acabamentos para fachadas (Brise Vertical Me…)",
+          "Fornecimento e instalação de esquadrias externas em al…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Despesas com equipamentos da obra (instalação, manuten…)",
+          "Fornecimento e instalação de elevador de passageiros (…)"
+        ]
+      },
+      {
+        "macrogrupo": "Segurança",
+        "sub_disciplina": "EPI/EPC",
+        "itens_exemplo": [
+          "EPI (Equipamentos de proteção individual)",
+          "EPC (Equipamentos de proteção coletiva) - Diversos"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "A unidade 'mes' e a quantidade 'qtd=36' são aplicadas a Despesas com equipamentos, EPI e EPC.",
+      "A unidade 'vb' é utilizada para itens de Estrutura e Acabamentos."
+    ],
+    "fora_da_curva": []
+  }
+}

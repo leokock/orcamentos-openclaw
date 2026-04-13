@@ -2066,5 +2066,60 @@
     "pintura_parede_pu_m2": 1.95,
     "chapisco_pu_m2": 2.74,
     "reboco_pu_m2": 15.75
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 1246,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/ck-unique.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Estrutura de Concreto Armado - MO",
+          "Concreto Usinado 35Mpa Slump 10+-2 Bombeado",
+          "Concreto Usinado 40Mpa Slump 24+-2 Bombeado, Aplicação…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Apoio",
+        "sub_disciplina": "Pessoal",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Vigilância",
+          "Mestre"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Apoio",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Locação de Elevador Cremalheira"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamento",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Área Comum (Mobiliário e decorações)*"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Serviços de pessoal (Engenheiro, Vigilância, Mestre) apresentam a mesma quantidade (qtd=26) e unidade (mes)."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:16:30",
+      "duration_s": 75.3,
+      "compact_chars": 608
+    }
   }
 }

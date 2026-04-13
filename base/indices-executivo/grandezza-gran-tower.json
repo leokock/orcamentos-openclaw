@@ -172,5 +172,87 @@
     "forro_gesso": 97.36,
     "contrapiso": 26.12,
     "rodape": 68.0
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 491,
+      "total_observacoes": 10,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/grandezza-gran-tower.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "SUPRAESTRUTURA",
+        "sub_disciplina": "Concreto e Estrutura",
+        "itens_exemplo": [
+          "Mão de obra para execução de concreto armado em suprae…",
+          "Concreto usinado bombeável, para supraestrutura, Fck 4…"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTO E ARQUITETURA",
+        "sub_disciplina": "Paredes e Revestimentos",
+        "itens_exemplo": [
+          "Textura acrílica STOSILCO LIT em parede, aplicação em …",
+          "Mao de obra para reboco interno, incluindo chapisco"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mao de obra de instalações elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIÁRIO E ACABAMENTOS",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e decoração"
+        ]
+      },
+      {
+        "macrogrupo": "EQUIPAMENTOS ESPECIAIS",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "02 elevadores sociais - capacidade de 8 pessoas"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Grandezza",
+        "observacao": "Valor repassado pelo Grandezza, respondido no formulário de custos indiretos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimativa de Custos",
+        "observacao": "Verba estimada conforme índices históricos de obras similares",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Revisão de Orçamento",
+        "observacao": "Custo ajustado conforme solicitação de revisão",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Base de Cálculo",
+        "observacao": "Valor orçado conforme qauntitativos e cotações disponibilizadas",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso repetido do título ORÇAMENTO_EXECUTIVO para diferentes totais",
+      "Estrutura de totais com formato | pu=... | R$..."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:48:48",
+      "duration_s": 78.0,
+      "compact_chars": 1923
+    }
   }
 }

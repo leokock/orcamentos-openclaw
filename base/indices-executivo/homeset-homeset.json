@@ -1430,5 +1430,151 @@
     "forro_gesso": 60.0,
     "rodape": 9.37,
     "porcelanato": 112.86
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 6,
+      "total_itens": 1538,
+      "total_observacoes": 3,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/homeset-homeset.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Alvenaria Estrutural",
+        "itens_exemplo": [
+          "ALVENARIA ESTRUTURAL"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Infraestrutura",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica/Hidrossanitária",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimentos",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Componentes",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "HomeSet Garden - Obra",
+        "observacao": "125",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Endereço",
+        "observacao": "Rua Francisco José de Aviz, 551 - Murta - Itajaí/SC - 88311-333",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Orçamento desenvolvido pela Cartesian - 24/11/2022",
+        "observacao": "4 - 24/11/2022 - 09:04:47",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Itens de custo recorrentes (ex: ALVENARIA ESTRUTURAL, ACABAMENTOS EM PISO E PAREDE, INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…) aparecem em múltiplos blocos de orçamento (Homeset, Áreas Comuns, Torre_02)."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:58:38",
+      "duration_s": 94.9,
+      "compact_chars": 2780
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "HOMESET GARDEN",
+      "data_base": "Dezembro/22",
+      "cub_referencia": "2.623,42"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Despesas Indiretas",
+        "premissa": "Contempla: Canteiro de obra; Administração da obra; Custos de projetos."
+      },
+      {
+        "area": "Prazo",
+        "premissa": "Custos considerando prazo de 29 meses de obra."
+      },
+      {
+        "area": "Equipamentos",
+        "premissa": "Equipamentos de apoio à obra; Aquisição de quatro guinchos de coluna; Ferramentas; Locação de andaime para primeiro pavimento; Locação de balancim."
+      },
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Escavações e reaterro de valas; Lastro de concreto magro; Bota – fora."
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Fundação em estaca hélice; Formas de blocos e baldrames em madeira compensada resinada, com duas reutilizações; Concreto usinado de 30 MPa e 25 MPa."
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de fôrma de pilares, vigas em compensado plastificado, considerado 8 reutilizações; Lajes pré – moldada com vigota treliçada e enchimento com lajota cerâmica; Armação com corte e dobra em indústria; Concreto de 30 Mpa."
+      },
+      {
+        "area": "Alvenaria Estrutural",
+        "premissa": "As composições de alvenaria estrutural seguiram as respectivas paginações de projeto; Armação com corte e dobra em indústria; Graute 25 Mpa; Argamassa 15 Mpa."
+      },
+      {
+        "area": "Sistemas e Instalações",
+        "premissa": "Os valores das instalações foram levantados conforme quantitativo de projeto."
+      },
+      {
+        "area": "Equipamentos e Sistemas Especiais",
+        "premissa": "Quatro elevadores; Infraestrutura para ar condicionado e entrega de equipamentos na"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Orçamento Executivo",
+      "HOMESET GARDEN",
+      "23.01.2022"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T01:08:55",
+      "duration_s": 82.7,
+      "excerpt_chars": 1758
+    }
   }
 }

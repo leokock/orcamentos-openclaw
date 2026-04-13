@@ -88,5 +88,65 @@
   "fachada_detail": {
     "_total": 3019064.72
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 1,
+      "total_itens": 19,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/dimas-pb2.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "Estrutura",
+        "itens_exemplo": [
+          "ESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "Sistemas",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "Acabamentos e Fachada",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "PINTURA INTERNA"
+        ]
+      },
+      {
+        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
+        "sub_disciplina": "Infraestrutura Geral",
+        "itens_exemplo": [
+          "INFRAESTRUTURA",
+          "SERVIÇOS COMPLEMENTARES",
+          "DESPESAS INDIRETAS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "AC=21215.27m²",
+        "observacao": "UR=?",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Estrutura de custos por Unidade de Preço (pu) e Valor Total (R$)"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:28:16",
+      "duration_s": 80.1,
+      "compact_chars": 487
+    }
+  }
 }

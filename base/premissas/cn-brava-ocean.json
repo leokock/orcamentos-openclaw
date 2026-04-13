@@ -1,0 +1,87 @@
+{
+  "projeto": "cn-brava-ocean",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T01:23:30",
+  "excerpt_chars": 4329,
+  "duration_s": 92.0,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"61.763,96m²\",\n    \"ur\": null,\n    \"tipologia\": \"3 TORRES, 4 apartamentos, 5 Salas Comerciais + Sala CREA\",\n    \"data_base\": \"NOV/23\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Área de Lazer: Piscina, Salão de Festas, Academia, Fire Place, PUB, Game Room, etc.\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Armação com consideração de aço cortado e dobra em obra com 10% de perda\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Fabricação, montagem e desmontagem de forma de blocos e baldrames em madeira resinada 17mm\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Concreto fck de 40 Mpa em estacas, consideração de 25% de perda\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Concreto fck de 35 Mpa em blocos e baldrames, consideração de 5% de perda\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em compensado resinado 17 mm - considerando 1 jogo (lazer) no embasamento e 1 jogo (tipo) para cada torre\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Armação com consideração de aço cortado e dobrado – sem perda\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Concreto fck de 35 MPa na supraestrutura, consideração de 5% de perda\"\n    },\n    {\n      \"area\": \"Alvenaria\",\n      \"premissa\": \"Consideração de blocos cerâmicos estruturais em áreas de escadas e elevadores com argamassa usinada para assentamento\"\n    },\n    {\n      \"area\": \"Alvenaria\",\n      \"premissa\": \"Consideração de blocos de concreto sical em áreas de geradores com argamassa usinada para assentamento\"\n    },\n    {\n      \"area\": \"Alvenaria\",\n      \"premissa\": \"Consideração de blocos cerâmicos de 9, 14 e 19cm para demais vedação com argamassa usinada para assentamento\"\n    },\n    {\n      \"area\": \"Alvenaria\",\n      \"premissa\": \"Fechamento de shafts com drywall 70mm com placa de fechamento standart.\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Supraestrutura\",\n      \"decisao\": \"Mão de obra empreitada para execução de supraestrutura do TERREO - BLOCO D precificada pelo valor por área construída\"\n    },\n    {\n      \"contexto\": \"Supraestrutura\",\n      \"decisao\": \"Mão de obra própria para execução de supraestrutura dos demais blocos e pavimentos\"\n    },\n    {\n      \"contexto\": \"Acessos\",\n      \"decisao\": \"Escada metálica para acesso do mezanino do hall de entrada prevendo material e mão de obra\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Localização: Rua Cabo – Polícia Militar Antônio Rudolf, Bairro Praia Brava, Itajaí/SC\",\n    \"EAP GERENCIAMENTO TÉCNICO E ADMINISTRATIVO: Custos indiretos da obra; Administração de Canteiro; Instalações Provisórias.\",\n    \"GERENCIAMENTO EXECUTIVO: Pacotes de custo de execução de obra separados por blocos e pavimentos.\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "61.763,96m²",
+      "ur": null,
+      "tipologia": "3 TORRES, 4 apartamentos, 5 Salas Comerciais + Sala CREA",
+      "data_base": "NOV/23",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Área de Lazer: Piscina, Salão de Festas, Academia, Fire Place, PUB, Game Room, etc."
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Armação com consideração de aço cortado e dobra em obra com 10% de perda"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Fabricação, montagem e desmontagem de forma de blocos e baldrames em madeira resinada 17mm"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Concreto fck de 40 Mpa em estacas, consideração de 25% de perda"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Concreto fck de 35 Mpa em blocos e baldrames, consideração de 5% de perda"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes, rampas e escadarias em compensado resinado 17 mm - considerando 1 jogo (lazer) no embasamento e 1 jogo (tipo) para cada torre"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com consideração de aço cortado e dobrado – sem perda"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Concreto fck de 35 MPa na supraestrutura, consideração de 5% de perda"
+      },
+      {
+        "area": "Alvenaria",
+        "premissa": "Consideração de blocos cerâmicos estruturais em áreas de escadas e elevadores com argamassa usinada para assentamento"
+      },
+      {
+        "area": "Alvenaria",
+        "premissa": "Consideração de blocos de concreto sical em áreas de geradores com argamassa usinada para assentamento"
+      },
+      {
+        "area": "Alvenaria",
+        "premissa": "Consideração de blocos cerâmicos de 9, 14 e 19cm para demais vedação com argamassa usinada para assentamento"
+      },
+      {
+        "area": "Alvenaria",
+        "premissa": "Fechamento de shafts com drywall 70mm com placa de fechamento standart."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Mão de obra empreitada para execução de supraestrutura do TERREO - BLOCO D precificada pelo valor por área construída"
+      },
+      {
+        "contexto": "Supraestrutura",
+        "decisao": "Mão de obra própria para execução de supraestrutura dos demais blocos e pavimentos"
+      },
+      {
+        "contexto": "Acessos",
+        "decisao": "Escada metálica para acesso do mezanino do hall de entrada prevendo material e mão de obra"
+      }
+    ],
+    "observacoes_chave": [
+      "Localização: Rua Cabo – Polícia Militar Antônio Rudolf, Bairro Praia Brava, Itajaí/SC",
+      "EAP GERENCIAMENTO TÉCNICO E ADMINISTRATIVO: Custos indiretos da obra; Administração de Canteiro; Instalações Provisórias.",
+      "GERENCIAMENTO EXECUTIVO: Pacotes de custo de execução de obra separados por blocos e pavimentos."
+    ]
+  }
+}

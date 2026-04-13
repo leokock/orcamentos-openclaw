@@ -1,0 +1,83 @@
+{
+  "projeto": "paludo-volo-home",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:47:45",
+  "compact_chars": 1033,
+  "duration_s": 89.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto usinado bombeável, para supraestrutura, fck 3…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos\",\n      \"itens_exemplo\": [\n        \"Piso de concreto polido, acabamento camurçado, espessu…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Paredes\",\n      \"itens_exemplo\": [\n        \"Massa única para paredes internas em argamassa estabil…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Especializados\",\n      \"sub_disciplina\": \"Mão de Obra\",\n      \"itens_exemplo\": [\n        \"Empreitada de Mão de Obra para Parte Civil *\",\n        \"Mão de obra empreitada para aplicação e lixamento de m…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Especializados\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Especializados\",\n      \"sub_disciplina\": \"Equipamentos\",\n      \"itens_exemplo\": [\n        \"Instalação Completa de Elevador de Pessoas Definitivo *\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Custos Indiretos/Reserva\",\n      \"sub_disciplina\": \"Imprevistos\",\n      \"itens_exemplo\": [\n        \"Despesas com Imprevistos *\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Identificação do Projeto/Documento\",\n      \"observacao\": \"541 - OBRA VOLO HOME - CNO 90.011.71758/75\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Detalhamento Contábil\",\n      \"observacao\": \"4 - Custos Diretos de Obra - UC 2 (Materiais e Mão de Obra Aplicados)\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Localização\",\n      \"observacao\": \"RUA EMILIO LEOBET, 113 - PRÓXIMO AO SUPERMERCADO RISSUL - DUTRA - Gramado/RS - 95670-000\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Custos Diretos de Obra - UC 2 (Materiais e Mão de Obra Aplicados)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 3…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos",
+        "itens_exemplo": [
+          "Piso de concreto polido, acabamento camurçado, espessu…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Paredes",
+        "itens_exemplo": [
+          "Massa única para paredes internas em argamassa estabil…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Especializados",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Empreitada de Mão de Obra para Parte Civil *",
+          "Mão de obra empreitada para aplicação e lixamento de m…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Especializados",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Especializados",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "Instalação Completa de Elevador de Pessoas Definitivo *"
+        ]
+      },
+      {
+        "macrogrupo": "Custos Indiretos/Reserva",
+        "sub_disciplina": "Imprevistos",
+        "itens_exemplo": [
+          "Despesas com Imprevistos *"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Identificação do Projeto/Documento",
+        "observacao": "541 - OBRA VOLO HOME - CNO 90.011.71758/75",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhamento Contábil",
+        "observacao": "4 - Custos Diretos de Obra - UC 2 (Materiais e Mão de Obra Aplicados)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Localização",
+        "observacao": "RUA EMILIO LEOBET, 113 - PRÓXIMO AO SUPERMERCADO RISSUL - DUTRA - Gramado/RS - 95670-000",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Custos Diretos de Obra - UC 2 (Materiais e Mão de Obra Aplicados)"
+    ],
+    "fora_da_curva": []
+  }
+}

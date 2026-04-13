@@ -1322,5 +1322,107 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 4,
+      "total_itens": 718,
+      "total_observacoes": 21,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/chiquetti-e-dalvesco-bela-vida.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Projetos e Serviços Complementares",
+        "sub_disciplina": "Projetos de Engenharia",
+        "itens_exemplo": [
+          "Projeto arquitetônico legal",
+          "Projeto complementares: estrutural, elétrico e telecom…",
+          "Projeto Impermeabilização"
+        ]
+      },
+      {
+        "macrogrupo": "Mão de Obra e Serviços Especializados",
+        "sub_disciplina": "Serviços de Gestão",
+        "itens_exemplo": [
+          "Engenheiro Civil",
+          "Gerente de Planejamento Orçamento",
+          "Serviços Contabeis"
+        ]
+      },
+      {
+        "macrogrupo": "Segurança e Proteção",
+        "sub_disciplina": "Proteção Coletiva",
+        "itens_exemplo": [
+          "Rede de proteção tipo SLQA leve (media)",
+          "Mão de Obra Instalações de Proteções Coletivas"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Custo Ajustada Antigo + Atual",
+        "observacao": "Custo Ajustada Antigo + Atual",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Irrigação",
+        "observacao": "O custo que estava destinado a Irrigação se refere a Hidro e PPCI na planilha de contratação",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Ajustes de Orçamento",
+        "observacao": "Ajustado conforme reunião",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Ajustes de Orçamento",
+        "observacao": "Ajustado conforme Proposta Recebida",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Escopo de Obra",
+        "observacao": "onde sta cosndierado a escação do SS",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Escopo de Obra",
+        "observacao": "Onde esta considerado o materila escava da estaca?",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Escopo de Obra",
+        "observacao": "Cade o lastro de conreto do bloco?",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de projetos complementares (estrutural, elétrico, etc.) no Or Analitico"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "onde sta cosndierado a escação do SS",
+        "motivo": "Dúvida sobre escopo/consideração de custos"
+      },
+      {
+        "item": "Onde esta considerado o materila escava da estaca?",
+        "motivo": "Dúvida sobre escopo/consideração de materiais"
+      },
+      {
+        "item": "Cade o lastro de conreto do bloco?",
+        "motivo": "Dúvida sobre escopo/consideração de materiais"
+      },
+      {
+        "item": "Esse csuto esta considerado o que?",
+        "motivo": "Dúvida sobre o que o custo engloba"
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:01:49",
+      "duration_s": 87.5,
+      "compact_chars": 1966
+    }
   }
 }

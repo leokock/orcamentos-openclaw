@@ -711,5 +711,220 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 21,
+      "total_itens": 7116,
+      "total_observacoes": 93,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/arv-ingleses-spot.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Ger_Tec e Adm",
+        "sub_disciplina": "Terreno",
+        "itens_exemplo": [
+          "Aquisição do Terreno"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Tec e Adm",
+        "sub_disciplina": "Administração e Consultoria",
+        "itens_exemplo": [
+          "Administração",
+          "Comissões de Vendas - Cotas",
+          "Consultoria Financeira e Gestão de Suprimentos"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Mobiliário e Acabamentos",
+        "itens_exemplo": [
+          "Mobiliário para Áreas Comuns",
+          "MOE - Esquadrias de aluminio",
+          "Climatização - material e mão de obra"
+        ]
+      },
+      {
+        "macrogrupo": "Ger_Executivo",
+        "sub_disciplina": "Infraestrutura e Instalações",
+        "itens_exemplo": [
+          "Elevador Social",
+          "Entrada de Energia",
+          "MAT - Instalações de água fria"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIÁRIO",
+        "sub_disciplina": "Áreas e Acabamentos",
+        "itens_exemplo": [
+          "Área:",
+          "Acabamentos Especiais"
+        ]
+      },
+      {
+        "macrogrupo": "MOBILIÁRIO",
+        "sub_disciplina": "Móveis Específicos",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Espreguiçadeira Brisa Estofado Navy Base Alumínio Taup…"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Consolidação",
+        "sub_disciplina": "Bacias Sanitárias",
+        "itens_exemplo": [
+          "Bacia Sanitária com caixa acoplada",
+          "Bacia com caixa acoplada / Detalhe: Linha Izy, Bacia: …",
+          "Bacia Sanitária p/ PNE com Caixa Montana"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Pavimentos",
+        "sub_disciplina": "Bacias Sanitárias",
+        "itens_exemplo": [
+          "Bacia Sanitária com caixa acoplada",
+          "Bacia Sanitária p/ PNE com Caixa Montana"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e metais_Pavimentos",
+        "sub_disciplina": "Acessórios",
+        "itens_exemplo": [
+          "Acabamento de Registro",
+          "Barra de apoio para deficiente"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Etapa fora do escopo da Cartesian",
+        "observacao": "Etapa fora do escopo da Cartesian",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Lançamentos de Serviço ARV",
+        "observacao": "Mantido lançamento prévio do serviço da ARV",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Revisão de Valores ARV",
+        "observacao": "Mantido lançamento prévio do serviço da ARV e valor informado pela ARV para a ultima revisão",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Revisão de Valores ARV",
+        "observacao": "valor informado pela ARV para a ultima revisão",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Estimativa de Custos",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Revisão de Quantidade ARV",
+        "observacao": "valor informado pela ARV para a ultima revisão, alterado quantidade",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Cálculo de Escavação",
+        "observacao": "Considerado empolamento 30% da escavação valor informado pela ARV para a ultima revisão",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cálculo de Perda",
+        "observacao": "Considerando 5% de perda pelo projetista - na composição - valor informado pela ARV para a ultima revisão",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escopo de Acabamentos",
+        "observacao": "Seriam as placas de mdf e demais items de acabamentos de arquitetura, que não incluem móveis",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo de Acabamentos",
+        "observacao": "Inclui itens pequenos de decoração + letreiriros e demais itens que podem não aparecer nas imagens comerciais",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Escopo de Mobiliário",
+        "observacao": "Incluso todos os itens de madeira fabricada e montada, como a caixa de correspondencia e demais móveis",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Itens Específicos",
+        "observacao": "Departamento permanente de lixo",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Itens Específicos",
+        "observacao": "Acabamento de Registro PNE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Itens Específicos",
+        "observacao": "Bacia Sanitária com caixa acoplada",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Itens Específicos",
+        "observacao": "Bacia Sanitária p/ PNE com Caixa Montana",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Valor informado pela ARV para a ultima revisão"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Etapa fora do escopo da Cartesian",
+        "motivo": "Fora do escopo"
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:37:28",
+      "duration_s": 126.7,
+      "compact_chars": 3675
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "08/07/2024",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Unidade construtiva 1",
+        "premissa": "TERRENO, DESPESAS ADM E CUSTOS INDIRETOS"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": null
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": null
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Preços expressos em R$ (REAL)",
+      "BDI não aplicado Encargos sociais não aplicado"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:49:43",
+      "duration_s": 54.7,
+      "excerpt_chars": 4332
+    }
   }
 }

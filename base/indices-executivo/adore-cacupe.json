@@ -867,5 +867,90 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": 5.5,
     "reboco_pu_m2": 55.0
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 24,
+      "total_itens": 1443,
+      "total_observacoes": 80,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/adore-cacupe.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de obra e Armadura",
+        "itens_exemplo": [
+          "Mão de obra supraestrutura",
+          "Armadura Convencional para Estrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Concreto",
+        "sub_disciplina": "Tipos de Concreto",
+        "itens_exemplo": [
+          "Concreto 30MPa",
+          "Concreto 40MPa",
+          "Concreto"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamento",
+        "sub_disciplina": "Pintura e Reboco",
+        "itens_exemplo": [
+          "Pintura parede (selador + massa + pintura)",
+          "Massa unica para reboco interno em argamassa estabiliz…"
+        ]
+      },
+      {
+        "macrogrupo": "Alvenaria",
+        "sub_disciplina": "Tipos de Parede",
+        "itens_exemplo": [
+          "Drywall tipo",
+          "Alvenaria tipo",
+          "Alvenaria escadas"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Geral",
+        "observacao": "Informado no formulário que não haverá contrapiso acústico",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Valor pedido pelo cliente para ser retirado dos indiretos e colocado no nos itens de supra",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Valor proporcional aberto na aba MO",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "Considerado conforme estimativa de custos Level Up.",
+        "categoria": "justificativa"
+      }
+    ],
+    "padroes_identificados": [
+      "Mão de obra supraestrutura",
+      "Armadura Convencional para Estrutura",
+      "Esquadria em alumínio - Fornecimento e Instalação*",
+      "Concreto 30MPa",
+      "Pintura parede (selador + massa + pintura)",
+      "Massa unica para reboco interno em argamassa estabiliz…",
+      "Imprevistos e Contingências",
+      "Porcelanato"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:25:59",
+      "duration_s": 99.1,
+      "compact_chars": 3711
+    }
   }
 }

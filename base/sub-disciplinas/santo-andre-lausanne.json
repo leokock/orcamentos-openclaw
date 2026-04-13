@@ -1,0 +1,61 @@
+{
+  "projeto": "santo-andre-lausanne",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:08:59",
+  "compact_chars": 1060,
+  "duration_s": 81.0,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Infraestrutura\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Fechamentos e Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Acabamentos\",\n      \"sub_disciplina\": \"Instalações Básicas\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Acabamentos\",\n      \"sub_disciplina\": \"Acabamentos Verticais e Horizontais\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS DE PISO E PAREDE\",\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Gestão e Serviços\",\n      \"sub_disciplina\": \"Administrativo\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"O valor total (R$116.264.185) é idêntico tanto para o ORÇAMENTO_EXECUTIVO quanto para o AREAS PRIVATIVAS.\",\n    \"O custo de diversas categorias principais (ex: SUPRAESTRUTURA, ESQUADRIAS, INFRAESTRUTURA, ACABAMENTOS DE PISO E PAREDE, REVESTIMENTOS E ACABAMENTOS DE FACHADA) é idêntico em ambos os escopos, sugerindo um custo base fixo ou uma metodologia de cálculo comum.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Infraestrutura",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fechamentos e Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Acabamentos",
+        "sub_disciplina": "Instalações Básicas",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Acabamentos",
+        "sub_disciplina": "Acabamentos Verticais e Horizontais",
+        "itens_exemplo": [
+          "ACABAMENTOS DE PISO E PAREDE",
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Serviços",
+        "sub_disciplina": "Administrativo",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "O valor total (R$116.264.185) é idêntico tanto para o ORÇAMENTO_EXECUTIVO quanto para o AREAS PRIVATIVAS.",
+      "O custo de diversas categorias principais (ex: SUPRAESTRUTURA, ESQUADRIAS, INFRAESTRUTURA, ACABAMENTOS DE PISO E PAREDE, REVESTIMENTOS E ACABAMENTOS DE FACHADA) é idêntico em ambos os escopos, sugerindo um custo base fixo ou uma metodologia de cálculo comum."
+    ],
+    "fora_da_curva": []
+  }
+}

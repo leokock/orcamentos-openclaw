@@ -1,0 +1,51 @@
+{
+  "projeto": "sak-engenharia",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:47:31",
+  "excerpt_chars": 3960,
+  "duration_s": 78.8,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"1700.61\",\n    \"ur\": \"08\",\n    \"tipologia\": \"Edifício Austin\",\n    \"data_base\": \"ABRIL/23\",\n    \"cub_referencia\": \"2.680,84\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"MOVIMENTAÇÃO DE TERRA\",\n      \"premissa\": \"R$ 11,41/m²\"\n    },\n    {\n      \"area\": \"SUPRAESTRUTURA\",\n      \"premissa\": \"Fabricação de forma de pilares, vigas, lajes e escadarias em compensado plastificado 17 mm, considerando 2 jogos de forma; Lajes nervuradas com enchimento em EPS; Armação com corte e dobra em obra; Concreto de 35 Mpa; Escoramento com pontalete de madeira.\"\n    },\n    {\n      \"area\": \"ALVENARIA DE VEDAÇÃO\",\n      \"premissa\": \"Consideração de blocos cerâmicos de vedação com argamassa produzida em obra para assentamento; Verga e contraverga de concreto moldada in loco; Encunhamento com argamassa expansiva; Amarração de alvenaria e estrutura com tela soldada.\"\n    },\n    {\n      \"area\": \"INFRAESTRUTURA\",\n      \"premissa\": \"Lâmina de concreto (m3 / m2 de área construída) 0,34; Lâmina de forma (m2 / m3 de concreto) 8,18; Taxa de aço (kg / m3 de concreto) 64,83\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Movimentação de Terra/Estaca\",\n      \"decisao\": \"apesar o projeto identificar a estaca como estaca broca (escavada) de 25cm, o orçamento considera as definições repasassadas nos gráficos.\"\n    },\n    {\n      \"contexto\": \"Alvenaria de Vedação\",\n      \"decisao\": \"Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Custos considerando prazo de 23 meses de obra.\",\n    \"Locação de balancim por 10 meses ; Locação de andaime tubular por 3 meses; Locação de guincho de coluna por 6 meses;\",\n    \"ORÇAMENTO EXECUTIVO ORÇAMENTO PARAMÉTRICO\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "1700.61",
+      "ur": "08",
+      "tipologia": "Edifício Austin",
+      "data_base": "ABRIL/23",
+      "cub_referencia": "2.680,84"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "MOVIMENTAÇÃO DE TERRA",
+        "premissa": "R$ 11,41/m²"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes e escadarias em compensado plastificado 17 mm, considerando 2 jogos de forma; Lajes nervuradas com enchimento em EPS; Armação com corte e dobra em obra; Concreto de 35 Mpa; Escoramento com pontalete de madeira."
+      },
+      {
+        "area": "ALVENARIA DE VEDAÇÃO",
+        "premissa": "Consideração de blocos cerâmicos de vedação com argamassa produzida em obra para assentamento; Verga e contraverga de concreto moldada in loco; Encunhamento com argamassa expansiva; Amarração de alvenaria e estrutura com tela soldada."
+      },
+      {
+        "area": "INFRAESTRUTURA",
+        "premissa": "Lâmina de concreto (m3 / m2 de área construída) 0,34; Lâmina de forma (m2 / m3 de concreto) 8,18; Taxa de aço (kg / m3 de concreto) 64,83"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Movimentação de Terra/Estaca",
+        "decisao": "apesar o projeto identificar a estaca como estaca broca (escavada) de 25cm, o orçamento considera as definições repasassadas nos gráficos."
+      },
+      {
+        "contexto": "Alvenaria de Vedação",
+        "decisao": "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico"
+      }
+    ],
+    "observacoes_chave": [
+      "Custos considerando prazo de 23 meses de obra.",
+      "Locação de balancim por 10 meses ; Locação de andaime tubular por 3 meses; Locação de guincho de coluna por 6 meses;",
+      "ORÇAMENTO EXECUTIVO ORÇAMENTO PARAMÉTRICO"
+    ]
+  }
+}

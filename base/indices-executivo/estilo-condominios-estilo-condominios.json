@@ -73,5 +73,190 @@
   "fachada_detail": {
     "_total": 52141.9
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 54,
+      "total_observacoes": 3,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/estilo-condominios-estilo-condominios.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Pavimentação",
+        "itens_exemplo": [
+          "PAVIMENTAÇÃO"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Terraplenagem",
+        "itens_exemplo": [
+          "TERRAPLENAGEM"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Muros e Cercamentos",
+        "itens_exemplo": [
+          "MUROS E CERCAMENTOS"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Drenagem",
+        "itens_exemplo": [
+          "DRENAGEM"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura Básica",
+        "sub_disciplina": "Rede Elétrica",
+        "itens_exemplo": [
+          "REDE ELÉTRICA - subterranea"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços e Áreas Comuns",
+        "sub_disciplina": "Gestão e Administração",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços e Áreas Comuns",
+        "sub_disciplina": "Lazer e Portaria",
+        "itens_exemplo": [
+          "RECREAÇÃO COBERTA E PORTARIA"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "RECREAÇÃO COBERTA E PORTARIA",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REDE ELÉTRICA - subterranea",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "O orçamento utiliza uma estrutura de custo unitário (pu) e custo total (R$) para listar os principais itens."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:29:37",
+      "duration_s": 81.7,
+      "compact_chars": 661
+    },
+    "pdf_metadata": {
+      "ac_m2": "467,58 m²",
+      "ur": "91 lotes",
+      "tipologia": "Loteamento/Condomínio",
+      "data_base": "19.06.2023",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Sem previsão de calçada – fora do escopo da construtora;"
+      },
+      {
+        "area": "Loteamento",
+        "premissa": "Muro palito com viga de base;"
+      },
+      {
+        "area": "Loteamento",
+        "premissa": "Gradil metálico;"
+      },
+      {
+        "area": "Loteamento",
+        "premissa": "Muro de arrimo com estrutura de pilares a cada 3m com uma estaca escavad…"
+      },
+      {
+        "area": "Loteamento",
+        "premissa": "Concreto de blocos com 20 Mpa e baldrames com 25 Mpa;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Fabricação de forma em madeira compensada plastificada 12mm – 2 jogos;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Armação com corte e dobra em obra;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Blocos cerâmicos, com encunhamento, vergas e contravergas;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Piso sobre solo de 8cm"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Contrapiso em argamassa de 1,5cm com traço 1:3;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Chapisco interno com traço 1:2 em tetos da portaria e paredes;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Impermeabilização de de baldrames com manta líquida;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Impermeabilização de região enterrada com manta asfáltica 4mm;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Lavabos e paredes hidráulicas de copas/cozinhas com argamassa polimérica;"
+      },
+      {
+        "area": "Edificações",
+        "premissa": "Peitoris com argamassa polimérica;"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Gerenciamento Executivo",
+        "decisao": "Separação entre infraestrutura (condomínio) e Recreação coberta e portaria (edificações);"
+      },
+      {
+        "contexto": "Gerenciamento Executivo",
+        "decisao": "Custo de mão de obra própria para infraestrutura e terceirizada para as edificações."
+      },
+      {
+        "contexto": "Custos Diretos",
+        "decisao": "Considerado um empolamento do material de 30% em volume de aterro;"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "ESTILO – BOULEVARD VISTA ALEGRE | 19.06.2023",
+      "Área do Terreno: 23.967,18 m²",
+      "Amenities: Recreação coberta e portaria, Recreação descoberta, Quadra poliesportiva, Rua pavimentada, Bosques de reserva legal",
+      "Quadra poliesportiva",
+      "Quadra poliesportiva"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:10:03",
+      "duration_s": 98.3,
+      "excerpt_chars": 4329
+    }
+  }
 }

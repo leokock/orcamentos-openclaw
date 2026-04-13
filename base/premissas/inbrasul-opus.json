@@ -1,0 +1,44 @@
+{
+  "projeto": "inbrasul-opus",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:24:53",
+  "excerpt_chars": 4326,
+  "duration_s": 67.5,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": null,\n    \"ur\": null,\n    \"tipologia\": \"OPUS HOUSE\",\n    \"data_base\": \"22/02/2022 - 16:32:05\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"N/A\",\n      \"premissa\": \"Tipo de obra: Construção Civil\"\n    },\n    {\n      \"area\": \"N/A\",\n      \"premissa\": \"Escopo: OPUS HOUSE - CUSTO DIRETO/INDIRETO\"\n    }\n  ],\n  \"bdi_encargos\": [\n    {\n      \"componente\": \"BDI\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": \"BDI não aplicado\"\n    },\n    {\n      \"componente\": \"Encargos sociais\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": \"Encargos sociais não aplicado\"\n    }\n  ],\n  \"decisoes_consolidadas\": [],\n  \"observacoes_chave\": [\n    \"Preços expressos em R$ (REAL)\",\n    \"Endereço da obra: Av. Prefeito José Juvenal Mafra, 604, esquina com Av. Conselheiro João Gaya., 604 - Centro - Navegantes/SC - 88375-000\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "OPUS HOUSE",
+      "data_base": "22/02/2022 - 16:32:05",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "N/A",
+        "premissa": "Tipo de obra: Construção Civil"
+      },
+      {
+        "area": "N/A",
+        "premissa": "Escopo: OPUS HOUSE - CUSTO DIRETO/INDIRETO"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": "BDI não aplicado"
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": "Encargos sociais não aplicado"
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave": [
+      "Preços expressos em R$ (REAL)",
+      "Endereço da obra: Av. Prefeito José Juvenal Mafra, 604, esquina com Av. Conselheiro João Gaya., 604 - Centro - Navegantes/SC - 88375-000"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "projeto": "as-ramos-paessaggio",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:51:30",
+  "excerpt_chars": 4329,
+  "duration_s": 108.0,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"16.348,10\",\n    \"ur\": \"55\",\n    \"tipologia\": \"Residencial/Imobiliário\",\n    \"data_base\": \"Abril/2023\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Custos diretos contemplados a partir da etapa “03”.\"\n    },\n    {\n      \"area\": \"EAP\",\n      \"premissa\": \"As etapas de custos diretos estão divididas por pavimento, exceção de Equipamentos e Sistemas Especiais, Climatização, Exaustão e Pressurização, Telhado e Serviços complementares e finais.\"\n    },\n    {\n      \"area\": \"EAP\",\n      \"premissa\": \"Etapa de Revestimentos e Acabamentos em Fachada está dividida por panos de fachada: Embasamento; Frontal; Posterior; Lateral direita; Lateral esquerda.\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Concreto de estacas com resistência de 30 Mpa, consideração de 20% de perda na composição.\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Concreto de blocos e baldrames com resistência de 30 e 45 Mpa.\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Custo de armação considerando corte e dobra em obra.\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Fabricação de forma em compensado plastificado, consideração de 3 jogos.\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Custo de armação considerando com corte e dobra em indústria.\"\n    },\n    {\n      \"area\": \"Estrutura\",\n      \"premissa\": \"Concreto com resistência de 35, 40 e 45 Mpa – consideração de 5% de perda na composição.\"\n    },\n    {\n      \"area\": \"Alvenaria\",\n      \"premissa\": \"Aplicação de blocos cerâmicos 9x19x29cm e 14x19x29cm.\"\n    },\n    {\n      \"area\": \"Alvenaria\",\n      \"premissa\": \"Encunhamento nas últimas fiadas de alvenaria.\"\n    },\n    {\n      \"area\": \"Serviços Complementares\",\n      \"premissa\": \"Impermeabilização de baldrames com tinta acrílica.\"\n    },\n    {\n      \"area\": \"Serviços Complementares\",\n      \"premissa\": \"Quadra poliesportiva.\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Custos de distanciamento de rede de alta tensão\",\n      \"decisao\": \"Considerado valor já realizado na obra.\"\n    },\n    {\n      \"contexto\": \"Infraestrutura de ar condicionado\",\n      \"decisao\": \"Equipamentos apenas nas áreas comuns considerando 10 equipamentos previstos em projeto.\"\n    },\n    {\n      \"contexto\": \"Custos de materiais elétricos\",\n      \"decisao\": \"Divididos em – Quadros elétricos e disjuntores; Eletrodutos, caixas e eletrocalhas; Enfiação; Acabamentos de tomadas e interruptores; Iluminação.\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Número de pavimentos: 33 pavimentos (Total), 24 pavimentos (Tipo), 05 pavimentos (Diferenciados).\",\n    \"Custos indiretos da obra contemplados em etapas de Gerenciamento Técnico e Gerenciamento Administrativo.\",\n    \"Quantificação seguindo detalhamentos de projeto e resumo de quantitativo disponibilizado (Fundação/Supraestrutura e Instalações).\",\n    \"Exceção de quantidades de verga e contraverga, soleiras e peitoris, contramarco e fachada foram levantados via projeto 2D (Arquitetura).\",\n    \"Exceção de quantidades de louças e metais e bancadas, foram levantados via projeto 2D (Instalações).\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "16.348,10",
+      "ur": "55",
+      "tipologia": "Residencial/Imobiliário",
+      "data_base": "Abril/2023",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Custos diretos contemplados a partir da etapa “03”."
+      },
+      {
+        "area": "EAP",
+        "premissa": "As etapas de custos diretos estão divididas por pavimento, exceção de Equipamentos e Sistemas Especiais, Climatização, Exaustão e Pressurização, Telhado e Serviços complementares e finais."
+      },
+      {
+        "area": "EAP",
+        "premissa": "Etapa de Revestimentos e Acabamentos em Fachada está dividida por panos de fachada: Embasamento; Frontal; Posterior; Lateral direita; Lateral esquerda."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto de estacas com resistência de 30 Mpa, consideração de 20% de perda na composição."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto de blocos e baldrames com resistência de 30 e 45 Mpa."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Custo de armação considerando corte e dobra em obra."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Fabricação de forma em compensado plastificado, consideração de 3 jogos."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Custo de armação considerando com corte e dobra em indústria."
+      },
+      {
+        "area": "Estrutura",
+        "premissa": "Concreto com resistência de 35, 40 e 45 Mpa – consideração de 5% de perda na composição."
+      },
+      {
+        "area": "Alvenaria",
+        "premissa": "Aplicação de blocos cerâmicos 9x19x29cm e 14x19x29cm."
+      },
+      {
+        "area": "Alvenaria",
+        "premissa": "Encunhamento nas últimas fiadas de alvenaria."
+      },
+      {
+        "area": "Serviços Complementares",
+        "premissa": "Impermeabilização de baldrames com tinta acrílica."
+      },
+      {
+        "area": "Serviços Complementares",
+        "premissa": "Quadra poliesportiva."
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Custos de distanciamento de rede de alta tensão",
+        "decisao": "Considerado valor já realizado na obra."
+      },
+      {
+        "contexto": "Infraestrutura de ar condicionado",
+        "decisao": "Equipamentos apenas nas áreas comuns considerando 10 equipamentos previstos em projeto."
+      },
+      {
+        "contexto": "Custos de materiais elétricos",
+        "decisao": "Divididos em – Quadros elétricos e disjuntores; Eletrodutos, caixas e eletrocalhas; Enfiação; Acabamentos de tomadas e interruptores; Iluminação."
+      }
+    ],
+    "observacoes_chave": [
+      "Número de pavimentos: 33 pavimentos (Total), 24 pavimentos (Tipo), 05 pavimentos (Diferenciados).",
+      "Custos indiretos da obra contemplados em etapas de Gerenciamento Técnico e Gerenciamento Administrativo.",
+      "Quantificação seguindo detalhamentos de projeto e resumo de quantitativo disponibilizado (Fundação/Supraestrutura e Instalações).",
+      "Exceção de quantidades de verga e contraverga, soleiras e peitoris, contramarco e fachada foram levantados via projeto 2D (Arquitetura).",
+      "Exceção de quantidades de louças e metais e bancadas, foram levantados via projeto 2D (Instalações)."
+    ]
+  }
+}

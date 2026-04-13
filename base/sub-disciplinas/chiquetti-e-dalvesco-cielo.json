@@ -1,0 +1,155 @@
+{
+  "projeto": "chiquetti-e-dalvesco-cielo",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:04:09",
+  "compact_chars": 3970,
+  "duration_s": 139.9,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Execução\",\n      \"sub_disciplina\": \"Concreto e Fundações\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 30MPa Bombeavel\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Execução\",\n      \"sub_disciplina\": \"Alvenaria e Acabamentos\",\n      \"itens_exemplo\": [\n        \"Mão de obra para assentamento de blocos cerâmicos\",\n        \"Mão de Obra Piso Porcenato/ Cerâmico\",\n        \"Mão de obra para pintura acrílica em paredes internas,...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura e Execução\",\n      \"sub_disciplina\": \"Sistemas Verticais\",\n      \"itens_exemplo\": [\n        \"Elevadores\",\n        \"Esquadrias de Alumínio - fornecimento e instalação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Técnicos e Administrativos\",\n      \"sub_disciplina\": \"Administração e Gestão\",\n      \"itens_exemplo\": [\n        \"Taxa de Administração\",\n        \"Engenheiro Civil\",\n        \"Despesas de manutenção: Manutenção provisória do cante…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Marcenaria\",\n      \"itens_exemplo\": [\n        \"Marcenaria\",\n        \"Marcenaria\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Elétrica e Instalações\",\n      \"sub_disciplina\": \"Cabeamento e Eletrodutos\",\n      \"itens_exemplo\": [\n        \"CABOS DO TIPO \\\"EPROTENAX\\\" 1000 V (90o), NAS SEGUINTES…\",\n        \"ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,0…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Elétrica e Instalações\",\n      \"sub_disciplina\": \"Climatização e Segurança\",\n      \"itens_exemplo\": [\n        \"SISTEMA DE CLIMATIZAÇÃO INVERTER COM CAPACIDADE DE 24.…\",\n        \"CONTROLE DE ACESSO FACIAL\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Elétrica e Instalações\",\n      \"sub_disciplina\": \"Iluminação e Equipamentos\",\n      \"itens_exemplo\": [\n        \"Luminotécnico\",\n        \"Grupo gerador de emergência, completo com usca e quad…\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Subsolo\",\n      \"observacao\": \"Considerado o volume de Terra so sub solo\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Projeto\",\n      \"observacao\": \"Considerado sem indicação em projeto\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Orçamento\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Terraplanagem\",\n      \"observacao\": \"Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Mão de Obra\",\n      \"observacao\": \"Considerado 2 profissionais Valor informado em formulário em outubro/23 + reajuste\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Preenchimento\",\n      \"observacao\": \"Valor informado em formulário\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Serviço\",\n      \"observacao\": \"Custo de contratação Cartesian\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Elétrica\",\n      \"observacao\": \"Quadros elétricos e disjuntores\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Elétrica\",\n      \"observacao\": \"Luminárias e lâmpadas e acessórios\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Elétrica\",\n      \"observacao\": \"Pontos de tomada e interruptores\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Elétrica\",\n      \"observacao\": \"Eletrodutos e eletrocalhas\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Instalações\",\n      \"observacao\": \"CD CONDOMÍNIO AUXILIAR (ESTAÇÕES DE CARREGAMENTO)\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"CABOS DO TIPO \\\"EPROTENAX\\\" 1000 V (90o), NAS SEGUINTES…\",\n    \"SISTEMA DE CLIMATIZAÇÃO INVERTER COM CAPACIDADE DE 24.…\",\n    \"ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,0…\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Execução",
+        "sub_disciplina": "Concreto e Fundações",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 30MPa Bombeavel"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Execução",
+        "sub_disciplina": "Alvenaria e Acabamentos",
+        "itens_exemplo": [
+          "Mão de obra para assentamento de blocos cerâmicos",
+          "Mão de Obra Piso Porcenato/ Cerâmico",
+          "Mão de obra para pintura acrílica em paredes internas,..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Execução",
+        "sub_disciplina": "Sistemas Verticais",
+        "itens_exemplo": [
+          "Elevadores",
+          "Esquadrias de Alumínio - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Técnicos e Administrativos",
+        "sub_disciplina": "Administração e Gestão",
+        "itens_exemplo": [
+          "Taxa de Administração",
+          "Engenheiro Civil",
+          "Despesas de manutenção: Manutenção provisória do cante…"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Marcenaria",
+        "itens_exemplo": [
+          "Marcenaria",
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "Elétrica e Instalações",
+        "sub_disciplina": "Cabeamento e Eletrodutos",
+        "itens_exemplo": [
+          "CABOS DO TIPO \"EPROTENAX\" 1000 V (90o), NAS SEGUINTES…",
+          "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,0…"
+        ]
+      },
+      {
+        "macrogrupo": "Elétrica e Instalações",
+        "sub_disciplina": "Climatização e Segurança",
+        "itens_exemplo": [
+          "SISTEMA DE CLIMATIZAÇÃO INVERTER COM CAPACIDADE DE 24.…",
+          "CONTROLE DE ACESSO FACIAL"
+        ]
+      },
+      {
+        "macrogrupo": "Elétrica e Instalações",
+        "sub_disciplina": "Iluminação e Equipamentos",
+        "itens_exemplo": [
+          "Luminotécnico",
+          "Grupo gerador de emergência, completo com usca e quad…"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Subsolo",
+        "observacao": "Considerado o volume de Terra so sub solo",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto",
+        "observacao": "Considerado sem indicação em projeto",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Terraplanagem",
+        "observacao": "Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Mão de Obra",
+        "observacao": "Considerado 2 profissionais Valor informado em formulário em outubro/23 + reajuste",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Preenchimento",
+        "observacao": "Valor informado em formulário",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Serviço",
+        "observacao": "Custo de contratação Cartesian",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Elétrica",
+        "observacao": "Quadros elétricos e disjuntores",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Elétrica",
+        "observacao": "Luminárias e lâmpadas e acessórios",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Elétrica",
+        "observacao": "Pontos de tomada e interruptores",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Elétrica",
+        "observacao": "Eletrodutos e eletrocalhas",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Instalações",
+        "observacao": "CD CONDOMÍNIO AUXILIAR (ESTAÇÕES DE CARREGAMENTO)",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "CABOS DO TIPO \"EPROTENAX\" 1000 V (90o), NAS SEGUINTES…",
+      "SISTEMA DE CLIMATIZAÇÃO INVERTER COM CAPACIDADE DE 24.…",
+      "ELETRODUTO DE PVC RÍGIDO, TIPO ROSCA, EM BARRAS DE 3,0…"
+    ],
+    "fora_da_curva": []
+  }
+}

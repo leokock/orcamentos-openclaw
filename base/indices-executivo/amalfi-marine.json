@@ -162,5 +162,127 @@
     "pintura_parede_pu_m2": null,
     "chapisco_pu_m2": null,
     "reboco_pu_m2": null
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 63,
+      "total_observacoes": 8,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/amalfi-marine.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Geral",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "pu=3135.89",
+          "pu=885.31"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "SUPRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=484.53",
+          "pu=822.21"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "pu=343.98",
+          "pu=583.72"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "pu=281.28",
+          "pu=477.32"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Serviços",
+        "sub_disciplina": "SERVIÇOS COMPLEMENTARES",
+        "itens_exemplo": [
+          "pu=241.25",
+          "pu=409.39"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Serviços",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "itens_exemplo": [
+          "pu=237.47",
+          "pu=402.97"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos",
+        "sub_disciplina": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "itens_exemplo": [
+          "pu=171.78",
+          "pu=291.50"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "A estrutura de categorias de custo (Gerenciamento Técnico e Administrativo, Supraestrutura, Infraestrutura, etc.) é idêntica e repetida entre as seções ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:34:00",
+      "duration_s": 60.1,
+      "compact_chars": 1173
+    },
+    "pdf_metadata": {
+      "ac_m2": "4.498,66",
+      "ur": "27",
+      "tipologia": "Residencial/Lançamento Imobiliário",
+      "data_base": "JUL/23",
+      "cub_referencia": "R$ 2.750,52"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "ÁREA PRIVATIVA TOTAL",
+        "premissa": "2.651,04 m²"
+      },
+      {
+        "area": "UNIDADES",
+        "premissa": "27 un"
+      },
+      {
+        "area": "VAGAS DE GARAGEM",
+        "premissa": "29 un"
+      },
+      {
+        "area": "AP/AC",
+        "premissa": "58,93%"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "ANÁLISE DE CUSTOS",
+        "decisao": "Total de custo ajustado: -3.120,00 (2.583,13 vs 2.320,00)"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "TOTAL ORÇADO: R$ 14.107.283,05",
+      "Valor por Área Privativa (R$/m²): R$ 5.321,41",
+      "PRINCIPAIS CUSTOS PERCENTUAIS POR ETAPA DE EXECUÇÃO: SUPRAESTRUTURA (16,64%) e GERENCIAMENTO TÉCNICO (7,69%)"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:47:02",
+      "duration_s": 65.2,
+      "excerpt_chars": 2916
+    }
   }
 }

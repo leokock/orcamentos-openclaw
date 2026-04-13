@@ -93,5 +93,135 @@
   "instalacoes_extraction_method": "Gerenciamento executivo (combined macro)",
   "sistemas_especiais_detail": {
     "total": 269789.85
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 436,
+      "total_observacoes": 6,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/paludo-barbados.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Fachada e Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pintura e Teto",
+        "itens_exemplo": [
+          "PINTURA INTERNA",
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Instalações Gerais",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Administração",
+        "sub_disciplina": "Gerenciamento",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhamento de Escopo",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T20:23:47",
+      "duration_s": 88.3,
+      "compact_chars": 891
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "Residencial Barbados",
+      "data_base": "05/10/2021",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Quantitativos",
+        "premissa": "Os quantitativos foram obtidos através da modelagem desenvolvida pela CARTESIAN."
+      },
+      {
+        "area": "Preços",
+        "premissa": "Para a composição de preços unitários, foram utilizados valores de mercado"
+      },
+      {
+        "area": "Escopo",
+        "premissa": "A elaboração do orçamento tomou como base considerações referentes à obra similar"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Entrega do Orçamento",
+        "decisao": "O orçamento da obra Residencial Barbados está inserido no SIENGE da Paludo."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "O orçamento da obra Residencial Barbados está inserido no SIENGE da Paludo.",
+      "Arquivos correspondentes a essa entrega são: Orçamento executivo completo; Curva ABC de insumos; Curva ABC de serviços; Relatório de composições; Planilhas de levantamentos quantitativos."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:37:45",
+      "duration_s": 58.8,
+      "excerpt_chars": 1500
+    }
   }
 }

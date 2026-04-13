@@ -1,0 +1,72 @@
+{
+  "projeto": "ck-rooftop",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:13:07",
+  "compact_chars": 973,
+  "duration_s": 80.6,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto e Fundação\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado 40Mpa Slump 12+-2 Bombeado\",\n        \"Fundação em Hélice Contínua - Contrato União Fundações…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Revestimento e Alvenaria\",\n      \"itens_exemplo\": [\n        \"Estrutura de Concreto Armado - MO - Contrato SAES - CT…\",\n        \"Reboco Interno CK - M.O. - Contrato SAES - CT/526\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias e Vidros\",\n      \"sub_disciplina\": \"Vidros e Alumínio\",\n      \"itens_exemplo\": [\n        \"Janela de 2 Folhas Móveis, Peitoril Fixo, em Alumínio …\",\n        \"Painel de Vidro Fixo Temperado, 11 Módulos, com Janela…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Áreas Comuns e Mobiliário\",\n      \"sub_disciplina\": \"Decoração e Mobiliário\",\n      \"itens_exemplo\": [\n        \"Área Comum (Mobiliário e decorações)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Unidades Habitacionais\",\n      \"sub_disciplina\": \"Apartamento\",\n      \"itens_exemplo\": [\n        \"Apartamento Decorado\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"observacao\": \"EQUIPAMENTOS, SERVIÇOS COMPLEMENTARES E CONTINGÊNCIA\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Localização\",\n      \"observacao\": \"Rua 2950, 369 - Centro - Balneário Camboriu/SC - 88330-345\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Atualização de Dados\",\n      \"observacao\": \"Atualização revestimento de fachada\",\n      \"categoria\": \"revisao\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Uso frequente de contratos SAES - CT\",\n    \"Menção de Contratos específicos (Contrato SAES, Contrato União Fundações)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Fundação",
+        "itens_exemplo": [
+          "Concreto Usinado 40Mpa Slump 12+-2 Bombeado",
+          "Fundação em Hélice Contínua - Contrato União Fundações…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento e Alvenaria",
+        "itens_exemplo": [
+          "Estrutura de Concreto Armado - MO - Contrato SAES - CT…",
+          "Reboco Interno CK - M.O. - Contrato SAES - CT/526"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias e Vidros",
+        "sub_disciplina": "Vidros e Alumínio",
+        "itens_exemplo": [
+          "Janela de 2 Folhas Móveis, Peitoril Fixo, em Alumínio …",
+          "Painel de Vidro Fixo Temperado, 11 Módulos, com Janela…"
+        ]
+      },
+      {
+        "macrogrupo": "Áreas Comuns e Mobiliário",
+        "sub_disciplina": "Decoração e Mobiliário",
+        "itens_exemplo": [
+          "Área Comum (Mobiliário e decorações)"
+        ]
+      },
+      {
+        "macrogrupo": "Unidades Habitacionais",
+        "sub_disciplina": "Apartamento",
+        "itens_exemplo": [
+          "Apartamento Decorado"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Escopo Geral",
+        "observacao": "EQUIPAMENTOS, SERVIÇOS COMPLEMENTARES E CONTINGÊNCIA",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Localização",
+        "observacao": "Rua 2950, 369 - Centro - Balneário Camboriu/SC - 88330-345",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Atualização de Dados",
+        "observacao": "Atualização revestimento de fachada",
+        "categoria": "revisao"
+      }
+    ],
+    "padroes_identificados": [
+      "Uso frequente de contratos SAES - CT",
+      "Menção de Contratos específicos (Contrato SAES, Contrato União Fundações)"
+    ],
+    "fora_da_curva": []
+  }
+}

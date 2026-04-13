@@ -1,0 +1,83 @@
+{
+  "projeto": "carraro-vertice",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T20:57:42",
+  "compact_chars": 1391,
+  "duration_s": 76.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Gerenciamento_Exec\",\n      \"sub_disciplina\": \"Estrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\",\n        \"ALVENARIA ESTRUTURAL\",\n        \"INFRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Gerenciamento_Exec\",\n      \"sub_disciplina\": \"Instalações\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Gerenciamento_Exec\",\n      \"sub_disciplina\": \"Acabamentos e Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\",\n        \"SERVIÇOS COMPLEMENTARES\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Executivo\",\n      \"sub_disciplina\": \"Estrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Executivo\",\n      \"sub_disciplina\": \"Instalações\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Executivo\",\n      \"sub_disciplina\": \"Acabamentos\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ACABAMENTOS EM PISO E PAREDE\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ESQUADRIAS, VIDROS E FERRAGENS\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"ESQUADRIAS, VIDROS E FERRAGENS é listado em Gerenciamento_Exec e Executivo\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Gerenciamento_Exec",
+        "sub_disciplina": "Estrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA",
+          "ALVENARIA ESTRUTURAL",
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Gerenciamento_Exec",
+        "sub_disciplina": "Instalações",
+        "itens_exemplo": [
+          "INSTALAÇÕES"
+        ]
+      },
+      {
+        "macrogrupo": "Gerenciamento_Exec",
+        "sub_disciplina": "Acabamentos e Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      },
+      {
+        "macrogrupo": "Executivo",
+        "sub_disciplina": "Estrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Executivo",
+        "sub_disciplina": "Instalações",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Executivo",
+        "sub_disciplina": "Acabamentos",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "ESQUADRIAS, VIDROS E FERRAGENS é listado em Gerenciamento_Exec e Executivo"
+    ],
+    "fora_da_curva": []
+  }
+}

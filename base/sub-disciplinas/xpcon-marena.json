@@ -1,0 +1,84 @@
+{
+  "projeto": "xpcon-marena",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:21:18",
+  "compact_chars": 2817,
+  "duration_s": 85.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Fundação e Estacas\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado bombeável para estacas 40MPa\",\n        \"Perfuração de estaca hélice contínua Ø 60cm\",\n        \"Locação de Escoramento Metálico\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Mobiliário e decoração\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços de Apoio e Logística\",\n      \"sub_disciplina\": \"Mão de Obra\",\n      \"itens_exemplo\": [\n        \"Engenheiro\",\n        \"Mestre de Obras\",\n        \"Almoxarife\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços de Apoio e Logística\",\n      \"sub_disciplina\": \"Equipamentos e Canteiro\",\n      \"itens_exemplo\": [\n        \"Aquisição Mini Grua\",\n        \"Locação de container\",\n        \"Instalações Provisórias (central de aço, formas, argam…\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Reunião com Glauber em 19/05/2025\",\n      \"observacao\": \"Considerado informações passada pelo cliente\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Reunião com Glauber em 19/05/2025\",\n      \"observacao\": \"Retirado conforme considerações informadas pelo cliente\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Projeto de formas dos blocos\",\n      \"observacao\": \"Considerado conforme detalhe do projeto de formas dos blocos\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Projeto de Fundação\",\n      \"observacao\": \"Considerado corte e dobra em obra\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Orçamento\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Considerado informações passada pelo cliente em reunião com Glauber em 19/05/2025\",\n    \"Considerado conforme detalhe do projeto de formas dos blocos\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação e Estacas",
+        "itens_exemplo": [
+          "Concreto Usinado bombeável para estacas 40MPa",
+          "Perfuração de estaca hélice contínua Ø 60cm",
+          "Locação de Escoramento Metálico"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Mobiliário e decoração"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Apoio e Logística",
+        "sub_disciplina": "Mão de Obra",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Mestre de Obras",
+          "Almoxarife"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços de Apoio e Logística",
+        "sub_disciplina": "Equipamentos e Canteiro",
+        "itens_exemplo": [
+          "Aquisição Mini Grua",
+          "Locação de container",
+          "Instalações Provisórias (central de aço, formas, argam…"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Reunião com Glauber em 19/05/2025",
+        "observacao": "Considerado informações passada pelo cliente",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Reunião com Glauber em 19/05/2025",
+        "observacao": "Retirado conforme considerações informadas pelo cliente",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Projeto de formas dos blocos",
+        "observacao": "Considerado conforme detalhe do projeto de formas dos blocos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Projeto de Fundação",
+        "observacao": "Considerado corte e dobra em obra",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Considerado informações passada pelo cliente em reunião com Glauber em 19/05/2025",
+      "Considerado conforme detalhe do projeto de formas dos blocos"
+    ],
+    "fora_da_curva": []
+  }
+}

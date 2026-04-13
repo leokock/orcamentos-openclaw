@@ -1,0 +1,39 @@
+{
+  "projeto": "indepy-caio-prado",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:26:06",
+  "excerpt_chars": 2554,
+  "duration_s": 73.4,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": null,\n    \"ur\": null,\n    \"tipologia\": null,\n    \"data_base\": \"Outubro/2025\",\n    \"cub_referencia\": \"R$ 2.481,34\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Alvenaria\",\n      \"premissa\": \"Blocos concreto corta-fogo (...amassa usinada para assentamento; Drywall com montantes de 70 em áreas do banheiros e cozinhas; Consideração de tratamento de junta em algumas paredes de drywall; Consideração de blocos de concreto nas demais áreas, com argamassa usinada para assentamento; Encunhamento com argamassa expansiva; Tela soldada para ligação de alvenaria/estrut…\"\n    },\n    {\n      \"area\": \"Louças e Metais\",\n      \"premissa\": \"Entrega de bacia sanitária e acabamento de registro nos apartamentos; Entrega completa de louças, metais e marmoraria de lava…\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Alvenaria\",\n      \"decisao\": \"Ação seguindo os projetos pré executivos, disponibilizados 02/07/2025, com todas as especificações consideradas nesse orçamento.\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Extração de quantidades realizado via visus, utilizando arquivo .ifc;\",\n    \"Para os itens de louças, metais e mobiliário, foram extraídos através do projeto de interiores e dwg.\",\n    \"TOTAL R$ 16.586.329,77 100% R$ 2.390,52\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": null,
+      "data_base": "Outubro/2025",
+      "cub_referencia": "R$ 2.481,34"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Alvenaria",
+        "premissa": "Blocos concreto corta-fogo (...amassa usinada para assentamento; Drywall com montantes de 70 em áreas do banheiros e cozinhas; Consideração de tratamento de junta em algumas paredes de drywall; Consideração de blocos de concreto nas demais áreas, com argamassa usinada para assentamento; Encunhamento com argamassa expansiva; Tela soldada para ligação de alvenaria/estrut…"
+      },
+      {
+        "area": "Louças e Metais",
+        "premissa": "Entrega de bacia sanitária e acabamento de registro nos apartamentos; Entrega completa de louças, metais e marmoraria de lava…"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Alvenaria",
+        "decisao": "Ação seguindo os projetos pré executivos, disponibilizados 02/07/2025, com todas as especificações consideradas nesse orçamento."
+      }
+    ],
+    "observacoes_chave": [
+      "Extração de quantidades realizado via visus, utilizando arquivo .ifc;",
+      "Para os itens de louças, metais e mobiliário, foram extraídos através do projeto de interiores e dwg.",
+      "TOTAL R$ 16.586.329,77 100% R$ 2.390,52"
+    ]
+  }
+}

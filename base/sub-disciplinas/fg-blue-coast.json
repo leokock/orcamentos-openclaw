@@ -1,0 +1,99 @@
+{
+  "projeto": "fg-blue-coast",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:39:28",
+  "compact_chars": 3612,
+  "duration_s": 104.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 50MPa Bombeavel Para Supraestrutura...\",\n        \"Mão de obra para execução de supraestrutura de concret...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armação Aço CA-50, Diâmetro de 32,0mm para Supraestrutura...\",\n        \"Armação Aço CA-50, Diâmetro de 12,5mm para Supraestrutura...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fachada e Acabamento\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - fornecimento e instalação\",\n        \"Substrutura de alumínio para fachada ventilada\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações Elétricas\",\n      \"sub_disciplina\": \"Energia e Potência\",\n      \"itens_exemplo\": [\n        \"Gerador 250 kVA diesel\",\n        \"ENTRADA DE ENERGIA\",\n        \"Tranformador trifásico resfriado à ar (seco) por circu...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Mobiliário\",\n      \"sub_disciplina\": \"Mobiliário\",\n      \"itens_exemplo\": [\n        \"Mobiliário e decoração\",\n        \"Área:\",\n        \"Área:\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"observacao\": \"Considerado 33 meses de uso + Manutenção + mobilização e desmobilização + montagem e desmontagem\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"observacao\": \"Considerado 31 meses de uso + Manutenção + mobilização e desmobilização + montagem, desmontagem e ascensão\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Locação\",\n      \"observacao\": \"Locação, 14 meses + 2 montagens por pano de fachada\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Materiais\",\n      \"observacao\": \"PREGO DE ACO POLIDO COM CABECA 16 X 24 (2 1/4 X 12)\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Materiais\",\n      \"observacao\": \"CHAPA/PAINEL DE MADEIRA COMPENSADA PLASTIFICADA, DE 2200 X 1100 MM, E = 14 MM\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Materiais\",\n      \"observacao\": \"CHUMBADOR PARABOLT ACO CARBONO CBA 1/2\\\"X75MM\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Esquadrias de Alumínio - fornecimento e instalação\",\n    \"Concreto Usinado FCK = 50MPa Bombeavel Para Supraestrutura...\",\n    \"Mão de obra para execução de supraestrutura de concret...\",\n    \"Substrutura de alumínio para fachada ventilada\",\n    \"Tranformador trifásico resfriado à ar (seco) por circu...\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado FCK = 50MPa Bombeavel Para Supraestrutura...",
+          "Mão de obra para execução de supraestrutura de concret..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
+        "itens_exemplo": [
+          "Armação Aço CA-50, Diâmetro de 32,0mm para Supraestrutura...",
+          "Armação Aço CA-50, Diâmetro de 12,5mm para Supraestrutura..."
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Acabamento",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Substrutura de alumínio para fachada ventilada"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações Elétricas",
+        "sub_disciplina": "Energia e Potência",
+        "itens_exemplo": [
+          "Gerador 250 kVA diesel",
+          "ENTRADA DE ENERGIA",
+          "Tranformador trifásico resfriado à ar (seco) por circu..."
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e decoração",
+          "Área:",
+          "Área:"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "observacao": "Considerado 33 meses de uso + Manutenção + mobilização e desmobilização + montagem e desmontagem",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "observacao": "Considerado 31 meses de uso + Manutenção + mobilização e desmobilização + montagem, desmontagem e ascensão",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Locação",
+        "observacao": "Locação, 14 meses + 2 montagens por pano de fachada",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Materiais",
+        "observacao": "PREGO DE ACO POLIDO COM CABECA 16 X 24 (2 1/4 X 12)",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Materiais",
+        "observacao": "CHAPA/PAINEL DE MADEIRA COMPENSADA PLASTIFICADA, DE 2200 X 1100 MM, E = 14 MM",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Materiais",
+        "observacao": "CHUMBADOR PARABOLT ACO CARBONO CBA 1/2\"X75MM",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Esquadrias de Alumínio - fornecimento e instalação",
+      "Concreto Usinado FCK = 50MPa Bombeavel Para Supraestrutura...",
+      "Mão de obra para execução de supraestrutura de concret...",
+      "Substrutura de alumínio para fachada ventilada",
+      "Tranformador trifásico resfriado à ar (seco) por circu..."
+    ],
+    "fora_da_curva": []
+  }
+}

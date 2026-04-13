@@ -1,0 +1,66 @@
+{
+  "projeto": "eze-bella-vivie",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:33:54",
+  "compact_chars": 1351,
+  "duration_s": 68.1,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armaduras\",\n      \"itens_exemplo\": [\n        \"Armaduras (Blocos, vigas equilíbrio e baldrames)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Revestimento Externo\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de reboco externo (com vãos …)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias e Carpintaria\",\n      \"sub_disciplina\": \"Portas\",\n      \"itens_exemplo\": [\n        \"Fornecimento e instalação de portas de madeira\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias e Carpintaria\",\n      \"sub_disciplina\": \"Janelas/Esquadrias\",\n      \"itens_exemplo\": [\n        \"Fornecimento e instalação de esquadrias externas em al…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Equipamentos Especiais\",\n      \"sub_disciplina\": \"Elevadores\",\n      \"itens_exemplo\": [\n        \"Fornecimento e instalação de elevador de passageiros (…)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Segurança e Serviços\",\n      \"sub_disciplina\": \"Proteção Individual\",\n      \"itens_exemplo\": [\n        \"EPI (Equipamentos de proteção individual)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Segurança e Serviços\",\n      \"sub_disciplina\": \"Proteção Coletiva\",\n      \"itens_exemplo\": [\n        \"EPC (Equipamentos de proteção coletiva) - Diversos\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"A estrutura de custos é apresentada em um formato hierárquico, detalhando de grandes macrogrupos (ORÇAMENTO_EXECUTIVO) para itens específicos (Relatório).\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armaduras",
+        "itens_exemplo": [
+          "Armaduras (Blocos, vigas equilíbrio e baldrames)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento Externo",
+        "itens_exemplo": [
+          "Mão de obra para execução de reboco externo (com vãos …)"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias e Carpintaria",
+        "sub_disciplina": "Portas",
+        "itens_exemplo": [
+          "Fornecimento e instalação de portas de madeira"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias e Carpintaria",
+        "sub_disciplina": "Janelas/Esquadrias",
+        "itens_exemplo": [
+          "Fornecimento e instalação de esquadrias externas em al…"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos Especiais",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Fornecimento e instalação de elevador de passageiros (…)"
+        ]
+      },
+      {
+        "macrogrupo": "Segurança e Serviços",
+        "sub_disciplina": "Proteção Individual",
+        "itens_exemplo": [
+          "EPI (Equipamentos de proteção individual)"
+        ]
+      },
+      {
+        "macrogrupo": "Segurança e Serviços",
+        "sub_disciplina": "Proteção Coletiva",
+        "itens_exemplo": [
+          "EPC (Equipamentos de proteção coletiva) - Diversos"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "A estrutura de custos é apresentada em um formato hierárquico, detalhando de grandes macrogrupos (ORÇAMENTO_EXECUTIVO) para itens específicos (Relatório)."
+    ],
+    "fora_da_curva": []
+  }
+}

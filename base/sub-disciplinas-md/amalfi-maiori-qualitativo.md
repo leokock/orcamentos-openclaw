@@ -1,0 +1,35 @@
+# amalfi-maiori — análise qualitativa Gemma
+
+_Gerado em 2026-04-12T20:33:00 por gemma4:e4b (86.7s)_
+
+## Sub-disciplinas identificadas
+### Estrutura
+- **SUPRAESTRUTURA**
+  - SUPRAESTRUTURA
+
+### Instalações
+- **INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS**
+  - INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS
+
+### Acabamentos
+- **ESQUADRIAS, VIDROS E FERRAGENS**
+  - ESQUADRIAS, VIDROS E FERRAGENS
+- **REVESTIMENTOS INTERNOS DE PAREDE**
+  - REVESTIMENTOS INTERNOS DE PAREDE
+- **PISOS E PAVIMENTAÇÕES**
+  - PISOS E PAVIMENTAÇÕES
+
+### Serviços Gerais
+- **GERENCIAMENTO TÉCNICO E ADMINISTRATIVO**
+  - GERENCIAMENTO TÉCNICO E ADMINISTRATIVO
+- **INFRAESTRUTURA**
+  - INFRAESTRUTURA
+- **SERVIÇOS COMPLEMENTARES**
+  - SERVIÇOS COMPLEMENTARES
+
+## Observações de orçamentista
+- _alerta_ **observações de orçamentista** — SÓ CONSIDERA UM POUCO DE MANTA E POLIMERICO
+- _alerta_ **observações de orçamentista** — NÃO CONSIDERA TUDO OS INTEREIORES
+
+## Padrões identificados
+- Os valores de GERENCIAMENTO TÉCNICO E ADMINISTRATIVO e INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS são idênticos em Planilha1, ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS.

@@ -1,0 +1,82 @@
+{
+  "projeto": "homeset-homeset",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T21:58:38",
+  "compact_chars": 2780,
+  "duration_s": 94.9,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Alvenaria Estrutural\",\n      \"itens_exemplo\": [\n        \"ALVENARIA ESTRUTURAL\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Infraestrutura\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica/Hidrossanitária\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Paredes\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Revestimentos\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Componentes\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"HomeSet Garden - Obra\",\n      \"observacao\": \"125\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Endereço\",\n      \"observacao\": \"Rua Francisco José de Aviz, 551 - Murta - Itajaí/SC - 88311-333\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Orçamento desenvolvido pela Cartesian - 24/11/2022\",\n      \"observacao\": \"4 - 24/11/2022 - 09:04:47\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Itens de custo recorrentes (ex: ALVENARIA ESTRUTURAL, ACABAMENTOS EM PISO E PAREDE, INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…) aparecem em múltiplos blocos de orçamento (Homeset, Áreas Comuns, Torre_02).\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Alvenaria Estrutural",
+        "itens_exemplo": [
+          "ALVENARIA ESTRUTURAL"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Infraestrutura",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica/Hidrossanitária",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimentos",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Componentes",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "HomeSet Garden - Obra",
+        "observacao": "125",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Endereço",
+        "observacao": "Rua Francisco José de Aviz, 551 - Murta - Itajaí/SC - 88311-333",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Orçamento desenvolvido pela Cartesian - 24/11/2022",
+        "observacao": "4 - 24/11/2022 - 09:04:47",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Itens de custo recorrentes (ex: ALVENARIA ESTRUTURAL, ACABAMENTOS EM PISO E PAREDE, INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…) aparecem em múltiplos blocos de orçamento (Homeset, Áreas Comuns, Torre_02)."
+    ],
+    "fora_da_curva": []
+  }
+}

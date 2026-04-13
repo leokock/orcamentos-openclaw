@@ -96,5 +96,184 @@
   "fachada_detail": {
     "_total": 1840742.47
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 43,
+      "total_observacoes": 57,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/lumis-live.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Envelopamento",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Envelopamento",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Paredes",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos",
+        "itens_exemplo": [
+          "REVESTIMENTOS EM PISO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Gestão",
+        "sub_disciplina": "Gerenciamento",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Gestão",
+        "sub_disciplina": "Complementares",
+        "itens_exemplo": [
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Geral",
+        "observacao": "INSTALAÇÃO CANTEIRO DE OBRAS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "TERRAPLENAGEM E REBAIXAMENTO DE LENÇOL",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "IMPERMEABILIZAÇÃO E TRATAMENTOS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Instalações",
+        "observacao": "INSTAL. HIDROS. LOUÇAS, METAIS, GÁS, SHP",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Instalações",
+        "observacao": "INSTAL. ELÉTRICA, SIST. COMB. INCÊNDIO, PROTEÇÃO ATMOSFÉRICA, COMUNICAÇÃO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 01",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 01 - CHAPISCO E REBOCO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 01 - ACABAMENTOS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 02",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Acabamento",
+        "observacao": "REVESTIMENTO INTERNO - NÍVEL 02 - CHAPISCO E REBOCO",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "O ciclo de acabamento interno segue um padrão de etapas (Nível 01 e Nível 02) com a sequência: Chapisco e Reboco -> Acabamentos."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:10:32",
+      "duration_s": 105.8,
+      "compact_chars": 1111
+    },
+    "pdf_metadata": {
+      "ac_m2": "14888,46",
+      "ur": null,
+      "tipologia": null,
+      "data_base": "06.03.2023",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Movimentação de Terra",
+        "premissa": "Escavação mecânica; Desmonte de rocha"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Fundação com sapata; Forma com tábua de madeira; Contenção em parede de concreto; Execução de sapatas e baldrames com concreto de fck 40MPa bombeado; Aço com corte e dobra em obra"
+      },
+      {
+        "area": "Superestrutura",
+        "premissa": "Estrutura em concreto armado e lajes em concreto protendido; Formas em chapas de madeira compensada plastificada 17mm – 2 jogos; Concreto com fck de 40MPa com bombeamento; Aço com corte e dobra em obra"
+      },
+      {
+        "area": "Alvenaria",
+        "premissa": "Mochetas em drywall; Verga e contraverga de concreto moldado in loco; Encunhamento com argamassa expansiva"
+      },
+      {
+        "area": "Esquadria, Vidros e Ferragens",
+        "premissa": "Esquadrias de alumínio 32mm; Guarda-corpo de alumínio e vidro; Brises fixos e móveis; Portas internas em madeira; Fechadura biométrica nas portas de entrada dos apartamentos; Portas corta-fogo nas escadas"
+      },
+      {
+        "area": "Cobertura",
+        "premissa": "Cobertura com telha de fibrocimento e estruturação em madeira"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Movimentação de Terra",
+        "decisao": "Os itens desta etapa foram lançados pelo cliente."
+      },
+      {
+        "contexto": "Alvenaria",
+        "decisao": "Os quantitativos de alvenaria foram levantados a partir de modelo arquitetônico."
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "LUMIS - LIVE",
+      "Orçamento Executivo",
+      "Florianópolis, SC",
+      "Área: 14888,46 m²"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:28:47",
+      "duration_s": 70.9,
+      "excerpt_chars": 1500
+    }
+  }
 }

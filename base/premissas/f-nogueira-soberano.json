@@ -1,0 +1,64 @@
+{
+  "projeto": "f-nogueira-soberano",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:14:28",
+  "excerpt_chars": 2431,
+  "duration_s": 72.6,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": null,\n    \"ur\": null,\n    \"tipologia\": \"SOBERANO RESIDENCE CONSTRUÇÃO\",\n    \"data_base\": \"14/03/2022 - 10:06:37\",\n    \"cub_referencia\": null\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"MOVIMENTAÇÃO DE TERRA\",\n      \"premissa\": \"402.746,20\"\n    },\n    {\n      \"area\": \"INFRAESTRUTURA\",\n      \"premissa\": \"1.817.696,57\"\n    },\n    {\n      \"area\": \"SUPRAESTRUTURA\",\n      \"premissa\": \"12.012.324,18\"\n    },\n    {\n      \"area\": \"ALVENARIA, VEDAÇÕES E DIVISÓRIAS\",\n      \"premissa\": \"1.630.504,11\"\n    },\n    {\n      \"area\": \"SISTEMAS E INSTALAÇÕES ELÉTRICAS\",\n      \"premissa\": \"4.313.372,95\"\n    },\n    {\n      \"area\": \"SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM\",\n      \"premissa\": \"2.583.129,65\"\n    },\n    {\n      \"area\": \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n      \"premissa\": \"5.300.000,00\"\n    }\n  ],\n  \"bdi_encargos\": [\n    {\n      \"componente\": \"BDI\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": null\n    },\n    {\n      \"componente\": \"Encargos sociais\",\n      \"valor_pct\": \"não aplicado\",\n      \"nota\": null\n    }\n  ],\n  \"decisoes_consolidadas\": [],\n  \"observacoes_chave\": [\n    \"Preços expressos em R$ (REAL)\",\n    \"Total da obra 71.772.532,29 100,00\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "SOBERANO RESIDENCE CONSTRUÇÃO",
+      "data_base": "14/03/2022 - 10:06:37",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "MOVIMENTAÇÃO DE TERRA",
+        "premissa": "402.746,20"
+      },
+      {
+        "area": "INFRAESTRUTURA",
+        "premissa": "1.817.696,57"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "12.012.324,18"
+      },
+      {
+        "area": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
+        "premissa": "1.630.504,11"
+      },
+      {
+        "area": "SISTEMAS E INSTALAÇÕES ELÉTRICAS",
+        "premissa": "4.313.372,95"
+      },
+      {
+        "area": "SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM",
+        "premissa": "2.583.129,65"
+      },
+      {
+        "area": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "premissa": "5.300.000,00"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": null
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": null
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave": [
+      "Preços expressos em R$ (REAL)",
+      "Total da obra 71.772.532,29 100,00"
+    ]
+  }
+}

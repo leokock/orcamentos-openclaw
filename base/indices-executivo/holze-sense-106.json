@@ -157,5 +157,137 @@
     "reboco": 16.0,
     "porcelanato": 115.57,
     "rodape": 54.7
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 17,
+      "total_itens": 4312,
+      "total_observacoes": 73,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/holze-sense-106.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 3…",
+          "Concreto usinado bombeável, para estacas, fck 40MPa, s…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Fabricação e montagem de forma Compensado Plástificado…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Acabamentos e Complementos",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução de estrutura de c…",
+          "Esquadrias de Alumínio - fornecimento e instalação",
+          "Outorga"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Área",
+        "itens_exemplo": [
+          "Área:",
+          "Área:",
+          "Área:"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Marcenaria",
+        "itens_exemplo": [
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e Metais",
+        "sub_disciplina": "Louças",
+        "itens_exemplo": [
+          "Vaso sanitário deca branco",
+          "Cuba de cozinha",
+          "Vaso sanitário deca branco PNE"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e Metais",
+        "sub_disciplina": "Metais e Acessórios",
+        "itens_exemplo": [
+          "Mão de obra louças e metais",
+          "Acabamento metálico para registro de gaveta",
+          "Parafuso niquelado para fixação de bacia sanitária - t…"
+        ]
+      },
+      {
+        "macrogrupo": "Piscina",
+        "sub_disciplina": "Filtragem e Bombas",
+        "itens_exemplo": [
+          "TROCADOR DE CALOR SODRAMAR SD 160 1cv",
+          "BOMBA DANCOR AUTO ASPITANTE PF-17 1,5cv",
+          "FILTRO DANCOR DRF-24-13"
+        ]
+      },
+      {
+        "macrogrupo": "Interfonia",
+        "sub_disciplina": "Componentes Eletrônicos",
+        "itens_exemplo": [
+          "Aparelho interfone",
+          "no Break",
+          "Porteiro externo"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Custo",
+        "observacao": "Custo atualizado conforme solicitação do dia 27/10/2024",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo conforme respostas informadas no formulário de custos indiretos.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo atualizado conforme solicitação do dia 27/10/2024 / Alteração na profundidade das estacas.",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo inserido conforme solicitação do dia 27/10/2024",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Quantitativo",
+        "observacao": "Quantitativo conforme projetos, englobando blocos e baldrames.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Geral",
+        "observacao": "REVESTIMENTO DE PISO DE PEDRA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Custo atualizado conforme solicitação do dia 27/10/2024",
+      "Área:",
+      "BOMBA DANCOR AUTO ASPITANTE PF-17"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:57:03",
+      "duration_s": 103.8,
+      "compact_chars": 3015
+    }
   }
 }

@@ -112,5 +112,124 @@
   "sistemas_especiais_detail": {
     "total": 286525.84,
     "automacao": 10433.5
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 1055,
+      "total_observacoes": 0,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/sak-engenharia.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para estacas, fck 40MPa, s…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma",
+        "itens_exemplo": [
+          "Fabricação de fôrma para vigas, em chapas de madeira c…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra Estrutural",
+        "itens_exemplo": [
+          "Mão de obra para execução de estrutura de concreto arm…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Reboco/Paredes",
+        "itens_exemplo": [
+          "Mão de obra para execução de reboco externo, incluso c…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mão de obra para instalações elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Legal/Aprovação",
+        "itens_exemplo": [
+          "Taxas aprovação/legal. Prefeitura + Outorga"
+        ]
+      },
+      {
+        "macrogrupo": "Equipamentos Especiais",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Elevador social"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Os valores de todos os macrogrupos (TOTAL, SUPRAESTRUTURA, ESQUADRIAS, etc.) são idênticos no ORÇAMENTO_EXECUTIVO e no ORÇAMENTO_PARAMÉTRICO."
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T23:01:45",
+      "duration_s": 60.3,
+      "compact_chars": 1711
+    },
+    "pdf_metadata": {
+      "ac_m2": "1700.61",
+      "ur": "08",
+      "tipologia": "Edifício Austin",
+      "data_base": "ABRIL/23",
+      "cub_referencia": "2.680,84"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "MOVIMENTAÇÃO DE TERRA",
+        "premissa": "R$ 11,41/m²"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "Fabricação de forma de pilares, vigas, lajes e escadarias em compensado plastificado 17 mm, considerando 2 jogos de forma; Lajes nervuradas com enchimento em EPS; Armação com corte e dobra em obra; Concreto de 35 Mpa; Escoramento com pontalete de madeira."
+      },
+      {
+        "area": "ALVENARIA DE VEDAÇÃO",
+        "premissa": "Consideração de blocos cerâmicos de vedação com argamassa produzida em obra para assentamento; Verga e contraverga de concreto moldada in loco; Encunhamento com argamassa expansiva; Amarração de alvenaria e estrutura com tela soldada."
+      },
+      {
+        "area": "INFRAESTRUTURA",
+        "premissa": "Lâmina de concreto (m3 / m2 de área construída) 0,34; Lâmina de forma (m2 / m3 de concreto) 8,18; Taxa de aço (kg / m3 de concreto) 64,83"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Movimentação de Terra/Estaca",
+        "decisao": "apesar o projeto identificar a estaca como estaca broca (escavada) de 25cm, o orçamento considera as definições repasassadas nos gráficos."
+      },
+      {
+        "contexto": "Alvenaria de Vedação",
+        "decisao": "Os quantitativos de alvenaria foram levantados a partir do modelo arquitetônico"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Custos considerando prazo de 23 meses de obra.",
+      "Locação de balancim por 10 meses ; Locação de andaime tubular por 3 meses; Locação de guincho de coluna por 6 meses;",
+      "ORÇAMENTO EXECUTIVO ORÇAMENTO PARAMÉTRICO"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:47:31",
+      "duration_s": 78.8,
+      "excerpt_chars": 3960
+    }
   }
 }

@@ -1,0 +1,84 @@
+{
+  "projeto": "mussi-empreendimentos-soho",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:29:13",
+  "compact_chars": 1061,
+  "duration_s": 84.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado Bombeável, para Estacas, FCK 40MPa, c…\",\n        \"Concreto Usinado Bombeável, para Supraestrutura Torre,…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de Obra Estrutural\",\n      \"itens_exemplo\": [\n        \"Mão de Obra para Execução de Estrutura de Concreto Arm…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica\",\n      \"itens_exemplo\": [\n        \"Mão de Obra para Instalações Elétricas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidrossanitária\",\n      \"itens_exemplo\": [\n        \"Mão de Obra para Instalações Hidrossanitárias\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Acessórios\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio - Fornecimento e Instalação - T…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Acessórios\",\n      \"sub_disciplina\": \"Mobiliário\",\n      \"itens_exemplo\": [\n        \"Mobiliário e Decorações para Área Comum\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Acessórios\",\n      \"sub_disciplina\": \"Equipamentos Especiais\",\n      \"itens_exemplo\": [\n        \"Elevador Social\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Revisão dos quantitativos de supraestrutura - 26.02.2021\",\n      \"observacao\": \"Revisão dos quantitativos de supraestrutura - 26.02.2021\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"SOHO 538 ART RESIDENCES\",\n      \"observacao\": \"SOHO 538 ART RESIDENCES - CUSTO DIRETO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"SOHO 538 ART RESIDENCES\",\n      \"observacao\": \"SOHO 538 ART RESIDENCES - GERENCIAMENTO EXECUTIVO\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"SOHO 538 ART RESIDENCES\",\n    \"RUA XV DE NOVEMBRO, 538 - CENTRO - Itajaí/SC - 88301-420\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado Bombeável, para Estacas, FCK 40MPa, c…",
+          "Concreto Usinado Bombeável, para Supraestrutura Torre,…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de Obra Estrutural",
+        "itens_exemplo": [
+          "Mão de Obra para Execução de Estrutura de Concreto Arm…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Mão de Obra para Instalações Elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidrossanitária",
+        "itens_exemplo": [
+          "Mão de Obra para Instalações Hidrossanitárias"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Acessórios",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - Fornecimento e Instalação - T…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Acessórios",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Mobiliário e Decorações para Área Comum"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Acessórios",
+        "sub_disciplina": "Equipamentos Especiais",
+        "itens_exemplo": [
+          "Elevador Social"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Revisão dos quantitativos de supraestrutura - 26.02.2021",
+        "observacao": "Revisão dos quantitativos de supraestrutura - 26.02.2021",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "SOHO 538 ART RESIDENCES",
+        "observacao": "SOHO 538 ART RESIDENCES - CUSTO DIRETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "SOHO 538 ART RESIDENCES",
+        "observacao": "SOHO 538 ART RESIDENCES - GERENCIAMENTO EXECUTIVO",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "SOHO 538 ART RESIDENCES",
+      "RUA XV DE NOVEMBRO, 538 - CENTRO - Itajaí/SC - 88301-420"
+    ],
+    "fora_da_curva": []
+  }
+}

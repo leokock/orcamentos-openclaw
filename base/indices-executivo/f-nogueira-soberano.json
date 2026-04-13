@@ -92,5 +92,134 @@
   "fachada_detail": {
     "_total": 1908550.34
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 2,
+      "total_itens": 436,
+      "total_observacoes": 6,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/f-nogueira-soberano.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ACABAMENTOS EM PISO E PAREDE",
+        "sub_disciplina": "Revestimentos Internos",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS E REVESTIMENTOS",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "ACABAMENTOS EM PISO E PAREDE",
+        "observacao": "ACABAMENTOS EM PISO E PAREDE",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:36:21",
+      "duration_s": 80.7,
+      "compact_chars": 895
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "SOBERANO RESIDENCE CONSTRUÇÃO",
+      "data_base": "14/03/2022 - 10:06:37",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "MOVIMENTAÇÃO DE TERRA",
+        "premissa": "402.746,20"
+      },
+      {
+        "area": "INFRAESTRUTURA",
+        "premissa": "1.817.696,57"
+      },
+      {
+        "area": "SUPRAESTRUTURA",
+        "premissa": "12.012.324,18"
+      },
+      {
+        "area": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
+        "premissa": "1.630.504,11"
+      },
+      {
+        "area": "SISTEMAS E INSTALAÇÕES ELÉTRICAS",
+        "premissa": "4.313.372,95"
+      },
+      {
+        "area": "SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM",
+        "premissa": "2.583.129,65"
+      },
+      {
+        "area": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "premissa": "5.300.000,00"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "não aplicado",
+        "nota": null
+      },
+      {
+        "componente": "Encargos sociais",
+        "valor_pct": "não aplicado",
+        "nota": null
+      }
+    ],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "Preços expressos em R$ (REAL)",
+      "Total da obra 71.772.532,29 100,00"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:14:28",
+      "duration_s": 72.6,
+      "excerpt_chars": 2431
+    }
+  }
 }

@@ -1,0 +1,26 @@
+# thozen-mirador-de-alicante — análise qualitativa Gemma
+
+_Gerado em 2026-04-12T23:14:43 por gemma4:e4b (72.8s)_
+
+## Sub-disciplinas identificadas
+### ORÇAMENTO_EXECUTIVO
+- **SUPRAESTRUTURA**
+  - SUPRAESTRUTURA
+- **GERENCIAMENTO TÉCNICO E ADMINISTRATIVO**
+  - GERENCIAMENTO TÉCNICO E ADMINISTRATIVO
+- **INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS**
+  - INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS
+- **INFRAESTRUTURA**
+  - INFRAESTRUTURA
+- **ESQUADRIAS, VIDROS E FERRAGENS**
+  - ESQUADRIAS, VIDROS E FERRAGENS
+- **REVESTIMENTOS ARGAMASSADOS**
+  - REVESTIMENTOS ARGAMASSADOS
+- **EQUIPAMENTOS E SISTEMAS ESPECIAIS**
+  - EQUIPAMENTOS E SISTEMAS ESPECIAIS
+
+## Observações de orçamentista
+- _justificativa_ **observações de orçamentista** — MÃO DE OBRA TA PEGANDO ERRADO
+
+## Padrões identificados
+- Valores de algumas categorias (ex: ESQUADRIAS, VIDROS E FERRAGENS; REVESTIMENTOS ARGAMASSADOS) são idênticos em diferentes blocos de orçamento.

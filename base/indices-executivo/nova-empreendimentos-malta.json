@@ -130,5 +130,159 @@
   "sistemas_especiais_detail": {
     "piscina": 51461.47,
     "total": 51461.47
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 20,
+      "total_itens": 6303,
+      "total_observacoes": 98,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/nova-empreendimentos-malta.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Gestão e Terreno",
+        "sub_disciplina": "Aquisição de Terreno e Legal",
+        "itens_exemplo": [
+          "Aquisição do terreno",
+          "ITBI / FRJ",
+          "Taxas iniciais de projeto (Outorga Onerosa e Terreno)"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundação e Base",
+        "itens_exemplo": [
+          "Serviços de execução de Estaca Raiz",
+          "Serviço de execução de Hélice Contínua",
+          "Locação Máquinas Escavações / Terraplanagem"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto e Viga",
+        "itens_exemplo": [
+          "Viga Concretagem",
+          "CONTRAPISO ARMADO",
+          "MOE - Execução de contrapiso com manta acústica"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura e Forma",
+        "itens_exemplo": [
+          "Armadura",
+          "MOE - Execução de estacas (armaduras)",
+          "MOE - Execução de supraestrutura (formas vigas)"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Esquadrias e Guarda-Corpos",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio e Vidro",
+          "Guarda-Corpos Alumínio / Barras Horizontais h=110cm",
+          "Elevador social"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Administrativo",
+        "sub_disciplina": "Administração e Consultoria",
+        "itens_exemplo": [
+          "Administração de Obra",
+          "Comissao Venda Unidades",
+          "Consultorias de Advocacia"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Custo",
+        "observacao": "Custo repassado pelo Luís",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo atualizados pela atualização de preço dos insumos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo informado pelo Luís",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Premissa de cálculo",
+        "observacao": "Consideração de 8 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custos ajustado pela Nova em Sienge",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo atualizado confrome R01",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Ajuste de cálculo",
+        "observacao": "Dividi por 2, pois, a Desforma não estava contabilizada na planilha \"MAT\"",
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "Verificação de dados",
+        "observacao": "Quantidades ok - custos unitarios ok - coeficientes até tipo 3",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhamento de serviço",
+        "observacao": "MOE - Execução de supraestrutura (formas escadas)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhamento de serviço",
+        "observacao": "MOE - Execução de supraestrutura (formas pilares)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhamento de serviço",
+        "observacao": "MOE - Execução de supraestrutura (formas vigas)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Detalhamento de serviço",
+        "observacao": "Serviços Finais (Mureta, Muro de Divisa, Rampa de Veículos)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Instrução",
+        "observacao": "QUANTIDADE RETIRA DO PROJETO",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Aquisição do terreno",
+      "Administração de Obra",
+      "Comissao Venda Unidades",
+      "Consultorias de Advocacia",
+      "ITBI / FRJ",
+      "Projeto Arquitetônico",
+      "MOE - Execução de contrapiso com manta acústica"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "QUANTIDADE RETIRA DO PROJETO",
+        "motivo": "Instrução de retirada de quantidade"
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:43:24",
+      "duration_s": 128.9,
+      "compact_chars": 3322
+    }
   }
 }

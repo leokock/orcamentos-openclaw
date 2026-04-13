@@ -1,0 +1,75 @@
+{
+  "projeto": "cln-porto-ruby",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T00:05:19",
+  "excerpt_chars": 4325,
+  "duration_s": 77.9,
+  "raw_response": "{\n  \"metadata\": {\n    \"ac_m2\": \"11993,05\",\n    \"ur\": null,\n    \"tipologia\": \"Apartamentos tipo e duplex com piso de porcelanato e vinílico. Revestimento externo com textura grafiato.\",\n    \"data_base\": \"DEZEMBRO/2024\",\n    \"cub_referencia\": \"nov-24 1,15 CUB\"\n  },\n  \"premissas_tecnicas\": [\n    {\n      \"area\": \"Geral\",\n      \"premissa\": \"Estrutura de concreto com alvenaria de vedação.\"\n    },\n    {\n      \"area\": \"Lazer\",\n      \"premissa\": \"Duas áreas de lazer, com piscina, academia, salão de festa.\"\n    },\n    {\n      \"area\": \"Acabamento\",\n      \"premissa\": \"Apartamentos tipo e duplex com piso de porcelanato e vinílico.\"\n    },\n    {\n      \"area\": \"Acabamento\",\n      \"premissa\": \"Revestimento externo com textura grafiato.\"\n    },\n    {\n      \"area\": \"Prazo\",\n      \"premissa\": \"Custos consideram prazo de obra de 41 meses;\"\n    },\n    {\n      \"area\": \"Fundação\",\n      \"premissa\": \"Perfuração de estaca hélice contínua de 50 e 60cm – profundidade media 30m;\"\n    },\n    {\n      \"area\": \"Infraestrutura\",\n      \"premissa\": \"Concreto fck 40 Mpa com consideração de 5% de perda;\"\n    },\n    {\n      \"area\": \"Supraestrutura\",\n      \"premissa\": \"Concreto fck de 40 Mpa e 35 Mpa em supraestrutura, com consideração de 5% de perda;\"\n    },\n    {\n      \"area\": \"Louças e Metais\",\n      \"premissa\": \"Consideração de entrega de vaso sanitário e acabamentos de registro em áreas privativas;\"\n    },\n    {\n      \"area\": \"Louças e Metais\",\n      \"premissa\": \"Considerado monocomando nos chuveiros\"\n    }\n  ],\n  \"bdi_encargos\": [],\n  \"decisoes_consolidadas\": [\n    {\n      \"contexto\": \"Lazer\",\n      \"decisao\": \"Duas áreas de lazer, com piscina, academia, salão de festa.\"\n    },\n    {\n      \"contexto\": \"Louças e Metais\",\n      \"decisao\": \"Considerado monocomando nos chuveiros\"\n    }\n  ],\n  \"observacoes_chave\": [\n    \"Localização: R. Antônio Bitencourt, 45 - Pioneiros, Balneário Camboriú - SC, 88331-065\",\n    \"Valor total da obra: 42.531.564,12R$\",\n    \"Análise de Custos Diretos: Custos totais exceto “Imprevistos e Contingências” e “Gerenciamento Técnico e Administrativo”\"\n  ]\n}",
+  "parsed": {
+    "metadata": {
+      "ac_m2": "11993,05",
+      "ur": null,
+      "tipologia": "Apartamentos tipo e duplex com piso de porcelanato e vinílico. Revestimento externo com textura grafiato.",
+      "data_base": "DEZEMBRO/2024",
+      "cub_referencia": "nov-24 1,15 CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Geral",
+        "premissa": "Estrutura de concreto com alvenaria de vedação."
+      },
+      {
+        "area": "Lazer",
+        "premissa": "Duas áreas de lazer, com piscina, academia, salão de festa."
+      },
+      {
+        "area": "Acabamento",
+        "premissa": "Apartamentos tipo e duplex com piso de porcelanato e vinílico."
+      },
+      {
+        "area": "Acabamento",
+        "premissa": "Revestimento externo com textura grafiato."
+      },
+      {
+        "area": "Prazo",
+        "premissa": "Custos consideram prazo de obra de 41 meses;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Perfuração de estaca hélice contínua de 50 e 60cm – profundidade media 30m;"
+      },
+      {
+        "area": "Infraestrutura",
+        "premissa": "Concreto fck 40 Mpa com consideração de 5% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Concreto fck de 40 Mpa e 35 Mpa em supraestrutura, com consideração de 5% de perda;"
+      },
+      {
+        "area": "Louças e Metais",
+        "premissa": "Consideração de entrega de vaso sanitário e acabamentos de registro em áreas privativas;"
+      },
+      {
+        "area": "Louças e Metais",
+        "premissa": "Considerado monocomando nos chuveiros"
+      }
+    ],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Lazer",
+        "decisao": "Duas áreas de lazer, com piscina, academia, salão de festa."
+      },
+      {
+        "contexto": "Louças e Metais",
+        "decisao": "Considerado monocomando nos chuveiros"
+      }
+    ],
+    "observacoes_chave": [
+      "Localização: R. Antônio Bitencourt, 45 - Pioneiros, Balneário Camboriú - SC, 88331-065",
+      "Valor total da obra: 42.531.564,12R$",
+      "Análise de Custos Diretos: Custos totais exceto “Imprevistos e Contingências” e “Gerenciamento Técnico e Administrativo”"
+    ]
+  }
+}

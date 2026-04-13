@@ -1,0 +1,156 @@
+{
+  "projeto": "mussi-empreendimentos-chelsea",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:27:49",
+  "compact_chars": 3482,
+  "duration_s": 138.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Execução\",\n      \"sub_disciplina\": \"Concreto e Estrutura\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado Bombeável, para Supraestrutura do Emb…\",\n        \"Mão de obra para execução de supraestrutura de concret…\",\n        \"Guarda Corpo de vidro e aluminio h=110cm\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços e Administração\",\n      \"sub_disciplina\": \"Mão de Obra e Serviços\",\n      \"itens_exemplo\": [\n        \"Engenheiro\",\n        \"Mestre\",\n        \"Apontador / Almoxarife\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Área e Superfície\",\n      \"itens_exemplo\": [\n        \"Área:\",\n        \"Área:\",\n        \"Área:\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mobiliário\",\n      \"sub_disciplina\": \"Marcenaria\",\n      \"itens_exemplo\": [\n        \"Marcenaria para banheiros\",\n        \"Marcenaria\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Louças e Metais\",\n      \"sub_disciplina\": \"Sanitários\",\n      \"itens_exemplo\": [\n        \"Vaso sanitário deca branco\",\n        \"Parafuso niquelado para fixação de bacia sanitária - t…\",\n        \"Anel de vedação, 100 mm, para saíde de bacia sanitária\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Louças e Metais\",\n      \"sub_disciplina\": \"Hidráulica e Bancadas\",\n      \"itens_exemplo\": [\n        \"Bancada em granito\",\n        \"Cuba de embutir\",\n        \"Torneira mesa para lavatório\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Piscinas\",\n      \"sub_disciplina\": \"Componentes Principais\",\n      \"itens_exemplo\": [\n        \"PISCINA ADULTA 1\",\n        \"PISCINA INFANTIL\",\n        \"GERADOR DE COLORO BZ -30\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Fundação/Estrutura\",\n      \"observacao\": \"Considerado blocos, vigas de fundação, duto e cisterna\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cisterna\",\n      \"observacao\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Perdas/Material\",\n      \"observacao\": \"Considerado sem indicação em projeto, consideração de 13% de perda\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Detalhamento\",\n      \"observacao\": \"Profundidade média premissada em 28m devido ausência de detalhe\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estimativa\",\n      \"observacao\": \"Estimado com base em índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estimativa\",\n      \"observacao\": \"Estimado com base em índices históricos para elaboração interna\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Valor\",\n      \"observacao\": \"Valor informado em formulário\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Custo de contratação Cartesian\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Valor\",\n      \"observacao\": \"Valor lançado em sienge pela construtora\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Mobiliário\",\n      \"observacao\": \"Similar a Sofá artefacto EOS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Mobiliário\",\n      \"observacao\": \"Similar a Poltrona POLLUX - GIRATÓRIA\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Mobiliário\",\n      \"observacao\": \"Similar a Cadeira Luang Chair - Artefacto\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Mobiliário\",\n      \"observacao\": \"Similar a Cadeira alta contemporânea VERONA SG\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Mobiliário\",\n      \"observacao\": \"Similar a BOLONG Lounge Chair\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição do item 'Área:' na seção MOBILIARIO com diferentes quantidades e valores.\",\n    \"Repetição do item 'Mão de obra para execução de supraestrutura de concret…' na seção Ger_Executivo.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Execução",
+        "sub_disciplina": "Concreto e Estrutura",
+        "itens_exemplo": [
+          "Concreto Usinado Bombeável, para Supraestrutura do Emb…",
+          "Mão de obra para execução de supraestrutura de concret…",
+          "Guarda Corpo de vidro e aluminio h=110cm"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços e Administração",
+        "sub_disciplina": "Mão de Obra e Serviços",
+        "itens_exemplo": [
+          "Engenheiro",
+          "Mestre",
+          "Apontador / Almoxarife"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Área e Superfície",
+        "itens_exemplo": [
+          "Área:",
+          "Área:",
+          "Área:"
+        ]
+      },
+      {
+        "macrogrupo": "Mobiliário",
+        "sub_disciplina": "Marcenaria",
+        "itens_exemplo": [
+          "Marcenaria para banheiros",
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e Metais",
+        "sub_disciplina": "Sanitários",
+        "itens_exemplo": [
+          "Vaso sanitário deca branco",
+          "Parafuso niquelado para fixação de bacia sanitária - t…",
+          "Anel de vedação, 100 mm, para saíde de bacia sanitária"
+        ]
+      },
+      {
+        "macrogrupo": "Louças e Metais",
+        "sub_disciplina": "Hidráulica e Bancadas",
+        "itens_exemplo": [
+          "Bancada em granito",
+          "Cuba de embutir",
+          "Torneira mesa para lavatório"
+        ]
+      },
+      {
+        "macrogrupo": "Piscinas",
+        "sub_disciplina": "Componentes Principais",
+        "itens_exemplo": [
+          "PISCINA ADULTA 1",
+          "PISCINA INFANTIL",
+          "GERADOR DE COLORO BZ -30"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Fundação/Estrutura",
+        "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Cisterna",
+        "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Perdas/Material",
+        "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Escavação",
+        "observacao": "Considerado empolamento 30% da escavação",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Detalhamento",
+        "observacao": "Profundidade média premissada em 28m devido ausência de detalhe",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa",
+        "observacao": "Estimado com base em índices históricos para elaboração interna",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Valor",
+        "observacao": "Valor informado em formulário",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Custo de contratação Cartesian",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Valor",
+        "observacao": "Valor lançado em sienge pela construtora",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Mobiliário",
+        "observacao": "Similar a Sofá artefacto EOS",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Mobiliário",
+        "observacao": "Similar a Poltrona POLLUX - GIRATÓRIA",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Mobiliário",
+        "observacao": "Similar a Cadeira Luang Chair - Artefacto",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Mobiliário",
+        "observacao": "Similar a Cadeira alta contemporânea VERONA SG",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Mobiliário",
+        "observacao": "Similar a BOLONG Lounge Chair",
+        "categoria": "outro"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição do item 'Área:' na seção MOBILIARIO com diferentes quantidades e valores.",
+      "Repetição do item 'Mão de obra para execução de supraestrutura de concret…' na seção Ger_Executivo."
+    ],
+    "fora_da_curva": []
+  }
+}

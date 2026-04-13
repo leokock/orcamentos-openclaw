@@ -1,0 +1,73 @@
+{
+  "projeto": "nobria",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:36:46",
+  "compact_chars": 1217,
+  "duration_s": 71.8,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de obra\",\n      \"itens_exemplo\": [\n        \"Mão de obra - Supraestrutura\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Materiais estruturais\",\n      \"itens_exemplo\": [\n        \"Armadura Supra Estrutura\",\n        \"Concreto Usinado Fck 35 Bombeado\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Elétrica\",\n      \"itens_exemplo\": [\n        \"Instalações Elétricas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações\",\n      \"sub_disciplina\": \"Hidráulica\",\n      \"itens_exemplo\": [\n        \"Instalação de Água Fria e Água Quente\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Portas e Janelas em Alumínio Linha Gold\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Mobiliário\",\n      \"itens_exemplo\": [\n        \"Móveis e Decoração\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Preliminares\",\n      \"sub_disciplina\": \"Terraplanagem\",\n      \"itens_exemplo\": [\n        \"Escavação mecânica\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ÁREA CONSTRUÍDA PRIVATIVA\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição de valores totais para o mesmo macrogrupo em diferentes linhas de resumo (Ex: SUPRAESTRUTURA)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Mão de obra",
+        "itens_exemplo": [
+          "Mão de obra - Supraestrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Materiais estruturais",
+        "itens_exemplo": [
+          "Armadura Supra Estrutura",
+          "Concreto Usinado Fck 35 Bombeado"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica",
+        "itens_exemplo": [
+          "Instalações Elétricas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica",
+        "itens_exemplo": [
+          "Instalação de Água Fria e Água Quente"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Portas e Janelas em Alumínio Linha Gold"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Esquadrias",
+        "sub_disciplina": "Mobiliário",
+        "itens_exemplo": [
+          "Móveis e Decoração"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Preliminares",
+        "sub_disciplina": "Terraplanagem",
+        "itens_exemplo": [
+          "Escavação mecânica"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "ÁREA CONSTRUÍDA PRIVATIVA",
+        "categoria": "premissa"
+      }
+    ],
+    "padroes_identificados": [
+      "Repetição de valores totais para o mesmo macrogrupo em diferentes linhas de resumo (Ex: SUPRAESTRUTURA)"
+    ],
+    "fora_da_curva": []
+  }
+}

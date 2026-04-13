@@ -1,0 +1,104 @@
+{
+  "projeto": "terrassa-dom-bosco",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T23:13:31",
+  "compact_chars": 2529,
+  "duration_s": 90.0,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado - fck 35 MPa\",\n        \"Concreto Usinado (SUPRAESTRUTURA) - fck 35 MPa / Brita...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Aço/Armadura\",\n      \"itens_exemplo\": [\n        \"Aço CA-50 - 10,0 mm / incluso Corte e Dobra\",\n        \"Armadura de Aço, incluso Corte e Dobra, (SUPRAESTRUTUR...\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Revestimentos\",\n      \"sub_disciplina\": \"Revestimento/Argamassa\",\n      \"itens_exemplo\": [\n        \"MOE - Revestimentos de Argamassa / Reboco Interno / Pa…\",\n        \"Argamassa Estabilizada para Uso Geral\",\n        \"MOE - Revestimentos de Argamassa / Reboco Interno (com…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos/Revestimentos\",\n      \"sub_disciplina\": \"Pintura\",\n      \"itens_exemplo\": [\n        \"MOE - Pinturas / Internas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Esquadrias/Metais\",\n      \"sub_disciplina\": \"Alumínio\",\n      \"itens_exemplo\": [\n        \"Esquadrias de alumínio\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Especiais\",\n      \"sub_disciplina\": \"Fundação/Estacas\",\n      \"itens_exemplo\": [\n        \"Estimativas / Estacas - Serviços Terceirizados\",\n        \"MOE - Fundações / Execução Geral / Blocos, Pilares Arr…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Especiais\",\n      \"sub_disciplina\": \"Elevadores\",\n      \"itens_exemplo\": [\n        \"Elevadores\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Estimativa seguindo índices históricos\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"observacao\": \"Quantitativo preliminar de estrutura\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Forma\",\n      \"observacao\": \"Consideração de dois jogos de fôrmas, 10 reaproveitamentos\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Forma\",\n      \"observacao\": \"Composição considerando apenas desmoldante e pregos para montagem de formas. Compensado considerado em fabric…\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"observacao\": \"Por não ter divisão por bitola, consideração de custo de bitola 10,00 c…\",\n      \"categoria\": \"alerta\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Esquadrias de alumínio\",\n    \"Estimativas / Estacas - Serviços Terceirizados\",\n    \"MOE - Supraestrutura / Execução Geral\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Estrutura\",\n      \"motivo\": \"Quantitativo preliminar de estrutura\"\n    }\n  ]\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto Usinado - fck 35 MPa",
+          "Concreto Usinado (SUPRAESTRUTURA) - fck 35 MPa / Brita..."
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Aço/Armadura",
+        "itens_exemplo": [
+          "Aço CA-50 - 10,0 mm / incluso Corte e Dobra",
+          "Armadura de Aço, incluso Corte e Dobra, (SUPRAESTRUTUR..."
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Revestimentos",
+        "sub_disciplina": "Revestimento/Argamassa",
+        "itens_exemplo": [
+          "MOE - Revestimentos de Argamassa / Reboco Interno / Pa…",
+          "Argamassa Estabilizada para Uso Geral",
+          "MOE - Revestimentos de Argamassa / Reboco Interno (com…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos/Revestimentos",
+        "sub_disciplina": "Pintura",
+        "itens_exemplo": [
+          "MOE - Pinturas / Internas"
+        ]
+      },
+      {
+        "macrogrupo": "Esquadrias/Metais",
+        "sub_disciplina": "Alumínio",
+        "itens_exemplo": [
+          "Esquadrias de alumínio"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Especiais",
+        "sub_disciplina": "Fundação/Estacas",
+        "itens_exemplo": [
+          "Estimativas / Estacas - Serviços Terceirizados",
+          "MOE - Fundações / Execução Geral / Blocos, Pilares Arr…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Especiais",
+        "sub_disciplina": "Elevadores",
+        "itens_exemplo": [
+          "Elevadores"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [
+      {
+        "contexto": "Geral",
+        "observacao": "Estimativa seguindo índices históricos",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Quantitativo preliminar de estrutura",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Forma",
+        "observacao": "Consideração de dois jogos de fôrmas, 10 reaproveitamentos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Forma",
+        "observacao": "Composição considerando apenas desmoldante e pregos para montagem de formas. Compensado considerado em fabric…",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estrutura",
+        "observacao": "Por não ter divisão por bitola, consideração de custo de bitola 10,00 c…",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Esquadrias de alumínio",
+      "Estimativas / Estacas - Serviços Terceirizados",
+      "MOE - Supraestrutura / Execução Geral"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Estrutura",
+        "motivo": "Quantitativo preliminar de estrutura"
+      }
+    ]
+  }
+}

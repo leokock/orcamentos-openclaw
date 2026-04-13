@@ -114,5 +114,93 @@
   "fachada_detail": {
     "_total": 534054.65
   },
-  "acabamentos_pus": {}
+  "acabamentos_pus": {},
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:22",
+    "phase1_extraction": {
+      "n_abas": 3,
+      "total_itens": 116,
+      "total_observacoes": 4,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/muller-empreendimentos-guanabara.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Vedação",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Vedação",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA, VEDAÇÕES E DIVISÓRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Serviços",
+        "sub_disciplina": "Instalações Gerais",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Sistemas",
+        "sub_disciplina": "Gerenciamento",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Sistemas",
+        "sub_disciplina": "Sistemas Especiais",
+        "itens_exemplo": [
+          "SISTEMAS ESPECIAIS E EQUIPAMENTOS"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "Repetição de códigos de gerenciamento e referências de torre (TORRE A, TORRE B)",
+      "O item GERENCIAMENTO TÉCNICO E ADMINISTRATIVO aparece tanto no resumo quanto nas observações de orçamentista"
+    ],
+    "fora_da_curva": [],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T22:24:22",
+      "duration_s": 78.7,
+      "compact_chars": 843
+    },
+    "pdf_metadata": {
+      "ac_m2": null,
+      "ur": null,
+      "tipologia": "Residencial",
+      "data_base": "01/02/2023",
+      "cub_referencia": null
+    },
+    "premissas_tecnicas": [],
+    "bdi_encargos": [],
+    "decisoes_consolidadas": [],
+    "observacoes_chave_pdf": [
+      "BDI não aplicado",
+      "Encargos sociais não aplicado",
+      "Preços expressos em R$ (REAL)"
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:31:32",
+      "duration_s": 46.4,
+      "excerpt_chars": 4332
+    }
+  }
 }

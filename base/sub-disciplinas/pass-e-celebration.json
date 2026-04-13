@@ -1,0 +1,35 @@
+{
+  "projeto": "pass-e-celebration",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-12T22:54:13",
+  "compact_chars": 1626,
+  "duration_s": 72.9,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"ALVENARIA, VEDAÇÕES E DIVISÓRIAS\",\n      \"sub_disciplina\": \"ALVENARIA, VEDAÇÕES E DIVISÓRIAS\",\n      \"itens_exemplo\": [\n        \"pu=161.09\",\n        \"R$1.281.641\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"sub_disciplina\": \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n      \"itens_exemplo\": [\n        \"pu=120.23\",\n        \"R$956.553\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"SUPRAESTRUTURA (R$6.062.339) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB.\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS (R$2.468.327) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB.\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS (R$1.955.058) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB.\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "parsed": {
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
+        "sub_disciplina": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
+        "itens_exemplo": [
+          "pu=161.09",
+          "R$1.281.641"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "sub_disciplina": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "pu=120.23",
+          "R$956.553"
+        ]
+      }
+    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [
+      "SUPRAESTRUTURA (R$6.062.339) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB.",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS (R$2.468.327) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB.",
+      "ESQUADRIAS, VIDROS E FERRAGENS (R$1.955.058) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB."
+    ],
+    "fora_da_curva": []
+  }
+}

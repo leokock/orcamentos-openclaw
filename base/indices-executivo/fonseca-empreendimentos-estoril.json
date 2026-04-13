@@ -981,5 +981,215 @@
     "reboco": 13.51,
     "porcelanato": 128.89,
     "rodape": 37.3
+  },
+  "qualitative": {
+    "updated_at": "2026-04-13T01:25:21",
+    "phase1_extraction": {
+      "n_abas": 32,
+      "total_itens": 15953,
+      "total_observacoes": 285,
+      "fonte": "scripts/extract_itens_detalhados.py",
+      "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/fonseca-empreendimentos-estoril.json"
+    },
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
+        "itens_exemplo": [
+          "Concreto usinado bombeável, para supraestrutura, fck 4…",
+          "Concreto usinado bombeável, para estacas, fck 30MPa, c…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Execução Estrutural",
+        "itens_exemplo": [
+          "Mão de obra empreitada para execução estrutura de conc…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de alumínio - Tipo A",
+          "Esquadrias de alumínio - Tipo B"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Mobiliário",
+        "sub_disciplina": "Mobiliário e Áreas Comuns",
+        "itens_exemplo": [
+          "Ambientação (mobiliário, decoração)",
+          "Área:",
+          "Marcenaria"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Subestação",
+        "itens_exemplo": [
+          "Disjuntores",
+          "Subestação"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidráulica e Climatização",
+        "itens_exemplo": [
+          "Infraestrutura para climatização - Material e mão de o…",
+          "Tubulação de esgoto sanitário e águas pluviais"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Administrativo",
+        "sub_disciplina": "Locação de Equipamentos",
+        "itens_exemplo": [
+          "Locação de balancim elétrico",
+          "Locação de grua",
+          "Locação de elevador cremalheira"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais e Administrativo",
+        "sub_disciplina": "Mão de Obra e Equipe",
+        "itens_exemplo": [
+          "Rateio equipe administrativa (escritório central) - 48…",
+          "Engenheiro civil",
+          "Mestre de obras"
+        ]
+      }
+    ],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Orçamentista",
+        "observacao": "Adotado conforme levantamento em projeto",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Orçamentista",
+        "observacao": "Considerando espaçamento de 0,80m por meses",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Orçamentista",
+        "observacao": "Valor do Sienge 126 mil/ apropriado 586 mil",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Orçamentista",
+        "observacao": "Custo no Sienge e apropriado divergem muito",
+        "categoria": "alerta"
+      }
+    ],
+    "padroes_identificados": [
+      "Mão de obra empreitada para execução estrutura de conc… (repetido com valores idênticos)",
+      "Mão de Obra (repetido na seção INSTALAÇÕES)",
+      "Área: (repetido na seção MOBILIÁRIO)"
+    ],
+    "fora_da_curva": [
+      {
+        "item": "Valor do Sienge 126 mil/ apropriado 586 mil",
+        "motivo": "Grande diferença de valores entre Sienge e valor apropriado"
+      },
+      {
+        "item": "Custo no Sienge e apropriado divergem muito",
+        "motivo": "Indica discrepância significativa de custos"
+      }
+    ],
+    "phase2_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-12T21:42:32",
+      "duration_s": 99.4,
+      "compact_chars": 3055
+    },
+    "pdf_metadata": {
+      "ac_m2": "14.491,98 m²",
+      "ur": null,
+      "tipologia": "Torre – Tipo Diferenciado, Tipos (x10)",
+      "data_base": "DEZ/25",
+      "cub_referencia": "dez/25 1,18 CUB"
+    },
+    "premissas_tecnicas": [
+      {
+        "area": "Fundação",
+        "premissa": "Armação com consideração de aço cortado e dobra em obra com 10% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 30 Mpa para estacas, com 30% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Concreto fck de 30 Mpa e 40Mpa em fundação rasa e cortina, com 5% de perda;"
+      },
+      {
+        "area": "Fundação",
+        "premissa": "Rebaixamento de lençol freático;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Armação com aço cortado e dobrado em obra, consideração de 10% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Sistema de protensão de vigas;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Concreto fck de 45 Mpa, incluindo serviço de bombeamento, consideração de 5% de perda;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Locação de escoramento de metálico;"
+      },
+      {
+        "area": "Supraestrutura",
+        "premissa": "Mão de obra de supraestrutura."
+      },
+      {
+        "area": "Instalações",
+        "premissa": "Os valores das instalações, preventivas, hidráulicas, elétricas, gás, SPDA e comunicação foram consideradas através de levantamento de itens de listagem de quantidades dos projetos disponibilizados;"
+      },
+      {
+        "area": "Acabamentos",
+        "premissa": "Consideração dos acabamentos conforme áreas de aplicação do modelo;"
+      }
+    ],
+    "bdi_encargos": [
+      {
+        "componente": "BDI",
+        "valor_pct": "1,26%",
+        "nota": "44,53"
+      }
+    ],
+    "decisoes_consolidadas": [
+      {
+        "contexto": "Climatização",
+        "decisao": "Os valores das instalações climatização foram consideradas através de levantamento de itens de listagem de quantidades dos projetos disponibilizados;"
+      },
+      {
+        "contexto": "Exaustão",
+        "decisao": "Os valores de instalações de exaustão foram estimados através dos pontos sinalizados em projeto, com consideração dos itens de Ventokit e Exaustão de churrasqueira;"
+      },
+      {
+        "contexto": "Acabamentos",
+        "decisao": "Consideração de entrega completa de louças, bancadas e metais conforme projetos;"
+      },
+      {
+        "contexto": "Pintura Interna",
+        "decisao": "Pintura epóxi em piso de garagens, com diferenciação de cores;"
+      }
+    ],
+    "observacoes_chave_pdf": [
+      "Custos considerando prazo de 48 meses de obra.",
+      "Equipe Técnica: Engenheiro civil; Mestre de obras; Almoxarife; Estagiário; Servente para apoio; Operador de grua; Operador de cremalheira;",
+      "Gerenciamento Técnico e Administrativo inclui: Custos indiretos da obra; Administração de Canteiro; Instalações Provisórias."
+    ],
+    "phase3_meta": {
+      "model": "gemma4:e4b",
+      "ts": "2026-04-13T00:18:37",
+      "duration_s": 96.8,
+      "excerpt_chars": 4331
+    }
   }
 }
