@@ -573,6 +573,36 @@ python3.11 scripts/slack_uploader.py --bot cartesiano --file output/<arquivo>.xl
 **❌ ERRADO:** `slack_uploader.py --bot cartesiano --file output/arquivo.xlsx --thread 123.456` (sem --channel → vai pro canal errado)
 **✅ CERTO:** `slack_uploader.py --bot cartesiano --file output/arquivo.xlsx --thread 1773063410.804809 --channel C05081L9M3J --comment "Orçamento gerado"`
 
+#### Forma de invocação (REGRA DO PREFLIGHT)
+
+O tool `exec` tem preflight que **rejeita comandos complexos** com erro `complex interpreter invocation detected; refusing to run without script preflight validation`. Incidente registrado 2026-04-13 no canal #custos-ia-paramétrico: sessão travou, Leo viu emoji rotando sem resposta.
+
+Regras pra invocar qualquer `scripts/*.py` via `exec`:
+
+- **❌ NÃO use heredoc** ou `<<EOF` dentro do comando
+- **❌ NÃO quebre linha** com `\` de continuação (caractere de escape final)
+- **❌ NÃO prefixe com `cd /Users/leokock/orcamentos &&`** — o `cwd` do `exec` já é o workspace
+- **❌ NÃO** embrulhe múltiplas flags em string multilinha
+- **✅ Uma linha só**, flags separadas por espaço simples, caminhos entre aspas só se tiverem espaço ou acento
+
+**❌ Jeito que quebra:**
+```bash
+cd /Users/leokock/orcamentos && python3.11 scripts/slack_uploader.py --bot cartesiano \
+  --file "output/CTN-ALF-SFL - Orçamento_Parametrico_Analitico_R03.xlsx" \
+  --thread 1776082540.787069 \
+  --channel C0AL0KV1R1N \
+  --comment "Orçamento analítico atualizado com os valores do Paramétrico V2 — R03 🏗️"
+```
+
+**✅ Jeito que passa pelo preflight:**
+```bash
+python3.11 scripts/slack_uploader.py --bot cartesiano --file "output/CTN-ALF-SFL - Orçamento_Parametrico_Analitico_R03.xlsx" --thread 1776082540.787069 --channel C0AL0KV1R1N --comment "Orçamento analítico atualizado R03"
+```
+
+**Se o nome do arquivo tiver acento/espaço:** usa aspas, mas mantém tudo numa linha. Se o comentário precisa ser longo, **prefira um comentário curto** no upload e manda texto complementar como mensagem separada depois. Emoji no `--comment` é OK, só não multilinha.
+
+**Por que a regra é assim:** o preflight do `exec` detecta "complex interpreter invocation" quando vê continuação de linha, heredoc, ou múltiplos comandos com `&&`/`;` misturados com python/node. Ele recusa pra evitar que o agent rode scripts improvisados sem validação. Mantém simples, mantém único-comando, funciona.
+
 ---
 ---
 
