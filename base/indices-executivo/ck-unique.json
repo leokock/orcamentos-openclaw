@@ -2068,7 +2068,7 @@
     "reboco_pu_m2": 15.75
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:21",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 1,
       "total_itens": 1246,
@@ -2081,45 +2081,90 @@
         "macrogrupo": "Estrutura",
         "sub_disciplina": "Concreto",
         "itens_exemplo": [
-          "Estrutura de Concreto Armado - MO",
           "Concreto Usinado 35Mpa Slump 10+-2 Bombeado",
-          "Concreto Usinado 40Mpa Slump 24+-2 Bombeado, Aplicação…"
+          "Concreto Usinado 40Mpa Slump 24+-2 Bombeado, Aplicação em Fundação*"
         ]
       },
       {
-        "macrogrupo": "Serviços de Apoio",
-        "sub_disciplina": "Pessoal",
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
         "itens_exemplo": [
-          "Engenheiro",
-          "Vigilância",
-          "Mestre"
+          "Armação Aço CA-50, Diâmetro de 16,0mm para Supraestrutura, Corte e Dobra e…"
         ]
       },
       {
-        "macrogrupo": "Serviços de Apoio",
-        "sub_disciplina": "Equipamentos",
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Execução",
         "itens_exemplo": [
-          "Locação de Elevador Cremalheira"
+          "Estrutura de Concreto Armado - MO",
+          "Escoramento de Formas"
         ]
       },
       {
-        "macrogrupo": "Acabamento",
-        "sub_disciplina": "Mobiliário",
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Mobiliário e Decoração",
         "itens_exemplo": [
           "Área Comum (Mobiliário e decorações)*"
         ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimento",
+        "itens_exemplo": [
+          "Reboco Interno CK - M.O."
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Mão de Obra e Serviços",
+        "itens_exemplo": [
+          "Mão de Obra Empreitada para Fundação",
+          "Mestre",
+          "Engenheiro"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Equipamentos e Logística",
+        "itens_exemplo": [
+          "Locação de Elevador Cremalheira",
+          "Máquinas e Equipamentos*",
+          "Elevador Social"
+        ]
       }
     ],
-    "observacoes_orcamentista": [],
+    "observacoes_orcamentista": [
+      {
+        "contexto": "Área Comum (Mobiliário e decorações)*",
+        "observacao": "Indica condição especial ou cálculo não detalhado.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Concreto Usinado 40Mpa Slump 24+-2 Bombeado, Aplicação em Fundação*",
+        "observacao": "Indica condição especial ou cálculo não detalhado.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Máquinas e Equipamentos*",
+        "observacao": "Indica condição especial ou cálculo não detalhado.",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Itens eventuais e não orçados - 1,5% custo raso*",
+        "observacao": "Indica cálculo percentual sobre o custo raso.",
+        "categoria": "premissa"
+      }
+    ],
     "padroes_identificados": [
-      "Serviços de pessoal (Engenheiro, Vigilância, Mestre) apresentam a mesma quantidade (qtd=26) e unidade (mes)."
+      "Uso de asterisco (*) em itens como Área Comum, Concreto 40Mpa, Máquinas e Equipamentos e Itens eventuais, sugerindo condições ou cálculos especiais.",
+      "Múltiplos itens de serviço de Mão de Obra (Mestre, Engenheiro, Mão de Obra Empreitada)."
     ],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T21:16:30",
-      "duration_s": 75.3,
-      "compact_chars": 608
+      "ts": "2026-04-13T19:26:22",
+      "duration_s": 87.5,
+      "compact_chars": 1172
     }
   }
 }

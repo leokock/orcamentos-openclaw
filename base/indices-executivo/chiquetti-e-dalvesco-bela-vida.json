@@ -1324,7 +1324,7 @@
     "reboco_pu_m2": null
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:21",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 4,
       "total_itens": 718,
@@ -1334,37 +1334,55 @@
     },
     "sub_disciplinas": [
       {
-        "macrogrupo": "Projetos e Serviços Complementares",
-        "sub_disciplina": "Projetos de Engenharia",
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Fundação e Terra",
+        "itens_exemplo": [
+          "Sondagem",
+          "Demolições",
+          "Remoção de entulhos e resíduos"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Arquitetura",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e MEP",
+        "sub_disciplina": "Elétrica e Telecom",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, p…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares e Gestão",
+        "sub_disciplina": "Administrativo e Legal",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+          "ADMINISTRAÇÃO",
+          "Assistente Administrativo/Comprador"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Preliminares",
+        "sub_disciplina": "Projeto e Planejamento",
         "itens_exemplo": [
           "Projeto arquitetônico legal",
-          "Projeto complementares: estrutural, elétrico e telecom…",
-          "Projeto Impermeabilização"
-        ]
-      },
-      {
-        "macrogrupo": "Mão de Obra e Serviços Especializados",
-        "sub_disciplina": "Serviços de Gestão",
-        "itens_exemplo": [
-          "Engenheiro Civil",
-          "Gerente de Planejamento Orçamento",
-          "Serviços Contabeis"
-        ]
-      },
-      {
-        "macrogrupo": "Segurança e Proteção",
-        "sub_disciplina": "Proteção Coletiva",
-        "itens_exemplo": [
-          "Rede de proteção tipo SLQA leve (media)",
-          "Mão de Obra Instalações de Proteções Coletivas"
+          "Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, p…",
+          "Placa de obra"
         ]
       }
     ],
     "observacoes_orcamentista": [
       {
-        "contexto": "Custo Ajustada Antigo + Atual",
+        "contexto": "Geral",
         "observacao": "Custo Ajustada Antigo + Atual",
-        "categoria": "revisao"
+        "categoria": "justificativa"
       },
       {
         "contexto": "Irrigação",
@@ -1372,57 +1390,94 @@
         "categoria": "justificativa"
       },
       {
-        "contexto": "Ajustes de Orçamento",
+        "contexto": "Geral",
         "observacao": "Ajustado conforme reunião",
-        "categoria": "revisao"
+        "categoria": "justificativa"
       },
       {
-        "contexto": "Ajustes de Orçamento",
+        "contexto": "Geral",
         "observacao": "Ajustado conforme Proposta Recebida",
-        "categoria": "revisao"
+        "categoria": "justificativa"
       },
       {
-        "contexto": "Escopo de Obra",
+        "contexto": "Prazo",
+        "observacao": "Ampli janeiro até fim da obra",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Taxa de Administração",
+        "observacao": "Descontar do Valor da Taxa de Adm",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Previsão de Custo",
+        "observacao": "Prevision maio a janeiro 1119 e depois 1700",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Documentação",
+        "observacao": "Opção3 do arquivo de As Built",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Separar aqui ficar a cordenação",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Fundações",
         "observacao": "onde sta cosndierado a escação do SS",
         "categoria": "alerta"
       },
       {
-        "contexto": "Escopo de Obra",
+        "contexto": "Fundações",
         "observacao": "Onde esta considerado o materila escava da estaca?",
         "categoria": "alerta"
       },
       {
-        "contexto": "Escopo de Obra",
+        "contexto": "Fundações",
         "observacao": "Cade o lastro de conreto do bloco?",
         "categoria": "alerta"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Esse csuto esta considerado o que?",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Ferramentas",
+        "observacao": "Excluindo ferramentes, consideradas na linha 30",
+        "categoria": "justificativa"
       }
     ],
     "padroes_identificados": [
-      "Repetição de projetos complementares (estrutural, elétrico, etc.) no Or Analitico"
+      "Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, p…",
+      "Projeto estrutural em concreto armado",
+      "Projeto arquitetônico legal"
     ],
     "fora_da_curva": [
       {
         "item": "onde sta cosndierado a escação do SS",
-        "motivo": "Dúvida sobre escopo/consideração de custos"
+        "motivo": "Alerta"
       },
       {
         "item": "Onde esta considerado o materila escava da estaca?",
-        "motivo": "Dúvida sobre escopo/consideração de materiais"
+        "motivo": "Alerta"
       },
       {
         "item": "Cade o lastro de conreto do bloco?",
-        "motivo": "Dúvida sobre escopo/consideração de materiais"
+        "motivo": "Alerta"
       },
       {
         "item": "Esse csuto esta considerado o que?",
-        "motivo": "Dúvida sobre o que o custo engloba"
+        "motivo": "Alerta"
       }
     ],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T21:01:49",
-      "duration_s": 87.5,
-      "compact_chars": 1966
+      "ts": "2026-04-13T19:24:54",
+      "duration_s": 124.6,
+      "compact_chars": 3301
     }
   }
 }

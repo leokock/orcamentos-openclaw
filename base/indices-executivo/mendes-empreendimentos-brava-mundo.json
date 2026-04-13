@@ -129,7 +129,7 @@
   },
   "acabamentos_pus": {},
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:22",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 3,
       "total_itens": 2039,
@@ -140,44 +140,75 @@
     "sub_disciplinas": [
       {
         "macrogrupo": "Estrutura",
-        "sub_disciplina": "Concreto e Fundações",
+        "sub_disciplina": "Fundação e Infraestrutura",
         "itens_exemplo": [
-          "Mão de Obra para Execução de Estrutura de Concreto Arm…",
-          "Mão de Obra para Execução de Infraestrutura - Blocos e…",
-          "Escavação mecanizada para blocos de fundação e vigas b…"
+          "Escavação mecanizada para blocos de fundação e vigas baldrame, com previsã...",
+          "Mão de Obra para Execução de Infraestrutura - Blocos e Baldrames",
+          "Concreto usinado bombeável, para supraestrutura, fck 40MPa, slump = 12 +/-..."
         ]
       },
       {
         "macrogrupo": "Estrutura",
-        "sub_disciplina": "Armadura",
+        "sub_disciplina": "Concreto Armado e Metálica",
         "itens_exemplo": [
-          "Armação de aço CA-50, diâmetro de 25,00mm para supraes…"
+          "Mão de Obra para Execução de Estrutura de Concreto Armado em Supraestrutura",
+          "Armação de aço CA-50, diâmetro de 25,00mm para supraestrutura, corte e dob...",
+          "Estrutura metálica"
         ]
       },
       {
-        "macrogrupo": "Fachada e Vedação",
-        "sub_disciplina": "Vidros e Alumínio",
+        "macrogrupo": "Fachada e Envelopamento",
+        "sub_disciplina": "Vidros e Esquadrias",
         "itens_exemplo": [
           "Pele de vidro - Pvto. Diferenciado",
-          "Esquadrias de alumínio, fornecimento e instalação - 6°…"
+          "Esquadrias de alumínio, fornecimento e instalação - 6° ao 10° Pvto. Tipo (…)",
+          "Pele de vidro - Térreo"
         ]
       },
       {
-        "macrogrupo": "Serviços Gerais",
-        "sub_disciplina": "Mão de Obra",
+        "macrogrupo": "Acabamentos e Vedação",
+        "sub_disciplina": "Alvenaria e Revestimentos",
         "itens_exemplo": [
-          "Mestre de obras"
+          "Serviço especializado para execução de parede diafragma",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "Revestimentos e Acabamentos de Fachada"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Elétrica e Telecomunicações",
+        "itens_exemplo": [
+          "Sistemas e Instalações Elétricas",
+          "Itens auxiliares não orçados - Elétrica - 6° ao 10° Pvto. Tipo (x5)"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "HVAC e Elevadores",
+        "itens_exemplo": [
+          "CLIMATIZAÇÃO E EXAUSTÃO",
+          "Elevador social",
+          "Elevador de serviço"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Gestão e Mão de Obra",
+        "itens_exemplo": [
+          "Mestre de obras",
+          "Imprevistos e Contingências",
+          "Gerenciamento Técnico e Administrativo"
         ]
       }
     ],
     "observacoes_orcamentista": [
       {
-        "contexto": "Brava Mundo",
+        "contexto": "1 - Brava Mundo - Custo de Obra",
         "observacao": "Custo de Obra",
         "categoria": "outro"
       },
       {
-        "contexto": "BRAVA MUNDO",
+        "contexto": "2 - BRAVA MUNDO - CUSTOS DIRETOS DE OBRA",
         "observacao": "CUSTOS DIRETOS DE OBRA",
         "categoria": "outro"
       },
@@ -187,26 +218,25 @@
         "categoria": "outro"
       },
       {
-        "contexto": "20/04/2022 - 10:38:13",
+        "contexto": "3 - 20/04/2022 - 10:38:13",
         "observacao": "Revisão do orçamento",
         "categoria": "outro"
       },
       {
-        "contexto": "BRAVA MUNDO",
-        "observacao": "AMBIENTAÇÃO",
+        "contexto": "3 - BRAVA MUNDO - AMBIENTAÇÃO",
+        "observacao": "Escopo de ambientação",
         "categoria": "outro"
       }
     ],
     "padroes_identificados": [
-      "Referência constante ao nome 'Brava Mundo' em títulos e observações.",
-      "A estrutura de custos é apresentada em blocos de resumo (TOTAL, SUPRAESTRUTURA, etc.) e detalhamento (Relatório)."
+      "O nome 'Brava Mundo' e o endereço 'Rua Delfim Mario de Padua Peixoto, 900 - Praia Brava - Itajaí/SC - 88306-813' são citados em múltiplos blocos de observações."
     ],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T22:16:54",
-      "duration_s": 72.6,
-      "compact_chars": 1533
+      "ts": "2026-04-13T19:35:15",
+      "duration_s": 97.6,
+      "compact_chars": 2609
     }
   }
 }

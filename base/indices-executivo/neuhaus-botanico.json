@@ -87,7 +87,7 @@
     "total": 844341.39
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:22",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 3,
       "total_itens": 59,
@@ -104,14 +104,37 @@
         ]
       },
       {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Alvenaria",
+        "itens_exemplo": [
+          "ALVENARIA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Contenção",
+        "itens_exemplo": [
+          "CONTENÇÃO"
+        ]
+      },
+      {
         "macrogrupo": "Instalações",
         "sub_disciplina": "Elétricas",
         "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS",
           "INSTALAÇÕES ELÉTRICAS"
         ]
       },
       {
-        "macrogrupo": "Acabamentos",
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Hidrossanitárias",
+        "itens_exemplo": [
+          "INSTALAÇÕES HIDROSSANITÁRIAS",
+          "INSTALAÇÕES HIDROSSANITÁRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
         "sub_disciplina": "Pisos e Paredes",
         "itens_exemplo": [
           "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
@@ -119,25 +142,67 @@
         ]
       },
       {
-        "macrogrupo": "Alvenaria",
-        "sub_disciplina": "Paredes",
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Fachada",
         "itens_exemplo": [
-          "ALVENARIA"
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Teto e Pintura",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+          "PINTURA INTERNA"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura e Serviços Externos",
+        "sub_disciplina": "Geral",
+        "itens_exemplo": [
+          "INFRAESTRUTURA",
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura e Serviços Externos",
+        "sub_disciplina": "Terreno",
+        "itens_exemplo": [
+          "MOVIMENTAÇÃO DE TERRA"
+        ]
+      },
+      {
+        "macrogrupo": "Infraestrutura e Serviços Externos",
+        "sub_disciplina": "Impermeabilização",
+        "itens_exemplo": [
+          "IMPERMEABILIZAÇÃO"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas Especiais",
+        "sub_disciplina": "Equipamentos",
+        "itens_exemplo": [
+          "SISTEMAS ESPECIAIS E EQUIPAMENTOS"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Administrativo",
+        "sub_disciplina": "Gestão",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
         ]
       }
     ],
     "observacoes_orcamentista": [],
     "padroes_identificados": [
-      "SUPRAESTRUTURA",
-      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
-      "ESQUADRIAS"
+      "Itens de custo se repetem em diferentes abas (Resumo e Paramétrico), sugerindo que o Orçamento Paramétrico é um detalhamento ou alternativa de cálculo para o Orçamento Resumo."
     ],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T22:32:34",
-      "duration_s": 54.3,
-      "compact_chars": 1135
+      "ts": "2026-04-13T19:37:12",
+      "duration_s": 91.8,
+      "compact_chars": 2082
     }
   }
 }

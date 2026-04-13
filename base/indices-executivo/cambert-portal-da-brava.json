@@ -2090,7 +2090,7 @@
     "reboco_pu_m2": null
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:21",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 4,
       "total_itens": 2578,
@@ -2101,67 +2101,123 @@
     "sub_disciplinas": [
       {
         "macrogrupo": "Estrutura",
-        "sub_disciplina": "Concreto",
+        "sub_disciplina": "Concreto e Fundações",
         "itens_exemplo": [
-          "CONCRETO USINADO BOMBEÁVEL, PARA ESTACAS, FCK 30MPA, S…"
+          "CONCRETO USINADO BOMBEÁVEL, PARA ESTACAS, FCK 30MPA, SLUMP 22+-3CM BRITA 0...",
+          "PISO DE CONCRETO SOBRE SOLO, ESPESSURA 15 CM",
+          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SU..."
         ]
       },
       {
-        "macrogrupo": "Estrutura",
-        "sub_disciplina": "Mão de Obra Estrutural",
-        "itens_exemplo": [
-          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…",
-          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…"
-        ]
-      },
-      {
-        "macrogrupo": "Acabamentos",
-        "sub_disciplina": "Piso e Parede",
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Pisos e Paredes",
         "itens_exemplo": [
           "ACABAMENTOS EM PISO E PAREDE",
-          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Fachada e Esquadrias",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+          "ESQUADRIAS, VIDROS E FERRAGENS",
+          "PELE DE VIDRO*"
         ]
       },
       {
         "macrogrupo": "Serviços Complementares",
-        "sub_disciplina": "Instalações",
+        "sub_disciplina": "Instalações e Equipamentos",
         "itens_exemplo": [
-          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "MÃO DE OBRA EMPREITADA PARA INSTALAÇÕES ELÉTRICAS*",
+          "SISTEMAS E EQUIPAMENTOS ESPECIAIS"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Alvenaria",
+        "itens_exemplo": [
+          "FABRICAÇÃO, MONTAGEM E DESMONTAGEM DE FORMA PARA BLOCOS DE COROAMENTO E VI...",
+          "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE BLOCOS E BALDRAMES*"
         ]
       }
     ],
     "observacoes_orcamentista": [
       {
-        "contexto": "Acabamentos",
-        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "Acabamentos",
-        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "Materiais",
-        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "Revisão de Projeto",
+        "contexto": "2 - 06/08/2021 - 11:05:41 - REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA",
         "observacao": "REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA",
-        "categoria": "premissa"
+        "categoria": "revisao"
+      },
+      {
+        "contexto": "2 - GERENCIAMENTO EXECUTIVO - EMBASAMENTO",
+        "observacao": "GERENCIAMENTO EXECUTIVO - EMBASAMENTO",
+        "categoria": "contexto"
+      },
+      {
+        "contexto": "3 - GERENCIAMENTO EXECUTIVO - TORRE AMORES",
+        "observacao": "GERENCIAMENTO EXECUTIVO - TORRE AMORES",
+        "categoria": "contexto"
+      },
+      {
+        "contexto": "4 - GERENCIAMENTO EXECUTIVO - TORRE BRAVA",
+        "observacao": "GERENCIAMENTO EXECUTIVO - TORRE BRAVA",
+        "categoria": "contexto"
+      },
+      {
+        "contexto": "5 - GERENCIAMENTO EXECUTIVO - SERVIÇOS COMPLEMENTARES E FINAIS",
+        "observacao": "GERENCIAMENTO EXECUTIVO - SERVIÇOS COMPLEMENTARES E FINAIS",
+        "categoria": "contexto"
       }
     ],
     "padroes_identificados": [
-      "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE C…",
-      "ACABAMENTOS EM PISO E PAREDE"
+      "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SU...",
+      "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SU... (m2) com valores próximos (1770.61, 1762.83, 1587.85, 1574.96)"
     ],
-    "fora_da_curva": [],
+    "fora_da_curva": [
+      {
+        "item": "MOBILIARIO E DECORAÇÃO*",
+        "motivo": "Item marcado com asterisco (*)"
+      },
+      {
+        "item": "MESTRE DE OBRAS*",
+        "motivo": "Item marcado com asterisco (*)"
+      },
+      {
+        "item": "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE BLOCOS E BALDRAMES*",
+        "motivo": "Item marcado com asterisco (*)"
+      },
+      {
+        "item": "IMPREVISTOS E CONTINGÊNCIAS*",
+        "motivo": "Item marcado com asterisco (*)"
+      },
+      {
+        "item": "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SU...",
+        "motivo": "Item marcado com asterisco (*)"
+      },
+      {
+        "item": "MÃO DE OBRA EMPREITADA PARA INSTALAÇÕES ELÉTRICAS*",
+        "motivo": "Item marcado com asterisco (*)"
+      },
+      {
+        "item": "PELE DE VIDRO*",
+        "motivo": "Item marcado com asterisco (*)"
+      },
+      {
+        "item": "ESQUADRIAS DE ALUMÍNIO COM VIDRO - TIPO - TORRE A*",
+        "motivo": "Item marcado com asterisco (*)"
+      },
+      {
+        "item": "FABRICAÇÃO, MONTAGEM E DESMONTAGEM DE FORMA PARA BLOCOS DE COROAMENTO E VI...",
+        "motivo": "Item marcado com asterisco (*)"
+      }
+    ],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T20:56:26",
-      "duration_s": 78.1,
-      "compact_chars": 1919
+      "ts": "2026-04-13T19:22:50",
+      "duration_s": 119.2,
+      "compact_chars": 3247
     }
   }
 }

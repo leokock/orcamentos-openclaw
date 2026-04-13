@@ -595,7 +595,7 @@
     "rodape": 40.0
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:22",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 12,
       "total_itens": 744,
@@ -606,84 +606,77 @@
     "sub_disciplinas": [
       {
         "macrogrupo": "Instalações Elétricas",
-        "sub_disciplina": "Cabos e Eletrodutos",
+        "sub_disciplina": "Cabos e Fios",
         "itens_exemplo": [
           "CABO 2.5mm² FLEXÍVEL (750V) AZUL",
           "CABO 2.5mm² FLEXÍVEL (750V) VERDE",
-          "ELETRODUTO CORRUGADO ¾\""
+          "CABO 2.5mm² FLEXÍVEL (750V) VERMELHO"
         ]
       },
       {
         "macrogrupo": "Instalações Hidráulicas",
-        "sub_disciplina": "Registros e Conexões",
+        "sub_disciplina": "Tubulações CPVC/PPR",
         "itens_exemplo": [
-          "Misturador monocomando 3/4\"",
-          "Registro de Gaveta 3/4\"",
-          "Registro de Pressão 3/4\""
+          "Tubo CPVC rígido, cor branca",
+          "Conector Aquatherm® 22 x 3/4'', CPVC, Água Quente - TIGRE",
+          "Tubo de PPR PN20"
         ]
       },
       {
-        "macrogrupo": "Acabamentos e Mobiliário",
-        "sub_disciplina": "Elementos Fixos",
+        "macrogrupo": "Instalações Esgoto/Pluvial",
+        "sub_disciplina": "Tubos e Conexões PVC",
         "itens_exemplo": [
-          "Mobiliário para área comum (COMPOSIÇÃO)",
-          "Esquadrias de Alumínio - Fornecimento e mão de obra",
-          "Louças, metais e acessórios (COMPOSIÇÃO)"
+          "Tubo de PVC Rígido Branco, conforme NBR5688, Linha Série Normal",
+          "Luva Simples, DN100mm, de PVC Rígido Série R (Reforçada), conforme NBR 5688",
+          "Caixa Sifonada Montada com Grelha e Porta Grelha Quadrados Brancos 150x150…"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Louças",
+        "sub_disciplina": "Louças e Metais",
+        "itens_exemplo": [
+          "Bacia Sanitária de louça com caixa acoplada",
+          "Torneira para lavatório",
+          "Ducha"
         ]
       },
       {
         "macrogrupo": "Serviços de Obra",
-        "sub_disciplina": "Serviços Finais",
+        "sub_disciplina": "Limpeza e Desmobilização",
         "itens_exemplo": [
-          "LIMPEZA FINAL DA OBRA",
-          "DESMOBILIZAÇÃO E MOBILIZAÇÃO",
-          "PAISAGISMO"
+          "Limpeza final da obra",
+          "Desmobilização de pessoal, máquinas e eq (+)",
+          "Desmobilização e mobilização"
+        ]
+      },
+      {
+        "macrogrupo": "Projetos e Consultoria",
+        "sub_disciplina": "Documentação Técnica",
+        "itens_exemplo": [
+          "Projeto Arquitetônico (COMPOSIÇÃO)",
+          "Projeto Estrutural (COMPOSIÇÃO)",
+          "Projeto Interiores/ Ambientação"
         ]
       }
     ],
     "observacoes_orcamentista": [
       {
-        "contexto": "Aço e Arame Recozido",
-        "observacao": "Alterados preços de aço e arame recozido de acordo com valores passados pela Kirchner",
-        "categoria": "revisao"
-      },
-      {
-        "contexto": "Concreto",
-        "observacao": "Alterado valor de concreto para R$500 + R$40 bombeamento, considerando o desperdício na composição",
+        "contexto": "ELÉTRICA",
+        "observacao": "CABO 1.5mm² FLEXÍVEL (750V) RETORNOS - Dividir m total em 1/5 BRANCO, 1/5 …",
         "categoria": "justificativa"
-      },
-      {
-        "contexto": "Madeirite Plastificado",
-        "observacao": "Valor do madeirite plastificado 1,10x2,20m alterado para R$118, conforme passado pela Kircnher",
-        "categoria": "revisao"
-      },
-      {
-        "contexto": "Formas",
-        "observacao": "Considerado 14 utilizações das formas, como são 20 pavimentos, para o cálculo da fabricação das formas: soma …",
-        "categoria": "premissa"
-      },
-      {
-        "contexto": "Custos Indiretos",
-        "observacao": "Formulário de custos indiretos",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "Orçamento Geral",
-        "observacao": "Valor estimado por índices históricos",
-        "categoria": "outro"
       }
     ],
     "padroes_identificados": [
-      "Muitos itens de composição utilizam a sigla 'vb' (verba básica)",
-      "Serviços complementares (Limpeza, Desmobilização, Ligações) possuem valores unitários idênticos (R$15)",
-      "O termo (COMPOSIÇÃO) é usado repetidamente para agrupar custos de alto valor"
+      "Limpeza final da obra (presente em CUSTOS DIRETOS e SERVIÇOS COMPLEMENTARES)",
+      "Ligações definitivas (presente em CUSTOS DIRETOS e SERVIÇOS COMPLEMENTARES)",
+      "Uso de 'COMPOSIÇÃO' como tipo de item em custos indiretos"
     ],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T22:06:05",
-      "duration_s": 92.4,
-      "compact_chars": 3681
+      "ts": "2026-04-13T19:32:11",
+      "duration_s": 95.7,
+      "compact_chars": 7509
     }
   }
 }

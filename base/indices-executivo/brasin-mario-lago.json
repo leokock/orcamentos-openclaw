@@ -164,7 +164,7 @@
     "reboco_pu_m2": null
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:21",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 1,
       "total_itens": 19,
@@ -172,15 +172,77 @@
       "fonte": "scripts/extract_itens_detalhados.py",
       "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/brasin-mario-lago.json"
     },
-    "sub_disciplinas": [],
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Fachada e Teto",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Serviços Gerais e Estruturantes",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+          "ESQUADRIAS",
+          "INFRAESTRUTURA",
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Instalações",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E GLP"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Alvenaria e Vedação",
+        "itens_exemplo": [
+          "ALVENARIA, VEDAÇÕES E DIVISÓRIAS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Pintura",
+        "itens_exemplo": [
+          "PINTURA INTERNA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Impermeabilização",
+        "itens_exemplo": [
+          "IMPERMEABILIZAÇÃO"
+        ]
+      }
+    ],
     "observacoes_orcamentista": [],
     "padroes_identificados": [],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T20:46:35",
-      "duration_s": 43.8,
-      "compact_chars": 510
+      "ts": "2026-04-13T19:20:51",
+      "duration_s": 71.6,
+      "compact_chars": 923
     }
   }
 }

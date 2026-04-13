@@ -100,7 +100,7 @@
     "total": 1003856.6
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:22",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 2,
       "total_itens": 38,
@@ -110,76 +110,114 @@
     },
     "sub_disciplinas": [
       {
-        "macrogrupo": "Estrutura e Envelopamento",
-        "sub_disciplina": "Superestrutura",
+        "macrogrupo": "SUPRAESTRUTURA",
+        "sub_disciplina": "SUPRAESTRUTURA",
         "itens_exemplo": [
           "SUPRAESTRUTURA"
         ]
       },
       {
-        "macrogrupo": "Acabamentos e Interiores",
-        "sub_disciplina": "Piso e Parede",
+        "macrogrupo": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "sub_disciplina": "ESQUADRIAS, VIDROS E FERRAGENS",
         "itens_exemplo": [
-          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ESQUADRIAS, VIDROS E FERRAGENS"
+        ]
+      },
+      {
+        "macrogrupo": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "sub_disciplina": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "sub_disciplina": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "sub_disciplina": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS EM PISO E PAREDE",
+        "sub_disciplina": "ACABAMENTOS EM PISO E PAREDE",
+        "itens_exemplo": [
           "ACABAMENTOS EM PISO E PAREDE"
         ]
       },
       {
-        "macrogrupo": "Instalações e Sistemas",
-        "sub_disciplina": "MEP e Serviços Especiais",
+        "macrogrupo": "SISTEMAS E EQUIPAMENTOS ESPECIAIS",
+        "sub_disciplina": "SISTEMAS E EQUIPAMENTOS ESPECIAIS",
         "itens_exemplo": [
-          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
           "SISTEMAS E EQUIPAMENTOS ESPECIAIS"
         ]
       },
       {
-        "macrogrupo": "Administrativo e Geral",
-        "sub_disciplina": "Gestão e Serviços",
+        "macrogrupo": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+        "sub_disciplina": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
         "itens_exemplo": [
-          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "PINTURA INTERNA",
+        "sub_disciplina": "PINTURA INTERNA",
+        "itens_exemplo": [
+          "PINTURA INTERNA"
+        ]
+      },
+      {
+        "macrogrupo": "ALVENARIA",
+        "sub_disciplina": "ALVENARIA",
+        "itens_exemplo": [
+          "ALVENARIA"
+        ]
+      },
+      {
+        "macrogrupo": "SERVIÇOS COMPLEMENTARES",
+        "sub_disciplina": "SERVIÇOS COMPLEMENTARES",
+        "itens_exemplo": [
+          "SERVIÇOS COMPLEMENTARES"
+        ]
+      },
+      {
+        "macrogrupo": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "sub_disciplina": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "IMPERMEABILIZAÇÃO",
+        "sub_disciplina": "IMPERMEABILIZAÇÃO",
+        "itens_exemplo": [
+          "IMPERMEABILIZAÇÃO"
+        ]
+      },
+      {
+        "macrogrupo": "INFRAESTRUTURA",
+        "sub_disciplina": "INFRAESTRUTURA",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
         ]
       }
     ],
-    "observacoes_orcamentista": [
-      {
-        "contexto": "observações de orçamentista",
-        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "observações de orçamentista",
-        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "observações de orçamentista",
-        "observacao": "ACABAMENTOS EM PISO E PAREDE",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "observações de orçamentista",
-        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "observações de orçamentista",
-        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
-        "categoria": "outro"
-      }
-    ],
+    "observacoes_orcamentista": [],
     "padroes_identificados": [
-      "SUPRAESTRUTURA",
-      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
-      "ESQUADRIAS, VIDROS E FERRAGENS",
-      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
-      "ACABAMENTOS EM PISO E PAREDE"
+      "Repetição de categorias de serviços entre as abas 'Executivo' e 'Auxiliar'."
     ],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T22:46:15",
-      "duration_s": 87.6,
-      "compact_chars": 1593
+      "ts": "2026-04-13T19:39:48",
+      "duration_s": 101.4,
+      "compact_chars": 2650
     },
     "pdf_metadata": {
       "ac_m2": null,

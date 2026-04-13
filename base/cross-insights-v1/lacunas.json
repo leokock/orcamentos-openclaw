@@ -1,0 +1,58 @@
+{
+  "name": "lacunas",
+  "status": "done",
+  "parsed": {
+    "lacunas": [
+      {
+        "lacuna": "Área Útil (UR) e Unidades Residenciais Definidas",
+        "impacto": "alto",
+        "n_projetos_afetados": 7,
+        "como_resolver": "Padronizar a coleta de dados exigindo o número total de unidades (apartamentos/salas) e a área útil média por unidade, em vez de apenas a Área Construída (AC) total."
+      },
+      {
+        "lacuna": "Custo por Metro Quadrado (R$/m²) Consistente",
+        "impacto": "alto",
+        "n_projetos_afetados": 3,
+        "como_resolver": "Exigir o preenchimento obrigatório do R$/m² em todas as submissões, e detalhar se o custo inclui ou exclui impostos, taxas e serviços de gestão."
+      },
+      {
+        "lacuna": "Detalhamento de Sustentabilidade e Certificações (ESG)",
+        "impacto": "alto",
+        "n_projetos_afetados": 9,
+        "como_resolver": "Criar um checklist obrigatório de requisitos ESG, cobrindo eficiência energética (certificações), gestão de resíduos e uso de materiais de baixo impacto ambiental."
+      },
+      {
+        "lacuna": "Custos Operacionais e de Manutenção (OPEX)",
+        "impacto": "alto",
+        "n_projetos_afetados": 9,
+        "como_resolver": "Incluir uma seção de análise de ciclo de vida (LCA) ou custos operacionais projetados (OPEX) para os primeiros 5 anos de uso, detalhando manutenção de equipamentos críticos (elevadores, bombas, sistemas de climatização)."
+      },
+      {
+        "lacuna": "Especificação de Equipamentos e Sistemas Críticos (Backup/Energia)",
+        "impacto": "medio",
+        "n_projetos_afetados": 7,
+        "como_resolver": "Padronizar a exigência de detalhes sobre subestações elétricas, capacidade de geradores de backup (Nº de geradores, potência em kVA) e sistemas de automação predial (BMS)."
+      },
+      {
+        "lacuna": "Materiais de Acabamento e Fornecedores Premium",
+        "impacto": "medio",
+        "n_projetos_afetados": 9,
+        "como_resolver": "Exigir o cadastro de materiais de alto custo (pisos, esquadrias, louças) com marca, modelo e fornecedor específico, em vez de apenas categorias genéricas (ex: 'porcelanato')."
+      },
+      {
+        "lacuna": "Detalhes de Infraestrutura de Lazer e Áreas Comuns",
+        "impacto": "medio",
+        "n_projetos_afetados": 6,
+        "como_resolver": "Criar um escopo detalhado para áreas de lazer, incluindo dimensionamento de equipamentos (academia, piscinas aquecidas, etc.), e a previsão de serviços complementares (paisagismo, iluminação cênica)."
+      },
+      {
+        "lacuna": "Gestão de Riscos e Contingência (Reserva Técnica)",
+        "impacto": "medio",
+        "n_projetos_afetados": 9,
+        "como_resolver": "Exigir a inclusão de uma reserva técnica percentual (ex: 5-10% do custo total) e a justificativa de sua aplicação, cobrindo variações de escopo ou custos não previstos."
+      }
+    ]
+  },
+  "raw": "```json\n{\n  \"lacunas\": [\n    {\n      \"lacuna\": \"Área Útil (UR) e Unidades Residenciais Definidas\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 7,\n      \"como_resolver\": \"Padronizar a coleta de dados exigindo o número total de unidades (apartamentos/salas) e a área útil média por unidade, em vez de apenas a Área Construída (AC) total.\"\n    },\n    {\n      \"lacuna\": \"Custo por Metro Quadrado (R$/m²) Consistente\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 3,\n      \"como_resolver\": \"Exigir o preenchimento obrigatório do R$/m² em todas as submissões, e detalhar se o custo inclui ou exclui impostos, taxas e serviços de gestão.\"\n    },\n    {\n      \"lacuna\": \"Detalhamento de Sustentabilidade e Certificações (ESG)\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 9,\n      \"como_resolver\": \"Criar um checklist obrigatório de requisitos ESG, cobrindo eficiência energética (certificações), gestão de resíduos e uso de materiais de baixo impacto ambiental.\"\n    },\n    {\n      \"lacuna\": \"Custos Operacionais e de Manutenção (OPEX)\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 9,\n      \"como_resolver\": \"Incluir uma seção de análise de ciclo de vida (LCA) ou custos operacionais projetados (OPEX) para os primeiros 5 anos de uso, detalhando manutenção de equipamentos críticos (elevadores, bombas, sistemas de climatização).\"\n    },\n    {\n      \"lacuna\": \"Especificação de Equipamentos e Sistemas Críticos (Backup/Energia)\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 7,\n      \"como_resolver\": \"Padronizar a exigência de detalhes sobre subestações elétricas, capacidade de geradores de backup (Nº de geradores, potência em kVA) e sistemas de automação predial (BMS).\"\n    },\n    {\n      \"lacuna\": \"Materiais de Acabamento e Fornecedores Premium\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 9,\n      \"como_resolver\": \"Exigir o cadastro de materiais de alto custo (pisos, esquadrias, louças) com marca, modelo e fornecedor específico, em vez de apenas categorias genéricas (ex: 'porcelanato').\"\n    },\n    {\n      \"lacuna\": \"Detalhes de Infraestrutura de Lazer e Áreas Comuns\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 6,\n      \"como_resolver\": \"Criar um escopo detalhado para áreas de lazer, incluindo dimensionamento de equipamentos (academia, piscinas aquecidas, etc.), e a previsão de serviços complementares (paisagismo, iluminação cênica).\"\n    },\n    {\n      \"lacuna\": \"Gestão de Riscos e Contingência (Reserva Técnica)\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 9,\n      \"como_resolver\": \"Exigir a inclusão de uma reserva técnica percentual (ex: 5-10% do custo total) e a justificativa de sua aplicação, cobrindo variações de escopo ou custos não previstos.\"\n    }\n  ]\n}\n```",
+  "duration": 89.42580986022949
+}

@@ -90,7 +90,7 @@
   },
   "acabamentos_pus": {},
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:21",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 1,
       "total_itens": 19,
@@ -100,53 +100,70 @@
     },
     "sub_disciplinas": [
       {
-        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
-        "sub_disciplina": "Estrutura",
+        "macrogrupo": "ESTRUTURA",
+        "sub_disciplina": "ESTRUTURA",
         "itens_exemplo": [
           "ESTRUTURA"
         ]
       },
       {
-        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
-        "sub_disciplina": "Sistemas",
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "PISO E PAREDE",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "REVESTIMENTOS",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "PINTURA",
+        "itens_exemplo": [
+          "PINTURA INTERNA"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES",
+        "sub_disciplina": "ELÉTRICAS E HIDRÁULICAS",
         "itens_exemplo": [
           "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
         ]
       },
       {
-        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
-        "sub_disciplina": "Acabamentos e Fachada",
+        "macrogrupo": "ENVOLVIMENTO",
+        "sub_disciplina": "ESQUADRIAS E VIDROS",
         "itens_exemplo": [
-          "ESQUADRIAS, VIDROS E FERRAGENS",
-          "PINTURA INTERNA"
+          "ESQUADRIAS, VIDROS E FERRAGENS"
         ]
       },
       {
-        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
-        "sub_disciplina": "Infraestrutura Geral",
+        "macrogrupo": "FACHADA",
+        "sub_disciplina": "REVESTIMENTOS EXTERNOS",
         "itens_exemplo": [
-          "INFRAESTRUTURA",
-          "SERVIÇOS COMPLEMENTARES",
-          "DESPESAS INDIRETAS"
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "ALVENARIA E INFRAESTRUTURA",
+        "sub_disciplina": "ALVENARIA",
+        "itens_exemplo": [
+          "ALVENARIA"
         ]
       }
     ],
-    "observacoes_orcamentista": [
-      {
-        "contexto": "AC=21215.27m²",
-        "observacao": "UR=?",
-        "categoria": "premissa"
-      }
-    ],
-    "padroes_identificados": [
-      "Estrutura de custos por Unidade de Preço (pu) e Valor Total (R$)"
-    ],
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T21:28:16",
-      "duration_s": 80.1,
-      "compact_chars": 487
+      "ts": "2026-04-13T19:29:12",
+      "duration_s": 71.4,
+      "compact_chars": 922
     }
   }
 }

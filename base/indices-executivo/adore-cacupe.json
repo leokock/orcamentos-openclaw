@@ -869,7 +869,7 @@
     "reboco_pu_m2": 55.0
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:21",
+    "updated_at": "2026-04-13T19:49:24",
     "phase1_extraction": {
       "n_abas": 24,
       "total_itens": 1443,
@@ -880,77 +880,157 @@
     "sub_disciplinas": [
       {
         "macrogrupo": "Estrutura",
-        "sub_disciplina": "Mão de obra e Armadura",
-        "itens_exemplo": [
-          "Mão de obra supraestrutura",
-          "Armadura Convencional para Estrutura"
-        ]
-      },
-      {
-        "macrogrupo": "Concreto",
-        "sub_disciplina": "Tipos de Concreto",
+        "sub_disciplina": "Concreto",
         "itens_exemplo": [
           "Concreto 30MPa",
-          "Concreto 40MPa",
-          "Concreto"
+          "Concreto",
+          "Concreto (40 Mpa)"
         ]
       },
       {
-        "macrogrupo": "Acabamento",
-        "sub_disciplina": "Pintura e Reboco",
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
         "itens_exemplo": [
-          "Pintura parede (selador + massa + pintura)",
-          "Massa unica para reboco interno em argamassa estabiliz…"
+          "Armadura Convencional para Estrutura",
+          "Armação"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Escoramento",
+        "itens_exemplo": [
+          "Fabricação forma",
+          "Montagem de forma",
+          "Escoramento"
         ]
       },
       {
         "macrogrupo": "Alvenaria",
         "sub_disciplina": "Tipos de Parede",
         "itens_exemplo": [
-          "Drywall tipo",
+          "Alvenaria com blocos cerâmicos com argamassa usinada para assentamento",
           "Alvenaria tipo",
-          "Alvenaria escadas"
+          "Alvenaria embasamento"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Porcelanato",
+          "Pintura parede (selador + massa + pintura)",
+          "Massa unica para reboco interno em argamassa estabilizada"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias e Vidros",
+        "itens_exemplo": [
+          "Esquadria em alumínio - Fornecimento e Instalação*",
+          "Guarda-corpo - vidro",
+          "Brise de aluminio"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Mão de Obra e Decoração",
+        "itens_exemplo": [
+          "Mão de obra supraestrutura",
+          "Móveis e decoração",
+          "Mão de obra infraestrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Fundação e Infraestrutura",
+        "sub_disciplina": "Estacas e Base",
+        "itens_exemplo": [
+          "Estaca Hélice Continua Diâmetro 50",
+          "Estaca Hélice Continua Diâmetro 60",
+          "Apoio e arrasamento de estacas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Serviços",
+        "sub_disciplina": "Hidráulica e Elétrica",
+        "itens_exemplo": [
+          "Mão de ObraInstalações Hidráulicas",
+          "Mão de obra vedações"
         ]
       }
     ],
     "observacoes_orcamentista": [
       {
-        "contexto": "Geral",
+        "contexto": "Formulário/Escopo",
         "observacao": "Informado no formulário que não haverá contrapiso acústico",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cliente/Escopo",
+        "observacao": "Valor repassado por cliente anteriormente relacionado a obra, conforme aba MO",
         "categoria": "premissa"
       },
       {
-        "contexto": "Geral",
+        "contexto": "Cliente/Escopo",
         "observacao": "Valor pedido pelo cliente para ser retirado dos indiretos e colocado no nos itens de supra",
         "categoria": "revisao"
       },
       {
-        "contexto": "Geral",
-        "observacao": "Valor proporcional aberto na aba MO",
+        "contexto": "Técnica/Estimativa",
+        "observacao": "Considerado conforme estimativa de custos Level Up.",
         "categoria": "justificativa"
       },
       {
-        "contexto": "Geral",
-        "observacao": "Considerado conforme estimativa de custos Level Up.",
-        "categoria": "justificativa"
+        "contexto": "Serviço Específico",
+        "observacao": "Valor repassado pelo cliente instalação hidraulica - incendio",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Serviço Específico",
+        "observacao": "Valor repassado pelo cliente instalação eletrica - spda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Material",
+        "observacao": "valor material do ingleses",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Produto/Referência",
+        "observacao": "Coeficiente originário do Gran Torino (R$ 160,00/un)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço/Ajuste",
+        "observacao": "Nova utiliza a verba de 1.500,00 por pav",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Fundação",
+        "observacao": "Não tem fundação profunda",
+        "categoria": "premissa"
       }
     ],
     "padroes_identificados": [
+      "Esquadria em alumínio - Fornecimento e Instalação*",
       "Mão de obra supraestrutura",
       "Armadura Convencional para Estrutura",
-      "Esquadria em alumínio - Fornecimento e Instalação*",
-      "Concreto 30MPa",
-      "Pintura parede (selador + massa + pintura)",
-      "Massa unica para reboco interno em argamassa estabiliz…",
-      "Imprevistos e Contingências",
-      "Porcelanato"
+      "Imprevistos e Contingências"
     ],
-    "fora_da_curva": [],
+    "fora_da_curva": [
+      {
+        "item": "Mão de obra supraestrutura",
+        "motivo": "O valor de R$1.609.964 (OPÇÃO) é significativamente menor que os valores apresentados nas demais opções (R$3.264.200)."
+      },
+      {
+        "item": "Mão de obra infraestrutura",
+        "motivo": "O valor de R$616.448 (OPÇÃO) é significativamente menor que os valores apresentados nas demais opções (R$1.130.768)."
+      }
+    ],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T20:25:59",
-      "duration_s": 99.1,
-      "compact_chars": 3711
+      "ts": "2026-04-13T19:18:08",
+      "duration_s": 127.4,
+      "compact_chars": 7435
     }
   }
 }

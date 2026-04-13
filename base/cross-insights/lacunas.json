@@ -4,55 +4,67 @@
   "parsed": {
     "lacunas": [
       {
-        "lacuna": "Área Útil (UR) e Unidades Residenciais Definidas",
+        "lacuna": "Definição e Quantificação da Área Não Coberta (UR)",
         "impacto": "alto",
-        "n_projetos_afetados": 7,
-        "como_resolver": "Padronizar a coleta de dados exigindo o número total de unidades (apartamentos/salas) e a área útil média por unidade, em vez de apenas a Área Construída (AC) total."
+        "n_projetos_afetados": 8,
+        "como_resolver": "Exigir a quantificação detalhada da Área Não Coberta (UR) em todos os projetos, seja por levantamento topográfico ou por premissa de cálculo, para evitar subestimação de custos de infraestrutura e paisagismo."
       },
       {
-        "lacuna": "Custo por Metro Quadrado (R$/m²) Consistente",
+        "lacuna": "Custos de Operação e Manutenção (O&M)",
         "impacto": "alto",
-        "n_projetos_afetados": 3,
-        "como_resolver": "Exigir o preenchimento obrigatório do R$/m² em todas as submissões, e detalhar se o custo inclui ou exclui impostos, taxas e serviços de gestão."
+        "n_projetos_afetados": 10,
+        "como_resolver": "Incorporar uma fase de análise de ciclo de vida (LCC) nos dossiês, detalhando custos anuais de manutenção, consumo de energia, água e pessoal para os primeiros 5 anos de operação."
       },
       {
-        "lacuna": "Detalhamento de Sustentabilidade e Certificações (ESG)",
+        "lacuna": "Detalhamento de Sistemas de Sustentabilidade e Certificações",
+        "impacto": "alto",
+        "n_projetos_afetados": 10,
+        "como_resolver": "Tornar obrigatória a inclusão de premissas de certificações (LEED, AQUA, etc.), detalhando o uso de materiais de baixo carbono, sistemas de captação de água pluvial e eficiência energética."
+      },
+      {
+        "lacuna": "Integração e Detalhamento de Redes de Serviços Urbanos (Saneamento)",
         "impacto": "alto",
         "n_projetos_afetados": 9,
-        "como_resolver": "Criar um checklist obrigatório de requisitos ESG, cobrindo eficiência energética (certificações), gestão de resíduos e uso de materiais de baixo impacto ambiental."
+        "como_resolver": "Exigir o detalhamento específico das conexões e dimensionamentos de redes de água potável, esgoto e drenagem pluvial, incluindo a previsão de taxa de ocupação e capacidade de vazão em pontos de conexão com a rede pública."
       },
       {
-        "lacuna": "Custos Operacionais e de Manutenção (OPEX)",
-        "impacto": "alto",
-        "n_projetos_afetados": 9,
-        "como_resolver": "Incluir uma seção de análise de ciclo de vida (LCA) ou custos operacionais projetados (OPEX) para os primeiros 5 anos de uso, detalhando manutenção de equipamentos críticos (elevadores, bombas, sistemas de climatização)."
+        "lacuna": "Gestão de Riscos e Contingências Estruturadas",
+        "impacto": "medio",
+        "n_projetos_afetados": 10,
+        "como_resolver": "Implementar um registro formal de riscos (Risk Register) que contemple riscos não técnicos (ex: mudanças regulatórias, atrasos de licenciamento, flutuação cambial) e seus respectivos planos de mitigação e custos de contingência."
       },
       {
-        "lacuna": "Especificação de Equipamentos e Sistemas Críticos (Backup/Energia)",
+        "lacuna": "Especificação de Materiais e Acabamentos de Áreas Comuns",
+        "impacto": "medio",
+        "n_projetos_afetados": 8,
+        "como_resolver": "Padronizar a especificação de acabamentos em áreas comuns, exigindo marcas, modelos e fornecedores específicos para pisos, louças e metais, em vez de apenas categorias genéricas."
+      },
+      {
+        "lacuna": "Detalhamento de Sistemas de Energia Renovável",
         "impacto": "medio",
         "n_projetos_afetados": 7,
-        "como_resolver": "Padronizar a exigência de detalhes sobre subestações elétricas, capacidade de geradores de backup (Nº de geradores, potência em kVA) e sistemas de automação predial (BMS)."
+        "como_resolver": "Incluir a análise de viabilidade técnica e econômica para a integração de fontes de energia renovável (ex: painéis solares fotovoltaicos, sistemas de aquecimento solar) e o dimensionamento de subestações para suportar essa carga."
       },
       {
-        "lacuna": "Materiais de Acabamento e Fornecedores Premium",
+        "lacuna": "Planejamento de Desmobilização e Resíduos de Construção",
         "impacto": "medio",
-        "n_projetos_afetados": 9,
-        "como_resolver": "Exigir o cadastro de materiais de alto custo (pisos, esquadrias, louças) com marca, modelo e fornecedor específico, em vez de apenas categorias genéricas (ex: 'porcelanato')."
+        "n_projetos_afetados": 8,
+        "como_resolver": "Exigir um plano detalhado de gestão de resíduos (PGRCC), incluindo custos de descarte, logística reversa e a previsão de desmobilização de estruturas temporárias ao final da obra."
       },
       {
-        "lacuna": "Detalhes de Infraestrutura de Lazer e Áreas Comuns",
+        "lacuna": "Detalhamento de Sistemas de Segurança e Controle de Acesso",
+        "impacto": "medio",
+        "n_projetos_afetados": 7,
+        "como_resolver": "Aprofundar o escopo de segurança, detalhando sistemas de CFTV por zonas, controle biométrico de acesso, e planos de resposta a emergências (brigadas, rotas de fuga, etc.)."
+      },
+      {
+        "lacuna": "Coordenação e Detalhamento BIM (Building Information Modeling)",
         "impacto": "medio",
         "n_projetos_afetados": 6,
-        "como_resolver": "Criar um escopo detalhado para áreas de lazer, incluindo dimensionamento de equipamentos (academia, piscinas aquecidas, etc.), e a previsão de serviços complementares (paisagismo, iluminação cênica)."
-      },
-      {
-        "lacuna": "Gestão de Riscos e Contingência (Reserva Técnica)",
-        "impacto": "medio",
-        "n_projetos_afetados": 9,
-        "como_resolver": "Exigir a inclusão de uma reserva técnica percentual (ex: 5-10% do custo total) e a justificativa de sua aplicação, cobrindo variações de escopo ou custos não previstos."
+        "como_resolver": "Tornar obrigatória a entrega de modelos BIM coordenados, com foco em detecção de interferências (clash detection) entre disciplinas (elétrica, hidráulica, estrutura) e a quantificação automatizada de materiais."
       }
     ]
   },
-  "raw": "```json\n{\n  \"lacunas\": [\n    {\n      \"lacuna\": \"Área Útil (UR) e Unidades Residenciais Definidas\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 7,\n      \"como_resolver\": \"Padronizar a coleta de dados exigindo o número total de unidades (apartamentos/salas) e a área útil média por unidade, em vez de apenas a Área Construída (AC) total.\"\n    },\n    {\n      \"lacuna\": \"Custo por Metro Quadrado (R$/m²) Consistente\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 3,\n      \"como_resolver\": \"Exigir o preenchimento obrigatório do R$/m² em todas as submissões, e detalhar se o custo inclui ou exclui impostos, taxas e serviços de gestão.\"\n    },\n    {\n      \"lacuna\": \"Detalhamento de Sustentabilidade e Certificações (ESG)\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 9,\n      \"como_resolver\": \"Criar um checklist obrigatório de requisitos ESG, cobrindo eficiência energética (certificações), gestão de resíduos e uso de materiais de baixo impacto ambiental.\"\n    },\n    {\n      \"lacuna\": \"Custos Operacionais e de Manutenção (OPEX)\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 9,\n      \"como_resolver\": \"Incluir uma seção de análise de ciclo de vida (LCA) ou custos operacionais projetados (OPEX) para os primeiros 5 anos de uso, detalhando manutenção de equipamentos críticos (elevadores, bombas, sistemas de climatização).\"\n    },\n    {\n      \"lacuna\": \"Especificação de Equipamentos e Sistemas Críticos (Backup/Energia)\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 7,\n      \"como_resolver\": \"Padronizar a exigência de detalhes sobre subestações elétricas, capacidade de geradores de backup (Nº de geradores, potência em kVA) e sistemas de automação predial (BMS).\"\n    },\n    {\n      \"lacuna\": \"Materiais de Acabamento e Fornecedores Premium\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 9,\n      \"como_resolver\": \"Exigir o cadastro de materiais de alto custo (pisos, esquadrias, louças) com marca, modelo e fornecedor específico, em vez de apenas categorias genéricas (ex: 'porcelanato').\"\n    },\n    {\n      \"lacuna\": \"Detalhes de Infraestrutura de Lazer e Áreas Comuns\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 6,\n      \"como_resolver\": \"Criar um escopo detalhado para áreas de lazer, incluindo dimensionamento de equipamentos (academia, piscinas aquecidas, etc.), e a previsão de serviços complementares (paisagismo, iluminação cênica).\"\n    },\n    {\n      \"lacuna\": \"Gestão de Riscos e Contingência (Reserva Técnica)\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 9,\n      \"como_resolver\": \"Exigir a inclusão de uma reserva técnica percentual (ex: 5-10% do custo total) e a justificativa de sua aplicação, cobrindo variações de escopo ou custos não previstos.\"\n    }\n  ]\n}\n```",
-  "duration": 89.42580986022949
+  "raw": "```json\n{\n  \"lacunas\": [\n    {\n      \"lacuna\": \"Definição e Quantificação da Área Não Coberta (UR)\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 8,\n      \"como_resolver\": \"Exigir a quantificação detalhada da Área Não Coberta (UR) em todos os projetos, seja por levantamento topográfico ou por premissa de cálculo, para evitar subestimação de custos de infraestrutura e paisagismo.\"\n    },\n    {\n      \"lacuna\": \"Custos de Operação e Manutenção (O&M)\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 10,\n      \"como_resolver\": \"Incorporar uma fase de análise de ciclo de vida (LCC) nos dossiês, detalhando custos anuais de manutenção, consumo de energia, água e pessoal para os primeiros 5 anos de operação.\"\n    },\n    {\n      \"lacuna\": \"Detalhamento de Sistemas de Sustentabilidade e Certificações\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 10,\n      \"como_resolver\": \"Tornar obrigatória a inclusão de premissas de certificações (LEED, AQUA, etc.), detalhando o uso de materiais de baixo carbono, sistemas de captação de água pluvial e eficiência energética.\"\n    },\n    {\n      \"lacuna\": \"Integração e Detalhamento de Redes de Serviços Urbanos (Saneamento)\",\n      \"impacto\": \"alto\",\n      \"n_projetos_afetados\": 9,\n      \"como_resolver\": \"Exigir o detalhamento específico das conexões e dimensionamentos de redes de água potável, esgoto e drenagem pluvial, incluindo a previsão de taxa de ocupação e capacidade de vazão em pontos de conexão com a rede pública.\"\n    },\n    {\n      \"lacuna\": \"Gestão de Riscos e Contingências Estruturadas\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 10,\n      \"como_resolver\": \"Implementar um registro formal de riscos (Risk Register) que contemple riscos não técnicos (ex: mudanças regulatórias, atrasos de licenciamento, flutuação cambial) e seus respectivos planos de mitigação e custos de contingência.\"\n    },\n    {\n      \"lacuna\": \"Especificação de Materiais e Acabamentos de Áreas Comuns\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 8,\n      \"como_resolver\": \"Padronizar a especificação de acabamentos em áreas comuns, exigindo marcas, modelos e fornecedores específicos para pisos, louças e metais, em vez de apenas categorias genéricas.\"\n    },\n    {\n      \"lacuna\": \"Detalhamento de Sistemas de Energia Renovável\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 7,\n      \"como_resolver\": \"Incluir a análise de viabilidade técnica e econômica para a integração de fontes de energia renovável (ex: painéis solares fotovoltaicos, sistemas de aquecimento solar) e o dimensionamento de subestações para suportar essa carga.\"\n    },\n    {\n      \"lacuna\": \"Planejamento de Desmobilização e Resíduos de Construção\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 8,\n      \"como_resolver\": \"Exigir um plano detalhado de gestão de resíduos (PGRCC), incluindo custos de descarte, logística reversa e a previsão de desmobilização de estruturas temporárias ao final da obra.\"\n    },\n    {\n      \"lacuna\": \"Detalhamento de Sistemas de Segurança e Controle de Acesso\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 7,\n      \"como_resolver\": \"Aprofundar o escopo de segurança, detalhando sistemas de CFTV por zonas, controle biométrico de acesso, e planos de resposta a emergências (brigadas, rotas de fuga, etc.).\"\n    },\n    {\n      \"lacuna\": \"Coordenação e Detalhamento BIM (Building Information Modeling)\",\n      \"impacto\": \"medio\",\n      \"n_projetos_afetados\": 6,\n      \"como_resolver\": \"Tornar obrigatória a entrega de modelos BIM coordenados, com foco em detecção de interferências (clash detection) entre disciplinas (elétrica, hidráulica, estrutura) e a quantificação automatizada de materiais.\"\n    }\n  ]\n}\n```",
+  "duration": 91.70236921310425
 }

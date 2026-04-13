@@ -1700,7 +1700,7 @@
     }
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:22",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 7,
       "total_itens": 7156,
@@ -1710,44 +1710,71 @@
     },
     "sub_disciplinas": [
       {
-        "macrogrupo": "Estrutura e Fundações",
-        "sub_disciplina": "Concreto e Fundações",
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
         "itens_exemplo": [
-          "Concreto Usinado (SUPRAESTRUTURA) - fck 40 MPa / Brita…",
-          "Solo criado / Outroga onerosa",
-          "Escoramento para Lajes e Vigas (Locação)"
+          "Concreto Usinado (SUPRAESTRUTURA) - fck 40 MPa / Brita 0+1, slump 10+-2",
+          "Concreto Usinado (ESTACAS) - fck 40 MPa / Brita 0+1, slump 24+-2",
+          "Concreto Usinado - fck 40 MPa"
         ]
       },
       {
         "macrogrupo": "Acabamentos",
-        "sub_disciplina": "Revestimentos e Pinturas",
+        "sub_disciplina": "Revestimentos e Pintura",
         "itens_exemplo": [
-          "MOE - Revestimentos de Argamassa / Reboco Interno (com…)",
-          "MOE - Pinturas / Internas (Pintura Acrílica - Incluído…)",
-          "Esquadrias de alumínio"
+          "MOE - Pinturas / Internas (Pintura Acrílica - Incluído Selador/Fundo e Mas…",
+          "MOE - Revestimentos de Argamassa / Reboco Interno (com Desconto de Vãos)",
+          "MOE - Revestimentos de Argamassa / Reboco Interno / Paredes (com Desconto …"
         ]
       },
       {
-        "macrogrupo": "Sistemas e Equipamentos",
-        "sub_disciplina": "Movimentação Vertical",
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias",
         "itens_exemplo": [
-          "Elevadores"
+          "Esquadrias de alumínio",
+          "MOE - Esquadrias / Rodapés em Madeira, MDF e/ou Poliestireno"
         ]
       },
       {
         "macrogrupo": "Serviços Complementares",
-        "sub_disciplina": "Serviços Gerais",
+        "sub_disciplina": "Serviços de Terra e Solo",
         "itens_exemplo": [
-          "MOE - Supraestrutura / Execução Geral",
-          "Equipamentos de Skyplace",
+          "Solo criado / Outroga onerosa",
           "Terreno / Despesas com Outorga Onerosa"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Mão de Obra e Equipes",
+        "itens_exemplo": [
+          "Equipe Técnica / Terceirizado",
+          "Equipe Técnica / Engenheiro Civil (Rateio Obras)",
+          "Operador de Grua"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Alvenaria e Vedação",
+        "itens_exemplo": [
+          "Alvenaria de vedação de blocos cerâmicos de 14x19x19cm (espessura 14cm) e …",
+          "MOE - Alvenarias e Vedações / Alvenaria de Vedação em Blocos Cerâmicos / i…",
+          "MOE - Alvenarias e Vedações / Mochetas/Shafts"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Telecomunicações",
+        "itens_exemplo": [
+          "MOE - Instalações Elétricas / Execução Geral",
+          "Estimativas / Instalações e Ligações Provisórias",
+          "Estimativas / Instalações Elétricas"
         ]
       }
     ],
     "observacoes_orcamentista": [
       {
         "contexto": "Custos Indiretos",
-        "observacao": "OS CUSTOS INDIRETOS FORAM LANÇADOS SEGUINDO FORMULÁRIO DE CUSTOS INDIRETOS PREENCHIDO EM 24/11/2023 PELO FLÁV…",
+        "observacao": "OS CUSTOS INDIRETOS FORAM LANÇADOS SEGUINDO FORMULÁRIO DE CUSTOS INDIRETOS PREENCHIDO EM 24/11/2023 PELO FLÁVIO",
         "categoria": "justificativa"
       },
       {
@@ -1756,37 +1783,49 @@
         "categoria": "justificativa"
       },
       {
-        "contexto": "Mão de Obra/Canteiro",
-        "observacao": "Previsão de 1 pedreiro, 2 serventes e 1 carpinteriro para limpeza e manutenção de canteiro e também montagem …",
+        "contexto": "Mão de Obra",
+        "observacao": "Previsão de 1 pedreiro, 2 serventes e 1 carpinteriro para limpeza e manutenção de canteiro e também montagem de EPCs (71,8% de en…",
         "categoria": "premissa"
       },
       {
-        "contexto": "Mão de Obra/Equipamento",
+        "contexto": "Mão de Obra",
         "observacao": "Previsão de 1 guincheiro (71,8% de encargos+benefícios)",
         "categoria": "premissa"
       },
       {
-        "contexto": "Material/Padrão",
+        "contexto": "Referência de Projeto",
         "observacao": "Pavimento G1 como referência",
         "categoria": "premissa"
+      },
+      {
+        "contexto": "Estimativa de Custos",
+        "observacao": "Estimativa de acordo com dimensões me proejto arquitetônico",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimativa de Custos",
+        "observacao": "Estimativa de acordo com índices históricos",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cálculo de Transição",
+        "observacao": "1,8 vezes o pavimento tipo para prever as transições",
+        "categoria": "justificativa"
       }
     ],
     "padroes_identificados": [
-      "Esquadrias de alumínio",
-      "MOE - Supraestrutura / Execução Geral",
-      "Concreto Usinado (SUPRAESTRUTURA) - fck 40 MPa / Brita…",
-      "Elevadores",
-      "MOE - Pinturas / Internas",
-      "MOE - Revestimentos de Argamassa / Reboco Interno",
-      "Escoramento para Lajes e Vigas (Locação)",
-      "Solo criado / Outroga onerosa"
+      "Elevadores (R$1.081.743)",
+      "Solo criado / Outroga onerosa (R$888.000)",
+      "Equipe Técnica / Terceirizado (R$546.081)",
+      "MOE - Instalações Elétricas / Execução Geral (R$498.069)",
+      "MOE - Supraestrutura / Execução Geral (m2) (pu=250)"
     ],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T23:12:01",
-      "duration_s": 102.9,
-      "compact_chars": 3749
+      "ts": "2026-04-13T19:43:23",
+      "duration_s": 130.8,
+      "compact_chars": 7509
     }
   }
 }

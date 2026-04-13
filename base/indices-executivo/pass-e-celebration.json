@@ -107,7 +107,7 @@
     "total": 1532141.43
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:22",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 4,
       "total_itens": 82,
@@ -117,34 +117,71 @@
     },
     "sub_disciplinas": [
       {
-        "macrogrupo": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
-        "sub_disciplina": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Supraestrutura",
         "itens_exemplo": [
-          "pu=161.09",
-          "R$1.281.641"
+          "SUPRAESTRUTURA"
         ]
       },
       {
-        "macrogrupo": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
-        "sub_disciplina": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Piso e Pavimentação",
         "itens_exemplo": [
-          "pu=120.23",
-          "R$956.553"
+          "ACABAMENTOS EM PISO E PAREDE",
+          "PISOS E PAVIMENTAÇÕES"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Paredes e Divisórias",
+        "itens_exemplo": [
+          "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
+          "PAREDES E PAINÉIS"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Revestimentos e Pintura",
+        "itens_exemplo": [
+          "PINTURA INTERNA",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Impermeabilização",
+        "itens_exemplo": [
+          "IMPERMEABILIZAÇÃO E TRATAMENTOS",
+          "IMPERMEABILIZAÇÃO"
         ]
       }
     ],
     "observacoes_orcamentista": [],
     "padroes_identificados": [
-      "SUPRAESTRUTURA (R$6.062.339) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB.",
-      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS (R$2.468.327) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB.",
-      "ESQUADRIAS, VIDROS E FERRAGENS (R$1.955.058) é repetido em ORÇAMENTO_EXECUTIVO, ORÇAMENTO_PRIVATIVA e EXCLUSÃO_CUB."
+      "SUPRAESTRUTURA (R$ 6.062.339)",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS (R$ 2.468.327)",
+      "ESQUADRIAS, VIDROS E FERRAGENS (R$ 1.955.058)",
+      "ACABAMENTOS EM PISO E PAREDE (R$ 1.436.082)",
+      "ALVENARIA, VEDAÇÕES E DIVISÓRIAS (R$ 1.281.641)",
+      "REVESTIMENTOS INTERNOS EM PISO E PAREDE (R$ 956.553)",
+      "PINTURA INTERNA (R$ 911.139)",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA (R$ 872.234)",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO (R$ 482.265)",
+      "IMPERMEABILIZAÇÃO (R$ 383.289)"
     ],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T22:54:13",
-      "duration_s": 72.9,
-      "compact_chars": 1626
+      "ts": "2026-04-13T19:41:12",
+      "duration_s": 83.8,
+      "compact_chars": 2821
     }
   }
 }

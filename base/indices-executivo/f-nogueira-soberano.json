@@ -94,7 +94,7 @@
   },
   "acabamentos_pus": {},
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:21",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 2,
       "total_itens": 436,
@@ -104,62 +104,88 @@
     },
     "sub_disciplinas": [
       {
-        "macrogrupo": "ACABAMENTOS EM PISO E PAREDE",
-        "sub_disciplina": "Revestimentos Internos",
+        "macrogrupo": "Estrutura e Base",
+        "sub_disciplina": "Alvenaria",
         "itens_exemplo": [
-          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "ALVENARIA"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura e Base",
+        "sub_disciplina": "Infraestrutura",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Piso e Parede",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Teto",
+        "itens_exemplo": [
           "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
         ]
       },
       {
-        "macrogrupo": "ESQUADRIAS, VIDROS E FERRAGENS",
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Fachada e Pintura",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+          "PINTURA INTERNA"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas e Instalações",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Sistemas e Instalações",
         "sub_disciplina": "Esquadrias",
         "itens_exemplo": [
           "ESQUADRIAS, VIDROS E FERRAGENS"
         ]
       },
       {
-        "macrogrupo": "ACABAMENTOS E REVESTIMENTOS",
-        "sub_disciplina": "Fachada",
+        "macrogrupo": "Sistemas e Instalações",
+        "sub_disciplina": "Equipamentos Especiais",
         "itens_exemplo": [
-          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+          "SISTEMAS E EQUIPAMENTOS ESPECIAIS"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Complementar",
+        "sub_disciplina": "Gerenciamento",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ]
+      },
+      {
+        "macrogrupo": "Gestão e Complementar",
+        "sub_disciplina": "Contingência",
+        "itens_exemplo": [
+          "IMPREVISTOS E CONTINGÊNCIAS"
         ]
       }
     ],
-    "observacoes_orcamentista": [
-      {
-        "contexto": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
-        "observacao": "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
-        "observacao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "ACABAMENTOS EM PISO E PAREDE",
-        "observacao": "ACABAMENTOS EM PISO E PAREDE",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "ESQUADRIAS, VIDROS E FERRAGENS",
-        "observacao": "ESQUADRIAS, VIDROS E FERRAGENS",
-        "categoria": "outro"
-      },
-      {
-        "contexto": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
-        "observacao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
-        "categoria": "outro"
-      }
+    "observacoes_orcamentista": [],
+    "padroes_identificados": [
+      "A lista de acabamentos (REVESTIMENTOS INTERNOS EM PISO E PAREDE, ACABAMENTOS EM PISO E PAREDE, etc.) é repetida na seção de observações de orçamentista."
     ],
-    "padroes_identificados": [],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T21:36:21",
-      "duration_s": 80.7,
-      "compact_chars": 895
+      "ts": "2026-04-13T19:30:36",
+      "duration_s": 83.2,
+      "compact_chars": 1408
     },
     "pdf_metadata": {
       "ac_m2": null,

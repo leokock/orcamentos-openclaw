@@ -186,7 +186,7 @@
     "porcelanato": 107.25
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:21",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 17,
       "total_itens": 1158,
@@ -196,17 +196,25 @@
     },
     "sub_disciplinas": [
       {
-        "macrogrupo": "Estrutura",
-        "sub_disciplina": "Fundação e Concreto",
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Concreto",
         "itens_exemplo": [
           "Concreto Usinado FCK = 40MPa Bombeavel",
-          "blocos, vigas de fundação, duto e cisterna",
-          "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm"
+          "Concreto Usinado bombeável para estacas 40MPa"
         ]
       },
       {
-        "macrogrupo": "Acabamentos e Revestimentos",
-        "sub_disciplina": "Pisos e Paredes",
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Fundação",
+        "itens_exemplo": [
+          "Infraestrutura",
+          "Blocos",
+          "vigas de fundação"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Sistemas",
+        "sub_disciplina": "Pisos e Revestimentos",
         "itens_exemplo": [
           "Pisos",
           "Revestimento interno",
@@ -214,54 +222,79 @@
         ]
       },
       {
-        "macrogrupo": "Instalações e Sistemas",
-        "sub_disciplina": "Elétrica e Hidráulica",
+        "macrogrupo": "Acabamentos e Sistemas",
+        "sub_disciplina": "Hidráulica e Louças",
         "itens_exemplo": [
-          "Instal. Hidro, louças, metais, gás, shp",
-          "Projeto elétrico/comunicação/telefonia/luminotécnico",
-          "Consumo de luz/energia"
+          "Vaso sanitário deca branco",
+          "Cuba de cozinha",
+          "Torneira banheiro"
         ]
       },
       {
-        "macrogrupo": "Serviços Técnicos e Administrativos",
-        "sub_disciplina": "Projetos e Legalização",
+        "macrogrupo": "Acabamentos e Sistemas",
+        "sub_disciplina": "Elétrica e Sistemas",
         "itens_exemplo": [
-          "Projeto arquitetônico legal",
-          "Compatibilização de Projetos BIM",
-          "Legalização de incorporação"
+          "Instal elétrica, sist comb incêndio, outros",
+          "Projeto elétrico/comunicação/telefonia/luminotécnico",
+          "Instal. Hidro, louças, metais, gás, shp"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Proteção",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Fachada e Proteção",
+        "sub_disciplina": "Proteção de Vãos",
+        "itens_exemplo": [
+          "Guarda - corpo de vãos",
+          "Fechamento removível de vãos em madeira"
         ]
       }
     ],
     "observacoes_orcamentista": [
       {
-        "contexto": "Fundação",
+        "contexto": "Fundação/Estrutura",
         "observacao": "Considerado blocos, vigas de fundação, duto e cisterna",
-        "categoria": "premissa"
+        "categoria": "justificativa"
       },
       {
-        "contexto": "Cisterna",
+        "contexto": "Estrutura/Estimativa",
         "observacao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
-        "categoria": "premissa"
+        "categoria": "justificativa"
       },
       {
-        "contexto": "Perdas de material",
+        "contexto": "Perdas/Estimativa",
         "observacao": "Considerado sem indicação em projeto, consideração de 13% de perda",
-        "categoria": "premissa"
+        "categoria": "justificativa"
       },
       {
-        "contexto": "Escavação",
-        "observacao": "Considerado empolamento 30% da escavação",
-        "categoria": "premissa"
-      },
-      {
-        "contexto": "Composição orçamentária",
+        "contexto": "Composição de Custos",
         "observacao": "Composição orçamentária com aço, concreto e outros itens - retirado mão de obra da composição",
         "categoria": "justificativa"
       },
       {
-        "contexto": "Estimativa geral",
-        "observacao": "Estimado com base em índices históricos",
+        "contexto": "Composição de Custos",
+        "observacao": "Composição orçamentárica com material e mão de obra",
         "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estrutura/Dimensionamento",
+        "observacao": "Considerado 1 jogo embasamento + 3 Jogos torre",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estrutura/Origem de Dados",
+        "observacao": "Quantidade extraida de IFC da estrutura",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Estimativa Geral",
+        "observacao": "Estimado com base em índices históricos",
+        "categoria": "premissa"
       },
       {
         "contexto": "Cronograma",
@@ -270,15 +303,14 @@
       }
     ],
     "padroes_identificados": [
-      "A distribuição de custos (SUPRAESTRUTURA, INSTALAÇÕES ELÉTRICAS, ACABAMENTOS EM PISO E PAREDE, etc.) é idêntica em ORÇAMENTO_EXECUTIVO, DISTRIBUIÇÃO MO e MÃO DE OBRA.",
-      "O valor total de R$60.989.058 e o pu=3483.98 são repetidos em todas as três abas de orçamento."
+      "Os valores de todos os 15 itens de custo (SUPRAESTRUTURA a CONTENÇÃO) são idênticos nas abas ORÇAMENTO_EXECUTIVO, DISTRIBUIÇÃO MO e MÃO DE OBRA."
     ],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T21:26:56",
-      "duration_s": 90.4,
-      "compact_chars": 2971
+      "ts": "2026-04-13T19:28:01",
+      "duration_s": 99.1,
+      "compact_chars": 7434
     }
   }
 }

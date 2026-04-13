@@ -136,7 +136,7 @@
     }
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:22",
+    "updated_at": "2026-04-13T19:49:25",
     "phase1_extraction": {
       "n_abas": 3,
       "total_itens": 102,
@@ -146,25 +146,32 @@
     },
     "sub_disciplinas": [
       {
-        "macrogrupo": "Acabamentos",
+        "macrogrupo": "Acabamento",
         "sub_disciplina": "Forro",
         "itens_exemplo": [
           "Execução de forro em ACM"
         ]
       },
       {
-        "macrogrupo": "Pavimentação",
-        "sub_disciplina": "Piso e Caminho",
+        "macrogrupo": "Pavimentação/Piso",
+        "sub_disciplina": "Paver/Pisograma",
         "itens_exemplo": [
           "Passeio em Paver",
           "Pisograma"
         ]
       },
       {
-        "macrogrupo": "Infraestrutura",
+        "macrogrupo": "Estrutura/Infraestrutura",
         "sub_disciplina": "Concreto",
         "itens_exemplo": [
           "Meio-Fio Concreto Pré-Fabricado"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamento",
+        "sub_disciplina": "Piso Tátil",
+        "itens_exemplo": [
+          "Piso tátil Bolinha Alerta Inox, 1m"
         ]
       }
     ],
@@ -180,9 +187,9 @@
     ],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T22:41:15",
-      "duration_s": 53.7,
-      "compact_chars": 524
+      "ts": "2026-04-13T19:38:07",
+      "duration_s": 54.7,
+      "compact_chars": 573
     }
   }
 }

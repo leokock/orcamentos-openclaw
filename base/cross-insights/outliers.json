@@ -8,108 +8,108 @@
         "campo": "concreto_m3_m2",
         "valor": 0.8657,
         "tipo": "muito_alto",
-        "causa_provavel": "Possível erro de medição ou projeto com excesso de concreto em relação à área construída."
-      },
-      {
-        "slug": "adore-cacupe",
-        "campo": "forma_m2_m2",
-        "valor": 6.9527,
-        "tipo": "muito_alto",
-        "causa_provavel": "Indica um alto consumo de formas, sugerindo um projeto complexo ou excessivo de elementos verticais."
+        "causa_provavel": "Possível erro de medição ou projeto de estrutura de grande volume não típico."
       },
       {
         "slug": "fg-blue-coast",
-        "campo": "concreto_m3_m2",
-        "valor": 0.6247,
-        "tipo": "muito_alto",
-        "causa_provavel": "Alto volume de concreto, indicando uma estrutura muito massiva ou um erro de cálculo."
-      },
-      {
-        "slug": "fg-blue-coast",
-        "campo": "aco_kg_m3",
+        "campo": "aço_kg_m3",
         "valor": 147.59,
         "tipo": "muito_alto",
-        "causa_provavel": "Excesso de aço, podendo indicar superdimensionamento estrutural ou erro de cálculo."
-      },
-      {
-        "slug": "nova-empreendimentos-domus",
-        "campo": "concreto_m3_m2",
-        "valor": 0.6829,
-        "tipo": "muito_alto",
-        "causa_provavel": "Volume de concreto significativamente acima da média, sugerindo alta densidade estrutural."
+        "causa_provavel": "Alto índice de aço, sugerindo reforço estrutural excessivo ou tipo de elemento não padrão."
       },
       {
         "slug": "nova-empreendimentos-domus",
         "campo": "forma_m2_m2",
         "valor": 6.1865,
         "tipo": "muito_alto",
-        "causa_provavel": "Consumo de formas extremamente alto, indicando um projeto com muitas superfícies verticais ou complexidade elevada."
-      },
-      {
-        "slug": "gdi-playa-negra",
-        "campo": "concreto_m3_m2",
-        "valor": 0.6212,
-        "tipo": "muito_alto",
-        "causa_provavel": "Alto volume de concreto, sugerindo estrutura robusta ou erro de medição."
+        "causa_provavel": "Forma excessiva, indicando elementos estruturais muito grandes ou complexidade não usual."
       },
       {
         "slug": "gdi-playa-negra",
         "campo": "forma_m2_m2",
         "valor": 4.0826,
         "tipo": "muito_alto",
-        "causa_provavel": "Alto consumo de formas, indicando grande área de superfície a ser moldada."
+        "causa_provavel": "Forma excessiva, sugerindo elementos de grande porte ou geometria complexa."
       },
       {
-        "slug": "grupo-duo-colin",
+        "slug": "all-acacias-jk",
         "campo": "concreto_m3_m2",
-        "valor": 0.6346,
+        "valor": 0.5107,
         "tipo": "muito_alto",
-        "causa_provavel": "Volume de concreto elevado, sugerindo estrutura muito pesada ou superdimensionada."
+        "causa_provavel": "Volume de concreto muito alto, fora da faixa residencial típica."
       },
       {
         "slug": "grupo-duo-colin",
         "campo": "forma_m2_m2",
         "valor": 4.886,
         "tipo": "muito_alto",
-        "causa_provavel": "Consumo de formas muito alto, indicando complexidade ou grande área de superfície."
+        "causa_provavel": "Forma excessiva, indicando um sistema estrutural muito robusto ou não residencial."
+      },
+      {
+        "slug": "cota-365",
+        "campo": "aço_kg_m3",
+        "valor": 17.21,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Baixo índice de aço, sugerindo subdimensionamento ou uso de materiais não metálicos."
+      },
+      {
+        "slug": "hacasa-brisa-da-armacao",
+        "campo": "concreto_m3_m2",
+        "valor": 0.0169,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Volume de concreto extremamente baixo, indicando estrutura mínima ou erro de medição."
       },
       {
         "slug": "somauma-virginia",
         "campo": "concreto_m3_m2",
         "valor": 0.0336,
         "tipo": "muito_baixo",
-        "causa_provavel": "Volume de concreto extremamente baixo, podendo indicar erro de medição ou estrutura muito leve."
+        "causa_provavel": "Volume de concreto muito baixo, sugerindo estrutura de fachada ou não estrutural."
       },
       {
         "slug": "somauma-virginia",
         "campo": "forma_m2_m2",
         "valor": 0.0052,
         "tipo": "muito_baixo",
-        "causa_provavel": "Consumo de formas quase nulo, sugerindo pouca ou nenhuma superfície vertical a ser moldada."
+        "causa_provavel": "Forma extremamente baixa, indicando ausência de elementos estruturais de concreto."
+      },
+      {
+        "slug": "chiquetti-e-dalvesco-cielo",
+        "campo": "concreto_m3_m2",
+        "valor": 0.1197,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Volume de concreto abaixo do esperado, podendo indicar estrutura de baixo porte ou erro de medição."
+      },
+      {
+        "slug": "blue-heaven-aquos",
+        "campo": "forma_m2_m2",
+        "valor": 0.4878,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Forma muito baixa, sugerindo elementos estruturais muito pequenos ou não típicos."
+      },
+      {
+        "slug": "blue-heaven-monolyt",
+        "campo": "aço_kg_m3",
+        "valor": 48.21,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Baixo índice de aço, sugerindo subdimensionamento ou uso de reforço mínimo."
       },
       {
         "slug": "homeset-homeset",
         "campo": "forma_m2_m2",
         "valor": 0.0896,
         "tipo": "muito_baixo",
-        "causa_provavel": "Consumo de formas muito baixo, indicando pouca área de superfície vertical."
+        "causa_provavel": "Forma extremamente baixa, indicando ausência de elementos estruturais de concreto."
       },
       {
-        "slug": "hacasa-brisa-da-armacao",
-        "campo": "aco_kg_m3",
-        "valor": 12.5,
+        "slug": "chiquetti-e-dalvesco-cielo",
+        "campo": "aço_kg_m3",
+        "valor": 46.33,
         "tipo": "muito_baixo",
-        "causa_provavel": "Baixíssimo teor de aço, podendo indicar subdimensionamento estrutural ou erro de cálculo."
-      },
-      {
-        "slug": "cota-365",
-        "campo": "aco_kg_m3",
-        "valor": 17.21,
-        "tipo": "muito_baixo",
-        "causa_provavel": "Baixíssimo teor de aço, sugerindo que a estrutura pode estar subdimensionada em relação às cargas esperadas."
+        "causa_provavel": "Baixo índice de aço, sugerindo subdimensionamento ou uso de reforço mínimo."
       }
     ]
   },
-  "raw": "```json\n{\n  \"outliers\": [\n    {\n      \"slug\": \"adore-cacupe\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.8657,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Possível erro de medição ou projeto com excesso de concreto em relação à área construída.\"\n    },\n    {\n      \"slug\": \"adore-cacupe\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 6.9527,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Indica um alto consumo de formas, sugerindo um projeto complexo ou excessivo de elementos verticais.\"\n    },\n    {\n      \"slug\": \"fg-blue-coast\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.6247,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Alto volume de concreto, indicando uma estrutura muito massiva ou um erro de cálculo.\"\n    },\n    {\n      \"slug\": \"fg-blue-coast\",\n      \"campo\": \"aco_kg_m3\",\n      \"valor\": 147.59,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Excesso de aço, podendo indicar superdimensionamento estrutural ou erro de cálculo.\"\n    },\n    {\n      \"slug\": \"nova-empreendimentos-domus\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.6829,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Volume de concreto significativamente acima da média, sugerindo alta densidade estrutural.\"\n    },\n    {\n      \"slug\": \"nova-empreendimentos-domus\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 6.1865,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Consumo de formas extremamente alto, indicando um projeto com muitas superfícies verticais ou complexidade elevada.\"\n    },\n    {\n      \"slug\": \"gdi-playa-negra\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.6212,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Alto volume de concreto, sugerindo estrutura robusta ou erro de medição.\"\n    },\n    {\n      \"slug\": \"gdi-playa-negra\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 4.0826,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Alto consumo de formas, indicando grande área de superfície a ser moldada.\"\n    },\n    {\n      \"slug\": \"grupo-duo-colin\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.6346,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Volume de concreto elevado, sugerindo estrutura muito pesada ou superdimensionada.\"\n    },\n    {\n      \"slug\": \"grupo-duo-colin\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 4.886,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Consumo de formas muito alto, indicando complexidade ou grande área de superfície.\"\n    },\n    {\n      \"slug\": \"somauma-virginia\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.0336,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Volume de concreto extremamente baixo, podendo indicar erro de medição ou estrutura muito leve.\"\n    },\n    {\n      \"slug\": \"somauma-virginia\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 0.0052,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Consumo de formas quase nulo, sugerindo pouca ou nenhuma superfície vertical a ser moldada.\"\n    },\n    {\n      \"slug\": \"homeset-homeset\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 0.0896,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Consumo de formas muito baixo, indicando pouca área de superfície vertical.\"\n    },\n    {\n      \"slug\": \"hacasa-brisa-da-armacao\",\n      \"campo\": \"aco_kg_m3\",\n      \"valor\": 12.5,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Baixíssimo teor de aço, podendo indicar subdimensionamento estrutural ou erro de cálculo.\"\n    },\n    {\n      \"slug\": \"cota-365\",\n      \"campo\": \"aco_kg_m3\",\n      \"valor\": 17.21,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Baixíssimo teor de aço, sugerindo que a estrutura pode estar subdimensionada em relação às cargas esperadas.\"\n    }\n  ]\n}\n```",
-  "duration": 130.20892214775085
+  "raw": "```json\n{\n  \"outliers\": [\n    {\n      \"slug\": \"adore-cacupe\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.8657,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Possível erro de medição ou projeto de estrutura de grande volume não típico.\"\n    },\n    {\n      \"slug\": \"fg-blue-coast\",\n      \"campo\": \"aço_kg_m3\",\n      \"valor\": 147.59,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Alto índice de aço, sugerindo reforço estrutural excessivo ou tipo de elemento não padrão.\"\n    },\n    {\n      \"slug\": \"nova-empreendimentos-domus\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 6.1865,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Forma excessiva, indicando elementos estruturais muito grandes ou complexidade não usual.\"\n    },\n    {\n      \"slug\": \"gdi-playa-negra\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 4.0826,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Forma excessiva, sugerindo elementos de grande porte ou geometria complexa.\"\n    },\n    {\n      \"slug\": \"all-acacias-jk\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.5107,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Volume de concreto muito alto, fora da faixa residencial típica.\"\n    },\n    {\n      \"slug\": \"grupo-duo-colin\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 4.886,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Forma excessiva, indicando um sistema estrutural muito robusto ou não residencial.\"\n    },\n    {\n      \"slug\": \"cota-365\",\n      \"campo\": \"aço_kg_m3\",\n      \"valor\": 17.21,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Baixo índice de aço, sugerindo subdimensionamento ou uso de materiais não metálicos.\"\n    },\n    {\n      \"slug\": \"hacasa-brisa-da-armacao\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.0169,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Volume de concreto extremamente baixo, indicando estrutura mínima ou erro de medição.\"\n    },\n    {\n      \"slug\": \"somauma-virginia\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.0336,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Volume de concreto muito baixo, sugerindo estrutura de fachada ou não estrutural.\"\n    },\n    {\n      \"slug\": \"somauma-virginia\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 0.0052,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Forma extremamente baixa, indicando ausência de elementos estruturais de concreto.\"\n    },\n    {\n      \"slug\": \"chiquetti-e-dalvesco-cielo\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.1197,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Volume de concreto abaixo do esperado, podendo indicar estrutura de baixo porte ou erro de medição.\"\n    },\n    {\n      \"slug\": \"blue-heaven-aquos\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 0.4878,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Forma muito baixa, sugerindo elementos estruturais muito pequenos ou não típicos.\"\n    },\n    {\n      \"slug\": \"blue-heaven-monolyt\",\n      \"campo\": \"aço_kg_m3\",\n      \"valor\": 48.21,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Baixo índice de aço, sugerindo subdimensionamento ou uso de reforço mínimo.\"\n    },\n    {\n      \"slug\": \"homeset-homeset\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 0.0896,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Forma extremamente baixa, indicando ausência de elementos estruturais de concreto.\"\n    },\n    {\n      \"slug\": \"chiquetti-e-dalvesco-cielo\",\n      \"campo\": \"aço_kg_m3\",\n      \"valor\": 46.33,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Baixo índice de aço, sugerindo subdimensionamento ou uso de reforço mínimo.\"\n    }\n  ]\n}\n```",
+  "duration": 144.09031319618225
 }

@@ -164,7 +164,7 @@
     "reboco_pu_m2": null
   },
   "qualitative": {
-    "updated_at": "2026-04-13T01:25:21",
+    "updated_at": "2026-04-13T19:49:24",
     "phase1_extraction": {
       "n_abas": 2,
       "total_itens": 41,
@@ -172,49 +172,110 @@
       "fonte": "scripts/extract_itens_detalhados.py",
       "json_path": "C:/Users/leona/orcamentos-openclaw/base/itens-detalhados/as-ramos-paessaggio.json"
     },
-    "sub_disciplinas": [],
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Gestão",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Piso e Parede Interno",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Estrutural e Infra",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Teto",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Fechamento e Contingência",
+        "itens_exemplo": [
+          "IMPREVISTOS E CONTINGENCIAS",
+          "PÓS OBRA"
+        ]
+      }
+    ],
     "observacoes_orcamentista": [
       {
         "contexto": "observações de orçamentista",
         "observacao": "GERENCIAMENTO ADMINISTRATIVO",
-        "categoria": "outro"
+        "categoria": "justificativa"
       },
       {
         "contexto": "observações de orçamentista",
         "observacao": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
-        "categoria": "outro"
+        "categoria": "justificativa"
       },
       {
         "contexto": "observações de orçamentista",
         "observacao": "SISTEMAS E INSTALAÇÕES ELÉTRICAS",
-        "categoria": "outro"
+        "categoria": "justificativa"
       },
       {
         "contexto": "observações de orçamentista",
         "observacao": "SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM",
-        "categoria": "outro"
+        "categoria": "justificativa"
       },
       {
         "contexto": "observações de orçamentista",
         "observacao": "INSTALAÇÕES PREVENTIVAS E GLP",
-        "categoria": "outro"
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "CLIMATIZAÇÃO, EXAUSTÃO E PRESSURIZAÇÃO",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "IMPERMEABILIZAÇÃO E TRATAMENTOS",
+        "categoria": "justificativa"
       }
     ],
     "padroes_identificados": [
-      "MÃO DE OBRA",
-      "SUPRAESTRUTURA",
-      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
-      "ESQUADRIAS, VIDROS E FERRAGENS",
-      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
-      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
-      "INFRAESTRUTURA"
+      "Valores de IMPREVISTOS E CONTINGENCIAS, PÓS OBRA e REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO são idênticos em ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS."
     ],
     "fora_da_curva": [],
     "phase2_meta": {
       "model": "gemma4:e4b",
-      "ts": "2026-04-12T20:38:24",
-      "duration_s": 56.4,
-      "compact_chars": 1194
+      "ts": "2026-04-13T19:19:39",
+      "duration_s": 91.4,
+      "compact_chars": 2189
     },
     "pdf_metadata": {
       "ac_m2": "16.348,10",
