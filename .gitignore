@@ -53,3 +53,8 @@ __pycache__/
 .env.sensitive
 node_modules/
 memory/
+
+# Downloads/tmp do agent parametrico — xlsx que ele baixa pro workspace
+# durante análise de arquivos do Slack. Não são entregas, ficam locais.
+analise_tmp*.xlsx
+patricia_file*.xlsx
