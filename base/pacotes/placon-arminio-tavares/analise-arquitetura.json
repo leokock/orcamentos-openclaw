@@ -1,0 +1,189 @@
+{
+  "projeto": "placon-arminio-tavares",
+  "pasta": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Projetos_IA\\placon-arminio-tavares",
+  "ts": "2026-04-13T16:46:11",
+  "duracao_s": 28.7,
+  "categorias_detectadas": {},
+  "decisoes_inferidas": {
+    "tem_piscina": false,
+    "piscina_aquecida": false,
+    "tem_ofuro_spa": false,
+    "tem_sauna": false,
+    "tem_academia": false,
+    "tem_quadra": false,
+    "tem_salao_festas": false,
+    "tem_gourmet": false,
+    "tem_churrasqueira": false,
+    "tem_playground": false,
+    "tem_coworking": false,
+    "tem_pet": false,
+    "tem_bicicletario": false,
+    "tem_gerador_dedicado": false,
+    "lazer_generico_mencionado": false
+  },
+  "layers": [
+    {
+      "layer": "ifc",
+      "files_read": 6,
+      "hits": 0,
+      "errors": 0
+    },
+    {
+      "layer": "dxf",
+      "files_read": 0,
+      "hits": 0,
+      "errors": 0
+    },
+    {
+      "layer": "pdf",
+      "files_read": 3,
+      "hits": 0,
+      "errors": 0
+    },
+    {
+      "layer": "filename",
+      "files_read": 0,
+      "hits": 0,
+      "errors": 0
+    }
+  ],
+  "log": [
+    "\n=== Análise arquitetônica: placon-arminio-tavares ===",
+    "  pasta: G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Projetos_IA\\placon-arminio-tavares",
+    "  pasta existe: True",
+    "  [ifc] 7 arquivos IFC válidos (sem OBSOLETOS)",
+    "    OK Ihs_EX_Placon_Armínio Tavares_R00.ifc (0 spaces, 19 storeys)",
+    "    OK PLA_ARM_EST_AP_IFC_REV09.ifc (0 spaces, 23 storeys)",
+    "    OK PLA_ARM_CLI_EX_IFC_R01.ifc (4 spaces, 23 storeys)",
+    "    OK PLA_ARM_ARQ_EX_IFC_PE02.ifc (0 spaces, 22 storeys)",
+    "    OK PLA_ARM_ARQ_EX_IFC_R01.ifc (0 spaces, 22 storeys)",
+    "    OK SAO_PLACON ARMÍNIO_AP_R01.ifc (0 spaces, 22 storeys)",
+    "  [dxf] 0 arquivos DXF",
+    "  [pdf] 3 PDFs relevantes",
+    "    OK Pci_MD_Placon_Armínio Tavares_R00.pdf (0 hits)",
+    "    OK Pci_MD_Placon_Armínio Tavares_R00.pdf (0 hits)",
+    "    OK Memorial descritivo.pdf (0 hits)",
+    "  [filename] 0 hits em nomes de arquivo",
+    "\n  → 0 categorias detectadas em 28.7s"
+  ],
+  "_layers_full": [
+    {
+      "layer": "ifc",
+      "files_read": [
+        {
+          "file": "Ihs_EX_Placon_Armínio Tavares_R00.ifc",
+          "schema": "IFC2X3",
+          "duration": 2.6
+        },
+        {
+          "file": "PLA_ARM_EST_AP_IFC_REV09.ifc",
+          "schema": "IFC4",
+          "duration": 0.6
+        },
+        {
+          "file": "PLA_ARM_CLI_EX_IFC_R01.ifc",
+          "schema": "IFC2X3",
+          "duration": 1.1
+        },
+        {
+          "file": "PLA_ARM_ARQ_EX_IFC_PE02.ifc",
+          "schema": "IFC2X3",
+          "duration": 6.2
+        },
+        {
+          "file": "PLA_ARM_ARQ_EX_IFC_R01.ifc",
+          "schema": "IFC4X3",
+          "duration": 6.6
+        },
+        {
+          "file": "SAO_PLACON ARMÍNIO_AP_R01.ifc",
+          "schema": "IFC2X3",
+          "duration": 5.3
+        }
+      ],
+      "hits": [],
+      "storeys": [
+        "SUBSOLO",
+        "-01 SUBSOLO",
+        "1º PAVIMENTO",
+        "2º PAVIMENTO",
+        "3º PAVIMENTO",
+        "4º PAVIMENTO",
+        "5º PAVIMENTO",
+        "6º PAVIMENTO",
+        "7º PAVIMENTO",
+        "8º PAVIMENTO",
+        "9º PAVIMENTO",
+        "10º PAVIMENTO",
+        "11º  PAVIMENTO",
+        "12º PAVIMENTO",
+        "13º PAVIMENTO",
+        "14º PAVIMENTO",
+        "15º PAVIMENTO",
+        "16º PAVIMENTO",
+        "BARRILETE",
+        "_PROVISÓRIO",
+        "_SUBSOLO",
+        "1PAVTO",
+        "2PAVTO",
+        "3PAVTO",
+        "4PAVTO",
+        "5PAVTO",
+        "6PAVTO",
+        "7PAVTO-TRANS",
+        "8PAVTO",
+        "9PAVTO-TRANS",
+        "10PAVTO",
+        "11PAVTO",
+        "12PAVTO",
+        "13PAVTO",
+        "14PAVTO",
+        "15PAVTO",
+        "16PAVTO",
+        "_BARRILETE",
+        "CASA-MAQUINAS",
+        "RESERVATORIO",
+        "TAMPA-RES",
+        "DUTO",
+        "1 PAV",
+        "CASA DE MÁQUINAS",
+        "RESERVATÓRIO",
+        "COBERTURA",
+        "SUBSOLO BAIXO"
+      ],
+      "errors": []
+    },
+    {
+      "layer": "dxf",
+      "files_read": [],
+      "hits": [],
+      "errors": []
+    },
+    {
+      "layer": "pdf",
+      "files_read": [
+        {
+          "file": "Pci_MD_Placon_Armínio Tavares_R00.pdf",
+          "duration": 0.3,
+          "hits": 0
+        },
+        {
+          "file": "Pci_MD_Placon_Armínio Tavares_R00.pdf",
+          "duration": 0.4,
+          "hits": 0
+        },
+        {
+          "file": "Memorial descritivo.pdf",
+          "duration": 0.4,
+          "hits": 0
+        }
+      ],
+      "hits": [],
+      "errors": []
+    },
+    {
+      "layer": "filename",
+      "hits": []
+    }
+  ]
+}

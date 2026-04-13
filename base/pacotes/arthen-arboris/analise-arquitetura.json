@@ -1,0 +1,421 @@
+{
+  "projeto": "arthen-arboris",
+  "pasta": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Projetos_IA\\arthen-arboris",
+  "ts": "2026-04-13T16:46:27",
+  "duracao_s": 6.5,
+  "categorias_detectadas": {
+    "academia": {
+      "category": "academia",
+      "count": 1,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[academia] 189 ACADEMIA"
+      ]
+    },
+    "pet": {
+      "category": "pet",
+      "count": 3,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[petcare] 390 PETCARE",
+        "[petcare] 20 PETCARE",
+        "[pet place] 389 PET PLACE"
+      ]
+    },
+    "lazer_generico": {
+      "category": "lazer_generico",
+      "count": 1,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[área de lazer] 12 ÁREA DE LAZER COBERTA"
+      ]
+    },
+    "gerador": {
+      "category": "gerador",
+      "count": 2,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[gerador] 41 GERADOR",
+        "[gerador] 414 GERADOR"
+      ]
+    },
+    "coworking": {
+      "category": "coworking",
+      "count": 1,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[coworking] 322 COWORKING"
+      ]
+    },
+    "piscina": {
+      "category": "piscina",
+      "count": 2,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[piscina] 396 PISCINA ADULTO",
+        "[piscina] 397 PISCINA INFANTIL"
+      ]
+    },
+    "salao_gourmet": {
+      "category": "salao_gourmet",
+      "count": 4,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[área gourmet] 402 ÁREA GOURMET 01",
+        "[gourmet] 402 ÁREA GOURMET 01",
+        "[área gourmet] 406 ÁREA GOURMET 02",
+        "[gourmet] 406 ÁREA GOURMET 02"
+      ]
+    },
+    "brinquedoteca": {
+      "category": "brinquedoteca",
+      "count": 1,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[brinquedoteca] 403 BRINQUEDOTECA INCLUSIVA"
+      ]
+    },
+    "sauna": {
+      "category": "sauna",
+      "count": 1,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[sauna] 405 SAUNA"
+      ]
+    },
+    "kids": {
+      "category": "kids",
+      "count": 1,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[fraldario] 407 LAVABO COM FRALDARIO"
+      ]
+    },
+    "ofuro_spa": {
+      "category": "ofuro_spa",
+      "count": 1,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[ spa] 410 SPA"
+      ]
+    },
+    "playground": {
+      "category": "playground",
+      "count": 1,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[playground] 431 PLAYGROUND"
+      ]
+    },
+    "lounge_pub": {
+      "category": "lounge_pub",
+      "count": 1,
+      "sources": [
+        "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc"
+      ],
+      "samples": [
+        "[lounge] 433 LOUNGE"
+      ]
+    }
+  },
+  "decisoes_inferidas": {
+    "tem_piscina": true,
+    "piscina_aquecida": false,
+    "tem_ofuro_spa": true,
+    "tem_sauna": true,
+    "tem_academia": true,
+    "tem_quadra": false,
+    "tem_salao_festas": false,
+    "tem_gourmet": true,
+    "tem_churrasqueira": false,
+    "tem_playground": true,
+    "tem_coworking": true,
+    "tem_pet": true,
+    "tem_bicicletario": false,
+    "tem_gerador_dedicado": true,
+    "lazer_generico_mencionado": true
+  },
+  "layers": [
+    {
+      "layer": "ifc",
+      "files_read": 1,
+      "hits": 20,
+      "errors": 0
+    },
+    {
+      "layer": "dxf",
+      "files_read": 0,
+      "hits": 0,
+      "errors": 0
+    },
+    {
+      "layer": "pdf",
+      "files_read": 1,
+      "hits": 0,
+      "errors": 0
+    },
+    {
+      "layer": "filename",
+      "files_read": 0,
+      "hits": 0,
+      "errors": 0
+    }
+  ],
+  "log": [
+    "\n=== Análise arquitetônica: arthen-arboris ===",
+    "  pasta: G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Projetos_IA\\arthen-arboris",
+    "  pasta existe: True",
+    "  [ifc] 1 arquivos IFC válidos (sem OBSOLETOS)",
+    "    OK CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc (1238 spaces, 515 storeys)",
+    "  [dxf] 0 arquivos DXF",
+    "  [pdf] 1 PDFs relevantes",
+    "    OK RELATÓRIO DE COMPATIBILIZAÇÃO PRELIMINAR COM A ESTRUTURA13-03-2026.pdf (0 hits)",
+    "  [filename] 0 hits em nomes de arquivo",
+    "\n  → 13 categorias detectadas em 6.5s"
+  ],
+  "_layers_full": [
+    {
+      "layer": "ifc",
+      "files_read": [
+        {
+          "file": "CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "schema": "IFC2X3",
+          "duration": 5.5
+        }
+      ],
+      "hits": [
+        {
+          "category": "academia",
+          "keyword": "academia",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "189 ACADEMIA"
+        },
+        {
+          "category": "pet",
+          "keyword": "petcare",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "390 PETCARE"
+        },
+        {
+          "category": "lazer_generico",
+          "keyword": "área de lazer",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "12 ÁREA DE LAZER COBERTA"
+        },
+        {
+          "category": "pet",
+          "keyword": "petcare",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "20 PETCARE"
+        },
+        {
+          "category": "gerador",
+          "keyword": "gerador",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "41 GERADOR"
+        },
+        {
+          "category": "gerador",
+          "keyword": "gerador",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "414 GERADOR"
+        },
+        {
+          "category": "coworking",
+          "keyword": "coworking",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "322 COWORKING"
+        },
+        {
+          "category": "pet",
+          "keyword": "pet place",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "389 PET PLACE"
+        },
+        {
+          "category": "piscina",
+          "keyword": "piscina",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "396 PISCINA ADULTO"
+        },
+        {
+          "category": "piscina",
+          "keyword": "piscina",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "397 PISCINA INFANTIL"
+        },
+        {
+          "category": "salao_gourmet",
+          "keyword": "área gourmet",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "402 ÁREA GOURMET 01"
+        },
+        {
+          "category": "salao_gourmet",
+          "keyword": "gourmet",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "402 ÁREA GOURMET 01"
+        },
+        {
+          "category": "brinquedoteca",
+          "keyword": "brinquedoteca",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "403 BRINQUEDOTECA INCLUSIVA"
+        },
+        {
+          "category": "sauna",
+          "keyword": "sauna",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "405 SAUNA"
+        },
+        {
+          "category": "salao_gourmet",
+          "keyword": "área gourmet",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "406 ÁREA GOURMET 02"
+        },
+        {
+          "category": "salao_gourmet",
+          "keyword": "gourmet",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "406 ÁREA GOURMET 02"
+        },
+        {
+          "category": "kids",
+          "keyword": "fraldario",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "407 LAVABO COM FRALDARIO"
+        },
+        {
+          "category": "ofuro_spa",
+          "keyword": " spa",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "410 SPA"
+        },
+        {
+          "category": "playground",
+          "keyword": "playground",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "431 PLAYGROUND"
+        },
+        {
+          "category": "lounge_pub",
+          "keyword": "lounge",
+          "source": "IFC IfcSpace: CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+          "name": "433 LOUNGE"
+        }
+      ],
+      "storeys": [
+        "RUA",
+        "MEIO FIO",
+        "TÉRREO",
+        "MEZ. DO TÉRREO - G1",
+        "2° PAV - G2",
+        "MEZ. DO 2PAV - G3",
+        "PAV. 3 - TIPO DIF",
+        "PAV. 4 - TIPO",
+        "PAV. 5 - TIPO",
+        "PAV. 6 - TIPO",
+        "PAV. 7 - TIPO",
+        "PAV. 8 - TIPO",
+        "PAV. 9 - TIPO",
+        "PAV. 10 - TIPO",
+        "PAV. 11 - TIPO",
+        "PAV. 12 - TIPO",
+        "PAV 13 - TIPO",
+        "PAV. 14 - TIPO",
+        "PAV. 15- TIPO",
+        "PAV. 16- TIPO",
+        "PAV. 17 - TIPO",
+        "PAV 18 - ROOFTOP",
+        "BASE DO RESERVATÓRIO",
+        "COBERTURA",
+        "TOPO DO RESERVATÓRIO",
+        "PLANTA DE SITUAÇÃO",
+        "PLANTA DE IMPLANTAÇÃO (ITAPEMA LEGAL)",
+        "MEZ. DO TERREO - G1",
+        "2 PAV - G2",
+        "PAV 5 - TIPO",
+        "PAV 6 - TIPO",
+        "PAV 7  - TIPO",
+        "PAV 8 -  TIPO",
+        "PAV 9 -  TIPO",
+        "PAV 10  - TIPO",
+        "PAV 11  - TIPO",
+        "PAV 12 - TIPO",
+        "PAV 14 - TIPO",
+        "PAV 15 - TIPO",
+        "PAV 16 - TIPO",
+        "PAV 17  - TIPO",
+        "PLANTA DE IMPLANTAÇÃO",
+        "PLANTA E SITUAÇÃO",
+        "GARAGEM 1",
+        "GARAGEM 2",
+        "GARAGEM 3",
+        "PAVIMENTO 3",
+        "PAVIMENTO 4",
+        "PAVIMENTO 5-001",
+        "TERREO",
+        "PAVIMENTO 5-003",
+        "PAVIMENTO 5-004",
+        "PAVIMENTO 5-005",
+        "PAVIMENTO 5-006",
+        "PAVIMENTO 5-007",
+        "PAVIMENTO 5-008",
+        "PAVIMENTO 5-009",
+        "PAVIMENTO 5-010",
+        "PAVIMENTO 5-011",
+        "PAVIMENTO 5-012",
+        "PAVIMENTO 5-013",
+        "ROOFTOP"
+      ],
+      "errors": []
+    },
+    {
+      "layer": "dxf",
+      "files_read": [],
+      "hits": [],
+      "errors": []
+    },
+    {
+      "layer": "pdf",
+      "files_read": [
+        {
+          "file": "RELATÓRIO DE COMPATIBILIZAÇÃO PRELIMINAR COM A ESTRUTURA13-03-2026.pdf",
+          "duration": 0.0,
+          "hits": 0
+        }
+      ],
+      "hits": [],
+      "errors": []
+    },
+    {
+      "layer": "filename",
+      "hits": []
+    }
+  ]
+}
