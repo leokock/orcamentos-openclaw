@@ -1,44 +1,62 @@
 {
   "projeto": "chiquetti-e-dalvesco-bela-vida",
   "model": "gemma4:e4b",
-  "ts": "2026-04-12T21:01:49",
-  "compact_chars": 1966,
-  "duration_s": 87.5,
-  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Projetos e Serviços Complementares\",\n      \"sub_disciplina\": \"Projetos de Engenharia\",\n      \"itens_exemplo\": [\n        \"Projeto arquitetônico legal\",\n        \"Projeto complementares: estrutural, elétrico e telecom…\",\n        \"Projeto Impermeabilização\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Mão de Obra e Serviços Especializados\",\n      \"sub_disciplina\": \"Serviços de Gestão\",\n      \"itens_exemplo\": [\n        \"Engenheiro Civil\",\n        \"Gerente de Planejamento Orçamento\",\n        \"Serviços Contabeis\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Segurança e Proteção\",\n      \"sub_disciplina\": \"Proteção Coletiva\",\n      \"itens_exemplo\": [\n        \"Rede de proteção tipo SLQA leve (media)\",\n        \"Mão de Obra Instalações de Proteções Coletivas\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Custo Ajustada Antigo + Atual\",\n      \"observacao\": \"Custo Ajustada Antigo + Atual\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Irrigação\",\n      \"observacao\": \"O custo que estava destinado a Irrigação se refere a Hidro e PPCI na planilha de contratação\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Ajustes de Orçamento\",\n      \"observacao\": \"Ajustado conforme reunião\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Ajustes de Orçamento\",\n      \"observacao\": \"Ajustado conforme Proposta Recebida\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Escopo de Obra\",\n      \"observacao\": \"onde sta cosndierado a escação do SS\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Escopo de Obra\",\n      \"observacao\": \"Onde esta considerado o materila escava da estaca?\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Escopo de Obra\",\n      \"observacao\": \"Cade o lastro de conreto do bloco?\",\n      \"categoria\": \"alerta\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Repetição de projetos complementares (estrutural, elétrico, etc.) no Or Analitico\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"onde sta cosndierado a escação do SS\",\n      \"motivo\": \"Dúvida sobre escopo/consideração de custos\"\n    },\n    {\n      \"item\": \"Onde esta considerado o materila escava da estaca?\",\n      \"motivo\": \"Dúvida sobre escopo/consideração de materiais\"\n    },\n    {\n      \"item\": \"Cade o lastro de conreto do bloco?\",\n      \"motivo\": \"Dúvida sobre escopo/consideração de materiais\"\n    },\n    {\n      \"item\": \"Esse csuto esta considerado o que?\",\n      \"motivo\": \"Dúvida sobre o que o custo engloba\"\n    }\n  ]\n}",
+  "ts": "2026-04-13T19:24:54",
+  "compact_chars": 3301,
+  "duration_s": 124.6,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Fundações\",\n      \"sub_disciplina\": \"Fundação e Terra\",\n      \"itens_exemplo\": [\n        \"Sondagem\",\n        \"Demolições\",\n        \"Remoção de entulhos e resíduos\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Arquitetura\",\n      \"sub_disciplina\": \"Pisos e Paredes\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e MEP\",\n      \"sub_disciplina\": \"Elétrica e Telecom\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n        \"Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, p…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares e Gestão\",\n      \"sub_disciplina\": \"Administrativo e Legal\",\n      \"itens_exemplo\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n        \"ADMINISTRAÇÃO\",\n        \"Assistente Administrativo/Comprador\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Preliminares\",\n      \"sub_disciplina\": \"Projeto e Planejamento\",\n      \"itens_exemplo\": [\n        \"Projeto arquitetônico legal\",\n        \"Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, p…\",\n        \"Placa de obra\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Custo Ajustada Antigo + Atual\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Irrigação\",\n      \"observacao\": \"O custo que estava destinado a Irrigação se refere a Hidro e PPCI na planilha de contratação\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Ajustado conforme reunião\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Ajustado conforme Proposta Recebida\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Prazo\",\n      \"observacao\": \"Ampli janeiro até fim da obra\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Taxa de Administração\",\n      \"observacao\": \"Descontar do Valor da Taxa de Adm\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Previsão de Custo\",\n      \"observacao\": \"Prevision maio a janeiro 1119 e depois 1700\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Documentação\",\n      \"observacao\": \"Opção3 do arquivo de As Built\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Orçamento\",\n      \"observacao\": \"Separar aqui ficar a cordenação\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Fundações\",\n      \"observacao\": \"onde sta cosndierado a escação do SS\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Fundações\",\n      \"observacao\": \"Onde esta considerado o materila escava da estaca?\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Fundações\",\n      \"observacao\": \"Cade o lastro de conreto do bloco?\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Custo\",\n      \"observacao\": \"Esse csuto esta considerado o que?\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"contexto\": \"Ferramentas\",\n      \"observacao\": \"Excluindo ferramentes, consideradas na linha 30\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, p…\",\n    \"Projeto estrutural em concreto armado\",\n    \"Projeto arquitetônico legal\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"onde sta cosndierado a escação do SS\",\n      \"motivo\": \"Alerta\"\n    },\n    {\n      \"item\": \"Onde esta considerado o materila escava da estaca?\",\n      \"motivo\": \"Alerta\"\n    },\n    {\n      \"item\": \"Cade o lastro de conreto do bloco?\",\n      \"motivo\": \"Alerta\"\n    },\n    {\n      \"item\": \"Esse csuto esta considerado o que?\",\n      \"motivo\": \"Alerta\"\n    }\n  ]\n}",
   "parsed": {
     "sub_disciplinas": [
       {
-        "macrogrupo": "Projetos e Serviços Complementares",
-        "sub_disciplina": "Projetos de Engenharia",
+        "macrogrupo": "Estrutura e Fundações",
+        "sub_disciplina": "Fundação e Terra",
+        "itens_exemplo": [
+          "Sondagem",
+          "Demolições",
+          "Remoção de entulhos e resíduos"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Arquitetura",
+        "sub_disciplina": "Pisos e Paredes",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e MEP",
+        "sub_disciplina": "Elétrica e Telecom",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+          "Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, p…"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares e Gestão",
+        "sub_disciplina": "Administrativo e Legal",
+        "itens_exemplo": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+          "ADMINISTRAÇÃO",
+          "Assistente Administrativo/Comprador"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Preliminares",
+        "sub_disciplina": "Projeto e Planejamento",
         "itens_exemplo": [
           "Projeto arquitetônico legal",
-          "Projeto complementares: estrutural, elétrico e telecom…",
-          "Projeto Impermeabilização"
-        ]
-      },
-      {
-        "macrogrupo": "Mão de Obra e Serviços Especializados",
-        "sub_disciplina": "Serviços de Gestão",
-        "itens_exemplo": [
-          "Engenheiro Civil",
-          "Gerente de Planejamento Orçamento",
-          "Serviços Contabeis"
-        ]
-      },
-      {
-        "macrogrupo": "Segurança e Proteção",
-        "sub_disciplina": "Proteção Coletiva",
-        "itens_exemplo": [
-          "Rede de proteção tipo SLQA leve (media)",
-          "Mão de Obra Instalações de Proteções Coletivas"
+          "Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, p…",
+          "Placa de obra"
         ]
       }
     ],
     "observacoes_relevantes": [
       {
-        "contexto": "Custo Ajustada Antigo + Atual",
+        "contexto": "Geral",
         "observacao": "Custo Ajustada Antigo + Atual",
-        "categoria": "revisao"
+        "categoria": "justificativa"
       },
       {
         "contexto": "Irrigação",
@@ -46,51 +64,90 @@
         "categoria": "justificativa"
       },
       {
-        "contexto": "Ajustes de Orçamento",
+        "contexto": "Geral",
         "observacao": "Ajustado conforme reunião",
-        "categoria": "revisao"
+        "categoria": "justificativa"
       },
       {
-        "contexto": "Ajustes de Orçamento",
+        "contexto": "Geral",
         "observacao": "Ajustado conforme Proposta Recebida",
-        "categoria": "revisao"
+        "categoria": "justificativa"
       },
       {
-        "contexto": "Escopo de Obra",
+        "contexto": "Prazo",
+        "observacao": "Ampli janeiro até fim da obra",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Taxa de Administração",
+        "observacao": "Descontar do Valor da Taxa de Adm",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Previsão de Custo",
+        "observacao": "Prevision maio a janeiro 1119 e depois 1700",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Documentação",
+        "observacao": "Opção3 do arquivo de As Built",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Orçamento",
+        "observacao": "Separar aqui ficar a cordenação",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Fundações",
         "observacao": "onde sta cosndierado a escação do SS",
         "categoria": "alerta"
       },
       {
-        "contexto": "Escopo de Obra",
+        "contexto": "Fundações",
         "observacao": "Onde esta considerado o materila escava da estaca?",
         "categoria": "alerta"
       },
       {
-        "contexto": "Escopo de Obra",
+        "contexto": "Fundações",
         "observacao": "Cade o lastro de conreto do bloco?",
         "categoria": "alerta"
+      },
+      {
+        "contexto": "Custo",
+        "observacao": "Esse csuto esta considerado o que?",
+        "categoria": "alerta"
+      },
+      {
+        "contexto": "Ferramentas",
+        "observacao": "Excluindo ferramentes, consideradas na linha 30",
+        "categoria": "justificativa"
       }
     ],
     "padroes_identificados": [
-      "Repetição de projetos complementares (estrutural, elétrico, etc.) no Or Analitico"
+      "Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, p…",
+      "Projeto estrutural em concreto armado",
+      "Projeto arquitetônico legal"
     ],
     "fora_da_curva": [
       {
         "item": "onde sta cosndierado a escação do SS",
-        "motivo": "Dúvida sobre escopo/consideração de custos"
+        "motivo": "Alerta"
       },
       {
         "item": "Onde esta considerado o materila escava da estaca?",
-        "motivo": "Dúvida sobre escopo/consideração de materiais"
+        "motivo": "Alerta"
       },
       {
         "item": "Cade o lastro de conreto do bloco?",
-        "motivo": "Dúvida sobre escopo/consideração de materiais"
+        "motivo": "Alerta"
       },
       {
         "item": "Esse csuto esta considerado o que?",
-        "motivo": "Dúvida sobre o que o custo engloba"
+        "motivo": "Alerta"
       }
     ]
-  }
+  },
+  "phase6_retry": true,
+  "previous_n_subs": 3
 }

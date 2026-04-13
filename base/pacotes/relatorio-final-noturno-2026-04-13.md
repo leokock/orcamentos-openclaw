@@ -85,18 +85,35 @@ _Sessão autônoma completa: tudo do plano + extras (Fases 4, 5, 6 + 3 pacotes r
   - ~13.000 outros (não classificados)
 - Tempo: **75 segundos** total
 
-### 4b. Análise Gemma (`phase4_pipeline.py`)
+### 4c. Análise Gemma (`phase4_pipeline.py`) ✅ CONCLUÍDA
 
-Pra cada um dos 22 projetos, Gemma e4b analisa o compact view dos top 30 itens e responde:
+22/22 projetos analisados em **32 minutos**. Para cada um:
 
 1. **Distribuição estimada** % material / MO / equipamento / outros
 2. **Top 5 insumos críticos** (que afetam mais o orçamento)
 3. **Padrões observados** (insumos repetidos cross-aba)
 4. **Macrogrupos em destaque**
 
-Saída: `base/composicoes/[projeto].json` + `base/composicoes-md/[projeto]-composicoes.md`
+**Estatísticas mediana cross-22-projetos:**
 
-**Status no momento do relatório:** rodando em background (~30 min total estimado, ~95s/projeto)
+| Categoria | Mediana | Média | n |
+|---|---|---|---|
+| Material | **35%** | 43% | 21 |
+| Mão-de-obra | **20%** | 24% | 20 |
+| Equipamento | **8%** | 12% | 12 |
+| Outros | **25%** | 30% | 22 |
+
+**Top 3 carga material:**
+- beco-castelo-chateau-de-versailes (90%)
+- grupo-duo-mosaico (83%)
+- all-lago-di-garda (78%)
+
+**Top 3 carga mão-de-obra:**
+- pavcor (67%)
+- be-brave-meraki (56%)
+- neuhaus-origem (45%)
+
+Saída: `base/composicoes/[projeto].json` + `base/composicoes-md/[projeto]-composicoes.md`
 
 ---
 
@@ -147,16 +164,37 @@ Gemma sugeriu novos índices que poderiam ser calculados (ver `cross-insights/in
 
 ---
 
-## 🔁 PARTE 5 — Fase 6: Retry de Fase 2 (script pronto)
+## 🔁 PARTE 5 — Fase 6: Retry de Fase 2 (CONCLUÍDA)
 
-**21 projetos** identificados com <5 sub_disciplinas (sinal de que o compact view mini não foi suficiente).
+**21 projetos** identificados com <5 sub_disciplinas (sinal de que o compact view mini não foi suficiente). Re-rodados com `render_project_rich()` (~7-8k chars vs 3-4k do mini).
 
-**Solução implementada:**
-- `compact_view.py` ganhou função `render_project_rich()` (~7-8k chars, vs 3-4k do mini)
-- `phase6_retry.py` re-roda Gemma só nesses 21 projetos com a versão rica
-- Sobrescreve apenas se a nova versão tiver MAIS sub-disciplinas
+**Resultado: 19/21 melhorados, 2 sem melhoria, em 32 min total.**
 
-**Status no momento do relatório:** script pronto, aguarda Fase 4c terminar pra não competir com o Gemma local.
+| Projeto | Antes | Depois | Delta |
+|---|---|---|---|
+| **xpcon-porto-cerro** | 3 | **14** | +11 (+367%) |
+| **paludo-urban-life** | 4 | **14** | +10 (+250%) |
+| **neuhaus-botanico** | 4 | **13** | +9 (+225%) |
+| **f-nogueira-soberano** | 3 | **10** | +7 (+233%) |
+| **viva4-barra4** | 4 | **10** | +6 (+150%) |
+| brasin-mario-lago | 0 | 8 | +8 |
+| dimas-pb2 | 4 | 8 | +4 |
+| as-ramos-paessaggio | 0 | 7 | +7 |
+| ck-unique | 4 | 7 | +3 |
+| cota-365 | 4 | 7 | +3 |
+| terrassa-amaro | 4 | 7 | +3 |
+| adore-cacupe | 4 | 9 | +5 |
+| mendes-empreendimentos-brava-mundo | 4 | 7 | +3 |
+| pass-e-celebration | 2 | 6 | +4 |
+| kirchner-kirchner | 4 | 6 | +2 |
+| xpcon-marena | 4 | 6 | +2 |
+| chiquetti-e-dalvesco-bela-vida | 3 | 5 | +2 |
+| cambert-portal-da-brava | 4 | 5 | +1 |
+| nova-empreendimentos-malaga | 3 | 4 | +1 |
+| **mabrem-san-marino** | 3 | 3 | sem melhoria |
+| **mg3-la-vie** | 0 | 0 | sem melhoria (planilha de arquitetura, não orçamento) |
+
+**Total de novas sub-disciplinas adicionadas à base:** ~95 (de ~70 → ~165 nesses 21 projetos).
 
 ---
 

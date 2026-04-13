@@ -1,39 +1,50 @@
 # viva4-barra4 — análise qualitativa Gemma
 
-_Gerado em 2026-04-12T23:16:00 por gemma4:e4b (76.4s)_
+_Gerado em 2026-04-13T19:45:10 por gemma4:e4b (107.2s)_
 
 ## Sub-disciplinas identificadas
-### Estrutura e Fundações
-- **Concreto e Estrutura**
-  - Mão de obra para execução de supraestrutura de concret…
+### Estrutura
+- **Concreto**
   - Concreto Usinado FCK = 35MPa Bombeavel
+  - Concreto Usinado bombeável 35MPa para infraestrutura - incluindo serviço d…
+- **Fundações**
   - Mão de obra para execução de fundação rasa e profunda
+- **Supraestrutura Armada**
+  - Mão de obra para execução de supraestrutura de concreto armado
 
-### Instalações e Serviços Técnicos
-- **Elétrica e Comunicação**
-  - Fios e cabos elétricos
-  - Projeto elétrico/comunicação/telefonia
-  - Projeto elétrico/comunicação/telefonia
+### Acabamentos
+- **Paredes e Revestimentos**
+  - Mão de obra para assentamento de blocos cerâmicos
+  - Mão de obra execução de massa única em paredes interna, incluindo chapisco
+- **Pintura**
+  - Mão de obra para pintura acrílica em paredes internas, 3 demãos
 
-### Acabamentos e Esquadrias
-- **Acabamentos Internos**
-  - Forro de gesso Acartonado (chapa ST)- Material e Mão d…
-  - REVESTIMENTOS INTERNOS DE PISO E PAREDE
+### Instalações Elétricas
+- **Cabos e Condutores**
+  - Cabo Unipolar (cobre) - Isol. XLPE - 0,6/1kV (ref. Prysmian Voltalene Ecol…)
+  - Cabo Unipolar (cobre) - Isol.PVC - 450/750V (ref. Pirastic Ecoplus BWF Fle…
+- **Quadros e Dispositivos**
+  - Quadro distrib. chapa pintada - embutir
+  - Disjuntor Tripolar Termomagnético - norma DIN (Curva C) - 50 A - 10 kA
+  - Interruptor bipolar DR (fase/neutro - In 30mA) - DIN - 40 A
+
+### Serviços Complementares
+- **Mobiliário e Decoração**
   - Mobiliário e decoração
+- **Esquadrias**
+  - Esquadrias de Alumínio Janelas e Portas - fornecimento e instalação
 
-### Projetos e Documentação
-- **Documentação Legal e Projetos**
+### Engenharia e Projetos
+- **Legalização e Licenças**
   - Projeto Arquitetônico Legal
-  - Projeto estrutural
   - Outorga
 
 ## Observações de orçamentista
-- _justificativa_ **Estrutura** — Considerado sapatas, vigas de fundação, e lajes do levantamento de quantitativo de projetos realizados pela C…
-- _premissa_ **Equipamentos/Prazo** — Considerada uma bomba para cada 750m² de laje baldrame, e duração conforme planejamento de 75 dias utéis, arr…
-- _justificativa_ **Escavação** — Considerado empolamento 30% da escavação
+- _alerta_ **Ger_Tec e Adm** — O serviço 'Projeto Arquitetônico Legal' e 'Projeto estrutural' aparecem em múltiplas abas (Ger_Tec e Adm e BASES), indicando possível duplicação ou necessidade de confirmação de escopo.
 
 ## Padrões identificados
-- Projeto Arquitetônico Legal
-- Projeto estrutural
-- Projeto elétrico/comunicação/telefonia
-- Outorga
+- As principais categorias de custo (SUPRAESTRUTURA, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO, INSTALAÇÕES ELÉTRICAS, etc.) mantêm valores e proporções idênticas entre as abas ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS.
+- Serviços de projeto e legalização (Projeto Arquitetônico Legal, Projeto estrutural) são repetidos em diferentes seções orçamentárias (Ger_Tec e Adm e BASES).
+
+## Itens fora-da-curva
+- **Mão de obra | m²** — Item de 'Louças e metais' com quantidade (13223.26 m²) idêntica à área de supraestrutura (13223.26 m²), sugerindo um possível erro de categorização ou escopo.

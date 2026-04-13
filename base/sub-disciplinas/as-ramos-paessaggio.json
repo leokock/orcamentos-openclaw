@@ -1,48 +1,111 @@
 {
   "projeto": "as-ramos-paessaggio",
   "model": "gemma4:e4b",
-  "ts": "2026-04-12T20:38:24",
-  "compact_chars": 1194,
-  "duration_s": 56.4,
-  "raw_response": "{\n  \"sub_disciplinas\": [],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"GERENCIAMENTO ADMINISTRATIVO\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ALVENARIA, VEDAÇÕES E DIVISÓRIAS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"SISTEMAS E INSTALAÇÕES ELÉTRICAS\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"INSTALAÇÕES PREVENTIVAS E GLP\",\n      \"categoria\": \"outro\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"MÃO DE OBRA\",\n    \"SUPRAESTRUTURA\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"INFRAESTRUTURA\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "ts": "2026-04-13T19:19:39",
+  "compact_chars": 2189,
+  "duration_s": 91.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Gestão\",\n      \"sub_disciplina\": \"Superestrutura\",\n      \"itens_exemplo\": [\n        \"SUPRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Revestimentos\",\n      \"sub_disciplina\": \"Fachada\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Revestimentos\",\n      \"sub_disciplina\": \"Piso e Parede Interno\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\",\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Sistemas\",\n      \"sub_disciplina\": \"Elétrica e Hidráulica\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Sistemas\",\n      \"sub_disciplina\": \"Estrutural e Infra\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Revestimentos\",\n      \"sub_disciplina\": \"Teto\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Fechamento e Contingência\",\n      \"itens_exemplo\": [\n        \"IMPREVISTOS E CONTINGENCIAS\",\n        \"PÓS OBRA\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"GERENCIAMENTO ADMINISTRATIVO\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"ALVENARIA, VEDAÇÕES E DIVISÓRIAS\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"SISTEMAS E INSTALAÇÕES ELÉTRICAS\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"INSTALAÇÕES PREVENTIVAS E GLP\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"CLIMATIZAÇÃO, EXAUSTÃO E PRESSURIZAÇÃO\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"observações de orçamentista\",\n      \"observacao\": \"IMPERMEABILIZAÇÃO E TRATAMENTOS\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Valores de IMPREVISTOS E CONTINGENCIAS, PÓS OBRA e REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO são idênticos em ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS.\"\n  ],\n  \"fora_da_curva\": []\n}",
   "parsed": {
-    "sub_disciplinas": [],
+    "sub_disciplinas": [
+      {
+        "macrogrupo": "Estrutura e Gestão",
+        "sub_disciplina": "Superestrutura",
+        "itens_exemplo": [
+          "SUPRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Fachada",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Piso e Parede Interno",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE",
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Elétrica e Hidráulica",
+        "itens_exemplo": [
+          "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Sistemas",
+        "sub_disciplina": "Estrutural e Infra",
+        "itens_exemplo": [
+          "INFRAESTRUTURA"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos e Revestimentos",
+        "sub_disciplina": "Teto",
+        "itens_exemplo": [
+          "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Fechamento e Contingência",
+        "itens_exemplo": [
+          "IMPREVISTOS E CONTINGENCIAS",
+          "PÓS OBRA"
+        ]
+      }
+    ],
     "observacoes_relevantes": [
       {
         "contexto": "observações de orçamentista",
         "observacao": "GERENCIAMENTO ADMINISTRATIVO",
-        "categoria": "outro"
+        "categoria": "justificativa"
       },
       {
         "contexto": "observações de orçamentista",
         "observacao": "ALVENARIA, VEDAÇÕES E DIVISÓRIAS",
-        "categoria": "outro"
+        "categoria": "justificativa"
       },
       {
         "contexto": "observações de orçamentista",
         "observacao": "SISTEMAS E INSTALAÇÕES ELÉTRICAS",
-        "categoria": "outro"
+        "categoria": "justificativa"
       },
       {
         "contexto": "observações de orçamentista",
         "observacao": "SISTEMAS E INSTALAÇÕES HIDROSSANITÁRIAS E DRENAGEM",
-        "categoria": "outro"
+        "categoria": "justificativa"
       },
       {
         "contexto": "observações de orçamentista",
         "observacao": "INSTALAÇÕES PREVENTIVAS E GLP",
-        "categoria": "outro"
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "CLIMATIZAÇÃO, EXAUSTÃO E PRESSURIZAÇÃO",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "observações de orçamentista",
+        "observacao": "IMPERMEABILIZAÇÃO E TRATAMENTOS",
+        "categoria": "justificativa"
       }
     ],
     "padroes_identificados": [
-      "MÃO DE OBRA",
-      "SUPRAESTRUTURA",
-      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
-      "ESQUADRIAS, VIDROS E FERRAGENS",
-      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
-      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
-      "INFRAESTRUTURA"
+      "Valores de IMPREVISTOS E CONTINGENCIAS, PÓS OBRA e REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO são idênticos em ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS."
     ],
     "fora_da_curva": []
-  }
+  },
+  "phase6_retry": true,
+  "previous_n_subs": 0
 }

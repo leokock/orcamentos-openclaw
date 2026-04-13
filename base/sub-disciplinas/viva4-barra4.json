@@ -1,72 +1,107 @@
 {
   "projeto": "viva4-barra4",
   "model": "gemma4:e4b",
-  "ts": "2026-04-12T23:16:00",
-  "compact_chars": 2963,
-  "duration_s": 76.4,
-  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura e Fundações\",\n      \"sub_disciplina\": \"Concreto e Estrutura\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de supraestrutura de concret…\",\n        \"Concreto Usinado FCK = 35MPa Bombeavel\",\n        \"Mão de obra para execução de fundação rasa e profunda\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Serviços Técnicos\",\n      \"sub_disciplina\": \"Elétrica e Comunicação\",\n      \"itens_exemplo\": [\n        \"Fios e cabos elétricos\",\n        \"Projeto elétrico/comunicação/telefonia\",\n        \"Projeto elétrico/comunicação/telefonia\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos e Esquadrias\",\n      \"sub_disciplina\": \"Acabamentos Internos\",\n      \"itens_exemplo\": [\n        \"Forro de gesso Acartonado (chapa ST)- Material e Mão d…\",\n        \"REVESTIMENTOS INTERNOS DE PISO E PAREDE\",\n        \"Mobiliário e decoração\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Projetos e Documentação\",\n      \"sub_disciplina\": \"Documentação Legal e Projetos\",\n      \"itens_exemplo\": [\n        \"Projeto Arquitetônico Legal\",\n        \"Projeto estrutural\",\n        \"Outorga\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Estrutura\",\n      \"observacao\": \"Considerado sapatas, vigas de fundação, e lajes do levantamento de quantitativo de projetos realizados pela C…\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Equipamentos/Prazo\",\n      \"observacao\": \"Considerada uma bomba para cada 750m² de laje baldrame, e duração conforme planejamento de 75 dias utéis, arr…\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"observacao\": \"Considerado empolamento 30% da escavação\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Projeto Arquitetônico Legal\",\n    \"Projeto estrutural\",\n    \"Projeto elétrico/comunicação/telefonia\",\n    \"Outorga\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "ts": "2026-04-13T19:45:10",
+  "compact_chars": 7509,
+  "duration_s": 107.2,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto Usinado FCK = 35MPa Bombeavel\",\n        \"Concreto Usinado bombeável 35MPa para infraestrutura - incluindo serviço d…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Fundações\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de fundação rasa e profunda\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Supraestrutura Armada\",\n      \"itens_exemplo\": [\n        \"Mão de obra para execução de supraestrutura de concreto armado\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Paredes e Revestimentos\",\n      \"itens_exemplo\": [\n        \"Mão de obra para assentamento de blocos cerâmicos\",\n        \"Mão de obra execução de massa única em paredes interna, incluindo chapisco\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pintura\",\n      \"itens_exemplo\": [\n        \"Mão de obra para pintura acrílica em paredes internas, 3 demãos\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações Elétricas\",\n      \"sub_disciplina\": \"Cabos e Condutores\",\n      \"itens_exemplo\": [\n        \"Cabo Unipolar (cobre) - Isol. XLPE - 0,6/1kV (ref. Prysmian Voltalene Ecol…)\",\n        \"Cabo Unipolar (cobre) - Isol.PVC - 450/750V (ref. Pirastic Ecoplus BWF Fle…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações Elétricas\",\n      \"sub_disciplina\": \"Quadros e Dispositivos\",\n      \"itens_exemplo\": [\n        \"Quadro distrib. chapa pintada - embutir\",\n        \"Disjuntor Tripolar Termomagnético - norma DIN (Curva C) - 50 A - 10 kA\",\n        \"Interruptor bipolar DR (fase/neutro - In 30mA) - DIN - 40 A\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Mobiliário e Decoração\",\n      \"itens_exemplo\": [\n        \"Mobiliário e decoração\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Complementares\",\n      \"sub_disciplina\": \"Esquadrias\",\n      \"itens_exemplo\": [\n        \"Esquadrias de Alumínio Janelas e Portas - fornecimento e instalação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Engenharia e Projetos\",\n      \"sub_disciplina\": \"Legalização e Licenças\",\n      \"itens_exemplo\": [\n        \"Projeto Arquitetônico Legal\",\n        \"Outorga\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Ger_Tec e Adm\",\n      \"observacao\": \"O serviço 'Projeto Arquitetônico Legal' e 'Projeto estrutural' aparecem em múltiplas abas (Ger_Tec e Adm e BASES), indicando possível duplicação ou necessidade de confirmação de escopo.\",\n      \"categoria\": \"alerta\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"As principais categorias de custo (SUPRAESTRUTURA, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO, INSTALAÇÕES ELÉTRICAS, etc.) mantêm valores e proporções idênticas entre as abas ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS.\",\n    \"Serviços de projeto e legalização (Projeto Arquitetônico Legal, Projeto estrutural) são repetidos em diferentes seções orçamentárias (Ger_Tec e Adm e BASES).\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Mão de obra | m²\",\n      \"motivo\": \"Item de 'Louças e metais' com quantidade (13223.26 m²) idêntica à área de supraestrutura (13223.26 m²), sugerindo um possível erro de categorização ou escopo.\"\n    }\n  ]\n}",
   "parsed": {
     "sub_disciplinas": [
       {
-        "macrogrupo": "Estrutura e Fundações",
-        "sub_disciplina": "Concreto e Estrutura",
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Concreto",
         "itens_exemplo": [
-          "Mão de obra para execução de supraestrutura de concret…",
           "Concreto Usinado FCK = 35MPa Bombeavel",
+          "Concreto Usinado bombeável 35MPa para infraestrutura - incluindo serviço d…"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Fundações",
+        "itens_exemplo": [
           "Mão de obra para execução de fundação rasa e profunda"
         ]
       },
       {
-        "macrogrupo": "Instalações e Serviços Técnicos",
-        "sub_disciplina": "Elétrica e Comunicação",
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Supraestrutura Armada",
         "itens_exemplo": [
-          "Fios e cabos elétricos",
-          "Projeto elétrico/comunicação/telefonia",
-          "Projeto elétrico/comunicação/telefonia"
+          "Mão de obra para execução de supraestrutura de concreto armado"
         ]
       },
       {
-        "macrogrupo": "Acabamentos e Esquadrias",
-        "sub_disciplina": "Acabamentos Internos",
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Paredes e Revestimentos",
         "itens_exemplo": [
-          "Forro de gesso Acartonado (chapa ST)- Material e Mão d…",
-          "REVESTIMENTOS INTERNOS DE PISO E PAREDE",
+          "Mão de obra para assentamento de blocos cerâmicos",
+          "Mão de obra execução de massa única em paredes interna, incluindo chapisco"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pintura",
+        "itens_exemplo": [
+          "Mão de obra para pintura acrílica em paredes internas, 3 demãos"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações Elétricas",
+        "sub_disciplina": "Cabos e Condutores",
+        "itens_exemplo": [
+          "Cabo Unipolar (cobre) - Isol. XLPE - 0,6/1kV (ref. Prysmian Voltalene Ecol…)",
+          "Cabo Unipolar (cobre) - Isol.PVC - 450/750V (ref. Pirastic Ecoplus BWF Fle…"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações Elétricas",
+        "sub_disciplina": "Quadros e Dispositivos",
+        "itens_exemplo": [
+          "Quadro distrib. chapa pintada - embutir",
+          "Disjuntor Tripolar Termomagnético - norma DIN (Curva C) - 50 A - 10 kA",
+          "Interruptor bipolar DR (fase/neutro - In 30mA) - DIN - 40 A"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Mobiliário e Decoração",
+        "itens_exemplo": [
           "Mobiliário e decoração"
         ]
       },
       {
-        "macrogrupo": "Projetos e Documentação",
-        "sub_disciplina": "Documentação Legal e Projetos",
+        "macrogrupo": "Serviços Complementares",
+        "sub_disciplina": "Esquadrias",
+        "itens_exemplo": [
+          "Esquadrias de Alumínio Janelas e Portas - fornecimento e instalação"
+        ]
+      },
+      {
+        "macrogrupo": "Engenharia e Projetos",
+        "sub_disciplina": "Legalização e Licenças",
         "itens_exemplo": [
           "Projeto Arquitetônico Legal",
-          "Projeto estrutural",
           "Outorga"
         ]
       }
     ],
     "observacoes_relevantes": [
       {
-        "contexto": "Estrutura",
-        "observacao": "Considerado sapatas, vigas de fundação, e lajes do levantamento de quantitativo de projetos realizados pela C…",
-        "categoria": "justificativa"
-      },
-      {
-        "contexto": "Equipamentos/Prazo",
-        "observacao": "Considerada uma bomba para cada 750m² de laje baldrame, e duração conforme planejamento de 75 dias utéis, arr…",
-        "categoria": "premissa"
-      },
-      {
-        "contexto": "Escavação",
-        "observacao": "Considerado empolamento 30% da escavação",
-        "categoria": "justificativa"
+        "contexto": "Ger_Tec e Adm",
+        "observacao": "O serviço 'Projeto Arquitetônico Legal' e 'Projeto estrutural' aparecem em múltiplas abas (Ger_Tec e Adm e BASES), indicando possível duplicação ou necessidade de confirmação de escopo.",
+        "categoria": "alerta"
       }
     ],
     "padroes_identificados": [
-      "Projeto Arquitetônico Legal",
-      "Projeto estrutural",
-      "Projeto elétrico/comunicação/telefonia",
-      "Outorga"
+      "As principais categorias de custo (SUPRAESTRUTURA, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO, INSTALAÇÕES ELÉTRICAS, etc.) mantêm valores e proporções idênticas entre as abas ORÇAMENTO_EXECUTIVO e AREAS PRIVATIVAS.",
+      "Serviços de projeto e legalização (Projeto Arquitetônico Legal, Projeto estrutural) são repetidos em diferentes seções orçamentárias (Ger_Tec e Adm e BASES)."
     ],
-    "fora_da_curva": []
-  }
+    "fora_da_curva": [
+      {
+        "item": "Mão de obra | m²",
+        "motivo": "Item de 'Louças e metais' com quantidade (13223.26 m²) idêntica à área de supraestrutura (13223.26 m²), sugerindo um possível erro de categorização ou escopo."
+      }
+    ]
+  },
+  "phase6_retry": true,
+  "previous_n_subs": 4
 }

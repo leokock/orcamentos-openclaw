@@ -1,79 +1,161 @@
 {
   "projeto": "adore-cacupe",
   "model": "gemma4:e4b",
-  "ts": "2026-04-12T20:25:59",
-  "compact_chars": 3711,
-  "duration_s": 99.1,
-  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Mão de obra e Armadura\",\n      \"itens_exemplo\": [\n        \"Mão de obra supraestrutura\",\n        \"Armadura Convencional para Estrutura\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Concreto\",\n      \"sub_disciplina\": \"Tipos de Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto 30MPa\",\n        \"Concreto 40MPa\",\n        \"Concreto\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamento\",\n      \"sub_disciplina\": \"Pintura e Reboco\",\n      \"itens_exemplo\": [\n        \"Pintura parede (selador + massa + pintura)\",\n        \"Massa unica para reboco interno em argamassa estabiliz…\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Alvenaria\",\n      \"sub_disciplina\": \"Tipos de Parede\",\n      \"itens_exemplo\": [\n        \"Drywall tipo\",\n        \"Alvenaria tipo\",\n        \"Alvenaria escadas\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Informado no formulário que não haverá contrapiso acústico\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Valor pedido pelo cliente para ser retirado dos indiretos e colocado no nos itens de supra\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Valor proporcional aberto na aba MO\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Geral\",\n      \"observacao\": \"Considerado conforme estimativa de custos Level Up.\",\n      \"categoria\": \"justificativa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Mão de obra supraestrutura\",\n    \"Armadura Convencional para Estrutura\",\n    \"Esquadria em alumínio - Fornecimento e Instalação*\",\n    \"Concreto 30MPa\",\n    \"Pintura parede (selador + massa + pintura)\",\n    \"Massa unica para reboco interno em argamassa estabiliz…\",\n    \"Imprevistos e Contingências\",\n    \"Porcelanato\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "ts": "2026-04-13T19:18:08",
+  "compact_chars": 7435,
+  "duration_s": 127.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Concreto 30MPa\",\n        \"Concreto\",\n        \"Concreto (40 Mpa)\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Armadura\",\n      \"itens_exemplo\": [\n        \"Armadura Convencional para Estrutura\",\n        \"Armação\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura\",\n      \"sub_disciplina\": \"Forma e Escoramento\",\n      \"itens_exemplo\": [\n        \"Fabricação forma\",\n        \"Montagem de forma\",\n        \"Escoramento\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Alvenaria\",\n      \"sub_disciplina\": \"Tipos de Parede\",\n      \"itens_exemplo\": [\n        \"Alvenaria com blocos cerâmicos com argamassa usinada para assentamento\",\n        \"Alvenaria tipo\",\n        \"Alvenaria embasamento\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Pisos e Revestimentos\",\n      \"itens_exemplo\": [\n        \"Porcelanato\",\n        \"Pintura parede (selador + massa + pintura)\",\n        \"Massa unica para reboco interno em argamassa estabilizada\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Esquadrias e Vidros\",\n      \"itens_exemplo\": [\n        \"Esquadria em alumínio - Fornecimento e Instalação*\",\n        \"Guarda-corpo - vidro\",\n        \"Brise de aluminio\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Serviços Gerais\",\n      \"sub_disciplina\": \"Mão de Obra e Decoração\",\n      \"itens_exemplo\": [\n        \"Mão de obra supraestrutura\",\n        \"Móveis e decoração\",\n        \"Mão de obra infraestrutura\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Fundação e Infraestrutura\",\n      \"sub_disciplina\": \"Estacas e Base\",\n      \"itens_exemplo\": [\n        \"Estaca Hélice Continua Diâmetro 50\",\n        \"Estaca Hélice Continua Diâmetro 60\",\n        \"Apoio e arrasamento de estacas\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Instalações e Serviços\",\n      \"sub_disciplina\": \"Hidráulica e Elétrica\",\n      \"itens_exemplo\": [\n        \"Mão de ObraInstalações Hidráulicas\",\n        \"Mão de obra vedações\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"Formulário/Escopo\",\n      \"observacao\": \"Informado no formulário que não haverá contrapiso acústico\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Cliente/Escopo\",\n      \"observacao\": \"Valor repassado por cliente anteriormente relacionado a obra, conforme aba MO\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Cliente/Escopo\",\n      \"observacao\": \"Valor pedido pelo cliente para ser retirado dos indiretos e colocado no nos itens de supra\",\n      \"categoria\": \"revisao\"\n    },\n    {\n      \"contexto\": \"Técnica/Estimativa\",\n      \"observacao\": \"Considerado conforme estimativa de custos Level Up.\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"contexto\": \"Serviço Específico\",\n      \"observacao\": \"Valor repassado pelo cliente instalação hidraulica - incendio\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Serviço Específico\",\n      \"observacao\": \"Valor repassado pelo cliente instalação eletrica - spda\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"contexto\": \"Material\",\n      \"observacao\": \"valor material do ingleses\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Produto/Referência\",\n      \"observacao\": \"Coeficiente originário do Gran Torino (R$ 160,00/un)\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Serviço/Ajuste\",\n      \"observacao\": \"Nova utiliza a verba de 1.500,00 por pav\",\n      \"categoria\": \"outro\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"observacao\": \"Não tem fundação profunda\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Esquadria em alumínio - Fornecimento e Instalação*\",\n    \"Mão de obra supraestrutura\",\n    \"Armadura Convencional para Estrutura\",\n    \"Imprevistos e Contingências\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Mão de obra supraestrutura\",\n      \"motivo\": \"O valor de R$1.609.964 (OPÇÃO) é significativamente menor que os valores apresentados nas demais opções (R$3.264.200).\"\n    },\n    {\n      \"item\": \"Mão de obra infraestrutura\",\n      \"motivo\": \"O valor de R$616.448 (OPÇÃO) é significativamente menor que os valores apresentados nas demais opções (R$1.130.768).\"\n    }\n  ]\n}",
   "parsed": {
     "sub_disciplinas": [
       {
         "macrogrupo": "Estrutura",
-        "sub_disciplina": "Mão de obra e Armadura",
-        "itens_exemplo": [
-          "Mão de obra supraestrutura",
-          "Armadura Convencional para Estrutura"
-        ]
-      },
-      {
-        "macrogrupo": "Concreto",
-        "sub_disciplina": "Tipos de Concreto",
+        "sub_disciplina": "Concreto",
         "itens_exemplo": [
           "Concreto 30MPa",
-          "Concreto 40MPa",
-          "Concreto"
+          "Concreto",
+          "Concreto (40 Mpa)"
         ]
       },
       {
-        "macrogrupo": "Acabamento",
-        "sub_disciplina": "Pintura e Reboco",
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Armadura",
         "itens_exemplo": [
-          "Pintura parede (selador + massa + pintura)",
-          "Massa unica para reboco interno em argamassa estabiliz…"
+          "Armadura Convencional para Estrutura",
+          "Armação"
+        ]
+      },
+      {
+        "macrogrupo": "Estrutura",
+        "sub_disciplina": "Forma e Escoramento",
+        "itens_exemplo": [
+          "Fabricação forma",
+          "Montagem de forma",
+          "Escoramento"
         ]
       },
       {
         "macrogrupo": "Alvenaria",
         "sub_disciplina": "Tipos de Parede",
         "itens_exemplo": [
-          "Drywall tipo",
+          "Alvenaria com blocos cerâmicos com argamassa usinada para assentamento",
           "Alvenaria tipo",
-          "Alvenaria escadas"
+          "Alvenaria embasamento"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Pisos e Revestimentos",
+        "itens_exemplo": [
+          "Porcelanato",
+          "Pintura parede (selador + massa + pintura)",
+          "Massa unica para reboco interno em argamassa estabilizada"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamentos",
+        "sub_disciplina": "Esquadrias e Vidros",
+        "itens_exemplo": [
+          "Esquadria em alumínio - Fornecimento e Instalação*",
+          "Guarda-corpo - vidro",
+          "Brise de aluminio"
+        ]
+      },
+      {
+        "macrogrupo": "Serviços Gerais",
+        "sub_disciplina": "Mão de Obra e Decoração",
+        "itens_exemplo": [
+          "Mão de obra supraestrutura",
+          "Móveis e decoração",
+          "Mão de obra infraestrutura"
+        ]
+      },
+      {
+        "macrogrupo": "Fundação e Infraestrutura",
+        "sub_disciplina": "Estacas e Base",
+        "itens_exemplo": [
+          "Estaca Hélice Continua Diâmetro 50",
+          "Estaca Hélice Continua Diâmetro 60",
+          "Apoio e arrasamento de estacas"
+        ]
+      },
+      {
+        "macrogrupo": "Instalações e Serviços",
+        "sub_disciplina": "Hidráulica e Elétrica",
+        "itens_exemplo": [
+          "Mão de ObraInstalações Hidráulicas",
+          "Mão de obra vedações"
         ]
       }
     ],
     "observacoes_relevantes": [
       {
-        "contexto": "Geral",
+        "contexto": "Formulário/Escopo",
         "observacao": "Informado no formulário que não haverá contrapiso acústico",
+        "categoria": "justificativa"
+      },
+      {
+        "contexto": "Cliente/Escopo",
+        "observacao": "Valor repassado por cliente anteriormente relacionado a obra, conforme aba MO",
         "categoria": "premissa"
       },
       {
-        "contexto": "Geral",
+        "contexto": "Cliente/Escopo",
         "observacao": "Valor pedido pelo cliente para ser retirado dos indiretos e colocado no nos itens de supra",
         "categoria": "revisao"
       },
       {
-        "contexto": "Geral",
-        "observacao": "Valor proporcional aberto na aba MO",
+        "contexto": "Técnica/Estimativa",
+        "observacao": "Considerado conforme estimativa de custos Level Up.",
         "categoria": "justificativa"
       },
       {
-        "contexto": "Geral",
-        "observacao": "Considerado conforme estimativa de custos Level Up.",
-        "categoria": "justificativa"
+        "contexto": "Serviço Específico",
+        "observacao": "Valor repassado pelo cliente instalação hidraulica - incendio",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Serviço Específico",
+        "observacao": "Valor repassado pelo cliente instalação eletrica - spda",
+        "categoria": "premissa"
+      },
+      {
+        "contexto": "Material",
+        "observacao": "valor material do ingleses",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Produto/Referência",
+        "observacao": "Coeficiente originário do Gran Torino (R$ 160,00/un)",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Serviço/Ajuste",
+        "observacao": "Nova utiliza a verba de 1.500,00 por pav",
+        "categoria": "outro"
+      },
+      {
+        "contexto": "Fundação",
+        "observacao": "Não tem fundação profunda",
+        "categoria": "premissa"
       }
     ],
     "padroes_identificados": [
+      "Esquadria em alumínio - Fornecimento e Instalação*",
       "Mão de obra supraestrutura",
       "Armadura Convencional para Estrutura",
-      "Esquadria em alumínio - Fornecimento e Instalação*",
-      "Concreto 30MPa",
-      "Pintura parede (selador + massa + pintura)",
-      "Massa unica para reboco interno em argamassa estabiliz…",
-      "Imprevistos e Contingências",
-      "Porcelanato"
+      "Imprevistos e Contingências"
     ],
-    "fora_da_curva": []
-  }
+    "fora_da_curva": [
+      {
+        "item": "Mão de obra supraestrutura",
+        "motivo": "O valor de R$1.609.964 (OPÇÃO) é significativamente menor que os valores apresentados nas demais opções (R$3.264.200)."
+      },
+      {
+        "item": "Mão de obra infraestrutura",
+        "motivo": "O valor de R$616.448 (OPÇÃO) é significativamente menor que os valores apresentados nas demais opções (R$1.130.768)."
+      }
+    ]
+  },
+  "phase6_retry": true,
+  "previous_n_subs": 4
 }

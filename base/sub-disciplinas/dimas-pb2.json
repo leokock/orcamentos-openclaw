@@ -1,54 +1,73 @@
 {
   "projeto": "dimas-pb2",
   "model": "gemma4:e4b",
-  "ts": "2026-04-12T21:28:16",
-  "compact_chars": 487,
-  "duration_s": 80.1,
-  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"Estrutura\",\n      \"itens_exemplo\": [\n        \"ESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"Sistemas\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"Acabamentos e Fachada\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\",\n        \"PINTURA INTERNA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ORÇAMENTO_EXECUTIVO\",\n      \"sub_disciplina\": \"Infraestrutura Geral\",\n      \"itens_exemplo\": [\n        \"INFRAESTRUTURA\",\n        \"SERVIÇOS COMPLEMENTARES\",\n        \"DESPESAS INDIRETAS\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [\n    {\n      \"contexto\": \"AC=21215.27m²\",\n      \"observacao\": \"UR=?\",\n      \"categoria\": \"premissa\"\n    }\n  ],\n  \"padroes_identificados\": [\n    \"Estrutura de custos por Unidade de Preço (pu) e Valor Total (R$)\"\n  ],\n  \"fora_da_curva\": []\n}",
+  "ts": "2026-04-13T19:29:12",
+  "compact_chars": 922,
+  "duration_s": 71.4,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"ESTRUTURA\",\n      \"sub_disciplina\": \"ESTRUTURA\",\n      \"itens_exemplo\": [\n        \"ESTRUTURA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ACABAMENTOS\",\n      \"sub_disciplina\": \"PISO E PAREDE\",\n      \"itens_exemplo\": [\n        \"ACABAMENTOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ACABAMENTOS\",\n      \"sub_disciplina\": \"REVESTIMENTOS\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ACABAMENTOS\",\n      \"sub_disciplina\": \"PINTURA\",\n      \"itens_exemplo\": [\n        \"PINTURA INTERNA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"INSTALAÇÕES\",\n      \"sub_disciplina\": \"ELÉTRICAS E HIDRÁULICAS\",\n      \"itens_exemplo\": [\n        \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ENVOLVIMENTO\",\n      \"sub_disciplina\": \"ESQUADRIAS E VIDROS\",\n      \"itens_exemplo\": [\n        \"ESQUADRIAS, VIDROS E FERRAGENS\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"FACHADA\",\n      \"sub_disciplina\": \"REVESTIMENTOS EXTERNOS\",\n      \"itens_exemplo\": [\n        \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"ALVENARIA E INFRAESTRUTURA\",\n      \"sub_disciplina\": \"ALVENARIA\",\n      \"itens_exemplo\": [\n        \"ALVENARIA\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [],\n  \"fora_da_curva\": []\n}",
   "parsed": {
     "sub_disciplinas": [
       {
-        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
-        "sub_disciplina": "Estrutura",
+        "macrogrupo": "ESTRUTURA",
+        "sub_disciplina": "ESTRUTURA",
         "itens_exemplo": [
           "ESTRUTURA"
         ]
       },
       {
-        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
-        "sub_disciplina": "Sistemas",
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "PISO E PAREDE",
+        "itens_exemplo": [
+          "ACABAMENTOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "REVESTIMENTOS",
+        "itens_exemplo": [
+          "REVESTIMENTOS INTERNOS EM PISO E PAREDE"
+        ]
+      },
+      {
+        "macrogrupo": "ACABAMENTOS",
+        "sub_disciplina": "PINTURA",
+        "itens_exemplo": [
+          "PINTURA INTERNA"
+        ]
+      },
+      {
+        "macrogrupo": "INSTALAÇÕES",
+        "sub_disciplina": "ELÉTRICAS E HIDRÁULICAS",
         "itens_exemplo": [
           "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
         ]
       },
       {
-        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
-        "sub_disciplina": "Acabamentos e Fachada",
+        "macrogrupo": "ENVOLVIMENTO",
+        "sub_disciplina": "ESQUADRIAS E VIDROS",
         "itens_exemplo": [
-          "ESQUADRIAS, VIDROS E FERRAGENS",
-          "PINTURA INTERNA"
+          "ESQUADRIAS, VIDROS E FERRAGENS"
         ]
       },
       {
-        "macrogrupo": "ORÇAMENTO_EXECUTIVO",
-        "sub_disciplina": "Infraestrutura Geral",
+        "macrogrupo": "FACHADA",
+        "sub_disciplina": "REVESTIMENTOS EXTERNOS",
         "itens_exemplo": [
-          "INFRAESTRUTURA",
-          "SERVIÇOS COMPLEMENTARES",
-          "DESPESAS INDIRETAS"
+          "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+        ]
+      },
+      {
+        "macrogrupo": "ALVENARIA E INFRAESTRUTURA",
+        "sub_disciplina": "ALVENARIA",
+        "itens_exemplo": [
+          "ALVENARIA"
         ]
       }
     ],
-    "observacoes_relevantes": [
-      {
-        "contexto": "AC=21215.27m²",
-        "observacao": "UR=?",
-        "categoria": "premissa"
-      }
-    ],
-    "padroes_identificados": [
-      "Estrutura de custos por Unidade de Preço (pu) e Valor Total (R$)"
-    ],
+    "observacoes_relevantes": [],
+    "padroes_identificados": [],
     "fora_da_curva": []
-  }
+  },
+  "phase6_retry": true,
+  "previous_n_subs": 4
 }

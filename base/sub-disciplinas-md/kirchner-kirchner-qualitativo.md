@@ -1,41 +1,48 @@
 # kirchner-kirchner — análise qualitativa Gemma
 
-_Gerado em 2026-04-12T22:06:05 por gemma4:e4b (92.4s)_
+_Gerado em 2026-04-13T19:32:11 por gemma4:e4b (95.7s)_
 
 ## Sub-disciplinas identificadas
 ### Instalações Elétricas
-- **Cabos e Eletrodutos**
+- **Cabos e Fios**
   - CABO 2.5mm² FLEXÍVEL (750V) AZUL
   - CABO 2.5mm² FLEXÍVEL (750V) VERDE
-  - ELETRODUTO CORRUGADO ¾"
+  - CABO 2.5mm² FLEXÍVEL (750V) VERMELHO
 
 ### Instalações Hidráulicas
-- **Registros e Conexões**
-  - Misturador monocomando 3/4"
-  - Registro de Gaveta 3/4"
-  - Registro de Pressão 3/4"
+- **Tubulações CPVC/PPR**
+  - Tubo CPVC rígido, cor branca
+  - Conector Aquatherm® 22 x 3/4'', CPVC, Água Quente - TIGRE
+  - Tubo de PPR PN20
 
-### Acabamentos e Mobiliário
-- **Elementos Fixos**
-  - Mobiliário para área comum (COMPOSIÇÃO)
-  - Esquadrias de Alumínio - Fornecimento e mão de obra
-  - Louças, metais e acessórios (COMPOSIÇÃO)
+### Instalações Esgoto/Pluvial
+- **Tubos e Conexões PVC**
+  - Tubo de PVC Rígido Branco, conforme NBR5688, Linha Série Normal
+  - Luva Simples, DN100mm, de PVC Rígido Série R (Reforçada), conforme NBR 5688
+  - Caixa Sifonada Montada com Grelha e Porta Grelha Quadrados Brancos 150x150…
+
+### Acabamentos e Louças
+- **Louças e Metais**
+  - Bacia Sanitária de louça com caixa acoplada
+  - Torneira para lavatório
+  - Ducha
 
 ### Serviços de Obra
-- **Serviços Finais**
-  - LIMPEZA FINAL DA OBRA
-  - DESMOBILIZAÇÃO E MOBILIZAÇÃO
-  - PAISAGISMO
+- **Limpeza e Desmobilização**
+  - Limpeza final da obra
+  - Desmobilização de pessoal, máquinas e eq (+)
+  - Desmobilização e mobilização
+
+### Projetos e Consultoria
+- **Documentação Técnica**
+  - Projeto Arquitetônico (COMPOSIÇÃO)
+  - Projeto Estrutural (COMPOSIÇÃO)
+  - Projeto Interiores/ Ambientação
 
 ## Observações de orçamentista
-- _revisao_ **Aço e Arame Recozido** — Alterados preços de aço e arame recozido de acordo com valores passados pela Kirchner
-- _justificativa_ **Concreto** — Alterado valor de concreto para R$500 + R$40 bombeamento, considerando o desperdício na composição
-- _revisao_ **Madeirite Plastificado** — Valor do madeirite plastificado 1,10x2,20m alterado para R$118, conforme passado pela Kircnher
-- _premissa_ **Formas** — Considerado 14 utilizações das formas, como são 20 pavimentos, para o cálculo da fabricação das formas: soma …
-- _outro_ **Custos Indiretos** — Formulário de custos indiretos
-- _outro_ **Orçamento Geral** — Valor estimado por índices históricos
+- _justificativa_ **ELÉTRICA** — CABO 1.5mm² FLEXÍVEL (750V) RETORNOS - Dividir m total em 1/5 BRANCO, 1/5 …
 
 ## Padrões identificados
-- Muitos itens de composição utilizam a sigla 'vb' (verba básica)
-- Serviços complementares (Limpeza, Desmobilização, Ligações) possuem valores unitários idênticos (R$15)
-- O termo (COMPOSIÇÃO) é usado repetidamente para agrupar custos de alto valor
+- Limpeza final da obra (presente em CUSTOS DIRETOS e SERVIÇOS COMPLEMENTARES)
+- Ligações definitivas (presente em CUSTOS DIRETOS e SERVIÇOS COMPLEMENTARES)
+- Uso de 'COMPOSIÇÃO' como tipo de item em custos indiretos

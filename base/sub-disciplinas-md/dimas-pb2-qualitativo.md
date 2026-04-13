@@ -1,23 +1,32 @@
 # dimas-pb2 — análise qualitativa Gemma
 
-_Gerado em 2026-04-12T21:28:16 por gemma4:e4b (80.1s)_
+_Gerado em 2026-04-13T19:29:12 por gemma4:e4b (71.4s)_
 
 ## Sub-disciplinas identificadas
-### ORÇAMENTO_EXECUTIVO
-- **Estrutura**
+### ESTRUTURA
+- **ESTRUTURA**
   - ESTRUTURA
-- **Sistemas**
-  - INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS
-- **Acabamentos e Fachada**
-  - ESQUADRIAS, VIDROS E FERRAGENS
+
+### ACABAMENTOS
+- **PISO E PAREDE**
+  - ACABAMENTOS EM PISO E PAREDE
+- **REVESTIMENTOS**
+  - REVESTIMENTOS INTERNOS EM PISO E PAREDE
+- **PINTURA**
   - PINTURA INTERNA
-- **Infraestrutura Geral**
-  - INFRAESTRUTURA
-  - SERVIÇOS COMPLEMENTARES
-  - DESPESAS INDIRETAS
 
-## Observações de orçamentista
-- _premissa_ **AC=21215.27m²** — UR=?
+### INSTALAÇÕES
+- **ELÉTRICAS E HIDRÁULICAS**
+  - INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS
 
-## Padrões identificados
-- Estrutura de custos por Unidade de Preço (pu) e Valor Total (R$)
+### ENVOLVIMENTO
+- **ESQUADRIAS E VIDROS**
+  - ESQUADRIAS, VIDROS E FERRAGENS
+
+### FACHADA
+- **REVESTIMENTOS EXTERNOS**
+  - REVESTIMENTOS E ACABAMENTOS DE FACHADA
+
+### ALVENARIA E INFRAESTRUTURA
+- **ALVENARIA**
+  - ALVENARIA

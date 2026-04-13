@@ -1,37 +1,36 @@
 # xpcon-marena — análise qualitativa Gemma
 
-_Gerado em 2026-04-12T23:21:18 por gemma4:e4b (85.7s)_
+_Gerado em 2026-04-13T19:46:40 por gemma4:e4b (89.4s)_
 
 ## Sub-disciplinas identificadas
-### Estrutura
-- **Fundação e Estacas**
-  - Concreto Usinado bombeável para estacas 40MPa
-  - Perfuração de estaca hélice contínua Ø 60cm
-  - Locação de Escoramento Metálico
+### Estrutura e Fundação
+- **Concreto Usinado**
+  - Concreto Usinado bombeável para estacas 40MPa - incluindo serviço de bomb…
+  - Concreto Usinado FCK = 35MPa Bombeavel
+  - Concreto Usinado bombeável 35MPa para infraestrutura - incluindo serviço d…
 
-### Acabamentos e Esquadrias
-- **Esquadrias**
-  - Esquadrias de Alumínio - fornecimento e instalação
-  - Mobiliário e decoração
+### Instalações Elétricas e Automação
+- **Automação**
+  - AUTOMAÇÃO - Persiana Motorizada
+- **Cabeamento e Eletrodutos**
+  - PEAD - Polietileno de Alta Densidade - 1.1/2"
+  - PEAD - Polietileno de Alta Densidade - 2"
+  - PVC - 750V (Prysmian) - 10 mm² - Azul claro
 
-### Serviços de Apoio e Logística
-- **Mão de Obra**
-  - Engenheiro
-  - Mestre de Obras
-  - Almoxarife
-- **Equipamentos e Canteiro**
-  - Aquisição Mini Grua
-  - Locação de container
-  - Instalações Provisórias (central de aço, formas, argam…
+### Hidrossanitário
+- **Tubulação Esgoto**
+  - Tubo - PVC Esgoto - Série Normal - 100
+  - Tubo - PVC Esgoto - Série Normal - 50
+- **Tubulação Pressão**
+  - Tubo - PPR - PN 20 - 25
+  - Tubo - PPR - PN 20 - 32
 
-## Observações de orçamentista
-- _premissa_ **Reunião com Glauber em 19/05/2025** — Considerado informações passada pelo cliente
-- _revisao_ **Reunião com Glauber em 19/05/2025** — Retirado conforme considerações informadas pelo cliente
-- _justificativa_ **Projeto de formas dos blocos** — Considerado conforme detalhe do projeto de formas dos blocos
-- _premissa_ **Escavação** — Considerado empolamento 30% da escavação
-- _justificativa_ **Projeto de Fundação** — Considerado corte e dobra em obra
-- _outro_ **Orçamento** — Estimado com base em índices históricos
+### Acabamentos e Mobiliário
+- **Marcenaria e Mobiliário**
+  - Marcenaria
+  - Esteira Profissional Adidas T-23 (T-23) - Adidas
+  - Spinning Profissional Adidas (C-21X) - Adidas
 
 ## Padrões identificados
-- Considerado informações passada pelo cliente em reunião com Glauber em 19/05/2025
-- Considerado conforme detalhe do projeto de formas dos blocos
+- O item PAREDES E PAINÉIS possui valores e descrições idênticas em ORÇAMENTO e ORÇAMENTO_EXECUTIVO.
+- O valor de EQUIPAMENTOS (pu=115.59, R$482.586) é idêntico em ORÇAMENTO (INSTALAÇÕES MECÂNICAS) e ORÇAMENTO_EXECUTIVO (EQUIPAMENTOS E SISTEMAS ESPECIAIS).

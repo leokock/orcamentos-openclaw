@@ -1,32 +1,39 @@
 {
   "projeto": "nova-empreendimentos-malaga",
   "model": "gemma4:e4b",
-  "ts": "2026-04-12T22:41:15",
-  "compact_chars": 524,
-  "duration_s": 53.7,
-  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Acabamentos\",\n      \"sub_disciplina\": \"Forro\",\n      \"itens_exemplo\": [\n        \"Execução de forro em ACM\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Pavimentação\",\n      \"sub_disciplina\": \"Piso e Caminho\",\n      \"itens_exemplo\": [\n        \"Passeio em Paver\",\n        \"Pisograma\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Infraestrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Meio-Fio Concreto Pré-Fabricado\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Execução de forro em ACM\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Piso tátil Bolinha Alerta Inox, 1m\",\n      \"motivo\": \"Alerta\"\n    }\n  ]\n}",
+  "ts": "2026-04-13T19:38:07",
+  "compact_chars": 573,
+  "duration_s": 54.7,
+  "raw_response": "{\n  \"sub_disciplinas\": [\n    {\n      \"macrogrupo\": \"Acabamento\",\n      \"sub_disciplina\": \"Forro\",\n      \"itens_exemplo\": [\n        \"Execução de forro em ACM\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Pavimentação/Piso\",\n      \"sub_disciplina\": \"Paver/Pisograma\",\n      \"itens_exemplo\": [\n        \"Passeio em Paver\",\n        \"Pisograma\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Estrutura/Infraestrutura\",\n      \"sub_disciplina\": \"Concreto\",\n      \"itens_exemplo\": [\n        \"Meio-Fio Concreto Pré-Fabricado\"\n      ]\n    },\n    {\n      \"macrogrupo\": \"Acabamento\",\n      \"sub_disciplina\": \"Piso Tátil\",\n      \"itens_exemplo\": [\n        \"Piso tátil Bolinha Alerta Inox, 1m\"\n      ]\n    }\n  ],\n  \"observacoes_relevantes\": [],\n  \"padroes_identificados\": [\n    \"Execução de forro em ACM\"\n  ],\n  \"fora_da_curva\": [\n    {\n      \"item\": \"Piso tátil Bolinha Alerta Inox, 1m\",\n      \"motivo\": \"Alerta\"\n    }\n  ]\n}",
   "parsed": {
     "sub_disciplinas": [
       {
-        "macrogrupo": "Acabamentos",
+        "macrogrupo": "Acabamento",
         "sub_disciplina": "Forro",
         "itens_exemplo": [
           "Execução de forro em ACM"
         ]
       },
       {
-        "macrogrupo": "Pavimentação",
-        "sub_disciplina": "Piso e Caminho",
+        "macrogrupo": "Pavimentação/Piso",
+        "sub_disciplina": "Paver/Pisograma",
         "itens_exemplo": [
           "Passeio em Paver",
           "Pisograma"
         ]
       },
       {
-        "macrogrupo": "Infraestrutura",
+        "macrogrupo": "Estrutura/Infraestrutura",
         "sub_disciplina": "Concreto",
         "itens_exemplo": [
           "Meio-Fio Concreto Pré-Fabricado"
+        ]
+      },
+      {
+        "macrogrupo": "Acabamento",
+        "sub_disciplina": "Piso Tátil",
+        "itens_exemplo": [
+          "Piso tátil Bolinha Alerta Inox, 1m"
         ]
       }
     ],
@@ -40,5 +47,7 @@
         "motivo": "Alerta"
       }
     ]
-  }
+  },
+  "phase6_retry": true,
+  "previous_n_subs": 3
 }

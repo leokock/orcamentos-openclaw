@@ -1,18 +1,20 @@
 # nova-empreendimentos-malaga — análise qualitativa Gemma
 
-_Gerado em 2026-04-12T22:41:15 por gemma4:e4b (53.7s)_
+_Gerado em 2026-04-13T19:38:07 por gemma4:e4b (54.7s)_
 
 ## Sub-disciplinas identificadas
-### Acabamentos
+### Acabamento
 - **Forro**
   - Execução de forro em ACM
+- **Piso Tátil**
+  - Piso tátil Bolinha Alerta Inox, 1m
 
-### Pavimentação
-- **Piso e Caminho**
+### Pavimentação/Piso
+- **Paver/Pisograma**
   - Passeio em Paver
   - Pisograma
 
-### Infraestrutura
+### Estrutura/Infraestrutura
 - **Concreto**
   - Meio-Fio Concreto Pré-Fabricado
 
