@@ -10,11 +10,11 @@ Pode responder ao longo do dia — só preciso de tudo antes das 23h.
 
 ## 📊 Resumo dos 3 projetos
 
-| Projeto | AC (est.) | UR (est.) | Padrão | Cidade | Total est. (cal.) | R$/m² |
-|---|---|---|---|---|---|---|
-| thozen-electra | 36.000 | 348 | alto | ? | R$ 111M | 3.094 |
-| arthen-arboris | 12.472 | 98 | médio | Itapema/SC | R$ 35M | 2.813 |
-| placon-arminio-tavares | ~4.500 | 55 | médio | Florianópolis/SC | R$ 12.7M | 2.813 |
+| Projeto                | AC (est.) | UR (est.) | Padrão | Cidade           | Total est. (cal.) | R$/m² |
+| ---------------------- | --------- | --------- | ------ | ---------------- | ----------------- | ----- |
+| thozen-electra         | 36.000    | 348       | alto   | Porto Belo       | R$ 111M           | 3.094 |
+| arthen-arboris         | 12.472    | 98        | médio  | Itapema/SC       | R$ 35M            | 2.813 |
+| placon-arminio-tavares | ~4.500    | 55        | médio  | Florianópolis/SC | R$ 12.7M          | 2.813 |
 
 **Total estimado dos 3 pacotes:** ~R$ 158.7M
 
