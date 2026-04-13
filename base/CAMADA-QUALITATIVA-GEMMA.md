@@ -258,6 +258,8 @@ python scripts/merge_qualitative.py --slug [slug-novo]
 
 ## Estatísticas da base atual (2026-04-13)
 
+### Camada qualitativa (Fases 1-3)
+
 | Dimensão | Total |
 |---|---|
 | Projetos com camada qualitativa | **126** |
@@ -272,7 +274,30 @@ python scripts/merge_qualitative.py --slug [slug-novo]
 | BDI/Encargos identificados | 34 |
 | Decisões consolidadas | 124 |
 
-**Modelo usado:** `gemma4:e4b` (9.6 GB VRAM) via Ollama local. **Tempo total:** ~4.5 horas. **Custo:** R$ 0.
+### Camada de composições (Fase 4 — desde 13/04 noite)
+
+| Dimensão | Total |
+|---|---|
+| Projetos com abas CPU/Insumos/Composições | **22** |
+| Insumos extraídos (raw) | **35.147** |
+| Insumos classificados como Material | ~17.000 |
+| Insumos classificados como Mão de Obra | ~5.000 |
+| Insumos classificados como Equipamento | ~750 |
+| Análise Gemma sobre composições | em `composicoes/*.json` |
+| Memoriais .md de composições | em `composicoes-md/*.md` |
+
+### Cross-project insights (Fase 5 — desde 13/04 noite)
+
+| Análise | Saída |
+|---|---|
+| Famílias de projetos por similaridade | `cross-insights/familias.json` |
+| Outliers estruturais | `cross-insights/outliers.json` |
+| Padrões de observações repetidas | `cross-insights/padroes_comuns.json` |
+| Novos índices derivados sugeridos | `cross-insights/indices_sugeridos.json` |
+| Lacunas de cobertura na base | `cross-insights/lacunas.json` |
+| **Relatório consolidado** | `cross-insights/cross-insights-report.md` |
+
+**Modelo usado:** `gemma4:e4b` (9.6 GB VRAM) via Ollama local. **Custo:** R$ 0.
 
 ## Limitações conhecidas
 

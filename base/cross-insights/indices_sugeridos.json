@@ -1,0 +1,80 @@
+{
+  "name": "indices_sugeridos",
+  "status": "done",
+  "parsed": {
+    "indices_sugeridos": [
+      {
+        "nome_indice": "Índice de Intensidade Estrutural (IE)",
+        "formula": "(Custo de Estrutura + Custo de Fundações) / AC",
+        "macrogrupo_relacionado": "Estrutura e Fundações",
+        "valor_potencial": "Permite comparar a complexidade estrutural (e, portanto, o risco e o custo de engenharia) de diferentes projetos, independentemente do tamanho total. É crucial para identificar se o custo está na fundação ou na superestrutura.",
+        "n_projetos_disponiveis": 10
+      },
+      {
+        "nome_indice": "Índice de Complexidade de Instalações (ICI)",
+        "formula": "(Custo de Elétrica + Custo de Hidráulica + Custo de Gás) / AC",
+        "macrogrupo_relacionado": "Instalações e Sistemas",
+        "valor_potencial": "Mede a densidade de serviços técnicos. Um ICI alto pode indicar um projeto de alto padrão ou alta complexidade operacional (ex: laboratórios, data centers), ajudando a prever custos de MEP (Mechanical, Electrical, Plumbing).",
+        "n_projetos_disponiveis": 12
+      },
+      {
+        "nome_indice": "Custo de Acabamento por Área Útil (CAAU)",
+        "formula": "(Custo de Acabamentos + Custo de Mobiliário) / AC",
+        "macrogrupo_relacionado": "Acabamentos e Mobiliário",
+        "valor_potencial": "É um indicador de luxo e padrão de mercado. Permite segmentar projetos em categorias (econômico, médio, alto luxo) de forma quantitativa, sendo mais robusto que apenas olhar o R$/m² total.",
+        "n_projetos_disponiveis": 10
+      },
+      {
+        "nome_indice": "Índice de Impacto de Terraplenagem (IET)",
+        "formula": "Custo de Movimentação de Terra / AC",
+        "macrogrupo_relacionado": "Infraestrutura Básica e Movimentação de Terra",
+        "valor_potencial": "Quantifica o impacto do terreno no custo final. Um IET alto pode sinalizar necessidade de contenção, tratamento de solo ou grandes variações topográficas, sendo um indicador de risco geotécnico.",
+        "n_projetos_disponiveis": 8
+      },
+      {
+        "nome_indice": "Overhead de Gestão e Administração (OGA)",
+        "formula": "Custo de Gerenciamento Técnico e Administrativo / (Custo Total - Custo de Serviços Básicos)",
+        "macrogrupo_relacionado": "Serviços Gerais e Administrativo",
+        "valor_potencial": "Mede a proporção de custo dedicada à gestão e coordenação em relação ao custo físico de construção. Ajuda a identificar projetos que exigem alto nível de supervisão ou que possuem escopo de serviços complexos.",
+        "n_projetos_disponiveis": 12
+      },
+      {
+        "nome_indice": "Complexidade de Fachada (ICF)",
+        "formula": "Custo de Esquadrias e Fachada / AC",
+        "macrogrupo_relacionado": "Fechamento e Acabamentos",
+        "valor_potencial": "Indica a sofisticação e o custo do envelope do edifício. É um indicador chave para o marketing imobiliário e para a previsão de custos em projetos de alto impacto visual.",
+        "n_projetos_disponiveis": 10
+      },
+      {
+        "nome_indice": "Índice de Serviços Complementares (ISC)",
+        "formula": "Custo de Serviços Complementares / AC",
+        "macrogrupo_relacionado": "Serviços Complementares",
+        "valor_potencial": "Captura custos 'fora da caixa' (ex: paisagismo, áreas de lazer, equipamentos específicos). É vital para avaliar o custo de qualidade de vida e o valor agregado ao empreendimento.",
+        "n_projetos_disponiveis": 12
+      },
+      {
+        "nome_indice": "Risco de Premissas (RP)",
+        "formula": "Contagem de [premissa] ou [justificativa] nas observações / Total de Sub-disciplinas",
+        "macrogrupo_relacionado": "Análise de Dados Qualitativos",
+        "valor_potencial": "Mede a dependência do custo final em suposições ou ajustes manuais. Quanto maior o RP, maior o risco de desvio orçamentário, pois o custo não está totalmente ancorado em detalhes de projeto.",
+        "n_projetos_disponiveis": 25
+      },
+      {
+        "nome_indice": "Densidade de Sub-disciplinas (DSD)",
+        "formula": "Contagem total de sub-disciplinas únicas / AC",
+        "macrogrupo_relacionado": "Estrutura de Dados",
+        "valor_potencial": "Mede a diversidade e a abrangência do escopo do projeto. Um DSD alto sugere um projeto multidisciplinar e complexo, exigindo mais coordenação e maior risco de conflitos de escopo.",
+        "n_projetos_disponiveis": 25
+      },
+      {
+        "nome_indice": "Custo de Equipamentos Especiais (CEE)",
+        "formula": "Custo de Elevadores + Custo de Geradores / AC",
+        "macrogrupo_relacionado": "Equipamentos e Sistemas Especiais",
+        "valor_potencial": "Isola o custo de equipamentos de alto valor agregado e impacto operacional (elevadores, bombas, geradores). É um indicador direto da funcionalidade e do nível de serviço do edifício.",
+        "n_projetos_disponiveis": 10
+      }
+    ]
+  },
+  "raw": "```json\n{\n  \"indices_sugeridos\": [\n    {\n      \"nome_indice\": \"Índice de Intensidade Estrutural (IE)\",\n      \"formula\": \"(Custo de Estrutura + Custo de Fundações) / AC\",\n      \"macrogrupo_relacionado\": \"Estrutura e Fundações\",\n      \"valor_potencial\": \"Permite comparar a complexidade estrutural (e, portanto, o risco e o custo de engenharia) de diferentes projetos, independentemente do tamanho total. É crucial para identificar se o custo está na fundação ou na superestrutura.\",\n      \"n_projetos_disponiveis\": 10\n    },\n    {\n      \"nome_indice\": \"Índice de Complexidade de Instalações (ICI)\",\n      \"formula\": \"(Custo de Elétrica + Custo de Hidráulica + Custo de Gás) / AC\",\n      \"macrogrupo_relacionado\": \"Instalações e Sistemas\",\n      \"valor_potencial\": \"Mede a densidade de serviços técnicos. Um ICI alto pode indicar um projeto de alto padrão ou alta complexidade operacional (ex: laboratórios, data centers), ajudando a prever custos de MEP (Mechanical, Electrical, Plumbing).\",\n      \"n_projetos_disponiveis\": 12\n    },\n    {\n      \"nome_indice\": \"Custo de Acabamento por Área Útil (CAAU)\",\n      \"formula\": \"(Custo de Acabamentos + Custo de Mobiliário) / AC\",\n      \"macrogrupo_relacionado\": \"Acabamentos e Mobiliário\",\n      \"valor_potencial\": \"É um indicador de luxo e padrão de mercado. Permite segmentar projetos em categorias (econômico, médio, alto luxo) de forma quantitativa, sendo mais robusto que apenas olhar o R$/m² total.\",\n      \"n_projetos_disponiveis\": 10\n    },\n    {\n      \"nome_indice\": \"Índice de Impacto de Terraplenagem (IET)\",\n      \"formula\": \"Custo de Movimentação de Terra / AC\",\n      \"macrogrupo_relacionado\": \"Infraestrutura Básica e Movimentação de Terra\",\n      \"valor_potencial\": \"Quantifica o impacto do terreno no custo final. Um IET alto pode sinalizar necessidade de contenção, tratamento de solo ou grandes variações topográficas, sendo um indicador de risco geotécnico.\",\n      \"n_projetos_disponiveis\": 8\n    },\n    {\n      \"nome_indice\": \"Overhead de Gestão e Administração (OGA)\",\n      \"formula\": \"Custo de Gerenciamento Técnico e Administrativo / (Custo Total - Custo de Serviços Básicos)\",\n      \"macrogrupo_relacionado\": \"Serviços Gerais e Administrativo\",\n      \"valor_potencial\": \"Mede a proporção de custo dedicada à gestão e coordenação em relação ao custo físico de construção. Ajuda a identificar projetos que exigem alto nível de supervisão ou que possuem escopo de serviços complexos.\",\n      \"n_projetos_disponiveis\": 12\n    },\n    {\n      \"nome_indice\": \"Complexidade de Fachada (ICF)\",\n      \"formula\": \"Custo de Esquadrias e Fachada / AC\",\n      \"macrogrupo_relacionado\": \"Fechamento e Acabamentos\",\n      \"valor_potencial\": \"Indica a sofisticação e o custo do envelope do edifício. É um indicador chave para o marketing imobiliário e para a previsão de custos em projetos de alto impacto visual.\",\n      \"n_projetos_disponiveis\": 10\n    },\n    {\n      \"nome_indice\": \"Índice de Serviços Complementares (ISC)\",\n      \"formula\": \"Custo de Serviços Complementares / AC\",\n      \"macrogrupo_relacionado\": \"Serviços Complementares\",\n      \"valor_potencial\": \"Captura custos 'fora da caixa' (ex: paisagismo, áreas de lazer, equipamentos específicos). É vital para avaliar o custo de qualidade de vida e o valor agregado ao empreendimento.\",\n      \"n_projetos_disponiveis\": 12\n    },\n    {\n      \"nome_indice\": \"Risco de Premissas (RP)\",\n      \"formula\": \"Contagem de [premissa] ou [justificativa] nas observações / Total de Sub-disciplinas\",\n      \"macrogrupo_relacionado\": \"Análise de Dados Qualitativos\",\n      \"valor_potencial\": \"Mede a dependência do custo final em suposições ou ajustes manuais. Quanto maior o RP, maior o risco de desvio orçamentário, pois o custo não está totalmente ancorado em detalhes de projeto.\",\n      \"n_projetos_disponiveis\": 25\n    },\n    {\n      \"nome_indice\": \"Densidade de Sub-disciplinas (DSD)\",\n      \"formula\": \"Contagem total de sub-disciplinas únicas / AC\",\n      \"macrogrupo_relacionado\": \"Estrutura de Dados\",\n      \"valor_potencial\": \"Mede a diversidade e a abrangência do escopo do projeto. Um DSD alto sugere um projeto multidisciplinar e complexo, exigindo mais coordenação e maior risco de conflitos de escopo.\",\n      \"n_projetos_disponiveis\": 25\n    },\n    {\n      \"nome_indice\": \"Custo de Equipamentos Especiais (CEE)\",\n      \"formula\": \"Custo de Elevadores + Custo de Geradores / AC\",\n      \"macrogrupo_relacionado\": \"Equipamentos e Sistemas Especiais\",\n      \"valor_potencial\": \"Isola o custo de equipamentos de alto valor agregado e impacto operacional (elevadores, bombas, geradores). É um indicador direto da funcionalidade e do nível de serviço do edifício.\",\n      \"n_projetos_disponiveis\": 10\n    }\n  ]\n}\n```",
+  "duration": 100.95939207077026
+}

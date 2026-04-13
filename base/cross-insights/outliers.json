@@ -1,0 +1,115 @@
+{
+  "name": "outliers",
+  "status": "done",
+  "parsed": {
+    "outliers": [
+      {
+        "slug": "adore-cacupe",
+        "campo": "concreto_m3_m2",
+        "valor": 0.8657,
+        "tipo": "muito_alto",
+        "causa_provavel": "Possível erro de medição ou projeto com excesso de concreto em relação à área construída."
+      },
+      {
+        "slug": "adore-cacupe",
+        "campo": "forma_m2_m2",
+        "valor": 6.9527,
+        "tipo": "muito_alto",
+        "causa_provavel": "Indica um alto consumo de formas, sugerindo um projeto complexo ou excessivo de elementos verticais."
+      },
+      {
+        "slug": "fg-blue-coast",
+        "campo": "concreto_m3_m2",
+        "valor": 0.6247,
+        "tipo": "muito_alto",
+        "causa_provavel": "Alto volume de concreto, indicando uma estrutura muito massiva ou um erro de cálculo."
+      },
+      {
+        "slug": "fg-blue-coast",
+        "campo": "aco_kg_m3",
+        "valor": 147.59,
+        "tipo": "muito_alto",
+        "causa_provavel": "Excesso de aço, podendo indicar superdimensionamento estrutural ou erro de cálculo."
+      },
+      {
+        "slug": "nova-empreendimentos-domus",
+        "campo": "concreto_m3_m2",
+        "valor": 0.6829,
+        "tipo": "muito_alto",
+        "causa_provavel": "Volume de concreto significativamente acima da média, sugerindo alta densidade estrutural."
+      },
+      {
+        "slug": "nova-empreendimentos-domus",
+        "campo": "forma_m2_m2",
+        "valor": 6.1865,
+        "tipo": "muito_alto",
+        "causa_provavel": "Consumo de formas extremamente alto, indicando um projeto com muitas superfícies verticais ou complexidade elevada."
+      },
+      {
+        "slug": "gdi-playa-negra",
+        "campo": "concreto_m3_m2",
+        "valor": 0.6212,
+        "tipo": "muito_alto",
+        "causa_provavel": "Alto volume de concreto, sugerindo estrutura robusta ou erro de medição."
+      },
+      {
+        "slug": "gdi-playa-negra",
+        "campo": "forma_m2_m2",
+        "valor": 4.0826,
+        "tipo": "muito_alto",
+        "causa_provavel": "Alto consumo de formas, indicando grande área de superfície a ser moldada."
+      },
+      {
+        "slug": "grupo-duo-colin",
+        "campo": "concreto_m3_m2",
+        "valor": 0.6346,
+        "tipo": "muito_alto",
+        "causa_provavel": "Volume de concreto elevado, sugerindo estrutura muito pesada ou superdimensionada."
+      },
+      {
+        "slug": "grupo-duo-colin",
+        "campo": "forma_m2_m2",
+        "valor": 4.886,
+        "tipo": "muito_alto",
+        "causa_provavel": "Consumo de formas muito alto, indicando complexidade ou grande área de superfície."
+      },
+      {
+        "slug": "somauma-virginia",
+        "campo": "concreto_m3_m2",
+        "valor": 0.0336,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Volume de concreto extremamente baixo, podendo indicar erro de medição ou estrutura muito leve."
+      },
+      {
+        "slug": "somauma-virginia",
+        "campo": "forma_m2_m2",
+        "valor": 0.0052,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Consumo de formas quase nulo, sugerindo pouca ou nenhuma superfície vertical a ser moldada."
+      },
+      {
+        "slug": "homeset-homeset",
+        "campo": "forma_m2_m2",
+        "valor": 0.0896,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Consumo de formas muito baixo, indicando pouca área de superfície vertical."
+      },
+      {
+        "slug": "hacasa-brisa-da-armacao",
+        "campo": "aco_kg_m3",
+        "valor": 12.5,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Baixíssimo teor de aço, podendo indicar subdimensionamento estrutural ou erro de cálculo."
+      },
+      {
+        "slug": "cota-365",
+        "campo": "aco_kg_m3",
+        "valor": 17.21,
+        "tipo": "muito_baixo",
+        "causa_provavel": "Baixíssimo teor de aço, sugerindo que a estrutura pode estar subdimensionada em relação às cargas esperadas."
+      }
+    ]
+  },
+  "raw": "```json\n{\n  \"outliers\": [\n    {\n      \"slug\": \"adore-cacupe\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.8657,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Possível erro de medição ou projeto com excesso de concreto em relação à área construída.\"\n    },\n    {\n      \"slug\": \"adore-cacupe\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 6.9527,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Indica um alto consumo de formas, sugerindo um projeto complexo ou excessivo de elementos verticais.\"\n    },\n    {\n      \"slug\": \"fg-blue-coast\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.6247,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Alto volume de concreto, indicando uma estrutura muito massiva ou um erro de cálculo.\"\n    },\n    {\n      \"slug\": \"fg-blue-coast\",\n      \"campo\": \"aco_kg_m3\",\n      \"valor\": 147.59,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Excesso de aço, podendo indicar superdimensionamento estrutural ou erro de cálculo.\"\n    },\n    {\n      \"slug\": \"nova-empreendimentos-domus\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.6829,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Volume de concreto significativamente acima da média, sugerindo alta densidade estrutural.\"\n    },\n    {\n      \"slug\": \"nova-empreendimentos-domus\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 6.1865,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Consumo de formas extremamente alto, indicando um projeto com muitas superfícies verticais ou complexidade elevada.\"\n    },\n    {\n      \"slug\": \"gdi-playa-negra\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.6212,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Alto volume de concreto, sugerindo estrutura robusta ou erro de medição.\"\n    },\n    {\n      \"slug\": \"gdi-playa-negra\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 4.0826,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Alto consumo de formas, indicando grande área de superfície a ser moldada.\"\n    },\n    {\n      \"slug\": \"grupo-duo-colin\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.6346,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Volume de concreto elevado, sugerindo estrutura muito pesada ou superdimensionada.\"\n    },\n    {\n      \"slug\": \"grupo-duo-colin\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 4.886,\n      \"tipo\": \"muito_alto\",\n      \"causa_provavel\": \"Consumo de formas muito alto, indicando complexidade ou grande área de superfície.\"\n    },\n    {\n      \"slug\": \"somauma-virginia\",\n      \"campo\": \"concreto_m3_m2\",\n      \"valor\": 0.0336,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Volume de concreto extremamente baixo, podendo indicar erro de medição ou estrutura muito leve.\"\n    },\n    {\n      \"slug\": \"somauma-virginia\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 0.0052,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Consumo de formas quase nulo, sugerindo pouca ou nenhuma superfície vertical a ser moldada.\"\n    },\n    {\n      \"slug\": \"homeset-homeset\",\n      \"campo\": \"forma_m2_m2\",\n      \"valor\": 0.0896,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Consumo de formas muito baixo, indicando pouca área de superfície vertical.\"\n    },\n    {\n      \"slug\": \"hacasa-brisa-da-armacao\",\n      \"campo\": \"aco_kg_m3\",\n      \"valor\": 12.5,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Baixíssimo teor de aço, podendo indicar subdimensionamento estrutural ou erro de cálculo.\"\n    },\n    {\n      \"slug\": \"cota-365\",\n      \"campo\": \"aco_kg_m3\",\n      \"valor\": 17.21,\n      \"tipo\": \"muito_baixo\",\n      \"causa_provavel\": \"Baixíssimo teor de aço, sugerindo que a estrutura pode estar subdimensionada em relação às cargas esperadas.\"\n    }\n  ]\n}\n```",
+  "duration": 130.20892214775085
+}

@@ -1,21 +1,23 @@
 # Fases Futuras — Roadmap Retomável
 
-_Criado em 2026-04-13 após conclusão das Fases 1-3 + Pacote v0.2. Cada fase abaixo é autocontida e pode ser retomada sem contexto prévio lendo este doc + `CAMADA-QUALITATIVA-GEMMA.md`._
+_Criado em 2026-04-13 após conclusão das Fases 1-3 + Pacote v0.2._
+_Atualizado em 2026-04-13 noite após conclusão de Fases 4, 5, 7.x e 3 pacotes reais._
 
-## Estado atual (pré-requisitos já cumpridos)
+## ✅ Estado atual (Fases concluídas)
 
-- ✅ Fase 1: 333.751 itens extraídos, 126 projetos, `itens-detalhados/*.json`
-- ✅ Fase 2: 126 projetos com sub-disciplinas/observações/padrões, `sub-disciplinas/*.json`
-- ✅ Fase 3: 58 projetos com premissas/BDI/decisões, `premissas/*.json`
-- ✅ Merge: camada `qualitative` em `indices-executivo/*.json`
-- ✅ Relatório: `relatorio-consolidado-2026-04-13.md`
-- ✅ Gemma local (gemma4:e4b) validado, Ollama HTTP API testado
-- ✅ **Pacote Paramétrico → Executivo v0.2** funcional (FLUXO 0 da SKILL):
-  - `consulta_similares.py` + 5 scripts orquestradores
-  - Pipeline 2-etapas com gate humano de validação
-  - Totais via `calibration-indices.json` (autoritativo)
-  - Pacote piloto rodado: R$ 48M / R$ 3.205/m² para 15k m² alto-padrão
-  - 17/18 macrogrupos com confiança 🟢 Alta
+- ✅ **Fase 1:** 333.751 itens extraídos, 126 projetos, `itens-detalhados/*.json`
+- ✅ **Fase 2:** 126 projetos com sub-disciplinas/observações/padrões, `sub-disciplinas/*.json`
+- ✅ **Fase 3:** 58 projetos com premissas/BDI/decisões, `premissas/*.json`
+- ✅ **Fase 4:** 22 projetos com composições extraídas + análise Gemma, `composicoes/*.json` ⭐ NOVO
+- ✅ **Fase 5:** Cross-project benchmarking (5 perguntas Gemma sobre agregados), `cross-insights/` ⭐ NOVO
+- ✅ **Fase 7:** Integração com pipeline de geração — pacote v0.3 funcional
+- ✅ **Fase 7.1-7.6:** todas as 6 melhorias do pacote (multiplicador diferencial, memorial Word ×2, granularização Gemma, validação por segmento, aba RESUMO expressiva)
+- ✅ Merge: camada `qualitative` em `indices-executivo/*.json` (126)
+- ✅ **Pacote v0.3** funcional rodado em **3 projetos reais** (arthen, placon, thozen — R$ 186M total)
+
+## ⏳ Estado parcial / pendente
+
+- ⚠️ **Fase 6** (iteração contínua): retry de parse failures rodado, mas re-roda da Fase 2 com prompt enriquecido (compact view maior) ainda não foi feito
 
 Todos os scripts estão em `~/orcamentos-openclaw/scripts/`.
 

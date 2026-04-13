@@ -1,0 +1,61 @@
+{
+  "name": "familias",
+  "status": "done",
+  "parsed": {
+    "familias": [
+      {
+        "nome_familia": "Mega Loteamentos e Infraestrutura de Grande Escala",
+        "criterios": "Projetos com a maior área construída (AC > 13000m²) e foco primário em Infraestrutura Básica, Terraplenagem, Pavimentação e serviços de loteamento.",
+        "projetos_exemplares": [
+          "estilo-condominios-estilo-condominios",
+          "wf-aquarius",
+          "pass-e-connect"
+        ],
+        "ac_range": "13000-24000 m²",
+        "n_estimado_total": 3
+      },
+      {
+        "nome_familia": "Complexos Residenciais de Alto Padrão (Grandes Lotes)",
+        "criterios": "Projetos de grande porte (AC > 7000m²) com foco em Estrutura, Acabamentos de alto nível, Lazer e Equipamentos, característicos de condomínios fechados de luxo.",
+        "projetos_exemplares": [
+          "fonseca-empreendimentos-estoril",
+          "cln-porto-ruby",
+          "chiquetti-e-dalvesco-cielo"
+        ],
+        "ac_range": "7000-15000 m²",
+        "n_estimado_total": 3
+      },
+      {
+        "nome_familia": "Projetos de Uso Misto e Ambientação (Resorts/Reserva)",
+        "criterios": "Projetos de médio a grande porte (AC 500-7500m²) onde o foco principal é a Ambientação, Mobiliário e Áreas de Lazer, com menor ênfase em infraestrutura bruta.",
+        "projetos_exemplares": [
+          "rosner-reserva-sao-vicente",
+          "cn-brava-ocean"
+        ],
+        "ac_range": "500-7500 m²",
+        "n_estimado_total": 2
+      },
+      {
+        "nome_familia": "Edificações de Médio Porte e Detalhamento de Sistemas",
+        "criterios": "Projetos de médio porte (AC 350-5000m²) com alta complexidade em Instalações (Elétrica/Hidráulica) e Acabamentos internos, típicos de torres ou edifícios de uso misto.",
+        "projetos_exemplares": [
+          "etr-zion-meridian-tower",
+          "amalfi-maiori"
+        ],
+        "ac_range": "350-5000 m²",
+        "n_estimado_total": 2
+      },
+      {
+        "nome_familia": "Projetos de Nicho e Execução Detalhada (Foco em Orçamento)",
+        "criterios": "Projetos de pequeno porte (AC < 600m²) com foco extremamente detalhado em Orçamento Executivo, Superestrutura e sistemas específicos, sugerindo um escopo altamente especializado.",
+        "projetos_exemplares": [
+          "thozen-mirador-de-alicante"
+        ],
+        "ac_range": "300-600 m²",
+        "n_estimado_total": 1
+      }
+    ]
+  },
+  "raw": "{\n  \"familias\": [\n    {\n      \"nome_familia\": \"Mega Loteamentos e Infraestrutura de Grande Escala\",\n      \"criterios\": \"Projetos com a maior área construída (AC > 13000m²) e foco primário em Infraestrutura Básica, Terraplenagem, Pavimentação e serviços de loteamento.\",\n      \"projetos_exemplares\": [\n        \"estilo-condominios-estilo-condominios\",\n        \"wf-aquarius\",\n        \"pass-e-connect\"\n      ],\n      \"ac_range\": \"13000-24000 m²\",\n      \"n_estimado_total\": 3\n    },\n    {\n      \"nome_familia\": \"Complexos Residenciais de Alto Padrão (Grandes Lotes)\",\n      \"criterios\": \"Projetos de grande porte (AC > 7000m²) com foco em Estrutura, Acabamentos de alto nível, Lazer e Equipamentos, característicos de condomínios fechados de luxo.\",\n      \"projetos_exemplares\": [\n        \"fonseca-empreendimentos-estoril\",\n        \"cln-porto-ruby\",\n        \"chiquetti-e-dalvesco-cielo\"\n      ],\n      \"ac_range\": \"7000-15000 m²\",\n      \"n_estimado_total\": 3\n    },\n    {\n      \"nome_familia\": \"Projetos de Uso Misto e Ambientação (Resorts/Reserva)\",\n      \"criterios\": \"Projetos de médio a grande porte (AC 500-7500m²) onde o foco principal é a Ambientação, Mobiliário e Áreas de Lazer, com menor ênfase em infraestrutura bruta.\",\n      \"projetos_exemplares\": [\n        \"rosner-reserva-sao-vicente\",\n        \"cn-brava-ocean\"\n      ],\n      \"ac_range\": \"500-7500 m²\",\n      \"n_estimado_total\": 2\n    },\n    {\n      \"nome_familia\": \"Edificações de Médio Porte e Detalhamento de Sistemas\",\n      \"criterios\": \"Projetos de médio porte (AC 350-5000m²) com alta complexidade em Instalações (Elétrica/Hidráulica) e Acabamentos internos, típicos de torres ou edifícios de uso misto.\",\n      \"projetos_exemplares\": [\n        \"etr-zion-meridian-tower\",\n        \"amalfi-maiori\"\n      ],\n      \"ac_range\": \"350-5000 m²\",\n      \"n_estimado_total\": 2\n    },\n    {\n      \"nome_familia\": \"Projetos de Nicho e Execução Detalhada (Foco em Orçamento)\",\n      \"criterios\": \"Projetos de pequeno porte (AC < 600m²) com foco extremamente detalhado em Orçamento Executivo, Superestrutura e sistemas específicos, sugerindo um escopo altamente especializado.\",\n      \"projetos_exemplares\": [\n        \"thozen-mirador-de-alicante\"\n      ],\n      \"ac_range\": \"300-600 m²\",\n      \"n_estimado_total\": 1\n    }\n  ]\n}",
+  "duration": 110.44158172607422
+}

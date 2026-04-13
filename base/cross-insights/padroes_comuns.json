@@ -1,0 +1,124 @@
+{
+  "name": "padroes_comuns",
+  "status": "done",
+  "parsed": {
+    "padroes_comuns": [
+      {
+        "padrao": "Quantificação seguindo detalhamentos de projeto e",
+        "exemplos": [
+          "Quantificação seguindo detalhamentos de projeto e",
+          "Quantificação seguindo detalhamentos de projetos d",
+          "Quantificação seguindo detalhamentos de projeto e"
+        ],
+        "frequencia_estimada": "alta",
+        "categoria": "premissa"
+      },
+      {
+        "padrao": "Levantamento realizado via visus, utilizando arqui",
+        "exemplos": [
+          "Levantamento realizado via visus, utilizando arqui",
+          "Levantamento realizado via visus, utilizando arqui",
+          "Levantamento realizado via visus, utilizando arqui"
+        ],
+        "frequencia_estimada": "media",
+        "categoria": "premissa"
+      },
+      {
+        "padrao": "Considerado blocos, vigas de fundação",
+        "exemplos": [
+          "Considerado blocos, vigas de fundação",
+          "Considerado blocos, vigas de fundação",
+          "Considerado blocos, vigas de fundação"
+        ],
+        "frequencia_estimada": "alta",
+        "categoria": "premissa"
+      },
+      {
+        "padrao": "Considerado empolamento 30% da escavação",
+        "exemplos": [
+          "Considerado empolamento 30% da escavação",
+          "Considerado empolamento 30% da escavação",
+          "Considerado empolamento 30% da escavação"
+        ],
+        "frequencia_estimada": "alta",
+        "categoria": "premissa"
+      },
+      {
+        "padrao": "Armação com consideração de aço cortado e dobra em",
+        "exemplos": [
+          "Armação com consideração de aço cortado e dobra em",
+          "Armação com consideração de aço cortado e dobra em"
+        ],
+        "frequencia_estimada": "media",
+        "categoria": "premissa"
+      },
+      {
+        "padrao": "Considerado sem indicação em projeto",
+        "exemplos": [
+          "Considerado sem indicação em projeto",
+          "Considerado sem indicação em projeto",
+          "Considerado sem indicação em projeto"
+        ],
+        "frequencia_estimada": "media",
+        "categoria": "premissa"
+      },
+      {
+        "padrao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+        "exemplos": [
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+          "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+        ],
+        "frequencia_estimada": "alta",
+        "categoria": "subdisciplina"
+      },
+      {
+        "padrao": "Justificativa de escavação/fundação",
+        "exemplos": [
+          "[justificativa]Considerado blocos, vigas de fundação, pilares de",
+          "[justificativa]Considerado 1 bomba para execução dos blocos e vig",
+          "[justificativa]Considerado blocos, vigas de fundação, duto e cist"
+        ],
+        "frequencia_estimada": "alta",
+        "categoria": "justificativa"
+      },
+      {
+        "padrao": "Movimentação de terra para bota fora",
+        "exemplos": [
+          "[Movimentação de Terra]0,24%",
+          "[MOVIMENTAÇÃO DE TERRA]Movimentação de terra para bota fora, com 30% de f"
+        ],
+        "frequencia_estimada": "media",
+        "categoria": "premissa"
+      },
+      {
+        "padrao": "Alerta de divergência de custo",
+        "exemplos": [
+          "[alerta]Custo no Sienge e apropriado divergem muito",
+          "[alerta]Valor do Sienge 126 mil/ apropriado 586 mil"
+        ],
+        "frequencia_estimada": "baixa",
+        "categoria": "alerta"
+      },
+      {
+        "padrao": "Estrutura de concreto com alvenaria de vedação.",
+        "exemplos": [
+          "[Geral]Estrutura de concreto com alvenaria de vedação."
+        ],
+        "frequencia_estimada": "baixa",
+        "categoria": "premissa"
+      },
+      {
+        "padrao": "Serviços de Lazer (Piscina, Academia)",
+        "exemplos": [
+          "[Geral]Área de Lazer: Piscina, Salão de Festas, Academia,",
+          "[Lazer]Duas áreas de lazer, com piscina, academia, salão"
+        ],
+        "frequencia_estimada": "media",
+        "categoria": "premissa"
+      }
+    ]
+  },
+  "raw": "```json\n{\n  \"padroes_comuns\": [\n    {\n      \"padrao\": \"Quantificação seguindo detalhamentos de projeto e\",\n      \"exemplos\": [\n        \"Quantificação seguindo detalhamentos de projeto e\",\n        \"Quantificação seguindo detalhamentos de projetos d\",\n        \"Quantificação seguindo detalhamentos de projeto e\"\n      ],\n      \"frequencia_estimada\": \"alta\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"padrao\": \"Levantamento realizado via visus, utilizando arqui\",\n      \"exemplos\": [\n        \"Levantamento realizado via visus, utilizando arqui\",\n        \"Levantamento realizado via visus, utilizando arqui\",\n        \"Levantamento realizado via visus, utilizando arqui\"\n      ],\n      \"frequencia_estimada\": \"media\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"padrao\": \"Considerado blocos, vigas de fundação\",\n      \"exemplos\": [\n        \"Considerado blocos, vigas de fundação\",\n        \"Considerado blocos, vigas de fundação\",\n        \"Considerado blocos, vigas de fundação\"\n      ],\n      \"frequencia_estimada\": \"alta\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"padrao\": \"Considerado empolamento 30% da escavação\",\n      \"exemplos\": [\n        \"Considerado empolamento 30% da escavação\",\n        \"Considerado empolamento 30% da escavação\",\n        \"Considerado empolamento 30% da escavação\"\n      ],\n      \"frequencia_estimada\": \"alta\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"padrao\": \"Armação com consideração de aço cortado e dobra em\",\n      \"exemplos\": [\n        \"Armação com consideração de aço cortado e dobra em\",\n        \"Armação com consideração de aço cortado e dobra em\"\n      ],\n      \"frequencia_estimada\": \"media\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"padrao\": \"Considerado sem indicação em projeto\",\n      \"exemplos\": [\n        \"Considerado sem indicação em projeto\",\n        \"Considerado sem indicação em projeto\",\n        \"Considerado sem indicação em projeto\"\n      ],\n      \"frequencia_estimada\": \"media\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"padrao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n      \"exemplos\": [\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n        \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n      ],\n      \"frequencia_estimada\": \"alta\",\n      \"categoria\": \"subdisciplina\"\n    },\n    {\n      \"padrao\": \"Justificativa de escavação/fundação\",\n      \"exemplos\": [\n        \"[justificativa]Considerado blocos, vigas de fundação, pilares de\",\n        \"[justificativa]Considerado 1 bomba para execução dos blocos e vig\",\n        \"[justificativa]Considerado blocos, vigas de fundação, duto e cist\"\n      ],\n      \"frequencia_estimada\": \"alta\",\n      \"categoria\": \"justificativa\"\n    },\n    {\n      \"padrao\": \"Movimentação de terra para bota fora\",\n      \"exemplos\": [\n        \"[Movimentação de Terra]0,24%\",\n        \"[MOVIMENTAÇÃO DE TERRA]Movimentação de terra para bota fora, com 30% de f\"\n      ],\n      \"frequencia_estimada\": \"media\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"padrao\": \"Alerta de divergência de custo\",\n      \"exemplos\": [\n        \"[alerta]Custo no Sienge e apropriado divergem muito\",\n        \"[alerta]Valor do Sienge 126 mil/ apropriado 586 mil\"\n      ],\n      \"frequencia_estimada\": \"baixa\",\n      \"categoria\": \"alerta\"\n    },\n    {\n      \"padrao\": \"Estrutura de concreto com alvenaria de vedação.\",\n      \"exemplos\": [\n        \"[Geral]Estrutura de concreto com alvenaria de vedação.\"\n      ],\n      \"frequencia_estimada\": \"baixa\",\n      \"categoria\": \"premissa\"\n    },\n    {\n      \"padrao\": \"Serviços de Lazer (Piscina, Academia)\",\n      \"exemplos\": [\n        \"[Geral]Área de Lazer: Piscina, Salão de Festas, Academia,\",\n        \"[Lazer]Duas áreas de lazer, com piscina, academia, salão\"\n      ],\n      \"frequencia_estimada\": \"media\",\n      \"categoria\": \"premissa\"\n    }\n  ]\n}\n```",
+  "duration": 144.69664430618286
+}
