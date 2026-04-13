@@ -34,6 +34,12 @@ MINI_MAX_SHEETS = 5
 MINI_MAX_OBS_TOTAL = 15
 MINI_DESC_CHARS = 55
 
+RICH_TOP_ITEMS_PER_SHEET = 15
+RICH_MAX_SHEETS = 8
+RICH_MAX_OBS_TOTAL = 30
+RICH_DESC_CHARS = 75
+RICH_MAX_CHARS = 7500
+
 
 def fmt_money(v) -> str:
     if v is None:
@@ -191,6 +197,91 @@ def is_aggregate_row(it: dict) -> bool:
     has_pu = it.get("pu") not in (None, "", 0)
     has_total = it.get("total") not in (None, "", 0)
     return has_total and not has_qty and not has_pu
+
+
+def render_project_rich(slug: str) -> str:
+    """Compact view RICA (~6-8k chars) — pra Fase 6 retry de projetos com <5 sub-disciplinas.
+
+    Mais top-itens (15 vs 8), mais abas (8 vs 5), mais observações (30 vs 15),
+    descrições mais longas (75 vs 55), aceita até 7500 chars (vs 4500).
+    """
+    detalhe_path = DETALHADOS / f"{slug}.json"
+    if not detalhe_path.exists():
+        return f"# {slug}\n\nERRO: itens-detalhados não encontrado."
+
+    detalhe = json.loads(detalhe_path.read_text(encoding="utf-8"))
+    abas = detalhe.get("abas", [])
+
+    indices_path = INDICES / f"{slug}.json"
+    indices_meta = {}
+    if indices_path.exists():
+        try:
+            d = json.loads(indices_path.read_text(encoding="utf-8"))
+            indices_meta = {"ac": d.get("ac"), "ur": d.get("ur"),
+                            "total": d.get("total"), "rsm2": d.get("rsm2"),
+                            "n_disciplinas": len(d.get("disciplinas", {}))}
+        except Exception:
+            pass
+
+    out = [f"# {slug}"]
+    if indices_meta.get("ac"):
+        out.append(f"AC={fmt_num(indices_meta['ac'])}m² UR={indices_meta.get('ur') or '?'}")
+        if indices_meta.get("rsm2"):
+            out.append(f"R$/m² (existing): {fmt_num(indices_meta['rsm2'])}")
+    out.append("")
+    out.append(f"Abas total no xlsx: {len(abas)}")
+    out.append("")
+
+    abas_validas = []
+    for aba in abas:
+        itens = [it for it in aba.get("itens", []) if not is_aggregate_row(it)]
+        if not itens:
+            continue
+        abas_validas.append((sheet_total(itens), aba, itens))
+    abas_validas.sort(key=lambda x: x[0], reverse=True)
+
+    seen_obs = set()
+    obs_global: list[str] = []
+
+    for idx, (tot, aba, itens) in enumerate(abas_validas[:RICH_MAX_SHEETS]):
+        out.append(f"## {aba.get('nome','?')}  (R$ {fmt_money(tot)}, {len(itens)} itens)")
+        sorted_itens = sorted(
+            itens,
+            key=lambda it: (float(it["total"]) if it.get("total") not in (None, "", 0) else -1),
+            reverse=True,
+        )
+        for it in sorted_itens[:RICH_TOP_ITEMS_PER_SHEET]:
+            desc = trunc(it.get("descricao"), RICH_DESC_CHARS)
+            if not desc:
+                continue
+            parts = [desc]
+            if it.get("unidade"):
+                parts.append(str(it["unidade"]))
+            if it.get("qtd"):
+                parts.append(f"qtd={fmt_num(it['qtd'])}")
+            if it.get("pu"):
+                parts.append(f"pu={fmt_num(it['pu'])}")
+            if it.get("total"):
+                parts.append(f"R${fmt_money(it['total'])}")
+            out.append("- " + " | ".join(parts))
+
+        for o in aba.get("observacoes", [])[:8]:
+            o = o.strip()
+            key = o[:60].lower()
+            if key not in seen_obs:
+                seen_obs.add(key)
+                obs_global.append(o)
+        out.append("")
+
+    if obs_global:
+        out.append("## observações de orçamentista")
+        for o in obs_global[:RICH_MAX_OBS_TOTAL]:
+            out.append(f"- {trunc(o, 130)}")
+
+    text = "\n".join(out)
+    if len(text) > RICH_MAX_CHARS:
+        text = text[:RICH_MAX_CHARS] + "\n…[trunc]"
+    return text
 
 
 def render_project_mini(slug: str) -> str:

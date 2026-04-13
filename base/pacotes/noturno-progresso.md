@@ -1,6 +1,23 @@
 # Progresso Noturno — 2026-04-13
 
-_Última atualização: 18:25 BRT — **EXECUÇÃO + REVISÃO PROFUNDA COMPLETAS** ✅_
+_Última atualização: 18:55 BRT — **+ FASES 4 E 5 + DOCS + RELATÓRIO FINAL** ✅_
+
+## ⏰ NOVO: Atualização final (18:55)
+
+**Você pediu que eu trabalhasse autonomamente em tudo que faltava. Fiz.**
+
+Coisas adicionais feitas após o fechamento das 17h54:
+
+1. ✅ **Fase 5 — Cross-project benchmarking via Gemma** (10 min, 5 análises sobre toda a base)
+2. ✅ **Fase 4a/4b — Extract composições** (75s, 22 projetos, 35.147 itens classificados)
+3. 🔄 **Fase 4c — Análise Gemma sobre composições** (rodando em background, ETA ~30 min)
+4. ⏳ **Fase 6 — Retry Fase 2 enriquecido** (script pronto, fila após Fase 4c)
+5. ✅ **SKILL.md atualizada** com Fluxo 0 v0.3 + 8 fluxos auxiliares
+6. ✅ **CAMADA-QUALITATIVA-GEMMA.md** com estatísticas das Fases 4 e 5
+7. ✅ **FASES-FUTURAS.md** marcando o que foi feito vs pendente
+8. ✅ **`relatorio-final-noturno-2026-04-13.md`** — relatório executivo de TUDO da noite
+
+**Leia primeiro o `relatorio-final-noturno-2026-04-13.md`** — é o resumo executivo completo.
 
 ## 🎯 TUDO PRONTO + REVISÃO PROFUNDA
 
