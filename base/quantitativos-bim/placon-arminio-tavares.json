@@ -1,0 +1,1174 @@
+{
+  "projeto": "placon-arminio-tavares",
+  "ts": "2026-04-13T23:07:34",
+  "n_ifcs": 7,
+  "files": [
+    {
+      "file": "PLA_ARM_ARQ_EX_IFC_PE02.ifc",
+      "schema": "IFC2X3",
+      "walls": {
+        "n": 1901,
+        "by_type": {
+          "outros_?cm": {
+            "n": 26,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EST-CON-CN0 20cm",
+              "Basic Wall:SM-EST-CON-CN0   18cm",
+              "Basic Wall:SM-EST-CON-CN0   18cm"
+            ]
+          },
+          "outros_11cm": {
+            "n": 901,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
+              "Basic Wall:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
+              "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5"
+            ]
+          },
+          "outros_17cm": {
+            "n": 388,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+              "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+              "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1"
+            ]
+          },
+          "outros_14cm": {
+            "n": 376,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EXT-ALV-BE14   18cm-RE1/RE1",
+              "Basic Wall:SM-INT-ALV-BE14   18cm-RI1/RI1",
+              "Basic Wall:SM-INT-ALV-BE14   18cm-RI1/RI1"
+            ]
+          },
+          "outros_10cm": {
+            "n": 13,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
+              "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
+              "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM"
+            ]
+          },
+          "outros_9cm": {
+            "n": 149,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
+              "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
+              "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1"
+            ]
+          },
+          "outros_5cm": {
+            "n": 3,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM",
+              "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM",
+              "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM"
+            ]
+          },
+          "outros_48cm": {
+            "n": 34,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
+              "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
+              "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1"
+            ]
+          },
+          "outros_2cm": {
+            "n": 1,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "VISTAS FORRO 2º PAVTO:VISTAS FORRO 2º PAVTO"
+            ]
+          },
+          "outros_1cm": {
+            "n": 1,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "VISTA DOS FORROS1:VISTA DOS FORROS"
+            ]
+          },
+          "outros_3cm": {
+            "n": 9,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "VISTAS FORROS 3º PAVTO1:VISTAS FORROS 3º PAVTO",
+              "VISTAS FORROS 3º PAVTO2:VISTAS FORROS 3º PAVTO",
+              "VISTAS FORROS 3º PAVTO3:VISTAS FORROS 3º PAVTO"
+            ]
+          }
+        },
+        "total_area_m2": 0,
+        "total_length_m": 0
+      },
+      "slabs": {
+        "n": 157,
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "beams": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_length_m": 0
+      },
+      "columns": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_height_m": 0
+      },
+      "doors": {
+        "n": 329,
+        "by_type": {
+          "SM-POR-FER-1 Folha Basculante:280x250cm": 1,
+          "SM-POR-ELV-2 Folhas Correr:080x210cm": 24,
+          "SM-POR-PCI-1 Folha Abrir:090x210cm": 30,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:080x210cm   C/ Estrutura ": 5,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:4 Folhas-360x230cm-Vidr": 3,
+          "SM-SOL:Soleira": 5,
+          "SM-PJA-ALU-X Folhas Correr-2 Direções:4 Folhas-300x230cm-Vid": 2,
+          "SM-POR-MAD-1 Folha Correr-Embutida Aparente:070x210cm": 1,
+          "SM-POR-MAD-1 Folha Abrir:090x210cm": 57,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x240cm-Vidr": 1,
+          "SM-PJA-VID-CWA-2 Folhas Abrir:Vidro 8mm": 1,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:080x180cm   C/ Estrutura ": 1,
+          "SM-POR-MAD-1 Folha Abrir:080x210cm   C/ Guarnição": 2,
+          "SM-POR-MAD-1 Folha Abrir:070x210cm": 55,
+          "SM-PJA-ALU-CWA-X Folhas Correr-1 Direção:2 Folhas-Vidro 8mm": 1,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:180x210cm": 1,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:100x080cm": 34,
+          "SM-POR-ALU-1 Folha Alçapão:080x080cm": 1,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x220cm-Vidr": 20,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-240x220cm-Vidr": 22,
+          "SM-POR-FER-1 Folha Abrir:050x120cm branca": 28,
+          "SM-POR-FER-1 Folha Abrir:050x120cm cinza": 14,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:3 Folhas-220x280cm-Vidr": 2,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:3 Folhas-300x220cm-Vidr": 12,
+          "SM-POR-ELV-2 Folhas Correr1:080x210cm": 6
+        }
+      },
+      "windows": {
+        "n": 212,
+        "by_type": {
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-300x210cm-Vidro 8mm": 2,
+          "SM-JAN-Pingadeira:Pingadeira": 75,
+          "SM-JAN-ALU-X Folhas Maximar - X Folhas Fixas Inf:2 Folhas(1-": 6,
+          "SM-JAN-ALU-X Folhas Correr-1 Direção- X Folhas Fixas Inf:3 F": 44,
+          "SM-JAN-ALU-X Folhas Maximar:1 Folha-060x060cm-Vidro 8mm": 39,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x210cm-Vidro 8mm": 1,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada:92,5x100cm": 28,
+          "SM-JAN-VID-Porta padrão dimas:50x100": 1,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada1:125x075cm": 2,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x200cm-Vidro 8mm": 12,
+          "SM-JAN-ALU-X Folhas Maximar:1 Folha-055x060cm-Vidro 8mm": 2
+        }
+      },
+      "stairs": {
+        "n": 16
+      },
+      "railings": {
+        "n": 86,
+        "total_length_m": 0
+      },
+      "curtain_walls": {
+        "n": 92,
+        "total_area_m2": 0
+      },
+      "spaces": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "roofs": {
+        "n": 4,
+        "total_area_m2": 0
+      },
+      "coverings": {
+        "n": 205,
+        "by_type": {
+          "Compound Ceiling:SM-FOR-3.00cm  FG1": {
+            "n": 202,
+            "area_m2": 0
+          },
+          "Compound Ceiling:Ceiling 2": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "Fascia:SM-COB-REV-Calha Platibanda-AL7-20x20cm+10c": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "Fascia:SM-COB-REV-Rufo Metálico Chapa-AL7-12.5cm-3": {
+            "n": 1,
+            "area_m2": 0
+          }
+        },
+        "total_area_m2": 0
+      },
+      "duration_s": 12.0
+    },
+    {
+      "file": "PLA_ARM_ARQ_EX_IFC_R01.ifc",
+      "schema": "IFC4X3",
+      "walls": {
+        "n": 1185,
+        "by_type": {
+          "outros_?cm": {
+            "n": 19,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EST-CON-CN0 20cm",
+              "Basic Wall:SM-EST-CON-CN0 20cm",
+              "Basic Wall:SM-EST-CON-CN0 20cm"
+            ]
+          },
+          "outros_11cm": {
+            "n": 510,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
+              "Basic Wall:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
+              "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5"
+            ]
+          },
+          "outros_17cm": {
+            "n": 266,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+              "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+              "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1"
+            ]
+          },
+          "outros_14cm": {
+            "n": 262,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-INT-ALV-BE14   18cm-RI1-RI1",
+              "Basic Wall:SM-EXT-ALV-BE14   18cm-RE1/RE1",
+              "Basic Wall:SM-INT-ALV-BE14   18cm-RI1/RI1"
+            ]
+          },
+          "outros_10cm": {
+            "n": 7,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
+              "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
+              "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM"
+            ]
+          },
+          "outros_9cm": {
+            "n": 96,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
+              "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI2/RI1",
+              "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI2/RI2"
+            ]
+          },
+          "outros_5cm": {
+            "n": 2,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM",
+              "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM"
+            ]
+          },
+          "outros_48cm": {
+            "n": 18,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
+              "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
+              "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1"
+            ]
+          },
+          "outros_2cm": {
+            "n": 1,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "VISTAS FORRO 2º PAVTO:VISTAS FORRO 2º PAVTO"
+            ]
+          },
+          "outros_3cm": {
+            "n": 3,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "VISTAS FORROS 3º PAVTO1:VISTAS FORROS 3º PAVTO",
+              "VISTAS FORROS 3º PAVTO2:VISTAS FORROS 3º PAVTO",
+              "VISTAS FORROS 3º PAVTO3:VISTAS FORROS 3º PAVTO"
+            ]
+          },
+          "outros_1cm": {
+            "n": 1,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "VISTA DOS FORROS1:VISTA DOS FORROS"
+            ]
+          }
+        },
+        "total_area_m2": 0,
+        "total_length_m": 0
+      },
+      "slabs": {
+        "n": 155,
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "beams": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_length_m": 0
+      },
+      "columns": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_height_m": 0
+      },
+      "doors": {
+        "n": 615,
+        "by_type": {
+          "SM-POR-FER-1 Folha Basculante:280x250cm": 1,
+          "SM-SOL:Soleira": 290,
+          "SM-POR-ELV-2 Folhas Correr:080x210cm": 24,
+          "SM-POR-PCI-1 Folha Abrir:090x210cm": 30,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:080x210cm   C/ Estrutura ": 5,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:4 Folhas-360x230cm-Vidr": 3,
+          "SM-PJA-ALU-X Folhas Correr-2 Direções:4 Folhas-300x230cm-Vid": 2,
+          "SM-POR-MAD-1 Folha Correr-Embutida Aparente:070x210cm": 1,
+          "SM-POR-MAD-1 Folha Abrir:090x210cm": 57,
+          "SM-SOL-PE1:Soleira": 1,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x240cm-Vidr": 1,
+          "SM-PJA-VID-CWA-2 Folhas Abrir:Vidro 8mm": 1,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:080x180cm   C/ Estrutura ": 1,
+          "SM-POR-MAD-1 Folha Abrir:080x210cm   C/ Guarnição": 2,
+          "SM-POR-MAD-1 Folha Abrir:070x210cm": 55,
+          "SM-PJA-ALU-CWA-X Folhas Correr-1 Direção:2 Folhas-Vidro 8mm": 1,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:180x210cm": 1,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:100x080cm": 34,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x220cm-Vidr": 20,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-240x220cm-Vidr": 22,
+          "SM-POR-FER-1 Folha Abrir:050x120cm branca": 28,
+          "SM-POR-FER-1 Folha Abrir:050x120cm cinza": 14,
+          "SM-POR-ELV-2 Folhas Correr1:080x210cm": 6,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:3 Folhas-300x220cm-Vidr": 12,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:3 Folhas-220x280cm-Vidr": 2,
+          "SM-POR-ALU-1 Folha Alçapão:080x080cm": 1
+        }
+      },
+      "windows": {
+        "n": 243,
+        "by_type": {
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-300x210cm-Vidro 8mm": 2,
+          "SM-JAN-Pingadeira:Pingadeira": 106,
+          "SM-JAN-ALU-X Folhas Maximar - X Folhas Fixas Inf:2 Folhas(1-": 6,
+          "SM-JAN-ALU-X Folhas Correr-1 Direção- X Folhas Fixas Inf:3 F": 44,
+          "SM-JAN-ALU-X Folhas Maximar:1 Folha-060x060cm-Vidro 8mm": 39,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x210cm-Vidro 8mm": 1,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada:92,5x100cm": 28,
+          "SM-JAN-VID-Porta padrão dimas:50x100": 1,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x200cm-Vidro 8mm": 12,
+          "SM-JAN-ALU-X Folhas Maximar:1 Folha-055x060cm-Vidro 8mm": 2,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada1:125x075cm": 2
+        }
+      },
+      "stairs": {
+        "n": 16
+      },
+      "railings": {
+        "n": 86,
+        "total_length_m": 0
+      },
+      "curtain_walls": {
+        "n": 92,
+        "total_area_m2": 0
+      },
+      "spaces": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "roofs": {
+        "n": 4,
+        "total_area_m2": 0
+      },
+      "coverings": {
+        "n": 204,
+        "by_type": {
+          "Compound Ceiling:SM-FOR-3.00cm  FG1": {
+            "n": 202,
+            "area_m2": 0
+          },
+          "Fascia:SM-COB-REV-Calha Platibanda-AL7-20x20cm+10c": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "Fascia:SM-COB-REV-Rufo Metálico Chapa-AL7-12.5cm-3": {
+            "n": 1,
+            "area_m2": 0
+          }
+        },
+        "total_area_m2": 0
+      },
+      "duration_s": 11.3
+    },
+    {
+      "file": "PLA_ARM_ARQ_EP_R06.ifc",
+      "schema": "IFC2X3",
+      "walls": {
+        "n": 1837,
+        "by_type": {
+          "outros_?cm": {
+            "n": 24,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EST-CON-CN0 20cm",
+              "Parede básica:SM-EST-CON-CN0 20cm",
+              "Parede básica:SM-EST-CON-CN0 20cm"
+            ]
+          },
+          "outros_11cm": {
+            "n": 918,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
+              "Parede básica:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
+              "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5"
+            ]
+          },
+          "outros_17cm": {
+            "n": 368,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+              "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+              "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1"
+            ]
+          },
+          "outros_14cm": {
+            "n": 364,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-ALV-BE14   18cm-RE1/RE1",
+              "Parede básica:SM-INT-ALV-BE14   18cm-RI1/RI1",
+              "Parede básica:SM-INT-ALV-BE14   18cm-RI1/RI1"
+            ]
+          },
+          "outros_10cm": {
+            "n": 13,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM",
+              "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM",
+              "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM"
+            ]
+          },
+          "outros_9cm": {
+            "n": 146,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
+              "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
+              "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1"
+            ]
+          },
+          "outros_5cm": {
+            "n": 4,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-MET-FACHADA ACM 5CM",
+              "Parede básica:SM-EXT-MET-FACHADA ACM 5CM",
+              "Parede básica:SM-EXT-MET-FACHADA ACM 5CM"
+            ]
+          }
+        },
+        "total_area_m2": 0,
+        "total_length_m": 0
+      },
+      "slabs": {
+        "n": 158,
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "beams": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_length_m": 0
+      },
+      "columns": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_height_m": 0
+      },
+      "doors": {
+        "n": 345,
+        "by_type": {
+          "SM-POR-FER-1 Folha Basculante:280x250cm": 1,
+          "SM-POR-ELV-2 Folhas Correr:080x210cm": 24,
+          "SM-POR-PCI-1 Folha Abrir:080x210cm": 30,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:080x210cm   C/ Estrutura ": 5,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:4 Folhas-360x230cm-Vidr": 3,
+          "SM-SOL:Soleira": 4,
+          "SM-PJA-ALU-X Folhas Correr-2 Direções:4 Folhas-300x230cm-Vid": 1,
+          "SM-POR-MAD-1 Folha Correr-Embutida Aparente:070x210cm": 1,
+          "SM-POR-MAD-1 Folha Abrir:090x210cm": 57,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x240cm-Vidr": 1,
+          "SM-PJA-VID-CWA-2 Folhas Abrir:Vidro 8mm": 1,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:080x180cm   C/ Estrutura ": 1,
+          "SM-POR-MAD-1 Folha Abrir:080x210cm   C/ Guarnição": 2,
+          "SM-POR-MAD-1 Folha Abrir:070x210cm": 55,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:100x080cm": 56,
+          "SM-PJA-ALU-CWA-X Folhas Correr-1 Direção:2 Folhas-Vidro 8mm": 1,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:180x210cm": 1,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x220cm-Vidr": 20,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-240x220cm-Vidr": 20,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:050x150cm   C/ Estrutura ": 42,
+          "SM-POR-ALU-1 Folha Alçapão:080x080cm": 1,
+          "SM-POR-ELV-2 Folhas Correr1:080x210cm": 6,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:3 Folhas-300x220cm-Vidr": 12
+        }
+      },
+      "windows": {
+        "n": 218,
+        "by_type": {
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-300x210cm-Vidro 8mm": 2,
+          "SM-JAN-Pingadeira:Pingadeira": 77,
+          "SM-JAN-ALU-X Folhas Maximar - X Folhas Fixas Inf:2 Folhas(1-": 6,
+          "SM-JAN-ALU-X Folhas Correr-1 Direção- X Folhas Fixas Inf:3 F": 48,
+          "SM-JAN-ALU-X Folhas Maximar:1 Folha-060x060cm-Vidro 8mm": 41,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x210cm-Vidro 8mm": 1,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada:92,5x100cm": 28,
+          "SM-JAN-VID-Porta padrão dimas:50x100": 1,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x200cm-Vidro 8mm": 12,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada:125x075cm": 2
+        }
+      },
+      "stairs": {
+        "n": 16
+      },
+      "railings": {
+        "n": 84,
+        "total_length_m": 0
+      },
+      "curtain_walls": {
+        "n": 93,
+        "total_area_m2": 0
+      },
+      "spaces": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "roofs": {
+        "n": 4,
+        "total_area_m2": 0
+      },
+      "coverings": {
+        "n": 193,
+        "by_type": {
+          "Forro composto:SM-FOR-3.00cm  FG1": {
+            "n": 192,
+            "area_m2": 0
+          },
+          "Borda:SM-COB-REV-Calha Platibanda-AL7-20x15cm+10cm": {
+            "n": 1,
+            "area_m2": 0
+          }
+        },
+        "total_area_m2": 0
+      },
+      "duration_s": 9.8
+    },
+    {
+      "file": "SAO_PLACON ARMÍNIO_AP_R01.ifc",
+      "schema": "IFC2X3",
+      "walls": {
+        "n": 1761,
+        "by_type": {
+          "outros_?cm": {
+            "n": 24,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EST-CON-CN0 20cm",
+              "Parede básica:SM-EST-CON-CN0 20cm",
+              "Parede básica:SM-EST-CON-CN0 20cm"
+            ]
+          },
+          "outros_11cm": {
+            "n": 857,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
+              "Parede básica:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
+              "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5"
+            ]
+          },
+          "outros_17cm": {
+            "n": 350,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+              "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+              "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1"
+            ]
+          },
+          "outros_14cm": {
+            "n": 346,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-ALV-BE14   18cm-RE1/RE1",
+              "Parede básica:SM-INT-ALV-BE14   18cm-RI1/RI1",
+              "Parede básica:SM-INT-ALV-BE14   18cm-RI1/RI1"
+            ]
+          },
+          "outros_10cm": {
+            "n": 13,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM",
+              "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM",
+              "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM"
+            ]
+          },
+          "outros_9cm": {
+            "n": 133,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
+              "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
+              "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1"
+            ]
+          },
+          "outros_48cm": {
+            "n": 34,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-INT-DRW-MM48   10cm-RI1/RI1",
+              "Parede básica:SM-INT-DRW-MM48   10cm-RI1/RI1",
+              "Parede básica:SM-INT-DRW-MM48   10cm-RI1/RI1"
+            ]
+          },
+          "outros_5cm": {
+            "n": 4,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:SM-EXT-MET-FACHADA ACM 5CM",
+              "Parede básica:SM-EXT-MET-FACHADA ACM 5CM",
+              "Parede básica:SM-EXT-MET-FACHADA ACM 5CM"
+            ]
+          }
+        },
+        "total_area_m2": 0,
+        "total_length_m": 0
+      },
+      "slabs": {
+        "n": 146,
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "beams": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_length_m": 0
+      },
+      "columns": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_height_m": 0
+      },
+      "doors": {
+        "n": 319,
+        "by_type": {
+          "SM-POR-FER-1 Folha Basculante:280x250cm": 1,
+          "SM-POR-ELV-2 Folhas Correr:080x210cm": 24,
+          "SM-POR-PCI-1 Folha Abrir:080x210cm": 30,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:080x210cm   C/ Estrutura ": 3,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:4 Folhas-360x230cm-Vidr": 3,
+          "SM-SOL:Soleira": 4,
+          "SM-PJA-ALU-X Folhas Correr-2 Direções:4 Folhas-300x230cm-Vid": 1,
+          "SM-POR-MAD-1 Folha Correr-Embutida Aparente:070x210cm": 1,
+          "SM-POR-MAD-1 Folha Abrir:090x210cm": 57,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x240cm-Vidr": 1,
+          "SM-PJA-VID-CWA-2 Folhas Abrir:Vidro 8mm": 1,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:080x180cm   C/ Estrutura ": 1,
+          "SM-POR-MAD-1 Folha Abrir:080x210cm   C/ Guarnição": 2,
+          "SM-POR-MAD-1 Folha Abrir:070x210cm": 55,
+          "SM-PJA-ALU-CWA-X Folhas Correr-1 Direção:2 Folhas-Vidro 8mm": 1,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:180x210cm": 1,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:99x080cm 2": 2,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:100x080cm": 32,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x220cm-Vidr": 20,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-240x220cm-Vidr": 20,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:050x150cm   C/ Estrutura ": 41,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:3 Folhas-300x220cm-Vidr": 12,
+          "SM-POR-ELV-2 Folhas Correr1:080x210cm": 6
+        }
+      },
+      "windows": {
+        "n": 216,
+        "by_type": {
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-300x210cm-Vidro 8mm": 2,
+          "SM-JAN-Pingadeira:Pingadeira": 77,
+          "SM-JAN-ALU-X Folhas Maximar - X Folhas Fixas Inf:2 Folhas(1-": 6,
+          "SM-JAN-ALU-X Folhas Correr-1 Direção- X Folhas Fixas Inf:3 F": 48,
+          "SM-JAN-ALU-X Folhas Maximar:1 Folha-060x060cm-Vidro 8mm": 41,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x210cm-Vidro 8mm": 1,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada:92,5x100cm": 28,
+          "SM-JAN-VID-Porta padrão dimas:50x100": 1,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x200cm-Vidro 8mm": 12
+        }
+      },
+      "stairs": {
+        "n": 16
+      },
+      "railings": {
+        "n": 84,
+        "total_length_m": 0
+      },
+      "curtain_walls": {
+        "n": 93,
+        "total_area_m2": 0
+      },
+      "spaces": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "roofs": {
+        "n": 2,
+        "total_area_m2": 0
+      },
+      "coverings": {
+        "n": 183,
+        "by_type": {
+          "Forro composto:SM-FOR-3.00cm  FG1": {
+            "n": 183,
+            "area_m2": 0
+          }
+        },
+        "total_area_m2": 0
+      },
+      "duration_s": 9.5
+    },
+    {
+      "file": "Ihs_EX_Placon_Armínio Tavares_R00.ifc",
+      "schema": "IFC2X3",
+      "walls": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0,
+        "total_length_m": 0
+      },
+      "slabs": {
+        "n": 0,
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "beams": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_length_m": 0
+      },
+      "columns": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_height_m": 0
+      },
+      "doors": {
+        "n": 0,
+        "by_type": {}
+      },
+      "windows": {
+        "n": 0,
+        "by_type": {}
+      },
+      "stairs": {
+        "n": 0
+      },
+      "railings": {
+        "n": 0,
+        "total_length_m": 0
+      },
+      "curtain_walls": {
+        "n": 0,
+        "total_area_m2": 0
+      },
+      "spaces": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "roofs": {
+        "n": 0,
+        "total_area_m2": 0
+      },
+      "coverings": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0
+      },
+      "duration_s": 5.4
+    },
+    {
+      "file": "PLA_ARM_CLI_EX_IFC_R01.ifc",
+      "schema": "IFC2X3",
+      "walls": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0,
+        "total_length_m": 0
+      },
+      "slabs": {
+        "n": 0,
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "beams": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_length_m": 0
+      },
+      "columns": {
+        "n": 0,
+        "total_volume_m3": 0,
+        "total_height_m": 0
+      },
+      "doors": {
+        "n": 0,
+        "by_type": {}
+      },
+      "windows": {
+        "n": 0,
+        "by_type": {}
+      },
+      "stairs": {
+        "n": 0
+      },
+      "railings": {
+        "n": 0,
+        "total_length_m": 0
+      },
+      "curtain_walls": {
+        "n": 0,
+        "total_area_m2": 0
+      },
+      "spaces": {
+        "n": 4,
+        "by_type": {
+          "Ambiente": {
+            "n": 4,
+            "area_m2": 0
+          }
+        },
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "roofs": {
+        "n": 0,
+        "total_area_m2": 0
+      },
+      "coverings": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0
+      },
+      "duration_s": 2.3
+    },
+    {
+      "file": "PLA_ARM_EST_AP_IFC_REV09.ifc",
+      "schema": "IFC4",
+      "walls": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0,
+        "total_length_m": 0
+      },
+      "slabs": {
+        "n": 301,
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "beams": {
+        "n": 736,
+        "total_volume_m3": 0,
+        "total_length_m": 0
+      },
+      "columns": {
+        "n": 193,
+        "total_volume_m3": 0,
+        "total_height_m": 0
+      },
+      "doors": {
+        "n": 0,
+        "by_type": {}
+      },
+      "windows": {
+        "n": 0,
+        "by_type": {}
+      },
+      "stairs": {
+        "n": 30
+      },
+      "railings": {
+        "n": 0,
+        "total_length_m": 0
+      },
+      "curtain_walls": {
+        "n": 0,
+        "total_area_m2": 0
+      },
+      "spaces": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "roofs": {
+        "n": 0,
+        "total_area_m2": 0
+      },
+      "coverings": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0
+      },
+      "duration_s": 2.0
+    }
+  ],
+  "consolidado": {
+    "walls": {
+      "n": 6684,
+      "by_type": {
+        "outros_?cm": {
+          "n": 93,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_11cm": {
+          "n": 3186,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_17cm": {
+          "n": 1372,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_14cm": {
+          "n": 1348,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_10cm": {
+          "n": 46,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_9cm": {
+          "n": 524,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_5cm": {
+          "n": 13,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_48cm": {
+          "n": 86,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_2cm": {
+          "n": 2,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_1cm": {
+          "n": 2,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_3cm": {
+          "n": 12,
+          "area_m2": 0,
+          "length_m": 0
+        }
+      },
+      "total_area_m2": 0,
+      "total_length_m": 0
+    },
+    "slabs": {
+      "n": 917,
+      "total_area_m2": 0,
+      "total_volume_m3": 0
+    },
+    "beams": {
+      "n": 736,
+      "total_volume_m3": 0,
+      "total_length_m": 0
+    },
+    "columns": {
+      "n": 193,
+      "total_volume_m3": 0,
+      "total_height_m": 0
+    },
+    "doors": {
+      "n": 1608,
+      "by_type": {
+        "SM-POR-FER-1 Folha Basculante:280x250cm": 4,
+        "SM-POR-ELV-2 Folhas Correr:080x210cm": 96,
+        "SM-POR-PCI-1 Folha Abrir:090x210cm": 60,
+        "SM-POR-ALU-1 Folha Abrir-Veneziana:080x210cm   C/ Estrutura ": 18,
+        "SM-PJA-ALU-X Folhas Correr-1 Direção:4 Folhas-360x230cm-Vidr": 12,
+        "SM-SOL:Soleira": 303,
+        "SM-PJA-ALU-X Folhas Correr-2 Direções:4 Folhas-300x230cm-Vid": 6,
+        "SM-POR-MAD-1 Folha Correr-Embutida Aparente:070x210cm": 4,
+        "SM-POR-MAD-1 Folha Abrir:090x210cm": 228,
+        "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x240cm-Vidr": 4,
+        "SM-PJA-VID-CWA-2 Folhas Abrir:Vidro 8mm": 4,
+        "SM-POR-ALU-1 Folha Abrir-Veneziana:080x180cm   C/ Estrutura ": 4,
+        "SM-POR-MAD-1 Folha Abrir:080x210cm   C/ Guarnição": 8,
+        "SM-POR-MAD-1 Folha Abrir:070x210cm": 220,
+        "SM-PJA-ALU-CWA-X Folhas Correr-1 Direção:2 Folhas-Vidro 8mm": 4,
+        "SM-POR-ALU-2 Folhas Abrir-Veneziana:180x210cm": 4,
+        "SM-POR-ALU-2 Folhas Abrir-Veneziana:100x080cm": 156,
+        "SM-POR-ALU-1 Folha Alçapão:080x080cm": 3,
+        "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x220cm-Vidr": 80,
+        "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-240x220cm-Vidr": 84,
+        "SM-POR-FER-1 Folha Abrir:050x120cm branca": 56,
+        "SM-POR-FER-1 Folha Abrir:050x120cm cinza": 28,
+        "SM-PJA-ALU-X Folhas Correr-1 Direção:3 Folhas-220x280cm-Vidr": 4,
+        "SM-PJA-ALU-X Folhas Correr-1 Direção:3 Folhas-300x220cm-Vidr": 48,
+        "SM-POR-ELV-2 Folhas Correr1:080x210cm": 24,
+        "SM-SOL-PE1:Soleira": 1,
+        "SM-POR-PCI-1 Folha Abrir:080x210cm": 60,
+        "SM-POR-ALU-1 Folha Abrir-Veneziana:050x150cm   C/ Estrutura ": 83,
+        "SM-POR-ALU-2 Folhas Abrir-Veneziana:99x080cm 2": 2
+      }
+    },
+    "windows": {
+      "n": 889,
+      "by_type": {
+        "SM-JAN-ALU-X Folhas Fixas:3 Folhas-300x210cm-Vidro 8mm": 8,
+        "SM-JAN-Pingadeira:Pingadeira": 335,
+        "SM-JAN-ALU-X Folhas Maximar - X Folhas Fixas Inf:2 Folhas(1-": 24,
+        "SM-JAN-ALU-X Folhas Correr-1 Direção- X Folhas Fixas Inf:3 F": 184,
+        "SM-JAN-ALU-X Folhas Maximar:1 Folha-060x060cm-Vidro 8mm": 160,
+        "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x210cm-Vidro 8mm": 4,
+        "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada:92,5x100cm": 112,
+        "SM-JAN-VID-Porta padrão dimas:50x100": 4,
+        "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada1:125x075cm": 4,
+        "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x200cm-Vidro 8mm": 48,
+        "SM-JAN-ALU-X Folhas Maximar:1 Folha-055x060cm-Vidro 8mm": 4,
+        "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada:125x075cm": 2
+      }
+    },
+    "stairs": {
+      "n": 94
+    },
+    "railings": {
+      "n": 340,
+      "total_length_m": 0
+    },
+    "curtain_walls": {
+      "n": 370,
+      "total_area_m2": 0
+    },
+    "spaces": {
+      "n": 4,
+      "by_type": {
+        "Ambiente": {
+          "n": 4,
+          "area_m2": 0
+        }
+      },
+      "total_area_m2": 0,
+      "total_volume_m3": 0
+    },
+    "roofs": {
+      "n": 14,
+      "total_area_m2": 0
+    },
+    "coverings": {
+      "n": 785,
+      "by_type": {
+        "Compound Ceiling:SM-FOR-3.00cm  FG1": {
+          "n": 404,
+          "area_m2": 0
+        },
+        "Compound Ceiling:Ceiling 2": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "Fascia:SM-COB-REV-Calha Platibanda-AL7-20x20cm+10c": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "Fascia:SM-COB-REV-Rufo Metálico Chapa-AL7-12.5cm-3": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "Forro composto:SM-FOR-3.00cm  FG1": {
+          "n": 375,
+          "area_m2": 0
+        },
+        "Borda:SM-COB-REV-Calha Platibanda-AL7-20x15cm+10cm": {
+          "n": 1,
+          "area_m2": 0
+        }
+      },
+      "total_area_m2": 0
+    }
+  },
+  "duration_s": 59.7
+}

@@ -1,0 +1,969 @@
+{
+  "projeto": "arthen-arboris",
+  "ts": "2026-04-13T23:07:13",
+  "n_ifcs": 1,
+  "files": [
+    {
+      "file": "CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
+      "schema": "IFC2X3",
+      "walls": {
+        "n": 19525,
+        "by_type": {
+          "bloco_ceramico_14cm": {
+            "n": 6387,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:ALV_14_BLOCO CERAMICO",
+              "Parede básica:ALV_14_BLOCO CERAMICO",
+              "Parede básica:ALV_14_BLOCO CERAMICO"
+            ]
+          },
+          "outros_?cm": {
+            "n": 36,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:REV MAD",
+              "Parede básica:ESCURO",
+              "Parede básica:led"
+            ]
+          },
+          "outros_20cm": {
+            "n": 4,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:20_EXTERIOR BRA",
+              "Parede básica:20_EXTERIOR BRA",
+              "Parede básica:20_EXTERIOR BRA"
+            ]
+          },
+          "outros_2cm": {
+            "n": 10746,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "LED 02:LED 02",
+              "Parede básica:REV_2,5_REBOCO INTERNO",
+              "Parede básica:REV_2,5_REBOCO INTERNO"
+            ]
+          },
+          "outros_1cm": {
+            "n": 10,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "LED1:LED",
+              "Detalhe Fachada1:Detalhe Fachada",
+              "Parede básica:1MAD"
+            ]
+          },
+          "outros_3cm": {
+            "n": 1436,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:REV_3,5_REBOCO EXTERNO",
+              "Parede básica:REV_3,5_REBOCO EXTERNO",
+              "Parede básica:REV_3,5_REBOCO EXTERNO"
+            ]
+          },
+          "drywall_11cm": {
+            "n": 36,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:ALV_11,5_DRYWALL",
+              "Parede básica:ALV_11,5_DRYWALL",
+              "Parede básica:ALV_11,5_DRYWALL"
+            ]
+          },
+          "bloco_ceramico_19cm": {
+            "n": 810,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:ALV_19_BLOCO CERAMICO",
+              "Parede básica:ALV_19_BLOCO CERAMICO",
+              "Parede básica:ALV_19_BLOCO CERAMICO"
+            ]
+          },
+          "bloco_ceramico_9cm": {
+            "n": 30,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:ALV_9_BLOCO CERAMICO",
+              "Parede básica:ALV_9_BLOCO CERAMICO",
+              "Parede básica:ALV_9_BLOCO CERAMICO"
+            ]
+          },
+          "bloco_ceramico_5cm": {
+            "n": 30,
+            "area_m2": 0,
+            "length_m": 0,
+            "example_names": [
+              "Parede básica:ALV_5_BLOCO CERAMICO",
+              "Parede básica:ALV_5_BLOCO CERAMICO",
+              "Parede básica:ALV_5_BLOCO CERAMICO"
+            ]
+          }
+        },
+        "total_area_m2": 0,
+        "total_length_m": 0
+      },
+      "slabs": {
+        "n": 1068,
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "beams": {
+        "n": 1279,
+        "total_volume_m3": 0,
+        "total_length_m": 0
+      },
+      "columns": {
+        "n": 461,
+        "total_volume_m3": 0,
+        "total_height_m": 0
+      },
+      "doors": {
+        "n": 735,
+        "by_type": {
+          "PORTA SIMPLES:PCF 90 x 210 cm": 12,
+          "PORTA DE GIRO - CORTINA:PORTA DE GIRO - CORTINA PV02": 9,
+          "PORTÃO DE GARAGEM:350 x 250": 1,
+          "PORTA DE GIRO - INTERNA:90 x 210 PCD": 9,
+          "PORTA DE GIRO - 1 FOLHA:80 x 210": 2,
+          "PORTA DE GIRO - CORTINA:PORTA DE GIRO - CORTINA": 1,
+          "PORTA DO ELEVADOR:PE": 40,
+          "PORTA SIMPLES:70 x 210 cm": 197,
+          "PORTA SIMPLES:90 x 210 cm": 75,
+          "PORTA VENEZIANA  COM BANDEIRA - METÁLICA:80 x 210": 60,
+          "PORTA SIMPLES:80 x 210 cm": 210,
+          "PORTA SIMPLES:CORRER -  70 x 210 cm": 45,
+          "PORTA DE CORRER - DUPLA:260x210": 30,
+          "PORTA DE CORRER - DUPLA:250": 30,
+          "PORTA SIMPLES:DUPLA - 150 x 210": 1,
+          "PORTA SIMPLES:CORRER -  80 x 210 cm": 1,
+          "PORTA DE GIRO - 1 FOLHA:90 x 210": 1,
+          "PORTA DE GIRO - 1 FOLHA:70 x 210": 3,
+          "PORTA DE CORRER - CORTINA:PORTA DE DESLIZAR - VIDRO PV01": 2,
+          "PORTA DE CORRER - DUPLA:200X210": 5,
+          "PORTA DE CORRER - DUPLA:120 X 210": 1
+        }
+      },
+      "windows": {
+        "n": 400,
+        "by_type": {
+          "JANELA FIXA - 1 FOLHA:80 x 80": 40,
+          "JANELA PADRÃO:150x120_2 FOLHAS": 120,
+          "JANELA PADRÃO:120x120_2 FOLHAS": 60,
+          "JANELA FIXA - 1 FOLHA:50x80": 30,
+          "JANELA FIXA - 1 FOLHA:60x80": 120,
+          "JANELA BASCULANTE HORIZONTAL - 3 FOLHAS:60x80": 30
+        }
+      },
+      "stairs": {
+        "n": 26
+      },
+      "railings": {
+        "n": 60,
+        "total_length_m": 0
+      },
+      "curtain_walls": {
+        "n": 495,
+        "total_area_m2": 0
+      },
+      "spaces": {
+        "n": 1238,
+        "by_type": {
+          "LOJA 06": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "LOJA 05": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "LOJA 01": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "LOJA 02": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "LOJA 03": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "HALL": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "ACADEMIA": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "LOJA 07": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "ÁREA DE CIRCULAÇÃO E MANOBRA": {
+            "n": 6,
+            "area_m2": 0
+          },
+          "ESCADA": {
+            "n": 20,
+            "area_m2": 0
+          },
+          "ANTECÂMARA": {
+            "n": 20,
+            "area_m2": 0
+          },
+          "ELEVADOR": {
+            "n": 40,
+            "area_m2": 0
+          },
+          "LOJA 04": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "LAVA-PÉS": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "PETCARE": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "CIRCULAÇÃO DE USO COMUM": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "ÁREA DE LAZER COBERTA": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "LOJA 08": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "RAMPA": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "RESERVATÓRIOS": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "CIRCULAÇÃO VERTICAL": {
+            "n": 4,
+            "area_m2": 0
+          },
+          "ÁREA": {
+            "n": 24,
+            "area_m2": 0
+          },
+          "LAVAPÉS": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "MEDIDORES": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "GERADOR": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "TIPO 01": {
+            "n": 34,
+            "area_m2": 0
+          },
+          "TIPO 02": {
+            "n": 34,
+            "area_m2": 0
+          },
+          "TIPO 03": {
+            "n": 34,
+            "area_m2": 0
+          },
+          "TIPO 04": {
+            "n": 34,
+            "area_m2": 0
+          },
+          "TIPO 05": {
+            "n": 34,
+            "area_m2": 0
+          },
+          "CIRC. VERTICAL": {
+            "n": 35,
+            "area_m2": 0
+          },
+          "CIRCULAÇÃO": {
+            "n": 36,
+            "area_m2": 0
+          },
+          "ÁREA TÉCNICA": {
+            "n": 69,
+            "area_m2": 0
+          },
+          "TIPO 06": {
+            "n": 34,
+            "area_m2": 0
+          },
+          "TORRE": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "EMBASAMENTO": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "D.E.A": {
+            "n": 20,
+            "area_m2": 0
+          },
+          "D.E.F": {
+            "n": 20,
+            "area_m2": 0
+          },
+          "DEP. LIXO": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "LAVABO": {
+            "n": 71,
+            "area_m2": 0
+          },
+          "DEP.LIXO": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "QUADRO ELÉTRICO": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "SUÍTE": {
+            "n": 150,
+            "area_m2": 0
+          },
+          "LIVING": {
+            "n": 90,
+            "area_m2": 0
+          },
+          "BWC": {
+            "n": 180,
+            "area_m2": 0
+          },
+          "SACADA": {
+            "n": 60,
+            "area_m2": 0
+          },
+          "DUTO": {
+            "n": 15,
+            "area_m2": 0
+          },
+          "HALL DOS APARTAMENTOS": {
+            "n": 15,
+            "area_m2": 0
+          },
+          "DORMITÓRIO": {
+            "n": 60,
+            "area_m2": 0
+          },
+          "Laje técnica": {
+            "n": 30,
+            "area_m2": 0
+          },
+          "COWORKING": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "PET PLACE": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "LAVABO PCD": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "PISCINA ADULTO": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "PISCINA INFANTIL": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "ÁREA GOURMET 01": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "BRINQUEDOTECA INCLUSIVA": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "SMART MARKET": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "SAUNA": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "ÁREA GOURMET 02": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "LAVABO COM FRALDARIO": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "SPA": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "FIREPLACE": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "DECK ELEVADO": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "LAZER DESCOBERTO": {
+            "n": 2,
+            "area_m2": 0
+          },
+          "LAZER COBERTO": {
+            "n": 3,
+            "area_m2": 0
+          },
+          "RESERVATÓRIO SUPERIOR": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "CASA DE MÁQUINAS": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "SALA DE JOGOS": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "PLAYGROUND": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "LOUNGE": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "PRAINHA": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "RESERVATÓRIO": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "TERRAÇO TIPO 01": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "TERRAÇO TIPO 02": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "TERRAÇO TIPO 03": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "TERRAÇO TIPO 04": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "TERRAÇO TIPO 05": {
+            "n": 1,
+            "area_m2": 0
+          },
+          "TERRAÇO TIPO 06": {
+            "n": 1,
+            "area_m2": 0
+          }
+        },
+        "total_area_m2": 0,
+        "total_volume_m3": 0
+      },
+      "roofs": {
+        "n": 2,
+        "total_area_m2": 0
+      },
+      "coverings": {
+        "n": 0,
+        "by_type": {},
+        "total_area_m2": 0
+      },
+      "duration_s": 18.8
+    }
+  ],
+  "consolidado": {
+    "walls": {
+      "n": 19525,
+      "by_type": {
+        "bloco_ceramico_14cm": {
+          "n": 6387,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_?cm": {
+          "n": 36,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_20cm": {
+          "n": 4,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_2cm": {
+          "n": 10746,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_1cm": {
+          "n": 10,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "outros_3cm": {
+          "n": 1436,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "drywall_11cm": {
+          "n": 36,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "bloco_ceramico_19cm": {
+          "n": 810,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "bloco_ceramico_9cm": {
+          "n": 30,
+          "area_m2": 0,
+          "length_m": 0
+        },
+        "bloco_ceramico_5cm": {
+          "n": 30,
+          "area_m2": 0,
+          "length_m": 0
+        }
+      },
+      "total_area_m2": 0,
+      "total_length_m": 0
+    },
+    "slabs": {
+      "n": 1068,
+      "total_area_m2": 0,
+      "total_volume_m3": 0
+    },
+    "beams": {
+      "n": 1279,
+      "total_volume_m3": 0,
+      "total_length_m": 0
+    },
+    "columns": {
+      "n": 461,
+      "total_volume_m3": 0,
+      "total_height_m": 0
+    },
+    "doors": {
+      "n": 735,
+      "by_type": {
+        "PORTA SIMPLES:PCF 90 x 210 cm": 12,
+        "PORTA DE GIRO - CORTINA:PORTA DE GIRO - CORTINA PV02": 9,
+        "PORTÃO DE GARAGEM:350 x 250": 1,
+        "PORTA DE GIRO - INTERNA:90 x 210 PCD": 9,
+        "PORTA DE GIRO - 1 FOLHA:80 x 210": 2,
+        "PORTA DE GIRO - CORTINA:PORTA DE GIRO - CORTINA": 1,
+        "PORTA DO ELEVADOR:PE": 40,
+        "PORTA SIMPLES:70 x 210 cm": 197,
+        "PORTA SIMPLES:90 x 210 cm": 75,
+        "PORTA VENEZIANA  COM BANDEIRA - METÁLICA:80 x 210": 60,
+        "PORTA SIMPLES:80 x 210 cm": 210,
+        "PORTA SIMPLES:CORRER -  70 x 210 cm": 45,
+        "PORTA DE CORRER - DUPLA:260x210": 30,
+        "PORTA DE CORRER - DUPLA:250": 30,
+        "PORTA SIMPLES:DUPLA - 150 x 210": 1,
+        "PORTA SIMPLES:CORRER -  80 x 210 cm": 1,
+        "PORTA DE GIRO - 1 FOLHA:90 x 210": 1,
+        "PORTA DE GIRO - 1 FOLHA:70 x 210": 3,
+        "PORTA DE CORRER - CORTINA:PORTA DE DESLIZAR - VIDRO PV01": 2,
+        "PORTA DE CORRER - DUPLA:200X210": 5,
+        "PORTA DE CORRER - DUPLA:120 X 210": 1
+      }
+    },
+    "windows": {
+      "n": 400,
+      "by_type": {
+        "JANELA FIXA - 1 FOLHA:80 x 80": 40,
+        "JANELA PADRÃO:150x120_2 FOLHAS": 120,
+        "JANELA PADRÃO:120x120_2 FOLHAS": 60,
+        "JANELA FIXA - 1 FOLHA:50x80": 30,
+        "JANELA FIXA - 1 FOLHA:60x80": 120,
+        "JANELA BASCULANTE HORIZONTAL - 3 FOLHAS:60x80": 30
+      }
+    },
+    "stairs": {
+      "n": 26
+    },
+    "railings": {
+      "n": 60,
+      "total_length_m": 0
+    },
+    "curtain_walls": {
+      "n": 495,
+      "total_area_m2": 0
+    },
+    "spaces": {
+      "n": 1238,
+      "by_type": {
+        "LOJA 06": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "LOJA 05": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "LOJA 01": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "LOJA 02": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "LOJA 03": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "HALL": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "ACADEMIA": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "LOJA 07": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "ÁREA DE CIRCULAÇÃO E MANOBRA": {
+          "n": 6,
+          "area_m2": 0
+        },
+        "ESCADA": {
+          "n": 20,
+          "area_m2": 0
+        },
+        "ANTECÂMARA": {
+          "n": 20,
+          "area_m2": 0
+        },
+        "ELEVADOR": {
+          "n": 40,
+          "area_m2": 0
+        },
+        "LOJA 04": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "LAVA-PÉS": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "PETCARE": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "CIRCULAÇÃO DE USO COMUM": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "ÁREA DE LAZER COBERTA": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "LOJA 08": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "RAMPA": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "RESERVATÓRIOS": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "CIRCULAÇÃO VERTICAL": {
+          "n": 4,
+          "area_m2": 0
+        },
+        "ÁREA": {
+          "n": 24,
+          "area_m2": 0
+        },
+        "LAVAPÉS": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "MEDIDORES": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "GERADOR": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "TIPO 01": {
+          "n": 34,
+          "area_m2": 0
+        },
+        "TIPO 02": {
+          "n": 34,
+          "area_m2": 0
+        },
+        "TIPO 03": {
+          "n": 34,
+          "area_m2": 0
+        },
+        "TIPO 04": {
+          "n": 34,
+          "area_m2": 0
+        },
+        "TIPO 05": {
+          "n": 34,
+          "area_m2": 0
+        },
+        "CIRC. VERTICAL": {
+          "n": 35,
+          "area_m2": 0
+        },
+        "CIRCULAÇÃO": {
+          "n": 36,
+          "area_m2": 0
+        },
+        "ÁREA TÉCNICA": {
+          "n": 69,
+          "area_m2": 0
+        },
+        "TIPO 06": {
+          "n": 34,
+          "area_m2": 0
+        },
+        "TORRE": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "EMBASAMENTO": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "D.E.A": {
+          "n": 20,
+          "area_m2": 0
+        },
+        "D.E.F": {
+          "n": 20,
+          "area_m2": 0
+        },
+        "DEP. LIXO": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "LAVABO": {
+          "n": 71,
+          "area_m2": 0
+        },
+        "DEP.LIXO": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "QUADRO ELÉTRICO": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "SUÍTE": {
+          "n": 150,
+          "area_m2": 0
+        },
+        "LIVING": {
+          "n": 90,
+          "area_m2": 0
+        },
+        "BWC": {
+          "n": 180,
+          "area_m2": 0
+        },
+        "SACADA": {
+          "n": 60,
+          "area_m2": 0
+        },
+        "DUTO": {
+          "n": 15,
+          "area_m2": 0
+        },
+        "HALL DOS APARTAMENTOS": {
+          "n": 15,
+          "area_m2": 0
+        },
+        "DORMITÓRIO": {
+          "n": 60,
+          "area_m2": 0
+        },
+        "Laje técnica": {
+          "n": 30,
+          "area_m2": 0
+        },
+        "COWORKING": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "PET PLACE": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "LAVABO PCD": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "PISCINA ADULTO": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "PISCINA INFANTIL": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "ÁREA GOURMET 01": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "BRINQUEDOTECA INCLUSIVA": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "SMART MARKET": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "SAUNA": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "ÁREA GOURMET 02": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "LAVABO COM FRALDARIO": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "SPA": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "FIREPLACE": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "DECK ELEVADO": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "LAZER DESCOBERTO": {
+          "n": 2,
+          "area_m2": 0
+        },
+        "LAZER COBERTO": {
+          "n": 3,
+          "area_m2": 0
+        },
+        "RESERVATÓRIO SUPERIOR": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "CASA DE MÁQUINAS": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "SALA DE JOGOS": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "PLAYGROUND": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "LOUNGE": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "PRAINHA": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "RESERVATÓRIO": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "TERRAÇO TIPO 01": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "TERRAÇO TIPO 02": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "TERRAÇO TIPO 03": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "TERRAÇO TIPO 04": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "TERRAÇO TIPO 05": {
+          "n": 1,
+          "area_m2": 0
+        },
+        "TERRAÇO TIPO 06": {
+          "n": 1,
+          "area_m2": 0
+        }
+      },
+      "total_area_m2": 0,
+      "total_volume_m3": 0
+    },
+    "roofs": {
+      "n": 2,
+      "total_area_m2": 0
+    },
+    "coverings": {
+      "n": 0,
+      "by_type": {},
+      "total_area_m2": 0
+    }
+  },
+  "duration_s": 20.4
+}
