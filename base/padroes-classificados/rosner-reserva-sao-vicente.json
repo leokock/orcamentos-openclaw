@@ -1,0 +1,59 @@
+{
+  "projeto": "rosner-reserva-sao-vicente",
+  "ts": "2026-04-14T08:20:28",
+  "duration_s": 16.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato (sugerido)",
+      "Louças Deca (marca de médio-alto padrão)",
+      "Esquadrias em Alumínio e Vidro (variedade e dimensões)",
+      "Guarda-corpo em Vidro e Alumínio (segurança e estética)",
+      "Tipologia de empreendimento misto (Coworking/Minimarket) e Lazer completo"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore/Granito (ausente em destaque)",
+      "Piscina aquecida/Borda infinita",
+      "Automação/Spa/Sauna",
+      "Porcelanato grande (120x120) ou mármore"
+    ],
+    "justificativa": "O projeto apresenta um padrão robusto, evidenciado pelo uso de louças Deca, esquadrias em alumínio e vidro, e guarda-corpos de vidro. Embora não atinja o nível de luxo (ausência de mármore, automação e piscinas aquecidas), a complexidade do lazer e a qualidade dos acabamentos elevam o padrão para a faixa médio-alto.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.232,20 está na faixa 'Médio', mas a qualidade dos materiais (Deca, vidro, alumínio) e a complexidade do projeto o elevam para 'Médio-Alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 7007.86,
+      "ur": 0,
+      "total": 22650779.19,
+      "rsm2": 3232.2,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato (sugerido)\", \"Louças Deca (marca de médio-alto padrão)\", \"Esquadrias em Alumínio e Vidro (variedade e dimensões)\", \"Guarda-corpo em Vidro e Alumínio (segurança e estética)\", \"Tipologia de empreendimento misto (Coworking/Minimarket) e Lazer completo\"], \"sinais_ausentes_relevantes\": [\"Mármore/Granito (ausente em destaque)\", \"Piscina aquecida/Borda infinita\", \"Automação/Spa/Sauna\", \"Porcelanato grande (120x120) ou márm"
+}

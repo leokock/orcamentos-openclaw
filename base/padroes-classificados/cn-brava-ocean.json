@@ -1,0 +1,61 @@
+{
+  "projeto": "cn-brava-ocean",
+  "ts": "2026-04-14T08:33:31",
+  "duration_s": 14.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Pele de vidro",
+      "Automação e sistemas lógicos",
+      "Grupo gerador",
+      "Spa/Sauna",
+      "Deck de madeira",
+      "Porcelanato placa 60x60",
+      "Fachada com revestimentos caros (totalizando milhões)",
+      "Esquadrias de alumínio e madeira pivotante"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore/Granito (ausente, mas substituído por revestimentos caros)",
+      "Piscina aquecida/Borda infinita (ausente)",
+      "Elevador panorâmico (ausente)"
+    ],
+    "justificativa": "O projeto apresenta elementos de alto padrão como pele de vidro, automação, grupo gerador e spa/sauna. Embora não haja mármore ou granito explícitos, o investimento massivo em revestimentos de fachada e o uso de porcelanato placa e deck de madeira elevam o padrão para a classe 'alto'.",
+    "coerencia_rsm2": "parcial — Os dados de R$/m² estão zerados, mas o custo total dos itens listados (milhões em fachada e elevadores) sugere um valor muito superior ao que seria esperado para as classes inferiores."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 505.35308352799916,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": true,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 54
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Pele de vidro\", \"Automação e sistemas lógicos\", \"Grupo gerador\", \"Spa/Sauna\", \"Deck de madeira\", \"Porcelanato placa 60x60\", \"Fachada com revestimentos caros (totalizando milhões)\", \"Esquadrias de alumínio e madeira pivotante\"], \"sinais_ausentes_relevantes\": [\"Mármore/Granito (ausente, mas substituído por revestimentos caros)\", \"Piscina aquecida/Borda infinita (ausente)\", \"Elevador panorâmico (ausente)\"], \"justificativa\": \"O projeto a"
+}

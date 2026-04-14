@@ -1,0 +1,59 @@
+{
+  "projeto": "brava-construtora-mar-a-vista",
+  "ts": "2026-04-14T08:29:17",
+  "duration_s": 12.7,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Esquadrias de Madeira",
+      "Esquadrias de Alumínio",
+      "Ofurô (infraestrutura)",
+      "Revestimentos de Fachada (alto custo)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa",
+      "sauna",
+      "gerador",
+      "piscina aquecida",
+      "automacao"
+    ],
+    "justificativa": "A presença de esquadrias de madeira e a infraestrutura para ofurô elevam o padrão acima do médio-alto. Embora os itens de acabamento listados sejam genéricos e não especifiquem materiais nobres (mármore/granito), o custo total por m² (R$ 18.550,45) é extremamente alto, sugerindo um padrão de alto padrão, mesmo com a ausência de itens de luxo explícitos.",
+    "coerencia_rsm2": "parcial — O R$/m² é muito alto para a classe 'alto' sugerida pelos materiais, mas a combinação de esquadrias de madeira e o custo total aponta para um padrão elevado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 563.1398278873736,
+      "ur": 0,
+      "total": 10446494.54,
+      "rsm2": 18550.45,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 4
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Esquadrias de Madeira\", \"Esquadrias de Alumínio\", \"Ofurô (infraestrutura)\", \"Revestimentos de Fachada (alto custo)\"], \"sinais_ausentes_relevantes\": [\"spa\", \"sauna\", \"gerador\", \"piscina aquecida\", \"automacao\"], \"justificativa\": \"A presença de esquadrias de madeira e a infraestrutura para ofurô elevam o padrão acima do médio-alto. Embora os itens de acabamento listados sejam genéricos e não especifiquem materiais nobres (mármore/grani"
+}

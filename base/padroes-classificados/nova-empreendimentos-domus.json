@@ -1,0 +1,59 @@
+{
+  "projeto": "nova-empreendimentos-domus",
+  "ts": "2026-04-14T08:16:54",
+  "duration_s": 12.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Porta Corta Fogo Madeira Maciça",
+      "Bancada Cozinha",
+      "Bancada Banheiros",
+      "Registro Comum",
+      "Sifão ajustável multiuso"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa",
+      "gerador",
+      "piscina_aquecida",
+      "elevador_panoramico"
+    ],
+    "justificativa": "O projeto apresenta itens de segurança (Porta Corta Fogo) e bancadas específicas, sugerindo um acabamento acima do básico. No entanto, a ausência de materiais nobres (mármore, granito, porcelanato grande formato) e a falta de sistemas de lazer ou automação limitam a classificação a médio-alto.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 7.668,20 é muito alto para a classe sugerida, mas a análise de materiais aponta para um padrão mais contido."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 5009.0,
+      "ur": 0,
+      "total": 38409996.88,
+      "rsm2": 7668.2,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 18
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Porta Corta Fogo Madeira Maciça\", \"Bancada Cozinha\", \"Bancada Banheiros\", \"Registro Comum\", \"Sifão ajustável multiuso\"], \"sinais_ausentes_relevantes\": [\"spa\", \"gerador\", \"piscina_aquecida\", \"elevador_panoramico\"], \"justificativa\": \"O projeto apresenta itens de segurança (Porta Corta Fogo) e bancadas específicas, sugerindo um acabamento acima do básico. No entanto, a ausência de materiais nobres (mármore, granito, porcelanato g"
+}

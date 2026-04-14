@@ -1,0 +1,59 @@
+{
+  "projeto": "paludo-volo-home",
+  "ts": "2026-04-14T08:43:20",
+  "duration_s": 13.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "elevador de pessoas definitivo",
+      "automação e sistemas lógicos",
+      "brise metálico em fachada",
+      "porcelanato 90x90cm",
+      "granito em peitoril e piso de elevador"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "piscina aquecida borda infinita",
+      "heliponto",
+      "mármore"
+    ],
+    "justificativa": "A presença de elevador definitivo, automação completa e brise metálico na fachada eleva o padrão significativamente. Embora não haja mármore ou lazer de luxo, os sistemas e acabamentos de alto custo (elevador, automação, brise) posicionam o projeto na classe 'alto'.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.134,37 está na faixa 'medio', mas os itens de alto valor (elevador, automação, brise) puxam o custo real para a faixa 'alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 3972.3,
+      "ur": 0,
+      "total": 12450664.73,
+      "rsm2": 3134.37,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": false,
+      "laminado": true,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 48
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"elevador de pessoas definitivo\", \"automação e sistemas lógicos\", \"brise metálico em fachada\", \"porcelanato 90x90cm\", \"granito em peitoril e piso de elevador\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"piscina aquecida borda infinita\", \"heliponto\", \"mármore\"], \"justificativa\": \"A presença de elevador definitivo, automação completa e brise metálico na fachada eleva o padrão significativamente. Embora não haja mármore ou lazer de lu"
+}

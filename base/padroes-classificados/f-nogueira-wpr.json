@@ -1,0 +1,60 @@
+{
+  "projeto": "f-nogueira-wpr",
+  "ts": "2026-04-14T08:35:22",
+  "duration_s": 17.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Automação e sistemas lógicos",
+      "Elevador social",
+      "Porcelanato 60x60 e 30x60",
+      "Vidro laminado e guarda-corpo em vidro",
+      "Pastilha cerâmica em fachada"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Granito/Mármore em pisos/fachada",
+      "ACM premium",
+      "Heliponto"
+    ],
+    "justificativa": "O projeto apresenta automação e elevador social, indicando um padrão acima do médio. O uso de porcelanato de dimensões médias (60x60) e vidros laminados eleva o nível. No entanto, a ausência de materiais de altíssimo custo como mármore, granito ou sistemas de lazer premium (spa, piscina aquecida) impede a classificação como 'alto' ou 'luxo'.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 2.549,10 está abaixo da faixa 'medio-alto' (R$ 3.400–4.000), mas os itens de acabamento (automação, elevador, porcelanato, vidro) sugerem um custo real mais elevado, justificando a classificação superior à média."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 37483.31,
+      "ur": 0,
+      "total": 95548670.14,
+      "rsm2": 2549.1,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 58
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Automação e sistemas lógicos\", \"Elevador social\", \"Porcelanato 60x60 e 30x60\", \"Vidro laminado e guarda-corpo em vidro\", \"Pastilha cerâmica em fachada\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Granito/Mármore em pisos/fachada\", \"ACM premium\", \"Heliponto\"], \"justificativa\": \"O projeto apresenta automação e elevador social, indicando um padrão acima do médio. O uso de porcelanato de dimensões médias (60x"
+}

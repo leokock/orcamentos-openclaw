@@ -1,0 +1,76 @@
+{
+  "projeto": "mussi-empreendimentos-velazquez",
+  "ts": "2026-04-14T08:41:01",
+  "duration_s": 16.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Pele de vidro e Guarda Corpos em Alumínio e Vidro Laminado (alto custo)",
+      "Elevadores sociais e de serviço (alto investimento)",
+      "Automação e sistemas de controle (Projeto Automação)",
+      "Uso de porcelanato 60x60cm e vinílico (padrão superior)",
+      "Fachada com investimento significativo em revestimentos e acabamentos (R$ 1.45M)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Mármore/Granito (mencionado como ausente, mas o padrão sugere uso)",
+      "ACM premium"
+    ],
+    "justificativa": "O projeto apresenta um investimento muito alto em sistemas de fachada (pele de vidro, guarda-corpos em vidro laminado) e infraestrutura vertical (dois elevadores sociais e de serviço). Embora não haja menção explícita a mármore ou piscina aquecida, a complexidade e o custo dos sistemas de automação e vidraçaria elevam o padrão para a classe 'Alto'.",
+    "coerencia_rsm2": "parcial — Os valores por m² são difíceis de calcular com precisão devido à natureza de grandes empreendimentos e à extração parcial de custos, mas os itens de acabamento e sistemas apontam para um padrão superior ao 'Médio-Alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 13000,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Gerenciamento": 292.15,
+      "Movimentacao de Terra": 3.59,
+      "Infraestrutura": 147.78,
+      "Supraestrutura": 668.32,
+      "Alvenaria": 84.82,
+      "Instalacoes Eletricas": 124.28,
+      "Instalacoes Hidraulicas": 142.77,
+      "PCI": 33.03,
+      "Climatizacao": 38.14,
+      "Sistemas Especiais": 116.54,
+      "Impermeabilizacao": 31.95,
+      "Revestimentos": 399.89,
+      "Pintura": 72.44,
+      "Esquadrias": 212.82,
+      "Cobertura": 12.85,
+      "Servicos Complementares": 150.4
+    },
+    "n_itens_top": 55
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Pele de vidro e Guarda Corpos em Alumínio e Vidro Laminado (alto custo)\", \"Elevadores sociais e de serviço (alto investimento)\", \"Automação e sistemas de controle (Projeto Automação)\", \"Uso de porcelanato 60x60cm e vinílico (padrão superior)\", \"Fachada com investimento significativo em revestimentos e acabamentos (R$ 1.45M)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Mármore/Granito (mencionado como ausente, m"
+}

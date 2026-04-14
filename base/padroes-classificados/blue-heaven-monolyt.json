@@ -1,0 +1,60 @@
+{
+  "projeto": "blue-heaven-monolyt",
+  "ts": "2026-04-14T08:02:24",
+  "duration_s": 13.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "gerador",
+      "porcelanato_grande",
+      "vidro_fachada",
+      "esquadria_vidro",
+      "esquadria_acustica"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "piscina_aquecida",
+      "mármore/granito"
+    ],
+    "justificativa": "A presença de gerador de energia, fachadas em vidro e esquadrias de alumínio de alto padrão (incluindo portas corta-fogo e janelas de correr com vidro) eleva significativamente o padrão. Embora não haja mármore ou automação avançada, os sistemas de segurança e a complexidade das esquadrias já posicionam o projeto na faixa 'alto'.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 2.82/m² é muito baixo para o nível de acabamento sugerido por gerador e fachadas em vidro, indicando que o custo total não foi contabilizado ou extraído corretamente."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 14693.42,
+      "ur": 24,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 612.23,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 2.82
+    },
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"gerador\", \"porcelanato_grande\", \"vidro_fachada\", \"esquadria_vidro\", \"esquadria_acustica\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"piscina_aquecida\", \"mármore/granito\"], \"justificativa\": \"A presença de gerador de energia, fachadas em vidro e esquadrias de alumínio de alto padrão (incluindo portas corta-fogo e janelas de correr com vidro) eleva significativamente o padrão. Embora não haja mármore ou automação avançada, os sistema"
+}

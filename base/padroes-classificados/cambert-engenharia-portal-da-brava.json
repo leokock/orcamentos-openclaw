@@ -1,0 +1,61 @@
+{
+  "projeto": "cambert-engenharia-portal-da-brava",
+  "ts": "2026-04-14T08:29:34",
+  "duration_s": 16.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Piso porcelanato 60x60 (e 30x60 em banheiros)",
+      "Pele de vidro (grande área)",
+      "Esquadrias de alumínio com vidro (múltiplos tipos e áreas)",
+      "Sistema de automação e sistemas lógicos (R$ 50.000 + R$ 35.000)",
+      "Elevador social e cremalheira",
+      "Deck de madeira e guarda-corpo em vidro laminado",
+      "Fachada com investimento significativo (R$ 1.117.410)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Heliponto",
+      "Mármore/Granito (em destaque)"
+    ],
+    "justificativa": "O projeto apresenta um nível de acabamento elevado, evidenciado pelo uso extensivo de pele de vidro, esquadrias de alumínio de alto padrão, automação completa e elevadores sociais. Embora não haja mármore ou piscina aquecida (sinais de luxo), o investimento em sistemas e vidros eleva o padrão para a classe 'alto'.",
+    "coerencia_rsm2": "parcial — Os dados numéricos estão incompletos (R$ 0.00), mas os materiais e sistemas detectados são suficientes para classificar o padrão."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 60
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Piso porcelanato 60x60 (e 30x60 em banheiros)\", \"Pele de vidro (grande área)\", \"Esquadrias de alumínio com vidro (múltiplos tipos e áreas)\", \"Sistema de automação e sistemas lógicos (R$ 50.000 + R$ 35.000)\", \"Elevador social e cremalheira\", \"Deck de madeira e guarda-corpo em vidro laminado\", \"Fachada com investimento significativo (R$ 1.117.410)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Heliponto\", \"Mármore/"
+}

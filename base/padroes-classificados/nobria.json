@@ -1,0 +1,59 @@
+{
+  "projeto": "nobria",
+  "ts": "2026-04-14T08:42:01",
+  "duration_s": 19.9,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "SPA/SAUNA (Spa e Sauna)",
+      "Automação (Projeto de Automação)",
+      "Materiais nobres (Granito, Madeira Plastificada, Porcelanato)",
+      "Esquadrias de alto padrão (Alumínio Linha Gold, Vidros em Serralheria)",
+      "Lazer completo (Piscina, SPA, Sauna)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Elevador panorâmico",
+      "ACM premium",
+      "Heliponto"
+    ],
+    "justificativa": "O projeto apresenta um nível de acabamento significativamente alto, evidenciado pela inclusão de SPA, sauna, automação e a utilização de materiais nobres como granito e madeira plastificada. Embora não atinja o nível 'Luxo' por ausência de itens como piscina aquecida ou heliponto, o investimento em esquadrias de linha Gold, vidros e sistemas de lazer já o posiciona confortavelmente na classe 'Alto'.",
+    "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 3.290,71) é mais baixo do que o sugerido pela qualidade dos materiais e sistemas (que apontam para R$ 4.000-R$ 5.000), indicando que o cálculo pode ter excluído custos importantes ou que o valor total é para uma área muito menor do que o esperado para o padrão."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 12879.93,
+      "ur": 0,
+      "total": 42384127.48,
+      "rsm2": 3290.71,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": true,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 36
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"SPA/SAUNA (Spa e Sauna)\", \"Automação (Projeto de Automação)\", \"Materiais nobres (Granito, Madeira Plastificada, Porcelanato)\", \"Esquadrias de alto padrão (Alumínio Linha Gold, Vidros em Serralheria)\", \"Lazer completo (Piscina, SPA, Sauna)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Elevador panorâmico\", \"ACM premium\", \"Heliponto\"], \"justificativa\": \"O projeto apresenta um nível de acabamento significativamente alto, eviden"
+}

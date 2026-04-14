@@ -1,0 +1,3333 @@
+{
+  "generated_at": "2026-04-14T08:47:16",
+  "n_projetos": 126,
+  "modelo": "gemma4:e4b",
+  "fase": 18,
+  "metodos": {
+    "gemma_semantico": 125,
+    "sem_dados": 1
+  },
+  "distribuicao_padrao": {
+    "medio-alto": 60,
+    "alto": 57,
+    "medio": 4,
+    "economico": 4,
+    "insuficiente": 1
+  },
+  "confianca_por_classe": {
+    "alto": {
+      "alta": 50,
+      "media": 7
+    },
+    "medio-alto": {
+      "media": 28,
+      "alta": 27,
+      "baixa": 5
+    },
+    "medio": {
+      "media": 3,
+      "baixa": 1
+    },
+    "economico": {
+      "baixa": 4
+    }
+  },
+  "comparacao_gemma_vs_rsm2_bucket": {
+    "concordam": 20,
+    "gemma_maior": 29,
+    "gemma_menor": 16,
+    "sem_rsm2": 60
+  },
+  "projetos": [
+    {
+      "projeto": "adore-cacupe",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 6494.63,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 49,
+      "flags_detectados": [
+        "automacao"
+      ],
+      "sinais_detectados": [
+        "Automação presente",
+        "Brise (gradil e de alumínio) presente",
+        "Vidro de guarda-corpo presente",
+        "Porcelanato (material de alto padrão)",
+        "Elevadores presentes",
+        "Churrasqueiras (sinal de área gourmet) presentes"
+      ],
+      "justificativa": "O projeto apresenta automação, brises e elevadores, além de churrasqueiras, indicando um padrão de vida elevado. Embora não tenha os itens de luxo (spa, piscina aquecida), o uso de porcelanato e sistemas automatizados eleva a classificação para 'alto'.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido (ex: automação, brises, porcelanato grande), indicando que a extração foi parcial ou incompleta."
+    },
+    {
+      "projeto": "adore-level-up",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "media",
+      "ac": 11102.72,
+      "ur": 0,
+      "total": 40287855.691681944,
+      "rsm2": 3628.65,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (custo elevado)",
+        "Ausência de itens de luxo explícitos (piscina aquecida, spa, etc.)"
+      ],
+      "justificativa": "O custo por m² (R$ 3.628,65) e a menção a revestimentos de fachada com custo unitário elevado sugerem um padrão acima do médio. No entanto, a ausência de materiais de alto padrão (mármore, granito, ACM) e itens de lazer de luxo limita a classificação para médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² está na faixa de médio-alto, mas a falta de detalhes de acabamento (pisos, louças) e a dependência de um único item de fachada tornam a análise numérica incompleta."
+    },
+    {
+      "projeto": "ajr-spot-one",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 53,
+      "flags_detectados": [
+        "piscina_aquecida",
+        "automacao",
+        "spa_sauna",
+        "granito",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Porcelanato 120x20 cm",
+        "Esquadrias de alumínio (alto custo)",
+        "Elevadores sociais e de serviço",
+        "Automação e Sistemas Lógicos",
+        "Piscina aquecida",
+        "Spa/Sauna"
+      ],
+      "justificativa": "O projeto apresenta um nível de acabamento elevado, evidenciado pelo uso de porcelanato de grande formato (120x20 cm), sistemas de automação avançados e a inclusão de elevadores sociais e de serviço. Embora não tenha mármore ou borda infinita, os itens de lazer (spa, sauna, piscina aquecida) e a complexidade dos sistemas elevatórios o posicionam acima da classe média-alta, caracterizando um padrão alto.",
+      "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² estão ausentes ou incompletos, mas os itens de acabamento e sistemas são fortes indicadores de alto padrão."
+    },
+    {
+      "projeto": "all-acacias-jk",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 1943.23,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 54,
+      "flags_detectados": [
+        "granito"
+      ],
+      "sinais_detectados": [
+        "Porcelanato placa 80x80cm (interno e externo)",
+        "Granito (bancada de cozinha)",
+        "Esquadrias de Alumínio com vidros e Guarda-corpo de alumínio e vidro",
+        "Elevador social (item de alto custo)",
+        "Pastilha cerâmica na fachada"
+      ],
+      "justificativa": "O projeto apresenta elementos de qualidade superior como porcelanato 80x80cm, granito na bancada e a inclusão de um elevador social. Embora a fachada utilize pastilha e o porcelanato não seja de dimensão máxima (120x120), a presença do elevador e dos acabamentos em vidro eleva o padrão acima do médio, posicionando-o na faixa médio-alto.",
+      "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² e m²/UR estão zerados, mas a análise dos materiais e sistemas (elevador, porcelanato 80x80) sugere um custo significativamente maior do que o indicado."
+    },
+    {
+      "projeto": "all-lago-di-garda",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "alta",
+      "ac": 7055.73,
+      "ur": 0,
+      "total": 50516882.53944222,
+      "rsm2": 7159.7,
+      "m2_por_ur": 0,
+      "n_itens_top": 45,
+      "flags_detectados": [
+        "gerador",
+        "porcelanato_grande",
+        "porcelanato_pequeno"
+      ],
+      "sinais_detectados": [
+        "Porcelanato grande (implícito)",
+        "Esquadrias em vidro e alumínio (guarda-corpo, portas de correr)",
+        "Sistemas de bombeamento e geradores (sistemas especiais)",
+        "Uso de madeira em acabamentos (corrimão, portas)"
+      ],
+      "justificativa": "O projeto apresenta sistemas especiais robustos (geradores, motobombas, filtros) e esquadrias em vidro e alumínio, indicando um nível de conforto e funcionalidade acima do médio. Embora não haja mármore ou automação completa, a complexidade dos sistemas e o uso de materiais como vidro e madeira elevam o padrão para a faixa médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 7.160,00 está muito acima da faixa média-alta (R$ 3.400–4.000), mas os itens de acabamento e sistemas especiais (geradores, vidros) justificam a classificação de padrão superior, apesar da discrepância numérica."
+    },
+    {
+      "projeto": "amalfi-maiori",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "media",
+      "ac": 396.6907974788741,
+      "ur": 0,
+      "total": 25185732.852655,
+      "rsm2": 63489.58,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Fachada com revestimentos e acabamentos (R$ 1.2M)",
+        "Ausência de itens de luxo explícitos (piscina aquecida, heliponto, etc.)"
+      ],
+      "justificativa": "Apesar da métrica R$/m² ser extremamente baixa (R$ 63,49/m²), o valor total de R$ 25 milhões e a menção de 'Amalfi-Maiori' (tipologia de alto padrão) sugerem um projeto de altíssimo nível. A ausência de itens de luxo explícitos e a falta de detalhes de acabamento (pisos, esquadrias) impedem a classificação 'luxo', mas o valor total e a tipologia elevam o padrão para 'alto'.",
+      "coerencia_rsm2": "nao — O R$/m² de R$ 63,49/m² é irrealista para um projeto de R$ 25 milhões, indicando que a métrica não reflete o custo real dos acabamentos de alto padrão."
+    },
+    {
+      "projeto": "amalfi-marine",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "media",
+      "ac": 521.7076950240738,
+      "ur": 0,
+      "total": 14107283.053041,
+      "rsm2": 27040.59,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Fachada com revestimentos e acabamentos (custo significativo)",
+        "Ausência de itens de luxo explícitos (spa, heliponto, etc.)"
+      ],
+      "justificativa": "Apesar do R$/m² (R$ 27.040,59) ser numericamente alto, a falta de especificações de materiais premium (mármore, granito, porcelanato 120x120) e a ausência de sistemas de luxo (spa, automação) puxam o padrão para a faixa médio-alta. O custo elevado é mais provavelmente impulsionado pela área total ou pelo tipo de revestimento de fachada, que é genérico.",
+      "coerencia_rsm2": "parcial — O R$/m² sugere uma classe alta, mas a ausência de materiais e sistemas de alto padrão (mármore, granito, brise automatizado) limita a classificação ao médio-alto."
+    },
+    {
+      "projeto": "amalfi-ravello",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "alta",
+      "ac": 353.32967195394065,
+      "ur": 0,
+      "total": 39313735.22500839,
+      "rsm2": 111266.44,
+      "m2_por_ur": 0,
+      "n_itens_top": 18,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Pele de vidro",
+        "Brise",
+        "Esquadrias de alumínio (alto custo)",
+        "Acabamentos de madeira (múltiplos itens)",
+        "Fachada com revestimentos e tratamentos específicos"
+      ],
+      "justificativa": "A presença de pele de vidro, brise, múltiplas esquadrias de alumínio e diversos acabamentos em madeira eleva significativamente o padrão. Embora não haja menção a mármore ou automação, a complexidade e o custo dos materiais já apontam para uma categoria superior à média-alta.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 111,26 é extremamente baixo para o nível de acabamento sugerido pelos materiais (vidro, brise, madeira, alumínio de alto padrão), indicando que o cálculo pode estar incompleto ou focado apenas em áreas específicas."
+    },
+    {
+      "projeto": "amalfi-tramonti",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 15602.85,
+      "ur": 90,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 173.37,
+      "n_itens_top": 8,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Louças e Metais presentes (totalizando R$ 243.030)",
+        "Presença de serviços complementares e instalações elétricas detalhadas",
+        "Métricas de ocupação elevadas (m²/UR = 173.4)"
+      ],
+      "justificativa": "Apesar da ausência de itens de luxo explícitos (como spa ou mármore), o valor total investido em louças e metais (R$ 243 mil) e a alta taxa de ocupação por unidade (173.4 m²/UR) sugerem um padrão acima do médio. A complexidade das instalações e o investimento em acabamentos de alto volume apontam para a faixa médio-alto.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² por disciplina são muito baixos para o nível de acabamento sugerido pelos itens de louças e pela alta ocupação, indicando que o custo de materiais e acabamentos não foi detalhado."
+    },
+    {
+      "projeto": "arv-ingleses-spot",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 2618.2400000000002,
+      "ur": 49,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 53.43,
+      "n_itens_top": 15,
+      "flags_detectados": [
+        "granito",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "granito",
+        "docol_deca",
+        "porcelanato_grande",
+        "linha Izy (louças)"
+      ],
+      "justificativa": "A presença de granito e louças de marcas premium (Docol/Deca, linha Izy) eleva o padrão acima do médio. Embora não haja itens de luxo como spa ou heliponto, o uso de porcelanato e a qualidade das louças sugerem um acabamento sofisticado, mas não no nível máximo.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido pelos materiais (granito, porcelanato grande, louças premium)."
+    },
+    {
+      "projeto": "as-ramos-paessaggio",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "media",
+      "ac": 264.05240058477744,
+      "ur": 0,
+      "total": 34284020.3225,
+      "rsm2": 129837.94,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (indica atenção estética e investimento)",
+        "Ausência de itens de luxo explícitos (piscina aquecida, spa, heliponto)"
+      ],
+      "justificativa": "Apesar do valor de R$/m² ser extremamente baixo (R$ 129,83/m²), o projeto apresenta um investimento significativo em acabamentos de fachada (R$ 2,7 milhões), sugerindo um padrão superior ao básico. A ausência de itens de luxo e a falta de detalhes de acabamento (pisos, esquadrias, louças) impedem a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "nao — O valor de R$/m² é drasticamente baixo e não reflete o investimento em acabamentos de fachada, que é o sinal mais forte de qualidade."
+    },
+    {
+      "projeto": "be-brave-meraki",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 22461.09,
+      "ur": 104,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 215.97,
+      "n_itens_top": 15,
+      "flags_detectados": [
+        "granito",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "uso de granito em bancadas",
+        "uso de louças de marcas reconhecidas (Deca/Docol)",
+        "presença de acabamento metálico para registros"
+      ],
+      "justificativa": "O projeto apresenta o uso de granito e louças de marcas de médio-alto padrão (Deca/Docol), além de acabamentos metálicos e bancadas em granito. Embora não haja itens de luxo como mármore ou automação, a qualidade dos materiais e a especificidade dos acabamentos elevam o padrão acima do médio.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² estão zerados ou muito baixos, mas os materiais detectados (granito, Deca) sugerem um custo real mais elevado, alinhando-se melhor à faixa médio-alto."
+    },
+    {
+      "projeto": "beco-castelo-chateau-de-versailes",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 32507.25,
+      "ur": 142,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 228.92,
+      "n_itens_top": 45,
+      "flags_detectados": [
+        "gerador"
+      ],
+      "sinais_detectados": [
+        "Vidro em grandes dimensões (vidro fixo, guarda-corpo)",
+        "Gerador de energia (Gerador de Coloro BZ)",
+        "Louças e Metais de alto padrão (preços unitários elevados para bacia sanitária e registros)",
+        "Presença de sistemas especiais (Instalações Elétricas, Telecom)"
+      ],
+      "justificativa": "A presença de gerador de energia, o uso extensivo de vidro em grandes dimensões (guarda-corpos e vidros fixos) e os altos custos unitários de louças e metais (ex: bacia sanitária a R$ 1.624,90) elevam o padrão acima do médio-alto. Embora não haja itens de luxo explícitos (como borda infinita ou spa), a combinação de sistemas e materiais sugere uma categoria 'Alto'.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² por disciplina estão muito baixos e não refletem o custo dos materiais de acabamento de alto padrão (vidros, louças e metais) listados."
+    },
+    {
+      "projeto": "blue-heaven-aquos",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 9522.33,
+      "ur": 12,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 793.53,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "gerador",
+        "automacao",
+        "spa_sauna",
+        "marmore",
+        "granito",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico",
+        "fitness_academia"
+      ],
+      "sinais_detectados": [
+        "mármore",
+        "porcelanato 120x120",
+        "madeira nobre",
+        "automação",
+        "spa/sauna",
+        "gerador",
+        "vidro de guarda corpo",
+        "brise de madeira"
+      ],
+      "justificativa": "O projeto apresenta materiais de alto padrão como mármore, porcelanato 120x120 e esquadrias de madeira e alumínio de alto custo. A inclusão de sistemas como automação completa, gerador autônomo e spa/sauna eleva o padrão significativamente, caracterizando uma classificação 'alto', mesmo sem os itens de luxo máximo.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² e m²/UR são nulos ou muito altos para serem usados, mas a análise por disciplina confirma o padrão elevado."
+    },
+    {
+      "projeto": "blue-heaven-monolyt",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 14693.42,
+      "ur": 24,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 612.23,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "gerador",
+        "porcelanato_grande",
+        "porcelanato_pequeno"
+      ],
+      "sinais_detectados": [
+        "gerador",
+        "porcelanato_grande",
+        "vidro_fachada",
+        "esquadria_vidro",
+        "esquadria_acustica"
+      ],
+      "justificativa": "A presença de gerador de energia, fachadas em vidro e esquadrias de alumínio de alto padrão (incluindo portas corta-fogo e janelas de correr com vidro) eleva significativamente o padrão. Embora não haja mármore ou automação avançada, os sistemas de segurança e a complexidade das esquadrias já posicionam o projeto na faixa 'alto'.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 2.82/m² é muito baixo para o nível de acabamento sugerido por gerador e fachadas em vidro, indicando que o custo total não foi contabilizado ou extraído corretamente."
+    },
+    {
+      "projeto": "brasin-mario-lago",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "baixa",
+      "ac": 0,
+      "ur": 0,
+      "total": 23491181.9,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item genérico)"
+      ],
+      "justificativa": "Os dados fornecidos são extremamente limitados, contendo apenas um item genérico de fachada sem especificação de material, dimensão ou marca. A ausência de informações sobre pisos, esquadrias ou sistemas de lazer impede uma classificação precisa, mas a natureza incompleta dos dados sugere um padrão de acabamento incerto.",
+      "coerencia_rsm2": "nao — Os dados numéricos (R$/m² = R$ 0.00) são inconsistentes com o valor total de R$ 23.491.182, indicando que as métricas não foram calculadas corretamente ou não foram fornecidas."
+    },
+    {
+      "projeto": "brasin-redentor",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 16727.83,
+      "ur": 40,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 418.2,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "gerador",
+        "spa_sauna"
+      ],
+      "sinais_detectados": [
+        "Gerador de energia (250 kVA)",
+        "Subestação de energia",
+        "Piscina Rooftop e Lazer",
+        "Bomba de calor (aquecimento)",
+        "Sistema de paralelismo com rede/gerador"
+      ],
+      "justificativa": "A presença de geradores de energia, subestação e sistemas de lazer (piscina rooftop e bomba de calor) eleva o padrão significativamente. Embora não haja menção a mármore ou automação completa, a infraestrutura de energia e lazer já coloca o projeto acima da categoria médio-alto, aproximando-o do alto.",
+      "coerencia_rsm2": "parcial — Os custos de infraestrutura (elétrica/hidráulica) são baixos, mas os itens de lazer e energia (gerador, subestação) são extremamente caros e não estão refletidos no R$/m² geral fornecido."
+    },
+    {
+      "projeto": "brava-construtora-mar-a-vista",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "media",
+      "ac": 563.1398278873736,
+      "ur": 0,
+      "total": 10446494.54,
+      "rsm2": 18550.45,
+      "m2_por_ur": 0,
+      "n_itens_top": 4,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Esquadrias de Madeira",
+        "Esquadrias de Alumínio",
+        "Ofurô (infraestrutura)",
+        "Revestimentos de Fachada (alto custo)"
+      ],
+      "justificativa": "A presença de esquadrias de madeira e a infraestrutura para ofurô elevam o padrão acima do médio-alto. Embora os itens de acabamento listados sejam genéricos e não especifiquem materiais nobres (mármore/granito), o custo total por m² (R$ 18.550,45) é extremamente alto, sugerindo um padrão de alto padrão, mesmo com a ausência de itens de luxo explícitos.",
+      "coerencia_rsm2": "parcial — O R$/m² é muito alto para a classe 'alto' sugerida pelos materiais, mas a combinação de esquadrias de madeira e o custo total aponta para um padrão elevado."
+    },
+    {
+      "projeto": "by-seasons-by-seasons",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 6348.509999999999,
+      "ur": 67,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 94.75,
+      "n_itens_top": 40,
+      "flags_detectados": [
+        "granito",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "Porcelanato (implícito)",
+        "Granito (bancada)",
+        "Marca Docol/Deca (louças)",
+        "Sistema de filtragem e bombas (sistemas especiais)"
+      ],
+      "justificativa": "A presença de louças de marcas premium (Deca/Docol) e o uso de granito na bancada elevam o padrão. Embora não haja menção a mármore ou automação completa, os sistemas de filtragem e a qualidade dos acabamentos sugerem um projeto acima do médio, mas sem atingir o nível de luxo.",
+      "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² e R$/UR estão zerados, mas os materiais e marcas detectados (Deca, granito, sistemas de filtragem) apontam para um custo significativamente mais alto que o sugerido."
+    },
+    {
+      "projeto": "caledonia-mowe-caledonia-mowe",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "alto",
+      "confianca": "alta",
+      "ac": 329.57,
+      "ur": 1,
+      "total": 1603246.825985587,
+      "rsm2": 4864.66,
+      "m2_por_ur": 329.57,
+      "n_itens_top": 26,
+      "flags_detectados": [
+        "granito",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "granito",
+        "docol_deca",
+        "porcelanato_grande",
+        "frisos decorativos",
+        "louças de marca"
+      ],
+      "justificativa": "O uso de granito em bancadas e a presença de louças de marcas premium (Deca/Docol) elevam o padrão. Embora não haja mármore ou automação, a combinação de materiais de qualidade e o detalhamento nas esquadrias (frisos) posicionam o projeto na faixa 'alto'.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "cambert-engenharia-portal-da-brava",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "automacao",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Piso porcelanato 60x60 (e 30x60 em banheiros)",
+        "Pele de vidro (grande área)",
+        "Esquadrias de alumínio com vidro (múltiplos tipos e áreas)",
+        "Sistema de automação e sistemas lógicos (R$ 50.000 + R$ 35.000)",
+        "Elevador social e cremalheira",
+        "Deck de madeira e guarda-corpo em vidro laminado",
+        "Fachada com investimento significativo (R$ 1.117.410)"
+      ],
+      "justificativa": "O projeto apresenta um nível de acabamento elevado, evidenciado pelo uso extensivo de pele de vidro, esquadrias de alumínio de alto padrão, automação completa e elevadores sociais. Embora não haja mármore ou piscina aquecida (sinais de luxo), o investimento em sistemas e vidros eleva o padrão para a classe 'alto'.",
+      "coerencia_rsm2": "parcial — Os dados numéricos estão incompletos (R$ 0.00), mas os materiais e sistemas detectados são suficientes para classificar o padrão."
+    },
+    {
+      "projeto": "cambert-portal-da-brava",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "automacao",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Piso porcelanato 60x60 (e 30x60 em banheiros)",
+        "Pele de vidro e esquadrias de alumínio com vidro (várias tipologias)",
+        "Sistema de automação e sistemas lógicos (R$ 135.000,00)",
+        "Elevador social e cremalheira",
+        "Gradil tipo brise (elemento sofisticado)"
+      ],
+      "justificativa": "O projeto apresenta um nível de sofisticação elevado, evidenciado pelo uso extensivo de pele de vidro, esquadrias de alumínio de alto padrão e a inclusão de sistemas complexos como automação e elevadores sociais. Embora não haja mármore ou granito explícitos, a combinação de vidros, automação e o tipo de esquadria eleva o padrão acima do médio-alto, caracterizando-o como alto.",
+      "coerencia_rsm2": "parcial — Os dados numéricos estão zerados, mas os itens de acabamento (vidro, automação, elevadores) sugerem um custo muito superior ao que o R$/m² de R$ 0.00 indica."
+    },
+    {
+      "projeto": "carraro-vertice",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 0,
+      "ur": 0,
+      "total": 60651261.66,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item de custo elevado)",
+        "Ausência de itens de luxo explícitos (mármore, granito, ACM, etc.)"
+      ],
+      "justificativa": "O projeto apresenta um custo total muito alto (R$ 60 milhões) e um item de fachada específico e caro (R$ 1,4 milhões), sugerindo um padrão elevado. No entanto, a ausência de materiais de luxo explícitos (mármore, granito, ACM) e a falta de sistemas de lazer de alto padrão limitam a classificação a 'medio-alto'.",
+      "coerencia_rsm2": "nao - Os dados numéricos (R$/m² = R$ 0.00) são inválidos e não refletem o custo real do projeto."
+    },
+    {
+      "projeto": "cgl-arbol-646",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "granito",
+        "porcelanato_pequeno"
+      ],
+      "sinais_detectados": [
+        "Porcelanato 60x60 (dimensão média)",
+        "Esquadrias de alumínio (padrão intermediário)",
+        "Granito em peitoril (acabamento de qualidade)",
+        "Pastilha cerâmica em fachada (detalhe de acabamento)",
+        "Salão de festas completo (sistema especial)"
+      ],
+      "justificativa": "O projeto apresenta porcelanato de dimensão média (60x60) e o uso de granito em peitoris, elevando o padrão acima do médio. A presença de um salão de festas completo e a pastilha na fachada reforçam um acabamento de nível médio-alto, sem atingir os materiais nobres ou sistemas de luxo.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são incompletos e não permitem uma análise precisa do custo por metro quadrado, mas os materiais sugerem um patamar de custo mais elevado do que o indicado."
+    },
+    {
+      "projeto": "chiquetti-e-dalvesco-atlantis",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 30775803.73,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 52,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Automação completa (R$ 262k)",
+        "Esquadrias em alumínio de alto custo e Brises metálicos (R$ 1.180k)",
+        "Porcelanato 120x120 e Vinílico tipo régua",
+        "Granito em peitoril e piso de elevador",
+        "Sistema de piscina com tratamento acústico e aquecimento"
+      ],
+      "justificativa": "O projeto apresenta sistemas de automação avançada, esquadrias de alto padrão com brises metálicos e o uso de porcelanato 120x120. Embora não tenha itens de luxo extremo (mármore, heliponto), a combinação de tecnologia e materiais de grande formato eleva o padrão para a classe Alto.",
+      "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² e m²/UR estão zerados ou incompletos, mas os itens de acabamento e sistemas são fortes indicadores de alto padrão."
+    },
+    {
+      "projeto": "chiquetti-e-dalvesco-bela-vida",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 65,
+      "flags_detectados": [
+        "automacao",
+        "spa_sauna",
+        "granito",
+        "laminado",
+        "vinilico",
+        "docol_deca",
+        "fitness_academia"
+      ],
+      "sinais_detectados": [
+        "Elevador Social",
+        "Automação, telecomunicação e sistemas de segurança",
+        "Brise Ripado",
+        "Pele de Vidro",
+        "Porcelanato 90x90cm",
+        "Sauna",
+        "Granito (soleiras, peitoris, piscina)"
+      ],
+      "justificativa": "A presença de elevador social, automação, brise ripado e pele de vidro eleva o padrão significativamente. Embora não haja mármore ou piscina aquecida, a combinação de elementos de alto custo e tecnologia (elevação, automação, vidros especiais) coloca o projeto na faixa 'alto'.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os materiais e sistemas detectados apontam para um custo elevado."
+    },
+    {
+      "projeto": "chiquetti-e-dalvesco-cielo",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 7013.059999999999,
+      "ur": 20,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 350.65,
+      "n_itens_top": 15,
+      "flags_detectados": [
+        "granito"
+      ],
+      "sinais_detectados": [
+        "granito (bancada)",
+        "uso de louças e metais (indicando acabamento)",
+        "dimensão de porcelanato grande (sugerido pela ausência de porcelanato_grande)"
+      ],
+      "justificativa": "O projeto apresenta o uso de granito em bancadas e a especificação de louças e metais, o que eleva o padrão acima do básico. No entanto, a ausência de itens de luxo (mármore, automação, spa, etc.) e a falta de dados de acabamentos de piso/fachada limitam a classificação a médio-alto.",
+      "coerencia_rsm2": "nao - Os valores de R$/m² são muito baixos para um projeto que especifica granito e louças de boa qualidade, sugerindo que a extração de dados foi parcial."
+    },
+    {
+      "projeto": "chiquetti-e-dalvesco-esmeralda",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 5579.71,
+      "ur": 37,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 150.8,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "gerador"
+      ],
+      "sinais_detectados": [
+        "Gerador de energia (presente)",
+        "Sistema de tratamento de água complexo (filtros, bombas, skimmer)",
+        "Uso de marcas e equipamentos de alta performance (FROMTHERM, Docol/Tigre, marcas especializadas de tratamento)",
+        "Métricas de ocupação elevadas (m²/UR = 150.8)"
+      ],
+      "justificativa": "A presença de um gerador de energia, sistemas complexos de tratamento de água (filtros, bombas, skimmers) e a alta métrica de ocupação (150.8 m²/UR) elevam o padrão significativamente. Embora materiais de acabamento nobres como mármore e granito não estejam listados, a infraestrutura e os sistemas especializados apontam para uma categoria superior.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² estão muito baixos para o nível de complexidade e equipamentos de alta tecnologia instalados."
+    },
+    {
+      "projeto": "chiquetti-e-dalvesco-nautilus",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 52,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Automação e Sistemas Lógicos e telecomunicação",
+        "Brise metálico, acabamento amadeirado",
+        "Porcelanato 120x120cm",
+        "Piso vinílico tipo régua",
+        "Granito em peitoril",
+        "Piscina com sistema de aquecimento e tratamento acústico"
+      ],
+      "justificativa": "O projeto apresenta automação completa, brises metálicos e o uso de porcelanato de grandes dimensões (120x120cm) e piso vinílico tipo régua, elementos que elevam o padrão. Embora não haja mármore ou spa/sauna, a combinação de tecnologia e materiais de alto padrão o coloca na classe Alto.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os materiais e sistemas detectados são coerentes com o padrão Alto."
+    },
+    {
+      "projeto": "chiquetti-e-dalvesco-santorini",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 49,
+      "flags_detectados": [
+        "gerador",
+        "automacao",
+        "granito",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Porcelanato 120x120cm",
+        "Granito polido",
+        "Esquadrias em alumínio com Brise e Gradil Metálico",
+        "Automação e Sistemas Lógicos",
+        "Elevadores (social e serviço)",
+        "Piscina com sistema de aquecimento e tratamento acústico",
+        "Gerador de energia"
+      ],
+      "justificativa": "O projeto apresenta elementos de alto padrão como porcelanato 120x120cm, uso de brises metálicos e sistemas de automação avançada. A inclusão de elevadores sociais e de serviço, além de gerador e piscina com tratamento acústico, eleva o padrão acima do médio-alto, mas a ausência de mármore ou elementos de luxo extremo (como borda infinita ou spa/sauna) o mantém na categoria 'alto'.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são incompletos e não permitem um cálculo preciso do custo total por m², mas os materiais e sistemas presentes sugerem um custo elevado, alinhado à classe 'alto'."
+    },
+    {
+      "projeto": "ck-artefacto",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "baixa",
+      "ac": 0,
+      "ur": 0,
+      "total": 81985617.16,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item genérico)"
+      ],
+      "justificativa": "Os dados fornecidos são extremamente limitados, contendo apenas um item genérico de fachada e nenhuma informação sobre pisos, esquadrias ou lazer. A ausência de materiais de alto padrão (mármore, granito, ACM, brises) e a falta de métricas numéricas coerentes impedem uma classificação precisa, forçando uma estimativa cautelosa.",
+      "coerencia_rsm2": "nao"
+    },
+    {
+      "projeto": "ck-duo-praia-brava",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "automacao",
+        "spa_sauna",
+        "granito",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Elevadores sociais e de serviço (alto custo)",
+        "Pele de vidro e guarda-corpo em vidro (alto padrão)",
+        "Brise de alumínio e automação (alto padrão)",
+        "Porcelanato 100x100 e 60x60 (dimensão grande)",
+        "Spa/Sauna (lazer especializado)"
+      ],
+      "justificativa": "O projeto apresenta elevadores sociais e de serviço, pele de vidro, brises de alumínio e automação, além de um spa/sauna. Embora não haja mármore ou piscina aquecida, a combinação de elementos de alto custo e especificidade eleva o padrão para a classe 'alto'.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são incompletos e não permitem uma análise precisa do custo total por metro quadrado, mas os materiais indicam um padrão superior."
+    },
+    {
+      "projeto": "ck-habitah",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 0,
+      "ur": 0,
+      "total": 82857675.74,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item de alto valor)",
+        "Ausência de itens de luxo explícitos (mármore, granito, ACM, etc.)"
+      ],
+      "justificativa": "O projeto apresenta um investimento significativo em acabamentos de fachada (R$ 2,9 milhões), sugerindo um padrão elevado. No entanto, a ausência de materiais de luxo clássicos (mármore, granito, ACM) e a falta de sistemas de lazer de alto padrão limitam a classificação a médio-alto.",
+      "coerencia_rsm2": "nao - Os dados numéricos (R$ 0.00/m²) são irrelevantes e não refletem o alto valor total do investimento em acabamentos."
+    },
+    {
+      "projeto": "ck-rooftop",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 62,
+      "flags_detectados": [
+        "automacao",
+        "spa_sauna",
+        "granito",
+        "acm",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Pele de Vidro e Brises de Alumínio",
+        "Porta Pivotante em Vidro Temperado",
+        "Sistema de Fachada Ventilada com Porcelanato",
+        "Automação e Climatização Completa",
+        "Elevador de Serviço (e Locação de Elevador)"
+      ],
+      "justificativa": "O projeto apresenta um nível de acabamento elevado, evidenciado pelo uso de fachadas ventiladas com porcelanato, esquadrias complexas (vidro temperado, pivotante, brises) e sistemas de automação e elevadores. Embora não haja mármore ou piscina aquecida, a combinação de elementos de alto custo e sofisticação o eleva acima da classe média-alta.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os materiais e sistemas apontam para um custo significativamente mais alto do que o R$ 0.00 declarado."
+    },
+    {
+      "projeto": "ck-smart-navegantes",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 59,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Pele de Vidro e Brises de Alumínio",
+        "Automação (CLIMATIZAÇÃO, AUTOMAÇÃO)",
+        "Granito (implícito em acabamentos de alto padrão)",
+        "Porcelanato grande (implícito em áreas de alto padrão)",
+        "Elevador de Serviço (indicando escala e complexidade)"
+      ],
+      "justificativa": "O projeto apresenta um nível de complexidade e tecnologia elevado, evidenciado pela automação completa, uso extensivo de vidro (Pele de Vidro e Brises) e a presença de elevador de serviço. Embora não haja mármore ou piscina aquecida, a combinação de sistemas de automação e fachadas em vidro eleva o padrão acima do médio-alto, enquadrando-o na categoria Alto.",
+      "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² estão ausentes ou zerados, mas os itens de acabamento (vidro, automação, brises) são característicos de um padrão de custo elevado, justificando a classificação 'Alto'."
+    },
+    {
+      "projeto": "ck-smart-sao-joao",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 61,
+      "flags_detectados": [
+        "gerador",
+        "automacao",
+        "granito",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Pele de Vidro e Brises de Alumínio",
+        "Painel de Vidro Fixo Laminado (Glazing)",
+        "Elevador de Serviço",
+        "Sistema de Automação",
+        "Porcelanato 90x90cm",
+        "Granito em peitoris e acabamentos"
+      ],
+      "justificativa": "A presença de painéis de vidro laminado, brises de alumínio, automação e elevador de serviço eleva o padrão significativamente. Embora não haja mármore ou piscina aquecida, o uso de porcelanato de grandes dimensões (90x90cm) e granito em acabamentos complementares sustenta uma classificação de alto padrão.",
+      "coerencia_rsm2": "parcial — Os dados numéricos estão zerados, mas os itens de acabamento e sistemas detectados são de alto custo, justificando a classificação de alto."
+    },
+    {
+      "projeto": "ck-unique",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 49,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Elevador Social",
+        "Projeto de Automação",
+        "Porcelanato 100x100",
+        "Alumínio com pintura eletrostática",
+        "Guarda Corpo de Perfil Tubular"
+      ],
+      "justificativa": "A presença de elevador social e automação eleva o padrão significativamente. O uso de porcelanato grande (100x100) e esquadrias de alumínio com pintura eletrostática, além de guarda-corpos em perfil tubular, são características de alto padrão. Embora não haja mármore ou granito explícito, os sistemas de automação e o elevador já posicionam o projeto acima da classe média-alta.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os itens de acabamento apontam para uma classe superior."
+    },
+    {
+      "projeto": "ck-urbe",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "baixa",
+      "ac": 0,
+      "ur": 0,
+      "total": 13265824.464238953,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (custo alto)",
+        "Ausência de itens de luxo explícitos (spa, sauna, etc.)"
+      ],
+      "justificativa": "O projeto apresenta um custo total muito elevado (R$ 13,2 milhões) e um investimento significativo em fachada (R$ 875 mil), sugerindo um padrão superior. No entanto, a ausência de materiais de altíssimo padrão (mármore, granito, ACM premium) e de sistemas de lazer de luxo (spa, sauna, piscina aquecida) impede a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "baixa — Os dados numéricos (R$/m² = 0.00) são nulos e não refletem o custo real do projeto, que é alto."
+    },
+    {
+      "projeto": "cln-porto-ruby",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 12972.67,
+      "ur": 44,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 294.83,
+      "n_itens_top": 41,
+      "flags_detectados": [
+        "gerador",
+        "granito",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "Porcelanato e vinílico (piso de qualidade)",
+        "Granito em bancadas e tampo",
+        "Marcas de louças premium (Deca/Docol)",
+        "Sistema de gerador elétrico (infraestrutura de alto padrão)",
+        "Esquadrias com detalhes de frisos decorativos"
+      ],
+      "justificativa": "O projeto apresenta pisos de porcelanato/vinílico e bancadas em granito, além de louças de marcas premium como Deca. A inclusão de um gerador e esquadrias detalhadas eleva o padrão acima do médio, mas a ausência de mármore, automação avançada ou grandes áreas de lazer (spa/sauna) impede a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² e R$/UR estão zerados, mas os itens de acabamento e sistemas detectados (gerador, granito, Deca) são fortes indicadores de um padrão superior ao médio."
+    },
+    {
+      "projeto": "cn-brava-garden",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "baixa",
+      "ac": 0,
+      "ur": 0,
+      "total": 45491117.37,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (indica investimento significativo em estética e acabamento)",
+        "Tipologia Home Club (sugere um padrão de vida elevado, mesmo que os dados sejam escassos)"
+      ],
+      "justificativa": "Apesar da ausência de dados detalhados de acabamentos (pisos, esquadrias, louças) e da falta de itens de luxo (spa, automação), a tipologia 'Home Club' e o investimento significativo em 'Revestimentos e acabamentos de fachada' sugerem um padrão acima do médio, mas sem os elementos de luxo que caracterizariam as classes 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "baixa — Os dados numéricos são nulos ou incompletos, impedindo uma análise de custo por metro quadrado confiável."
+    },
+    {
+      "projeto": "cn-brava-ocean",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 505.35308352799916,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 54,
+      "flags_detectados": [
+        "gerador",
+        "automacao",
+        "spa_sauna",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Pele de vidro",
+        "Automação e sistemas lógicos",
+        "Grupo gerador",
+        "Spa/Sauna",
+        "Deck de madeira",
+        "Porcelanato placa 60x60",
+        "Fachada com revestimentos caros (totalizando milhões)",
+        "Esquadrias de alumínio e madeira pivotante"
+      ],
+      "justificativa": "O projeto apresenta elementos de alto padrão como pele de vidro, automação, grupo gerador e spa/sauna. Embora não haja mármore ou granito explícitos, o investimento massivo em revestimentos de fachada e o uso de porcelanato placa e deck de madeira elevam o padrão para a classe 'alto'.",
+      "coerencia_rsm2": "parcial — Os dados de R$/m² estão zerados, mas o custo total dos itens listados (milhões em fachada e elevadores) sugere um valor muito superior ao que seria esperado para as classes inferiores."
+    },
+    {
+      "projeto": "cn-brava-valley",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 0,
+      "ur": 0,
+      "total": 57502888.989999995,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (alto valor)",
+        "Ausência de itens de luxo explícitos (mármore, granito, ACM, etc.)"
+      ],
+      "justificativa": "Apesar da falta de itens de luxo explícitos (mármore, granito, ACM), o alto custo e a menção a 'Revestimentos e acabamentos de fachada' em um valor significativo (R$ 2 milhões) sugerem um padrão acima do médio. A ausência de itens de luxo e a falta de dados de acabamentos internos (pisos, esquadrias) impedem a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "nao — Os dados numéricos são nulos ou incompletos, tornando a análise baseada apenas nos materiais e custos detectados."
+    },
+    {
+      "projeto": "colline-de-france-colline-de-france",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "alta",
+      "ac": 27559.45,
+      "ur": 0,
+      "total": 143845292.36,
+      "rsm2": 5219.45,
+      "m2_por_ur": 0,
+      "n_itens_top": 11,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Esquadrias com frisos decorativos e dimensões específicas (0,70x200m; 57x200cm; 70x200cm)",
+        "O valor de R$/m² (R$ 5.219,45) está acima do limite de R$ 5.000,00, indicando alto padrão."
+      ],
+      "justificativa": "O valor de R$/m² (R$ 5.219,45) é o indicador mais forte, ultrapassando o limite de R$ 5.000,00 e apontando para o padrão Luxo ou Alto. Embora a lista de itens de acabamento seja muito genérica (apenas esquadrias), o custo total e a complexidade das esquadrias sugerem um projeto de alto padrão, que exige materiais e mão de obra premium.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "cota-365",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "media",
+      "ac": 17505.56,
+      "ur": 0,
+      "total": 60989058.06,
+      "rsm2": 3483.98,
+      "m2_por_ur": 0,
+      "n_itens_top": 34,
+      "flags_detectados": [
+        "granito",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "uso de granito em bancadas",
+        "uso de louças Deca (marca reconhecida)",
+        "presença de churrasqueiras e infraestrutura de ar condicionado"
+      ],
+      "justificativa": "O projeto apresenta um nível de acabamento acima do médio, evidenciado pelo uso de granito em bancadas e louças de marca (Deca). No entanto, a ausência de materiais de alto padrão como mármore, porcelanato grande formato (120x120) ou sistemas complexos (spa, automação) o impede de ser classificado como 'alto'.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "dimas-pb2",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "alto",
+      "confianca": "media",
+      "ac": 21215.27,
+      "ur": 0,
+      "total": 92187220.92,
+      "rsm2": 4345.32,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "R$/m² de R$ 4.345,32 (acima do limite 'medio-alto' e próximo ao 'alto')",
+        "A menção de revestimentos e acabamentos de fachada (sem detalhamento, mas indicando investimento significativo)",
+        "O valor total do projeto (R$ 92 milhões) sugere um padrão de alto investimento"
+      ],
+      "justificativa": "O valor por metro quadrado (R$ 4.345,32) já posiciona o projeto na faixa 'alto'. Embora os detalhes de acabamento sejam escassos, o investimento total e a faixa de preço sugerem o uso de materiais de alta qualidade, como porcelanato 120x120 ou granito, típicos de padrões altos.",
+      "coerencia_rsm2": "parcial — O R$/m² está na faixa 'alto', mas a falta de detalhes de acabamento impede uma confirmação total da coerência."
+    },
+    {
+      "projeto": "estilo-condominios-estilo-condominios",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "economico",
+      "confianca": "media",
+      "ac": 23967.18,
+      "ur": 0,
+      "total": 8588624.95,
+      "rsm2": 358.35,
+      "m2_por_ur": 0,
+      "n_itens_top": 2,
+      "flags_detectados": [
+        "automacao"
+      ],
+      "sinais_detectados": [
+        "automação",
+        "revestimentos e acabamentos de fachada"
+      ],
+      "justificativa": "A presença de automação e acabamentos de fachada sugere um padrão acima do médio. No entanto, a ausência de itens de luxo (como piscina aquecida, mármore, granito ou sistemas de alto custo) e a baixa granularidade dos dados impedem a classificação como alto ou luxo.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 358,35 é extremamente baixo para qualquer padrão de acabamento, indicando que o valor total pode ser um erro de cálculo ou que o escopo analisado é muito limitado."
+    },
+    {
+      "projeto": "etr-zion-meridian-tower",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "alto",
+      "confianca": "alta",
+      "ac": 4617.34,
+      "ur": 0,
+      "total": 19377746.95,
+      "rsm2": 4196.73,
+      "m2_por_ur": 0,
+      "n_itens_top": 28,
+      "flags_detectados": [
+        "spa_sauna",
+        "granito"
+      ],
+      "sinais_detectados": [
+        "spa_sauna",
+        "granito",
+        "R$ 4.196,73/m² (próximo ao limite alto)",
+        "Bancada de granito"
+      ],
+      "justificativa": "A presença de um Spa/Sauna, o uso de granito em bancadas e o valor de R$ 4.196,73/m² posicionam o projeto na faixa 'Alto'. Embora não haja mármore ou automação, os itens de lazer e o custo por m² são fortes indicadores de um padrão elevado.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "exito-oiti",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 7974.15,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 57,
+      "flags_detectados": [
+        "granito",
+        "laminado",
+        "gourmet"
+      ],
+      "sinais_detectados": [
+        "Elevadores sociais e de serviço (alto custo)",
+        "Brise em alumínio (alto padrão)",
+        "Piso porcelanato 60x60cm e laminado (padrão intermediário/alto)",
+        "Gourmet (lazer) e granito (flag detectado)"
+      ],
+      "justificativa": "A presença de elevadores sociais e de serviço, além do uso de brise e o item gourmet, eleva o padrão para a classe 'alto'. Embora não haja mármore ou automação, os equipamentos de alto custo e os elementos de design (brise, porcelanato 60x60) superam o perfil 'médio-alto'.",
+      "coerencia_rsm2": "parcial — Os custos por m² são muito baixos (R$ 0.00) em relação aos equipamentos de alto custo detectados (elevadores, brise), sugerindo que o orçamento está incompleto ou extraído de forma parcial."
+    },
+    {
+      "projeto": "eze-bella-vivie",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 35,
+      "flags_detectados": [
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Elevador de passageiros (2 unidades)",
+        "Piscina com equipamentos (R$ 150.000)",
+        "Brise Vertical Metálico/Alumínio (fachada)",
+        "Portas de madeira e deck de madeira",
+        "Porcelanato (material de acabamento)"
+      ],
+      "justificativa": "A presença de elevador de passageiros, piscina com equipamentos e o uso de brises metálicos na fachada elevam significativamente o padrão. Embora não haja mármore ou automação completa, os itens de alto custo e complexidade (elevador, brise, porcelanato) posicionam o projeto na classe 'alto'.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são incompletos e não permitem uma análise precisa do custo total por m², mas os itens de acabamento sugerem um padrão superior ao médio-alto."
+    },
+    {
+      "projeto": "eze-eilat",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 1767.3,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 39,
+      "flags_detectados": [
+        "gerador",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Elevador de passageiros (2 sociais)",
+        "Brise Vertical Metálico/Alumínio",
+        "Vidros e guarda-corpo em alumínio/vidros",
+        "Portas de madeira e forro de madeira",
+        "Estrutura de telhado em madeira"
+      ],
+      "justificativa": "A presença de elevador de passageiros, brises metálicos e o uso extensivo de vidros e madeira (portas, forros, estrutura de telhado) eleva o padrão significativamente. Embora não haja mármore ou automação, os itens de alto custo e especificidade apontam para uma categoria superior à média-alta.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido pelos materiais (elevador, brises, madeira nobre)."
+    },
+    {
+      "projeto": "f-nogueira-soberano",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "economico",
+      "confianca": "alta",
+      "ac": 27247.73,
+      "ur": 0,
+      "total": 71772532.29,
+      "rsm2": 2634.07,
+      "m2_por_ur": 0,
+      "n_itens_top": 58,
+      "flags_detectados": [
+        "automacao",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "automação",
+        "elevador social",
+        "porcelanato 60x60",
+        "vidro laminado",
+        "pastilha cerâmica",
+        "textura projetada"
+      ],
+      "justificativa": "O projeto apresenta elementos de alto padrão como automação, elevador social e uso de porcelanato 60x60 e vidro laminado. No entanto, a ausência de materiais nobres como mármore, granito ou sistemas de lazer premium (spa, piscina aquecida) o limita à faixa médio-alta.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 2.634,07 está abaixo da faixa sugerida (R$ 3.400–4.000), mas os itens de automação e elevador social elevam o padrão acima do médio."
+    },
+    {
+      "projeto": "f-nogueira-wpr",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "economico",
+      "confianca": "alta",
+      "ac": 37483.31,
+      "ur": 0,
+      "total": 95548670.14,
+      "rsm2": 2549.1,
+      "m2_por_ur": 0,
+      "n_itens_top": 58,
+      "flags_detectados": [
+        "automacao",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Automação e sistemas lógicos",
+        "Elevador social",
+        "Porcelanato 60x60 e 30x60",
+        "Vidro laminado e guarda-corpo em vidro",
+        "Pastilha cerâmica em fachada"
+      ],
+      "justificativa": "O projeto apresenta automação e elevador social, indicando um padrão acima do médio. O uso de porcelanato de dimensões médias (60x60) e vidros laminados eleva o nível. No entanto, a ausência de materiais de altíssimo custo como mármore, granito ou sistemas de lazer premium (spa, piscina aquecida) impede a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 2.549,10 está abaixo da faixa 'medio-alto' (R$ 3.400–4.000), mas os itens de acabamento (automação, elevador, porcelanato, vidro) sugerem um custo real mais elevado, justificando a classificação superior à média."
+    },
+    {
+      "projeto": "fg-blue-coast",
+      "padrao": "medio",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 13131.849999999999,
+      "ur": 35,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 375.2,
+      "n_itens_top": 15,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Louças e metais básicos (bacia sanitária, cuba, chuveiro padrão)",
+        "Ausência de materiais nobres (mármore, granito, madeira nobre) ou sistemas complexos"
+      ],
+      "justificativa": "O projeto apresenta um nível de acabamento funcional e padrão, utilizando louças e metais básicos sem especificar materiais nobres ou sistemas de luxo. A ausência de itens como mármore, granito, automação ou áreas de lazer especiais limita a classificação a um padrão médio.",
+      "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² são nulos ou muito baixos, não refletindo o custo real de um projeto de médio padrão, mas os itens de acabamento sugerem essa faixa."
+    },
+    {
+      "projeto": "fg-scenarium",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "alto",
+      "confianca": "alta",
+      "ac": 42277.77,
+      "ur": 0,
+      "total": 206674002.44,
+      "rsm2": 4888.48,
+      "m2_por_ur": 0,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "gerador",
+        "automacao",
+        "spa_sauna",
+        "marmore",
+        "granito",
+        "acm",
+        "vinilico",
+        "fitness_academia"
+      ],
+      "sinais_detectados": [
+        "mármore travertino bruto",
+        "porcelanato 120x120cm",
+        "esquadrias de madeira",
+        "alumínio alto-standard",
+        "brise filetado",
+        "spa/sauna",
+        "automação",
+        "gerador",
+        "ACM"
+      ],
+      "justificativa": "A presença de mármore travertino bruto, porcelanato 120x120cm, esquadrias de madeira e o uso de ACM e brises automatizados elevam o padrão significativamente. Embora itens de luxo extremo como piscina aquecida e heliponto estejam ausentes, a combinação de automação, spa/sauna e gerador já coloca o projeto na faixa 'Alto'.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 4.888,48 está na faixa 'Alto', mas a complexidade e o custo dos materiais (mármore, madeira, automação) sugerem um valor mais próximo do limite superior ou até 'Luxo' em áreas específicas."
+    },
+    {
+      "projeto": "fonseca-empreendimentos-estoril",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 14491.98,
+      "ur": 110,
+      "total": 48960377.088515654,
+      "rsm2": 3378.45,
+      "m2_por_ur": 131.75,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "gerador",
+        "granito",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "granito",
+        "bacia sanitária/caixa acoplada (alto valor)",
+        "piscina cobertura",
+        "gerador"
+      ],
+      "justificativa": "O projeto apresenta itens de médio-alto padrão, como o uso de granito e bacias sanitárias de alto valor, além de equipamentos de lazer como piscina de cobertura e gerador. Embora não atinja o nível de luxo (ausência de mármore, spa ou automação), a combinação de materiais e sistemas eleva o padrão acima do médio.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.378,45 está na faixa 'medio', mas os itens de acabamento (granito, bacias caras, piscina de cobertura) puxam o padrão para 'medio-alto'."
+    },
+    {
+      "projeto": "gdi-playa-negra",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "alto",
+      "confianca": "alta",
+      "ac": 8518.6,
+      "ur": 0,
+      "total": 37027025.39,
+      "rsm2": 4346.61,
+      "m2_por_ur": 0,
+      "n_itens_top": 45,
+      "flags_detectados": [
+        "gerador",
+        "granito",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "gerador",
+        "granito",
+        "porcelanato_grande",
+        "docol_deca",
+        "vidro_temperado",
+        "madeira_nobre",
+        "esquadria_vidro"
+      ],
+      "justificativa": "A presença de gerador, porcelanato grande e louças de marcas premium (Deca/Docol) eleva o padrão. As esquadrias em vidro temperado e madeira, juntamente com o granito, indicam acabamentos acima do médio, mas a ausência de mármore, automação e itens de lazer de altíssimo padrão (spa/sauna) impede a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 4.346,61 sugere um padrão 'alto', mas a análise detalhada dos materiais (ausência de mármore, ACM e automação) puxa o projeto para 'médio-alto'."
+    },
+    {
+      "projeto": "gmf-moradas-do-atalaia",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "alta",
+      "ac": 7374.18,
+      "ur": 0,
+      "total": 25675656.81,
+      "rsm2": 3481.83,
+      "m2_por_ur": 0,
+      "n_itens_top": 52,
+      "flags_detectados": [
+        "gerador",
+        "granito",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Elevador (sistema vertical)",
+        "Granito (peitoril/revestimento)",
+        "Brise (elementos de sombreamento)",
+        "Pele de vidro (grandes vãos)"
+      ],
+      "justificativa": "A presença de elevador, brise e pele de vidro eleva o padrão acima do médio, indicando um acabamento sofisticado. Embora não haja mármore ou automação completa, o uso de granito e esquadrias de alumínio de alto custo (incluindo guarda corpo de vidro e aço inox) sustenta a classificação em médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.481,83 está na faixa de médio-alto, mas a ausência de porcelanato grande e mármore poderia sugerir uma classificação mais baixa, sendo os sistemas (elevador, brise, vidro) os fatores decisivos."
+    },
+    {
+      "projeto": "grandezza-gran-royal",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "economico",
+      "confianca": "alta",
+      "ac": 5225.33,
+      "ur": 0,
+      "total": 10020041.553764636,
+      "rsm2": 1917.59,
+      "m2_por_ur": 0,
+      "n_itens_top": 74,
+      "flags_detectados": [
+        "marmore",
+        "granito",
+        "acm",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico",
+        "docol_deca",
+        "gourmet"
+      ],
+      "sinais_detectados": [
+        "porcelanato_grande",
+        "marmore",
+        "granito",
+        "acm",
+        "gourmet",
+        "elevador_cremalheira",
+        "pastilha_decorada"
+      ],
+      "justificativa": "O projeto apresenta elementos de acabamento de alto padrão como mármore, granito, ACM e porcelanato grande, além de um kit gourmet e elevador cremalheira. No entanto, a ausência de itens de luxo extremos (spa, sauna, borda infinita, automação avançada) e o R$/m² calculado (R$ 1,917.59) puxam o padrão para a faixa médio-alto, que é caracterizada por materiais premium, mas sem o custo de sistemas de luxo.",
+      "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 1,917.59) está significativamente abaixo da faixa médio-alto (R$ 3.400–R$ 4.000), mas os materiais listados (mármore, granito, ACM, porcelanato grande) indicam um custo real muito superior, justificando a classificação pela qualidade dos materiais e não pelo valor numérico aparente."
+    },
+    {
+      "projeto": "grandezza-gran-tower",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 6245.48,
+      "ur": 0,
+      "total": 21245650.53,
+      "rsm2": 3401.76,
+      "m2_por_ur": 0,
+      "n_itens_top": 55,
+      "flags_detectados": [
+        "automacao",
+        "spa_sauna",
+        "marmore",
+        "granito",
+        "acm",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "ACM em fachada",
+        "Esquadrias de alumínio (alto custo)",
+        "Spa/Sauna úmida",
+        "Automação",
+        "Porcelanato 80x80 e vinílico",
+        "Madeira em esquadrias e rodapés"
+      ],
+      "justificativa": "O projeto apresenta um mix de materiais de alto padrão, como revestimento em ACM na fachada, esquadrias de alumínio de alto custo, e a inclusão de spa/sauna úmida e automação. Embora não atinja o nível de luxo máximo (sem borda infinita ou heliponto), a combinação de elementos eleva o padrão para a classe 'Alto'.",
+      "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 3.401,76) está na faixa 'Médio-Alto', mas os itens de acabamento (ACM, spa, automação, madeira) puxam o padrão para 'Alto'."
+    },
+    {
+      "projeto": "grupo-duo-colin",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 6918.779999999998,
+      "ur": 30,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 230.63,
+      "n_itens_top": 24,
+      "flags_detectados": [
+        "gerador"
+      ],
+      "sinais_detectados": [
+        "Gerador de energia (sinal de alto investimento)",
+        "Aço Inox 316-L (uso profissional/premium)",
+        "Bancada Cozinha (indica atenção ao acabamento)",
+        "Sistema de filtragem (Filtrro Sodramar)"
+      ],
+      "justificativa": "A presença de um gerador de energia e o uso de aço inox 316-L em itens hidráulicos e de drenagem elevam o padrão acima do médio-alto. Embora faltem materiais de luxo como mármore ou automação completa, os sistemas e equipamentos presentes apontam para uma execução de alto padrão.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de equipamentos e sistemas detectados (gerador, inox 316-L, etc.), sugerindo que o cálculo foi feito apenas sobre a infraestrutura básica."
+    },
+    {
+      "projeto": "grupo-duo-mosaico",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 7672.04,
+      "ur": 81,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 94.72,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "gerador"
+      ],
+      "sinais_detectados": [
+        "Gerador de energia (presente)",
+        "Tampo articulado grande (110x110cm)",
+        "Sistema de filtragem de água (SODRAMAR)",
+        "Climatização e sistemas elétricos robustos"
+      ],
+      "justificativa": "A presença de gerador de energia, sistemas de filtragem de água e a complexidade das instalações elétricas e de climatização elevam o padrão. Embora faltem itens de luxo como mármore e automação, o nível de engenharia e os equipamentos especializados apontam para uma categoria superior à média-alta.",
+      "coerencia_rsm2": "parcial — Os custos de infraestrutura e sistemas (R$ 95.22/m² elétrico, R$ 9.84/m² climatização) são altos, mas o R$/m² total não reflete o custo de acabamentos de alto padrão (porcelanato 120x120, etc.) que seriam esperados nesta classe."
+    },
+    {
+      "projeto": "h-empreendimentos-atlantia",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "media",
+      "ac": 288.7994195755723,
+      "ur": 0,
+      "total": 40420184.52353001,
+      "rsm2": 139959.37,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item presente)"
+      ],
+      "justificativa": "A análise é limitada pela ausência de detalhes de acabamentos internos (pisos, esquadrias, louças) e pela falta de itens de lazer de alto padrão. No entanto, a presença de um item de fachada específico (R$ 1,88M) sugere um acabamento superior ao básico, posicionando o projeto na faixa médio-alta, aguardando mais dados para confirmação.",
+      "coerencia_rsm2": "nao - O R$/m² de R$ 139,96 é extremamente baixo para qualquer classe de acabamento, sugerindo que o valor total (R$ 40,4M) pode estar incorreto ou incluir apenas a obra bruta, e não o acabamento completo."
+    },
+    {
+      "projeto": "hacasa-brisa-da-armacao",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 12828.33,
+      "ur": 0,
+      "total": 42283515.5,
+      "rsm2": 3296.1,
+      "m2_por_ur": 0,
+      "n_itens_top": 41,
+      "flags_detectados": [
+        "gerador",
+        "granito",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "granito",
+        "Docol/Deca (marca premium)",
+        "Gerador de energia",
+        "Esquadrias com frisos decorativos"
+      ],
+      "justificativa": "A presença de granito em bancadas e louças de marcas premium (Deca/Docol) eleva o padrão. O sistema de gerador e as esquadrias detalhadas (com frisos) indicam um investimento acima do médio, mas a ausência de mármore, automação avançada ou grandes porcelanatos limita a classificação para 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.296,10 está na faixa 'medio', mas os itens de acabamento (gerador, louças premium, granito) puxam o custo para 'medio-alto'."
+    },
+    {
+      "projeto": "holze-sense-106",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "alta",
+      "ac": 8700.0,
+      "ur": 0,
+      "total": 30584964.89,
+      "rsm2": 3515.51,
+      "m2_por_ur": 0,
+      "n_itens_top": 40,
+      "flags_detectados": [
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "Marca Docol/Deca (louças de qualidade)",
+        "Presença de sistemas de climatização e drenagem avançados (trocador de calor, bombas, ralos anti-turbilhão)",
+        "Acabamentos de louças e metais específicos (Cuba de cozinha, barra de apoio)"
+      ],
+      "justificativa": "O projeto apresenta marcas de louças de alto padrão (Deca/Docol) e sistemas de infraestrutura complexos (trocador de calor, bombas, ralos anti-turbilhão), elevando o nível acima do médio. No entanto, a ausência de itens de luxo como mármore, granito, automação ou lazer sofisticado o mantém na faixa de médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.515,51 se encaixa perfeitamente na faixa de médio-alto (R$ 3.400–R$ 4.000), apesar da falta de dados detalhados por disciplina."
+    },
+    {
+      "projeto": "homeset-homeset",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 7959.45,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 56,
+      "flags_detectados": [
+        "automacao",
+        "granito"
+      ],
+      "sinais_detectados": [
+        "Elevador Permanente",
+        "Automação e Sistemas Lógicos",
+        "Granito (uso em soleiras, peitoris, tampo)",
+        "Porcelanato amadeirado 84x84cm",
+        "Vidro (Guarda-Corpo e Pele)"
+      ],
+      "justificativa": "A presença de elevador permanente, automação e o uso de vidros e granitos em detalhes de acabamento elevam o padrão. Embora não haja mármore ou piscina aquecida, os sistemas de automação e o elevador já posicionam o projeto acima da classe média-alta, caracterizando um padrão alto.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido (elevador, automação, vidros), indicando que o cálculo foi feito apenas sobre a área construída e não sobre o custo total dos sistemas especiais."
+    },
+    {
+      "projeto": "inbrasul-aguas-de-marco",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "media",
+      "ac": 6538.41,
+      "ur": 0,
+      "total": 24341958.32,
+      "rsm2": 3722.92,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item de custo alto)",
+        "R$/m² de R$ 3.722,92 (dentro da faixa médio-alto)"
+      ],
+      "justificativa": "O custo por metro quadrado (R$ 3.722,92) e a presença de um item de fachada específico e caro sugerem um padrão acima do médio. No entanto, a ausência de materiais de alto padrão como mármore, granito, ou sistemas de lazer complexos (spa, sauna) impede a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "parcial — O R$/m² está na faixa médio-alto, mas a falta de detalhes de acabamento (pisos, esquadrias) impede uma confirmação total da coerência."
+    },
+    {
+      "projeto": "inbrasul-opus",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "media",
+      "ac": 4410.5,
+      "ur": 0,
+      "total": 16756730.41,
+      "rsm2": 3799.28,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (custo elevado)",
+        "R$/m² de R$ 3.799,28 (dentro da faixa médio-alto)"
+      ],
+      "justificativa": "O custo por metro quadrado (R$ 3.799,28) e a menção a revestimentos de fachada específicos sugerem um padrão acima do médio. No entanto, a ausência de materiais de alto padrão como mármore, granito, automação ou grandes áreas de lazer impede a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "parcial — O R$/m² está na faixa de médio-alto, mas a falta de detalhes de acabamento (pisos, esquadrias) impede uma confirmação total."
+    },
+    {
+      "projeto": "indepy-caio-prado",
+      "padrao": "medio",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 6938.39,
+      "ur": 135,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 51.4,
+      "n_itens_top": 15,
+      "flags_detectados": [
+        "gourmet"
+      ],
+      "sinais_detectados": [
+        "Gourmet (presente)",
+        "Torneira de Jardins (presente)",
+        "Barra de apoio PNE (presente)"
+      ],
+      "justificativa": "O projeto apresenta um sinal de gourmet, o que eleva o padrão acima do básico. No entanto, a ausência de materiais de alto padrão (mármore, granito, automação, spa) e a lista de louças e metais é básica, sugerindo um acabamento funcional e de padrão médio.",
+      "coerencia_rsm2": "nao - Os valores de R$/m² são nulos ou muito baixos, mas os itens detectados (gourmet, PNE) sugerem um padrão mínimo de médio."
+    },
+    {
+      "projeto": "indepy-stella-marina",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 57,
+      "flags_detectados": [
+        "gerador",
+        "granito"
+      ],
+      "sinais_detectados": [
+        "Porcelanato 80x80cm em áreas comuns",
+        "Granito em bancadas e pisos",
+        "Guarda-corpo de alumínio e vidro",
+        "Porta corta fogo P120 (especificidade e custo)",
+        "Elevador cremalheira e gerador autônomo"
+      ],
+      "justificativa": "O projeto apresenta materiais de qualidade superior (porcelanato 80x80, granito, guarda-corpo de vidro e elevador cremalheira) e sistemas de segurança/infraestrutura (portas corta-fogo, gerador). Embora não atinja o nível de luxo (ausência de mármore, automação ou lazer premium), ele supera o padrão médio, posicionando-se firmemente na categoria médio-alto.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os itens de acabamento e sistemas apontam para um custo significativamente superior ao médio, justificando a classificação médio-alto."
+    },
+    {
+      "projeto": "kirchner-kirchner",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 0,
+      "ur": 0,
+      "total": 28993518.051161382,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 15,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Bacia Sanitária de louça com caixa acoplada (preço unitário alto)",
+        "Torneira de cozinha (R$ 250,00)",
+        "Mão de obra louças e metais (detalhada)"
+      ],
+      "justificativa": "Embora os dados numéricos de R$/m² e m²/UR estejam zerados, os itens de louças e metais indicam um padrão acima do básico. A especificação de louças e torneiras com preços unitários elevados sugere um acabamento de médio-alto, mas a ausência de materiais de alto padrão (mármore, granito, ACM, etc.) e sistemas complexos limita a classificação.",
+      "coerencia_rsm2": "nao — Os dados numéricos de R$/m² e m²/UR são nulos, mas os itens de acabamento sugerem um custo significativamente mais alto do que o zero reportado."
+    },
+    {
+      "projeto": "libra-concept-libra-conecpt",
+      "padrao": "medio",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio",
+      "bucket_rsm2": "economico",
+      "confianca": "media",
+      "ac": 4338.77,
+      "ur": 0,
+      "total": 9853382.76,
+      "rsm2": 2271.01,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (custo elevado)"
+      ],
+      "justificativa": "Apesar do custo total ser alto, a ausência de itens de luxo (spa, automação, mármore, etc.) e a única informação de acabamento se restringir a revestimentos de fachada não permitem classificar o projeto acima do padrão médio. O R$/m² calculado (R$ 2.271,01) é coerente com a faixa econômica, mas os custos de fachada sugerem um padrão médio.",
+      "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 2.271,01) está abaixo da faixa econômica (R$ < 2.800), mas o custo de fachada é alto, sugerindo um padrão superior ao calculado."
+    },
+    {
+      "projeto": "lotisa-serenity",
+      "padrao": "economico",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "economico",
+      "bucket_rsm2": "economico",
+      "confianca": "baixa",
+      "ac": 13606.52,
+      "ur": 0,
+      "total": 20676527.759999998,
+      "rsm2": 1519.6,
+      "m2_por_ur": 0,
+      "n_itens_top": 2,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Nenhum item de acabamento de alto padrão foi listado.",
+        "A análise se baseia apenas em dados numéricos e na ausência de especificações de materiais de luxo."
+      ],
+      "justificativa": "Os dados fornecidos são extremamente limitados, listando apenas serviços de base (revestimento e acabamento de fachada) sem especificar materiais de alto padrão (como mármore, porcelanato grande formato ou esquadrias especiais). O baixo R$/m² (R$ 1.519/m²) é um indicador muito forte de padrão econômico, apesar da falta de detalhamento.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "lumis-live",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "economico",
+      "confianca": "media",
+      "ac": 14888.46,
+      "ur": 0,
+      "total": 43772260.74,
+      "rsm2": 2940.01,
+      "m2_por_ur": 0,
+      "n_itens_top": 2,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Esquadrias de Madeira",
+        "Piscina"
+      ],
+      "justificativa": "A presença de esquadrias de madeira e uma piscina já elevam o padrão acima do médio. No entanto, a ausência de itens de luxo (spa, automação, mármore, etc.) e a baixa densidade de informações limitam a classificação a médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 2.940,01 está na faixa do 'médio', mas os materiais (madeira, piscina) sugerem um padrão mais elevado, puxando para médio-alto."
+    },
+    {
+      "projeto": "mabrem-gran-torino",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 12518.96,
+      "ur": 0,
+      "total": 37237429.53,
+      "rsm2": 2974.48,
+      "m2_por_ur": 0,
+      "n_itens_top": 57,
+      "flags_detectados": [
+        "spa_sauna",
+        "granito",
+        "vinilico",
+        "fitness_academia"
+      ],
+      "sinais_detectados": [
+        "spa_sauna",
+        "fitness_academia",
+        "porcelanato placa 90x90cm",
+        "pergolado de madeira com cobertura de vidro",
+        "elevador social",
+        "pastilha ceramica, aplicacao em paredes externas"
+      ],
+      "justificativa": "O projeto apresenta um nível de acabamento acima do médio, evidenciado pela inclusão de spa/sauna, academia (kit fitness) e revestimento em porcelanato placa 90x90cm. Embora não haja mármore ou automação avançada, a presença de elevador social e o investimento em fachadas com pastilhas e pergolados eleva o padrão para a categoria médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 2.974,48 está na faixa do 'médio', mas os itens de acabamento (spa, porcelanato placa, elevador social) sugerem um padrão mais elevado, puxando para o médio-alto."
+    },
+    {
+      "projeto": "mabrem-san-marino",
+      "padrao": "insuficiente",
+      "metodo": "sem_dados",
+      "padrao_gemma_raw": "baixa_informacao",
+      "bucket_rsm2": null,
+      "confianca": "baixa",
+      "ac": 0,
+      "ur": 0,
+      "total": 11639433.78,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 0,
+      "flags_detectados": [],
+      "sinais_detectados": [],
+      "justificativa": "Não foi fornecido nenhum dado de acabamento (pisos, esquadrias, louças, fachada, lazer) para análise. A classificação é impossível de ser feita com base nas informações disponíveis.",
+      "coerencia_rsm2": "nao"
+    },
+    {
+      "projeto": "macom-adda",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio",
+      "confianca": "media",
+      "ac": 4358.27,
+      "ur": 0,
+      "total": 13434812.16,
+      "rsm2": 3082.6,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (custo elevado)",
+        "Ausência de itens de luxo (spa, sauna, etc.)"
+      ],
+      "justificativa": "O custo total e o item de fachada sugerem um padrão acima do médio, mas a ausência de materiais premium (mármore, granito, ACM) e sistemas de luxo (spa, gerador) limitam a classificação a médio-alto. O R$/m² calculado (R$ 3.082,60) está na faixa de transição, mas os materiais sugerem um nível de acabamento mais refinado do que o médio.",
+      "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 3.082,60) está na faixa de transição entre médio e médio-alto, mas a análise dos materiais sugere um padrão mais próximo do médio-alto devido ao custo da fachada e à ausência de itens de luxo."
+    },
+    {
+      "projeto": "macom-villa-lobos",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio",
+      "confianca": "media",
+      "ac": 6001.7,
+      "ur": 0,
+      "total": 17850373.28,
+      "rsm2": 2974.22,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (indica atenção em detalhes)",
+        "R$/m² de R$ 2.974,22 (próximo ao limite médio)"
+      ],
+      "justificativa": "Apesar do R$/m² estar na faixa de transição, a ausência de itens de luxo (mármore, granito, automação, spa) e a presença de um custo significativo em acabamentos de fachada sugerem um padrão acima do médio, mas sem atingir o alto. A classe 'medio-alto' é a mais coerente.",
+      "coerencia_rsm2": "parcial — O R$/m² está na faixa de transição (2.800-3.400), mas a falta de detalhes de acabamento (pisos, esquadrias, louças) impede uma classificação mais precisa."
+    },
+    {
+      "projeto": "mendes-empreendimentos-brava-mundo",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "alta",
+      "ac": 4811.54,
+      "ur": 0,
+      "total": 20149157.700000003,
+      "rsm2": 4187.67,
+      "m2_por_ur": 0,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "gerador",
+        "automacao",
+        "spa_sauna",
+        "granito",
+        "acm",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico",
+        "fitness_academia"
+      ],
+      "sinais_detectados": [
+        "Pele de vidro (fachada e áreas)",
+        "ACM em fachada",
+        "Automação e Sistemas Lógicos",
+        "Spa/Sauna",
+        "Porcelanato 100x100cm",
+        "Elevadores sociais e de serviço"
+      ],
+      "justificativa": "O projeto apresenta elementos de alto padrão como fachadas em ACM e pele de vidro, além de sistemas de automação e spa/sauna. Embora não atinja o nível de luxo (ausência de borda infinita ou mármore nobre), a combinação de grandes dimensões de porcelanato (100x100cm) e a complexidade dos sistemas eleva o padrão para a classe 'alto'.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 4.187,67 está bem posicionado na faixa 'alto', mas a análise de materiais e sistemas é mais determinante do que o valor numérico isolado."
+    },
+    {
+      "projeto": "mendes-empreendimentos-brava-sixteen",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 3282.64,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 49,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "acm",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "automação",
+        "ACM",
+        "porcelanato_grande",
+        "madeira_nobre",
+        "brise_automatizado",
+        "granito",
+        "piscina"
+      ],
+      "justificativa": "O projeto apresenta automação completa, fachada em ACM e uso de porcelanato grande (60x60cm em banheiros, além de porcelanato grande sugerido), além de esquadrias complexas com brise e aço. Embora não tenha mármore ou spa/sauna, a combinação de automação e acabamentos de alto padrão eleva a classificação para o nível Alto.",
+      "coerencia_rsm2": "parcial — Os valores por m² são muito baixos para o nível de acabamento sugerido, mas os materiais e sistemas detectados são fortes indicadores de classe superior."
+    },
+    {
+      "projeto": "mg3-la-vie",
+      "padrao": "economico",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "economico",
+      "bucket_rsm2": null,
+      "confianca": "baixa",
+      "ac": 10125.0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 0,
+      "flags_detectados": [],
+      "sinais_detectados": [],
+      "justificativa": "Os dados fornecidos estão completamente vazios e não contêm nenhum item de acabamento, material ou especificação relevante para análise. Não é possível determinar o padrão de acabamento com base nas informações disponíveis.",
+      "coerencia_rsm2": "nao — Não há dados de acabamento para correlacionar com o R$/m² de R$ 0,00."
+    },
+    {
+      "projeto": "mtf-m-haus",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 46,
+      "flags_detectados": [
+        "automacao",
+        "spa_sauna",
+        "granito",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Piso porcelanato 90x90cm",
+        "Esquadrias de madeira e alumínio (alto valor)",
+        "Sistema de automação e spa/sauna",
+        "Lazer com piscina e sauna",
+        "Uso de aço inox e granito (implícito)"
+      ],
+      "justificativa": "O projeto apresenta um nível de acabamento superior ao médio-alto, evidenciado pelo uso de porcelanato de grande formato (90x90cm), esquadrias de madeira e alumínio de alto custo, e a inclusão de sistemas de lazer como spa/sauna e piscina. Embora não contenha mármore ou ACM premium, a combinação de itens eleva o padrão para a classe 'alto'.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os itens de acabamento apontam para um custo elevado."
+    },
+    {
+      "projeto": "mtf-m-village-jardim",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "media",
+      "ac": 8852.83,
+      "ur": 0,
+      "total": 33040428.68,
+      "rsm2": 3732.19,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item presente)",
+        "R$/m² de R$ 3.732,19 (dentro da faixa médio-alto)"
+      ],
+      "justificativa": "Apesar de os dados de acabamento serem muito escassos (apenas um item de fachada), o valor de R$/m² (R$ 3.732,19) e a ausência de itens de luxo (mármore, piscina aquecida, etc.) apontam para uma classificação na faixa médio-alto. A falta de detalhes de acabamento impede uma classificação mais precisa.",
+      "coerencia_rsm2": "parcial — O valor de R$/m² está na faixa de médio-alto, mas a falta de detalhes de acabamento (pisos, esquadrias) impede a confirmação da coerência."
+    },
+    {
+      "projeto": "muller-empreendimentos-elleva",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "alto",
+      "confianca": "alta",
+      "ac": 2969.0,
+      "ur": 0,
+      "total": 12939593.12,
+      "rsm2": 4358.23,
+      "m2_por_ur": 0,
+      "n_itens_top": 45,
+      "flags_detectados": [
+        "granito",
+        "laminado",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "Granito (tampo de cozinha)",
+        "Louças Docol (marca de médio-alto padrão)",
+        "Tampo de granito em áreas externas (alto custo)",
+        "Portas de vidro temperado (especificidade)"
+      ],
+      "justificativa": "O projeto apresenta o uso de granito em bancadas e louças de marcas reconhecidas (Docol), além de portas de vidro temperado. Embora não haja itens de luxo como mármore ou automação, a qualidade dos materiais e a especificação de bancadas em granito elevam o padrão acima do médio.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 4.358,23 sugere um padrão alto, mas a ausência de mármore, porcelanato grande e itens de lazer de luxo puxa o padrão para médio-alto."
+    },
+    {
+      "projeto": "muller-empreendimentos-guanabara",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio",
+      "confianca": "media",
+      "ac": 4440.5,
+      "ur": 0,
+      "total": 14337198.41,
+      "rsm2": 3228.74,
+      "m2_por_ur": 0,
+      "n_itens_top": 3,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (alto custo)",
+        "Acabamentos de fachada em múltiplas etapas (sugere detalhamento e complexidade)"
+      ],
+      "justificativa": "Apesar do R$/m² (R$ 3.228,74) cair na faixa 'Médio', a complexidade e o custo dos acabamentos de fachada (múltiplos itens de revestimento) sugerem um padrão mais sofisticado. A ausência de itens de luxo (mármore, automação, spa) e a média dos pisos/esquadrias (não detalhados) puxam o padrão para o Médio-Alto.",
+      "coerencia_rsm2": "parcial — O R$/m² está na faixa 'Médio', mas a complexidade da fachada e a ausência de itens de luxo impedem a classificação como 'Médio' puro, sugerindo um nível de acabamento mais elevado."
+    },
+    {
+      "projeto": "mussi-empreendimentos-brookliin",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "baixa",
+      "ac": 0,
+      "ur": 0,
+      "total": 32561809.21,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item genérico)"
+      ],
+      "justificativa": "Os dados fornecidos são extremamente incompletos, contendo apenas um item genérico de fachada e nenhuma informação sobre pisos, esquadrias ou lazer. A ausência de materiais de alto padrão (mármore, granito, automação, etc.) e a falta de métricas numéricas impedem uma classificação precisa, forçando uma estimativa cautelosa.",
+      "coerencia_rsm2": "nao - Dados insuficientes para análise de coerência."
+    },
+    {
+      "projeto": "mussi-empreendimentos-chelsea",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 15149.39,
+      "ur": 0,
+      "total": 52163485.94,
+      "rsm2": 3443.27,
+      "m2_por_ur": 0,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "gerador",
+        "granito",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "Granito em bancadas",
+        "Piscina adulto e infantil",
+        "Gerador de energia",
+        "Marcas de louças (Deca/Docol)"
+      ],
+      "justificativa": "O projeto apresenta um bom nível de acabamento com o uso de granito em bancadas e louças de marcas premium (Deca/Docol). A inclusão de piscina adulto e infantil, além do gerador, eleva o padrão acima do médio, mas a ausência de mármore, automação e itens de luxo (como borda infinita ou heliponto) o posiciona firmemente na classe médio-alto.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "mussi-empreendimentos-soho",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "economico",
+      "confianca": "alta",
+      "ac": 12000.0,
+      "ur": 0,
+      "total": 29467078.29,
+      "rsm2": 2455.59,
+      "m2_por_ur": 0,
+      "n_itens_top": 56,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Pele de vidro e guarda-corpo em vidro laminado",
+        "Brise Metálico Externo",
+        "Sistema de automação (Projeto Automação)",
+        "Elevadores sociais e de serviço"
+      ],
+      "justificativa": "O projeto apresenta elementos de alto padrão como fachadas com pele de vidro, brises metálicos e automação. Embora não haja mármore ou piscina aquecida, a combinação de vidros laminados, brises e elevadores eleva o padrão acima do médio-alto, encaixando-se na faixa 'alto'.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 2.455,59 está abaixo da faixa 'alto' (R$ 4.000-R$ 5.000), mas os materiais e sistemas detectados (vidro, brise, automação) são indicadores fortes de classe superior."
+    },
+    {
+      "projeto": "mussi-empreendimentos-velazquez",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 13000,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 55,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Pele de vidro e Guarda Corpos em Alumínio e Vidro Laminado (alto custo)",
+        "Elevadores sociais e de serviço (alto investimento)",
+        "Automação e sistemas de controle (Projeto Automação)",
+        "Uso de porcelanato 60x60cm e vinílico (padrão superior)",
+        "Fachada com investimento significativo em revestimentos e acabamentos (R$ 1.45M)"
+      ],
+      "justificativa": "O projeto apresenta um investimento muito alto em sistemas de fachada (pele de vidro, guarda-corpos em vidro laminado) e infraestrutura vertical (dois elevadores sociais e de serviço). Embora não haja menção explícita a mármore ou piscina aquecida, a complexidade e o custo dos sistemas de automação e vidraçaria elevam o padrão para a classe 'Alto'.",
+      "coerencia_rsm2": "parcial — Os valores por m² são difíceis de calcular com precisão devido à natureza de grandes empreendimentos e à extração parcial de custos, mas os itens de acabamento e sistemas apontam para um padrão superior ao 'Médio-Alto'."
+    },
+    {
+      "projeto": "mz-central-park",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 8744.16,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 55,
+      "flags_detectados": [
+        "gerador",
+        "automacao",
+        "granito",
+        "acm",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "ACM em fachada",
+        "Porcelanato 80x80 em áreas íntimas",
+        "Brise em alumínio",
+        "Sistema gerador",
+        "Automação",
+        "Elevador social"
+      ],
+      "justificativa": "O projeto apresenta elementos de alto padrão como a fachada em ACM, o uso de porcelanato polido de grandes dimensões (80x80) e a inclusão de sistemas complexos como gerador e automação. Embora não tenha mármore ou piscina aquecida, a combinação de esquadrias de alumínio de alto custo, brises e sistemas de automação eleva o padrão para a classe 'alto'.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² por disciplina são muito baixos para o nível de acabamento sugerido (ex: R$ 450/m² para revestimentos), indicando que o custo total não reflete o padrão de luxo/alto."
+    },
+    {
+      "projeto": "neuhaus-botanico",
+      "padrao": "medio",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio",
+      "bucket_rsm2": "economico",
+      "confianca": "baixa",
+      "ac": 12953.8,
+      "ur": 0,
+      "total": 36232667.24,
+      "rsm2": 2797.07,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (custo elevado)"
+      ],
+      "justificativa": "O R$/m² calculado (R$ 2.797,07) está na faixa de transição entre econômico e médio, e a ausência de itens de luxo (spa, automação, mármore) reforça uma classificação mais básica. No entanto, o custo da fachada é alto, o que eleva o padrão acima do básico, mas sem elementos de alto padrão.",
+      "coerencia_rsm2": "parcial — O R$/m² está na faixa 'médio', mas a falta de detalhes de acabamento (pisos, esquadrias) e a ausência de itens de luxo limitam o padrão, apesar do custo da fachada."
+    },
+    {
+      "projeto": "neuhaus-origem",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "alto",
+      "confianca": "media",
+      "ac": 14559.12,
+      "ur": 0,
+      "total": 67590131.02,
+      "rsm2": 4642.46,
+      "m2_por_ur": 0,
+      "n_itens_top": 37,
+      "flags_detectados": [
+        "granito"
+      ],
+      "sinais_detectados": [
+        "granito",
+        "Bancada Cozinha (material não especificado, mas o contexto sugere alto padrão)",
+        "Sistemas de Lazer (LAZER 1, LAZER 2, PENTHOUSE) com alto custo total",
+        "R$/m² de R$ 4.642,46 (acima do limite de R$ 4.000)"
+      ],
+      "justificativa": "O custo por metro quadrado (R$ 4.642,46/m²) já posiciona o projeto acima da classe médio-alto. A presença de granito e os sistemas de lazer (LAZER/PENTHOUSE) indicam um padrão elevado, característico da classe alto, mesmo com a ausência de mármore ou automação completa.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "nm-empreendimentos",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 1540.93,
+      "ur": 0,
+      "total": 4958343.62,
+      "rsm2": 3217.76,
+      "m2_por_ur": 0,
+      "n_itens_top": 51,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "porcelanato_pequeno"
+      ],
+      "sinais_detectados": [
+        "elevador social",
+        "automação e sistemas lógicos",
+        "porcelanato 60x60 (interno)",
+        "granito preto São Gabriel (moldura)",
+        "alumínio alto-standard (esquadrias)"
+      ],
+      "justificativa": "A presença de elevador social, automação e sistemas lógicos, juntamente com o uso de porcelanato 60x60 e granito em detalhes, eleva o padrão acima do médio-alto. Embora não haja mármore ou piscina aquecida, os sistemas de automação e o elevador já caracterizam um padrão de alto nível.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.217,76 está mais próximo da classe 'médio', mas os itens de acabamento (elevador, automação, porcelanato 60x60) puxam o projeto para a classe 'alto'."
+    },
+    {
+      "projeto": "nobria",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 12879.93,
+      "ur": 0,
+      "total": 42384127.48,
+      "rsm2": 3290.71,
+      "m2_por_ur": 0,
+      "n_itens_top": 36,
+      "flags_detectados": [
+        "automacao",
+        "spa_sauna",
+        "marmore",
+        "granito",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "SPA/SAUNA (Spa e Sauna)",
+        "Automação (Projeto de Automação)",
+        "Materiais nobres (Granito, Madeira Plastificada, Porcelanato)",
+        "Esquadrias de alto padrão (Alumínio Linha Gold, Vidros em Serralheria)",
+        "Lazer completo (Piscina, SPA, Sauna)"
+      ],
+      "justificativa": "O projeto apresenta um nível de acabamento significativamente alto, evidenciado pela inclusão de SPA, sauna, automação e a utilização de materiais nobres como granito e madeira plastificada. Embora não atinja o nível 'Luxo' por ausência de itens como piscina aquecida ou heliponto, o investimento em esquadrias de linha Gold, vidros e sistemas de lazer já o posiciona confortavelmente na classe 'Alto'.",
+      "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 3.290,71) é mais baixo do que o sugerido pela qualidade dos materiais e sistemas (que apontam para R$ 4.000-R$ 5.000), indicando que o cálculo pode ter excluído custos importantes ou que o valor total é para uma área muito menor do que o esperado para o padrão."
+    },
+    {
+      "projeto": "nova-empreendimentos-domus",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "media",
+      "ac": 5009.0,
+      "ur": 0,
+      "total": 38409996.88,
+      "rsm2": 7668.2,
+      "m2_por_ur": 0,
+      "n_itens_top": 18,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Porta Corta Fogo Madeira Maciça",
+        "Bancada Cozinha",
+        "Bancada Banheiros",
+        "Registro Comum",
+        "Sifão ajustável multiuso"
+      ],
+      "justificativa": "O projeto apresenta itens de segurança (Porta Corta Fogo) e bancadas específicas, sugerindo um acabamento acima do básico. No entanto, a ausência de materiais nobres (mármore, granito, porcelanato grande formato) e a falta de sistemas de lazer ou automação limitam a classificação a médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 7.668,20 é muito alto para a classe sugerida, mas a análise de materiais aponta para um padrão mais contido."
+    },
+    {
+      "projeto": "nova-empreendimentos-evora",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "alta",
+      "ac": 3477.2,
+      "ur": 0,
+      "total": 21291304.16,
+      "rsm2": 6123.12,
+      "m2_por_ur": 0,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "automacao",
+        "spa_sauna",
+        "granito",
+        "acm",
+        "laminado"
+      ],
+      "sinais_detectados": [
+        "SPA (Spa/Sauna)",
+        "Automação",
+        "Granito (acabamento de elevador)",
+        "Vidro Laminado (guarda-corpo)",
+        "Contrapiso acústico",
+        "Elevador social"
+      ],
+      "justificativa": "A presença de SPA, automação, contrapiso acústico e elevador social eleva o padrão significativamente. Embora não haja mármore ou piscina aquecida, o uso de granito em acabamentos de elevador e o sistema de automação já posicionam o projeto acima da classe média-alta, caracterizando um padrão alto.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "nova-empreendimentos-malaga",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "alta",
+      "ac": 4430.32,
+      "ur": 0,
+      "total": 23244532.72,
+      "rsm2": 5246.69,
+      "m2_por_ur": 0,
+      "n_itens_top": 8,
+      "flags_detectados": [
+        "acm"
+      ],
+      "sinais_detectados": [
+        "uso de ACM em fachada (forro)",
+        "uso de acabamentos em madeira",
+        "alto valor de R$/m² (R$ 5.246,69)"
+      ],
+      "justificativa": "O valor de R$/m² (R$ 5.246,69) já coloca o projeto na faixa de luxo, mas a ausência de itens de lazer ultra-premium (spa, piscina aquecida, etc.) e a presença de ACM e madeira no acabamento o posicionam de forma mais robusta na classe Alto. A combinação de ACM e madeira eleva significativamente o padrão.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "nova-empreendimentos-malta",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "alta",
+      "ac": 7964.39,
+      "ur": 0,
+      "total": 48511644.8,
+      "rsm2": 6091.07,
+      "m2_por_ur": 0,
+      "n_itens_top": 45,
+      "flags_detectados": [
+        "gerador",
+        "spa_sauna"
+      ],
+      "sinais_detectados": [
+        "Gerador de energia",
+        "Spa/Jacuzzi",
+        "Esquadrias em alumínio preto",
+        "Bancadas em material premium (R$ 450/m²)"
+      ],
+      "justificativa": "A presença de um gerador de energia, sistema de spa/jacuzzi e esquadrias em alumínio preto (alto padrão) eleva o projeto para a classe Alto. Embora não haja mármore ou automação completa, os sistemas especiais e os acabamentos de alto custo compensam a ausência de itens de luxo puro.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 6.091,07 está coerente com a classe Alto, mas o valor total é muito alto para a área pequena (7,964 m²), sugerindo que o cálculo pode estar superestimando o custo por m²."
+    },
+    {
+      "projeto": "paludo-barbados",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "economico",
+      "confianca": "alta",
+      "ac": 1728.35,
+      "ur": 0,
+      "total": 4807136.02,
+      "rsm2": 2781.34,
+      "m2_por_ur": 0,
+      "n_itens_top": 58,
+      "flags_detectados": [
+        "automacao",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Porcelanato 60x60 e 30x60",
+        "Vidro laminado e guarda-corpo de alumínio",
+        "Sistema de automação e elevador social",
+        "Pastilha cerâmica e textura projetada"
+      ],
+      "justificativa": "O projeto apresenta um nível de acabamento acima do médio, evidenciado pelo uso de porcelanato de dimensões maiores (60x60, 30x60), a presença de automação e um elevador social. Embora não chegue ao nível de luxo por não incluir mármore, granito ou lazer premium, a combinação de sistemas inteligentes e materiais de qualidade eleva o padrão para médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 2.781,34 está na fronteira entre econômico e médio, mas os itens de acabamento (automação, porcelanato 60x60, elevador) puxam o padrão para médio-alto, indicando que o custo total pode estar subestimado ou incompleto."
+    },
+    {
+      "projeto": "paludo-nassau",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "economico",
+      "confianca": "alta",
+      "ac": 1402.94,
+      "ur": 0,
+      "total": 3735760.55,
+      "rsm2": 2662.81,
+      "m2_por_ur": 0,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "automacao",
+        "spa_sauna",
+        "granito",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "automação",
+        "elevador social",
+        "porcelanato 60x60",
+        "vidro laminado",
+        "pastilha cerâmica",
+        "gradil tipo brise",
+        "spa/sauna (flag)"
+      ],
+      "justificativa": "O projeto apresenta automação e elevador social, elementos de conforto e tecnologia que elevam o padrão. O uso de porcelanato 60x60, vidro laminado e pastilha cerâmica na fachada já o posicionam acima do nível médio. A ausência de itens de luxo extremo (mármore, piscina aquecida, heliponto) e a presença de um R$/m² de R$ 2.662,81 (próximo ao limite médio) sugerem uma classificação de médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 2.662,81 está no limite do 'médio', mas os sistemas (automação, elevador) e materiais (porcelanato 60x60, brise) puxam o padrão para 'médio-alto'."
+    },
+    {
+      "projeto": "paludo-urban-life",
+      "padrao": "economico",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "economico",
+      "bucket_rsm2": "economico",
+      "confianca": "baixa",
+      "ac": 7040.19,
+      "ur": 0,
+      "total": 18479084.15,
+      "rsm2": 2624.8,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item genérico)"
+      ],
+      "justificativa": "O R$/m² calculado (R$ 2.624,80) está abaixo do limite de classe média (R$ 2.800), e a única informação de acabamento é genérica e de baixo custo. A ausência de materiais nobres, sistemas especiais ou itens de lazer de alto padrão confirma a classificação mais baixa.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "paludo-volo-home",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 3972.3,
+      "ur": 0,
+      "total": 12450664.73,
+      "rsm2": 3134.37,
+      "m2_por_ur": 0,
+      "n_itens_top": 48,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "porcelanato_grande",
+        "laminado"
+      ],
+      "sinais_detectados": [
+        "elevador de pessoas definitivo",
+        "automação e sistemas lógicos",
+        "brise metálico em fachada",
+        "porcelanato 90x90cm",
+        "granito em peitoril e piso de elevador"
+      ],
+      "justificativa": "A presença de elevador definitivo, automação completa e brise metálico na fachada eleva o padrão significativamente. Embora não haja mármore ou lazer de luxo, os sistemas e acabamentos de alto custo (elevador, automação, brise) posicionam o projeto na classe 'alto'.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.134,37 está na faixa 'medio', mas os itens de alto valor (elevador, automação, brise) puxam o custo real para a faixa 'alto'."
+    },
+    {
+      "projeto": "paludo-volo-ocean",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "media",
+      "ac": 3264.31,
+      "ur": 0,
+      "total": 11915766.19,
+      "rsm2": 3650.32,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (alto custo)",
+        "R$/m² de R$ 3.650,32 (dentro da faixa médio-alto)"
+      ],
+      "justificativa": "Apesar de a fachada ser o único item detalhado e ser de alto custo, a ausência de itens de luxo (spa, sauna, automação, mármore/granito) e a faixa de R$/m² apontam para um padrão médio-alto. O custo da fachada é um sinal forte, mas não suficiente para elevar a classe.",
+      "coerencia_rsm2": "parcial — O R$/m² está na faixa médio-alto, mas a falta de detalhes de acabamento (pisos, esquadrias) impede uma confirmação total."
+    },
+    {
+      "projeto": "parkside-trindade",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "alta",
+      "ac": 3332.96,
+      "ur": 0,
+      "total": 12517878.23,
+      "rsm2": 3755.78,
+      "m2_por_ur": 0,
+      "n_itens_top": 26,
+      "flags_detectados": [
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "Marca Docol/Deca (linha premium de louças)",
+        "Presença de frisos decorativos em esquadrias",
+        "R$/m² de R$ 3.755,78 (dentro da faixa de médio-alto)"
+      ],
+      "justificativa": "Apesar de não haver mármore ou granito explícitos, a combinação de louças de marcas premium (Deca/Docol) e a especificação detalhada de esquadrias com frisos decorativos eleva o padrão acima do médio. O valor de R$ 3.755,78/m² se encaixa perfeitamente na faixa de médio-alto, indicando um projeto de acabamento refinado e de boa qualidade.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "pass-e-barao-de-albuquerque",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "alto",
+      "confianca": "alta",
+      "ac": 6022.06,
+      "ur": 0,
+      "total": 26164125.3,
+      "rsm2": 4344.71,
+      "m2_por_ur": 0,
+      "n_itens_top": 60,
+      "flags_detectados": [
+        "gerador",
+        "automacao",
+        "spa_sauna",
+        "granito",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico",
+        "fitness_academia"
+      ],
+      "sinais_detectados": [
+        "elevadores sociais e de serviço",
+        "automação e sistemas lógicos",
+        "spa/sauna",
+        "piscina",
+        "brise e vidro laminado",
+        "porcelanato 60x60cm",
+        "deck de madeira"
+      ],
+      "justificativa": "O projeto apresenta elevadores sociais e de serviço, automação, spa e piscina, elementos que elevam o padrão acima do médio-alto. Embora não haja mármore ou ACM premium, a combinação de automação, spa e a presença de grandes esquadrias (pele de vidro, brise) o posiciona firmemente na classe alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 4.344,71 está coerente com a classe alto, mas a ausência de mármore ou ACM premium sugere que o valor pode estar subestimado em relação ao potencial de luxo dos sistemas presentes."
+    },
+    {
+      "projeto": "pass-e-belissimo",
+      "padrao": "economico",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "economico",
+      "bucket_rsm2": "economico",
+      "confianca": "baixa",
+      "ac": 15621.97,
+      "ur": 0,
+      "total": 30984116.58,
+      "rsm2": 1983.37,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Fachada com revestimentos e acabamentos (sem detalhe de material)"
+      ],
+      "justificativa": "Apesar do valor total ser extremamente alto (R$ 30,9 milhões), o R$/m² calculado (R$ 1.983,37) é muito baixo, e os itens de acabamento listados são genéricos e não indicam materiais premium (mármore, granito, porcelanato grande formato, etc.). A ausência de qualquer sinal de luxo ou alto padrão leva à classificação mais conservadora.",
+      "coerencia_rsm2": "nao — O valor total é incompatível com o R$/m² e os acabamentos listados, sugerindo que o cálculo de R$/m² está incorreto ou incompleto."
+    },
+    {
+      "projeto": "pass-e-celebration",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio",
+      "confianca": "media",
+      "ac": 7956.14,
+      "ur": 0,
+      "total": 25046005.69,
+      "rsm2": 3148.01,
+      "m2_por_ur": 0,
+      "n_itens_top": 3,
+      "flags_detectados": [
+        "automacao"
+      ],
+      "sinais_detectados": [
+        "automação",
+        "revestimentos e acabamentos em fachada (alto custo)",
+        "sistemas automação e lógicos"
+      ],
+      "justificativa": "A presença de automação e acabamentos de fachada de alto custo eleva o padrão acima do médio. No entanto, a ausência de materiais premium como mármore, granito, ou itens de lazer de luxo (spa, piscina aquecida) impede a classificação como alto ou luxo.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.148,01 se alinha bem com a faixa 'medio-alto' (R$ 3.400–4.000), mas a ausência de dados por disciplina dificulta uma análise precisa."
+    },
+    {
+      "projeto": "pass-e-connect",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "media",
+      "ac": 13144.27,
+      "ur": 0,
+      "total": 48758956.42,
+      "rsm2": 3709.52,
+      "m2_por_ur": 0,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "gerador",
+        "spa_sauna"
+      ],
+      "sinais_detectados": [
+        "spa_sauna",
+        "sistema CFTV",
+        "sistema de som",
+        "video porteiro",
+        "cabeamento de internet"
+      ],
+      "justificativa": "A presença de um spa/sauna e sistemas de segurança/áudio (CFTV, som, video porteiro) eleva o padrão acima do médio. No entanto, a ausência de materiais de alto custo como mármore, granito, ACM ou porcelanato de grandes dimensões impede a classificação como alto ou luxo.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.709,52 está bem posicionado na faixa de 'alto' (R$ 4.000-R$ 5.000), mas os itens de acabamento e sistemas detectados apontam mais para 'médio-alto', sugerindo que o custo total pode estar subestimado ou que o projeto é pequeno demais para refletir o padrão de acabamento."
+    },
+    {
+      "projeto": "pass-e-passione",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "media",
+      "ac": 6681.54,
+      "ur": 0,
+      "total": 25287249.72,
+      "rsm2": 3784.64,
+      "m2_por_ur": 0,
+      "n_itens_top": 30,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Sistema de som e CFTV (tecnologia)",
+        "Bancada de cozinha e louças (acabamento)",
+        "Preço total elevado (R$ 25,2 milhões)"
+      ],
+      "justificativa": "O valor total do projeto é extremamente alto, sugerindo um padrão de alto luxo, mas a ausência de itens de luxo (mármore, spa, automação) e a falta de especificações de acabamentos de alto padrão (como porcelanato 120x120 ou ACM) limitam a classificação. O sistema de tecnologia (CFTV, som) e o valor geral puxam para o 'alto', mas a falta de detalhes de acabamento impede uma classificação mais alta.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.784,64 está na faixa 'alto', mas a falta de detalhes de acabamento (pisos, fachadas) e a presença de itens de tecnologia de alto custo (CFTV, som) tornam a análise de coerência incompleta."
+    },
+    {
+      "projeto": "pass-e-vancouver",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "economico",
+      "confianca": "alta",
+      "ac": 5554.12,
+      "ur": 0,
+      "total": 15320928.95,
+      "rsm2": 2758.48,
+      "m2_por_ur": 0,
+      "n_itens_top": 58,
+      "flags_detectados": [
+        "automacao",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "elevador social",
+        "automação e sistemas lógicos",
+        "porcelanato 60x60 e 30x60",
+        "vidro laminado e guarda-corpo em vidro",
+        "pastilha cerâmica na fachada"
+      ],
+      "justificativa": "A presença de elevador social, automação e o uso de porcelanato de dimensões médias (60x60 e 30x60) já eleva o padrão acima do médio. Embora não haja mármore ou sistemas de luxo (spa, borda infinita), os sistemas de automação e o acabamento em pastilha na fachada consolidam a classificação como médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 2.758,48 está na faixa do 'médio', mas os itens de automação e elevador social elevam o padrão de acabamento para médio-alto."
+    },
+    {
+      "projeto": "pavcor",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "media",
+      "ac": 14283.29,
+      "ur": 0,
+      "total": 49360278.61,
+      "rsm2": 3455.81,
+      "m2_por_ur": 0,
+      "n_itens_top": 15,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Bancada Cozinha (material não especificado, mas sugere acabamento)",
+        "Itens de louças e hidráulica (sifões, registros, etc.) presentes, mas sem marcas de alto padrão"
+      ],
+      "justificativa": "O cálculo de R$/m² (R$ 3.455,81) se alinha perfeitamente com a faixa 'medio-alto' (R$ 3.400–R$ 4.000). Embora os itens de acabamento listados sejam genéricos e não apontem para um padrão elevado (como mármore ou granito), a métrica numérica é o indicador mais forte, sugerindo um projeto de acabamento superior ao médio.",
+      "coerencia_rsm2": "sim"
+    },
+    {
+      "projeto": "rosner-reserva-sao-vicente",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 7007.86,
+      "ur": 0,
+      "total": 22650779.19,
+      "rsm2": 3232.2,
+      "m2_por_ur": 0,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "granito",
+        "porcelanato_pequeno",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "Porcelanato (sugerido)",
+        "Louças Deca (marca de médio-alto padrão)",
+        "Esquadrias em Alumínio e Vidro (variedade e dimensões)",
+        "Guarda-corpo em Vidro e Alumínio (segurança e estética)",
+        "Tipologia de empreendimento misto (Coworking/Minimarket) e Lazer completo"
+      ],
+      "justificativa": "O projeto apresenta um padrão robusto, evidenciado pelo uso de louças Deca, esquadrias em alumínio e vidro, e guarda-corpos de vidro. Embora não atinja o nível de luxo (ausência de mármore, automação e piscinas aquecidas), a complexidade do lazer e a qualidade dos acabamentos elevam o padrão para a faixa médio-alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.232,20 está na faixa 'Médio', mas a qualidade dos materiais (Deca, vidro, alumínio) e a complexidade do projeto o elevam para 'Médio-Alto'."
+    },
+    {
+      "projeto": "sak-engenharia",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "medio-alto",
+      "confianca": "alta",
+      "ac": 1700.61,
+      "ur": 0,
+      "total": 6535457.04,
+      "rsm2": 3843.01,
+      "m2_por_ur": 0,
+      "n_itens_top": 52,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Porcelanato 120x120 (áreas sociais)",
+        "Granito (peitoril)",
+        "Brise de Madeira e Alumínio",
+        "Sistema de Automação",
+        "Elevador Social"
+      ],
+      "justificativa": "O projeto apresenta porcelanato de grande formato (120x120) em áreas sociais, uso de granito em peitoris e a inclusão de sistemas de automação e brises de madeira/alumínio. Embora não haja mármore ou piscina aquecida, a combinação de acabamentos de alto padrão e sistemas inteligentes eleva o padrão para a classe Alto.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.843,01 está na faixa de 'alto', mas a ausência de mármore e o foco em porcelanato e automação justificam a classificação, apesar da discrepância com a faixa de preço mais alta."
+    },
+    {
+      "projeto": "santa-maria-feat",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "media",
+      "ac": 397.6291201777898,
+      "ur": 0,
+      "total": 56098317.04,
+      "rsm2": 141082.01,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (item de custo elevado)",
+        "Ausência de itens de luxo explícitos (mármore, granito, ACM, etc.)"
+      ],
+      "justificativa": "Apesar do R$/m² ser extremamente baixo (R$ 141,08/m²), o custo total de R$ 56 milhões e a presença de um item de fachada específico e caro (R$ 2,3 milhões) sugerem um padrão de acabamento superior ao básico. A ausência de materiais de alto padrão (mármore, granito, ACM) e itens de lazer de luxo limita a classificação a médio-alto.",
+      "coerencia_rsm2": "nao — O R$/m² de R$ 141,08 é drasticamente incompatível com o custo total de R$ 56 milhões e o item de fachada de R$ 2,3 milhões, sugerindo que o valor total ou o R$/m² foi extraído de forma incompleta ou incorreta."
+    },
+    {
+      "projeto": "santa-maria-unimed",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "economico",
+      "confianca": "alta",
+      "ac": 52516.04,
+      "ur": 0,
+      "total": 84236844.1525,
+      "rsm2": 1604.02,
+      "m2_por_ur": 0,
+      "n_itens_top": 50,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "acm",
+        "porcelanato_grande",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Pele de Vidro e ACM (fachada de alto padrão)",
+        "Elevadores sociais (indicativo de alto padrão)",
+        "Automação e sistemas de segurança",
+        "Porcelanato 80x80 (dimensão e material)",
+        "Vidro e Madeira (esquadrias de alto padrão)"
+      ],
+      "justificativa": "A presença de fachadas complexas em ACM e vidro, elevadores sociais, automação e o uso de porcelanato de grande formato (80x80) elevam o padrão. Embora não haja itens de luxo extremo (como spa ou borda infinita), a combinação de sistemas e materiais já posiciona o projeto na faixa 'Alto'.",
+      "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 1.604,02) é significativamente baixo para o nível de acabamento detectado, sugerindo que o cálculo foi feito apenas sobre uma área ou escopo parcial."
+    },
+    {
+      "projeto": "santa-maria-z",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 58,
+      "flags_detectados": [
+        "piscina_aquecida",
+        "gerador",
+        "automacao",
+        "granito",
+        "porcelanato_grande",
+        "porcelanato_pequeno",
+        "laminado",
+        "vinilico"
+      ],
+      "sinais_detectados": [
+        "Pele de vidro (glazing)",
+        "Brise Metálico",
+        "Elevador social/definitivo (múltiplos)",
+        "Sistema de automação",
+        "Piscina aquecida",
+        "Gerador",
+        "Porcelanato/Cerâmico (uso de grandes formatos e granito)",
+        "Pergolado com cobertura de vidro"
+      ],
+      "justificativa": "O projeto apresenta elementos de alto padrão como pele de vidro, brises metálicos, automação e sistemas de elevadores múltiplos. Embora não atinja o nível de luxo (ausência de mármore/bordas infinitas), a combinação de grandes esquadrias, sistemas de energia e acabamentos sofisticados eleva o padrão para a classe 'alto'.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os itens de acabamento apontam claramente para um padrão superior ao médio-alto."
+    },
+    {
+      "projeto": "santo-andre-belle-ville",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 7878.58,
+      "ur": 38,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 207.33,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "gerador"
+      ],
+      "sinais_detectados": [
+        "Linha Suprema (esquadrias)",
+        "Gerador presente",
+        "Instalações elétricas e hidráulicas elevadas (R$ 160/m² e R$ 176/m²)",
+        "Bancada Tanque (item de acabamento)"
+      ],
+      "justificativa": "O projeto apresenta esquadrias de linha 'Suprema' e a inclusão de um gerador, elevando o padrão acima do médio. No entanto, a ausência de materiais de alto custo como mármore, granito, porcelanato grande e sistemas de automação o mantém abaixo da classe 'alto'.",
+      "coerencia_rsm2": "parcial — Os custos por m² das instalações (elétrica e hidráulica) são altos, mas o custo total por m² é muito baixo (R$ 0.00), sugerindo que o orçamento está incompleto ou focado apenas em infraestrutura."
+    },
+    {
+      "projeto": "santo-andre-lausanne",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 353.536954760314,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (valor alto)",
+        "Ausência de itens de luxo explícitos (piscina aquecida, heliponto)"
+      ],
+      "justificativa": "Apesar da falta de dados detalhados sobre pisos e esquadrias, o valor significativo e a menção de 'Revestimentos e acabamentos de fachada' sugerem um padrão acima do médio. A ausência de itens de luxo extremos (mármore, brises automatizados) impede a classificação como 'luxo', mas o investimento na fachada eleva o padrão para 'alto'.",
+      "coerencia_rsm2": "nao - Os dados numéricos estão zerados, impossibilitando a análise de coerência do custo por metro quadrado."
+    },
+    {
+      "projeto": "somauma-virginia",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 10108.43,
+      "ur": 117,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 86.4,
+      "n_itens_top": 46,
+      "flags_detectados": [
+        "gerador",
+        "granito"
+      ],
+      "sinais_detectados": [
+        "uso de granito em peitoril e revestimento de elevador",
+        "esquadrias de alumínio de alto custo (vidro transparente, caixilhos de correr)",
+        "presença de gerador de energia emergencial e elevador comercial",
+        "uso de pastilhas de porcelana em fachada"
+      ],
+      "justificativa": "O projeto apresenta elementos de alto padrão como o uso de granito, esquadrias em vidro e alumínio de alto custo, e a inclusão de um gerador de energia emergencial e elevador comercial. Embora não haja mármore ou automação, a combinação desses itens eleva o padrão acima do médio-alto, posicionando-o na classe 'alto'.",
+      "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² estão zerados ou muito baixos, mas os itens de acabamento (granito, esquadrias de vidro, gerador) são fortes indicadores de custo elevado."
+    },
+    {
+      "projeto": "terrassa-amaro",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": "medio",
+      "confianca": "alta",
+      "ac": 10479.34,
+      "ur": 0,
+      "total": 32487650.1931334,
+      "rsm2": 3100.16,
+      "m2_por_ur": 0,
+      "n_itens_top": 75,
+      "flags_detectados": [
+        "gerador",
+        "automacao",
+        "spa_sauna",
+        "marmore",
+        "granito",
+        "porcelanato_grande",
+        "laminado",
+        "vinilico",
+        "gourmet"
+      ],
+      "sinais_detectados": [
+        "granito",
+        "porcelanato_grande",
+        "gourmet",
+        "gerador",
+        "automação",
+        "spa_sauna",
+        "elevador"
+      ],
+      "justificativa": "A presença de granito, portas e revestimentos em madeira, além de sistemas de automação, gerador e espaço gourmet completo, eleva o padrão. Embora não haja mármore ou borda infinita, os itens de infraestrutura e tecnologia são característicos de alto padrão.",
+      "coerencia_rsm2": "parcial — O R$/m² de R$ 3.100,16 está na faixa 'medio', mas os materiais e sistemas detectados (gerador, automação, granito, etc.) apontam para uma classe superior."
+    },
+    {
+      "projeto": "terrassa-dom-bosco",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "n_itens_top": 75,
+      "flags_detectados": [
+        "automacao",
+        "granito",
+        "porcelanato_pequeno",
+        "gourmet"
+      ],
+      "sinais_detectados": [
+        "Automação (controle acesso, interfonia)",
+        "Elevador (sistema de alto custo)",
+        "Gourmet (equipamentos dedicados)",
+        "Granito (uso em soleiras/peitoris)",
+        "Esquadrias (alumínio e vidro em grande volume)"
+      ],
+      "justificativa": "O projeto apresenta sistemas de automação, elevador e equipamentos gourmet dedicados, elevando o padrão acima do médio. No entanto, a ausência de mármore, granito em grandes dimensões de piso e itens de lazer de luxo (spa, piscina aquecida) o mantém na faixa de médio-alto.",
+      "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os itens de acabamento apontam para um padrão mais elevado do que o sugerido por um R$/m² zero."
+    },
+    {
+      "projeto": "thozen-mirador-de-alicante",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": "luxo",
+      "confianca": "media",
+      "ac": 474.8275485666585,
+      "ur": 0,
+      "total": 35031764.70723375,
+      "rsm2": 73777.87,
+      "m2_por_ur": 0,
+      "n_itens_top": 1,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Revestimentos e acabamentos de fachada (custo elevado)",
+        "Tipologia de 30 pavimentos (complexidade e escala)"
+      ],
+      "justificativa": "Apesar do R$/m² calculado ser extremamente baixo (R$ 73,77/m²), a complexidade da tipologia (30 pavimentos) e o custo significativo da fachada sugerem um padrão acima do médio. A ausência de itens de luxo (mármore, automação, spa) limita a classificação a médio-alto.",
+      "coerencia_rsm2": "nao — O R$/m² calculado (R$ 73,77/m²) é irrealista e contradiz o custo da fachada e a escala do projeto."
+    },
+    {
+      "projeto": "viva4-barra4",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 13223.259999999998,
+      "ur": 99,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 133.57,
+      "n_itens_top": 45,
+      "flags_detectados": [
+        "gerador",
+        "granito",
+        "porcelanato_pequeno",
+        "laminado",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "Piscina adulto+infantil",
+        "Granito em bancadas",
+        "Vaso sanitário Deca",
+        "Esquadrias de Alumínio e Vidro (variedade e dimensões)",
+        "Gerador de energia"
+      ],
+      "justificativa": "O projeto apresenta itens de qualidade superior como o uso de bancadas em granito e louças Deca, além de uma piscina completa (adulto+infantil) e gerador de energia. As esquadrias em alumínio e vidro, embora não sejam de alto padrão, elevam o nível acima do médio. A ausência de mármore, automação ou porcelanato de grandes dimensões impede a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "parcial — Os custos de acabamento (louças, bancadas, esquadrias) são significativos, mas o R$/m² geral é muito baixo (R$ 0.00), sugerindo que o orçamento está incompleto ou extraído de forma parcial."
+    },
+    {
+      "projeto": "viva4-pio4",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 13540.93,
+      "ur": 176,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 76.94,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "gerador",
+        "spa_sauna"
+      ],
+      "sinais_detectados": [
+        "Piscina Adulta",
+        "Gerador de Cloro",
+        "Motobombas (sistemas de bombeamento)",
+        "Sistema de bombeamento complexo",
+        "Bacia Sanitária e Cuba (itens de banheiro padrão)"
+      ],
+      "justificativa": "O projeto apresenta sistemas de lazer (piscina adulta) e equipamentos de infraestrutura (geradores, motobombas), que elevam o padrão acima do médio. No entanto, a ausência de materiais nobres de alto custo (mármore, granito, ACM) e a falta de itens de luxo como spa/sauna ou automação limitam a classificação a médio-alto.",
+      "coerencia_rsm2": "parcial — Os custos por m² são muito baixos para o nível de equipamentos e sistemas instalados, sugerindo que o orçamento está incompleto ou focado apenas em infraestrutura básica."
+    },
+    {
+      "projeto": "wf-aquarius",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 16789.049999999996,
+      "ur": 84,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 199.87,
+      "n_itens_top": 30,
+      "flags_detectados": [
+        "gerador"
+      ],
+      "sinais_detectados": [
+        "Gerador de Coloro BZ -20",
+        "Motobomba e sistemas de drenagem complexos",
+        "Tipologia residencial de alto padrão (AQUARIUS RESIDENCE)",
+        "Presença de sistemas de infraestrutura robustos (motobombas, geradores)"
+      ],
+      "justificativa": "A presença de um gerador de energia (Gerador de Coloro BZ) e sistemas de motobomba complexos indica um nível de infraestrutura e segurança que ultrapassa o padrão médio-alto. Embora não haja menção a mármore ou automação, a complexidade dos sistemas e a tipologia sugerem um acabamento de alto padrão.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² e m²/UR estão zerados ou muito baixos, mas os itens de infraestrutura (gerador, motobombas) e a tipologia sugerem um custo muito superior ao calculado."
+    },
+    {
+      "projeto": "xpcon-marena",
+      "padrao": "medio-alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "medio-alto",
+      "bucket_rsm2": null,
+      "confianca": "media",
+      "ac": 4174.83,
+      "ur": 20,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 208.74,
+      "n_itens_top": 15,
+      "flags_detectados": [],
+      "sinais_detectados": [
+        "Porcelanato (implícito pela classe)",
+        "Instalações hidráulicas detalhadas (indicando complexidade)",
+        "Presença de áreas de lazer/diferenciado (Rooftop, TIPO DIFRENCIADO E LAZER)"
+      ],
+      "justificativa": "O projeto apresenta áreas de lazer e diferenciação (Rooftop, TIPO DIFRENCIADO), o que eleva o padrão acima do médio. No entanto, a ausência de materiais de altíssimo custo (mármore, granito, ACM, automação) e a falta de dados de acabamentos específicos (pisos/esquadrias) impedem a classificação como 'alto' ou 'luxo'.",
+      "coerencia_rsm2": "parcial — Os custos por m² são muito baixos e não refletem a complexidade das instalações hidráulicas e áreas de lazer detectadas."
+    },
+    {
+      "projeto": "xpcon-porto-cerro",
+      "padrao": "alto",
+      "metodo": "gemma_semantico",
+      "padrao_gemma_raw": "alto",
+      "bucket_rsm2": null,
+      "confianca": "alta",
+      "ac": 13188.75,
+      "ur": 86,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 153.36,
+      "n_itens_top": 45,
+      "flags_detectados": [
+        "gerador",
+        "granito",
+        "docol_deca"
+      ],
+      "sinais_detectados": [
+        "granito",
+        "deca",
+        "vidro e aluminio",
+        "gerador",
+        "fonte interativa",
+        "trocador de calor"
+      ],
+      "justificativa": "A presença de granito, louças Deca e esquadrias em vidro e alumínio, combinada com sistemas de lazer como gerador de cloro e fonte interativa, eleva o padrão. Embora itens de luxo como mármore e automação estejam ausentes, a qualidade dos materiais e a complexidade dos sistemas já posicionam o projeto na faixa alta.",
+      "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido (granito, Deca, sistemas de lazer), indicando que o orçamento está incompleto ou extraído de forma parcial."
+    }
+  ]
+}

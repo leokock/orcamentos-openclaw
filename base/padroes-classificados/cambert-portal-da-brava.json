@@ -1,0 +1,59 @@
+{
+  "projeto": "cambert-portal-da-brava",
+  "ts": "2026-04-14T08:29:51",
+  "duration_s": 16.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Piso porcelanato 60x60 (e 30x60 em banheiros)",
+      "Pele de vidro e esquadrias de alumínio com vidro (várias tipologias)",
+      "Sistema de automação e sistemas lógicos (R$ 135.000,00)",
+      "Elevador social e cremalheira",
+      "Gradil tipo brise (elemento sofisticado)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Mármore/Granito (como principal acabamento)",
+      "ACM premium"
+    ],
+    "justificativa": "O projeto apresenta um nível de sofisticação elevado, evidenciado pelo uso extensivo de pele de vidro, esquadrias de alumínio de alto padrão e a inclusão de sistemas complexos como automação e elevadores sociais. Embora não haja mármore ou granito explícitos, a combinação de vidros, automação e o tipo de esquadria eleva o padrão acima do médio-alto, caracterizando-o como alto.",
+    "coerencia_rsm2": "parcial — Os dados numéricos estão zerados, mas os itens de acabamento (vidro, automação, elevadores) sugerem um custo muito superior ao que o R$/m² de R$ 0.00 indica."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 60
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Piso porcelanato 60x60 (e 30x60 em banheiros)\", \"Pele de vidro e esquadrias de alumínio com vidro (várias tipologias)\", \"Sistema de automação e sistemas lógicos (R$ 135.000,00)\", \"Elevador social e cremalheira\", \"Gradil tipo brise (elemento sofisticado)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Mármore/Granito (como principal acabamento)\", \"ACM premium\"], \"justificativa\": \"O projeto apresenta um nível de sof"
+}

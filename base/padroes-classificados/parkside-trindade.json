@@ -1,0 +1,56 @@
+{
+  "projeto": "parkside-trindade",
+  "ts": "2026-04-14T08:18:46",
+  "duration_s": 12.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Marca Docol/Deca (linha premium de louças)",
+      "Presença de frisos decorativos em esquadrias",
+      "R$/m² de R$ 3.755,78 (dentro da faixa de médio-alto)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Sistema de automação",
+      "Acabamentos em mármore/granito (não listados)"
+    ],
+    "justificativa": "Apesar de não haver mármore ou granito explícitos, a combinação de louças de marcas premium (Deca/Docol) e a especificação detalhada de esquadrias com frisos decorativos eleva o padrão acima do médio. O valor de R$ 3.755,78/m² se encaixa perfeitamente na faixa de médio-alto, indicando um projeto de acabamento refinado e de boa qualidade.",
+    "coerencia_rsm2": "sim"
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 3332.96,
+      "ur": 0,
+      "total": 12517878.23,
+      "rsm2": 3755.78,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 26
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Marca Docol/Deca (linha premium de louças)\", \"Presença de frisos decorativos em esquadrias\", \"R$/m² de R$ 3.755,78 (dentro da faixa de médio-alto)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Sistema de automação\", \"Acabamentos em mármore/granito (não listados)\"], \"justificativa\": \"Apesar de não haver mármore ou granito explícitos, a combinação de louças de marcas premium (Deca/Docol) e a especificação detalhada de es"
+}

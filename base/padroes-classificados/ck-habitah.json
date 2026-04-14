@@ -1,0 +1,60 @@
+{
+  "projeto": "ck-habitah",
+  "ts": "2026-04-14T08:31:53",
+  "duration_s": 12.3,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (item de alto valor)",
+      "Ausência de itens de luxo explícitos (mármore, granito, ACM, etc.)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina_aquecida",
+      "gerador",
+      "automação",
+      "spa_sauna",
+      "elevador_panoramico",
+      "mármore",
+      "granito",
+      "acm"
+    ],
+    "justificativa": "O projeto apresenta um investimento significativo em acabamentos de fachada (R$ 2,9 milhões), sugerindo um padrão elevado. No entanto, a ausência de materiais de luxo clássicos (mármore, granito, ACM) e a falta de sistemas de lazer de alto padrão limitam a classificação a médio-alto.",
+    "coerencia_rsm2": "nao - Os dados numéricos (R$ 0.00/m²) são irrelevantes e não refletem o alto valor total do investimento em acabamentos."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 82857675.74,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (item de alto valor)\", \"Ausência de itens de luxo explícitos (mármore, granito, ACM, etc.)\"], \"sinais_ausentes_relevantes\": [\"piscina_aquecida\", \"gerador\", \"automação\", \"spa_sauna\", \"elevador_panoramico\", \"mármore\", \"granito\", \"acm\"], \"justificativa\": \"O projeto apresenta um investimento significativo em acabamentos de fachada (R$ 2,9 milhões), sugerindo um padrão elevado. No entanto, a a"
+}

@@ -1,0 +1,66 @@
+{
+  "projeto": "xpcon-marena",
+  "ts": "2026-04-14T08:23:25",
+  "duration_s": 13.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Porcelanato (implícito pela classe)",
+      "Instalações hidráulicas detalhadas (indicando complexidade)",
+      "Presença de áreas de lazer/diferenciado (Rooftop, TIPO DIFRENCIADO E LAZER)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Gerador",
+      "Mármore/Granito (explicitado)"
+    ],
+    "justificativa": "O projeto apresenta áreas de lazer e diferenciação (Rooftop, TIPO DIFRENCIADO), o que eleva o padrão acima do médio. No entanto, a ausência de materiais de altíssimo custo (mármore, granito, ACM, automação) e a falta de dados de acabamentos específicos (pisos/esquadrias) impedem a classificação como 'alto' ou 'luxo'.",
+    "coerencia_rsm2": "parcial — Os custos por m² são muito baixos e não refletem a complexidade das instalações hidráulicas e áreas de lazer detectadas."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 4174.83,
+      "ur": 20,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 208.74,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 8.0,
+      "Fundacoes": 0.01,
+      "Infraestrutura": 0.78,
+      "Supraestrutura": 7.14,
+      "Instalacoes Hidraulicas": 70.83,
+      "SPDA": 13.33,
+      "Climatizacao": 24.64,
+      "Loucas e Metais": 0.01
+    },
+    "n_itens_top": 15
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Porcelanato (implícito pela classe)\", \"Instalações hidráulicas detalhadas (indicando complexidade)\", \"Presença de áreas de lazer/diferenciado (Rooftop, TIPO DIFRENCIADO E LAZER)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Gerador\", \"Mármore/Granito (explicitado)\"], \"justificativa\": \"O projeto apresenta áreas de lazer e diferenciação (Rooftop, TIPO DIFRENCIADO), o que eleva o padrão acima do médio. No en"
+}

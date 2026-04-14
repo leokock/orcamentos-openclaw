@@ -1,0 +1,59 @@
+{
+  "projeto": "neuhaus-origem",
+  "ts": "2026-04-14T08:16:18",
+  "duration_s": 13.0,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "granito",
+      "Bancada Cozinha (material não especificado, mas o contexto sugere alto padrão)",
+      "Sistemas de Lazer (LAZER 1, LAZER 2, PENTHOUSE) com alto custo total",
+      "R$/m² de R$ 4.642,46 (acima do limite de R$ 4.000)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "mármore",
+      "piscina aquecida",
+      "automação",
+      "spa/sauna",
+      "elevador panorâmico"
+    ],
+    "justificativa": "O custo por metro quadrado (R$ 4.642,46/m²) já posiciona o projeto acima da classe médio-alto. A presença de granito e os sistemas de lazer (LAZER/PENTHOUSE) indicam um padrão elevado, característico da classe alto, mesmo com a ausência de mármore ou automação completa.",
+    "coerencia_rsm2": "sim"
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 14559.12,
+      "ur": 0,
+      "total": 67590131.02,
+      "rsm2": 4642.46,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 37
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"granito\", \"Bancada Cozinha (material não especificado, mas o contexto sugere alto padrão)\", \"Sistemas de Lazer (LAZER 1, LAZER 2, PENTHOUSE) com alto custo total\", \"R$/m² de R$ 4.642,46 (acima do limite de R$ 4.000)\"], \"sinais_ausentes_relevantes\": [\"mármore\", \"piscina aquecida\", \"automação\", \"spa/sauna\", \"elevador panorâmico\"], \"justificativa\": \"O custo por metro quadrado (R$ 4.642,46/m²) já posiciona o projeto acima da classe médi"
+}

@@ -1,0 +1,59 @@
+{
+  "projeto": "cota-365",
+  "ts": "2026-04-14T08:07:19",
+  "duration_s": 11.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "uso de granito em bancadas",
+      "uso de louças Deca (marca reconhecida)",
+      "presença de churrasqueiras e infraestrutura de ar condicionado"
+    ],
+    "sinais_ausentes_relevantes": [
+      "mármore",
+      "acm",
+      "piscina aquecida",
+      "automação",
+      "spa/sauna",
+      "elevador panorâmico"
+    ],
+    "justificativa": "O projeto apresenta um nível de acabamento acima do médio, evidenciado pelo uso de granito em bancadas e louças de marca (Deca). No entanto, a ausência de materiais de alto padrão como mármore, porcelanato grande formato (120x120) ou sistemas complexos (spa, automação) o impede de ser classificado como 'alto'.",
+    "coerencia_rsm2": "sim"
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 17505.56,
+      "ur": 0,
+      "total": 60989058.06,
+      "rsm2": 3483.98,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 34
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"uso de granito em bancadas\", \"uso de louças Deca (marca reconhecida)\", \"presença de churrasqueiras e infraestrutura de ar condicionado\"], \"sinais_ausentes_relevantes\": [\"mármore\", \"acm\", \"piscina aquecida\", \"automação\", \"spa/sauna\", \"elevador panorâmico\"], \"justificativa\": \"O projeto apresenta um nível de acabamento acima do médio, evidenciado pelo uso de granito em bancadas e louças de marca (Deca). No entanto, a ausência de "
+}

@@ -1,0 +1,65 @@
+{
+  "projeto": "grandezza-gran-royal",
+  "ts": "2026-04-14T08:36:11",
+  "duration_s": 17.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "porcelanato_grande",
+      "marmore",
+      "granito",
+      "acm",
+      "gourmet",
+      "elevador_cremalheira",
+      "pastilha_decorada"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina_aquecida",
+      "spa_sauna",
+      "gerador",
+      "heliponto"
+    ],
+    "justificativa": "O projeto apresenta elementos de acabamento de alto padrão como mármore, granito, ACM e porcelanato grande, além de um kit gourmet e elevador cremalheira. No entanto, a ausência de itens de luxo extremos (spa, sauna, borda infinita, automação avançada) e o R$/m² calculado (R$ 1,917.59) puxam o padrão para a faixa médio-alto, que é caracterizada por materiais premium, mas sem o custo de sistemas de luxo.",
+    "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 1,917.59) está significativamente abaixo da faixa médio-alto (R$ 3.400–R$ 4.000), mas os materiais listados (mármore, granito, ACM, porcelanato grande) indicam um custo real muito superior, justificando a classificação pela qualidade dos materiais e não pelo valor numérico aparente."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 5225.33,
+      "ur": 0,
+      "total": 10020041.553764636,
+      "rsm2": 1917.59,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": true,
+      "granito": true,
+      "acm": true,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": true,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 20.62,
+      "Estacas": 0.18,
+      "Escoramento": 2.05
+    },
+    "n_itens_top": 74
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"porcelanato_grande\", \"marmore\", \"granito\", \"acm\", \"gourmet\", \"elevador_cremalheira\", \"pastilha_decorada\"], \"sinais_ausentes_relevantes\": [\"piscina_aquecida\", \"spa_sauna\", \"gerador\", \"heliponto\"], \"justificativa\": \"O projeto apresenta elementos de acabamento de alto padrão como mármore, granito, ACM e porcelanato grande, além de um kit gourmet e elevador cremalheira. No entanto, a ausência de itens de luxo extremos (spa, sauna, "
+}

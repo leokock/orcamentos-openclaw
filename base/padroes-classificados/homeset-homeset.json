@@ -1,0 +1,70 @@
+{
+  "projeto": "homeset-homeset",
+  "ts": "2026-04-14T08:36:54",
+  "duration_s": 15.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Elevador Permanente",
+      "Automação e Sistemas Lógicos",
+      "Granito (uso em soleiras, peitoris, tampo)",
+      "Porcelanato amadeirado 84x84cm",
+      "Vidro (Guarda-Corpo e Pele)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Mármore/Granito em áreas de lazer (sinal de luxo)"
+    ],
+    "justificativa": "A presença de elevador permanente, automação e o uso de vidros e granitos em detalhes de acabamento elevam o padrão. Embora não haja mármore ou piscina aquecida, os sistemas de automação e o elevador já posicionam o projeto acima da classe média-alta, caracterizando um padrão alto.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido (elevador, automação, vidros), indicando que o cálculo foi feito apenas sobre a área construída e não sobre o custo total dos sistemas especiais."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 7959.45,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Infraestrutura": 341.81,
+      "Supraestrutura": 210.31,
+      "Alvenaria": 331.46,
+      "Instalacoes Hidraulicas": 135.71,
+      "PCI": 44.87,
+      "Instalacoes Eletricas": 166.04,
+      "Impermeabilizacao": 89.56,
+      "Revestimentos": 526.31,
+      "Pintura": 70.15,
+      "Esquadrias": 174.86,
+      "Servicos Complementares": 87.61
+    },
+    "n_itens_top": 56
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Elevador Permanente\", \"Automação e Sistemas Lógicos\", \"Granito (uso em soleiras, peitoris, tampo)\", \"Porcelanato amadeirado 84x84cm\", \"Vidro (Guarda-Corpo e Pele)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Mármore/Granito em áreas de lazer (sinal de luxo)\"], \"justificativa\": \"A presença de elevador permanente, automação e o uso de vidros e granitos em detalhes de acabamento elevam o padrão. Embora não haja má"
+}

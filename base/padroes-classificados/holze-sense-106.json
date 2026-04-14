@@ -1,0 +1,57 @@
+{
+  "projeto": "holze-sense-106",
+  "ts": "2026-04-14T08:11:26",
+  "duration_s": 15.0,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Marca Docol/Deca (louças de qualidade)",
+      "Presença de sistemas de climatização e drenagem avançados (trocador de calor, bombas, ralos anti-turbilhão)",
+      "Acabamentos de louças e metais específicos (Cuba de cozinha, barra de apoio)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Sistema de automação",
+      "Mármore/Granito em destaque"
+    ],
+    "justificativa": "O projeto apresenta marcas de louças de alto padrão (Deca/Docol) e sistemas de infraestrutura complexos (trocador de calor, bombas, ralos anti-turbilhão), elevando o nível acima do médio. No entanto, a ausência de itens de luxo como mármore, granito, automação ou lazer sofisticado o mantém na faixa de médio-alto.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.515,51 se encaixa perfeitamente na faixa de médio-alto (R$ 3.400–R$ 4.000), apesar da falta de dados detalhados por disciplina."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 8700.0,
+      "ur": 0,
+      "total": 30584964.89,
+      "rsm2": 3515.51,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 40
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Marca Docol/Deca (louças de qualidade)\", \"Presença de sistemas de climatização e drenagem avançados (trocador de calor, bombas, ralos anti-turbilhão)\", \"Acabamentos de louças e metais específicos (Cuba de cozinha, barra de apoio)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Sistema de automação\", \"Mármore/Granito em destaque\"], \"justificativa\": \"O projeto apresenta marcas de louças de alto padrão (Deca/Do"
+}

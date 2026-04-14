@@ -1,0 +1,62 @@
+{
+  "projeto": "santa-maria-z",
+  "ts": "2026-04-14T08:45:10",
+  "duration_s": 14.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Pele de vidro (glazing)",
+      "Brise Metálico",
+      "Elevador social/definitivo (múltiplos)",
+      "Sistema de automação",
+      "Piscina aquecida",
+      "Gerador",
+      "Porcelanato/Cerâmico (uso de grandes formatos e granito)",
+      "Pergolado com cobertura de vidro"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore/Granito em destaque (uso de granito em peitoril, mas não é o foco principal)",
+      "Spa/Sauna",
+      "Heliponto",
+      "Borda infinita"
+    ],
+    "justificativa": "O projeto apresenta elementos de alto padrão como pele de vidro, brises metálicos, automação e sistemas de elevadores múltiplos. Embora não atinja o nível de luxo (ausência de mármore/bordas infinitas), a combinação de grandes esquadrias, sistemas de energia e acabamentos sofisticados eleva o padrão para a classe 'alto'.",
+    "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os itens de acabamento apontam claramente para um padrão superior ao médio-alto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": true,
+      "gerador": true,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 58
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Pele de vidro (glazing)\", \"Brise Metálico\", \"Elevador social/definitivo (múltiplos)\", \"Sistema de automação\", \"Piscina aquecida\", \"Gerador\", \"Porcelanato/Cerâmico (uso de grandes formatos e granito)\", \"Pergolado com cobertura de vidro\"], \"sinais_ausentes_relevantes\": [\"Mármore/Granito em destaque (uso de granito em peitoril, mas não é o foco principal)\", \"Spa/Sauna\", \"Heliponto\", \"Borda infinita\"], \"justificativa\": \"O projeto apresen"
+}

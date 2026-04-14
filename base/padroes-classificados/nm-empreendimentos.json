@@ -1,0 +1,59 @@
+{
+  "projeto": "nm-empreendimentos",
+  "ts": "2026-04-14T08:41:41",
+  "duration_s": 14.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "elevador social",
+      "automação e sistemas lógicos",
+      "porcelanato 60x60 (interno)",
+      "granito preto São Gabriel (moldura)",
+      "alumínio alto-standard (esquadrias)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "spa/sauna",
+      "mármore",
+      "ACM premium"
+    ],
+    "justificativa": "A presença de elevador social, automação e sistemas lógicos, juntamente com o uso de porcelanato 60x60 e granito em detalhes, eleva o padrão acima do médio-alto. Embora não haja mármore ou piscina aquecida, os sistemas de automação e o elevador já caracterizam um padrão de alto nível.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.217,76 está mais próximo da classe 'médio', mas os itens de acabamento (elevador, automação, porcelanato 60x60) puxam o projeto para a classe 'alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 1540.93,
+      "ur": 0,
+      "total": 4958343.62,
+      "rsm2": 3217.76,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 51
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"elevador social\", \"automação e sistemas lógicos\", \"porcelanato 60x60 (interno)\", \"granito preto São Gabriel (moldura)\", \"alumínio alto-standard (esquadrias)\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"spa/sauna\", \"mármore\", \"ACM premium\"], \"justificativa\": \"A presença de elevador social, automação e sistemas lógicos, juntamente com o uso de porcelanato 60x60 e granito em detalhes, eleva o padrão acima do médio-alto. Embora"
+}

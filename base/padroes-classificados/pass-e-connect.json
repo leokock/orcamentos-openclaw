@@ -1,0 +1,60 @@
+{
+  "projeto": "pass-e-connect",
+  "ts": "2026-04-14T08:19:34",
+  "duration_s": 15.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "spa_sauna",
+      "sistema CFTV",
+      "sistema de som",
+      "video porteiro",
+      "cabeamento de internet"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina_aquecida",
+      "mármore",
+      "granito",
+      "acm",
+      "automação"
+    ],
+    "justificativa": "A presença de um spa/sauna e sistemas de segurança/áudio (CFTV, som, video porteiro) eleva o padrão acima do médio. No entanto, a ausência de materiais de alto custo como mármore, granito, ACM ou porcelanato de grandes dimensões impede a classificação como alto ou luxo.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.709,52 está bem posicionado na faixa de 'alto' (R$ 4.000-R$ 5.000), mas os itens de acabamento e sistemas detectados apontam mais para 'médio-alto', sugerindo que o custo total pode estar subestimado ou que o projeto é pequeno demais para refletir o padrão de acabamento."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 13144.27,
+      "ur": 0,
+      "total": 48758956.42,
+      "rsm2": 3709.52,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"spa_sauna\", \"sistema CFTV\", \"sistema de som\", \"video porteiro\", \"cabeamento de internet\"], \"sinais_ausentes_relevantes\": [\"piscina_aquecida\", \"mármore\", \"granito\", \"acm\", \"automação\"], \"justificativa\": \"A presença de um spa/sauna e sistemas de segurança/áudio (CFTV, som, video porteiro) eleva o padrão acima do médio. No entanto, a ausência de materiais de alto custo como mármore, granito, ACM ou porcelanato de grandes dimensõe"
+}

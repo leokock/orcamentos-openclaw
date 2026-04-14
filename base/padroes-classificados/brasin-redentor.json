@@ -1,0 +1,68 @@
+{
+  "projeto": "brasin-redentor",
+  "ts": "2026-04-14T08:02:46",
+  "duration_s": 13.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Gerador de energia (250 kVA)",
+      "Subestação de energia",
+      "Piscina Rooftop e Lazer",
+      "Bomba de calor (aquecimento)",
+      "Sistema de paralelismo com rede/gerador"
+    ],
+    "sinais_ausentes_relevantes": [
+      "mármore",
+      "granito",
+      "ACM",
+      "automação",
+      "elevador panorâmico"
+    ],
+    "justificativa": "A presença de geradores de energia, subestação e sistemas de lazer (piscina rooftop e bomba de calor) eleva o padrão significativamente. Embora não haja menção a mármore ou automação completa, a infraestrutura de energia e lazer já coloca o projeto acima da categoria médio-alto, aproximando-o do alto.",
+    "coerencia_rsm2": "parcial — Os custos de infraestrutura (elétrica/hidráulica) são baixos, mas os itens de lazer e energia (gerador, subestação) são extremamente caros e não estão refletidos no R$/m² geral fornecido."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 16727.83,
+      "ur": 40,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 418.2,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Loucas e Metais": 0.13,
+      "Instalacoes Eletricas": 116.44,
+      "Instalacoes Hidraulicas": 52.69,
+      "Infraestrutura": 0.19,
+      "Fundacoes": 0.0,
+      "Supraestrutura": 55.91,
+      "Escoramento": 2.05
+    },
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Gerador de energia (250 kVA)\", \"Subestação de energia\", \"Piscina Rooftop e Lazer\", \"Bomba de calor (aquecimento)\", \"Sistema de paralelismo com rede/gerador\"], \"sinais_ausentes_relevantes\": [\"mármore\", \"granito\", \"ACM\", \"automação\", \"elevador panorâmico\"], \"justificativa\": \"A presença de geradores de energia, subestação e sistemas de lazer (piscina rooftop e bomba de calor) eleva o padrão significativamente. Embora não haja menção a m"
+}

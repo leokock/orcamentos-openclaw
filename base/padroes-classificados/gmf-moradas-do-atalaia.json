@@ -1,0 +1,58 @@
+{
+  "projeto": "gmf-moradas-do-atalaia",
+  "ts": "2026-04-14T08:35:53",
+  "duration_s": 15.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Elevador (sistema vertical)",
+      "Granito (peitoril/revestimento)",
+      "Brise (elementos de sombreamento)",
+      "Pele de vidro (grandes vãos)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida borda infinita",
+      "Automação completa",
+      "Mármore/Madeira nobre de alto padrão",
+      "ACM premium"
+    ],
+    "justificativa": "A presença de elevador, brise e pele de vidro eleva o padrão acima do médio, indicando um acabamento sofisticado. Embora não haja mármore ou automação completa, o uso de granito e esquadrias de alumínio de alto custo (incluindo guarda corpo de vidro e aço inox) sustenta a classificação em médio-alto.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.481,83 está na faixa de médio-alto, mas a ausência de porcelanato grande e mármore poderia sugerir uma classificação mais baixa, sendo os sistemas (elevador, brise, vidro) os fatores decisivos."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 7374.18,
+      "ur": 0,
+      "total": 25675656.81,
+      "rsm2": 3481.83,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 52
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Elevador (sistema vertical)\", \"Granito (peitoril/revestimento)\", \"Brise (elementos de sombreamento)\", \"Pele de vidro (grandes vãos)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida borda infinita\", \"Automação completa\", \"Mármore/Madeira nobre de alto padrão\", \"ACM premium\"], \"justificativa\": \"A presença de elevador, brise e pele de vidro eleva o padrão acima do médio, indicando um acabamento sofisticado. Embora não haja márm"
+}

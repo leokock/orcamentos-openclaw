@@ -1,0 +1,72 @@
+{
+  "projeto": "santa-maria-unimed",
+  "ts": "2026-04-14T08:21:06",
+  "duration_s": 15.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Pele de Vidro e ACM (fachada de alto padrão)",
+      "Elevadores sociais (indicativo de alto padrão)",
+      "Automação e sistemas de segurança",
+      "Porcelanato 80x80 (dimensão e material)",
+      "Vidro e Madeira (esquadrias de alto padrão)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "piscina aquecida borda infinita",
+      "heliponto",
+      "mármore/granito (mencionado como ausente, mas o uso de materiais nobres é esperado)"
+    ],
+    "justificativa": "A presença de fachadas complexas em ACM e vidro, elevadores sociais, automação e o uso de porcelanato de grande formato (80x80) elevam o padrão. Embora não haja itens de luxo extremo (como spa ou borda infinita), a combinação de sistemas e materiais já posiciona o projeto na faixa 'Alto'.",
+    "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 1.604,02) é significativamente baixo para o nível de acabamento detectado, sugerindo que o cálculo foi feito apenas sobre uma área ou escopo parcial."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 52516.04,
+      "ur": 0,
+      "total": 84236844.1525,
+      "rsm2": 1604.02,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": true,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": false,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Movimentacao de Terra": 9.4,
+      "Infraestrutura": 154.98,
+      "Supraestrutura": 675.31,
+      "Alvenaria": 115.34,
+      "Sistemas Especiais": 343.31,
+      "Impermeabilizacao": 22.53,
+      "Forro": 33.67,
+      "Pintura": 74.3,
+      "Esquadrias": 237.81,
+      "Cobertura": 3.21,
+      "Fachada": 537.79,
+      "Servicos Complementares": 201.44
+    },
+    "n_itens_top": 50
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Pele de Vidro e ACM (fachada de alto padrão)\", \"Elevadores sociais (indicativo de alto padrão)\", \"Automação e sistemas de segurança\", \"Porcelanato 80x80 (dimensão e material)\", \"Vidro e Madeira (esquadrias de alto padrão)\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"piscina aquecida borda infinita\", \"heliponto\", \"mármore/granito (mencionado como ausente, mas o uso de materiais nobres é esperado)\"], \"justificativa\": \"A presença de "
+}

@@ -1,0 +1,58 @@
+{
+  "projeto": "chiquetti-e-dalvesco-atlantis",
+  "ts": "2026-04-14T08:30:33",
+  "duration_s": 14.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Automação completa (R$ 262k)",
+      "Esquadrias em alumínio de alto custo e Brises metálicos (R$ 1.180k)",
+      "Porcelanato 120x120 e Vinílico tipo régua",
+      "Granito em peitoril e piso de elevador",
+      "Sistema de piscina com tratamento acústico e aquecimento"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Spa/Sauna",
+      "Heliponto",
+      "Mármore/Granito em áreas críticas (mármore puro)"
+    ],
+    "justificativa": "O projeto apresenta sistemas de automação avançada, esquadrias de alto padrão com brises metálicos e o uso de porcelanato 120x120. Embora não tenha itens de luxo extremo (mármore, heliponto), a combinação de tecnologia e materiais de grande formato eleva o padrão para a classe Alto.",
+    "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² e m²/UR estão zerados ou incompletos, mas os itens de acabamento e sistemas são fortes indicadores de alto padrão."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 30775803.73,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 52
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Automação completa (R$ 262k)\", \"Esquadrias em alumínio de alto custo e Brises metálicos (R$ 1.180k)\", \"Porcelanato 120x120 e Vinílico tipo régua\", \"Granito em peitoril e piso de elevador\", \"Sistema de piscina com tratamento acústico e aquecimento\"], \"sinais_ausentes_relevantes\": [\"Spa/Sauna\", \"Heliponto\", \"Mármore/Granito em áreas críticas (mármore puro)\"], \"justificativa\": \"O projeto apresenta sistemas de automação avançada, esquadr"
+}

@@ -1,0 +1,57 @@
+{
+  "projeto": "inbrasul-aguas-de-marco",
+  "ts": "2026-04-14T08:37:07",
+  "duration_s": 12.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (item de custo alto)",
+      "R$/m² de R$ 3.722,92 (dentro da faixa médio-alto)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa",
+      "gerador",
+      "automacao",
+      "marmore",
+      "granito"
+    ],
+    "justificativa": "O custo por metro quadrado (R$ 3.722,92) e a presença de um item de fachada específico e caro sugerem um padrão acima do médio. No entanto, a ausência de materiais de alto padrão como mármore, granito, ou sistemas de lazer complexos (spa, sauna) impede a classificação como 'alto' ou 'luxo'.",
+    "coerencia_rsm2": "parcial — O R$/m² está na faixa médio-alto, mas a falta de detalhes de acabamento (pisos, esquadrias) impede uma confirmação total da coerência."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 6538.41,
+      "ur": 0,
+      "total": 24341958.32,
+      "rsm2": 3722.92,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (item de custo alto)\", \"R$/m² de R$ 3.722,92 (dentro da faixa médio-alto)\"], \"sinais_ausentes_relevantes\": [\"spa\", \"gerador\", \"automacao\", \"marmore\", \"granito\"], \"justificativa\": \"O custo por metro quadrado (R$ 3.722,92) e a presença de um item de fachada específico e caro sugerem um padrão acima do médio. No entanto, a ausência de materiais de alto padrão como mármore, granito, ou sistem"
+}

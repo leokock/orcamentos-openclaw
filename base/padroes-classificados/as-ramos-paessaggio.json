@@ -1,0 +1,58 @@
+{
+  "projeto": "as-ramos-paessaggio",
+  "ts": "2026-04-14T08:28:39",
+  "duration_s": 13.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (indica atenção estética e investimento)",
+      "Ausência de itens de luxo explícitos (piscina aquecida, spa, heliponto)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa_sauna",
+      "gerador",
+      "piscina_aquecida",
+      "elevador_panoramico",
+      "marmore",
+      "granito"
+    ],
+    "justificativa": "Apesar do valor de R$/m² ser extremamente baixo (R$ 129,83/m²), o projeto apresenta um investimento significativo em acabamentos de fachada (R$ 2,7 milhões), sugerindo um padrão superior ao básico. A ausência de itens de luxo e a falta de detalhes de acabamento (pisos, esquadrias, louças) impedem a classificação como 'alto' ou 'luxo'.",
+    "coerencia_rsm2": "nao — O valor de R$/m² é drasticamente baixo e não reflete o investimento em acabamentos de fachada, que é o sinal mais forte de qualidade."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 264.05240058477744,
+      "ur": 0,
+      "total": 34284020.3225,
+      "rsm2": 129837.94,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (indica atenção estética e investimento)\", \"Ausência de itens de luxo explícitos (piscina aquecida, spa, heliponto)\"], \"sinais_ausentes_relevantes\": [\"spa_sauna\", \"gerador\", \"piscina_aquecida\", \"elevador_panoramico\", \"marmore\", \"granito\"], \"justificativa\": \"Apesar do valor de R$/m² ser extremamente baixo (R$ 129,83/m²), o projeto apresenta um investimento significativo em acabamentos de f"
+}

@@ -1,0 +1,74 @@
+{
+  "projeto": "exito-oiti",
+  "ts": "2026-04-14T08:34:23",
+  "duration_s": 14.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Elevadores sociais e de serviço (alto custo)",
+      "Brise em alumínio (alto padrão)",
+      "Piso porcelanato 60x60cm e laminado (padrão intermediário/alto)",
+      "Gourmet (lazer) e granito (flag detectado)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Automação",
+      "Mármore",
+      "ACM premium",
+      "Spa/Sauna"
+    ],
+    "justificativa": "A presença de elevadores sociais e de serviço, além do uso de brise e o item gourmet, eleva o padrão para a classe 'alto'. Embora não haja mármore ou automação, os equipamentos de alto custo e os elementos de design (brise, porcelanato 60x60) superam o perfil 'médio-alto'.",
+    "coerencia_rsm2": "parcial — Os custos por m² são muito baixos (R$ 0.00) em relação aos equipamentos de alto custo detectados (elevadores, brise), sugerindo que o orçamento está incompleto ou extraído de forma parcial."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 7974.15,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": true,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": true,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Movimentacao de Terra": 6.27,
+      "Supraestrutura": 609.64,
+      "Alvenaria": 104.13,
+      "Instalacoes Eletricas": 95.15,
+      "Instalacoes Hidraulicas": 102.9,
+      "Loucas e Metais": 17.08,
+      "PCI": 36.43,
+      "Sistemas Especiais": 163.17,
+      "Impermeabilizacao": 58.82,
+      "Revestimentos": 375.89,
+      "Pintura": 84.28,
+      "Esquadrias": 249.14,
+      "Cobertura": 4.0,
+      "Servicos Complementares": 104.23
+    },
+    "n_itens_top": 57
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Elevadores sociais e de serviço (alto custo)\", \"Brise em alumínio (alto padrão)\", \"Piso porcelanato 60x60cm e laminado (padrão intermediário/alto)\", \"Gourmet (lazer) e granito (flag detectado)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Automação\", \"Mármore\", \"ACM premium\", \"Spa/Sauna\"], \"justificativa\": \"A presença de elevadores sociais e de serviço, além do uso de brise e o item gourmet, eleva o padrão para a classe 'alt"
+}

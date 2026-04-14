@@ -1,0 +1,64 @@
+{
+  "projeto": "all-acacias-jk",
+  "ts": "2026-04-14T08:27:45",
+  "duration_s": 15.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato placa 80x80cm (interno e externo)",
+      "Granito (bancada de cozinha)",
+      "Esquadrias de Alumínio com vidros e Guarda-corpo de alumínio e vidro",
+      "Elevador social (item de alto custo)",
+      "Pastilha cerâmica na fachada"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore",
+      "ACM",
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Automação",
+      "Granito (em pisos/fachada)",
+      "Vidro duplo"
+    ],
+    "justificativa": "O projeto apresenta elementos de qualidade superior como porcelanato 80x80cm, granito na bancada e a inclusão de um elevador social. Embora a fachada utilize pastilha e o porcelanato não seja de dimensão máxima (120x120), a presença do elevador e dos acabamentos em vidro eleva o padrão acima do médio, posicionando-o na faixa médio-alto.",
+    "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² e m²/UR estão zerados, mas a análise dos materiais e sistemas (elevador, porcelanato 80x80) sugere um custo significativamente maior do que o indicado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 1943.23,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Insumos ABC": 0.0
+    },
+    "n_itens_top": 54
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato placa 80x80cm (interno e externo)\", \"Granito (bancada de cozinha)\", \"Esquadrias de Alumínio com vidros e Guarda-corpo de alumínio e vidro\", \"Elevador social (item de alto custo)\", \"Pastilha cerâmica na fachada\"], \"sinais_ausentes_relevantes\": [\"Mármore\", \"ACM\", \"Piscina aquecida\", \"Spa/Sauna\", \"Automação\", \"Granito (em pisos/fachada)\", \"Vidro duplo\"], \"justificativa\": \"O projeto apresenta elementos de qualidade supe"
+}

@@ -1,0 +1,59 @@
+{
+  "projeto": "ck-duo-praia-brava",
+  "ts": "2026-04-14T08:31:40",
+  "duration_s": 14.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Elevadores sociais e de serviço (alto custo)",
+      "Pele de vidro e guarda-corpo em vidro (alto padrão)",
+      "Brise de alumínio e automação (alto padrão)",
+      "Porcelanato 100x100 e 60x60 (dimensão grande)",
+      "Spa/Sauna (lazer especializado)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida borda infinita",
+      "Mármore/Granito em pisos/fachadas",
+      "Gerador de energia",
+      "Heliponto"
+    ],
+    "justificativa": "O projeto apresenta elevadores sociais e de serviço, pele de vidro, brises de alumínio e automação, além de um spa/sauna. Embora não haja mármore ou piscina aquecida, a combinação de elementos de alto custo e especificidade eleva o padrão para a classe 'alto'.",
+    "coerencia_rsm2": "parcial — Os dados numéricos são incompletos e não permitem uma análise precisa do custo total por metro quadrado, mas os materiais indicam um padrão superior."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 60
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Elevadores sociais e de serviço (alto custo)\", \"Pele de vidro e guarda-corpo em vidro (alto padrão)\", \"Brise de alumínio e automação (alto padrão)\", \"Porcelanato 100x100 e 60x60 (dimensão grande)\", \"Spa/Sauna (lazer especializado)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida borda infinita\", \"Mármore/Granito em pisos/fachadas\", \"Gerador de energia\", \"Heliponto\"], \"justificativa\": \"O projeto apresenta elevadores sociais e de se"
+}

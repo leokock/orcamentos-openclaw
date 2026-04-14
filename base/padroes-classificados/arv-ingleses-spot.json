@@ -1,0 +1,69 @@
+{
+  "projeto": "arv-ingleses-spot",
+  "ts": "2026-04-14T08:01:17",
+  "duration_s": 11.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "granito",
+      "docol_deca",
+      "porcelanato_grande",
+      "linha Izy (louças)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "gerador",
+      "acm",
+      "mármore",
+      "brise automatizado"
+    ],
+    "justificativa": "A presença de granito e louças de marcas premium (Docol/Deca, linha Izy) eleva o padrão acima do médio. Embora não haja itens de luxo como spa ou heliponto, o uso de porcelanato e a qualidade das louças sugerem um acabamento sofisticado, mas não no nível máximo.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido pelos materiais (granito, porcelanato grande, louças premium)."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 2618.2400000000002,
+      "ur": 49,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 53.43,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 15.96,
+      "Estacas": 0.0,
+      "Gas": 0.0,
+      "Fundacoes": 0.0,
+      "Supraestrutura": 0.98,
+      "Esquadrias": 0.02,
+      "Instalacoes Eletricas": 11.95,
+      "Climatizacao": 1.39,
+      "Loucas e Metais": 0.06
+    },
+    "n_itens_top": 15
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"granito\", \"docol_deca\", \"porcelanato_grande\", \"linha Izy (louças)\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"gerador\", \"acm\", \"mármore\", \"brise automatizado\"], \"justificativa\": \"A presença de granito e louças de marcas premium (Docol/Deca, linha Izy) eleva o padrão acima do médio. Embora não haja itens de luxo como spa ou heliponto, o uso de porcelanato e a qualidade das louças sugerem um acabamento sofisticado, mas não no"
+}

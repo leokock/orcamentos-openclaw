@@ -1,0 +1,55 @@
+{
+  "projeto": "mabrem-san-marino",
+  "ts": "2026-04-14T08:38:35",
+  "duration_s": 8.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "baixa_informacao",
+    "confianca": "baixa",
+    "sinais_detectados": [],
+    "sinais_ausentes_relevantes": [
+      "spa",
+      "gerador",
+      "automacao",
+      "marmore",
+      "granito",
+      "acm"
+    ],
+    "justificativa": "Não foi fornecido nenhum dado de acabamento (pisos, esquadrias, louças, fachada, lazer) para análise. A classificação é impossível de ser feita com base nas informações disponíveis.",
+    "coerencia_rsm2": "nao"
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 11639433.78,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 0
+  },
+  "raw_response_preview": "{\"padrao\": \"baixa_informacao\", \"confianca\": \"baixa\", \"sinais_detectados\": [], \"sinais_ausentes_relevantes\": [\"spa\", \"gerador\", \"automacao\", \"marmore\", \"granito\", \"acm\"], \"justificativa\": \"Não foi fornecido nenhum dado de acabamento (pisos, esquadrias, louças, fachada, lazer) para análise. A classificação é impossível de ser feita com base nas informações disponíveis.\", \"coerencia_rsm2\": \"nao\"}"
+}

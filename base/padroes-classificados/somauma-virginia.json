@@ -1,0 +1,60 @@
+{
+  "projeto": "somauma-virginia",
+  "ts": "2026-04-14T08:45:37",
+  "duration_s": 14.6,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "uso de granito em peitoril e revestimento de elevador",
+      "esquadrias de alumínio de alto custo (vidro transparente, caixilhos de correr)",
+      "presença de gerador de energia emergencial e elevador comercial",
+      "uso de pastilhas de porcelana em fachada"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida borda infinita",
+      "sistema de automação",
+      "mármore ou madeira nobre de altíssimo padrão"
+    ],
+    "justificativa": "O projeto apresenta elementos de alto padrão como o uso de granito, esquadrias em vidro e alumínio de alto custo, e a inclusão de um gerador de energia emergencial e elevador comercial. Embora não haja mármore ou automação, a combinação desses itens eleva o padrão acima do médio-alto, posicionando-o na classe 'alto'.",
+    "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² estão zerados ou muito baixos, mas os itens de acabamento (granito, esquadrias de vidro, gerador) são fortes indicadores de custo elevado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 10108.43,
+      "ur": 117,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 86.4,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 8.27,
+      "Escoramento": 0.01
+    },
+    "n_itens_top": 46
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"uso de granito em peitoril e revestimento de elevador\", \"esquadrias de alumínio de alto custo (vidro transparente, caixilhos de correr)\", \"presença de gerador de energia emergencial e elevador comercial\", \"uso de pastilhas de porcelana em fachada\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida borda infinita\", \"sistema de automação\", \"mármore ou madeira nobre de altíssimo padrão\"], \"justificativa\": \"O projeto apresenta elementos "
+}

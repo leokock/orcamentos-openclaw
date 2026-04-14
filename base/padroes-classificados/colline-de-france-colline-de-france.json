@@ -1,0 +1,57 @@
+{
+  "projeto": "colline-de-france-colline-de-france",
+  "ts": "2026-04-14T08:07:07",
+  "duration_s": 14.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Esquadrias com frisos decorativos e dimensões específicas (0,70x200m; 57x200cm; 70x200cm)",
+      "O valor de R$/m² (R$ 5.219,45) está acima do limite de R$ 5.000,00, indicando alto padrão."
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "spa/sauna",
+      "gerador",
+      "acabamento em mármore/granito (ausente na lista de itens, mas o valor sugere)",
+      "automação"
+    ],
+    "justificativa": "O valor de R$/m² (R$ 5.219,45) é o indicador mais forte, ultrapassando o limite de R$ 5.000,00 e apontando para o padrão Luxo ou Alto. Embora a lista de itens de acabamento seja muito genérica (apenas esquadrias), o custo total e a complexidade das esquadrias sugerem um projeto de alto padrão, que exige materiais e mão de obra premium.",
+    "coerencia_rsm2": "sim"
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 27559.45,
+      "ur": 0,
+      "total": 143845292.36,
+      "rsm2": 5219.45,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 11
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Esquadrias com frisos decorativos e dimensões específicas (0,70x200m; 57x200cm; 70x200cm)\", \"O valor de R$/m² (R$ 5.219,45) está acima do limite de R$ 5.000,00, indicando alto padrão.\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"spa/sauna\", \"gerador\", \"acabamento em mármore/granito (ausente na lista de itens, mas o valor sugere)\", \"automação\"], \"justificativa\": \"O valor de R$/m² (R$ 5.219,45) é o indicador mais forte, ultra"
+}

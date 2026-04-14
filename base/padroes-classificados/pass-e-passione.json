@@ -1,0 +1,58 @@
+{
+  "projeto": "pass-e-passione",
+  "ts": "2026-04-14T08:19:48",
+  "duration_s": 14.7,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Sistema de som e CFTV (tecnologia)",
+      "Bancada de cozinha e louças (acabamento)",
+      "Preço total elevado (R$ 25,2 milhões)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "spa/sauna",
+      "automacao",
+      "mármore",
+      "granito"
+    ],
+    "justificativa": "O valor total do projeto é extremamente alto, sugerindo um padrão de alto luxo, mas a ausência de itens de luxo (mármore, spa, automação) e a falta de especificações de acabamentos de alto padrão (como porcelanato 120x120 ou ACM) limitam a classificação. O sistema de tecnologia (CFTV, som) e o valor geral puxam para o 'alto', mas a falta de detalhes de acabamento impede uma classificação mais alta.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.784,64 está na faixa 'alto', mas a falta de detalhes de acabamento (pisos, fachadas) e a presença de itens de tecnologia de alto custo (CFTV, som) tornam a análise de coerência incompleta."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 6681.54,
+      "ur": 0,
+      "total": 25287249.72,
+      "rsm2": 3784.64,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Sistema de som e CFTV (tecnologia)\", \"Bancada de cozinha e louças (acabamento)\", \"Preço total elevado (R$ 25,2 milhões)\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"spa/sauna\", \"automacao\", \"mármore\", \"granito\"], \"justificativa\": \"O valor total do projeto é extremamente alto, sugerindo um padrão de alto luxo, mas a ausência de itens de luxo (mármore, spa, automação) e a falta de especificações de acabamentos de alto padrão"
+}

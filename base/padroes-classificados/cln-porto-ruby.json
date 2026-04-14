@@ -1,0 +1,65 @@
+{
+  "projeto": "cln-porto-ruby",
+  "ts": "2026-04-14T08:06:17",
+  "duration_s": 15.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato e vinílico (piso de qualidade)",
+      "Granito em bancadas e tampo",
+      "Marcas de louças premium (Deca/Docol)",
+      "Sistema de gerador elétrico (infraestrutura de alto padrão)",
+      "Esquadrias com detalhes de frisos decorativos"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida/borda infinita",
+      "Mármore/Granito em fachadas",
+      "Automação completa",
+      "Acabamentos em ACM ou madeira nobre"
+    ],
+    "justificativa": "O projeto apresenta pisos de porcelanato/vinílico e bancadas em granito, além de louças de marcas premium como Deca. A inclusão de um gerador e esquadrias detalhadas eleva o padrão acima do médio, mas a ausência de mármore, automação avançada ou grandes áreas de lazer (spa/sauna) impede a classificação como 'alto' ou 'luxo'.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² e R$/UR estão zerados, mas os itens de acabamento e sistemas detectados (gerador, granito, Deca) são fortes indicadores de um padrão superior ao médio."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 12972.67,
+      "ur": 44,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 294.83,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 3.2,
+      "Fundacoes": 0.0,
+      "Infraestrutura": 0.3,
+      "Supraestrutura": 12.51,
+      "Loucas e Metais": 0.07
+    },
+    "n_itens_top": 41
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato e vinílico (piso de qualidade)\", \"Granito em bancadas e tampo\", \"Marcas de louças premium (Deca/Docol)\", \"Sistema de gerador elétrico (infraestrutura de alto padrão)\", \"Esquadrias com detalhes de frisos decorativos\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida/borda infinita\", \"Mármore/Granito em fachadas\", \"Automação completa\", \"Acabamentos em ACM ou madeira nobre\"], \"justificativa\": \"O projeto apresenta piso"
+}

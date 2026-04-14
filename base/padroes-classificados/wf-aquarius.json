@@ -1,0 +1,62 @@
+{
+  "projeto": "wf-aquarius",
+  "ts": "2026-04-14T08:23:12",
+  "duration_s": 14.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Gerador de Coloro BZ -20",
+      "Motobomba e sistemas de drenagem complexos",
+      "Tipologia residencial de alto padrão (AQUARIUS RESIDENCE)",
+      "Presença de sistemas de infraestrutura robustos (motobombas, geradores)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Automação",
+      "Spa/Sauna",
+      "Mármore/Granito (embora não listados, a ausência não invalida a classe)"
+    ],
+    "justificativa": "A presença de um gerador de energia (Gerador de Coloro BZ) e sistemas de motobomba complexos indica um nível de infraestrutura e segurança que ultrapassa o padrão médio-alto. Embora não haja menção a mármore ou automação, a complexidade dos sistemas e a tipologia sugerem um acabamento de alto padrão.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² e m²/UR estão zerados ou muito baixos, mas os itens de infraestrutura (gerador, motobombas) e a tipologia sugerem um custo muito superior ao calculado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 16789.049999999996,
+      "ur": 84,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 199.87,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 3.06,
+      "Infraestrutura": 0.74,
+      "Supraestrutura": 20.3
+    },
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Gerador de Coloro BZ -20\", \"Motobomba e sistemas de drenagem complexos\", \"Tipologia residencial de alto padrão (AQUARIUS RESIDENCE)\", \"Presença de sistemas de infraestrutura robustos (motobombas, geradores)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Automação\", \"Spa/Sauna\", \"Mármore/Granito (embora não listados, a ausência não invalida a classe)\"], \"justificativa\": \"A presença de um gerador de energia (Gerador de Coloro B"
+}

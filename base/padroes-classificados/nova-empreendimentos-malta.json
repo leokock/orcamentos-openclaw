@@ -1,0 +1,57 @@
+{
+  "projeto": "nova-empreendimentos-malta",
+  "ts": "2026-04-14T08:17:35",
+  "duration_s": 13.7,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Gerador de energia",
+      "Spa/Jacuzzi",
+      "Esquadrias em alumínio preto",
+      "Bancadas em material premium (R$ 450/m²)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida borda infinita",
+      "Mármore/Granito explícito",
+      "Automação completa"
+    ],
+    "justificativa": "A presença de um gerador de energia, sistema de spa/jacuzzi e esquadrias em alumínio preto (alto padrão) eleva o projeto para a classe Alto. Embora não haja mármore ou automação completa, os sistemas especiais e os acabamentos de alto custo compensam a ausência de itens de luxo puro.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 6.091,07 está coerente com a classe Alto, mas o valor total é muito alto para a área pequena (7,964 m²), sugerindo que o cálculo pode estar superestimando o custo por m²."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 7964.39,
+      "ur": 0,
+      "total": 48511644.8,
+      "rsm2": 6091.07,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 45
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Gerador de energia\", \"Spa/Jacuzzi\", \"Esquadrias em alumínio preto\", \"Bancadas em material premium (R$ 450/m²)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida borda infinita\", \"Mármore/Granito explícito\", \"Automação completa\"], \"justificativa\": \"A presença de um gerador de energia, sistema de spa/jacuzzi e esquadrias em alumínio preto (alto padrão) eleva o projeto para a classe Alto. Embora não haja mármore ou automação completa, "
+}

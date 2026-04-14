@@ -1,0 +1,58 @@
+{
+  "projeto": "muller-empreendimentos-guanabara",
+  "ts": "2026-04-14T08:40:19",
+  "duration_s": 13.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (alto custo)",
+      "Acabamentos de fachada em múltiplas etapas (sugere detalhamento e complexidade)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa",
+      "gerador",
+      "automação",
+      "piscina aquecida",
+      "mármore",
+      "granito"
+    ],
+    "justificativa": "Apesar do R$/m² (R$ 3.228,74) cair na faixa 'Médio', a complexidade e o custo dos acabamentos de fachada (múltiplos itens de revestimento) sugerem um padrão mais sofisticado. A ausência de itens de luxo (mármore, automação, spa) e a média dos pisos/esquadrias (não detalhados) puxam o padrão para o Médio-Alto.",
+    "coerencia_rsm2": "parcial — O R$/m² está na faixa 'Médio', mas a complexidade da fachada e a ausência de itens de luxo impedem a classificação como 'Médio' puro, sugerindo um nível de acabamento mais elevado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 4440.5,
+      "ur": 0,
+      "total": 14337198.41,
+      "rsm2": 3228.74,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 3
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (alto custo)\", \"Acabamentos de fachada em múltiplas etapas (sugere detalhamento e complexidade)\"], \"sinais_ausentes_relevantes\": [\"spa\", \"gerador\", \"automação\", \"piscina aquecida\", \"mármore\", \"granito\"], \"justificativa\": \"Apesar do R$/m² (R$ 3.228,74) cair na faixa 'Médio', a complexidade e o custo dos acabamentos de fachada (múltiplos itens de revestimento) sugerem um padrão mais sofisti"
+}

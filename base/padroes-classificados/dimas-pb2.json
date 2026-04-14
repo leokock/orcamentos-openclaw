@@ -1,0 +1,59 @@
+{
+  "projeto": "dimas-pb2",
+  "ts": "2026-04-14T08:33:56",
+  "duration_s": 13.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "R$/m² de R$ 4.345,32 (acima do limite 'medio-alto' e próximo ao 'alto')",
+      "A menção de revestimentos e acabamentos de fachada (sem detalhamento, mas indicando investimento significativo)",
+      "O valor total do projeto (R$ 92 milhões) sugere um padrão de alto investimento"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "gerador",
+      "automação",
+      "mármore",
+      "granito",
+      "piscina aquecida"
+    ],
+    "justificativa": "O valor por metro quadrado (R$ 4.345,32) já posiciona o projeto na faixa 'alto'. Embora os detalhes de acabamento sejam escassos, o investimento total e a faixa de preço sugerem o uso de materiais de alta qualidade, como porcelanato 120x120 ou granito, típicos de padrões altos.",
+    "coerencia_rsm2": "parcial — O R$/m² está na faixa 'alto', mas a falta de detalhes de acabamento impede uma confirmação total da coerência."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 21215.27,
+      "ur": 0,
+      "total": 92187220.92,
+      "rsm2": 4345.32,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"R$/m² de R$ 4.345,32 (acima do limite 'medio-alto' e próximo ao 'alto')\", \"A menção de revestimentos e acabamentos de fachada (sem detalhamento, mas indicando investimento significativo)\", \"O valor total do projeto (R$ 92 milhões) sugere um padrão de alto investimento\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"gerador\", \"automação\", \"mármore\", \"granito\", \"piscina aquecida\"], \"justificativa\": \"O valor por metro quadrado (R$ 4.34"
+}

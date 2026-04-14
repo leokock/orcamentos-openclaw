@@ -1,0 +1,61 @@
+{
+  "projeto": "indepy-caio-prado",
+  "ts": "2026-04-14T08:12:11",
+  "duration_s": 11.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Gourmet (presente)",
+      "Torneira de Jardins (presente)",
+      "Barra de apoio PNE (presente)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina_aquecida",
+      "gerador",
+      "automação",
+      "mármore",
+      "granito"
+    ],
+    "justificativa": "O projeto apresenta um sinal de gourmet, o que eleva o padrão acima do básico. No entanto, a ausência de materiais de alto padrão (mármore, granito, automação, spa) e a lista de louças e metais é básica, sugerindo um acabamento funcional e de padrão médio.",
+    "coerencia_rsm2": "nao - Os valores de R$/m² são nulos ou muito baixos, mas os itens detectados (gourmet, PNE) sugerem um padrão mínimo de médio."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 6938.39,
+      "ur": 135,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 51.4,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": true,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Impermeabilizacao": 0.06,
+      "Loucas e Metais": 0.22
+    },
+    "n_itens_top": 15
+  },
+  "raw_response_preview": "{\"padrao\": \"medio\", \"confianca\": \"media\", \"sinais_detectados\": [\"Gourmet (presente)\", \"Torneira de Jardins (presente)\", \"Barra de apoio PNE (presente)\"], \"sinais_ausentes_relevantes\": [\"piscina_aquecida\", \"gerador\", \"automação\", \"mármore\", \"granito\"], \"justificativa\": \"O projeto apresenta um sinal de gourmet, o que eleva o padrão acima do básico. No entanto, a ausência de materiais de alto padrão (mármore, granito, automação, spa) e a lista de louças e metais é básica, sugerindo um acabamento fu"
+}

@@ -1,0 +1,68 @@
+{
+  "projeto": "fonseca-empreendimentos-estoril",
+  "ts": "2026-04-14T08:09:33",
+  "duration_s": 13.3,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "granito",
+      "bacia sanitária/caixa acoplada (alto valor)",
+      "piscina cobertura",
+      "gerador"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "mármore",
+      "acm",
+      "piscina aquecida",
+      "automacao"
+    ],
+    "justificativa": "O projeto apresenta itens de médio-alto padrão, como o uso de granito e bacias sanitárias de alto valor, além de equipamentos de lazer como piscina de cobertura e gerador. Embora não atinja o nível de luxo (ausência de mármore, spa ou automação), a combinação de materiais e sistemas eleva o padrão acima do médio.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.378,45 está na faixa 'medio', mas os itens de acabamento (granito, bacias caras, piscina de cobertura) puxam o padrão para 'medio-alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 14491.98,
+      "ur": 110,
+      "total": 48960377.088515654,
+      "rsm2": 3378.45,
+      "m2_por_ur": 131.75,
+      "rs_por_ur": 445094.34
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 3.84,
+      "Supraestrutura": 7.49,
+      "Esquadrias": 1.09,
+      "Infraestrutura": 0.02,
+      "Instalacoes Hidraulicas": 62.36,
+      "SPDA": 5.65,
+      "Climatizacao": 32.79,
+      "Loucas e Metais": 0.04
+    },
+    "n_itens_top": 60
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"granito\", \"bacia sanitária/caixa acoplada (alto valor)\", \"piscina cobertura\", \"gerador\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"mármore\", \"acm\", \"piscina aquecida\", \"automacao\"], \"justificativa\": \"O projeto apresenta itens de médio-alto padrão, como o uso de granito e bacias sanitárias de alto valor, além de equipamentos de lazer como piscina de cobertura e gerador. Embora não atinja o nível de luxo (ausência de mármore,"
+}

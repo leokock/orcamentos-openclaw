@@ -1,0 +1,62 @@
+{
+  "projeto": "chiquetti-e-dalvesco-bela-vida",
+  "ts": "2026-04-14T08:30:46",
+  "duration_s": 13.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Elevador Social",
+      "Automação, telecomunicação e sistemas de segurança",
+      "Brise Ripado",
+      "Pele de Vidro",
+      "Porcelanato 90x90cm",
+      "Sauna",
+      "Granito (soleiras, peitoris, piscina)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Mármore",
+      "ACM",
+      "Gourmet completo",
+      "Heliponto"
+    ],
+    "justificativa": "A presença de elevador social, automação, brise ripado e pele de vidro eleva o padrão significativamente. Embora não haja mármore ou piscina aquecida, a combinação de elementos de alto custo e tecnologia (elevação, automação, vidros especiais) coloca o projeto na faixa 'alto'.",
+    "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os materiais e sistemas detectados apontam para um custo elevado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": true,
+      "fitness_academia": true,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 65
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Elevador Social\", \"Automação, telecomunicação e sistemas de segurança\", \"Brise Ripado\", \"Pele de Vidro\", \"Porcelanato 90x90cm\", \"Sauna\", \"Granito (soleiras, peitoris, piscina)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Mármore\", \"ACM\", \"Gourmet completo\", \"Heliponto\"], \"justificativa\": \"A presença de elevador social, automação, brise ripado e pele de vidro eleva o padrão significativamente. Embora não haja mármore ou pisc"
+}

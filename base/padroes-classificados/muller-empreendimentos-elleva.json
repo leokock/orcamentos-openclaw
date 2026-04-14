@@ -1,0 +1,59 @@
+{
+  "projeto": "muller-empreendimentos-elleva",
+  "ts": "2026-04-14T08:14:50",
+  "duration_s": 13.7,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Granito (tampo de cozinha)",
+      "Louças Docol (marca de médio-alto padrão)",
+      "Tampo de granito em áreas externas (alto custo)",
+      "Portas de vidro temperado (especificidade)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Automação",
+      "Mármore",
+      "Porcelanato 120x120",
+      "ACM"
+    ],
+    "justificativa": "O projeto apresenta o uso de granito em bancadas e louças de marcas reconhecidas (Docol), além de portas de vidro temperado. Embora não haja itens de luxo como mármore ou automação, a qualidade dos materiais e a especificação de bancadas em granito elevam o padrão acima do médio.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 4.358,23 sugere um padrão alto, mas a ausência de mármore, porcelanato grande e itens de lazer de luxo puxa o padrão para médio-alto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 2969.0,
+      "ur": 0,
+      "total": 12939593.12,
+      "rsm2": 4358.23,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": true,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 45
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Granito (tampo de cozinha)\", \"Louças Docol (marca de médio-alto padrão)\", \"Tampo de granito em áreas externas (alto custo)\", \"Portas de vidro temperado (especificidade)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Automação\", \"Mármore\", \"Porcelanato 120x120\", \"ACM\"], \"justificativa\": \"O projeto apresenta o uso de granito em bancadas e louças de marcas reconhecidas (Docol), além de portas de vidro temperado. Embora não"
+}

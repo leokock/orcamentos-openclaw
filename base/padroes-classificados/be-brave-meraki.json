@@ -1,0 +1,63 @@
+{
+  "projeto": "be-brave-meraki",
+  "ts": "2026-04-14T08:01:40",
+  "duration_s": 12.6,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "uso de granito em bancadas",
+      "uso de louças de marcas reconhecidas (Deca/Docol)",
+      "presença de acabamento metálico para registros"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "spa/sauna",
+      "automação",
+      "mármore",
+      "porcelanato grande"
+    ],
+    "justificativa": "O projeto apresenta o uso de granito e louças de marcas de médio-alto padrão (Deca/Docol), além de acabamentos metálicos e bancadas em granito. Embora não haja itens de luxo como mármore ou automação, a qualidade dos materiais e a especificidade dos acabamentos elevam o padrão acima do médio.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² estão zerados ou muito baixos, mas os materiais detectados (granito, Deca) sugerem um custo real mais elevado, alinhando-se melhor à faixa médio-alto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 22461.09,
+      "ur": 104,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 215.97,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 2.19,
+      "Infraestrutura": 0.89,
+      "Supraestrutura": 15.12,
+      "Loucas e Metais": 30.46
+    },
+    "n_itens_top": 15
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"uso de granito em bancadas\", \"uso de louças de marcas reconhecidas (Deca/Docol)\", \"presença de acabamento metálico para registros\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"spa/sauna\", \"automação\", \"mármore\", \"porcelanato grande\"], \"justificativa\": \"O projeto apresenta o uso de granito e louças de marcas de médio-alto padrão (Deca/Docol), além de acabamentos metálicos e bancadas em granito. Embora não haja itens de "
+}

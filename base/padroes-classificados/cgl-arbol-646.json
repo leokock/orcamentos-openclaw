@@ -1,0 +1,58 @@
+{
+  "projeto": "cgl-arbol-646",
+  "ts": "2026-04-14T08:30:19",
+  "duration_s": 15.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato 60x60 (dimensão média)",
+      "Esquadrias de alumínio (padrão intermediário)",
+      "Granito em peitoril (acabamento de qualidade)",
+      "Pastilha cerâmica em fachada (detalhe de acabamento)",
+      "Salão de festas completo (sistema especial)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore/Granito em áreas internas (dimensão/material)",
+      "Vidro duplo/Acústico (especificidade)",
+      "Piscina aquecida/Spa/Sauna (lazer)"
+    ],
+    "justificativa": "O projeto apresenta porcelanato de dimensão média (60x60) e o uso de granito em peitoris, elevando o padrão acima do médio. A presença de um salão de festas completo e a pastilha na fachada reforçam um acabamento de nível médio-alto, sem atingir os materiais nobres ou sistemas de luxo.",
+    "coerencia_rsm2": "parcial — Os dados numéricos são incompletos e não permitem uma análise precisa do custo por metro quadrado, mas os materiais sugerem um patamar de custo mais elevado do que o indicado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 60
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato 60x60 (dimensão média)\", \"Esquadrias de alumínio (padrão intermediário)\", \"Granito em peitoril (acabamento de qualidade)\", \"Pastilha cerâmica em fachada (detalhe de acabamento)\", \"Salão de festas completo (sistema especial)\"], \"sinais_ausentes_relevantes\": [\"Mármore/Granito em áreas internas (dimensão/material)\", \"Vidro duplo/Acústico (especificidade)\", \"Piscina aquecida/Spa/Sauna (lazer)\"], \"justificativa\": \"O proj"
+}

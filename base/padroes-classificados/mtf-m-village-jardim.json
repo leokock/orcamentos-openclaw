@@ -1,0 +1,58 @@
+{
+  "projeto": "mtf-m-village-jardim",
+  "ts": "2026-04-14T08:40:06",
+  "duration_s": 12.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (item presente)",
+      "R$/m² de R$ 3.732,19 (dentro da faixa médio-alto)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "spa/sauna",
+      "gerador",
+      "automação",
+      "mármore",
+      "granito"
+    ],
+    "justificativa": "Apesar de os dados de acabamento serem muito escassos (apenas um item de fachada), o valor de R$/m² (R$ 3.732,19) e a ausência de itens de luxo (mármore, piscina aquecida, etc.) apontam para uma classificação na faixa médio-alto. A falta de detalhes de acabamento impede uma classificação mais precisa.",
+    "coerencia_rsm2": "parcial — O valor de R$/m² está na faixa de médio-alto, mas a falta de detalhes de acabamento (pisos, esquadrias) impede a confirmação da coerência."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 8852.83,
+      "ur": 0,
+      "total": 33040428.68,
+      "rsm2": 3732.19,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (item presente)\", \"R$/m² de R$ 3.732,19 (dentro da faixa médio-alto)\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"spa/sauna\", \"gerador\", \"automação\", \"mármore\", \"granito\"], \"justificativa\": \"Apesar de os dados de acabamento serem muito escassos (apenas um item de fachada), o valor de R$/m² (R$ 3.732,19) e a ausência de itens de luxo (mármore, piscina aquecida, etc.) apontam para"
+}

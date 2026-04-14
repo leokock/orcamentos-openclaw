@@ -1,0 +1,74 @@
+{
+  "projeto": "adore-cacupe",
+  "ts": "2026-04-14T07:59:25",
+  "duration_s": 13.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Automação presente",
+      "Brise (gradil e de alumínio) presente",
+      "Vidro de guarda-corpo presente",
+      "Porcelanato (material de alto padrão)",
+      "Elevadores presentes",
+      "Churrasqueiras (sinal de área gourmet) presentes"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Adega",
+      "Heliponto",
+      "Mármore/Granito (como acabamento principal)"
+    ],
+    "justificativa": "O projeto apresenta automação, brises e elevadores, além de churrasqueiras, indicando um padrão de vida elevado. Embora não tenha os itens de luxo (spa, piscina aquecida), o uso de porcelanato e sistemas automatizados eleva a classificação para 'alto'.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido (ex: automação, brises, porcelanato grande), indicando que a extração foi parcial ou incompleta."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 6494.63,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Movimentacao de Terra": 0.67,
+      "Infraestrutura": 292.75,
+      "Supraestrutura": 766.15,
+      "Sistemas Especiais": 230.73,
+      "Servicos Complementares": 132.74,
+      "Alvenaria": 444.09,
+      "Fachada": 264.86,
+      "Impermeabilizacao": 60.56,
+      "Forro": 115.15,
+      "Pintura": 109.59,
+      "Esquadrias": 335.69,
+      "Cobertura": 7.16
+    },
+    "n_itens_top": 49
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Automação presente\", \"Brise (gradil e de alumínio) presente\", \"Vidro de guarda-corpo presente\", \"Porcelanato (material de alto padrão)\", \"Elevadores presentes\", \"Churrasqueiras (sinal de área gourmet) presentes\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Adega\", \"Heliponto\", \"Mármore/Granito (como acabamento principal)\"], \"justificativa\": \"O projeto apresenta automação, brises e elevadores, além de churrasquei"
+}

@@ -1,0 +1,58 @@
+{
+  "projeto": "cn-brava-garden",
+  "ts": "2026-04-14T08:33:16",
+  "duration_s": 13.0,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "baixa",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (indica investimento significativo em estética e acabamento)",
+      "Tipologia Home Club (sugere um padrão de vida elevado, mesmo que os dados sejam escassos)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Gerador",
+      "Automação",
+      "Mármore/Granito (em pisos/fachada)",
+      "Elevador panorâmico"
+    ],
+    "justificativa": "Apesar da ausência de dados detalhados de acabamentos (pisos, esquadrias, louças) e da falta de itens de luxo (spa, automação), a tipologia 'Home Club' e o investimento significativo em 'Revestimentos e acabamentos de fachada' sugerem um padrão acima do médio, mas sem os elementos de luxo que caracterizariam as classes 'alto' ou 'luxo'.",
+    "coerencia_rsm2": "baixa — Os dados numéricos são nulos ou incompletos, impedindo uma análise de custo por metro quadrado confiável."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 45491117.37,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"baixa\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (indica investimento significativo em estética e acabamento)\", \"Tipologia Home Club (sugere um padrão de vida elevado, mesmo que os dados sejam escassos)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Gerador\", \"Automação\", \"Mármore/Granito (em pisos/fachada)\", \"Elevador panorâmico\"], \"justificativa\": \"Apesar da ausência de dados detalhados de acabamentos (pisos, esqu"
+}

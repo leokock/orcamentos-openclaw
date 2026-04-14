@@ -1,0 +1,60 @@
+{
+  "projeto": "lotisa-serenity",
+  "ts": "2026-04-14T08:38:00",
+  "duration_s": 11.7,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "economico",
+    "confianca": "baixa",
+    "sinais_detectados": [
+      "Nenhum item de acabamento de alto padrão foi listado.",
+      "A análise se baseia apenas em dados numéricos e na ausência de especificações de materiais de luxo."
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "gerador",
+      "automação",
+      "spa/sauna",
+      "elevador panorâmico",
+      "mármore",
+      "granito",
+      "ACM"
+    ],
+    "justificativa": "Os dados fornecidos são extremamente limitados, listando apenas serviços de base (revestimento e acabamento de fachada) sem especificar materiais de alto padrão (como mármore, porcelanato grande formato ou esquadrias especiais). O baixo R$/m² (R$ 1.519/m²) é um indicador muito forte de padrão econômico, apesar da falta de detalhamento.",
+    "coerencia_rsm2": "sim"
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 13606.52,
+      "ur": 0,
+      "total": 20676527.759999998,
+      "rsm2": 1519.6,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 2
+  },
+  "raw_response_preview": "{\"padrao\": \"economico\", \"confianca\": \"baixa\", \"sinais_detectados\": [\"Nenhum item de acabamento de alto padrão foi listado.\", \"A análise se baseia apenas em dados numéricos e na ausência de especificações de materiais de luxo.\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"gerador\", \"automação\", \"spa/sauna\", \"elevador panorâmico\", \"mármore\", \"granito\", \"ACM\"], \"justificativa\": \"Os dados fornecidos são extremamente limitados, listando apenas serviços de base (revestimento e acabamento de f"
+}

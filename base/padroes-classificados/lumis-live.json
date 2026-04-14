@@ -1,0 +1,58 @@
+{
+  "projeto": "lumis-live",
+  "ts": "2026-04-14T08:38:11",
+  "duration_s": 11.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Esquadrias de Madeira",
+      "Piscina"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa",
+      "gerador",
+      "automação",
+      "mármore",
+      "granito",
+      "ACM"
+    ],
+    "justificativa": "A presença de esquadrias de madeira e uma piscina já elevam o padrão acima do médio. No entanto, a ausência de itens de luxo (spa, automação, mármore, etc.) e a baixa densidade de informações limitam a classificação a médio-alto.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 2.940,01 está na faixa do 'médio', mas os materiais (madeira, piscina) sugerem um padrão mais elevado, puxando para médio-alto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 14888.46,
+      "ur": 0,
+      "total": 43772260.74,
+      "rsm2": 2940.01,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 2
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Esquadrias de Madeira\", \"Piscina\"], \"sinais_ausentes_relevantes\": [\"spa\", \"gerador\", \"automação\", \"mármore\", \"granito\", \"ACM\"], \"justificativa\": \"A presença de esquadrias de madeira e uma piscina já elevam o padrão acima do médio. No entanto, a ausência de itens de luxo (spa, automação, mármore, etc.) e a baixa densidade de informações limitam a classificação a médio-alto.\", \"coerencia_rsm2\": \"parcial — O R$/m² de R$ 2.940,01 "
+}

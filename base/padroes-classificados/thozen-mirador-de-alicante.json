@@ -1,0 +1,57 @@
+{
+  "projeto": "thozen-mirador-de-alicante",
+  "ts": "2026-04-14T08:46:18",
+  "duration_s": 12.0,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (custo elevado)",
+      "Tipologia de 30 pavimentos (complexidade e escala)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "gerador",
+      "automação",
+      "piscina aquecida",
+      "elevador panorâmico"
+    ],
+    "justificativa": "Apesar do R$/m² calculado ser extremamente baixo (R$ 73,77/m²), a complexidade da tipologia (30 pavimentos) e o custo significativo da fachada sugerem um padrão acima do médio. A ausência de itens de luxo (mármore, automação, spa) limita a classificação a médio-alto.",
+    "coerencia_rsm2": "nao — O R$/m² calculado (R$ 73,77/m²) é irrealista e contradiz o custo da fachada e a escala do projeto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 474.8275485666585,
+      "ur": 0,
+      "total": 35031764.70723375,
+      "rsm2": 73777.87,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (custo elevado)\", \"Tipologia de 30 pavimentos (complexidade e escala)\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"gerador\", \"automação\", \"piscina aquecida\", \"elevador panorâmico\"], \"justificativa\": \"Apesar do R$/m² calculado ser extremamente baixo (R$ 73,77/m²), a complexidade da tipologia (30 pavimentos) e o custo significativo da fachada sugerem um padrão acima do médio. A ausência "
+}

@@ -1,0 +1,67 @@
+{
+  "projeto": "chiquetti-e-dalvesco-cielo",
+  "ts": "2026-04-14T08:04:23",
+  "duration_s": 12.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "granito (bancada)",
+      "uso de louças e metais (indicando acabamento)",
+      "dimensão de porcelanato grande (sugerido pela ausência de porcelanato_grande)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "gerador",
+      "mármore",
+      "acm",
+      "piscina aquecida"
+    ],
+    "justificativa": "O projeto apresenta o uso de granito em bancadas e a especificação de louças e metais, o que eleva o padrão acima do básico. No entanto, a ausência de itens de luxo (mármore, automação, spa, etc.) e a falta de dados de acabamentos de piso/fachada limitam a classificação a médio-alto.",
+    "coerencia_rsm2": "nao - Os valores de R$/m² são muito baixos para um projeto que especifica granito e louças de boa qualidade, sugerindo que a extração de dados foi parcial."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 7013.059999999999,
+      "ur": 20,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 350.65,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 7.94,
+      "Fundacoes": 0.0,
+      "Infraestrutura": 0.34,
+      "Supraestrutura": 7.89,
+      "Instalacoes Hidraulicas": 80.82,
+      "Instalacoes Eletricas": 137.66,
+      "Servicos Complementares": 104.51,
+      "Loucas e Metais": 0.0
+    },
+    "n_itens_top": 15
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"granito (bancada)\", \"uso de louças e metais (indicando acabamento)\", \"dimensão de porcelanato grande (sugerido pela ausência de porcelanato_grande)\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"gerador\", \"mármore\", \"acm\", \"piscina aquecida\"], \"justificativa\": \"O projeto apresenta o uso de granito em bancadas e a especificação de louças e metais, o que eleva o padrão acima do básico. No entanto, a ausência de itens de luxo (m"
+}

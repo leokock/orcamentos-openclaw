@@ -1,0 +1,76 @@
+{
+  "projeto": "xpcon-porto-cerro",
+  "ts": "2026-04-14T08:23:38",
+  "duration_s": 12.9,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "granito",
+      "deca",
+      "vidro e aluminio",
+      "gerador",
+      "fonte interativa",
+      "trocador de calor"
+    ],
+    "sinais_ausentes_relevantes": [
+      "mármore",
+      "acm",
+      "piscina aquecida",
+      "automação",
+      "spa/sauna"
+    ],
+    "justificativa": "A presença de granito, louças Deca e esquadrias em vidro e alumínio, combinada com sistemas de lazer como gerador de cloro e fonte interativa, eleva o padrão. Embora itens de luxo como mármore e automação estejam ausentes, a qualidade dos materiais e a complexidade dos sistemas já posicionam o projeto na faixa alta.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido (granito, Deca, sistemas de lazer), indicando que o orçamento está incompleto ou extraído de forma parcial."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 13188.75,
+      "ur": 86,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 153.36,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 4.22,
+      "Fundacoes": 0.0,
+      "Infraestrutura": 0.39,
+      "Supraestrutura": 2.85,
+      "Alvenaria": 1.04,
+      "Servicos Complementares": 0.77,
+      "Esquadrias": 4.12,
+      "Loucas e Metais": 27.73,
+      "Gas": 0.17,
+      "PCI": 0.13,
+      "SPDA": 0.16,
+      "Climatizacao": 1.5,
+      "Instalacoes Hidraulicas": 3.48,
+      "Instalacoes Eletricas": 1.48
+    },
+    "n_itens_top": 45
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"granito\", \"deca\", \"vidro e aluminio\", \"gerador\", \"fonte interativa\", \"trocador de calor\"], \"sinais_ausentes_relevantes\": [\"mármore\", \"acm\", \"piscina aquecida\", \"automação\", \"spa/sauna\"], \"justificativa\": \"A presença de granito, louças Deca e esquadrias em vidro e alumínio, combinada com sistemas de lazer como gerador de cloro e fonte interativa, eleva o padrão. Embora itens de luxo como mármore e automação estejam ausentes, a qualida"
+}

@@ -1,0 +1,64 @@
+{
+  "projeto": "by-seasons-by-seasons",
+  "ts": "2026-04-14T08:03:12",
+  "duration_s": 13.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato (implícito)",
+      "Granito (bancada)",
+      "Marca Docol/Deca (louças)",
+      "Sistema de filtragem e bombas (sistemas especiais)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Automação completa",
+      "Mármore/ACM premium"
+    ],
+    "justificativa": "A presença de louças de marcas premium (Deca/Docol) e o uso de granito na bancada elevam o padrão. Embora não haja menção a mármore ou automação completa, os sistemas de filtragem e a qualidade dos acabamentos sugerem um projeto acima do médio, mas sem atingir o nível de luxo.",
+    "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² e R$/UR estão zerados, mas os materiais e marcas detectados (Deca, granito, sistemas de filtragem) apontam para um custo significativamente mais alto que o sugerido."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 6348.509999999999,
+      "ur": 67,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 94.75,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 6.58,
+      "Gas": 0.01,
+      "Fundacoes": 0.0,
+      "Infraestrutura": 0.26,
+      "Loucas e Metais": 36.59
+    },
+    "n_itens_top": 40
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato (implícito)\", \"Granito (bancada)\", \"Marca Docol/Deca (louças)\", \"Sistema de filtragem e bombas (sistemas especiais)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Automação completa\", \"Mármore/ACM premium\"], \"justificativa\": \"A presença de louças de marcas premium (Deca/Docol) e o uso de granito na bancada elevam o padrão. Embora não haja menção a mármore ou automação completa, os sistemas de fi"
+}

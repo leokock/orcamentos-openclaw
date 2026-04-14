@@ -1,0 +1,57 @@
+{
+  "projeto": "adore-level-up",
+  "ts": "2026-04-14T08:27:16",
+  "duration_s": 12.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (custo elevado)",
+      "Ausência de itens de luxo explícitos (piscina aquecida, spa, etc.)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa_sauna",
+      "gerador",
+      "automacao",
+      "marmore",
+      "granito"
+    ],
+    "justificativa": "O custo por m² (R$ 3.628,65) e a menção a revestimentos de fachada com custo unitário elevado sugerem um padrão acima do médio. No entanto, a ausência de materiais de alto padrão (mármore, granito, ACM) e itens de lazer de luxo limita a classificação para médio-alto.",
+    "coerencia_rsm2": "parcial — O R$/m² está na faixa de médio-alto, mas a falta de detalhes de acabamento (pisos, louças) e a dependência de um único item de fachada tornam a análise numérica incompleta."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 11102.72,
+      "ur": 0,
+      "total": 40287855.691681944,
+      "rsm2": 3628.65,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (custo elevado)\", \"Ausência de itens de luxo explícitos (piscina aquecida, spa, etc.)\"], \"sinais_ausentes_relevantes\": [\"spa_sauna\", \"gerador\", \"automacao\", \"marmore\", \"granito\"], \"justificativa\": \"O custo por m² (R$ 3.628,65) e a menção a revestimentos de fachada com custo unitário elevado sugerem um padrão acima do médio. No entanto, a ausência de materiais de alto padrão (mármore, gran"
+}

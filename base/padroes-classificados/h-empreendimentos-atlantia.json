@@ -1,0 +1,59 @@
+{
+  "projeto": "h-empreendimentos-atlantia",
+  "ts": "2026-04-14T08:36:39",
+  "duration_s": 13.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (item presente)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina_aquecida",
+      "gerador",
+      "automacao",
+      "spa_sauna",
+      "elevador_panoramico",
+      "marmore",
+      "granito",
+      "acm"
+    ],
+    "justificativa": "A análise é limitada pela ausência de detalhes de acabamentos internos (pisos, esquadrias, louças) e pela falta de itens de lazer de alto padrão. No entanto, a presença de um item de fachada específico (R$ 1,88M) sugere um acabamento superior ao básico, posicionando o projeto na faixa médio-alta, aguardando mais dados para confirmação.",
+    "coerencia_rsm2": "nao - O R$/m² de R$ 139,96 é extremamente baixo para qualquer classe de acabamento, sugerindo que o valor total (R$ 40,4M) pode estar incorreto ou incluir apenas a obra bruta, e não o acabamento completo."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 288.7994195755723,
+      "ur": 0,
+      "total": 40420184.52353001,
+      "rsm2": 139959.37,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (item presente)\"], \"sinais_ausentes_relevantes\": [\"piscina_aquecida\", \"gerador\", \"automacao\", \"spa_sauna\", \"elevador_panoramico\", \"marmore\", \"granito\", \"acm\"], \"justificativa\": \"A análise é limitada pela ausência de detalhes de acabamentos internos (pisos, esquadrias, louças) e pela falta de itens de lazer de alto padrão. No entanto, a presença de um item de fachada específico (R$ 1,88M) "
+}

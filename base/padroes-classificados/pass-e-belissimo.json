@@ -1,0 +1,59 @@
+{
+  "projeto": "pass-e-belissimo",
+  "ts": "2026-04-14T08:43:59",
+  "duration_s": 12.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "economico",
+    "confianca": "baixa",
+    "sinais_detectados": [
+      "Fachada com revestimentos e acabamentos (sem detalhe de material)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina_aquecida",
+      "gerador",
+      "automacao",
+      "spa_sauna",
+      "elevador_panoramico",
+      "marmore",
+      "granito",
+      "acm"
+    ],
+    "justificativa": "Apesar do valor total ser extremamente alto (R$ 30,9 milhões), o R$/m² calculado (R$ 1.983,37) é muito baixo, e os itens de acabamento listados são genéricos e não indicam materiais premium (mármore, granito, porcelanato grande formato, etc.). A ausência de qualquer sinal de luxo ou alto padrão leva à classificação mais conservadora.",
+    "coerencia_rsm2": "nao — O valor total é incompatível com o R$/m² e os acabamentos listados, sugerindo que o cálculo de R$/m² está incorreto ou incompleto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 15621.97,
+      "ur": 0,
+      "total": 30984116.58,
+      "rsm2": 1983.37,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"economico\", \"confianca\": \"baixa\", \"sinais_detectados\": [\"Fachada com revestimentos e acabamentos (sem detalhe de material)\"], \"sinais_ausentes_relevantes\": [\"piscina_aquecida\", \"gerador\", \"automacao\", \"spa_sauna\", \"elevador_panoramico\", \"marmore\", \"granito\", \"acm\"], \"justificativa\": \"Apesar do valor total ser extremamente alto (R$ 30,9 milhões), o R$/m² calculado (R$ 1.983,37) é muito baixo, e os itens de acabamento listados são genéricos e não indicam materiais premium (mármore, gra"
+}

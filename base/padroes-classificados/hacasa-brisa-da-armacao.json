@@ -1,0 +1,59 @@
+{
+  "projeto": "hacasa-brisa-da-armacao",
+  "ts": "2026-04-14T08:11:11",
+  "duration_s": 13.7,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "granito",
+      "Docol/Deca (marca premium)",
+      "Gerador de energia",
+      "Esquadrias com frisos decorativos"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "mármore",
+      "automação",
+      "ACM",
+      "porcelanato 120x120"
+    ],
+    "justificativa": "A presença de granito em bancadas e louças de marcas premium (Deca/Docol) eleva o padrão. O sistema de gerador e as esquadrias detalhadas (com frisos) indicam um investimento acima do médio, mas a ausência de mármore, automação avançada ou grandes porcelanatos limita a classificação para 'alto' ou 'luxo'.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.296,10 está na faixa 'medio', mas os itens de acabamento (gerador, louças premium, granito) puxam o custo para 'medio-alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 12828.33,
+      "ur": 0,
+      "total": 42283515.5,
+      "rsm2": 3296.1,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 41
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"granito\", \"Docol/Deca (marca premium)\", \"Gerador de energia\", \"Esquadrias com frisos decorativos\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"mármore\", \"automação\", \"ACM\", \"porcelanato 120x120\"], \"justificativa\": \"A presença de granito em bancadas e louças de marcas premium (Deca/Docol) eleva o padrão. O sistema de gerador e as esquadrias detalhadas (com frisos) indicam um investimento acima do médio, mas a ausência d"
+}

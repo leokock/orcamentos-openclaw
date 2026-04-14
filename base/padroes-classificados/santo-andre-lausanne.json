@@ -1,0 +1,60 @@
+{
+  "projeto": "santo-andre-lausanne",
+  "ts": "2026-04-14T08:45:23",
+  "duration_s": 12.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (valor alto)",
+      "Ausência de itens de luxo explícitos (piscina aquecida, heliponto)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina_aquecida",
+      "gerador",
+      "automacao",
+      "spa_sauna",
+      "elevador_panoramico",
+      "marmore",
+      "granito",
+      "acm"
+    ],
+    "justificativa": "Apesar da falta de dados detalhados sobre pisos e esquadrias, o valor significativo e a menção de 'Revestimentos e acabamentos de fachada' sugerem um padrão acima do médio. A ausência de itens de luxo extremos (mármore, brises automatizados) impede a classificação como 'luxo', mas o investimento na fachada eleva o padrão para 'alto'.",
+    "coerencia_rsm2": "nao - Os dados numéricos estão zerados, impossibilitando a análise de coerência do custo por metro quadrado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 353.536954760314,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (valor alto)\", \"Ausência de itens de luxo explícitos (piscina aquecida, heliponto)\"], \"sinais_ausentes_relevantes\": [\"piscina_aquecida\", \"gerador\", \"automacao\", \"spa_sauna\", \"elevador_panoramico\", \"marmore\", \"granito\", \"acm\"], \"justificativa\": \"Apesar da falta de dados detalhados sobre pisos e esquadrias, o valor significativo e a menção de 'Revestimentos e acabamentos de fachada' sugerem um pa"
+}

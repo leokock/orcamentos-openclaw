@@ -1,0 +1,59 @@
+{
+  "projeto": "mussi-empreendimentos-chelsea",
+  "ts": "2026-04-14T08:15:20",
+  "duration_s": 11.6,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Granito em bancadas",
+      "Piscina adulto e infantil",
+      "Gerador de energia",
+      "Marcas de louças (Deca/Docol)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore/Madeira nobre",
+      "Automação",
+      "Spa/Sauna",
+      "Vidro duplo",
+      "ACM"
+    ],
+    "justificativa": "O projeto apresenta um bom nível de acabamento com o uso de granito em bancadas e louças de marcas premium (Deca/Docol). A inclusão de piscina adulto e infantil, além do gerador, eleva o padrão acima do médio, mas a ausência de mármore, automação e itens de luxo (como borda infinita ou heliponto) o posiciona firmemente na classe médio-alto.",
+    "coerencia_rsm2": "sim"
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 15149.39,
+      "ur": 0,
+      "total": 52163485.94,
+      "rsm2": 3443.27,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Granito em bancadas\", \"Piscina adulto e infantil\", \"Gerador de energia\", \"Marcas de louças (Deca/Docol)\"], \"sinais_ausentes_relevantes\": [\"Mármore/Madeira nobre\", \"Automação\", \"Spa/Sauna\", \"Vidro duplo\", \"ACM\"], \"justificativa\": \"O projeto apresenta um bom nível de acabamento com o uso de granito em bancadas e louças de marcas premium (Deca/Docol). A inclusão de piscina adulto e infantil, além do gerador, eleva o padrão acima d"
+}

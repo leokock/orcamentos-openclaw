@@ -1,0 +1,66 @@
+{
+  "projeto": "chiquetti-e-dalvesco-esmeralda",
+  "ts": "2026-04-14T08:04:37",
+  "duration_s": 14.0,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Gerador de energia (presente)",
+      "Sistema de tratamento de água complexo (filtros, bombas, skimmer)",
+      "Uso de marcas e equipamentos de alta performance (FROMTHERM, Docol/Tigre, marcas especializadas de tratamento)",
+      "Métricas de ocupação elevadas (m²/UR = 150.8)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Automação",
+      "Mármore/Granito (ausente, mas o nível de complexidade compensa)"
+    ],
+    "justificativa": "A presença de um gerador de energia, sistemas complexos de tratamento de água (filtros, bombas, skimmers) e a alta métrica de ocupação (150.8 m²/UR) elevam o padrão significativamente. Embora materiais de acabamento nobres como mármore e granito não estejam listados, a infraestrutura e os sistemas especializados apontam para uma categoria superior.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² estão muito baixos para o nível de complexidade e equipamentos de alta tecnologia instalados."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 5579.71,
+      "ur": 37,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 150.8,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Supraestrutura": 18.88,
+      "Canteiro": 9.98,
+      "Loucas e Metais": 0.13,
+      "Impermeabilizacao": 0.96,
+      "Infraestrutura": 3.41,
+      "Instalacoes Hidraulicas": 76.92,
+      "Exaustao": 35.59,
+      "Instalacoes Eletricas": 194.96
+    },
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Gerador de energia (presente)\", \"Sistema de tratamento de água complexo (filtros, bombas, skimmer)\", \"Uso de marcas e equipamentos de alta performance (FROMTHERM, Docol/Tigre, marcas especializadas de tratamento)\", \"Métricas de ocupação elevadas (m²/UR = 150.8)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Automação\", \"Mármore/Granito (ausente, mas o nível de complexidade compensa)\"], \"justificativa\": \"A presença de um gerad"
+}

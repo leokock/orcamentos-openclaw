@@ -1,0 +1,74 @@
+{
+  "projeto": "eze-eilat",
+  "ts": "2026-04-14T08:34:50",
+  "duration_s": 13.3,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Elevador de passageiros (2 sociais)",
+      "Brise Vertical Metálico/Alumínio",
+      "Vidros e guarda-corpo em alumínio/vidros",
+      "Portas de madeira e forro de madeira",
+      "Estrutura de telhado em madeira"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "automação",
+      "spa/sauna",
+      "mármore/granito"
+    ],
+    "justificativa": "A presença de elevador de passageiros, brises metálicos e o uso extensivo de vidros e madeira (portas, forros, estrutura de telhado) eleva o padrão significativamente. Embora não haja mármore ou automação, os itens de alto custo e especificidade apontam para uma categoria superior à média-alta.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de acabamento sugerido pelos materiais (elevador, brises, madeira nobre)."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 1767.3,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Infraestrutura": 256.34,
+      "Supraestrutura": 659.66,
+      "Alvenaria": 161.42,
+      "Cobertura": 21.14,
+      "Instalacoes Hidraulicas": 199.78,
+      "Instalacoes Eletricas": 210.7,
+      "PCI": 129.66,
+      "Pisos": 34.85,
+      "Impermeabilizacao": 45.56,
+      "Revestimentos": 180.21,
+      "Forro": 76.19,
+      "Pintura": 194.4,
+      "Esquadrias": 219.48,
+      "Fachada": 93.81
+    },
+    "n_itens_top": 39
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Elevador de passageiros (2 sociais)\", \"Brise Vertical Metálico/Alumínio\", \"Vidros e guarda-corpo em alumínio/vidros\", \"Portas de madeira e forro de madeira\", \"Estrutura de telhado em madeira\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"automação\", \"spa/sauna\", \"mármore/granito\"], \"justificativa\": \"A presença de elevador de passageiros, brises metálicos e o uso extensivo de vidros e madeira (portas, forros, estrutura de telh"
+}

@@ -1,0 +1,60 @@
+{
+  "projeto": "ajr-spot-one",
+  "ts": "2026-04-14T08:27:30",
+  "duration_s": 14.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato 120x20 cm",
+      "Esquadrias de alumínio (alto custo)",
+      "Elevadores sociais e de serviço",
+      "Automação e Sistemas Lógicos",
+      "Piscina aquecida",
+      "Spa/Sauna"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore/Granito (como piso principal)",
+      "Borda infinita",
+      "Heliponto",
+      "ACM premium"
+    ],
+    "justificativa": "O projeto apresenta um nível de acabamento elevado, evidenciado pelo uso de porcelanato de grande formato (120x20 cm), sistemas de automação avançados e a inclusão de elevadores sociais e de serviço. Embora não tenha mármore ou borda infinita, os itens de lazer (spa, sauna, piscina aquecida) e a complexidade dos sistemas elevatórios o posicionam acima da classe média-alta, caracterizando um padrão alto.",
+    "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² estão ausentes ou incompletos, mas os itens de acabamento e sistemas são fortes indicadores de alto padrão."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": true,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 53
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato 120x20 cm\", \"Esquadrias de alumínio (alto custo)\", \"Elevadores sociais e de serviço\", \"Automação e Sistemas Lógicos\", \"Piscina aquecida\", \"Spa/Sauna\"], \"sinais_ausentes_relevantes\": [\"Mármore/Granito (como piso principal)\", \"Borda infinita\", \"Heliponto\", \"ACM premium\"], \"justificativa\": \"O projeto apresenta um nível de acabamento elevado, evidenciado pelo uso de porcelanato de grande formato (120x20 cm), sistemas de autom"
+}

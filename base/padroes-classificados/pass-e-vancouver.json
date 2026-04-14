@@ -1,0 +1,60 @@
+{
+  "projeto": "pass-e-vancouver",
+  "ts": "2026-04-14T08:44:26",
+  "duration_s": 14.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "elevador social",
+      "automação e sistemas lógicos",
+      "porcelanato 60x60 e 30x60",
+      "vidro laminado e guarda-corpo em vidro",
+      "pastilha cerâmica na fachada"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "piscina aquecida borda infinita",
+      "mármore/granito",
+      "acm premium",
+      "gerador"
+    ],
+    "justificativa": "A presença de elevador social, automação e o uso de porcelanato de dimensões médias (60x60 e 30x60) já eleva o padrão acima do médio. Embora não haja mármore ou sistemas de luxo (spa, borda infinita), os sistemas de automação e o acabamento em pastilha na fachada consolidam a classificação como médio-alto.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 2.758,48 está na faixa do 'médio', mas os itens de automação e elevador social elevam o padrão de acabamento para médio-alto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 5554.12,
+      "ur": 0,
+      "total": 15320928.95,
+      "rsm2": 2758.48,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 58
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"elevador social\", \"automação e sistemas lógicos\", \"porcelanato 60x60 e 30x60\", \"vidro laminado e guarda-corpo em vidro\", \"pastilha cerâmica na fachada\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"piscina aquecida borda infinita\", \"mármore/granito\", \"acm premium\", \"gerador\"], \"justificativa\": \"A presença de elevador social, automação e o uso de porcelanato de dimensões médias (60x60 e 30x60) já eleva o padrão acima do médio. "
+}

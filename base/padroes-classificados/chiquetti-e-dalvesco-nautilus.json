@@ -1,0 +1,60 @@
+{
+  "projeto": "chiquetti-e-dalvesco-nautilus",
+  "ts": "2026-04-14T08:31:00",
+  "duration_s": 13.9,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Automação e Sistemas Lógicos e telecomunicação",
+      "Brise metálico, acabamento amadeirado",
+      "Porcelanato 120x120cm",
+      "Piso vinílico tipo régua",
+      "Granito em peitoril",
+      "Piscina com sistema de aquecimento e tratamento acústico"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore",
+      "Spa/Sauna",
+      "Heliponto",
+      "Elevador panorâmico"
+    ],
+    "justificativa": "O projeto apresenta automação completa, brises metálicos e o uso de porcelanato de grandes dimensões (120x120cm) e piso vinílico tipo régua, elementos que elevam o padrão. Embora não haja mármore ou spa/sauna, a combinação de tecnologia e materiais de alto padrão o coloca na classe Alto.",
+    "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os materiais e sistemas detectados são coerentes com o padrão Alto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 52
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Automação e Sistemas Lógicos e telecomunicação\", \"Brise metálico, acabamento amadeirado\", \"Porcelanato 120x120cm\", \"Piso vinílico tipo régua\", \"Granito em peitoril\", \"Piscina com sistema de aquecimento e tratamento acústico\"], \"sinais_ausentes_relevantes\": [\"Mármore\", \"Spa/Sauna\", \"Heliponto\", \"Elevador panorâmico\"], \"justificativa\": \"O projeto apresenta automação completa, brises metálicos e o uso de porcelanato de grandes dimensões"
+}

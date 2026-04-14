@@ -1,0 +1,60 @@
+{
+  "projeto": "grandezza-gran-tower",
+  "ts": "2026-04-14T08:36:26",
+  "duration_s": 15.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "ACM em fachada",
+      "Esquadrias de alumínio (alto custo)",
+      "Spa/Sauna úmida",
+      "Automação",
+      "Porcelanato 80x80 e vinílico",
+      "Madeira em esquadrias e rodapés"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Heliponto",
+      "Elevador panorâmico",
+      "Gourmet completo"
+    ],
+    "justificativa": "O projeto apresenta um mix de materiais de alto padrão, como revestimento em ACM na fachada, esquadrias de alumínio de alto custo, e a inclusão de spa/sauna úmida e automação. Embora não atinja o nível de luxo máximo (sem borda infinita ou heliponto), a combinação de elementos eleva o padrão para a classe 'Alto'.",
+    "coerencia_rsm2": "parcial — O R$/m² calculado (R$ 3.401,76) está na faixa 'Médio-Alto', mas os itens de acabamento (ACM, spa, automação, madeira) puxam o padrão para 'Alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 6245.48,
+      "ur": 0,
+      "total": 21245650.53,
+      "rsm2": 3401.76,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": true,
+      "granito": true,
+      "acm": true,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 55
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"ACM em fachada\", \"Esquadrias de alumínio (alto custo)\", \"Spa/Sauna úmida\", \"Automação\", \"Porcelanato 80x80 e vinílico\", \"Madeira em esquadrias e rodapés\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Heliponto\", \"Elevador panorâmico\", \"Gourmet completo\"], \"justificativa\": \"O projeto apresenta um mix de materiais de alto padrão, como revestimento em ACM na fachada, esquadrias de alumínio de alto custo, e a inclusão de spa/saun"
+}

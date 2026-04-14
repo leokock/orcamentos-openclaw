@@ -1,0 +1,62 @@
+{
+  "projeto": "gdi-playa-negra",
+  "ts": "2026-04-14T08:09:47",
+  "duration_s": 14.6,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "gerador",
+      "granito",
+      "porcelanato_grande",
+      "docol_deca",
+      "vidro_temperado",
+      "madeira_nobre",
+      "esquadria_vidro"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "piscina_aquecida",
+      "mármore",
+      "acm",
+      "automação"
+    ],
+    "justificativa": "A presença de gerador, porcelanato grande e louças de marcas premium (Deca/Docol) eleva o padrão. As esquadrias em vidro temperado e madeira, juntamente com o granito, indicam acabamentos acima do médio, mas a ausência de mármore, automação e itens de lazer de altíssimo padrão (spa/sauna) impede a classificação como 'alto' ou 'luxo'.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 4.346,61 sugere um padrão 'alto', mas a análise detalhada dos materiais (ausência de mármore, ACM e automação) puxa o projeto para 'médio-alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 8518.6,
+      "ur": 0,
+      "total": 37027025.39,
+      "rsm2": 4346.61,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 45
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"gerador\", \"granito\", \"porcelanato_grande\", \"docol_deca\", \"vidro_temperado\", \"madeira_nobre\", \"esquadria_vidro\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"piscina_aquecida\", \"mármore\", \"acm\", \"automação\"], \"justificativa\": \"A presença de gerador, porcelanato grande e louças de marcas premium (Deca/Docol) eleva o padrão. As esquadrias em vidro temperado e madeira, juntamente com o granito, indicam acabamentos acima do médio, "
+}

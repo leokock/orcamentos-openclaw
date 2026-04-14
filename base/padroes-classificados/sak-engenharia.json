@@ -1,0 +1,59 @@
+{
+  "projeto": "sak-engenharia",
+  "ts": "2026-04-14T08:44:40",
+  "duration_s": 14.6,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato 120x120 (áreas sociais)",
+      "Granito (peitoril)",
+      "Brise de Madeira e Alumínio",
+      "Sistema de Automação",
+      "Elevador Social"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida borda infinita",
+      "Spa/Sauna",
+      "Heliponto",
+      "Mármore/Granito em áreas críticas"
+    ],
+    "justificativa": "O projeto apresenta porcelanato de grande formato (120x120) em áreas sociais, uso de granito em peitoris e a inclusão de sistemas de automação e brises de madeira/alumínio. Embora não haja mármore ou piscina aquecida, a combinação de acabamentos de alto padrão e sistemas inteligentes eleva o padrão para a classe Alto.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 3.843,01 está na faixa de 'alto', mas a ausência de mármore e o foco em porcelanato e automação justificam a classificação, apesar da discrepância com a faixa de preço mais alta."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 1700.61,
+      "ur": 0,
+      "total": 6535457.04,
+      "rsm2": 3843.01,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 52
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato 120x120 (áreas sociais)\", \"Granito (peitoril)\", \"Brise de Madeira e Alumínio\", \"Sistema de Automação\", \"Elevador Social\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida borda infinita\", \"Spa/Sauna\", \"Heliponto\", \"Mármore/Granito em áreas críticas\"], \"justificativa\": \"O projeto apresenta porcelanato de grande formato (120x120) em áreas sociais, uso de granito em peitoris e a inclusão de sistemas de automação e brises de"
+}

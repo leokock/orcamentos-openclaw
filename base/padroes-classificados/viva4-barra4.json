@@ -1,0 +1,66 @@
+{
+  "projeto": "viva4-barra4",
+  "ts": "2026-04-14T08:22:44",
+  "duration_s": 15.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Piscina adulto+infantil",
+      "Granito em bancadas",
+      "Vaso sanitário Deca",
+      "Esquadrias de Alumínio e Vidro (variedade e dimensões)",
+      "Gerador de energia"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore",
+      "Automação",
+      "Spa/Sauna",
+      "Piscina aquecida",
+      "Porcelanato 120x120"
+    ],
+    "justificativa": "O projeto apresenta itens de qualidade superior como o uso de bancadas em granito e louças Deca, além de uma piscina completa (adulto+infantil) e gerador de energia. As esquadrias em alumínio e vidro, embora não sejam de alto padrão, elevam o nível acima do médio. A ausência de mármore, automação ou porcelanato de grandes dimensões impede a classificação como 'alto' ou 'luxo'.",
+    "coerencia_rsm2": "parcial — Os custos de acabamento (louças, bancadas, esquadrias) são significativos, mas o R$/m² geral é muito baixo (R$ 0.00), sugerindo que o orçamento está incompleto ou extraído de forma parcial."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 13223.259999999998,
+      "ur": 99,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 133.57,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 4.21,
+      "Loucas e Metais": 30.83,
+      "Fundacoes": 0.47,
+      "Infraestrutura": 1.07,
+      "Instalacoes Eletricas": 146.84
+    },
+    "n_itens_top": 45
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Piscina adulto+infantil\", \"Granito em bancadas\", \"Vaso sanitário Deca\", \"Esquadrias de Alumínio e Vidro (variedade e dimensões)\", \"Gerador de energia\"], \"sinais_ausentes_relevantes\": [\"Mármore\", \"Automação\", \"Spa/Sauna\", \"Piscina aquecida\", \"Porcelanato 120x120\"], \"justificativa\": \"O projeto apresenta itens de qualidade superior como o uso de bancadas em granito e louças Deca, além de uma piscina completa (adulto+infantil) e ge"
+}

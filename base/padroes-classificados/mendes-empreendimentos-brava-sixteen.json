@@ -1,0 +1,75 @@
+{
+  "projeto": "mendes-empreendimentos-brava-sixteen",
+  "ts": "2026-04-14T08:39:31",
+  "duration_s": 13.1,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "automação",
+      "ACM",
+      "porcelanato_grande",
+      "madeira_nobre",
+      "brise_automatizado",
+      "granito",
+      "piscina"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "heliponto",
+      "mármore",
+      "elevador_panorâmico"
+    ],
+    "justificativa": "O projeto apresenta automação completa, fachada em ACM e uso de porcelanato grande (60x60cm em banheiros, além de porcelanato grande sugerido), além de esquadrias complexas com brise e aço. Embora não tenha mármore ou spa/sauna, a combinação de automação e acabamentos de alto padrão eleva a classificação para o nível Alto.",
+    "coerencia_rsm2": "parcial — Os valores por m² são muito baixos para o nível de acabamento sugerido, mas os materiais e sistemas detectados são fortes indicadores de classe superior."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 3282.64,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": true,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Movimentacao de Terra": 40.84,
+      "Infraestrutura": 134.82,
+      "Supraestrutura": 794.1,
+      "Alvenaria": 175.52,
+      "Revestimentos": 824.74,
+      "Instalacoes Eletricas": 189.91,
+      "Instalacoes Hidraulicas": 271.94,
+      "PCI": 55.41,
+      "Esquadrias": 589.8,
+      "Impermeabilizacao": 45.54,
+      "Pintura": 168.13,
+      "Climatizacao": 67.02,
+      "Sistemas Especiais": 122.93
+    },
+    "n_itens_top": 49
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"automação\", \"ACM\", \"porcelanato_grande\", \"madeira_nobre\", \"brise_automatizado\", \"granito\", \"piscina\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"heliponto\", \"mármore\", \"elevador_panorâmico\"], \"justificativa\": \"O projeto apresenta automação completa, fachada em ACM e uso de porcelanato grande (60x60cm em banheiros, além de porcelanato grande sugerido), além de esquadrias complexas com brise e aço. Embora não tenha mármore ou spa/sa"
+}

@@ -1,0 +1,68 @@
+{
+  "projeto": "grupo-duo-colin",
+  "ts": "2026-04-14T08:10:34",
+  "duration_s": 13.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Gerador de energia (sinal de alto investimento)",
+      "Aço Inox 316-L (uso profissional/premium)",
+      "Bancada Cozinha (indica atenção ao acabamento)",
+      "Sistema de filtragem (Filtrro Sodramar)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "mármore",
+      "granito",
+      "acm",
+      "piscina aquecida",
+      "automação"
+    ],
+    "justificativa": "A presença de um gerador de energia e o uso de aço inox 316-L em itens hidráulicos e de drenagem elevam o padrão acima do médio-alto. Embora faltem materiais de luxo como mármore ou automação completa, os sistemas e equipamentos presentes apontam para uma execução de alto padrão.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² são muito baixos para o nível de equipamentos e sistemas detectados (gerador, inox 316-L, etc.), sugerindo que o cálculo foi feito apenas sobre a infraestrutura básica."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 6918.779999999998,
+      "ur": 30,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 230.63,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 8.05,
+      "Fundacoes": 0.0,
+      "Infraestrutura": 0.81,
+      "Supraestrutura": 1457.71,
+      "Instalacoes Hidraulicas": 48.21,
+      "Instalacoes Eletricas": 87.71,
+      "SPDA": 7.4,
+      "Climatizacao": 3.29
+    },
+    "n_itens_top": 24
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Gerador de energia (sinal de alto investimento)\", \"Aço Inox 316-L (uso profissional/premium)\", \"Bancada Cozinha (indica atenção ao acabamento)\", \"Sistema de filtragem (Filtrro Sodramar)\"], \"sinais_ausentes_relevantes\": [\"mármore\", \"granito\", \"acm\", \"piscina aquecida\", \"automação\"], \"justificativa\": \"A presença de um gerador de energia e o uso de aço inox 316-L em itens hidráulicos e de drenagem elevam o padrão acima do médio-alto. E"
+}

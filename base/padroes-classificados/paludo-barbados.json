@@ -1,0 +1,57 @@
+{
+  "projeto": "paludo-barbados",
+  "ts": "2026-04-14T08:42:40",
+  "duration_s": 15.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato 60x60 e 30x60",
+      "Vidro laminado e guarda-corpo de alumínio",
+      "Sistema de automação e elevador social",
+      "Pastilha cerâmica e textura projetada"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore/Granito",
+      "Piscina aquecida/Spa/Sauna",
+      "ACM/Brise automatizado"
+    ],
+    "justificativa": "O projeto apresenta um nível de acabamento acima do médio, evidenciado pelo uso de porcelanato de dimensões maiores (60x60, 30x60), a presença de automação e um elevador social. Embora não chegue ao nível de luxo por não incluir mármore, granito ou lazer premium, a combinação de sistemas inteligentes e materiais de qualidade eleva o padrão para médio-alto.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 2.781,34 está na fronteira entre econômico e médio, mas os itens de acabamento (automação, porcelanato 60x60, elevador) puxam o padrão para médio-alto, indicando que o custo total pode estar subestimado ou incompleto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 1728.35,
+      "ur": 0,
+      "total": 4807136.02,
+      "rsm2": 2781.34,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 58
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato 60x60 e 30x60\", \"Vidro laminado e guarda-corpo de alumínio\", \"Sistema de automação e elevador social\", \"Pastilha cerâmica e textura projetada\"], \"sinais_ausentes_relevantes\": [\"Mármore/Granito\", \"Piscina aquecida/Spa/Sauna\", \"ACM/Brise automatizado\"], \"justificativa\": \"O projeto apresenta um nível de acabamento acima do médio, evidenciado pelo uso de porcelanato de dimensões maiores (60x60, 30x60), a presença de aut"
+}

@@ -1,0 +1,75 @@
+{
+  "projeto": "mz-central-park",
+  "ts": "2026-04-14T08:41:15",
+  "duration_s": 14.7,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "ACM em fachada",
+      "Porcelanato 80x80 em áreas íntimas",
+      "Brise em alumínio",
+      "Sistema gerador",
+      "Automação",
+      "Elevador social"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "piscina aquecida borda infinita",
+      "mármore/madeira nobre"
+    ],
+    "justificativa": "O projeto apresenta elementos de alto padrão como a fachada em ACM, o uso de porcelanato polido de grandes dimensões (80x80) e a inclusão de sistemas complexos como gerador e automação. Embora não tenha mármore ou piscina aquecida, a combinação de esquadrias de alumínio de alto custo, brises e sistemas de automação eleva o padrão para a classe 'alto'.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² por disciplina são muito baixos para o nível de acabamento sugerido (ex: R$ 450/m² para revestimentos), indicando que o custo total não reflete o padrão de luxo/alto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 8744.16,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": true,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Gerenciamento": 384.45,
+      "Contencao": 19.33,
+      "Infraestrutura": 66.68,
+      "Supraestrutura": 395.49,
+      "Alvenaria": 102.62,
+      "Instalacoes Eletricas": 95.17,
+      "Instalacoes Hidraulicas": 89.87,
+      "PCI": 30.17,
+      "Sistemas Especiais": 117.93,
+      "Impermeabilizacao": 1.87,
+      "Revestimentos": 450.94,
+      "Pintura": 109.1,
+      "Esquadrias": 184.12,
+      "Cobertura": 16.9,
+      "Servicos Complementares": 89.79
+    },
+    "n_itens_top": 55
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"ACM em fachada\", \"Porcelanato 80x80 em áreas íntimas\", \"Brise em alumínio\", \"Sistema gerador\", \"Automação\", \"Elevador social\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"piscina aquecida borda infinita\", \"mármore/madeira nobre\"], \"justificativa\": \"O projeto apresenta elementos de alto padrão como a fachada em ACM, o uso de porcelanato polido de grandes dimensões (80x80) e a inclusão de sistemas complexos como gerador e automação. "
+}

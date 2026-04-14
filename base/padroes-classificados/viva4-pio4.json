@@ -1,0 +1,70 @@
+{
+  "projeto": "viva4-pio4",
+  "ts": "2026-04-14T08:22:58",
+  "duration_s": 13.7,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Piscina Adulta",
+      "Gerador de Cloro",
+      "Motobombas (sistemas de bombeamento)",
+      "Sistema de bombeamento complexo",
+      "Bacia Sanitária e Cuba (itens de banheiro padrão)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "mármore",
+      "granito",
+      "ACM",
+      "porcelanato grande",
+      "automação",
+      "spa/sauna",
+      "piscina aquecida"
+    ],
+    "justificativa": "O projeto apresenta sistemas de lazer (piscina adulta) e equipamentos de infraestrutura (geradores, motobombas), que elevam o padrão acima do médio. No entanto, a ausência de materiais nobres de alto custo (mármore, granito, ACM) e a falta de itens de luxo como spa/sauna ou automação limitam a classificação a médio-alto.",
+    "coerencia_rsm2": "parcial — Os custos por m² são muito baixos para o nível de equipamentos e sistemas instalados, sugerindo que o orçamento está incompleto ou focado apenas em infraestrutura básica."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 13540.93,
+      "ur": 176,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 76.94,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 4.11,
+      "Instalacoes Eletricas": 102.99,
+      "Escoramento": 36.79,
+      "Contencao": 0.01,
+      "SPDA": 4.51,
+      "Climatizacao": 84.73,
+      "Loucas e Metais": 0.0
+    },
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Piscina Adulta\", \"Gerador de Cloro\", \"Motobombas (sistemas de bombeamento)\", \"Sistema de bombeamento complexo\", \"Bacia Sanitária e Cuba (itens de banheiro padrão)\"], \"sinais_ausentes_relevantes\": [\"mármore\", \"granito\", \"ACM\", \"porcelanato grande\", \"automação\", \"spa/sauna\", \"piscina aquecida\"], \"justificativa\": \"O projeto apresenta sistemas de lazer (piscina adulta) e equipamentos de infraestrutura (geradores, motobombas), que e"
+}

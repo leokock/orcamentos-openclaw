@@ -1,0 +1,65 @@
+{
+  "projeto": "caledonia-mowe-caledonia-mowe",
+  "ts": "2026-04-14T08:03:23",
+  "duration_s": 10.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "granito",
+      "docol_deca",
+      "porcelanato_grande",
+      "frisos decorativos",
+      "louças de marca"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "gerador",
+      "mármore",
+      "acm",
+      "piscina aquecida"
+    ],
+    "justificativa": "O uso de granito em bancadas e a presença de louças de marcas premium (Deca/Docol) elevam o padrão. Embora não haja mármore ou automação, a combinação de materiais de qualidade e o detalhamento nas esquadrias (frisos) posicionam o projeto na faixa 'alto'.",
+    "coerencia_rsm2": "sim"
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 329.57,
+      "ur": 1,
+      "total": 1603246.825985587,
+      "rsm2": 4864.66,
+      "m2_por_ur": 329.57,
+      "rs_por_ur": 1603246.83
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": true,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Fundacoes": 0.01,
+      "Infraestrutura": 1.29,
+      "Supraestrutura": 8.57,
+      "Loucas e Metais": 209.26
+    },
+    "n_itens_top": 26
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"granito\", \"docol_deca\", \"porcelanato_grande\", \"frisos decorativos\", \"louças de marca\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"gerador\", \"mármore\", \"acm\", \"piscina aquecida\"], \"justificativa\": \"O uso de granito em bancadas e a presença de louças de marcas premium (Deca/Docol) elevam o padrão. Embora não haja mármore ou automação, a combinação de materiais de qualidade e o detalhamento nas esquadrias (frisos) posicionam o projet"
+}

@@ -1,0 +1,58 @@
+{
+  "projeto": "estilo-condominios-estilo-condominios",
+  "ts": "2026-04-14T08:34:08",
+  "duration_s": 11.5,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "automação",
+      "revestimentos e acabamentos de fachada"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "spa/sauna",
+      "granito",
+      "mármore",
+      "acm",
+      "elevador panorâmico"
+    ],
+    "justificativa": "A presença de automação e acabamentos de fachada sugere um padrão acima do médio. No entanto, a ausência de itens de luxo (como piscina aquecida, mármore, granito ou sistemas de alto custo) e a baixa granularidade dos dados impedem a classificação como alto ou luxo.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 358,35 é extremamente baixo para qualquer padrão de acabamento, indicando que o valor total pode ser um erro de cálculo ou que o escopo analisado é muito limitado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 23967.18,
+      "ur": 0,
+      "total": 8588624.95,
+      "rsm2": 358.35,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 2
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"automação\", \"revestimentos e acabamentos de fachada\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"spa/sauna\", \"granito\", \"mármore\", \"acm\", \"elevador panorâmico\"], \"justificativa\": \"A presença de automação e acabamentos de fachada sugere um padrão acima do médio. No entanto, a ausência de itens de luxo (como piscina aquecida, mármore, granito ou sistemas de alto custo) e a baixa granularidade dos dados impedem a classi"
+}

@@ -1,0 +1,57 @@
+{
+  "projeto": "neuhaus-botanico",
+  "ts": "2026-04-14T08:41:27",
+  "duration_s": 11.8,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio",
+    "confianca": "baixa",
+    "sinais_detectados": [
+      "Revestimentos e acabamentos de fachada (custo elevado)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa",
+      "gerador",
+      "automacao",
+      "marmore",
+      "granito",
+      "acm"
+    ],
+    "justificativa": "O R$/m² calculado (R$ 2.797,07) está na faixa de transição entre econômico e médio, e a ausência de itens de luxo (spa, automação, mármore) reforça uma classificação mais básica. No entanto, o custo da fachada é alto, o que eleva o padrão acima do básico, mas sem elementos de alto padrão.",
+    "coerencia_rsm2": "parcial — O R$/m² está na faixa 'médio', mas a falta de detalhes de acabamento (pisos, esquadrias) e a ausência de itens de luxo limitam o padrão, apesar do custo da fachada."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 12953.8,
+      "ur": 0,
+      "total": 36232667.24,
+      "rsm2": 2797.07,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio\", \"confianca\": \"baixa\", \"sinais_detectados\": [\"Revestimentos e acabamentos de fachada (custo elevado)\"], \"sinais_ausentes_relevantes\": [\"spa\", \"gerador\", \"automacao\", \"marmore\", \"granito\", \"acm\"], \"justificativa\": \"O R$/m² calculado (R$ 2.797,07) está na faixa de transição entre econômico e médio, e a ausência de itens de luxo (spa, automação, mármore) reforça uma classificação mais básica. No entanto, o custo da fachada é alto, o que eleva o padrão acima do básico, mas sem ele"
+}

@@ -1,0 +1,57 @@
+{
+  "projeto": "amalfi-marine",
+  "ts": "2026-04-14T08:28:13",
+  "duration_s": 13.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Fachada com revestimentos e acabamentos (custo significativo)",
+      "Ausência de itens de luxo explícitos (spa, heliponto, etc.)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa/sauna",
+      "gerador",
+      "automação",
+      "mármore",
+      "granito"
+    ],
+    "justificativa": "Apesar do R$/m² (R$ 27.040,59) ser numericamente alto, a falta de especificações de materiais premium (mármore, granito, porcelanato 120x120) e a ausência de sistemas de luxo (spa, automação) puxam o padrão para a faixa médio-alta. O custo elevado é mais provavelmente impulsionado pela área total ou pelo tipo de revestimento de fachada, que é genérico.",
+    "coerencia_rsm2": "parcial — O R$/m² sugere uma classe alta, mas a ausência de materiais e sistemas de alto padrão (mármore, granito, brise automatizado) limita a classificação ao médio-alto."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 521.7076950240738,
+      "ur": 0,
+      "total": 14107283.053041,
+      "rsm2": 27040.59,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 1
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Fachada com revestimentos e acabamentos (custo significativo)\", \"Ausência de itens de luxo explícitos (spa, heliponto, etc.)\"], \"sinais_ausentes_relevantes\": [\"spa/sauna\", \"gerador\", \"automação\", \"mármore\", \"granito\"], \"justificativa\": \"Apesar do R$/m² (R$ 27.040,59) ser numericamente alto, a falta de especificações de materiais premium (mármore, granito, porcelanato 120x120) e a ausência de sistemas de luxo (spa, automação) p"
+}

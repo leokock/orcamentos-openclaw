@@ -1,0 +1,65 @@
+{
+  "projeto": "fg-blue-coast",
+  "ts": "2026-04-14T08:09:06",
+  "duration_s": 12.4,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Louças e metais básicos (bacia sanitária, cuba, chuveiro padrão)",
+      "Ausência de materiais nobres (mármore, granito, madeira nobre) ou sistemas complexos"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Spa/Sauna",
+      "Gerador",
+      "Acabamentos de alto padrão (ACM, vidro duplo, automação)"
+    ],
+    "justificativa": "O projeto apresenta um nível de acabamento funcional e padrão, utilizando louças e metais básicos sem especificar materiais nobres ou sistemas de luxo. A ausência de itens como mármore, granito, automação ou áreas de lazer especiais limita a classificação a um padrão médio.",
+    "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² são nulos ou muito baixos, não refletindo o custo real de um projeto de médio padrão, mas os itens de acabamento sugerem essa faixa."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 13131.849999999999,
+      "ur": 35,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 375.2,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Loucas e Metais": 0.22,
+      "Instalacoes Hidraulicas": 106.69,
+      "Climatizacao": 0.04,
+      "Escoramento": 2.4,
+      "Supraestrutura": 43.65,
+      "Estacas": 0.21,
+      "Canteiro": 25.12,
+      "Gas": 17.94
+    },
+    "n_itens_top": 15
+  },
+  "raw_response_preview": "{\"padrao\": \"medio\", \"confianca\": \"media\", \"sinais_detectados\": [\"Louças e metais básicos (bacia sanitária, cuba, chuveiro padrão)\", \"Ausência de materiais nobres (mármore, granito, madeira nobre) ou sistemas complexos\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Spa/Sauna\", \"Gerador\", \"Acabamentos de alto padrão (ACM, vidro duplo, automação)\"], \"justificativa\": \"O projeto apresenta um nível de acabamento funcional e padrão, utilizando louças e metais básicos sem especificar materiais n"
+}

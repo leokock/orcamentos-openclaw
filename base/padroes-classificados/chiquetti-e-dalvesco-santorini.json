@@ -1,0 +1,60 @@
+{
+  "projeto": "chiquetti-e-dalvesco-santorini",
+  "ts": "2026-04-14T08:31:16",
+  "duration_s": 15.9,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato 120x120cm",
+      "Granito polido",
+      "Esquadrias em alumínio com Brise e Gradil Metálico",
+      "Automação e Sistemas Lógicos",
+      "Elevadores (social e serviço)",
+      "Piscina com sistema de aquecimento e tratamento acústico",
+      "Gerador de energia"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore/Madeira nobre (como principal acabamento)",
+      "Spa/Sauna/Ofurô",
+      "Borda infinita/Heliponto"
+    ],
+    "justificativa": "O projeto apresenta elementos de alto padrão como porcelanato 120x120cm, uso de brises metálicos e sistemas de automação avançada. A inclusão de elevadores sociais e de serviço, além de gerador e piscina com tratamento acústico, eleva o padrão acima do médio-alto, mas a ausência de mármore ou elementos de luxo extremo (como borda infinita ou spa/sauna) o mantém na categoria 'alto'.",
+    "coerencia_rsm2": "parcial — Os dados numéricos são incompletos e não permitem um cálculo preciso do custo total por m², mas os materiais e sistemas presentes sugerem um custo elevado, alinhado à classe 'alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 49
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato 120x120cm\", \"Granito polido\", \"Esquadrias em alumínio com Brise e Gradil Metálico\", \"Automação e Sistemas Lógicos\", \"Elevadores (social e serviço)\", \"Piscina com sistema de aquecimento e tratamento acústico\", \"Gerador de energia\"], \"sinais_ausentes_relevantes\": [\"Mármore/Madeira nobre (como principal acabamento)\", \"Spa/Sauna/Ofurô\", \"Borda infinita/Heliponto\"], \"justificativa\": \"O projeto apresenta elementos de alto padrã"
+}

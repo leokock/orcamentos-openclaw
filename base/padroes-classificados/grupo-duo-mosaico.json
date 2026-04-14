@@ -1,0 +1,66 @@
+{
+  "projeto": "grupo-duo-mosaico",
+  "ts": "2026-04-14T08:10:49",
+  "duration_s": 15.0,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Gerador de energia (presente)",
+      "Tampo articulado grande (110x110cm)",
+      "Sistema de filtragem de água (SODRAMAR)",
+      "Climatização e sistemas elétricos robustos"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida",
+      "Mármore/Granito (ausente)",
+      "Automação (ausente)",
+      "Acabamentos de luxo (mármore, granito, ACM premium)"
+    ],
+    "justificativa": "A presença de gerador de energia, sistemas de filtragem de água e a complexidade das instalações elétricas e de climatização elevam o padrão. Embora faltem itens de luxo como mármore e automação, o nível de engenharia e os equipamentos especializados apontam para uma categoria superior à média-alta.",
+    "coerencia_rsm2": "parcial — Os custos de infraestrutura e sistemas (R$ 95.22/m² elétrico, R$ 9.84/m² climatização) são altos, mas o R$/m² total não reflete o custo de acabamentos de alto padrão (porcelanato 120x120, etc.) que seriam esperados nesta classe."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 7672.04,
+      "ur": 81,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 94.72,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Canteiro": 6.48,
+      "Fundacoes": 0.01,
+      "Infraestrutura": 0.9,
+      "Supraestrutura": 0.0,
+      "SPDA": 23.86,
+      "Instalacoes Eletricas": 95.22,
+      "Climatizacao": 9.84
+    },
+    "n_itens_top": 30
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Gerador de energia (presente)\", \"Tampo articulado grande (110x110cm)\", \"Sistema de filtragem de água (SODRAMAR)\", \"Climatização e sistemas elétricos robustos\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida\", \"Mármore/Granito (ausente)\", \"Automação (ausente)\", \"Acabamentos de luxo (mármore, granito, ACM premium)\"], \"justificativa\": \"A presença de gerador de energia, sistemas de filtragem de água e a complexidade das instalações el"
+}

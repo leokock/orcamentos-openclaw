@@ -1,0 +1,59 @@
+{
+  "projeto": "kirchner-kirchner",
+  "ts": "2026-04-14T08:12:33",
+  "duration_s": 13.3,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "media",
+    "sinais_detectados": [
+      "Bacia Sanitária de louça com caixa acoplada (preço unitário alto)",
+      "Torneira de cozinha (R$ 250,00)",
+      "Mão de obra louças e metais (detalhada)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "spa",
+      "gerador",
+      "piscina aquecida",
+      "automacao",
+      "marmor",
+      "granito"
+    ],
+    "justificativa": "Embora os dados numéricos de R$/m² e m²/UR estejam zerados, os itens de louças e metais indicam um padrão acima do básico. A especificação de louças e torneiras com preços unitários elevados sugere um acabamento de médio-alto, mas a ausência de materiais de alto padrão (mármore, granito, ACM, etc.) e sistemas complexos limita a classificação.",
+    "coerencia_rsm2": "nao — Os dados numéricos de R$/m² e m²/UR são nulos, mas os itens de acabamento sugerem um custo significativamente mais alto do que o zero reportado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 28993518.051161382,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 15
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"media\", \"sinais_detectados\": [\"Bacia Sanitária de louça com caixa acoplada (preço unitário alto)\", \"Torneira de cozinha (R$ 250,00)\", \"Mão de obra louças e metais (detalhada)\"], \"sinais_ausentes_relevantes\": [\"spa\", \"gerador\", \"piscina aquecida\", \"automacao\", \"marmor\", \"granito\"], \"justificativa\": \"Embora os dados numéricos de R$/m² e m²/UR estejam zerados, os itens de louças e metais indicam um padrão acima do básico. A especificação de louças e torneiras "
+}

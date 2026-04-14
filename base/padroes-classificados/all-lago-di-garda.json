@@ -1,0 +1,60 @@
+{
+  "projeto": "all-lago-di-garda",
+  "ts": "2026-04-14T08:00:09",
+  "duration_s": 16.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "medio-alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Porcelanato grande (implícito)",
+      "Esquadrias em vidro e alumínio (guarda-corpo, portas de correr)",
+      "Sistemas de bombeamento e geradores (sistemas especiais)",
+      "Uso de madeira em acabamentos (corrimão, portas)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Mármore/Granito (ausente)",
+      "Automação/Spa/Sauna (ausente)",
+      "Piscina aquecida/Borda infinita (ausente)",
+      "Acabamentos de luxo (ACM premium, brise automatizado)"
+    ],
+    "justificativa": "O projeto apresenta sistemas especiais robustos (geradores, motobombas, filtros) e esquadrias em vidro e alumínio, indicando um nível de conforto e funcionalidade acima do médio. Embora não haja mármore ou automação completa, a complexidade dos sistemas e o uso de materiais como vidro e madeira elevam o padrão para a faixa médio-alto.",
+    "coerencia_rsm2": "parcial — O R$/m² de R$ 7.160,00 está muito acima da faixa média-alta (R$ 3.400–4.000), mas os itens de acabamento e sistemas especiais (geradores, vidros) justificam a classificação de padrão superior, apesar da discrepância numérica."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 7055.73,
+      "ur": 0,
+      "total": 50516882.53944222,
+      "rsm2": 7159.7,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Insumos ABC": 129.88
+    },
+    "n_itens_top": 45
+  },
+  "raw_response_preview": "{\"padrao\": \"medio-alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Porcelanato grande (implícito)\", \"Esquadrias em vidro e alumínio (guarda-corpo, portas de correr)\", \"Sistemas de bombeamento e geradores (sistemas especiais)\", \"Uso de madeira em acabamentos (corrimão, portas)\"], \"sinais_ausentes_relevantes\": [\"Mármore/Granito (ausente)\", \"Automação/Spa/Sauna (ausente)\", \"Piscina aquecida/Borda infinita (ausente)\", \"Acabamentos de luxo (ACM premium, brise automatizado)\"], \"justificativa\": \"O pr"
+}

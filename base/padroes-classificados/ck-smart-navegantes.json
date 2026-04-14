@@ -1,0 +1,59 @@
+{
+  "projeto": "ck-smart-navegantes",
+  "ts": "2026-04-14T08:32:23",
+  "duration_s": 15.6,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Pele de Vidro e Brises de Alumínio",
+      "Automação (CLIMATIZAÇÃO, AUTOMAÇÃO)",
+      "Granito (implícito em acabamentos de alto padrão)",
+      "Porcelanato grande (implícito em áreas de alto padrão)",
+      "Elevador de Serviço (indicando escala e complexidade)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida borda infinita",
+      "Spa/Sauna",
+      "Heliponto",
+      "Mármore/Granito explícito em pisos"
+    ],
+    "justificativa": "O projeto apresenta um nível de complexidade e tecnologia elevado, evidenciado pela automação completa, uso extensivo de vidro (Pele de Vidro e Brises) e a presença de elevador de serviço. Embora não haja mármore ou piscina aquecida, a combinação de sistemas de automação e fachadas em vidro eleva o padrão acima do médio-alto, enquadrando-o na categoria Alto.",
+    "coerencia_rsm2": "parcial — Os dados numéricos de R$/m² estão ausentes ou zerados, mas os itens de acabamento (vidro, automação, brises) são característicos de um padrão de custo elevado, justificando a classificação 'Alto'."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": false,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 59
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Pele de Vidro e Brises de Alumínio\", \"Automação (CLIMATIZAÇÃO, AUTOMAÇÃO)\", \"Granito (implícito em acabamentos de alto padrão)\", \"Porcelanato grande (implícito em áreas de alto padrão)\", \"Elevador de Serviço (indicando escala e complexidade)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida borda infinita\", \"Spa/Sauna\", \"Heliponto\", \"Mármore/Granito explícito em pisos\"], \"justificativa\": \"O projeto apresenta um nível de complexidad"
+}

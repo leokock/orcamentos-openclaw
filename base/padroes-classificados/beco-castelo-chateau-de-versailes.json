@@ -1,0 +1,66 @@
+{
+  "projeto": "beco-castelo-chateau-de-versailes",
+  "ts": "2026-04-14T08:01:56",
+  "duration_s": 16.2,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Vidro em grandes dimensões (vidro fixo, guarda-corpo)",
+      "Gerador de energia (Gerador de Coloro BZ)",
+      "Louças e Metais de alto padrão (preços unitários elevados para bacia sanitária e registros)",
+      "Presença de sistemas especiais (Instalações Elétricas, Telecom)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "Piscina aquecida borda infinita",
+      "Spa/Sauna",
+      "Mármore/Granito (embora não listados, a ausência não anula o alto padrão)",
+      "Automação"
+    ],
+    "justificativa": "A presença de gerador de energia, o uso extensivo de vidro em grandes dimensões (guarda-corpos e vidros fixos) e os altos custos unitários de louças e metais (ex: bacia sanitária a R$ 1.624,90) elevam o padrão acima do médio-alto. Embora não haja itens de luxo explícitos (como borda infinita ou spa), a combinação de sistemas e materiais sugere uma categoria 'Alto'.",
+    "coerencia_rsm2": "parcial — Os valores de R$/m² por disciplina estão muito baixos e não refletem o custo dos materiais de acabamento de alto padrão (vidros, louças e metais) listados."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 32507.25,
+      "ur": 142,
+      "total": 0,
+      "rsm2": 0.0,
+      "m2_por_ur": 228.92,
+      "rs_por_ur": 0.0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": true,
+      "automacao": false,
+      "spa_sauna": false,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": false,
+      "acm": false,
+      "porcelanato_grande": false,
+      "porcelanato_pequeno": false,
+      "laminado": false,
+      "vinilico": false,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {
+      "Estacas": 0.0,
+      "Gas": 0.0,
+      "Fundacoes": 0.02,
+      "Telecom": 81.31,
+      "Instalacoes Eletricas": 69.44,
+      "Loucas e Metais": 48.05,
+      "Esquadrias": 0.05
+    },
+    "n_itens_top": 45
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Vidro em grandes dimensões (vidro fixo, guarda-corpo)\", \"Gerador de energia (Gerador de Coloro BZ)\", \"Louças e Metais de alto padrão (preços unitários elevados para bacia sanitária e registros)\", \"Presença de sistemas especiais (Instalações Elétricas, Telecom)\"], \"sinais_ausentes_relevantes\": [\"Piscina aquecida borda infinita\", \"Spa/Sauna\", \"Mármore/Granito (embora não listados, a ausência não anula o alto padrão)\", \"Automação\"], \"ju"
+}

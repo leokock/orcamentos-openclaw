@@ -1,0 +1,58 @@
+{
+  "projeto": "ck-rooftop",
+  "ts": "2026-04-14T08:32:07",
+  "duration_s": 14.3,
+  "model": "gemma4:e4b",
+  "attempt": 1,
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": [
+      "Pele de Vidro e Brises de Alumínio",
+      "Porta Pivotante em Vidro Temperado",
+      "Sistema de Fachada Ventilada com Porcelanato",
+      "Automação e Climatização Completa",
+      "Elevador de Serviço (e Locação de Elevador)"
+    ],
+    "sinais_ausentes_relevantes": [
+      "piscina aquecida",
+      "spa/sauna",
+      "mármore/madeira nobre"
+    ],
+    "justificativa": "O projeto apresenta um nível de acabamento elevado, evidenciado pelo uso de fachadas ventiladas com porcelanato, esquadrias complexas (vidro temperado, pivotante, brises) e sistemas de automação e elevadores. Embora não haja mármore ou piscina aquecida, a combinação de elementos de alto custo e sofisticação o eleva acima da classe média-alta.",
+    "coerencia_rsm2": "parcial — Os dados numéricos são insuficientes para uma análise precisa, mas os materiais e sistemas apontam para um custo significativamente mais alto do que o R$ 0.00 declarado."
+  },
+  "sinais_input": {
+    "projeto_meta": {
+      "ac": 0,
+      "ur": 0,
+      "total": 0,
+      "rsm2": 0,
+      "m2_por_ur": 0,
+      "rs_por_ur": 0
+    },
+    "flags_assinatura": {
+      "piscina_aquecida": false,
+      "gerador": false,
+      "automacao": true,
+      "spa_sauna": true,
+      "elevador_panoramico": false,
+      "marmore": false,
+      "granito": true,
+      "acm": true,
+      "porcelanato_grande": true,
+      "porcelanato_pequeno": true,
+      "laminado": true,
+      "vinilico": true,
+      "docol_deca": false,
+      "fitness_academia": false,
+      "gourmet": false,
+      "heliponto": false,
+      "home_theater": false,
+      "adega": false
+    },
+    "disciplinas_rsm2": {},
+    "n_itens_top": 62
+  },
+  "raw_response_preview": "{\"padrao\": \"alto\", \"confianca\": \"alta\", \"sinais_detectados\": [\"Pele de Vidro e Brises de Alumínio\", \"Porta Pivotante em Vidro Temperado\", \"Sistema de Fachada Ventilada com Porcelanato\", \"Automação e Climatização Completa\", \"Elevador de Serviço (e Locação de Elevador)\"], \"sinais_ausentes_relevantes\": [\"piscina aquecida\", \"spa/sauna\", \"mármore/madeira nobre\"], \"justificativa\": \"O projeto apresenta um nível de acabamento elevado, evidenciado pelo uso de fachadas ventiladas com porcelanato, esquadri"
+}
