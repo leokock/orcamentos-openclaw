@@ -340,9 +340,14 @@ def enriquecer_executivo(similares: list[dict], macrogrupo: str,
                 pu = it.get("pu")
                 qtd = it.get("qtd")
                 total = it.get("total")
+                un_str = str(it.get("unidade") or "").strip().lower()
                 pu_ok = isinstance(pu, (int, float)) and pu > 0
                 qtd_ok = isinstance(qtd, (int, float)) and qtd > 0
                 if not pu_ok or not qtd_ok:
+                    continue
+                if un_str in ("vb", "vg", "gl", "global", "verba"):
+                    continue
+                if qtd == 1 and isinstance(pu, (int, float)) and pu > 5000:
                     continue
                 items_raw.append({
                     "descricao": desc,

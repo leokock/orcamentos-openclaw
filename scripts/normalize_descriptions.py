@@ -65,11 +65,29 @@ def token_hash_key(canon: str) -> str:
     return "|".join(top)
 
 
+VERBA_UNITS = {"vb", "vg", "gl", "global", "verba"}
+
+
+def is_verba(it) -> bool:
+    un = (it.get("unidade") or "").strip().lower()
+    if un in VERBA_UNITS:
+        return True
+    qtd = it.get("qtd")
+    if isinstance(qtd, (int, float)) and qtd == 1:
+        pu = it.get("pu")
+        total = it.get("total")
+        if isinstance(pu, (int, float)) and isinstance(total, (int, float)):
+            if pu > 1000 and abs(pu - total) < pu * 0.01:
+                return True
+    return False
+
+
 def main():
     t0 = time.time()
     print("loading itens-detalhados...")
     all_items = []
     n_jsons = 0
+    n_verbas_skipped = 0
     for jp in sorted(ITENS_DIR.glob("*.json")):
         try:
             d = json.loads(jp.read_text(encoding="utf-8"))
@@ -81,6 +99,9 @@ def main():
             for it in aba.get("itens", []):
                 desc = it.get("descricao")
                 if not desc or not isinstance(desc, str) or len(desc) < 4:
+                    continue
+                if is_verba(it):
+                    n_verbas_skipped += 1
                     continue
                 canon = canonicalize(desc)
                 if not canon or len(canon) < 3:
@@ -97,7 +118,7 @@ def main():
                     "pu": it.get("pu"),
                     "total": it.get("total"),
                 })
-    print(f"  {n_jsons} projetos, {len(all_items)} itens em {time.time()-t0:.1f}s")
+    print(f"  {n_jsons} projetos, {len(all_items)} itens em {time.time()-t0:.1f}s  ({n_verbas_skipped} verbas filtradas)")
 
     print("\nagrupando por hash canônico...")
     t1 = time.time()
