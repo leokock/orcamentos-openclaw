@@ -1,0 +1,826 @@
+{
+  "arquivo": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\CK\\Urbe\\CTN-CK-URB- Apresentação Orçamento - R02.xlsx",
+  "abas": [
+    {
+      "nome": "Gerenciamento executivo ",
+      "n_formulas": 47,
+      "formulas_sample": [
+        {
+          "cell": "B3",
+          "formula": "=Gerenciamento_Exec!B3"
+        },
+        {
+          "cell": "C3",
+          "formula": "=Gerenciamento_Exec!D3"
+        },
+        {
+          "cell": "D3",
+          "formula": "='Orçamento Resumo'!G3+'Orçamento Resumo'!G4"
+        },
+        {
+          "cell": "M3",
+          "formula": "=K3/J3"
+        },
+        {
+          "cell": "B4",
+          "formula": "=Gerenciamento_Exec!B4"
+        },
+        {
+          "cell": "C4",
+          "formula": "=Gerenciamento_Exec!D4"
+        },
+        {
+          "cell": "D4",
+          "formula": "='Orçamento Resumo'!G5"
+        },
+        {
+          "cell": "B5",
+          "formula": "=Gerenciamento_Exec!B5"
+        },
+        {
+          "cell": "C5",
+          "formula": "=Gerenciamento_Exec!D5"
+        },
+        {
+          "cell": "D5",
+          "formula": "='Orçamento Resumo'!G6"
+        },
+        {
+          "cell": "B6",
+          "formula": "=Gerenciamento_Exec!B6"
+        },
+        {
+          "cell": "C6",
+          "formula": "=Gerenciamento_Exec!D6"
+        },
+        {
+          "cell": "D6",
+          "formula": "='Orçamento Resumo'!G7"
+        },
+        {
+          "cell": "B7",
+          "formula": "=Gerenciamento_Exec!B7"
+        },
+        {
+          "cell": "C7",
+          "formula": "=Gerenciamento_Exec!D7"
+        },
+        {
+          "cell": "D7",
+          "formula": "='Orçamento Resumo'!G8"
+        },
+        {
+          "cell": "B8",
+          "formula": "=Gerenciamento_Exec!B8"
+        },
+        {
+          "cell": "C8",
+          "formula": "=Gerenciamento_Exec!D8"
+        },
+        {
+          "cell": "D8",
+          "formula": "='Orçamento Resumo'!G9"
+        },
+        {
+          "cell": "B9",
+          "formula": "=Gerenciamento_Exec!B9"
+        },
+        {
+          "cell": "C9",
+          "formula": "=Gerenciamento_Exec!D9"
+        },
+        {
+          "cell": "D9",
+          "formula": "='Orçamento Resumo'!G10"
+        },
+        {
+          "cell": "B10",
+          "formula": "=Gerenciamento_Exec!B10"
+        },
+        {
+          "cell": "C10",
+          "formula": "=Gerenciamento_Exec!D10"
+        },
+        {
+          "cell": "D10",
+          "formula": "='Orçamento Resumo'!G12"
+        },
+        {
+          "cell": "B11",
+          "formula": "=Gerenciamento_Exec!B11"
+        },
+        {
+          "cell": "C11",
+          "formula": "=Gerenciamento_Exec!D11"
+        },
+        {
+          "cell": "D11",
+          "formula": "='Orçamento Resumo'!G11"
+        },
+        {
+          "cell": "B12",
+          "formula": "=Gerenciamento_Exec!B12"
+        },
+        {
+          "cell": "C12",
+          "formula": "=Gerenciamento_Exec!D12"
+        },
+        {
+          "cell": "D12",
+          "formula": "='Orçamento Resumo'!G16"
+        },
+        {
+          "cell": "B13",
+          "formula": "=Gerenciamento_Exec!B13"
+        },
+        {
+          "cell": "C13",
+          "formula": "=Gerenciamento_Exec!D12"
+        },
+        {
+          "cell": "D13",
+          "formula": "='Orçamento Resumo'!G13"
+        },
+        {
+          "cell": "B14",
+          "formula": "=Gerenciamento_Exec!B14"
+        },
+        {
+          "cell": "C14",
+          "formula": "=Gerenciamento_Exec!D13"
+        },
+        {
+          "cell": "D14",
+          "formula": "='Orçamento Resumo'!G14"
+        },
+        {
+          "cell": "B15",
+          "formula": "=Gerenciamento_Exec!B15"
+        },
+        {
+          "cell": "C15",
+          "formula": "=Gerenciamento_Exec!D14"
+        },
+        {
+          "cell": "D15",
+          "formula": "='Orçamento Resumo'!G15"
+        },
+        {
+          "cell": "B16",
+          "formula": "=SUM(B3:B15)"
+        },
+        {
+          "cell": "C16",
+          "formula": "=SUM(C3:C15)"
+        },
+        {
+          "cell": "D16",
+          "formula": "='Orçamento Resumo'!G17+'Orçamento Resumo'!G18"
+        },
+        {
+          "cell": "D17",
+          "formula": "=SUM(D3:D16)"
+        },
+        {
+          "cell": "F17",
+          "formula": "=SUM(F3:F16)"
+        },
+        {
+          "cell": "G17",
+          "formula": "=SUM(G3:G16)"
+        },
+        {
+          "cell": "B22",
+          "formula": "=B21/B20"
+        }
+      ]
+    },
+    {
+      "nome": "Gerenciamento_Exec",
+      "n_formulas": 59,
+      "formulas_sample": [
+        {
+          "cell": "C2",
+          "formula": "=B2/B$17"
+        },
+        {
+          "cell": "D2",
+          "formula": "=B2/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E2",
+          "formula": "=B2/H$8"
+        },
+        {
+          "cell": "C3",
+          "formula": "=B3/B$17"
+        },
+        {
+          "cell": "D3",
+          "formula": "=B3/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E3",
+          "formula": "=B3/H$8"
+        },
+        {
+          "cell": "C4",
+          "formula": "=B4/B$17"
+        },
+        {
+          "cell": "D4",
+          "formula": "=B4/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E4",
+          "formula": "=B4/H$8"
+        },
+        {
+          "cell": "C5",
+          "formula": "=B5/B$17"
+        },
+        {
+          "cell": "D5",
+          "formula": "=B5/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E5",
+          "formula": "=B5/H$8"
+        },
+        {
+          "cell": "B6",
+          "formula": "=1094759.38+666316.54+171817.65"
+        },
+        {
+          "cell": "C6",
+          "formula": "=B6/B$17"
+        },
+        {
+          "cell": "D6",
+          "formula": "=B6/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E6",
+          "formula": "=B6/H$8"
+        },
+        {
+          "cell": "B7",
+          "formula": "=165900+85960+520000"
+        },
+        {
+          "cell": "C7",
+          "formula": "=B7/B$17"
+        },
+        {
+          "cell": "D7",
+          "formula": "=B7/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E7",
+          "formula": "=B7/H$8"
+        },
+        {
+          "cell": "C8",
+          "formula": "=B8/B$17"
+        },
+        {
+          "cell": "D8",
+          "formula": "=B8/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E8",
+          "formula": "=B8/H$8"
+        },
+        {
+          "cell": "C9",
+          "formula": "=B9/B$17"
+        },
+        {
+          "cell": "D9",
+          "formula": "=B9/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E9",
+          "formula": "=B9/H$8"
+        },
+        {
+          "cell": "B10",
+          "formula": "=521482.5+206095.36+153075.88"
+        },
+        {
+          "cell": "C10",
+          "formula": "=B10/B$17"
+        },
+        {
+          "cell": "D10",
+          "formula": "=B10/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E10",
+          "formula": "=B10/H$8"
+        },
+        {
+          "cell": "C11",
+          "formula": "=B11/B$17"
+        },
+        {
+          "cell": "D11",
+          "formula": "=B11/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E11",
+          "formula": "=B11/H$8"
+        },
+        {
+          "cell": "C12",
+          "formula": "=B12/B$17"
+        },
+        {
+          "cell": "D12",
+          "formula": "=B12/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E12",
+          "formula": "=B12/H$8"
+        },
+        {
+          "cell": "B13",
+          "formula": "=1078725.1+290838.9"
+        },
+        {
+          "cell": "C13",
+          "formula": "=B13/B$17"
+        },
+        {
+          "cell": "D13",
+          "formula": "=B13/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E13",
+          "formula": "=B13/H$8"
+        },
+        {
+          "cell": "C14",
+          "formula": "=B14/B$17"
+        },
+        {
+          "cell": "D14",
+          "formula": "=B14/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E14",
+          "formula": "=B14/H$8"
+        },
+        {
+          "cell": "C15",
+          "formula": "=B15/B$17"
+        },
+        {
+          "cell": "D15",
+          "formula": "=B15/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E15",
+          "formula": "=B15/H$8"
+        },
+        {
+          "cell": "C16",
+          "formula": "=B16/B$17"
+        },
+        {
+          "cell": "D16",
+          "formula": "=B16/Gerenciamento_Exec!H$10"
+        },
+        {
+          "cell": "E16",
+          "formula": "=B16/H$8"
+        },
+        {
+          "cell": "B17",
+          "formula": "=SUM(B2:B16)"
+        },
+        {
+          "cell": "C17",
+          "formula": "=SUM(C2:C16)"
+        },
+        {
+          "cell": "D17",
+          "formula": "=SUM(D2:D16)"
+        },
+        {
+          "cell": "E17",
+          "formula": "=SUM(E2:E16)"
+        },
+        {
+          "cell": "D18",
+          "formula": "=+D17/B18"
+        },
+        {
+          "cell": "G18",
+          "formula": "=B17*0.015"
+        },
+        {
+          "cell": "G20",
+          "formula": "=17271993.87/H10"
+        },
+        {
+          "cell": "F23",
+          "formula": "=B17-F22"
+        },
+        {
+          "cell": "G27",
+          "formula": "=G24/H10"
+        },
+        {
+          "cell": "G29",
+          "formula": "=G27/B18"
+        }
+      ]
+    },
+    {
+      "nome": "Planilha1",
+      "n_formulas": 2,
+      "formulas_sample": [
+        {
+          "cell": "B22",
+          "formula": "=SUM(C7:C16)+B17+SUM(C18:C21)"
+        },
+        {
+          "cell": "H22",
+          "formula": "=F22/B22"
+        }
+      ]
+    },
+    {
+      "nome": "Orçamento Resumo",
+      "n_formulas": 89,
+      "formulas_sample": [
+        {
+          "cell": "B2",
+          "formula": "=I3*320"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+B2/$B$19"
+        },
+        {
+          "cell": "E2",
+          "formula": "=B2/$J$3"
+        },
+        {
+          "cell": "H2",
+          "formula": "=G2/F2"
+        },
+        {
+          "cell": "B3",
+          "formula": "='[1]Movimentação de Terra'!$J$43"
+        },
+        {
+          "cell": "C3",
+          "formula": "=+B3/$B$19"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+B3/$I$3"
+        },
+        {
+          "cell": "E3",
+          "formula": "=B3/$J$3"
+        },
+        {
+          "cell": "G3",
+          "formula": "=D3*$H$2"
+        },
+        {
+          "cell": "B4",
+          "formula": "=[1]Infraestrutura!$J$38"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+B4/$B$19"
+        },
+        {
+          "cell": "D4",
+          "formula": "=+B4/$I$3"
+        },
+        {
+          "cell": "E4",
+          "formula": "=B4/$J$3"
+        },
+        {
+          "cell": "G4",
+          "formula": "=D4*$H$2"
+        },
+        {
+          "cell": "B5",
+          "formula": "=[1]Supraestrutura!$J$25"
+        },
+        {
+          "cell": "C5",
+          "formula": "=+B5/$B$19"
+        },
+        {
+          "cell": "D5",
+          "formula": "=+B5/$I$3"
+        },
+        {
+          "cell": "E5",
+          "formula": "=B5/$J$3"
+        },
+        {
+          "cell": "G5",
+          "formula": "=D5*$H$2"
+        },
+        {
+          "cell": "B6",
+          "formula": "=[1]Alvenaria!$J$27"
+        },
+        {
+          "cell": "C6",
+          "formula": "=+B6/$B$19"
+        },
+        {
+          "cell": "D6",
+          "formula": "=+B6/$I$3"
+        },
+        {
+          "cell": "E6",
+          "formula": "=B6/$J$3"
+        },
+        {
+          "cell": "G6",
+          "formula": "=D6*$H$2"
+        },
+        {
+          "cell": "B7",
+          "formula": "=[1]Instalações!$J$46"
+        },
+        {
+          "cell": "C7",
+          "formula": "=+B7/$B$19"
+        },
+        {
+          "cell": "D7",
+          "formula": "=+B7/$I$3"
+        },
+        {
+          "cell": "E7",
+          "formula": "=B7/$J$3"
+        },
+        {
+          "cell": "G7",
+          "formula": "=D7*$H$2"
+        },
+        {
+          "cell": "B8",
+          "formula": "='[1]Sistemas especiais'!$J$42"
+        },
+        {
+          "cell": "C8",
+          "formula": "=+B8/$B$19"
+        },
+        {
+          "cell": "D8",
+          "formula": "=+B8/$I$3"
+        },
+        {
+          "cell": "E8",
+          "formula": "=B8/$J$3"
+        },
+        {
+          "cell": "G8",
+          "formula": "=D8*$H$2"
+        },
+        {
+          "cell": "B9",
+          "formula": "=[1]Impermeabilização!$J$26"
+        },
+        {
+          "cell": "C9",
+          "formula": "=+B9/$B$19"
+        },
+        {
+          "cell": "D9",
+          "formula": "=+B9/$I$3"
+        },
+        {
+          "cell": "E9",
+          "formula": "=B9/$J$3"
+        },
+        {
+          "cell": "G9",
+          "formula": "=D9*$H$2"
+        },
+        {
+          "cell": "B10",
+          "formula": "='[1]Rev. Internos Piso e Parede'!$J$24"
+        },
+        {
+          "cell": "C10",
+          "formula": "=+B10/$B$19"
+        },
+        {
+          "cell": "D10",
+          "formula": "=+B10/$I$3"
+        },
+        {
+          "cell": "E10",
+          "formula": "=B10/$J$3"
+        },
+        {
+          "cell": "G10",
+          "formula": "=D10*$H$2"
+        },
+        {
+          "cell": "B11",
+          "formula": "='[1]Acabamentos de Teto'!$J$21"
+        },
+        {
+          "cell": "C11",
+          "formula": "=+B11/$B$19"
+        },
+        {
+          "cell": "D11",
+          "formula": "=+B11/$I$3"
+        },
+        {
+          "cell": "E11",
+          "formula": "=B11/$J$3"
+        },
+        {
+          "cell": "G11",
+          "formula": "=D11*$H$2"
+        },
+        {
+          "cell": "B12",
+          "formula": "='[1]Acabamentos de Piso e Parede'!$J$22"
+        },
+        {
+          "cell": "C12",
+          "formula": "=+B12/$B$19"
+        },
+        {
+          "cell": "D12",
+          "formula": "=+B12/$I$3"
+        },
+        {
+          "cell": "E12",
+          "formula": "=B12/$J$3"
+        },
+        {
+          "cell": "G12",
+          "formula": "=D12*$H$2"
+        },
+        {
+          "cell": "B13",
+          "formula": "='[1]Pintura Interna'!$J$19"
+        },
+        {
+          "cell": "C13",
+          "formula": "=+B13/$B$19"
+        },
+        {
+          "cell": "D13",
+          "formula": "=+B13/$I$3"
+        },
+        {
+          "cell": "E13",
+          "formula": "=B13/$J$3"
+        },
+        {
+          "cell": "G13",
+          "formula": "=D13*$H$2"
+        },
+        {
+          "cell": "B14",
+          "formula": "=[1]Esquadrias!$J$25"
+        },
+        {
+          "cell": "C14",
+          "formula": "=+B14/$B$19"
+        },
+        {
+          "cell": "D14",
+          "formula": "=+B14/$I$3"
+        },
+        {
+          "cell": "E14",
+          "formula": "=B14/$J$3"
+        },
+        {
+          "cell": "G14",
+          "formula": "=D14*$H$2"
+        },
+        {
+          "cell": "B15",
+          "formula": "='[1]Rev. Fachada'!$J$34"
+        },
+        {
+          "cell": "C15",
+          "formula": "=+B15/$B$19"
+        },
+        {
+          "cell": "D15",
+          "formula": "=+B15/$I$3"
+        },
+        {
+          "cell": "E15",
+          "formula": "=B15/$J$3"
+        },
+        {
+          "cell": "G15",
+          "formula": "=D15*$H$2"
+        },
+        {
+          "cell": "B16",
+          "formula": "=[1]Cobertura!$J$21"
+        },
+        {
+          "cell": "C16",
+          "formula": "=+B16/$B$19"
+        },
+        {
+          "cell": "D16",
+          "formula": "=+B16/$I$3"
+        },
+        {
+          "cell": "E16",
+          "formula": "=B16/$J$3"
+        },
+        {
+          "cell": "G16",
+          "formula": "=D16*$H$2"
+        },
+        {
+          "cell": "B17",
+          "formula": "=[1]Complementares!$J$22"
+        },
+        {
+          "cell": "C17",
+          "formula": "=+B17/$B$19"
+        },
+        {
+          "cell": "D17",
+          "formula": "=+B17/$I$3"
+        },
+        {
+          "cell": "E17",
+          "formula": "=B17/$J$3"
+        },
+        {
+          "cell": "G17",
+          "formula": "=D17*$H$2"
+        },
+        {
+          "cell": "C18",
+          "formula": "=ROUNDUP((B18/$B$19),3)"
+        },
+        {
+          "cell": "D18",
+          "formula": "=+B18/$I$3"
+        },
+        {
+          "cell": "E18",
+          "formula": "=B18/$J$3"
+        },
+        {
+          "cell": "G18",
+          "formula": "=D18*$H$2"
+        },
+        {
+          "cell": "B19",
+          "formula": "=SUM(B2:B18)"
+        },
+        {
+          "cell": "D19",
+          "formula": "=SUM(D2:D18)"
+        },
+        {
+          "cell": "E19",
+          "formula": "=SUM(E2:E18)"
+        },
+        {
+          "cell": "G19",
+          "formula": "=B19*H2"
+        },
+        {
+          "cell": "H19",
+          "formula": "=G19/I3"
+        },
+        {
+          "cell": "D20",
+          "formula": "=+D19/B20"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "n_formulas_total": 197,
+    "cross_sheet_refs": 70,
+    "with_absolute_ref": 126,
+    "with_ac_ref": 81,
+    "with_constant": 6
+  },
+  "projeto": "ck-urbe"
+}

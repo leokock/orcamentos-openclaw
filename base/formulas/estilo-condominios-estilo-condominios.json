@@ -1,0 +1,1022 @@
+{
+  "arquivo": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\Estilo Condomínios\\Estilo condomínios\\CTN-EST - VIS- Apresentação Orçamento - R00.xlsx",
+  "abas": [
+    {
+      "nome": "RESUMO",
+      "n_formulas": 18,
+      "formulas_sample": [
+        {
+          "cell": "B2",
+          "formula": "=Relatório!C9"
+        },
+        {
+          "cell": "C2",
+          "formula": "=B2/B$7"
+        },
+        {
+          "cell": "D2",
+          "formula": "=B2/RESUMO!G$2"
+        },
+        {
+          "cell": "B3",
+          "formula": "=Relatório!C12"
+        },
+        {
+          "cell": "C3",
+          "formula": "=B3/B$7"
+        },
+        {
+          "cell": "D3",
+          "formula": "=B3/RESUMO!G$2"
+        },
+        {
+          "cell": "B4",
+          "formula": "=Relatório!C23"
+        },
+        {
+          "cell": "C4",
+          "formula": "=B4/B$7"
+        },
+        {
+          "cell": "D4",
+          "formula": "=B4/RESUMO!G$2"
+        },
+        {
+          "cell": "C5",
+          "formula": "=B5/B$7"
+        },
+        {
+          "cell": "D5",
+          "formula": "=B5/RESUMO!G$2"
+        },
+        {
+          "cell": "B6",
+          "formula": "=SUM(B2:B5)*0.015"
+        },
+        {
+          "cell": "C6",
+          "formula": "=B6/B$7"
+        },
+        {
+          "cell": "D6",
+          "formula": "=B6/RESUMO!G$2"
+        },
+        {
+          "cell": "B7",
+          "formula": "=SUM(B2:B6)"
+        },
+        {
+          "cell": "C7",
+          "formula": "=SUM(C2:C6)"
+        },
+        {
+          "cell": "D7",
+          "formula": "=SUM(D2:D6)"
+        },
+        {
+          "cell": "E10",
+          "formula": "=200*E9"
+        }
+      ]
+    },
+    {
+      "nome": "ORÇAMENTO_EXECUTIVO_TOTAL",
+      "n_formulas": 63,
+      "formulas_sample": [
+        {
+          "cell": "B2",
+          "formula": "=RESUMO!B2"
+        },
+        {
+          "cell": "C2",
+          "formula": "=B2/$B$15"
+        },
+        {
+          "cell": "D2",
+          "formula": "=B2/$H$3"
+        },
+        {
+          "cell": "E2",
+          "formula": "=B2/$H$4"
+        },
+        {
+          "cell": "B3",
+          "formula": "=Relatório!C13"
+        },
+        {
+          "cell": "C3",
+          "formula": "=B3/B$15"
+        },
+        {
+          "cell": "D3",
+          "formula": "=B3/ORÇAMENTO_EXECUTIVO_TOTAL!H$3"
+        },
+        {
+          "cell": "E3",
+          "formula": "=B3/ORÇAMENTO_EXECUTIVO_TOTAL!H$4"
+        },
+        {
+          "cell": "B4",
+          "formula": "=Relatório!C14"
+        },
+        {
+          "cell": "C4",
+          "formula": "=B4/$B$15"
+        },
+        {
+          "cell": "D4",
+          "formula": "=B4/$H$3"
+        },
+        {
+          "cell": "E4",
+          "formula": "=B4/$H$4"
+        },
+        {
+          "cell": "B5",
+          "formula": "=Relatório!C15"
+        },
+        {
+          "cell": "C5",
+          "formula": "=B5/B$15"
+        },
+        {
+          "cell": "D5",
+          "formula": "=B5/ORÇAMENTO_EXECUTIVO_TOTAL!H$3"
+        },
+        {
+          "cell": "E5",
+          "formula": "=B5/ORÇAMENTO_EXECUTIVO_TOTAL!H$4"
+        },
+        {
+          "cell": "B6",
+          "formula": "=Relatório!C16"
+        },
+        {
+          "cell": "C6",
+          "formula": "=B6/$B$15"
+        },
+        {
+          "cell": "D6",
+          "formula": "=B6/$H$3"
+        },
+        {
+          "cell": "E6",
+          "formula": "=B6/$H$4"
+        },
+        {
+          "cell": "B7",
+          "formula": "=Relatório!C17"
+        },
+        {
+          "cell": "C7",
+          "formula": "=B7/B$15"
+        },
+        {
+          "cell": "D7",
+          "formula": "=B7/ORÇAMENTO_EXECUTIVO_TOTAL!H$3"
+        },
+        {
+          "cell": "E7",
+          "formula": "=B7/ORÇAMENTO_EXECUTIVO_TOTAL!H$4"
+        },
+        {
+          "cell": "B8",
+          "formula": "=Relatório!C18"
+        },
+        {
+          "cell": "C8",
+          "formula": "=B8/$B$15"
+        },
+        {
+          "cell": "D8",
+          "formula": "=B8/$H$3"
+        },
+        {
+          "cell": "E8",
+          "formula": "=B8/$H$4"
+        },
+        {
+          "cell": "B9",
+          "formula": "=Relatório!C19"
+        },
+        {
+          "cell": "C9",
+          "formula": "=B9/B$15"
+        },
+        {
+          "cell": "D9",
+          "formula": "=B9/ORÇAMENTO_EXECUTIVO_TOTAL!H$3"
+        },
+        {
+          "cell": "E9",
+          "formula": "=B9/ORÇAMENTO_EXECUTIVO_TOTAL!H$4"
+        },
+        {
+          "cell": "B10",
+          "formula": "=Relatório!C20"
+        },
+        {
+          "cell": "C10",
+          "formula": "=B10/$B$15"
+        },
+        {
+          "cell": "D10",
+          "formula": "=B10/$H$3"
+        },
+        {
+          "cell": "E10",
+          "formula": "=B10/$H$4"
+        },
+        {
+          "cell": "B11",
+          "formula": "=Relatório!C21"
+        },
+        {
+          "cell": "C11",
+          "formula": "=B11/B$15"
+        },
+        {
+          "cell": "D11",
+          "formula": "=B11/ORÇAMENTO_EXECUTIVO_TOTAL!H$3"
+        },
+        {
+          "cell": "E11",
+          "formula": "=B11/ORÇAMENTO_EXECUTIVO_TOTAL!H$4"
+        },
+        {
+          "cell": "B12",
+          "formula": "=Relatório!C22"
+        },
+        {
+          "cell": "C12",
+          "formula": "=B12/$B$15"
+        },
+        {
+          "cell": "D12",
+          "formula": "=B12/$H$3"
+        },
+        {
+          "cell": "E12",
+          "formula": "=B12/$H$4"
+        },
+        {
+          "cell": "B13",
+          "formula": "=Relatório!C23"
+        },
+        {
+          "cell": "C13",
+          "formula": "=B13/B$15"
+        },
+        {
+          "cell": "D13",
+          "formula": "=B13/ORÇAMENTO_EXECUTIVO_TOTAL!H$3"
+        },
+        {
+          "cell": "E13",
+          "formula": "=B13/ORÇAMENTO_EXECUTIVO_TOTAL!H$4"
+        },
+        {
+          "cell": "F13",
+          "formula": "=19.58+58.18"
+        },
+        {
+          "cell": "B14",
+          "formula": "=RESUMO!B5+RESUMO!B6"
+        },
+        {
+          "cell": "C14",
+          "formula": "=B14/$B$15"
+        },
+        {
+          "cell": "D14",
+          "formula": "=B14/$H$3"
+        },
+        {
+          "cell": "E14",
+          "formula": "=B14/$H$4"
+        },
+        {
+          "cell": "B15",
+          "formula": "=SUM(B2:B14)"
+        },
+        {
+          "cell": "C15",
+          "formula": "=SUM(C2:C14)"
+        },
+        {
+          "cell": "D15",
+          "formula": "=SUM(D2:D14)"
+        },
+        {
+          "cell": "E15",
+          "formula": "=SUM(E2:E14)"
+        },
+        {
+          "cell": "F18",
+          "formula": "=C9"
+        },
+        {
+          "cell": "F19",
+          "formula": "=C10"
+        },
+        {
+          "cell": "F20",
+          "formula": "=C2"
+        },
+        {
+          "cell": "F21",
+          "formula": "=C13"
+        },
+        {
+          "cell": "F22",
+          "formula": "=C4"
+        },
+        {
+          "cell": "F23",
+          "formula": "=C5"
+        }
+      ]
+    },
+    {
+      "nome": "ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES",
+      "n_formulas": 65,
+      "formulas_sample": [
+        {
+          "cell": "B3",
+          "formula": "=Relatório!C24"
+        },
+        {
+          "cell": "C3",
+          "formula": "=B3/B$18"
+        },
+        {
+          "cell": "D3",
+          "formula": "=B3/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E3",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M10,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N10,2,FALSE)"
+        },
+        {
+          "cell": "B4",
+          "formula": "=Relatório!C25"
+        },
+        {
+          "cell": "C4",
+          "formula": "=B4/B$18"
+        },
+        {
+          "cell": "D4",
+          "formula": "=B4/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E4",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M11,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N11,2,FALSE)"
+        },
+        {
+          "cell": "B5",
+          "formula": "=Relatório!C26"
+        },
+        {
+          "cell": "C5",
+          "formula": "=B5/B$18"
+        },
+        {
+          "cell": "D5",
+          "formula": "=B5/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E5",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M12,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N12,2,FALSE)"
+        },
+        {
+          "cell": "B6",
+          "formula": "=Relatório!C27+Relatório!C28+Relatório!C29"
+        },
+        {
+          "cell": "C6",
+          "formula": "=B6/B$18"
+        },
+        {
+          "cell": "D6",
+          "formula": "=B6/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E6",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M13,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N13,2,FALSE)"
+        },
+        {
+          "cell": "B7",
+          "formula": "=Relatório!C30+Relatório!C31"
+        },
+        {
+          "cell": "C7",
+          "formula": "=B7/B$18"
+        },
+        {
+          "cell": "D7",
+          "formula": "=B7/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E7",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M14,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N14,2,FALSE)"
+        },
+        {
+          "cell": "B8",
+          "formula": "=Relatório!C32"
+        },
+        {
+          "cell": "C8",
+          "formula": "=B8/B$18"
+        },
+        {
+          "cell": "D8",
+          "formula": "=B8/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E8",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M15,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N15,2,FALSE)"
+        },
+        {
+          "cell": "B9",
+          "formula": "=Relatório!C33"
+        },
+        {
+          "cell": "C9",
+          "formula": "=B9/B$18"
+        },
+        {
+          "cell": "D9",
+          "formula": "=B9/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E9",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M16,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N16,2,FALSE)"
+        },
+        {
+          "cell": "B10",
+          "formula": "=Relatório!C34"
+        },
+        {
+          "cell": "C10",
+          "formula": "=B10/B$18"
+        },
+        {
+          "cell": "D10",
+          "formula": "=B10/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E10",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M17,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N17,2,FALSE)"
+        },
+        {
+          "cell": "B11",
+          "formula": "=Relatório!C35"
+        },
+        {
+          "cell": "C11",
+          "formula": "=B11/B$18"
+        },
+        {
+          "cell": "D11",
+          "formula": "=B11/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E11",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M18,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N18,2,FALSE)"
+        },
+        {
+          "cell": "B12",
+          "formula": "=Relatório!C36"
+        },
+        {
+          "cell": "C12",
+          "formula": "=B12/B$18"
+        },
+        {
+          "cell": "D12",
+          "formula": "=B12/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E12",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M19,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N19,2,FALSE)"
+        },
+        {
+          "cell": "B13",
+          "formula": "=Relatório!C37"
+        },
+        {
+          "cell": "C13",
+          "formula": "=B13/B$18"
+        },
+        {
+          "cell": "D13",
+          "formula": "=B13/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E13",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M20,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N20,2,FALSE)"
+        },
+        {
+          "cell": "B14",
+          "formula": "=Relatório!C38"
+        },
+        {
+          "cell": "C14",
+          "formula": "=B14/B$18"
+        },
+        {
+          "cell": "D14",
+          "formula": "=B14/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E14",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M21,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N21,2,FALSE)"
+        },
+        {
+          "cell": "B15",
+          "formula": "=Relatório!C39"
+        },
+        {
+          "cell": "C15",
+          "formula": "=B15/B$18"
+        },
+        {
+          "cell": "D15",
+          "formula": "=B15/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E15",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M22,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N22,2,FALSE)"
+        },
+        {
+          "cell": "B16",
+          "formula": "=Relatório!C40"
+        },
+        {
+          "cell": "C16",
+          "formula": "=B16/B$18"
+        },
+        {
+          "cell": "D16",
+          "formula": "=B16/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E16",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M23,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N23,2,FALSE)"
+        },
+        {
+          "cell": "B17",
+          "formula": "=Relatório!C41"
+        },
+        {
+          "cell": "C17",
+          "formula": "=B17/B$18"
+        },
+        {
+          "cell": "D17",
+          "formula": "=B17/ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!H$3"
+        },
+        {
+          "cell": "E17",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M24,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N24,2,FALSE)"
+        },
+        {
+          "cell": "B18",
+          "formula": "=SUM(B3:B17)"
+        },
+        {
+          "cell": "C18",
+          "formula": "=SUM(C3:C17)"
+        },
+        {
+          "cell": "D18",
+          "formula": "=SUM(D3:D17)"
+        },
+        {
+          "cell": "E18",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!M26,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!N26,2,FALSE)"
+        },
+        {
+          "cell": "D19",
+          "formula": "=+D18/B19"
+        }
+      ]
+    },
+    {
+      "nome": "CÁLCULO_MÉDIAS",
+      "n_formulas": 132,
+      "formulas_sample": [
+        {
+          "cell": "D8",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C8"
+        },
+        {
+          "cell": "G8",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F8"
+        },
+        {
+          "cell": "I8",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H8"
+        },
+        {
+          "cell": "K8",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D9",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C9"
+        },
+        {
+          "cell": "E9",
+          "formula": "=539.08+375.23+10937.7"
+        },
+        {
+          "cell": "F9",
+          "formula": "=E9/(67.58+5.94)"
+        },
+        {
+          "cell": "G9",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F9"
+        },
+        {
+          "cell": "I9",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H9"
+        },
+        {
+          "cell": "K9",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D10",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C10"
+        },
+        {
+          "cell": "E10",
+          "formula": "=26125.08+14079.64+10937.7"
+        },
+        {
+          "cell": "F10",
+          "formula": "=E10/(67.58+5.94)"
+        },
+        {
+          "cell": "G10",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F10"
+        },
+        {
+          "cell": "I10",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H10"
+        },
+        {
+          "cell": "K10",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "M10",
+          "formula": "=770+175"
+        },
+        {
+          "cell": "N10",
+          "formula": "=780+180"
+        },
+        {
+          "cell": "D11",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C11"
+        },
+        {
+          "cell": "E11",
+          "formula": "=18039.8+7191.17+10937.7"
+        },
+        {
+          "cell": "F11",
+          "formula": "=E11/(67.58+5.94)"
+        },
+        {
+          "cell": "G11",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F11"
+        },
+        {
+          "cell": "I11",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H11"
+        },
+        {
+          "cell": "K11",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D12",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C12"
+        },
+        {
+          "cell": "E12",
+          "formula": "=4952.11+972.08+10937.7"
+        },
+        {
+          "cell": "F12",
+          "formula": "=E12/(67.58+5.94)"
+        },
+        {
+          "cell": "G12",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F12"
+        },
+        {
+          "cell": "I12",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H12"
+        },
+        {
+          "cell": "K12",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D13",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C13"
+        },
+        {
+          "cell": "E13",
+          "formula": "=10629+18893.82+1587+2276.33+10937.7"
+        },
+        {
+          "cell": "F13",
+          "formula": "=E13/(67.58+5.94)"
+        },
+        {
+          "cell": "G13",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F13"
+        },
+        {
+          "cell": "I13",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H13"
+        },
+        {
+          "cell": "K13",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D14",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C14"
+        },
+        {
+          "cell": "E14",
+          "formula": "=5800+436.44"
+        },
+        {
+          "cell": "F14",
+          "formula": "=E14/(67.58+5.94)"
+        },
+        {
+          "cell": "G14",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F14"
+        },
+        {
+          "cell": "I14",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H14"
+        },
+        {
+          "cell": "K14",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D15",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C15"
+        },
+        {
+          "cell": "E15",
+          "formula": "=4066.14+6849.59+10937.7"
+        },
+        {
+          "cell": "F15",
+          "formula": "=E15/(67.58+5.94)"
+        },
+        {
+          "cell": "G15",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F15"
+        },
+        {
+          "cell": "I15",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H15"
+        },
+        {
+          "cell": "K15",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D16",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C16"
+        },
+        {
+          "cell": "E16",
+          "formula": "=4305.58+478.6+325.89+10937.7"
+        },
+        {
+          "cell": "F16",
+          "formula": "=E16/(67.58+5.94)"
+        },
+        {
+          "cell": "G16",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F16"
+        },
+        {
+          "cell": "D17",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C17"
+        },
+        {
+          "cell": "E17",
+          "formula": "=8900.4+85.56+2409.63+14.85+411.99+111.54+10937.7"
+        },
+        {
+          "cell": "F17",
+          "formula": "=E17/(67.58+5.94)"
+        },
+        {
+          "cell": "G17",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F17"
+        },
+        {
+          "cell": "I17",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H17"
+        },
+        {
+          "cell": "K17",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D18",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C18"
+        },
+        {
+          "cell": "E18",
+          "formula": "=279.89+515.25+111.41+99+51.52+9.9+10937.7"
+        },
+        {
+          "cell": "F18",
+          "formula": "=E18/(67.58+5.94)"
+        },
+        {
+          "cell": "G18",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F18"
+        },
+        {
+          "cell": "I18",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H18"
+        },
+        {
+          "cell": "K18",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D19",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C19"
+        },
+        {
+          "cell": "E19",
+          "formula": "=3160.92+221.81"
+        },
+        {
+          "cell": "F19",
+          "formula": "=E19/(67.58+5.94)"
+        },
+        {
+          "cell": "G19",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F19"
+        },
+        {
+          "cell": "I19",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H19"
+        },
+        {
+          "cell": "K19",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D20",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C20"
+        },
+        {
+          "cell": "E20",
+          "formula": "=4795.11+1431.72+10937.7"
+        },
+        {
+          "cell": "F20",
+          "formula": "=E20/(67.58+5.94)"
+        },
+        {
+          "cell": "G20",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F20"
+        },
+        {
+          "cell": "I20",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H20"
+        },
+        {
+          "cell": "K20",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D21",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C21"
+        },
+        {
+          "cell": "E21",
+          "formula": "=22539.48+19438.13"
+        },
+        {
+          "cell": "F21",
+          "formula": "=E21/(67.58+5.94)"
+        },
+        {
+          "cell": "G21",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F21"
+        },
+        {
+          "cell": "I21",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H21"
+        },
+        {
+          "cell": "K21",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D22",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C22"
+        },
+        {
+          "cell": "E22",
+          "formula": "=424.82+445.34+112.49+117.92"
+        },
+        {
+          "cell": "F22",
+          "formula": "=E22/(67.58+5.94)"
+        },
+        {
+          "cell": "G22",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F22"
+        },
+        {
+          "cell": "D23",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C23"
+        },
+        {
+          "cell": "E23",
+          "formula": "=5763.68+10937.7"
+        },
+        {
+          "cell": "F23",
+          "formula": "=E23/(67.58)"
+        },
+        {
+          "cell": "G23",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F23"
+        },
+        {
+          "cell": "I23",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H23"
+        },
+        {
+          "cell": "K23",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D24",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C24"
+        },
+        {
+          "cell": "E24",
+          "formula": "=6204.97+3351.21+10937.7"
+        },
+        {
+          "cell": "F24",
+          "formula": "=E24/(67.58+5.94)"
+        },
+        {
+          "cell": "G24",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F24"
+        },
+        {
+          "cell": "I24",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!I$4)*H24"
+        },
+        {
+          "cell": "K24",
+          "formula": "=ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!K$4"
+        },
+        {
+          "cell": "D25",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!D$4)*C25"
+        },
+        {
+          "cell": "G25",
+          "formula": "=(ORÇAMENTO_EXECUTIVO_EDIFICAÇÕES!$B$19/CÁLCULO_MÉDIAS!G$4)*F25"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "n_formulas_total": 278,
+    "cross_sheet_refs": 147,
+    "with_absolute_ref": 152,
+    "with_ac_ref": 94,
+    "with_constant": 42
+  },
+  "projeto": "estilo-condominios-estilo-condominios"
+}

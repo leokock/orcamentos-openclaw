@@ -1,0 +1,1146 @@
+{
+  "arquivo": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\SAK Engenharia\\CTN-SAK-AUS- Apresentação Orçamento - R00.xlsx",
+  "abas": [
+    {
+      "nome": "ORÇAMENTO_EXECUTIVO",
+      "n_formulas": 39,
+      "formulas_sample": [
+        {
+          "cell": "D3",
+          "formula": "=C3/C$20"
+        },
+        {
+          "cell": "E3",
+          "formula": "=C3/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D4",
+          "formula": "=C4/C$20"
+        },
+        {
+          "cell": "E4",
+          "formula": "=C4/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D5",
+          "formula": "=C5/C$20"
+        },
+        {
+          "cell": "E5",
+          "formula": "=C5/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D6",
+          "formula": "=C6/C$20"
+        },
+        {
+          "cell": "E6",
+          "formula": "=C6/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D7",
+          "formula": "=C7/C$20"
+        },
+        {
+          "cell": "E7",
+          "formula": "=C7/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D8",
+          "formula": "=C8/C$20"
+        },
+        {
+          "cell": "E8",
+          "formula": "=C8/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D9",
+          "formula": "=C9/C$20"
+        },
+        {
+          "cell": "E9",
+          "formula": "=C9/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D10",
+          "formula": "=C10/C$20"
+        },
+        {
+          "cell": "E10",
+          "formula": "=C10/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D11",
+          "formula": "=C11/C$20"
+        },
+        {
+          "cell": "E11",
+          "formula": "=C11/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D12",
+          "formula": "=C12/C$20"
+        },
+        {
+          "cell": "E12",
+          "formula": "=C12/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D13",
+          "formula": "=C13/C$20"
+        },
+        {
+          "cell": "E13",
+          "formula": "=C13/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D14",
+          "formula": "=C14/C$20"
+        },
+        {
+          "cell": "E14",
+          "formula": "=C14/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D15",
+          "formula": "=C15/C$20"
+        },
+        {
+          "cell": "E15",
+          "formula": "=C15/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D16",
+          "formula": "=C16/C$20"
+        },
+        {
+          "cell": "E16",
+          "formula": "=C16/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D17",
+          "formula": "=C17/C$20"
+        },
+        {
+          "cell": "E17",
+          "formula": "=C17/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "C18",
+          "formula": "=423584.9-C19"
+        },
+        {
+          "cell": "D18",
+          "formula": "=C18/C$20"
+        },
+        {
+          "cell": "E18",
+          "formula": "=C18/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "D19",
+          "formula": "=C19/C$20"
+        },
+        {
+          "cell": "E19",
+          "formula": "=C19/ORÇAMENTO_EXECUTIVO!H$3"
+        },
+        {
+          "cell": "C20",
+          "formula": "=SUM(C3:C19)"
+        },
+        {
+          "cell": "D20",
+          "formula": "=SUM(D3:D19)"
+        },
+        {
+          "cell": "E20",
+          "formula": "=SUM(E3:E19)"
+        },
+        {
+          "cell": "E21",
+          "formula": "=+E20/C21"
+        }
+      ]
+    },
+    {
+      "nome": "ANÁLISE_CUSTOS",
+      "n_formulas": 64,
+      "formulas_sample": [
+        {
+          "cell": "B4",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B4"
+        },
+        {
+          "cell": "C4",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C4"
+        },
+        {
+          "cell": "D4",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E4"
+        },
+        {
+          "cell": "E4",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L9,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M9,2,FALSE)"
+        },
+        {
+          "cell": "B5",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B5"
+        },
+        {
+          "cell": "C5",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C5"
+        },
+        {
+          "cell": "D5",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E5"
+        },
+        {
+          "cell": "E5",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L10,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M10,2,FALSE)"
+        },
+        {
+          "cell": "B6",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B6"
+        },
+        {
+          "cell": "C6",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C6"
+        },
+        {
+          "cell": "D6",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E6"
+        },
+        {
+          "cell": "E6",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L11,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M11,2,FALSE)"
+        },
+        {
+          "cell": "B7",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B7"
+        },
+        {
+          "cell": "C7",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C7"
+        },
+        {
+          "cell": "D7",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E7"
+        },
+        {
+          "cell": "E7",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L12,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M12,2,FALSE)"
+        },
+        {
+          "cell": "B8",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B8"
+        },
+        {
+          "cell": "C8",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C8"
+        },
+        {
+          "cell": "D8",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E8"
+        },
+        {
+          "cell": "E8",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L13,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M13,2,FALSE)"
+        },
+        {
+          "cell": "B9",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B9"
+        },
+        {
+          "cell": "C9",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C9"
+        },
+        {
+          "cell": "D9",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E9"
+        },
+        {
+          "cell": "E9",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L14,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M14,2,FALSE)"
+        },
+        {
+          "cell": "B10",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B10"
+        },
+        {
+          "cell": "C10",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C10"
+        },
+        {
+          "cell": "D10",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E10"
+        },
+        {
+          "cell": "E10",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L15,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M15,2,FALSE)"
+        },
+        {
+          "cell": "B11",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B11"
+        },
+        {
+          "cell": "C11",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C11"
+        },
+        {
+          "cell": "D11",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E11"
+        },
+        {
+          "cell": "E11",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L16,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M16,2,FALSE)"
+        },
+        {
+          "cell": "B12",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B12"
+        },
+        {
+          "cell": "C12",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C12"
+        },
+        {
+          "cell": "D12",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E12"
+        },
+        {
+          "cell": "E12",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L17,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M17,2,FALSE)"
+        },
+        {
+          "cell": "B13",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B13"
+        },
+        {
+          "cell": "C13",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C13"
+        },
+        {
+          "cell": "D13",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E13"
+        },
+        {
+          "cell": "E13",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L18,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M18,2,FALSE)"
+        },
+        {
+          "cell": "B14",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B14"
+        },
+        {
+          "cell": "C14",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C14"
+        },
+        {
+          "cell": "D14",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E14"
+        },
+        {
+          "cell": "E14",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L19,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M19,2,FALSE)"
+        },
+        {
+          "cell": "B15",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B15"
+        },
+        {
+          "cell": "C15",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C15"
+        },
+        {
+          "cell": "D15",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E15"
+        },
+        {
+          "cell": "E15",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L20,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M20,2,FALSE)"
+        },
+        {
+          "cell": "B16",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B16"
+        },
+        {
+          "cell": "C16",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C16"
+        },
+        {
+          "cell": "D16",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E16"
+        },
+        {
+          "cell": "E16",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L21,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M21,2,FALSE)"
+        },
+        {
+          "cell": "B17",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B17"
+        },
+        {
+          "cell": "C17",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C17"
+        },
+        {
+          "cell": "D17",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E17"
+        },
+        {
+          "cell": "E17",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L22,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M22,2,FALSE)"
+        },
+        {
+          "cell": "B18",
+          "formula": "=ORÇAMENTO_EXECUTIVO!B18"
+        },
+        {
+          "cell": "C18",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C18"
+        },
+        {
+          "cell": "D18",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E18"
+        },
+        {
+          "cell": "E18",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L23,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M23,2,FALSE)"
+        },
+        {
+          "cell": "C19",
+          "formula": "=SUM(C4:C18)"
+        },
+        {
+          "cell": "D19",
+          "formula": "=SUM(D4:D18)"
+        },
+        {
+          "cell": "E19",
+          "formula": "=FIXED(CÁLCULO_MÉDIAS!L24,2,FALSE)&\" \"&\"-\"&FIXED(CÁLCULO_MÉDIAS!M24,2,FALSE)"
+        },
+        {
+          "cell": "C25",
+          "formula": "=C24/C23"
+        }
+      ]
+    },
+    {
+      "nome": "CÁLCULO_MÉDIAS",
+      "n_formulas": 74,
+      "formulas_sample": [
+        {
+          "cell": "D8",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C8"
+        },
+        {
+          "cell": "F8",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E8"
+        },
+        {
+          "cell": "H8",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G8"
+        },
+        {
+          "cell": "J8",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I8"
+        },
+        {
+          "cell": "D9",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C9"
+        },
+        {
+          "cell": "F9",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E9"
+        },
+        {
+          "cell": "H9",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G9"
+        },
+        {
+          "cell": "J9",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I9"
+        },
+        {
+          "cell": "D10",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C10"
+        },
+        {
+          "cell": "F10",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E10"
+        },
+        {
+          "cell": "H10",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G10"
+        },
+        {
+          "cell": "J10",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I10"
+        },
+        {
+          "cell": "D11",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C11"
+        },
+        {
+          "cell": "F11",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E11"
+        },
+        {
+          "cell": "H11",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G11"
+        },
+        {
+          "cell": "J11",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I11"
+        },
+        {
+          "cell": "D12",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C12"
+        },
+        {
+          "cell": "F12",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E12"
+        },
+        {
+          "cell": "H12",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G12"
+        },
+        {
+          "cell": "J12",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I12"
+        },
+        {
+          "cell": "D13",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C13"
+        },
+        {
+          "cell": "F13",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E13"
+        },
+        {
+          "cell": "H13",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G13"
+        },
+        {
+          "cell": "J13",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I13"
+        },
+        {
+          "cell": "D14",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C14"
+        },
+        {
+          "cell": "F14",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E14"
+        },
+        {
+          "cell": "H14",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G14"
+        },
+        {
+          "cell": "J14",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I14"
+        },
+        {
+          "cell": "D15",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C15"
+        },
+        {
+          "cell": "F15",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E15"
+        },
+        {
+          "cell": "H15",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G15"
+        },
+        {
+          "cell": "J15",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I15"
+        },
+        {
+          "cell": "D16",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C16"
+        },
+        {
+          "cell": "F16",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E16"
+        },
+        {
+          "cell": "H16",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G16"
+        },
+        {
+          "cell": "J16",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I16"
+        },
+        {
+          "cell": "D17",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C17"
+        },
+        {
+          "cell": "F17",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E17"
+        },
+        {
+          "cell": "H17",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G17"
+        },
+        {
+          "cell": "J17",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I17"
+        },
+        {
+          "cell": "D18",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C18"
+        },
+        {
+          "cell": "F18",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E18"
+        },
+        {
+          "cell": "H18",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G18"
+        },
+        {
+          "cell": "J18",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I18"
+        },
+        {
+          "cell": "D19",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C19"
+        },
+        {
+          "cell": "F19",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E19"
+        },
+        {
+          "cell": "H19",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G19"
+        },
+        {
+          "cell": "J19",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I19"
+        },
+        {
+          "cell": "D20",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C20"
+        },
+        {
+          "cell": "F20",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E20"
+        },
+        {
+          "cell": "H20",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G20"
+        },
+        {
+          "cell": "J20",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I20"
+        },
+        {
+          "cell": "D21",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C21"
+        },
+        {
+          "cell": "F21",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E21"
+        },
+        {
+          "cell": "H21",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G21"
+        },
+        {
+          "cell": "J21",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I21"
+        },
+        {
+          "cell": "D22",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C22"
+        },
+        {
+          "cell": "F22",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E22"
+        },
+        {
+          "cell": "H22",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G22"
+        },
+        {
+          "cell": "J22",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I22"
+        },
+        {
+          "cell": "D23",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!D$4*C23"
+        },
+        {
+          "cell": "F23",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!F$4*E23"
+        },
+        {
+          "cell": "H23",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!H$4*G23"
+        },
+        {
+          "cell": "J23",
+          "formula": "=ORÇAMENTO_EXECUTIVO!$C$21/CÁLCULO_MÉDIAS!J$4*I23"
+        },
+        {
+          "cell": "C24",
+          "formula": "=SUM(C8:C23)"
+        },
+        {
+          "cell": "D24",
+          "formula": "=SUM(D8:D23)"
+        },
+        {
+          "cell": "E24",
+          "formula": "=SUM(E8:E23)"
+        },
+        {
+          "cell": "F24",
+          "formula": "=SUM(F8:F23)"
+        },
+        {
+          "cell": "G24",
+          "formula": "=SUM(G8:G23)"
+        },
+        {
+          "cell": "H24",
+          "formula": "=SUM(H8:H23)"
+        },
+        {
+          "cell": "I24",
+          "formula": "=SUM(I8:I23)"
+        },
+        {
+          "cell": "J24",
+          "formula": "=SUM(J8:J23)"
+        },
+        {
+          "cell": "L24",
+          "formula": "=SUM(L8:L23)"
+        },
+        {
+          "cell": "M24",
+          "formula": "=SUM(M8:M23)"
+        }
+      ]
+    },
+    {
+      "nome": "ORÇAMENTO_PARAMÉTRICO",
+      "n_formulas": 146,
+      "formulas_sample": [
+        {
+          "cell": "C4",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C3"
+        },
+        {
+          "cell": "D4",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E3"
+        },
+        {
+          "cell": "F4",
+          "formula": "=E4/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G4",
+          "formula": "=$C$22/$M$8*E4"
+        },
+        {
+          "cell": "H4",
+          "formula": "=$C$22/$M$8*F4"
+        },
+        {
+          "cell": "I4",
+          "formula": "=C4-G4"
+        },
+        {
+          "cell": "J4",
+          "formula": "=D4-H4"
+        },
+        {
+          "cell": "K4",
+          "formula": "=I4/C4"
+        },
+        {
+          "cell": "C5",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C4"
+        },
+        {
+          "cell": "D5",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E4"
+        },
+        {
+          "cell": "F5",
+          "formula": "=E5/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G5",
+          "formula": "=$C$22/$M$8*E5"
+        },
+        {
+          "cell": "H5",
+          "formula": "=$C$22/$M$8*F5"
+        },
+        {
+          "cell": "I5",
+          "formula": "=C5-G5"
+        },
+        {
+          "cell": "J5",
+          "formula": "=D5-H5"
+        },
+        {
+          "cell": "K5",
+          "formula": "=I5/C5"
+        },
+        {
+          "cell": "C6",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C5"
+        },
+        {
+          "cell": "D6",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E5"
+        },
+        {
+          "cell": "F6",
+          "formula": "=E6/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G6",
+          "formula": "=$C$22/$M$8*E6"
+        },
+        {
+          "cell": "H6",
+          "formula": "=$C$22/$M$8*F6"
+        },
+        {
+          "cell": "I6",
+          "formula": "=C6-G6"
+        },
+        {
+          "cell": "J6",
+          "formula": "=D6-H6"
+        },
+        {
+          "cell": "K6",
+          "formula": "=I6/C6"
+        },
+        {
+          "cell": "C7",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C6"
+        },
+        {
+          "cell": "D7",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E6"
+        },
+        {
+          "cell": "F7",
+          "formula": "=E7/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G7",
+          "formula": "=$C$22/$M$8*E7"
+        },
+        {
+          "cell": "H7",
+          "formula": "=$C$22/$M$8*F7"
+        },
+        {
+          "cell": "I7",
+          "formula": "=C7-G7"
+        },
+        {
+          "cell": "J7",
+          "formula": "=D7-H7"
+        },
+        {
+          "cell": "K7",
+          "formula": "=I7/C7"
+        },
+        {
+          "cell": "C8",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C7"
+        },
+        {
+          "cell": "D8",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E7"
+        },
+        {
+          "cell": "F8",
+          "formula": "=E8/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G8",
+          "formula": "=$C$22/$M$8*E8"
+        },
+        {
+          "cell": "H8",
+          "formula": "=$C$22/$M$8*F8"
+        },
+        {
+          "cell": "I8",
+          "formula": "=C8-G8"
+        },
+        {
+          "cell": "J8",
+          "formula": "=D8-H8"
+        },
+        {
+          "cell": "K8",
+          "formula": "=I8/C8"
+        },
+        {
+          "cell": "C9",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C8"
+        },
+        {
+          "cell": "D9",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E8"
+        },
+        {
+          "cell": "F9",
+          "formula": "=E9/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G9",
+          "formula": "=$C$22/$M$8*E9"
+        },
+        {
+          "cell": "H9",
+          "formula": "=$C$22/$M$8*F9"
+        },
+        {
+          "cell": "I9",
+          "formula": "=C9-G9"
+        },
+        {
+          "cell": "J9",
+          "formula": "=D9-H9"
+        },
+        {
+          "cell": "K9",
+          "formula": "=I9/C9"
+        },
+        {
+          "cell": "C10",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C9"
+        },
+        {
+          "cell": "D10",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E9"
+        },
+        {
+          "cell": "F10",
+          "formula": "=E10/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G10",
+          "formula": "=$C$22/$M$8*E10"
+        },
+        {
+          "cell": "H10",
+          "formula": "=$C$22/$M$8*F10"
+        },
+        {
+          "cell": "I10",
+          "formula": "=C10-G10"
+        },
+        {
+          "cell": "J10",
+          "formula": "=D10-H10"
+        },
+        {
+          "cell": "K10",
+          "formula": "=I10/C10"
+        },
+        {
+          "cell": "C11",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C10"
+        },
+        {
+          "cell": "D11",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E10"
+        },
+        {
+          "cell": "F11",
+          "formula": "=E11/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G11",
+          "formula": "=$C$22/$M$8*E11"
+        },
+        {
+          "cell": "H11",
+          "formula": "=$C$22/$M$8*F11"
+        },
+        {
+          "cell": "I11",
+          "formula": "=C11-G11"
+        },
+        {
+          "cell": "J11",
+          "formula": "=D11-H11"
+        },
+        {
+          "cell": "K11",
+          "formula": "=I11/C11"
+        },
+        {
+          "cell": "C12",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C11"
+        },
+        {
+          "cell": "D12",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E11"
+        },
+        {
+          "cell": "F12",
+          "formula": "=E12/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G12",
+          "formula": "=$C$22/$M$8*E12"
+        },
+        {
+          "cell": "H12",
+          "formula": "=$C$22/$M$8*F12"
+        },
+        {
+          "cell": "I12",
+          "formula": "=C12-G12"
+        },
+        {
+          "cell": "J12",
+          "formula": "=D12-H12"
+        },
+        {
+          "cell": "K12",
+          "formula": "=I12/C12"
+        },
+        {
+          "cell": "C13",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C12"
+        },
+        {
+          "cell": "D13",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E12"
+        },
+        {
+          "cell": "F13",
+          "formula": "=E13/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G13",
+          "formula": "=$C$22/$M$8*E13"
+        },
+        {
+          "cell": "H13",
+          "formula": "=$C$22/$M$8*F13"
+        },
+        {
+          "cell": "I13",
+          "formula": "=C13-G13"
+        },
+        {
+          "cell": "J13",
+          "formula": "=D13-H13"
+        },
+        {
+          "cell": "K13",
+          "formula": "=I13/C13"
+        },
+        {
+          "cell": "C14",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C13"
+        },
+        {
+          "cell": "D14",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E13"
+        },
+        {
+          "cell": "F14",
+          "formula": "=E14/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G14",
+          "formula": "=$C$22/$M$8*E14"
+        },
+        {
+          "cell": "H14",
+          "formula": "=$C$22/$M$8*F14"
+        },
+        {
+          "cell": "I14",
+          "formula": "=C14-G14"
+        },
+        {
+          "cell": "J14",
+          "formula": "=D14-H14"
+        },
+        {
+          "cell": "K14",
+          "formula": "=I14/C14"
+        },
+        {
+          "cell": "C15",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C14"
+        },
+        {
+          "cell": "D15",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E14"
+        },
+        {
+          "cell": "F15",
+          "formula": "=E15/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G15",
+          "formula": "=$C$22/$M$8*E15"
+        },
+        {
+          "cell": "H15",
+          "formula": "=$C$22/$M$8*F15"
+        },
+        {
+          "cell": "I15",
+          "formula": "=C15-G15"
+        },
+        {
+          "cell": "J15",
+          "formula": "=D15-H15"
+        },
+        {
+          "cell": "K15",
+          "formula": "=I15/C15"
+        },
+        {
+          "cell": "C16",
+          "formula": "=ORÇAMENTO_EXECUTIVO!C15"
+        },
+        {
+          "cell": "D16",
+          "formula": "=ORÇAMENTO_EXECUTIVO!E15"
+        },
+        {
+          "cell": "F16",
+          "formula": "=E16/ORÇAMENTO_PARAMÉTRICO!M$4"
+        },
+        {
+          "cell": "G16",
+          "formula": "=$C$22/$M$8*E16"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "n_formulas_total": 323,
+    "cross_sheet_refs": 193,
+    "with_absolute_ref": 145,
+    "with_ac_ref": 94,
+    "with_constant": 2
+  },
+  "projeto": "sak-engenharia"
+}

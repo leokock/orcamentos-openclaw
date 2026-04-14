@@ -1,0 +1,636 @@
+{
+  "arquivo": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\Inbrasul\\Aguas de Março\\CTN-INB-AGM-Apresentação Orçamento - R03.xlsx",
+  "abas": [
+    {
+      "nome": "Orçamento Resumo",
+      "n_formulas": 39,
+      "formulas_sample": [
+        {
+          "cell": "C2",
+          "formula": "=+B2/$B$18"
+        },
+        {
+          "cell": "D2",
+          "formula": "=B2/$H$5"
+        },
+        {
+          "cell": "C3",
+          "formula": "=+B3/$B$18"
+        },
+        {
+          "cell": "D3",
+          "formula": "=B3/$H$5"
+        },
+        {
+          "cell": "B4",
+          "formula": "=976981.35-B3"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+B4/$B$18"
+        },
+        {
+          "cell": "D4",
+          "formula": "=B4/$H$5"
+        },
+        {
+          "cell": "C5",
+          "formula": "=+B5/$B$18"
+        },
+        {
+          "cell": "D5",
+          "formula": "=B5/$H$5"
+        },
+        {
+          "cell": "C6",
+          "formula": "=+B6/$B$18"
+        },
+        {
+          "cell": "D6",
+          "formula": "=B6/$H$5"
+        },
+        {
+          "cell": "C7",
+          "formula": "=+B7/$B$18"
+        },
+        {
+          "cell": "D7",
+          "formula": "=B7/$H$5"
+        },
+        {
+          "cell": "C8",
+          "formula": "=+B8/$B$18"
+        },
+        {
+          "cell": "D8",
+          "formula": "=B8/$H$5"
+        },
+        {
+          "cell": "C9",
+          "formula": "=+B9/$B$18"
+        },
+        {
+          "cell": "D9",
+          "formula": "=B9/$H$5"
+        },
+        {
+          "cell": "C10",
+          "formula": "=+B10/$B$18"
+        },
+        {
+          "cell": "D10",
+          "formula": "=B10/$H$5"
+        },
+        {
+          "cell": "C11",
+          "formula": "=+B11/$B$18"
+        },
+        {
+          "cell": "D11",
+          "formula": "=B11/$H$5"
+        },
+        {
+          "cell": "C12",
+          "formula": "=+B12/$B$18"
+        },
+        {
+          "cell": "D12",
+          "formula": "=B12/$H$5"
+        },
+        {
+          "cell": "F12",
+          "formula": "=180*1.1"
+        },
+        {
+          "cell": "C13",
+          "formula": "=+B13/$B$18"
+        },
+        {
+          "cell": "D13",
+          "formula": "=B13/$H$5"
+        },
+        {
+          "cell": "F13",
+          "formula": "=220*1.1"
+        },
+        {
+          "cell": "C14",
+          "formula": "=+B14/$B$18"
+        },
+        {
+          "cell": "D14",
+          "formula": "=B14/$H$5"
+        },
+        {
+          "cell": "C15",
+          "formula": "=+B15/$B$18"
+        },
+        {
+          "cell": "D15",
+          "formula": "=B15/$H$5"
+        },
+        {
+          "cell": "C16",
+          "formula": "=+B16/$B$18"
+        },
+        {
+          "cell": "D16",
+          "formula": "=B16/$H$5"
+        },
+        {
+          "cell": "C17",
+          "formula": "=+B17/$B$18"
+        },
+        {
+          "cell": "D17",
+          "formula": "=B17/$H$5"
+        },
+        {
+          "cell": "B18",
+          "formula": "=SUM(B2:B17)"
+        },
+        {
+          "cell": "C18",
+          "formula": "=SUM(C2:C17)"
+        },
+        {
+          "cell": "D18",
+          "formula": "=SUM(D2:D17)"
+        },
+        {
+          "cell": "D19",
+          "formula": "=+D18/B19"
+        }
+      ]
+    },
+    {
+      "nome": "Análise custos",
+      "n_formulas": 33,
+      "formulas_sample": [
+        {
+          "cell": "A2",
+          "formula": "='Orçamento Resumo'!A3"
+        },
+        {
+          "cell": "B2",
+          "formula": "='Orçamento Resumo'!D3"
+        },
+        {
+          "cell": "A3",
+          "formula": "='Orçamento Resumo'!A4"
+        },
+        {
+          "cell": "B3",
+          "formula": "='Orçamento Resumo'!D4"
+        },
+        {
+          "cell": "A4",
+          "formula": "='Orçamento Resumo'!A5"
+        },
+        {
+          "cell": "B4",
+          "formula": "='Orçamento Resumo'!D5"
+        },
+        {
+          "cell": "A5",
+          "formula": "='Orçamento Resumo'!A6"
+        },
+        {
+          "cell": "B5",
+          "formula": "='Orçamento Resumo'!D6"
+        },
+        {
+          "cell": "A6",
+          "formula": "='Orçamento Resumo'!A7"
+        },
+        {
+          "cell": "B6",
+          "formula": "='Orçamento Resumo'!D7"
+        },
+        {
+          "cell": "A7",
+          "formula": "='Orçamento Resumo'!A8"
+        },
+        {
+          "cell": "B7",
+          "formula": "='Orçamento Resumo'!D8"
+        },
+        {
+          "cell": "A8",
+          "formula": "='Orçamento Resumo'!A9"
+        },
+        {
+          "cell": "B8",
+          "formula": "='Orçamento Resumo'!D9"
+        },
+        {
+          "cell": "A9",
+          "formula": "='Orçamento Resumo'!A10"
+        },
+        {
+          "cell": "B9",
+          "formula": "='Orçamento Resumo'!D10"
+        },
+        {
+          "cell": "A10",
+          "formula": "='Orçamento Resumo'!A11"
+        },
+        {
+          "cell": "B10",
+          "formula": "='Orçamento Resumo'!D11"
+        },
+        {
+          "cell": "A11",
+          "formula": "='Orçamento Resumo'!A12"
+        },
+        {
+          "cell": "B11",
+          "formula": "='Orçamento Resumo'!D12"
+        },
+        {
+          "cell": "A12",
+          "formula": "='Orçamento Resumo'!A13"
+        },
+        {
+          "cell": "B12",
+          "formula": "='Orçamento Resumo'!D13"
+        },
+        {
+          "cell": "A13",
+          "formula": "='Orçamento Resumo'!A14"
+        },
+        {
+          "cell": "B13",
+          "formula": "='Orçamento Resumo'!D14"
+        },
+        {
+          "cell": "A14",
+          "formula": "='Orçamento Resumo'!A15"
+        },
+        {
+          "cell": "B14",
+          "formula": "='Orçamento Resumo'!D15"
+        },
+        {
+          "cell": "A15",
+          "formula": "='Orçamento Resumo'!A16"
+        },
+        {
+          "cell": "B15",
+          "formula": "='Orçamento Resumo'!D16"
+        },
+        {
+          "cell": "A16",
+          "formula": "='Orçamento Resumo'!A17"
+        },
+        {
+          "cell": "B16",
+          "formula": "='Orçamento Resumo'!D17"
+        },
+        {
+          "cell": "B17",
+          "formula": "=SUM(B2:B16)"
+        },
+        {
+          "cell": "D17",
+          "formula": "=SUM(D2:D16)"
+        },
+        {
+          "cell": "E17",
+          "formula": "=SUM(E2:E16)"
+        }
+      ]
+    },
+    {
+      "nome": "Planilha2",
+      "n_formulas": 79,
+      "formulas_sample": [
+        {
+          "cell": "N3",
+          "formula": "=M3/L3"
+        },
+        {
+          "cell": "D4",
+          "formula": "=C4*$N$3"
+        },
+        {
+          "cell": "E4",
+          "formula": "=D4/$D$2"
+        },
+        {
+          "cell": "H4",
+          "formula": "=G4*$N$3"
+        },
+        {
+          "cell": "I4",
+          "formula": "=H4/$H$2"
+        },
+        {
+          "cell": "D5",
+          "formula": "=C5*$N$3"
+        },
+        {
+          "cell": "E5",
+          "formula": "=D5/$D$2"
+        },
+        {
+          "cell": "H5",
+          "formula": "=G5*$N$3"
+        },
+        {
+          "cell": "I5",
+          "formula": "=H5/$H$2"
+        },
+        {
+          "cell": "D6",
+          "formula": "=C6*$N$3"
+        },
+        {
+          "cell": "E6",
+          "formula": "=D6/$D$2"
+        },
+        {
+          "cell": "H6",
+          "formula": "=G6*$N$3"
+        },
+        {
+          "cell": "I6",
+          "formula": "=H6/$H$2"
+        },
+        {
+          "cell": "D7",
+          "formula": "=C7*$N$3"
+        },
+        {
+          "cell": "E7",
+          "formula": "=D7/$D$2"
+        },
+        {
+          "cell": "H7",
+          "formula": "=G7*$N$3"
+        },
+        {
+          "cell": "I7",
+          "formula": "=H7/$H$2"
+        },
+        {
+          "cell": "D8",
+          "formula": "=C8*$N$3"
+        },
+        {
+          "cell": "E8",
+          "formula": "=D8/$D$2"
+        },
+        {
+          "cell": "H8",
+          "formula": "=G8*$N$3"
+        },
+        {
+          "cell": "I8",
+          "formula": "=H8/$H$2"
+        },
+        {
+          "cell": "D9",
+          "formula": "=C9*$N$3"
+        },
+        {
+          "cell": "E9",
+          "formula": "=D9/$D$2"
+        },
+        {
+          "cell": "H9",
+          "formula": "=G9*$N$3"
+        },
+        {
+          "cell": "I9",
+          "formula": "=H9/$H$2"
+        },
+        {
+          "cell": "D10",
+          "formula": "=C10*$N$3"
+        },
+        {
+          "cell": "E10",
+          "formula": "=D10/$D$2"
+        },
+        {
+          "cell": "H10",
+          "formula": "=G10*$N$3"
+        },
+        {
+          "cell": "I10",
+          "formula": "=H10/$H$2"
+        },
+        {
+          "cell": "D11",
+          "formula": "=C11*$N$3"
+        },
+        {
+          "cell": "E11",
+          "formula": "=D11/$D$2"
+        },
+        {
+          "cell": "H11",
+          "formula": "=G11*$N$3"
+        },
+        {
+          "cell": "I11",
+          "formula": "=H11/$H$2"
+        },
+        {
+          "cell": "D12",
+          "formula": "=C12*$N$3"
+        },
+        {
+          "cell": "E12",
+          "formula": "=D12/$D$2"
+        },
+        {
+          "cell": "H12",
+          "formula": "=G12*$N$3"
+        },
+        {
+          "cell": "I12",
+          "formula": "=H12/$H$2"
+        },
+        {
+          "cell": "D13",
+          "formula": "=C13*$N$3"
+        },
+        {
+          "cell": "E13",
+          "formula": "=D13/$D$2"
+        },
+        {
+          "cell": "H13",
+          "formula": "=G13*$N$3"
+        },
+        {
+          "cell": "I13",
+          "formula": "=H13/$H$2"
+        },
+        {
+          "cell": "D14",
+          "formula": "=C14*$N$3"
+        },
+        {
+          "cell": "E14",
+          "formula": "=D14/$D$2"
+        },
+        {
+          "cell": "H14",
+          "formula": "=G14*$N$3"
+        },
+        {
+          "cell": "I14",
+          "formula": "=H14/$H$2"
+        },
+        {
+          "cell": "D15",
+          "formula": "=C15*$N$3"
+        },
+        {
+          "cell": "E15",
+          "formula": "=D15/$D$2"
+        },
+        {
+          "cell": "H15",
+          "formula": "=G15*$N$3"
+        },
+        {
+          "cell": "I15",
+          "formula": "=H15/$H$2"
+        },
+        {
+          "cell": "D16",
+          "formula": "=C16*$N$3"
+        },
+        {
+          "cell": "E16",
+          "formula": "=D16/$D$2"
+        },
+        {
+          "cell": "H16",
+          "formula": "=G16*$N$3"
+        },
+        {
+          "cell": "I16",
+          "formula": "=H16/$H$2"
+        },
+        {
+          "cell": "D17",
+          "formula": "=C17*$N$3"
+        },
+        {
+          "cell": "E17",
+          "formula": "=D17/$D$2"
+        },
+        {
+          "cell": "H17",
+          "formula": "=G17*$N$3"
+        },
+        {
+          "cell": "I17",
+          "formula": "=H17/$H$2"
+        },
+        {
+          "cell": "D18",
+          "formula": "=C18*$N$3"
+        },
+        {
+          "cell": "E18",
+          "formula": "=D18/$D$2"
+        },
+        {
+          "cell": "H18",
+          "formula": "=G18*$N$3"
+        },
+        {
+          "cell": "I18",
+          "formula": "=H18/$H$2"
+        },
+        {
+          "cell": "D19",
+          "formula": "=C19*$N$3"
+        },
+        {
+          "cell": "E19",
+          "formula": "=D19/$D$2"
+        },
+        {
+          "cell": "H19",
+          "formula": "=G19*$N$3"
+        },
+        {
+          "cell": "I19",
+          "formula": "=H19/$H$2"
+        },
+        {
+          "cell": "D20",
+          "formula": "=C20*$N$3"
+        },
+        {
+          "cell": "E20",
+          "formula": "=D20/$D$2"
+        },
+        {
+          "cell": "H20",
+          "formula": "=G20*$N$3"
+        },
+        {
+          "cell": "I20",
+          "formula": "=H20/$H$2"
+        },
+        {
+          "cell": "D21",
+          "formula": "=C21*$N$3"
+        },
+        {
+          "cell": "E21",
+          "formula": "=D21/$D$2"
+        },
+        {
+          "cell": "H21",
+          "formula": "=G21*$N$3"
+        },
+        {
+          "cell": "I21",
+          "formula": "=H21/$H$2"
+        },
+        {
+          "cell": "C25",
+          "formula": "=SUM(C23:C24)"
+        },
+        {
+          "cell": "D25",
+          "formula": "=C25*$N$3"
+        },
+        {
+          "cell": "E25",
+          "formula": "=D25/$D$2"
+        },
+        {
+          "cell": "G25",
+          "formula": "=SUM(G23:G24)"
+        },
+        {
+          "cell": "H25",
+          "formula": "=G25*$N$3"
+        },
+        {
+          "cell": "I25",
+          "formula": "=H25/$H$2"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "n_formulas_total": 151,
+    "cross_sheet_refs": 30,
+    "with_absolute_ref": 108,
+    "with_ac_ref": 108,
+    "with_constant": 2
+  },
+  "projeto": "inbrasul-aguas-de-marco"
+}

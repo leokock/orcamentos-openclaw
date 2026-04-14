@@ -1,0 +1,58 @@
+{
+  "arquivo": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\Indepy\\Stella Marina\\Orçamento  Executivo Cartesian - devolutiva cartesian.xlsx",
+  "abas": [
+    {
+      "nome": "Relatório",
+      "n_formulas": 1,
+      "formulas_sample": [
+        {
+          "cell": "AC434",
+          "formula": "=23661252.34-7764766.15"
+        }
+      ]
+    },
+    {
+      "nome": "Orçamento - comparativo ",
+      "n_formulas": 7,
+      "formulas_sample": [
+        {
+          "cell": "AF47",
+          "formula": "=ROUNDUP(Q46/8,)"
+        },
+        {
+          "cell": "AF48",
+          "formula": "=AF47*3"
+        },
+        {
+          "cell": "AT178",
+          "formula": "=AC156+AC96+AC69+AC47+AC15"
+        },
+        {
+          "cell": "AW178",
+          "formula": "=#REF!-AT178"
+        },
+        {
+          "cell": "AY178",
+          "formula": "=#REF!-AW178"
+        },
+        {
+          "cell": "Q278",
+          "formula": "=(4.94+9.74+9.59+5.45+29.84)*3"
+        },
+        {
+          "cell": "AC560",
+          "formula": "=23661252.34-7764766.15"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "n_formulas_total": 8,
+    "cross_sheet_refs": 2,
+    "with_absolute_ref": 0,
+    "with_ac_ref": 0,
+    "with_constant": 5
+  },
+  "projeto": "indepy-stella-marina"
+}

@@ -1,0 +1,1652 @@
+{
+  "arquivo": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\Nova Empreendimentos\\Evora\\CTN-NOV-EVR -Orçamento comentado-R04.xlsx",
+  "abas": [
+    {
+      "nome": "OBRA",
+      "n_formulas": 1,
+      "formulas_sample": [
+        {
+          "cell": "D11",
+          "formula": "=5*7+2"
+        }
+      ]
+    },
+    {
+      "nome": "EPC's",
+      "n_formulas": 13,
+      "formulas_sample": [
+        {
+          "cell": "D14",
+          "formula": "=D11*D12"
+        },
+        {
+          "cell": "D15",
+          "formula": "=D11*D13"
+        },
+        {
+          "cell": "D20",
+          "formula": "=D11"
+        },
+        {
+          "cell": "D22",
+          "formula": "=(D20*D21)"
+        },
+        {
+          "cell": "D27",
+          "formula": "=D11*(18.9-3.42)"
+        },
+        {
+          "cell": "D28",
+          "formula": "=D27"
+        },
+        {
+          "cell": "D33",
+          "formula": "=0.9*2.4"
+        },
+        {
+          "cell": "D36",
+          "formula": "=D33*D35"
+        },
+        {
+          "cell": "D41",
+          "formula": "=5*3.04+38.89"
+        },
+        {
+          "cell": "D42",
+          "formula": "=D41"
+        },
+        {
+          "cell": "D49",
+          "formula": "=D48*D47"
+        },
+        {
+          "cell": "D55",
+          "formula": "=2.02*2.41"
+        },
+        {
+          "cell": "D57",
+          "formula": "=D56*D55"
+        }
+      ]
+    },
+    {
+      "nome": "ORÇAMENTO_EXECUTIVO_COMENTADO",
+      "n_formulas": 2501,
+      "formulas_sample": [
+        {
+          "cell": "B4",
+          "formula": "=CAPA!B3"
+        },
+        {
+          "cell": "F8",
+          "formula": "=F9+F15"
+        },
+        {
+          "cell": "F9",
+          "formula": "=F10"
+        },
+        {
+          "cell": "F10",
+          "formula": "=F11"
+        },
+        {
+          "cell": "F11",
+          "formula": "=SUM(F12:F14)"
+        },
+        {
+          "cell": "F12",
+          "formula": "=E12*D12"
+        },
+        {
+          "cell": "F13",
+          "formula": "=E13*D13"
+        },
+        {
+          "cell": "F14",
+          "formula": "=E14*D14"
+        },
+        {
+          "cell": "F15",
+          "formula": "=F16+F19+F22+F26+F56"
+        },
+        {
+          "cell": "F16",
+          "formula": "=F17"
+        },
+        {
+          "cell": "F17",
+          "formula": "=SUM(F18)"
+        },
+        {
+          "cell": "F18",
+          "formula": "=E18*D18"
+        },
+        {
+          "cell": "F19",
+          "formula": "=F20"
+        },
+        {
+          "cell": "F20",
+          "formula": "=F21"
+        },
+        {
+          "cell": "F21",
+          "formula": "=E21*D21"
+        },
+        {
+          "cell": "F22",
+          "formula": "=F23"
+        },
+        {
+          "cell": "F23",
+          "formula": "=SUM(F24:F25)"
+        },
+        {
+          "cell": "F24",
+          "formula": "=E24*D24"
+        },
+        {
+          "cell": "F25",
+          "formula": "=E25*D25"
+        },
+        {
+          "cell": "F26",
+          "formula": "=F27+F29+F31+F47"
+        },
+        {
+          "cell": "F27",
+          "formula": "=F28"
+        },
+        {
+          "cell": "F28",
+          "formula": "=E28*D28"
+        },
+        {
+          "cell": "F29",
+          "formula": "=F30"
+        },
+        {
+          "cell": "F30",
+          "formula": "=E30*D30"
+        },
+        {
+          "cell": "F31",
+          "formula": "=SUM(F32:F46)"
+        },
+        {
+          "cell": "F32",
+          "formula": "=E32*D32"
+        },
+        {
+          "cell": "F33",
+          "formula": "=E33*D33"
+        },
+        {
+          "cell": "E34",
+          "formula": "=49260-E35"
+        },
+        {
+          "cell": "F34",
+          "formula": "=E34*D34"
+        },
+        {
+          "cell": "F35",
+          "formula": "=E35*D35"
+        },
+        {
+          "cell": "F36",
+          "formula": "=E36*D36"
+        },
+        {
+          "cell": "E37",
+          "formula": "=80000-E43"
+        },
+        {
+          "cell": "F37",
+          "formula": "=E37*D37"
+        },
+        {
+          "cell": "F38",
+          "formula": "=E38*D38"
+        },
+        {
+          "cell": "F39",
+          "formula": "=E39*D39"
+        },
+        {
+          "cell": "F40",
+          "formula": "=E40*D40"
+        },
+        {
+          "cell": "F41",
+          "formula": "=E41*D41"
+        },
+        {
+          "cell": "F42",
+          "formula": "=E42*D42"
+        },
+        {
+          "cell": "F43",
+          "formula": "=E43*D43"
+        },
+        {
+          "cell": "F44",
+          "formula": "=E44*D44"
+        },
+        {
+          "cell": "F45",
+          "formula": "=E45*D45"
+        },
+        {
+          "cell": "F46",
+          "formula": "=E46*D46"
+        },
+        {
+          "cell": "F47",
+          "formula": "=SUM(F48:F55)"
+        },
+        {
+          "cell": "F48",
+          "formula": "=E48*D48"
+        },
+        {
+          "cell": "F49",
+          "formula": "=E49*D49"
+        },
+        {
+          "cell": "D50",
+          "formula": "=OBRA!D12"
+        },
+        {
+          "cell": "F50",
+          "formula": "=E50*D50"
+        },
+        {
+          "cell": "F51",
+          "formula": "=E51*D51"
+        },
+        {
+          "cell": "D52",
+          "formula": "=OBRA!D12"
+        },
+        {
+          "cell": "F52",
+          "formula": "=E52*D52"
+        },
+        {
+          "cell": "F53",
+          "formula": "=E53*D53"
+        },
+        {
+          "cell": "F54",
+          "formula": "=E54*D54"
+        },
+        {
+          "cell": "F55",
+          "formula": "=E55*D55"
+        },
+        {
+          "cell": "F56",
+          "formula": "=F59+F66+F57"
+        },
+        {
+          "cell": "F57",
+          "formula": "=F58"
+        },
+        {
+          "cell": "F58",
+          "formula": "=E58*D58"
+        },
+        {
+          "cell": "F59",
+          "formula": "=SUM(F60:F65)"
+        },
+        {
+          "cell": "F60",
+          "formula": "=E60*D60"
+        },
+        {
+          "cell": "F61",
+          "formula": "=E61*D61"
+        },
+        {
+          "cell": "F62",
+          "formula": "=E62*D62"
+        },
+        {
+          "cell": "F63",
+          "formula": "=E63*D63"
+        },
+        {
+          "cell": "F64",
+          "formula": "=E64*D64"
+        },
+        {
+          "cell": "F65",
+          "formula": "=E65*D65"
+        },
+        {
+          "cell": "F66",
+          "formula": "=SUM(F67:F71)"
+        },
+        {
+          "cell": "F67",
+          "formula": "=E67*D67"
+        },
+        {
+          "cell": "F68",
+          "formula": "=E68*D68"
+        },
+        {
+          "cell": "F69",
+          "formula": "=E69*D69"
+        },
+        {
+          "cell": "F70",
+          "formula": "=E70*D70"
+        },
+        {
+          "cell": "F71",
+          "formula": "=E71*D71"
+        },
+        {
+          "cell": "F72",
+          "formula": "=F73+F120+F145+F169+F194+F392+F480+F590+F673+F677+F720+F728+F735+F882+F968+F976+F1058+F1120+F1141+F1333+F1376+F1402+F1427+F1455+F1459"
+        },
+        {
+          "cell": "F73",
+          "formula": "=F74+F77+F89+F99+F102+F105"
+        },
+        {
+          "cell": "F74",
+          "formula": "=SUM(F75:F76)"
+        },
+        {
+          "cell": "F75",
+          "formula": "=E75*D75"
+        },
+        {
+          "cell": "F76",
+          "formula": "=E76*D76"
+        },
+        {
+          "cell": "F77",
+          "formula": "=F78+F80+F87"
+        },
+        {
+          "cell": "F78",
+          "formula": "=F79"
+        },
+        {
+          "cell": "E79",
+          "formula": "=F79/D79"
+        },
+        {
+          "cell": "F80",
+          "formula": "=SUM(F81:F86)"
+        },
+        {
+          "cell": "F81",
+          "formula": "=E81*D81"
+        },
+        {
+          "cell": "F82",
+          "formula": "=E82*D82"
+        },
+        {
+          "cell": "F83",
+          "formula": "=E83*D83"
+        },
+        {
+          "cell": "F84",
+          "formula": "=E84*D84"
+        },
+        {
+          "cell": "F85",
+          "formula": "=E85*D85"
+        },
+        {
+          "cell": "F86",
+          "formula": "=E86*D86"
+        },
+        {
+          "cell": "F87",
+          "formula": "=F88"
+        },
+        {
+          "cell": "F88",
+          "formula": "=E88*D88"
+        },
+        {
+          "cell": "F89",
+          "formula": "=F90"
+        },
+        {
+          "cell": "F90",
+          "formula": "=SUM(F91:F98)"
+        },
+        {
+          "cell": "F91",
+          "formula": "=E91*D91"
+        },
+        {
+          "cell": "F92",
+          "formula": "=E92*D92"
+        },
+        {
+          "cell": "F93",
+          "formula": "=E93*D93"
+        },
+        {
+          "cell": "F94",
+          "formula": "=E94*D94"
+        },
+        {
+          "cell": "F95",
+          "formula": "=E95*D95"
+        },
+        {
+          "cell": "F96",
+          "formula": "=E96*D96"
+        },
+        {
+          "cell": "F97",
+          "formula": "=E97*D97"
+        },
+        {
+          "cell": "F98",
+          "formula": "=E98*D98"
+        },
+        {
+          "cell": "F99",
+          "formula": "=F100"
+        },
+        {
+          "cell": "F100",
+          "formula": "=F101"
+        },
+        {
+          "cell": "F101",
+          "formula": "=E101*D101"
+        },
+        {
+          "cell": "F102",
+          "formula": "=F103"
+        }
+      ]
+    },
+    {
+      "nome": "ESCAVAÇÕES",
+      "n_formulas": 20,
+      "formulas_sample": [
+        {
+          "cell": "C13",
+          "formula": "=499*0.4"
+        },
+        {
+          "cell": "D13",
+          "formula": "=C13*1.3"
+        },
+        {
+          "cell": "E13",
+          "formula": "=C13-D13"
+        },
+        {
+          "cell": "G13",
+          "formula": "=F13*0.1"
+        },
+        {
+          "cell": "C14",
+          "formula": "=SUM(C10:C13)"
+        },
+        {
+          "cell": "D14",
+          "formula": "=SUM(D9:D13)"
+        },
+        {
+          "cell": "E14",
+          "formula": "=SUM(E10:E13)"
+        },
+        {
+          "cell": "F14",
+          "formula": "=SUM(F9:F13)"
+        },
+        {
+          "cell": "G14",
+          "formula": "=SUM(G9:G13)"
+        },
+        {
+          "cell": "E15",
+          "formula": "=C15"
+        },
+        {
+          "cell": "C17",
+          "formula": "=SUM(C15:C16)"
+        },
+        {
+          "cell": "D17",
+          "formula": "=SUM(D15:D16)"
+        },
+        {
+          "cell": "E17",
+          "formula": "=SUM(E15:E16)"
+        },
+        {
+          "cell": "F17",
+          "formula": "=SUM(F15:F16)"
+        },
+        {
+          "cell": "G17",
+          "formula": "=SUM(G15:G16)"
+        },
+        {
+          "cell": "C18",
+          "formula": "=C14+C17"
+        },
+        {
+          "cell": "D18",
+          "formula": "=D14+D17"
+        },
+        {
+          "cell": "E18",
+          "formula": "=E14+E17"
+        },
+        {
+          "cell": "F18",
+          "formula": "=F14+F17"
+        },
+        {
+          "cell": "G18",
+          "formula": "=G14+G17"
+        }
+      ]
+    },
+    {
+      "nome": "INFRAESTRUTURA",
+      "n_formulas": 173,
+      "formulas_sample": [
+        {
+          "cell": "I15",
+          "formula": "=1.2*31.47"
+        },
+        {
+          "cell": "K15",
+          "formula": "=I15/3"
+        },
+        {
+          "cell": "L15",
+          "formula": "=I15*5"
+        },
+        {
+          "cell": "I16",
+          "formula": "=1.2*42.72"
+        },
+        {
+          "cell": "K16",
+          "formula": "=I16/3"
+        },
+        {
+          "cell": "L16",
+          "formula": "=I16*5"
+        },
+        {
+          "cell": "B17",
+          "formula": "=SUM(B15:B16)"
+        },
+        {
+          "cell": "C17",
+          "formula": "=SUM(C15:C16)"
+        },
+        {
+          "cell": "D17",
+          "formula": "=SUM(D15:D16)"
+        },
+        {
+          "cell": "E17",
+          "formula": "=SUM(E15:E16)"
+        },
+        {
+          "cell": "F17",
+          "formula": "=SUM(F15:F16)"
+        },
+        {
+          "cell": "G17",
+          "formula": "=SUM(G15:G16)"
+        },
+        {
+          "cell": "H17",
+          "formula": "=SUM(H15:H16)"
+        },
+        {
+          "cell": "I17",
+          "formula": "=SUM(I15:I16)"
+        },
+        {
+          "cell": "J17",
+          "formula": "=SUM(J15:J16)"
+        },
+        {
+          "cell": "K17",
+          "formula": "=SUM(K15:K16)"
+        },
+        {
+          "cell": "L17",
+          "formula": "=SUM(L15:L16)"
+        },
+        {
+          "cell": "M17",
+          "formula": "=SUM(M16:M16)"
+        },
+        {
+          "cell": "N17",
+          "formula": "=SUM(N16:N16)"
+        },
+        {
+          "cell": "I24",
+          "formula": "=1.2*6.44"
+        },
+        {
+          "cell": "K24",
+          "formula": "=I24/3"
+        },
+        {
+          "cell": "L24",
+          "formula": "=I24*5"
+        },
+        {
+          "cell": "I25",
+          "formula": "=1.2*0.25"
+        },
+        {
+          "cell": "K25",
+          "formula": "=I25/3"
+        },
+        {
+          "cell": "L25",
+          "formula": "=I25*5"
+        },
+        {
+          "cell": "B26",
+          "formula": "=SUM(B24:B25)"
+        },
+        {
+          "cell": "C26",
+          "formula": "=SUM(C24:C25)"
+        },
+        {
+          "cell": "D26",
+          "formula": "=SUM(D24:D25)"
+        },
+        {
+          "cell": "E26",
+          "formula": "=SUM(E24:E25)"
+        },
+        {
+          "cell": "F26",
+          "formula": "=SUM(F24:F25)"
+        },
+        {
+          "cell": "G26",
+          "formula": "=SUM(G24:G25)"
+        },
+        {
+          "cell": "H26",
+          "formula": "=SUM(H24:H25)"
+        },
+        {
+          "cell": "I26",
+          "formula": "=SUM(I24:I25)"
+        },
+        {
+          "cell": "J26",
+          "formula": "=SUM(J24:J25)"
+        },
+        {
+          "cell": "K26",
+          "formula": "=SUM(K24:K25)"
+        },
+        {
+          "cell": "L26",
+          "formula": "=SUM(L24:L25)"
+        },
+        {
+          "cell": "M26",
+          "formula": "=SUM(#REF!)"
+        },
+        {
+          "cell": "N26",
+          "formula": "=SUM(#REF!)"
+        },
+        {
+          "cell": "B30",
+          "formula": "=B17+B26"
+        },
+        {
+          "cell": "C30",
+          "formula": "=C17+C26"
+        },
+        {
+          "cell": "D30",
+          "formula": "=D17+D26"
+        },
+        {
+          "cell": "E30",
+          "formula": "=E17+E26"
+        },
+        {
+          "cell": "F30",
+          "formula": "=F17+F26"
+        },
+        {
+          "cell": "G30",
+          "formula": "=G17+G26"
+        },
+        {
+          "cell": "H30",
+          "formula": "=H17+H26"
+        },
+        {
+          "cell": "I30",
+          "formula": "=I17+I26"
+        },
+        {
+          "cell": "J30",
+          "formula": "=J17+J26"
+        },
+        {
+          "cell": "K30",
+          "formula": "=K17+K26"
+        },
+        {
+          "cell": "L30",
+          "formula": "=L17+L26"
+        },
+        {
+          "cell": "I38",
+          "formula": "=1.2*4.35"
+        },
+        {
+          "cell": "I39",
+          "formula": "=1.2*3"
+        },
+        {
+          "cell": "B40",
+          "formula": "=SUM(B38:B39)"
+        },
+        {
+          "cell": "C40",
+          "formula": "=SUM(C38:C39)"
+        },
+        {
+          "cell": "D40",
+          "formula": "=SUM(D38:D39)"
+        },
+        {
+          "cell": "E40",
+          "formula": "=SUM(E38:E39)"
+        },
+        {
+          "cell": "F40",
+          "formula": "=SUM(F38:F39)"
+        },
+        {
+          "cell": "G40",
+          "formula": "=SUM(G38:G39)"
+        },
+        {
+          "cell": "H40",
+          "formula": "=SUM(H38:H39)"
+        },
+        {
+          "cell": "I40",
+          "formula": "=SUM(I38:I39)"
+        },
+        {
+          "cell": "J40",
+          "formula": "=SUM(J38:J39)"
+        },
+        {
+          "cell": "K40",
+          "formula": "=SUM(K38:K39)"
+        },
+        {
+          "cell": "L40",
+          "formula": "=SUM(L38:L39)"
+        },
+        {
+          "cell": "M40",
+          "formula": "=SUM(M39:M39)"
+        },
+        {
+          "cell": "N40",
+          "formula": "=SUM(N39:N39)"
+        },
+        {
+          "cell": "I46",
+          "formula": "=1.2*7.28"
+        },
+        {
+          "cell": "K46",
+          "formula": "=I46/3"
+        },
+        {
+          "cell": "L46",
+          "formula": "=I46*5"
+        },
+        {
+          "cell": "I47",
+          "formula": "=1.2*9.84"
+        },
+        {
+          "cell": "K47",
+          "formula": "=I47/3"
+        },
+        {
+          "cell": "L47",
+          "formula": "=I47*5"
+        },
+        {
+          "cell": "I48",
+          "formula": "=1.2*12.91"
+        },
+        {
+          "cell": "K48",
+          "formula": "=I48/3"
+        },
+        {
+          "cell": "L48",
+          "formula": "=I48*5"
+        },
+        {
+          "cell": "I49",
+          "formula": "=1.2*10.05"
+        },
+        {
+          "cell": "K49",
+          "formula": "=I49/3"
+        },
+        {
+          "cell": "L49",
+          "formula": "=I49*5"
+        },
+        {
+          "cell": "I50",
+          "formula": "=1.2*4.74"
+        },
+        {
+          "cell": "K50",
+          "formula": "=I50/3"
+        },
+        {
+          "cell": "L50",
+          "formula": "=I50*5"
+        },
+        {
+          "cell": "B51",
+          "formula": "=SUM(B46:B50)"
+        },
+        {
+          "cell": "C51",
+          "formula": "=SUM(C46:C50)"
+        },
+        {
+          "cell": "D51",
+          "formula": "=SUM(D46:D50)"
+        },
+        {
+          "cell": "E51",
+          "formula": "=SUM(E46:E50)"
+        },
+        {
+          "cell": "F51",
+          "formula": "=SUM(F46:F50)"
+        },
+        {
+          "cell": "G51",
+          "formula": "=SUM(G46:G50)"
+        },
+        {
+          "cell": "H51",
+          "formula": "=SUM(H46:H50)"
+        },
+        {
+          "cell": "I51",
+          "formula": "=SUM(I46:I50)"
+        },
+        {
+          "cell": "J51",
+          "formula": "=SUM(J46:J50)"
+        },
+        {
+          "cell": "K51",
+          "formula": "=SUM(K46:K50)"
+        },
+        {
+          "cell": "L51",
+          "formula": "=SUM(L46:L50)"
+        },
+        {
+          "cell": "M51",
+          "formula": "=SUM(M50:M50)"
+        },
+        {
+          "cell": "N51",
+          "formula": "=SUM(N50:N50)"
+        },
+        {
+          "cell": "I58",
+          "formula": "=1.2*0.15"
+        },
+        {
+          "cell": "I59",
+          "formula": "=1.2*0.65"
+        },
+        {
+          "cell": "B60",
+          "formula": "=SUM(B58:B59)"
+        },
+        {
+          "cell": "C60",
+          "formula": "=SUM(C58:C59)"
+        },
+        {
+          "cell": "D60",
+          "formula": "=SUM(D58:D59)"
+        },
+        {
+          "cell": "E60",
+          "formula": "=SUM(E58:E59)"
+        },
+        {
+          "cell": "F60",
+          "formula": "=SUM(F58:F59)"
+        },
+        {
+          "cell": "G60",
+          "formula": "=SUM(G58:G59)"
+        }
+      ]
+    },
+    {
+      "nome": "ESTRUTURA",
+      "n_formulas": 932,
+      "formulas_sample": [
+        {
+          "cell": "D16",
+          "formula": "=2730.9+741.8"
+        },
+        {
+          "cell": "E16",
+          "formula": "=336.2+271.7+53.5"
+        },
+        {
+          "cell": "I16",
+          "formula": "=(41.99+4.55+2.64+16.21)*1.2"
+        },
+        {
+          "cell": "K16",
+          "formula": "=41.99+3.03+1.32"
+        },
+        {
+          "cell": "L16",
+          "formula": "=K16+I16"
+        },
+        {
+          "cell": "B17",
+          "formula": "=SUM(B16:B16)"
+        },
+        {
+          "cell": "C17",
+          "formula": "=SUM(C16:C16)"
+        },
+        {
+          "cell": "D17",
+          "formula": "=SUM(D16:D16)"
+        },
+        {
+          "cell": "E17",
+          "formula": "=SUM(E16:E16)"
+        },
+        {
+          "cell": "F17",
+          "formula": "=SUM(F16:F16)"
+        },
+        {
+          "cell": "G17",
+          "formula": "=SUM(G16:G16)"
+        },
+        {
+          "cell": "H17",
+          "formula": "=SUM(H16:H16)"
+        },
+        {
+          "cell": "I17",
+          "formula": "=SUM(I16:I16)"
+        },
+        {
+          "cell": "J17",
+          "formula": "=SUM(J16:J16)"
+        },
+        {
+          "cell": "K17",
+          "formula": "=SUM(K16:K16)"
+        },
+        {
+          "cell": "L17",
+          "formula": "=SUM(L16:L16)"
+        },
+        {
+          "cell": "M17",
+          "formula": "=SUM(M16:M16)"
+        },
+        {
+          "cell": "N17",
+          "formula": "=SUM(N16:N16)"
+        },
+        {
+          "cell": "I23",
+          "formula": "=1.2*2.23"
+        },
+        {
+          "cell": "B24",
+          "formula": "=SUM(B23:B23)"
+        },
+        {
+          "cell": "C24",
+          "formula": "=SUM(C23:C23)"
+        },
+        {
+          "cell": "D24",
+          "formula": "=SUM(D23:D23)"
+        },
+        {
+          "cell": "E24",
+          "formula": "=SUM(E23:E23)"
+        },
+        {
+          "cell": "F24",
+          "formula": "=SUM(F23:F23)"
+        },
+        {
+          "cell": "G24",
+          "formula": "=SUM(G23:G23)"
+        },
+        {
+          "cell": "H24",
+          "formula": "=SUM(H23:H23)"
+        },
+        {
+          "cell": "I24",
+          "formula": "=SUM(I23:I23)"
+        },
+        {
+          "cell": "J24",
+          "formula": "=SUM(J23:J23)"
+        },
+        {
+          "cell": "K24",
+          "formula": "=SUM(K23:K23)"
+        },
+        {
+          "cell": "L24",
+          "formula": "=SUM(L23:L23)"
+        },
+        {
+          "cell": "M24",
+          "formula": "=SUM(M23:M23)"
+        },
+        {
+          "cell": "N24",
+          "formula": "=SUM(N23:N23)"
+        },
+        {
+          "cell": "B27",
+          "formula": "=B24+B17"
+        },
+        {
+          "cell": "C27",
+          "formula": "=C24+C17"
+        },
+        {
+          "cell": "D27",
+          "formula": "=D24+D17"
+        },
+        {
+          "cell": "E27",
+          "formula": "=E24+E17"
+        },
+        {
+          "cell": "F27",
+          "formula": "=F24+F17"
+        },
+        {
+          "cell": "G27",
+          "formula": "=G24+G17"
+        },
+        {
+          "cell": "H27",
+          "formula": "=H24+H17"
+        },
+        {
+          "cell": "I27",
+          "formula": "=I24+I17"
+        },
+        {
+          "cell": "J27",
+          "formula": "=J24+J17"
+        },
+        {
+          "cell": "K27",
+          "formula": "=K24+K17"
+        },
+        {
+          "cell": "L27",
+          "formula": "=L24+L17"
+        },
+        {
+          "cell": "B33",
+          "formula": "=B40+B51+B58+B65+B72+B79+B86"
+        },
+        {
+          "cell": "C33",
+          "formula": "=C40+C51+C58+C65+C72+C79+C86"
+        },
+        {
+          "cell": "D33",
+          "formula": "=D40+D51+D58+D65+D72+D79+D86"
+        },
+        {
+          "cell": "E33",
+          "formula": "=E40+E51+E58+E65+E72+E79+E86"
+        },
+        {
+          "cell": "F33",
+          "formula": "=F40+F51+F58+F65+F72+F79+F86"
+        },
+        {
+          "cell": "G33",
+          "formula": "=G40+G51+G58+G65+G72+G79+G86"
+        },
+        {
+          "cell": "H33",
+          "formula": "=H40+H51+H58+H65+H72+H79+H86"
+        },
+        {
+          "cell": "I33",
+          "formula": "=I40+I51+I58+I65+I72+I79+I86"
+        },
+        {
+          "cell": "J33",
+          "formula": "=J40+J51+J58+J65+J72+J79+J86"
+        },
+        {
+          "cell": "I37",
+          "formula": "=1.2*6.65"
+        },
+        {
+          "cell": "I38",
+          "formula": "=1.2*4.81"
+        },
+        {
+          "cell": "I39",
+          "formula": "=1.2*2.58"
+        },
+        {
+          "cell": "B40",
+          "formula": "=SUM(B37:B39)"
+        },
+        {
+          "cell": "C40",
+          "formula": "=SUM(C37:C39)"
+        },
+        {
+          "cell": "D40",
+          "formula": "=SUM(D37:D39)"
+        },
+        {
+          "cell": "E40",
+          "formula": "=SUM(E37:E39)"
+        },
+        {
+          "cell": "F40",
+          "formula": "=SUM(F37:F39)"
+        },
+        {
+          "cell": "G40",
+          "formula": "=SUM(G37:G39)"
+        },
+        {
+          "cell": "H40",
+          "formula": "=SUM(H37:H39)"
+        },
+        {
+          "cell": "I40",
+          "formula": "=SUM(I37:I39)"
+        },
+        {
+          "cell": "J40",
+          "formula": "=SUM(J37:J39)"
+        },
+        {
+          "cell": "K40",
+          "formula": "=SUM(K37:K39)"
+        },
+        {
+          "cell": "L40",
+          "formula": "=SUM(L37:L39)"
+        },
+        {
+          "cell": "M40",
+          "formula": "=SUM(M39:M39)"
+        },
+        {
+          "cell": "N40",
+          "formula": "=SUM(N39:N39)"
+        },
+        {
+          "cell": "I46",
+          "formula": "=1.2*14.69"
+        },
+        {
+          "cell": "I47",
+          "formula": "=1.2*17.73"
+        },
+        {
+          "cell": "I48",
+          "formula": "=1.2*12.03"
+        },
+        {
+          "cell": "I49",
+          "formula": "=1.2*12.75"
+        },
+        {
+          "cell": "I50",
+          "formula": "=1.2*21.79"
+        },
+        {
+          "cell": "B51",
+          "formula": "=SUM(B46:B50)"
+        },
+        {
+          "cell": "C51",
+          "formula": "=SUM(C46:C50)"
+        },
+        {
+          "cell": "D51",
+          "formula": "=SUM(D46:D50)"
+        },
+        {
+          "cell": "E51",
+          "formula": "=SUM(E46:E50)"
+        },
+        {
+          "cell": "F51",
+          "formula": "=SUM(F46:F50)"
+        },
+        {
+          "cell": "G51",
+          "formula": "=SUM(G46:G50)"
+        },
+        {
+          "cell": "H51",
+          "formula": "=SUM(H46:H50)"
+        },
+        {
+          "cell": "I51",
+          "formula": "=SUM(I46:I50)"
+        },
+        {
+          "cell": "J51",
+          "formula": "=SUM(J46:J50)"
+        },
+        {
+          "cell": "K51",
+          "formula": "=SUM(K46:K50)"
+        },
+        {
+          "cell": "L51",
+          "formula": "=SUM(L46:L50)"
+        },
+        {
+          "cell": "M51",
+          "formula": "=SUM(M50:M50)"
+        },
+        {
+          "cell": "N51",
+          "formula": "=SUM(N50:N50)"
+        },
+        {
+          "cell": "D57",
+          "formula": "=2.9+132.1"
+        },
+        {
+          "cell": "B58",
+          "formula": "=SUM(B57:B57)"
+        },
+        {
+          "cell": "C58",
+          "formula": "=SUM(C57:C57)"
+        },
+        {
+          "cell": "D58",
+          "formula": "=SUM(D57:D57)"
+        },
+        {
+          "cell": "E58",
+          "formula": "=SUM(E57:E57)"
+        },
+        {
+          "cell": "F58",
+          "formula": "=SUM(F57:F57)"
+        },
+        {
+          "cell": "G58",
+          "formula": "=SUM(G57:G57)"
+        },
+        {
+          "cell": "H58",
+          "formula": "=SUM(H57:H57)"
+        },
+        {
+          "cell": "I58",
+          "formula": "=SUM(I57:I57)"
+        },
+        {
+          "cell": "J58",
+          "formula": "=SUM(J57:J57)"
+        },
+        {
+          "cell": "K58",
+          "formula": "=SUM(K57:K57)"
+        },
+        {
+          "cell": "L58",
+          "formula": "=SUM(L57:L57)"
+        },
+        {
+          "cell": "M58",
+          "formula": "=SUM(M57:M57)"
+        },
+        {
+          "cell": "N58",
+          "formula": "=SUM(N57:N57)"
+        }
+      ]
+    },
+    {
+      "nome": "LAJE_TRELIÇADA",
+      "n_formulas": 38,
+      "formulas_sample": [
+        {
+          "cell": "I7",
+          "formula": "=H7*G7"
+        },
+        {
+          "cell": "J7",
+          "formula": "=G7"
+        },
+        {
+          "cell": "K7",
+          "formula": "=1.48*J7"
+        },
+        {
+          "cell": "L7",
+          "formula": "=G7"
+        },
+        {
+          "cell": "I8",
+          "formula": "=H8*G8"
+        },
+        {
+          "cell": "J8",
+          "formula": "=G8"
+        },
+        {
+          "cell": "K8",
+          "formula": "=1.48*J8"
+        },
+        {
+          "cell": "L8",
+          "formula": "=G8"
+        },
+        {
+          "cell": "I9",
+          "formula": "=H9*G9"
+        },
+        {
+          "cell": "J9",
+          "formula": "=G9"
+        },
+        {
+          "cell": "K9",
+          "formula": "=1.48*J9"
+        },
+        {
+          "cell": "L9",
+          "formula": "=G9"
+        },
+        {
+          "cell": "M9",
+          "formula": "=G9/4"
+        },
+        {
+          "cell": "I10",
+          "formula": "=H10*G10"
+        },
+        {
+          "cell": "J10",
+          "formula": "=G10"
+        },
+        {
+          "cell": "K10",
+          "formula": "=1.48*J10"
+        },
+        {
+          "cell": "L10",
+          "formula": "=G10"
+        },
+        {
+          "cell": "I11",
+          "formula": "=H11*G11"
+        },
+        {
+          "cell": "J11",
+          "formula": "=G11"
+        },
+        {
+          "cell": "K11",
+          "formula": "=1.48*J11"
+        },
+        {
+          "cell": "L11",
+          "formula": "=G11"
+        },
+        {
+          "cell": "I12",
+          "formula": "=H12*G12"
+        },
+        {
+          "cell": "J12",
+          "formula": "=G12"
+        },
+        {
+          "cell": "K12",
+          "formula": "=1.48*J12"
+        },
+        {
+          "cell": "L12",
+          "formula": "=G12"
+        },
+        {
+          "cell": "G13",
+          "formula": "=D13*E13"
+        },
+        {
+          "cell": "I13",
+          "formula": "=H13*G13"
+        },
+        {
+          "cell": "K13",
+          "formula": "=1.48*J13"
+        },
+        {
+          "cell": "L13",
+          "formula": "=G13"
+        },
+        {
+          "cell": "G14",
+          "formula": "=D14*E14"
+        },
+        {
+          "cell": "I14",
+          "formula": "=H14*G14"
+        },
+        {
+          "cell": "K14",
+          "formula": "=1.48*J14"
+        },
+        {
+          "cell": "L14",
+          "formula": "=G14"
+        },
+        {
+          "cell": "G15",
+          "formula": "=SUM(G7:G14)"
+        },
+        {
+          "cell": "I15",
+          "formula": "=SUM(I7:I14)"
+        },
+        {
+          "cell": "J15",
+          "formula": "=SUM(J7:J14)"
+        },
+        {
+          "cell": "K15",
+          "formula": "=SUM(K7:K14)"
+        },
+        {
+          "cell": "L15",
+          "formula": "=SUM(L7:L14)"
+        }
+      ]
+    },
+    {
+      "nome": "Refratários",
+      "n_formulas": 15,
+      "formulas_sample": [
+        {
+          "cell": "D11",
+          "formula": "=(0.6+0.56)*2"
+        },
+        {
+          "cell": "D13",
+          "formula": "=0.6*0.56"
+        },
+        {
+          "cell": "D14",
+          "formula": "=0.5*0.5"
+        },
+        {
+          "cell": "D15",
+          "formula": "=D11*D12+D13-D14"
+        },
+        {
+          "cell": "D16",
+          "formula": "=5"
+        },
+        {
+          "cell": "D17",
+          "formula": "=D15*D16"
+        },
+        {
+          "cell": "D20",
+          "formula": "=(0.6+1.23)*2"
+        },
+        {
+          "cell": "D22",
+          "formula": "=1.23*0.6"
+        },
+        {
+          "cell": "D23",
+          "formula": "=0.5*1.2"
+        },
+        {
+          "cell": "D24",
+          "formula": "=D20*D21+D22-D23"
+        },
+        {
+          "cell": "D26",
+          "formula": "=D24*D25"
+        },
+        {
+          "cell": "D29",
+          "formula": "=D17*0.475"
+        },
+        {
+          "cell": "D30",
+          "formula": "=D17-D29"
+        },
+        {
+          "cell": "D31",
+          "formula": "=D26*0.475"
+        },
+        {
+          "cell": "D32",
+          "formula": "=D26-D31"
+        }
+      ]
+    },
+    {
+      "nome": "IMPERMEABILIZAÇÃO",
+      "n_formulas": 9,
+      "formulas_sample": [
+        {
+          "cell": "F18",
+          "formula": "=SUM(F11:F17)"
+        },
+        {
+          "cell": "F26",
+          "formula": "=SUM(F19:F25)"
+        },
+        {
+          "cell": "F36",
+          "formula": "=SUM(F27:F35)"
+        },
+        {
+          "cell": "F45",
+          "formula": "=SUM(F36:F44)"
+        },
+        {
+          "cell": "F51",
+          "formula": "=SUM(F46:F50)"
+        },
+        {
+          "cell": "F55",
+          "formula": "=SUM(F52:F54)"
+        },
+        {
+          "cell": "F59",
+          "formula": "=SUM(F55:F58)"
+        },
+        {
+          "cell": "G65",
+          "formula": "=SUMIF(G11:G62,\"Sim\",F11:F62)"
+        },
+        {
+          "cell": "G66",
+          "formula": "=SUMIF(H11:H62,\"Sim\",F11:F62)"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "n_formulas_total": 3702,
+    "cross_sheet_refs": 192,
+    "with_absolute_ref": 93,
+    "with_ac_ref": 93,
+    "with_constant": 226
+  },
+  "projeto": "nova-empreendimentos-evora"
+}
