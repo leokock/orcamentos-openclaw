@@ -1,0 +1,78 @@
+{
+  "projeto": "adore-level-up",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:32:14",
+  "duration_s": 81.8,
+  "compact_chars": 4086,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM PAREDE\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM PISO\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Além da revisão da fundação rasa ivemos redução do que se tinha estimado também em fundação profunda além da redução do diâmetro tivemos redução na profundidade de 18 para 12m.\"\n    },\n    {\n      \"tema\": \"Piso e Acabamentos\",\n      \"texto\": \"Ajustes de preços dos custos unitário e inclusão do Piso Laminado que tem custo mais elevado que o porcelanato e revisão de quantidades de rodapé\"\n    },\n    {\n      \"tema\": \"Custo de Empreiteiro\",\n      \"texto\": \"Está acima da média devio o elevado custo do empreiteiro atribuído nesta etapa normalmente custa 75,00/m2 e está 189,00/m2\"\n    },\n    {\n      \"tema\": \"Acabamento de Teto\",\n      \"texto\": \"grande parte argamasssado\"\n    },\n    {\n      \"tema\": \"Impermeabilização\",\n      \"texto\": \"Impermeabilização de piscina com aplicação de tinta betuminosa, asfalto quente e manta\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Custo\",\n      \"descricao\": \"Está acima da média devio o elevado custo do empreiteiro atribuído nesta etapa normalmente custa 75,00/m2 e está 189,00/m2\"\n    },\n    {\n      \"tipo\": \"Omissão de Custo\",\n      \"descricao\": \"* os outros empreendimentos não tem o custo de Causão\"\n    },\n    {\n      \"tipo\": \"Variabilidade\",\n      \"descricao\": \"VALOR POR ÁREA PRIVATIVA (R$/m²)\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Revisão com os quantitativos do projetista\",\n    \"Ajuste de composições e quantidades\",\n    \"VALOR POR ÁREA PRIVATIVA (R$/m²)\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Varandas\",\n      \"decisao\": \"*inclusão do forro de madeira das varandas\"\n    },\n    {\n      \"contexto\": \"Mobiliário\",\n      \"decisao\": \"* Revisão dos mobiliáreios conforme ambientes\"\n    },\n    {\n      \"contexto\": \"Acabamentos gerais\",\n      \"decisao\": \"Padrão elevado de esquadrias\"\n    },\n    {\n      \"contexto\": \"Paisagismo\",\n      \"decisao\": \"Alto investimento em paisagismo\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM PAREDE",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM PISO",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Fundação",
+        "texto": "Além da revisão da fundação rasa ivemos redução do que se tinha estimado também em fundação profunda além da redução do diâmetro tivemos redução na profundidade de 18 para 12m."
+      },
+      {
+        "tema": "Piso e Acabamentos",
+        "texto": "Ajustes de preços dos custos unitário e inclusão do Piso Laminado que tem custo mais elevado que o porcelanato e revisão de quantidades de rodapé"
+      },
+      {
+        "tema": "Custo de Empreiteiro",
+        "texto": "Está acima da média devio o elevado custo do empreiteiro atribuído nesta etapa normalmente custa 75,00/m2 e está 189,00/m2"
+      },
+      {
+        "tema": "Acabamento de Teto",
+        "texto": "grande parte argamasssado"
+      },
+      {
+        "tema": "Impermeabilização",
+        "texto": "Impermeabilização de piscina com aplicação de tinta betuminosa, asfalto quente e manta"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Custo",
+        "descricao": "Está acima da média devio o elevado custo do empreiteiro atribuído nesta etapa normalmente custa 75,00/m2 e está 189,00/m2"
+      },
+      {
+        "tipo": "Omissão de Custo",
+        "descricao": "* os outros empreendimentos não tem o custo de Causão"
+      },
+      {
+        "tipo": "Variabilidade",
+        "descricao": "VALOR POR ÁREA PRIVATIVA (R$/m²)"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Revisão com os quantitativos do projetista",
+      "Ajuste de composições e quantidades",
+      "VALOR POR ÁREA PRIVATIVA (R$/m²)"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Varandas",
+        "decisao": "*inclusão do forro de madeira das varandas"
+      },
+      {
+        "contexto": "Mobiliário",
+        "decisao": "* Revisão dos mobiliáreios conforme ambientes"
+      },
+      {
+        "contexto": "Acabamentos gerais",
+        "decisao": "Padrão elevado de esquadrias"
+      },
+      {
+        "contexto": "Paisagismo",
+        "decisao": "Alto investimento em paisagismo"
+      }
+    ]
+  }
+}

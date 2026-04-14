@@ -1,0 +1,105 @@
+{
+  "projeto": "cn-brava-ocean",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:30:04",
+  "duration_s": 162.2,
+  "compact_chars": 4100,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS INTERNOS DE PAREDE\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"MOVIMENTAÇÃO DE TERRA\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n    \"ACABAMENTOS EM PISO E PAREDE\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Lastro\",\n      \"texto\": \"Lastro de material granular, aplicado em blocos de coroamento e baldrames, espessura 5cm\"\n    },\n    {\n      \"tema\": \"Lastro\",\n      \"texto\": \"Lastro de concreto magro, aplicado em valas, espessura de 5 cm\"\n    },\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Escavação mecanizada para blocos de coroamento e baldrames, com previsão de forma\"\n    },\n    {\n      \"tema\": \"Reaterro\",\n      \"texto\": \"Reaterro mecanizado para blocos de coroamento e baldrames, com retroescavadeira\"\n    },\n    {\n      \"tema\": \"Movimentação de terra\",\n      \"texto\": \"Movimentação de terra para bota-fora de escavação de blocos de coroamento e baldrames\"\n    },\n    {\n      \"tema\": \"Valas\",\n      \"texto\": \"Regularização e apiloamento de fundo de valas\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"quantidade de aço estacas e profundidade\"\n    },\n    {\n      \"tema\": \"Acabamento\",\n      \"texto\": \"Forro RU e tudo, faz sentido\"\n    },\n    {\n      \"tema\": \"Revestimento\",\n      \"texto\": \"areas com apenas selador - bastnae reevstimento especial em interiores\"\n    },\n    {\n      \"tema\": \"Fachada\",\n      \"texto\": \"COM BRISE, FACHADA ETRUSCO, FACHADA CINETICA E TUDO\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa de custo\",\n      \"descricao\": \"VALOR POR ÁREA PRIVATIVA (R$/m²)\"\n    },\n    {\n      \"tipo\": \"Estimativa de custo\",\n      \"descricao\": \"VALOR POR UNIDADE 01 E 02\"\n    },\n    {\n      \"tipo\": \"Estimativa de custo\",\n      \"descricao\": \"VALOR POR UNIDADE 03 E 04\"\n    },\n    {\n      \"tipo\": \"Escopo complexo\",\n      \"descricao\": \"Enorme area de lazer com manta, cobertura e tudo\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"IMPREVISTOS E CONSTINGÊNCIS\",\n    \"VALOR POR ÁREA PRIVATIVA (R$/m²)\",\n    \"VALOR POR UNIDADE 01 E 02\",\n    \"VALOR POR UNIDADE 03 E 04\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"663 estacas com 34m - 22542m\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Hélice 50/60 - 165 estacas de 30 metros (4950m)\"\n    },\n    {\n      \"contexto\": \"Escopo de terra\",\n      \"decisao\": \"Mobiemntação já está em infra, apenas valas\"\n    },\n    {\n      \"contexto\": \"Geotecnia\",\n      \"decisao\": \"Detonação de rocha e rebaixa,ento de lençol\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS INTERNOS DE PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "MOVIMENTAÇÃO DE TERRA",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+      "ACABAMENTOS EM PISO E PAREDE"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Lastro",
+        "texto": "Lastro de material granular, aplicado em blocos de coroamento e baldrames, espessura 5cm"
+      },
+      {
+        "tema": "Lastro",
+        "texto": "Lastro de concreto magro, aplicado em valas, espessura de 5 cm"
+      },
+      {
+        "tema": "Escavação",
+        "texto": "Escavação mecanizada para blocos de coroamento e baldrames, com previsão de forma"
+      },
+      {
+        "tema": "Reaterro",
+        "texto": "Reaterro mecanizado para blocos de coroamento e baldrames, com retroescavadeira"
+      },
+      {
+        "tema": "Movimentação de terra",
+        "texto": "Movimentação de terra para bota-fora de escavação de blocos de coroamento e baldrames"
+      },
+      {
+        "tema": "Valas",
+        "texto": "Regularização e apiloamento de fundo de valas"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "quantidade de aço estacas e profundidade"
+      },
+      {
+        "tema": "Acabamento",
+        "texto": "Forro RU e tudo, faz sentido"
+      },
+      {
+        "tema": "Revestimento",
+        "texto": "areas com apenas selador - bastnae reevstimento especial em interiores"
+      },
+      {
+        "tema": "Fachada",
+        "texto": "COM BRISE, FACHADA ETRUSCO, FACHADA CINETICA E TUDO"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa de custo",
+        "descricao": "VALOR POR ÁREA PRIVATIVA (R$/m²)"
+      },
+      {
+        "tipo": "Estimativa de custo",
+        "descricao": "VALOR POR UNIDADE 01 E 02"
+      },
+      {
+        "tipo": "Estimativa de custo",
+        "descricao": "VALOR POR UNIDADE 03 E 04"
+      },
+      {
+        "tipo": "Escopo complexo",
+        "descricao": "Enorme area de lazer com manta, cobertura e tudo"
+      }
+    ],
+    "padroes_orcamentista": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "IMPREVISTOS E CONSTINGÊNCIS",
+      "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+      "VALOR POR UNIDADE 01 E 02",
+      "VALOR POR UNIDADE 03 E 04"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Fundação",
+        "decisao": "663 estacas com 34m - 22542m"
+      },
+      {
+        "contexto": "Fundação",
+        "decisao": "Hélice 50/60 - 165 estacas de 30 metros (4950m)"
+      },
+      {
+        "contexto": "Escopo de terra",
+        "decisao": "Mobiemntação já está em infra, apenas valas"
+      },
+      {
+        "contexto": "Geotecnia",
+        "decisao": "Detonação de rocha e rebaixa,ento de lençol"
+      }
+    ]
+  }
+}

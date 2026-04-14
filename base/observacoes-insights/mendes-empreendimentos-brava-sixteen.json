@@ -1,0 +1,62 @@
+{
+  "projeto": "mendes-empreendimentos-brava-sixteen",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:19:29",
+  "duration_s": 77.1,
+  "compact_chars": 1121,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Custos de obra\",\n    \"Projetos\",\n    \"Taxas e emolumentos\",\n    \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\",\n    \"Segurança, Meio Ambiente e Saúde\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Projeto para Obtenção LAI e LAO\",\n      \"texto\": \"Projeto para Obtenção LAI e LAO\"\n    },\n    {\n      \"tema\": \"Projeto preventivo de incêndio\",\n      \"texto\": \"Projeto preventivo de incêndio\"\n    },\n    {\n      \"tema\": \"Projeto elétrico e de lógica\",\n      \"texto\": \"Projeto elétrico e de lógica\"\n    },\n    {\n      \"tema\": \"Projeto de Sondagem 01 e solo 02\",\n      \"texto\": \"Projeto de Sondagem 01 e solo 02\"\n    },\n    {\n      \"tema\": \"Projeto Arquitetônico Fachadas, Imagens...\",\n      \"texto\": \"Projeto Arquitetônico Fachadas, Imagens...\"\n    },\n    {\n      \"tema\": \"Projeto Arquitetônico interiores, luminotecnico, moveis etc\",\n      \"texto\": \"Projeto Arquitetônico interiores, luminotecnico, moveis etc\"\n    },\n    {\n      \"tema\": \"Projetos de personalização de unidades - taylor made\",\n      \"texto\": \"Projetos de personalização de unidades - taylor made\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"CONSUMOS, TAXAS E DOCUMENTOS\",\n    \"DESPESAS INDIRETAS ADMINISTRATIVAS\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Taxas e emolumentos\",\n      \"decisao\": \"Taxas e emolumentos (CREA, CAU, etc...)\"\n    },\n    {\n      \"contexto\": \"Escopo de acabamento\",\n      \"decisao\": \"Projetos de personalização de unidades - taylor made\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Custos de obra",
+      "Projetos",
+      "Taxas e emolumentos",
+      "Licenciamentos, Taxas, Impostos, Aprovações e Seguros",
+      "Segurança, Meio Ambiente e Saúde"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Projeto para Obtenção LAI e LAO",
+        "texto": "Projeto para Obtenção LAI e LAO"
+      },
+      {
+        "tema": "Projeto preventivo de incêndio",
+        "texto": "Projeto preventivo de incêndio"
+      },
+      {
+        "tema": "Projeto elétrico e de lógica",
+        "texto": "Projeto elétrico e de lógica"
+      },
+      {
+        "tema": "Projeto de Sondagem 01 e solo 02",
+        "texto": "Projeto de Sondagem 01 e solo 02"
+      },
+      {
+        "tema": "Projeto Arquitetônico Fachadas, Imagens...",
+        "texto": "Projeto Arquitetônico Fachadas, Imagens..."
+      },
+      {
+        "tema": "Projeto Arquitetônico interiores, luminotecnico, moveis etc",
+        "texto": "Projeto Arquitetônico interiores, luminotecnico, moveis etc"
+      },
+      {
+        "tema": "Projetos de personalização de unidades - taylor made",
+        "texto": "Projetos de personalização de unidades - taylor made"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "CONSUMOS, TAXAS E DOCUMENTOS",
+      "DESPESAS INDIRETAS ADMINISTRATIVAS"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Taxas e emolumentos",
+        "decisao": "Taxas e emolumentos (CREA, CAU, etc...)"
+      },
+      {
+        "contexto": "Escopo de acabamento",
+        "decisao": "Projetos de personalização de unidades - taylor made"
+      }
+    ]
+  }
+}

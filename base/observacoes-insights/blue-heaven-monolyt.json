@@ -1,0 +1,105 @@
+{
+  "projeto": "blue-heaven-monolyt",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:50:32",
+  "duration_s": 116.1,
+  "compact_chars": 4138,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"IMPREVISTOS E CONTINGÊNCIAS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"Bandeja de proteção primária\",\n    \"Perímetro de projeção torre\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Comparativo\",\n      \"texto\": \"aumento MO, atualização de valores\"\n    },\n    {\n      \"tema\": \"Comparativo\",\n      \"texto\": \"retirada proteção mecânica (sem manta)\"\n    },\n    {\n      \"tema\": \"Comparativo\",\n      \"texto\": \"redução estimativa de reboco (metade)\"\n    },\n    {\n      \"tema\": \"Comparativo\",\n      \"texto\": \"redução significativa de area de forro de gesso (metade)\"\n    },\n    {\n      \"tema\": \"Ger_Tec e Adm\",\n      \"texto\": \"Conforme solicitado em 18/07 via whatsapp\"\n    },\n    {\n      \"tema\": \"Ger_Tec e Adm\",\n      \"texto\": \"Considerado Medicamentos preventivos e de emergência, detetização, desratização e sanitização dos ambientes, PCMAT, PPRA, PCMSO, vistorias e retirada de entulho (caçamba)\"\n    },\n    {\n      \"tema\": \"Ger_Tec e Adm\",\n      \"texto\": \"7.000 + 84% de encargo - 2 mestres\"\n    },\n    {\n      \"tema\": \"Ger_Tec e Adm\",\n      \"texto\": \"2 contra mestres salário 5mil/mês por 18meses , nos meses finais.\"\n    },\n    {\n      \"tema\": \"Ger_Tec e Adm\",\n      \"texto\": \"2.543,42 + 84% de encargo - 2 almoxarifes\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=10cm\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Alerta de Margem\",\n      \"descricao\": \"sem vergase redução da margem de insegurança\"\n    },\n    {\n      \"tipo\": \"Contingência\",\n      \"descricao\": \"IMPREVISTOS E CONTINGÊNCIAS\"\n    },\n    {\n      \"tipo\": \"Escopo\",\n      \"descricao\": \"Perímetro de projeção da torre\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Escavação e Carga Mecanizada em Corte - Desaterro Solo\",\n    \"Espalhamento / Umedecimento / Compactação em Material de 1º Categoria - 95% PN - Aterro\",\n    \"Rebaixamento de Lençol Freático\",\n    \"Escavação e Reaterro de Valas\",\n    \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\",\n    \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Comparativo\",\n      \"decisao\": \"retirada proteção mecânica (sem manta)\"\n    },\n    {\n      \"contexto\": \"Comparativo\",\n      \"decisao\": \"redução estimativa de reboco (metade)\"\n    },\n    {\n      \"contexto\": \"Comparativo\",\n      \"decisao\": \"redução significativa de area de forro de gesso (metade)\"\n    },\n    {\n      \"contexto\": \"Ger_Tec e Adm\",\n      \"decisao\": \"Considerado Medicamentos preventivos e de emergência, detetização, desratização e sanitização dos ambientes, PCMAT, PPRA, PCMSO, vistorias e retirada de entulho (caçamba)\"\n    },\n    {\n      \"contexto\": \"Ger_Tec e Adm\",\n      \"decisao\": \"Serviço de segurança do trabalho terceirizado\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "IMPREVISTOS E CONTINGÊNCIAS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "Bandeja de proteção primária",
+      "Perímetro de projeção torre",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Comparativo",
+        "texto": "aumento MO, atualização de valores"
+      },
+      {
+        "tema": "Comparativo",
+        "texto": "retirada proteção mecânica (sem manta)"
+      },
+      {
+        "tema": "Comparativo",
+        "texto": "redução estimativa de reboco (metade)"
+      },
+      {
+        "tema": "Comparativo",
+        "texto": "redução significativa de area de forro de gesso (metade)"
+      },
+      {
+        "tema": "Ger_Tec e Adm",
+        "texto": "Conforme solicitado em 18/07 via whatsapp"
+      },
+      {
+        "tema": "Ger_Tec e Adm",
+        "texto": "Considerado Medicamentos preventivos e de emergência, detetização, desratização e sanitização dos ambientes, PCMAT, PPRA, PCMSO, vistorias e retirada de entulho (caçamba)"
+      },
+      {
+        "tema": "Ger_Tec e Adm",
+        "texto": "7.000 + 84% de encargo - 2 mestres"
+      },
+      {
+        "tema": "Ger_Tec e Adm",
+        "texto": "2 contra mestres salário 5mil/mês por 18meses , nos meses finais."
+      },
+      {
+        "tema": "Ger_Tec e Adm",
+        "texto": "2.543,42 + 84% de encargo - 2 almoxarifes"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=10cm"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Alerta de Margem",
+        "descricao": "sem vergase redução da margem de insegurança"
+      },
+      {
+        "tipo": "Contingência",
+        "descricao": "IMPREVISTOS E CONTINGÊNCIAS"
+      },
+      {
+        "tipo": "Escopo",
+        "descricao": "Perímetro de projeção da torre"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Escavação e Carga Mecanizada em Corte - Desaterro Solo",
+      "Espalhamento / Umedecimento / Compactação em Material de 1º Categoria - 95% PN - Aterro",
+      "Rebaixamento de Lençol Freático",
+      "Escavação e Reaterro de Valas",
+      "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira",
+      "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Comparativo",
+        "decisao": "retirada proteção mecânica (sem manta)"
+      },
+      {
+        "contexto": "Comparativo",
+        "decisao": "redução estimativa de reboco (metade)"
+      },
+      {
+        "contexto": "Comparativo",
+        "decisao": "redução significativa de area de forro de gesso (metade)"
+      },
+      {
+        "contexto": "Ger_Tec e Adm",
+        "decisao": "Considerado Medicamentos preventivos e de emergência, detetização, desratização e sanitização dos ambientes, PCMAT, PPRA, PCMSO, vistorias e retirada de entulho (caçamba)"
+      },
+      {
+        "contexto": "Ger_Tec e Adm",
+        "decisao": "Serviço de segurança do trabalho terceirizado"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "projeto": "kirchner-kirchner",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:10:00",
+  "duration_s": 76.1,
+  "compact_chars": 4124,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto Arquitetônico\",\n    \"Alvenaria\",\n    \"Revestimentos\",\n    \"Movimentação de Terra\",\n    \"Estudos, Projetos e Consultorias\",\n    \"Instalações Hidrossanitárias e Drenagem\",\n    \"Serviços Complementares e Finais\",\n    \"Taxas e Documentos\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Reboco\",\n      \"texto\": \"aumento da área de chapisco e reboco das novas alvenarias porém havia duplicação do reboco externo que foi corrigido\"\n    },\n    {\n      \"tema\": \"Danos a vizinhança\",\n      \"texto\": \"Laudo preventivo de danos a vizinhança ( (+) \"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Controle tecnológico de concreto (COMPOS (+) \"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Valor estimado por índices históricos\"\n    },\n    {\n      \"tipo\": \"Composição\",\n      \"descricao\": \"COMPOSIÇÃO\"\n    },\n    {\n      \"tipo\": \"Custo Adicional\",\n      \"descricao\": \"Despesas cartoriais e jurídicas (COMPOSI (+) \"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"COMPOSIÇÃO\",\n    \"COMPOS (+) \",\n    \"(m³)\",\n    \"Quantitativo de\",\n    \"Valor estimado por índices históricos\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Reboco\",\n      \"decisao\": \"aumento da área de chapisco e reboco das novas alvenarias porém havia duplicação do reboco externo que foi corrigido\"\n    },\n    {\n      \"contexto\": \"Orçamento\",\n      \"decisao\": \"1.2.21. IMPREVISTOS E CONTINGÊNCIAS\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto Arquitetônico",
+      "Alvenaria",
+      "Revestimentos",
+      "Movimentação de Terra",
+      "Estudos, Projetos e Consultorias",
+      "Instalações Hidrossanitárias e Drenagem",
+      "Serviços Complementares e Finais",
+      "Taxas e Documentos"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Reboco",
+        "texto": "aumento da área de chapisco e reboco das novas alvenarias porém havia duplicação do reboco externo que foi corrigido"
+      },
+      {
+        "tema": "Danos a vizinhança",
+        "texto": "Laudo preventivo de danos a vizinhança ( (+) "
+      },
+      {
+        "tema": "Concreto",
+        "texto": "Controle tecnológico de concreto (COMPOS (+) "
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Valor estimado por índices históricos"
+      },
+      {
+        "tipo": "Composição",
+        "descricao": "COMPOSIÇÃO"
+      },
+      {
+        "tipo": "Custo Adicional",
+        "descricao": "Despesas cartoriais e jurídicas (COMPOSI (+) "
+      }
+    ],
+    "padroes_orcamentista": [
+      "COMPOSIÇÃO",
+      "COMPOS (+) ",
+      "(m³)",
+      "Quantitativo de",
+      "Valor estimado por índices históricos"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Reboco",
+        "decisao": "aumento da área de chapisco e reboco das novas alvenarias porém havia duplicação do reboco externo que foi corrigido"
+      },
+      {
+        "contexto": "Orçamento",
+        "decisao": "1.2.21. IMPREVISTOS E CONTINGÊNCIAS"
+      }
+    ]
+  }
+}

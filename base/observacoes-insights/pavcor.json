@@ -1,0 +1,82 @@
+{
+  "projeto": "pavcor",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:58:35",
+  "duration_s": 93.0,
+  "compact_chars": 4132,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Fundação | Estacas - Perfuracao\",\n    \"Fundação | Estacas - Armadura\",\n    \"Fundação | Estacas - Concreto\",\n    \"Movimentação de Bota-Fora\",\n    \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\",\n    \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\",\n    \"VISTORIA CAUTELAR DE VIZINHANÇA\",\n    \"Projeto Arquitetônico Executivo\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Rebaixamento de Lençol freático\",\n      \"texto\": \"Locação 30 dias de cada equipamento de rebaixamento com 22,5 HP, vazão máxima = 100 m³/h, em operação ou a disposição.\"\n    },\n    {\n      \"tema\": \"Mangote de descarga CDF-A\",\n      \"texto\": \"Locação 30 dias de cada mangote de descarga CDF-A com lance de 50,00 metros cada.\"\n    },\n    {\n      \"tema\": \"Armação aço CA-50 ø 6,3mm para estaca\",\n      \"texto\": \"Armação aço CA-50 ø 6,3mm para estaca (corte e dobra em indústria)\"\n    },\n    {\n      \"tema\": \"Armação aço CA-50 ø 16,0mm para estaca\",\n      \"texto\": \"Armação aço CA-50 ø 16,0mm para estaca (corte e dobra em indústria)\"\n    },\n    {\n      \"tema\": \"Escavação mecanizada\",\n      \"texto\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"tema\": \"Reaterro mecanizado\",\n      \"texto\": \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Execucao Estaca Helice Continua Monitorada 050Cm\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Execucao Estaca Helice Continua Monitorada 060Cm\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimado rebaixamento provisório pelo perído da fundação rasa\"\n    },\n    {\n      \"tipo\": \"Incerteza de Quantitativo\",\n      \"descricao\": \"Quantiativo estimado por ausência de quantitativos\"\n    },\n    {\n      \"tipo\": \"Condicional\",\n      \"descricao\": \"SEPARAR INSTALAÇÕES POR PAVTOS SE RECEBERMOS OS QTTVOS ABERTOS\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimado rebaixamento provisório pelo perído da fundação rasa\",\n    \"Quantiativo estimado por ausência de quantitativos\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Instalações\",\n      \"decisao\": \"SEPARAR INSTALAÇÕES POR PAVTOS SE RECEBERMOS OS QTTVOS ABERTOS\"\n    },\n    {\n      \"contexto\": \"Projeto Legal\",\n      \"decisao\": \"Projeto Arquitetônico Legal\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Fundação | Estacas - Perfuracao",
+      "Fundação | Estacas - Armadura",
+      "Fundação | Estacas - Concreto",
+      "Movimentação de Bota-Fora",
+      "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira",
+      "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira",
+      "VISTORIA CAUTELAR DE VIZINHANÇA",
+      "Projeto Arquitetônico Executivo"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Rebaixamento de Lençol freático",
+        "texto": "Locação 30 dias de cada equipamento de rebaixamento com 22,5 HP, vazão máxima = 100 m³/h, em operação ou a disposição."
+      },
+      {
+        "tema": "Mangote de descarga CDF-A",
+        "texto": "Locação 30 dias de cada mangote de descarga CDF-A com lance de 50,00 metros cada."
+      },
+      {
+        "tema": "Armação aço CA-50 ø 6,3mm para estaca",
+        "texto": "Armação aço CA-50 ø 6,3mm para estaca (corte e dobra em indústria)"
+      },
+      {
+        "tema": "Armação aço CA-50 ø 16,0mm para estaca",
+        "texto": "Armação aço CA-50 ø 16,0mm para estaca (corte e dobra em indústria)"
+      },
+      {
+        "tema": "Escavação mecanizada",
+        "texto": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "tema": "Reaterro mecanizado",
+        "texto": "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Execucao Estaca Helice Continua Monitorada 050Cm"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Execucao Estaca Helice Continua Monitorada 060Cm"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimado rebaixamento provisório pelo perído da fundação rasa"
+      },
+      {
+        "tipo": "Incerteza de Quantitativo",
+        "descricao": "Quantiativo estimado por ausência de quantitativos"
+      },
+      {
+        "tipo": "Condicional",
+        "descricao": "SEPARAR INSTALAÇÕES POR PAVTOS SE RECEBERMOS OS QTTVOS ABERTOS"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimado rebaixamento provisório pelo perído da fundação rasa",
+      "Quantiativo estimado por ausência de quantitativos"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Instalações",
+        "decisao": "SEPARAR INSTALAÇÕES POR PAVTOS SE RECEBERMOS OS QTTVOS ABERTOS"
+      },
+      {
+        "contexto": "Projeto Legal",
+        "decisao": "Projeto Arquitetônico Legal"
+      }
+    ]
+  }
+}

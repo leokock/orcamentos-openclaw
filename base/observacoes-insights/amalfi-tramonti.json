@@ -1,0 +1,78 @@
+{
+  "projeto": "amalfi-tramonti",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:42:25",
+  "duration_s": 87.5,
+  "compact_chars": 4124,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projetos Elétrico/hidrossanitário/preventivo/gás/climatização\",\n    \"Perímetro de projeção da torre\",\n    \"Armazenamento de cerâmicas*\",\n    \"Armazenamento de placas degesso*\",\n    \"Legalização e incorporação\",\n    \"ESTUDOS-PROJETOS-CONSULTORIAS\",\n    \"Equipamentos de proteção coletiva\",\n    \"CONSUMOS-TAXAS-DOCUMENTOS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Observação de Dados\",\n      \"texto\": \"informações adicionais como, para que local ou atividade o material é utilizado deveriam ser adicionadas em uma outra coluna de observação, assim como tudo que engloba o item presente o orçamento.\"\n    },\n    {\n      \"tema\": \"Estrutura Orçamentária\",\n      \"texto\": \"A separação de itens entre, mão de obra, material e mão de obra junto de material dentro dos niveis do orçamento seria muito util para manter o controle\"\n    },\n    {\n      \"tema\": \"Organização de Categorias\",\n      \"texto\": \"Organizar melhor, dividir em categorias mais especificas\"\n    },\n    {\n      \"tema\": \"Itens Genéricos\",\n      \"texto\": \"Evitar itens genéricos, para categorias que conseguimos diferenciar o valor pago, como as que envolvem atividades administrativas de obra.\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Incerteza Técnica\",\n      \"descricao\": \"Incerto o software que vai ser usado.\"\n    },\n    {\n      \"tipo\": \"Risco de Escopo\",\n      \"descricao\": \"Repetições de pavimentos**\"\n    },\n    {\n      \"tipo\": \"Dependência de Serviço\",\n      \"descricao\": \"laudo de aterramento para o maquinário de obra, feito após a instalação provisória e a troca.\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Perímetro de projeção embasamento\",\n    \"Perímetro de projeção Primária tipo 1\",\n    \"Altura dos 3 ultimos pavs\",\n    \"Área de Embasamento x Inice\",\n    \"Instalações Provisórias (central de aço, formas, argamassa, almoxarifado geral, construções temporárias)\",\n    \"Considerando entrega de 2 uniformes, capacete, bota, óculos e cinto\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Nomenclatura\",\n      \"decisao\": \"A mudança de nomeclatura de algumas classes e itens é apenas uma sugestão e pode ser alterada, ou seja não necessariamente deveria ser trocado para os nomes sugeridos por nós.\"\n    },\n    {\n      \"contexto\": \"Segurança\",\n      \"decisao\": \"Projetos de segurança do trabalho\"\n    },\n    {\n      \"contexto\": \"Qualidade\",\n      \"decisao\": \"Controle Tecnológico de Concreto\"\n    },\n    {\n      \"contexto\": \"Segurança Contra Incêndio\",\n      \"decisao\": \"Laudo de fixação das alças pro bombeiro\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projetos Elétrico/hidrossanitário/preventivo/gás/climatização",
+      "Perímetro de projeção da torre",
+      "Armazenamento de cerâmicas*",
+      "Armazenamento de placas degesso*",
+      "Legalização e incorporação",
+      "ESTUDOS-PROJETOS-CONSULTORIAS",
+      "Equipamentos de proteção coletiva",
+      "CONSUMOS-TAXAS-DOCUMENTOS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Observação de Dados",
+        "texto": "informações adicionais como, para que local ou atividade o material é utilizado deveriam ser adicionadas em uma outra coluna de observação, assim como tudo que engloba o item presente o orçamento."
+      },
+      {
+        "tema": "Estrutura Orçamentária",
+        "texto": "A separação de itens entre, mão de obra, material e mão de obra junto de material dentro dos niveis do orçamento seria muito util para manter o controle"
+      },
+      {
+        "tema": "Organização de Categorias",
+        "texto": "Organizar melhor, dividir em categorias mais especificas"
+      },
+      {
+        "tema": "Itens Genéricos",
+        "texto": "Evitar itens genéricos, para categorias que conseguimos diferenciar o valor pago, como as que envolvem atividades administrativas de obra."
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Incerteza Técnica",
+        "descricao": "Incerto o software que vai ser usado."
+      },
+      {
+        "tipo": "Risco de Escopo",
+        "descricao": "Repetições de pavimentos**"
+      },
+      {
+        "tipo": "Dependência de Serviço",
+        "descricao": "laudo de aterramento para o maquinário de obra, feito após a instalação provisória e a troca."
+      }
+    ],
+    "padroes_orcamentista": [
+      "Perímetro de projeção embasamento",
+      "Perímetro de projeção Primária tipo 1",
+      "Altura dos 3 ultimos pavs",
+      "Área de Embasamento x Inice",
+      "Instalações Provisórias (central de aço, formas, argamassa, almoxarifado geral, construções temporárias)",
+      "Considerando entrega de 2 uniformes, capacete, bota, óculos e cinto"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Nomenclatura",
+        "decisao": "A mudança de nomeclatura de algumas classes e itens é apenas uma sugestão e pode ser alterada, ou seja não necessariamente deveria ser trocado para os nomes sugeridos por nós."
+      },
+      {
+        "contexto": "Segurança",
+        "decisao": "Projetos de segurança do trabalho"
+      },
+      {
+        "contexto": "Qualidade",
+        "decisao": "Controle Tecnológico de Concreto"
+      },
+      {
+        "contexto": "Segurança Contra Incêndio",
+        "decisao": "Laudo de fixação das alças pro bombeiro"
+      }
+    ]
+  }
+}

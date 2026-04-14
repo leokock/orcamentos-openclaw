@@ -1,0 +1,70 @@
+{
+  "projeto": "chiquetti-e-dalvesco-nautilus",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:12:08",
+  "duration_s": 91.2,
+  "compact_chars": 1038,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto estrutural / fundação\",\n    \"Projeto elétrico / telecomunicações\",\n    \"Projeto hidrossanitário/pluvial\",\n    \"Projeto arquitetônico - ambientação\",\n    \"Consultoria de orçamento e planejamento\",\n    \"Taxas aprovação/legal. Prefeitura\",\n    \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Norma de Desempenho\",\n      \"texto\": \"Consultoria norma de desempenho - NBR 15.575\"\n    },\n    {\n      \"tema\": \"Segurança Contra Incêndio\",\n      \"texto\": \"Projeto preventivo - PPCI\"\n    },\n    {\n      \"tema\": \"Materiais\",\n      \"texto\": \"Ensaio/laudo controle tecnológico concreto\"\n    },\n    {\n      \"tema\": \"Vedação\",\n      \"texto\": \"Projeto impermeabilização\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Taxas Legais\",\n      \"descricao\": \"Taxas aprovação/legal. Prefeitura\"\n    },\n    {\n      \"tipo\": \"Taxas Legais\",\n      \"descricao\": \"Taxas aprovação/legal. Água/esgoto\"\n    },\n    {\n      \"tipo\": \"Regulatório\",\n      \"descricao\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    },\n    {\n      \"tipo\": \"Consumo\",\n      \"descricao\": \"Consumo gerenciamento eletrônico - obra\"\n    }\n  ],\n  \"padroes_orcamentista\": [],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Sistemas prediais\",\n      \"decisao\": \"Projeto automação predial\"\n    },\n    {\n      \"contexto\": \"Climatização\",\n      \"decisao\": \"Projeto ar condicionado/exaustão\"\n    },\n    {\n      \"contexto\": \"Gestão Geral\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMISNISTRATIVO\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto estrutural / fundação",
+      "Projeto elétrico / telecomunicações",
+      "Projeto hidrossanitário/pluvial",
+      "Projeto arquitetônico - ambientação",
+      "Consultoria de orçamento e planejamento",
+      "Taxas aprovação/legal. Prefeitura",
+      "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Norma de Desempenho",
+        "texto": "Consultoria norma de desempenho - NBR 15.575"
+      },
+      {
+        "tema": "Segurança Contra Incêndio",
+        "texto": "Projeto preventivo - PPCI"
+      },
+      {
+        "tema": "Materiais",
+        "texto": "Ensaio/laudo controle tecnológico concreto"
+      },
+      {
+        "tema": "Vedação",
+        "texto": "Projeto impermeabilização"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Taxas Legais",
+        "descricao": "Taxas aprovação/legal. Prefeitura"
+      },
+      {
+        "tipo": "Taxas Legais",
+        "descricao": "Taxas aprovação/legal. Água/esgoto"
+      },
+      {
+        "tipo": "Regulatório",
+        "descricao": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      },
+      {
+        "tipo": "Consumo",
+        "descricao": "Consumo gerenciamento eletrônico - obra"
+      }
+    ],
+    "padroes_orcamentista": [],
+    "decisoes_criticas": [
+      {
+        "contexto": "Sistemas prediais",
+        "decisao": "Projeto automação predial"
+      },
+      {
+        "contexto": "Climatização",
+        "decisao": "Projeto ar condicionado/exaustão"
+      },
+      {
+        "contexto": "Gestão Geral",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMISNISTRATIVO"
+      }
+    ]
+  }
+}

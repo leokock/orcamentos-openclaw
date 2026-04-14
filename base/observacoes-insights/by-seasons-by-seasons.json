@@ -1,0 +1,81 @@
+{
+  "projeto": "by-seasons-by-seasons",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:55:53",
+  "duration_s": 82.0,
+  "compact_chars": 4138,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"ACABAMENTOS INTERNOS EM PAREDE\",\n    \"ACABAMENTOS EM PISOS E PAVIMENTAÇÕES\",\n    \"ACABAMENTOS INTERNOS EM TETO\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"Perímetro de projeção torre\",\n    \"Legalização de incorporação\",\n    \"Concreto\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Considerado blocos, vigas de fundação, duto e cisterna\"\n    },\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Considerado empolamento 30% da escavação\"\n    },\n    {\n      \"tema\": \"Estacas\",\n      \"texto\": \"Profundidade média premissada em 28m devido ausência de detalhe\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Risco de Detalhe\",\n      \"descricao\": \"Profundidade média premissada em 28m devido ausência de detalhe\"\n    },\n    {\n      \"tipo\": \"Incerteza de Projeto\",\n      \"descricao\": \"Considerado - sem indicação em projeto\"\n    },\n    {\n      \"tipo\": \"Contingência\",\n      \"descricao\": \"IMPREVISTOS E CONTINGENCIAS\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimado com base em índices históricos\",\n    \"Estimado com base em índices históricos para elaboração interna\",\n    \"Valor informado em formulário COM EXECUÇÃO - projeto estimado com base em índices históricos\",\n    \"Valor informado em formulário\",\n    \"CONSUMOS, TAXAS E DOCUMENTOS\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Projeto Arquitetônico\",\n      \"decisao\": \"Projeto Arquitetônico legal - incluindo: executivo + elétrico + comunicação e dados + telefonia + luminotécnico + hidrosanitário + drenagem + pluvial + gás\"\n    },\n    {\n      \"contexto\": \"Segurança\",\n      \"decisao\": \"Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios)\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    },\n    {\n      \"contexto\": \"Meio Ambiente\",\n      \"decisao\": \"Aprovação e legalização ambiental\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "ACABAMENTOS INTERNOS EM PAREDE",
+      "ACABAMENTOS EM PISOS E PAVIMENTAÇÕES",
+      "ACABAMENTOS INTERNOS EM TETO",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "Perímetro de projeção torre",
+      "Legalização de incorporação",
+      "Concreto"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Considerado blocos, vigas de fundação, duto e cisterna"
+      },
+      {
+        "tema": "Escavação",
+        "texto": "Considerado empolamento 30% da escavação"
+      },
+      {
+        "tema": "Estacas",
+        "texto": "Profundidade média premissada em 28m devido ausência de detalhe"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Risco de Detalhe",
+        "descricao": "Profundidade média premissada em 28m devido ausência de detalhe"
+      },
+      {
+        "tipo": "Incerteza de Projeto",
+        "descricao": "Considerado - sem indicação em projeto"
+      },
+      {
+        "tipo": "Contingência",
+        "descricao": "IMPREVISTOS E CONTINGENCIAS"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimado com base em índices históricos",
+      "Estimado com base em índices históricos para elaboração interna",
+      "Valor informado em formulário COM EXECUÇÃO - projeto estimado com base em índices históricos",
+      "Valor informado em formulário",
+      "CONSUMOS, TAXAS E DOCUMENTOS"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Projeto Arquitetônico",
+        "decisao": "Projeto Arquitetônico legal - incluindo: executivo + elétrico + comunicação e dados + telefonia + luminotécnico + hidrosanitário + drenagem + pluvial + gás"
+      },
+      {
+        "contexto": "Segurança",
+        "decisao": "Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios)"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      },
+      {
+        "contexto": "Meio Ambiente",
+        "decisao": "Aprovação e legalização ambiental"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "projeto": "viva4-barra4",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:13:16",
+  "duration_s": 84.5,
+  "compact_chars": 4140,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto Arquitetônico\",\n    \"Revestimentos\",\n    \"Perímetro de projeção\",\n    \"Instalações\",\n    \"Acabamentos Internos\",\n    \"Equipamentos de proteção coletiva\",\n    \"Projeto elétrico/comunicação/telefonia\",\n    \"Gerenciamento Técnico e Administrativo\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Cronograma\",\n      \"texto\": \"Prazo indicado no Cronograma do Planejamento R03-Entregue ao cliente\"\n    },\n    {\n      \"tema\": \"Canteiro\",\n      \"texto\": \"Custo da Aba Canteiro / pelo Prazo de Obra\"\n    },\n    {\n      \"tema\": \"Estudos\",\n      \"texto\": \"Estudo de Análise Técnica de Projeto\"\n    },\n    {\n      \"tema\": \"Estudos\",\n      \"texto\": \"Estudo Rebaixamento de Lençol Freático\"\n    },\n    {\n      \"tema\": \"Projetos\",\n      \"texto\": \"Projeto Arquitetônico Legal\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Escopo\",\n      \"descricao\": \"ALTURA DOS 3 ULTIMOS PAVS\"\n    },\n    {\n      \"tipo\": \"Medição\",\n      \"descricao\": \"Repetições de pavimentos**\"\n    },\n    {\n      \"tipo\": \"Medição\",\n      \"descricao\": \"Altura de cobrimento da tela\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimativas Custos Indiretos\",\n    \"Produtividade média (h/m2)\",\n    \"Instalações Provisórias (central de aço, formas, argamassa, almoxarifado geral, construções temporárias)\",\n    \"Central de armazenamento entre pavimentos\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Gerenciamento e Sistemas\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    },\n    {\n      \"contexto\": \"Instalações\",\n      \"decisao\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n    },\n    {\n      \"contexto\": \"Acabamentos\",\n      \"decisao\": \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n    },\n    {\n      \"contexto\": \"Projeto\",\n      \"decisao\": \"Projeto Arquitetônico Legal\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto Arquitetônico",
+      "Revestimentos",
+      "Perímetro de projeção",
+      "Instalações",
+      "Acabamentos Internos",
+      "Equipamentos de proteção coletiva",
+      "Projeto elétrico/comunicação/telefonia",
+      "Gerenciamento Técnico e Administrativo"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Cronograma",
+        "texto": "Prazo indicado no Cronograma do Planejamento R03-Entregue ao cliente"
+      },
+      {
+        "tema": "Canteiro",
+        "texto": "Custo da Aba Canteiro / pelo Prazo de Obra"
+      },
+      {
+        "tema": "Estudos",
+        "texto": "Estudo de Análise Técnica de Projeto"
+      },
+      {
+        "tema": "Estudos",
+        "texto": "Estudo Rebaixamento de Lençol Freático"
+      },
+      {
+        "tema": "Projetos",
+        "texto": "Projeto Arquitetônico Legal"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Escopo",
+        "descricao": "ALTURA DOS 3 ULTIMOS PAVS"
+      },
+      {
+        "tipo": "Medição",
+        "descricao": "Repetições de pavimentos**"
+      },
+      {
+        "tipo": "Medição",
+        "descricao": "Altura de cobrimento da tela"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimativas Custos Indiretos",
+      "Produtividade média (h/m2)",
+      "Instalações Provisórias (central de aço, formas, argamassa, almoxarifado geral, construções temporárias)",
+      "Central de armazenamento entre pavimentos"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Gerenciamento e Sistemas",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "contexto": "Instalações",
+        "decisao": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+      },
+      {
+        "contexto": "Acabamentos",
+        "decisao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+      },
+      {
+        "contexto": "Projeto",
+        "decisao": "Projeto Arquitetônico Legal"
+      }
+    ]
+  }
+}

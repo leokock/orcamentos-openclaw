@@ -1,0 +1,67 @@
+{
+  "projeto": "chiquetti-e-dalvesco-santorini",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:13:23",
+  "duration_s": 75.3,
+  "compact_chars": 1089,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto\",\n    \"Consultoria\",\n    \"Taxas aprovação/legal\",\n    \"Projeto arquitetônico\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Projeto estrutural / fundação\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"Projeto e Mentoria Acústica\"\n    },\n    {\n      \"tema\": \"Normas\",\n      \"texto\": \"Consultoria norma de desempenho - NBR 15.575\"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Ensaio/laudo controle tecnológico e recebimento de concreto\"\n    },\n    {\n      \"tema\": \"Impermeabilização\",\n      \"texto\": \"Projeto impermeabilização\"\n    },\n    {\n      \"tema\": \"Viabilidade\",\n      \"texto\": \"Consultoria de Viabilização de Negócio Imobiliário\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Legal/Financeiro\",\n      \"descricao\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Projeto arquitetônico executivo\",\n    \"Consultoria de orçamento e planejamento\",\n    \"Consumo gerenciamento eletrônico - obra\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMISNISTRATIVO\"\n    },\n    {\n      \"contexto\": \"Serviços Complementares\",\n      \"decisao\": \"ESTUDOS, PROJETOS E CONSULTORIAS\"\n    },\n    {\n      \"contexto\": \"Regulatório\",\n      \"decisao\": \"Taxas aprovação/legal. Prefeitura\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto",
+      "Consultoria",
+      "Taxas aprovação/legal",
+      "Projeto arquitetônico"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Estrutura",
+        "texto": "Projeto estrutural / fundação"
+      },
+      {
+        "tema": "Acústica",
+        "texto": "Projeto e Mentoria Acústica"
+      },
+      {
+        "tema": "Normas",
+        "texto": "Consultoria norma de desempenho - NBR 15.575"
+      },
+      {
+        "tema": "Concreto",
+        "texto": "Ensaio/laudo controle tecnológico e recebimento de concreto"
+      },
+      {
+        "tema": "Impermeabilização",
+        "texto": "Projeto impermeabilização"
+      },
+      {
+        "tema": "Viabilidade",
+        "texto": "Consultoria de Viabilização de Negócio Imobiliário"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Legal/Financeiro",
+        "descricao": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Projeto arquitetônico executivo",
+      "Consultoria de orçamento e planejamento",
+      "Consumo gerenciamento eletrônico - obra"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMISNISTRATIVO"
+      },
+      {
+        "contexto": "Serviços Complementares",
+        "decisao": "ESTUDOS, PROJETOS E CONSULTORIAS"
+      },
+      {
+        "contexto": "Regulatório",
+        "decisao": "Taxas aprovação/legal. Prefeitura"
+      }
+    ]
+  }
+}

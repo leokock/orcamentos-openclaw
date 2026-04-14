@@ -1,0 +1,82 @@
+{
+  "projeto": "chiquetti-e-dalvesco-bela-vida",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:07:02",
+  "duration_s": 157.8,
+  "compact_chars": 4170,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto Hidrossanitário e PPCI\",\n    \"Projeto de Exaustão das Churrasqueiras\",\n    \"Projeto Impermeabilização\",\n    \"Projeto elétrico/comunicação/telefonia/luminotécnico\",\n    \"Projeto de comunicação visual\",\n    \"Projeto Estrutural\",\n    \"Laudo De Vizinhos\",\n    \"Elaboração de Planejamento\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Custo de Irrigação\",\n      \"texto\": \"O custo que estava destinado a Irrigação se refere a Hidro e PPCI na planilha de contratação\"\n    },\n    {\n      \"tema\": \"Ajuste de Orçamento\",\n      \"texto\": \"Ajustado conforme reunião\"\n    },\n    {\n      \"tema\": \"Ajuste de Orçamento\",\n      \"texto\": \"Ajustado conforme Proposta Recebida\"\n    },\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Considerado área de subsolo e altura até o pavimento térreo\"\n    },\n    {\n      \"tema\": \"Estacas\",\n      \"texto\": \"Quantidade preliminar trazida pelo proejto de locação (profundidade média de 8m como apontado nos furos testes)\"\n    },\n    {\n      \"tema\": \"Mão de Obra\",\n      \"texto\": \"Mão de Obra Recebida pelo cliente\"\n    },\n    {\n      \"tema\": \"Perda de Material\",\n      \"texto\": \"Consideração de 35% de perda\"\n    },\n    {\n      \"tema\": \"Perda de Material\",\n      \"texto\": \"Consideração de 5% de perda\"\n    },\n    {\n      \"tema\": \"Orçamento Geral\",\n      \"texto\": \"Conforme discretização nas abas anteriores\"\n    },\n    {\n      \"tema\": \"Cronograma\",\n      \"texto\": \"Ampli janeiro até fim da obra\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"ORÇAMENTO PARAMÉTRICO - CUSTOS INDIRETOS\",\n    \"PLANILHA ORÇAMENTÁRIA - ESTIMATIVA INICIAL\",\n    \"Descontar do Valor da Taxa de Adm\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Orçamento\",\n      \"decisao\": \"Separar aqui ficar a cordenação\"\n    },\n    {\n      \"contexto\": \"Projeto Estrutural\",\n      \"decisao\": \"Projeto estrutural em concreto armado ( Novo)\"\n    },\n    {\n      \"contexto\": \"Projeto Base\",\n      \"decisao\": \"Projeto arquitetônico legal\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto Hidrossanitário e PPCI",
+      "Projeto de Exaustão das Churrasqueiras",
+      "Projeto Impermeabilização",
+      "Projeto elétrico/comunicação/telefonia/luminotécnico",
+      "Projeto de comunicação visual",
+      "Projeto Estrutural",
+      "Laudo De Vizinhos",
+      "Elaboração de Planejamento"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Custo de Irrigação",
+        "texto": "O custo que estava destinado a Irrigação se refere a Hidro e PPCI na planilha de contratação"
+      },
+      {
+        "tema": "Ajuste de Orçamento",
+        "texto": "Ajustado conforme reunião"
+      },
+      {
+        "tema": "Ajuste de Orçamento",
+        "texto": "Ajustado conforme Proposta Recebida"
+      },
+      {
+        "tema": "Escavação",
+        "texto": "Considerado área de subsolo e altura até o pavimento térreo"
+      },
+      {
+        "tema": "Estacas",
+        "texto": "Quantidade preliminar trazida pelo proejto de locação (profundidade média de 8m como apontado nos furos testes)"
+      },
+      {
+        "tema": "Mão de Obra",
+        "texto": "Mão de Obra Recebida pelo cliente"
+      },
+      {
+        "tema": "Perda de Material",
+        "texto": "Consideração de 35% de perda"
+      },
+      {
+        "tema": "Perda de Material",
+        "texto": "Consideração de 5% de perda"
+      },
+      {
+        "tema": "Orçamento Geral",
+        "texto": "Conforme discretização nas abas anteriores"
+      },
+      {
+        "tema": "Cronograma",
+        "texto": "Ampli janeiro até fim da obra"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "ORÇAMENTO PARAMÉTRICO - CUSTOS INDIRETOS",
+      "PLANILHA ORÇAMENTÁRIA - ESTIMATIVA INICIAL",
+      "Descontar do Valor da Taxa de Adm"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Orçamento",
+        "decisao": "Separar aqui ficar a cordenação"
+      },
+      {
+        "contexto": "Projeto Estrutural",
+        "decisao": "Projeto estrutural em concreto armado ( Novo)"
+      },
+      {
+        "contexto": "Projeto Base",
+        "decisao": "Projeto arquitetônico legal"
+      }
+    ]
+  }
+}

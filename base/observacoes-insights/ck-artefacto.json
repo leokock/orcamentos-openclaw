@@ -1,0 +1,31 @@
+{
+  "projeto": "ck-artefacto",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:14:19",
+  "duration_s": 55.1,
+  "compact_chars": 810,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"SISTEMAS E EQUIPAMENTOS ESPECIAIS\",\n    \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n  ],\n  \"justificativas_tecnicas\": [],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Executivo_01\",\n      \"decisao\": \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\"\n    },\n    {\n      \"contexto\": \"Gerenciamento executivo\",\n      \"decisao\": \"IMPREVISTOS E CONTINGÊNCIAS\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "SISTEMAS E EQUIPAMENTOS ESPECIAIS",
+      "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+    ],
+    "justificativas_tecnicas": [],
+    "flags_risco": [],
+    "padroes_orcamentista": [],
+    "decisoes_criticas": [
+      {
+        "contexto": "Executivo_01",
+        "decisao": "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO"
+      },
+      {
+        "contexto": "Gerenciamento executivo",
+        "decisao": "IMPREVISTOS E CONTINGÊNCIAS"
+      }
+    ]
+  }
+}

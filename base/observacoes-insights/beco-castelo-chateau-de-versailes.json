@@ -1,0 +1,59 @@
+{
+  "projeto": "beco-castelo-chateau-de-versailes",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:46:57",
+  "duration_s": 73.6,
+  "compact_chars": 4160,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto arquitetônico legal\",\n    \"Projeto arquitetônico executivo\",\n    \"Projeto de fachada\",\n    \"Legalização de incorporação\",\n    \"Controle Tecnológico\",\n    \"Projeto estrutural em concreto protendido\",\n    \"Revestimentos internos de parede\",\n    \"Sistemas e instalações elétricas\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Média de Mercado\",\n      \"texto\": \"Caso faça parte do escopo mas o valor não esteja disponível, será utilizado média de mercado, preencher com \\\"0,00\\\"\"\n    },\n    {\n      \"tema\": \"Ensaio de Concreto\",\n      \"texto\": \"Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    },\n    {\n      \"tema\": \"Alinhamento de Escopo\",\n      \"texto\": \"Alterado conforme alinhamento com planejamento.\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa de Valor\",\n      \"descricao\": \"será utilizado média de mercado\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Custo informado em formulário pela Beco Castelo\",\n    \"Custo estimado com base em íncies históricos da Cartesian\",\n    \"Preencha com o valor (R$) do documento;\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo de Documentos\",\n      \"decisao\": \"Caso não faça parte do escopo, não preencher.\"\n    },\n    {\n      \"contexto\": \"Alteração de Escopo\",\n      \"decisao\": \"Alterado conforme alinhamento com planejamento.\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto arquitetônico legal",
+      "Projeto arquitetônico executivo",
+      "Projeto de fachada",
+      "Legalização de incorporação",
+      "Controle Tecnológico",
+      "Projeto estrutural em concreto protendido",
+      "Revestimentos internos de parede",
+      "Sistemas e instalações elétricas"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Média de Mercado",
+        "texto": "Caso faça parte do escopo mas o valor não esteja disponível, será utilizado média de mercado, preencher com \"0,00\""
+      },
+      {
+        "tema": "Ensaio de Concreto",
+        "texto": "Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      },
+      {
+        "tema": "Alinhamento de Escopo",
+        "texto": "Alterado conforme alinhamento com planejamento."
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa de Valor",
+        "descricao": "será utilizado média de mercado"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Custo informado em formulário pela Beco Castelo",
+      "Custo estimado com base em íncies históricos da Cartesian",
+      "Preencha com o valor (R$) do documento;"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo de Documentos",
+        "decisao": "Caso não faça parte do escopo, não preencher."
+      },
+      {
+        "contexto": "Alteração de Escopo",
+        "decisao": "Alterado conforme alinhamento com planejamento."
+      }
+    ]
+  }
+}

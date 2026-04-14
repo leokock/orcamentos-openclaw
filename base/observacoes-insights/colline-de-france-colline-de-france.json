@@ -1,0 +1,55 @@
+{
+  "projeto": "colline-de-france-colline-de-france",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:32:11",
+  "duration_s": 81.3,
+  "compact_chars": 4147,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"nº equipamentos x áreas\",\n    \"Custo da Aba Canteiro / pelo Prazo de Obra\",\n    \"BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X\",\n    \"MADEIRA PINUS/SIMILAR\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Custo de Caçamba\",\n      \"texto\": \"Recebido do Cliente: 500,00/Caçamba\"\n    },\n    {\n      \"tema\": \"Prazo de Obra\",\n      \"texto\": \"Cosiderado 5 caçambas por mês durante o prazo da obra\"\n    },\n    {\n      \"tema\": \"Custo Indireto\",\n      \"texto\": \"Custo da Aba Canteiro / pelo Prazo de Obra\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimativas Custos Indiretos\"\n    },\n    {\n      \"tipo\": \"Dados Incompletos\",\n      \"descricao\": \"nº equipamentos x áreas\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimativas Custos Indiretos\",\n    \"Recebido do Cliente:\",\n    \"Custo da Aba Canteiro / pelo Prazo de Obra\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Custo de Caçamba\",\n      \"decisao\": \"Recebido do Cliente: 500,00/Caçamba\"\n    },\n    {\n      \"contexto\": \"Cálculo de Canteiro\",\n      \"decisao\": \"Cosiderado 5 caçambas por mês durante o prazo da obra\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "nº equipamentos x áreas",
+      "Custo da Aba Canteiro / pelo Prazo de Obra",
+      "BLOCO CONCRETO ESTRUTURAL 04MPA 14X19X",
+      "MADEIRA PINUS/SIMILAR"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Custo de Caçamba",
+        "texto": "Recebido do Cliente: 500,00/Caçamba"
+      },
+      {
+        "tema": "Prazo de Obra",
+        "texto": "Cosiderado 5 caçambas por mês durante o prazo da obra"
+      },
+      {
+        "tema": "Custo Indireto",
+        "texto": "Custo da Aba Canteiro / pelo Prazo de Obra"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimativas Custos Indiretos"
+      },
+      {
+        "tipo": "Dados Incompletos",
+        "descricao": "nº equipamentos x áreas"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimativas Custos Indiretos",
+      "Recebido do Cliente:",
+      "Custo da Aba Canteiro / pelo Prazo de Obra"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Custo de Caçamba",
+        "decisao": "Recebido do Cliente: 500,00/Caçamba"
+      },
+      {
+        "contexto": "Cálculo de Canteiro",
+        "decisao": "Cosiderado 5 caçambas por mês durante o prazo da obra"
+      }
+    ]
+  }
+}

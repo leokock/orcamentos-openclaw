@@ -1,0 +1,79 @@
+{
+  "projeto": "somauma-virginia",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:07:33",
+  "duration_s": 86.4,
+  "compact_chars": 3399,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"LEVANTAMENTO QUANTITATIVO\",\n    \"Consultoria Técnica\",\n    \"Ensaio de arrancamento\",\n    \"Perímetro de projeção\",\n    \"Mapeamento de Estrutura Existente\",\n    \"Controle Tecnológico\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Consultoria de Norma de Desempenho\",\n      \"texto\": \"Consultoria de Norma de Desempenho\"\n    },\n    {\n      \"tema\": \"Vedação e Drywall\",\n      \"texto\": \"Consultoria Técnica e Revisão de Projeto de Drywall e Sistemas de Vedação\"\n    },\n    {\n      \"tema\": \"Instalações\",\n      \"texto\": \"Consultoria Técnica e Análise e Revisão de Projetos para Instalações Elétricas e Hidraúlicas\"\n    },\n    {\n      \"tema\": \"Estruturas\",\n      \"texto\": \"Consultoria Técnica e Análise e Revisão de Projetos Estruturais\"\n    },\n    {\n      \"tema\": \"Impermeabilização\",\n      \"texto\": \"Consultoria Técnica em Impermeabilização\"\n    },\n    {\n      \"tema\": \"Estrutura Existente\",\n      \"texto\": \"Levantamento In-Loco de Estrutura Existente e Situação Geral da Edificação\"\n    },\n    {\n      \"tema\": \"Compatibilização\",\n      \"texto\": \"Revisão e Compatibilização de Todos os Projetos\"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Controle Tecnológico do concreto\"\n    },\n    {\n      \"tema\": \"Fachada\",\n      \"texto\": \"Ensaio de arrancamento fachada\"\n    },\n    {\n      \"tema\": \"Materiais Sustentáveis\",\n      \"texto\": \"Desenvolvimento de Materiais e Produtos Sustentavèis e Upcicle\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"LEVANTAMENTO QUANTITATIVO\",\n    \"Hora Extra Auxiliar de Laboratorista (Aos sábados - 80%)\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Segurança da Obra\",\n      \"decisao\": \"Seguro de Obra - (RC / RE / PB)\"\n    },\n    {\n      \"contexto\": \"Escopo de Projeto\",\n      \"decisao\": \"Revisão e Compatibilização de Todos os Projetos\"\n    },\n    {\n      \"contexto\": \"Reaproveitamento de Materiais\",\n      \"decisao\": \"Estudos de Itens a Serem Reaproveitados na Obra\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "LEVANTAMENTO QUANTITATIVO",
+      "Consultoria Técnica",
+      "Ensaio de arrancamento",
+      "Perímetro de projeção",
+      "Mapeamento de Estrutura Existente",
+      "Controle Tecnológico"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Consultoria de Norma de Desempenho",
+        "texto": "Consultoria de Norma de Desempenho"
+      },
+      {
+        "tema": "Vedação e Drywall",
+        "texto": "Consultoria Técnica e Revisão de Projeto de Drywall e Sistemas de Vedação"
+      },
+      {
+        "tema": "Instalações",
+        "texto": "Consultoria Técnica e Análise e Revisão de Projetos para Instalações Elétricas e Hidraúlicas"
+      },
+      {
+        "tema": "Estruturas",
+        "texto": "Consultoria Técnica e Análise e Revisão de Projetos Estruturais"
+      },
+      {
+        "tema": "Impermeabilização",
+        "texto": "Consultoria Técnica em Impermeabilização"
+      },
+      {
+        "tema": "Estrutura Existente",
+        "texto": "Levantamento In-Loco de Estrutura Existente e Situação Geral da Edificação"
+      },
+      {
+        "tema": "Compatibilização",
+        "texto": "Revisão e Compatibilização de Todos os Projetos"
+      },
+      {
+        "tema": "Concreto",
+        "texto": "Controle Tecnológico do concreto"
+      },
+      {
+        "tema": "Fachada",
+        "texto": "Ensaio de arrancamento fachada"
+      },
+      {
+        "tema": "Materiais Sustentáveis",
+        "texto": "Desenvolvimento de Materiais e Produtos Sustentavèis e Upcicle"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "LEVANTAMENTO QUANTITATIVO",
+      "Hora Extra Auxiliar de Laboratorista (Aos sábados - 80%)"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Segurança da Obra",
+        "decisao": "Seguro de Obra - (RC / RE / PB)"
+      },
+      {
+        "contexto": "Escopo de Projeto",
+        "decisao": "Revisão e Compatibilização de Todos os Projetos"
+      },
+      {
+        "contexto": "Reaproveitamento de Materiais",
+        "decisao": "Estudos de Itens a Serem Reaproveitados na Obra"
+      }
+    ]
+  }
+}

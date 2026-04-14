@@ -1,0 +1,64 @@
+{
+  "projeto": "exito-oiti",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:39:15",
+  "duration_s": 84.6,
+  "compact_chars": 1411,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"supraestrutura\",\n    \"fôrma de pilares\",\n    \"fôrma de lajes\",\n    \"madeira compensada plastificada\",\n    \"escavação e reaterro de valas\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"FCK 30MPa, com Brita 1, SLUMP = 14 +/- 2 Incluindo Serviço de Bombeamento*\"\n    },\n    {\n      \"tema\": \"Fôrmas\",\n      \"texto\": \"em chapa de madeira compensada plastificada, e=18mm\"\n    },\n    {\n      \"tema\": \"Armação\",\n      \"texto\": \"corte e dobra em indústria\"\n    },\n    {\n      \"tema\": \"Execução\",\n      \"texto\": \"Mão de obra empreitada para execução de estrutura de concreto armado em supraestrutura\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Escopo Variável\",\n      \"descricao\": \"Aterro com ou sem compactação\"\n    },\n    {\n      \"tipo\": \"Exclusão/Condição\",\n      \"descricao\": \"Montagem e desmontagem de fôrma de pilares, em chapa de madeira compensada plastificada*\"\n    },\n    {\n      \"tipo\": \"Exclusão/Condição\",\n      \"descricao\": \"Montagem e desmontagem de fôrma de laje, em chapa de madeira compensada plastificada*\"\n    }\n  ],\n  \"padroes_orcamentista\": [],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"SUPRAESTRUTURA - TIPO DIFERENCIADO\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"SUPRAESTRUTURA - TIPO (12x)\"\n    },\n    {\n      \"contexto\": \"Concreto\",\n      \"decisao\": \"Incluindo Serviço de Bombeamento*\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "supraestrutura",
+      "fôrma de pilares",
+      "fôrma de lajes",
+      "madeira compensada plastificada",
+      "escavação e reaterro de valas"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Concreto",
+        "texto": "FCK 30MPa, com Brita 1, SLUMP = 14 +/- 2 Incluindo Serviço de Bombeamento*"
+      },
+      {
+        "tema": "Fôrmas",
+        "texto": "em chapa de madeira compensada plastificada, e=18mm"
+      },
+      {
+        "tema": "Armação",
+        "texto": "corte e dobra em indústria"
+      },
+      {
+        "tema": "Execução",
+        "texto": "Mão de obra empreitada para execução de estrutura de concreto armado em supraestrutura"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Escopo Variável",
+        "descricao": "Aterro com ou sem compactação"
+      },
+      {
+        "tipo": "Exclusão/Condição",
+        "descricao": "Montagem e desmontagem de fôrma de pilares, em chapa de madeira compensada plastificada*"
+      },
+      {
+        "tipo": "Exclusão/Condição",
+        "descricao": "Montagem e desmontagem de fôrma de laje, em chapa de madeira compensada plastificada*"
+      }
+    ],
+    "padroes_orcamentista": [],
+    "decisoes_criticas": [
+      {
+        "contexto": "Estrutura",
+        "decisao": "SUPRAESTRUTURA - TIPO DIFERENCIADO"
+      },
+      {
+        "contexto": "Estrutura",
+        "decisao": "SUPRAESTRUTURA - TIPO (12x)"
+      },
+      {
+        "contexto": "Concreto",
+        "decisao": "Incluindo Serviço de Bombeamento*"
+      }
+    ]
+  }
+}

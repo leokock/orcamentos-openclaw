@@ -1,0 +1,44 @@
+{
+  "projeto": "mabrem-san-marino",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:15:18",
+  "duration_s": 58.5,
+  "compact_chars": 1075,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"SAN MARINO RESIDENCE\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"ESTUDOS | PROJETOS | CONSULTORIAS\",\n    \"CONTROLE TECNOLOGICO DO CONCRETO\",\n    \"DESPESAS CARTORIO, JURIDICAS E INCORPORACAO\",\n    \"Taxas de aprovacao e alvaras\",\n    \"IPTU - IMPOSTO PREDIAL E TERRITORIAL URBANO\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle de Concreto\",\n      \"texto\": \"CONTROLE TECNOLOGICO DO CONCRETO\"\n    },\n    {\n      \"tema\": \"Segurança\",\n      \"texto\": \"Servico de seguranca do trabalho terceirizado\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Planilha de Orçamento - Planilha do Grupo\",\n    \"Consultoria de Orçamento e Planejamento\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo Adicional\",\n      \"decisao\": \"Laudo preventivo de danos a vizinhanca\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"DESPESAS CARTORIO, JURIDICAS E INCORPORACAO\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "SAN MARINO RESIDENCE",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "ESTUDOS | PROJETOS | CONSULTORIAS",
+      "CONTROLE TECNOLOGICO DO CONCRETO",
+      "DESPESAS CARTORIO, JURIDICAS E INCORPORACAO",
+      "Taxas de aprovacao e alvaras",
+      "IPTU - IMPOSTO PREDIAL E TERRITORIAL URBANO"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle de Concreto",
+        "texto": "CONTROLE TECNOLOGICO DO CONCRETO"
+      },
+      {
+        "tema": "Segurança",
+        "texto": "Servico de seguranca do trabalho terceirizado"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Planilha de Orçamento - Planilha do Grupo",
+      "Consultoria de Orçamento e Planejamento"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo Adicional",
+        "decisao": "Laudo preventivo de danos a vizinhanca"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "DESPESAS CARTORIO, JURIDICAS E INCORPORACAO"
+      }
+    ]
+  }
+}

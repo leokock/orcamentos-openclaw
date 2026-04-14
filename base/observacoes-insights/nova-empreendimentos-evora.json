@@ -1,0 +1,87 @@
+{
+  "projeto": "nova-empreendimentos-evora",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:39:20",
+  "duration_s": 82.0,
+  "compact_chars": 4100,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto Arquitetônico Legal e Executivo\",\n    \"Levantamentos Topográficos\",\n    \"Impermeabilização\",\n    \"Perímetro de projeção torre\",\n    \"TOPOSOLO - TOPOGRAFIA E PROJETOS\",\n    \"Bandeja de proteção primária\",\n    \"Bandeja de proteção secundária\",\n    \"Número de unidades habitacionais\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Taxas Tabelionato / Registro de Imóveis\",\n      \"texto\": \"Valor lançado conforme documentos enviados pelo Luis no dia 03.05.24\"\n    },\n    {\n      \"tema\": \"Despesas Administrativas Indiretas\",\n      \"texto\": \"Custo previsto em estiativa inicial\"\n    },\n    {\n      \"tema\": \"Várias taxas\",\n      \"texto\": \"Valor preenchido em formulário (custo aprorpiado de R$ 5.000,00)\"\n    },\n    {\n      \"tema\": \"Taxas iniciais de projeto\",\n      \"texto\": \"Valor preenchido em formulário e definido em contrato\"\n    },\n    {\n      \"tema\": \"Levantamentos Topográficos\",\n      \"texto\": \"Valor preenchido em formulário e definido em comprovante enviado\"\n    },\n    {\n      \"tema\": \"Projetos\",\n      \"texto\": \"Valor preenchido em formulário e definido em estimativa inicial\"\n    },\n    {\n      \"tema\": \"Projeto Arquitetônico\",\n      \"texto\": \"Valor preenchido em formulário e validado com planilha enviada\"\n    },\n    {\n      \"tema\": \"Projetos\",\n      \"texto\": \"Valor ajustado conforme planilha enviada\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Acréscimo de custo\",\n      \"descricao\": \"Peso de aço com 10% de acréscimo\"\n    },\n    {\n      \"tipo\": \"Acréscimo de custo\",\n      \"descricao\": \"Volume de concreto com 20% de acréscimo\"\n    },\n    {\n      \"tipo\": \"Observação de escopo\",\n      \"descricao\": \"Repetições de pavimentos**\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Valor preenchido em formulário\",\n    \"Custo previsto em estiativa inicial\",\n    \"Valor preenchido em formulário e definido em contrato\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Taxas e Outorgas\",\n      \"decisao\": \"OUTORGA ONEROSA E TAXAS REFERENTES AO TERRENO\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"Peso de aço com 10% de acréscimo\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"Volume de concreto com 20% de acréscimo\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto Arquitetônico Legal e Executivo",
+      "Levantamentos Topográficos",
+      "Impermeabilização",
+      "Perímetro de projeção torre",
+      "TOPOSOLO - TOPOGRAFIA E PROJETOS",
+      "Bandeja de proteção primária",
+      "Bandeja de proteção secundária",
+      "Número de unidades habitacionais"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Taxas Tabelionato / Registro de Imóveis",
+        "texto": "Valor lançado conforme documentos enviados pelo Luis no dia 03.05.24"
+      },
+      {
+        "tema": "Despesas Administrativas Indiretas",
+        "texto": "Custo previsto em estiativa inicial"
+      },
+      {
+        "tema": "Várias taxas",
+        "texto": "Valor preenchido em formulário (custo aprorpiado de R$ 5.000,00)"
+      },
+      {
+        "tema": "Taxas iniciais de projeto",
+        "texto": "Valor preenchido em formulário e definido em contrato"
+      },
+      {
+        "tema": "Levantamentos Topográficos",
+        "texto": "Valor preenchido em formulário e definido em comprovante enviado"
+      },
+      {
+        "tema": "Projetos",
+        "texto": "Valor preenchido em formulário e definido em estimativa inicial"
+      },
+      {
+        "tema": "Projeto Arquitetônico",
+        "texto": "Valor preenchido em formulário e validado com planilha enviada"
+      },
+      {
+        "tema": "Projetos",
+        "texto": "Valor ajustado conforme planilha enviada"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Acréscimo de custo",
+        "descricao": "Peso de aço com 10% de acréscimo"
+      },
+      {
+        "tipo": "Acréscimo de custo",
+        "descricao": "Volume de concreto com 20% de acréscimo"
+      },
+      {
+        "tipo": "Observação de escopo",
+        "descricao": "Repetições de pavimentos**"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Valor preenchido em formulário",
+      "Custo previsto em estiativa inicial",
+      "Valor preenchido em formulário e definido em contrato"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Taxas e Outorgas",
+        "decisao": "OUTORGA ONEROSA E TAXAS REFERENTES AO TERRENO"
+      },
+      {
+        "contexto": "Estrutura",
+        "decisao": "Peso de aço com 10% de acréscimo"
+      },
+      {
+        "contexto": "Estrutura",
+        "decisao": "Volume de concreto com 20% de acréscimo"
+      }
+    ]
+  }
+}

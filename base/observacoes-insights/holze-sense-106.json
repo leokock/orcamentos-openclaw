@@ -1,0 +1,90 @@
+{
+  "projeto": "holze-sense-106",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:02:37",
+  "duration_s": 92.8,
+  "compact_chars": 4127,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Controle Tecnológico\",\n    \"Perímetro de projeção\",\n    \"Legalização\",\n    \"Ensaio de argamassa\",\n    \"Bandeja de proteção\",\n    \"Projeto Arquitetônico legal\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Ensaio de argamassa\",\n      \"texto\": \"Ensaio de arrancamento de argamassa de revestimento Determinação da aderencia a tração\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"4 CPs por caminhão betoneira de 8m³\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    },\n    {\n      \"tema\": \"Revestimento\",\n      \"texto\": \"Impermeabilização de superfície com manta, uma camada, E=4mm - M.O. e Material\"\n    },\n    {\n      \"tema\": \"Reboco\",\n      \"texto\": \"Reboco interno em argamassa usinada - espessura de 20mm - com execução de taliscas\"\n    },\n    {\n      \"tema\": \"Armação\",\n      \"texto\": \"Armação aço CA-50 ø 6,3mm para supraestrutura (corte e dobra em indústria)\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Alteração de escopo\",\n      \"descricao\": \"Custo atualizado conforme solicitação do dia 27/10/2024 / Alteração na profundidade das estacas.\"\n    },\n    {\n      \"tipo\": \"Ambiguidade\",\n      \"descricao\": \"Repetições de pavimentos**\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Custo atualizado conforme solicitação do dia 27/10/2024\",\n    \"Custo conforme respostas informadas no formulário de custos indiretos.\",\n    \"Contrapiso comum, aderido, espessura de 6cm, com argamassa usinada\",\n    \"Porta Corta Fogo 90x210 completa P60\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Serviços de Engenharia\",\n      \"decisao\": \"ESTUDOS, PROJETOS E CONSULTORIAS\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"Projeto Arquitetônico legal\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"Projetos Estrutural e Fundações\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"Taxas de ART, cartório, licenças, certidões e jurídicas\"\n    },\n    {\n      \"contexto\": \"Entrega\",\n      \"decisao\": \"Laudo técnico de vistoria de entrega\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Controle Tecnológico",
+      "Perímetro de projeção",
+      "Legalização",
+      "Ensaio de argamassa",
+      "Bandeja de proteção",
+      "Projeto Arquitetônico legal"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Ensaio de argamassa",
+        "texto": "Ensaio de arrancamento de argamassa de revestimento Determinação da aderencia a tração"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "4 CPs por caminhão betoneira de 8m³"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      },
+      {
+        "tema": "Revestimento",
+        "texto": "Impermeabilização de superfície com manta, uma camada, E=4mm - M.O. e Material"
+      },
+      {
+        "tema": "Reboco",
+        "texto": "Reboco interno em argamassa usinada - espessura de 20mm - com execução de taliscas"
+      },
+      {
+        "tema": "Armação",
+        "texto": "Armação aço CA-50 ø 6,3mm para supraestrutura (corte e dobra em indústria)"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Alteração de escopo",
+        "descricao": "Custo atualizado conforme solicitação do dia 27/10/2024 / Alteração na profundidade das estacas."
+      },
+      {
+        "tipo": "Ambiguidade",
+        "descricao": "Repetições de pavimentos**"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Custo atualizado conforme solicitação do dia 27/10/2024",
+      "Custo conforme respostas informadas no formulário de custos indiretos.",
+      "Contrapiso comum, aderido, espessura de 6cm, com argamassa usinada",
+      "Porta Corta Fogo 90x210 completa P60"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Serviços de Engenharia",
+        "decisao": "ESTUDOS, PROJETOS E CONSULTORIAS"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "Projeto Arquitetônico legal"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "Projetos Estrutural e Fundações"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "Taxas de ART, cartório, licenças, certidões e jurídicas"
+      },
+      {
+        "contexto": "Entrega",
+        "decisao": "Laudo técnico de vistoria de entrega"
+      }
+    ]
+  }
+}

@@ -395,3 +395,48 @@ Novo xlsx  →  processar_executivo.py (V2)  →  calibration-* atualizados
 ```
 
 Ambos fluxos rodam em paralelo. O V2 continua autoritativo para números; a camada Gemma serve como referência textual/semântica.
+
+---
+
+## Fase 14 — Gemma sobre observações completas (concluída 2026-04-14)
+
+Rodada final de Gemma sobre `comentarios-completos/[projeto].json` (capturado na Fase 8 via openpyxl `cell.comment`). Diferente das fases 2/3 que olharam compact views ou PDFs, esta processou o **texto livre real do orçamentista** dentro das células do xlsx.
+
+**Output:** `~/orcamentos-openclaw/base/observacoes-insights/[projeto].json` (126 arquivos)
+
+**Estatísticas agregadas (126/126 projetos, 170 min total):**
+
+| Dimensão | Total | Média/projeto |
+|---|---|---|
+| Temas extraídos | 883 | 7.0 |
+| Flags de risco | 179 | 1.4 |
+| Justificativas técnicas | 646 | 5.1 |
+
+**Schema do JSON:**
+```json
+{
+  "projeto": "...",
+  "temas": ["..."],
+  "justificativas": [{"item": "...", "razao": "...", "fonte_celula": "..."}],
+  "flags_risco": [{"tipo": "...", "descricao": "...", "severidade": "alta|media|baixa"}],
+  "padroes": ["..."],
+  "decisoes": ["..."]
+}
+```
+
+Esta camada é a fonte primária quando se quer entender **por que** um item teve PU acima/abaixo da mediana, ou **qual** decisão técnica explica um desvio. É o que mais agrega valor pra revisão de novos orçamentos contra a base.
+
+## Fases 16 + 17 — Quantitativos físicos + Memorial de extração (concluída 2026-04-14)
+
+Pipeline complementar que extrai quantitativos físicos diretamente do **projeto** (BIM, DXF, PDF) — não do orçamento. Permite cross-validar o memorial executivo ("o BIM tem X m² de alvenaria, o orçamento previu Y") e gerar memorial de extração rastreável.
+
+**Scripts:**
+- `extract_quantitativos_bim_v2.py` — ifcopenshell.geom (geometric bbox) ~3ms/elemento. Extrai: walls, slabs, beams, columns, doors, windows, spaces, curtain walls, railings, roofs, coverings.
+- `extract_quantitativos_dxf.py` — ezdxf (TEXT/MTEXT/layers/lazer keywords).
+- `extract_quantitativos_pdf.py` — pypdf (áreas, unidades, m³, kg, pavimentos).
+- `consolidar_quantitativos.py` — merge BIM+DXF+PDF + ac do `state.json` → `quantitativos-consolidados/[projeto].json`.
+- `gerar_memorial_extracao.py` — `memorial-extracao-{slug}.md` com cross-ref a 4.210 PUs cross-projeto + 29 índices derivados.
+
+**Validado em 3 projetos reais** (arthen-arboris, placon-arminio-tavares, thozen-electra). Output: 27-30 KB/memorial.
+
+**Como usar:** quando um novo executivo precisar de cross-validação física, rodar a sequência 16a→16b→16c→16d→17 sobre o slug do projeto. Os JSONs ficam em `quantitativos-{bim,dxf,pdf,consolidados}/` e o memorial em `pacotes/{slug}/memorial-extracao-{slug}.md`.

@@ -1,0 +1,71 @@
+{
+  "projeto": "paludo-barbados",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:42:59",
+  "duration_s": 69.0,
+  "compact_chars": 2563,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"MÃO DE OBRA EMPREITADA\",\n    \"CONCRETO USINADO BOMBEÁVEL\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Fixação de portas\",\n      \"texto\": \"FIXAÇÃO COM ESPUMA EXPANSIVA\"\n    },\n    {\n      \"tema\": \"Guarda-corpo\",\n      \"texto\": \"FIXAÇÃO COM ADESIVO EPÓXI\"\n    },\n    {\n      \"tema\": \"Armação\",\n      \"texto\": \"CORTADO E DOBRADO EM INDÚSTRIA*\"\n    },\n    {\n      \"tema\": \"Concreto para suprastrutura\",\n      \"texto\": \"FCK 35MPA, SLUMP 10+/- 2, INCLUINDO SERVIÇO DE BOMBEAMENTO*\"\n    },\n    {\n      \"tema\": \"Concreto para estacas\",\n      \"texto\": \"FCK 30MPA, SLUMP 22+-3CM BRITA 0, INCLUI SERVIÇO DE BOMBEAMENTO*\"\n    },\n    {\n      \"tema\": \"Mão de obra para revestimento\",\n      \"texto\": \"INCLUSO CHAPISCO*\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SUPRAESTRUTURA*\",\n    \"MÃO DE OBRA EMPREITADA PARA INSTALAÇÕES HIDRÁULICAS E SANITÁRIAS*\",\n    \"MÃO DE OBRA EMPREITADA PARA INSTALAÇÕES ELÉTRICAS*\",\n    \"MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE BLOCOS E BALDRAMES*\",\n    \"IMPREVISTOS E CONTINGÊNCIAS*\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"CONCRETO USINADO BOMBEÁVEL, PARA SUPRAESTRUTURA, FCK 35MPA, SLUMP 10+/- 2, INCLUINDO SERVIÇO DE BOMBEAMENTO*\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"ARMAÇÃO AÇO CA-50, DIÂMETRO 6,3MM PARA SUPRAESTRUTURA - CORTADO E DOBRADO EM INDÚSTRIA*\"\n    },\n    {\n      \"contexto\": \"Equipamento\",\n      \"decisao\": \"ELEVADOR CREMALHEIRA - LOCAÇÃO\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"decisao\": \"PORTA DE MADEIRA, DE ABRIR 80X210CM, FIXAÇÃO COM ESPUMA EXPANSIVA*\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "MÃO DE OBRA EMPREITADA",
+      "CONCRETO USINADO BOMBEÁVEL"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Fixação de portas",
+        "texto": "FIXAÇÃO COM ESPUMA EXPANSIVA"
+      },
+      {
+        "tema": "Guarda-corpo",
+        "texto": "FIXAÇÃO COM ADESIVO EPÓXI"
+      },
+      {
+        "tema": "Armação",
+        "texto": "CORTADO E DOBRADO EM INDÚSTRIA*"
+      },
+      {
+        "tema": "Concreto para suprastrutura",
+        "texto": "FCK 35MPA, SLUMP 10+/- 2, INCLUINDO SERVIÇO DE BOMBEAMENTO*"
+      },
+      {
+        "tema": "Concreto para estacas",
+        "texto": "FCK 30MPA, SLUMP 22+-3CM BRITA 0, INCLUI SERVIÇO DE BOMBEAMENTO*"
+      },
+      {
+        "tema": "Mão de obra para revestimento",
+        "texto": "INCLUSO CHAPISCO*"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SUPRAESTRUTURA*",
+      "MÃO DE OBRA EMPREITADA PARA INSTALAÇÕES HIDRÁULICAS E SANITÁRIAS*",
+      "MÃO DE OBRA EMPREITADA PARA INSTALAÇÕES ELÉTRICAS*",
+      "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE BLOCOS E BALDRAMES*",
+      "IMPREVISTOS E CONTINGÊNCIAS*"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Estrutura",
+        "decisao": "CONCRETO USINADO BOMBEÁVEL, PARA SUPRAESTRUTURA, FCK 35MPA, SLUMP 10+/- 2, INCLUINDO SERVIÇO DE BOMBEAMENTO*"
+      },
+      {
+        "contexto": "Estrutura",
+        "decisao": "ARMAÇÃO AÇO CA-50, DIÂMETRO 6,3MM PARA SUPRAESTRUTURA - CORTADO E DOBRADO EM INDÚSTRIA*"
+      },
+      {
+        "contexto": "Equipamento",
+        "decisao": "ELEVADOR CREMALHEIRA - LOCAÇÃO"
+      },
+      {
+        "contexto": "Acabamento",
+        "decisao": "PORTA DE MADEIRA, DE ABRIR 80X210CM, FIXAÇÃO COM ESPUMA EXPANSIVA*"
+      }
+    ]
+  }
+}

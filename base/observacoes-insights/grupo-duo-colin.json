@@ -1,0 +1,104 @@
+{
+  "projeto": "grupo-duo-colin",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:56:24",
+  "duration_s": 100.2,
+  "compact_chars": 4132,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"REVESTIMENTOS INTERNOS DE PAREDE\",\n    \"REVESTIMENTOS INTERNOS DE TETO\",\n    \"Perímetro de projeção\",\n    \"Armazenamento de cerâmicas*\",\n    \"Armazenamento de placas degesso*\",\n    \"Controle Tecnológico\",\n    \"Ensaios de arrancamento\",\n    \"NÚMERO DE UNIDADES HABITACIONAIS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Módulo de deformação\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Esforços e Resistência\",\n      \"texto\": \"Determinação do esforço horizontal, esforço vertical e Resistencia a impactos\"\n    },\n    {\n      \"tema\": \"Aderência de Revestimento\",\n      \"texto\": \"Determinação da aderencia a tração\"\n    },\n    {\n      \"tema\": \"Aderência de Revestimento\",\n      \"texto\": \"Determinação da aderência a tração (NBR 13754)\"\n    },\n    {\n      \"tema\": \"Ensaios de Revestimento\",\n      \"texto\": \"ENSAIOS PARA ARGAMASSA DE REVESTIMENTO (FACHADA)\"\n    },\n    {\n      \"tema\": \"Ensaios de Revestimento\",\n      \"texto\": \"ENSAIO ARRANCAMENTO DE REBOCO\"\n    },\n    {\n      \"tema\": \"Ensaios de Revestimento\",\n      \"texto\": \"Ensaio de arrancamento de argamassa de revestimento\"\n    },\n    {\n      \"tema\": \"Ensaios de Revestimento\",\n      \"texto\": \"ENSÃO PARA REVESTIMENTOS CERÂMICOS\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Controle Tecnologico Infraestrutura - Coleta materiais da obra\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Exclusão de Área\",\n      \"descricao\": \"NÃO CONSIDERADO ÁREA CONSTRUÍDA\"\n    },\n    {\n      \"tipo\": \"Alerta de Repetição\",\n      \"descricao\": \"Repetições de pavimentos**\"\n    },\n    {\n      \"tipo\": \"Estimativa/Incerteza\",\n      \"descricao\": \"Armazenamento de cerâmicas*\"\n    },\n    {\n      \"tipo\": \"Estimativa/Incerteza\",\n      \"descricao\": \"Armazenamento de placas degesso*\"\n    },\n    {\n      \"tipo\": \"Estimativa/Incerteza\",\n      \"descricao\": \"Armazenamento de contramarcos*\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Produtividade média (h/m2)\",\n    \"Considerado as informações do Projeto de Segurança\",\n    \"conforme Formulário considerar verba para 2 nionário,poiso EPI é do epreiteiro.\",\n    \"Considerado 500 por Funcionários por ano -\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    },\n    {\n      \"contexto\": \"EPCs\",\n      \"decisao\": \"Considerado as informações do Projeto de Segurança\"\n    },\n    {\n      \"contexto\": \"Bases\",\n      \"decisao\": \"Conforme Formulário considerar verba para 2 nionário,poiso EPI é do epreiteiro.\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "REVESTIMENTOS INTERNOS DE PAREDE",
+      "REVESTIMENTOS INTERNOS DE TETO",
+      "Perímetro de projeção",
+      "Armazenamento de cerâmicas*",
+      "Armazenamento de placas degesso*",
+      "Controle Tecnológico",
+      "Ensaios de arrancamento",
+      "NÚMERO DE UNIDADES HABITACIONAIS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Módulo de deformação",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Esforços e Resistência",
+        "texto": "Determinação do esforço horizontal, esforço vertical e Resistencia a impactos"
+      },
+      {
+        "tema": "Aderência de Revestimento",
+        "texto": "Determinação da aderencia a tração"
+      },
+      {
+        "tema": "Aderência de Revestimento",
+        "texto": "Determinação da aderência a tração (NBR 13754)"
+      },
+      {
+        "tema": "Ensaios de Revestimento",
+        "texto": "ENSAIOS PARA ARGAMASSA DE REVESTIMENTO (FACHADA)"
+      },
+      {
+        "tema": "Ensaios de Revestimento",
+        "texto": "ENSAIO ARRANCAMENTO DE REBOCO"
+      },
+      {
+        "tema": "Ensaios de Revestimento",
+        "texto": "Ensaio de arrancamento de argamassa de revestimento"
+      },
+      {
+        "tema": "Ensaios de Revestimento",
+        "texto": "ENSÃO PARA REVESTIMENTOS CERÂMICOS"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Controle Tecnologico Infraestrutura - Coleta materiais da obra"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Exclusão de Área",
+        "descricao": "NÃO CONSIDERADO ÁREA CONSTRUÍDA"
+      },
+      {
+        "tipo": "Alerta de Repetição",
+        "descricao": "Repetições de pavimentos**"
+      },
+      {
+        "tipo": "Estimativa/Incerteza",
+        "descricao": "Armazenamento de cerâmicas*"
+      },
+      {
+        "tipo": "Estimativa/Incerteza",
+        "descricao": "Armazenamento de placas degesso*"
+      },
+      {
+        "tipo": "Estimativa/Incerteza",
+        "descricao": "Armazenamento de contramarcos*"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Produtividade média (h/m2)",
+      "Considerado as informações do Projeto de Segurança",
+      "conforme Formulário considerar verba para 2 nionário,poiso EPI é do epreiteiro.",
+      "Considerado 500 por Funcionários por ano -"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "contexto": "EPCs",
+        "decisao": "Considerado as informações do Projeto de Segurança"
+      },
+      {
+        "contexto": "Bases",
+        "decisao": "Conforme Formulário considerar verba para 2 nionário,poiso EPI é do epreiteiro."
+      }
+    ]
+  }
+}

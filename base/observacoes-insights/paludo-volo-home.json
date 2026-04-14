@@ -1,0 +1,87 @@
+{
+  "projeto": "paludo-volo-home",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:46:27",
+  "duration_s": 86.3,
+  "compact_chars": 1070,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Legalização de Incorporação*\",\n    \"Projeto arquitetônico legal *\",\n    \"Aprovação e legalização ambiental*\",\n    \"Aprovação e legalização prefeitura*\",\n    \"Aprovação e legalização elétrico*\",\n    \"Projeto estrutural em concreto armado *\",\n    \"Estudos, Projetos e Consultorias\",\n    \"Taxas, Impostos, Aprovações e Seguros\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Projeto de Compatibilização (BIM) *\",\n      \"texto\": \"Projeto de Compatibilização (BIM) *\"\n    },\n    {\n      \"tema\": \"Projeto hidrossanitário *\",\n      \"texto\": \"Projeto hidrossanitário *\"\n    },\n    {\n      \"tema\": \"Projeto de comunicação e dados *\",\n      \"texto\": \"Projeto de comunicação e dados *\"\n    },\n    {\n      \"tema\": \"Projeto preventivo contra incêndio *\",\n      \"texto\": \"Projeto preventivo contra incêndio *\"\n    },\n    {\n      \"tema\": \"Levantamento Topográfico *\",\n      \"texto\": \"Levantamento Topográfico *\"\n    },\n    {\n      \"tema\": \"Aprovação e legalização ambiental*\",\n      \"texto\": \"Aprovação e legalização ambiental*\"\n    },\n    {\n      \"tema\": \"Aprovação e legalização prefeitura*\",\n      \"texto\": \"Aprovação e legalização prefeitura*\"\n    },\n    {\n      \"tema\": \"Aprovação e legalização elétrico*\",\n      \"texto\": \"Aprovação e legalização elétrico*\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Legalização\",\n      \"descricao\": \"Legalização de Incorporação*\"\n    },\n    {\n      \"tipo\": \"Permissão\",\n      \"descricao\": \"Aprovação e legalização ambiental*\"\n    },\n    {\n      \"tipo\": \"Permissão\",\n      \"descricao\": \"Aprovação e legalização prefeitura*\"\n    },\n    {\n      \"tipo\": \"Permissão\",\n      \"descricao\": \"Aprovação e legalização elétrico*\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"ESTUDOS, PROJETOS E CONSULTORIAS\",\n    \"CONSUMOS, TAXAS E DOCUMENTOS\",\n    \"Custos Indiretos de Obra - UC 1\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo de serviços\",\n      \"decisao\": \"Projeto de Compatibilização (BIM) *\"\n    },\n    {\n      \"contexto\": \"Escopo de serviços\",\n      \"decisao\": \"Projeto estrutural em concreto armado *\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Legalização de Incorporação*",
+      "Projeto arquitetônico legal *",
+      "Aprovação e legalização ambiental*",
+      "Aprovação e legalização prefeitura*",
+      "Aprovação e legalização elétrico*",
+      "Projeto estrutural em concreto armado *",
+      "Estudos, Projetos e Consultorias",
+      "Taxas, Impostos, Aprovações e Seguros"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Projeto de Compatibilização (BIM) *",
+        "texto": "Projeto de Compatibilização (BIM) *"
+      },
+      {
+        "tema": "Projeto hidrossanitário *",
+        "texto": "Projeto hidrossanitário *"
+      },
+      {
+        "tema": "Projeto de comunicação e dados *",
+        "texto": "Projeto de comunicação e dados *"
+      },
+      {
+        "tema": "Projeto preventivo contra incêndio *",
+        "texto": "Projeto preventivo contra incêndio *"
+      },
+      {
+        "tema": "Levantamento Topográfico *",
+        "texto": "Levantamento Topográfico *"
+      },
+      {
+        "tema": "Aprovação e legalização ambiental*",
+        "texto": "Aprovação e legalização ambiental*"
+      },
+      {
+        "tema": "Aprovação e legalização prefeitura*",
+        "texto": "Aprovação e legalização prefeitura*"
+      },
+      {
+        "tema": "Aprovação e legalização elétrico*",
+        "texto": "Aprovação e legalização elétrico*"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Legalização",
+        "descricao": "Legalização de Incorporação*"
+      },
+      {
+        "tipo": "Permissão",
+        "descricao": "Aprovação e legalização ambiental*"
+      },
+      {
+        "tipo": "Permissão",
+        "descricao": "Aprovação e legalização prefeitura*"
+      },
+      {
+        "tipo": "Permissão",
+        "descricao": "Aprovação e legalização elétrico*"
+      }
+    ],
+    "padroes_orcamentista": [
+      "ESTUDOS, PROJETOS E CONSULTORIAS",
+      "CONSUMOS, TAXAS E DOCUMENTOS",
+      "Custos Indiretos de Obra - UC 1"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo de serviços",
+        "decisao": "Projeto de Compatibilização (BIM) *"
+      },
+      {
+        "contexto": "Escopo de serviços",
+        "decisao": "Projeto estrutural em concreto armado *"
+      }
+    ]
+  }
+}

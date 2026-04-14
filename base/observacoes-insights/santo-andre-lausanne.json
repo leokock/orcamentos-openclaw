@@ -1,0 +1,41 @@
+{
+  "projeto": "santo-andre-lausanne",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:06:06",
+  "duration_s": 56.6,
+  "compact_chars": 4147,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"IMPREVISTOS E CONTINGÊNCIAS\",\n    \"REVESTIMENTOS INTERNOS DE PISO E PAREDE\",\n    \"ACABAMENTOS DE PISO E PAREDE\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Alvenaria Estrutural\",\n      \"texto\": \"* Custo abaixo dos indices por se tratar de alvenaria estrutural\"\n    },\n    {\n      \"tema\": \"Alvenaria Estrutural\",\n      \"texto\": \"* Custo Elevado por se tratar de alvenaria estrutural\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Instalações\",\n      \"decisao\": \"*Considerado entrega completa de Louças Metais e vbancadas tanto nas Casas quanto nas áreas comuns\"\n    },\n    {\n      \"contexto\": \"Sistema de aquecimento\",\n      \"decisao\": \"Representa cerca de 50% do custo de instalações\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "IMPREVISTOS E CONTINGÊNCIAS",
+      "REVESTIMENTOS INTERNOS DE PISO E PAREDE",
+      "ACABAMENTOS DE PISO E PAREDE"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Alvenaria Estrutural",
+        "texto": "* Custo abaixo dos indices por se tratar de alvenaria estrutural"
+      },
+      {
+        "tema": "Alvenaria Estrutural",
+        "texto": "* Custo Elevado por se tratar de alvenaria estrutural"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [],
+    "decisoes_criticas": [
+      {
+        "contexto": "Instalações",
+        "decisao": "*Considerado entrega completa de Louças Metais e vbancadas tanto nas Casas quanto nas áreas comuns"
+      },
+      {
+        "contexto": "Sistema de aquecimento",
+        "decisao": "Representa cerca de 50% do custo de instalações"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "projeto": "nova-empreendimentos-malta",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:41:50",
+  "duration_s": 77.8,
+  "compact_chars": 4147,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Perímetro de projeção\",\n    \"Instalações\",\n    \"Armazenamento\",\n    \"Proteção de Pedestres\",\n    \"Controle Tecnológico\",\n    \"Unidades Habitacionais\",\n    \"Unidades Comerciais\",\n    \"Ensaio de Desempenho Acústico\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"Ensaio de ruído aéreo e ruído de impacto em Laje de dorm.\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"Ensaio de isolamento a ruído aéreo em Fachada de dorm.\"\n    },\n    {\n      \"tema\": \"Vedação\",\n      \"texto\": \"Estanqueidade a agua\"\n    },\n    {\n      \"tema\": \"Caixilhos\",\n      \"texto\": \"1 ensaio por tipo de caixilho (dormitório, sala, área de serviço e banheiro e terraço, se houver)\"\n    },\n    {\n      \"tema\": \"Guarda-corpo\",\n      \"texto\": \"Determinação do esforço horizontal, esforço vertical e Resistencia a impactos\"\n    },\n    {\n      \"tema\": \"Infraestrutura\",\n      \"texto\": \"Controle Tecnologico Infraestrutura - Coleta materiais da obra\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Considerado: engenheiro, almoxarife, mestre, auxiliar de engenharia e estagiário\",\n    \"Considerando entrega de 2 uniformes, capacete, bota, óculos e cinto\",\n    \"*\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"EPCs\",\n      \"decisao\": \"* Considerado as informações do Projeto de Segurança\"\n    },\n    {\n      \"contexto\": \"Resistências\",\n      \"decisao\": \"Permeabilidade ao ar / Estanqueidade a agua / Resistencias a cargas uniformes distribuidas\"\n    },\n    {\n      \"contexto\": \"Ensaios\",\n      \"decisao\": \"Determinação do esforço horizontal, esforço vertical e Resistencia a impactos\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Perímetro de projeção",
+      "Instalações",
+      "Armazenamento",
+      "Proteção de Pedestres",
+      "Controle Tecnológico",
+      "Unidades Habitacionais",
+      "Unidades Comerciais",
+      "Ensaio de Desempenho Acústico"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      },
+      {
+        "tema": "Acústica",
+        "texto": "Ensaio de ruído aéreo e ruído de impacto em Laje de dorm."
+      },
+      {
+        "tema": "Acústica",
+        "texto": "Ensaio de isolamento a ruído aéreo em Fachada de dorm."
+      },
+      {
+        "tema": "Vedação",
+        "texto": "Estanqueidade a agua"
+      },
+      {
+        "tema": "Caixilhos",
+        "texto": "1 ensaio por tipo de caixilho (dormitório, sala, área de serviço e banheiro e terraço, se houver)"
+      },
+      {
+        "tema": "Guarda-corpo",
+        "texto": "Determinação do esforço horizontal, esforço vertical e Resistencia a impactos"
+      },
+      {
+        "tema": "Infraestrutura",
+        "texto": "Controle Tecnologico Infraestrutura - Coleta materiais da obra"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Considerado: engenheiro, almoxarife, mestre, auxiliar de engenharia e estagiário",
+      "Considerando entrega de 2 uniformes, capacete, bota, óculos e cinto",
+      "*"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "EPCs",
+        "decisao": "* Considerado as informações do Projeto de Segurança"
+      },
+      {
+        "contexto": "Resistências",
+        "decisao": "Permeabilidade ao ar / Estanqueidade a agua / Resistencias a cargas uniformes distribuidas"
+      },
+      {
+        "contexto": "Ensaios",
+        "decisao": "Determinação do esforço horizontal, esforço vertical e Resistencia a impactos"
+      }
+    ]
+  }
+}

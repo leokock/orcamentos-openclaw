@@ -1,0 +1,105 @@
+{
+  "projeto": "gdi-playa-negra",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:51:00",
+  "duration_s": 105.4,
+  "compact_chars": 4143,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"Projeto Arquitetônico\",\n    \"Terrenos e Serviços Técnicos\",\n    \"Implantação do canteiro de obras\",\n    \"Acabamentos em pisos e pavimentações\",\n    \"Controle Tecnológico\",\n    \"Impermeabilização e tratamentos\",\n    \"Mão de obra\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto\"\n    },\n    {\n      \"tema\": \"Impactos Ambientais\",\n      \"texto\": \"Estudo de impactos ambientais\"\n    },\n    {\n      \"tema\": \"Impactos Ambientais\",\n      \"texto\": \"Estudos de Impacto de Vizinhança\"\n    },\n    {\n      \"tema\": \"Projeto Arquitetônico\",\n      \"texto\": \"Projeto Arquitetônico de Interiores - Áreas Comuns\"\n    },\n    {\n      \"tema\": \"Projeto Arquitetônico\",\n      \"texto\": \"Projeto Arquitetônico de Interiores - Áreas Privativas\"\n    },\n    {\n      \"tema\": \"Projeto Arquitetônico\",\n      \"texto\": \"Projeto Arquitetônico Áreas Externas/Paisagismo\"\n    },\n    {\n      \"tema\": \"Terreno\",\n      \"texto\": \"Analise Jurídica da Documentação do Terreno\"\n    },\n    {\n      \"tema\": \"Canteiro de Obras\",\n      \"texto\": \"Locação de sanitários químicos\"\n    },\n    {\n      \"tema\": \"Obra\",\n      \"texto\": \"ACABAMENTOS EM PISOS E PAVIMENTAÇÕES\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Reapropriação\",\n      \"descricao\": \"Mantido conforme lançamento inicial pela GDI - SUGERIDO REAPROPRIAÇÃO\"\n    },\n    {\n      \"tipo\": \"Legal\",\n      \"descricao\": \"TRANSFERÊNCIA DE PROPRIEDADE DOS TERRENOS\"\n    },\n    {\n      \"tipo\": \"Logística\",\n      \"descricao\": \"RETIRADA DE ENTULHO E LIMPEZA DA OBRA\"\n    },\n    {\n      \"tipo\": \"Estrutural\",\n      \"descricao\": \"Fechamento removível de vãos em madeira\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"IMPREVISTOS E CONTINGENCIAS\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"ADMINISTRAÇÃO E CANTEIRO DE OBRA\",\n    \"Corretagem Imobiliária pela intermeadiação do Terreno\",\n    \"PROJETO ARQUITETÔNICO E GERAÇÃO DE IMAGENS\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Terreno 2\",\n      \"decisao\": \"TERRENO 2 - Margarete Valli e Francisco Valli (permuta)\"\n    },\n    {\n      \"contexto\": \"Terreno 2\",\n      \"decisao\": \"TERRENO 2 - Margarete Valli e Francisco Valli (torna financeira)\"\n    },\n    {\n      \"contexto\": \"Terreno 3\",\n      \"decisao\": \"TERRENO 3 - Torna financeira - Jordan Martins e João Martins\"\n    },\n    {\n      \"contexto\": \"Terreno 3\",\n      \"decisao\": \"TERRENO 3 - Jordan Martins e João Martins\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "Projeto Arquitetônico",
+      "Terrenos e Serviços Técnicos",
+      "Implantação do canteiro de obras",
+      "Acabamentos em pisos e pavimentações",
+      "Controle Tecnológico",
+      "Impermeabilização e tratamentos",
+      "Mão de obra"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto"
+      },
+      {
+        "tema": "Impactos Ambientais",
+        "texto": "Estudo de impactos ambientais"
+      },
+      {
+        "tema": "Impactos Ambientais",
+        "texto": "Estudos de Impacto de Vizinhança"
+      },
+      {
+        "tema": "Projeto Arquitetônico",
+        "texto": "Projeto Arquitetônico de Interiores - Áreas Comuns"
+      },
+      {
+        "tema": "Projeto Arquitetônico",
+        "texto": "Projeto Arquitetônico de Interiores - Áreas Privativas"
+      },
+      {
+        "tema": "Projeto Arquitetônico",
+        "texto": "Projeto Arquitetônico Áreas Externas/Paisagismo"
+      },
+      {
+        "tema": "Terreno",
+        "texto": "Analise Jurídica da Documentação do Terreno"
+      },
+      {
+        "tema": "Canteiro de Obras",
+        "texto": "Locação de sanitários químicos"
+      },
+      {
+        "tema": "Obra",
+        "texto": "ACABAMENTOS EM PISOS E PAVIMENTAÇÕES"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Reapropriação",
+        "descricao": "Mantido conforme lançamento inicial pela GDI - SUGERIDO REAPROPRIAÇÃO"
+      },
+      {
+        "tipo": "Legal",
+        "descricao": "TRANSFERÊNCIA DE PROPRIEDADE DOS TERRENOS"
+      },
+      {
+        "tipo": "Logística",
+        "descricao": "RETIRADA DE ENTULHO E LIMPEZA DA OBRA"
+      },
+      {
+        "tipo": "Estrutural",
+        "descricao": "Fechamento removível de vãos em madeira"
+      }
+    ],
+    "padroes_orcamentista": [
+      "IMPREVISTOS E CONTINGENCIAS",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "ADMINISTRAÇÃO E CANTEIRO DE OBRA",
+      "Corretagem Imobiliária pela intermeadiação do Terreno",
+      "PROJETO ARQUITETÔNICO E GERAÇÃO DE IMAGENS"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Terreno 2",
+        "decisao": "TERRENO 2 - Margarete Valli e Francisco Valli (permuta)"
+      },
+      {
+        "contexto": "Terreno 2",
+        "decisao": "TERRENO 2 - Margarete Valli e Francisco Valli (torna financeira)"
+      },
+      {
+        "contexto": "Terreno 3",
+        "decisao": "TERRENO 3 - Torna financeira - Jordan Martins e João Martins"
+      },
+      {
+        "contexto": "Terreno 3",
+        "decisao": "TERRENO 3 - Jordan Martins e João Martins"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "projeto": "homeset-homeset",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:04:09",
+  "duration_s": 92.1,
+  "compact_chars": 1514,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Armadura CA-50\",\n    \"Concreto usinado bombeável\",\n    \"Escavação de valas\",\n    \"Forma para estruturas em concreto armado\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Concreto Estacas\",\n      \"texto\": \"Concreto usinado bombeável, para estacas, fck 30MPa, slump = 23 +/- 2, B0, incluindo serviço de bombeamento - CTN\"\n    },\n    {\n      \"tema\": \"Concreto Baldrames\",\n      \"texto\": \"Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1, incluindo serviço de bombeamento - CTN\"\n    },\n    {\n      \"tema\": \"Formas\",\n      \"texto\": \"Fabricação, montagem e desmontagem de forma para blocos e baldrames, em compensado resinado, 2 reutilizações\"\n    },\n    {\n      \"tema\": \"Formas Estruturais\",\n      \"texto\": \"Forma para estruturas em concreto armado, em compensado plastificado, e= 17mm - CTN\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Perfuratriz Hélice Contínua d=600mm *\"\n    },\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Mobilização/Desmobilização Perfuratriz *\"\n    },\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Laje Pré-Moldada Convencional 12cm *\"\n    },\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Armadura CA-60 Diâmetro 5,00mm Cortada e Dobrada *\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"incluindo serviço de bombeamento\",\n    \"Cortada e Dobrada *\",\n    \"CTN\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Estrutura Vertical\",\n      \"decisao\": \"Custo de armadura realizado - TORRE - CTN\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Arrasamento Mecânico de Estacas de Concreto Armado - Diâmetro de 40 a 60 cm *\"\n    },\n    {\n      \"contexto\": \"Cobertura\",\n      \"decisao\": \"Laje Pré-Moldada Convencional 12cm *\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Armadura CA-50",
+      "Concreto usinado bombeável",
+      "Escavação de valas",
+      "Forma para estruturas em concreto armado"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Concreto Estacas",
+        "texto": "Concreto usinado bombeável, para estacas, fck 30MPa, slump = 23 +/- 2, B0, incluindo serviço de bombeamento - CTN"
+      },
+      {
+        "tema": "Concreto Baldrames",
+        "texto": "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1, incluindo serviço de bombeamento - CTN"
+      },
+      {
+        "tema": "Formas",
+        "texto": "Fabricação, montagem e desmontagem de forma para blocos e baldrames, em compensado resinado, 2 reutilizações"
+      },
+      {
+        "tema": "Formas Estruturais",
+        "texto": "Forma para estruturas em concreto armado, em compensado plastificado, e= 17mm - CTN"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Perfuratriz Hélice Contínua d=600mm *"
+      },
+      {
+        "tipo": "Estimativa",
+        "descricao": "Mobilização/Desmobilização Perfuratriz *"
+      },
+      {
+        "tipo": "Estimativa",
+        "descricao": "Laje Pré-Moldada Convencional 12cm *"
+      },
+      {
+        "tipo": "Estimativa",
+        "descricao": "Armadura CA-60 Diâmetro 5,00mm Cortada e Dobrada *"
+      }
+    ],
+    "padroes_orcamentista": [
+      "incluindo serviço de bombeamento",
+      "Cortada e Dobrada *",
+      "CTN"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Estrutura Vertical",
+        "decisao": "Custo de armadura realizado - TORRE - CTN"
+      },
+      {
+        "contexto": "Fundação",
+        "decisao": "Arrasamento Mecânico de Estacas de Concreto Armado - Diâmetro de 40 a 60 cm *"
+      },
+      {
+        "contexto": "Cobertura",
+        "decisao": "Laje Pré-Moldada Convencional 12cm *"
+      }
+    ]
+  }
+}

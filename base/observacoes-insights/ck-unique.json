@@ -1,0 +1,94 @@
+{
+  "projeto": "ck-unique",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:23:17",
+  "duration_s": 105.0,
+  "compact_chars": 1308,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Instalações Provisórias\",\n    \"Segurança do Trabalho\",\n    \"Canteiro de Obras\",\n    \"Equipamento de Proteção\",\n    \"Elaboração do Programa\",\n    \"Taxas, Impostos, Aprovações e Seguros\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Canteiro\",\n      \"texto\": \"Operação e Manutenção do Canteiro\"\n    },\n    {\n      \"tema\": \"Canteiro\",\n      \"texto\": \"Instalação do Canteiro de Obras\"\n    },\n    {\n      \"tema\": \"Infraestrutura\",\n      \"texto\": \"Limpeza Mecânica de Terreno*\"\n    },\n    {\n      \"tema\": \"Instalações Provisórias\",\n      \"texto\": \"Instalações Provisórias: barracões, baias e afins*\"\n    },\n    {\n      \"tema\": \"Instalações Provisórias\",\n      \"texto\": \"Instalações provisórias: Redes de água fria, esgoto e drenagem*\"\n    },\n    {\n      \"tema\": \"Instalações Provisórias\",\n      \"texto\": \"Instalações provisórias de redes elétricas, comunicação e dados*\"\n    },\n    {\n      \"tema\": \"Segurança\",\n      \"texto\": \"Elaboração do Programa de Prevenção dos Riscos Ambientais (PPRA)\"\n    },\n    {\n      \"tema\": \"Segurança\",\n      \"texto\": \"Elaboração do Programa de Controle Médico de Saúde Ocupacional (PCMSO)\"\n    },\n    {\n      \"tema\": \"Segurança\",\n      \"texto\": \"Elaboração do Programa de Condições e meio Ambiente de Trabalho na Indústria de Construção (PCMAT)\"\n    },\n    {\n      \"tema\": \"Segurança\",\n      \"texto\": \"Elaboração do Laudo Técnico das Condições do Ambiente de Trabalho (LTCAT)\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Escopo Variável\",\n      \"descricao\": \"Limpeza Mecânica de Terreno*\"\n    },\n    {\n      \"tipo\": \"Escopo Variável\",\n      \"descricao\": \"Instalações Provisórias: barracões, baias e afins*\"\n    },\n    {\n      \"tipo\": \"Escopo Variável\",\n      \"descricao\": \"Instalações provisórias: Redes de água fria, esgoto e drenagem*\"\n    },\n    {\n      \"tipo\": \"Escopo Variável\",\n      \"descricao\": \"Instalações provisórias de redes elétricas, comunicação e dados*\"\n    },\n    {\n      \"tipo\": \"Escopo Variável\",\n      \"descricao\": \"Tapume de Obra com Chapa Metálica*\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Equipamento de Proteção Individual\",\n    \"Equipamento de Proteção Coletiva\",\n    \"Taxas, Impostos, Aprovações e Seguros\",\n    \"Despesas de Seguros com Terceiros\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Segurança do Trabalho\",\n      \"decisao\": \"Assistência e Orientação Técnica Segurança do Trabalho* - Contrato SPS - CT/660\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Instalações Provisórias",
+      "Segurança do Trabalho",
+      "Canteiro de Obras",
+      "Equipamento de Proteção",
+      "Elaboração do Programa",
+      "Taxas, Impostos, Aprovações e Seguros"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Canteiro",
+        "texto": "Operação e Manutenção do Canteiro"
+      },
+      {
+        "tema": "Canteiro",
+        "texto": "Instalação do Canteiro de Obras"
+      },
+      {
+        "tema": "Infraestrutura",
+        "texto": "Limpeza Mecânica de Terreno*"
+      },
+      {
+        "tema": "Instalações Provisórias",
+        "texto": "Instalações Provisórias: barracões, baias e afins*"
+      },
+      {
+        "tema": "Instalações Provisórias",
+        "texto": "Instalações provisórias: Redes de água fria, esgoto e drenagem*"
+      },
+      {
+        "tema": "Instalações Provisórias",
+        "texto": "Instalações provisórias de redes elétricas, comunicação e dados*"
+      },
+      {
+        "tema": "Segurança",
+        "texto": "Elaboração do Programa de Prevenção dos Riscos Ambientais (PPRA)"
+      },
+      {
+        "tema": "Segurança",
+        "texto": "Elaboração do Programa de Controle Médico de Saúde Ocupacional (PCMSO)"
+      },
+      {
+        "tema": "Segurança",
+        "texto": "Elaboração do Programa de Condições e meio Ambiente de Trabalho na Indústria de Construção (PCMAT)"
+      },
+      {
+        "tema": "Segurança",
+        "texto": "Elaboração do Laudo Técnico das Condições do Ambiente de Trabalho (LTCAT)"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Escopo Variável",
+        "descricao": "Limpeza Mecânica de Terreno*"
+      },
+      {
+        "tipo": "Escopo Variável",
+        "descricao": "Instalações Provisórias: barracões, baias e afins*"
+      },
+      {
+        "tipo": "Escopo Variável",
+        "descricao": "Instalações provisórias: Redes de água fria, esgoto e drenagem*"
+      },
+      {
+        "tipo": "Escopo Variável",
+        "descricao": "Instalações provisórias de redes elétricas, comunicação e dados*"
+      },
+      {
+        "tipo": "Escopo Variável",
+        "descricao": "Tapume de Obra com Chapa Metálica*"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Equipamento de Proteção Individual",
+      "Equipamento de Proteção Coletiva",
+      "Taxas, Impostos, Aprovações e Seguros",
+      "Despesas de Seguros com Terceiros"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Segurança do Trabalho",
+        "decisao": "Assistência e Orientação Técnica Segurança do Trabalho* - Contrato SPS - CT/660"
+      }
+    ]
+  }
+}

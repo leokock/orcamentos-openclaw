@@ -1,0 +1,74 @@
+{
+  "projeto": "santa-maria-z",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:03:51",
+  "duration_s": 70.3,
+  "compact_chars": 1132,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projetos\",\n    \"Consultorias técnicas\",\n    \"Legalização de serviços\",\n    \"Segurança e Meio Ambiente\",\n    \"Taxas de aprovação\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Topografia\",\n      \"texto\": \"Projeto levantamento topografico\"\n    },\n    {\n      \"tema\": \"Prevenção\",\n      \"texto\": \"Projeto preventivo (incendio/elétrico/gás/pressurização)\"\n    },\n    {\n      \"tema\": \"Climatização\",\n      \"texto\": \"Projeto de climatização\"\n    },\n    {\n      \"tema\": \"Estrutural\",\n      \"texto\": \"Controle tecnológico de concreto\"\n    },\n    {\n      \"tema\": \"Infraestrutura\",\n      \"texto\": \"Aprovação e legalização água e esgoto\"\n    },\n    {\n      \"tema\": \"Segurança\",\n      \"texto\": \"Aprovação e legalização de bombeiros\"\n    },\n    {\n      \"tema\": \"Legal\",\n      \"texto\": \"Taxa alvará de construção\"\n    },\n    {\n      \"tema\": \"Imóveis\",\n      \"texto\": \"Taxa registro de imoveis (certidões / incorporação)\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"ESTUDOS, PROJETOS E CONSULTORIAS\",\n    \"Revisão 01 orçamento\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo principal\",\n      \"decisao\": \"EDIFÍCIO Z CONVIVENCE - OBRAS\"\n    },\n    {\n      \"contexto\": \"Gestão\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    },\n    {\n      \"contexto\": \"Serviços de engenharia\",\n      \"decisao\": \"Projeto de segurança predial\"\n    },\n    {\n      \"contexto\": \"Consultoria especializada\",\n      \"decisao\": \"Consultorias técnicas diversas\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projetos",
+      "Consultorias técnicas",
+      "Legalização de serviços",
+      "Segurança e Meio Ambiente",
+      "Taxas de aprovação"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Topografia",
+        "texto": "Projeto levantamento topografico"
+      },
+      {
+        "tema": "Prevenção",
+        "texto": "Projeto preventivo (incendio/elétrico/gás/pressurização)"
+      },
+      {
+        "tema": "Climatização",
+        "texto": "Projeto de climatização"
+      },
+      {
+        "tema": "Estrutural",
+        "texto": "Controle tecnológico de concreto"
+      },
+      {
+        "tema": "Infraestrutura",
+        "texto": "Aprovação e legalização água e esgoto"
+      },
+      {
+        "tema": "Segurança",
+        "texto": "Aprovação e legalização de bombeiros"
+      },
+      {
+        "tema": "Legal",
+        "texto": "Taxa alvará de construção"
+      },
+      {
+        "tema": "Imóveis",
+        "texto": "Taxa registro de imoveis (certidões / incorporação)"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "ESTUDOS, PROJETOS E CONSULTORIAS",
+      "Revisão 01 orçamento"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo principal",
+        "decisao": "EDIFÍCIO Z CONVIVENCE - OBRAS"
+      },
+      {
+        "contexto": "Gestão",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "contexto": "Serviços de engenharia",
+        "decisao": "Projeto de segurança predial"
+      },
+      {
+        "contexto": "Consultoria especializada",
+        "decisao": "Consultorias técnicas diversas"
+      }
+    ]
+  }
+}

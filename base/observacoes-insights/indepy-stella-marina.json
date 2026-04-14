@@ -1,0 +1,79 @@
+{
+  "projeto": "indepy-stella-marina",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:08:44",
+  "duration_s": 74.4,
+  "compact_chars": 2135,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto de impermeabilização\",\n    \"Modelagem BIM de complementares\",\n    \"Compatibilização de projetos BIM\",\n    \"Laudo de vistoria técnica\",\n    \"Controle Tecnologico de Concreto\",\n    \"Taxa de aprovação na prefeitura\",\n    \"Taxa de aprovação água e esgoto\",\n    \"Taxa de aprovação elétrico\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Desempenho Estrutural\",\n      \"texto\": \"Ensaio/Laudo Desempenho - NBR 15575\"\n    },\n    {\n      \"tema\": \"Controle de Materiais\",\n      \"texto\": \"Controle Tecnologico de Concreto\"\n    },\n    {\n      \"tema\": \"Aprovação Legal\",\n      \"texto\": \"Taxa de aprovação na prefeitura\"\n    },\n    {\n      \"tema\": \"Aprovação Legal\",\n      \"texto\": \"Taxa de aprovação água e esgoto\"\n    },\n    {\n      \"tema\": \"Aprovação Legal\",\n      \"texto\": \"Taxa de aprovação elétrico\"\n    },\n    {\n      \"tema\": \"Aprovação Legal\",\n      \"texto\": \"Taxa de aprovação bombeiros\"\n    },\n    {\n      \"tema\": \"Vistoria\",\n      \"texto\": \"Laudo preventivo de danos à vizinhança\"\n    },\n    {\n      \"tema\": \"Documentação Final\",\n      \"texto\": \"Manuais técnicos - Condomínio/Proprietários\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Custo/Verificação\",\n      \"descricao\": \"Verificar consideração de custo para constrole téccnologico\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"ESTUDOS, PROJETOS E CONSULTORIAS\",\n    \"Orçamento Oficial Liberado\",\n    \"Fazer comporativo de corpo de prova por caminhão\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Legalização de Obra\",\n      \"decisao\": \"Licença para Tapume em calçada\"\n    },\n    {\n      \"contexto\": \"Projeto\",\n      \"decisao\": \"Modelagem BIM de complementares\"\n    },\n    {\n      \"contexto\": \"Documentação\",\n      \"decisao\": \"Manuais técnicos - Condomínio/Proprietários\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto de impermeabilização",
+      "Modelagem BIM de complementares",
+      "Compatibilização de projetos BIM",
+      "Laudo de vistoria técnica",
+      "Controle Tecnologico de Concreto",
+      "Taxa de aprovação na prefeitura",
+      "Taxa de aprovação água e esgoto",
+      "Taxa de aprovação elétrico"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Desempenho Estrutural",
+        "texto": "Ensaio/Laudo Desempenho - NBR 15575"
+      },
+      {
+        "tema": "Controle de Materiais",
+        "texto": "Controle Tecnologico de Concreto"
+      },
+      {
+        "tema": "Aprovação Legal",
+        "texto": "Taxa de aprovação na prefeitura"
+      },
+      {
+        "tema": "Aprovação Legal",
+        "texto": "Taxa de aprovação água e esgoto"
+      },
+      {
+        "tema": "Aprovação Legal",
+        "texto": "Taxa de aprovação elétrico"
+      },
+      {
+        "tema": "Aprovação Legal",
+        "texto": "Taxa de aprovação bombeiros"
+      },
+      {
+        "tema": "Vistoria",
+        "texto": "Laudo preventivo de danos à vizinhança"
+      },
+      {
+        "tema": "Documentação Final",
+        "texto": "Manuais técnicos - Condomínio/Proprietários"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Custo/Verificação",
+        "descricao": "Verificar consideração de custo para constrole téccnologico"
+      }
+    ],
+    "padroes_orcamentista": [
+      "ESTUDOS, PROJETOS E CONSULTORIAS",
+      "Orçamento Oficial Liberado",
+      "Fazer comporativo de corpo de prova por caminhão"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Legalização de Obra",
+        "decisao": "Licença para Tapume em calçada"
+      },
+      {
+        "contexto": "Projeto",
+        "decisao": "Modelagem BIM de complementares"
+      },
+      {
+        "contexto": "Documentação",
+        "decisao": "Manuais técnicos - Condomínio/Proprietários"
+      }
+    ]
+  }
+}

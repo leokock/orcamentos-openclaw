@@ -1,0 +1,105 @@
+{
+  "projeto": "adore-cacupe",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:30:52",
+  "duration_s": 103.7,
+  "compact_chars": 4146,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"NÍVEL 1 - (PAV.01 e PAV. SUBSOLO 02)\",\n    \"NÍVEL 2 - (SL/MEZ e PAV. SUBSOLO 01)\",\n    \"NÍVEL 3 - (PAV02 e PAV01)\",\n    \"NÍVEL 4 - (PAV03 e PAV02)\",\n    \"NÍVEL 5 - (PAV04 e PAV03)\",\n    \"NÍVEL 6 - (PAV05 e PAV04)\",\n    \"Perímetro de projeção do embasamento\",\n    \"Perímetro de projeção da torre\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Rodapés\",\n      \"texto\": \"colocado com cola e prego de aço\"\n    },\n    {\n      \"tema\": \"Repetições de pavimentos\",\n      \"texto\": \"** embassamento\"\n    },\n    {\n      \"tema\": \"Repetições de pavimentos\",\n      \"texto\": \"** torre\"\n    },\n    {\n      \"tema\": \"Instalações\",\n      \"texto\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n    },\n    {\n      \"tema\": \"Climatização\",\n      \"texto\": \"CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO\"\n    },\n    {\n      \"tema\": \"Revestimentos\",\n      \"texto\": \"REVESTIMENTOS ARGAMASSADOS PISO E PAREDE\"\n    },\n    {\n      \"tema\": \"Revestimentos\",\n      \"texto\": \"REVESTIMENTOS ARGAMASSADOS TETO\"\n    },\n    {\n      \"tema\": \"Varal de segurança\",\n      \"texto\": \"Varal de seguranca com cabo de aco com cabo de aço instalado junto ao piso\"\n    },\n    {\n      \"tema\": \"Tela fachadeira\",\n      \"texto\": \"Tela mosqueteira reforçada com impressão digital\"\n    },\n    {\n      \"tema\": \"Fechamento removível\",\n      \"texto\": \"Fechamento removível de vãos de porta de entrada dos aptos. em madeira\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Aviso de Custo\",\n      \"descricao\": \"* IMPORTANTE: Os custos unitários apresentados nessa página possuem majoração ao custo real buscando contemplar aproximações de quantidades, perdas e outras situações previstas através de índices e in\"\n    },\n    {\n      \"tipo\": \"Risco de Segurança\",\n      \"descricao\": \"Guarda corpo em periferias (risco de queda)\"\n    },\n    {\n      \"tipo\": \"Gerenciamento\",\n      \"descricao\": \"Programa de gerenciamento de risco\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"* IMPORTANTE: Os custos unitários apresentados nessa página possuem majoração ao custo real buscando contemplar aproximações de quantidades, perdas e outras situações previstas através de índices e in\",\n    \"LEVANTAMENTO QUANTITATIVO\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"Empresa Contratante: ADORE\",\n    \"EMPREENDIMENTO : XXXXXXXXXX\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Parede Diafragma\",\n      \"decisao\": \"Parede Diafragma - Mureta Guia\"\n    },\n    {\n      \"contexto\": \"Circulação Vertical\",\n      \"decisao\": \"Escadaria e poço elevador\"\n    },\n    {\n      \"contexto\": \"Cobertura\",\n      \"decisao\": \"Telhado completo, madeira, telhas, chaminés\"\n    },\n    {\n      \"contexto\": \"Acessos Veiculares\",\n      \"decisao\": \"Rampas garagens e rampas de entrada\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"decisao\": \"Instalação de Portas com Vistas\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "NÍVEL 1 - (PAV.01 e PAV. SUBSOLO 02)",
+      "NÍVEL 2 - (SL/MEZ e PAV. SUBSOLO 01)",
+      "NÍVEL 3 - (PAV02 e PAV01)",
+      "NÍVEL 4 - (PAV03 e PAV02)",
+      "NÍVEL 5 - (PAV04 e PAV03)",
+      "NÍVEL 6 - (PAV05 e PAV04)",
+      "Perímetro de projeção do embasamento",
+      "Perímetro de projeção da torre"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Rodapés",
+        "texto": "colocado com cola e prego de aço"
+      },
+      {
+        "tema": "Repetições de pavimentos",
+        "texto": "** embassamento"
+      },
+      {
+        "tema": "Repetições de pavimentos",
+        "texto": "** torre"
+      },
+      {
+        "tema": "Instalações",
+        "texto": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+      },
+      {
+        "tema": "Climatização",
+        "texto": "CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO"
+      },
+      {
+        "tema": "Revestimentos",
+        "texto": "REVESTIMENTOS ARGAMASSADOS PISO E PAREDE"
+      },
+      {
+        "tema": "Revestimentos",
+        "texto": "REVESTIMENTOS ARGAMASSADOS TETO"
+      },
+      {
+        "tema": "Varal de segurança",
+        "texto": "Varal de seguranca com cabo de aco com cabo de aço instalado junto ao piso"
+      },
+      {
+        "tema": "Tela fachadeira",
+        "texto": "Tela mosqueteira reforçada com impressão digital"
+      },
+      {
+        "tema": "Fechamento removível",
+        "texto": "Fechamento removível de vãos de porta de entrada dos aptos. em madeira"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Aviso de Custo",
+        "descricao": "* IMPORTANTE: Os custos unitários apresentados nessa página possuem majoração ao custo real buscando contemplar aproximações de quantidades, perdas e outras situações previstas através de índices e in"
+      },
+      {
+        "tipo": "Risco de Segurança",
+        "descricao": "Guarda corpo em periferias (risco de queda)"
+      },
+      {
+        "tipo": "Gerenciamento",
+        "descricao": "Programa de gerenciamento de risco"
+      }
+    ],
+    "padroes_orcamentista": [
+      "* IMPORTANTE: Os custos unitários apresentados nessa página possuem majoração ao custo real buscando contemplar aproximações de quantidades, perdas e outras situações previstas através de índices e in",
+      "LEVANTAMENTO QUANTITATIVO",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "Empresa Contratante: ADORE",
+      "EMPREENDIMENTO : XXXXXXXXXX"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Parede Diafragma",
+        "decisao": "Parede Diafragma - Mureta Guia"
+      },
+      {
+        "contexto": "Circulação Vertical",
+        "decisao": "Escadaria e poço elevador"
+      },
+      {
+        "contexto": "Cobertura",
+        "decisao": "Telhado completo, madeira, telhas, chaminés"
+      },
+      {
+        "contexto": "Acessos Veiculares",
+        "decisao": "Rampas garagens e rampas de entrada"
+      },
+      {
+        "contexto": "Acabamento",
+        "decisao": "Instalação de Portas com Vistas"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "projeto": "santo-andre-belle-ville",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:05:10",
+  "duration_s": 78.3,
+  "compact_chars": 4147,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto Arquitetônico\",\n    \"Revestimentos e acabamentos\",\n    \"Escavação e Reaterro\",\n    \"Instalações Elétricas, Hidráulicas, GLP E Preventivas\",\n    \"Projeto técnico de fachada\",\n    \"Laudo de Vistória de Fim e Obra\",\n    \"Compatibilização de Projetos BIM\",\n    \"Gerenciamento Técnico e Administrativo\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Subsolo\",\n      \"texto\": \"Considerado área do subsolo conforme projeto de terraplanagem\"\n    },\n    {\n      \"tema\": \"Contenção\",\n      \"texto\": \"Incluso quantidade da contenção\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Lastro de concreto magro, aplicado em valas, e=5cm\"\n    },\n    {\n      \"tema\": \"Impolamento\",\n      \"texto\": \"Considerado 30% de impolamento, considerando as estacas de contenção e estacas\"\n    },\n    {\n      \"tema\": \"Bota-fora\",\n      \"texto\": \"Considerado somente a área do subsolo + 30% de impolamento\"\n    },\n    {\n      \"tema\": \"Estacas\",\n      \"texto\": \"Utilizado quatidade do projetista\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Condicional\",\n      \"descricao\": \"Valor considerado na entrega parcial dia 25/11/24\"\n    },\n    {\n      \"tipo\": \"Variável\",\n      \"descricao\": \"Taxa Mobilização Estacas Hélice Contínua*\"\n    },\n    {\n      \"tipo\": \"Complexidade\",\n      \"descricao\": \"Perímetro de projeção da torre - Pavimento Diferenciado\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimativas Custos Indiretos\",\n    \"Produtividade média (h/m2)\",\n    \"CONSUMOS, TAXAS E DOCUMENTOS\",\n    \"Valor considerado pela construtora\",\n    \"Considerando entrega de 2 uniformes, capacete, bota, óculos e cinto\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    },\n    {\n      \"contexto\": \"Segurança/Legal\",\n      \"decisao\": \"Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e Gás\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"Legalização de incorporação\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto Arquitetônico",
+      "Revestimentos e acabamentos",
+      "Escavação e Reaterro",
+      "Instalações Elétricas, Hidráulicas, GLP E Preventivas",
+      "Projeto técnico de fachada",
+      "Laudo de Vistória de Fim e Obra",
+      "Compatibilização de Projetos BIM",
+      "Gerenciamento Técnico e Administrativo"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Subsolo",
+        "texto": "Considerado área do subsolo conforme projeto de terraplanagem"
+      },
+      {
+        "tema": "Contenção",
+        "texto": "Incluso quantidade da contenção"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Lastro de concreto magro, aplicado em valas, e=5cm"
+      },
+      {
+        "tema": "Impolamento",
+        "texto": "Considerado 30% de impolamento, considerando as estacas de contenção e estacas"
+      },
+      {
+        "tema": "Bota-fora",
+        "texto": "Considerado somente a área do subsolo + 30% de impolamento"
+      },
+      {
+        "tema": "Estacas",
+        "texto": "Utilizado quatidade do projetista"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Condicional",
+        "descricao": "Valor considerado na entrega parcial dia 25/11/24"
+      },
+      {
+        "tipo": "Variável",
+        "descricao": "Taxa Mobilização Estacas Hélice Contínua*"
+      },
+      {
+        "tipo": "Complexidade",
+        "descricao": "Perímetro de projeção da torre - Pavimento Diferenciado"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimativas Custos Indiretos",
+      "Produtividade média (h/m2)",
+      "CONSUMOS, TAXAS E DOCUMENTOS",
+      "Valor considerado pela construtora",
+      "Considerando entrega de 2 uniformes, capacete, bota, óculos e cinto"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "contexto": "Segurança/Legal",
+        "decisao": "Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e Gás"
+      },
+      {
+        "contexto": "Fundação",
+        "decisao": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "Legalização de incorporação"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "projeto": "mussi-empreendimentos-chelsea",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:28:05",
+  "duration_s": 162.0,
+  "compact_chars": 4158,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Perímetro de projeção torre 1\",\n    \"Perímetro de projeção torre 2\",\n    \"Perímetro de projeção torre\",\n    \"Altura de cobrimento da tela 1\",\n    \"Altura de cobrimento da tela 2\",\n    \"Controle Tecnológico - Concreto\",\n    \"Projeto Arquitetônico legal - incluindo: executivo + elétrico + comunicação e dados + telefonia + luminotécnico + hidrosanitário + drenagem + pluvial + gás\",\n    \"Escavação e Reaterro de Valas\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"4 CPs por caminhão betoneira de 8m³\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    },\n    {\n      \"tema\": \"Cisterna\",\n      \"texto\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\"\n    },\n    {\n      \"tema\": \"Perda de Material\",\n      \"texto\": \"Considerado sem indicação em projeto, consideração de 13% de perda\"\n    },\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Considerado empolamento 30% da escavação\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Considerado sem indicação em projeto, consideração de 13% de perda\"\n    },\n    {\n      \"tipo\": \"Documentação\",\n      \"descricao\": \"Laudo Preventivo de Danos à Vizinhança\"\n    },\n    {\n      \"tipo\": \"Alerta\",\n      \"descricao\": \"IMPREVISTOS E CONTINGENCIAS\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimado com base em índices históricos\",\n    \"Estimado com base em índices históricos para elaboração interna\",\n    \"Custo de contratação Cartesian\",\n    \"Valor lançado em sienge pela construtora\",\n    \"Projeto Arquitetônico legal - incluindo: executivo + elétrico + comunicação e dados + telefonia + luminotécnico + hidrosanitário + drenagem + pluvial + gás\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Movimentação de Terra\",\n      \"decisao\": \"Movimentação de terra para bota-fora\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Rebaixamento de Lençol Freático\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"decisao\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"contexto\": \"Reaterro\",\n      \"decisao\": \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\"\n    },\n    {\n      \"contexto\": \"Lastro\",\n      \"decisao\": \"Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=5cm\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Perímetro de projeção torre 1",
+      "Perímetro de projeção torre 2",
+      "Perímetro de projeção torre",
+      "Altura de cobrimento da tela 1",
+      "Altura de cobrimento da tela 2",
+      "Controle Tecnológico - Concreto",
+      "Projeto Arquitetônico legal - incluindo: executivo + elétrico + comunicação e dados + telefonia + luminotécnico + hidrosanitário + drenagem + pluvial + gás",
+      "Escavação e Reaterro de Valas"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Concreto",
+        "texto": "4 CPs por caminhão betoneira de 8m³"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      },
+      {
+        "tema": "Cisterna",
+        "texto": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm"
+      },
+      {
+        "tema": "Perda de Material",
+        "texto": "Considerado sem indicação em projeto, consideração de 13% de perda"
+      },
+      {
+        "tema": "Escavação",
+        "texto": "Considerado empolamento 30% da escavação"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Considerado sem indicação em projeto, consideração de 13% de perda"
+      },
+      {
+        "tipo": "Documentação",
+        "descricao": "Laudo Preventivo de Danos à Vizinhança"
+      },
+      {
+        "tipo": "Alerta",
+        "descricao": "IMPREVISTOS E CONTINGENCIAS"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimado com base em índices históricos",
+      "Estimado com base em índices históricos para elaboração interna",
+      "Custo de contratação Cartesian",
+      "Valor lançado em sienge pela construtora",
+      "Projeto Arquitetônico legal - incluindo: executivo + elétrico + comunicação e dados + telefonia + luminotécnico + hidrosanitário + drenagem + pluvial + gás"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Movimentação de Terra",
+        "decisao": "Movimentação de terra para bota-fora"
+      },
+      {
+        "contexto": "Fundação",
+        "decisao": "Rebaixamento de Lençol Freático"
+      },
+      {
+        "contexto": "Escavação",
+        "decisao": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "contexto": "Reaterro",
+        "decisao": "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira"
+      },
+      {
+        "contexto": "Lastro",
+        "decisao": "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=5cm"
+      }
+    ]
+  }
+}

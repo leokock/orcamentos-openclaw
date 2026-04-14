@@ -1,0 +1,60 @@
+{
+  "projeto": "mendes-empreendimentos-brava-mundo",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:18:11",
+  "duration_s": 64.7,
+  "compact_chars": 1093,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Consultorias\",\n    \"Laudo Técnico de Vistoria de Entrega\",\n    \"Taxas de Aprovação e Alvarás\",\n    \"Custo de Obra\",\n    \"SEGURANÇA, MEIO AMBIENTE E SAÚDE\",\n    \"ESTUDOS, PROJETOS E CONSULTORIAS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Prevenção de Incêndio\",\n      \"texto\": \"Projeto Preventivo de Incêndio\"\n    },\n    {\n      \"tema\": \"Vizinhança\",\n      \"texto\": \"Laudo Preventivo de Danos à Vizinhança\"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Controle Tecnológico de Concreto\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Prova de Carga das Estacas\"\n    },\n    {\n      \"tema\": \"Segurança do Trabalho\",\n      \"texto\": \"Consultoria Segurança do Trabalho\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Revisão do orçamento\",\n    \"CONSUMOS, TAXAS E DOCUMENTOS\",\n    \"GERENCIAMENTO ADMINISTRATIVO\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Custos gerais do empreendimento\",\n      \"decisao\": \"CUSTOS INDIRETOS DE OBRA\"\n    },\n    {\n      \"contexto\": \"Requisitos legais e de segurança\",\n      \"decisao\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    },\n    {\n      \"contexto\": \"Escopo de serviços\",\n      \"decisao\": \"Laudo Técnico de Vistoria de Entrega\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Consultorias",
+      "Laudo Técnico de Vistoria de Entrega",
+      "Taxas de Aprovação e Alvarás",
+      "Custo de Obra",
+      "SEGURANÇA, MEIO AMBIENTE E SAÚDE",
+      "ESTUDOS, PROJETOS E CONSULTORIAS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Prevenção de Incêndio",
+        "texto": "Projeto Preventivo de Incêndio"
+      },
+      {
+        "tema": "Vizinhança",
+        "texto": "Laudo Preventivo de Danos à Vizinhança"
+      },
+      {
+        "tema": "Concreto",
+        "texto": "Controle Tecnológico de Concreto"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Prova de Carga das Estacas"
+      },
+      {
+        "tema": "Segurança do Trabalho",
+        "texto": "Consultoria Segurança do Trabalho"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Revisão do orçamento",
+      "CONSUMOS, TAXAS E DOCUMENTOS",
+      "GERENCIAMENTO ADMINISTRATIVO"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Custos gerais do empreendimento",
+        "decisao": "CUSTOS INDIRETOS DE OBRA"
+      },
+      {
+        "contexto": "Requisitos legais e de segurança",
+        "decisao": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      },
+      {
+        "contexto": "Escopo de serviços",
+        "decisao": "Laudo Técnico de Vistoria de Entrega"
+      }
+    ]
+  }
+}

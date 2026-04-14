@@ -1,0 +1,73 @@
+{
+  "projeto": "mabrem-gran-torino",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:14:20",
+  "duration_s": 82.6,
+  "compact_chars": 3581,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Perímetro de projeção do embasamento\",\n    \"Perímetro de projeção da torre\",\n    \"Perímetro de projeção embasamento\",\n    \"Perímetro de projeção torre\",\n    \"LEVANTAMENTO QUANTITATIVO\",\n    \"Taxas de Aprovação de Projetos e Alvarás (Prefeituras/Bombeiro)\",\n    \"Bandeja de proteção primária\",\n    \"Bandeja de proteção secundária\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle de concreto\",\n      \"texto\": \"Controle tecnologico de concreto\"\n    },\n    {\n      \"tema\": \"Custos indiretos\",\n      \"texto\": \"Valor repassado pela Mabrem em formulário de custos indiretos\"\n    },\n    {\n      \"tema\": \"Verba de obras\",\n      \"texto\": \"Verba estimada conforme índices históricos de obras similares\"\n    },\n    {\n      \"tema\": \"Corpos de prova\",\n      \"texto\": \"Consideração de 4 corpos de prova por caminhão de 8m³\"\n    },\n    {\n      \"tema\": \"Compatibilização de projetos\",\n      \"texto\": \"Compatibilização de projetos BIM\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Verba estimada conforme índices históricos de obras similares\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Valor repassado pela Mabrem em formulário de custos indiretos\",\n    \"Verba estimada conforme índices históricos de obras similares\",\n    \"Licenciamento - Taxas - Impostos\",\n    \"Consultoria de Orçamento e Planejamento\",\n    \"Taxas de Aprovação de Projetos e Alvarás (Prefeituras/Bombeiro)\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Legalidade\",\n      \"decisao\": \"Legalização e incorporação\"\n    },\n    {\n      \"contexto\": \"Projetos\",\n      \"decisao\": \"Compatibilização de projetos BIM\"\n    },\n    {\n      \"contexto\": \"Modelagem\",\n      \"decisao\": \"Modelagem BIM arquitetônica\"\n    },\n    {\n      \"contexto\": \"Gestão\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Perímetro de projeção do embasamento",
+      "Perímetro de projeção da torre",
+      "Perímetro de projeção embasamento",
+      "Perímetro de projeção torre",
+      "LEVANTAMENTO QUANTITATIVO",
+      "Taxas de Aprovação de Projetos e Alvarás (Prefeituras/Bombeiro)",
+      "Bandeja de proteção primária",
+      "Bandeja de proteção secundária"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle de concreto",
+        "texto": "Controle tecnologico de concreto"
+      },
+      {
+        "tema": "Custos indiretos",
+        "texto": "Valor repassado pela Mabrem em formulário de custos indiretos"
+      },
+      {
+        "tema": "Verba de obras",
+        "texto": "Verba estimada conforme índices históricos de obras similares"
+      },
+      {
+        "tema": "Corpos de prova",
+        "texto": "Consideração de 4 corpos de prova por caminhão de 8m³"
+      },
+      {
+        "tema": "Compatibilização de projetos",
+        "texto": "Compatibilização de projetos BIM"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Verba estimada conforme índices históricos de obras similares"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Valor repassado pela Mabrem em formulário de custos indiretos",
+      "Verba estimada conforme índices históricos de obras similares",
+      "Licenciamento - Taxas - Impostos",
+      "Consultoria de Orçamento e Planejamento",
+      "Taxas de Aprovação de Projetos e Alvarás (Prefeituras/Bombeiro)"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Legalidade",
+        "decisao": "Legalização e incorporação"
+      },
+      {
+        "contexto": "Projetos",
+        "decisao": "Compatibilização de projetos BIM"
+      },
+      {
+        "contexto": "Modelagem",
+        "decisao": "Modelagem BIM arquitetônica"
+      },
+      {
+        "contexto": "Gestão",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      }
+    ]
+  }
+}

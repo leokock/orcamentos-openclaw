@@ -1,0 +1,76 @@
+{
+  "projeto": "nm-empreendimentos",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:35:52",
+  "duration_s": 79.5,
+  "compact_chars": 1023,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Taxas aprovação/legal.\",\n    \"Projeto\",\n    \"Estudos, Projetos e Consultorias\",\n    \"LICENCIAMENTOS, TAXAS, IMPOSTOS, APROVAÇÕES E SEGUROS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Projeto arquitetônico executivo\",\n      \"texto\": \"Projeto arquitetônico executivo\"\n    },\n    {\n      \"tema\": \"Projeto elétrico / telecomunicações\",\n      \"texto\": \"Projeto elétrico / telecomunicações\"\n    },\n    {\n      \"tema\": \"Projeto hidrossanitário/pluvial\",\n      \"texto\": \"Projeto hidrossanitário/pluvial\"\n    },\n    {\n      \"tema\": \"Projeto preventivo - PPCI\",\n      \"texto\": \"Projeto preventivo - PPCI\"\n    },\n    {\n      \"tema\": \"Controle tecnológico de concreto\",\n      \"texto\": \"Controle tecnológico de concreto\"\n    },\n    {\n      \"tema\": \"Laudo técnico de vistoria\",\n      \"texto\": \"Laudo técnico de vistoria\"\n    },\n    {\n      \"tema\": \"Manuais técnicos - condomínio/proprietários\",\n      \"texto\": \"Manuais técnicos - condomínio/proprietários\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Variável\",\n      \"descricao\": \"CONSUMOS, TAXAS E DOCUMENTOS\"\n    },\n    {\n      \"tipo\": \"Variável\",\n      \"descricao\": \"LICENCIAMENTOS, TAXAS, IMPOSTOS, APROVAÇÕES E SEGUROS\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"ESTUDOS, PROJETOS E CONSULTORIAS\",\n    \"CONSUMOS, TAXAS E DOCUMENTOS\",\n    \"LICENCIAMENTOS, TAXAS, IMPOSTOS, APROVAÇÕES E SEGUROS\",\n    \"Taxas aprovação/legal. Prefeitura\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo principal\",\n      \"decisao\": \"Projeto legalização incorporação\"\n    },\n    {\n      \"contexto\": \"Custos legais\",\n      \"decisao\": \"Despesas cartório, jurídicas e incorporação\"\n    },\n    {\n      \"contexto\": \"Unidade de medida\",\n      \"decisao\": \"Total da unidade construtiva\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Taxas aprovação/legal.",
+      "Projeto",
+      "Estudos, Projetos e Consultorias",
+      "LICENCIAMENTOS, TAXAS, IMPOSTOS, APROVAÇÕES E SEGUROS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Projeto arquitetônico executivo",
+        "texto": "Projeto arquitetônico executivo"
+      },
+      {
+        "tema": "Projeto elétrico / telecomunicações",
+        "texto": "Projeto elétrico / telecomunicações"
+      },
+      {
+        "tema": "Projeto hidrossanitário/pluvial",
+        "texto": "Projeto hidrossanitário/pluvial"
+      },
+      {
+        "tema": "Projeto preventivo - PPCI",
+        "texto": "Projeto preventivo - PPCI"
+      },
+      {
+        "tema": "Controle tecnológico de concreto",
+        "texto": "Controle tecnológico de concreto"
+      },
+      {
+        "tema": "Laudo técnico de vistoria",
+        "texto": "Laudo técnico de vistoria"
+      },
+      {
+        "tema": "Manuais técnicos - condomínio/proprietários",
+        "texto": "Manuais técnicos - condomínio/proprietários"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Variável",
+        "descricao": "CONSUMOS, TAXAS E DOCUMENTOS"
+      },
+      {
+        "tipo": "Variável",
+        "descricao": "LICENCIAMENTOS, TAXAS, IMPOSTOS, APROVAÇÕES E SEGUROS"
+      }
+    ],
+    "padroes_orcamentista": [
+      "ESTUDOS, PROJETOS E CONSULTORIAS",
+      "CONSUMOS, TAXAS E DOCUMENTOS",
+      "LICENCIAMENTOS, TAXAS, IMPOSTOS, APROVAÇÕES E SEGUROS",
+      "Taxas aprovação/legal. Prefeitura"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo principal",
+        "decisao": "Projeto legalização incorporação"
+      },
+      {
+        "contexto": "Custos legais",
+        "decisao": "Despesas cartório, jurídicas e incorporação"
+      },
+      {
+        "contexto": "Unidade de medida",
+        "decisao": "Total da unidade construtiva"
+      }
+    ]
+  }
+}

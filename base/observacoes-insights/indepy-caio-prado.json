@@ -1,0 +1,88 @@
+{
+  "projeto": "indepy-caio-prado",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:07:29",
+  "duration_s": 97.1,
+  "compact_chars": 4134,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Alvenaria de vedação\",\n    \"REVESTIMENTOS\",\n    \"IMPERMEABILIZAÇÃO E TRATAMENTOS\",\n    \"Drywall\",\n    \"blocos de concreto\",\n    \"Serviços complementares\",\n    \"CHAPISCO ARGAMASSADO INTERNO\",\n    \"fachada\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Alvenaria\",\n      \"texto\": \"com argamassa estabilizada\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"conforme projeto acustico r03\"\n    },\n    {\n      \"tema\": \"Drywall\",\n      \"texto\": \"com tratamento de junta\"\n    },\n    {\n      \"tema\": \"Parede\",\n      \"texto\": \"Uma Face Resistente a Umidade(RU/70)\"\n    },\n    {\n      \"tema\": \"Alvenaria\",\n      \"texto\": \"com densidade acustica reforçada de 14x19x39cm, com argamassa estabilizada\"\n    },\n    {\n      \"tema\": \"Revestimento\",\n      \"texto\": \"LISO 0,5 cm + TINTA\"\n    },\n    {\n      \"tema\": \"Revestimento\",\n      \"texto\": \"LISO 1 cm + TINTA\"\n    },\n    {\n      \"tema\": \"Alvenaria\",\n      \"texto\": \"Tela soldada para ligacao alvenaria/estrutura\"\n    },\n    {\n      \"tema\": \"Impermeabilização\",\n      \"texto\": \"Regularização de superfície para impermeabilização\"\n    },\n    {\n      \"tema\": \"Alvenaria\",\n      \"texto\": \"blocos de concreto de 19x19x39cm, com argamassa estabilizada\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Mão de obra para assentamento de blocos cerâmicos\",\n    \"Serviços complementares para alvenaria\",\n    \"Serviços complementares e finais\",\n    \"Regularização e proteção mecânica\",\n    \"CHAPISCO ARGAMASSADO INTERNO\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Acústica\",\n      \"decisao\": \"Da marca oterprem, conforme projeto acustico r03\"\n    },\n    {\n      \"contexto\": \"Escopo\",\n      \"decisao\": \"APTO TIPO \\\"E\\\" - FINAL 06/07 - 1 Pav\"\n    },\n    {\n      \"contexto\": \"Vedação\",\n      \"decisao\": \"Alvenaria de vedação de blocos de concreto de 19x19x39cm, com argamassa estabilizada\"\n    },\n    {\n      \"contexto\": \"Parede\",\n      \"decisao\": \"Parede Com Sistema Em Chapas De Gesso Para Drywall, Uso Interno, Montante 70mm, Com Uma Face Resistente a Umidade(RU/70)\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Alvenaria de vedação",
+      "REVESTIMENTOS",
+      "IMPERMEABILIZAÇÃO E TRATAMENTOS",
+      "Drywall",
+      "blocos de concreto",
+      "Serviços complementares",
+      "CHAPISCO ARGAMASSADO INTERNO",
+      "fachada"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Alvenaria",
+        "texto": "com argamassa estabilizada"
+      },
+      {
+        "tema": "Acústica",
+        "texto": "conforme projeto acustico r03"
+      },
+      {
+        "tema": "Drywall",
+        "texto": "com tratamento de junta"
+      },
+      {
+        "tema": "Parede",
+        "texto": "Uma Face Resistente a Umidade(RU/70)"
+      },
+      {
+        "tema": "Alvenaria",
+        "texto": "com densidade acustica reforçada de 14x19x39cm, com argamassa estabilizada"
+      },
+      {
+        "tema": "Revestimento",
+        "texto": "LISO 0,5 cm + TINTA"
+      },
+      {
+        "tema": "Revestimento",
+        "texto": "LISO 1 cm + TINTA"
+      },
+      {
+        "tema": "Alvenaria",
+        "texto": "Tela soldada para ligacao alvenaria/estrutura"
+      },
+      {
+        "tema": "Impermeabilização",
+        "texto": "Regularização de superfície para impermeabilização"
+      },
+      {
+        "tema": "Alvenaria",
+        "texto": "blocos de concreto de 19x19x39cm, com argamassa estabilizada"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Mão de obra para assentamento de blocos cerâmicos",
+      "Serviços complementares para alvenaria",
+      "Serviços complementares e finais",
+      "Regularização e proteção mecânica",
+      "CHAPISCO ARGAMASSADO INTERNO"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Acústica",
+        "decisao": "Da marca oterprem, conforme projeto acustico r03"
+      },
+      {
+        "contexto": "Escopo",
+        "decisao": "APTO TIPO \"E\" - FINAL 06/07 - 1 Pav"
+      },
+      {
+        "contexto": "Vedação",
+        "decisao": "Alvenaria de vedação de blocos de concreto de 19x19x39cm, com argamassa estabilizada"
+      },
+      {
+        "contexto": "Parede",
+        "decisao": "Parede Com Sistema Em Chapas De Gesso Para Drywall, Uso Interno, Montante 70mm, Com Uma Face Resistente a Umidade(RU/70)"
+      }
+    ]
+  }
+}

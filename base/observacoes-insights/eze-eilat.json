@@ -1,0 +1,51 @@
+{
+  "projeto": "eze-eilat",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:41:56",
+  "duration_s": 96.6,
+  "compact_chars": 1460,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"CANTEIRO DE OBRAS\",\n    \"CONSUMOS\",\n    \"INSTALAÇÕES PROVISÓRIAS\",\n    \"Mão de obra indireta\",\n    \"ADMINISTRAÇÃO\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"ART\",\n      \"texto\": \"Anotação de responsabilidade técnica (ART de execução)\"\n    },\n    {\n      \"tema\": \"Mão de obra indireta\",\n      \"texto\": \"Mão de obra indireta para adm e APOIO TÉCNICO do canteiro de obras (1 eng residente, 1 mestre, 1 contra mestre e 2 auxiliares de engenharia)\"\n    },\n    {\n      \"tema\": \"Mão de obra indireta\",\n      \"texto\": \"Mão de obra indireta para APOIO OPERACIONAL do canteiro de obras (1 aux. limpeza, 2 ajudantes de obra, 1 jardineiro, 1 porteiro, 1 almoxarife, operador e auxiliares de elevador e grua)\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Despesas com consumo de\",\n    \"Despesas com materiais escritório, higiene e limpeza do canteiro e da obra\",\n    \"Mão de obra indireta para\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Infraestrutura do canteiro\",\n      \"decisao\": \"Escritório, deposito, áreas de vivência...\"\n    },\n    {\n      \"contexto\": \"Gestão de pessoal\",\n      \"decisao\": \"Mão de obra indireta para adm e APOIO TÉCNICO do canteiro de obras (1 eng residente, 1 mestre, 1 contra mestre e 2 auxiliares de engenharia)\"\n    },\n    {\n      \"contexto\": \"Suporte operacional\",\n      \"decisao\": \"Mão de obra indireta para APOIO OPERACIONAL do canteiro de obras (1 aux. limpeza, 2 ajudantes de obra, 1 jardineiro, 1 porteiro, 1 almoxarife, operador e auxiliares de elevador e grua)\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "CANTEIRO DE OBRAS",
+      "CONSUMOS",
+      "INSTALAÇÕES PROVISÓRIAS",
+      "Mão de obra indireta",
+      "ADMINISTRAÇÃO"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "ART",
+        "texto": "Anotação de responsabilidade técnica (ART de execução)"
+      },
+      {
+        "tema": "Mão de obra indireta",
+        "texto": "Mão de obra indireta para adm e APOIO TÉCNICO do canteiro de obras (1 eng residente, 1 mestre, 1 contra mestre e 2 auxiliares de engenharia)"
+      },
+      {
+        "tema": "Mão de obra indireta",
+        "texto": "Mão de obra indireta para APOIO OPERACIONAL do canteiro de obras (1 aux. limpeza, 2 ajudantes de obra, 1 jardineiro, 1 porteiro, 1 almoxarife, operador e auxiliares de elevador e grua)"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Despesas com consumo de",
+      "Despesas com materiais escritório, higiene e limpeza do canteiro e da obra",
+      "Mão de obra indireta para"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Infraestrutura do canteiro",
+        "decisao": "Escritório, deposito, áreas de vivência..."
+      },
+      {
+        "contexto": "Gestão de pessoal",
+        "decisao": "Mão de obra indireta para adm e APOIO TÉCNICO do canteiro de obras (1 eng residente, 1 mestre, 1 contra mestre e 2 auxiliares de engenharia)"
+      },
+      {
+        "contexto": "Suporte operacional",
+        "decisao": "Mão de obra indireta para APOIO OPERACIONAL do canteiro de obras (1 aux. limpeza, 2 ajudantes de obra, 1 jardineiro, 1 porteiro, 1 almoxarife, operador e auxiliares de elevador e grua)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "projeto": "thozen-mirador-de-alicante",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:11:51",
+  "duration_s": 83.4,
+  "compact_chars": 2077,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n    \"REVESTIMENTOS ARGAMASSADOS\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Estrutura/Materiais\",\n      \"texto\": \"escoramento, fomra super resinado (dobro), aço cortado e dobrado\"\n    },\n    {\n      \"tema\": \"Revestimento\",\n      \"texto\": \"porcelanato apenas em box - custo do porcelanato\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Alerta de Mão de Obra\",\n      \"descricao\": \"MÃO DE OBRA TA PEGANDO ERRADO\"\n    },\n    {\n      \"tipo\": \"Medição/Cálculo\",\n      \"descricao\": \"VALOR POR ÁREA PRIVATIVA (R$/m²)\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"REVESTIMENTOS INTERNOS DE PISO E PAREDE\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Revestimento de Box\",\n      \"decisao\": \"porcelanato apenas em box - custo do porcelanato\"\n    },\n    {\n      \"contexto\": \"Pintura da Garagem\",\n      \"decisao\": \"pintura epoxi m toda garagem\"\n    },\n    {\n      \"contexto\": \"Estrutura do Imóvel\",\n      \"decisao\": \"G2 E G3 sem grandes vigas\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+      "REVESTIMENTOS ARGAMASSADOS",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Estrutura/Materiais",
+        "texto": "escoramento, fomra super resinado (dobro), aço cortado e dobrado"
+      },
+      {
+        "tema": "Revestimento",
+        "texto": "porcelanato apenas em box - custo do porcelanato"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Alerta de Mão de Obra",
+        "descricao": "MÃO DE OBRA TA PEGANDO ERRADO"
+      },
+      {
+        "tipo": "Medição/Cálculo",
+        "descricao": "VALOR POR ÁREA PRIVATIVA (R$/m²)"
+      }
+    ],
+    "padroes_orcamentista": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "REVESTIMENTOS INTERNOS DE PISO E PAREDE"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Revestimento de Box",
+        "decisao": "porcelanato apenas em box - custo do porcelanato"
+      },
+      {
+        "contexto": "Pintura da Garagem",
+        "decisao": "pintura epoxi m toda garagem"
+      },
+      {
+        "contexto": "Estrutura do Imóvel",
+        "decisao": "G2 E G3 sem grandes vigas"
+      }
+    ]
+  }
+}

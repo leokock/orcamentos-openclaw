@@ -1,0 +1,83 @@
+{
+  "projeto": "fg-scenarium",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:47:39",
+  "duration_s": 88.6,
+  "compact_chars": 3995,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto Arquitetônico\",\n    \"Projeto Estrutural\",\n    \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"Projeto Elétrico/Comunicação/Telefonia/Luminotécnico\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Estudo concreto massa - bloco de fundação\"\n    },\n    {\n      \"tema\": \"Esquadrias\",\n      \"texto\": \"Laudo de estanqueidade das esquadrias\"\n    },\n    {\n      \"tema\": \"Água\",\n      \"texto\": \"Laudo de higienização/limpeza da caixa d'água\"\n    },\n    {\n      \"tema\": \"Vizinhos\",\n      \"texto\": \"Monitoramento de recalque prédios vizinhos\"\n    },\n    {\n      \"tema\": \"Vizinhos\",\n      \"texto\": \"Monitoramento de verticalidade de prédios vizinhos\"\n    },\n    {\n      \"tema\": \"Sistemas Especiais\",\n      \"texto\": \"Piscinas igui, aspiração central, escada helicoidal, nichos, exaustçao de subsolo\"\n    },\n    {\n      \"tema\": \"Pisos Técnicos\",\n      \"texto\": \"PISOS - AREAS TECNICAS E LAJES APENAS COM CONTRAPISO, SEM REVESTIMENTO\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Quantitativo\",\n      \"descricao\": \"DIFERENÇAS EM QUNATITATIVOS:\"\n    },\n    {\n      \"tipo\": \"Escavação\",\n      \"descricao\": \"VERBA DE ESCAVAÇÃO REPASSADA PELO RAVELLO, E FOI CONSIDERADO SOMENTE ESCAVAÇÃO COM BOTA FORA DE BLOCOS BALDRAMES E LASTRO DE BRITA\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"IMPREVISTOS E CONTINGENCIAS\",\n    \"VALOR POR ÁREA PRIVATIVA (R$/m²)\",\n    \"VALOR POR UNIDADE TIPO 01\",\n    \"VALOR POR UNIDADE TIPO 02\",\n    \"VALOR POR UNIDADE TIPO 03\",\n    \"VALOR POR UNIDADE TIPO 04\",\n    \"VALOR POR UNIDADE ESTÚDIO\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Infraestrutura\",\n      \"decisao\": \"Bastante horizontal - soluções mais otimizadas (grampeamento e muro de flexão)\"\n    },\n    {\n      \"contexto\": \"Pisos\",\n      \"decisao\": \"PISOS - AREAS TECNICAS E LAJES APENAS COM CONTRAPISO, SEM REVESTIMENTO\"\n    },\n    {\n      \"contexto\": \"Material\",\n      \"decisao\": \"Marmore travertino R$ 1600,00/m2\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto Arquitetônico",
+      "Projeto Estrutural",
+      "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "Projeto Elétrico/Comunicação/Telefonia/Luminotécnico"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Fundação",
+        "texto": "Estudo concreto massa - bloco de fundação"
+      },
+      {
+        "tema": "Esquadrias",
+        "texto": "Laudo de estanqueidade das esquadrias"
+      },
+      {
+        "tema": "Água",
+        "texto": "Laudo de higienização/limpeza da caixa d'água"
+      },
+      {
+        "tema": "Vizinhos",
+        "texto": "Monitoramento de recalque prédios vizinhos"
+      },
+      {
+        "tema": "Vizinhos",
+        "texto": "Monitoramento de verticalidade de prédios vizinhos"
+      },
+      {
+        "tema": "Sistemas Especiais",
+        "texto": "Piscinas igui, aspiração central, escada helicoidal, nichos, exaustçao de subsolo"
+      },
+      {
+        "tema": "Pisos Técnicos",
+        "texto": "PISOS - AREAS TECNICAS E LAJES APENAS COM CONTRAPISO, SEM REVESTIMENTO"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Quantitativo",
+        "descricao": "DIFERENÇAS EM QUNATITATIVOS:"
+      },
+      {
+        "tipo": "Escavação",
+        "descricao": "VERBA DE ESCAVAÇÃO REPASSADA PELO RAVELLO, E FOI CONSIDERADO SOMENTE ESCAVAÇÃO COM BOTA FORA DE BLOCOS BALDRAMES E LASTRO DE BRITA"
+      }
+    ],
+    "padroes_orcamentista": [
+      "IMPREVISTOS E CONTINGENCIAS",
+      "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+      "VALOR POR UNIDADE TIPO 01",
+      "VALOR POR UNIDADE TIPO 02",
+      "VALOR POR UNIDADE TIPO 03",
+      "VALOR POR UNIDADE TIPO 04",
+      "VALOR POR UNIDADE ESTÚDIO"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Bastante horizontal - soluções mais otimizadas (grampeamento e muro de flexão)"
+      },
+      {
+        "contexto": "Pisos",
+        "decisao": "PISOS - AREAS TECNICAS E LAJES APENAS COM CONTRAPISO, SEM REVESTIMENTO"
+      },
+      {
+        "contexto": "Material",
+        "decisao": "Marmore travertino R$ 1600,00/m2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "projeto": "cambert-engenharia-portal-da-brava",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:58:58",
+  "duration_s": 79.7,
+  "compact_chars": 1113,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"PROJETO ARQUITETÔNICO\",\n    \"PROJETO TÉCNICO\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle de Materiais e Estrutura\",\n      \"texto\": \"CONTROLE TECNOLÓGICO DE CONCRETO*\"\n    },\n    {\n      \"tema\": \"Documentação e Inspeção\",\n      \"texto\": \"LAUDO DE VISTORIA TÉCNICA*\"\n    },\n    {\n      \"tema\": \"Risco Ambiental\",\n      \"texto\": \"LAUDO PREVENTIVO DE DANOS À VIZINHANÇA*\"\n    },\n    {\n      \"tema\": \"Sistemas Específicos\",\n      \"texto\": \"PROJETO DE CLIMATIZAÇÃO E EXAUSTÃO*\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Legal/Regulatório\",\n      \"descricao\": \"LEGALIZAÇÃO DE INCORPORAÇÃO*\"\n    },\n    {\n      \"tipo\": \"Projeto Obrigatório\",\n      \"descricao\": \"PROJETO ARQUITETÔNICO LEGAL*\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"ORCAMENTO E PLANEJAMENTO*\",\n    \"REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"ESTUDOS, PROJETOS E CONSULTORIAS\"\n    },\n    {\n      \"contexto\": \"Nível de Detalhamento\",\n      \"decisao\": \"PROJETO ARQUITETÔNICO EXECUTIVO *\"\n    },\n    {\n      \"contexto\": \"Áreas de Serviço\",\n      \"decisao\": \"PROJETO ARQUITETÔNICO INTERIORES / AMBIENTAÇÃO *\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "PROJETO ARQUITETÔNICO",
+      "PROJETO TÉCNICO"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle de Materiais e Estrutura",
+        "texto": "CONTROLE TECNOLÓGICO DE CONCRETO*"
+      },
+      {
+        "tema": "Documentação e Inspeção",
+        "texto": "LAUDO DE VISTORIA TÉCNICA*"
+      },
+      {
+        "tema": "Risco Ambiental",
+        "texto": "LAUDO PREVENTIVO DE DANOS À VIZINHANÇA*"
+      },
+      {
+        "tema": "Sistemas Específicos",
+        "texto": "PROJETO DE CLIMATIZAÇÃO E EXAUSTÃO*"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Legal/Regulatório",
+        "descricao": "LEGALIZAÇÃO DE INCORPORAÇÃO*"
+      },
+      {
+        "tipo": "Projeto Obrigatório",
+        "descricao": "PROJETO ARQUITETÔNICO LEGAL*"
+      }
+    ],
+    "padroes_orcamentista": [
+      "ORCAMENTO E PLANEJAMENTO*",
+      "REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "ESTUDOS, PROJETOS E CONSULTORIAS"
+      },
+      {
+        "contexto": "Nível de Detalhamento",
+        "decisao": "PROJETO ARQUITETÔNICO EXECUTIVO *"
+      },
+      {
+        "contexto": "Áreas de Serviço",
+        "decisao": "PROJETO ARQUITETÔNICO INTERIORES / AMBIENTAÇÃO *"
+      }
+    ]
+  }
+}

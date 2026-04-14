@@ -1,0 +1,104 @@
+{
+  "projeto": "caledonia-mowe-caledonia-mowe",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:57:38",
+  "duration_s": 105.4,
+  "compact_chars": 4143,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"REVESTIMENTOS ARGAMASSADOS\",\n    \"ACABAMENTOS INTERNOS\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"CONTROLE TECNOLÓGICO\",\n    \"MARTINS|FRANCEZ ENGENHARIA\",\n    \"CONCRETO\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Ensaios\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Ensaios\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    },\n    {\n      \"tema\": \"Ger_Tec e Adm\",\n      \"texto\": \"Estimado como 11% da mão de obra da obra com indice de redução de 0,7\"\n    },\n    {\n      \"tema\": \"Ger_Tec e Adm\",\n      \"texto\": \"Confrome cálculo da aba \\\"Canteiro\\\"\"\n    },\n    {\n      \"tema\": \"Ger_Tec e Adm\",\n      \"texto\": \"Estimado uma caçamba ao mês por 10 meses\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=4cm\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Forma para infraestrutura em Tábuas de Madeira Serrada 4x reaproveitamento\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Quantidade de levantameto da Cartesian\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimado com base em índices históricos\"\n    },\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimado como 11% da mão de obra da obra com indice de redução de 0,7\"\n    },\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimado uma caçamba ao mês por 10 meses\"\n    },\n    {\n      \"tipo\": \"Dependência de Projeto\",\n      \"descricao\": \"Quantidade disponibilizada pelo projetista de sapatas e levantameto da Cartesian de vigas e pilares\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimado com base em índices históricos\",\n    \"Estimado como 11% da mão de obra da obra com indice de redução de 0,7\",\n    \"Estimado uma caçamba ao mês por 10 meses\",\n    \"Quantidade disponibilizada pelo projetista de sapatas e levantameto da Cartesian de vigas e pilares\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=4cm\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"Fornecimento de Lajes Treliçadas TR8 com cerâmica H8\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "REVESTIMENTOS ARGAMASSADOS",
+      "ACABAMENTOS INTERNOS",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "CONTROLE TECNOLÓGICO",
+      "MARTINS|FRANCEZ ENGENHARIA",
+      "CONCRETO"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Ensaios",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Ensaios",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      },
+      {
+        "tema": "Ger_Tec e Adm",
+        "texto": "Estimado como 11% da mão de obra da obra com indice de redução de 0,7"
+      },
+      {
+        "tema": "Ger_Tec e Adm",
+        "texto": "Confrome cálculo da aba \"Canteiro\""
+      },
+      {
+        "tema": "Ger_Tec e Adm",
+        "texto": "Estimado uma caçamba ao mês por 10 meses"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=4cm"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Forma para infraestrutura em Tábuas de Madeira Serrada 4x reaproveitamento"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Quantidade de levantameto da Cartesian"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimado com base em índices históricos"
+      },
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimado como 11% da mão de obra da obra com indice de redução de 0,7"
+      },
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimado uma caçamba ao mês por 10 meses"
+      },
+      {
+        "tipo": "Dependência de Projeto",
+        "descricao": "Quantidade disponibilizada pelo projetista de sapatas e levantameto da Cartesian de vigas e pilares"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimado com base em índices históricos",
+      "Estimado como 11% da mão de obra da obra com indice de redução de 0,7",
+      "Estimado uma caçamba ao mês por 10 meses",
+      "Quantidade disponibilizada pelo projetista de sapatas e levantameto da Cartesian de vigas e pilares"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Fundação",
+        "decisao": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "contexto": "Fundação",
+        "decisao": "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira"
+      },
+      {
+        "contexto": "Fundação",
+        "decisao": "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=4cm"
+      },
+      {
+        "contexto": "Estrutura",
+        "decisao": "Fornecimento de Lajes Treliçadas TR8 com cerâmica H8"
+      }
+    ]
+  }
+}

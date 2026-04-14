@@ -1,0 +1,114 @@
+{
+  "projeto": "etr-zion-meridian-tower",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:37:50",
+  "duration_s": 102.5,
+  "compact_chars": 4149,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"PROJETOS\",\n    \"ALVENARIA DE VEDAÇÃO\",\n    \"IMPERMEABILIZAÇÃO E TRATAMENTOS\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"FUNDAÇÕES\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Perda de material\",\n      \"texto\": \"Concreto Usinado bombeável 40MPa - incluindo serviço de bombeamento - (30% perda na composição )\"\n    },\n    {\n      \"tema\": \"Cálculo de escavação\",\n      \"texto\": \"Considerado empolamento 30% da escavação\"\n    },\n    {\n      \"tema\": \"Cálculo de perda de material\",\n      \"texto\": \"Quantidade de aba, advindo do projeto com retirada de perda\"\n    },\n    {\n      \"tema\": \"Levantamento de dados\",\n      \"texto\": \"Para o baldrame foi considerado levantamento em dwg, devido a grande divergencia com o projetista\"\n    },\n    {\n      \"tema\": \"Materiais específicos\",\n      \"texto\": \"BLOCO ANTI-CHAMAS, 12,5 cm\"\n    },\n    {\n      \"tema\": \"Materiais específicos\",\n      \"texto\": \"Alvenaria de vedação com bocos acf\"\n    },\n    {\n      \"tema\": \"Escopo de serviço\",\n      \"texto\": \"Mobilização e desmobilização de equipamentos - Para execução de estaca hélice\"\n    },\n    {\n      \"tema\": \"Referência de preço\",\n      \"texto\": \"Valor estimado conforme obras de referência com características similares\"\n    },\n    {\n      \"tema\": \"Projeto de fundação\",\n      \"texto\": \"Projeto estrutural de concreto armado\"\n    },\n    {\n      \"tema\": \"Escopo de fundação\",\n      \"texto\": \"Considerado blocos, vigas de fundação\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Risco de escopo\",\n      \"descricao\": \"Desconsiderado por ausência de projetos.\"\n    },\n    {\n      \"tipo\": \"Risco legal/burocrático\",\n      \"descricao\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    },\n    {\n      \"tipo\": \"Risco de divergência\",\n      \"descricao\": \"Para o baldrame foi considerado levantamento em dwg, devido a grande divergencia com o projetista\"\n    },\n    {\n      \"tipo\": \"Reserva de contingência\",\n      \"descricao\": \"IMPREVISTOS E CONTINGENCIAS\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Valor estimado conforme obras de referência com características similares.\",\n    \"Considerado blocos, vigas de fundação\",\n    \"Considerado escavação de blocos, vigas de fundação e vão poço do elevador\",\n    \"Considerado empolamento 30% da escavação\",\n    \"Quantidade de aba, advindo do projeto com retirada de perda\",\n    \"Para o baldrame foi considerado levantamento em dwg, devido a grande divergencia com o projetista\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Legalização e documentação\",\n      \"decisao\": \"Legalização de incorporação\"\n    },\n    {\n      \"contexto\": \"Prevenção e segurança\",\n      \"decisao\": \"Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e gás\"\n    },\n    {\n      \"contexto\": \"Climatização\",\n      \"decisao\": \"Projeto de climatização/exaustão\"\n    },\n    {\n      \"contexto\": \"Impermeabilização\",\n      \"decisao\": \"Projeto de impermeabilização\"\n    },\n    {\n      \"contexto\": \"Controle de qualidade\",\n      \"decisao\": \"Controle Tecnologico de Concreto\"\n    },\n    {\n      \"contexto\": \"Testes de obra\",\n      \"decisao\": \"Ensaio de arrancamento de reboco\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "PROJETOS",
+      "ALVENARIA DE VEDAÇÃO",
+      "IMPERMEABILIZAÇÃO E TRATAMENTOS",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "FUNDAÇÕES"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Perda de material",
+        "texto": "Concreto Usinado bombeável 40MPa - incluindo serviço de bombeamento - (30% perda na composição )"
+      },
+      {
+        "tema": "Cálculo de escavação",
+        "texto": "Considerado empolamento 30% da escavação"
+      },
+      {
+        "tema": "Cálculo de perda de material",
+        "texto": "Quantidade de aba, advindo do projeto com retirada de perda"
+      },
+      {
+        "tema": "Levantamento de dados",
+        "texto": "Para o baldrame foi considerado levantamento em dwg, devido a grande divergencia com o projetista"
+      },
+      {
+        "tema": "Materiais específicos",
+        "texto": "BLOCO ANTI-CHAMAS, 12,5 cm"
+      },
+      {
+        "tema": "Materiais específicos",
+        "texto": "Alvenaria de vedação com bocos acf"
+      },
+      {
+        "tema": "Escopo de serviço",
+        "texto": "Mobilização e desmobilização de equipamentos - Para execução de estaca hélice"
+      },
+      {
+        "tema": "Referência de preço",
+        "texto": "Valor estimado conforme obras de referência com características similares"
+      },
+      {
+        "tema": "Projeto de fundação",
+        "texto": "Projeto estrutural de concreto armado"
+      },
+      {
+        "tema": "Escopo de fundação",
+        "texto": "Considerado blocos, vigas de fundação"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Risco de escopo",
+        "descricao": "Desconsiderado por ausência de projetos."
+      },
+      {
+        "tipo": "Risco legal/burocrático",
+        "descricao": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      },
+      {
+        "tipo": "Risco de divergência",
+        "descricao": "Para o baldrame foi considerado levantamento em dwg, devido a grande divergencia com o projetista"
+      },
+      {
+        "tipo": "Reserva de contingência",
+        "descricao": "IMPREVISTOS E CONTINGENCIAS"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Valor estimado conforme obras de referência com características similares.",
+      "Considerado blocos, vigas de fundação",
+      "Considerado escavação de blocos, vigas de fundação e vão poço do elevador",
+      "Considerado empolamento 30% da escavação",
+      "Quantidade de aba, advindo do projeto com retirada de perda",
+      "Para o baldrame foi considerado levantamento em dwg, devido a grande divergencia com o projetista"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Legalização e documentação",
+        "decisao": "Legalização de incorporação"
+      },
+      {
+        "contexto": "Prevenção e segurança",
+        "decisao": "Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e gás"
+      },
+      {
+        "contexto": "Climatização",
+        "decisao": "Projeto de climatização/exaustão"
+      },
+      {
+        "contexto": "Impermeabilização",
+        "decisao": "Projeto de impermeabilização"
+      },
+      {
+        "contexto": "Controle de qualidade",
+        "decisao": "Controle Tecnologico de Concreto"
+      },
+      {
+        "contexto": "Testes de obra",
+        "decisao": "Ensaio de arrancamento de reboco"
+      }
+    ]
+  }
+}

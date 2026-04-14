@@ -1,0 +1,58 @@
+{
+  "projeto": "ck-duo-praia-brava",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:15:53",
+  "duration_s": 94.8,
+  "compact_chars": 1408,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Equipamento de Proteção Individual\",\n    \"Equipamento de Proteção Coletiva\",\n    \"Elaboração do Programa de Prevenção dos Riscos Ambientais (PPRA)\",\n    \"Elaboração do Programa de Controle Médico de Saúde Ocupacional (PCMSO)\",\n    \"Elaboração do Programa de Condições e meio Ambiente de Trabalho na Indústria de Construção (PCMAT)\",\n    \"Assistência e Orientação Técnica Segurança do Trabalho\",\n    \"Instalações Provisórias\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Instalações Hidrossanitárias\",\n      \"texto\": \"Atualização Instalações Hidrossanitárias\"\n    },\n    {\n      \"tema\": \"Segurança do Trabalho\",\n      \"texto\": \"Elaboração do Programa de Condições e meio Ambiente de Trabalho na Indústria de Construção (PCMAT) - Contrato SPS - CT/611\"\n    },\n    {\n      \"tema\": \"Segurança do Trabalho\",\n      \"texto\": \"Assistência e Orientação Técnica Segurança do Trabalho* - Contrato SPS - CT/642\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Operação e Manutenção do Canteiro\",\n    \"Instalações Provisórias: barracões, baias e afins*\",\n    \"Taxas, Impostos, Aprovações e Seguros\",\n    \"Despesas de Seguros - Contrato Liberty - CT/551\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Infraestrutura e Canteiro\",\n      \"decisao\": \"Instalações Provisórias: Redes de água fria, esgoto e drenagem*\"\n    },\n    {\n      \"contexto\": \"Infraestrutura e Canteiro\",\n      \"decisao\": \"Instalações provisórias de redes elétricas, comunicação e dados*\"\n    },\n    {\n      \"contexto\": \"Segurança e Conformidade\",\n      \"decisao\": \"Elaboração do Programa de Prevenção dos Riscos Ambientais (PPRA)\"\n    },\n    {\n      \"contexto\": \"Segurança e Conformidade\",\n      \"decisao\": \"Elaboração do Laudo Técnico das Condições do Ambiente de Trabalho (LTCAT)\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Equipamento de Proteção Individual",
+      "Equipamento de Proteção Coletiva",
+      "Elaboração do Programa de Prevenção dos Riscos Ambientais (PPRA)",
+      "Elaboração do Programa de Controle Médico de Saúde Ocupacional (PCMSO)",
+      "Elaboração do Programa de Condições e meio Ambiente de Trabalho na Indústria de Construção (PCMAT)",
+      "Assistência e Orientação Técnica Segurança do Trabalho",
+      "Instalações Provisórias"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Instalações Hidrossanitárias",
+        "texto": "Atualização Instalações Hidrossanitárias"
+      },
+      {
+        "tema": "Segurança do Trabalho",
+        "texto": "Elaboração do Programa de Condições e meio Ambiente de Trabalho na Indústria de Construção (PCMAT) - Contrato SPS - CT/611"
+      },
+      {
+        "tema": "Segurança do Trabalho",
+        "texto": "Assistência e Orientação Técnica Segurança do Trabalho* - Contrato SPS - CT/642"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Operação e Manutenção do Canteiro",
+      "Instalações Provisórias: barracões, baias e afins*",
+      "Taxas, Impostos, Aprovações e Seguros",
+      "Despesas de Seguros - Contrato Liberty - CT/551"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Infraestrutura e Canteiro",
+        "decisao": "Instalações Provisórias: Redes de água fria, esgoto e drenagem*"
+      },
+      {
+        "contexto": "Infraestrutura e Canteiro",
+        "decisao": "Instalações provisórias de redes elétricas, comunicação e dados*"
+      },
+      {
+        "contexto": "Segurança e Conformidade",
+        "decisao": "Elaboração do Programa de Prevenção dos Riscos Ambientais (PPRA)"
+      },
+      {
+        "contexto": "Segurança e Conformidade",
+        "decisao": "Elaboração do Laudo Técnico das Condições do Ambiente de Trabalho (LTCAT)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "projeto": "mz-central-park",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:31:46",
+  "duration_s": 69.4,
+  "compact_chars": 1129,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"ESTUDOS, PROJETOS E CONSULTORIAS\",\n    \"Projeto elétrico / telecomunicações\",\n    \"Projeto hidrossanitário/pluvial\",\n    \"Projeto preventivo - PPCI\",\n    \"Projeto arquitetônico - ambientação\",\n    \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\",\n    \"SEGURANÇA, MEIO AMBIENTE E SAÚDE\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle tecnológico de concreto\",\n      \"texto\": \"Controle tecnológico de concreto\"\n    },\n    {\n      \"tema\": \"Proteção de vãos\",\n      \"texto\": \"Bandeja de proteção primária\"\n    },\n    {\n      \"tema\": \"Proteção de vãos\",\n      \"texto\": \"Bandeja de proteção secundária\"\n    },\n    {\n      \"tema\": \"Guarda-corpo de vãos\",\n      \"texto\": \"Guarda-corpo de vãos, fixado em forma de madeira, em trama de madeira com tela de polipropileno\"\n    },\n    {\n      \"tema\": \"Guarda-corpo de laje (embasamento)\",\n      \"texto\": \"Guarda - corpo de laje após desforma - embasamento\"\n    },\n    {\n      \"tema\": \"Guarda-corpo de laje (torre)\",\n      \"texto\": \"Guarda - corpo de laje após desforma - torre\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Total da unidade construtiva\",\n    \"GERENCIAMENTO ADMINISTRATIVO\",\n    \"Consultoria de orçamento e planejamento\",\n    \"Despesas cartório, jurídicas e incorporação\",\n    \"Manuais técnicos - condomínio/proprietários\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo de serviços\",\n      \"decisao\": \"Projeto elétrico / telecomunicações\"\n    },\n    {\n      \"contexto\": \"Escopo de serviços\",\n      \"decisao\": \"Projeto hidrossanitário/pluvial\"\n    },\n    {\n      \"contexto\": \"Escopo de serviços\",\n      \"decisao\": \"Projeto preventivo - PPCI\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "ESTUDOS, PROJETOS E CONSULTORIAS",
+      "Projeto elétrico / telecomunicações",
+      "Projeto hidrossanitário/pluvial",
+      "Projeto preventivo - PPCI",
+      "Projeto arquitetônico - ambientação",
+      "Licenciamentos, Taxas, Impostos, Aprovações e Seguros",
+      "SEGURANÇA, MEIO AMBIENTE E SAÚDE"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle tecnológico de concreto",
+        "texto": "Controle tecnológico de concreto"
+      },
+      {
+        "tema": "Proteção de vãos",
+        "texto": "Bandeja de proteção primária"
+      },
+      {
+        "tema": "Proteção de vãos",
+        "texto": "Bandeja de proteção secundária"
+      },
+      {
+        "tema": "Guarda-corpo de vãos",
+        "texto": "Guarda-corpo de vãos, fixado em forma de madeira, em trama de madeira com tela de polipropileno"
+      },
+      {
+        "tema": "Guarda-corpo de laje (embasamento)",
+        "texto": "Guarda - corpo de laje após desforma - embasamento"
+      },
+      {
+        "tema": "Guarda-corpo de laje (torre)",
+        "texto": "Guarda - corpo de laje após desforma - torre"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Total da unidade construtiva",
+      "GERENCIAMENTO ADMINISTRATIVO",
+      "Consultoria de orçamento e planejamento",
+      "Despesas cartório, jurídicas e incorporação",
+      "Manuais técnicos - condomínio/proprietários"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo de serviços",
+        "decisao": "Projeto elétrico / telecomunicações"
+      },
+      {
+        "contexto": "Escopo de serviços",
+        "decisao": "Projeto hidrossanitário/pluvial"
+      },
+      {
+        "contexto": "Escopo de serviços",
+        "decisao": "Projeto preventivo - PPCI"
+      }
+    ]
+  }
+}

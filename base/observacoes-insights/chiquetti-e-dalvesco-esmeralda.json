@@ -1,0 +1,89 @@
+{
+  "projeto": "chiquetti-e-dalvesco-esmeralda",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:10:37",
+  "duration_s": 102.4,
+  "compact_chars": 4144,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto Arquitetônico\",\n    \"Projeto elétrico/comunicação/telefonia\",\n    \"Estudo\",\n    \"Bloco CONCRETO ESTRUTURAL\",\n    \"Valquiria\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Projeto\",\n      \"texto\": \"Estudo de Análise Técnica de Projeto\"\n    },\n    {\n      \"tema\": \"Projeto\",\n      \"texto\": \"Estudo Rebaixamento de Lençol Freático\"\n    },\n    {\n      \"tema\": \"Projeto\",\n      \"texto\": \"Projeto Arquitetônico Executivo\"\n    },\n    {\n      \"tema\": \"Fachada\",\n      \"texto\": \"Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Projeto de estrutura metálica\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Projeto de alvenaria estrutural\"\n    },\n    {\n      \"tema\": \"Instalações\",\n      \"texto\": \"Projeto elétrico/comunicação/telefonia/luminotécnico\"\n    },\n    {\n      \"tema\": \"Legal\",\n      \"texto\": \"Legalização de incorporação\"\n    },\n    {\n      \"tema\": \"Obra\",\n      \"texto\": \"a partir da emissão do alvará\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimativas Custos Indiretos\"\n    },\n    {\n      \"tipo\": \"Variável\",\n      \"descricao\": \"nº equipamentos x áreas\"\n    },\n    {\n      \"tipo\": \"Custo\",\n      \"descricao\": \"Custo da Aba Canteiro / pelo Prazo de Obra\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimativas Custos Indiretos\",\n    \"Projeto Arquitetônico Legal\",\n    \"NBR 6136\",\n    \"NBR 11700\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo de Projeto\",\n      \"decisao\": \"Projeto Arquitetônico Executivo\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"Legalização de incorporação\"\n    },\n    {\n      \"contexto\": \"Sistema de Fachada\",\n      \"decisao\": \"Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto Arquitetônico",
+      "Projeto elétrico/comunicação/telefonia",
+      "Estudo",
+      "Bloco CONCRETO ESTRUTURAL",
+      "Valquiria"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Projeto",
+        "texto": "Estudo de Análise Técnica de Projeto"
+      },
+      {
+        "tema": "Projeto",
+        "texto": "Estudo Rebaixamento de Lençol Freático"
+      },
+      {
+        "tema": "Projeto",
+        "texto": "Projeto Arquitetônico Executivo"
+      },
+      {
+        "tema": "Fachada",
+        "texto": "Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Projeto de estrutura metálica"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Projeto de alvenaria estrutural"
+      },
+      {
+        "tema": "Instalações",
+        "texto": "Projeto elétrico/comunicação/telefonia/luminotécnico"
+      },
+      {
+        "tema": "Legal",
+        "texto": "Legalização de incorporação"
+      },
+      {
+        "tema": "Obra",
+        "texto": "a partir da emissão do alvará"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimativas Custos Indiretos"
+      },
+      {
+        "tipo": "Variável",
+        "descricao": "nº equipamentos x áreas"
+      },
+      {
+        "tipo": "Custo",
+        "descricao": "Custo da Aba Canteiro / pelo Prazo de Obra"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimativas Custos Indiretos",
+      "Projeto Arquitetônico Legal",
+      "NBR 6136",
+      "NBR 11700"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo de Projeto",
+        "decisao": "Projeto Arquitetônico Executivo"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "Legalização de incorporação"
+      },
+      {
+        "contexto": "Sistema de Fachada",
+        "decisao": "Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes"
+      }
+    ]
+  }
+}

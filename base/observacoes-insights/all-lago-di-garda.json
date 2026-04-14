@@ -1,0 +1,98 @@
+{
+  "projeto": "all-lago-di-garda",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:36:26",
+  "duration_s": 85.4,
+  "compact_chars": 4141,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"IMPREVISTOS E CONTINGENCIAS\",\n    \"ACABAMENTOS INTERNOS EM PAREDE\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"SISTEMAS E INSTALAÇÕES ELÉTRICAS\",\n    \"ALVENARIA | VEDAÇÕES | DIVISÓRIAS\",\n    \"GERENCIAMENTO ADMINISTRATIVO\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Resumo\",\n      \"texto\": \"Inclusão de Bandeja secundária;\"\n    },\n    {\n      \"tema\": \"Resumo\",\n      \"texto\": \"Retirado o andaime tubular;\"\n    },\n    {\n      \"tema\": \"Resumo\",\n      \"texto\": \"Aumento do custo da Mini Grua para integral\"\n    },\n    {\n      \"tema\": \"Resumo\",\n      \"texto\": \"Reirado o custo do M\"\n    },\n    {\n      \"tema\": \"Resumo\",\n      \"texto\": \"Alteração do custo do Elevador para 800mil para dois equipamentos\"\n    },\n    {\n      \"tema\": \"Resumo\",\n      \"texto\": \"Alteração das esquadrias de Alumínio para 32mm\"\n    },\n    {\n      \"tema\": \"EAP_SINTETICO\",\n      \"texto\": \"Quantidade de vezes que o insumo e o serviço aparecem no orçamento\"\n    },\n    {\n      \"tema\": \"EAP_SINTETICO\",\n      \"texto\": \"Inserir quantidade somente no serviço \\\"célula em branco\\\"\"\n    },\n    {\n      \"tema\": \"EAP_ANALITICO\",\n      \"texto\": \"Quantidade de vezes que o insumo e o serviço aparecem no orçamento\"\n    },\n    {\n      \"tema\": \"EAP_ANALITICO\",\n      \"texto\": \"Inserir quantidade somente no serviço \\\"célula em branco\\\"\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Aviso de Edição\",\n      \"descricao\": \"Sua versão do Excel permite que você leia este comentário encadeado, no entanto, as edições serão removidas se o arquivo for aberto em uma versão mais recente do Excel. Saiba m\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Total Empreendimento\",\n    \"Área Equivalente Torre - Média\",\n    \"Área Equivalente Residencial - Média\",\n    \"Área Equivalente Comerciall - Média\",\n    \"Média\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"ORÇAMENTO EXECUTIVO - LAGO DI GARDA\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Resumo\",\n      \"decisao\": \"Retirada da Arquiteto, Assitente, mestre de obras e guincheiro.\"\n    },\n    {\n      \"contexto\": \"Resumo\",\n      \"decisao\": \"Alteração do custo do Elevador para 800mil para dois equipamentos\"\n    },\n    {\n      \"contexto\": \"Resumo\",\n      \"decisao\": \"Alteração das esquadrias de Alumínio para 32mm\"\n    },\n    {\n      \"contexto\": \"EAP_SINTETICO\",\n      \"decisao\": \"Projeto de Prevenção Combate a Incêndio\"\n    },\n    {\n      \"contexto\": \"EAP_SINTETICO\",\n      \"decisao\": \"Taxa de Aprovação Ambiental\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "IMPREVISTOS E CONTINGENCIAS",
+      "ACABAMENTOS INTERNOS EM PAREDE",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "SISTEMAS E INSTALAÇÕES ELÉTRICAS",
+      "ALVENARIA | VEDAÇÕES | DIVISÓRIAS",
+      "GERENCIAMENTO ADMINISTRATIVO"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Resumo",
+        "texto": "Inclusão de Bandeja secundária;"
+      },
+      {
+        "tema": "Resumo",
+        "texto": "Retirado o andaime tubular;"
+      },
+      {
+        "tema": "Resumo",
+        "texto": "Aumento do custo da Mini Grua para integral"
+      },
+      {
+        "tema": "Resumo",
+        "texto": "Reirado o custo do M"
+      },
+      {
+        "tema": "Resumo",
+        "texto": "Alteração do custo do Elevador para 800mil para dois equipamentos"
+      },
+      {
+        "tema": "Resumo",
+        "texto": "Alteração das esquadrias de Alumínio para 32mm"
+      },
+      {
+        "tema": "EAP_SINTETICO",
+        "texto": "Quantidade de vezes que o insumo e o serviço aparecem no orçamento"
+      },
+      {
+        "tema": "EAP_SINTETICO",
+        "texto": "Inserir quantidade somente no serviço \"célula em branco\""
+      },
+      {
+        "tema": "EAP_ANALITICO",
+        "texto": "Quantidade de vezes que o insumo e o serviço aparecem no orçamento"
+      },
+      {
+        "tema": "EAP_ANALITICO",
+        "texto": "Inserir quantidade somente no serviço \"célula em branco\""
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Aviso de Edição",
+        "descricao": "Sua versão do Excel permite que você leia este comentário encadeado, no entanto, as edições serão removidas se o arquivo for aberto em uma versão mais recente do Excel. Saiba m"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Total Empreendimento",
+      "Área Equivalente Torre - Média",
+      "Área Equivalente Residencial - Média",
+      "Área Equivalente Comerciall - Média",
+      "Média",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "ORÇAMENTO EXECUTIVO - LAGO DI GARDA"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Resumo",
+        "decisao": "Retirada da Arquiteto, Assitente, mestre de obras e guincheiro."
+      },
+      {
+        "contexto": "Resumo",
+        "decisao": "Alteração do custo do Elevador para 800mil para dois equipamentos"
+      },
+      {
+        "contexto": "Resumo",
+        "decisao": "Alteração das esquadrias de Alumínio para 32mm"
+      },
+      {
+        "contexto": "EAP_SINTETICO",
+        "decisao": "Projeto de Prevenção Combate a Incêndio"
+      },
+      {
+        "contexto": "EAP_SINTETICO",
+        "decisao": "Taxa de Aprovação Ambiental"
+      }
+    ]
+  }
+}

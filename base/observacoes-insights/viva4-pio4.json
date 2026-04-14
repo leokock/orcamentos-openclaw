@@ -1,0 +1,79 @@
+{
+  "projeto": "viva4-pio4",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:14:38",
+  "duration_s": 82.0,
+  "compact_chars": 4134,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Perímetro de projeção\",\n    \"Armazenamento de cerâmicas*\",\n    \"Armazenamento de placas degesso*\",\n    \"Armazenamento de contramarcos*\",\n    \"Acabamentos internos em parede\",\n    \"Acabamentos em pisos e pavimentações\",\n    \"Projeto Arquitetônico Executivo\",\n    \"Instalações Elétricas, Hidráulicas, GLP E Preventivas\",\n    \"Escavação e Reaterro de Valas\",\n    \"Projeto de Impremeabilização\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Cálculo de Empolamento\",\n      \"texto\": \"Considerando 30% de empolamento\"\n    },\n    {\n      \"tema\": \"Bomba de Fundação\",\n      \"texto\": \"Considerada uma bomba para cada 250m² de laje baldrame, e duração de 4 meses\"\n    },\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"tema\": \"Sinalização\",\n      \"texto\": \"Sinalização com fita fixada na estrutura amarrada\"\n    },\n    {\n      \"tema\": \"Armazenamento Central\",\n      \"texto\": \"* Central de armazenamento entre pavimentos\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Escopo Incompleto\",\n      \"descricao\": \"Repetições de pavimentos**\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"CONSUMOS, TAXAS E DOCUMENTOS\",\n    \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\",\n    \"Movimentação de terra para bota-fora\",\n    \"Escavação e Reaterro de Valas\",\n    \"Projeto elétrico/comunicação/telefonia\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Gestão Geral\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    },\n    {\n      \"contexto\": \"Segurança e Normas\",\n      \"decisao\": \"Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e Gás\"\n    },\n    {\n      \"contexto\": \"Modelagem e Projetos\",\n      \"decisao\": \"Modelagem BIM arquitetônica\"\n    },\n    {\n      \"contexto\": \"Coordenação de Projetos\",\n      \"decisao\": \"Compatibilização de Projetos BIM\"\n    },\n    {\n      \"contexto\": \"Sistemas Especiais\",\n      \"decisao\": \"CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Perímetro de projeção",
+      "Armazenamento de cerâmicas*",
+      "Armazenamento de placas degesso*",
+      "Armazenamento de contramarcos*",
+      "Acabamentos internos em parede",
+      "Acabamentos em pisos e pavimentações",
+      "Projeto Arquitetônico Executivo",
+      "Instalações Elétricas, Hidráulicas, GLP E Preventivas",
+      "Escavação e Reaterro de Valas",
+      "Projeto de Impremeabilização"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Cálculo de Empolamento",
+        "texto": "Considerando 30% de empolamento"
+      },
+      {
+        "tema": "Bomba de Fundação",
+        "texto": "Considerada uma bomba para cada 250m² de laje baldrame, e duração de 4 meses"
+      },
+      {
+        "tema": "Escavação",
+        "texto": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "tema": "Sinalização",
+        "texto": "Sinalização com fita fixada na estrutura amarrada"
+      },
+      {
+        "tema": "Armazenamento Central",
+        "texto": "* Central de armazenamento entre pavimentos"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Escopo Incompleto",
+        "descricao": "Repetições de pavimentos**"
+      }
+    ],
+    "padroes_orcamentista": [
+      "CONSUMOS, TAXAS E DOCUMENTOS",
+      "Licenciamentos, Taxas, Impostos, Aprovações e Seguros",
+      "Movimentação de terra para bota-fora",
+      "Escavação e Reaterro de Valas",
+      "Projeto elétrico/comunicação/telefonia"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Gestão Geral",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "contexto": "Segurança e Normas",
+        "decisao": "Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e Gás"
+      },
+      {
+        "contexto": "Modelagem e Projetos",
+        "decisao": "Modelagem BIM arquitetônica"
+      },
+      {
+        "contexto": "Coordenação de Projetos",
+        "decisao": "Compatibilização de Projetos BIM"
+      },
+      {
+        "contexto": "Sistemas Especiais",
+        "decisao": "CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO"
+      }
+    ]
+  }
+}

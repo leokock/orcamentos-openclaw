@@ -1,0 +1,84 @@
+{
+  "projeto": "nova-empreendimentos-domus",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:37:58",
+  "duration_s": 68.5,
+  "compact_chars": 4153,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]\",\n    \"INSTALAÇÕES ELÉTRICAS, TELEFÔNICAS E SPDA\",\n    \"INSTALAÇÕES HIDROSSANITÁRIAS\",\n    \"REVESTIMENTOS DE ARGAMASSA\",\n    \"IMPERMEABILIZAÇÕES E TRATAMENTOS\",\n    \"ÁREAS COMUNS E PAISAGISMO\",\n    \"SERVIÇOS COMPLEMENTARES E FINAIS\",\n    \"CONTENÇÃO (CORTINA DE CONCRETO)\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Legalização e Documentação\",\n      \"texto\": \"Projeto Arquitetônico Legal\"\n    },\n    {\n      \"tema\": \"Estrutura e Fundações\",\n      \"texto\": \"Projeto Fundações e Contenções\"\n    },\n    {\n      \"tema\": \"Instalações Elétricas\",\n      \"texto\": \"Projeto Elétrico e Laudo de Aterramento das Instalações Elétricas do Canteiro de Obras\"\n    },\n    {\n      \"tema\": \"Instalações Hidrossanitárias\",\n      \"texto\": \"Projeto Hidrossanitário, Preventivo e SPDA\"\n    },\n    {\n      \"tema\": \"Impermeabilização\",\n      \"texto\": \"Projeto de Impermeabilização\"\n    },\n    {\n      \"tema\": \"Normas de Desempenho\",\n      \"texto\": \"NORMAS DE DESEMPENHO E ACÚSTICA\"\n    },\n    {\n      \"tema\": \"Revestimentos\",\n      \"texto\": \"Norma de desempenho de argamassa\"\n    },\n    {\n      \"tema\": \"Segurança\",\n      \"texto\": \"Projeto Ancoragem Definitiva\"\n    },\n    {\n      \"tema\": \"Viabilidade\",\n      \"texto\": \"Tabela de viabilidade financeira\"\n    },\n    {\n      \"tema\": \"Serviços de Obra\",\n      \"texto\": \"LEVANTAMENTOS TOPOGRÁFICOS\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]\",\n    \"DESPESAS ADMINISTRATIVAS - OBRA\",\n    \"DESPESAS ADMINISTRATIVAS INDIRETAS\",\n    \"Manutenção provisória do canteiro\",\n    \"Consumo de cópias\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Aquisição do Terreno\",\n      \"decisao\": \"Custo total do terreno R$2.563.000,00 mais permuta das unidades 401A, 402A, 403A, 404A, 405A, 602B, 603B e 5 vagas de carro\"\n    },\n    {\n      \"contexto\": \"Taxas e Documentação\",\n      \"decisao\": \"Outorga Onerosa e Taxas Referentes ao Terreno\"\n    },\n    {\n      \"contexto\": \"Planejamento Financeiro\",\n      \"decisao\": \"Tabela de viabilidade financeira\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]",
+      "INSTALAÇÕES ELÉTRICAS, TELEFÔNICAS E SPDA",
+      "INSTALAÇÕES HIDROSSANITÁRIAS",
+      "REVESTIMENTOS DE ARGAMASSA",
+      "IMPERMEABILIZAÇÕES E TRATAMENTOS",
+      "ÁREAS COMUNS E PAISAGISMO",
+      "SERVIÇOS COMPLEMENTARES E FINAIS",
+      "CONTENÇÃO (CORTINA DE CONCRETO)"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Legalização e Documentação",
+        "texto": "Projeto Arquitetônico Legal"
+      },
+      {
+        "tema": "Estrutura e Fundações",
+        "texto": "Projeto Fundações e Contenções"
+      },
+      {
+        "tema": "Instalações Elétricas",
+        "texto": "Projeto Elétrico e Laudo de Aterramento das Instalações Elétricas do Canteiro de Obras"
+      },
+      {
+        "tema": "Instalações Hidrossanitárias",
+        "texto": "Projeto Hidrossanitário, Preventivo e SPDA"
+      },
+      {
+        "tema": "Impermeabilização",
+        "texto": "Projeto de Impermeabilização"
+      },
+      {
+        "tema": "Normas de Desempenho",
+        "texto": "NORMAS DE DESEMPENHO E ACÚSTICA"
+      },
+      {
+        "tema": "Revestimentos",
+        "texto": "Norma de desempenho de argamassa"
+      },
+      {
+        "tema": "Segurança",
+        "texto": "Projeto Ancoragem Definitiva"
+      },
+      {
+        "tema": "Viabilidade",
+        "texto": "Tabela de viabilidade financeira"
+      },
+      {
+        "tema": "Serviços de Obra",
+        "texto": "LEVANTAMENTOS TOPOGRÁFICOS"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "CANTEIRO DE OBRAS [DESPESAS ADMINISTRATIVAS - OBRA]",
+      "DESPESAS ADMINISTRATIVAS - OBRA",
+      "DESPESAS ADMINISTRATIVAS INDIRETAS",
+      "Manutenção provisória do canteiro",
+      "Consumo de cópias"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Aquisição do Terreno",
+        "decisao": "Custo total do terreno R$2.563.000,00 mais permuta das unidades 401A, 402A, 403A, 404A, 405A, 602B, 603B e 5 vagas de carro"
+      },
+      {
+        "contexto": "Taxas e Documentação",
+        "decisao": "Outorga Onerosa e Taxas Referentes ao Terreno"
+      },
+      {
+        "contexto": "Planejamento Financeiro",
+        "decisao": "Tabela de viabilidade financeira"
+      }
+    ]
+  }
+}

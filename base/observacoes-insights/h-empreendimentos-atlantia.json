@@ -1,0 +1,63 @@
+{
+  "projeto": "h-empreendimentos-atlantia",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:59:05",
+  "duration_s": 70.7,
+  "compact_chars": 2972,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n    \"IMPREVISTOS E CONTINGENCIAS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Instalações\",\n      \"texto\": \"Retirado o custo de instalações de louças e metais pois já estava englobado no valor anterior\"\n    },\n    {\n      \"tema\": \"Custos\",\n      \"texto\": \"Retirado do custo do empreiteiro e inserido valor de mercado\"\n    },\n    {\n      \"tema\": \"Rateio\",\n      \"texto\": \"Mudança do Rateio do custo o empreiteiro\"\n    },\n    {\n      \"tema\": \"Regularização\",\n      \"texto\": \"Aumento deviso ao reteio do custo do empreiteiro para regularização e proteção mecanica\"\n    },\n    {\n      \"tema\": \"Ajuste\",\n      \"texto\": \"Proporcional as alterações\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Ajuste do valor referente a demolição, limpeza de terreno\",\n    \"Mudança do Rateio do custo o empreiteiro\",\n    \"Retirado os custos com churrasqueiras pois, elas não serão pre-moldadas\",\n    \"Retirado do custo do empreiteiro e inserido valor de mercado\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Churrasqueiras\",\n      \"decisao\": \"Retirado os custos com churrasqueiras pois, elas não serão pre-moldadas\"\n    },\n    {\n      \"contexto\": \"Custos de empreiteiro\",\n      \"decisao\": \"Retirado do custo do empreiteiro e inserido valor de mercado\"\n    },\n    {\n      \"contexto\": \"Rateio de custos\",\n      \"decisao\": \"Mudança do Rateio do custo o empreiteiro\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+      "IMPREVISTOS E CONTINGENCIAS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Instalações",
+        "texto": "Retirado o custo de instalações de louças e metais pois já estava englobado no valor anterior"
+      },
+      {
+        "tema": "Custos",
+        "texto": "Retirado do custo do empreiteiro e inserido valor de mercado"
+      },
+      {
+        "tema": "Rateio",
+        "texto": "Mudança do Rateio do custo o empreiteiro"
+      },
+      {
+        "tema": "Regularização",
+        "texto": "Aumento deviso ao reteio do custo do empreiteiro para regularização e proteção mecanica"
+      },
+      {
+        "tema": "Ajuste",
+        "texto": "Proporcional as alterações"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Ajuste do valor referente a demolição, limpeza de terreno",
+      "Mudança do Rateio do custo o empreiteiro",
+      "Retirado os custos com churrasqueiras pois, elas não serão pre-moldadas",
+      "Retirado do custo do empreiteiro e inserido valor de mercado"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Churrasqueiras",
+        "decisao": "Retirado os custos com churrasqueiras pois, elas não serão pre-moldadas"
+      },
+      {
+        "contexto": "Custos de empreiteiro",
+        "decisao": "Retirado do custo do empreiteiro e inserido valor de mercado"
+      },
+      {
+        "contexto": "Rateio de custos",
+        "decisao": "Mudança do Rateio do custo o empreiteiro"
+      }
+    ]
+  }
+}

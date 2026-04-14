@@ -1,0 +1,83 @@
+{
+  "projeto": "gmf-moradas-do-atalaia",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:52:17",
+  "duration_s": 76.7,
+  "compact_chars": 4138,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO EXECUTIVO\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"SISTEMAS E INSTALAÇÕES ELÉTRICAS\",\n    \"IMPREVISTOS E CONTINGÊNCIAS\",\n    \"cortina de contenção\",\n    \"Escavação Mecânica de Solo Exceto Rocha até 4m\",\n    \"REVESTIMENTOS E ACABAMENTOS EM FACHADA\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Escavação Mecânica de blocos, baldrames, sapatas e cortinas\"\n    },\n    {\n      \"tema\": \"Cortina de Contenção\",\n      \"texto\": \"Armação aço CA-50 ø 8mm para cortina de contenção em concreto armado (corte e dobra em indústria)\"\n    },\n    {\n      \"tema\": \"Cortina de Contenção\",\n      \"texto\": \"Armação aço CA-50 ø 12,5mm para cortina de contenção em concreto armado (corte e dobra em indústria)\"\n    },\n    {\n      \"tema\": \"Cortina de Contenção\",\n      \"texto\": \"Armação aço CA-50 ø 20mm de cortina de contenção em concreto armado (corte e dobra em indústria)\"\n    },\n    {\n      \"tema\": \"Concretagem\",\n      \"texto\": \"Concretagem de cortina de contenção, através de bomba - lançamento, adensamento e acabamento, concreto Fck 35MPa\"\n    },\n    {\n      \"tema\": \"Pisos\",\n      \"texto\": \"PISOS - AREAS TECNICAS E LAJES APENAS COM CONTRAPISO, SEM REVESTIMENTO\"\n    },\n    {\n      \"tema\": \"Orçamento\",\n      \"texto\": \"Considerado 310,00/m² no paramétrico\"\n    },\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Escavação e Reaterro de Valas\"\n    },\n    {\n      \"tema\": \"Revestimentos\",\n      \"texto\": \"REVESTIMENTOS INTERNOS DE PAREDE\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Reaterro Compactado de blocos, baldrames e sapatas\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Quantitativo\",\n      \"descricao\": \"DIFERENÇAS EM QUNATITATIVOS:\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"PARAMÉTRICO\",\n    \"Custo indexado do Central Park\",\n    \"Total da unidade construtiva\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Pisos em Áreas Técnicas e Lajes\",\n      \"decisao\": \"APENAS COM CONTRAPISO, SEM REVESTIMENTO\"\n    },\n    {\n      \"contexto\": \"Metodologia de Cálculo\",\n      \"decisao\": \"Solicitado pela Gi para inserir médias próximas...\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO EXECUTIVO",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "SISTEMAS E INSTALAÇÕES ELÉTRICAS",
+      "IMPREVISTOS E CONTINGÊNCIAS",
+      "cortina de contenção",
+      "Escavação Mecânica de Solo Exceto Rocha até 4m",
+      "REVESTIMENTOS E ACABAMENTOS EM FACHADA",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Escavação",
+        "texto": "Escavação Mecânica de blocos, baldrames, sapatas e cortinas"
+      },
+      {
+        "tema": "Cortina de Contenção",
+        "texto": "Armação aço CA-50 ø 8mm para cortina de contenção em concreto armado (corte e dobra em indústria)"
+      },
+      {
+        "tema": "Cortina de Contenção",
+        "texto": "Armação aço CA-50 ø 12,5mm para cortina de contenção em concreto armado (corte e dobra em indústria)"
+      },
+      {
+        "tema": "Cortina de Contenção",
+        "texto": "Armação aço CA-50 ø 20mm de cortina de contenção em concreto armado (corte e dobra em indústria)"
+      },
+      {
+        "tema": "Concretagem",
+        "texto": "Concretagem de cortina de contenção, através de bomba - lançamento, adensamento e acabamento, concreto Fck 35MPa"
+      },
+      {
+        "tema": "Pisos",
+        "texto": "PISOS - AREAS TECNICAS E LAJES APENAS COM CONTRAPISO, SEM REVESTIMENTO"
+      },
+      {
+        "tema": "Orçamento",
+        "texto": "Considerado 310,00/m² no paramétrico"
+      },
+      {
+        "tema": "Escavação",
+        "texto": "Escavação e Reaterro de Valas"
+      },
+      {
+        "tema": "Revestimentos",
+        "texto": "REVESTIMENTOS INTERNOS DE PAREDE"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Reaterro Compactado de blocos, baldrames e sapatas"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Quantitativo",
+        "descricao": "DIFERENÇAS EM QUNATITATIVOS:"
+      }
+    ],
+    "padroes_orcamentista": [
+      "PARAMÉTRICO",
+      "Custo indexado do Central Park",
+      "Total da unidade construtiva"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Pisos em Áreas Técnicas e Lajes",
+        "decisao": "APENAS COM CONTRAPISO, SEM REVESTIMENTO"
+      },
+      {
+        "contexto": "Metodologia de Cálculo",
+        "decisao": "Solicitado pela Gi para inserir médias próximas..."
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "projeto": "pass-e-passione",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:55:16",
+  "duration_s": 79.0,
+  "compact_chars": 4125,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Controle Tecnológico\",\n    \"Ensaios de Desempenho Acústico\",\n    \"Aderência em Revestimento Cerâmico\",\n    \"Bloco Concreto Estrutural\",\n    \"Resistência a impactos\",\n    \"Ensaio de ruído\",\n    \"Concreto Usinado\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Módulo de deformação\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"Ensaio de Desempenho Acustico para piso\\nEnsaio de ruído aéreo e ruído de impacto em Laje de dorm.\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"Ensaio de Desempenho Acustico para vedação externa\\nEnsaio de isolamento a ruído aéreo em Fachada de dorm.\"\n    },\n    {\n      \"tema\": \"Estanqueidade\",\n      \"texto\": \"Permeabilidade ao ar\\nEstanqueidade a agua\\nResistencias a cargas uniformes distribuidas\"\n    },\n    {\n      \"tema\": \"Guarda-corpo\",\n      \"texto\": \"Determinação do esforço horizontal, esforço vertical e Resistencia a impactos\"\n    },\n    {\n      \"tema\": \"Argamassa\",\n      \"texto\": \"Determinação da aderencia a tração\"\n    },\n    {\n      \"tema\": \"Revestimento Cerâmico\",\n      \"texto\": \"Determinação da aderência a tração (NBR 13754)\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Condicional\",\n      \"descricao\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    },\n    {\n      \"tipo\": \"Escopo Limitado\",\n      \"descricao\": \"1 ensaio por tipo de caixilho (dormitório, sala, área de serviço e banheiro e terraço, se houver)\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Coleta materiais da obra\",\n    \"SEM persiana integrada\",\n    \"COM persiana integrada\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Fachada\",\n      \"decisao\": \"Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes\"\n    },\n    {\n      \"contexto\": \"Manuseio\",\n      \"decisao\": \"Resistencia as operações de manuseio com manutenção\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Controle Tecnológico",
+      "Ensaios de Desempenho Acústico",
+      "Aderência em Revestimento Cerâmico",
+      "Bloco Concreto Estrutural",
+      "Resistência a impactos",
+      "Ensaio de ruído",
+      "Concreto Usinado"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Módulo de deformação",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Acústica",
+        "texto": "Ensaio de Desempenho Acustico para piso\nEnsaio de ruído aéreo e ruído de impacto em Laje de dorm."
+      },
+      {
+        "tema": "Acústica",
+        "texto": "Ensaio de Desempenho Acustico para vedação externa\nEnsaio de isolamento a ruído aéreo em Fachada de dorm."
+      },
+      {
+        "tema": "Estanqueidade",
+        "texto": "Permeabilidade ao ar\nEstanqueidade a agua\nResistencias a cargas uniformes distribuidas"
+      },
+      {
+        "tema": "Guarda-corpo",
+        "texto": "Determinação do esforço horizontal, esforço vertical e Resistencia a impactos"
+      },
+      {
+        "tema": "Argamassa",
+        "texto": "Determinação da aderencia a tração"
+      },
+      {
+        "tema": "Revestimento Cerâmico",
+        "texto": "Determinação da aderência a tração (NBR 13754)"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Condicional",
+        "descricao": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      },
+      {
+        "tipo": "Escopo Limitado",
+        "descricao": "1 ensaio por tipo de caixilho (dormitório, sala, área de serviço e banheiro e terraço, se houver)"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Coleta materiais da obra",
+      "SEM persiana integrada",
+      "COM persiana integrada"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Fachada",
+        "decisao": "Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes"
+      },
+      {
+        "contexto": "Manuseio",
+        "decisao": "Resistencia as operações de manuseio com manutenção"
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "projeto": "chiquetti-e-dalvesco-cielo",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:08:55",
+  "duration_s": 112.6,
+  "compact_chars": 4157,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"RESERVATÓRIO SUPERIOR DE AGUA POTAVEL\",\n    \"Perímetro de projeção\",\n    \"Projeto Arquitetônico\",\n    \"Acabamentos internos em parede\",\n    \"Revestimentos argamassados piso e parede\",\n    \"Instalações Elétricas, Hidráulicas, GLP E Preventivas\",\n    \"Projeto de segurança\",\n    \"Legalização, Taxas, Impostos, Aprovações e Seguros\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Cálculo de Custos\",\n      \"texto\": \"Estimado com base em índices históricos\"\n    },\n    {\n      \"tema\": \"Documentação\",\n      \"texto\": \"CONSUMOS, TAXAS E DOCUMENTOS\"\n    },\n    {\n      \"tema\": \"Legalização\",\n      \"texto\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    },\n    {\n      \"tema\": \"Aprovação\",\n      \"texto\": \"Aprovação e legalização prefeitura\"\n    },\n    {\n      \"tema\": \"Aprovação\",\n      \"texto\": \"Aprovação e legalização água e esgoto\"\n    },\n    {\n      \"tema\": \"Compatibilização\",\n      \"texto\": \"Compatibilização de Projetos BIM\"\n    },\n    {\n      \"tema\": \"Controle de Qualidade\",\n      \"texto\": \"Controle tecnológico do concreto\"\n    },\n    {\n      \"tema\": \"Escopo de Segurança\",\n      \"texto\": \"* Considerado as informações do Projeto de Segurança\"\n    },\n    {\n      \"tema\": \"Gerenciamento\",\n      \"texto\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    },\n    {\n      \"tema\": \"Projeto de Impremeabilização\",\n      \"texto\": \"Projeto de Impremeabilização\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Armazenamento\",\n      \"descricao\": \"Armazenamento de cerâmicas*\"\n    },\n    {\n      \"tipo\": \"Armazenamento\",\n      \"descricao\": \"Armazenamento de placas degesso*\"\n    },\n    {\n      \"tipo\": \"Armazenamento\",\n      \"descricao\": \"Armazenamento de contramarcos*\"\n    },\n    {\n      \"tipo\": \"Armazenamento\",\n      \"descricao\": \"Armazenamento de portas e rodapés*\"\n    },\n    {\n      \"tipo\": \"Armazenamento\",\n      \"descricao\": \"Armazenamento de esquadrias*\"\n    },\n    {\n      \"tipo\": \"Logística\",\n      \"descricao\": \"* Central de armazenamento entre pavimentos\"\n    },\n    {\n      \"tipo\": \"Escopo\",\n      \"descricao\": \"Perímetro de encontro com pavimentação\"\n    },\n    {\n      \"tipo\": \"Estrutural\",\n      \"descricao\": \"Guarda - corpo de desforma\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Mão de obra para apoio de canteiro e segurança\",\n    \"Produtividade média (h/m2)\",\n    \"Projeto Arquitetônico legal e executivo\",\n    \"Projeto Arquitetônico interiores + comunicação\",\n    \"Projeto elétrico/comunicação/telefonia\",\n    \"Projeto de automação + segurança + cftv\",\n    \"Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e Gás\",\n    \"Projeto de climatização/exaustão\",\n    \"Projeto de estrutura metálica\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Terraplanagem\",\n      \"decisao\": \"Terraplanagem - Corte e Desaterro Solo\"\n    },\n    {\n      \"contexto\": \"Terraplanagem\",\n      \"decisao\": \"Terraplanagem - Aterro material de 1º categoria\"\n    },\n    {\n      \"contexto\": \"Escavação\",\n      \"decisao\": \"Escavação e Reaterro de Valas\"\n    },\n    {\n      \"contexto\": \"Solo\",\n      \"decisao\": \"Considerado o volume de Terra so sub solo\"\n    },\n    {\n      \"contexto\": \"Projeto\",\n      \"decisao\": \"Compatibilização de Projetos BIM\"\n    },\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "RESERVATÓRIO SUPERIOR DE AGUA POTAVEL",
+      "Perímetro de projeção",
+      "Projeto Arquitetônico",
+      "Acabamentos internos em parede",
+      "Revestimentos argamassados piso e parede",
+      "Instalações Elétricas, Hidráulicas, GLP E Preventivas",
+      "Projeto de segurança",
+      "Legalização, Taxas, Impostos, Aprovações e Seguros"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Cálculo de Custos",
+        "texto": "Estimado com base em índices históricos"
+      },
+      {
+        "tema": "Documentação",
+        "texto": "CONSUMOS, TAXAS E DOCUMENTOS"
+      },
+      {
+        "tema": "Legalização",
+        "texto": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      },
+      {
+        "tema": "Aprovação",
+        "texto": "Aprovação e legalização prefeitura"
+      },
+      {
+        "tema": "Aprovação",
+        "texto": "Aprovação e legalização água e esgoto"
+      },
+      {
+        "tema": "Compatibilização",
+        "texto": "Compatibilização de Projetos BIM"
+      },
+      {
+        "tema": "Controle de Qualidade",
+        "texto": "Controle tecnológico do concreto"
+      },
+      {
+        "tema": "Escopo de Segurança",
+        "texto": "* Considerado as informações do Projeto de Segurança"
+      },
+      {
+        "tema": "Gerenciamento",
+        "texto": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "tema": "Projeto de Impremeabilização",
+        "texto": "Projeto de Impremeabilização"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Armazenamento",
+        "descricao": "Armazenamento de cerâmicas*"
+      },
+      {
+        "tipo": "Armazenamento",
+        "descricao": "Armazenamento de placas degesso*"
+      },
+      {
+        "tipo": "Armazenamento",
+        "descricao": "Armazenamento de contramarcos*"
+      },
+      {
+        "tipo": "Armazenamento",
+        "descricao": "Armazenamento de portas e rodapés*"
+      },
+      {
+        "tipo": "Armazenamento",
+        "descricao": "Armazenamento de esquadrias*"
+      },
+      {
+        "tipo": "Logística",
+        "descricao": "* Central de armazenamento entre pavimentos"
+      },
+      {
+        "tipo": "Escopo",
+        "descricao": "Perímetro de encontro com pavimentação"
+      },
+      {
+        "tipo": "Estrutural",
+        "descricao": "Guarda - corpo de desforma"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Mão de obra para apoio de canteiro e segurança",
+      "Produtividade média (h/m2)",
+      "Projeto Arquitetônico legal e executivo",
+      "Projeto Arquitetônico interiores + comunicação",
+      "Projeto elétrico/comunicação/telefonia",
+      "Projeto de automação + segurança + cftv",
+      "Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e Gás",
+      "Projeto de climatização/exaustão",
+      "Projeto de estrutura metálica",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Terraplanagem",
+        "decisao": "Terraplanagem - Corte e Desaterro Solo"
+      },
+      {
+        "contexto": "Terraplanagem",
+        "decisao": "Terraplanagem - Aterro material de 1º categoria"
+      },
+      {
+        "contexto": "Escavação",
+        "decisao": "Escavação e Reaterro de Valas"
+      },
+      {
+        "contexto": "Solo",
+        "decisao": "Considerado o volume de Terra so sub solo"
+      },
+      {
+        "contexto": "Projeto",
+        "decisao": "Compatibilização de Projetos BIM"
+      },
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      }
+    ]
+  }
+}

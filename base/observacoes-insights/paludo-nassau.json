@@ -1,0 +1,50 @@
+{
+  "projeto": "paludo-nassau",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:44:11",
+  "duration_s": 71.2,
+  "compact_chars": 1043,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Aprovação e legalização\",\n    \"Projeto arquitetônico\",\n    \"Legalização\",\n    \"Projeto elétrico\",\n    \"Projeto hidrossanitário\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Desempenho Estrutural\",\n      \"texto\": \"Ensaio/Laudo desempenho - NBR 15575 *\"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Controle tecnológico de concreto *\"\n    },\n    {\n      \"tema\": \"Elétrica\",\n      \"texto\": \"Projeto elétrico, fone, TV, SPDA *\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Custos Indiretos de Obra - UC 1\",\n    \"Orçamento e planejamento *\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"ESTUDOS | PROJETOS | CONSULTORIAS\"\n    },\n    {\n      \"contexto\": \"Nível de Detalhe\",\n      \"decisao\": \"Projeto arquitetônico executivo *\"\n    },\n    {\n      \"contexto\": \"Legalidade\",\n      \"decisao\": \"Legalização de incorporação *\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Aprovação e legalização",
+      "Projeto arquitetônico",
+      "Legalização",
+      "Projeto elétrico",
+      "Projeto hidrossanitário"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Desempenho Estrutural",
+        "texto": "Ensaio/Laudo desempenho - NBR 15575 *"
+      },
+      {
+        "tema": "Concreto",
+        "texto": "Controle tecnológico de concreto *"
+      },
+      {
+        "tema": "Elétrica",
+        "texto": "Projeto elétrico, fone, TV, SPDA *"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Custos Indiretos de Obra - UC 1",
+      "Orçamento e planejamento *"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "ESTUDOS | PROJETOS | CONSULTORIAS"
+      },
+      {
+        "contexto": "Nível de Detalhe",
+        "decisao": "Projeto arquitetônico executivo *"
+      },
+      {
+        "contexto": "Legalidade",
+        "decisao": "Legalização de incorporação *"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "projeto": "mussi-empreendimentos-soho",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:29:15",
+  "duration_s": 69.7,
+  "compact_chars": 1162,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projetos\",\n    \"Taxas\",\n    \"Gerenciamento\",\n    \"Consultorias\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Quantitativos\",\n      \"texto\": \"Revisão dos quantitativos de supraestrutura\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"CUSTO DIRETO\",\n    \"GERENCIAMENTO TÉCNICO E ADMINSTRATIVO\",\n    \"CONSUMOS, TAXAS E DOCUMENTOS\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Legalização e Aprovação\",\n      \"decisao\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    },\n    {\n      \"contexto\": \"Estrutura e Fundação\",\n      \"decisao\": \"Projeto Estrutural e Fundação\"\n    },\n    {\n      \"contexto\": \"Legalização e Incorporação\",\n      \"decisao\": \"Despachos com Incorporação\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projetos",
+      "Taxas",
+      "Gerenciamento",
+      "Consultorias"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Quantitativos",
+        "texto": "Revisão dos quantitativos de supraestrutura"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "CUSTO DIRETO",
+      "GERENCIAMENTO TÉCNICO E ADMINSTRATIVO",
+      "CONSUMOS, TAXAS E DOCUMENTOS"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Legalização e Aprovação",
+        "decisao": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      },
+      {
+        "contexto": "Estrutura e Fundação",
+        "decisao": "Projeto Estrutural e Fundação"
+      },
+      {
+        "contexto": "Legalização e Incorporação",
+        "decisao": "Despachos com Incorporação"
+      }
+    ]
+  }
+}

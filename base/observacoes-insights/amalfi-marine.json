@@ -1,0 +1,79 @@
+{
+  "projeto": "amalfi-marine",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:39:19",
+  "duration_s": 82.0,
+  "compact_chars": 2957,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n    \"REVESTIMENTOS INTERNOS DE PAREDE\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"ACABAMENTOS EM PISO E PAREDE\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Revestimentos\",\n      \"texto\": \"Mao de obra para colocacao e rejuntamento de revestimento ceramico em parede\"\n    },\n    {\n      \"tema\": \"Acabamentos\",\n      \"texto\": \"Mao de obra para colocacao de peitoril\"\n    },\n    {\n      \"tema\": \"Acabamentos\",\n      \"texto\": \"Mao de obra para colocacao de molduras\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Mao de obra para reboco interno - incluindo chapisco\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Mao de obra para estucamento de estrutura de concreto\"\n    },\n    {\n      \"tema\": \"Pisos\",\n      \"texto\": \"Mão de Obra para execução de contrapiso não aderido\"\n    },\n    {\n      \"tema\": \"Pisos\",\n      \"texto\": \"Mão de Obra para execução de polimento de piso\"\n    },\n    {\n      \"tema\": \"Pisos\",\n      \"texto\": \"Mao de obra para colocacao e rejuntamento de piso porcelanato\"\n    },\n    {\n      \"tema\": \"Piscina\",\n      \"texto\": \"Mão de obra para colocacao e rejuntamento de pastilha em piscina\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Cálculo\",\n      \"descricao\": \"VALOR POR ÁREA PRIVATIVA (R$/m²)\"\n    },\n    {\n      \"tipo\": \"Estrutural\",\n      \"descricao\": \"G2 E G3 sem grandes vigas\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"VALOR SEM IMPREVISTOS / m²\",\n    \"Imprevistos e contingências\",\n    \"ACABAMENTOS EM PISO E PAREDE\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"ORÇAMENTO_EXECUTIVO\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+      "REVESTIMENTOS INTERNOS DE PAREDE",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "ACABAMENTOS EM PISO E PAREDE"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Revestimentos",
+        "texto": "Mao de obra para colocacao e rejuntamento de revestimento ceramico em parede"
+      },
+      {
+        "tema": "Acabamentos",
+        "texto": "Mao de obra para colocacao de peitoril"
+      },
+      {
+        "tema": "Acabamentos",
+        "texto": "Mao de obra para colocacao de molduras"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Mao de obra para reboco interno - incluindo chapisco"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Mao de obra para estucamento de estrutura de concreto"
+      },
+      {
+        "tema": "Pisos",
+        "texto": "Mão de Obra para execução de contrapiso não aderido"
+      },
+      {
+        "tema": "Pisos",
+        "texto": "Mão de Obra para execução de polimento de piso"
+      },
+      {
+        "tema": "Pisos",
+        "texto": "Mao de obra para colocacao e rejuntamento de piso porcelanato"
+      },
+      {
+        "tema": "Piscina",
+        "texto": "Mão de obra para colocacao e rejuntamento de pastilha em piscina"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Cálculo",
+        "descricao": "VALOR POR ÁREA PRIVATIVA (R$/m²)"
+      },
+      {
+        "tipo": "Estrutural",
+        "descricao": "G2 E G3 sem grandes vigas"
+      }
+    ],
+    "padroes_orcamentista": [
+      "VALOR SEM IMPREVISTOS / m²",
+      "Imprevistos e contingências",
+      "ACABAMENTOS EM PISO E PAREDE"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "ORÇAMENTO_EXECUTIVO",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      }
+    ]
+  }
+}

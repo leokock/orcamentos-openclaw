@@ -1,0 +1,88 @@
+{
+  "projeto": "amalfi-maiori",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:37:57",
+  "duration_s": 90.8,
+  "compact_chars": 3169,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS INTERNOS DE PAREDE\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"ACABAMENTOS EM PISO E PAREDE\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"consumo de 238kg/m³ de concreto\"\n    },\n    {\n      \"tema\": \"Contrapiso\",\n      \"texto\": \"Contrapiso comum em argamassa estabilizada - nao aderido - espssura 4cm\"\n    },\n    {\n      \"tema\": \"Chapisco\",\n      \"texto\": \"Chapisco interno de argamassa preparada em obra de cimento e areia - traço 1:4 - aplicação em paredes internas\"\n    },\n    {\n      \"tema\": \"Contrapiso\",\n      \"texto\": \"Contrapiso comum em argamassa estabilizada - nao aderido - espssura 5cm\"\n    },\n    {\n      \"tema\": \"Chapisco\",\n      \"texto\": \"Chapisco rolado aplicado em estruturas de concreto - aplicação em paredes internas\"\n    },\n    {\n      \"tema\": \"Contrapiso\",\n      \"texto\": \"Contrapiso comum em argamassa estabilizada - nao aderido - espssura 6cm\"\n    },\n    {\n      \"tema\": \"Reboco\",\n      \"texto\": \"Massa unica para reboco interno em argamassa estabilizada - espessura de 20mm - com execucao de taliscas\"\n    },\n    {\n      \"tema\": \"Piso\",\n      \"texto\": \"Piso cimentado alisado com argamassa de cimento e areia traço 1:3\"\n    },\n    {\n      \"tema\": \"Piso\",\n      \"texto\": \"Piso cimentado ranhurado com argamassa de cimento e areia traço 1:3\"\n    },\n    {\n      \"tema\": \"Revestimento\",\n      \"texto\": \"SÓ CONSIDERA UM POUCO DE MANTA E POLIMERICO\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Adesão\",\n      \"descricao\": \"não aderido\"\n    },\n    {\n      \"tipo\": \"Escopo\",\n      \"descricao\": \"NÃO CONSIDERA TUDO OS INTEREIORES\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"aplicação em paredes internas\",\n    \"em argamassa estabilizada\",\n    \"traço 1:4\",\n    \"traço 1:3\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"G2 E G3 sem grandes vigas\"\n    },\n    {\n      \"contexto\": \"Revestimento\",\n      \"decisao\": \"SÓ CONSIDERA UM POUCO DE MANTA E POLIMERICO\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS INTERNOS DE PAREDE",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "ACABAMENTOS EM PISO E PAREDE"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Concreto",
+        "texto": "consumo de 238kg/m³ de concreto"
+      },
+      {
+        "tema": "Contrapiso",
+        "texto": "Contrapiso comum em argamassa estabilizada - nao aderido - espssura 4cm"
+      },
+      {
+        "tema": "Chapisco",
+        "texto": "Chapisco interno de argamassa preparada em obra de cimento e areia - traço 1:4 - aplicação em paredes internas"
+      },
+      {
+        "tema": "Contrapiso",
+        "texto": "Contrapiso comum em argamassa estabilizada - nao aderido - espssura 5cm"
+      },
+      {
+        "tema": "Chapisco",
+        "texto": "Chapisco rolado aplicado em estruturas de concreto - aplicação em paredes internas"
+      },
+      {
+        "tema": "Contrapiso",
+        "texto": "Contrapiso comum em argamassa estabilizada - nao aderido - espssura 6cm"
+      },
+      {
+        "tema": "Reboco",
+        "texto": "Massa unica para reboco interno em argamassa estabilizada - espessura de 20mm - com execucao de taliscas"
+      },
+      {
+        "tema": "Piso",
+        "texto": "Piso cimentado alisado com argamassa de cimento e areia traço 1:3"
+      },
+      {
+        "tema": "Piso",
+        "texto": "Piso cimentado ranhurado com argamassa de cimento e areia traço 1:3"
+      },
+      {
+        "tema": "Revestimento",
+        "texto": "SÓ CONSIDERA UM POUCO DE MANTA E POLIMERICO"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Adesão",
+        "descricao": "não aderido"
+      },
+      {
+        "tipo": "Escopo",
+        "descricao": "NÃO CONSIDERA TUDO OS INTEREIORES"
+      }
+    ],
+    "padroes_orcamentista": [
+      "aplicação em paredes internas",
+      "em argamassa estabilizada",
+      "traço 1:4",
+      "traço 1:3"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Estrutura",
+        "decisao": "G2 E G3 sem grandes vigas"
+      },
+      {
+        "contexto": "Revestimento",
+        "decisao": "SÓ CONSIDERA UM POUCO DE MANTA E POLIMERICO"
+      }
+    ]
+  }
+}

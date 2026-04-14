@@ -1,0 +1,95 @@
+{
+  "projeto": "be-brave-meraki",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:45:43",
+  "duration_s": 89.9,
+  "compact_chars": 4134,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"MADEIRA PINUS/SIMILAR\",\n    \"Armazenamento de cerâmicas*\",\n    \"Armazenamento de placas degesso*\",\n    \"Armazenamento de contramarcos*\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM PAREDE\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM PISO\",\n    \"Aprovação e legalização\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"SERVICO CONCRETO USINADO FCK 20MPA BRITA 1 SLUMP 14+/-2CM S/MOD.\"\n    },\n    {\n      \"tema\": \"Assentamento\",\n      \"texto\": \"ARGAMASSA ENSACADA P/ASSENTAMENTO BLOCO 04MPA NBR 13281\"\n    },\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"tema\": \"Lastro\",\n      \"texto\": \"Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=5cm\"\n    },\n    {\n      \"tema\": \"Estacas\",\n      \"texto\": \"Perfuração de estaca hélice contínua Ø 50cm\"\n    },\n    {\n      \"tema\": \"Estacas\",\n      \"texto\": \"Perfuração de estaca hélice contínua Ø 60cm\"\n    },\n    {\n      \"tema\": \"Projetos\",\n      \"texto\": \"Compatibilização de Projetos BIM\"\n    },\n    {\n      \"tema\": \"Controle de Qualidade\",\n      \"texto\": \"Controle Tecnologico de Concreto\"\n    },\n    {\n      \"tema\": \"Ensaio\",\n      \"texto\": \"Ensaio de arrancamento de reboco\"\n    },\n    {\n      \"tema\": \"Ensaio\",\n      \"texto\": \"Ensaio de arrancamento fachada\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimado com base em índices históricos\"\n    },\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimado com base em índices históricos para elaboração interna\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimado com base em índices históricos\",\n    \"Valor informado em formulário\",\n    \"CONSUMOS, TAXAS E DOCUMENTOS\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Legalização e Projetos\",\n      \"decisao\": \"Projeto Arquitetônico executivo - incluindo: arquitetônico legal, interiores e taxas de aprovação\"\n    },\n    {\n      \"contexto\": \"Segurança\",\n      \"decisao\": \"Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios)\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"Legalização de incorporação\"\n    },\n    {\n      \"contexto\": \"Infraestrutura\",\n      \"decisao\": \"Aprovação e legalização água e esgoto\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "MADEIRA PINUS/SIMILAR",
+      "Armazenamento de cerâmicas*",
+      "Armazenamento de placas degesso*",
+      "Armazenamento de contramarcos*",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM PAREDE",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM PISO",
+      "Aprovação e legalização"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Concreto",
+        "texto": "SERVICO CONCRETO USINADO FCK 20MPA BRITA 1 SLUMP 14+/-2CM S/MOD."
+      },
+      {
+        "tema": "Assentamento",
+        "texto": "ARGAMASSA ENSACADA P/ASSENTAMENTO BLOCO 04MPA NBR 13281"
+      },
+      {
+        "tema": "Escavação",
+        "texto": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "tema": "Lastro",
+        "texto": "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=5cm"
+      },
+      {
+        "tema": "Estacas",
+        "texto": "Perfuração de estaca hélice contínua Ø 50cm"
+      },
+      {
+        "tema": "Estacas",
+        "texto": "Perfuração de estaca hélice contínua Ø 60cm"
+      },
+      {
+        "tema": "Projetos",
+        "texto": "Compatibilização de Projetos BIM"
+      },
+      {
+        "tema": "Controle de Qualidade",
+        "texto": "Controle Tecnologico de Concreto"
+      },
+      {
+        "tema": "Ensaio",
+        "texto": "Ensaio de arrancamento de reboco"
+      },
+      {
+        "tema": "Ensaio",
+        "texto": "Ensaio de arrancamento fachada"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimado com base em índices históricos"
+      },
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimado com base em índices históricos para elaboração interna"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimado com base em índices históricos",
+      "Valor informado em formulário",
+      "CONSUMOS, TAXAS E DOCUMENTOS"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Legalização e Projetos",
+        "decisao": "Projeto Arquitetônico executivo - incluindo: arquitetônico legal, interiores e taxas de aprovação"
+      },
+      {
+        "contexto": "Segurança",
+        "decisao": "Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios)"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "Legalização de incorporação"
+      },
+      {
+        "contexto": "Infraestrutura",
+        "decisao": "Aprovação e legalização água e esgoto"
+      }
+    ]
+  }
+}

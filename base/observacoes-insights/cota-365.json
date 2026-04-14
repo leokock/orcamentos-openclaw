@@ -1,0 +1,106 @@
+{
+  "projeto": "cota-365",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:33:53",
+  "duration_s": 102.1,
+  "compact_chars": 4136,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Considerado blocos, vigas de fundação, duto e cisterna\"\n    },\n    {\n      \"tema\": \"Cisterna\",\n      \"texto\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\"\n    },\n    {\n      \"tema\": \"Perdas\",\n      \"texto\": \"Considerado sem indicação em projeto, consideração de 13% de perda\"\n    },\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Considerado empolamento 30% da escavação\"\n    },\n    {\n      \"tema\": \"Lastro\",\n      \"texto\": \"Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=10cm\"\n    },\n    {\n      \"tema\": \"Lastro\",\n      \"texto\": \"Lastro de Brita, Aplicado em Blocos de Fundação, e= 5cm\"\n    },\n    {\n      \"tema\": \"Instalações\",\n      \"texto\": \"CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO\"\n    },\n    {\n      \"tema\": \"Serviços\",\n      \"texto\": \"Mobilização e desmobilização de equipamentos - Para execução de estaca hélice\"\n    },\n    {\n      \"tema\": \"Projetos\",\n      \"texto\": \"Projeto elétrico/comunicação/telefonia/luminotécnico\"\n    },\n    {\n      \"tema\": \"Legalização\",\n      \"texto\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Legal/Regulatório\",\n      \"descricao\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    },\n    {\n      \"tipo\": \"Legal/Regulatório\",\n      \"descricao\": \"Aprovação e legalização prefeitura\"\n    },\n    {\n      \"tipo\": \"Legal/Regulatório\",\n      \"descricao\": \"Aprovação e legalização bombeiros\"\n    },\n    {\n      \"tipo\": \"Ambiente\",\n      \"descricao\": \"Aprovação e legalização ambiental\"\n    },\n    {\n      \"tipo\": \"Orçamentário\",\n      \"descricao\": \"IMPREVISTOS E CONTINGENCIAS\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Considerado blocos, vigas de fundação, duto e cisterna\",\n    \"Considerado sem indicação em projeto, consideração de 13% de perda\",\n    \"Considerado empolamento 30% da escavação\",\n    \"Mobilização e desmobilização de equipamentos - Para execução de estaca hélice\",\n    \"Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=10cm\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\"\n    },\n    {\n      \"contexto\": \"Instalações\",\n      \"decisao\": \"Instal. Hidro, louças, metais, gás, shp\"\n    },\n    {\n      \"contexto\": \"Serviços\",\n      \"decisao\": \"Planilha de levantamento de custo de mão de obra\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Fundação",
+        "texto": "Considerado blocos, vigas de fundação, duto e cisterna"
+      },
+      {
+        "tema": "Cisterna",
+        "texto": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm"
+      },
+      {
+        "tema": "Perdas",
+        "texto": "Considerado sem indicação em projeto, consideração de 13% de perda"
+      },
+      {
+        "tema": "Escavação",
+        "texto": "Considerado empolamento 30% da escavação"
+      },
+      {
+        "tema": "Lastro",
+        "texto": "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=10cm"
+      },
+      {
+        "tema": "Lastro",
+        "texto": "Lastro de Brita, Aplicado em Blocos de Fundação, e= 5cm"
+      },
+      {
+        "tema": "Instalações",
+        "texto": "CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO"
+      },
+      {
+        "tema": "Serviços",
+        "texto": "Mobilização e desmobilização de equipamentos - Para execução de estaca hélice"
+      },
+      {
+        "tema": "Projetos",
+        "texto": "Projeto elétrico/comunicação/telefonia/luminotécnico"
+      },
+      {
+        "tema": "Legalização",
+        "texto": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Legal/Regulatório",
+        "descricao": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      },
+      {
+        "tipo": "Legal/Regulatório",
+        "descricao": "Aprovação e legalização prefeitura"
+      },
+      {
+        "tipo": "Legal/Regulatório",
+        "descricao": "Aprovação e legalização bombeiros"
+      },
+      {
+        "tipo": "Ambiente",
+        "descricao": "Aprovação e legalização ambiental"
+      },
+      {
+        "tipo": "Orçamentário",
+        "descricao": "IMPREVISTOS E CONTINGENCIAS"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Considerado blocos, vigas de fundação, duto e cisterna",
+      "Considerado sem indicação em projeto, consideração de 13% de perda",
+      "Considerado empolamento 30% da escavação",
+      "Mobilização e desmobilização de equipamentos - Para execução de estaca hélice",
+      "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=10cm"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Fundação",
+        "decisao": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "contexto": "Fundação",
+        "decisao": "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira"
+      },
+      {
+        "contexto": "Instalações",
+        "decisao": "Instal. Hidro, louças, metais, gás, shp"
+      },
+      {
+        "contexto": "Serviços",
+        "decisao": "Planilha de levantamento de custo de mão de obra"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "projeto": "all-acacias-jk",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:35:01",
+  "duration_s": 95.7,
+  "compact_chars": 4141,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"REVESTIMENTOS INTERNOS DE PAREDE\",\n    \"Mao de obra para\",\n    \"Controle Tecnológico de Concreto\",\n    \"Projeto de\",\n    \"Área Equivalente\",\n    \"IMPREVISTOS E CONTINGENCIAS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Chapisco\",\n      \"texto\": \"Chapisco aplicado em estruturas de concreto, com desempenadeira dentada, de argamassa industrializada\"\n    },\n    {\n      \"tema\": \"Chapisco\",\n      \"texto\": \"Chapisco aplicado em alvenarias internas, com colher de pedreiro, de argamassa estabilizada\"\n    },\n    {\n      \"tema\": \"Reboco interno\",\n      \"texto\": \"Massa unica para reboco interno em argamassa estabilizada, espessura de 20mm, com execucao de taliscas\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Estucamento de estrutura de concreto em pilares e vigas\"\n    },\n    {\n      \"tema\": \"Revestimentos\",\n      \"texto\": \"Acabamentos Cerâmicos e Porcelanatos\"\n    },\n    {\n      \"tema\": \"Revestimento\",\n      \"texto\": \"Revestimento em Cerâmica 60x60cm interno\"\n    },\n    {\n      \"tema\": \"Peitoril\",\n      \"texto\": \"Peitoril em granito, acabamento polido, espessura 2cm\"\n    },\n    {\n      \"tema\": \"Azulejo/Porcelanato\",\n      \"texto\": \"Mao de obra para colocacao e rejuntamento de Azulejo Cerâmico\"\n    },\n    {\n      \"tema\": \"Revestimento\",\n      \"texto\": \"Revestimento em Porcelanato 80x80cm interno\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Instrução de Orçamento\",\n      \"descricao\": \"Inserir quantidade somente no serviço \\\"célula em branco\\\"\"\n    },\n    {\n      \"tipo\": \"Aviso de Edição\",\n      \"descricao\": \"edições serão removidas se o arquivo for aberto em uma versão mais recente do Excel. Saiba m\"\n    },\n    {\n      \"tipo\": \"Cálculo de Área\",\n      \"descricao\": \"GE Emprendimento: ( E1 ÷ R1 )\"\n    },\n    {\n      \"tipo\": \"Cálculo de Área\",\n      \"descricao\": \"Total Construída ÷ Privativa Construída: ( R1 ÷ E1 )\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"REVESTIMENTOS INTERNOS DE PAREDE\",\n    \"Área Equivalente\",\n    \"Mao de obra para\",\n    \"IMPREVISTOS E CONTINGENCIAS\",\n    \"Total Construída ÷ Privativa Construída: ( R1 ÷ E1 )\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Reboco interno\",\n      \"decisao\": \"Massa unica para reboco interno em argamassa estabilizada, espessura de 20mm, com execucao de taliscas\"\n    },\n    {\n      \"contexto\": \"Peitoril\",\n      \"decisao\": \"Peitoril em granito, acabamento polido, espessura 2cm\"\n    },\n    {\n      \"contexto\": \"Revestimento\",\n      \"decisao\": \"Revestimento em Porcelanato 80x80cm interno\"\n    },\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"IMPREVISTOS E CONTINGENCIAS\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "REVESTIMENTOS INTERNOS DE PAREDE",
+      "Mao de obra para",
+      "Controle Tecnológico de Concreto",
+      "Projeto de",
+      "Área Equivalente",
+      "IMPREVISTOS E CONTINGENCIAS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Chapisco",
+        "texto": "Chapisco aplicado em estruturas de concreto, com desempenadeira dentada, de argamassa industrializada"
+      },
+      {
+        "tema": "Chapisco",
+        "texto": "Chapisco aplicado em alvenarias internas, com colher de pedreiro, de argamassa estabilizada"
+      },
+      {
+        "tema": "Reboco interno",
+        "texto": "Massa unica para reboco interno em argamassa estabilizada, espessura de 20mm, com execucao de taliscas"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Estucamento de estrutura de concreto em pilares e vigas"
+      },
+      {
+        "tema": "Revestimentos",
+        "texto": "Acabamentos Cerâmicos e Porcelanatos"
+      },
+      {
+        "tema": "Revestimento",
+        "texto": "Revestimento em Cerâmica 60x60cm interno"
+      },
+      {
+        "tema": "Peitoril",
+        "texto": "Peitoril em granito, acabamento polido, espessura 2cm"
+      },
+      {
+        "tema": "Azulejo/Porcelanato",
+        "texto": "Mao de obra para colocacao e rejuntamento de Azulejo Cerâmico"
+      },
+      {
+        "tema": "Revestimento",
+        "texto": "Revestimento em Porcelanato 80x80cm interno"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Instrução de Orçamento",
+        "descricao": "Inserir quantidade somente no serviço \"célula em branco\""
+      },
+      {
+        "tipo": "Aviso de Edição",
+        "descricao": "edições serão removidas se o arquivo for aberto em uma versão mais recente do Excel. Saiba m"
+      },
+      {
+        "tipo": "Cálculo de Área",
+        "descricao": "GE Emprendimento: ( E1 ÷ R1 )"
+      },
+      {
+        "tipo": "Cálculo de Área",
+        "descricao": "Total Construída ÷ Privativa Construída: ( R1 ÷ E1 )"
+      }
+    ],
+    "padroes_orcamentista": [
+      "REVESTIMENTOS INTERNOS DE PAREDE",
+      "Área Equivalente",
+      "Mao de obra para",
+      "IMPREVISTOS E CONTINGENCIAS",
+      "Total Construída ÷ Privativa Construída: ( R1 ÷ E1 )"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Reboco interno",
+        "decisao": "Massa unica para reboco interno em argamassa estabilizada, espessura de 20mm, com execucao de taliscas"
+      },
+      {
+        "contexto": "Peitoril",
+        "decisao": "Peitoril em granito, acabamento polido, espessura 2cm"
+      },
+      {
+        "contexto": "Revestimento",
+        "decisao": "Revestimento em Porcelanato 80x80cm interno"
+      },
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "IMPREVISTOS E CONTINGENCIAS"
+      }
+    ]
+  }
+}

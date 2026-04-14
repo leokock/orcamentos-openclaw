@@ -1,0 +1,83 @@
+{
+  "projeto": "grupo-duo-mosaico",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:57:55",
+  "duration_s": 90.5,
+  "compact_chars": 4144,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"NÚMERO DE UNIDADES HABITACIONAIS\",\n    \"NÚMERO DE UNIDADES COMERCIAIS\",\n    \"Perímetro de projeção embasamento - primária\",\n    \"Perímetro de projeção embasamento - secundária\",\n    \"Revestimentos internos de parede\",\n    \"Instalações elétricas\",\n    \"Controle Tecnológico\",\n    \"Fechamento removível de vãos\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"CONTROLE TECNOLÓGICO - CONCRETO\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Controle Tecnologico Infraestrutura - Coleta materiais da obra\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Controle Tecnologico Supraestrutura - Coleta materiais da obra\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"ACUSTICA - ENSAIO DE RUIDOS ( PISO + FACHADA)\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"Ensaio de Desempenho Acustico para piso Ensaio de ruído aéreo e ruído de impacto em Laje de dorm.\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"Ensaio de Desempenho Acustico para vedação externa Ensaio de isolamento a ruído aéreo em Fachada de dorm.\"\n    },\n    {\n      \"tema\": \"Estrutural\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Estrutural\",\n      \"texto\": \"Permeabilidade ao ar Estanqueidade a agua Resistencias a cargas uniformes distribuidas\"\n    },\n    {\n      \"tema\": \"Segurança\",\n      \"texto\": \"Ensaio de guarda-corpo Determinação do esforço horizontal, esforço vertical e Resistencia a impactos\"\n    },\n    {\n      \"tema\": \"Monitoramento\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Medição Incompleta\",\n      \"descricao\": \"ALTURA DOS 3 ULTIMOS PAVS\"\n    },\n    {\n      \"tipo\": \"Verificação Necessária\",\n      \"descricao\": \"Repetições de pavimentos**\"\n    }\n  ],\n  \"padroes_orcamentista\": [],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Persiana\",\n      \"decisao\": \"SEM persiana integrada\"\n    },\n    {\n      \"contexto\": \"Persiana\",\n      \"decisao\": \"COM persiana integrada\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "NÚMERO DE UNIDADES HABITACIONAIS",
+      "NÚMERO DE UNIDADES COMERCIAIS",
+      "Perímetro de projeção embasamento - primária",
+      "Perímetro de projeção embasamento - secundária",
+      "Revestimentos internos de parede",
+      "Instalações elétricas",
+      "Controle Tecnológico",
+      "Fechamento removível de vãos"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "CONTROLE TECNOLÓGICO - CONCRETO"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Controle Tecnologico Infraestrutura - Coleta materiais da obra"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Controle Tecnologico Supraestrutura - Coleta materiais da obra"
+      },
+      {
+        "tema": "Acústica",
+        "texto": "ACUSTICA - ENSAIO DE RUIDOS ( PISO + FACHADA)"
+      },
+      {
+        "tema": "Acústica",
+        "texto": "Ensaio de Desempenho Acustico para piso Ensaio de ruído aéreo e ruído de impacto em Laje de dorm."
+      },
+      {
+        "tema": "Acústica",
+        "texto": "Ensaio de Desempenho Acustico para vedação externa Ensaio de isolamento a ruído aéreo em Fachada de dorm."
+      },
+      {
+        "tema": "Estrutural",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Estrutural",
+        "texto": "Permeabilidade ao ar Estanqueidade a agua Resistencias a cargas uniformes distribuidas"
+      },
+      {
+        "tema": "Segurança",
+        "texto": "Ensaio de guarda-corpo Determinação do esforço horizontal, esforço vertical e Resistencia a impactos"
+      },
+      {
+        "tema": "Monitoramento",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Medição Incompleta",
+        "descricao": "ALTURA DOS 3 ULTIMOS PAVS"
+      },
+      {
+        "tipo": "Verificação Necessária",
+        "descricao": "Repetições de pavimentos**"
+      }
+    ],
+    "padroes_orcamentista": [],
+    "decisoes_criticas": [
+      {
+        "contexto": "Persiana",
+        "decisao": "SEM persiana integrada"
+      },
+      {
+        "contexto": "Persiana",
+        "decisao": "COM persiana integrada"
+      }
+    ]
+  }
+}

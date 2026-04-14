@@ -1,0 +1,40 @@
+{
+  "projeto": "cn-brava-garden",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:27:22",
+  "duration_s": 78.2,
+  "compact_chars": 917,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"SISTEMAS E EQUIPAMENTOS ESPECIAIS\",\n    \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Instalações\",\n      \"texto\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"IMPREVISTOS E CONTINGÊNCIAS\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Gerenciamento executivo\",\n      \"decisao\": \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\"\n    },\n    {\n      \"contexto\": \"Executivo\",\n      \"decisao\": \"ACABAMENTOS EM PISO E PAREDE\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "SISTEMAS E EQUIPAMENTOS ESPECIAIS",
+      "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Instalações",
+        "texto": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "IMPREVISTOS E CONTINGÊNCIAS",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Gerenciamento executivo",
+        "decisao": "REVESTIMENTOS E ACABAMENTOS DE FACHADA"
+      },
+      {
+        "contexto": "Executivo",
+        "decisao": "ACABAMENTOS EM PISO E PAREDE"
+      }
+    ]
+  }
+}

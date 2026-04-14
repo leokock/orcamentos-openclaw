@@ -1,0 +1,52 @@
+{
+  "projeto": "rosner-reserva-sao-vicente",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:59:42",
+  "duration_s": 66.8,
+  "compact_chars": 4148,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"IMPREVISTOS E CONTINGENCIAS\",\n    \"CONTROLE TECNOLÓGICO\",\n    \"ENSAIO DE ARRANCAMENTO\",\n    \"PROJETO ARQUITETÔNICO LEGAL\",\n    \"Guarda-corpo\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Cálculo de Vestiário/Sanitários\",\n      \"texto\": \"1,5 m²/funcionários (vestiário) 1 m²/20 funcionários (sanitários) + 0,6 m²/m² sanitário (lavatório) + 0,8 m²/ 10 funcionários (chuveiros)\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Frequência de Ensaio\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Levado em consideração a equipe administrativa respondida no questionário dia 18/04/2024\",\n    \"Custo respondido no questionário dia 18/04/2024\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Persiana\",\n      \"decisao\": \"SEM persiana integrada\"\n    },\n    {\n      \"contexto\": \"Persiana\",\n      \"decisao\": \"COM persiana integrada\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"Guarda-corpo de vaos, fixado em...\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "IMPREVISTOS E CONTINGENCIAS",
+      "CONTROLE TECNOLÓGICO",
+      "ENSAIO DE ARRANCAMENTO",
+      "PROJETO ARQUITETÔNICO LEGAL",
+      "Guarda-corpo"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Cálculo de Vestiário/Sanitários",
+        "texto": "1,5 m²/funcionários (vestiário) 1 m²/20 funcionários (sanitários) + 0,6 m²/m² sanitário (lavatório) + 0,8 m²/ 10 funcionários (chuveiros)"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Frequência de Ensaio",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Levado em consideração a equipe administrativa respondida no questionário dia 18/04/2024",
+      "Custo respondido no questionário dia 18/04/2024"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Persiana",
+        "decisao": "SEM persiana integrada"
+      },
+      {
+        "contexto": "Persiana",
+        "decisao": "COM persiana integrada"
+      },
+      {
+        "contexto": "Estrutura",
+        "decisao": "Guarda-corpo de vaos, fixado em..."
+      }
+    ]
+  }
+}

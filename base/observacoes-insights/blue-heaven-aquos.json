@@ -1,0 +1,105 @@
+{
+  "projeto": "blue-heaven-aquos",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:48:36",
+  "duration_s": 99.5,
+  "compact_chars": 4134,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS E ACABAMENTOS\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"PROJETOS E GERENCIAMENTO TÉCNICO\",\n    \"CONTROLE TECNOLÓGICO\",\n    \"Perímetro de projeção torre\",\n    \"Equipamentos e sistemas especiais\",\n    \"NÚMERO DE UNIDADES HABITACIONAIS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"4 CPs por caminhão betoneira de 8m³\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Controle Tecnologico Supraestrutura - Coleta materiais da obra\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Controle Tecnologico Contenção - Coleta materiais da obra\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"Controle Tecnologico Infraestrutura - Coleta materiais da obra\"\n    },\n    {\n      \"tema\": \"Projetos e Gerenciamento Técnico\",\n      \"texto\": \"Valor estimado com base em obras com característica e porte similares.\"\n    },\n    {\n      \"tema\": \"Projetos e Gerenciamento Técnico\",\n      \"texto\": \"Valor determinado conforme aba \\\"Ensaios\\\"\"\n    },\n    {\n      \"tema\": \"Projetos e Gerenciamento Técnico\",\n      \"texto\": \"Custo complementar para valor de email enviado em 2/10/2024\"\n    },\n    {\n      \"tema\": \"Projetos e Gerenciamento Técnico\",\n      \"texto\": \"Atualizado confrome email enviado em 2/10/2024\"\n    },\n    {\n      \"tema\": \"Projetos e Gerenciamento Técnico\",\n      \"texto\": \"Complementares ( ELE, MEC HIDRO, EST, PPCI)\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Insegurança\",\n      \"descricao\": \"sem vergase redução da margem de insegurança\"\n    },\n    {\n      \"tipo\": \"Contingência\",\n      \"descricao\": \"IMPREVISTOS E CONTINGÊNCIAS\"\n    },\n    {\n      \"tipo\": \"Redução de Escopo\",\n      \"descricao\": \"redução significativa de area de forro de gesso (metade)\"\n    },\n    {\n      \"tipo\": \"Redução de Escopo\",\n      \"descricao\": \"redução metade da verba de ceramica em parede, redução de rodape\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"PROJETOS, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"NÚMERO DE UNIDADES HABITACIONAIS\",\n    \"Valor estimado com base em obras com característica e porte similares.\",\n    \"Atualizado confrome email enviado em 2/10/2024\",\n    \"Valor determinado conforme aba \\\"Ensaios\\\"\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Comparativo\",\n      \"decisao\": \"redução sistema de placas fotovoltaicas e dos equipamentos de piscina\"\n    },\n    {\n      \"contexto\": \"Comparativo\",\n      \"decisao\": \"retirada proteção mecânica (sem manta)\"\n    },\n    {\n      \"contexto\": \"Comparativo\",\n      \"decisao\": \"inclusão de calçadas e passeios, realocação de montantes (cercas)\"\n    },\n    {\n      \"contexto\": \"Comparativo\",\n      \"decisao\": \"aumento especificações de portas inicialmente previstas (madeira), ajueste de especificação de guarda-corpo\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS E ACABAMENTOS",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "PROJETOS E GERENCIAMENTO TÉCNICO",
+      "CONTROLE TECNOLÓGICO",
+      "Perímetro de projeção torre",
+      "Equipamentos e sistemas especiais",
+      "NÚMERO DE UNIDADES HABITACIONAIS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "4 CPs por caminhão betoneira de 8m³"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Controle Tecnologico Supraestrutura - Coleta materiais da obra"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Controle Tecnologico Contenção - Coleta materiais da obra"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "Controle Tecnologico Infraestrutura - Coleta materiais da obra"
+      },
+      {
+        "tema": "Projetos e Gerenciamento Técnico",
+        "texto": "Valor estimado com base em obras com característica e porte similares."
+      },
+      {
+        "tema": "Projetos e Gerenciamento Técnico",
+        "texto": "Valor determinado conforme aba \"Ensaios\""
+      },
+      {
+        "tema": "Projetos e Gerenciamento Técnico",
+        "texto": "Custo complementar para valor de email enviado em 2/10/2024"
+      },
+      {
+        "tema": "Projetos e Gerenciamento Técnico",
+        "texto": "Atualizado confrome email enviado em 2/10/2024"
+      },
+      {
+        "tema": "Projetos e Gerenciamento Técnico",
+        "texto": "Complementares ( ELE, MEC HIDRO, EST, PPCI)"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Insegurança",
+        "descricao": "sem vergase redução da margem de insegurança"
+      },
+      {
+        "tipo": "Contingência",
+        "descricao": "IMPREVISTOS E CONTINGÊNCIAS"
+      },
+      {
+        "tipo": "Redução de Escopo",
+        "descricao": "redução significativa de area de forro de gesso (metade)"
+      },
+      {
+        "tipo": "Redução de Escopo",
+        "descricao": "redução metade da verba de ceramica em parede, redução de rodape"
+      }
+    ],
+    "padroes_orcamentista": [
+      "PROJETOS, GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "NÚMERO DE UNIDADES HABITACIONAIS",
+      "Valor estimado com base em obras com característica e porte similares.",
+      "Atualizado confrome email enviado em 2/10/2024",
+      "Valor determinado conforme aba \"Ensaios\""
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Comparativo",
+        "decisao": "redução sistema de placas fotovoltaicas e dos equipamentos de piscina"
+      },
+      {
+        "contexto": "Comparativo",
+        "decisao": "retirada proteção mecânica (sem manta)"
+      },
+      {
+        "contexto": "Comparativo",
+        "decisao": "inclusão de calçadas e passeios, realocação de montantes (cercas)"
+      },
+      {
+        "contexto": "Comparativo",
+        "decisao": "aumento especificações de portas inicialmente previstas (madeira), ajueste de especificação de guarda-corpo"
+      }
+    ]
+  }
+}

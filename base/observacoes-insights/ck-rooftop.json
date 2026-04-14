@@ -1,0 +1,60 @@
+{
+  "projeto": "ck-rooftop",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:18:11",
+  "duration_s": 89.8,
+  "compact_chars": 1498,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Aço CA-50\",\n    \"Chapa Compensada Super Resinada\",\n    \"DESPESAS ASSOCIADAS A COMERCIALIZAÇÃO\",\n    \"Montagem e Desmontagem de Fôrma\",\n    \"Superestrutura\",\n    \"Forma para Lajes\",\n    \"Forma para Vigas\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Concreto Usinado 40Mpa Slump 12+-2 Bombeado\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Fundação em Hélice Contínua - Contrato União Fundações - CT/431\"\n    },\n    {\n      \"tema\": \"Escoramento\",\n      \"texto\": \"Escoramento de Formas - Contrato TIP/SERVSOLO - CT/591 e CT/592\"\n    },\n    {\n      \"tema\": \"Fôrma de Pilares\",\n      \"texto\": \"Montagem e Desmontagem de Fôrma de Pilares Retangulares e Estruturas Similares Pé-direito Simples em Chapa de Madeira Compensada Super Resinada*\"\n    },\n    {\n      \"tema\": \"Fôrma de Viga\",\n      \"texto\": \"Montagem e Desmontagem de Fôrma de Viga, Escoramento Metálico, Pé-direito Simples, em Chapa de Madeira Super Resinada*\"\n    },\n    {\n      \"tema\": \"Fôrma de Laje\",\n      \"texto\": \"Montagem e Desmontagem de Fôrma de Laje , Pé-direito Simples, em Chapa de Madeira Super Resinada*\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"DESPESAS ASSOCIADAS A COMERCIALIZAÇÃO\",\n    \"Aproveitamentos\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Fachada\",\n      \"decisao\": \"Atualização revestimento de fachada\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"Mão de Obra para Superestrutura\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Aço CA-50",
+      "Chapa Compensada Super Resinada",
+      "DESPESAS ASSOCIADAS A COMERCIALIZAÇÃO",
+      "Montagem e Desmontagem de Fôrma",
+      "Superestrutura",
+      "Forma para Lajes",
+      "Forma para Vigas"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Concreto",
+        "texto": "Concreto Usinado 40Mpa Slump 12+-2 Bombeado"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Fundação em Hélice Contínua - Contrato União Fundações - CT/431"
+      },
+      {
+        "tema": "Escoramento",
+        "texto": "Escoramento de Formas - Contrato TIP/SERVSOLO - CT/591 e CT/592"
+      },
+      {
+        "tema": "Fôrma de Pilares",
+        "texto": "Montagem e Desmontagem de Fôrma de Pilares Retangulares e Estruturas Similares Pé-direito Simples em Chapa de Madeira Compensada Super Resinada*"
+      },
+      {
+        "tema": "Fôrma de Viga",
+        "texto": "Montagem e Desmontagem de Fôrma de Viga, Escoramento Metálico, Pé-direito Simples, em Chapa de Madeira Super Resinada*"
+      },
+      {
+        "tema": "Fôrma de Laje",
+        "texto": "Montagem e Desmontagem de Fôrma de Laje , Pé-direito Simples, em Chapa de Madeira Super Resinada*"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "DESPESAS ASSOCIADAS A COMERCIALIZAÇÃO",
+      "Aproveitamentos"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Fachada",
+        "decisao": "Atualização revestimento de fachada"
+      },
+      {
+        "contexto": "Estrutura",
+        "decisao": "Mão de Obra para Superestrutura"
+      }
+    ]
+  }
+}

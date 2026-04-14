@@ -1,0 +1,68 @@
+{
+  "projeto": "f-nogueira-soberano",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:43:42",
+  "duration_s": 105.9,
+  "compact_chars": 2653,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n    \"ACABAMENTOS EM PISO E PAREDE\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"CONCRETO USINADO BOMBEÁVEL\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"IMPREVISTOS E CONTINGÊNCIAS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"CONCRETO USINADO BOMBEÁVEL, PARA SUPRAESTRUTURA, FCK 35MPA, SLUMP 10+/- 2, INCLUINDO SERVIÇO DE BOMBEAMENTO*\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"ARMAÇÃO AÇO CA-50, DIÂMETRO 6,3MM PARA SUPRAESTRUTURA - CORTADO E DOBRADO EM INDÚSTRIA*\"\n    },\n    {\n      \"tema\": \"Acabamento\",\n      \"texto\": \"MÃO DE OBRA MISTA PARA REBOCO INTERNO EM PAREDES, INCLUSO CHAPISCO*\"\n    },\n    {\n      \"tema\": \"Esquadrias\",\n      \"texto\": \"FIXAÇÃO COM ESPUMA EXPANSIVA*\"\n    },\n    {\n      \"tema\": \"Guarda-corpo\",\n      \"texto\": \"GUARDA-CORPO DE ALUMÍNIO COM VIDRO LAMINADO, FIXAÇÃO COM ADESIVO EPÓXI*\"\n    },\n    {\n      \"tema\": \"Forma\",\n      \"texto\": \"FABRICAÇÃO DE FÔRMA PARA LAJES, EM CHAPAS DE MADEIRA COMPENSADA PLASTIFICADA, E=18MM*\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SUPRAESTRUTURA*\",\n    \"SERVIÇOS - MATERIAL E MÃO DE OBRA\",\n    \"IMPREVISTOS E CONTINGÊNCIAS*\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SUPRAESTRUTURA*\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"CONCRETO USINADO BOMBEÁVEL, PARA SUPRAESTRUTURA, FCK 35MPA, SLUMP 10+/- 2, INCLUINDO SERVIÇO DE BOMBEAMENTO*\"\n    },\n    {\n      \"contexto\": \"Acabamento\",\n      \"decisao\": \"MÃO DE OBRA EMPREITADA PARA INSTALAÇÕES HIDRÁULICAS E SANITÁRIAS*\"\n    },\n    {\n      \"contexto\": \"Equipamento\",\n      \"decisao\": \"ELEVADOR CREMALHEIRA - LOCAÇÃO*\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+      "ACABAMENTOS EM PISO E PAREDE",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "CONCRETO USINADO BOMBEÁVEL",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "IMPREVISTOS E CONTINGÊNCIAS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Estrutura",
+        "texto": "CONCRETO USINADO BOMBEÁVEL, PARA SUPRAESTRUTURA, FCK 35MPA, SLUMP 10+/- 2, INCLUINDO SERVIÇO DE BOMBEAMENTO*"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "ARMAÇÃO AÇO CA-50, DIÂMETRO 6,3MM PARA SUPRAESTRUTURA - CORTADO E DOBRADO EM INDÚSTRIA*"
+      },
+      {
+        "tema": "Acabamento",
+        "texto": "MÃO DE OBRA MISTA PARA REBOCO INTERNO EM PAREDES, INCLUSO CHAPISCO*"
+      },
+      {
+        "tema": "Esquadrias",
+        "texto": "FIXAÇÃO COM ESPUMA EXPANSIVA*"
+      },
+      {
+        "tema": "Guarda-corpo",
+        "texto": "GUARDA-CORPO DE ALUMÍNIO COM VIDRO LAMINADO, FIXAÇÃO COM ADESIVO EPÓXI*"
+      },
+      {
+        "tema": "Forma",
+        "texto": "FABRICAÇÃO DE FÔRMA PARA LAJES, EM CHAPAS DE MADEIRA COMPENSADA PLASTIFICADA, E=18MM*"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SUPRAESTRUTURA*",
+      "SERVIÇOS - MATERIAL E MÃO DE OBRA",
+      "IMPREVISTOS E CONTINGÊNCIAS*"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Estrutura",
+        "decisao": "MÃO DE OBRA EMPREITADA PARA EXECUÇÃO DE ESTRUTURA DE CONCRETO ARMADO EM SUPRAESTRUTURA*"
+      },
+      {
+        "contexto": "Estrutura",
+        "decisao": "CONCRETO USINADO BOMBEÁVEL, PARA SUPRAESTRUTURA, FCK 35MPA, SLUMP 10+/- 2, INCLUINDO SERVIÇO DE BOMBEAMENTO*"
+      },
+      {
+        "contexto": "Acabamento",
+        "decisao": "MÃO DE OBRA EMPREITADA PARA INSTALAÇÕES HIDRÁULICAS E SANITÁRIAS*"
+      },
+      {
+        "contexto": "Equipamento",
+        "decisao": "ELEVADOR CREMALHEIRA - LOCAÇÃO*"
+      }
+    ]
+  }
+}

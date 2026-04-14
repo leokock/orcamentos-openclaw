@@ -1,0 +1,113 @@
+{
+  "projeto": "hacasa-brisa-da-armacao",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:01:04",
+  "duration_s": 118.8,
+  "compact_chars": 4142,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"ACABAMENTOS INTERNOS EM PAREDE\",\n    \"REVESTIMENTOS ARGAMASSADOS\",\n    \"CONTROLE TECNOLÓGICO\",\n    \"PERÍMETRO DE PROJEÇÃO\",\n    \"ARMAZENAMENTO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"UNIDADES HABITACIONAIS\",\n    \"UNIDADES COMERCIAIS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Ensaios de Concreto\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Acústica\",\n      \"texto\": \"Ensaio de Desempenho Acustico para piso Ensaio de ruído aéreo e ruído de impacto em Laje de dorm.\"\n    },\n    {\n      \"tema\": \"Vedação\",\n      \"texto\": \"Ensaio de Desempenho Acustico para vedação externa Ensaio de isolamento a ruído aéreo em Fachada de dorm.\"\n    },\n    {\n      \"tema\": \"Impermeabilidade\",\n      \"texto\": \"Permeabilidade ao ar Estanqueidade a agua Resistencias a cargas uniformes distribuidas\"\n    },\n    {\n      \"tema\": \"Guarda-corpo\",\n      \"texto\": \"Determinação do esforço horizontal, esforço vertical e Resistencia a impactos\"\n    },\n    {\n      \"tema\": \"Argamassa de Revestimento\",\n      \"texto\": \"Determinação da aderencia a tração\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    },\n    {\n      \"tema\": \"Infraestrutura\",\n      \"texto\": \"Controle Tecnologico Infraestrutura - Coleta materiais da obra\"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto\"\n    },\n    {\n      \"tema\": \"Revestimento\",\n      \"texto\": \"Ensaio de arrancamento de argamassa de revestimento Determinação da aderencia a tração\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Escopo\",\n      \"descricao\": \"Repetições de pavimentos**\"\n    },\n    {\n      \"tipo\": \"Medição\",\n      \"descricao\": \"Altura de cobrimento da tela\"\n    },\n    {\n      \"tipo\": \"Definição\",\n      \"descricao\": \"Perímetro de encontro com pavimentação\"\n    },\n    {\n      \"tipo\": \"Detalhe\",\n      \"descricao\": \"Equipamentos de proteção coletiva\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Considerado as informações do Projeto de Segurança\",\n    \"Produtividade média (h/m2)\",\n    \"Controle Tecnológico - Coleta materiais da obra\",\n    \"Armazenamento de cerâmicas*\",\n    \"Armazenamento de placas degesso*\",\n    \"Armazenamento de contramarcos*\",\n    \"Armazenamento de portas e rodapés*\",\n    \"Armazenamento de esquadrias*\",\n    \"Central de armazenamento entre pavimentos\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    },\n    {\n      \"contexto\": \"Sistemas\",\n      \"decisao\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n    },\n    {\n      \"contexto\": \"Sistemas\",\n      \"decisao\": \"CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO\"\n    },\n    {\n      \"contexto\": \"Materiais\",\n      \"decisao\": \"ESQUADRIAS, VIDROS E FERRAGENS\"\n    },\n    {\n      \"contexto\": \"Equipamentos\",\n      \"decisao\": \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "ACABAMENTOS INTERNOS EM PAREDE",
+      "REVESTIMENTOS ARGAMASSADOS",
+      "CONTROLE TECNOLÓGICO",
+      "PERÍMETRO DE PROJEÇÃO",
+      "ARMAZENAMENTO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "UNIDADES HABITACIONAIS",
+      "UNIDADES COMERCIAIS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Ensaios de Concreto",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Acústica",
+        "texto": "Ensaio de Desempenho Acustico para piso Ensaio de ruído aéreo e ruído de impacto em Laje de dorm."
+      },
+      {
+        "tema": "Vedação",
+        "texto": "Ensaio de Desempenho Acustico para vedação externa Ensaio de isolamento a ruído aéreo em Fachada de dorm."
+      },
+      {
+        "tema": "Impermeabilidade",
+        "texto": "Permeabilidade ao ar Estanqueidade a agua Resistencias a cargas uniformes distribuidas"
+      },
+      {
+        "tema": "Guarda-corpo",
+        "texto": "Determinação do esforço horizontal, esforço vertical e Resistencia a impactos"
+      },
+      {
+        "tema": "Argamassa de Revestimento",
+        "texto": "Determinação da aderencia a tração"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      },
+      {
+        "tema": "Infraestrutura",
+        "texto": "Controle Tecnologico Infraestrutura - Coleta materiais da obra"
+      },
+      {
+        "tema": "Concreto",
+        "texto": "Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto"
+      },
+      {
+        "tema": "Revestimento",
+        "texto": "Ensaio de arrancamento de argamassa de revestimento Determinação da aderencia a tração"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Escopo",
+        "descricao": "Repetições de pavimentos**"
+      },
+      {
+        "tipo": "Medição",
+        "descricao": "Altura de cobrimento da tela"
+      },
+      {
+        "tipo": "Definição",
+        "descricao": "Perímetro de encontro com pavimentação"
+      },
+      {
+        "tipo": "Detalhe",
+        "descricao": "Equipamentos de proteção coletiva"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Considerado as informações do Projeto de Segurança",
+      "Produtividade média (h/m2)",
+      "Controle Tecnológico - Coleta materiais da obra",
+      "Armazenamento de cerâmicas*",
+      "Armazenamento de placas degesso*",
+      "Armazenamento de contramarcos*",
+      "Armazenamento de portas e rodapés*",
+      "Armazenamento de esquadrias*",
+      "Central de armazenamento entre pavimentos"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "contexto": "Sistemas",
+        "decisao": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+      },
+      {
+        "contexto": "Sistemas",
+        "decisao": "CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO"
+      },
+      {
+        "contexto": "Materiais",
+        "decisao": "ESQUADRIAS, VIDROS E FERRAGENS"
+      },
+      {
+        "contexto": "Equipamentos",
+        "decisao": "EQUIPAMENTOS E SISTEMAS ESPECIAIS"
+      }
+    ]
+  }
+}

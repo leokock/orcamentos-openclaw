@@ -1,0 +1,43 @@
+{
+  "projeto": "arv-ingleses-spot",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:43:22",
+  "duration_s": 56.2,
+  "compact_chars": 4120,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Alvenaria de vedação de blocos cerâmicos furados 9x19x39 cm e argamassa usinada\",\n    \"Alvenaria de vedação com bocos de concreto\",\n    \"Massa unica para reboco externo em argamassa usinada preparada em central - 2,5 a 3 cm - aplicação manual\",\n    \"Mão de obra Alvenaria de vedação de blocos cerâmicos\",\n    \"Pintura acrílica aplicação em paredes externas - 1 demão\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Reboco externo\",\n      \"texto\": \"em argamassa usinada preparada em central - 2,5 a 3 cm - aplicação manual\"\n    },\n    {\n      \"tema\": \"Pintura acrílica\",\n      \"texto\": \"1 demão\"\n    },\n    {\n      \"tema\": \"Chapisco\",\n      \"texto\": \"aplicado em estruturas de concreto - aplicação em paredes externas\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Mão de obra\",\n    \"aplicação em paredes externas\",\n    \"argamassa usinada preparada em central\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Quantitativo\",\n      \"decisao\": \"DESCONSIDERAR A LÃ DE VIDRO LA DE VIDRO, 2 cm\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Alvenaria de vedação de blocos cerâmicos furados 9x19x39 cm e argamassa usinada",
+      "Alvenaria de vedação com bocos de concreto",
+      "Massa unica para reboco externo em argamassa usinada preparada em central - 2,5 a 3 cm - aplicação manual",
+      "Mão de obra Alvenaria de vedação de blocos cerâmicos",
+      "Pintura acrílica aplicação em paredes externas - 1 demão"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Reboco externo",
+        "texto": "em argamassa usinada preparada em central - 2,5 a 3 cm - aplicação manual"
+      },
+      {
+        "tema": "Pintura acrílica",
+        "texto": "1 demão"
+      },
+      {
+        "tema": "Chapisco",
+        "texto": "aplicado em estruturas de concreto - aplicação em paredes externas"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Mão de obra",
+      "aplicação em paredes externas",
+      "argamassa usinada preparada em central"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Quantitativo",
+        "decisao": "DESCONSIDERAR A LÃ DE VIDRO LA DE VIDRO, 2 cm"
+      }
+    ]
+  }
+}

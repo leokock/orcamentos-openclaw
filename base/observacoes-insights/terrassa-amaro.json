@@ -1,0 +1,65 @@
+{
+  "projeto": "terrassa-amaro",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:08:48",
+  "duration_s": 75.5,
+  "compact_chars": 4138,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"INSTALAÇÕES ELÉTRICAS\",\n    \"INSTALAÇÕES HIDROSSANITÁRIAS\",\n    \"REVESTIMENTOS\",\n    \"ESQUADRIAS\",\n    \"TERRENO\",\n    \"EQUIPE TÉCNICA\",\n    \"COMPATIBILIZAÇÃO\",\n    \"CUSTOS INDIRETOS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Custos Indiretos\",\n      \"texto\": \"OS CUSTOS INDIRETOS FORAM LANÇADOS SEGUINDO FORMULÁRIO DE CUSTOS INDIRETOS PREENCHIDO EM 24/11/2023 PELO FLÁVIO\"\n    },\n    {\n      \"tema\": \"Custos Indiretos\",\n      \"texto\": \"Valor preenchido em formulário de custos indiretos, preenchido em 24/11/2023 pelo Flávio\"\n    },\n    {\n      \"tema\": \"Coordenação\",\n      \"texto\": \"COORDENAÇÃO E COMPATIBILIZAÇÃO PROJETOS\"\n    },\n    {\n      \"tema\": \"Coordenação\",\n      \"texto\": \"Coordenação e Compatibilização de Projetos em BIM\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Equipe Técnica / Terceirizado\",\n    \"Equipe Técnica / Engenheiro Civil (Rateio Obras)\",\n    \"Equipe Técnica / Mestre de Obras\",\n    \"Equipe Técnica / Guincheiro\",\n    \"Equipe Técnica / Almoxarife\",\n    \"Solo criado / Outroga onerosa\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Terreno\",\n      \"decisao\": \"Terreno / Despesas com Estudos e Viabilidade\"\n    },\n    {\n      \"contexto\": \"Terreno\",\n      \"decisao\": \"Solo criado / Outroga onerosa\"\n    },\n    {\n      \"contexto\": \"Terreno\",\n      \"decisao\": \"TERRENO (DESPESAS RETIFICAÇÃO, UNIFICAÇÃO E/OU DESMEMBRAMENTO)\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"DESPESAS COM REGISTRO DE INCORPORAÇÃO\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "INSTALAÇÕES ELÉTRICAS",
+      "INSTALAÇÕES HIDROSSANITÁRIAS",
+      "REVESTIMENTOS",
+      "ESQUADRIAS",
+      "TERRENO",
+      "EQUIPE TÉCNICA",
+      "COMPATIBILIZAÇÃO",
+      "CUSTOS INDIRETOS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Custos Indiretos",
+        "texto": "OS CUSTOS INDIRETOS FORAM LANÇADOS SEGUINDO FORMULÁRIO DE CUSTOS INDIRETOS PREENCHIDO EM 24/11/2023 PELO FLÁVIO"
+      },
+      {
+        "tema": "Custos Indiretos",
+        "texto": "Valor preenchido em formulário de custos indiretos, preenchido em 24/11/2023 pelo Flávio"
+      },
+      {
+        "tema": "Coordenação",
+        "texto": "COORDENAÇÃO E COMPATIBILIZAÇÃO PROJETOS"
+      },
+      {
+        "tema": "Coordenação",
+        "texto": "Coordenação e Compatibilização de Projetos em BIM"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Equipe Técnica / Terceirizado",
+      "Equipe Técnica / Engenheiro Civil (Rateio Obras)",
+      "Equipe Técnica / Mestre de Obras",
+      "Equipe Técnica / Guincheiro",
+      "Equipe Técnica / Almoxarife",
+      "Solo criado / Outroga onerosa"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Terreno",
+        "decisao": "Terreno / Despesas com Estudos e Viabilidade"
+      },
+      {
+        "contexto": "Terreno",
+        "decisao": "Solo criado / Outroga onerosa"
+      },
+      {
+        "contexto": "Terreno",
+        "decisao": "TERRENO (DESPESAS RETIFICAÇÃO, UNIFICAÇÃO E/OU DESMEMBRAMENTO)"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "DESPESAS COM REGISTRO DE INCORPORAÇÃO"
+      }
+    ]
+  }
+}

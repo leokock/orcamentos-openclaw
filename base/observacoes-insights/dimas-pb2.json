@@ -1,0 +1,32 @@
+{
+  "projeto": "dimas-pb2",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:34:47",
+  "duration_s": 53.8,
+  "compact_chars": 489,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"REVESTIMENTOS\",\n    \"ACABAMENTOS\",\n    \"PISO E PAREDE\"\n  ],\n  \"justificativas_tecnicas\": [],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n      \"decisao\": \"Inclusão de sistemas de utilidades e segurança.\"\n    },\n    {\n      \"contexto\": \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\",\n      \"decisao\": \"Orçamento para equipamentos e sistemas não padronizados.\"\n    },\n    {\n      \"contexto\": \"IMPREVISTOS E CONTINGÊNCIAS\",\n      \"decisao\": \"Reserva orçamentária para riscos não mapeados.\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "REVESTIMENTOS",
+      "ACABAMENTOS",
+      "PISO E PAREDE"
+    ],
+    "justificativas_tecnicas": [],
+    "flags_risco": [],
+    "padroes_orcamentista": [],
+    "decisoes_criticas": [
+      {
+        "contexto": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "decisao": "Inclusão de sistemas de utilidades e segurança."
+      },
+      {
+        "contexto": "EQUIPAMENTOS E SISTEMAS ESPECIAIS",
+        "decisao": "Orçamento para equipamentos e sistemas não padronizados."
+      },
+      {
+        "contexto": "IMPREVISTOS E CONTINGÊNCIAS",
+        "decisao": "Reserva orçamentária para riscos não mapeados."
+      }
+    ]
+  }
+}

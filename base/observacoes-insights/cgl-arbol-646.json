@@ -1,0 +1,67 @@
+{
+  "projeto": "cgl-arbol-646",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:02:49",
+  "duration_s": 96.1,
+  "compact_chars": 1726,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"blocos e baldrames\",\n    \"estacas\",\n    \"Armação aço CA-50\",\n    \"corte e dobra em obra\",\n    \"concreto usinado bombeável\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Escavação e fundações\",\n      \"texto\": \"Escavação manual para blocos de fundação e vigas baldrames, com previsão de forma#\"\n    },\n    {\n      \"tema\": \"Reaterro\",\n      \"texto\": \"Reaterro manual de valas para blocos e baldrames#\"\n    },\n    {\n      \"tema\": \"Concreto para estacas\",\n      \"texto\": \"Concreto usinado bombeável, para estacas, fck 25MPa, com brita 1, slump = 12+/-3, incluindo serviço de bombeamento#\"\n    },\n    {\n      \"tema\": \"Concreto para blocos e baldrames\",\n      \"texto\": \"Concreto usinado bombeável, para blocos e baldrames, Fck 30 MPa, com brita 1, SLUMP = 10+/-2, incluindo serviço de bombeamento#\"\n    },\n    {\n      \"tema\": \"Armação\",\n      \"texto\": \"Armação aço CA-50, diâmetro 12,5mm para blocos e baldrames - corte e dobra em obra#\"\n    },\n    {\n      \"tema\": \"Preparação de fôrmas\",\n      \"texto\": \"Fabricação de fôrma para blocos e baldrames, em chapas de madeira compensada resinada#\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Escopo Parcial\",\n      \"descricao\": \"com previsão de forma#\"\n    },\n    {\n      \"tipo\": \"Escopo Parcial\",\n      \"descricao\": \"para blocos e baldrames#\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"incluindo serviço de bombeamento#\",\n    \"corte e dobra em obra#\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Escavação manual para blocos de fundação e vigas baldrames\"\n    },\n    {\n      \"contexto\": \"Concreto\",\n      \"decisao\": \"Concreto usinado bombeável, para blocos e baldrames, Fck 30 MPa, com brita 1, SLUMP = 10+/-2, incluindo serviço de bombeamento#\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "blocos e baldrames",
+      "estacas",
+      "Armação aço CA-50",
+      "corte e dobra em obra",
+      "concreto usinado bombeável"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Escavação e fundações",
+        "texto": "Escavação manual para blocos de fundação e vigas baldrames, com previsão de forma#"
+      },
+      {
+        "tema": "Reaterro",
+        "texto": "Reaterro manual de valas para blocos e baldrames#"
+      },
+      {
+        "tema": "Concreto para estacas",
+        "texto": "Concreto usinado bombeável, para estacas, fck 25MPa, com brita 1, slump = 12+/-3, incluindo serviço de bombeamento#"
+      },
+      {
+        "tema": "Concreto para blocos e baldrames",
+        "texto": "Concreto usinado bombeável, para blocos e baldrames, Fck 30 MPa, com brita 1, SLUMP = 10+/-2, incluindo serviço de bombeamento#"
+      },
+      {
+        "tema": "Armação",
+        "texto": "Armação aço CA-50, diâmetro 12,5mm para blocos e baldrames - corte e dobra em obra#"
+      },
+      {
+        "tema": "Preparação de fôrmas",
+        "texto": "Fabricação de fôrma para blocos e baldrames, em chapas de madeira compensada resinada#"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Escopo Parcial",
+        "descricao": "com previsão de forma#"
+      },
+      {
+        "tipo": "Escopo Parcial",
+        "descricao": "para blocos e baldrames#"
+      }
+    ],
+    "padroes_orcamentista": [
+      "incluindo serviço de bombeamento#",
+      "corte e dobra em obra#"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Fundação",
+        "decisao": "Escavação manual para blocos de fundação e vigas baldrames"
+      },
+      {
+        "contexto": "Concreto",
+        "decisao": "Concreto usinado bombeável, para blocos e baldrames, Fck 30 MPa, com brita 1, SLUMP = 10+/-2, incluindo serviço de bombeamento#"
+      }
+    ]
+  }
+}

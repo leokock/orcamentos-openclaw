@@ -1,7 +1,7 @@
 # Fases Futuras — Roadmap Retomável
 
 _Criado em 2026-04-13 após conclusão das Fases 1-3 + Pacote v0.2._
-_Atualizado em 2026-04-14 madrugada após conclusão de TODAS as 15 fases._
+_Atualizado em 2026-04-14 madrugada após conclusão de TODAS as 17 fases._
 
 ## ✅ Estado atual — TODAS as fases concluídas
 
@@ -20,8 +20,13 @@ _Atualizado em 2026-04-14 madrugada após conclusão de TODAS as 15 fases._
 | **11** | Curvas ABC individuais (126) + master | ✅ |
 | **12** | Embutida na 10 v2 (PUs cross-projeto já agregados) | ✅ |
 | **13** | 29 novos índices derivados cross-projeto | ✅ |
-| **14** | Gemma sobre observações completas (em andamento, 20/126 em bg) | ⏳ |
+| **14** | Gemma sobre observações completas — 126/126 em 170 min (883 temas, 179 flags risco, 646 justificativas) | ✅ |
 | **15** | base-indices-master.json consolidado (322 KB) | ✅ |
+| **16a** | Quantitativos BIM v2 (geometric bbox via ifcopenshell.geom) — 3 projetos | ✅ |
+| **16b** | Quantitativos DXF (ezdxf TEXT/MTEXT/layers) — thozen 21 DXFs | ✅ |
+| **16c** | Quantitativos PDF (pypdf áreas/unidades) — placon 14 PDFs | ✅ |
+| **16d** | Consolidação BIM+DXF+PDF por projeto (`quantitativos-consolidados/`) | ✅ |
+| **17** | Memoriais de extração (`memorial-extracao-{slug}.md`) — Arthen/Placon/Thozen com cross-ref a 4.210 PUs + 29 índices | ✅ |
 
 ## 🎁 Resultados tangíveis
 
@@ -33,11 +38,11 @@ _Atualizado em 2026-04-14 madrugada após conclusão de TODAS as 15 fases._
 
 ## 🔜 Pendências e oportunidades futuras
 
-- **Fase 14** ainda rodando em background (Gemma sobre observações completas — ~3h total)
 - **Revisão Arthen**: comparar v2 antigo (R$ 42,6M) vs v2.1 novo (R$ 36,5M) — decisão pendente
 - **Cópia pra Drive**: pacotes aprovados via `copiar_pacotes_drive.py --confirm`
-- **Fase 16 sugerida**: cronograma + curva S a partir das fórmulas Excel capturadas na Fase 9
-- **Fase 17 sugerida**: dashboard interativo dos índices derivados (HTML ou Streamlit)
+- **Cronograma + curva S** a partir das fórmulas Excel capturadas na Fase 9
+- **Dashboard interativo** dos índices derivados (HTML ou Streamlit)
+- **Quantitativos para os outros 123 projetos** (rodar 16a/b/c/d em batch)
 - **Upgrade Gemma**: se GPU mudar, rodar Fase 2/3/4/14 com gemma4:26b pra melhor precisão
 
 Todos os scripts estão em `~/orcamentos-openclaw/scripts/`.

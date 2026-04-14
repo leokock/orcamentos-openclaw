@@ -1,0 +1,95 @@
+{
+  "projeto": "pass-e-connect",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:53:57",
+  "duration_s": 101.9,
+  "compact_chars": 4125,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto Arquitetônico\",\n    \"Projeto técnico de fachada\",\n    \"Projeto elétrico/comunicação/telefonia\",\n    \"Bloco Concreto Estrutural\",\n    \"Armazenamento de cerâmicas*\",\n    \"Armazenamento de placas degesso*\",\n    \"Armazenamento de portas e rodapés*\",\n    \"Custo da Aba Canteiro / pelo Prazo de Obra\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Impermeabilização\",\n      \"texto\": \"Membrana Impermeável com Primer asfaltico\"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Concreto Usinado bombeável 20MPa Convencional\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"NBR 6136\"\n    },\n    {\n      \"tema\": \"Madeira\",\n      \"texto\": \"NBR 11700/15696\"\n    },\n    {\n      \"tema\": \"Aço\",\n      \"texto\": \"TELA ACO CARBONO CA60 M.150X150MM F.03,4MM 245X600CM Q61 (14,26KG/UN)\"\n    },\n    {\n      \"tema\": \"Aço\",\n      \"texto\": \"TELA ACO CARBONO CA60 M.150X150MM F.04,2MM 245X600CM Q92 (21,8KG/UN)\"\n    },\n    {\n      \"tema\": \"Aço\",\n      \"texto\": \"TELA ACO CARBONO CA60 M.100X100MM F.04,2MM 245X600CM Q138 (32,34KG/UN)\"\n    },\n    {\n      \"tema\": \"Alvenaria\",\n      \"texto\": \"TELA DE ACO SOLDADA GALVANIZADA/ZINCADA PARA ALVENARIA, FIO D = *1,20 A 1,70* MM, MALHA 15 X 15 MM, (C X L) *50 X 17,5* CM\"\n    },\n    {\n      \"tema\": \"Armadura\",\n      \"texto\": \"Armação aço Média para estaca (Corte e Dobra em Obra)\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"BLOCO CONCRETO ESTRUTURAL 03MPA 14X19X39CM NBR 6136\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimativas Custos Indiretos\"\n    },\n    {\n      \"tipo\": \"Projeto Incompleto\",\n      \"descricao\": \"Projeto elétrico - Provisório\"\n    },\n    {\n      \"tipo\": \"Informação Complementar\",\n      \"descricao\": \"Informações complementares de Estudos\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Custo da Aba Canteiro / pelo Prazo de Obra\",\n    \"Memorial Descritivo - PASS CONNECT\",\n    \"Complementares\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Estudos\",\n      \"decisao\": \"Estudo Rebaixamento de Lençol Freático\"\n    },\n    {\n      \"contexto\": \"Legalização\",\n      \"decisao\": \"Legalização de incorporação\"\n    },\n    {\n      \"contexto\": \"Fachada\",\n      \"decisao\": \"Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto Arquitetônico",
+      "Projeto técnico de fachada",
+      "Projeto elétrico/comunicação/telefonia",
+      "Bloco Concreto Estrutural",
+      "Armazenamento de cerâmicas*",
+      "Armazenamento de placas degesso*",
+      "Armazenamento de portas e rodapés*",
+      "Custo da Aba Canteiro / pelo Prazo de Obra"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Impermeabilização",
+        "texto": "Membrana Impermeável com Primer asfaltico"
+      },
+      {
+        "tema": "Concreto",
+        "texto": "Concreto Usinado bombeável 20MPa Convencional"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "NBR 6136"
+      },
+      {
+        "tema": "Madeira",
+        "texto": "NBR 11700/15696"
+      },
+      {
+        "tema": "Aço",
+        "texto": "TELA ACO CARBONO CA60 M.150X150MM F.03,4MM 245X600CM Q61 (14,26KG/UN)"
+      },
+      {
+        "tema": "Aço",
+        "texto": "TELA ACO CARBONO CA60 M.150X150MM F.04,2MM 245X600CM Q92 (21,8KG/UN)"
+      },
+      {
+        "tema": "Aço",
+        "texto": "TELA ACO CARBONO CA60 M.100X100MM F.04,2MM 245X600CM Q138 (32,34KG/UN)"
+      },
+      {
+        "tema": "Alvenaria",
+        "texto": "TELA DE ACO SOLDADA GALVANIZADA/ZINCADA PARA ALVENARIA, FIO D = *1,20 A 1,70* MM, MALHA 15 X 15 MM, (C X L) *50 X 17,5* CM"
+      },
+      {
+        "tema": "Armadura",
+        "texto": "Armação aço Média para estaca (Corte e Dobra em Obra)"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "BLOCO CONCRETO ESTRUTURAL 03MPA 14X19X39CM NBR 6136"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimativas Custos Indiretos"
+      },
+      {
+        "tipo": "Projeto Incompleto",
+        "descricao": "Projeto elétrico - Provisório"
+      },
+      {
+        "tipo": "Informação Complementar",
+        "descricao": "Informações complementares de Estudos"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Custo da Aba Canteiro / pelo Prazo de Obra",
+      "Memorial Descritivo - PASS CONNECT",
+      "Complementares"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Estudos",
+        "decisao": "Estudo Rebaixamento de Lençol Freático"
+      },
+      {
+        "contexto": "Legalização",
+        "decisao": "Legalização de incorporação"
+      },
+      {
+        "contexto": "Fachada",
+        "decisao": "Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes"
+      }
+    ]
+  }
+}

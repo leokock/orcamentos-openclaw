@@ -1,0 +1,49 @@
+{
+  "projeto": "cambert-portal-da-brava",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:00:07",
+  "duration_s": 69.5,
+  "compact_chars": 1102,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"PROJETO ARQUITETÔNICO\",\n    \"PROJETO DE FACHADA\",\n    \"LAUDO\",\n    \"ESTUDOS, PROJETOS E CONSULTORIAS\",\n    \"PROJETO TÉCNICO DE FACHADA\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Revisão de Materiais\",\n      \"texto\": \"REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Legal\",\n      \"descricao\": \"LEGALIZAÇÃO DE INCORPORAÇÃO*\"\n    },\n    {\n      \"tipo\": \"Legal\",\n      \"descricao\": \"PROJETO ARQUITETÔNICO LEGAL*\"\n    },\n    {\n      \"tipo\": \"Risco Externo\",\n      \"descricao\": \"LAUDO PREVENTIVO DE DANOS À VIZINHANÇA*\"\n    }\n  ],\n  \"padroes_orcamentista\": [],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Atualização de materiais\",\n      \"decisao\": \"REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA\"\n    },\n    {\n      \"contexto\": \"Escopo legal\",\n      \"decisao\": \"LEGALIZAÇÃO DE INCORPORAÇÃO*\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "PROJETO ARQUITETÔNICO",
+      "PROJETO DE FACHADA",
+      "LAUDO",
+      "ESTUDOS, PROJETOS E CONSULTORIAS",
+      "PROJETO TÉCNICO DE FACHADA"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Revisão de Materiais",
+        "texto": "REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Legal",
+        "descricao": "LEGALIZAÇÃO DE INCORPORAÇÃO*"
+      },
+      {
+        "tipo": "Legal",
+        "descricao": "PROJETO ARQUITETÔNICO LEGAL*"
+      },
+      {
+        "tipo": "Risco Externo",
+        "descricao": "LAUDO PREVENTIVO DE DANOS À VIZINHANÇA*"
+      }
+    ],
+    "padroes_orcamentista": [],
+    "decisoes_criticas": [
+      {
+        "contexto": "Atualização de materiais",
+        "decisao": "REVISAO PARA EDICÃO DE MATERIAIS PELA OBRA"
+      },
+      {
+        "contexto": "Escopo legal",
+        "decisao": "LEGALIZAÇÃO DE INCORPORAÇÃO*"
+      }
+    ]
+  }
+}

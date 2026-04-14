@@ -1,0 +1,84 @@
+{
+  "projeto": "brasin-redentor",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:53:01",
+  "duration_s": 88.3,
+  "compact_chars": 4127,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"REVESTIMENTOS ARGAMASSADOS PISO\",\n    \"REVESTIMENTOS ARGAMASSADOS PAREDE\",\n    \"REVESTIMENTOS ARGAMASSADOS TETO\",\n    \"ACABAMENTOS INTERNOS EM PAREDE\",\n    \"ACABAMENTOS EM PISOS E PAVIMENTAÇÕES\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Cubetas\",\n      \"texto\": \"Informado em formulário que as cubetas já foram adquiridas.\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Revisão das cubetas, concreto e escoramento\"\n    },\n    {\n      \"tema\": \"PPCI\",\n      \"texto\": \"Revisaõ do barramento blindado e PPCI conforme proposta\"\n    },\n    {\n      \"tema\": \"Normas de Desempenho\",\n      \"texto\": \"Laudo de avaliação do cumprimento das normas de desempenho do edifício, normalmente executado para atestar parâmetros de desempenho térmico e acústico entre unidades\"\n    },\n    {\n      \"tema\": \"Projetos\",\n      \"texto\": \"Compatibilização de projetos BIM\"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Controle Tecnologico de Concreto\"\n    },\n    {\n      \"tema\": \"Acabamento\",\n      \"texto\": \"ajustado todas as cerâmicas para procelanatos para 90x90\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Considerado blocos, vigas de fundação, duto e cisterna\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Custo\",\n      \"descricao\": \"Custo repassado pela Brasin em revisão\"\n    },\n    {\n      \"tipo\": \"Prevenção\",\n      \"descricao\": \"Laudo preventivo de danos à vizinhança\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"NÚMERO DE UNIDADES HABITACIONAIS\",\n    \"NÚMERO DE UNIDADES COMERCIAIS\",\n    \"Considerado verba de 30% do que custaria para manutenção.\",\n    \"Considerado blocos, vigas de fundação, duto e cisterna\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Revestimentos\",\n      \"decisao\": \"ajustado todas as cerâmicas para procelanatos para 90x90\"\n    },\n    {\n      \"contexto\": \"Cisterna\",\n      \"decisao\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\"\n    },\n    {\n      \"contexto\": \"Reaterro\",\n      \"decisao\": \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "REVESTIMENTOS ARGAMASSADOS PISO",
+      "REVESTIMENTOS ARGAMASSADOS PAREDE",
+      "REVESTIMENTOS ARGAMASSADOS TETO",
+      "ACABAMENTOS INTERNOS EM PAREDE",
+      "ACABAMENTOS EM PISOS E PAVIMENTAÇÕES",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "ESQUADRIAS, VIDROS E FERRAGENS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Cubetas",
+        "texto": "Informado em formulário que as cubetas já foram adquiridas."
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Revisão das cubetas, concreto e escoramento"
+      },
+      {
+        "tema": "PPCI",
+        "texto": "Revisaõ do barramento blindado e PPCI conforme proposta"
+      },
+      {
+        "tema": "Normas de Desempenho",
+        "texto": "Laudo de avaliação do cumprimento das normas de desempenho do edifício, normalmente executado para atestar parâmetros de desempenho térmico e acústico entre unidades"
+      },
+      {
+        "tema": "Projetos",
+        "texto": "Compatibilização de projetos BIM"
+      },
+      {
+        "tema": "Concreto",
+        "texto": "Controle Tecnologico de Concreto"
+      },
+      {
+        "tema": "Acabamento",
+        "texto": "ajustado todas as cerâmicas para procelanatos para 90x90"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Considerado blocos, vigas de fundação, duto e cisterna"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Custo",
+        "descricao": "Custo repassado pela Brasin em revisão"
+      },
+      {
+        "tipo": "Prevenção",
+        "descricao": "Laudo preventivo de danos à vizinhança"
+      }
+    ],
+    "padroes_orcamentista": [
+      "NÚMERO DE UNIDADES HABITACIONAIS",
+      "NÚMERO DE UNIDADES COMERCIAIS",
+      "Considerado verba de 30% do que custaria para manutenção.",
+      "Considerado blocos, vigas de fundação, duto e cisterna"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Revestimentos",
+        "decisao": "ajustado todas as cerâmicas para procelanatos para 90x90"
+      },
+      {
+        "contexto": "Cisterna",
+        "decisao": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm"
+      },
+      {
+        "contexto": "Reaterro",
+        "decisao": "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira"
+      }
+    ]
+  }
+}

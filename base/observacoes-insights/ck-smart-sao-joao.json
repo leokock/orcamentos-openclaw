@@ -1,0 +1,63 @@
+{
+  "projeto": "ck-smart-sao-joao",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:21:32",
+  "duration_s": 96.6,
+  "compact_chars": 1497,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Instalações provisórias\",\n    \"Equipamento de Proteção Individual\",\n    \"Equipamento de Proteção Coletiva\",\n    \"Limpeza de Entulho\",\n    \"Fachada\",\n    \"Serviços Gerais\",\n    \"Contrato SPS\",\n    \"Contrato JKL\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Documentação de Segurança\",\n      \"texto\": \"Elaboração do Programa de Prevenção dos Riscos Ambientais (PPRA) - Contrato SPS - CT/508\"\n    },\n    {\n      \"tema\": \"Documentação de Segurança\",\n      \"texto\": \"Elaboração do Programa de Controle Médico de Saúde Ocupacional (PCMSO) - Contrato SPS - CT/508\"\n    },\n    {\n      \"tema\": \"Documentação de Segurança\",\n      \"texto\": \"Elaboração do Programa de Condições e meio Ambiente de Trabalho na Indústria de Construção (PCMAT) - Contrato SPS - CT/484\"\n    },\n    {\n      \"tema\": \"Serviços de Terraplanagem\",\n      \"texto\": \"Limpeza Mecânica de terreno - Contrato JKL Terraplanagem - CT/477\"\n    },\n    {\n      \"tema\": \"Demolição\",\n      \"texto\": \"Demolição Alvenaria sem Reaproveitamento - Contrato Terra Brasil - CT/426\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Contrato C.L.R. Entulhos - CT/439\",\n    \"Contrato JKL Terraplanagem - CT/477\",\n    \"Contrato União Fundações - CT/430\",\n    \"Contrato SPS - CT/508\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Demolição de Alvenaria\",\n      \"decisao\": \"sem Reaproveitamento - Contrato Terra Brasil - CT/426\"\n    },\n    {\n      \"contexto\": \"Cobertura de Obra\",\n      \"decisao\": \"Tapume de Obra com Telha Metálica\"\n    },\n    {\n      \"contexto\": \"Instalações Provisórias\",\n      \"decisao\": \"Redes de água fria, esgoto e drenagem\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Instalações provisórias",
+      "Equipamento de Proteção Individual",
+      "Equipamento de Proteção Coletiva",
+      "Limpeza de Entulho",
+      "Fachada",
+      "Serviços Gerais",
+      "Contrato SPS",
+      "Contrato JKL"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Documentação de Segurança",
+        "texto": "Elaboração do Programa de Prevenção dos Riscos Ambientais (PPRA) - Contrato SPS - CT/508"
+      },
+      {
+        "tema": "Documentação de Segurança",
+        "texto": "Elaboração do Programa de Controle Médico de Saúde Ocupacional (PCMSO) - Contrato SPS - CT/508"
+      },
+      {
+        "tema": "Documentação de Segurança",
+        "texto": "Elaboração do Programa de Condições e meio Ambiente de Trabalho na Indústria de Construção (PCMAT) - Contrato SPS - CT/484"
+      },
+      {
+        "tema": "Serviços de Terraplanagem",
+        "texto": "Limpeza Mecânica de terreno - Contrato JKL Terraplanagem - CT/477"
+      },
+      {
+        "tema": "Demolição",
+        "texto": "Demolição Alvenaria sem Reaproveitamento - Contrato Terra Brasil - CT/426"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Contrato C.L.R. Entulhos - CT/439",
+      "Contrato JKL Terraplanagem - CT/477",
+      "Contrato União Fundações - CT/430",
+      "Contrato SPS - CT/508"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Demolição de Alvenaria",
+        "decisao": "sem Reaproveitamento - Contrato Terra Brasil - CT/426"
+      },
+      {
+        "contexto": "Cobertura de Obra",
+        "decisao": "Tapume de Obra com Telha Metálica"
+      },
+      {
+        "contexto": "Instalações Provisórias",
+        "decisao": "Redes de água fria, esgoto e drenagem"
+      }
+    ]
+  }
+}

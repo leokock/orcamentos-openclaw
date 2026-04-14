@@ -1,0 +1,99 @@
+{
+  "projeto": "fonseca-empreendimentos-estoril",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:49:15",
+  "duration_s": 95.4,
+  "compact_chars": 4157,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Perímetro de projeção\",\n    \"m² de 2 tipo\",\n    \"m² de 1 tipo\",\n    \"ACABAMENTOS DE PISO E PAREDE\",\n    \"REVESTIMENTOS ARGAMASSADOS\",\n    \"INSTALAÇÕES HIDROSSANITÁRIAS\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"EQUIPAMENTOS E SISTEMAS ESPECIAIS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Cálculo de áreas\",\n      \"texto\": \"m² de 2 tipos, pavimentos já multiplicados por 10x\"\n    },\n    {\n      \"tema\": \"Cálculo de áreas\",\n      \"texto\": \"m² de 1 tipo, multiplicar por 2\"\n    },\n    {\n      \"tema\": \"Projeto de Segurança\",\n      \"texto\": \"* Considerado as informações do Projeto de Segurança\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Repetições de pavimentos**\"\n    },\n    {\n      \"tema\": \"Módulo de Elasticidade\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"A cada 5 pav. (e quando houver troca de fornecedor)\"\n    },\n    {\n      \"tema\": \"Portas de elevadores\",\n      \"texto\": \"Quantidade de portas de elevadores\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Documentação\",\n      \"descricao\": \"Sem formulário, medidas do AutoCad\"\n    },\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"IMPREVISTOS E CONTINGÊNCIAS\"\n    },\n    {\n      \"tipo\": \"Estoque/Armazenamento\",\n      \"descricao\": \"Armazenamento de portas e rodapés*\"\n    },\n    {\n      \"tipo\": \"Estoque/Armazenamento\",\n      \"descricao\": \"Armazenamento de esquadrias*\"\n    },\n    {\n      \"tipo\": \"Estoque/Armazenamento\",\n      \"descricao\": \"Armazenamento para estoque geral*\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"NÚMERO DE UNIDADES HABITACIONAIS\",\n    \"NÚMERO DE UNIDADES COMERCIAIS\",\n    \"GERENCIAMENTO TÉCNICO E ADMISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"ACABAMENTOS INTERNOS EM PAREDE\",\n    \"ACABAMENTOS EM PISOS E PAVIMENTAÇÕES\",\n    \"Perímetro de projeção\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo Geral\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMISTRATIVO\"\n    },\n    {\n      \"contexto\": \"Segurança Estrutural\",\n      \"decisao\": \"Guarda - corpo de desforma\"\n    },\n    {\n      \"contexto\": \"Utilidades\",\n      \"decisao\": \"Instalação de sinalizador noturno\"\n    },\n    {\n      \"contexto\": \"Detalhamento de Segurança\",\n      \"decisao\": \"Sinalização com fita fixada em cone\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Perímetro de projeção",
+      "m² de 2 tipo",
+      "m² de 1 tipo",
+      "ACABAMENTOS DE PISO E PAREDE",
+      "REVESTIMENTOS ARGAMASSADOS",
+      "INSTALAÇÕES HIDROSSANITÁRIAS",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "EQUIPAMENTOS E SISTEMAS ESPECIAIS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Cálculo de áreas",
+        "texto": "m² de 2 tipos, pavimentos já multiplicados por 10x"
+      },
+      {
+        "tema": "Cálculo de áreas",
+        "texto": "m² de 1 tipo, multiplicar por 2"
+      },
+      {
+        "tema": "Projeto de Segurança",
+        "texto": "* Considerado as informações do Projeto de Segurança"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Repetições de pavimentos**"
+      },
+      {
+        "tema": "Módulo de Elasticidade",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "A cada 5 pav. (e quando houver troca de fornecedor)"
+      },
+      {
+        "tema": "Portas de elevadores",
+        "texto": "Quantidade de portas de elevadores"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Documentação",
+        "descricao": "Sem formulário, medidas do AutoCad"
+      },
+      {
+        "tipo": "Estimativa",
+        "descricao": "IMPREVISTOS E CONTINGÊNCIAS"
+      },
+      {
+        "tipo": "Estoque/Armazenamento",
+        "descricao": "Armazenamento de portas e rodapés*"
+      },
+      {
+        "tipo": "Estoque/Armazenamento",
+        "descricao": "Armazenamento de esquadrias*"
+      },
+      {
+        "tipo": "Estoque/Armazenamento",
+        "descricao": "Armazenamento para estoque geral*"
+      }
+    ],
+    "padroes_orcamentista": [
+      "NÚMERO DE UNIDADES HABITACIONAIS",
+      "NÚMERO DE UNIDADES COMERCIAIS",
+      "GERENCIAMENTO TÉCNICO E ADMISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "ACABAMENTOS INTERNOS EM PAREDE",
+      "ACABAMENTOS EM PISOS E PAVIMENTAÇÕES",
+      "Perímetro de projeção"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo Geral",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMISTRATIVO"
+      },
+      {
+        "contexto": "Segurança Estrutural",
+        "decisao": "Guarda - corpo de desforma"
+      },
+      {
+        "contexto": "Utilidades",
+        "decisao": "Instalação de sinalizador noturno"
+      },
+      {
+        "contexto": "Detalhamento de Segurança",
+        "decisao": "Sinalização com fita fixada em cone"
+      }
+    ]
+  }
+}

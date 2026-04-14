@@ -1,0 +1,95 @@
+{
+  "projeto": "muller-empreendimentos-elleva",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:23:56",
+  "duration_s": 85.6,
+  "compact_chars": 4136,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Escavação Mecânica de Solo Exceto Rocha até 4m\",\n    \"Armação aço CA-50\",\n    \"Fundação\",\n    \"Projeto\",\n    \"Considerado\",\n    \"Forma lateral: Perímetro da laje * 16cm de altura\",\n    \"IMPERMEABILIZAÇÃO DO BALDRAME\",\n    \"Perda\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Concreto Usinado bombeável 40MPa - incluindo serviço de bombeamento - (30% perda na composição )\"\n    },\n    {\n      \"tema\": \"Escavação\",\n      \"texto\": \"Considerado empolamento 30% da escavação\"\n    },\n    {\n      \"tema\": \"Blocos/Vigas\",\n      \"texto\": \"Considerado blocos, vigas de fundação\"\n    },\n    {\n      \"tema\": \"Projeto\",\n      \"texto\": \"Quantidade projeto / Custo conforme proposta enviada pelo Alan\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Consideração de 30% de perda de concreto:\"\n    },\n    {\n      \"tema\": \"Estrutura\",\n      \"texto\": \"Aparentemente o projetista está considerando o fundo da forma\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"IMPERMEABILIZAÇÃO DO BALDRAME\"\n    },\n    {\n      \"tema\": \"Forma\",\n      \"texto\": \"Forma para blocos e vigas de fundação em compensado plastificado 12mm\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Considerado sem indicação em projeto\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Loteamento\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Escopo/Projeto\",\n      \"descricao\": \"Considerado sem indicação em projeto\"\n    },\n    {\n      \"tipo\": \"Cálculo\",\n      \"descricao\": \"(30% perda na composição )\"\n    },\n    {\n      \"tipo\": \"Dados\",\n      \"descricao\": \"Sua versão do Excel permite que você leia este comentário encadeado, no entanto, as edições serão removidas se o arquivo for aberto em uma versão mais recente do Excel. Saiba m\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"QUANTIDADE POR ITEM CA-50 - m\",\n    \"QUANTIDADE POR ITEM CA-50 - KG\",\n    \"Forma lateral: Perímetro da laje * 16cm de altura\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Perfuração da fundação profunda\",\n      \"decisao\": \"Custo alterado conforme solicitado na reunião do dia 07/11/2024\"\n    },\n    {\n      \"contexto\": \"Armação aço CA-50 ø 16,0mm para estaca (corte e dobra em obra)\",\n      \"decisao\": \"Quantidade projeto / Custo conforme proposta enviada pelo Alan\"\n    },\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Concreto Usinado bombeável 40MPa - incluindo serviço de bombeamento - (30% perda na composição )\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Escavação Mecânica de Solo Exceto Rocha até 4m",
+      "Armação aço CA-50",
+      "Fundação",
+      "Projeto",
+      "Considerado",
+      "Forma lateral: Perímetro da laje * 16cm de altura",
+      "IMPERMEABILIZAÇÃO DO BALDRAME",
+      "Perda"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Concreto",
+        "texto": "Concreto Usinado bombeável 40MPa - incluindo serviço de bombeamento - (30% perda na composição )"
+      },
+      {
+        "tema": "Escavação",
+        "texto": "Considerado empolamento 30% da escavação"
+      },
+      {
+        "tema": "Blocos/Vigas",
+        "texto": "Considerado blocos, vigas de fundação"
+      },
+      {
+        "tema": "Projeto",
+        "texto": "Quantidade projeto / Custo conforme proposta enviada pelo Alan"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Consideração de 30% de perda de concreto:"
+      },
+      {
+        "tema": "Estrutura",
+        "texto": "Aparentemente o projetista está considerando o fundo da forma"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "IMPERMEABILIZAÇÃO DO BALDRAME"
+      },
+      {
+        "tema": "Forma",
+        "texto": "Forma para blocos e vigas de fundação em compensado plastificado 12mm"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Considerado sem indicação em projeto"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Loteamento"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Escopo/Projeto",
+        "descricao": "Considerado sem indicação em projeto"
+      },
+      {
+        "tipo": "Cálculo",
+        "descricao": "(30% perda na composição )"
+      },
+      {
+        "tipo": "Dados",
+        "descricao": "Sua versão do Excel permite que você leia este comentário encadeado, no entanto, as edições serão removidas se o arquivo for aberto em uma versão mais recente do Excel. Saiba m"
+      }
+    ],
+    "padroes_orcamentista": [
+      "QUANTIDADE POR ITEM CA-50 - m",
+      "QUANTIDADE POR ITEM CA-50 - KG",
+      "Forma lateral: Perímetro da laje * 16cm de altura"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Perfuração da fundação profunda",
+        "decisao": "Custo alterado conforme solicitado na reunião do dia 07/11/2024"
+      },
+      {
+        "contexto": "Armação aço CA-50 ø 16,0mm para estaca (corte e dobra em obra)",
+        "decisao": "Quantidade projeto / Custo conforme proposta enviada pelo Alan"
+      },
+      {
+        "contexto": "Fundação",
+        "decisao": "Concreto Usinado bombeável 40MPa - incluindo serviço de bombeamento - (30% perda na composição )"
+      }
+    ]
+  }
+}

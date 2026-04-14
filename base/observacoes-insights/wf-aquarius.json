@@ -1,0 +1,79 @@
+{
+  "projeto": "wf-aquarius",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:16:03",
+  "duration_s": 85.3,
+  "compact_chars": 4142,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS INTERNOS DE PAREDE\",\n    \"REVESTIMENTOS INTERNOS DE TETO\",\n    \"REVESTIMENTOS E ACABAMENTOS EM FACHADA\",\n    \"8º ao 28º Pavimento Tipos (X21)\",\n    \"Perímetro de projeção torre\",\n    \"SISTEMAS DE PINTURA INTERNA\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Controle Tecnológico\",\n      \"texto\": \"CONTROLE TECNOLÓGICO - CONCRETO\"\n    },\n    {\n      \"tema\": \"Infraestrutura\",\n      \"texto\": \"Controle Tecnologico Infraestrutura - Coleta materiais da obra\"\n    },\n    {\n      \"tema\": \"Ensaio de Concreto\",\n      \"texto\": \"Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto\"\n    },\n    {\n      \"tema\": \"Testes de Concreto\",\n      \"texto\": \"4 CPs por caminhão betoneira de 8m³\"\n    },\n    {\n      \"tema\": \"Supraestrutura\",\n      \"texto\": \"Controle Tecnologico Supraestrutura - Coleta materiais da obra\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimado com base em índices históricos\"\n    },\n    {\n      \"tipo\": \"Escopo\",\n      \"descricao\": \"Repetições de pavimentos**\"\n    },\n    {\n      \"tipo\": \"Logística\",\n      \"descricao\": \"* Central de armazenamento entre pavimentos\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Equipamentos de proteção coletiva\",\n    \"Área das portas de elevadores\",\n    \"Adição de outorga onerosa, LAP LAI e LAO - Ajustes de EPC - Redução de equipe administrativa - ajustado para 57 meses - adição de gerador - ajuste prazo de equipamentos\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Versões\",\n      \"decisao\": \"Adição de outorga onerosa, LAP LAI e LAO - Ajustes de EPC - Redução de equipe administrativa - ajustado para 57 meses - adição de gerador - ajuste prazo de equipamentos\"\n    },\n    {\n      \"contexto\": \"Revestimentos\",\n      \"decisao\": \"Troca de chapisco por arg estabilizada\"\n    },\n    {\n      \"contexto\": \"Acabamentos\",\n      \"decisao\": \"Troca de escadas em pintura epoxi para acrlica\"\n    },\n    {\n      \"contexto\": \"Sistemas\",\n      \"decisao\": \"CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS INTERNOS DE PAREDE",
+      "REVESTIMENTOS INTERNOS DE TETO",
+      "REVESTIMENTOS E ACABAMENTOS EM FACHADA",
+      "8º ao 28º Pavimento Tipos (X21)",
+      "Perímetro de projeção torre",
+      "SISTEMAS DE PINTURA INTERNA"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Controle Tecnológico",
+        "texto": "CONTROLE TECNOLÓGICO - CONCRETO"
+      },
+      {
+        "tema": "Infraestrutura",
+        "texto": "Controle Tecnologico Infraestrutura - Coleta materiais da obra"
+      },
+      {
+        "tema": "Ensaio de Concreto",
+        "texto": "Controle Tecnológico - Ensaio de concreto endurecido/grouth - compressão simples / Detalhe: Concreto"
+      },
+      {
+        "tema": "Testes de Concreto",
+        "texto": "4 CPs por caminhão betoneira de 8m³"
+      },
+      {
+        "tema": "Supraestrutura",
+        "texto": "Controle Tecnologico Supraestrutura - Coleta materiais da obra"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimado com base em índices históricos"
+      },
+      {
+        "tipo": "Escopo",
+        "descricao": "Repetições de pavimentos**"
+      },
+      {
+        "tipo": "Logística",
+        "descricao": "* Central de armazenamento entre pavimentos"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Equipamentos de proteção coletiva",
+      "Área das portas de elevadores",
+      "Adição de outorga onerosa, LAP LAI e LAO - Ajustes de EPC - Redução de equipe administrativa - ajustado para 57 meses - adição de gerador - ajuste prazo de equipamentos"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Versões",
+        "decisao": "Adição de outorga onerosa, LAP LAI e LAO - Ajustes de EPC - Redução de equipe administrativa - ajustado para 57 meses - adição de gerador - ajuste prazo de equipamentos"
+      },
+      {
+        "contexto": "Revestimentos",
+        "decisao": "Troca de chapisco por arg estabilizada"
+      },
+      {
+        "contexto": "Acabamentos",
+        "decisao": "Troca de escadas em pintura epoxi para acrlica"
+      },
+      {
+        "contexto": "Sistemas",
+        "decisao": "CLIMATIZAÇÃO, EXAUSTÃO MECÂNICA E PRESSURIZAÇÃO"
+      }
+    ]
+  }
+}

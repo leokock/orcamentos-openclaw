@@ -1,0 +1,96 @@
+{
+  "projeto": "grandezza-gran-royal",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:53:46",
+  "duration_s": 89.3,
+  "compact_chars": 4153,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Grandezza Empreendimentos\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"Projeto Arquitetônico\",\n    \"Legalização\",\n    \"Escavação\",\n    \"Movimentação de terra para bota-fora\",\n    \"Lastro de estrutura de concreto\",\n    \"Consultoria técnica\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Escavação de volume do subsolo\",\n      \"texto\": \"estimado pelo corte e detalhes de contenção\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Considerado estimativa de blocos, vigas de fundação e pilares, devido a ausencia de projeto\"\n    },\n    {\n      \"tema\": \"Lastro de Concreto Magro\",\n      \"texto\": \"Altura de 10cm indicado em projet\"\n    },\n    {\n      \"tema\": \"Movimentação de terra para bota-fora\",\n      \"texto\": \"Volume de subsolo com 30% de empolamento\"\n    },\n    {\n      \"tema\": \"Movimentação de terra para bota-fora\",\n      \"texto\": \"Volume de valas com 30% de empolamento\"\n    },\n    {\n      \"tema\": \"Movimentação de terra para bota-fora\",\n      \"texto\": \"Volume de estacas com 30% de empolamento\"\n    },\n    {\n      \"tema\": \"Movimentação de terra para bota-fora\",\n      \"texto\": \"Volume de contenção e apoios com 30% de empolamento\"\n    },\n    {\n      \"tema\": \"Controle tecnológico\",\n      \"texto\": \"Estimado conrfome aba \\\"Cont. Tecnol.\\\"\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Considerado estimativa de blocos, vigas de fundação e pilares, devido a ausencia de projeto\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimado conrfome aba \\\"Cont. Tecnol.\\\"\",\n    \"Volume de subsolo com 30% de empolamento\",\n    \"Volume de valas com 30% de empolamento\",\n    \"Volume de estacas com 30% de empolamento\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Noemi Blaya\",\n      \"decisao\": \"Separar aluguéis de equipamentos.\"\n    },\n    {\n      \"contexto\": \"Noemi Blaya\",\n      \"decisao\": \"Colocar mão de obra.\"\n    },\n    {\n      \"contexto\": \"Noemi Blaya\",\n      \"decisao\": \"Colocar impermeabilização do poço do elevador.\"\n    },\n    {\n      \"contexto\": \"Noemi Blaya\",\n      \"decisao\": \"Colocar sistema de câmeras e alarmes.\"\n    },\n    {\n      \"contexto\": \"Noemi Blaya\",\n      \"decisao\": \"Separar banheiras.\"\n    },\n    {\n      \"contexto\": \"Noemi Blaya\",\n      \"decisao\": \"Separar pintura externa em outro item. E acrescentar no item 20.001 ACM E LEDs de fachada.\"\n    },\n    {\n      \"contexto\": \"Noemi Blaya\",\n      \"decisao\": \"Acrescentar itens: Despesas com Danos a Terceiros (Vizinhos); Limpeza de Veículos de Terceiros (Obra).\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Grandezza Empreendimentos",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "Projeto Arquitetônico",
+      "Legalização",
+      "Escavação",
+      "Movimentação de terra para bota-fora",
+      "Lastro de estrutura de concreto",
+      "Consultoria técnica"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Escavação de volume do subsolo",
+        "texto": "estimado pelo corte e detalhes de contenção"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Considerado estimativa de blocos, vigas de fundação e pilares, devido a ausencia de projeto"
+      },
+      {
+        "tema": "Lastro de Concreto Magro",
+        "texto": "Altura de 10cm indicado em projet"
+      },
+      {
+        "tema": "Movimentação de terra para bota-fora",
+        "texto": "Volume de subsolo com 30% de empolamento"
+      },
+      {
+        "tema": "Movimentação de terra para bota-fora",
+        "texto": "Volume de valas com 30% de empolamento"
+      },
+      {
+        "tema": "Movimentação de terra para bota-fora",
+        "texto": "Volume de estacas com 30% de empolamento"
+      },
+      {
+        "tema": "Movimentação de terra para bota-fora",
+        "texto": "Volume de contenção e apoios com 30% de empolamento"
+      },
+      {
+        "tema": "Controle tecnológico",
+        "texto": "Estimado conrfome aba \"Cont. Tecnol.\""
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Considerado estimativa de blocos, vigas de fundação e pilares, devido a ausencia de projeto"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimado conrfome aba \"Cont. Tecnol.\"",
+      "Volume de subsolo com 30% de empolamento",
+      "Volume de valas com 30% de empolamento",
+      "Volume de estacas com 30% de empolamento"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Noemi Blaya",
+        "decisao": "Separar aluguéis de equipamentos."
+      },
+      {
+        "contexto": "Noemi Blaya",
+        "decisao": "Colocar mão de obra."
+      },
+      {
+        "contexto": "Noemi Blaya",
+        "decisao": "Colocar impermeabilização do poço do elevador."
+      },
+      {
+        "contexto": "Noemi Blaya",
+        "decisao": "Colocar sistema de câmeras e alarmes."
+      },
+      {
+        "contexto": "Noemi Blaya",
+        "decisao": "Separar banheiras."
+      },
+      {
+        "contexto": "Noemi Blaya",
+        "decisao": "Separar pintura externa em outro item. E acrescentar no item 20.001 ACM E LEDs de fachada."
+      },
+      {
+        "contexto": "Noemi Blaya",
+        "decisao": "Acrescentar itens: Despesas com Danos a Terceiros (Vizinhos); Limpeza de Veículos de Terceiros (Obra)."
+      }
+    ]
+  }
+}

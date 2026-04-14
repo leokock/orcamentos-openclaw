@@ -1,0 +1,103 @@
+{
+  "projeto": "terrassa-dom-bosco",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:10:28",
+  "duration_s": 99.3,
+  "compact_chars": 4105,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"MOE - Revestimentos de Argamassa / Reboco Interno (com Desconto de Vãos)\",\n    \"MOE - Revestimentos de Argamassa / Contrapiso com Argamassa Estabilizada / incluso Manta Acústica\",\n    \"MOE - Alvenarias e Vedações / Alvenaria de Vedação em Blocos Cerâmicos / incluso Vergas, Contravergas e Pilaretes (com Desconto de Vãos)\",\n    \"Equipe Técnica / Mestre de Obras\",\n    \"MOE - Instalações Elétricas / Execução Geral\",\n    \"MOE - Supraestrutura / Execução Geral\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Material\",\n      \"texto\": \"Aço CA-50 - 10,0 mm / incluso Corte e Dobra\"\n    },\n    {\n      \"tema\": \"Material\",\n      \"texto\": \"Concreto Usinado - fck 35 MPa\"\n    },\n    {\n      \"tema\": \"Material\",\n      \"texto\": \"Revestimento Cerâmico - 60x60 cm\"\n    },\n    {\n      \"tema\": \"Escopo\",\n      \"texto\": \"incluso Vergas, Contravergas e Pilaretes (com Desconto de Vãos)\"\n    },\n    {\n      \"tema\": \"Material\",\n      \"texto\": \"incluso Manta Acústica\"\n    },\n    {\n      \"tema\": \"Especificação\",\n      \"texto\": \"Brita 0+1, slump 10+-2\"\n    },\n    {\n      \"tema\": \"Especificação\",\n      \"texto\": \"Reboco Interno com Argamassa Estabilizada - e=2,5 cm\"\n    },\n    {\n      \"tema\": \"Especificação\",\n      \"texto\": \"Contrapiso em Argamassa Estabilizada, incluso Manta Acústica - eTotal=5 cm\"\n    },\n    {\n      \"tema\": \"Fase do Projeto\",\n      \"texto\": \"TERRENO (ESTUDOS E VIABILIDADE)\"\n    },\n    {\n      \"tema\": \"Escopo\",\n      \"texto\": \"PROJETO INST. COMPLEMENTARES (HIDROSSANITÁRIO, ELÉTRICO/TELECOM, PREVENTIVO, CLIMATIZAÇÃO/EXAUSTÃO)\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimativas / Estacas - Serviços Terceirizados\"\n    },\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimativas / Proteções Coletivas\"\n    },\n    {\n      \"tipo\": \"Escopo Amplo\",\n      \"descricao\": \"DESPESAS TERRENO (REGISTRO, TABELIONATOS, RETIFICAÇÕES, INCORPORAÇÃO, ETC...)\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"incluso Corte e Dobra\",\n    \"com Desconto de Vãos\",\n    \"incluso Manta Acústica\",\n    \"incluso Vergas, Contravergas e Pilaretes\",\n    \"Estimativas /\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Legal/Impostos\",\n      \"decisao\": \"ITBI (IMPOSTO SOBRE A TRANSMISSÃO DE BENS IMÓVEIS)\"\n    },\n    {\n      \"contexto\": \"Legal/Impostos\",\n      \"decisao\": \"IPTU (IMPOSTO PREDIAL E TERRITORIAL URBANO)\"\n    },\n    {\n      \"contexto\": \"Transação\",\n      \"decisao\": \"Terreno / Despesas com Corretagem\"\n    },\n    {\n      \"contexto\": \"Registro\",\n      \"decisao\": \"DESPESAS COM REGISTRO DE INCORPORAÇÃO\"\n    },\n    {\n      \"contexto\": \"Projeto\",\n      \"decisao\": \"PROJETO INST. COMPLEMENTARES (HIDROSSANITÁRIO, ELÉTRICO/TELECOM, PREVENTIVO, CLIMATIZAÇÃO/EXAUSTÃO)\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "MOE - Revestimentos de Argamassa / Reboco Interno (com Desconto de Vãos)",
+      "MOE - Revestimentos de Argamassa / Contrapiso com Argamassa Estabilizada / incluso Manta Acústica",
+      "MOE - Alvenarias e Vedações / Alvenaria de Vedação em Blocos Cerâmicos / incluso Vergas, Contravergas e Pilaretes (com Desconto de Vãos)",
+      "Equipe Técnica / Mestre de Obras",
+      "MOE - Instalações Elétricas / Execução Geral",
+      "MOE - Supraestrutura / Execução Geral"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Material",
+        "texto": "Aço CA-50 - 10,0 mm / incluso Corte e Dobra"
+      },
+      {
+        "tema": "Material",
+        "texto": "Concreto Usinado - fck 35 MPa"
+      },
+      {
+        "tema": "Material",
+        "texto": "Revestimento Cerâmico - 60x60 cm"
+      },
+      {
+        "tema": "Escopo",
+        "texto": "incluso Vergas, Contravergas e Pilaretes (com Desconto de Vãos)"
+      },
+      {
+        "tema": "Material",
+        "texto": "incluso Manta Acústica"
+      },
+      {
+        "tema": "Especificação",
+        "texto": "Brita 0+1, slump 10+-2"
+      },
+      {
+        "tema": "Especificação",
+        "texto": "Reboco Interno com Argamassa Estabilizada - e=2,5 cm"
+      },
+      {
+        "tema": "Especificação",
+        "texto": "Contrapiso em Argamassa Estabilizada, incluso Manta Acústica - eTotal=5 cm"
+      },
+      {
+        "tema": "Fase do Projeto",
+        "texto": "TERRENO (ESTUDOS E VIABILIDADE)"
+      },
+      {
+        "tema": "Escopo",
+        "texto": "PROJETO INST. COMPLEMENTARES (HIDROSSANITÁRIO, ELÉTRICO/TELECOM, PREVENTIVO, CLIMATIZAÇÃO/EXAUSTÃO)"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimativas / Estacas - Serviços Terceirizados"
+      },
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimativas / Proteções Coletivas"
+      },
+      {
+        "tipo": "Escopo Amplo",
+        "descricao": "DESPESAS TERRENO (REGISTRO, TABELIONATOS, RETIFICAÇÕES, INCORPORAÇÃO, ETC...)"
+      }
+    ],
+    "padroes_orcamentista": [
+      "incluso Corte e Dobra",
+      "com Desconto de Vãos",
+      "incluso Manta Acústica",
+      "incluso Vergas, Contravergas e Pilaretes",
+      "Estimativas /"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Legal/Impostos",
+        "decisao": "ITBI (IMPOSTO SOBRE A TRANSMISSÃO DE BENS IMÓVEIS)"
+      },
+      {
+        "contexto": "Legal/Impostos",
+        "decisao": "IPTU (IMPOSTO PREDIAL E TERRITORIAL URBANO)"
+      },
+      {
+        "contexto": "Transação",
+        "decisao": "Terreno / Despesas com Corretagem"
+      },
+      {
+        "contexto": "Registro",
+        "decisao": "DESPESAS COM REGISTRO DE INCORPORAÇÃO"
+      },
+      {
+        "contexto": "Projeto",
+        "decisao": "PROJETO INST. COMPLEMENTARES (HIDROSSANITÁRIO, ELÉTRICO/TELECOM, PREVENTIVO, CLIMATIZAÇÃO/EXAUSTÃO)"
+      }
+    ]
+  }
+}

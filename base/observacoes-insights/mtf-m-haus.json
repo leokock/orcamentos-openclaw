@@ -1,0 +1,54 @@
+{
+  "projeto": "mtf-m-haus",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:21:23",
+  "duration_s": 77.5,
+  "compact_chars": 1408,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"INSTALAÇÃO CANTEIRO DE OBRAS\",\n    \"TOPOGRAFIA\",\n    \"INSTALAÇÕES PROVISÓRIAS\",\n    \"MANUTENÇÃO DO CANTEIRO DE OBRA\",\n    \"ACOMPANHAMENTO DE TOPOGRAFIA\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Documentação\",\n      \"texto\": \"Versão R04 com análises da cartesian na unidade construtiva de Obra\"\n    },\n    {\n      \"tema\": \"Topografia\",\n      \"texto\": \"LEVANTAMENTO TOPOGRAFICO E ACOMPANHAMENTO TOPOGRAFICO\"\n    },\n    {\n      \"tema\": \"Estrutura Temporária\",\n      \"texto\": \"TAPUME EM CHAPA METÁLICA - 2,20M DE ALTURA\"\n    },\n    {\n      \"tema\": \"Obra\",\n      \"texto\": \"PLACA DE OBRA PINTADA FIXADA EM ESTRUTURA DE MADEIRA\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"INSTALAÇÕES PROVISÓRIAS DE ÁGUA, RESERVATÓRIO E REDE DE ALIMENTAÇÃO\",\n    \"M.O. EMPREITADA INSTALAÇÃO CANTEIRO DE OBRA\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Localização\",\n      \"decisao\": \"Avenida Marcondes de Mattos, SN - Quadra A, lote 01 - CENTRO - BIGUAÇU/SC - 88180-000\"\n    },\n    {\n      \"contexto\": \"Estrutura\",\n      \"decisao\": \"CONSTUÇÃO ESCRITÓRIO DE OBRA / BARRACO\"\n    },\n    {\n      \"contexto\": \"Sanitário\",\n      \"decisao\": \"INSTALAÇÃO PROVISORIA UNIDADE SANITÁRIA -5,0M2\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "INSTALAÇÃO CANTEIRO DE OBRAS",
+      "TOPOGRAFIA",
+      "INSTALAÇÕES PROVISÓRIAS",
+      "MANUTENÇÃO DO CANTEIRO DE OBRA",
+      "ACOMPANHAMENTO DE TOPOGRAFIA"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Documentação",
+        "texto": "Versão R04 com análises da cartesian na unidade construtiva de Obra"
+      },
+      {
+        "tema": "Topografia",
+        "texto": "LEVANTAMENTO TOPOGRAFICO E ACOMPANHAMENTO TOPOGRAFICO"
+      },
+      {
+        "tema": "Estrutura Temporária",
+        "texto": "TAPUME EM CHAPA METÁLICA - 2,20M DE ALTURA"
+      },
+      {
+        "tema": "Obra",
+        "texto": "PLACA DE OBRA PINTADA FIXADA EM ESTRUTURA DE MADEIRA"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "INSTALAÇÕES PROVISÓRIAS DE ÁGUA, RESERVATÓRIO E REDE DE ALIMENTAÇÃO",
+      "M.O. EMPREITADA INSTALAÇÃO CANTEIRO DE OBRA"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Localização",
+        "decisao": "Avenida Marcondes de Mattos, SN - Quadra A, lote 01 - CENTRO - BIGUAÇU/SC - 88180-000"
+      },
+      {
+        "contexto": "Estrutura",
+        "decisao": "CONSTUÇÃO ESCRITÓRIO DE OBRA / BARRACO"
+      },
+      {
+        "contexto": "Sanitário",
+        "decisao": "INSTALAÇÃO PROVISORIA UNIDADE SANITÁRIA -5,0M2"
+      }
+    ]
+  }
+}

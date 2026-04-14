@@ -1,0 +1,59 @@
+{
+  "projeto": "parkside-trindade",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:48:49",
+  "duration_s": 76.4,
+  "compact_chars": 4143,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto Arquitetônico Executivo\",\n    \"Projeto elétrico/comunicação/telefonia/luminotécnico\",\n    \"BLOCO CONCRETO ESTRUTURAL\",\n    \"TELA ACO CARBONO CA60\",\n    \"MADEIRA PINUS/SIMILAR\",\n    \"nº equipamentos x áreas\",\n    \"Estudo de Análise Técnica de Projeto\",\n    \"Projeto de estrutura metálica\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Preço/Indexação\",\n      \"texto\": \"Referencia do Preço é de setembro 2024 indexado para setembro 2025\"\n    },\n    {\n      \"tema\": \"Cotação Material\",\n      \"texto\": \"Cotação arquivo: SC - FLP - ARMADURA GERDAU\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Escopo/Medição\",\n      \"descricao\": \"nº equipamentos x áreas\"\n    },\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimativas Custos Indiretos\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimativas Custos Indiretos\",\n    \"Custo da Aba Canteiro / pelo Prazo de Obra\",\n    \"Cotação arquivo:\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Fachada\",\n      \"decisao\": \"Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes\"\n    },\n    {\n      \"contexto\": \"Documentação\",\n      \"decisao\": \"Projeto Arquitetônico Executivo\"\n    },\n    {\n      \"contexto\": \"Legalidade\",\n      \"decisao\": \"Legalização de incorporação\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto Arquitetônico Executivo",
+      "Projeto elétrico/comunicação/telefonia/luminotécnico",
+      "BLOCO CONCRETO ESTRUTURAL",
+      "TELA ACO CARBONO CA60",
+      "MADEIRA PINUS/SIMILAR",
+      "nº equipamentos x áreas",
+      "Estudo de Análise Técnica de Projeto",
+      "Projeto de estrutura metálica"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Preço/Indexação",
+        "texto": "Referencia do Preço é de setembro 2024 indexado para setembro 2025"
+      },
+      {
+        "tema": "Cotação Material",
+        "texto": "Cotação arquivo: SC - FLP - ARMADURA GERDAU"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Escopo/Medição",
+        "descricao": "nº equipamentos x áreas"
+      },
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimativas Custos Indiretos"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimativas Custos Indiretos",
+      "Custo da Aba Canteiro / pelo Prazo de Obra",
+      "Cotação arquivo:"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Fachada",
+        "decisao": "Sistema e Instalação de Fachada Ventilada. Mecanização das peças, arremate das esquadrias e Fretes"
+      },
+      {
+        "contexto": "Documentação",
+        "decisao": "Projeto Arquitetônico Executivo"
+      },
+      {
+        "contexto": "Legalidade",
+        "decisao": "Legalização de incorporação"
+      }
+    ]
+  }
+}

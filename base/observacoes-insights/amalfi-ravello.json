@@ -1,0 +1,92 @@
+{
+  "projeto": "amalfi-ravello",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:40:58",
+  "duration_s": 98.6,
+  "compact_chars": 4136,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS INTERNOS DE PAREDE\",\n    \"REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO\",\n    \"ESQUADRIAS, VIDROS E FERRAGENS\",\n    \"IMPREVISTOS E CONTIGÊNCIAS\",\n    \"REVESTIMENTOS E ACABAMENTOS DE FACHADA\",\n    \"IMPERMEABILIZAÇÃO E TRATAMENTOS\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Estacas\",\n      \"texto\": \"Custos já realizados de estacas inferior a medias (se considerar 20m de profundidade temso 23,66/m de estaca)\"\n    },\n    {\n      \"tema\": \"Complementares/Escoramento\",\n      \"texto\": \"Custo de complementares com aquisição de cubetas infeiro ras medias (escoramento marine tem 22,9mil no mês enquanoto aqui são 16,6mil/mês - cubetas marine 24,5/mês e aqui 16,1/mês considerando a aquis)\"\n    },\n    {\n      \"tema\": \"Equipamentos\",\n      \"texto\": \"mesmos equip do Maiori com mais área pra distribuir\"\n    },\n    {\n      \"tema\": \"Impermeabilização\",\n      \"texto\": \"IMPERM TA BAIXA PRA NÃO TER TELHADO\"\n    },\n    {\n      \"tema\": \"Comparativo de custos\",\n      \"texto\": \"\\\\baixo mas coerente com Maiori e Marine\"\n    },\n    {\n      \"tema\": \"Bombas/Sistema Preventivo\",\n      \"texto\": \"Aumento de custos previstos para bombas hidráulicas e do sistema preventivo\"\n    },\n    {\n      \"tema\": \"Dutos\",\n      \"texto\": \"Previsão de entrega de dutos de aquecedores de passagem\"\n    },\n    {\n      \"tema\": \"Revestimento/Lixeira\",\n      \"texto\": \"Reudção de custo unitário de forro de gesso e retirada de previsão de revestimento cerâmico no teto da lixeira\"\n    },\n    {\n      \"tema\": \"Pintura/Lixeira\",\n      \"texto\": \"Previsão de pintura no teto da lixeira\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Regulatório\",\n      \"descricao\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    },\n    {\n      \"tipo\": \"Estrutural\",\n      \"descricao\": \"Regularização e proteção mecânica\"\n    },\n    {\n      \"tipo\": \"Orçamentário\",\n      \"descricao\": \"Imprevistos e contingências\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"VALOR POR ÁREA PRIVATIVA (R$/m²)\",\n    \"Custos já realizados de estacas inferior a medias (se considerar 20m de profundidade temso 23,66/m de estaca)\",\n    \"Custo de complementares com aquisição de cubetas infeiro ras medias (escoramento marine tem 22,9mil no mês enquanoto aqui são 16,6mil/mês - cubetas marine 24,5/mês e aqui 16,1/mês considerando a aquis)\",\n    \"mesmos equip do Maiori com mais área pra distribuir\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Lixeira/Teto\",\n      \"decisao\": \"Reudção de custo unitário de forro de gesso e retirada de previsão de revestimento cerâmico no teto da lixeira\"\n    },\n    {\n      \"contexto\": \"Lixeira/Teto\",\n      \"decisao\": \"Previsão de pintura no teto da lixeira\"\n    },\n    {\n      \"contexto\": \"Acabamentos\",\n      \"decisao\": \"ACABAMENTOS EM PISO E PAREDE\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS INTERNOS DE PAREDE",
+      "REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO",
+      "ESQUADRIAS, VIDROS E FERRAGENS",
+      "IMPREVISTOS E CONTIGÊNCIAS",
+      "REVESTIMENTOS E ACABAMENTOS DE FACHADA",
+      "IMPERMEABILIZAÇÃO E TRATAMENTOS"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Estacas",
+        "texto": "Custos já realizados de estacas inferior a medias (se considerar 20m de profundidade temso 23,66/m de estaca)"
+      },
+      {
+        "tema": "Complementares/Escoramento",
+        "texto": "Custo de complementares com aquisição de cubetas infeiro ras medias (escoramento marine tem 22,9mil no mês enquanoto aqui são 16,6mil/mês - cubetas marine 24,5/mês e aqui 16,1/mês considerando a aquis)"
+      },
+      {
+        "tema": "Equipamentos",
+        "texto": "mesmos equip do Maiori com mais área pra distribuir"
+      },
+      {
+        "tema": "Impermeabilização",
+        "texto": "IMPERM TA BAIXA PRA NÃO TER TELHADO"
+      },
+      {
+        "tema": "Comparativo de custos",
+        "texto": "\\baixo mas coerente com Maiori e Marine"
+      },
+      {
+        "tema": "Bombas/Sistema Preventivo",
+        "texto": "Aumento de custos previstos para bombas hidráulicas e do sistema preventivo"
+      },
+      {
+        "tema": "Dutos",
+        "texto": "Previsão de entrega de dutos de aquecedores de passagem"
+      },
+      {
+        "tema": "Revestimento/Lixeira",
+        "texto": "Reudção de custo unitário de forro de gesso e retirada de previsão de revestimento cerâmico no teto da lixeira"
+      },
+      {
+        "tema": "Pintura/Lixeira",
+        "texto": "Previsão de pintura no teto da lixeira"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Regulatório",
+        "descricao": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      },
+      {
+        "tipo": "Estrutural",
+        "descricao": "Regularização e proteção mecânica"
+      },
+      {
+        "tipo": "Orçamentário",
+        "descricao": "Imprevistos e contingências"
+      }
+    ],
+    "padroes_orcamentista": [
+      "VALOR POR ÁREA PRIVATIVA (R$/m²)",
+      "Custos já realizados de estacas inferior a medias (se considerar 20m de profundidade temso 23,66/m de estaca)",
+      "Custo de complementares com aquisição de cubetas infeiro ras medias (escoramento marine tem 22,9mil no mês enquanoto aqui são 16,6mil/mês - cubetas marine 24,5/mês e aqui 16,1/mês considerando a aquis)",
+      "mesmos equip do Maiori com mais área pra distribuir"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Lixeira/Teto",
+        "decisao": "Reudção de custo unitário de forro de gesso e retirada de previsão de revestimento cerâmico no teto da lixeira"
+      },
+      {
+        "contexto": "Lixeira/Teto",
+        "decisao": "Previsão de pintura no teto da lixeira"
+      },
+      {
+        "contexto": "Acabamentos",
+        "decisao": "ACABAMENTOS EM PISO E PAREDE"
+      }
+    ]
+  }
+}

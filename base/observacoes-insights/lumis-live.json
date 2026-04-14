@@ -1,0 +1,45 @@
+{
+  "projeto": "lumis-live",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T00:12:57",
+  "duration_s": 54.7,
+  "compact_chars": 2306,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"SISTEMAS E EQUIPAMENTOS ESPECIAIS\",\n    \"IMPERMEABILIZAÇÃO E TRATAMENTOS\",\n    \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\",\n    \"REVESTIMENTOS INTERNOS EM PISO E PAREDE\",\n    \"ACABAMENTOS EM PISO E PAREDE\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"FORRO GESSO\",\n      \"texto\": \"APENAS NO BANHEIRO E SACADAS\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"Total da unidade construtiva\",\n    \"NÍVEL 01\",\n    \"NÍVEL 02\",\n    \"NÍVEL 03\",\n    \"NÍVEL 04\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo de Forro\",\n      \"decisao\": \"FORRO GESSO APENAS NO BANHEIRO E SACADAS\"\n    },\n    {\n      \"contexto\": \"Gerenciamento Geral\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    },\n    {\n      \"contexto\": \"Preparação do Terreno\",\n      \"decisao\": \"TERRAPLENAGEM E DETONAÇÃO DE ROCHA\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "SISTEMAS E EQUIPAMENTOS ESPECIAIS",
+      "IMPERMEABILIZAÇÃO E TRATAMENTOS",
+      "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+      "REVESTIMENTOS INTERNOS EM PISO E PAREDE",
+      "ACABAMENTOS EM PISO E PAREDE"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "FORRO GESSO",
+        "texto": "APENAS NO BANHEIRO E SACADAS"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "Total da unidade construtiva",
+      "NÍVEL 01",
+      "NÍVEL 02",
+      "NÍVEL 03",
+      "NÍVEL 04"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo de Forro",
+        "decisao": "FORRO GESSO APENAS NO BANHEIRO E SACADAS"
+      },
+      {
+        "contexto": "Gerenciamento Geral",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "contexto": "Preparação do Terreno",
+        "decisao": "TERRAPLENAGEM E DETONAÇÃO DE ROCHA"
+      }
+    ]
+  }
+}

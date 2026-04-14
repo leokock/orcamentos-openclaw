@@ -1,0 +1,133 @@
+{
+  "projeto": "cln-porto-ruby",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:26:04",
+  "duration_s": 109.5,
+  "compact_chars": 4128,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Aprovação e legalização\",\n    \"Unidades Habitacionais\",\n    \"Unidades Comerciais\",\n    \"Pavto duplex\",\n    \"Instalações Elétricas, Hidráulicas, GLP e Preventivas\",\n    \"Acabamentos Internos em Parede\",\n    \"Revestimentos e Acabamentos de Fachada\",\n    \"Fundação e Movimentação de Terra\",\n    \"Gerenciamento Técnico e Administrativo\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Demolição/Solo\",\n      \"texto\": \"Quando foi adquirido o terreno pela construtura, já era um estacionamento - sem necessidade de demolições\"\n    },\n    {\n      \"tema\": \"Demolição/Solo\",\n      \"texto\": \"Somente demolição do muro\"\n    },\n    {\n      \"tema\": \"Demolição/Solo\",\n      \"texto\": \"Solo com brita e trechos em concreto - sem necessidade de retirada de vegetação\"\n    },\n    {\n      \"tema\": \"Orçamento\",\n      \"texto\": \"Estimado com base em índices históricos\"\n    },\n    {\n      \"tema\": \"Fundações\",\n      \"texto\": \"Considerado blocos, vigas de fundação, duto e cisterna\"\n    },\n    {\n      \"tema\": \"Cisternas\",\n      \"texto\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\"\n    },\n    {\n      \"tema\": \"Perdas\",\n      \"texto\": \"Considerado sem indicação em projeto, consideração de 13% de perda\"\n    },\n    {\n      \"tema\": \"Movimentação\",\n      \"texto\": \"Considerado empolamento 30% da escavação\"\n    },\n    {\n      \"tema\": \"Projetos\",\n      \"texto\": \"Quantitade de Projetos com profundidade estimada\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Legalização\",\n      \"descricao\": \"Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e Gás\"\n    },\n    {\n      \"tipo\": \"Legalização\",\n      \"descricao\": \"Licenciamentos, Taxas, Impostos, Aprovações e Seguros\"\n    },\n    {\n      \"tipo\": \"Legalização\",\n      \"descricao\": \"Aprovação e legalização ambiental\"\n    },\n    {\n      \"tipo\": \"Legalização\",\n      \"descricao\": \"Aprovação e legalização prefeitura\"\n    },\n    {\n      \"tipo\": \"Legalização\",\n      \"descricao\": \"Aprovação e legalização água e esgoto\"\n    },\n    {\n      \"tipo\": \"Legalização\",\n      \"descricao\": \"Aprovação e legalização elétrico\"\n    },\n    {\n      \"tipo\": \"Legalização\",\n      \"descricao\": \"Aprovação e legalização bombeiros\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimado com base em índices históricos\",\n    \"Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 4 meses.\",\n    \"Considerado sem indicação em projeto, consideração de 13% de perda\",\n    \"Quantitade de Projetos com profundidade estimada\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Unidades\",\n      \"decisao\": \"NÚMERO DE UNIDADES HABITACIONAIS\"\n    },\n    {\n      \"contexto\": \"Unidades\",\n      \"decisao\": \"NÚMERO DE UNIDADES COMERCIAIS\"\n    },\n    {\n      \"contexto\": \"Unidades\",\n      \"decisao\": \"Pavto duplex Inf diferenciado\"\n    },\n    {\n      \"contexto\": \"Unidades\",\n      \"decisao\": \"Pavto duplex dup diferenciado\"\n    },\n    {\n      \"contexto\": \"Unidades\",\n      \"decisao\": \"Pavto Duplex Inferior (2x)\"\n    },\n    {\n      \"contexto\": \"Unidades\",\n      \"decisao\": \"Pavto Duplex Superior (2x)\"\n    },\n    {\n      \"contexto\": \"Gestão\",\n      \"decisao\": \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\"\n    },\n    {\n      \"contexto\": \"Sistemas\",\n      \"decisao\": \"INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS\"\n    },\n    {\n      \"contexto\": \"Fundações\",\n      \"decisao\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Aprovação e legalização",
+      "Unidades Habitacionais",
+      "Unidades Comerciais",
+      "Pavto duplex",
+      "Instalações Elétricas, Hidráulicas, GLP e Preventivas",
+      "Acabamentos Internos em Parede",
+      "Revestimentos e Acabamentos de Fachada",
+      "Fundação e Movimentação de Terra",
+      "Gerenciamento Técnico e Administrativo"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Demolição/Solo",
+        "texto": "Quando foi adquirido o terreno pela construtura, já era um estacionamento - sem necessidade de demolições"
+      },
+      {
+        "tema": "Demolição/Solo",
+        "texto": "Somente demolição do muro"
+      },
+      {
+        "tema": "Demolição/Solo",
+        "texto": "Solo com brita e trechos em concreto - sem necessidade de retirada de vegetação"
+      },
+      {
+        "tema": "Orçamento",
+        "texto": "Estimado com base em índices históricos"
+      },
+      {
+        "tema": "Fundações",
+        "texto": "Considerado blocos, vigas de fundação, duto e cisterna"
+      },
+      {
+        "tema": "Cisternas",
+        "texto": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm"
+      },
+      {
+        "tema": "Perdas",
+        "texto": "Considerado sem indicação em projeto, consideração de 13% de perda"
+      },
+      {
+        "tema": "Movimentação",
+        "texto": "Considerado empolamento 30% da escavação"
+      },
+      {
+        "tema": "Projetos",
+        "texto": "Quantitade de Projetos com profundidade estimada"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Legalização",
+        "descricao": "Projeto preventivo (PPCI - Plano de Prevenção e Proteção Contra Incêndios) e Gás"
+      },
+      {
+        "tipo": "Legalização",
+        "descricao": "Licenciamentos, Taxas, Impostos, Aprovações e Seguros"
+      },
+      {
+        "tipo": "Legalização",
+        "descricao": "Aprovação e legalização ambiental"
+      },
+      {
+        "tipo": "Legalização",
+        "descricao": "Aprovação e legalização prefeitura"
+      },
+      {
+        "tipo": "Legalização",
+        "descricao": "Aprovação e legalização água e esgoto"
+      },
+      {
+        "tipo": "Legalização",
+        "descricao": "Aprovação e legalização elétrico"
+      },
+      {
+        "tipo": "Legalização",
+        "descricao": "Aprovação e legalização bombeiros"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimado com base em índices históricos",
+      "Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 4 meses.",
+      "Considerado sem indicação em projeto, consideração de 13% de perda",
+      "Quantitade de Projetos com profundidade estimada"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Unidades",
+        "decisao": "NÚMERO DE UNIDADES HABITACIONAIS"
+      },
+      {
+        "contexto": "Unidades",
+        "decisao": "NÚMERO DE UNIDADES COMERCIAIS"
+      },
+      {
+        "contexto": "Unidades",
+        "decisao": "Pavto duplex Inf diferenciado"
+      },
+      {
+        "contexto": "Unidades",
+        "decisao": "Pavto duplex dup diferenciado"
+      },
+      {
+        "contexto": "Unidades",
+        "decisao": "Pavto Duplex Inferior (2x)"
+      },
+      {
+        "contexto": "Unidades",
+        "decisao": "Pavto Duplex Superior (2x)"
+      },
+      {
+        "contexto": "Gestão",
+        "decisao": "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO"
+      },
+      {
+        "contexto": "Sistemas",
+        "decisao": "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS"
+      },
+      {
+        "contexto": "Fundações",
+        "decisao": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      }
+    ]
+  }
+}

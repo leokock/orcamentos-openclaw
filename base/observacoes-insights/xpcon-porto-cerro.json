@@ -1,0 +1,109 @@
+{
+  "projeto": "xpcon-porto-cerro",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:19:15",
+  "duration_s": 104.7,
+  "compact_chars": 4146,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Revestimentos e Acabamentos\",\n    \"Projeto Arquitetônico\",\n    \"Instalações Elétricas, Hidráulicas, Glp e Preventivas\",\n    \"Gerenciamento Técnico e Administrativo\",\n    \"Adição de taxas e ajuste de equipamentos\",\n    \"Escavação e Reaterro de Valas\",\n    \"Imprevistos e Contingências\",\n    \"Projeto de Legalização\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Ger_Tec e Adm\",\n      \"texto\": \"Estimado com base em índices históricos\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 2 meses.\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Considerado blocos, vigas de fundação, duto e cisterna\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Considerado sem indicação em projeto, consideração de 13% de perda\"\n    },\n    {\n      \"tema\": \"Ger_Executivo\",\n      \"texto\": \"Considerado empolamento 30% da escavação\"\n    },\n    {\n      \"tema\": \"Comparativo\",\n      \"texto\": \"Adição de azulejo em parede dos banheiros e nichos\"\n    },\n    {\n      \"tema\": \"Comparativo\",\n      \"texto\": \"Adição de azulejo em parede dos banheiros\"\n    },\n    {\n      \"tema\": \"Comparativo\",\n      \"texto\": \"Adição de sistemas keyless, camera, som, wi-fi e aquecimento de piscina\"\n    },\n    {\n      \"tema\": \"Obra\",\n      \"texto\": \"PARA EAP CONSIDERADO TIPO X13 COMO QUADRO\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Escopo\",\n      \"descricao\": \"Troca de laje impermeabilizada por telhado\"\n    },\n    {\n      \"tipo\": \"Custo\",\n      \"descricao\": \"Adicção de taxas e ajuste de equipamentos\"\n    },\n    {\n      \"tipo\": \"Orçamento\",\n      \"descricao\": \"IMPREVISTOS E CONTINGÊNCIAS\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimado com base em índices históricos\",\n    \"Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 2 meses.\",\n    \"Considerado blocos, vigas de fundação, duto e cisterna\",\n    \"Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm\",\n    \"Considerado sem indicação em projeto, consideração de 13% de perda\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Comparativo\",\n      \"decisao\": \"Troca de laje impermeabilizada por telhado\"\n    },\n    {\n      \"contexto\": \"Comparativo\",\n      \"decisao\": \"Adição de sistemas keyless, camera, som, wi-fi e aquecimento de piscina\"\n    },\n    {\n      \"contexto\": \"Ger_Executivo\",\n      \"decisao\": \"Escavação e Reaterro de Valas\"\n    },\n    {\n      \"contexto\": \"Ger_Executivo\",\n      \"decisao\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"contexto\": \"Ger_Executivo\",\n      \"decisao\": \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\"\n    },\n    {\n      \"contexto\": \"Ger_Executivo\",\n      \"decisao\": \"Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=5cm\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Revestimentos e Acabamentos",
+      "Projeto Arquitetônico",
+      "Instalações Elétricas, Hidráulicas, Glp e Preventivas",
+      "Gerenciamento Técnico e Administrativo",
+      "Adição de taxas e ajuste de equipamentos",
+      "Escavação e Reaterro de Valas",
+      "Imprevistos e Contingências",
+      "Projeto de Legalização"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Ger_Tec e Adm",
+        "texto": "Estimado com base em índices históricos"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 2 meses."
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Considerado blocos, vigas de fundação, duto e cisterna"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Considerado sem indicação em projeto, consideração de 13% de perda"
+      },
+      {
+        "tema": "Ger_Executivo",
+        "texto": "Considerado empolamento 30% da escavação"
+      },
+      {
+        "tema": "Comparativo",
+        "texto": "Adição de azulejo em parede dos banheiros e nichos"
+      },
+      {
+        "tema": "Comparativo",
+        "texto": "Adição de azulejo em parede dos banheiros"
+      },
+      {
+        "tema": "Comparativo",
+        "texto": "Adição de sistemas keyless, camera, som, wi-fi e aquecimento de piscina"
+      },
+      {
+        "tema": "Obra",
+        "texto": "PARA EAP CONSIDERADO TIPO X13 COMO QUADRO"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Escopo",
+        "descricao": "Troca de laje impermeabilizada por telhado"
+      },
+      {
+        "tipo": "Custo",
+        "descricao": "Adicção de taxas e ajuste de equipamentos"
+      },
+      {
+        "tipo": "Orçamento",
+        "descricao": "IMPREVISTOS E CONTINGÊNCIAS"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimado com base em índices históricos",
+      "Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 2 meses.",
+      "Considerado blocos, vigas de fundação, duto e cisterna",
+      "Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm",
+      "Considerado sem indicação em projeto, consideração de 13% de perda"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Comparativo",
+        "decisao": "Troca de laje impermeabilizada por telhado"
+      },
+      {
+        "contexto": "Comparativo",
+        "decisao": "Adição de sistemas keyless, camera, som, wi-fi e aquecimento de piscina"
+      },
+      {
+        "contexto": "Ger_Executivo",
+        "decisao": "Escavação e Reaterro de Valas"
+      },
+      {
+        "contexto": "Ger_Executivo",
+        "decisao": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "contexto": "Ger_Executivo",
+        "decisao": "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira"
+      },
+      {
+        "contexto": "Ger_Executivo",
+        "decisao": "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=5cm"
+      }
+    ]
+  }
+}

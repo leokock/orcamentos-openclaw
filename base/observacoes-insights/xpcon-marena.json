@@ -1,0 +1,88 @@
+{
+  "projeto": "xpcon-marena",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-14T01:17:30",
+  "duration_s": 86.8,
+  "compact_chars": 4132,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Controle Tecnologico\",\n    \"Revestimentos\",\n    \"Projeto Arquitetônico\",\n    \"Escavação\",\n    \"Armação aço CA-50\",\n    \"Impermeabilização\",\n    \"Unidades Habitacionais\",\n    \"Unidades Comerciais\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Ensaios\",\n      \"texto\": \"Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)\"\n    },\n    {\n      \"tema\": \"Ensaios\",\n      \"texto\": \"Ensaio de arrancamento de argamassa de revestimento / Determinação da aderencia a tração\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira\"\n    },\n    {\n      \"tema\": \"Estacas\",\n      \"texto\": \"Mobilização e desmobilização de equipamentos - Para execução de estaca hélice\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Lastro de Brita 1, Aplicado em Blocos de Fundação, e=5cm\"\n    }\n  ],\n  \"flags_risco\": [\n    {\n      \"tipo\": \"Estimativa\",\n      \"descricao\": \"Estimado com base em índices históricos\"\n    },\n    {\n      \"tipo\": \"Consideração\",\n      \"descricao\": \"Considerado empolamento 30% da escavação\"\n    },\n    {\n      \"tipo\": \"Ajuste de Escopo\",\n      \"descricao\": \"Retirado conforme considerações informadas pelo cliente em reunião com Glauber em 19/05/2025\"\n    }\n  ],\n  \"padroes_orcamentista\": [\n    \"Estimado com base em índices históricos\",\n    \"Valor informado em formulário\",\n    \"Considerado conforme detalhe do projeto de formas dos blocos\",\n    \"Considerado corte e dobra em obra\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Fundação\",\n      \"decisao\": \"Lastro de Brita 1, Aplicado em Blocos de Fundação, e=5cm\"\n    },\n    {\n      \"contexto\": \"Estacas\",\n      \"decisao\": \"Corte e Preparo de Cabeça de Estaca\"\n    },\n    {\n      \"contexto\": \"Armação\",\n      \"decisao\": \"Armação aço CA-50 ø 6,3mm para estaca (corte e dobra em obra)\"\n    },\n    {\n      \"contexto\": \"Armação\",\n      \"decisao\": \"Armação aço CA-50 ø 12,5mm para estaca (corte e dobra em obra)\"\n    },\n    {\n      \"contexto\": \"Armação\",\n      \"decisao\": \"Armação aço CA-50 ø 20,0mm para estaca (corte e dobra em obra)\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Controle Tecnologico",
+      "Revestimentos",
+      "Projeto Arquitetônico",
+      "Escavação",
+      "Armação aço CA-50",
+      "Impermeabilização",
+      "Unidades Habitacionais",
+      "Unidades Comerciais"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Ensaios",
+        "texto": "Determinação do módulo de deformação tangente inicial (Eci) (módulo de elasticidade), Incluindo Avaliação Estática dos Resultados (NBR 8522 e NBR 12655)"
+      },
+      {
+        "tema": "Ensaios",
+        "texto": "Ensaio de arrancamento de argamassa de revestimento / Determinação da aderencia a tração"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevador, com retroescavadeira"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira"
+      },
+      {
+        "tema": "Estacas",
+        "texto": "Mobilização e desmobilização de equipamentos - Para execução de estaca hélice"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Lastro de Brita 1, Aplicado em Blocos de Fundação, e=5cm"
+      }
+    ],
+    "flags_risco": [
+      {
+        "tipo": "Estimativa",
+        "descricao": "Estimado com base em índices históricos"
+      },
+      {
+        "tipo": "Consideração",
+        "descricao": "Considerado empolamento 30% da escavação"
+      },
+      {
+        "tipo": "Ajuste de Escopo",
+        "descricao": "Retirado conforme considerações informadas pelo cliente em reunião com Glauber em 19/05/2025"
+      }
+    ],
+    "padroes_orcamentista": [
+      "Estimado com base em índices históricos",
+      "Valor informado em formulário",
+      "Considerado conforme detalhe do projeto de formas dos blocos",
+      "Considerado corte e dobra em obra"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Fundação",
+        "decisao": "Lastro de Brita 1, Aplicado em Blocos de Fundação, e=5cm"
+      },
+      {
+        "contexto": "Estacas",
+        "decisao": "Corte e Preparo de Cabeça de Estaca"
+      },
+      {
+        "contexto": "Armação",
+        "decisao": "Armação aço CA-50 ø 6,3mm para estaca (corte e dobra em obra)"
+      },
+      {
+        "contexto": "Armação",
+        "decisao": "Armação aço CA-50 ø 12,5mm para estaca (corte e dobra em obra)"
+      },
+      {
+        "contexto": "Armação",
+        "decisao": "Armação aço CA-50 ø 20,0mm para estaca (corte e dobra em obra)"
+      }
+    ]
+  }
+}

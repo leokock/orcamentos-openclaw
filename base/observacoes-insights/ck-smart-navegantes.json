@@ -1,0 +1,66 @@
+{
+  "projeto": "ck-smart-navegantes",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T23:19:55",
+  "duration_s": 103.8,
+  "compact_chars": 1562,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Infraestrutura\",\n    \"Superestrutura\",\n    \"Mão de Obra\",\n    \"Fôrma\",\n    \"Chapa Compensada Super Resinada\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Fundação em Hélice Contínua\"\n    },\n    {\n      \"tema\": \"Fôrma para fundação\",\n      \"texto\": \"Fôrma de madeira para fundação, com tábuas e sarrafos, sem reaproveitamento\"\n    },\n    {\n      \"tema\": \"Fôrma para Lajes\",\n      \"texto\": \"Fôrma para Lajes, com Chapa Compensada Super Resinada, e=12mm, 8 Aproveitamentos\"\n    },\n    {\n      \"tema\": \"Forma para Vigas\",\n      \"texto\": \"Forma para Vigas com Chapa Compensada Super Resinada e=17mm, 4 Aproveitamentos\"\n    },\n    {\n      \"tema\": \"Forma para Pilares\",\n      \"texto\": \"Forma para Pilares com Chapa Compensada Super Resinada e=17mm, 8 Aproveitamentos\"\n    },\n    {\n      \"tema\": \"Montagem de Fôrma de Pilares\",\n      \"texto\": \"Montagem e Desmontagem de Fôrma de Pilares Retangulares e Estruturas Similares Pé-direito Simples em Chapa de Madeira Compensada Super Resinada*\"\n    },\n    {\n      \"tema\": \"Montagem de Fôrma de Viga\",\n      \"texto\": \"Montagem e Desmontagem de Fôrma de Viga, Escoramento Metálico, Pé-direito Simples, em Chapa de Madeira Super Resinada*\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"PROJETO ARQUITETÔNICO - CENTRAL DE VENDAS\",\n    \"Projeto arquitetônico central de vendas - Contrato Osvaldo - CT/535\",\n    \"Acompanhamento de interiores\",\n    \"Total da unidade construtiva\",\n    \"INFRAESTRUTURA - TÉRREO - Garagem G1\",\n    \"SUPERESTRUTURA - EMBASAMENTO\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Fôrma de madeira para fundação\",\n      \"decisao\": \"sem reaproveitamento\"\n    },\n    {\n      \"contexto\": \"Mão de Obra para Fundação\",\n      \"decisao\": \"Mão de Obra Empreitada para Fundação - Contrato AJF - CT/450\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Infraestrutura",
+      "Superestrutura",
+      "Mão de Obra",
+      "Fôrma",
+      "Chapa Compensada Super Resinada"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Fundação",
+        "texto": "Fundação em Hélice Contínua"
+      },
+      {
+        "tema": "Fôrma para fundação",
+        "texto": "Fôrma de madeira para fundação, com tábuas e sarrafos, sem reaproveitamento"
+      },
+      {
+        "tema": "Fôrma para Lajes",
+        "texto": "Fôrma para Lajes, com Chapa Compensada Super Resinada, e=12mm, 8 Aproveitamentos"
+      },
+      {
+        "tema": "Forma para Vigas",
+        "texto": "Forma para Vigas com Chapa Compensada Super Resinada e=17mm, 4 Aproveitamentos"
+      },
+      {
+        "tema": "Forma para Pilares",
+        "texto": "Forma para Pilares com Chapa Compensada Super Resinada e=17mm, 8 Aproveitamentos"
+      },
+      {
+        "tema": "Montagem de Fôrma de Pilares",
+        "texto": "Montagem e Desmontagem de Fôrma de Pilares Retangulares e Estruturas Similares Pé-direito Simples em Chapa de Madeira Compensada Super Resinada*"
+      },
+      {
+        "tema": "Montagem de Fôrma de Viga",
+        "texto": "Montagem e Desmontagem de Fôrma de Viga, Escoramento Metálico, Pé-direito Simples, em Chapa de Madeira Super Resinada*"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "PROJETO ARQUITETÔNICO - CENTRAL DE VENDAS",
+      "Projeto arquitetônico central de vendas - Contrato Osvaldo - CT/535",
+      "Acompanhamento de interiores",
+      "Total da unidade construtiva",
+      "INFRAESTRUTURA - TÉRREO - Garagem G1",
+      "SUPERESTRUTURA - EMBASAMENTO"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Fôrma de madeira para fundação",
+        "decisao": "sem reaproveitamento"
+      },
+      {
+        "contexto": "Mão de Obra para Fundação",
+        "decisao": "Mão de Obra Empreitada para Fundação - Contrato AJF - CT/450"
+      }
+    ]
+  }
+}

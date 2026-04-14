@@ -1,0 +1,59 @@
+{
+  "projeto": "ajr-spot-one",
+  "model": "gemma4:e4b",
+  "ts": "2026-04-13T22:33:25",
+  "duration_s": 71.3,
+  "compact_chars": 1067,
+  "raw": "{\n  \"temas_recorrentes\": [\n    \"Projeto arquitetônico\",\n    \"Modelagem BIM\",\n    \"Projetos\",\n    \"Estudos, Projetos e Consultorias\",\n    \"Laudo preventivo de danos à vizinhança\"\n  ],\n  \"justificativas_tecnicas\": [\n    {\n      \"tema\": \"Projeto preventivo\",\n      \"texto\": \"Projeto preventivo - PPCI\"\n    },\n    {\n      \"tema\": \"Desempenho estrutural\",\n      \"texto\": \"Ensaio/laudo desempenho - NBR 15575\"\n    },\n    {\n      \"tema\": \"Concreto\",\n      \"texto\": \"Controle tecnológico de concreto\"\n    },\n    {\n      \"tema\": \"Fundação\",\n      \"texto\": \"Ensaio dinâmico das estacas (PDI)\"\n    },\n    {\n      \"tema\": \"Coordenação\",\n      \"texto\": \"Compatibilização de projetos\"\n    }\n  ],\n  \"flags_risco\": [],\n  \"padroes_orcamentista\": [\n    \"The Spot One - Custo Direto\",\n    \"GERENCIAMENTO TÉCNICO E ADMINISTRATIVO\",\n    \"Versão inicial orçamento\"\n  ],\n  \"decisoes_criticas\": [\n    {\n      \"contexto\": \"Escopo Legal\",\n      \"decisao\": \"Legalização de incorporação\"\n    },\n    {\n      \"contexto\": \"Planejamento Geral\",\n      \"decisao\": \"Consultoria de orçamento e planejamento\"\n    },\n    {\n      \"contexto\": \"Escopo de Serviços\",\n      \"decisao\": \"ESTUDOS, PROJETOS E CONSULTORIAS\"\n    }\n  ]\n}",
+  "parsed": {
+    "temas_recorrentes": [
+      "Projeto arquitetônico",
+      "Modelagem BIM",
+      "Projetos",
+      "Estudos, Projetos e Consultorias",
+      "Laudo preventivo de danos à vizinhança"
+    ],
+    "justificativas_tecnicas": [
+      {
+        "tema": "Projeto preventivo",
+        "texto": "Projeto preventivo - PPCI"
+      },
+      {
+        "tema": "Desempenho estrutural",
+        "texto": "Ensaio/laudo desempenho - NBR 15575"
+      },
+      {
+        "tema": "Concreto",
+        "texto": "Controle tecnológico de concreto"
+      },
+      {
+        "tema": "Fundação",
+        "texto": "Ensaio dinâmico das estacas (PDI)"
+      },
+      {
+        "tema": "Coordenação",
+        "texto": "Compatibilização de projetos"
+      }
+    ],
+    "flags_risco": [],
+    "padroes_orcamentista": [
+      "The Spot One - Custo Direto",
+      "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO",
+      "Versão inicial orçamento"
+    ],
+    "decisoes_criticas": [
+      {
+        "contexto": "Escopo Legal",
+        "decisao": "Legalização de incorporação"
+      },
+      {
+        "contexto": "Planejamento Geral",
+        "decisao": "Consultoria de orçamento e planejamento"
+      },
+      {
+        "contexto": "Escopo de Serviços",
+        "decisao": "ESTUDOS, PROJETOS E CONSULTORIAS"
+      }
+    ]
+  }
+}
