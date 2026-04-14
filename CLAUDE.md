@@ -40,6 +40,35 @@ Equipe (Slack) → Bot Cartesiano → ~/orcamentos/ (este repo)
 
 Quando o pipeline envolve Gemma/Ollama local, trabalhar **autonomamente**: disparar, monitorar, investigar bugs/gaps, corrigir, reprocessar — sem checkpoint humano. Interacao so em decisoes arquiteturais (escolha entre caminhos grandes), destrutivas (delete/overwrite), ou na entrega final. Pipelines retomaveis (fila + log + resume) sao padrao. Custo zero de token significa que tempo eh o unico custo — investir tempo em iteracao autonoma para chegar no valor final. Ver memorias `feedback_modo_autonomo_gemma_local.md` e `feedback_qualidade_sobre_velocidade.md`.
 
+## Entrega pro Drive compartilhado (OBRIGATORIO para parametricos/preliminares)
+
+Todo parametrico/preliminar gerado em `base/pacotes/{slug}/` deve ser sincronizado pro Google Drive compartilhado como parte da entrega final. **Commitar no git nao eh suficiente** — a equipe Cartesian (orcamentos, comercial, obras) acessa as entregas pelo Drive em `_Parametrico_IA/` ou `_Executivo_IA/`.
+
+**Script autoritativo:** `scripts/sincronizar_parametrico_drive.py`
+
+```bash
+# Apos gerar xlsx+docx+pdf do slug
+python scripts/sincronizar_parametrico_drive.py --slug {slug} --archive-old
+
+# Ou sync de todos de uma vez
+python scripts/sincronizar_parametrico_drive.py --all --archive-old
+
+# Dry-run pra conferir antes de copiar
+python scripts/sincronizar_parametrico_drive.py --all --dry-run
+```
+
+**Regras:**
+- Nomenclatura Drive: `{drive_prefix}-parametrico-v3-hibrido.{xlsx,docx,pdf}` + config.json (padrao Cartesian historico)
+- Mapeamento git_slug -> drive_folder/drive_prefix em `scripts/drive-mapping.json` (nem sempre bate — ex: `placon-arminio-tavares` vira `arminio-tavares` no Drive)
+- `--archive-old` move versoes antigas `*-parametrico-v*.xlsx` pra subpasta `_antigo/` antes de copiar (preserva historico)
+- Drive path (Windows): `G:\Drives compartilhados\03 CTN Projetos\2. Projetos em Andamento\_Parametrico_IA\`
+- Log append-only em `base/drive-sync.log.jsonl`
+- **Confirmar com Leo** antes do primeiro sync de um slug novo (afeta Drive compartilhado)
+
+**Doc canonica:** `base/PARAMETRICO-V2-HIBRIDO.md` secao "Entrega no Drive"
+
+**Memoria correlata:** `~/clawd/memory/project_entrega_parametrico_drive.md`
+
 ## Regras criticas (resumo — detalhes em AGENTS.md)
 
 1. **Nunca expor erros no canal** — tratar internamente, responder limpo

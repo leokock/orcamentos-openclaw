@@ -115,6 +115,41 @@ python scripts/gerar_memorial_pacote.py --slug {slug} --tipo parametrico
 python -c "from docx2pdf import convert; convert('base/pacotes/{slug}/parametrico-{slug}.docx', 'base/pacotes/{slug}/parametrico-{slug}.pdf')"
 ```
 
+### Entrega no Drive (obrigatório)
+
+**Regra:** após gerar `parametrico-{slug}.{xlsx,docx,pdf}` no git, é **obrigatório** sincronizar pro Google Drive compartilhado. O git é o repo técnico (versioning), mas a equipe Cartesian acessa as entregas pelo Drive em `_Parametrico_IA/`.
+
+**Script autoritativo:** `scripts/sincronizar_parametrico_drive.py`
+
+```bash
+# Sync de um projeto (com arquivamento de versões antigas)
+python scripts/sincronizar_parametrico_drive.py --slug arthen-arboris --archive-old
+
+# Sync de todos (dry-run pra conferir antes)
+python scripts/sincronizar_parametrico_drive.py --all --dry-run
+python scripts/sincronizar_parametrico_drive.py --all --archive-old
+```
+
+**Nomenclatura no Drive:** `{drive_prefix}-parametrico-v3-hibrido.{xlsx,docx,pdf}` + `{drive_prefix}-parametrico-v3-config.json` (alinha com o padrão histórico Cartesian `*-parametrico-v2.xlsx`).
+
+**Mapeamento git_slug → drive_folder:** em `scripts/drive-mapping.json`. **Nem sempre bate com o slug** — exemplos:
+
+| Git slug | Drive folder | Drive prefix |
+|---|---|---|
+| arthen-arboris | arthen-arboris | arthen-arboris |
+| placon-arminio-tavares | arminio-tavares | arminio-tavares |
+| thozen-electra | thozen-electra | thozen-electra |
+
+Ao criar projeto novo, **primeiro adicionar entrada no drive-mapping.json**, depois rodar o script.
+
+**Flag `--archive-old`:** move `{prefix}-parametrico-v*.xlsx` e `{prefix}-analise-v*.xlsx` antigos pra subpasta `_antigo/` antes de copiar os novos. Preserva histórico sem poluir a pasta principal.
+
+**Drive path (Windows):** `G:\Drives compartilhados\03 CTN Projetos\2. Projetos em Andamento\_Parametrico_IA\`. No Mac usa `~/Library/CloudStorage/GoogleDrive-.../Drives compartilhados/...`. O script auto-detecta.
+
+**Log:** cada sync é registrado em `base/drive-sync.log.jsonl` (append-only).
+
+**Checkpoint humano:** confirmar com Leo antes do primeiro sync de um slug novo (afeta Drive compartilhado que a equipe usa).
+
 ### Cenário de uso real — reunião com cliente
 
 Orçamentista Cartesian abre o paramétrico `.xlsx` numa reunião. Cliente questiona a estrutura:
@@ -240,6 +275,9 @@ Campos obrigatórios: `nome`, `ac`, `ur`. Todos os outros têm defaults no scrip
 | `base/pacotes/{slug}/parametrico-v2-config.json` | Config por projeto (briefing pré-preenchido) |
 | `base/pacotes/{slug}/parametrico-{slug}.xlsx` | Output: planilha interativa |
 | `base/pacotes/{slug}/_antigo-parametrico/` | Versões anteriores arquivadas |
+| `scripts/sincronizar_parametrico_drive.py` | **Sync pro Drive compartilhado (obrigatório após geração)** |
+| `scripts/drive-mapping.json` | Mapeamento git_slug → drive_folder/drive_prefix |
+| `base/drive-sync.log.jsonl` | Log append-only dos syncs pro Drive |
 
 ## Histórico
 
