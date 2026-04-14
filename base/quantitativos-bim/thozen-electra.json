@@ -1,18 +1,20 @@
 {
   "projeto": "thozen-electra",
-  "ts": "2026-04-13T23:08:33",
+  "ts": "2026-04-13T23:23:41",
   "n_ifcs": 8,
+  "method": "geometric_bbox",
   "files": [
     {
       "file": "348 - S08 [10] rev.01 - EL_R.Rubens Alves - 08° PAVTO. TIPO (01x) T. A & T. B.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 48,
+        "n_geom_ok": 48,
         "by_type": {
           "outros_20cm": {
             "n": 48,
-            "area_m2": 101.70244223897915,
-            "length_m": 3507.621101112612,
+            "area_m2": 101.70244223897916,
+            "length_m": 35.07621101112612,
             "example_names": [
               "Parede básica:Genérico - 20 mm",
               "Parede básica:Genérico - 20 mm",
@@ -20,21 +22,24 @@
             ]
           }
         },
-        "total_area_m2": 101.70244223897915,
-        "total_length_m": 3507.621101112612
+        "total_area_m2": 101.70244223897916,
+        "total_length_m": 35.07621101112612
       },
       "slabs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -51,39 +56,45 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 11.0
+      "duration_s": 7.9
     },
     {
       "file": "348 - S07 [10] rev.01 - EL_R.Rubens Alves - 07° PAVTO. LAZER.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 194,
+        "n_geom_ok": 194,
         "by_type": {
           "outros_20cm": {
             "n": 194,
-            "area_m2": 379.6798925366961,
-            "length_m": 13564.56276135081,
+            "area_m2": 379.67989253669606,
+            "length_m": 135.64562761350803,
             "example_names": [
               "Parede básica:Genérico - 20 mm",
               "Parede básica:Genérico - 20 mm",
@@ -91,21 +102,24 @@
             ]
           }
         },
-        "total_area_m2": 379.6798925366961,
-        "total_length_m": 13564.56276135081
+        "total_area_m2": 379.67989253669606,
+        "total_length_m": 135.64562761350803
       },
       "slabs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -122,39 +136,45 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 10.0
+      "duration_s": 7.8
     },
     {
       "file": "RA_ARQ_EXE_MODELAGEM TIPO_R07.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 27676,
+        "n_geom_ok": 27676,
         "by_type": {
-          "outros_9cm": {
+          "alvenaria_generica_9cm": {
             "n": 5064,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 12873.80067222568,
+            "length_m": 4420.9706307847555,
             "example_names": [
               "Parede básica:ALV 9  R0/R2",
               "Parede básica:ALV 9  R2/R2",
@@ -163,28 +183,28 @@
           },
           "outros_2cm": {
             "n": 6417,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 20105.934702334795,
+            "length_m": 6861.761464700863,
             "example_names": [
               "Parede básica:REV. REBOCO INTERNO 2cm",
               "Parede básica:REV. REBOCO INTERNO 2cm",
               "Parede básica:REV. REBOCO INTERNO 2cm"
             ]
           },
-          "outros_11cm": {
+          "alvenaria_generica_11cm": {
             "n": 7872,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 42158.51662492385,
+            "length_m": 15487.318316322815,
             "example_names": [
               "Parede básica:ALV 11,5  R2/R2",
               "Parede básica:ALV 11,5  R2/R2",
               "Parede básica:ALV 11,5  R2/R2"
             ]
           },
-          "outros_19cm": {
+          "alvenaria_generica_19cm": {
             "n": 1342,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 9350.438217975083,
+            "length_m": 3561.1052832445093,
             "example_names": [
               "Parede básica:ALV 19  R2/R2",
               "Parede básica:ALV 19  R2/R2",
@@ -193,58 +213,68 @@
           },
           "outros_3cm": {
             "n": 648,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 1864.9570410984657,
+            "length_m": 778.818379104785,
             "example_names": [
               "Parede básica:REV. REBOCO EXTERNO 3cm",
               "Parede básica:REV. REBOCO EXTERNO 3cm",
               "Parede básica:REV. REBOCO EXTERNO 3cm"
             ]
           },
-          "outros_14cm": {
+          "alvenaria_generica_14cm": {
             "n": 3981,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 29300.665145110215,
+            "length_m": 11226.541102268011,
             "example_names": [
               "Parede básica:ALV 14  R2/R2",
               "Parede básica:ALV 14  R2/R2",
               "Parede básica:ALV 14  R2/R2"
             ]
           },
-          "outros_5cm": {
-            "n": 1104,
-            "area_m2": 0,
-            "length_m": 0,
+          "alvenaria_generica_5cm": {
+            "n": 1056,
+            "area_m2": 4581.505372941428,
+            "length_m": 1571.7446003751397,
             "example_names": [
               "Parede básica:ALV 5 R2/R0",
               "Parede básica:ALV 5 R2/R0",
               "Parede básica:ALV 5 R2/R0"
             ]
           },
-          "outros_15cm": {
+          "alvenaria_generica_15cm": {
             "n": 912,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 5774.187116273979,
+            "length_m": 2168.8517042757844,
             "example_names": [
               "Parede básica:ALV SIP 15  R2/R2",
               "Parede básica:ALV SIP 15  R2/R2",
               "Parede básica:ALV SIP 15  R2/R2"
             ]
           },
-          "outros_12cm": {
+          "alvenaria_generica_12cm": {
             "n": 288,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 1082.7171376660763,
+            "length_m": 381.3913764064876,
             "example_names": [
               "Parede básica:ALV SIP 12,5  R2/R2",
               "Parede básica:ALV SIP 12,5  R2/R2",
               "Parede básica:ALV SIP 12,5  R2/R2"
             ]
           },
+          "outros_5cm": {
+            "n": 48,
+            "area_m2": 98.51763971928352,
+            "length_m": 109.4640441325368,
+            "example_names": [
+              "Parede básica:REV. REBOCO INTERNO 5cm",
+              "Parede básica:REV. REBOCO INTERNO 5cm",
+              "Parede básica:REV. REBOCO INTERNO 5cm"
+            ]
+          },
           "bloco_concreto_6cm": {
             "n": 48,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 32.46618096058097,
+            "length_m": 135.27575400241975,
             "example_names": [
               "Parede básica:ALV BLOCO DE CONCRETO 6cm",
               "Parede básica:ALV BLOCO DE CONCRETO 6cm",
@@ -252,21 +282,24 @@
             ]
           }
         },
-        "total_area_m2": 0,
-        "total_length_m": 0
+        "total_area_m2": 127223.70585122949,
+        "total_length_m": 46703.24265561881
       },
       "slabs": {
         "n": 2381,
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "n_geom_ok": 2381,
+        "total_area_m2": 27391.704612155212,
+        "total_volume_m3": 2736.768998081342
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -324,164 +357,173 @@
       },
       "railings": {
         "n": 531,
-        "total_length_m": 0
+        "n_geom_ok": 531,
+        "total_length_m": 1381.9611611367532
       },
       "curtain_walls": {
         "n": 24,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 108,
+        "n_geom_ok": 108,
         "by_type": {
           "Garagem 01": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 1442.2872565332752
           },
           "Abas G01": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 45.11144936260455
           },
           "BWC Suíte 3": {
             "n": 4,
-            "area_m2": 0
+            "area_m2": 14.210493451090837
           },
           "BWC Suíte 2": {
             "n": 3,
-            "area_m2": 0
+            "area_m2": 11.345675685694513
           },
           "Suíte 3": {
             "n": 6,
-            "area_m2": 0
+            "area_m2": 89.31244438837473
           },
           "Suíte 2": {
             "n": 8,
-            "area_m2": 0
+            "area_m2": 119.72572941536724
           },
           "Suíte 1": {
             "n": 9,
-            "area_m2": 0
+            "area_m2": 233.1850000195975
           },
           "Living": {
             "n": 8,
-            "area_m2": 0
+            "area_m2": 229.15574001725594
           },
           "Lavabo": {
             "n": 8,
-            "area_m2": 0
+            "area_m2": 14.270317946958462
           },
           "BWC Suíte 1": {
             "n": 3,
-            "area_m2": 0
+            "area_m2": 10.523418255534976
           },
           "A. Serviço": {
             "n": 7,
-            "area_m2": 0
+            "area_m2": 23.978058387962513
           },
           "BWC suíte 1": {
             "n": 6,
-            "area_m2": 0
+            "area_m2": 22.830202042792735
           },
           "BWC suíte 2": {
             "n": 5,
-            "area_m2": 0
+            "area_m2": 16.62387741199143
           },
           "Circulação/Rouparia": {
             "n": 3,
-            "area_m2": 0
+            "area_m2": 13.44524521438089
           },
           "BWC suíte 3": {
             "n": 3,
-            "area_m2": 0
+            "area_m2": 9.873335656387836
           },
           "Cozinha": {
             "n": 8,
-            "area_m2": 0
+            "area_m2": 64.66642110014665
           },
           "Circulação": {
             "n": 7,
-            "area_m2": 0
+            "area_m2": 168.87510714782383
           },
           "Elevador": {
             "n": 4,
-            "area_m2": 0
+            "area_m2": 16.829600131040063
           },
           "DEF": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 1.884114053119072
           },
           "Suíte3": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 19.864162077294626
           },
           "Elevador Emergencia": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 3.903021405227347
           },
           "DEA": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 2.1733686985714717
           },
           "Antecamara": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 18.011070802444912
           },
           "Escada": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 32.80508431403057
           },
           "D. Press.": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 2.707209631160691
           },
           "A. serviço": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 3.6638502550329743
           },
           "Elevador emergência": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 3.6776138868377846
           }
         },
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "total_area_m2": 2634.938867291999,
+        "total_volume_m3": 6712.6544793029925
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 23,
+        "n_geom_ok": 23,
         "by_type": {
           "Forro composto:Forro Liso - P.D Alto": {
             "n": 23,
-            "area_m2": 0
+            "area_m2": 2223.5357807482333
           }
         },
-        "total_area_m2": 0
+        "total_area_m2": 2223.5357807482333
       },
-      "duration_s": 24.9
+      "duration_s": 105.9
     },
     {
       "file": "348 - E08 [09] - rev.01 - EL_R.Rubens Alves - 08°~31° PAVTO. TIPO (24x).ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_length_m": 0
       },
       "slabs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -498,39 +540,45 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 12.2
+      "duration_s": 9.1
     },
     {
       "file": "348 - H00 [00] rev.01 - EL_R.Rubens Alves - COMPLETO.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 46,
+        "n_geom_ok": 46,
         "by_type": {
           "outros_20cm": {
             "n": 46,
             "area_m2": 71.45529007874715,
-            "length_m": 2643.8714476726923,
+            "length_m": 26.438714476726922,
             "example_names": [
               "Parede básica:Genérico - 20 mm",
               "Parede básica:Genérico - 20 mm",
@@ -539,20 +587,23 @@
           }
         },
         "total_area_m2": 71.45529007874715,
-        "total_length_m": 2643.8714476726923
+        "total_length_m": 26.438714476726922
       },
       "slabs": {
         "n": 6,
-        "total_area_m2": 3.533782527355503,
-        "total_volume_m3": 0.5477789584362402
+        "n_geom_ok": 6,
+        "total_area_m2": 3.5337825273555046,
+        "total_volume_m3": 0.5477789584362405
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -569,52 +620,61 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 7.8
+      "duration_s": 5.5
     },
     {
       "file": "1203 - THOZEN - RUBENS ALVES - BLOCOS+RAMPAS DE ACESSO - R26.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_length_m": 0
       },
       "slabs": {
         "n": 1527,
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "n_geom_ok": 1527,
+        "total_area_m2": 45301.855935532025,
+        "total_volume_m3": 11686.29156099782
       },
       "beams": {
         "n": 3531,
-        "total_volume_m3": 0,
-        "total_length_m": 0
+        "n_geom_ok": 3531,
+        "total_volume_m3": 4305.725023728389,
+        "total_length_m": 18869.662668824196
       },
       "columns": {
         "n": 1531,
-        "total_volume_m3": 0,
-        "total_height_m": 0
+        "n_geom_ok": 1531,
+        "total_volume_m3": 4551.071847017542,
+        "total_height_m": 4904.150817990303
       },
       "doors": {
         "n": 0,
@@ -629,39 +689,45 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 8.9
+      "duration_s": 41.2
     },
     {
       "file": "348 - S09 [10] rev.01 - EL_R.Rubens Alves - 09° AO 31º PAVTO. TIPO (23x) T. A & T. B.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 50,
+        "n_geom_ok": 50,
         "by_type": {
           "outros_20cm": {
             "n": 50,
-            "area_m2": 125.04798418939272,
-            "length_m": 4325.816318829488,
+            "area_m2": 125.04798418939279,
+            "length_m": 43.25816318829489,
             "example_names": [
               "Parede básica:Genérico - 20 mm",
               "Parede básica:Genérico - 20 mm",
@@ -669,21 +735,24 @@
             ]
           }
         },
-        "total_area_m2": 125.04798418939272,
-        "total_length_m": 4325.816318829488
+        "total_area_m2": 125.04798418939279,
+        "total_length_m": 43.25816318829489
       },
       "slabs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -700,50 +769,59 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 6.4
+      "duration_s": 4.1
     },
     {
       "file": "348 - IGC - rev.01 -ELECTRA TOWERS - TORRE B.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_length_m": 0
       },
       "slabs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -760,112 +838,163 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 16,
+        "n_geom_ok": 16,
         "by_type": {
           "Isolamento de tubulação:A’Melo – Tubo “Camisa” (PV": {
             "n": 16,
-            "area_m2": 0
+            "area_m2": 2.8812032367246334
           }
         },
-        "total_area_m2": 0
+        "total_area_m2": 2.8812032367246334
       },
-      "duration_s": 4.3
+      "duration_s": 4.9
     }
   ],
   "consolidado": {
     "walls": {
       "n": 28014,
+      "n_geom_ok": 28014,
       "by_type": {
         "outros_20cm": {
           "n": 338,
-          "area_m2": 677.8856090438152,
-          "length_m": 24041.871628965604
+          "area_m2": 677.8856090438151,
+          "length_m": 240.41871628965595,
+          "example_names": [
+            "Parede básica:Genérico - 20 mm"
+          ]
         },
-        "outros_9cm": {
+        "alvenaria_generica_9cm": {
           "n": 5064,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 12873.80067222568,
+          "length_m": 4420.9706307847555,
+          "example_names": [
+            "Parede básica:ALV 9  R0/R2",
+            "Parede básica:ALV 9  R2/R2"
+          ]
         },
         "outros_2cm": {
           "n": 6417,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 20105.934702334795,
+          "length_m": 6861.761464700863,
+          "example_names": [
+            "Parede básica:REV. REBOCO INTERNO 2cm"
+          ]
         },
-        "outros_11cm": {
+        "alvenaria_generica_11cm": {
           "n": 7872,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 42158.51662492385,
+          "length_m": 15487.318316322815,
+          "example_names": [
+            "Parede básica:ALV 11,5  R2/R2"
+          ]
         },
-        "outros_19cm": {
+        "alvenaria_generica_19cm": {
           "n": 1342,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 9350.438217975083,
+          "length_m": 3561.1052832445093,
+          "example_names": [
+            "Parede básica:ALV 19  R2/R2"
+          ]
         },
         "outros_3cm": {
           "n": 648,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 1864.9570410984657,
+          "length_m": 778.818379104785,
+          "example_names": [
+            "Parede básica:REV. REBOCO EXTERNO 3cm"
+          ]
         },
-        "outros_14cm": {
+        "alvenaria_generica_14cm": {
           "n": 3981,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 29300.665145110215,
+          "length_m": 11226.541102268011,
+          "example_names": [
+            "Parede básica:ALV 14  R2/R2"
+          ]
+        },
+        "alvenaria_generica_5cm": {
+          "n": 1056,
+          "area_m2": 4581.505372941428,
+          "length_m": 1571.7446003751397,
+          "example_names": [
+            "Parede básica:ALV 5 R2/R0"
+          ]
+        },
+        "alvenaria_generica_15cm": {
+          "n": 912,
+          "area_m2": 5774.187116273979,
+          "length_m": 2168.8517042757844,
+          "example_names": [
+            "Parede básica:ALV SIP 15  R2/R2"
+          ]
+        },
+        "alvenaria_generica_12cm": {
+          "n": 288,
+          "area_m2": 1082.7171376660763,
+          "length_m": 381.3913764064876,
+          "example_names": [
+            "Parede básica:ALV SIP 12,5  R2/R2"
+          ]
         },
         "outros_5cm": {
-          "n": 1104,
-          "area_m2": 0,
-          "length_m": 0
-        },
-        "outros_15cm": {
-          "n": 912,
-          "area_m2": 0,
-          "length_m": 0
-        },
-        "outros_12cm": {
-          "n": 288,
-          "area_m2": 0,
-          "length_m": 0
+          "n": 48,
+          "area_m2": 98.51763971928352,
+          "length_m": 109.4640441325368,
+          "example_names": [
+            "Parede básica:REV. REBOCO INTERNO 5cm"
+          ]
         },
         "bloco_concreto_6cm": {
           "n": 48,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 32.46618096058097,
+          "length_m": 135.27575400241975,
+          "example_names": [
+            "Parede básica:ALV BLOCO DE CONCRETO 6cm"
+          ]
         }
       },
-      "total_area_m2": 677.8856090438152,
-      "total_length_m": 24041.871628965604
+      "total_area_m2": 127901.59146027331,
+      "total_length_m": 46943.661371908456
     },
     "slabs": {
       "n": 3914,
-      "total_area_m2": 3.533782527355503,
-      "total_volume_m3": 0.5477789584362402
+      "n_geom_ok": 3914,
+      "total_area_m2": 72697.09433021459,
+      "total_volume_m3": 14423.608338037599
     },
     "beams": {
       "n": 3531,
-      "total_volume_m3": 0,
-      "total_length_m": 0
+      "n_geom_ok": 3531,
+      "total_volume_m3": 4305.725023728389,
+      "total_length_m": 18869.662668824196
     },
     "columns": {
       "n": 1531,
-      "total_volume_m3": 0,
-      "total_height_m": 0
+      "n_geom_ok": 1531,
+      "total_volume_m3": 4551.071847017542,
+      "total_height_m": 4904.150817990303
     },
     "doors": {
       "n": 2376,
@@ -921,145 +1050,208 @@
     },
     "railings": {
       "n": 531,
-      "total_length_m": 0
+      "n_geom_ok": 531,
+      "total_length_m": 1381.9611611367532
     },
     "curtain_walls": {
       "n": 24,
+      "n_geom_ok": 0,
       "total_area_m2": 0
     },
     "spaces": {
       "n": 108,
+      "n_geom_ok": 108,
       "by_type": {
         "Garagem 01": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 1442.2872565332752,
+          "length_m": 0,
+          "example_names": []
         },
         "Abas G01": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 45.11144936260455,
+          "length_m": 0,
+          "example_names": []
         },
         "BWC Suíte 3": {
           "n": 4,
-          "area_m2": 0
+          "area_m2": 14.210493451090837,
+          "length_m": 0,
+          "example_names": []
         },
         "BWC Suíte 2": {
           "n": 3,
-          "area_m2": 0
+          "area_m2": 11.345675685694513,
+          "length_m": 0,
+          "example_names": []
         },
         "Suíte 3": {
           "n": 6,
-          "area_m2": 0
+          "area_m2": 89.31244438837473,
+          "length_m": 0,
+          "example_names": []
         },
         "Suíte 2": {
           "n": 8,
-          "area_m2": 0
+          "area_m2": 119.72572941536724,
+          "length_m": 0,
+          "example_names": []
         },
         "Suíte 1": {
           "n": 9,
-          "area_m2": 0
+          "area_m2": 233.1850000195975,
+          "length_m": 0,
+          "example_names": []
         },
         "Living": {
           "n": 8,
-          "area_m2": 0
+          "area_m2": 229.15574001725594,
+          "length_m": 0,
+          "example_names": []
         },
         "Lavabo": {
           "n": 8,
-          "area_m2": 0
+          "area_m2": 14.270317946958462,
+          "length_m": 0,
+          "example_names": []
         },
         "BWC Suíte 1": {
           "n": 3,
-          "area_m2": 0
+          "area_m2": 10.523418255534976,
+          "length_m": 0,
+          "example_names": []
         },
         "A. Serviço": {
           "n": 7,
-          "area_m2": 0
+          "area_m2": 23.978058387962513,
+          "length_m": 0,
+          "example_names": []
         },
         "BWC suíte 1": {
           "n": 6,
-          "area_m2": 0
+          "area_m2": 22.830202042792735,
+          "length_m": 0,
+          "example_names": []
         },
         "BWC suíte 2": {
           "n": 5,
-          "area_m2": 0
+          "area_m2": 16.62387741199143,
+          "length_m": 0,
+          "example_names": []
         },
         "Circulação/Rouparia": {
           "n": 3,
-          "area_m2": 0
+          "area_m2": 13.44524521438089,
+          "length_m": 0,
+          "example_names": []
         },
         "BWC suíte 3": {
           "n": 3,
-          "area_m2": 0
+          "area_m2": 9.873335656387836,
+          "length_m": 0,
+          "example_names": []
         },
         "Cozinha": {
           "n": 8,
-          "area_m2": 0
+          "area_m2": 64.66642110014665,
+          "length_m": 0,
+          "example_names": []
         },
         "Circulação": {
           "n": 7,
-          "area_m2": 0
+          "area_m2": 168.87510714782383,
+          "length_m": 0,
+          "example_names": []
         },
         "Elevador": {
           "n": 4,
-          "area_m2": 0
+          "area_m2": 16.829600131040063,
+          "length_m": 0,
+          "example_names": []
         },
         "DEF": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 1.884114053119072,
+          "length_m": 0,
+          "example_names": []
         },
         "Suíte3": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 19.864162077294626,
+          "length_m": 0,
+          "example_names": []
         },
         "Elevador Emergencia": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 3.903021405227347,
+          "length_m": 0,
+          "example_names": []
         },
         "DEA": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 2.1733686985714717,
+          "length_m": 0,
+          "example_names": []
         },
         "Antecamara": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 18.011070802444912,
+          "length_m": 0,
+          "example_names": []
         },
         "Escada": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 32.80508431403057,
+          "length_m": 0,
+          "example_names": []
         },
         "D. Press.": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 2.707209631160691,
+          "length_m": 0,
+          "example_names": []
         },
         "A. serviço": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 3.6638502550329743,
+          "length_m": 0,
+          "example_names": []
         },
         "Elevador emergência": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 3.6776138868377846,
+          "length_m": 0,
+          "example_names": []
         }
       },
-      "total_area_m2": 0,
-      "total_volume_m3": 0
+      "total_area_m2": 2634.938867291999,
+      "total_volume_m3": 6712.6544793029925
     },
     "roofs": {
       "n": 0,
+      "n_geom_ok": 0,
       "total_area_m2": 0
     },
     "coverings": {
       "n": 39,
+      "n_geom_ok": 39,
       "by_type": {
         "Forro composto:Forro Liso - P.D Alto": {
           "n": 23,
-          "area_m2": 0
+          "area_m2": 2223.5357807482333,
+          "length_m": 0,
+          "example_names": []
         },
         "Isolamento de tubulação:A’Melo – Tubo “Camisa” (PV": {
           "n": 16,
-          "area_m2": 0
+          "area_m2": 2.8812032367246334,
+          "length_m": 0,
+          "example_names": []
         }
       },
-      "total_area_m2": 0
+      "total_area_m2": 2226.416983984958
     }
   },
-  "duration_s": 92.8
+  "duration_s": 193.3
 }

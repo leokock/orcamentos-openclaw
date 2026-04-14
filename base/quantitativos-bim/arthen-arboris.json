@@ -1,18 +1,20 @@
 {
   "projeto": "arthen-arboris",
-  "ts": "2026-04-13T23:07:13",
+  "ts": "2026-04-13T23:14:00",
   "n_ifcs": 1,
+  "method": "geometric_bbox",
   "files": [
     {
       "file": "CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 19525,
+        "n_geom_ok": 19525,
         "by_type": {
           "bloco_ceramico_14cm": {
             "n": 6387,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 36213.290997150216,
+            "length_m": 13515.789155890287,
             "example_names": [
               "Parede básica:ALV_14_BLOCO CERAMICO",
               "Parede básica:ALV_14_BLOCO CERAMICO",
@@ -21,8 +23,8 @@
           },
           "outros_?cm": {
             "n": 36,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 2423.7697328939644,
+            "length_m": 317.64980545116407,
             "example_names": [
               "Parede básica:REV MAD",
               "Parede básica:ESCURO",
@@ -31,8 +33,8 @@
           },
           "outros_20cm": {
             "n": 4,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 32.526222287664694,
+            "length_m": 31.888453223199402,
             "example_names": [
               "Parede básica:20_EXTERIOR BRA",
               "Parede básica:20_EXTERIOR BRA",
@@ -41,8 +43,8 @@
           },
           "outros_2cm": {
             "n": 10746,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 60095.81091078285,
+            "length_m": 19490.05684324209,
             "example_names": [
               "LED 02:LED 02",
               "Parede básica:REV_2,5_REBOCO INTERNO",
@@ -51,8 +53,8 @@
           },
           "outros_1cm": {
             "n": 10,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 1096.1200424763051,
+            "length_m": 31.51095251479316,
             "example_names": [
               "LED1:LED",
               "Detalhe Fachada1:Detalhe Fachada",
@@ -61,8 +63,8 @@
           },
           "outros_3cm": {
             "n": 1436,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 14927.961990459886,
+            "length_m": 5223.439469961632,
             "example_names": [
               "Parede básica:REV_3,5_REBOCO EXTERNO",
               "Parede básica:REV_3,5_REBOCO EXTERNO",
@@ -71,8 +73,8 @@
           },
           "drywall_11cm": {
             "n": 36,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 153.40723983359962,
+            "length_m": 53.26640271999982,
             "example_names": [
               "Parede básica:ALV_11,5_DRYWALL",
               "Parede básica:ALV_11,5_DRYWALL",
@@ -81,8 +83,8 @@
           },
           "bloco_ceramico_19cm": {
             "n": 810,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 7060.6919997251425,
+            "length_m": 2219.2680951508273,
             "example_names": [
               "Parede básica:ALV_19_BLOCO CERAMICO",
               "Parede básica:ALV_19_BLOCO CERAMICO",
@@ -91,8 +93,8 @@
           },
           "bloco_ceramico_9cm": {
             "n": 30,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 75.60000000000005,
+            "length_m": 24.00000000000001,
             "example_names": [
               "Parede básica:ALV_9_BLOCO CERAMICO",
               "Parede básica:ALV_9_BLOCO CERAMICO",
@@ -101,8 +103,8 @@
           },
           "bloco_ceramico_5cm": {
             "n": 30,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 75.60000000000011,
+            "length_m": 24.000000000000014,
             "example_names": [
               "Parede básica:ALV_5_BLOCO CERAMICO",
               "Parede básica:ALV_5_BLOCO CERAMICO",
@@ -110,23 +112,26 @@
             ]
           }
         },
-        "total_area_m2": 0,
-        "total_length_m": 0
+        "total_area_m2": 122154.7791356095,
+        "total_length_m": 40930.86917815461
       },
       "slabs": {
         "n": 1068,
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "n_geom_ok": 1068,
+        "total_area_m2": 58843.47009393535,
+        "total_volume_m3": 7506.264604852456
       },
       "beams": {
         "n": 1279,
-        "total_volume_m3": 0,
-        "total_length_m": 0
+        "n_geom_ok": 1279,
+        "total_volume_m3": 250.63546473937433,
+        "total_length_m": 2633.4424431766433
       },
       "columns": {
         "n": 461,
-        "total_volume_m3": 0,
-        "total_height_m": 0
+        "n_geom_ok": 461,
+        "total_volume_m3": 896.8614963872478,
+        "total_height_m": 1460.4600340843201
       },
       "doors": {
         "n": 735,
@@ -170,419 +175,463 @@
       },
       "railings": {
         "n": 60,
-        "total_length_m": 0
+        "n_geom_ok": 60,
+        "total_length_m": 186.89999999999975
       },
       "curtain_walls": {
         "n": 495,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 1238,
+        "n_geom_ok": 1238,
         "by_type": {
           "LOJA 06": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 138.6521649106758
           },
           "LOJA 05": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 153.55717917839755
           },
           "LOJA 01": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 138.79572376723587
           },
           "LOJA 02": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 135.13701333974882
           },
           "LOJA 03": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 137.15731438168365
           },
           "HALL": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 95.68959663553368
           },
           "ACADEMIA": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 67.86961796621007
           },
           "LOJA 07": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 142.3640236625307
           },
           "ÁREA DE CIRCULAÇÃO E MANOBRA": {
             "n": 6,
-            "area_m2": 0
+            "area_m2": 5624.8742230603675
           },
           "ESCADA": {
             "n": 20,
-            "area_m2": 0
+            "area_m2": 315.66389633658525
           },
           "ANTECÂMARA": {
             "n": 20,
-            "area_m2": 0
+            "area_m2": 44.744209334832064
           },
           "ELEVADOR": {
             "n": 40,
-            "area_m2": 0
+            "area_m2": 136.63869215450023
           },
           "LOJA 04": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 152.90111670845073
           },
           "LAVA-PÉS": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 1.954149999999988
           },
           "PETCARE": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 8.48064999999998
           },
           "CIRCULAÇÃO DE USO COMUM": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 97.83101610753309
           },
           "ÁREA DE LAZER COBERTA": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 70.79148594593345
           },
           "LOJA 08": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 148.53603435140258
           },
           "RAMPA": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 114.22815726722004
           },
           "RESERVATÓRIOS": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 36.581900847309356
           },
           "CIRCULAÇÃO VERTICAL": {
             "n": 4,
-            "area_m2": 0
+            "area_m2": 146.76046144656314
           },
           "ÁREA": {
             "n": 24,
-            "area_m2": 0
+            "area_m2": 1459.975199548608
           },
           "LAVAPÉS": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 2.849999999999998
           },
           "MEDIDORES": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 2.516502889436528
           },
           "GERADOR": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 25.12488077733408
           },
           "TIPO 01": {
             "n": 34,
-            "area_m2": 0
+            "area_m2": 2725.6520509926795
           },
           "TIPO 02": {
             "n": 34,
-            "area_m2": 0
+            "area_m2": 2475.7457016765798
           },
           "TIPO 03": {
             "n": 34,
-            "area_m2": 0
+            "area_m2": 2475.745701676592
           },
           "TIPO 04": {
             "n": 34,
-            "area_m2": 0
+            "area_m2": 2725.6520509926913
           },
           "TIPO 05": {
             "n": 34,
-            "area_m2": 0
+            "area_m2": 2918.477714219191
           },
           "CIRC. VERTICAL": {
             "n": 35,
-            "area_m2": 0
+            "area_m2": 1303.7472047218741
           },
           "CIRCULAÇÃO": {
             "n": 36,
-            "area_m2": 0
+            "area_m2": 1781.8595509352572
           },
           "ÁREA TÉCNICA": {
             "n": 69,
-            "area_m2": 0
+            "area_m2": 2613.837103467658
           },
           "TIPO 06": {
             "n": 34,
-            "area_m2": 0
+            "area_m2": 2918.125428490452
           },
           "TORRE": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 543.5957202352164
           },
           "EMBASAMENTO": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 651.466629452364
           },
           "D.E.A": {
             "n": 20,
-            "area_m2": 0
+            "area_m2": 63.58664237115667
           },
           "D.E.F": {
             "n": 20,
-            "area_m2": 0
+            "area_m2": 65.42911888948012
           },
           "DEP. LIXO": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 6.712199999999657
           },
           "LAVABO": {
             "n": 71,
-            "area_m2": 0
+            "area_m2": 140.08075109129226
           },
           "DEP.LIXO": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 3.7271427076814168
           },
           "QUADRO ELÉTRICO": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 1.3633999999999997
           },
           "SUÍTE": {
             "n": 150,
-            "area_m2": 0
+            "area_m2": 1908.9815854151277
           },
           "LIVING": {
             "n": 90,
-            "area_m2": 0
+            "area_m2": 3728.38444239131
           },
           "BWC": {
             "n": 180,
-            "area_m2": 0
+            "area_m2": 546.1000644948839
           },
           "SACADA": {
             "n": 60,
-            "area_m2": 0
+            "area_m2": 218.54259375000117
           },
           "DUTO": {
             "n": 15,
-            "area_m2": 0
+            "area_m2": 15.43462500000012
           },
           "HALL DOS APARTAMENTOS": {
             "n": 15,
-            "area_m2": 0
+            "area_m2": 645.627000000027
           },
           "DORMITÓRIO": {
             "n": 60,
-            "area_m2": 0
+            "area_m2": 701.9346575306037
           },
           "Laje técnica": {
             "n": 30,
-            "area_m2": 0
+            "area_m2": 1164.0491395765155
           },
           "COWORKING": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 22.030273002824412
           },
           "PET PLACE": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 10.608445316602504
           },
           "LAVABO PCD": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 2.0002499999999825
           },
           "PISCINA ADULTO": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 45.7434239234609
           },
           "PISCINA INFANTIL": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 18.633012464105008
           },
           "ÁREA GOURMET 01": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 51.64306222417548
           },
           "BRINQUEDOTECA INCLUSIVA": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 19.745030845098785
           },
           "SMART MARKET": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 8.604755281069153
           },
           "SAUNA": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 7.425431250000145
           },
           "ÁREA GOURMET 02": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 46.55699056123068
           },
           "LAVABO COM FRALDARIO": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 2.3294375000003456
           },
           "SPA": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 11.340623740918376
           },
           "FIREPLACE": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 86.04269478615161
           },
           "DECK ELEVADO": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 34.1873670529293
           },
           "LAZER DESCOBERTO": {
             "n": 2,
-            "area_m2": 0
+            "area_m2": 220.68420578393344
           },
           "LAZER COBERTO": {
             "n": 3,
-            "area_m2": 0
+            "area_m2": 282.7778268562737
           },
           "RESERVATÓRIO SUPERIOR": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 68.7091540017521
           },
           "CASA DE MÁQUINAS": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 6.750000000000028
           },
           "SALA DE JOGOS": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 63.78712543583127
           },
           "PLAYGROUND": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 22.322424154037467
           },
           "LOUNGE": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 18.23589999999983
           },
           "PRAINHA": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 8.943482308906827
           },
           "RESERVATÓRIO": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 70.2939116044694
           },
           "TERRAÇO TIPO 01": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 46.54393411625622
           },
           "TERRAÇO TIPO 02": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 56.08606632814787
           },
           "TERRAÇO TIPO 03": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 58.308377337072876
           },
           "TERRAÇO TIPO 04": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 50.67533149975288
           },
           "TERRAÇO TIPO 05": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 127.82327500000304
           },
           "TERRAÇO TIPO 06": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 92.75515210845064
           }
         },
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "total_area_m2": 43305.120395180114,
+        "total_volume_m3": 157928.01492356177
       },
       "roofs": {
         "n": 2,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 18.8
+      "duration_s": 77.8
     }
   ],
   "consolidado": {
     "walls": {
       "n": 19525,
+      "n_geom_ok": 19525,
       "by_type": {
         "bloco_ceramico_14cm": {
           "n": 6387,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 36213.290997150216,
+          "length_m": 13515.789155890287,
+          "example_names": [
+            "Parede básica:ALV_14_BLOCO CERAMICO"
+          ]
         },
         "outros_?cm": {
           "n": 36,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 2423.7697328939644,
+          "length_m": 317.64980545116407,
+          "example_names": [
+            "Parede básica:REV MAD",
+            "Parede básica:ESCURO",
+            "Parede básica:led"
+          ]
         },
         "outros_20cm": {
           "n": 4,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 32.526222287664694,
+          "length_m": 31.888453223199402,
+          "example_names": [
+            "Parede básica:20_EXTERIOR BRA"
+          ]
         },
         "outros_2cm": {
           "n": 10746,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 60095.81091078285,
+          "length_m": 19490.05684324209,
+          "example_names": [
+            "LED 02:LED 02",
+            "Parede básica:REV_2,5_REBOCO INTERNO"
+          ]
         },
         "outros_1cm": {
           "n": 10,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 1096.1200424763051,
+          "length_m": 31.51095251479316,
+          "example_names": [
+            "LED1:LED",
+            "Detalhe Fachada1:Detalhe Fachada",
+            "Parede básica:1MAD"
+          ]
         },
         "outros_3cm": {
           "n": 1436,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 14927.961990459886,
+          "length_m": 5223.439469961632,
+          "example_names": [
+            "Parede básica:REV_3,5_REBOCO EXTERNO"
+          ]
         },
         "drywall_11cm": {
           "n": 36,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 153.40723983359962,
+          "length_m": 53.26640271999982,
+          "example_names": [
+            "Parede básica:ALV_11,5_DRYWALL"
+          ]
         },
         "bloco_ceramico_19cm": {
           "n": 810,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 7060.6919997251425,
+          "length_m": 2219.2680951508273,
+          "example_names": [
+            "Parede básica:ALV_19_BLOCO CERAMICO"
+          ]
         },
         "bloco_ceramico_9cm": {
           "n": 30,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 75.60000000000005,
+          "length_m": 24.00000000000001,
+          "example_names": [
+            "Parede básica:ALV_9_BLOCO CERAMICO"
+          ]
         },
         "bloco_ceramico_5cm": {
           "n": 30,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 75.60000000000011,
+          "length_m": 24.000000000000014,
+          "example_names": [
+            "Parede básica:ALV_5_BLOCO CERAMICO"
+          ]
         }
       },
-      "total_area_m2": 0,
-      "total_length_m": 0
+      "total_area_m2": 122154.7791356095,
+      "total_length_m": 40930.86917815461
     },
     "slabs": {
       "n": 1068,
-      "total_area_m2": 0,
-      "total_volume_m3": 0
+      "n_geom_ok": 1068,
+      "total_area_m2": 58843.47009393535,
+      "total_volume_m3": 7506.264604852456
     },
     "beams": {
       "n": 1279,
-      "total_volume_m3": 0,
-      "total_length_m": 0
+      "n_geom_ok": 1279,
+      "total_volume_m3": 250.63546473937433,
+      "total_length_m": 2633.4424431766433
     },
     "columns": {
       "n": 461,
-      "total_volume_m3": 0,
-      "total_height_m": 0
+      "n_geom_ok": 461,
+      "total_volume_m3": 896.8614963872478,
+      "total_height_m": 1460.4600340843201
     },
     "doors": {
       "n": 735,
@@ -626,344 +675,507 @@
     },
     "railings": {
       "n": 60,
-      "total_length_m": 0
+      "n_geom_ok": 60,
+      "total_length_m": 186.89999999999975
     },
     "curtain_walls": {
       "n": 495,
+      "n_geom_ok": 0,
       "total_area_m2": 0
     },
     "spaces": {
       "n": 1238,
+      "n_geom_ok": 1238,
       "by_type": {
         "LOJA 06": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 138.6521649106758,
+          "length_m": 0,
+          "example_names": []
         },
         "LOJA 05": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 153.55717917839755,
+          "length_m": 0,
+          "example_names": []
         },
         "LOJA 01": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 138.79572376723587,
+          "length_m": 0,
+          "example_names": []
         },
         "LOJA 02": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 135.13701333974882,
+          "length_m": 0,
+          "example_names": []
         },
         "LOJA 03": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 137.15731438168365,
+          "length_m": 0,
+          "example_names": []
         },
         "HALL": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 95.68959663553368,
+          "length_m": 0,
+          "example_names": []
         },
         "ACADEMIA": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 67.86961796621007,
+          "length_m": 0,
+          "example_names": []
         },
         "LOJA 07": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 142.3640236625307,
+          "length_m": 0,
+          "example_names": []
         },
         "ÁREA DE CIRCULAÇÃO E MANOBRA": {
           "n": 6,
-          "area_m2": 0
+          "area_m2": 5624.8742230603675,
+          "length_m": 0,
+          "example_names": []
         },
         "ESCADA": {
           "n": 20,
-          "area_m2": 0
+          "area_m2": 315.66389633658525,
+          "length_m": 0,
+          "example_names": []
         },
         "ANTECÂMARA": {
           "n": 20,
-          "area_m2": 0
+          "area_m2": 44.744209334832064,
+          "length_m": 0,
+          "example_names": []
         },
         "ELEVADOR": {
           "n": 40,
-          "area_m2": 0
+          "area_m2": 136.63869215450023,
+          "length_m": 0,
+          "example_names": []
         },
         "LOJA 04": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 152.90111670845073,
+          "length_m": 0,
+          "example_names": []
         },
         "LAVA-PÉS": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 1.954149999999988,
+          "length_m": 0,
+          "example_names": []
         },
         "PETCARE": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 8.48064999999998,
+          "length_m": 0,
+          "example_names": []
         },
         "CIRCULAÇÃO DE USO COMUM": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 97.83101610753309,
+          "length_m": 0,
+          "example_names": []
         },
         "ÁREA DE LAZER COBERTA": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 70.79148594593345,
+          "length_m": 0,
+          "example_names": []
         },
         "LOJA 08": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 148.53603435140258,
+          "length_m": 0,
+          "example_names": []
         },
         "RAMPA": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 114.22815726722004,
+          "length_m": 0,
+          "example_names": []
         },
         "RESERVATÓRIOS": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 36.581900847309356,
+          "length_m": 0,
+          "example_names": []
         },
         "CIRCULAÇÃO VERTICAL": {
           "n": 4,
-          "area_m2": 0
+          "area_m2": 146.76046144656314,
+          "length_m": 0,
+          "example_names": []
         },
         "ÁREA": {
           "n": 24,
-          "area_m2": 0
+          "area_m2": 1459.975199548608,
+          "length_m": 0,
+          "example_names": []
         },
         "LAVAPÉS": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 2.849999999999998,
+          "length_m": 0,
+          "example_names": []
         },
         "MEDIDORES": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 2.516502889436528,
+          "length_m": 0,
+          "example_names": []
         },
         "GERADOR": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 25.12488077733408,
+          "length_m": 0,
+          "example_names": []
         },
         "TIPO 01": {
           "n": 34,
-          "area_m2": 0
+          "area_m2": 2725.6520509926795,
+          "length_m": 0,
+          "example_names": []
         },
         "TIPO 02": {
           "n": 34,
-          "area_m2": 0
+          "area_m2": 2475.7457016765798,
+          "length_m": 0,
+          "example_names": []
         },
         "TIPO 03": {
           "n": 34,
-          "area_m2": 0
+          "area_m2": 2475.745701676592,
+          "length_m": 0,
+          "example_names": []
         },
         "TIPO 04": {
           "n": 34,
-          "area_m2": 0
+          "area_m2": 2725.6520509926913,
+          "length_m": 0,
+          "example_names": []
         },
         "TIPO 05": {
           "n": 34,
-          "area_m2": 0
+          "area_m2": 2918.477714219191,
+          "length_m": 0,
+          "example_names": []
         },
         "CIRC. VERTICAL": {
           "n": 35,
-          "area_m2": 0
+          "area_m2": 1303.7472047218741,
+          "length_m": 0,
+          "example_names": []
         },
         "CIRCULAÇÃO": {
           "n": 36,
-          "area_m2": 0
+          "area_m2": 1781.8595509352572,
+          "length_m": 0,
+          "example_names": []
         },
         "ÁREA TÉCNICA": {
           "n": 69,
-          "area_m2": 0
+          "area_m2": 2613.837103467658,
+          "length_m": 0,
+          "example_names": []
         },
         "TIPO 06": {
           "n": 34,
-          "area_m2": 0
+          "area_m2": 2918.125428490452,
+          "length_m": 0,
+          "example_names": []
         },
         "TORRE": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 543.5957202352164,
+          "length_m": 0,
+          "example_names": []
         },
         "EMBASAMENTO": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 651.466629452364,
+          "length_m": 0,
+          "example_names": []
         },
         "D.E.A": {
           "n": 20,
-          "area_m2": 0
+          "area_m2": 63.58664237115667,
+          "length_m": 0,
+          "example_names": []
         },
         "D.E.F": {
           "n": 20,
-          "area_m2": 0
+          "area_m2": 65.42911888948012,
+          "length_m": 0,
+          "example_names": []
         },
         "DEP. LIXO": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 6.712199999999657,
+          "length_m": 0,
+          "example_names": []
         },
         "LAVABO": {
           "n": 71,
-          "area_m2": 0
+          "area_m2": 140.08075109129226,
+          "length_m": 0,
+          "example_names": []
         },
         "DEP.LIXO": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 3.7271427076814168,
+          "length_m": 0,
+          "example_names": []
         },
         "QUADRO ELÉTRICO": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 1.3633999999999997,
+          "length_m": 0,
+          "example_names": []
         },
         "SUÍTE": {
           "n": 150,
-          "area_m2": 0
+          "area_m2": 1908.9815854151277,
+          "length_m": 0,
+          "example_names": []
         },
         "LIVING": {
           "n": 90,
-          "area_m2": 0
+          "area_m2": 3728.38444239131,
+          "length_m": 0,
+          "example_names": []
         },
         "BWC": {
           "n": 180,
-          "area_m2": 0
+          "area_m2": 546.1000644948839,
+          "length_m": 0,
+          "example_names": []
         },
         "SACADA": {
           "n": 60,
-          "area_m2": 0
+          "area_m2": 218.54259375000117,
+          "length_m": 0,
+          "example_names": []
         },
         "DUTO": {
           "n": 15,
-          "area_m2": 0
+          "area_m2": 15.43462500000012,
+          "length_m": 0,
+          "example_names": []
         },
         "HALL DOS APARTAMENTOS": {
           "n": 15,
-          "area_m2": 0
+          "area_m2": 645.627000000027,
+          "length_m": 0,
+          "example_names": []
         },
         "DORMITÓRIO": {
           "n": 60,
-          "area_m2": 0
+          "area_m2": 701.9346575306037,
+          "length_m": 0,
+          "example_names": []
         },
         "Laje técnica": {
           "n": 30,
-          "area_m2": 0
+          "area_m2": 1164.0491395765155,
+          "length_m": 0,
+          "example_names": []
         },
         "COWORKING": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 22.030273002824412,
+          "length_m": 0,
+          "example_names": []
         },
         "PET PLACE": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 10.608445316602504,
+          "length_m": 0,
+          "example_names": []
         },
         "LAVABO PCD": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 2.0002499999999825,
+          "length_m": 0,
+          "example_names": []
         },
         "PISCINA ADULTO": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 45.7434239234609,
+          "length_m": 0,
+          "example_names": []
         },
         "PISCINA INFANTIL": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 18.633012464105008,
+          "length_m": 0,
+          "example_names": []
         },
         "ÁREA GOURMET 01": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 51.64306222417548,
+          "length_m": 0,
+          "example_names": []
         },
         "BRINQUEDOTECA INCLUSIVA": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 19.745030845098785,
+          "length_m": 0,
+          "example_names": []
         },
         "SMART MARKET": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 8.604755281069153,
+          "length_m": 0,
+          "example_names": []
         },
         "SAUNA": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 7.425431250000145,
+          "length_m": 0,
+          "example_names": []
         },
         "ÁREA GOURMET 02": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 46.55699056123068,
+          "length_m": 0,
+          "example_names": []
         },
         "LAVABO COM FRALDARIO": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 2.3294375000003456,
+          "length_m": 0,
+          "example_names": []
         },
         "SPA": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 11.340623740918376,
+          "length_m": 0,
+          "example_names": []
         },
         "FIREPLACE": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 86.04269478615161,
+          "length_m": 0,
+          "example_names": []
         },
         "DECK ELEVADO": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 34.1873670529293,
+          "length_m": 0,
+          "example_names": []
         },
         "LAZER DESCOBERTO": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 220.68420578393344,
+          "length_m": 0,
+          "example_names": []
         },
         "LAZER COBERTO": {
           "n": 3,
-          "area_m2": 0
+          "area_m2": 282.7778268562737,
+          "length_m": 0,
+          "example_names": []
         },
         "RESERVATÓRIO SUPERIOR": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 68.7091540017521,
+          "length_m": 0,
+          "example_names": []
         },
         "CASA DE MÁQUINAS": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 6.750000000000028,
+          "length_m": 0,
+          "example_names": []
         },
         "SALA DE JOGOS": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 63.78712543583127,
+          "length_m": 0,
+          "example_names": []
         },
         "PLAYGROUND": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 22.322424154037467,
+          "length_m": 0,
+          "example_names": []
         },
         "LOUNGE": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 18.23589999999983,
+          "length_m": 0,
+          "example_names": []
         },
         "PRAINHA": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 8.943482308906827,
+          "length_m": 0,
+          "example_names": []
         },
         "RESERVATÓRIO": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 70.2939116044694,
+          "length_m": 0,
+          "example_names": []
         },
         "TERRAÇO TIPO 01": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 46.54393411625622,
+          "length_m": 0,
+          "example_names": []
         },
         "TERRAÇO TIPO 02": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 56.08606632814787,
+          "length_m": 0,
+          "example_names": []
         },
         "TERRAÇO TIPO 03": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 58.308377337072876,
+          "length_m": 0,
+          "example_names": []
         },
         "TERRAÇO TIPO 04": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 50.67533149975288,
+          "length_m": 0,
+          "example_names": []
         },
         "TERRAÇO TIPO 05": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 127.82327500000304,
+          "length_m": 0,
+          "example_names": []
         },
         "TERRAÇO TIPO 06": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 92.75515210845064,
+          "length_m": 0,
+          "example_names": []
         }
       },
-      "total_area_m2": 0,
-      "total_volume_m3": 0
+      "total_area_m2": 43305.120395180114,
+      "total_volume_m3": 157928.01492356177
     },
     "roofs": {
       "n": 2,
+      "n_geom_ok": 0,
       "total_area_m2": 0
     },
     "coverings": {
       "n": 0,
+      "n_geom_ok": 0,
       "by_type": {},
       "total_area_m2": 0
     }
   },
-  "duration_s": 20.4
+  "duration_s": 79.3
 }

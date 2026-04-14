@@ -1,0 +1,373 @@
+{
+  "projeto": "placon-arminio-tavares",
+  "ts": "2026-04-13T23:27:15",
+  "ac_referencia_m2": 4077.29,
+  "ur_referencia": 55,
+  "fontes": {
+    "bim": 7,
+    "dxf": 0,
+    "pdf": 14
+  },
+  "quantitativos": {
+    "alvenaria_e_paredes": {
+      "n_unidades": 6684,
+      "area_total_m2": 42740.55,
+      "comprimento_total_m": 19007.35,
+      "por_tipo": {
+        "outros_?cm": {
+          "qtd": 93,
+          "area_m2": 1975.7,
+          "comprimento_m": 655.4,
+          "exemplos": [
+            "Basic Wall:SM-EST-CON-CN0 20cm",
+            "Basic Wall:SM-EST-CON-CN0   18cm",
+            "Parede básica:SM-EST-CON-CN0 20cm"
+          ]
+        },
+        "alvenaria_generica_11cm": {
+          "qtd": 3174,
+          "area_m2": 9447.67,
+          "comprimento_m": 6964.57,
+          "exemplos": [
+            "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
+            "Basic Wall:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
+            "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
+            "Parede básica:SM-INT-ALV-BE11.5   15cm-RE1/RE1"
+          ]
+        },
+        "alvenaria_generica_17cm": {
+          "qtd": 1372,
+          "area_m2": 15524.12,
+          "comprimento_m": 5613.78,
+          "exemplos": [
+            "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+            "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1"
+          ]
+        },
+        "alvenaria_generica_14cm": {
+          "qtd": 1348,
+          "area_m2": 10031.82,
+          "comprimento_m": 3295.61,
+          "exemplos": [
+            "Basic Wall:SM-EXT-ALV-BE14   18cm-RE1/RE1",
+            "Basic Wall:SM-INT-ALV-BE14   18cm-RI1/RI1",
+            "Basic Wall:SM-INT-ALV-BE14   18cm-RI1-RI1",
+            "Parede básica:SM-EXT-ALV-BE14   18cm-RE1/RE1",
+            "Parede básica:SM-INT-ALV-BE14   18cm-RI1/RI1"
+          ]
+        },
+        "outros_10cm": {
+          "qtd": 46,
+          "area_m2": 733.01,
+          "comprimento_m": 172.74,
+          "exemplos": [
+            "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
+            "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM"
+          ]
+        },
+        "alvenaria_generica_9cm": {
+          "qtd": 524,
+          "area_m2": 4358.28,
+          "comprimento_m": 1620.83,
+          "exemplos": [
+            "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
+            "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI2/RI1",
+            "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI2/RI2",
+            "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1"
+          ]
+        },
+        "outros_5cm": {
+          "qtd": 13,
+          "area_m2": 128.08,
+          "comprimento_m": 22.69,
+          "exemplos": [
+            "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM",
+            "Parede básica:SM-EXT-MET-FACHADA ACM 5CM"
+          ]
+        },
+        "outros_48cm": {
+          "qtd": 86,
+          "area_m2": 465.95,
+          "comprimento_m": 141.3,
+          "exemplos": [
+            "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
+            "Parede básica:SM-INT-DRW-MM48   10cm-RI1/RI1"
+          ]
+        },
+        "outros_2cm": {
+          "qtd": 2,
+          "area_m2": 1.74,
+          "comprimento_m": 17.36,
+          "exemplos": [
+            "VISTAS FORRO 2º PAVTO:VISTAS FORRO 2º PAVTO"
+          ]
+        },
+        "outros_11cm": {
+          "qtd": 12,
+          "area_m2": 27.89,
+          "comprimento_m": 278.88,
+          "exemplos": [
+            "VISTAS FORRO 11º PAVTO1:VISTAS FORRO 11º PAVTO",
+            "VISTAS FORRO 11º PAVTO2:VISTAS FORRO 11º PAVTO",
+            "VISTAS FORRO 11º PAVTO3:VISTAS FORRO 11º PAVTO"
+          ]
+        },
+        "outros_1cm": {
+          "qtd": 2,
+          "area_m2": 3.85,
+          "comprimento_m": 38.48,
+          "exemplos": [
+            "VISTA DOS FORROS1:VISTA DOS FORROS"
+          ]
+        },
+        "outros_3cm": {
+          "qtd": 12,
+          "area_m2": 42.44,
+          "comprimento_m": 185.71,
+          "exemplos": [
+            "VISTAS FORROS 3º PAVTO1:VISTAS FORROS 3º PAVTO",
+            "VISTAS FORROS 3º PAVTO2:VISTAS FORROS 3º PAVTO",
+            "VISTAS FORROS 3º PAVTO3:VISTAS FORROS 3º PAVTO"
+          ]
+        }
+      },
+      "fonte": "BIM IfcWall + IfcWallStandardCase"
+    },
+    "estrutura": {
+      "lajes": {
+        "n": 917,
+        "area_m2": 47245.03,
+        "volume_m3": 7673.29,
+        "fonte": "BIM IfcSlab"
+      },
+      "vigas": {
+        "n": 736,
+        "volume_m3": 421.5,
+        "comprimento_m": 2382.67,
+        "fonte": "BIM IfcBeam"
+      },
+      "pilares": {
+        "n": 193,
+        "volume_m3": 613.56,
+        "altura_total_m": 533.7,
+        "fonte": "BIM IfcColumn"
+      },
+      "concreto_total_m3_estimado": 8708.34,
+      "concreto_por_m2_ac_estimado": 2.1358
+    },
+    "esquadrias_e_aberturas": {
+      "portas": {
+        "n": 1608,
+        "fonte": "BIM IfcDoor",
+        "top_tipos": {
+          "SM-SOL:Soleira": 303,
+          "SM-POR-MAD-1 Folha Abrir:090x210cm": 228,
+          "SM-POR-MAD-1 Folha Abrir:070x210cm": 220,
+          "SM-POR-ALU-2 Folhas Abrir-Veneziana:100x080cm": 156,
+          "SM-POR-ELV-2 Folhas Correr:080x210cm": 96,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-240x220cm-Vidr": 84,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:050x150cm   C/ Estrutura ": 83,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:2 Folhas-180x220cm-Vidr": 80,
+          "SM-POR-PCI-1 Folha Abrir:090x210cm": 60,
+          "SM-POR-PCI-1 Folha Abrir:080x210cm": 60,
+          "SM-POR-FER-1 Folha Abrir:050x120cm branca": 56,
+          "SM-PJA-ALU-X Folhas Correr-1 Direção:3 Folhas-300x220cm-Vidr": 48,
+          "SM-POR-FER-1 Folha Abrir:050x120cm cinza": 28,
+          "SM-POR-ELV-2 Folhas Correr1:080x210cm": 24,
+          "SM-POR-ALU-1 Folha Abrir-Veneziana:080x210cm   C/ Estrutura ": 18
+        }
+      },
+      "janelas": {
+        "n": 889,
+        "fonte": "BIM IfcWindow",
+        "top_tipos": {
+          "SM-JAN-Pingadeira:Pingadeira": 335,
+          "SM-JAN-ALU-X Folhas Correr-1 Direção- X Folhas Fixas Inf:3 F": 184,
+          "SM-JAN-ALU-X Folhas Maximar:1 Folha-060x060cm-Vidro 8mm": 160,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada:92,5x100cm": 112,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x200cm-Vidro 8mm": 48,
+          "SM-JAN-ALU-X Folhas Maximar - X Folhas Fixas Inf:2 Folhas(1-": 24,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-300x210cm-Vidro 8mm": 8,
+          "SM-JAN-ALU-X Folhas Fixas:3 Folhas-240x210cm-Vidro 8mm": 4,
+          "SM-JAN-VID-Porta padrão dimas:50x100": 4,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada1:125x075cm": 4,
+          "SM-JAN-ALU-X Folhas Maximar:1 Folha-055x060cm-Vidro 8mm": 4,
+          "SM-JAN-VEN-ALU-1 Folha Fixa-Tela Aramada:125x075cm": 2
+        }
+      },
+      "pele_de_vidro": {
+        "n": 370,
+        "area_m2": 0,
+        "fonte": "BIM IfcCurtainWall"
+      },
+      "guarda_corpos": {
+        "n": 340,
+        "comprimento_m": 1321.49,
+        "fonte": "BIM IfcRailing"
+      }
+    },
+    "ambientes": {
+      "n": 4,
+      "area_total_m2": 413.21,
+      "volume_total_m3": 1652.85,
+      "fonte": "BIM IfcSpace",
+      "top_tipos": {
+        "Ambiente": {
+          "n": 4,
+          "area_m2": 413.21
+        }
+      }
+    },
+    "acabamentos": {
+      "coverings": {
+        "n": 785,
+        "area_total_m2": 20685.04,
+        "por_tipo": {
+          "Compound Ceiling:SM-FOR-3.00cm  FG1": {
+            "n": 404,
+            "area_m2": 10303.662497058174,
+            "length_m": 0,
+            "example_names": []
+          },
+          "Compound Ceiling:Ceiling 2": {
+            "n": 1,
+            "area_m2": 23.99213963205362,
+            "length_m": 0,
+            "example_names": []
+          },
+          "Fascia:SM-COB-REV-Calha Platibanda-AL7-20x20cm+10c": {
+            "n": 2,
+            "area_m2": 382.54080000000005,
+            "length_m": 0,
+            "example_names": []
+          },
+          "Fascia:SM-COB-REV-Rufo Metálico Chapa-AL7-12.5cm-3": {
+            "n": 2,
+            "area_m2": 359.10080000000005,
+            "length_m": 0,
+            "example_names": []
+          },
+          "Forro composto:SM-FOR-3.00cm  FG1": {
+            "n": 375,
+            "area_m2": 9423.765260880135,
+            "length_m": 0,
+            "example_names": []
+          },
+          "Borda:SM-COB-REV-Calha Platibanda-AL7-20x15cm+10cm": {
+            "n": 1,
+            "area_m2": 191.97358726060108,
+            "length_m": 0,
+            "example_names": []
+          }
+        },
+        "fonte": "BIM IfcCovering"
+      },
+      "cobertura": {
+        "n": 14,
+        "area_m2": 0,
+        "fonte": "BIM IfcRoof"
+      },
+      "escadas_n": 94
+    },
+    "dxf_quantitativos": {
+      "n_dxfs_lidos": 0,
+      "arquivos_com_hit_lazer": 0,
+      "total_hits_lazer": 0,
+      "fonte": "DXF ezdxf"
+    },
+    "pdf_areas_encontradas": {
+      "total": 22,
+      "amostra": [
+        {
+          "valor_m2": 4089.71,
+          "context": "5 aptos. Com área total construída de  \n4.089,71 m². \n1.2 INS"
+        },
+        {
+          "valor_m2": 4089.71,
+          "context": "lis - SC \n1.6 ÁREA TOTAL DA EDIFICAÇÃO \n4.089,71 m² \nAPROVAÇÃ"
+        },
+        {
+          "valor_m2": 70.0,
+          "context": "obertura \ndo edifício. Será adotado A = 70 m². \n5.4 APR"
+        },
+        {
+          "valor_m2": 70.0,
+          "context": " E CAPTAÇÃO \nCd = i x A = 4,16 mm/dia x 70 m² = 291,20 "
+        },
+        {
+          "valor_m2": 200.0,
+          "context": "ação do filtro VF -1 (para telhados até 200m²) que tem "
+        },
+        {
+          "valor_m2": 70.0,
+          "context": "LUVIAIS \nÁrea de captação adotada → A = 70m² \n2 mm de "
+        },
+        {
+          "valor_m2": 70.0,
+          "context": "m² de telhado → 2 litros de água \nLogo: 70m² de telhad"
+        },
+        {
+          "valor_m2": 4089.71,
+          "context": "ópolis - \nSC. \nÁrea total construída:   4.089,71m² \nNúmero d"
+        },
+        {
+          "valor_m2": 50.0,
+          "context": " apresentem área superficial superior a 50,00 m² e que a á"
+        },
+        {
+          "valor_m2": 4089.71,
+          "context": "ópolis - \nSC. \nÁrea total construída:   4.089,71m² \nNúmero d"
+        },
+        {
+          "valor_m2": 50.0,
+          "context": " apresentem área superficial superior a 50,00 m² e que a á"
+        },
+        {
+          "valor_m2": 486.4,
+          "context": "utônoma):\n    3.9 Área do Lote/Terreno: 486,40 m²\n    3.10 "
+        },
+        {
+          "valor_m2": 1994.33,
+          "context": "MAL 1 23,5500 1 1 0\nR$ por m² =2.584,97\n1.994,33 m² 48,76%\n2."
+        },
+        {
+          "valor_m2": 2095.39,
+          "context": "\nR$ por m² =2.584,97\n1.994,33 m² 48,76%\n2.095,39 m² 51,24%\n4."
+        },
+        {
+          "valor_m2": 4089.72,
+          "context": "7\n1.994,33 m² 48,76%\n2.095,39 m² 51,24%\n4.089,72 m² 100,00%\n1"
+        },
+        {
+          "valor_m2": 1943.92,
+          "context": "\n2.095,39 m² 51,24%\n4.089,72 m² 100,00%\n1.943,92 m² 51,12 %\n1"
+        },
+        {
+          "valor_m2": 1859.07,
+          "context": "4.089,72 m² 100,00%\n1.943,92 m² 51,12 %\n1.859,07 m² 48,88%\n3."
+        },
+        {
+          "valor_m2": 3802.98,
+          "context": "\n1.943,92 m² 51,12 %\n1.859,07 m² 48,88%\n3.802,98 m² 100,00%\n%"
+        },
+        {
+          "valor_m2": 4089.72,
+          "context": " 2.095,39 1.859,07 4.089,72 3.802,98 55\n4.089,72 m² 3.802,98 "
+        },
+        {
+          "valor_m2": 3802.98,
+          "context": "859,07 4.089,72 3.802,98 55\n4.089,72 m² 3.802,98  m²\nAssinatur"
+        },
+        {
+          "valor_m2": 4089.72,
+          "context": " 2.095,39 1.859,07 4.089,72 3.802,98 19\n4.089,72m² 3.802,98m"
+        },
+        {
+          "valor_m2": 3802.98,
+          "context": ".859,07 4.089,72 3.802,98 19\n4.089,72m² 3.802,98m²\nÁREA     "
+        }
+      ],
+      "fonte": "PDF memoriais"
+    }
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "projeto": "thozen-electra",
+  "ts": "2026-04-13T23:27:15",
+  "ac_referencia_m2": 37893.89,
+  "ur_referencia": 348,
+  "fontes": {
+    "bim": 8,
+    "dxf": 21,
+    "pdf": 0
+  },
+  "quantitativos": {
+    "alvenaria_e_paredes": {
+      "n_unidades": 28014,
+      "area_total_m2": 127901.59,
+      "comprimento_total_m": 46943.66,
+      "por_tipo": {
+        "outros_20cm": {
+          "qtd": 338,
+          "area_m2": 677.89,
+          "comprimento_m": 240.42,
+          "exemplos": [
+            "Parede básica:Genérico - 20 mm"
+          ]
+        },
+        "alvenaria_generica_9cm": {
+          "qtd": 5064,
+          "area_m2": 12873.8,
+          "comprimento_m": 4420.97,
+          "exemplos": [
+            "Parede básica:ALV 9  R0/R2",
+            "Parede básica:ALV 9  R2/R2"
+          ]
+        },
+        "outros_2cm": {
+          "qtd": 6417,
+          "area_m2": 20105.93,
+          "comprimento_m": 6861.76,
+          "exemplos": [
+            "Parede básica:REV. REBOCO INTERNO 2cm"
+          ]
+        },
+        "alvenaria_generica_11cm": {
+          "qtd": 7872,
+          "area_m2": 42158.52,
+          "comprimento_m": 15487.32,
+          "exemplos": [
+            "Parede básica:ALV 11,5  R2/R2"
+          ]
+        },
+        "alvenaria_generica_19cm": {
+          "qtd": 1342,
+          "area_m2": 9350.44,
+          "comprimento_m": 3561.11,
+          "exemplos": [
+            "Parede básica:ALV 19  R2/R2"
+          ]
+        },
+        "outros_3cm": {
+          "qtd": 648,
+          "area_m2": 1864.96,
+          "comprimento_m": 778.82,
+          "exemplos": [
+            "Parede básica:REV. REBOCO EXTERNO 3cm"
+          ]
+        },
+        "alvenaria_generica_14cm": {
+          "qtd": 3981,
+          "area_m2": 29300.67,
+          "comprimento_m": 11226.54,
+          "exemplos": [
+            "Parede básica:ALV 14  R2/R2"
+          ]
+        },
+        "alvenaria_generica_5cm": {
+          "qtd": 1056,
+          "area_m2": 4581.51,
+          "comprimento_m": 1571.74,
+          "exemplos": [
+            "Parede básica:ALV 5 R2/R0"
+          ]
+        },
+        "alvenaria_generica_15cm": {
+          "qtd": 912,
+          "area_m2": 5774.19,
+          "comprimento_m": 2168.85,
+          "exemplos": [
+            "Parede básica:ALV SIP 15  R2/R2"
+          ]
+        },
+        "alvenaria_generica_12cm": {
+          "qtd": 288,
+          "area_m2": 1082.72,
+          "comprimento_m": 381.39,
+          "exemplos": [
+            "Parede básica:ALV SIP 12,5  R2/R2"
+          ]
+        },
+        "outros_5cm": {
+          "qtd": 48,
+          "area_m2": 98.52,
+          "comprimento_m": 109.46,
+          "exemplos": [
+            "Parede básica:REV. REBOCO INTERNO 5cm"
+          ]
+        },
+        "bloco_concreto_6cm": {
+          "qtd": 48,
+          "area_m2": 32.47,
+          "comprimento_m": 135.28,
+          "exemplos": [
+            "Parede básica:ALV BLOCO DE CONCRETO 6cm"
+          ]
+        }
+      },
+      "fonte": "BIM IfcWall + IfcWallStandardCase"
+    },
+    "estrutura": {
+      "lajes": {
+        "n": 3914,
+        "area_m2": 72697.09,
+        "volume_m3": 14423.61,
+        "fonte": "BIM IfcSlab"
+      },
+      "vigas": {
+        "n": 3531,
+        "volume_m3": 4305.73,
+        "comprimento_m": 18869.66,
+        "fonte": "BIM IfcBeam"
+      },
+      "pilares": {
+        "n": 1531,
+        "volume_m3": 4551.07,
+        "altura_total_m": 4904.15,
+        "fonte": "BIM IfcColumn"
+      },
+      "concreto_total_m3_estimado": 23280.41,
+      "concreto_por_m2_ac_estimado": 0.6144
+    },
+    "esquadrias_e_aberturas": {
+      "portas": {
+        "n": 2376,
+        "fonte": "BIM IfcDoor",
+        "top_tipos": {
+          "DALLO-PORTA INTERNA:PM 80X210": 912,
+          "DALLO-PORTA INTERNA:PM 70X210": 552,
+          "DALLO-PORTA INTERNA:PM 90X210": 192,
+          "DALLO-PORTA INTERNA:PM 60X210": 144,
+          "DALLO-PORTA DO ELEVADOR:PE 80X210": 144,
+          "DALLO-PORTA DE CORRER DE MADEIRA:PMC 70X210": 72,
+          "PORTA CORRER - 4 FOLHAS EMBUTIDAS:PORTA CORRER - 4 FOLHAS EM": 49,
+          "DALLO-PORTA DE CORRER DE MADEIRA:PMC 90X210": 48,
+          "DALLO-PORTA CORTA-FOGO:PM 80X210": 48,
+          "DALLO-PORTA CORTA-FOGO:PM 100X210": 48,
+          "DALLO-PORTA MÃO-AMIGA EM VIDRO TEMPERADO:PV1 - 209x230": 24,
+          "DALLO-PORTA MÃO-AMIGA EM VIDRO TEMPERADO:PV1 - 215x230": 24,
+          "DALLO-PORTA MÃO-AMIGA EM VIDRO TEMPERADO:PV1 - 290x230": 24,
+          "DALLO-PORTA DE ALUMÍNIO VENEZIANA SEM PEITORIL:PAV 70X229": 24,
+          "DALLO-PORTA MÃO-AMIGA EM VIDRO TEMPERADO:PV1 - 345x230": 24
+        }
+      },
+      "janelas": {
+        "n": 1632,
+        "fonte": "BIM IfcWindow",
+        "top_tipos": {
+          "DALLO-JAN. BASC. 1F  S. PERS. ALUM. BRANCO:JA 60X75": 552,
+          "DALLO-JAN. CORRER 2F S. PERS. ALUM. BRANCO:JA 170X110": 192,
+          "DALLO-JAN. CORRER 2F S. PERS. ALUM. BRANCO:JA 140X214": 144,
+          "VENEZIANA:425x425": 96,
+          "DALLO-JAN. CORRER 2F C VENT PERMAMENTE. ALUM. BRANCO:JA 120x": 73,
+          "DALLO-JAN. CORRER 2F S. PERS. ALUM. BRANCO:JA 120X214": 72,
+          "DALLO-JAN. CORRER 2F S. PERS. ALUM. BRANCO:JA 120X120": 72,
+          "DALLO-JAN. CORRER 2F S. PERS. COM PEIT. DE VIDRO ALUM. BRANC": 48,
+          "DALLO-JAN. CORRER 2F S. PERS. ALUM. BRANCO:JA 130X214": 48,
+          "DALLO-JAN. CORRER 2F C VENT PERMAMENTE. ALUM. BRANCO:JA 100x": 47,
+          "DALLO-JAN. CORRER 2F S. PERS. ALUM. BRANCO:JA 150X209": 24,
+          "DALLO-JAN. CORRER 2F S. PERS. ALUM. BRANCO:JA 140X120": 24,
+          "DALLO-JAN. CORRER 2F S. PERS. ALUM. BRANCO:JA 200X110": 24,
+          "DALLO-JAN. CORRER 2F S. PERS. ALUM. BRANCO:JA 150X120": 24,
+          "DALLO-JAN. CORRER 2F C VENT PERMAMENTE. ALUM. BRANCO:JA 80x1": 24
+        }
+      },
+      "pele_de_vidro": {
+        "n": 24,
+        "area_m2": 0,
+        "fonte": "BIM IfcCurtainWall"
+      },
+      "guarda_corpos": {
+        "n": 531,
+        "comprimento_m": 1381.96,
+        "fonte": "BIM IfcRailing"
+      }
+    },
+    "ambientes": {
+      "n": 108,
+      "area_total_m2": 2634.94,
+      "volume_total_m3": 6712.65,
+      "fonte": "BIM IfcSpace",
+      "top_tipos": {
+        "Garagem 01": {
+          "n": 1,
+          "area_m2": 1442.29
+        },
+        "Suíte 1": {
+          "n": 9,
+          "area_m2": 233.19
+        },
+        "Living": {
+          "n": 8,
+          "area_m2": 229.16
+        },
+        "Circulação": {
+          "n": 7,
+          "area_m2": 168.88
+        },
+        "Suíte 2": {
+          "n": 8,
+          "area_m2": 119.73
+        },
+        "Suíte 3": {
+          "n": 6,
+          "area_m2": 89.31
+        },
+        "Cozinha": {
+          "n": 8,
+          "area_m2": 64.67
+        },
+        "Abas G01": {
+          "n": 1,
+          "area_m2": 45.11
+        },
+        "Escada": {
+          "n": 2,
+          "area_m2": 32.81
+        },
+        "A. Serviço": {
+          "n": 7,
+          "area_m2": 23.98
+        },
+        "BWC suíte 1": {
+          "n": 6,
+          "area_m2": 22.83
+        },
+        "Suíte3": {
+          "n": 1,
+          "area_m2": 19.86
+        },
+        "Antecamara": {
+          "n": 2,
+          "area_m2": 18.01
+        },
+        "Elevador": {
+          "n": 4,
+          "area_m2": 16.83
+        },
+        "BWC suíte 2": {
+          "n": 5,
+          "area_m2": 16.62
+        },
+        "Lavabo": {
+          "n": 8,
+          "area_m2": 14.27
+        },
+        "BWC Suíte 3": {
+          "n": 4,
+          "area_m2": 14.21
+        },
+        "Circulação/Rouparia": {
+          "n": 3,
+          "area_m2": 13.45
+        },
+        "BWC Suíte 2": {
+          "n": 3,
+          "area_m2": 11.35
+        },
+        "BWC Suíte 1": {
+          "n": 3,
+          "area_m2": 10.52
+        },
+        "BWC suíte 3": {
+          "n": 3,
+          "area_m2": 9.87
+        },
+        "Elevador Emergencia": {
+          "n": 1,
+          "area_m2": 3.9
+        },
+        "Elevador emergência": {
+          "n": 1,
+          "area_m2": 3.68
+        },
+        "A. serviço": {
+          "n": 1,
+          "area_m2": 3.66
+        },
+        "D. Press.": {
+          "n": 2,
+          "area_m2": 2.71
+        },
+        "DEA": {
+          "n": 2,
+          "area_m2": 2.17
+        },
+        "DEF": {
+          "n": 2,
+          "area_m2": 1.88
+        }
+      }
+    },
+    "acabamentos": {
+      "coverings": {
+        "n": 39,
+        "area_total_m2": 2226.42,
+        "por_tipo": {
+          "Forro composto:Forro Liso - P.D Alto": {
+            "n": 23,
+            "area_m2": 2223.5357807482333,
+            "length_m": 0,
+            "example_names": []
+          },
+          "Isolamento de tubulação:A’Melo – Tubo “Camisa” (PV": {
+            "n": 16,
+            "area_m2": 2.8812032367246334,
+            "length_m": 0,
+            "example_names": []
+          }
+        },
+        "fonte": "BIM IfcCovering"
+      },
+      "cobertura": {
+        "n": 0,
+        "area_m2": 0,
+        "fonte": "BIM IfcRoof"
+      },
+      "escadas_n": 110
+    },
+    "dxf_quantitativos": {
+      "n_dxfs_lidos": 21,
+      "arquivos_com_hit_lazer": 1,
+      "total_hits_lazer": 23,
+      "fonte": "DXF ezdxf"
+    }
+  }
+}

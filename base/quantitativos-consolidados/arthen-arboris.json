@@ -1,0 +1,321 @@
+{
+  "projeto": "arthen-arboris",
+  "ts": "2026-04-13T23:27:15",
+  "ac_referencia_m2": 12472.98,
+  "ur_referencia": 98,
+  "fontes": {
+    "bim": 1,
+    "dxf": 0,
+    "pdf": 0
+  },
+  "quantitativos": {
+    "alvenaria_e_paredes": {
+      "n_unidades": 19525,
+      "area_total_m2": 122154.78,
+      "comprimento_total_m": 40930.87,
+      "por_tipo": {
+        "bloco_ceramico_14cm": {
+          "qtd": 6387,
+          "area_m2": 36213.29,
+          "comprimento_m": 13515.79,
+          "exemplos": [
+            "Parede básica:ALV_14_BLOCO CERAMICO"
+          ]
+        },
+        "outros_?cm": {
+          "qtd": 36,
+          "area_m2": 2423.77,
+          "comprimento_m": 317.65,
+          "exemplos": [
+            "Parede básica:REV MAD",
+            "Parede básica:ESCURO",
+            "Parede básica:led"
+          ]
+        },
+        "outros_20cm": {
+          "qtd": 4,
+          "area_m2": 32.53,
+          "comprimento_m": 31.89,
+          "exemplos": [
+            "Parede básica:20_EXTERIOR BRA"
+          ]
+        },
+        "outros_2cm": {
+          "qtd": 10746,
+          "area_m2": 60095.81,
+          "comprimento_m": 19490.06,
+          "exemplos": [
+            "LED 02:LED 02",
+            "Parede básica:REV_2,5_REBOCO INTERNO"
+          ]
+        },
+        "outros_1cm": {
+          "qtd": 10,
+          "area_m2": 1096.12,
+          "comprimento_m": 31.51,
+          "exemplos": [
+            "LED1:LED",
+            "Detalhe Fachada1:Detalhe Fachada",
+            "Parede básica:1MAD"
+          ]
+        },
+        "outros_3cm": {
+          "qtd": 1436,
+          "area_m2": 14927.96,
+          "comprimento_m": 5223.44,
+          "exemplos": [
+            "Parede básica:REV_3,5_REBOCO EXTERNO"
+          ]
+        },
+        "drywall_11cm": {
+          "qtd": 36,
+          "area_m2": 153.41,
+          "comprimento_m": 53.27,
+          "exemplos": [
+            "Parede básica:ALV_11,5_DRYWALL"
+          ]
+        },
+        "bloco_ceramico_19cm": {
+          "qtd": 810,
+          "area_m2": 7060.69,
+          "comprimento_m": 2219.27,
+          "exemplos": [
+            "Parede básica:ALV_19_BLOCO CERAMICO"
+          ]
+        },
+        "bloco_ceramico_9cm": {
+          "qtd": 30,
+          "area_m2": 75.6,
+          "comprimento_m": 24.0,
+          "exemplos": [
+            "Parede básica:ALV_9_BLOCO CERAMICO"
+          ]
+        },
+        "bloco_ceramico_5cm": {
+          "qtd": 30,
+          "area_m2": 75.6,
+          "comprimento_m": 24.0,
+          "exemplos": [
+            "Parede básica:ALV_5_BLOCO CERAMICO"
+          ]
+        }
+      },
+      "fonte": "BIM IfcWall + IfcWallStandardCase"
+    },
+    "estrutura": {
+      "lajes": {
+        "n": 1068,
+        "area_m2": 58843.47,
+        "volume_m3": 7506.26,
+        "fonte": "BIM IfcSlab"
+      },
+      "vigas": {
+        "n": 1279,
+        "volume_m3": 250.64,
+        "comprimento_m": 2633.44,
+        "fonte": "BIM IfcBeam"
+      },
+      "pilares": {
+        "n": 461,
+        "volume_m3": 896.86,
+        "altura_total_m": 1460.46,
+        "fonte": "BIM IfcColumn"
+      },
+      "concreto_total_m3_estimado": 8653.76,
+      "concreto_por_m2_ac_estimado": 0.6938
+    },
+    "esquadrias_e_aberturas": {
+      "portas": {
+        "n": 735,
+        "fonte": "BIM IfcDoor",
+        "top_tipos": {
+          "PORTA SIMPLES:80 x 210 cm": 210,
+          "PORTA SIMPLES:70 x 210 cm": 197,
+          "PORTA SIMPLES:90 x 210 cm": 75,
+          "PORTA VENEZIANA  COM BANDEIRA - METÁLICA:80 x 210": 60,
+          "PORTA SIMPLES:CORRER -  70 x 210 cm": 45,
+          "PORTA DO ELEVADOR:PE": 40,
+          "PORTA DE CORRER - DUPLA:260x210": 30,
+          "PORTA DE CORRER - DUPLA:250": 30,
+          "PORTA SIMPLES:PCF 90 x 210 cm": 12,
+          "PORTA DE GIRO - CORTINA:PORTA DE GIRO - CORTINA PV02": 9,
+          "PORTA DE GIRO - INTERNA:90 x 210 PCD": 9,
+          "PORTA DE CORRER - DUPLA:200X210": 5,
+          "PORTA DE GIRO - 1 FOLHA:70 x 210": 3,
+          "PORTA DE GIRO - 1 FOLHA:80 x 210": 2,
+          "PORTA DE CORRER - CORTINA:PORTA DE DESLIZAR - VIDRO PV01": 2
+        }
+      },
+      "janelas": {
+        "n": 400,
+        "fonte": "BIM IfcWindow",
+        "top_tipos": {
+          "JANELA PADRÃO:150x120_2 FOLHAS": 120,
+          "JANELA FIXA - 1 FOLHA:60x80": 120,
+          "JANELA PADRÃO:120x120_2 FOLHAS": 60,
+          "JANELA FIXA - 1 FOLHA:80 x 80": 40,
+          "JANELA FIXA - 1 FOLHA:50x80": 30,
+          "JANELA BASCULANTE HORIZONTAL - 3 FOLHAS:60x80": 30
+        }
+      },
+      "pele_de_vidro": {
+        "n": 495,
+        "area_m2": 0,
+        "fonte": "BIM IfcCurtainWall"
+      },
+      "guarda_corpos": {
+        "n": 60,
+        "comprimento_m": 186.9,
+        "fonte": "BIM IfcRailing"
+      }
+    },
+    "ambientes": {
+      "n": 1238,
+      "area_total_m2": 43305.12,
+      "volume_total_m3": 157928.01,
+      "fonte": "BIM IfcSpace",
+      "top_tipos": {
+        "ÁREA DE CIRCULAÇÃO E MANOBRA": {
+          "n": 6,
+          "area_m2": 5624.87
+        },
+        "LIVING": {
+          "n": 90,
+          "area_m2": 3728.38
+        },
+        "TIPO 05": {
+          "n": 34,
+          "area_m2": 2918.48
+        },
+        "TIPO 06": {
+          "n": 34,
+          "area_m2": 2918.13
+        },
+        "TIPO 04": {
+          "n": 34,
+          "area_m2": 2725.65
+        },
+        "TIPO 01": {
+          "n": 34,
+          "area_m2": 2725.65
+        },
+        "ÁREA TÉCNICA": {
+          "n": 69,
+          "area_m2": 2613.84
+        },
+        "TIPO 03": {
+          "n": 34,
+          "area_m2": 2475.75
+        },
+        "TIPO 02": {
+          "n": 34,
+          "area_m2": 2475.75
+        },
+        "SUÍTE": {
+          "n": 150,
+          "area_m2": 1908.98
+        },
+        "CIRCULAÇÃO": {
+          "n": 36,
+          "area_m2": 1781.86
+        },
+        "ÁREA": {
+          "n": 24,
+          "area_m2": 1459.98
+        },
+        "CIRC. VERTICAL": {
+          "n": 35,
+          "area_m2": 1303.75
+        },
+        "Laje técnica": {
+          "n": 30,
+          "area_m2": 1164.05
+        },
+        "DORMITÓRIO": {
+          "n": 60,
+          "area_m2": 701.93
+        },
+        "EMBASAMENTO": {
+          "n": 2,
+          "area_m2": 651.47
+        },
+        "HALL DOS APARTAMENTOS": {
+          "n": 15,
+          "area_m2": 645.63
+        },
+        "BWC": {
+          "n": 180,
+          "area_m2": 546.1
+        },
+        "TORRE": {
+          "n": 1,
+          "area_m2": 543.6
+        },
+        "ESCADA": {
+          "n": 20,
+          "area_m2": 315.66
+        },
+        "LAZER COBERTO": {
+          "n": 3,
+          "area_m2": 282.78
+        },
+        "LAZER DESCOBERTO": {
+          "n": 2,
+          "area_m2": 220.68
+        },
+        "SACADA": {
+          "n": 60,
+          "area_m2": 218.54
+        },
+        "LOJA 05": {
+          "n": 2,
+          "area_m2": 153.56
+        },
+        "LOJA 04": {
+          "n": 2,
+          "area_m2": 152.9
+        },
+        "LOJA 08": {
+          "n": 2,
+          "area_m2": 148.54
+        },
+        "CIRCULAÇÃO VERTICAL": {
+          "n": 4,
+          "area_m2": 146.76
+        },
+        "LOJA 07": {
+          "n": 2,
+          "area_m2": 142.36
+        },
+        "LAVABO": {
+          "n": 71,
+          "area_m2": 140.08
+        },
+        "LOJA 01": {
+          "n": 2,
+          "area_m2": 138.8
+        }
+      }
+    },
+    "acabamentos": {
+      "coverings": {
+        "n": 0,
+        "area_total_m2": 0,
+        "por_tipo": {},
+        "fonte": "BIM IfcCovering"
+      },
+      "cobertura": {
+        "n": 2,
+        "area_m2": 0,
+        "fonte": "BIM IfcRoof"
+      },
+      "escadas_n": 26
+    },
+    "dxf_quantitativos": {
+      "n_dxfs_lidos": 0,
+      "arquivos_com_hit_lazer": 0,
+      "total_hits_lazer": 0,
+      "fonte": "DXF ezdxf"
+    }
+  }
+}

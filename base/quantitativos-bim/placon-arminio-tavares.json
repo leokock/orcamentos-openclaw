@@ -1,48 +1,50 @@
 {
   "projeto": "placon-arminio-tavares",
-  "ts": "2026-04-13T23:07:34",
+  "ts": "2026-04-13T23:15:19",
   "n_ifcs": 7,
+  "method": "geometric_bbox",
   "files": [
     {
       "file": "PLA_ARM_ARQ_EX_IFC_PE02.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 1901,
+        "n_geom_ok": 1901,
         "by_type": {
           "outros_?cm": {
             "n": 26,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 544.3380811844047,
+            "length_m": 176.70578995239416,
             "example_names": [
               "Basic Wall:SM-EST-CON-CN0 20cm",
               "Basic Wall:SM-EST-CON-CN0   18cm",
               "Basic Wall:SM-EST-CON-CN0   18cm"
             ]
           },
-          "outros_11cm": {
-            "n": 901,
-            "area_m2": 0,
-            "length_m": 0,
+          "alvenaria_generica_11cm": {
+            "n": 895,
+            "area_m2": 2589.6269793207002,
+            "length_m": 1930.7069598826722,
             "example_names": [
               "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
               "Basic Wall:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
               "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5"
             ]
           },
-          "outros_17cm": {
+          "alvenaria_generica_17cm": {
             "n": 388,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 4319.377836260491,
+            "length_m": 1561.7008777294404,
             "example_names": [
               "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
               "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
               "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1"
             ]
           },
-          "outros_14cm": {
+          "alvenaria_generica_14cm": {
             "n": 376,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 2790.845229166747,
+            "length_m": 918.357668166173,
             "example_names": [
               "Basic Wall:SM-EXT-ALV-BE14   18cm-RE1/RE1",
               "Basic Wall:SM-INT-ALV-BE14   18cm-RI1/RI1",
@@ -51,18 +53,18 @@
           },
           "outros_10cm": {
             "n": 13,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 199.69046770256878,
+            "length_m": 47.65698892469227,
             "example_names": [
               "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
               "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
               "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM"
             ]
           },
-          "outros_9cm": {
+          "alvenaria_generica_9cm": {
             "n": 149,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 1218.70980029474,
+            "length_m": 459.8200001269699,
             "example_names": [
               "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
               "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
@@ -71,8 +73,8 @@
           },
           "outros_5cm": {
             "n": 3,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 23.182599958619438,
+            "length_m": 4.389999992790886,
             "example_names": [
               "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM",
               "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM",
@@ -81,8 +83,8 @@
           },
           "outros_48cm": {
             "n": 34,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 182.6143274023953,
+            "length_m": 55.06027313207647,
             "example_names": [
               "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
               "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
@@ -91,24 +93,34 @@
           },
           "outros_2cm": {
             "n": 1,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 0.8680000000001024,
+            "length_m": 8.680000000001023,
             "example_names": [
               "VISTAS FORRO 2º PAVTO:VISTAS FORRO 2º PAVTO"
             ]
           },
+          "outros_11cm": {
+            "n": 6,
+            "area_m2": 13.944000000000035,
+            "length_m": 139.43999999999986,
+            "example_names": [
+              "VISTAS FORRO 11º PAVTO1:VISTAS FORRO 11º PAVTO",
+              "VISTAS FORRO 11º PAVTO2:VISTAS FORRO 11º PAVTO",
+              "VISTAS FORRO 11º PAVTO3:VISTAS FORRO 11º PAVTO"
+            ]
+          },
           "outros_1cm": {
             "n": 1,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 1.9239999999999753,
+            "length_m": 19.23999999999996,
             "example_names": [
               "VISTA DOS FORROS1:VISTA DOS FORROS"
             ]
           },
           "outros_3cm": {
             "n": 9,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 34.99353348493491,
+            "length_m": 111.21604464658128,
             "example_names": [
               "VISTAS FORROS 3º PAVTO1:VISTAS FORROS 3º PAVTO",
               "VISTAS FORROS 3º PAVTO2:VISTAS FORROS 3º PAVTO",
@@ -116,21 +128,24 @@
             ]
           }
         },
-        "total_area_m2": 0,
-        "total_length_m": 0
+        "total_area_m2": 11920.11485477563,
+        "total_length_m": 5432.974602553804
       },
       "slabs": {
         "n": 157,
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "n_geom_ok": 157,
+        "total_area_m2": 10679.739803023991,
+        "total_volume_m3": 1509.6630225919453
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -185,86 +200,92 @@
       },
       "railings": {
         "n": 86,
-        "total_length_m": 0
+        "n_geom_ok": 86,
+        "total_length_m": 339.44814119778925
       },
       "curtain_walls": {
         "n": 92,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 4,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 205,
+        "n_geom_ok": 205,
         "by_type": {
           "Compound Ceiling:SM-FOR-3.00cm  FG1": {
             "n": 202,
-            "area_m2": 0
+            "area_m2": 5151.82499852909
           },
           "Compound Ceiling:Ceiling 2": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 23.99213963205362
           },
           "Fascia:SM-COB-REV-Calha Platibanda-AL7-20x20cm+10c": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 191.27040000000002
           },
           "Fascia:SM-COB-REV-Rufo Metálico Chapa-AL7-12.5cm-3": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 179.55040000000002
           }
         },
-        "total_area_m2": 0
+        "total_area_m2": 5546.637938161145
       },
-      "duration_s": 12.0
+      "duration_s": 127.8
     },
     {
       "file": "PLA_ARM_ARQ_EX_IFC_R01.ifc",
       "schema": "IFC4X3",
       "walls": {
         "n": 1185,
+        "n_geom_ok": 1185,
         "by_type": {
           "outros_?cm": {
             "n": 19,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 346.0301215613695,
+            "length_m": 125.82837942665986,
             "example_names": [
               "Basic Wall:SM-EST-CON-CN0 20cm",
               "Basic Wall:SM-EST-CON-CN0 20cm",
               "Basic Wall:SM-EST-CON-CN0 20cm"
             ]
           },
-          "outros_11cm": {
-            "n": 510,
-            "area_m2": 0,
-            "length_m": 0,
+          "alvenaria_generica_11cm": {
+            "n": 504,
+            "area_m2": 1559.0652904761496,
+            "length_m": 1145.97865028466,
             "example_names": [
               "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
               "Basic Wall:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
               "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5"
             ]
           },
-          "outros_17cm": {
+          "alvenaria_generica_17cm": {
             "n": 266,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 3106.7191523617976,
+            "length_m": 1097.0002214502122,
             "example_names": [
               "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
               "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
               "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1"
             ]
           },
-          "outros_14cm": {
+          "alvenaria_generica_14cm": {
             "n": 262,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 2040.1399241179472,
+            "length_m": 662.7976687001261,
             "example_names": [
               "Basic Wall:SM-INT-ALV-BE14   18cm-RI1-RI1",
               "Basic Wall:SM-EXT-ALV-BE14   18cm-RE1/RE1",
@@ -273,18 +294,18 @@
           },
           "outros_10cm": {
             "n": 7,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 133.9307265081311,
+            "length_m": 29.76673360116961,
             "example_names": [
               "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
               "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
               "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM"
             ]
           },
-          "outros_9cm": {
+          "alvenaria_generica_9cm": {
             "n": 96,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 861.9852002478203,
+            "length_m": 328.880000083497,
             "example_names": [
               "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
               "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI2/RI1",
@@ -293,8 +314,8 @@
           },
           "outros_5cm": {
             "n": 2,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 20.866398626975343,
+            "length_m": 3.6599997524218795,
             "example_names": [
               "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM",
               "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM"
@@ -302,8 +323,8 @@
           },
           "outros_48cm": {
             "n": 18,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 102.79294318006683,
+            "length_m": 31.18013656027859,
             "example_names": [
               "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
               "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
@@ -312,16 +333,26 @@
           },
           "outros_2cm": {
             "n": 1,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 0.8680000000001024,
+            "length_m": 8.680000000001023,
             "example_names": [
               "VISTAS FORRO 2º PAVTO:VISTAS FORRO 2º PAVTO"
             ]
           },
+          "outros_11cm": {
+            "n": 6,
+            "area_m2": 13.944000000000035,
+            "length_m": 139.43999999999986,
+            "example_names": [
+              "VISTAS FORRO 11º PAVTO1:VISTAS FORRO 11º PAVTO",
+              "VISTAS FORRO 11º PAVTO2:VISTAS FORRO 11º PAVTO",
+              "VISTAS FORRO 11º PAVTO3:VISTAS FORRO 11º PAVTO"
+            ]
+          },
           "outros_3cm": {
             "n": 3,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 7.449000000000163,
+            "length_m": 74.49000000000163,
             "example_names": [
               "VISTAS FORROS 3º PAVTO1:VISTAS FORROS 3º PAVTO",
               "VISTAS FORROS 3º PAVTO2:VISTAS FORROS 3º PAVTO",
@@ -330,28 +361,31 @@
           },
           "outros_1cm": {
             "n": 1,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 1.9239999999999753,
+            "length_m": 19.23999999999996,
             "example_names": [
               "VISTA DOS FORROS1:VISTA DOS FORROS"
             ]
           }
         },
-        "total_area_m2": 0,
-        "total_length_m": 0
+        "total_area_m2": 8195.714757080303,
+        "total_length_m": 3666.941789859036
       },
       "slabs": {
         "n": 155,
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "n_geom_ok": 155,
+        "total_area_m2": 10695.079507318222,
+        "total_volume_m3": 1511.1756972613798
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -407,82 +441,88 @@
       },
       "railings": {
         "n": 86,
-        "total_length_m": 0
+        "n_geom_ok": 86,
+        "total_length_m": 331.36155507810537
       },
       "curtain_walls": {
         "n": 92,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 4,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 204,
+        "n_geom_ok": 204,
         "by_type": {
           "Compound Ceiling:SM-FOR-3.00cm  FG1": {
             "n": 202,
-            "area_m2": 0
+            "area_m2": 5151.837498529084
           },
           "Fascia:SM-COB-REV-Calha Platibanda-AL7-20x20cm+10c": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 191.27040000000002
           },
           "Fascia:SM-COB-REV-Rufo Metálico Chapa-AL7-12.5cm-3": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 179.55040000000002
           }
         },
-        "total_area_m2": 0
+        "total_area_m2": 5522.658298529084
       },
-      "duration_s": 11.3
+      "duration_s": 119.0
     },
     {
       "file": "PLA_ARM_ARQ_EP_R06.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 1837,
+        "n_geom_ok": 1837,
         "by_type": {
           "outros_?cm": {
             "n": 24,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 541.6939566378713,
+            "length_m": 176.38578981835053,
             "example_names": [
               "Parede básica:SM-EST-CON-CN0 20cm",
               "Parede básica:SM-EST-CON-CN0 20cm",
               "Parede básica:SM-EST-CON-CN0 20cm"
             ]
           },
-          "outros_11cm": {
+          "alvenaria_generica_11cm": {
             "n": 918,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 2808.876631291114,
+            "length_m": 2003.550689680232,
             "example_names": [
               "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
               "Parede básica:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
               "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5"
             ]
           },
-          "outros_17cm": {
+          "alvenaria_generica_17cm": {
             "n": 368,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 4162.781184887302,
+            "length_m": 1511.6415153617183,
             "example_names": [
               "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1",
               "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1",
               "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1"
             ]
           },
-          "outros_14cm": {
+          "alvenaria_generica_14cm": {
             "n": 364,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 2622.3839662885857,
+            "length_m": 872.8251702446029,
             "example_names": [
               "Parede básica:SM-EXT-ALV-BE14   18cm-RE1/RE1",
               "Parede básica:SM-INT-ALV-BE14   18cm-RI1/RI1",
@@ -491,18 +531,18 @@
           },
           "outros_10cm": {
             "n": 13,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 199.69318978843555,
+            "length_m": 47.65746315567952,
             "example_names": [
               "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM",
               "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM",
               "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM"
             ]
           },
-          "outros_9cm": {
+          "alvenaria_generica_9cm": {
             "n": 146,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 1175.2314564076216,
+            "length_m": 450.9780656721381,
             "example_names": [
               "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
               "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
@@ -511,8 +551,8 @@
           },
           "outros_5cm": {
             "n": 4,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 42.01679715780304,
+            "length_m": 7.319999504843763,
             "example_names": [
               "Parede básica:SM-EXT-MET-FACHADA ACM 5CM",
               "Parede básica:SM-EXT-MET-FACHADA ACM 5CM",
@@ -520,21 +560,24 @@
             ]
           }
         },
-        "total_area_m2": 0,
-        "total_length_m": 0
+        "total_area_m2": 11552.677182458741,
+        "total_length_m": 5070.358693437556
       },
       "slabs": {
         "n": 158,
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "n_geom_ok": 158,
+        "total_area_m2": 10749.086083693908,
+        "total_volume_m3": 1603.0333985510244
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -586,78 +629,84 @@
       },
       "railings": {
         "n": 84,
-        "total_length_m": 0
+        "n_geom_ok": 84,
+        "total_length_m": 325.34262875266114
       },
       "curtain_walls": {
         "n": 93,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 4,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 193,
+        "n_geom_ok": 193,
         "by_type": {
           "Forro composto:SM-FOR-3.00cm  FG1": {
             "n": 192,
-            "area_m2": 0
+            "area_m2": 4702.448059838383
           },
           "Borda:SM-COB-REV-Calha Platibanda-AL7-20x15cm+10cm": {
             "n": 1,
-            "area_m2": 0
+            "area_m2": 191.97358726060108
           }
         },
-        "total_area_m2": 0
+        "total_area_m2": 4894.421647098985
       },
-      "duration_s": 9.8
+      "duration_s": 119.3
     },
     {
       "file": "SAO_PLACON ARMÍNIO_AP_R01.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 1761,
+        "n_geom_ok": 1761,
         "by_type": {
           "outros_?cm": {
             "n": 24,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 543.6377551281563,
+            "length_m": 176.47621653508168,
             "example_names": [
               "Parede básica:SM-EST-CON-CN0 20cm",
               "Parede básica:SM-EST-CON-CN0 20cm",
               "Parede básica:SM-EST-CON-CN0 20cm"
             ]
           },
-          "outros_11cm": {
+          "alvenaria_generica_11cm": {
             "n": 857,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 2490.1058343129407,
+            "length_m": 1884.3382895980558,
             "example_names": [
               "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
               "Parede básica:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
               "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5"
             ]
           },
-          "outros_17cm": {
+          "alvenaria_generica_17cm": {
             "n": 350,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 3935.2465319754997,
+            "length_m": 1443.4398979376115,
             "example_names": [
               "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1",
               "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1",
               "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1"
             ]
           },
-          "outros_14cm": {
+          "alvenaria_generica_14cm": {
             "n": 346,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 2578.4484211470617,
+            "length_m": 841.6276675276889,
             "example_names": [
               "Parede básica:SM-EXT-ALV-BE14   18cm-RE1/RE1",
               "Parede básica:SM-INT-ALV-BE14   18cm-RI1/RI1",
@@ -666,18 +715,18 @@
           },
           "outros_10cm": {
             "n": 13,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 199.69318978843555,
+            "length_m": 47.65746315567952,
             "example_names": [
               "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM",
               "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM",
               "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM"
             ]
           },
-          "outros_9cm": {
+          "alvenaria_generica_9cm": {
             "n": 133,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 1102.3571002461172,
+            "length_m": 381.15500008348556,
             "example_names": [
               "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
               "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
@@ -686,8 +735,8 @@
           },
           "outros_48cm": {
             "n": 34,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 180.54028956252174,
+            "length_m": 55.06027313207646,
             "example_names": [
               "Parede básica:SM-INT-DRW-MM48   10cm-RI1/RI1",
               "Parede básica:SM-INT-DRW-MM48   10cm-RI1/RI1",
@@ -696,8 +745,8 @@
           },
           "outros_5cm": {
             "n": 4,
-            "area_m2": 0,
-            "length_m": 0,
+            "area_m2": 42.01679715780304,
+            "length_m": 7.319999504843763,
             "example_names": [
               "Parede básica:SM-EXT-MET-FACHADA ACM 5CM",
               "Parede básica:SM-EXT-MET-FACHADA ACM 5CM",
@@ -705,21 +754,24 @@
             ]
           }
         },
-        "total_area_m2": 0,
-        "total_length_m": 0
+        "total_area_m2": 11072.04591931856,
+        "total_length_m": 4837.074807474519
       },
       "slabs": {
         "n": 146,
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "n_geom_ok": 146,
+        "total_area_m2": 10265.137683986146,
+        "total_volume_m3": 1483.843190575491
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -770,55 +822,64 @@
       },
       "railings": {
         "n": 84,
-        "total_length_m": 0
+        "n_geom_ok": 84,
+        "total_length_m": 325.34242497570006
       },
       "curtain_walls": {
         "n": 93,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 2,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 183,
+        "n_geom_ok": 183,
         "by_type": {
           "Forro composto:SM-FOR-3.00cm  FG1": {
             "n": 183,
-            "area_m2": 0
+            "area_m2": 4721.317201041751
           }
         },
-        "total_area_m2": 0
+        "total_area_m2": 4721.317201041751
       },
-      "duration_s": 9.5
+      "duration_s": 118.9
     },
     {
       "file": "Ihs_EX_Placon_Armínio Tavares_R00.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_length_m": 0
       },
       "slabs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -835,50 +896,59 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 5.4
+      "duration_s": 4.8
     },
     {
       "file": "PLA_ARM_CLI_EX_IFC_R01.ifc",
       "schema": "IFC2X3",
       "walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_length_m": 0
       },
       "slabs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "beams": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_length_m": 0
       },
       "columns": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_volume_m3": 0,
         "total_height_m": 0
       },
@@ -895,57 +965,66 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 4,
+        "n_geom_ok": 4,
         "by_type": {
           "Ambiente": {
             "n": 4,
-            "area_m2": 0
+            "area_m2": 413.21334728336427
           }
         },
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "total_area_m2": 413.21334728336427,
+        "total_volume_m3": 1652.853389133457
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 2.3
+      "duration_s": 1.6
     },
     {
       "file": "PLA_ARM_EST_AP_IFC_REV09.ifc",
       "schema": "IFC4",
       "walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_length_m": 0
       },
       "slabs": {
         "n": 301,
-        "total_area_m2": 0,
-        "total_volume_m3": 0
+        "n_geom_ok": 301,
+        "total_area_m2": 4855.9854588222715,
+        "total_volume_m3": 1565.5726914697925
       },
       "beams": {
         "n": 736,
-        "total_volume_m3": 0,
-        "total_length_m": 0
+        "n_geom_ok": 736,
+        "total_volume_m3": 421.49862714157047,
+        "total_length_m": 2382.6687219423184
       },
       "columns": {
         "n": 193,
-        "total_volume_m3": 0,
-        "total_height_m": 0
+        "n_geom_ok": 193,
+        "total_volume_m3": 613.557507762771,
+        "total_height_m": 533.6999999999992
       },
       "doors": {
         "n": 0,
@@ -960,107 +1039,177 @@
       },
       "railings": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_length_m": 0
       },
       "curtain_walls": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "spaces": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0,
         "total_volume_m3": 0
       },
       "roofs": {
         "n": 0,
+        "n_geom_ok": 0,
         "total_area_m2": 0
       },
       "coverings": {
         "n": 0,
+        "n_geom_ok": 0,
         "by_type": {},
         "total_area_m2": 0
       },
-      "duration_s": 2.0
+      "duration_s": 3.7
     }
   ],
   "consolidado": {
     "walls": {
       "n": 6684,
+      "n_geom_ok": 6684,
       "by_type": {
         "outros_?cm": {
           "n": 93,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 1975.6999145118016,
+          "length_m": 655.3961757324862,
+          "example_names": [
+            "Basic Wall:SM-EST-CON-CN0 20cm",
+            "Basic Wall:SM-EST-CON-CN0   18cm",
+            "Parede básica:SM-EST-CON-CN0 20cm"
+          ]
         },
-        "outros_11cm": {
-          "n": 3186,
-          "area_m2": 0,
-          "length_m": 0
+        "alvenaria_generica_11cm": {
+          "n": 3174,
+          "area_m2": 9447.674735400904,
+          "length_m": 6964.5745894456195,
+          "example_names": [
+            "Basic Wall:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
+            "Basic Wall:SM-INT-ALV-BE11.5   15cm-RE1/RE1",
+            "Parede básica:SM-EXT-ALV-BE11.5   15cm-RE1/RE1-RI5",
+            "Parede básica:SM-INT-ALV-BE11.5   15cm-RE1/RE1"
+          ]
         },
-        "outros_17cm": {
+        "alvenaria_generica_17cm": {
           "n": 1372,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 15524.12470548509,
+          "length_m": 5613.7825124789815,
+          "example_names": [
+            "Basic Wall:SM-EXT-ALV-BE17   22cm-RE6/RI1",
+            "Parede básica:SM-EXT-ALV-BE17   22cm-RE6/RI1"
+          ]
         },
-        "outros_14cm": {
+        "alvenaria_generica_14cm": {
           "n": 1348,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 10031.817540720342,
+          "length_m": 3295.6081746385908,
+          "example_names": [
+            "Basic Wall:SM-EXT-ALV-BE14   18cm-RE1/RE1",
+            "Basic Wall:SM-INT-ALV-BE14   18cm-RI1/RI1",
+            "Basic Wall:SM-INT-ALV-BE14   18cm-RI1-RI1",
+            "Parede básica:SM-EXT-ALV-BE14   18cm-RE1/RE1",
+            "Parede básica:SM-INT-ALV-BE14   18cm-RI1/RI1"
+          ]
         },
         "outros_10cm": {
           "n": 46,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 733.007573787571,
+          "length_m": 172.73864883722092,
+          "example_names": [
+            "Basic Wall:SM-EXT-MET-FACHADA VENTILADA 10CM",
+            "Parede básica:SM-EXT-MET-FACHADA VENTILADA 10CM"
+          ]
         },
-        "outros_9cm": {
+        "alvenaria_generica_9cm": {
           "n": 524,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 4358.283557196299,
+          "length_m": 1620.8330659660905,
+          "example_names": [
+            "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1",
+            "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI2/RI1",
+            "Basic Wall:SM-INT-ALV-BE09+BE09  24cm-RI2/RI2",
+            "Parede básica:SM-INT-ALV-BE09+BE09  24cm-RI1/RI1"
+          ]
         },
         "outros_5cm": {
           "n": 13,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 128.08259290120085,
+          "length_m": 22.689998754900294,
+          "example_names": [
+            "Basic Wall:SM-EXT-MET-FACHADA ACM 5CM",
+            "Parede básica:SM-EXT-MET-FACHADA ACM 5CM"
+          ]
         },
         "outros_48cm": {
           "n": 86,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 465.94756014498387,
+          "length_m": 141.30068282443153,
+          "example_names": [
+            "Basic Wall:SM-INT-DRW-MM48   10cm-RI1/RI1",
+            "Parede básica:SM-INT-DRW-MM48   10cm-RI1/RI1"
+          ]
         },
         "outros_2cm": {
           "n": 2,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 1.7360000000002047,
+          "length_m": 17.360000000002046,
+          "example_names": [
+            "VISTAS FORRO 2º PAVTO:VISTAS FORRO 2º PAVTO"
+          ]
+        },
+        "outros_11cm": {
+          "n": 12,
+          "area_m2": 27.88800000000007,
+          "length_m": 278.8799999999997,
+          "example_names": [
+            "VISTAS FORRO 11º PAVTO1:VISTAS FORRO 11º PAVTO",
+            "VISTAS FORRO 11º PAVTO2:VISTAS FORRO 11º PAVTO",
+            "VISTAS FORRO 11º PAVTO3:VISTAS FORRO 11º PAVTO"
+          ]
         },
         "outros_1cm": {
           "n": 2,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 3.8479999999999506,
+          "length_m": 38.47999999999992,
+          "example_names": [
+            "VISTA DOS FORROS1:VISTA DOS FORROS"
+          ]
         },
         "outros_3cm": {
           "n": 12,
-          "area_m2": 0,
-          "length_m": 0
+          "area_m2": 42.44253348493507,
+          "length_m": 185.7060446465829,
+          "example_names": [
+            "VISTAS FORROS 3º PAVTO1:VISTAS FORROS 3º PAVTO",
+            "VISTAS FORROS 3º PAVTO2:VISTAS FORROS 3º PAVTO",
+            "VISTAS FORROS 3º PAVTO3:VISTAS FORROS 3º PAVTO"
+          ]
         }
       },
-      "total_area_m2": 0,
-      "total_length_m": 0
+      "total_area_m2": 42740.55271363323,
+      "total_length_m": 19007.349893324914
     },
     "slabs": {
       "n": 917,
-      "total_area_m2": 0,
-      "total_volume_m3": 0
+      "n_geom_ok": 917,
+      "total_area_m2": 47245.02853684454,
+      "total_volume_m3": 7673.288000449634
     },
     "beams": {
       "n": 736,
-      "total_volume_m3": 0,
-      "total_length_m": 0
+      "n_geom_ok": 736,
+      "total_volume_m3": 421.49862714157047,
+      "total_length_m": 2382.6687219423184
     },
     "columns": {
       "n": 193,
-      "total_volume_m3": 0,
-      "total_height_m": 0
+      "n_geom_ok": 193,
+      "total_volume_m3": 613.557507762771,
+      "total_height_m": 533.6999999999992
     },
     "doors": {
       "n": 1608,
@@ -1118,57 +1267,76 @@
     },
     "railings": {
       "n": 340,
-      "total_length_m": 0
+      "n_geom_ok": 340,
+      "total_length_m": 1321.4947500042558
     },
     "curtain_walls": {
       "n": 370,
+      "n_geom_ok": 0,
       "total_area_m2": 0
     },
     "spaces": {
       "n": 4,
+      "n_geom_ok": 4,
       "by_type": {
         "Ambiente": {
           "n": 4,
-          "area_m2": 0
+          "area_m2": 413.21334728336427,
+          "length_m": 0,
+          "example_names": []
         }
       },
-      "total_area_m2": 0,
-      "total_volume_m3": 0
+      "total_area_m2": 413.21334728336427,
+      "total_volume_m3": 1652.853389133457
     },
     "roofs": {
       "n": 14,
+      "n_geom_ok": 0,
       "total_area_m2": 0
     },
     "coverings": {
       "n": 785,
+      "n_geom_ok": 785,
       "by_type": {
         "Compound Ceiling:SM-FOR-3.00cm  FG1": {
           "n": 404,
-          "area_m2": 0
+          "area_m2": 10303.662497058174,
+          "length_m": 0,
+          "example_names": []
         },
         "Compound Ceiling:Ceiling 2": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 23.99213963205362,
+          "length_m": 0,
+          "example_names": []
         },
         "Fascia:SM-COB-REV-Calha Platibanda-AL7-20x20cm+10c": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 382.54080000000005,
+          "length_m": 0,
+          "example_names": []
         },
         "Fascia:SM-COB-REV-Rufo Metálico Chapa-AL7-12.5cm-3": {
           "n": 2,
-          "area_m2": 0
+          "area_m2": 359.10080000000005,
+          "length_m": 0,
+          "example_names": []
         },
         "Forro composto:SM-FOR-3.00cm  FG1": {
           "n": 375,
-          "area_m2": 0
+          "area_m2": 9423.765260880135,
+          "length_m": 0,
+          "example_names": []
         },
         "Borda:SM-COB-REV-Calha Platibanda-AL7-20x15cm+10cm": {
           "n": 1,
-          "area_m2": 0
+          "area_m2": 191.97358726060108,
+          "length_m": 0,
+          "example_names": []
         }
       },
-      "total_area_m2": 0
+      "total_area_m2": 20685.035084830964
     }
   },
-  "duration_s": 59.7
+  "duration_s": 502.0
 }
