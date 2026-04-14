@@ -286,7 +286,7 @@ python scripts/merge_qualitative.py --slug [slug-novo]
 | Análise Gemma sobre composições | em `composicoes/*.json` |
 | Memoriais .md de composições | em `composicoes-md/*.md` |
 
-### Cross-project insights (Fase 5 — desde 13/04 noite)
+### Cross-project insights (Fase 5)
 
 | Análise | Saída |
 |---|---|
@@ -297,7 +297,60 @@ python scripts/merge_qualitative.py --slug [slug-novo]
 | Lacunas de cobertura na base | `cross-insights/lacunas.json` |
 | **Relatório consolidado** | `cross-insights/cross-insights-report.md` |
 
-**Modelo usado:** `gemma4:e4b` (9.6 GB VRAM) via Ollama local. **Custo:** R$ 0.
+### Retry Fase 2 (Fase 6)
+
+| Projeto | Sub-disc antes | Sub-disc depois |
+|---|---|---|
+| xpcon-porto-cerro | 3 | **14** |
+| paludo-urban-life | 4 | **14** |
+| neuhaus-botanico | 4 | **13** |
+| f-nogueira-soberano | 3 | **10** |
+| viva4-barra4 | 4 | **10** |
+| ... (14 outros projetos melhorados) | | |
+
+Total: 19/21 projetos com sub-disciplinas enriquecidas.
+
+### Mineração profunda (Fases 8-15, desde 13/04 madrugada)
+
+| Fase | Método | Saída |
+|---|---|---|
+| **8** — Comentários + texto livre | Python openpyxl (cell.comment) | `comentarios-completos/*.json` (126) |
+| **9** — Fórmulas Excel | Python openpyxl (data_only=False) | `formulas/*.json` (126) |
+| **10** — Normalização + PUs cross-projeto | Python hash-based (O(n)) | `itens-pus-agregados.json` (4.210 clusters) |
+| **11** — Curvas ABC | Python | `curvas-abc/*.json` + `curva-abc-master.json` |
+| **13** — Índices derivados | Python agregador | `indices-derivados-v2.json` (29 índices) |
+| **14** — Observações completas via Gemma | Gemma e4b | `observacoes-insights/*.json` (126 em andamento) |
+| **15** — Base master consolidada | Python | `base-indices-master-YYYY-MM-DD.json` (322 KB) |
+
+### Novos 29 índices derivados (Fase 13)
+
+**PUs medianos cross-projeto:**
+- Concreto usinado: R$ 517,65/m³ (n=54)
+- Aço CA-50: R$ 6,80/kg (n=48)
+- Forma de madeira: R$ 16,49/m² (n=64)
+- Impermeabilização: R$ 39,81/m² (n=105)
+- Porcelanato: R$ 72,04/m² (n=60)
+- Pintura acrílica: R$ 43,27/m² (n=110)
+- Bloco cerâmico: R$ 1,40/un (n=19)
+
+**Custos totais por m² AC:**
+- Concreto: R$ 228,90/m² AC (n=64)
+- Aço: R$ 231,82/m² AC (n=65)
+- Forma: R$ 164,98/m² AC (n=69)
+- Escoramento: R$ 47,67/m² AC (n=57)
+- Impermeabilização: R$ 264,88/m² AC (n=95)
+- Elevador: R$ 213,33/m² AC (n=70)
+- Piscina: R$ 19,63/m² AC (n=65)
+- Pintura: R$ 594,46/m² AC (n=96)
+- Esquadrias: R$ 1.154,33/m² AC (n=96)
+- Louças: R$ 109,76/m² AC (n=76)
+
+**Cross-projeto:**
+- CI total R$/m² AC: R$ 305,56 (n=55)
+- Curva ABC %A: 12,2% (n=125)
+- Material %: 35% (n=21), Mão-obra %: 20% (n=20), Equipamento %: 8% (n=12)
+
+**Modelo Gemma usado:** `gemma4:e4b` (9.6 GB VRAM) via Ollama local. **Custo total:** R$ 0.
 
 ## Limitações conhecidas
 

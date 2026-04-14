@@ -5,19 +5,53 @@
 
 ---
 
-## Camada Qualitativa Gemma — Consulta Obrigatória (desde 13/04/2026)
+## Base Enriquecida (atualizada 14/04/2026)
 
-Antes de iniciar qualquer paramétrico ou executivo novo, **consultar a camada qualitativa** dos 126 projetos da base. Cada `~/orcamentos-openclaw/base/indices-executivo/[projeto].json` agora tem uma chave `qualitative` com sub-disciplinas, observações de orçamentista, premissas técnicas, BDI/encargos e decisões — extraídas via Gemma local sobre os xlsx e PDFs entregues.
+Antes de iniciar qualquer paramétrico ou executivo novo, **consultar a base de índices master** que consolida TUDO:
 
-**Como usar:**
-1. Buscar 3-5 projetos similares (AC ± 20%, padrão equivalente)
-2. Olhar `qualitative.sub_disciplinas` → usar como base para detalhar cada macrogrupo do novo projeto
-3. Olhar `qualitative.premissas_tecnicas` → reutilizar premissas (perdas, prazo, fundação, cisterna, etc.)
-4. Olhar `qualitative.observacoes_orcamentista` → reutilizar textos no memorial e log
+**`base/base-indices-master-YYYY-MM-DD.json`** (322 KB, consolidado) — contém:
+
+- **Índices V2 originais** (produto, estruturais, instalações, CI, macrogrupo, segmento)
+- **29 novos índices derivados cross-projeto** (PU concreto, PU aço, custo esquadrias/m² AC, etc.)
+- **Top 500 PUs cross-projeto** agregados de 4.210 clusters (Fase 10)
+- **Curva ABC master** (126 projetos)
+- **5 cross-insights Gemma** (famílias, outliers, padrões, novos índices, lacunas)
+- **Camada qualitativa** em cada `indices-executivo/[projeto].json` → chave `qualitative`
+
+### Como usar antes de gerar um orçamento
+
+1. **Consulta PU de um item específico**:
+   ```python
+   import json
+   master = json.load(open("base/base-indices-master-2026-04-13.json"))
+   for pu in master["pus_agregados_top_500"]:
+       if "concreto fck 30" in pu["desc"].lower():
+           print(pu["desc"], "mediana R$", pu["pu_mediana"], "±", pu["cv"]*100, "%")
+   ```
+
+2. **Consulta índice derivado** (custo esquadrias/m² AC, etc.):
+   ```python
+   idx = master["indices_derivados_v2"]["custo_esquadrias_rsm2"]
+   print(f"mediana R$ {idx['mediana']}/m² AC, n={idx['n']} projetos")
+   # Para projeto com AC 15000: valor esperado = idx['mediana'] * 15000
+   ```
+
+3. **Buscar projetos similares** (sub-disciplinas + premissas):
+   ```python
+   # Ver: scripts/consulta_similares.py -> projetos_similares()
+   # Já usado automaticamente pelo gerar_pacote.py
+   ```
 
 **Documentação canônica:** `~/orcamentos-openclaw/base/CAMADA-QUALITATIVA-GEMMA.md`
-**Roadmap (Fases 4-7):** `~/orcamentos-openclaw/base/FASES-FUTURAS.md`
-**Estatísticas:** 761 sub-disciplinas, 553 observações, 269 padrões, 404 premissas, 34 BDI, 124 decisões em 126 projetos
+**Roadmap:** `~/orcamentos-openclaw/base/FASES-FUTURAS.md`
+
+**Estatísticas da base (14/04/2026):**
+- 126 projetos com camada qualitativa completa
+- 4.210 PUs cross-projeto medianos (Fase 10)
+- 29 novos índices derivados (Fase 13)
+- 333k itens detalhados (Fase 1)
+- ~1.200 comentários + ~150k textos livres (Fase 8)
+- 35.147 composições unitárias classificadas (Fase 4)
 
 ---
 

@@ -8,45 +8,92 @@
 
 ---
 
-## ⭐ Camada Qualitativa Gemma — Consulta a cada disciplina
+## ⭐ Base Enriquecida — Consulta a cada disciplina (v0.4)
 
-A cada disciplina trabalhada no executivo, **antes de preencher**, consultar a camada qualitativa dos projetos similares:
+A cada disciplina trabalhada no executivo, **antes de preencher**, consultar as fontes enriquecidas:
+
+### 1. PUs cross-projeto (Fase 10)
+
+Consulta direta dos PUs medianos da base de 4.210 clusters cross-projeto:
 
 ```python
-# Em ~/orcamentos-openclaw/
 import json
-from pathlib import Path
+pus = json.load(open("base/itens-pus-agregados.json"))
 
+# Buscar PU mediano de um insumo específico
+for p in pus["pus_agregados"]:
+    if "concreto usinado" in p["desc"].lower() and "30" in p["desc"]:
+        print(f"{p['desc'][:60]}")
+        print(f"  mediana: R$ {p['pu_mediana']}")
+        print(f"  P10-P90: R$ {p['pu_p10']} - R$ {p['pu_p90']}")
+        print(f"  CV: {p['cv']*100:.0f}%  ({p['n_observacoes']} observações)")
+```
+
+### 2. Índices derivados (Fase 13)
+
+Usar os 29 novos índices para validar valores do macrogrupo:
+
+```python
+idx = json.load(open("base/indices-derivados-v2.json"))["indices"]
+
+# Exemplo: validar total de Esquadrias
+esq = idx["custo_esquadrias_rsm2"]
+ac_projeto = 36000  # AC do projeto
+esperado_mediano = esq["mediana"] * ac_projeto
+esperado_p25 = esq["p25"] * ac_projeto
+esperado_p75 = esq["p75"] * ac_projeto
+print(f"Esquadrias esperado: R$ {esperado_mediano:,.0f} ")
+print(f"  faixa P25-P75: R$ {esperado_p25:,.0f} - R$ {esperado_p75:,.0f}")
+```
+
+### 3. Sub-disciplinas dos similares (Fase 2/6)
+
+```python
+from pathlib import Path
 BASE = Path.home() / "orcamentos-openclaw" / "base" / "indices-executivo"
 
-def consultar_macrogrupo(slug_alvo, macrogrupo, ac_alvo, n=5):
-    """Retorna sub-disciplinas e observações de projetos similares para um macrogrupo."""
+def consultar_macrogrupo(macrogrupo, ac_alvo, n=5):
     todos = [json.loads(p.read_text(encoding="utf-8")) for p in BASE.glob("*.json")]
     sims = [p for p in todos
             if p.get("ac") and abs(p["ac"] - ac_alvo) < ac_alvo * 0.25
             and p.get("qualitative", {}).get("sub_disciplinas")]
-    
     out = []
     for p in sims[:n]:
         for sd in p["qualitative"]["sub_disciplinas"]:
             if macrogrupo.lower() in sd.get("macrogrupo", "").lower():
                 out.append((p["projeto"], sd))
     return out
-
-# Ex: trabalhando "Esquadrias" no Electra (AC=36000)
-refs = consultar_macrogrupo("electra", "Esquadrias", 36000)
-for slug, sd in refs:
-    print(f"{slug}: {sd['sub_disciplina']} — {sd.get('itens_exemplo', [])}")
 ```
 
-**O que reaproveitar de cada projeto similar:**
+### 4. Base master tudo-em-um (Fase 15)
+
+```python
+master = json.load(open("base/base-indices-master-2026-04-13.json"))
+# Acessa TUDO: indices V2 + derivados + PUs + curvas ABC + cross-insights
+```
+
+**O que reaproveitar ao trabalhar cada disciplina:**
 - **Sub-disciplinas** → como detalhar a aba do macrogrupo
-- **Observações de orçamentista** (`qualitative.observacoes_orcamentista`) → reutilizar como texto de justificativa no log
-- **Premissas técnicas** (`qualitative.premissas_tecnicas`) → premissas que costumam aparecer (perdas, prazos, fundação)
-- **Padrões identificados** (`qualitative.padroes_identificados`) → o que se repete cross-aba
+- **PUs cross-projeto** → validar que PUs usados batem com P10-P90
+- **Índices derivados** → total esperado do macrogrupo vs total no executivo
+- **Observações de orçamentista** → reutilizar como texto de justificativa no log
+- **Premissas técnicas** → premissas que costumam aparecer (perdas, prazos, fundação)
+- **Padrões identificados** → o que se repete cross-aba
+- **Análise de composição** (Fase 4) → distribuição material/MO/equipamento por item
+
+**Script pronto pra revisão:**
+```bash
+python scripts/revisar_pacotes_pus.py  # compara PUs com faixa P10-P90
+python scripts/gerar_audit_v2.py       # audit detalhado com 29 índices
+```
 
 **Documentação canônica:** `~/orcamentos-openclaw/base/CAMADA-QUALITATIVA-GEMMA.md`
-**Cobertura:** 126 projetos com sub_disciplinas, 58 com PDF analisado, 269 padrões identificados
+**Cobertura atual:**
+- 126 projetos com sub_disciplinas completas
+- 58 com PDF analisado
+- 22 com composições unitárias (Fase 4)
+- 4.210 PUs cross-projeto (Fase 10)
+- 29 índices derivados (Fase 13)
 
 ---
 

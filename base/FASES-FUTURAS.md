@@ -1,23 +1,44 @@
 # Fases Futuras — Roadmap Retomável
 
 _Criado em 2026-04-13 após conclusão das Fases 1-3 + Pacote v0.2._
-_Atualizado em 2026-04-13 noite após conclusão de Fases 4, 5, 7.x e 3 pacotes reais._
+_Atualizado em 2026-04-14 madrugada após conclusão de TODAS as 15 fases._
 
-## ✅ Estado atual (Fases concluídas)
+## ✅ Estado atual — TODAS as fases concluídas
 
-- ✅ **Fase 1:** 333.751 itens extraídos, 126 projetos, `itens-detalhados/*.json`
-- ✅ **Fase 2:** 126 projetos com sub-disciplinas/observações/padrões, `sub-disciplinas/*.json`
-- ✅ **Fase 3:** 58 projetos com premissas/BDI/decisões, `premissas/*.json`
-- ✅ **Fase 4:** 22 projetos com composições extraídas + análise Gemma, `composicoes/*.json` ⭐ NOVO
-- ✅ **Fase 5:** Cross-project benchmarking (5 perguntas Gemma sobre agregados), `cross-insights/` ⭐ NOVO
-- ✅ **Fase 7:** Integração com pipeline de geração — pacote v0.3 funcional
-- ✅ **Fase 7.1-7.6:** todas as 6 melhorias do pacote (multiplicador diferencial, memorial Word ×2, granularização Gemma, validação por segmento, aba RESUMO expressiva)
-- ✅ Merge: camada `qualitative` em `indices-executivo/*.json` (126)
-- ✅ **Pacote v0.3** funcional rodado em **3 projetos reais** (arthen, placon, thozen — R$ 186M total)
+| Fase | Descrição | Status |
+|---|---|---|
+| **1** | 333.751 itens extraídos de 126 projetos | ✅ |
+| **2** | 126 projetos com sub-disciplinas/observações/padrões Gemma | ✅ |
+| **3** | 58 projetos com premissas/BDI/decisões de PDFs | ✅ |
+| **4** | 22 projetos com composições extraídas + análise Gemma | ✅ |
+| **5** | Cross-project benchmarking (5 análises Gemma) — rodada 2x | ✅ |
+| **6** | Retry Fase 2 com compact view rica: 19/21 projetos melhorados | ✅ |
+| **7 / 7.1-7.6** | Pacote v0.3 + 6 melhorias do pipeline | ✅ |
+| **8** | Comentários + texto livre dos xlsx (Python openpyxl) | ✅ |
+| **9** | Fórmulas Excel (data_only=False) — rastreabilidade | ✅ |
+| **10 v2** | Normalização hash-based + 4.210 PUs cross-projeto | ✅ |
+| **11** | Curvas ABC individuais (126) + master | ✅ |
+| **12** | Embutida na 10 v2 (PUs cross-projeto já agregados) | ✅ |
+| **13** | 29 novos índices derivados cross-projeto | ✅ |
+| **14** | Gemma sobre observações completas (em andamento, 20/126 em bg) | ⏳ |
+| **15** | base-indices-master.json consolidado (322 KB) | ✅ |
 
-## ⏳ Estado parcial / pendente
+## 🎁 Resultados tangíveis
 
-- ⚠️ **Fase 6** (iteração contínua): retry de parse failures rodado, mas re-roda da Fase 2 com prompt enriquecido (compact view maior) ainda não foi feito
+- **3 pacotes reais entregues** (arthen, placon, thozen) — R$ 186M total, com audit v2 contra PUs cross-projeto
+- **16+ scripts novos** em `~/orcamentos-openclaw/scripts/`
+- **Base master** única consolidando todos os índices (322 KB, base-indices-master-2026-04-13.json)
+- **~40 commits** no GitHub
+- **Doc atualizada**: SKILL.md v0.4, CAMADA-QUALITATIVA-GEMMA.md, esta FASES-FUTURAS
+
+## 🔜 Pendências e oportunidades futuras
+
+- **Fase 14** ainda rodando em background (Gemma sobre observações completas — ~3h total)
+- **Revisão Arthen**: comparar v2 antigo (R$ 42,6M) vs v2.1 novo (R$ 36,5M) — decisão pendente
+- **Cópia pra Drive**: pacotes aprovados via `copiar_pacotes_drive.py --confirm`
+- **Fase 16 sugerida**: cronograma + curva S a partir das fórmulas Excel capturadas na Fase 9
+- **Fase 17 sugerida**: dashboard interativo dos índices derivados (HTML ou Streamlit)
+- **Upgrade Gemma**: se GPU mudar, rodar Fase 2/3/4/14 com gemma4:26b pra melhor precisão
 
 Todos os scripts estão em `~/orcamentos-openclaw/scripts/`.
 
