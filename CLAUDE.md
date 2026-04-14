@@ -28,6 +28,16 @@ Equipe (Slack) → Bot Cartesiano → ~/orcamentos/ (este repo)
 | `docs/ORCAMENTO-WORKFLOW.md` | Workflow completo do parametrico (3 fases) |
 | `docs/LICOES-APRENDIDAS-OXFORD.md` | Licoes aprendidas do projeto referencia |
 | `base/BRIEFING-PARAMETRICO.md` | Template briefing (25 perguntas) |
+| `base/FASES-FUTURAS.md` | Roadmap retomavel — estado de todas as fases (1-18b concluidas) |
+| `base/CAMADA-QUALITATIVA-GEMMA.md` | Fonte canonica da camada qualitativa Gemma (sub-disc, premissas, observacoes, classificacao padrao) |
+| `base/SESSAO-2026-04-14-REVISAO-3-PACOTES.md` | **Narrativa completa** da sessao de revisao dos 3 pacotes + fases 14/16/17/18/18b |
+| `base/calibration-condicional-padrao.json` | **Calibracao condicional por padrao Gemma (fonte primaria pos-fase 18b)** |
+| `base/padroes-classificados-consolidado.json` | Labels Gemma semanticos dos 125/126 projetos |
+| `base/itens-pus-agregados.json` | 4.210 clusters PU cross-projeto (usado no PU sanity filter) |
+
+## Modo autonomo com modelo local (Gemma/Ollama)
+
+Quando o pipeline envolve Gemma/Ollama local, trabalhar **autonomamente**: disparar, monitorar, investigar bugs/gaps, corrigir, reprocessar — sem checkpoint humano. Interacao so em decisoes arquiteturais (escolha entre caminhos grandes), destrutivas (delete/overwrite), ou na entrega final. Pipelines retomaveis (fila + log + resume) sao padrao. Custo zero de token significa que tempo eh o unico custo — investir tempo em iteracao autonoma para chegar no valor final. Ver memorias `feedback_modo_autonomo_gemma_local.md` e `feedback_qualidade_sobre_velocidade.md`.
 
 ## Regras criticas (resumo — detalhes em AGENTS.md)
 

@@ -1,7 +1,7 @@
 # Fases Futuras — Roadmap Retomável
 
 _Criado em 2026-04-13 após conclusão das Fases 1-3 + Pacote v0.2._
-_Atualizado em 2026-04-14 madrugada após conclusão de TODAS as 17 fases._
+_Atualizado em 2026-04-14 após conclusão de TODAS as 18 fases + fase 18b (calibração baseada em Gemma labels)._
 
 ## ✅ Estado atual — TODAS as fases concluídas
 
@@ -27,14 +27,18 @@ _Atualizado em 2026-04-14 madrugada após conclusão de TODAS as 17 fases._
 | **16c** | Quantitativos PDF (pypdf áreas/unidades) — placon 14 PDFs | ✅ |
 | **16d** | Consolidação BIM+DXF+PDF por projeto (`quantitativos-consolidados/`) | ✅ |
 | **17** | Memoriais de extração (`memorial-extracao-{slug}.md`) — Arthen/Placon/Thozen com cross-ref a 4.210 PUs + 29 índices | ✅ |
+| **18** | Classificação semântica de padrão via Gemma (126 projetos, 94% alta/média confiança) | ✅ |
+| **18b** | Calibração condicional por padrão usando labels Gemma (substitui rsm2-bucket proxy) + regerar 3 pacotes | ✅ |
 
 ## 🎁 Resultados tangíveis
 
-- **3 pacotes reais entregues** (arthen, placon, thozen) — R$ 186M total, com audit v2 contra PUs cross-projeto
-- **16+ scripts novos** em `~/orcamentos-openclaw/scripts/`
+- **3 pacotes reais entregues** (arthen, placon, thozen) — **R$ 211,42M** total após Fase 18b, ancorados em calibração condicional Gemma real
+- **23+ scripts novos** em `~/orcamentos-openclaw/scripts/`
 - **Base master** única consolidando todos os índices (322 KB, base-indices-master-2026-04-13.json)
-- **~40 commits** no GitHub
-- **Doc atualizada**: SKILL.md v0.4, CAMADA-QUALITATIVA-GEMMA.md, esta FASES-FUTURAS
+- **Calibração condicional real** via labels Gemma dos 125 projetos (n_medio-alto=37, n_alto=23)
+- **126 projetos classificados** por padrão semântico com 94% alta/média confiança
+- **~50 commits** no GitHub
+- **Docs atualizados**: SKILL.md v0.4, CAMADA-QUALITATIVA-GEMMA.md, esta FASES-FUTURAS, SESSAO-2026-04-14-REVISAO-3-PACOTES.md
 
 ## 🔜 Pendências e oportunidades futuras
 

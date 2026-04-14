@@ -440,3 +440,103 @@ Pipeline complementar que extrai quantitativos físicos diretamente do **projeto
 **Validado em 3 projetos reais** (arthen-arboris, placon-arminio-tavares, thozen-electra). Output: 27-30 KB/memorial.
 
 **Como usar:** quando um novo executivo precisar de cross-validação física, rodar a sequência 16a→16b→16c→16d→17 sobre o slug do projeto. Os JSONs ficam em `quantitativos-{bim,dxf,pdf,consolidados}/` e o memorial em `pacotes/{slug}/memorial-extracao-{slug}.md`.
+
+---
+
+## Fase 18 — Classificação semântica de padrão via Gemma (concluída 2026-04-14)
+
+Classificador rodando Gemma `gemma4:e4b` sobre os 126 projetos da base pra atribuir um label de padrão real (economico/medio/medio-alto/alto/luxo) a partir dos **materiais, marcas e dimensões dos itens de acabamento**. Substitui a estratificação anterior por bucket rsm2 (proxy circular).
+
+### Por que existe
+
+A calibração condicional original usava quartis de R$/m² total pra estratificar padrão — era circular (calibrava R$/m² a partir de buckets de R$/m²) e viesada por extrações incompletas. O Gemma lê os itens reais (porcelanato 120×120 vs cerâmico 45×45, mármore vs pintura texturizada, Docol/Deca vs Tigre/Astra) e classifica semanticamente.
+
+### Pipeline
+
+**Script:** `scripts/classificar_padrao_gemma.py`
+
+Por projeto:
+1. Coleta itens de Pisos/Esquadrias/Louças/Fachada/Sistemas Especiais via 2 estratégias:
+   - **Aba-name matching:** nome da aba contém keyword (PISOS, ESQUADRIAS, LOUCAS...)
+   - **Fallback por descrição:** regex por categoria aplicado a TODOS os itens de TODAS as abas (pra xlsx em formato Sienge/EAP/Relatório único). Prioridade: esquadrias > louças > fachada > SE > pisos.
+2. Detecta **flags de assinatura** via regex: `piscina_aquecida`, `gerador`, `automacao`, `spa_sauna`, `elevador_panoramico`, `marmore`, `granito`, `acm`, `porcelanato_grande`, `porcelanato_pequeno`, `laminado`, `vinilico`, `docol_deca`, `fitness_academia`, `gourmet`, `heliponto`, `home_theater`, `adega`.
+3. Métricas: R$/m², m²/UR, R$/UR, disciplinas_rsm2.
+4. Monta prompt com rubric canônica de 5 classes + top 15 itens por macrogrupo.
+5. Chama Ollama HTTP API com `format: json` (elimina truncamento de resposta).
+6. Persiste em `base/padroes-classificados/{slug}.json` + entrada na fila retomável `base/phase18-queue.json`.
+
+### Rubric (resumida)
+
+| Classe | R$/m² | Pisos | Esquadrias | Lazer | Fachada |
+|---|---|---|---|---|---|
+| economico | <2.800 | cerâmico 45×45 | alumínio simples | básico | textura |
+| medio | 2.800-3.400 | porcelanato 60×60 | alumínio intermediário | piscina+salão | pastilha |
+| medio-alto | 3.400-4.000 | porcelanato 80×80 | esquadria reforçada | + automação básica | pastilha+detalhes |
+| alto | 4.000-5.000 | porcelanato 120×120, granito | vidro duplo | + spa, gerador | ACM, granito |
+| luxo | >5.000 | mármore, madeira nobre | brise automatizado | + piscina aquecida, heliponto | mármore premium |
+
+Rubric é guia, não trava. 2 sinais fortes de classe alta compensam R$/m² baixo (o R$/m² pode estar subestimado por extração parcial).
+
+### Output
+
+**Por projeto** (`base/padroes-classificados/{slug}.json`):
+```json
+{
+  "projeto": "slug",
+  "classificacao": {
+    "padrao": "alto",
+    "confianca": "alta",
+    "sinais_detectados": ["porcelanato 120x120", "ACM fachada", "gerador", ...],
+    "sinais_ausentes_relevantes": ["heliponto", "borda infinita"],
+    "justificativa": "...",
+    "coerencia_rsm2": "sim|nao|parcial — explicação"
+  },
+  "sinais_input": {...}
+}
+```
+
+**Consolidado** em `base/padroes-classificados-consolidado.json`.
+
+### Resultado (126 projetos, ~20 min na 1ª rodada + ~15 min no reprocesso de 84)
+
+| Classe | n | Alta conf | Média | Baixa |
+|---|---|---|---|---|
+| economico | 4 | 0 | 0 | 4 |
+| medio | 4 | 0 | 3 | 1 |
+| **medio-alto** | **60** | 27 | 28 | 5 |
+| **alto** | **57** | **50** | 7 | 0 |
+| luxo | 0 | — | — | — |
+| insuficiente | 1 | — | — | — |
+
+**94% classificados com alta/média confiança.**
+
+## Fase 18b — Calibração condicional baseada em labels Gemma
+
+**Script:** `scripts/build_calibration_gemma.py`
+
+Substitui completamente a estratificação rsm2-bucket anterior. Pra cada classe Gemma, agrega medianas por macrogrupo dos projetos classificados naquela classe **E** com `ac+total > 0` em `indices-executivo`.
+
+### Nova `base/calibration-condicional-padrao.json`
+
+| Classe | n projetos | Total R$/m² mediano | MGs cobertos |
+|---|---|---|---|
+| economico | 3 | 1.767 | 13/18 |
+| medio | 2 | 2.467 | 15/18 |
+| **medio-alto** | **37** | **3.349** | **18/18** ✅ |
+| **alto** | **23** | **4.156** | **18/18** ✅ |
+| luxo | 0 | — | — |
+
+`valores_macrogrupos_calibrados()` consulta condicional primeiro (n≥3), fallback pra global × `PADRAO_MULTIPLIERS` quando o bucket tem dados esparsos.
+
+Classes **medio-alto** e **alto** são as mais confiáveis (n≥23, cobertura completa). Classes com n<5 atuam como aproximação + fallback global.
+
+## Fluxo para novos projetos (atualizado fase 18)
+
+```
+Novo xlsx executivo → extract_itens_detalhados → itens-detalhados/{slug}.json
+                   → classificar_padrao_gemma  → padroes-classificados/{slug}.json
+                   → build_calibration_gemma   → calibration-condicional atualizada
+                   → processar_executivo (V2)  → indices-executivo/{slug}.json
+                   → phase14 (observações Gemma)
+                   → merge_qualitative → qualitative key
+```
