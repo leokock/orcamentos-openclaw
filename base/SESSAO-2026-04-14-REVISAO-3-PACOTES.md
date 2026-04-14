@@ -288,6 +288,43 @@ Esta sessão estabeleceu o padrão de modo autônomo com modelo local:
 
 Leo validou essa abordagem como padrão pra todo trabalho futuro com Gemma local. Ver memória `feedback_modo_autonomo_gemma_local.md`.
 
+## Fase 19.1 — Catálogo único de índices (INDICES-CATALOGO)
+
+Após fechar os 3 pacotes, Leo pediu um artefato consolidado pra **navegar manualmente** por todos os índices da base. Resultado: `base/INDICES-CATALOGO.xlsx` com 10 abas filtráveis + guia de leitura didático `base/INDICES-CATALOGO.md`.
+
+### Arquitetura do catálogo
+
+**Script gerador:** `scripts/gerar_catalogo_indices.py` (reutilizável — lê dinamicamente todos os JSONs da base)
+
+**10 abas do xlsx** (~6.500 linhas de dados, 677 KB):
+
+1. LEIA_ME — mapa interno
+2. PROJETOS (126) — slug, padrão Gemma, AC, UR, total, R$/m², cidade
+3. CALIBRACAO_GLOBAL (18) — 18 MGs global sem segmentação
+4. CALIBRACAO_CONDICIONAL (64) — 18 MGs × 5 padrões Gemma (medio-alto 18, alto 18, medio 15, economico 13, luxo 0)
+5. INDICES_DERIVADOS_V2 (29) — PUs consolidados, custos por MG, splits
+6. INDICES_ESTRUTURAIS (22) — consumos físicos + produto + instalações % + CI % + segmentos por porte
+7. **PUS_CROSS_V1 (1.740)** — clusters PU COM lista de obras-fonte
+8. PUS_CROSS_V2 (4.210) — clusters PU SEM lista (mais cobertura)
+9. CURVA_ABC_MASTER (126) — n itens, n curva A, valor total por projeto
+10. CROSS_INSIGHTS_GEMMA — análises qualitativas cross-projeto
+
+### MD didático
+
+O `base/INDICES-CATALOGO.md` foi escrito especificamente pra **engenheiro civil abrindo a planilha pela primeira vez**. 373 linhas cobrindo:
+- Os 3 tipos de índice (preço unitário / custo por área / consumo físico) com quando usar cada um
+- Leitura de percentis em linguagem de engenheiro (p10-p90 = faixa de 80% dos projetos, p25-p75 = inter-quartil, etc)
+- Regra "confio ou não?" tabelada por n × cv
+- Visão guiada aba-por-aba com quando usar, dicas de filtro e pegadinhas
+- **6 cenários reais** passo-a-passo (estimar projeto novo, validar PU, calcular salto de padrão, investigar outlier, dimensionar quantitativo, validar BDI)
+- Gaps e pegadinhas traduzidos
+- Glossário (AC, UR, CUB, PU, bottom-up, top-down, percentis, CV, padrão Gemma)
+
+### Commit
+
+- `a637058` — script + xlsx + md inicial
+- `1cbc4e4` — reescrita didática do md (84 → 373 linhas)
+
 ## Commits da sessão
 
 1. `598b6b6` — Fase 14 (observações Gemma 126), Fase 16 (quantitativos), Fase 17 (memoriais)
@@ -296,6 +333,8 @@ Leo validou essa abordagem como padrão pra todo trabalho futuro com Gemma local
 4. `105a277` — Fase 18b: calibração Gemma labels + regerar 3 pacotes
 5. `37ac040` / `1fefe3f` — Documentação das fases 14/16/17/18/18b (orcamentos + openclaw)
 6. `756e050` — Fase 19: Paramétrico V2 Híbrido (override manual) + 3 pacotes regerados
+7. `3170277` / `43febb5` — Regra de sync pro Drive documentada nos dois repos
+8. `a637058` / `1cbc4e4` — Fase 19.1: catálogo único de índices (xlsx + md didático)
 
 ## Fase 19 — Paramétrico V2 Híbrido (dropdown + override manual)
 

@@ -30,6 +30,7 @@ _Atualizado em 2026-04-14 após conclusão de TODAS as 19 fases (incluindo fase 
 | **18** | Classificação semântica de padrão via Gemma (126 projetos, 94% alta/média confiança) | ✅ |
 | **18b** | Calibração condicional por padrão usando labels Gemma (substitui rsm2-bucket proxy) + regerar 3 pacotes | ✅ |
 | **19** | Paramétrico V2 **Híbrido** (dropdown BRIEFING + coluna Override manual na aba INDICES) + pré-preenchimento BRIEFING via config JSON + 3 novos índices overridable (fator viga/laje/hidro) | ✅ |
+| **19.1** | **Catálogo único de índices** (`INDICES-CATALOGO.xlsx` + guia didático `.md`) — consolida todos os índices da base em 10 abas filtráveis pra consulta manual rápida. Script `scripts/gerar_catalogo_indices.py` regenera dinamicamente | ✅ |
 
 ## 🎁 Resultados tangíveis
 

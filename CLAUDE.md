@@ -32,9 +32,19 @@ Equipe (Slack) → Bot Cartesiano → ~/orcamentos/ (este repo)
 | `base/CAMADA-QUALITATIVA-GEMMA.md` | Fonte canonica da camada qualitativa Gemma (sub-disc, premissas, observacoes, classificacao padrao) |
 | `base/SESSAO-2026-04-14-REVISAO-3-PACOTES.md` | **Narrativa completa** da sessao de revisao dos 3 pacotes + fases 14/16/17/18/18b/19 |
 | `base/PARAMETRICO-V2-HIBRIDO.md` | **Referencia canonica** do fluxo parametrico V2 Hibrido (dropdown + override manual) — fase 19 |
+| `base/INDICES-CATALOGO.xlsx` | **Catalogo unico** com TODOS os indices da base em 10 abas filtraveis (~6.500 linhas) — para navegacao manual |
+| `base/INDICES-CATALOGO.md` | **Guia didatico** de leitura do catalogo xlsx (pra engenheiro civil) — 3 tipos de indice, leitura de percentis, 6 cenarios de uso, glossario |
 | `base/calibration-condicional-padrao.json` | **Calibracao condicional por padrao Gemma (fonte primaria pos-fase 18b)** |
 | `base/padroes-classificados-consolidado.json` | Labels Gemma semanticos dos 125/126 projetos |
 | `base/itens-pus-agregados.json` | 4.210 clusters PU cross-projeto (usado no PU sanity filter) |
+
+## Consulta rapida a indices
+
+Quando precisar consultar qualquer indice da base (PU de concreto, R$/m2 de Esquadrias por padrao, consumo de aco, etc), **abra o catalogo unico**:
+
+- **Planilha:** `base/INDICES-CATALOGO.xlsx` — 10 abas filtraveis, ~6.500 linhas cobrindo todos os indices calibrados (PUs cross-projeto V1/V2, calibracao global, calibracao condicional por padrao Gemma, derivados v2, estruturais, produto, instalacoes, CI, curva ABC, cross insights Gemma)
+- **Guia de leitura:** `base/INDICES-CATALOGO.md` — explica abas, percentis (p10/p25/mediana/p75/p90), CV, regra "confio ou nao", 6 cenarios reais de uso
+- **Regeneracao:** `python scripts/gerar_catalogo_indices.py` (sem argumentos) — re-le todos os JSONs e regenera xlsx+md. Rodar sempre que a base for atualizada.
 
 ## Modo autonomo com modelo local (Gemma/Ollama)
 
