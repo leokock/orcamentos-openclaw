@@ -28,9 +28,10 @@ Equipe (Slack) → Bot Cartesiano → ~/orcamentos/ (este repo)
 | `docs/ORCAMENTO-WORKFLOW.md` | Workflow completo do parametrico (3 fases) |
 | `docs/LICOES-APRENDIDAS-OXFORD.md` | Licoes aprendidas do projeto referencia |
 | `base/BRIEFING-PARAMETRICO.md` | Template briefing (25 perguntas) |
-| `base/FASES-FUTURAS.md` | Roadmap retomavel — estado de todas as fases (1-18b concluidas) |
+| `base/FASES-FUTURAS.md` | Roadmap retomavel — estado de todas as fases (1-19 concluidas) |
 | `base/CAMADA-QUALITATIVA-GEMMA.md` | Fonte canonica da camada qualitativa Gemma (sub-disc, premissas, observacoes, classificacao padrao) |
-| `base/SESSAO-2026-04-14-REVISAO-3-PACOTES.md` | **Narrativa completa** da sessao de revisao dos 3 pacotes + fases 14/16/17/18/18b |
+| `base/SESSAO-2026-04-14-REVISAO-3-PACOTES.md` | **Narrativa completa** da sessao de revisao dos 3 pacotes + fases 14/16/17/18/18b/19 |
+| `base/PARAMETRICO-V2-HIBRIDO.md` | **Referencia canonica** do fluxo parametrico V2 Hibrido (dropdown + override manual) — fase 19 |
 | `base/calibration-condicional-padrao.json` | **Calibracao condicional por padrao Gemma (fonte primaria pos-fase 18b)** |
 | `base/padroes-classificados-consolidado.json` | Labels Gemma semanticos dos 125/126 projetos |
 | `base/itens-pus-agregados.json` | 4.210 clusters PU cross-projeto (usado no PU sanity filter) |

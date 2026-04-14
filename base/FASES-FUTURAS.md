@@ -1,7 +1,7 @@
 # Fases Futuras — Roadmap Retomável
 
 _Criado em 2026-04-13 após conclusão das Fases 1-3 + Pacote v0.2._
-_Atualizado em 2026-04-14 após conclusão de TODAS as 18 fases + fase 18b (calibração baseada em Gemma labels)._
+_Atualizado em 2026-04-14 após conclusão de TODAS as 19 fases (incluindo fase 18b calibração Gemma + fase 19 paramétrico V2 híbrido com override manual)._
 
 ## ✅ Estado atual — TODAS as fases concluídas
 
@@ -29,6 +29,7 @@ _Atualizado em 2026-04-14 após conclusão de TODAS as 18 fases + fase 18b (cali
 | **17** | Memoriais de extração (`memorial-extracao-{slug}.md`) — Arthen/Placon/Thozen com cross-ref a 4.210 PUs + 29 índices | ✅ |
 | **18** | Classificação semântica de padrão via Gemma (126 projetos, 94% alta/média confiança) | ✅ |
 | **18b** | Calibração condicional por padrão usando labels Gemma (substitui rsm2-bucket proxy) + regerar 3 pacotes | ✅ |
+| **19** | Paramétrico V2 **Híbrido** (dropdown BRIEFING + coluna Override manual na aba INDICES) + pré-preenchimento BRIEFING via config JSON + 3 novos índices overridable (fator viga/laje/hidro) | ✅ |
 
 ## 🎁 Resultados tangíveis
 

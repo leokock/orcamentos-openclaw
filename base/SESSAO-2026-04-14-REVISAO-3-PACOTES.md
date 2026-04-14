@@ -294,6 +294,78 @@ Leo validou essa abordagem como padrão pra todo trabalho futuro com Gemma local
 2. `4905311` — Revisão 3 pacotes: calibração condicional rsm2-bucket + preliminar
 3. `70a9f4b` — Fase 18: classificação Gemma de 126 projetos
 4. `105a277` — Fase 18b: calibração Gemma labels + regerar 3 pacotes
+5. `37ac040` / `1fefe3f` — Documentação das fases 14/16/17/18/18b (orcamentos + openclaw)
+6. `756e050` — Fase 19: Paramétrico V2 Híbrido (override manual) + 3 pacotes regerados
+
+## Fase 19 — Paramétrico V2 Híbrido (dropdown + override manual)
+
+Após validar os 3 paramétricos gerados pelo `gerar_template_dinamico_v2.py`, Leo pediu uma evolução: permitir que o orçamentista sobrescreva **diretamente** qualquer índice da aba `INDICES` durante reunião com cliente, sem precisar mexer em fórmulas. O modelo anterior só permitia ajuste indireto via 14 dropdowns do BRIEFING.
+
+### Arquitetura híbrida
+
+Nova aba `INDICES` com 6 colunas:
+
+| Col | Campo | Editável |
+|---|---|---|
+| A | Nome do índice | não |
+| **B** | Valor calculado (fórmula IF do BRIEFING) | não (mantém lógica reativa) |
+| **C** | **Override manual** | **sim** (vazio por default, input laranja) |
+| **D** | Valor efetivo `=IF(C="",B,C)` | não (calculado — consumido pelas abas) |
+| E | Unidade | não |
+| F | Fonte + nota | não |
+
+**77 referências** `INDICES!B{n}` nas abas de detalhe substituídas por `INDICES!D{n}` via replace mecânico (protegendo a aba INDICES própria, que mantém self-references em B).
+
+### 3 novos índices overridable (antes embutidos em fórmulas)
+
+- **Row 33:** Fator viga protendida (0.08 vs 0.30)
+- **Row 34:** Fator laje protendida (0.60 vs 0.35)
+- **Row 35:** Fator hidro BWC (1.15 vs 1.0)
+
+Antes eram hardcoded em `IF(BRIEFING!B4="Protendida",...)` dentro das abas de macrogrupo — ninguém conseguia alterar. Agora moram na INDICES e aceitam override.
+
+### Pré-preenchimento do BRIEFING via config JSON
+
+Novo campo `"briefing": {...}` no schema do config. 14 chaves mapeadas 1:1 com os dropdowns. Valores inválidos geram warning e caem no default.
+
+**Fix de encoding:** `open(config)` do Windows usava `cp1252` por default e corrompia acentos do JSON. Corrigido pra `encoding='utf-8'` explícito.
+
+### Fix self-reference dentro da aba INDICES
+
+A linha 29 (PU piso predominante) usava `INDICES!B20` (fator padrão calculado), ignorando override. Alterado pra `INDICES!D20` — agora respeita override do fator padrão.
+
+### Configs por projeto
+
+Criados 3 arquivos em `base/pacotes/{slug}/parametrico-v2-config.json` com dados reais extraídos de:
+- `state.json` (AC, UR, padrão Gemma)
+- `analise-arquitetura.json` (lazer detectado → piscina/gerador/sauna/spa)
+- `memorial-extracao-{slug}.md` (BIM volumes)
+
+| Projeto | Laje | Padrão | Fachada | Piscina | Gerador |
+|---|---|---|---|---|---|
+| arthen-arboris | Convencional | Médio-Alto | Cerâmica | Sim | Sim |
+| placon-arminio-tavares | Convencional | Médio | Cerâmica | Não | Não |
+| thozen-electra | **Protendida** | **Alto** | **ACM** | **Aquecida** | Sim |
+
+### Regeração
+
+Parametricos atuais arquivados em `_antigo-parametrico/` dentro de cada pacote. Novos gerados com:
+```bash
+python scripts/gerar_template_dinamico_v2.py \
+  --config base/pacotes/{slug}/parametrico-v2-config.json \
+  -o base/pacotes/{slug}/parametrico-{slug}.xlsx
+```
+
+Depois `gerar_memorial_pacote.py --tipo parametrico` pra docx, `docx2pdf` pra pdf.
+
+### Documentação formalizada
+
+- **[base/PARAMETRICO-V2-HIBRIDO.md](PARAMETRICO-V2-HIBRIDO.md)** — referência canônica standalone do fluxo
+- Atualizado: `base/FASES-FUTURAS.md`, `base/CAMADA-QUALITATIVA-GEMMA.md`, `openclaw/CLAUDE.md`, `openclaw/AGENTS.md`, `openclaw/docs/ORCAMENTO-PARAMETRICO-REFERENCE.md`, `openclaw/orcamento-parametrico/BASE-CONHECIMENTO-PARAMETRICO.md`
+
+### Commits
+
+- `8d704a5` (rebased → `756e050`) — Script + configs + 3 pacotes regerados
 
 ## Próximos passos sugeridos
 
@@ -302,3 +374,4 @@ Leo validou essa abordagem como padrão pra todo trabalho futuro com Gemma local
 - **Revisar zero luxo** com rubric mais relaxada se aparecer caso real
 - **Dashboard interativo** dos índices derivados (HTML ou Streamlit)
 - **Cronograma + curva S** a partir de fórmulas Excel capturadas na Fase 9
+- **Migrar mais índices embutidos pra INDICES overridable** — auditar fatores hardcoded que sobraram dentro de fórmulas de macrogrupo (ex: 0.40 bloco cerâmico em alvenaria row 587, 0.25/0.08 drywall, splits MO fixos)
