@@ -158,45 +158,59 @@ def gerar_parametrico(P, output_path):
     ws_brief['A2'] = "Cada alteração muda automaticamente os índices e custos nas abas de detalhe"
     ws_brief['A2'].font = Font(size=9, color="666666", name="Arial")
 
+    # Pré-preenchimento via P['briefing'] (dict opcional no config JSON)
+    briefing_preset = P.get('briefing', {}) or {}
+
     # Briefing questions with dropdowns
-    # Cell B4-B17 will have dropdowns, C column has the impact description
+    # Tupla: (row, question, default, options, impact, config_key)
     questions = [
         (4, "Tipo de Laje", "Convencional", ["Convencional", "Protendida", "Nervurada"],
-         "Muda: concreto, aço, forma, escoramento, cordoalha"),
+         "Muda: concreto, aço, forma, escoramento, cordoalha", "laje"),
         (5, "Subsolos", "0", ["0", "1", "2", "3"],
-         "Muda: contenção, mov.terra, impermeabilização, fundação"),
+         "Muda: contenção, mov.terra, impermeabilização, fundação", "subsolos"),
         (6, "Fundação", "Hélice", ["Hélice", "Tubulão", "Sapata"],
-         "Muda: custo infraestrutura, tipo de perfuração"),
+         "Muda: custo infraestrutura, tipo de perfuração", "fundacao"),
         (7, "Padrão Acabamento", "Médio-Alto", ["Médio", "Médio-Alto", "Alto", "Luxo"],
-         "Muda: pisos, rev.parede, esquadrias, louças, fachada"),
+         "Muda: pisos, rev.parede, esquadrias, louças, fachada", "padrao_acabamento"),
         (8, "Fachada", "Textura", ["Textura", "Cerâmica", "Pele de vidro", "ACM"],
-         "Muda: custo fachada (R$/m²)"),
+         "Muda: custo fachada (R$/m²)", "fachada"),
         (9, "Pressurização", "Não", ["Sim", "Não"],
-         "Muda: custo sist.especiais (+R$ 80k)"),
+         "Muda: custo sist.especiais (+R$ 80k)", "pressurizacao"),
         (10, "Nº Torres", "1", ["1", "2", "3"],
-         "Muda: gerador, elevadores, equipamentos"),
+         "Muda: gerador, elevadores, equipamentos", "n_torres"),
         (11, "Gerador Dedicado", "Sim", ["Sim", "Não"],
-         "Muda: sist.especiais (R$ 120-350k)"),
+         "Muda: sist.especiais (R$ 120-350k)", "gerador"),
         (12, "Entrega", "Completa", ["Completa", "Shell"],
-         "Shell desconta ~R$ 200/m² (pisos, pintura, rev.parede, louças, alvenaria)"),
+         "Shell desconta ~R$ 200/m² (pisos, pintura, rev.parede, louças, alvenaria)", "entrega"),
         (13, "Tipologia", "Misto", ["Studios", "1-2 Dormitórios", "3-4 Dormitórios", "Misto"],
-         "Muda: pontos elétricos, louças, alvenaria interna"),
+         "Muda: pontos elétricos, louças, alvenaria interna", "tipologia"),
         (14, "Pé-Direito", "Padrão (3.00)", ["Baixo (2.80)", "Padrão (3.00)", "Alto (3.20)", "Duplo"],
-         "Muda: fachada, alvenaria, estrutura (+2-8%)"),
+         "Muda: fachada, alvenaria, estrutura (+2-8%)", "pe_direito"),
         (15, "Nº Banheiros/Apto", "2", ["1", "2", "3", "4"],
-         "Muda: hidro, louças, impermeab., rev.parede"),
+         "Muda: hidro, louças, impermeab., rev.parede", "n_banheiros"),
         (16, "Tipo Piso Predominante", "Misto", ["Porcelanato", "Laminado", "Misto"],
-         "Muda: PU pisos (porcelanato ~R$ 81 vs laminado ~R$ 65)"),
+         "Muda: PU pisos (porcelanato ~R$ 81 vs laminado ~R$ 65)", "tipo_piso"),
         (17, "Piscina", "Sim", ["Sim", "Não", "Aquecida"],
-         "Muda: sist.especiais (R$ 0 / R$ 220k / R$ 320k)"),
+         "Muda: sist.especiais (R$ 0 / R$ 220k / R$ 320k)", "piscina"),
     ]
+
+    # Validar preset: se usuário passou um valor inválido, avisa
+    for row, question, default, options, impact, key in questions:
+        if key in briefing_preset:
+            preset_val = str(briefing_preset[key])
+            if preset_val not in options:
+                print(f"[WARN] BRIEFING '{key}'='{preset_val}' não está em {options}. Usando default '{default}'.")
 
     hdr(ws_brief, 3, ["Pergunta", "Resposta", "Impacto", ""], [30, 18, 45, 5])
 
-    for row, question, default, options, impact in questions:
+    for row, question, default, options, impact, key in questions:
+        # Resolver valor efetivo: preset se válido, senão default
+        preset_val = str(briefing_preset[key]) if key in briefing_preset else None
+        effective = preset_val if (preset_val and preset_val in options) else default
+
         ws_brief.cell(row, 1, question)
         style_label(ws_brief.cell(row, 1))
-        ws_brief.cell(row, 2, default)
+        ws_brief.cell(row, 2, effective)
         style_input(ws_brief.cell(row, 2))
         ws_brief.cell(row, 3, impact)
         ws_brief.cell(row, 3).font = Font(size=8, color="666666", name="Arial")
@@ -214,13 +228,16 @@ def gerar_parametrico(P, output_path):
     ws_idx = wb.create_sheet("INDICES")
     ws_idx.sheet_properties.tabColor = GREEN
 
-    ws_idx['A1'] = "ÍNDICES CALIBRADOS — REAGEM AO BRIEFING"
+    ws_idx['A1'] = "ÍNDICES CALIBRADOS — HÍBRIDO: BRIEFING + OVERRIDE MANUAL"
     ws_idx['A1'].font = Font(bold=True, size=12, color=DARK, name="Arial")
-    ws_idx.merge_cells('A1:E1')
-    ws_idx['A2'] = "NÃO EDITAR — valores calculados automaticamente"
-    ws_idx['A2'].font = Font(size=9, color="E74C3C", name="Arial")
+    ws_idx.merge_cells('A1:F1')
+    ws_idx['A2'] = ("B=calculado via BRIEFING (não editar) | C=override manual (edite para sobrescrever) | "
+                    "D=valor efetivo usado nas abas de macrogrupo (= Override se preenchido, senão B)")
+    ws_idx['A2'].font = Font(size=9, color="E67E22", name="Arial")
+    ws_idx.merge_cells('A2:F2')
 
-    hdr(ws_idx, 4, ["Índice", "Valor", "Unidade", "Fonte", "Fórmula"], [35, 12, 12, 25, 50])
+    hdr(ws_idx, 4, ["Índice", "Valor calc", "Override", "Efetivo", "Unidade", "Fonte"],
+        [35, 12, 12, 12, 12, 30])
 
     # Reference cells for briefing answers
     # BRIEFING!B4 = Laje, B5 = Subsolos, B6 = Fundação, B7 = Padrão, B8 = Fachada, B9 = Pressurização, B10 = Torres
@@ -336,8 +353,8 @@ def gerar_parametrico(P, output_path):
          '=IF(BRIEFING!B12="Shell",0.85,1.0)',
          "fator", "Shell desconta ~15% total", "IF Entrega"),
         (29, "PU piso predominante",
-         '=IF(BRIEFING!B16="Porcelanato",81.21,IF(BRIEFING!B16="Laminado",65,73))*INDICES!B20',
-         "R$/m²", "Tipo piso × padrão", "IF Tipo Piso × Padrão"),
+         '=IF(BRIEFING!B16="Porcelanato",81.21,IF(BRIEFING!B16="Laminado",65,73))*INDICES!D20',
+         "R$/m²", "Tipo piso × padrão", "IF Tipo Piso × Padrão (usa D20=efetivo)"),
         (30, "Piscina (R$)",
          '=IF(BRIEFING!B17="Aquecida",320000,IF(BRIEFING!B17="Sim",220000,0))',
          "R$", "Param. base", "IF Piscina"),
@@ -347,24 +364,48 @@ def gerar_parametrico(P, output_path):
         (32, "Fator BWC louças",
          '=IF(VALUE(BRIEFING!B15)>=4,1.80,IF(VALUE(BRIEFING!B15)>=3,1.50,IF(VALUE(BRIEFING!B15)>=2,1.20,1.0)))',
          "fator", "Mais bwc = mais louças", "IF BWC/apto"),
+
+        # --- FATORES EXTRAÍDOS DE FÓRMULAS DIRETAS (migrados pra serem overridable) ---
+        (33, "Fator viga protendida",
+         '=IF(BRIEFING!B4="Protendida",0.08,0.30)',
+         "fator", "Peso viga/m² conforme laje", "IF Laje (0.08 prot / 0.30 conv)"),
+        (34, "Fator laje protendida",
+         '=IF(BRIEFING!B4="Protendida",0.60,0.35)',
+         "fator", "Peso laje/m² conforme tipo", "IF Laje (0.60 prot / 0.35 conv)"),
+        (35, "Fator hidro BWC",
+         '=IF(VALUE(BRIEFING!B15)>=2,1.15,1)',
+         "fator", "Mais bwc = mais hidro", "IF BWC>=2 (1.15 / 1.0)"),
     ]
 
     for row, label, formula, unit, fonte, nota in indices_def:
+        # Col A: nome do índice
         ws_idx.cell(row, 1, label)
         style_label(ws_idx.cell(row, 1))
+        # Col B: valor calculado via BRIEFING (fórmula — "NÃO EDITAR")
         ws_idx.cell(row, 2).value = formula
         style_calc(ws_idx.cell(row, 2))
         ws_idx.cell(row, 2).number_format = '#,##0.00' if 'R$' not in unit else '#,##0'
-        ws_idx.cell(row, 3, unit)
-        ws_idx.cell(row, 4, fonte)
-        ws_idx.cell(row, 4).font = Font(size=8, color="666666", name="Arial")
-        ws_idx.cell(row, 5, nota)
-        ws_idx.cell(row, 5).font = Font(size=8, color="999999", name="Arial")
+        # Col C: override manual (vazio por default, estilo input laranja)
+        ws_idx.cell(row, 3).value = None
+        style_input(ws_idx.cell(row, 3))
+        ws_idx.cell(row, 3).number_format = '#,##0.00' if 'R$' not in unit else '#,##0'
+        # Col D: valor efetivo = IF(C="", B, C) — consumido pelas abas de macrogrupo
+        ws_idx.cell(row, 4).value = f'=IF(C{row}="",B{row},C{row})'
+        style_calc(ws_idx.cell(row, 4))
+        ws_idx.cell(row, 4).font = Font(bold=True, size=9, name="Arial", color=GREEN)
+        ws_idx.cell(row, 4).number_format = '#,##0.00' if 'R$' not in unit else '#,##0'
+        # Col E: unidade
+        ws_idx.cell(row, 5, unit)
+        # Col F: fonte + nota
+        ws_idx.cell(row, 6, f"{fonte} | {nota}" if fonte and nota else (fonte or nota))
+        ws_idx.cell(row, 6).font = Font(size=8, color="666666", name="Arial")
 
-    ws_idx.column_dimensions['A'].width = 30
-    ws_idx.column_dimensions['B'].width = 14
-    ws_idx.column_dimensions['D'].width = 22
-    ws_idx.column_dimensions['E'].width = 30
+    ws_idx.column_dimensions['A'].width = 32
+    ws_idx.column_dimensions['B'].width = 13
+    ws_idx.column_dimensions['C'].width = 13
+    ws_idx.column_dimensions['D'].width = 13
+    ws_idx.column_dimensions['E'].width = 12
+    ws_idx.column_dimensions['F'].width = 40
 
     # ========================================================================
     # ABA 4: CUSTOS_MACROGRUPO (resumo com fórmulas)
@@ -490,18 +531,18 @@ def gerar_parametrico(P, output_path):
 
     # --- SUPRAESTRUTURA ---
     supra_items = [
-        ("Concreto Pilares", "fck30", f'=ROUND(INDICES!B5*{AC_REF}*0.22*INDICES!B31,0)', "m³", 590, "Índ×AC×22% × pé-dir (7p)"),
+        ("Concreto Pilares", "fck30", f'=ROUND(INDICES!D5*{AC_REF}*0.22*INDICES!D31,0)', "m³", 590, "Índ×AC×22% × pé-dir (7p)"),
         ("Concreto Vigas", "fck30",
-         f'=ROUND(INDICES!B5*{AC_REF}*IF(BRIEFING!B4="Protendida",0.08,0.30),0)', "m³", 590, "IF Laje→peso vigas"),
+         f'=ROUND(INDICES!D5*{AC_REF}*INDICES!D33,0)', "m³", 590, "Índ conc × AC × fator viga (D33)"),
         ("Concreto Lajes", "fck conforme laje",
-         f'=ROUND(INDICES!B5*{AC_REF}*IF(BRIEFING!B4="Protendida",0.60,0.35),0)', "m³",
-         '=IF(INDICES!B10=40,690,590)', "IF fck→PU"),
-        ("Concreto Escadas", "fck30", f'=ROUND(INDICES!B5*{AC_REF}*0.05,0)', "m³", 590, "Índ×AC×5%"),
-        ("Concreto Blocos", "Baldrame fck30", f'=ROUND(INDICES!B5*{AC_REF}*0.05,0)', "m³", 590, "Índ×AC×5%"),
-        ("Aço CA-50", "Convencional", f'=ROUND(INDICES!B6*INDICES!B5*{AC_REF},0)', "kg", 8.67, f"Índ aço×conc×AC"),
-        ("Cordoalha CP-190", "Protensão", f'=ROUND(INDICES!B7*{AC_REF}*0.65,0)', "kg", 22, "IF Prot→8kg/m² laje"),
-        ("Forma", "Compensado plastif.", f'=ROUND(INDICES!B8*INDICES!B5*{AC_REF},0)', "m²", 88.07, "Índ forma×conc×AC"),
-        ("Escoramento", "Metálico", f'=ROUND({AC_REF}*0.65,0)', "m²", '=INDICES!B9', "IF Laje→PU escor"),
+         f'=ROUND(INDICES!D5*{AC_REF}*INDICES!D34,0)', "m³",
+         '=IF(INDICES!D10=40,690,590)', "Índ conc × AC × fator laje (D34)"),
+        ("Concreto Escadas", "fck30", f'=ROUND(INDICES!D5*{AC_REF}*0.05,0)', "m³", 590, "Índ×AC×5%"),
+        ("Concreto Blocos", "Baldrame fck30", f'=ROUND(INDICES!D5*{AC_REF}*0.05,0)', "m³", 590, "Índ×AC×5%"),
+        ("Aço CA-50", "Convencional", f'=ROUND(INDICES!D6*INDICES!D5*{AC_REF},0)', "kg", 8.67, f"Índ aço×conc×AC"),
+        ("Cordoalha CP-190", "Protensão", f'=ROUND(INDICES!D7*{AC_REF}*0.65,0)', "kg", 22, "IF Prot→8kg/m² laje"),
+        ("Forma", "Compensado plastif.", f'=ROUND(INDICES!D8*INDICES!D5*{AC_REF},0)', "m²", 88.07, "Índ forma×conc×AC"),
+        ("Escoramento", "Metálico", f'=ROUND({AC_REF}*0.65,0)', "m²", '=INDICES!D9', "IF Laje→PU escor"),
         ("MO Estrutura", "Empreitada",
          f'=ROUND(SUM(F4:F12)*0.326/0.674/{AC_REF},0)*{AC_REF}/{AC_REF}', "m²",
          f'=ROUND(SUM(F4:F12)*0.326/0.674/{AC_REF},2)', "Split 32,6% (10p)"),
@@ -513,21 +554,21 @@ def gerar_parametrico(P, output_path):
 
     # --- INFRAESTRUTURA ---
     infra_items = [
-        ("Perfuração hélice", "Ø40cm", '=ROUND(INDICES!B11*INDICES!B12,0)', "m", 82, "PU base R$ 82/m (6p)"),
-        ("Concreto estacas", "fck30", '=ROUND(INDICES!B11*3.14159*0.04*INDICES!B12,0)', "m³", 632, "PU base R$ 632 (6p)"),
+        ("Perfuração hélice", "Ø40cm", '=ROUND(INDICES!D11*INDICES!D12,0)', "m", 82, "PU base R$ 82/m (6p)"),
+        ("Concreto estacas", "fck30", '=ROUND(INDICES!D11*3.14159*0.04*INDICES!D12,0)', "m³", 632, "PU base R$ 632 (6p)"),
         ("Concreto blocos", "Baldrames", f'=ROUND(0.02*{AC_REF},0)', "m³", 590, "Índ 0,02 m³/m²"),
         ("Aço CA-50", "Fundação", '=ROUND(90*(C5+C6),0)', "kg", 8.77, "PU base R$ 8,77 (7p)"),
         ("Forma", "Blocos/baldrames", f'=ROUND(0.10*{AC_REF},0)', "m²", 45.64, "PU base R$ 45,64 (8p)"),
-        ("Arrasamento", "Estacas", '=INDICES!B11', "un", 65, "PU base R$ 65 (2p)"),
+        ("Arrasamento", "Estacas", '=INDICES!D11', "un", 65, "PU base R$ 65 (2p)"),
         ("Limpeza/remoção", "Solo perfuração", 1, "vb", 35000, "PU base R$ 35k (2p)"),
         ("MO fundação", "Empreitada (35,5%)", 1, "vb", '=ROUND(SUM(F4:F10)*0.355/0.645,0)', "Split 35,5% (7p)"),
-        ("Contenção", "Se houver subsolo", 1, "vb", '=INDICES!B24', "IF Sub>0"),
+        ("Contenção", "Se houver subsolo", 1, "vb", '=INDICES!D24', "IF Sub>0"),
     ]
     make_detail_tab(wb, "Infraestrutura", infra_items)
 
     # --- MOV. TERRA ---
     make_detail_tab(wb, "Mov. Terra", [
-        ("Terraplanagem", "Corte+aterro+bota-fora", f'={AC_REF}', "m²", '=INDICES!B25', "Param. base + IF sub"),
+        ("Terraplanagem", "Corte+aterro+bota-fora", f'={AC_REF}', "m²", '=INDICES!D25', "Param. base + IF sub"),
     ])
 
     # --- GERENCIAMENTO ---
@@ -557,29 +598,29 @@ def gerar_parametrico(P, output_path):
 
     # --- ALVENARIA ---
     make_detail_tab(wb, "Alvenaria", [
-        ("Bloco cerâm.", "Vedação 14cm", f'=ROUND(INDICES!B13*{AC_REF}*0.40,0)', "m²", 32.95, "Índ 2,25×40%"),
-        ("Drywall ST", "Internas", f'=ROUND(INDICES!B13*{AC_REF}*0.25,0)', "m²", 156, "Índ 2,25×25%"),
-        ("Drywall RU", "Molhadas", f'=ROUND(INDICES!B13*{AC_REF}*0.08,0)', "m²", 195, "Índ 2,25×8%"),
-        ("Argamassa", "Assentamento", f'=ROUND(INDICES!B13*{AC_REF}*0.40,0)', "m²", 3.80, "PU base"),
-        ("MO Alvenaria", "Empreitada", f'=ROUND(INDICES!B13*{AC_REF}*0.40,0)', "m²", 28.50, "Split 35,7% (9p)"),
+        ("Bloco cerâm.", "Vedação 14cm", f'=ROUND(INDICES!D13*{AC_REF}*0.40,0)', "m²", 32.95, "Índ 2,25×40%"),
+        ("Drywall ST", "Internas", f'=ROUND(INDICES!D13*{AC_REF}*0.25,0)', "m²", 156, "Índ 2,25×25%"),
+        ("Drywall RU", "Molhadas", f'=ROUND(INDICES!D13*{AC_REF}*0.08,0)', "m²", 195, "Índ 2,25×8%"),
+        ("Argamassa", "Assentamento", f'=ROUND(INDICES!D13*{AC_REF}*0.40,0)', "m²", 3.80, "PU base"),
+        ("MO Alvenaria", "Empreitada", f'=ROUND(INDICES!D13*{AC_REF}*0.40,0)', "m²", 28.50, "Split 35,7% (9p)"),
     ])
 
     # --- IMPERMEABILIZAÇÃO ---
     make_detail_tab(wb, "Impermeabilização", [
-        ("Manta 4mm", "Material", f'=ROUND(INDICES!B19*{AC_REF},0)', "m²", 82.11, "Índ impermeab×AC"),
-        ("Arg.polim.", "BWC", f'=ROUND(INDICES!B19*{AC_REF}*0.3,0)', "m²", 8.50, "PU base"),
-        ("Regulariz.", "Superfície", f'=ROUND(INDICES!B19*{AC_REF},0)', "m²", 5.57, "PU base (15p)"),
-        ("MO imper.", "Empreitada", f'=ROUND(INDICES!B19*{AC_REF},0)', "m²", 68, "Split 56,5% (6p)"),
-        ("MO regul.", "Empreitada", f'=ROUND(INDICES!B19*{AC_REF},0)', "m²", 19.50, "PU base (7p)"),
+        ("Manta 4mm", "Material", f'=ROUND(INDICES!D19*{AC_REF},0)', "m²", 82.11, "Índ impermeab×AC"),
+        ("Arg.polim.", "BWC", f'=ROUND(INDICES!D19*{AC_REF}*0.3,0)', "m²", 8.50, "PU base"),
+        ("Regulariz.", "Superfície", f'=ROUND(INDICES!D19*{AC_REF},0)', "m²", 5.57, "PU base (15p)"),
+        ("MO imper.", "Empreitada", f'=ROUND(INDICES!D19*{AC_REF},0)', "m²", 68, "Split 56,5% (6p)"),
+        ("MO regul.", "Empreitada", f'=ROUND(INDICES!D19*{AC_REF},0)', "m²", 19.50, "PU base (7p)"),
     ])
 
-    # --- INSTALAÇÕES (reage a Tipologia B13 via fator elétrica INDICES!B27) ---
+    # --- INSTALAÇÕES (reage a Tipologia B13 via fator elétrica INDICES!D27) ---
     fcub_formula = f'({CUB_REF}/2752.67)'
     make_detail_tab(wb, "Instalações", [
-        ("Elétricas mat.", "IF Tipologia", f'={AC_REF}', "m²", f'=ROUND(130*{fcub_formula}/1.1*0.618*INDICES!B27,2)', "Índ 1,77m/m² × fator tipol."),
-        ("Elétricas MO", "Empreitada", f'={AC_REF}', "m²", f'=ROUND(130*{fcub_formula}/1.1*0.382*INDICES!B27,2)', "Split 38,2% × fator tipol."),
-        ("Hidro mat.", "IF BWC/apto", f'={AC_REF}', "m²", f'=ROUND(145*{fcub_formula}/1.1*0.66*IF(VALUE(BRIEFING!B15)>=2,1.15,1),2)', "Índ 1,08m/m² × IF BWC"),
-        ("Hidro MO", "Empreitada", f'={AC_REF}', "m²", f'=ROUND(145*{fcub_formula}/1.1*0.34*IF(VALUE(BRIEFING!B15)>=2,1.15,1),2)', "Split 34,0% × IF BWC"),
+        ("Elétricas mat.", "IF Tipologia", f'={AC_REF}', "m²", f'=ROUND(130*{fcub_formula}/1.1*0.618*INDICES!D27,2)', "Índ 1,77m/m² × fator tipol (D27)"),
+        ("Elétricas MO", "Empreitada", f'={AC_REF}', "m²", f'=ROUND(130*{fcub_formula}/1.1*0.382*INDICES!D27,2)', "Split 38,2% × fator tipol (D27)"),
+        ("Hidro mat.", "IF BWC/apto", f'={AC_REF}', "m²", f'=ROUND(145*{fcub_formula}/1.1*0.66*INDICES!D35,2)', "Índ 1,08m/m² × fator hidro (D35)"),
+        ("Hidro MO", "Empreitada", f'={AC_REF}', "m²", f'=ROUND(145*{fcub_formula}/1.1*0.34*INDICES!D35,2)', "Split 34,0% × fator hidro (D35)"),
         ("Preventivas", "Mat+MO", f'={AC_REF}', "m²", f'=ROUND(45*{fcub_formula}/1.1,2)', "Param."),
         ("Gás", "Mat+MO", f'={AC_REF}', "m²", f'=ROUND(18*{fcub_formula}/1.1,2)', "Param. base"),
         ("Telecom", "Mat+MO", f'={AC_REF}', "m²", f'=ROUND(15*{fcub_formula}/1.1,2)', "Param. base"),
@@ -589,11 +630,11 @@ def gerar_parametrico(P, output_path):
     make_detail_tab(wb, "Sist. Especiais", [
         ("Elevador social", "N-1 elevadores", f'=MAX(1,DADOS_PROJETO!B9-1)', "un", 192450, "PU base (5p)"),
         ("Elevador serv.", "1un", 1, "un", 96000, "PU base (5p)"),
-        ("Gerador", "IF Gerador+Torres", 1, "vb", '=INDICES!B23', "IF Gerador B11 + Torres B10"),
+        ("Gerador", "IF Gerador+Torres", 1, "vb", '=INDICES!D23', "IF Gerador B11 + Torres B10"),
         ("Automação", "BMS+sensores", 1, "vb", 120000, "Param. base"),
-        ("Piscina", "IF Piscina B17", 1, "vb", '=INDICES!B30', "IF Piscina (Sim/Não/Aquecida)"),
+        ("Piscina", "IF Piscina B17", 1, "vb", '=INDICES!D30', "IF Piscina (Sim/Não/Aquecida)"),
         ("CFTV", "Câmeras+DVR", 1, "vb", 120000, "Param. base"),
-        ("Pressurização", "IF Pressurização B9", 1, "vb", '=INDICES!B22', "IF Pressurização"),
+        ("Pressurização", "IF Pressurização B9", 1, "vb", '=INDICES!D22', "IF Pressurização"),
         ("SPDA", "Para-raios+malha", 1, "vb", 55000, "Param. base"),
         ("Interfonia", "Ctrl acesso", 1, "vb", 130000, "Param. base"),
         ("Bombas", "Recalque+incêndio", 1, "vb", 95000, "Param. base"),
@@ -610,72 +651,72 @@ def gerar_parametrico(P, output_path):
 
     # --- REV. INT. PAREDE ---
     make_detail_tab(wb, "Rev. Int. Parede", [
-        ("Reboco", "Massa única", f'=ROUND(INDICES!B15*{AC_REF}*0.35,0)', "m²", 7, "Índ 2,85×35%"),
-        ("Chapisco", "Rolado+colante", f'=ROUND(INDICES!B15*{AC_REF}*0.35,0)', "m²", 5.50, "PU base"),
-        ("Cerâm.BWC", "30×60", f'=ROUND(INDICES!B15*{AC_REF}*0.14,0)', "m²", '=48*INDICES!B20', "PU×fator padrão"),
-        ("Cerâm.cozinha", "30×60", f'=ROUND(INDICES!B15*{AC_REF}*0.06,0)', "m²", '=42*INDICES!B20', "PU×fator padrão"),
-        ("Porcel.parede", "Comuns", f'=ROUND(INDICES!B15*{AC_REF}*0.04,0)', "m²", '=85*INDICES!B20', "PU×fator padrão"),
-        ("Granito bancadas", "Lavat+coz", f'=ROUND({UR_REF}*3.5,0)', "m", '=180*INDICES!B20', "R$ 180×fator padrão"),
-        ("Arg.colante", "AC-II/III", f'=ROUND(INDICES!B15*{AC_REF}*0.24,0)', "m²", 12, "PU base"),
-        ("Rejunte", "Flexível", f'=ROUND(INDICES!B15*{AC_REF}*0.24,0)', "m²", 5, "PU base"),
-        ("MO reboco", "Empreitada", f'=ROUND(INDICES!B15*{AC_REF}*0.35,0)', "m²", 22.50, "Split 54,4%"),
-        ("MO cerâmica", "Assentamento", f'=ROUND(INDICES!B15*{AC_REF}*0.24,0)', "m²", 35, "Split 54,4%"),
+        ("Reboco", "Massa única", f'=ROUND(INDICES!D15*{AC_REF}*0.35,0)', "m²", 7, "Índ 2,85×35%"),
+        ("Chapisco", "Rolado+colante", f'=ROUND(INDICES!D15*{AC_REF}*0.35,0)', "m²", 5.50, "PU base"),
+        ("Cerâm.BWC", "30×60", f'=ROUND(INDICES!D15*{AC_REF}*0.14,0)', "m²", '=48*INDICES!D20', "PU×fator padrão"),
+        ("Cerâm.cozinha", "30×60", f'=ROUND(INDICES!D15*{AC_REF}*0.06,0)', "m²", '=42*INDICES!D20', "PU×fator padrão"),
+        ("Porcel.parede", "Comuns", f'=ROUND(INDICES!D15*{AC_REF}*0.04,0)', "m²", '=85*INDICES!D20', "PU×fator padrão"),
+        ("Granito bancadas", "Lavat+coz", f'=ROUND({UR_REF}*3.5,0)', "m", '=180*INDICES!D20', "R$ 180×fator padrão"),
+        ("Arg.colante", "AC-II/III", f'=ROUND(INDICES!D15*{AC_REF}*0.24,0)', "m²", 12, "PU base"),
+        ("Rejunte", "Flexível", f'=ROUND(INDICES!D15*{AC_REF}*0.24,0)', "m²", 5, "PU base"),
+        ("MO reboco", "Empreitada", f'=ROUND(INDICES!D15*{AC_REF}*0.35,0)', "m²", 22.50, "Split 54,4%"),
+        ("MO cerâmica", "Assentamento", f'=ROUND(INDICES!D15*{AC_REF}*0.24,0)', "m²", 35, "Split 54,4%"),
         ("MO granito", "Instalação", f'=ROUND({UR_REF}*3.5,0)', "m", 35.90, "PU base R$ 36"),
     ])
 
     # --- TETO ---
     make_detail_tab(wb, "Teto", [
-        ("Forro ST", "Acartonado", f'=ROUND(INDICES!B16*{AC_REF}*0.70,0)', "m²", 28, "Índ 1,16×70%"),
-        ("Forro RU", "BWC", f'=ROUND(INDICES!B16*{AC_REF}*0.15,0)', "m²", 35, "PU base"),
-        ("Perfis", "Estrutura", f'=ROUND(INDICES!B16*{AC_REF}*0.85,0)', "m²", 15, "PU base"),
-        ("MO forro", "Empreitada", f'=ROUND(INDICES!B16*{AC_REF},0)', "m²", 25, "Split 79,1%"),
+        ("Forro ST", "Acartonado", f'=ROUND(INDICES!D16*{AC_REF}*0.70,0)', "m²", 28, "Índ 1,16×70%"),
+        ("Forro RU", "BWC", f'=ROUND(INDICES!D16*{AC_REF}*0.15,0)', "m²", 35, "PU base"),
+        ("Perfis", "Estrutura", f'=ROUND(INDICES!D16*{AC_REF}*0.85,0)', "m²", 15, "PU base"),
+        ("MO forro", "Empreitada", f'=ROUND(INDICES!D16*{AC_REF},0)', "m²", 25, "Split 79,1%"),
     ])
 
-    # --- PISOS (reage a Entrega B12 via INDICES!B14, Tipo Piso B16 via INDICES!B29, Padrão B7) ---
+    # --- PISOS (reage a Entrega B12 via INDICES!D14, Tipo Piso B16 via INDICES!D29, Padrão B7) ---
     make_detail_tab(wb, "Pisos", [
-        ("Contrapiso", "Autonivelante", f'=ROUND(INDICES!B14*{AC_REF},0)', "m²", 12.10, "Índ piso×AC (IF shell)"),
-        ("Piso principal", "IF Tipo Piso", f'=ROUND(INDICES!B14*{AC_REF}*0.50,0)', "m²", '=INDICES!B29', "PU IF Tipo Piso × Padrão"),
-        ("Cimentado", "Garagem 20%", f'=ROUND(INDICES!B14*{AC_REF}*0.20,0)', "m²", 32, "PU base"),
-        ("Granito", "Halls 5%", f'=ROUND(INDICES!B14*{AC_REF}*0.05,0)', "m²", '=180*INDICES!B20', "PU×fator padrão"),
-        ("Rodapé", "Poliestireno", f'=ROUND(INDICES!B14*{AC_REF}*0.35,0)', "m", 10.77, "PU base (10p)"),
-        ("MO contrapiso", "Empreitada", f'=ROUND(INDICES!B14*{AC_REF},0)', "m²", 18, "Split 54%"),
-        ("MO pisos", "Assentamento", f'=ROUND(INDICES!B14*{AC_REF}*0.70,0)', "m²", 32, "Split 54%"),
+        ("Contrapiso", "Autonivelante", f'=ROUND(INDICES!D14*{AC_REF},0)', "m²", 12.10, "Índ piso×AC (IF shell)"),
+        ("Piso principal", "IF Tipo Piso", f'=ROUND(INDICES!D14*{AC_REF}*0.50,0)', "m²", '=INDICES!D29', "PU IF Tipo Piso × Padrão"),
+        ("Cimentado", "Garagem 20%", f'=ROUND(INDICES!D14*{AC_REF}*0.20,0)', "m²", 32, "PU base"),
+        ("Granito", "Halls 5%", f'=ROUND(INDICES!D14*{AC_REF}*0.05,0)', "m²", '=180*INDICES!D20', "PU×fator padrão"),
+        ("Rodapé", "Poliestireno", f'=ROUND(INDICES!D14*{AC_REF}*0.35,0)', "m", 10.77, "PU base (10p)"),
+        ("MO contrapiso", "Empreitada", f'=ROUND(INDICES!D14*{AC_REF},0)', "m²", 18, "Split 54%"),
+        ("MO pisos", "Assentamento", f'=ROUND(INDICES!D14*{AC_REF}*0.70,0)', "m²", 32, "Split 54%"),
     ])
 
     # --- PINTURA ---
     make_detail_tab(wb, "Pintura", [
-        ("Massa PVA", "Paredes 2dem", f'=ROUND(INDICES!B17*{AC_REF}*0.55,0)', "m²", 4.29, "Índ pintura×55%"),
-        ("Acrílica par.", "3 demãos", f'=ROUND(INDICES!B17*{AC_REF}*0.55,0)', "m²", 5.40, "PU base (6p)"),
-        ("Acrílica teto", "2 demãos", f'=ROUND(INDICES!B17*{AC_REF}*0.20,0)', "m²", 3.83, "PU base"),
-        ("Selador", "Base", f'=ROUND(INDICES!B17*{AC_REF}*0.75,0)', "m²", 2.50, "PU base"),
-        ("MO pintura", "Empreitada", f'=ROUND(INDICES!B17*{AC_REF},0)', "m²", 15, "Split 66,2%"),
-        ("MO lixamento", "Preparação", f'=ROUND(INDICES!B17*{AC_REF}*0.55,0)', "m²", 8, "Split 66,2%"),
+        ("Massa PVA", "Paredes 2dem", f'=ROUND(INDICES!D17*{AC_REF}*0.55,0)', "m²", 4.29, "Índ pintura×55%"),
+        ("Acrílica par.", "3 demãos", f'=ROUND(INDICES!D17*{AC_REF}*0.55,0)', "m²", 5.40, "PU base (6p)"),
+        ("Acrílica teto", "2 demãos", f'=ROUND(INDICES!D17*{AC_REF}*0.20,0)', "m²", 3.83, "PU base"),
+        ("Selador", "Base", f'=ROUND(INDICES!D17*{AC_REF}*0.75,0)', "m²", 2.50, "PU base"),
+        ("MO pintura", "Empreitada", f'=ROUND(INDICES!D17*{AC_REF},0)', "m²", 15, "Split 66,2%"),
+        ("MO lixamento", "Preparação", f'=ROUND(INDICES!D17*{AC_REF}*0.55,0)', "m²", 8, "Split 66,2%"),
     ])
 
     # --- ESQUADRIAS (reage a Padrão B7 e Entrega B12) ---
     make_detail_tab(wb, "Esquadrias", [
-        ("Esquadrias Al", "Jan+portas", f'={AC_REF}', "m²", f'=280*INDICES!B20*INDICES!B28', "R$280 × padrão × entrega"),
-        ("Serralheria", "GC+corrimão", f'={AC_REF}', "m²", f'=45*INDICES!B20', "R$45 × fator padrão"),
+        ("Esquadrias Al", "Jan+portas", f'={AC_REF}', "m²", f'=280*INDICES!D20*INDICES!D28', "R$280 × padrão × entrega"),
+        ("Serralheria", "GC+corrimão", f'={AC_REF}', "m²", f'=45*INDICES!D20', "R$45 × fator padrão"),
     ])
 
     # --- LOUÇAS E METAIS (reage a Tipologia B13, BWC B15, Padrão B7, Entrega B12) ---
     make_detail_tab(wb, "Louças e Metais", [
         ("Louças+metais", "IF Tipol+BWC+Padrão+Entrega", f'={UR_REF}', "apto",
-         f'=2800*INDICES!B20*INDICES!B26*INDICES!B32*INDICES!B28',
+         f'=2800*INDICES!D20*INDICES!D26*INDICES!D32*INDICES!D28',
          "R$2800 × padrão × tipol × bwc × entrega"),
     ])
 
     # --- FACHADA ---
     make_detail_tab(wb, "Fachada", [
-        ("Revestimento", "Conforme briefing", f'=ROUND(INDICES!B18*{AC_REF},0)', "m²", '=INDICES!B21', "IF tipo fachada"),
-        ("MO fachada", "Empreitada", f'=ROUND(INDICES!B18*{AC_REF},0)', "m²", 35, "PU base"),
-        ("Balancim", "Fachadeiro", f'=ROUND(INDICES!B18*{AC_REF},0)', "m²", 18, "PU base"),
+        ("Revestimento", "Conforme briefing", f'=ROUND(INDICES!D18*{AC_REF},0)', "m²", '=INDICES!D21', "IF tipo fachada"),
+        ("MO fachada", "Empreitada", f'=ROUND(INDICES!D18*{AC_REF},0)', "m²", 35, "PU base"),
+        ("Balancim", "Fachadeiro", f'=ROUND(INDICES!D18*{AC_REF},0)', "m²", 18, "PU base"),
     ])
 
     # --- COMPLEMENTARES ---
     make_detail_tab(wb, "Complementares", [
         ("Mobiliário", "Áreas comuns", 1, "vb", 540000, "PU base R$ 540k (5p)"),
-        ("Ambientação", "Decoração halls", 1, "vb", f'=300000*INDICES!B20', "R$ 300k×fator padrão"),
+        ("Ambientação", "Decoração halls", 1, "vb", f'=300000*INDICES!D20', "R$ 300k×fator padrão"),
         ("Paisagismo", "", 1, "vb", 120000, "Param. base"),
         ("Equip. lazer", "Acad+playground", 1, "vb", 180000, "PU base (8p)"),
         ("Limpeza final", "", f'={AC_REF}', "m²", 12, "PU base R$ 12/m² (10p)"),
@@ -792,7 +833,7 @@ def main():
     args = parser.parse_args()
 
     if args.config:
-        with open(args.config) as f:
+        with open(args.config, encoding='utf-8') as f:
             P = json.load(f)
     else:
         if not args.ac or not args.ur:
