@@ -349,6 +349,13 @@ def enriquecer_executivo(similares: list[dict], macrogrupo: str,
                     continue
                 if qtd == 1 and isinstance(pu, (int, float)) and pu > 5000:
                     continue
+                desc_lower = desc.lower()
+                if desc_lower.replace(".", "").replace(",", "").replace(" ", "").isdigit():
+                    continue
+                if len(desc_lower.split()) <= 1 and any(c.isdigit() for c in desc_lower):
+                    continue
+                if qtd > 10000 and un_str not in ("m2", "m²", "m", "kg", "un"):
+                    continue
                 items_raw.append({
                     "descricao": desc,
                     "unidade": it.get("unidade") or "",
@@ -391,12 +398,91 @@ def enriquecer_executivo(similares: list[dict], macrogrupo: str,
 
     agg.sort(key=lambda x: (-(x.get("total_mediano") or x.get("pu_mediano") or 0), -x["freq_projetos"]))
 
+    _sanity_filter_pus(agg)
+
     return {
         "macrogrupo": macrogrupo,
         "n_projetos_analisados": projetos_analisados,
         "n_itens_coletados": len(items_raw),
         "itens_agregados": agg[:top_n],
     }
+
+
+_PU_CLUSTERS_CACHE: list[dict] | None = None
+
+
+def _load_pu_clusters() -> list[dict]:
+    global _PU_CLUSTERS_CACHE
+    if _PU_CLUSTERS_CACHE is not None:
+        return _PU_CLUSTERS_CACHE
+    p = BASE / "itens-pus-agregados.json"
+    if not p.exists():
+        _PU_CLUSTERS_CACHE = []
+        return _PU_CLUSTERS_CACHE
+    try:
+        d = json.loads(p.read_text(encoding="utf-8"))
+        _PU_CLUSTERS_CACHE = d.get("pus_agregados", []) or []
+    except Exception:
+        _PU_CLUSTERS_CACHE = []
+    return _PU_CLUSTERS_CACHE
+
+
+def _desc_tokens(desc: str) -> set:
+    import re, unicodedata
+    s = unicodedata.normalize("NFD", desc.lower())
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    s = re.sub(r"[^a-z0-9 ]", " ", s)
+    return {w for w in s.split() if len(w) >= 4}
+
+
+def _match_cluster(desc: str, clusters: list[dict]) -> dict | None:
+    tokens = _desc_tokens(desc)
+    if not tokens:
+        return None
+    best = None
+    best_overlap = 0
+    for c in clusters:
+        ctokens = set((c.get("key") or "").split("|"))
+        if not ctokens:
+            continue
+        overlap = len(tokens & ctokens)
+        if overlap >= 2 and overlap > best_overlap:
+            best_overlap = overlap
+            best = c
+    return best
+
+
+def _sanity_filter_pus(agg: list[dict]) -> None:
+    """Substitui PUs anômalos por mediana cross-projeto (4210 clusters).
+
+    Se PU agregado desvia >3x ou <0.33x da mediana do cluster que melhor
+    casa com a descrição, substitui por essa mediana e marca flag.
+    Protege a renderização da aba de itens com PU vindo de 1 projeto
+    buggy.
+    """
+    clusters = _load_pu_clusters()
+    if not clusters:
+        return
+    for it in agg:
+        pu = it.get("pu_mediano")
+        if not pu or not isinstance(pu, (int, float)) or pu <= 0:
+            continue
+        if it.get("freq_projetos", 0) >= 3:
+            continue
+        c = _match_cluster(it.get("descricao", ""), clusters)
+        if not c:
+            continue
+        cluster_med = c.get("pu_mediana")
+        if not cluster_med:
+            continue
+        ratio = pu / cluster_med
+        if ratio > 3.0 or ratio < 0.33:
+            it["_pu_original"] = pu
+            it["pu_mediano"] = cluster_med
+            it["_pu_substituido"] = True
+            it["_pu_cluster_ref"] = c.get("key")
+            if it.get("qtd_mediana"):
+                it["total_mediano"] = cluster_med * it["qtd_mediana"]
 
 
 def premissas_consolidadas(similares: list[dict], min_freq: int = 1) -> list[dict]:
@@ -668,16 +754,34 @@ def _padrao_key(padrao: str | None) -> str:
     return "medio"
 
 
+_COND_CAL_CACHE: dict | None = None
+
+
+def _load_calibracao_condicional() -> dict:
+    global _COND_CAL_CACHE
+    if _COND_CAL_CACHE is not None:
+        return _COND_CAL_CACHE
+    p = BASE / "calibration-condicional-padrao.json"
+    if not p.exists():
+        _COND_CAL_CACHE = {}
+        return _COND_CAL_CACHE
+    try:
+        _COND_CAL_CACHE = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        _COND_CAL_CACHE = {}
+    return _COND_CAL_CACHE
+
+
 def valores_macrogrupos_calibrados(ac: float, padrao: str | None = None,
                                      usar_media: bool = False) -> dict:
-    """Calcula totais por macrogrupo usando calibration-indices.json (base autoritativa V2).
+    """Calcula totais por macrogrupo com calibração **condicional ao padrão**.
 
-    Esta é a FONTE PRIMÁRIA dos totais. Lê os 18 macrogrupos calibrados
-    com R$/m² mediano de N projetos e multiplica pelo AC alvo.
+    Fonte primária: `calibration-condicional-padrao.json` — medianas computadas
+    por bucket de R$/m² total (economico/medio/medio-alto/alto/luxo), derivadas
+    da estratificação dos 56 projetos com ac+total válidos (filtrados outliers).
 
-    Aplica multiplicador diferencial por macrogrupo conforme padrão (ver
-    PADRAO_MULTIPLIERS): acabamentos sobem mais em alto/luxo, estrutura
-    fica neutra.
+    Fallback: `calibration-indices.json` (global, sem condicionamento) com
+    PADRAO_MULTIPLIERS, pra macrogrupos sem dados suficientes no bucket.
 
     Args:
         ac: Área construída em m²
@@ -685,35 +789,49 @@ def valores_macrogrupos_calibrados(ac: float, padrao: str | None = None,
         usar_media: Se True, usa média ao invés de mediana
 
     Retorna:
-        {macrogrupo: {total_estimado, rsm2, multiplicador_aplicado, ...}}
+        {macrogrupo: {total_estimado, rsm2_mediano, n_amostras, source, ...}}
     """
-    cal_path = BASE / "calibration-indices.json"
-    if not cal_path.exists():
-        return {}
-
-    try:
-        cal = json.loads(cal_path.read_text(encoding="utf-8"))
-    except Exception:
-        return {}
-
-    pm = cal.get("por_macrogrupo", {})
-    if not pm:
-        return {}
-
     padrao_key = _padrao_key(padrao)
+
+    cond = _load_calibracao_condicional()
+    cond_mgs = (cond.get("por_padrao_mg") or {}).get(padrao_key, {}) if cond else {}
+
+    cal_path = BASE / "calibration-indices.json"
+    global_pm = {}
+    if cal_path.exists():
+        try:
+            cal = json.loads(cal_path.read_text(encoding="utf-8"))
+            global_pm = cal.get("por_macrogrupo", {}) or {}
+        except Exception:
+            pass
 
     result = {}
     for cal_key, mg in CALIBRATION_KEY_TO_MG.items():
-        stats = pm.get(cal_key)
-        if not isinstance(stats, dict):
-            continue
-        rsm2 = stats.get("media" if usar_media else "mediana", 0)
+        stats = None
+        source = None
+
+        cond_stats = cond_mgs.get(mg)
+        if isinstance(cond_stats, dict) and cond_stats.get("n", 0) >= 3:
+            stats = cond_stats
+            source = f"calibration-condicional-padrao[{padrao_key}]"
+            rsm2 = stats.get("media" if usar_media else "mediana", 0)
+            rsm2_adj = rsm2
+            multiplier = 1.0
+        else:
+            g = global_pm.get(cal_key)
+            if not isinstance(g, dict):
+                continue
+            rsm2 = g.get("media" if usar_media else "mediana", 0)
+            if not rsm2:
+                continue
+            mults = PADRAO_MULTIPLIERS.get(mg, {})
+            multiplier = mults.get(padrao_key, 1.0)
+            rsm2_adj = rsm2 * multiplier
+            stats = g
+            source = f"calibration-indices.json (global × PADRAO_MULTIPLIER[{padrao_key}]={multiplier})"
+
         if not rsm2:
             continue
-
-        mults = PADRAO_MULTIPLIERS.get(mg, {})
-        multiplier = mults.get(padrao_key, 1.0)
-        rsm2_adj = rsm2 * multiplier
 
         result[mg] = {
             "rsm2_mediano": rsm2,
@@ -726,7 +844,7 @@ def valores_macrogrupos_calibrados(ac: float, padrao: str | None = None,
             "rsm2_max": stats.get("max", 0),
             "total_estimado": rsm2_adj * ac,
             "n_amostras": stats.get("n", 0),
-            "source": "calibration-indices.json",
+            "source": source,
             "padrao_aplicado": padrao_key,
             "multiplicador": multiplier,
         }

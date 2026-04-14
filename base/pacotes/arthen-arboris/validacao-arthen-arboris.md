@@ -1,44 +1,49 @@
 # Relatório de Validação — Pacote
-_Gerado em 2026-04-13T22:57:49_
+_Gerado em 2026-04-14T07:43:51_
 
 ## Dados
 - AC: 12472.98 m²
 - UR: 98
-- Total executivo: R$ 36.466.994
-- R$/m² executivo: R$ 2.923,68
+- Total executivo: R$ 0
+- R$/m² executivo: R$ 0,00
 
 ## Checagens automáticas
-- ✅ **R$/m² vs segmento Médio (8-15k m²)**
-  - Obtido: R$ 2923.68
-  - Mediana: R$ 3337.27 (delta -12.4%)
+- ⚠️ **R$/m² vs segmento Médio (8-15k m²)**
+  - Obtido: R$ 0.00
+  - Mediana: R$ 3337.27 (delta -100.0%)
   - Faixa P10-P90: R$ 2456 – R$ 4347
   - Faixa P25-P75: R$ 2974 – R$ 3710
-  - Status: ok_p10_p90
+  - Status: abaixo_p10
+
+## ⚠️ Alertas
+- R$/m² total 0 está ⚠️ Abaixo do P10 do segmento (subdimensionado) (mediana 3337, P10-P90: 2456-4347)
 
 ## 🔍 Lacunas identificadas
-### macrogrupos_sem_detalhamento_granular (1)
+### macrogrupos_sem_detalhamento_granular (2)
 _Total calibrado OK, mas sem itens detalhados nos similares — usar memorial paramétrico_
 
 - Imprevistos
+- TOTAL CALIBRADO V2
 
 ## Macrogrupos no executivo
 | Macrogrupo | Total R$ | R$/m² | % | N itens | Confiança |
 |---|---|---|---|---|---|
-| Gerenciamento | R$ 2.805.338 | R$ 224.91 | 7.7% | 2 | 🟢 Alta |
-| Movimentação de Terra | R$ 268.240 | R$ 21.51 | 0.7% | 4 | 🟢 Alta |
-| Infraestrutura | R$ 2.440.484 | R$ 195.66 | 6.7% | 2 | 🟢 Alta |
-| Supraestrutura | R$ 8.196.709 | R$ 657.16 | 22.5% | 18 | 🟢 Alta |
-| Alvenaria | R$ 1.896.601 | R$ 152.06 | 5.2% | 12 | 🟢 Alta |
-| Impermeabilização | R$ 763.243 | R$ 61.19 | 2.1% | 11 | 🟢 Alta |
-| Instalações | R$ 3.438.307 | R$ 275.66 | 9.4% | 30 | 🟢 Alta |
-| Sistemas Especiais | R$ 1.384.513 | R$ 111.00 | 3.8% | 30 | 🟡 Média |
-| Climatização | R$ 489.506 | R$ 39.25 | 1.3% | 16 | 🟢 Alta |
-| Rev. Interno Parede | R$ 1.169.985 | R$ 93.80 | 3.2% | 5 | 🟢 Alta |
-| Teto | R$ 786.675 | R$ 63.07 | 2.2% | 3 | 🟢 Alta |
-| Pisos | R$ 2.518.014 | R$ 201.88 | 6.9% | 8 | 🟢 Alta |
-| Pintura | R$ 1.558.886 | R$ 124.98 | 4.3% | 8 | 🟢 Alta |
-| Esquadrias | R$ 3.843.005 | R$ 308.11 | 10.5% | 30 | 🟢 Alta |
-| Louças e Metais | R$ 415.547 | R$ 33.32 | 1.1% | 27 | 🟢 Alta |
-| Fachada | R$ 1.677.289 | R$ 134.47 | 4.6% | 6 | 🟢 Alta |
-| Complementares | R$ 2.179.954 | R$ 174.77 | 6.0% | 30 | 🟢 Alta |
-| Imprevistos | R$ 634.698 | R$ 50.89 | 1.7% | 0 | 🟢 Alta |
+| Gerenciamento | R$ 6.985.742 | R$ 560.07 | 15.9% | 2 | 155000 |
+| Movimentação de Terra | R$ 1.644.063 | R$ 131.81 | 3.7% | 4 | 24741.64 |
+| Infraestrutura | R$ 2.461.293 | R$ 197.33 | 5.6% | 2 | 32550.51 |
+| Supraestrutura | R$ 8.052.306 | R$ 645.58 | 18.3% | 18 | 238512.2 |
+| Alvenaria | R$ 1.883.420 | R$ 151.00 | 4.3% | 12 | 142371.53 |
+| Impermeabilização | R$ 710.960 | R$ 57.00 | 1.6% | 11 | 590515.82 |
+| Instalações | R$ 4.070.682 | R$ 326.36 | 9.3% | 30 | 1580080.26 |
+| Sistemas Especiais | R$ 2.072.136 | R$ 166.13 | 4.7% | 30 | 72310.94 |
+| Climatização | R$ 719.317 | R$ 57.67 | 1.6% | 16 | 75695.54 |
+| Rev. Interno Parede | R$ 924.497 | R$ 74.12 | 2.1% | 5 | 346137.59 |
+| Teto | R$ 805.755 | R$ 64.60 | 1.8% | 3 | 182422.62 |
+| Pisos | R$ 2.488.235 | R$ 199.49 | 5.7% | 8 | 356539.36 |
+| Pintura | R$ 1.432.646 | R$ 114.86 | 3.3% | 8 | 557578.16 |
+| Esquadrias | R$ 4.000.584 | R$ 320.74 | 9.1% | 30 | 3313707.39 |
+| Louças e Metais | R$ 510.769 | R$ 40.95 | 1.2% | 27 | 803895.15 |
+| Fachada | R$ 1.423.791 | R$ 114.15 | 3.2% | 6 | 398076.69 |
+| Complementares | R$ 2.542.492 | R$ 203.84 | 5.8% | 30 | 734054.09 |
+| Imprevistos | R$ 1.183.436 | R$ 94.88 | 2.7% | 0 | — |
+| TOTAL CALIBRADO V2 | R$ 43.912.124 | R$ 3.520.58 | 100.0% | 0 | 9604189.49 |

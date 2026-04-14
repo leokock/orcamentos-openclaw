@@ -155,40 +155,45 @@ def etapa_continue(slug: str) -> dict:
         state["parametrico_memorial_status"] = "exception"
         state["parametrico_memorial_error"] = str(e)
 
-    executivo_xlsx = pasta / f"executivo-{slug}.xlsx"
-    print(f"[executivo] gerando {executivo_xlsx}")
+    preliminar_xlsx = pasta / f"preliminar-{slug}.xlsx"
+    print(f"[preliminar] gerando {preliminar_xlsx}")
     try:
         exec_result = gerar_executivo_auto.gerar_executivo(
             slug=slug, ac=ac, ur=ur, padrao=padrao,
-            gate_path=gate_validado, output=str(executivo_xlsx),
+            gate_path=gate_validado, output=str(preliminar_xlsx),
         )
-        state["executivo_xlsx"] = str(executivo_xlsx)
+        state["preliminar_xlsx"] = str(preliminar_xlsx)
+        state["preliminar_result"] = exec_result
+        state["preliminar_status"] = "done"
+        state["executivo_xlsx"] = str(preliminar_xlsx)
         state["executivo_result"] = exec_result
         state["executivo_status"] = "done"
     except Exception as e:
-        print(f"[executivo] FAIL: {e}")
-        state["executivo_status"] = "failed"
-        state["executivo_error"] = str(e)
+        print(f"[preliminar] FAIL: {e}")
+        state["preliminar_status"] = "failed"
+        state["preliminar_error"] = str(e)
 
-    executivo_docx = pasta / f"executivo-{slug}.docx"
-    if state.get("executivo_status") == "done":
-        print(f"[executivo-memorial] gerando {executivo_docx}")
+    preliminar_docx = pasta / f"preliminar-{slug}.docx"
+    if state.get("preliminar_status") == "done":
+        print(f"[preliminar-memorial] gerando {preliminar_docx}")
         try:
-            mem_result = gerar_memorial_pacote.gerar(slug, "executivo", executivo_docx)
+            mem_result = gerar_memorial_pacote.gerar(slug, "executivo", preliminar_docx)
+            state["preliminar_memorial_status"] = "done"
+            state["preliminar_docx"] = str(preliminar_docx)
+            state["preliminar_memorial_result"] = mem_result
             state["executivo_memorial_status"] = "done"
-            state["executivo_docx"] = str(executivo_docx)
-            state["executivo_memorial_result"] = mem_result
+            state["executivo_docx"] = str(preliminar_docx)
         except Exception as e:
-            print(f"[executivo-memorial] ERR: {e}")
-            state["executivo_memorial_status"] = "exception"
-            state["executivo_memorial_error"] = str(e)
+            print(f"[preliminar-memorial] ERR: {e}")
+            state["preliminar_memorial_status"] = "exception"
+            state["preliminar_memorial_error"] = str(e)
 
     relatorio_md = pasta / f"validacao-{slug}.md"
     print(f"[validacao] gerando {relatorio_md}")
     try:
         validar_pacote.validar(
             parametrico_path=Path(state.get("parametrico_xlsx", "")) if state.get("parametrico_xlsx") else None,
-            executivo_path=executivo_xlsx,
+            executivo_path=preliminar_xlsx,
             ac=ac, ur=ur,
             output=relatorio_md,
         )
@@ -206,7 +211,7 @@ def etapa_continue(slug: str) -> dict:
     print("=" * 70)
     print(f"  Pasta: {pasta}")
     print(f"  Paramétrico: {parametrico_xlsx} ({state.get('parametrico_status')})")
-    print(f"  Executivo:   {executivo_xlsx} ({state.get('executivo_status')})")
+    print(f"  Preliminar:  {preliminar_xlsx} ({state.get('preliminar_status')})")
     print(f"  Validação:   {relatorio_md}")
     print(f"  State:       {state_path(slug)}")
     return state

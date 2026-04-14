@@ -157,31 +157,38 @@ def confidence_label(item: dict) -> str:
 def aba_resumo(wb: Workbook, slug: str, ac: float, ur: int | None,
                 similares: list[dict], macrogrupos_data: dict,
                 valores_calibrados: dict | None = None,
-                valores_similares: dict | None = None) -> None:
+                valores_similares: dict | None = None,
+                padrao: str | None = None) -> None:
     ws = wb.create_sheet("RESUMO", 0)
     ws.sheet_properties.tabColor = ACCENT
 
-    ws["A1"] = f"{slug.upper()} — ORÇAMENTO EXECUTIVO AUTOMATIZADO"
+    ws["A1"] = f"{slug.upper()} — ORÇAMENTO PRELIMINAR (calibrado V2)"
     ws["A1"].font = Font(bold=True, size=14, color=DARK, name="Arial")
-    ws.merge_cells("A1:I1")
+    ws.merge_cells("A1:J1")
 
-    ws["A2"] = f"Gerado em {datetime.now().isoformat(timespec='seconds')} | "  \
-                f"AC={ac:.0f} m² | UR={ur or '?'} | "  \
-                f"baseado em {len(similares)} projetos similares"
+    ws["A2"] = (f"Gerado em {datetime.now().isoformat(timespec='seconds')} | "
+                f"AC={ac:.0f} m² | UR={ur or '?'} | padrão={padrao or '—'} | "
+                f"{len(similares)} projetos similares de referência")
     ws["A2"].font = Font(italic=True, size=9, color="666666", name="Arial")
-    ws.merge_cells("A2:I2")
+    ws.merge_cells("A2:J2")
+
+    ws["A3"] = ("⚠ Total R$ = R$/m² mediano V2 × AC × multiplicador_padrão. "
+                "NÃO é soma dos itens detalhados abaixo (que são referência cross-projeto).")
+    ws["A3"].font = Font(bold=True, italic=True, size=9, color="C0392B", name="Arial")
+    ws.merge_cells("A3:J3")
 
     hdr(ws, 4, ["#", "Macrogrupo", "Total R$", "R$/m²", "% do total",
-                "N itens", "Confiança", "Fonte total", "P10-P90 ref"],
-        [4, 26, 16, 12, 10, 8, 12, 18, 22])
+                "N itens", "Σ itens R$", "Cobertura", "Fonte", "P10-P90 ref"],
+        [4, 26, 16, 12, 10, 8, 16, 11, 16, 22])
 
     grand_total = 0.0
+    grand_itens_somados = 0.0
     rows_data = []
     for i, mg in enumerate(MACROGRUPOS_CANONICOS, start=1):
         d = macrogrupos_data.get(mg, {})
         total = d.get("total", 0)
         n = d.get("n_itens", 0)
-        confianca = d.get("confianca_media", "—")
+        total_itens = d.get("total_itens_somados", 0)
 
         if valores_calibrados and mg in valores_calibrados:
             stats = valores_calibrados[mg]
@@ -195,10 +202,11 @@ def aba_resumo(wb: Workbook, slug: str, ac: float, ur: int | None,
             fonte = "sem dados"
             p10p90 = "—"
 
-        rows_data.append((i, mg, total, n, confianca, fonte, p10p90))
+        rows_data.append((i, mg, total, n, total_itens, fonte, p10p90))
         grand_total += total
+        grand_itens_somados += total_itens
 
-    for i, (idx, mg, total, n, conf, fonte, p10p90) in enumerate(rows_data, start=5):
+    for i, (idx, mg, total, n, total_itens, fonte, p10p90) in enumerate(rows_data, start=5):
         if "calibrado" in fonte:
             row_fill = "E8F8F5"
         elif "similares" in fonte:
@@ -206,38 +214,51 @@ def aba_resumo(wb: Workbook, slug: str, ac: float, ur: int | None,
         else:
             row_fill = "FADBD8"
 
+        cobertura = (total_itens / total) if total else 0
+
         cell(ws, i, 1, idx, align="center", fill=row_fill)
         cell(ws, i, 2, mg, bold=True, fill=row_fill)
         cell(ws, i, 3, total, fmt='"R$" #,##0', align="right", fill=row_fill)
         cell(ws, i, 4, total / ac if ac else 0, fmt='"R$" #,##0.00', align="right", fill=row_fill)
         cell(ws, i, 5, total / grand_total if grand_total else 0, fmt='0.0%', align="right", fill=row_fill)
         cell(ws, i, 6, n, align="center", fill=row_fill)
-        cell(ws, i, 7, conf, align="center", fill=row_fill)
-        cell(ws, i, 8, fonte, align="center", fill=row_fill)
-        cell(ws, i, 9, p10p90, align="center", fill=row_fill)
+        cell(ws, i, 7, total_itens, fmt='"R$" #,##0', align="right", fill=row_fill)
+        cell(ws, i, 8, cobertura, fmt='0.0%', align="right", fill=row_fill)
+        cell(ws, i, 9, fonte, align="center", fill=row_fill)
+        cell(ws, i, 10, p10p90, align="center", fill=row_fill)
 
     total_row = 5 + len(MACROGRUPOS_CANONICOS)
-    cell(ws, total_row, 2, "TOTAL", bold=True, fill="EAEDED")
+    cell(ws, total_row, 2, "TOTAL CALIBRADO V2", bold=True, fill="EAEDED")
     cell(ws, total_row, 3, grand_total, bold=True, fmt='"R$" #,##0', fill="EAEDED", align="right")
     cell(ws, total_row, 4, grand_total / ac if ac else 0, bold=True, fmt='"R$" #,##0.00', fill="EAEDED", align="right")
     cell(ws, total_row, 5, 1.0, bold=True, fmt='0.0%', fill="EAEDED", align="right")
+    cell(ws, total_row, 7, grand_itens_somados, bold=True, fmt='"R$" #,##0', fill="EAEDED", align="right")
+    cell(ws, total_row, 8, grand_itens_somados / grand_total if grand_total else 0,
+         bold=True, fmt='0.0%', fill="EAEDED", align="right")
 
     legend_row = total_row + 2
-    cell(ws, legend_row, 2, "Legenda fonte:", bold=True)
-    cell(ws, legend_row + 1, 2, "🟢 calibrado = base V2 calibration-indices.json", fill="E8F8F5")
-    cell(ws, legend_row + 2, 2, "🟡 similares = mediana dos 5 projetos similares", fill="FEF9E7")
-    cell(ws, legend_row + 3, 2, "🔴 sem dados = preencher manualmente", fill="FADBD8")
+    cell(ws, legend_row, 2, "Como ler este orçamento:", bold=True)
+    cell(ws, legend_row + 1, 2,
+         "• Total R$ = calibração V2 (R$/m² mediano × AC × multiplicador do padrão)", fill="E8F8F5")
+    cell(ws, legend_row + 2, 2,
+         "• Σ itens = soma dos itens de referência da aba (amostra cross-projeto)", fill="FEF9E7")
+    cell(ws, legend_row + 3, 2,
+         "• Cobertura = Σ itens / Total — baixa (<30%) é normal pq amostra não detalha tudo",
+         fill="FEF9E7")
+    cell(ws, legend_row + 4, 2,
+         "🟢 calibrado = base V2 (126 projetos) — 🟡 similares = mediana de 5 — 🔴 sem dados",
+         fill="FADBD8")
 
 
 def aba_macrogrupo(wb: Workbook, mg: str, itens: list[dict], ac: float,
                     macro_v2: dict | None = None) -> dict:
     """Cria uma aba pra um macrogrupo. Total vem dos similares V2,
     itens vêm da camada qualitativa pra granularizar."""
-    titulo = mg.replace(" ", "_")[:25]
+    titulo = mg.replace(" ", "_").replace("ç", "c").replace("ã", "a").replace("õ", "o")[:25]
     ws = wb.create_sheet(titulo)
     ws.sheet_properties.tabColor = ACCENT
 
-    ws["A1"] = f"{mg.upper()} — DETALHAMENTO"
+    ws["A1"] = f"{mg.upper()} — ITENS DE REFERÊNCIA (cross-projeto)"
     ws["A1"].font = Font(bold=True, size=12, color=DARK, name="Arial")
     ws.merge_cells("A1:H1")
 
@@ -245,30 +266,36 @@ def aba_macrogrupo(wb: Workbook, mg: str, itens: list[dict], ac: float,
         rsm2 = macro_v2.get("rsm2_mediano", 0)
         total_est = macro_v2.get("total_estimado", 0)
         n_am = macro_v2.get("n_amostras", 0)
-        ws["A2"] = (f"Total estimado (mediana de {n_am} similares): "
+        ws["A2"] = (f"Total calibrado V2 (mediana de {n_am} refs): "
                     f"R$ {total_est:,.0f}  |  R$/m²: {rsm2:,.2f}").replace(",", ".")
         ws["A2"].font = Font(italic=True, size=9, color="666666", name="Arial")
         ws.merge_cells("A2:H2")
+        ws["A3"] = "⚠ Itens abaixo são referência cross-projeto, NÃO somam ao total calibrado acima."
+        ws["A3"].font = Font(italic=True, size=9, color="C0392B", name="Arial")
+        ws.merge_cells("A3:H3")
         confianca = "🟢 Alta" if n_am >= 3 else ("🟡 Média" if n_am >= 1 else "🔴 Baixa")
         total_mg = total_est
     else:
         confianca = "🔴 Baixa"
         total_mg = 0
 
-    hdr(ws, 4, ["#", "Descrição", "Un", "Qtd", "PU R$", "Total ref", "Freq", "Fontes"],
+    hdr(ws, 4, ["#", "Descrição", "Un", "Qtd ref", "PU ref R$", "Total ref", "Freq", "Fontes"],
         [4, 50, 8, 12, 14, 16, 8, 50])
 
     if not itens:
-        cell(ws, 5, 1, "(sem detalhamento granular nos similares — usar valor agregado acima)",
+        cell(ws, 5, 1, "(sem detalhamento granular — total calibrado acima é a referência)",
              bold=False)
         cell(ws, 5, 2, "")
-        return {"total": total_mg, "n_itens": 0, "confianca_media": confianca}
+        return {"total": total_mg, "total_itens_somados": 0, "n_itens": 0, "confianca_media": confianca}
 
+    total_itens_somados = 0.0
     for i, it in enumerate(itens[:30], start=1):
         row = i + 4
         pu = it.get("pu_mediano") or 0
         qtd_med = it.get("qtd_mediana") or 0
         total_med = pu * qtd_med if pu and qtd_med else (it.get("total_mediano") or 0)
+        if isinstance(total_med, (int, float)):
+            total_itens_somados += total_med
         fill = confidence_color(it)
         is_sub_gemma = it.get("is_subdisciplina_gemma")
 
@@ -292,7 +319,17 @@ def aba_macrogrupo(wb: Workbook, mg: str, itens: list[dict], ac: float,
         cell(ws, row, 7, it.get("freq_projetos", 0), align="center", fill=fill)
         cell(ws, row, 8, ", ".join(it.get("fontes", [])[:3]), fill=fill)
 
-    return {"total": total_mg, "n_itens": min(30, len(itens)), "confianca_media": confianca}
+    sum_row = 5 + min(30, len(itens)) + 1
+    cell(ws, sum_row, 2, "Soma dos itens de referência:", bold=True, align="right")
+    cell(ws, sum_row, 6, total_itens_somados, bold=True, fmt='"R$" #,##0',
+         align="right", fill="FEF9E7")
+    cobertura = (total_itens_somados / total_mg) if total_mg else 0
+    cell(ws, sum_row + 1, 2, "Cobertura (itens / calibrado):", bold=True, align="right")
+    cell(ws, sum_row + 1, 6, cobertura, bold=True, fmt='0.0%',
+         align="right", fill="FEF9E7")
+
+    return {"total": total_mg, "total_itens_somados": round(total_itens_somados, 2),
+            "n_itens": min(30, len(itens)), "confianca_media": confianca}
 
 
 def aba_referencias(wb: Workbook, similares: list[dict]) -> None:
@@ -379,7 +416,8 @@ def gerar_executivo(slug: str, ac: float, ur: int | None, padrao: str | None,
 
     aba_resumo(wb, slug, ac, ur, similares, macrogrupos_data,
                valores_calibrados=valores_calibrados,
-               valores_similares=valores_similares)
+               valores_similares=valores_similares,
+               padrao=padrao)
     aba_referencias(wb, similares)
     aba_premissas(wb, gate.get("premissas_aprovadas", []), gate.get("decisoes", {}))
 
