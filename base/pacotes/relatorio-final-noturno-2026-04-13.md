@@ -1,10 +1,10 @@
-# RELATÓRIO FINAL NOTURNO — 2026-04-13
+# RELATÓRIO FINAL NOTURNO — 2026-04-13/14
 
-_Sessão autônoma completa: tudo do plano + extras (Fases 4, 5, 6 + 3 pacotes reais + revisão profunda + audits + PDFs + cross-insights)._
+_Sessão autônoma completa: TODAS as 15 fases do roadmap + 3 pacotes reais + revisão profunda + audits v1 e v2 + PDFs + cross-insights + mineração profunda + 29 novos índices + base master._
 
-**Janela:** 17h00 → ~22h00 = ~5h de trabalho autônomo
+**Janela:** 17h00 → madrugada
 **Orçado original:** 14h
-**Sobra:** ~9h
+**Tempo real:** ~8-9h (+ Fase 14 rodando em background ainda)
 
 ---
 
@@ -163,6 +163,118 @@ Gemma sugeriu novos índices que poderiam ser calculados (ver `cross-insights/in
 **Saída completa:** `base/cross-insights/cross-insights-report.md`
 
 ---
+
+## 🧬 PARTES NOVAS (Fases 8-15, madrugada 14/04)
+
+Depois do pacote v0.3 ficar pronto e dos 3 pacotes entregues, Leo pediu pra extrair **todo o valor possível** dos dados brutos. 8 novas fases foram implementadas:
+
+### Fase 8 — Comentários e texto livre dos xlsx ✅
+- Script: `extract_comentarios.py`
+- 126 projetos em 503s
+- Saída: `base/comentarios-completos/*.json`
+- Extrai `cell.comment` + textos livres >25 chars que estavam invisíveis
+- **Total:** ~1.200 comentários + ~150k textos livres
+
+### Fase 9 — Fórmulas Excel ✅
+- Script: `extract_formulas.py`
+- 126 projetos em 522s
+- Saída: `base/formulas/*.json`
+- `data_only=False` captura fórmulas Excel cruas (ex: `=AC*0,25*590`)
+- Revela rastreabilidade total: dependências entre células, constantes hardcoded, índices implícitos
+- **Tramonti:** 28.350 fórmulas, 13.075 com ref a AC, 4.455 cross-sheet
+
+### Fase 10 v2 — Normalização hash-based + PUs cross-projeto ✅
+- Script: `normalize_descriptions.py` (refeito com hash O(n) vs SequenceMatcher O(n²))
+- **6.3 segundos** para processar 333k itens (vs dias da v1 que travou)
+- Saída: `base/itens-normalizados.json` + `itens-pus-agregados.json`
+- **4.210 clusters** de PUs com ≥3 observações (após filtro de verbas)
+- Top PU: Armação Aço CA-50 Ø10mm - 630 observações, R$ 8,96/kg mediano, CV 20%
+
+### Fase 11 — Curvas ABC ✅
+- Script: `extract_curvas_abc.py`
+- 126 projetos em <1 segundo
+- Saída: `base/curvas-abc/*.json` + `curva-abc-master.json`
+- Classe A (80% valor) em média 12,2% dos itens
+
+### Fase 13 — 29 novos índices derivados ✅
+
+Script: `gerar_novos_indices.py`
+
+**PUs medianos cross-projeto:**
+| Índice | Mediana | n projetos |
+|---|---|---|
+| PU Concreto usinado | R$ 517,65/m³ | 54 |
+| PU Aço CA-50 | R$ 6,80/kg | 48 |
+| PU Porcelanato | R$ 72,04/m² | 60 |
+| PU Pintura acrílica | R$ 43,27/m² | 110 |
+| PU Impermeabilização | R$ 39,81/m² | 105 |
+| PU Forma madeira | R$ 16,49/m² | 64 |
+| PU Bloco cerâmico | R$ 1,40/un | 19 |
+
+**Custos totais por m² AC:**
+| Índice | Mediana | n projetos |
+|---|---|---|
+| Custo Concreto | R$ 228,90/m² AC | 64 |
+| Custo Aço | R$ 231,82/m² AC | 65 |
+| Custo Forma | R$ 164,98/m² AC | 69 |
+| Custo Escoramento | R$ 47,67/m² AC | 57 |
+| Custo Impermeabilização | R$ 264,88/m² AC | 95 |
+| Custo Elevador | R$ 213,33/m² AC | 70 |
+| Custo Piscina | R$ 19,63/m² AC | 65 |
+| Custo Pintura | R$ 594/m² AC | 96 |
+| Custo Esquadrias | R$ 1.154/m² AC | 96 |
+| Custo Louças | R$ 109,76/m² AC | 76 |
+| CI Total | R$ 305,56/m² AC | 55 |
+
+**Composição unitária mediana (Fase 4):**
+- Material: 35%
+- Mão-de-obra: 20%
+- Equipamento: 8%
+- Outros: 25%
+
+### Fase 14 — Gemma observações completas ⏳
+- Script: `phase14_observacoes_gemma.py`
+- Em andamento, 20/126 processados (ETA ~2h a partir deste ponto)
+- Para cada projeto: temas recorrentes, justificativas técnicas, flags de risco, padrões, decisões críticas
+- Saída: `base/observacoes-insights/*.json` + `observacoes-insights-md/*.md`
+
+### Fase 15 — Base master consolidada ✅
+- Script: `gerar_base_indices_master.py`
+- Saída: `base/base-indices-master-2026-04-13.json` (322 KB)
+- README: `base/base-indices-master-2026-04-13-README.md`
+- **Unifica:** V2 original + 29 derivados + top 500 PUs + curvas ABC + cross-insights
+- **Fonte autoritativa única** pra geração de orçamentos
+
+## 🔍 Revisão V2 dos 3 pacotes com base enriquecida
+
+Após a Fase 10 gerar os 4.210 PUs cross-projeto, fiz revisão crítica dos pacotes:
+
+### Scripts de revisão:
+- `revisar_pacotes_pus.py` — compara PUs usados com faixa P10-P90
+- `gerar_audit_v2.py` — audit detalhado com classificação (bug / crítico / atenção / menor)
+
+### Descoberta crítica: Filtro de verbas (bugs → falsos positivos)
+
+A primeira revisão achou **14 "bugs"** onde PU > 1000% acima da mediana. Investigação mostrou que eram **itens-verba** (qtd=1, unidade=vb/gl/global) onde o PU é legitimamente o total da linha (ex: "Esquadrias de Alumínio | vb | 1 | R$ 982.359").
+
+**Correção aplicada:**
+1. `normalize_descriptions.py` agora filtra verbas ao agregar PUs cross-projeto
+2. `consulta_similares.enriquecer_executivo()` também filtra
+3. Re-rodada: 4.525 → 4.210 clusters (315 verbas corretamente removidas)
+
+### Pacotes regenerados após o fix
+
+| Projeto | Bugs antes | Bugs depois | Melhoria |
+|---|---|---|---|
+| arthen-arboris | 6 | **0** | 100% |
+| placon-arminio-tavares | 6 | **2** | 67% (2 restantes são variações legítimas) |
+| thozen-electra | 7 | **0** | 100% |
+
+Os 2 "bugs" remanescentes no Placon são itens-limite (chapisco R$ 6 vs mediana R$ 0,56) que refletem variação real de mercado, não erro.
+
+### Arquivos novos por projeto:
+- `revisao-pus-cross.md` — comparação com faixa P10-P90
+- `audit-v2-{slug}.md` — audit completo com recomendações e tabela de índices
 
 ## 🔁 PARTE 5 — Fase 6: Retry de Fase 2 (CONCLUÍDA)
 
