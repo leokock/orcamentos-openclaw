@@ -1,10 +1,12 @@
 import openpyxl
 import os
+from pathlib import Path
 
 # Paths
-analitico_path = '/Users/leokock/.openclaw/media/inbound/e965de44-ee1c-42c2-8db9-abfdd18c188d.xlsx'
-v2_path = '/Users/leokock/.openclaw/media/inbound/80472290-d61a-4608-922c-e17327fe1b6c.xlsx'
-output_dir = '/Users/leokock/orcamentos/output'
+_OPENCLAW_MEDIA = str(Path.home() / ".openclaw" / "media" / "inbound")
+analitico_path = os.path.join(_OPENCLAW_MEDIA, 'e965de44-ee1c-42c2-8db9-abfdd18c188d.xlsx')
+v2_path = os.path.join(_OPENCLAW_MEDIA, '80472290-d61a-4608-922c-e17327fe1b6c.xlsx')
+output_dir = str(Path.home() / "orcamentos" / "output")
 output_path = os.path.join(output_dir, 'CTN-ALF-SFL-Orcamento_Parametrico_Analitico_R03.xlsx')
 
 os.makedirs(output_dir, exist_ok=True)

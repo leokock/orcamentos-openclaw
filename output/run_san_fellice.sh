@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /Users/leokock/orcamentos
+cd "$(dirname "$0")/.."
 python3.11 scripts/gerar_template_dinamico_v2.py \
   --nome "San Felice" \
   --ac 7435 \
