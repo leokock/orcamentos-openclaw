@@ -1,0 +1,13 @@
+#!/usr/bin/env python3.11
+import subprocess
+import sys
+
+result = subprocess.run([
+    'python3.11', 'scripts/slack_uploader.py',
+    '--bot', 'cartesiano',
+    '--file', 'output/CTN-Senna-Extracao-IFC-09-11.xlsx',
+    '--thread', '1776262563.000759',
+    '--channel', 'C0AL0KV1R1N',
+    '--comment', 'Extração detalhada dos IFCs 09 e 11 - Quantitativos por elemento'
+], cwd='/Users/leokock/orcamentos')
+sys.exit(result.returncode)
