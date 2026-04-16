@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Módulo de consulta à base qualitativa — puro Python, sem Gemma.
 
-Usado pelos scripts de geração de orçamento (paramétrico e executivo) pra
+Usado pelos scripts de geração de orçamento (paramétrico e preliminar) pra
 encontrar projetos similares na base e enriquecer a saída com sub-disciplinas
 reais, premissas técnicas e itens detalhados vindos de projetos entregues.
 
@@ -10,6 +10,15 @@ Funções principais:
     enriquecer_parametrico(similares)         → camada leve (sub-disciplinas)
     enriquecer_executivo(similares, mg)       → camada pesada (itens-detalhados)
     premissas_consolidadas(similares)         → premissas técnicas consolidadas
+    valores_macrogrupos_calibrados(ac, padrao) → calibração condicional por padrão
+                                                 (fonte: calibration-condicional-padrao.json
+                                                  com labels Gemma, fase 18b. Fallback:
+                                                  calibration-indices.json × PADRAO_MULTIPLIERS)
+
+Filtros de saneamento (fase 19):
+    - enriquecer_executivo filtra garbage rows (desc numérica, qtd absurda)
+    - _sanity_filter_pus: PU com desvio >3x/<0.33x vs 4.210 clusters e freq<3
+      é substituído pela mediana cross-projeto (itens-pus-agregados.json)
     decisoes_chave(similares)                 → decisões que afetam o executivo
 """
 from __future__ import annotations

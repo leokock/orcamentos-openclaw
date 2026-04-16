@@ -1,20 +1,25 @@
 #!/usr/bin/env python3
 """
-Gerador de Orçamento Paramétrico V2 — Bottom-Up com Dropdowns Interativos
+Gerador de Orçamento Paramétrico V2 Híbrido — Bottom-Up + Dropdowns + Override Manual
 
 Gera planilha Excel com:
-- Aba BRIEFING: 7 dropdowns que o usuário muda
-- Aba INDICES: fórmulas IF() que reagem aos dropdowns
-- 18 abas de detalhe: Qtd × PU com fórmulas vivas referenciando INDICES
-- PAINEL: KPIs automaticos
-- BENCHMARK: comparação com projetos similares
+- Aba BRIEFING: 14 dropdowns interativos, pré-preenchíveis via config JSON
+- Aba INDICES: 6 colunas (Valor calc | Override manual | Efetivo) —
+  orçamentista sobrescreve qualquer índice direto na Col C durante reunião
+- 18 abas de detalhe: Qtd × PU com fórmulas vivas referenciando INDICES!D{n} (efetivo)
+- PAINEL: KPIs automáticos
+- CUSTOS_MACROGRUPO: resumo com fórmulas que somam das 18 abas
 - PREMISSAS: documentação das fontes
+
+Fase 19 (2026-04-14): adicionou coluna Override manual na aba INDICES,
+3 novos fatores overridable (viga/laje/hidro), pré-preenchimento do
+BRIEFING via P['briefing'] dict no config JSON, fix encoding UTF-8.
 
 Uso:
   python gerar_template_dinamico_v2.py --config projeto.json
   python gerar_template_dinamico_v2.py --ac 13200 --ur 136 --np 24
 
-Baseado na revisão da Patricia + calibração 75 executivos (24/mar/2026).
+Doc canônica: ~/orcamentos-openclaw/base/PARAMETRICO-V2-HIBRIDO.md
 """
 import argparse
 import json

@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""Gerador de Orçamento Executivo Automatizado.
+"""Gerador de Orçamento Preliminar Automatizado (pós-Fase 18b).
 
-Recebe:
-  - slug do projeto novo
-  - briefing (AC, UR, etc.)
-  - gate validado pelo Leo (xlsx ou JSON com decisões)
+Gera preliminar-{slug}.xlsx (antes chamado "executivo") com:
+  - RESUMO com disclaimer "Total = calibração V2, itens são referência cross-projeto"
+  - Coluna Cobertura % (Σ itens / total calibrado) por macrogrupo
+  - 18 abas de macrogrupo com itens de referência (top 30 por freq/valor)
+  - PU sanity filter: itens com desvio >3x/<0.33x vs 4.210 clusters cross-projeto
+    são substituídos automaticamente pela mediana
+  - Garbage rows filter: descrições numéricas, qtd absurda, etc
+  - Calibração condicional via calibration-condicional-padrao.json (labels Gemma)
+  - Cada macrogrupo explicita soma real dos itens + cobertura % vs calibrado
 
-Gera:
-  - executivo.xlsx com 18 abas (uma por macrogrupo) + RESUMO + REFERENCIAS
-  - cada item com confidence tag (verde/amarelo/vermelho)
-  - PUs vindos da base qualitativa (mediana dos similares) com fallback pra base V2
-  - rastreabilidade: cada linha cita projetos-fonte
-  - log-execucao.md inicial
-  - memorial-executivo.md inicial
+Recebe: slug, AC, UR, padrão, gate validado (xlsx ou JSON).
+Saída: preliminar-{slug}.xlsx + RESUMO com coluna 'Σ itens' e 'Cobertura'.
 
 Uso:
   python gerar_executivo_auto.py --slug projeto-novo --gate gate-validado.xlsx \\
-                                 --ac 15000 --ur 90 -o executivo.xlsx
+                                 --ac 15000 --ur 90 --padrao alto -o preliminar.xlsx
 """
 from __future__ import annotations
 

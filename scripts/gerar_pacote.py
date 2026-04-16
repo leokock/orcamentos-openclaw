@@ -1,15 +1,23 @@
 #!/usr/bin/env python3
-"""Orquestrador do Pacote Paramétrico → Executivo.
+"""Orquestrador do Pacote Paramétrico + Preliminar.
 
 Fluxo completo:
   1. Recebe briefing (slug, AC, UR, padrão, etc.)
   2. Gera GATE de validação (xlsx) com defaults dos similares
   3. Pausa pra Leo validar o gate manualmente
   4. Quando rodado com --continue, lê gate validado e gera:
-     - Paramétrico (chama gerar_template_dinamico_v2.py)
-     - Executivo automatizado (chama gerar_executivo_auto.py)
+     - Paramétrico V2 Híbrido (chama gerar_template_dinamico_v2.py)
+     - Preliminar (chama gerar_executivo_auto.py) — renomeado de "executivo"
+     - Memorial Word (chama gerar_memorial_pacote.py)
      - Relatório de validação (chama validar_pacote.py)
   5. Tudo salvo em uma pasta única: pacotes/[slug]/
+  6. OBRIGATÓRIO: após gerar, sincronizar pro Drive compartilhado via
+     scripts/sincronizar_parametrico_drive.py --slug {slug} --archive-old
+
+Nomenclatura pós-Fase 19:
+  - parametrico-{slug}.{xlsx,docx,pdf} — V2 Híbrido com override manual
+  - preliminar-{slug}.{xlsx,docx,pdf} — calibrado com itens de referência
+  - (NÃO mais "executivo-*")
 
 Estado persistido em pacotes/[slug]/state.json.
 
