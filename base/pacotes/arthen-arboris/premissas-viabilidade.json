@@ -1,0 +1,103 @@
+{
+  "_gerado_em": "2026-04-14",
+  "_descricao": "Premissas da viabilidade financeira Arthen Arboris — editáveis; o script gerar_viabilidade_arthen_arboris.py consome este arquivo e produz viabilidade-arthen-arboris.xlsx",
+
+  "projeto": {
+    "nome": "Arthen Arboris",
+    "cidade": "Porto Belo",
+    "bairro": "Perequê",
+    "estado": "SC",
+    "cliente": "Arthen Engenharia e Construções",
+    "area_construida_m2": 12472.98,
+    "n_unidades": 98,
+    "prazo_obra_meses": 30,
+    "prazo_pre_lancamento_meses": 3,
+    "prazo_pos_obra_meses": 12,
+    "pct_area_privativa": 0.70,
+    "permuta_pct_unidades": 0.30
+  },
+
+  "custo": {
+    "_fonte": "parametrico-arthen-arboris.xlsx CUSTOS_MACROGRUPO!D22 (lido em runtime)",
+    "contingencia_pct": 0.05
+  },
+
+  "receita": {
+    "vgv_m2_base": 15394,
+    "_vgv_m2_fonte": "Pesquisa web 2026-04: Perequê preço médio R$ 15.394/m² (range R$ 9.991-25.375) — Viva Real, MySide, Imovelweb",
+    "entrada_pct": 0.20,
+    "obra_pct": 0.40,
+    "repasse_pct": 0.40,
+    "inadimplencia_pct": 0.03
+  },
+
+  "financeiras": {
+    "cub_aa": 0.07,
+    "_cub_fonte": "CUB/SC Sinduscon — indexador padrão SC para parcelas obra. Média histórica 2020-2025 ≈ 7% a.a.",
+    "tma_aa": 0.14,
+    "_tma_fonte": "Selic ~10,5% + spread 3,5% (custo de capital incorporadora média SC 2026)"
+  },
+
+  "comercial": {
+    "corretagem_pct": 0.06,
+    "marketing_pct": 0.03,
+    "marketing_front_pct": 0.40,
+    "ret_pct": 0.04,
+    "_ret_fonte": "Regime Especial de Tributação — Lei 10.931/04 art. 4º, Patrimônio de Afetação, 4% sobre receita recebida",
+    "adm_incorporadora_pct": 0.03
+  },
+
+  "curva_vendas": {
+    "_modelo": "logística cumulativa: %_acum(t) = 1/(1+exp(-k*(t-t50)))",
+    "t_inicio": -2,
+    "t50": 14,
+    "k": 0.18
+  },
+
+  "curva_obra_por_macrogrupo": {
+    "_unidades": "mês_inicio..mês_fim (1..30 = obra). Distribuição uniforme dentro da janela. Custo total virá do parametrico xlsx.",
+    "Gerenciamento": [1, 30],
+    "Mov. Terra": [1, 3],
+    "Infraestrutura": [1, 8],
+    "Supraestrutura": [3, 18],
+    "Alvenaria": [8, 22],
+    "Impermeabilização": [5, 25],
+    "Instalações": [10, 28],
+    "Sist. Especiais": [18, 29],
+    "Climatização": [20, 29],
+    "Rev. Int. Parede": [15, 27],
+    "Teto": [18, 28],
+    "Pisos": [20, 29],
+    "Pintura": [22, 30],
+    "Esquadrias": [18, 28],
+    "Louças e Metais": [22, 29],
+    "Fachada": [15, 27],
+    "Complementares": [24, 30],
+    "Imprevistos": [1, 30]
+  },
+
+  "monte_carlo": {
+    "n_iter": 10000,
+    "seed": 42,
+    "vgv_m2_tri": [11000, 15394, 22000],
+    "custo_obra_fator_tri": [0.90, 1.00, 1.15],
+    "t50_vendas_tri": [8, 14, 24],
+    "cub_aa_tri": [0.04, 0.07, 0.11],
+    "corr_vgv_t50": -0.4,
+    "_correlacao_fonte": "preço alto ↔ venda mais lenta (modelagem conservadora)"
+  },
+
+  "tornado": {
+    "variacao_pct": 0.20,
+    "variaveis": [
+      "vgv_m2_base", "custo_obra_fator", "t50_vendas", "entrada_pct",
+      "corretagem_pct", "ret_pct", "cub_aa", "tma_aa"
+    ]
+  },
+
+  "cenarios": {
+    "pessimista": {"vgv_fator": 0.85, "custo_fator": 1.10, "t50_delta": 8},
+    "base": {"vgv_fator": 1.00, "custo_fator": 1.00, "t50_delta": 0},
+    "otimista": {"vgv_fator": 1.10, "custo_fator": 0.95, "t50_delta": -4}
+  }
+}
