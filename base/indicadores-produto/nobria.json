@@ -6,100 +6,81 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 42384127.48,
-  "data_extracao": "2026-04-17T20:03:53",
+  "data_extracao": "2026-04-17T20:37:32",
   "duration_s": 0.0,
-  "n_itens_processados": 163,
-  "n_itens_classificados": 163,
+  "n_itens_processados": 120,
+  "n_itens_classificados": 120,
   "n_indicadores_extraidos": 15,
   "indicadores": {
     "aco_kg_por_m2_ac": {
       "id": "EST_02",
-      "valor": 2.1802,
+      "valor": 0.8483,
       "unidade": "kg/m² AC",
-      "soma_bruta": 28080.9,
-      "n_itens": 19,
+      "soma_bruta": 10926.1,
+      "n_itens": 3,
       "itens_fonte": [
         "Central de armação",
         "Armadura Estaqueamento - Aço 6,3mm",
-        "Armadura Estaqueamento - Aço 12,5mm",
-        "Armadura Estaqueamento - Aço 16mm",
-        "Armadura Infra - Aço 5,0mm",
-        "Armadura Infra - Aço 8,0mm",
-        "Armadura Infra - Aço 10,0mm",
-        "Armadura Infra - Aço 12,5mm",
-        "Armadura Infra - Aço 16,0mm",
-        "Armadura Infra - Aço 20,0mm"
-      ]
+        "Armadura Infra - Aço 5,0mm"
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "guarda_corpo_m_por_m2_ac": {
       "id": "ESQ_04",
-      "valor": 0.139,
+      "valor": 0.1352,
       "unidade": "m/m² AC",
-      "soma_bruta": 1790.27,
-      "n_itens": 4,
+      "soma_bruta": 1741.2,
+      "n_itens": 3,
       "itens_fonte": [
         "Guarda Corpo de Proteção Provisório",
         "Corrimão - Escada de Emergência",
-        "Guarda-corpo metálico h=1,20m",
-        "Guarda-corpo metálico h=0,90m"
-      ]
+        "Guarda-corpo metálico h=1,20m"
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
-    "portas_un_por_ur": {
-      "id": "ESQ_01",
-      "valor": 470.0,
-      "unidade": "un/UR",
-      "soma_bruta": 470.0,
-      "n_itens": 8,
+    "movimento_terra_m3_por_m2_ac": {
+      "id": "EST_05",
+      "valor": 0.1605,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 2067.0,
+      "n_itens": 1,
       "itens_fonte": [
-        "Vigilância/Portaria",
-        "Portas lisa em madeira 60x210 - Interna",
-        "Portas lisa em madeira 70x210 - Interna",
-        "Portas lisa em madeira 80x210 - Interna",
-        "Portas lisa em madeira 90x210 - Interna",
-        "Portas lisa em madeira 100x210 - Interna",
-        "Portas lisa em madeira 120x210 - Interna",
-        "Porta Corta Fogo 90x210"
-      ]
-    },
-    "elevadores_por_torre": {
-      "id": "DIV_02",
-      "valor": 32.0,
-      "unidade": "un/torre",
-      "soma_bruta": 32.0,
-      "n_itens": 2,
-      "itens_fonte": [
-        "Elevador Cremalheira",
-        "Elevadores"
-      ]
+        "Escavação mecânica"
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "concreto_m3_por_m2_ac": {
       "id": "EST_01",
-      "valor": 0.4852,
+      "valor": 0.8194,
       "unidade": "m³/m² AC",
-      "soma_bruta": 6249.94,
-      "n_itens": 5,
+      "soma_bruta": 10554.26,
+      "n_itens": 4,
       "itens_fonte": [
         "Concreto Usinado Fck 35 Bombeado",
-        "Concreto Usinado Fck 35 Bombeado",
         "Lastro de concreto magro e=10cm",
-        "Concreto Usinado Fck 35 Bombeado",
-        "Concreto Usinado Fck 35 Bombeado"
-      ]
+        "Verga e Contraverga",
+        "Estucamento de estrutura"
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "alvenaria_m2_por_m2_ac": {
       "id": "ALV_01",
-      "valor": 1.8108,
+      "valor": 1.5465,
       "unidade": "m²/m² AC",
-      "soma_bruta": 23323.21,
-      "n_itens": 6,
+      "soma_bruta": 19918.74,
+      "n_itens": 4,
       "itens_fonte": [
         "Alvenaria em bloco cerâmico  e=14cm",
-        "Alvenaria em bloco cerâmico  e=09cm",
-        "Alvenaria em bloco cerâmico  e=11,5cm",
         "Alvenaria em bloco concreto e=11,5cm",
         "Alvenaria em bloco concreto Celular (Siporex) e=10cm",
         "Encunhamento de alvenaria"
-      ]
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "cobertura_m2_por_m2_ac": {
       "id": "DIV_05",
@@ -110,35 +91,37 @@
       "itens_fonte": [
         "Estrutura para Telhado",
         "Telha de fibrocimento ondulada 6mm"
-      ]
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "chapisco_m2_por_m2_ac": {
       "id": "REV_01",
-      "valor": 2.5625,
+      "valor": 2.5419,
       "unidade": "m²/m² AC",
-      "soma_bruta": 33004.22,
-      "n_itens": 3,
+      "soma_bruta": 32739.92,
+      "n_itens": 2,
       "itens_fonte": [
         "Chapisco Interno",
-        "Chapisco Externo",
-        "Chapisco Interno"
-      ]
+        "Chapisco Externo"
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "porcelanato_ceramica_m2_por_m2_ac": {
       "id": "REV_04",
-      "valor": 0.948,
+      "valor": 0.5374,
       "unidade": "m²/m² AC",
-      "soma_bruta": 12210.43,
-      "n_itens": 7,
+      "soma_bruta": 6921.29,
+      "n_itens": 4,
       "itens_fonte": [
         "Revestimento Porcelanato - banheiros e cozinhas",
         "Revestimento Porcelanato - sauna",
-        "Revestimento Porcelanato - banheiros e cozinhas",
         "Revestimento Cerâmico",
-        "Rodapé Porcelanato h=7cm",
-        "Rodapé Porcelanato h=5cm",
-        "Rodapé Porcelanato h=10cm"
-      ]
+        "Rodapé Porcelanato h=7cm"
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "forro_gesso_m2_por_m2_ac": {
       "id": "DIV_01",
@@ -149,7 +132,34 @@
       "itens_fonte": [
         "Forro de Gesso",
         "Negativo de Forro de Gesso"
-      ]
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
+    },
+    "piso_vinilico_m2_por_m2_ac": {
+      "id": "DIV_07",
+      "valor": 0.1286,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 1656.75,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Revestimento Vinílico"
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
+    },
+    "rodape_m_por_m2_ac": {
+      "id": "DIV_08",
+      "valor": 0.48,
+      "unidade": "m/m² AC",
+      "soma_bruta": 6182.96,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Rodapé Cerâmico h=5cm",
+        "Rodapé em Poliestireno h=10cm"
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "manta_asfaltica_m2_por_m2_ac": {
       "id": "IMP_01",
@@ -166,51 +176,45 @@
         "Impermeabilização Cimento Polimérico",
         "Impermeabilização Cimento Polimérico com Fibras e Tela Poliester",
         "Impermeabilização Viga Baldrame"
-      ]
-    },
-    "janelas_un_por_ur": {
-      "id": "ESQ_02",
-      "valor": 1430.5,
-      "unidade": "un/UR",
-      "soma_bruta": 1430.5,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Portas e Janelas em Alumínio Linha Gold"
-      ]
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "pintura_interna_m2_por_m2_ac": {
       "id": "PIN_01",
-      "valor": 2.2288,
+      "valor": 2.02,
       "unidade": "m²/m² AC",
-      "soma_bruta": 28707.4,
-      "n_itens": 6,
+      "soma_bruta": 26017.37,
+      "n_itens": 5,
       "itens_fonte": [
-        "Pintura Acrílica",
         "Pintura Acrílica",
         "Pintura e Demarcação de vagas estacionamento - Parede",
         "Pintura e Demarcação de vagas estacionamento",
         "Pintura Epoxi Garagem",
         "Pintura gesso"
-      ]
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "pintura_externa_m2_por_m2_ac": {
       "id": "PIN_02",
-      "valor": 0.6788,
+      "valor": 0.5945,
       "unidade": "m²/m² AC",
-      "soma_bruta": 8743.31,
-      "n_itens": 3,
+      "soma_bruta": 7657.48,
+      "n_itens": 2,
       "itens_fonte": [
         "Textura Pigmentada",
-        "Textura Pigmentada",
         "Textura"
-      ]
+      ],
+      "divisor": 12879.93,
+      "norm_by": "ac"
     },
     "taxa_aco_kg_por_m3": {
       "id": "EST_03b",
-      "valor": 4.49,
+      "valor": 1.04,
       "unidade": "kg/m³",
-      "soma_bruta": 28080.899999999994,
-      "n_itens": 19,
+      "soma_bruta": 10926.1,
+      "n_itens": 3,
       "itens_fonte": [
         "(calculado: aço total / concreto total)"
       ]

@@ -6,482 +6,461 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 0,
-  "data_extracao": "2026-04-17T20:03:50",
-  "duration_s": 0.1,
-  "n_itens_processados": 1120,
-  "n_itens_classificados": 1120,
-  "n_indicadores_extraidos": 27,
+  "data_extracao": "2026-04-17T20:37:30",
+  "duration_s": 0.0,
+  "n_itens_processados": 209,
+  "n_itens_classificados": 209,
+  "n_indicadores_extraidos": 28,
   "indicadores": {
+    "movimento_terra_m3_por_m2_ac": {
+      "id": "EST_05",
+      "valor": 0.3798,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 994.41,
+      "n_itens": 3,
+      "itens_fonte": [
+        "MOE - Escavação mecanizada para sapata, blocos de coroamento e baldrames",
+        "MOE - Reaterro mecanizado para sapata, blocos de coroamento e baldrames, com ret",
+        "MOE - Movimentação de terra para bota-fora de escavação (blocos, sapatas, baldra"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "concreto_m3_por_m2_ac": {
+      "id": "EST_01",
+      "valor": 0.2157,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 564.8,
+      "n_itens": 6,
+      "itens_fonte": [
+        "MAT - Lastro de Concreto 10cm",
+        "MAT - Concreto Usinado bombeável 30MPa para fundação profunda  - incluindo servi",
+        "MAT - Concreto Usinado bombeável  35MPa para fundação rasa - incluindo serviço d",
+        "Concreto Usinado bombeável 35MPa - incluindo serviço de bombeamento (5% de perda",
+        "Concreto Usinado bombeável 35MPa - incluindo serviço de bombeamento (5% de perda",
+        "MAT - Vergas e contravergas moldadas in loco, h=10 cm"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
     "aco_kg_por_m2_ac": {
       "id": "EST_02",
-      "valor": 25.5924,
+      "valor": 6.9265,
       "unidade": "kg/m² AC",
-      "soma_bruta": 67007.13,
-      "n_itens": 101,
+      "soma_bruta": 18135.35,
+      "n_itens": 11,
       "itens_fonte": [
-        "TERRAÇO/LAZER",
-        "INSTALAÇÕES ELÉTRICAS, HIDROSSANITÁRIAS, PREVENTIVAS E DE COMUNICAÇÃO",
-        "LIGAÇÕES DEFINITIVAS",
         "Armadura de aço, fundações e contenções, CA-50, ø 6,3 mm",
-        "Armadura de aço, fundações e contenções, CA-50, ø 10,0 mm",
-        "Armadura de aço, fundações e contenções, CA-50, ø 12,5 mm",
-        "Armadura de aço, fundações e contenções, CA-50, ø 16,0 mm",
-        "Armadura de aço, fundações e contenções, CA-60, ø 5,0 mm",
-        "Armadura de aço, fundações e contenções, CA-50, ø 6,3 mm",
-        "Armadura de aço, fundações e contenções, CA-50, ø 8,0 mm"
-      ]
+        "Armação aço CA-50 ø 6,3mm para supraestrutura (corte e dobra em obra)",
+        "Armação aço CA-50 ø 8,0mm para supraestrutra (corte e dobra em obra)",
+        "MAT - Tela soldada para ligação alvenaria/estrutura",
+        "MOE - Instalações hidrossanitárias",
+        "MOE - Instalações preventivas",
+        "MAT - Chapisco Em estrutura em Argamassa traço 1:4 (parede)",
+        "MAT - Chapisco Manual em Argamassa traço 1:3 (parede)",
+        "Bacia Sanitária com caixa acoplada",
+        "Bacia Sanitaria para PNE - com caixa acoplada"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "escoramento_m2_por_m2_ac": {
+      "id": "EST_04",
+      "valor": 0.18,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 471.4,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Escoramento metálico"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "alvenaria_m2_por_m2_ac": {
+      "id": "ALV_01",
+      "valor": 0.772,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 2021.3,
+      "n_itens": 4,
+      "itens_fonte": [
+        "MAT - Alvenaria de vedação de blocos cerâmicos furados 9x19x39 cm e argamassa us",
+        "MAT - Encunhamento de alvenaria de vedação",
+        "MOE - Alvenaria em Blocos Cerâmicos",
+        "MOE - Alvenaria em Blocos de Concreto"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "vidros_m2_por_m2_ac": {
+      "id": "ESQ_03",
+      "valor": 0.1809,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 473.54,
+      "n_itens": 3,
+      "itens_fonte": [
+        "MAT - Enchimento de lã de vidro",
+        "PAINEL FIXO, ALUMÍNO + VIDRO, 142,5 x 280 cm",
+        "MAT - Guarda-Corpo em Alumínio e Vidro, h=110 cm"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "drywall_divisoria_m2_por_m2_ac": {
+      "id": "DIV_06",
+      "valor": 0.0033,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 8.56,
+      "n_itens": 1,
+      "itens_fonte": [
+        "MAT - Drywall"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "portas_un_por_ur": {
+      "id": "ESQ_01",
+      "valor": 2.7143,
+      "unidade": "un/UR",
+      "soma_bruta": 133.0,
+      "n_itens": 8,
+      "itens_fonte": [
+        "MAT - Fechaduras Eletrônicas - Biometria",
+        "MAT - Porta Corta-Fogo - 80x210 cm",
+        "MAT - Kit porta lisa de abrir - 60x210",
+        "MAT - Porta lisa de de correr - 80x210",
+        "PORTA DE ABRIR, 1 FOLHA, ALUMÍNIO VENEZIANA, 70 x 210 cm",
+        "PORTA DE ABRIR, 2 FOLHAS, ALUMÍNIO VENEZIANA, 150 x 210 cm",
+        "PORTA DE CORRER, 4 FOLHAS, VIDRO E ALUMÍNIO, 750 x 280 cm",
+        "MOE - Instalação de Vistas, Portas de Madeira e Ferragens"
+      ],
+      "divisor": 49,
+      "norm_by": "ur"
     },
     "manta_asfaltica_m2_por_m2_ac": {
       "id": "IMP_01",
-      "valor": 1.4149,
+      "valor": 1.0379,
       "unidade": "m²/m² AC",
-      "soma_bruta": 3704.65,
-      "n_itens": 47,
+      "soma_bruta": 2717.54,
+      "n_itens": 17,
       "itens_fonte": [
-        "IMPERMEABILIZAÇÃO",
-        "MAT - Impermeabilização Proteção mecânica",
-        "MAT - Impermeabilização Proteção mecânica",
-        "MAT - Impermeabilização Proteção mecânica",
-        "MAT - Impermeabilização Proteção mecânica",
         "MAT - Impermeabilização Proteção mecânica",
         "MAT - Impermeabilização Regularização",
-        "MAT - Impermeabilização Regularização",
-        "MAT - Impermeabilização Proteção mecânica",
-        "MAT - Impermeabilização de emulsão asfáltica"
-      ]
+        "MAT - Impermeabilização de emulsão asfáltica",
+        "Execução de Impermeabilização / Poço Elevador",
+        "Impermeabilização com Argamassa Semi-Flexível",
+        "Execução de Impermeabilização / Sacadas - argamassa flexive",
+        "Execução de Impermeabilização / Lajes Descobertas",
+        "Execução de Impermeabilização / Floreiras - manta asfaltica",
+        "Execução de Impermeabilização com Manta Asfáltica 4mm",
+        "Execução de Impermeabilização / Reservatórios"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "chapisco_m2_por_m2_ac": {
+      "id": "REV_01",
+      "valor": 0.8931,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 2338.25,
+      "n_itens": 6,
+      "itens_fonte": [
+        "MAT - Chapisco Colante em Argamassa Adesiva (teto)",
+        "MAT - Chapisco externo",
+        "MOE - Chapisco Interno (Estrutura)",
+        "MOE - Chapisco Interno (Paredes)",
+        "MOE - Chapisco Interno (Tetos)",
+        "MOE - Chapisco Externo"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "reboco_m2_por_m2_ac": {
+      "id": "REV_02",
+      "valor": 1.3867,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 3630.78,
+      "n_itens": 6,
+      "itens_fonte": [
+        "MAT - Reboco interno",
+        "MAT - Reboco interno (teto)",
+        "MAT - Reboco externo",
+        "MOE - Reboco Interno (Tetos)",
+        "MOE - Reboco Interno (Paredes)",
+        "MOE - Reboco Externo"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "contrapiso_m2_por_m2_ac": {
+      "id": "REV_03",
+      "valor": 0.3944,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 1032.7,
+      "n_itens": 4,
+      "itens_fonte": [
+        "MAT - Contrapiso comum em argamassa usinada pronta pra uso - espessura 2,5cm",
+        "MAT - Contrapiso comum alisado em argamassa usinada pronta pra uso - espessura 6",
+        "MAT - Contrapiso acústico comum em argamassa industrializada pronta com preparo ",
+        "MOE - Execução de Contrapiso"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
     },
     "cobertura_m2_por_m2_ac": {
       "id": "DIV_05",
-      "valor": 0.2979,
+      "valor": 0.1964,
       "unidade": "m²/m² AC",
-      "soma_bruta": 780.0,
-      "n_itens": 6,
+      "soma_bruta": 514.24,
+      "n_itens": 4,
       "itens_fonte": [
-        "COBERTURA",
-        "Tapume de telha metálica trapezoidal",
         "MAT - Estrutura de Madeira para Telha Ondulada de Fibrocimento",
         "MOE - Estrutura de Madeira para Telhado",
         "MAT - Cobertura com Telha de Fibrocimento, e=6 mm",
         "MOE - Telhamento em Fibrocimento"
-      ]
-    },
-    "forro_gesso_m2_por_m2_ac": {
-      "id": "DIV_01",
-      "valor": 0.6553,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 1715.61,
-      "n_itens": 14,
-      "itens_fonte": [
-        "FORROS",
-        "Execução de Forro gesso acartonado",
-        "Execução de Forro gesso acartonado",
-        "Execução de Forro gesso acartonado",
-        "Execução de Forro gesso acartonado",
-        "Execução de Forro gesso acartonado",
-        "MAT - Forro em PVC",
-        "MOE - Forro em PVC",
-        "MAT - Forro em PVC",
-        "MOE - Forro em PVC"
-      ]
-    },
-    "pintura_interna_m2_por_m2_ac": {
-      "id": "PIN_01",
-      "valor": 22.7217,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 59490.89,
-      "n_itens": 163,
-      "itens_fonte": [
-        "PINTURAS",
-        "MAT - Pintura Interna, Fundo Preparador",
-        "MAT - Pintura Interna, Fundo Preparador",
-        "MAT - Pintura Interna, Fundo Preparador",
-        "MAT - Pintura Interna, Fundo Preparador",
-        "MAT - Pintura Interna, Fundo Preparador",
-        "MAT - Pintura Interna, Fundo Preparador",
-        "MAT - Pintura Interna, Fundo Preparador",
-        "MAT - Pintura Interna, Fundo Preparador",
-        "MAT - Pintura Interna, Massa Corrida 2 Demãos"
-      ]
-    },
-    "vidros_m2_por_m2_ac": {
-      "id": "ESQ_03",
-      "valor": 0.5235,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 1370.65,
-      "n_itens": 7,
-      "itens_fonte": [
-        "ESQUADRIAS, VIDROS E FERRAGENS",
-        "MAT - Enchimento de lã de vidro",
-        "MAT - Enchimento de lã de vidro",
-        "MAT - Enchimento de lã de vidro",
-        "MAT - Enchimento de lã de vidro",
-        "PAINEL FIXO, ALUMÍNO + VIDRO, 142,5 x 280 cm",
-        "MAT - Guarda-Corpo em Alumínio e Vidro, h=110 cm"
-      ]
-    },
-    "portas_un_por_ur": {
-      "id": "ESQ_01",
-      "valor": 10.849,
-      "unidade": "un/UR",
-      "soma_bruta": 531.6,
-      "n_itens": 50,
-      "itens_fonte": [
-        "Área das portas de elevadores",
-        "Quantidade de portas de elevadores",
-        "Área das portas de aptos",
-        "Fechamento removível de vãos de porta de entrada dos aptos. em madeira",
-        "MAT - Porta Corta-Fogo - 80x210 cm",
-        "MAT - Porta Corta-Fogo - 80x210 cm",
-        "MAT - Porta Corta-Fogo - 80x210 cm",
-        "MAT - Porta Corta-Fogo - 80x210 cm",
-        "MAT - Porta Corta-Fogo - 70x210 cm",
-        "MAT - Porta Corta-Fogo - 80x210 cm"
-      ]
-    },
-    "elevadores_por_torre": {
-      "id": "DIV_02",
-      "valor": 2.0,
-      "unidade": "un/torre",
-      "soma_bruta": 2.0,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Quantidade de elevadores"
-      ]
-    },
-    "forma_m2_por_m2_ac": {
-      "id": "EST_03",
-      "valor": 0.1134,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 296.81,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Guarda-corpo de vãos, fixado em fôrma de madeira, em trama de madeira com tela d"
-      ]
-    },
-    "guarda_corpo_m_por_m2_ac": {
-      "id": "ESQ_04",
-      "valor": 0.2171,
-      "unidade": "m/m² AC",
-      "soma_bruta": 568.43,
-      "n_itens": 16,
-      "itens_fonte": [
-        "Guarda corpo de laje após desforma de pontalete de madeira, travessões e tela",
-        "MAT - Corrimão em Madeira",
-        "Corrimão em Alumínio, h=92 e 70 cm, sem extensão - Escada",
-        "MAT - Corrimão de aço inox",
-        "MAT - Corrimão em Madeira",
-        "MAT - Corrimão em Madeira",
-        "MAT - Corrimão em Madeira",
-        "MAT - Corrimão em Madeira",
-        "MAT - Corrimão de aço inox",
-        "MAT - Guarda-Corpo em Alumínio, Barras Verticais, h=110 cm"
-      ]
-    },
-    "concreto_m3_por_m2_ac": {
-      "id": "EST_01",
-      "valor": 0.3601,
-      "unidade": "m³/m² AC",
-      "soma_bruta": 942.78,
-      "n_itens": 13,
-      "itens_fonte": [
-        "MAT - Concreto Usinado bombeável 30MPa para fundação profunda  - incluindo servi",
-        "MAT - Concreto Usinado bombeável  35MPa para fundação rasa - incluindo serviço d",
-        "Concreto Usinado bombeável 35MPa - incluindo serviço de bombeamento (5% de perda",
-        "Concreto Usinado bombeável 30MPa - incluindo serviço de bombeamento (5% de perda",
-        "Concreto Usinado bombeável 35MPa - incluindo serviço de bombeamento (5% de perda",
-        "Concreto Usinado bombeável 35MPa - incluindo serviço de bombeamento (5% de perda",
-        "Concreto Usinado bombeável 35MPa - incluindo serviço de bombeamento (5% de perda",
-        "Concreto Usinado bombeável 30MPa - incluindo serviço de bombeamento (5% de perda",
-        "Concreto Usinado bombeável 35MPa - incluindo serviço de bombeamento (5% de perda",
-        "Concreto Usinado bombeável 35MPa - incluindo serviço de bombeamento (5% de perda"
-      ]
-    },
-    "escoramento_m2_por_m2_ac": {
-      "id": "EST_04",
-      "valor": 0.7476,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 1957.27,
-      "n_itens": 7,
-      "itens_fonte": [
-        "Escoramento metálico",
-        "Escoramento metálico",
-        "Escoramento metálico",
-        "Escoramento metálico",
-        "Escoramento metálico",
-        "Escoramento metálico",
-        "Escoramento metálico"
-      ]
-    },
-    "alvenaria_m2_por_m2_ac": {
-      "id": "ALV_01",
-      "valor": 3.4661,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 9075.1,
-      "n_itens": 44,
-      "itens_fonte": [
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 9x19x39 cm e argamassa us",
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 11,5x19x39 cm e argamassa",
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 14x19x39 cm e argamassa u",
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 19x19x39 cm e argamassa u",
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 9x19x39 cm e argamassa us",
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 11,5x19x39 cm e argamassa",
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 14x19x39 cm e argamassa u",
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 19x19x39 cm e argamassa u",
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 9x19x39 cm e argamassa us",
-        "MAT - Alvenaria de vedação de blocos cerâmicos furados 11,5x19x39 cm e argamassa"
-      ]
-    },
-    "drywall_divisoria_m2_por_m2_ac": {
-      "id": "DIV_06",
-      "valor": 0.0096,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 25.23,
-      "n_itens": 3,
-      "itens_fonte": [
-        "MAT - Drywall",
-        "MAT - Drywall",
-        "MAT - Drywall"
-      ]
-    },
-    "chapisco_m2_por_m2_ac": {
-      "id": "REV_01",
-      "valor": 3.3897,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 8874.95,
-      "n_itens": 38,
-      "itens_fonte": [
-        "MAT - Chapisco Colante em Argamassa Adesiva (teto)",
-        "MAT - Chapisco Colante em Argamassa Adesiva (teto)",
-        "MAT - Chapisco Colante em Argamassa Adesiva (teto)",
-        "MAT - Chapisco Colante em Argamassa Adesiva (teto)",
-        "MAT - Chapisco Colante em Argamassa Adesiva (teto)",
-        "MAT - Chapisco Colante em Argamassa Adesiva (teto)",
-        "MAT - Chapisco Colante em Argamassa Adesiva (teto)",
-        "MAT - Chapisco externo",
-        "MAT - Chapisco externo",
-        "MAT - Chapisco externo"
-      ]
-    },
-    "reboco_m2_por_m2_ac": {
-      "id": "REV_02",
-      "valor": 5.6349,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 14753.51,
-      "n_itens": 38,
-      "itens_fonte": [
-        "MAT - Reboco interno",
-        "MAT - Reboco interno (teto)",
-        "MAT - Reboco interno",
-        "MAT - Reboco interno (teto)",
-        "MAT - Reboco interno",
-        "MAT - Reboco interno (teto)",
-        "MAT - Reboco interno",
-        "MAT - Reboco interno (teto)",
-        "MAT - Reboco interno",
-        "MAT - Reboco interno (teto)"
-      ]
-    },
-    "contrapiso_m2_por_m2_ac": {
-      "id": "REV_03",
-      "valor": 1.5106,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 3955.0,
-      "n_itens": 29,
-      "itens_fonte": [
-        "MAT - Contrapiso comum em argamassa usinada pronta pra uso - espessura 2,5cm",
-        "MAT - Contrapiso comum em argamassa usinada pronta pra uso - espessura 4cm",
-        "MAT - Contrapiso comum em argamassa usinada pronta pra uso - espessura 5cm",
-        "MAT - Contrapiso comum em argamassa usinada pronta pra uso - espessura 6cm",
-        "MAT - Contrapiso comum alisado em argamassa usinada pronta pra uso - espessura 6",
-        "MAT - Contrapiso comum em argamassa usinada pronta pra uso - espessura 6cm",
-        "MAT - Contrapiso comum alisado em argamassa usinada pronta pra uso - espessura 6",
-        "MAT - Contrapiso acústico comum em argamassa industrializada pronta com preparo ",
-        "MAT - Contrapiso comum em argamassa usinada pronta pra uso - espessura 6cm",
-        "MAT - Contrapiso comum alisado em argamassa usinada pronta pra uso - espessura 6"
-      ]
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
     },
     "porcelanato_ceramica_m2_por_m2_ac": {
       "id": "REV_04",
-      "valor": 1.2142,
+      "valor": 0.2868,
       "unidade": "m²/m² AC",
-      "soma_bruta": 3178.98,
-      "n_itens": 10,
+      "soma_bruta": 750.88,
+      "n_itens": 2,
       "itens_fonte": [
         "MAT - Piso Cerâmico",
-        "MAT - Piso Cerâmico",
-        "MAT - Piso Cerâmico",
-        "MAT - Piso Cerâmico",
-        "MAT - Piso Cerâmico",
-        "MOE - Assentamento de Pisos e Porcelanatos Cerâmicos",
-        "MOE - Assentamento de Pisos e Porcelanatos Cerâmicos",
-        "MOE - Assentamento de Pisos e Porcelanatos Cerâmicos",
-        "MOE - Assentamento de Pisos e Porcelanatos Cerâmicos",
         "MOE - Assentamento de Pisos e Porcelanatos Cerâmicos"
-      ]
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "rodape_m_por_m2_ac": {
+      "id": "DIV_08",
+      "valor": 0.534,
+      "unidade": "m/m² AC",
+      "soma_bruta": 1398.06,
+      "n_itens": 4,
+      "itens_fonte": [
+        "MAT - Assentamento e Rejuntamento de Rodapés Cerâmicos",
+        "MOE - Assentamento e Rejuntamento de Rodapés Cerâmicos",
+        "MAT -  Rodapé Poliestireno Reto Liso Branco, h=7 cm",
+        "MOE - Rodapés em Poliestireno"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "forro_gesso_m2_por_m2_ac": {
+      "id": "DIV_01",
+      "valor": 0.2453,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 642.36,
+      "n_itens": 3,
+      "itens_fonte": [
+        "Execução de Forro gesso acartonado",
+        "MAT - Forro em PVC",
+        "MOE - Forro em PVC"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "pintura_interna_m2_por_m2_ac": {
+      "id": "PIN_01",
+      "valor": 3.4419,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 9011.69,
+      "n_itens": 16,
+      "itens_fonte": [
+        "MAT - Pintura Interna, Fundo Preparador",
+        "MAT - Pintura Interna, Massa Corrida 2 Demãos",
+        "MAT - Pintura Interna, Textura",
+        "MAT - Pintura Interna, 1ª Demão Tinta Acrílica (parede)",
+        "MAT - Pintura Interna, 1ª Demão Tinta Acrílica (teto)",
+        "MAT - Pintura Interna, 1ª Demão Tinta Antiderrapante",
+        "MAT - Pintura Interna, Demarcação de Faixas de Garagem na Parede",
+        "MAT - Pintura Interna, Demarcação de Faixas de Garagem no Piso",
+        "MOE - Pintura Interna, Fundo Preparador",
+        "MOE - Pintura Interna, Massa Corrida 2 Demãos"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
     },
     "pintura_externa_m2_por_m2_ac": {
       "id": "PIN_02",
-      "valor": 3.9293,
+      "valor": 1.0652,
       "unidade": "m²/m² AC",
-      "soma_bruta": 10287.85,
-      "n_itens": 41,
+      "soma_bruta": 2788.93,
+      "n_itens": 6,
       "itens_fonte": [
         "MAT - Pintura Externa, Selador Acrílico",
-        "MAT - Pintura Externa, Selador Acrílico",
-        "MAT - Pintura Externa, Selador Acrílico",
-        "MAT - Pintura Externa, Selador Acrílico",
-        "MAT - Pintura Externa, Textura Acrílica",
-        "MAT - Pintura Externa, Textura Acrílica",
-        "MAT - Pintura Externa, Textura Acrílica",
         "MAT - Pintura Externa, Textura Acrílica",
         "MAT - Pintura Externa, 1ª Demão Tinta Acrílica",
-        "MAT - Pintura Externa, 1ª Demão Tinta Acrílica"
-      ]
+        "MOE - Pintura Externa, 1ª Demão Tinta Acrílica",
+        "MOE - Pintura Externa, Selador Acrílico + Textura Acrílica Externa, 1 Demão",
+        "MAT - Pintura Externa, Selador Acrílico + Textura Acrílica Externa, 1 Demão"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
+    },
+    "contramarco_un_por_ur": {
+      "id": "ESQ_05",
+      "valor": 1.2653,
+      "unidade": "un/UR",
+      "soma_bruta": 62.0,
+      "n_itens": 5,
+      "itens_fonte": [
+        "MAT - Contramarcos e Marcos Aluminio",
+        "MAT - Contramarcos e Marcos Pcf",
+        "MOE -  Colocação de contramarco de aluminio",
+        "MOE -  Colocação de contramarco de metálico",
+        "MOE -  Colocação de Contramarco Aluminio"
+      ],
+      "divisor": 49,
+      "norm_by": "ur"
+    },
+    "guarda_corpo_m_por_m2_ac": {
+      "id": "ESQ_04",
+      "valor": 0.0312,
+      "unidade": "m/m² AC",
+      "soma_bruta": 81.61,
+      "n_itens": 6,
+      "itens_fonte": [
+        "MAT - Corrimão em Madeira",
+        "Corrimão em Alumínio, h=92 e 70 cm, sem extensão - Escada",
+        "MAT - Corrimão de aço inox",
+        "MAT - Guarda-Corpo em Alumínio, Barras Verticais, h=110 cm",
+        "MAT - Guarda-Corpo em Alumínio, h=110 cm",
+        "MOE - Corrimãos em Madeira"
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
     },
     "janelas_un_por_ur": {
       "id": "ESQ_02",
-      "valor": 0.3061,
+      "valor": 0.2857,
       "unidade": "un/UR",
-      "soma_bruta": 15.0,
-      "n_itens": 4,
+      "soma_bruta": 14.0,
+      "n_itens": 3,
       "itens_fonte": [
         "JANELA MAXIM-AIR, 1 FOLHA, ALUMÍNIO E VIDRO, 120 x 80 cm",
-        "JANELA MAXIM-AIR, 1 FOLHA, ALUMÍNIO E VIDRO, 60 x 110 cm",
         "PORTA JANELA DE CORRER, 4 FOLHAS, VIDRO E ALUMÍNIO, 550 x 312 cm",
         "JANELA FIXA, 1 FOLHA, ALUMÍNIO E VIDRO, 60.5 x 63 cm"
-      ]
+      ],
+      "divisor": 49,
+      "norm_by": "ur"
     },
     "revestimento_fachada_m2_por_m2_ac": {
       "id": "REV_05",
-      "valor": 0.1309,
+      "valor": 0.0461,
       "unidade": "m²/m² AC",
-      "soma_bruta": 342.84,
-      "n_itens": 4,
+      "soma_bruta": 120.71,
+      "n_itens": 1,
       "itens_fonte": [
-        "Execução de Limpeza de Fachada",
-        "Execução de Limpeza de Fachada",
-        "Execução de Limpeza de Fachada",
         "Execução de Limpeza de Fachada"
-      ]
+      ],
+      "divisor": 2618.24,
+      "norm_by": "ac"
     },
     "bacias_sanitarias_por_ur": {
       "id": "LOU_01",
-      "valor": 5.3061,
+      "valor": 2.3673,
       "unidade": "un/UR",
-      "soma_bruta": 260.0,
-      "n_itens": 16,
+      "soma_bruta": 116.0,
+      "n_itens": 2,
       "itens_fonte": [
         "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Parafuso p/ Fixação de Vaso Sanitário",
-        "Parafuso p/ Fixação de Vaso Sanitário",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Parafuso p/ Fixação de Vaso Sanitário",
         "Parafuso p/ Fixação de Vaso Sanitário"
-      ]
+      ],
+      "divisor": 49,
+      "norm_by": "ur"
     },
     "registros_por_ur": {
       "id": "HID_04",
-      "valor": 5.5918,
+      "valor": 1.4694,
       "unidade": "un/UR",
-      "soma_bruta": 274.0,
-      "n_itens": 26,
+      "soma_bruta": 72.0,
+      "n_itens": 3,
       "itens_fonte": [
         "Acabamento de Registro  PNE",
-        "Acabamento de Registro  PNE",
         "Acabamento de Registro",
-        "Acabamento de Registro  PNE",
-        "Acabamento de Registro",
-        "Acabamento de Registro",
-        "Acabamento de Registro  PNE",
-        "Acabamento de Registro",
-        "Acabamento de Registro",
-        "Acabamento de Registro"
-      ]
+        "Acabamento de Registro / Detalhe: Linha: C71 - Ref: C71 - ORION"
+      ],
+      "divisor": 49,
+      "norm_by": "ur"
     },
     "chuveiros_por_ur": {
       "id": "LOU_04",
-      "valor": 0.0612,
+      "valor": 0.0204,
       "unidade": "un/UR",
-      "soma_bruta": 3.0,
-      "n_itens": 3,
+      "soma_bruta": 1.0,
+      "n_itens": 1,
       "itens_fonte": [
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico",
         "Chuveiro Elétrico"
-      ]
+      ],
+      "divisor": 49,
+      "norm_by": "ur"
     },
     "lavatorios_por_ur": {
       "id": "LOU_02",
-      "valor": 0.8367,
+      "valor": 0.3061,
       "unidade": "un/UR",
-      "soma_bruta": 41.0,
-      "n_itens": 26,
+      "soma_bruta": 15.0,
+      "n_itens": 6,
       "itens_fonte": [
-        "Torneira para lavatório",
-        "Lavatório de Louça Suspenso - PNE",
-        "Torneira para lavatório",
-        "Lavatório de Louça Suspenso - PNE",
         "Torneira para lavatório",
         "Lavatório de Louça Suspenso - PNE",
         "Lavatório suspenso PNE",
         "Parafuso p/ Fixação de Tanque e Lavatório",
         "Sifão flexível com copo para Lavatório",
         "Estabilizador p/ Lavatórios"
-      ]
+      ],
+      "divisor": 49,
+      "norm_by": "ur"
     },
     "cubas_por_ur": {
       "id": "LOU_03",
-      "valor": 0.1673,
+      "valor": 0.0531,
       "unidade": "un/UR",
-      "soma_bruta": 8.2,
-      "n_itens": 9,
+      "soma_bruta": 2.6,
+      "n_itens": 3,
       "itens_fonte": [
         "Tampo de Granito com cuba -120 x50cm",
         "Cuba",
-        "Tampo de Granito com cuba -120 x50cm",
-        "Tampo de Granito com cuba -120 x50cm",
-        "Cuba",
-        "Cuba",
-        "Tampo de Granito com cuba -120 x50cm",
-        "Tampo de Granito com cuba -120 x50cm",
-        "Cuba"
-      ]
+        "Tampo de Granito com cuba -120 x50cm"
+      ],
+      "divisor": 49,
+      "norm_by": "ur"
     },
     "taxa_aco_kg_por_m3": {
       "id": "EST_03b",
-      "valor": 71.07,
+      "valor": 32.11,
       "unidade": "kg/m³",
-      "soma_bruta": 67007.12835111625,
-      "n_itens": 101,
+      "soma_bruta": 18135.35,
+      "n_itens": 11,
       "itens_fonte": [
         "(calculado: aço total / concreto total)"
       ]
     }
   },
   "nao_classificados_sample": [
-    "MESES DE OBRA",
-    "ÁREA DO TERRENO",
-    "ÁREA CONSTRUÍDA",
-    "TÉRREO",
-    "2 PVTO",
-    "3 PVTO",
-    "4 PVTO",
-    "BARRILETE/CASA DE MÁQUINAS",
-    "RESERVATÓRIO",
-    "NÚMERO DE UNIDADES HABITACIONAIS",
-    "NÚMERO DE PAVIMENTOS",
-    "MOVIMENTAÇÃO DE TERRA",
-    "INFRAESTRUTURA",
-    "SUPRAESTRUTURA",
-    "PAREDES E PAINEIS",
-    "CLIMATIZAÇÃO, EQUIPAMENTOS E SISTEMAS ESPECIAIS",
-    "REVESTIMENTOS DE ARGAMASSA",
-    "REVESTIMENTOS CERÂMICOS",
-    "REVESTIMENTOS COMPLEMENTARES",
-    "LOUÇAS, METAIS E BANCADAS"
+    "MAT - Fôrmas",
+    "Execução de Estacas em Hélice Contínua - 40 cm",
+    "Montagem e Desmontagem de Forma",
+    "Laje treliçada",
+    "Malha pop ( laje pré-moldada)",
+    "Protensão",
+    "MAT - Execução de Tratamento de Concreto",
+    "MOE - Execução de supraestrutura",
+    "MOE - Execução de Tratamento de Concreto",
+    "MAT - Bloco de vedação de concreto 19x19x19",
+    "MAT - Bloco de vedação de concreto celular autoclavado 10x30x60 cm",
+    "MOE - Execução muro (fundação/levantamento)",
+    "Quadros e Disjuntores",
+    "MOE - Instalação elétrica",
+    "MAT - Central de Alarme de Incêndio",
+    "MOE - Exaustão de banheiros",
+    "MOE - Aplicação de Argamassa Polimérica Semi-Flexível / Flexível / Com ou sem Fibras",
+    "MAT - Regularização da superfície - 3 cm",
+    "MOE - Regularização da superfície - 3 cm",
+    "MAT - Execução de Rufo Metálico"
   ]
 }

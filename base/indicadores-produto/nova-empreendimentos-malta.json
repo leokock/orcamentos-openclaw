@@ -6,220 +6,152 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 48511644.8,
-  "data_extracao": "2026-04-17T20:03:54",
+  "data_extracao": "2026-04-17T20:37:32",
   "duration_s": 0.1,
-  "n_itens_processados": 1941,
-  "n_itens_classificados": 1941,
-  "n_indicadores_extraidos": 28,
+  "n_itens_processados": 448,
+  "n_itens_classificados": 448,
+  "n_indicadores_extraidos": 21,
   "indicadores": {
+    "aco_kg_por_m2_ac": {
+      "id": "EST_02",
+      "valor": 3.7826,
+      "unidade": "kg/m² AC",
+      "soma_bruta": 30126.26,
+      "n_itens": 41,
+      "itens_fonte": [
+        "Acompanhamento da Execução e Fiscalização da obra",
+        "Técnico de edificações",
+        "Acompanhamento topográfico para locação [Meia Diária por Laje]",
+        "Locação Máquinas Escavações / Terraplanagem",
+        "Armadura de aço, supraestrutura (geral), CA-60, ø 5,0 mm",
+        "Tela Soldada nervurada Q-95, aplicação em capa de laje",
+        "Chapisco Convencional em paredes em Argamassa Traço 1:3 + Desempenado em Argamas",
+        "Chapisco Convencional em tetos em Argamassa Traço 1:3 + Desempenado em Argamassa",
+        "Contrapiso em argamassa traço 1:4, e=3 cm (Escadas)",
+        "Contrapiso em argamassa traço 1:4, e=8 cm (Circulação / Hall / Áreas Técnicas / "
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
+    },
+    "forro_gesso_m2_por_m2_ac": {
+      "id": "DIV_01",
+      "valor": 0.2029,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 1616.24,
+      "n_itens": 4,
+      "itens_fonte": [
+        "Bandejas salva-vidas de madeira - com forro em tábua (Primária e Secundária)",
+        "Execução de forro gesso liso comum",
+        "Execução de negativo de forro gesso liso comum",
+        "Forro de Gesso Acartonado (Areas Molhadas)"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
+    },
     "cobertura_m2_por_m2_ac": {
       "id": "DIV_05",
-      "valor": 0.3321,
+      "valor": 0.229,
       "unidade": "m²/m² AC",
-      "soma_bruta": 2645.36,
-      "n_itens": 13,
+      "soma_bruta": 1824.02,
+      "n_itens": 10,
       "itens_fonte": [
-        "Cobertura",
-        "COBERTURAS",
-        "Tapume com telha metálica",
         "Tapume com telha metálica",
         "Formas para PILARES em réguas e pernas de serra [Cobertura - s/ reaproveitamento",
         "Formas para VIGAS em réguas e pernas de serra [Cobertura  - s/ reaproveitamento]",
         "Montagem Quadros Elétricos e Disjuntores - Cobertura",
         "Acabamentos Elétricos - Cobertura",
         "Acabamentos Elétricos (Telecom) - Cobertura",
-        "Acessórios - Cobertura"
-      ]
+        "Acessórios - Cobertura",
+        "Estrutura de Madeira para Telhado em Angelim",
+        "Telha Fibrocimento Ondulada 8mm",
+        "MOE - Execução de Telhado"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
-    "aco_kg_por_m2_ac": {
-      "id": "EST_02",
-      "valor": 33.0689,
-      "unidade": "kg/m² AC",
-      "soma_bruta": 263373.34,
-      "n_itens": 269,
+    "movimento_terra_m3_por_m2_ac": {
+      "id": "EST_05",
+      "valor": 0.4841,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 3855.69,
+      "n_itens": 1,
       "itens_fonte": [
-        "FUNDAÇÕES",
-        "ALVENARIAS E VEDAÇÕES",
-        "INSTALAÇÕES ELÉTRICAS, TELEFÔNICAS E SPDA",
-        "INSTALAÇÕES HIDROSSANITÁRIAS",
-        "INSTALAÇÕES GÁS",
-        "INSTALAÇÕES CLIMATIZAÇÃO E EXAUSTÃO MECÂNICA",
-        "IMPERMEABILIZAÇÕES E TRATAMENTOS",
-        "INSTALAÇÕES TELECOMUNICAÇÕES / CFTV",
-        "Acompanhamento da Execução e Fiscalização da obra",
-        "Técnico de edificações"
-      ]
-    },
-    "forro_gesso_m2_por_m2_ac": {
-      "id": "DIV_01",
-      "valor": 1.1052,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 8802.44,
-      "n_itens": 26,
-      "itens_fonte": [
-        "FORROS",
-        "Bandejas salva-vidas de madeira - com forro em tábua (Primária e Secundária)",
-        "Bandejas salva-vidas de madeira - com forro em tábua (Primária e Secundária)",
-        "Execução de forro gesso liso comum",
-        "Execução de negativo de forro gesso liso comum",
-        "Execução de forro gesso liso comum",
-        "Execução de negativo de forro gesso liso comum",
-        "Forro de Gesso Acartonado (Areas Molhadas)",
-        "Execução de forro gesso liso comum",
-        "Execução de negativo de forro gesso liso comum"
-      ]
-    },
-    "elevadores_por_torre": {
-      "id": "DIV_02",
-      "valor": 135.701,
-      "unidade": "un/torre",
-      "soma_bruta": 135.7,
-      "n_itens": 19,
-      "itens_fonte": [
-        "ELEVADORES E PLATAFORMAS",
-        "Quantidade de elevadores",
-        "Aquisição Elevador cremalheira",
-        "Manutenção Inicial Elevador cremalheira",
-        "Manutenção Periódica Elevador cremalheira",
-        "Montagem e Desmontagem Elevador cremalheira",
-        "Mobilização e Desmobilização Elevador cremalheira",
-        "Elevador social",
-        "Execução de Acabamento Elevadores em Granito Polido Branco Dallas",
-        "Execução de Acabamento Elevadores em Granito Polido Branco Dallas"
-      ]
-    },
-    "pintura_interna_m2_por_m2_ac": {
-      "id": "PIN_01",
-      "valor": 12.1614,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 96858.43,
-      "n_itens": 153,
-      "itens_fonte": [
-        "PINTURAS",
-        "Execução de Rufo em Alumínio, com Pintura",
-        "Pintura interna em piso escadas e áreas tecnicas, selador +  1ª demão tinta piso",
-        "Pintura interna em piso áreas tecnicas, primer +  tinta epoxi",
-        "Pintura interna em piso demarcação de vagas, preparador +  resina",
-        "Pintura interna em garagens e escadas, selador + textura + 1ª demão tinta acríli",
-        "Pintura interna meia parede em garagens, 1ª demão tinta acrílica",
-        "Pintura interna em gesso comum, fundo preparador + massa corrida PVA 2 demãos + ",
-        "Pintura interna em paredes e tetos, selador + massa corrida PVA 2 demãos + 1ª de",
-        "Pintura interna em paredes e tetos, selador + 1ª demão tinta acrílica branca"
-      ]
-    },
-    "portas_un_por_ur": {
-      "id": "ESQ_01",
-      "valor": 627.1,
-      "unidade": "un/UR",
-      "soma_bruta": 627.1,
-      "n_itens": 104,
-      "itens_fonte": [
-        "Área das portas de elevadores",
-        "Quantidade de portas de elevadores",
-        "Vigilância / portaria",
-        "Marco Porta Corta-Fogo / P90 / 90x210 cm",
-        "Porta Corta-Fogo / P90 / 90x210 cm",
-        "Marco Porta Corta-Fogo / P90 / 90x210 cm",
-        "Marco Porta Corta-Fogo / P90 / 100x210 cm",
-        "Porta Corta-Fogo / P90 / 90x210 cm",
-        "Porta Corta-Fogo / P90 / 100x210 cm",
-        "Porta de vidro temperado 10 mm, de abrir, 1 folha, 90x210 cm"
-      ]
-    },
-    "revestimento_fachada_m2_por_m2_ac": {
-      "id": "REV_05",
-      "valor": 1.0343,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 8237.85,
-      "n_itens": 3,
-      "itens_fonte": [
-        "Area da fachada",
-        "Assentamento e Rejuntamento de Azulejo Cerâmico 30x60 cm (Fachada)",
-        "Execução de Limpeza de Fachada"
-      ]
+        "Bota-fora para Terraplanagem"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "concreto_m3_por_m2_ac": {
       "id": "EST_01",
-      "valor": 0.2533,
+      "valor": 0.1437,
       "unidade": "m³/m² AC",
-      "soma_bruta": 2017.27,
-      "n_itens": 17,
+      "soma_bruta": 1144.31,
+      "n_itens": 5,
       "itens_fonte": [
         "Concreto Usinado bombeável 35MPa para supraestrutura - incluindo serviço de bomb",
         "Concreto usinado em central / Fck 35 MPa / Slump 12 +- 2 / Brita 1 / incluso imp",
-        "Concreto usinado em central / Fck 35 MPa / Slump 12 +- 2 / Brita 1 / incluso imp",
-        "Concreto Usinado bombeável 35MPa para supraestrutura - incluindo serviço de bomb",
-        "Concreto Usinado bombeável 35MPa para supraestrutura - incluindo serviço de bomb",
-        "Concreto Usinado bombeável 35MPa para supraestrutura - incluindo serviço de bomb",
-        "Concreto Usinado bombeável 35MPa para supraestrutura - incluindo serviço de bomb",
-        "Concreto Usinado bombeável 35MPa para supraestrutura - incluindo serviço de bomb",
-        "Concreto Usinado bombeável 35MPa para supraestrutura - incluindo serviço de bomb",
-        "Concreto Usinado bombeável 35MPa para supraestrutura - incluindo serviço de bomb"
-      ]
+        "Alvenaria Blocos Cerâmicos com Argamassa Estabilizada Assentamento, incluso Verg",
+        "Alvenaria Blocos Concreto Celular com Argamassa Estabilizada Assentamento, inclu",
+        "MOE - Execução de contraverga"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "porcelanato_ceramica_m2_por_m2_ac": {
       "id": "REV_04",
-      "valor": 1.9195,
+      "valor": 0.3544,
       "unidade": "m²/m² AC",
-      "soma_bruta": 15287.73,
-      "n_itens": 82,
+      "soma_bruta": 2822.86,
+      "n_itens": 15,
       "itens_fonte": [
         "Fornecimento de Lajes Treliçadas TR16 com cerâmica H16",
-        "Fornecimento de Lajes Treliçadas TR16 com cerâmica H16",
-        "Fornecimento de Lajes Treliçadas TR16 com cerâmica H16",
-        "Fornecimento de Lajes Treliçadas TR8 com cerâmica H8",
-        "Fornecimento de Lajes Treliçadas TR16 com cerâmica H16",
-        "Fornecimento de Lajes Treliçadas TR8 com cerâmica H8",
-        "Fornecimento de Lajes Treliçadas TR16 com cerâmica H16",
-        "Fornecimento de Lajes Treliçadas TR8 com cerâmica H8",
-        "Fornecimento de Lajes Treliçadas TR16 com cerâmica H16",
-        "Fornecimento de Lajes Treliçadas TR8 com cerâmica H8"
-      ]
+        "Assentamento e Rejuntamento de Piso/Porcelanato (Escada Enclausurada/Áreas Técni",
+        "Assentamento e Rejuntamento de Piso/Porcelanato (Box/Bicicletário/Contentores Li",
+        "Assentamento e Rejuntamento de Rodapé Piso/Porcelanato (Escadas) - 5cm",
+        "Assentamento e Rejuntamento de Rodapé Piso/Porcelanato (Box/Bicicletário/Content",
+        "Assentamento e Rejuntamento de Piso/Porcelanato (Escadas Apartamentos)",
+        "Assentamento e Rejuntamento de Rodapé Piso/Porcelanato (Áreas Privativas) - 5cm",
+        "Assentamento e Rejuntamento de Piso/Porcelanato (Escadas)",
+        "Assentamento e Rejuntamento de Piso/Porcelanato Antiderrapante (BWC / Sacadas) /",
+        "Assentamento e Rejuntamento de Rodapé Piso/Porcelanato (BWC / Sacadas) / Rejunte"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "escoramento_m2_por_m2_ac": {
       "id": "EST_04",
-      "valor": 0.8708,
+      "valor": 0.1793,
       "unidade": "m²/m² AC",
-      "soma_bruta": 6935.0,
-      "n_itens": 13,
+      "soma_bruta": 1428.29,
+      "n_itens": 2,
       "itens_fonte": [
         "Escoramento metálico para vigas e lajes",
-        "Escoramento metálico para vigas e lajes",
-        "Escoramento metálico para vigas e lajes",
-        "Escoramento metálico para vigas e lajes pé direito duplo",
-        "Escoramento metálico para vigas e lajes",
-        "Escoramento metálico para vigas e lajes",
-        "Escoramento metálico para vigas e lajes",
-        "Escoramento metálico para vigas e lajes",
-        "Escoramento metálico para vigas e lajes",
-        "Escoramento metálico para vigas e lajes"
-      ]
+        "Escoramento metálico para vigas e lajes pé direito duplo"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "alvenaria_m2_por_m2_ac": {
       "id": "ALV_01",
-      "valor": 4.0346,
+      "valor": 0.2324,
       "unidade": "m²/m² AC",
-      "soma_bruta": 32133.26,
-      "n_itens": 93,
+      "soma_bruta": 1850.7,
+      "n_itens": 4,
       "itens_fonte": [
-        "Alvenaria Blocos Cerâmicos com Argamassa Estabilizada Assentamento, incluso Verg",
-        "Alvenaria Blocos Cerâmicos com Argamassa Estabilizada Assentamento, incluso Verg",
-        "Alvenaria Blocos Cerâmicos com Argamassa Estabilizada Assentamento, incluso Verg",
-        "Alvenaria Blocos Cerâmicos com Argamassa Estabilizada Assentamento, incluso Verg",
         "Encunhamento de alvenaria com argamassa expansiva e=30mm",
-        "Alvenaria Blocos Cerâmicos com Argamassa Estabilizada Assentamento, incluso Verg",
-        "Alvenaria Blocos Cerâmicos com Argamassa Estabilizada Assentamento, incluso Verg",
-        "Alvenaria Blocos Cerâmicos com Argamassa Estabilizada Assentamento, incluso Verg",
-        "Alvenaria Blocos Cerâmicos com Argamassa Estabilizada Assentamento, incluso Verg",
-        "Alvenaria Blocos Concreto Celular com Argamassa Estabilizada Assentamento, inclu"
-      ]
+        "Alvenaria Tijolos Refratários  - 2,5x11,4x23 cm",
+        "MOE - Execução de alvenaria em blocos cerâmicos (geral)",
+        "* MOE - Execução de alvenaria em blocos de concreto (geral)"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "eletroduto_m_por_m2_ac": {
       "id": "ELE_05",
-      "valor": 0.0031,
+      "valor": 0.0016,
       "unidade": "m/m² AC",
-      "soma_bruta": 25.0,
-      "n_itens": 25,
+      "soma_bruta": 13.0,
+      "n_itens": 13,
       "itens_fonte": [
         "Eletrodutos (Telecom) - Subsolo",
         "Eletrodutos - Térreo",
@@ -228,55 +160,36 @@
         "Eletrodutos (Telecom) - Mezanino",
         "Eletrodutos - Tipo 01",
         "Eletrodutos (Telecom) - Tipo 01",
-        "Eletrodutos - Tipo 02",
-        "Eletrodutos (Telecom) - Tipo 02",
-        "Eletrodutos - Tipo 03"
-      ]
-    },
-    "luminarias_por_ur": {
-      "id": "ELE_04",
-      "valor": 11.0,
-      "unidade": "un/UR",
-      "soma_bruta": 11.0,
-      "n_itens": 11,
-      "itens_fonte": [
-        "Luminárias - Subsolo",
-        "Luminárias - Térreo",
-        "Luminárias - Mezanino",
-        "Luminárias - Tipo 01",
-        "Luminárias - Tipo 02",
-        "Luminárias - Tipo 03",
-        "Luminárias - Tipo 04",
-        "Luminárias - Tipo 05",
-        "Luminárias - Tipo 06",
-        "Luminárias - Tipo 07"
-      ]
+        "Eletrodutos - Cobertura",
+        "Eletrodutos (Telecom) - Cobertura",
+        "Eletrodutos - Casa de Maquinas"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "reboco_m2_por_m2_ac": {
       "id": "REV_02",
-      "valor": 5.7517,
+      "valor": 1.0416,
       "unidade": "m²/m² AC",
-      "soma_bruta": 45808.61,
-      "n_itens": 56,
+      "soma_bruta": 8295.87,
+      "n_itens": 6,
       "itens_fonte": [
         "Reboco interno em paredes, com argamassa estabilizada, e=2,0 cm",
         "Reboco interno em tetos, com argamassa estabilizada, e=2,0 cm",
-        "Reboco interno em paredes, com argamassa estabilizada, e=2,0 cm",
-        "Reboco interno em tetos, com argamassa estabilizada, e=2,0 cm",
-        "Reboco interno em paredes, com argamassa estabilizada, e=2,0 cm",
-        "Reboco interno em tetos, com argamassa estabilizada, e=2,0 cm",
-        "Reboco interno em paredes, com argamassa estabilizada, e=2,0 cm",
-        "Reboco interno em tetos, com argamassa estabilizada, e=2,0 cm",
-        "Reboco interno em paredes, com argamassa estabilizada, e=2,0 cm",
-        "Reboco interno em tetos, com argamassa estabilizada, e=2,0 cm"
-      ]
+        "Reboco Externo com Argamassa Estabilizada - e=3,5 cm",
+        "MOE - Execução de reboco interno - paredes",
+        "MOE - Execução de reboco interno - tetos",
+        "MOE - Execução de reboco externo- paredes"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "manta_asfaltica_m2_por_m2_ac": {
       "id": "IMP_01",
-      "valor": 1.6381,
+      "valor": 0.8311,
       "unidade": "m²/m² AC",
-      "soma_bruta": 13046.71,
-      "n_itens": 76,
+      "soma_bruta": 6619.55,
+      "n_itens": 22,
       "itens_fonte": [
         "Impermeabilização em Concreto Aditivo Impermeabilizante + Argamassa Polimérica -",
         "Impermeabilização em Tinta Asfáltica - BALDRAMES",
@@ -287,233 +200,174 @@
         "Execução de Impermeabilização em Revestimento Impermeabilizante Flexível e Argam",
         "Execução de impermeabilização com manta asfáltica 4mm - GARAGENS",
         "Execução de impermeabilização com manta asfáltica anti-raiz 4mm - FLOREIRAS",
-        "Execução de Impermeabilização em Membrana de Polímero Acrílico com Cimento e Fib"
-      ]
-    },
-    "ralos_caixas_sifonadas_por_ur": {
-      "id": "HID_05",
-      "valor": 2178.21,
-      "unidade": "un/UR",
-      "soma_bruta": 2178.21,
-      "n_itens": 28,
-      "itens_fonte": [
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box",
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box",
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box",
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box",
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box",
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box",
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box",
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box",
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box",
-        "Impermeabilização com argamassa polimérica flexível + reforço com tela ralos/box"
-      ]
+        "Execução de Impermeabilização em Membrana de Polímero Acrílico sem Cimento - ABA"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "vidros_m2_por_m2_ac": {
       "id": "ESQ_03",
-      "valor": 0.0194,
+      "valor": 0.0187,
       "unidade": "m²/m² AC",
-      "soma_bruta": 154.44,
-      "n_itens": 4,
+      "soma_bruta": 149.12,
+      "n_itens": 3,
       "itens_fonte": [
         "Pergolado metálico com cobertura em vidro, 161x316 cm",
         "Guarda-Corpos Alumínio e Vidro h=110cm",
-        "Guarda-Corpos Alumínio e Vidro h=90cm",
         "Pele de Vidro"
-      ]
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
+    },
+    "pintura_interna_m2_por_m2_ac": {
+      "id": "PIN_01",
+      "valor": 1.7287,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 13767.98,
+      "n_itens": 18,
+      "itens_fonte": [
+        "Execução de Rufo em Alumínio, com Pintura",
+        "Pintura interna em piso escadas e áreas tecnicas, selador +  1ª demão tinta piso",
+        "Pintura interna em piso áreas tecnicas, primer +  tinta epoxi",
+        "Pintura interna em piso demarcação de vagas, preparador +  resina",
+        "Pintura interna em garagens e escadas, selador + textura + 1ª demão tinta acríli",
+        "Pintura interna meia parede em garagens, 1ª demão tinta acrílica",
+        "Pintura interna em gesso comum, fundo preparador + massa corrida PVA 2 demãos + ",
+        "Pintura interna em paredes e tetos, selador + massa corrida PVA 2 demãos + 1ª de",
+        "Pintura interna em paredes e tetos, selador + 1ª demão tinta acrílica branca",
+        "Pintura interna em piso escadas e áreas tecnicas, 2ª demão tinta piso"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
+    },
+    "revestimento_fachada_m2_por_m2_ac": {
+      "id": "REV_05",
+      "valor": 0.5145,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 4097.68,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Assentamento e Rejuntamento de Azulejo Cerâmico 30x60 cm (Fachada)",
+        "Execução de Limpeza de Fachada"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "pintura_externa_m2_por_m2_ac": {
       "id": "PIN_02",
-      "valor": 1.465,
+      "valor": 0.519,
       "unidade": "m²/m² AC",
-      "soma_bruta": 11668.02,
-      "n_itens": 23,
+      "soma_bruta": 4133.18,
+      "n_itens": 3,
       "itens_fonte": [
         "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão",
-        "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão",
-        "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão",
-        "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão",
-        "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão",
-        "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão",
-        "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão",
-        "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão",
-        "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão",
-        "Pintura externa em paredes, selador + 1 demão textura areiada (rolada) + 3 demão"
-      ]
+        "MOE - Execução de pinturas internas (selador + textura + 1ª demão tinta)",
+        "MOE - Execução de pinturas externas (selador + textura + 3 demãos tinta)"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
-    "janelas_un_por_ur": {
-      "id": "ESQ_02",
-      "valor": 751.9325,
-      "unidade": "un/UR",
-      "soma_bruta": 751.93,
+    "rodape_m_por_m2_ac": {
+      "id": "DIV_08",
+      "valor": 0.093,
+      "unidade": "m/m² AC",
+      "soma_bruta": 740.76,
       "n_itens": 2,
       "itens_fonte": [
-        "Esquadrias de Alumínio e Vidro  - Portas e Janelas / ref. Amalfi",
-        "Janela de ferro, gradeada"
-      ]
+        "Rodapé de poliestireno reto liso branco h=10 cm",
+        "MOE - Assentamento e rejuntamento de rodapés e soleiras cerâmicos"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "guarda_corpo_m_por_m2_ac": {
       "id": "ESQ_04",
-      "valor": 0.1295,
+      "valor": 0.1076,
       "unidade": "m/m² AC",
-      "soma_bruta": 1031.47,
-      "n_itens": 7,
+      "soma_bruta": 857.35,
+      "n_itens": 5,
       "itens_fonte": [
         "Guarda-Corpos Alumínio / Barras Horizontais h=110cm",
         "Guarda-Corpos Alumínio / Barras Verticais h=110cm",
-        "Guarda-Corpos Alumínio / Barras Verticais h=50cm",
-        "Guarda-Corpos Alumínio / Barras Verticais h=90cm",
         "Guarda-Corpos Alumínio Escadas Privativas / Barras Verticais h=110cm",
         "Corrimão em Madeira",
         "MOE - Instalação de corrimãos em madeira, com fixadores na parede"
-      ]
-    },
-    "registros_por_ur": {
-      "id": "HID_04",
-      "valor": 265.0,
-      "unidade": "un/UR",
-      "soma_bruta": 265.0,
-      "n_itens": 10,
-      "itens_fonte": [
-        "Acabamento p/ registro de gaveta - 3/4\"",
-        "Acabamento p/ registro de gaveta - 3/4\"",
-        "Acabamento p/ registro de gaveta - 3/4\"",
-        "Acabamento p/ registro de gaveta - 3/4\"",
-        "Acabamento p/ registro de gaveta - 3/4\"",
-        "Acabamento p/ registro de gaveta - 3/4\"",
-        "Acabamento p/ registro de gaveta - 3/4\"",
-        "Acabamento p/ registro de gaveta - 3/4\"",
-        "Acabamento p/ registro de gaveta - 3/4\"",
-        "Acabamento p/ registro de gaveta - 3/4\""
-      ]
-    },
-    "cubas_por_ur": {
-      "id": "LOU_03",
-      "valor": 4.0,
-      "unidade": "un/UR",
-      "soma_bruta": 4.0,
-      "n_itens": 2,
-      "itens_fonte": [
-        "Cuba de sobrepor",
-        "Cuba em Aço Inox Retangular"
-      ]
-    },
-    "chuveiros_por_ur": {
-      "id": "LOU_04",
-      "valor": 122.0,
-      "unidade": "un/UR",
-      "soma_bruta": 122.0,
-      "n_itens": 10,
-      "itens_fonte": [
-        "Acabamento Monocomando Chuveiro 3/4",
-        "Chuveiro",
-        "Acabamento Monocomando Chuveiro 3/4",
-        "Acabamento Monocomando Chuveiro 3/4",
-        "Acabamento Monocomando Chuveiro 3/4",
-        "Acabamento Monocomando Chuveiro 3/4",
-        "Acabamento Monocomando Chuveiro 3/4",
-        "Acabamento Monocomando Chuveiro 3/4",
-        "Acabamento Monocomando Chuveiro 3/4",
-        "Acabamento Monocomando Chuveiro 3/4"
-      ]
-    },
-    "lavatorios_por_ur": {
-      "id": "LOU_02",
-      "valor": 3.0,
-      "unidade": "un/UR",
-      "soma_bruta": 3.0,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Torneira de lavatorio"
-      ]
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "chapisco_m2_por_m2_ac": {
       "id": "REV_01",
-      "valor": 2.8922,
+      "valor": 0.5206,
       "unidade": "m²/m² AC",
-      "soma_bruta": 23034.97,
-      "n_itens": 28,
+      "soma_bruta": 4146.51,
+      "n_itens": 3,
       "itens_fonte": [
         "MOE - Execução de chapisco interno - paredes",
         "MOE - Execução de chapisco interno - tetos",
-        "MOE - Execução de chapisco interno - paredes",
-        "MOE - Execução de chapisco interno - tetos",
-        "MOE - Execução de chapisco interno - paredes",
-        "MOE - Execução de chapisco interno - tetos",
-        "MOE - Execução de chapisco interno - paredes",
-        "MOE - Execução de chapisco interno - tetos",
-        "MOE - Execução de chapisco interno - paredes",
-        "MOE - Execução de chapisco interno - tetos"
-      ]
+        "MOE - Execução de chapisco externo - paredes"
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "contrapiso_m2_por_m2_ac": {
       "id": "REV_03",
-      "valor": 0.7187,
+      "valor": 0.1812,
       "unidade": "m²/m² AC",
-      "soma_bruta": 5723.83,
-      "n_itens": 19,
+      "soma_bruta": 1443.29,
+      "n_itens": 4,
       "itens_fonte": [
         "MOE - Execução de regularização de contrapiso com argamassa de cimento e areia",
         "MOE - Execução de contrapiso (banheiros e sacadas)",
         "MOE - Execução de contrapiso",
-        "MOE - Execução de contrapiso com manta acústica",
-        "MOE - Execução de contrapiso",
-        "MOE - Execução de contrapiso com manta acústica",
-        "MOE - Execução de contrapiso",
-        "MOE - Execução de contrapiso com manta acústica",
-        "MOE - Execução de contrapiso",
         "MOE - Execução de contrapiso com manta acústica"
-      ]
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "blocos_un_por_m2_ac": {
       "id": "ALV_02",
-      "valor": 0.0155,
+      "valor": 0.0019,
       "unidade": "un/m² AC",
-      "soma_bruta": 123.5,
-      "n_itens": 9,
+      "soma_bruta": 15.4,
+      "n_itens": 1,
       "itens_fonte": [
-        "MOE - Revestimento em tijolos refratários",
-        "MOE - Revestimento em tijolos refratários",
-        "MOE - Revestimento em tijolos refratários",
-        "MOE - Revestimento em tijolos refratários",
-        "MOE - Revestimento em tijolos refratários",
-        "MOE - Revestimento em tijolos refratários",
-        "MOE - Revestimento em tijolos refratários",
-        "MOE - Revestimento em tijolos refratários",
         "MOE - Revestimento em tijolos refratários"
-      ]
+      ],
+      "divisor": 7964.39,
+      "norm_by": "ac"
     },
     "taxa_aco_kg_por_m3": {
       "id": "EST_03b",
-      "valor": 130.56,
+      "valor": 26.33,
       "unidade": "kg/m³",
-      "soma_bruta": 263373.3411376235,
-      "n_itens": 269,
+      "soma_bruta": 30126.258474931252,
+      "n_itens": 41,
       "itens_fonte": [
         "(calculado: aço total / concreto total)"
       ]
     }
   },
   "nao_classificados_sample": [
-    "MESES DE OBRA",
-    "ÁREA DO TERRENO",
-    "ÁREA CONSTRUÍDA",
-    "NÚMERO DE UNIDADES HABITACIONAIS",
-    "ÁREA PRIVATIVA",
-    "NÚMERO DE PAVIMENTOS",
-    "Subsolo",
-    "Térreo",
-    "Mezanino",
-    "Tipo (x7)",
-    "Casa de máquinas",
-    "Barrilete",
-    "Reservtório Superior",
-    "MALTA - ADM",
-    "MOVIMENTAÇÃO DE TERRA",
-    "CONTENÇÕES",
-    "SUPRAESTRUTURA",
-    "REVESTIMENTOS DE ARGAMASSA",
-    "REVESTIMENTOS CERÂMICOS",
-    "ESQUADRIAS"
+    "Controle tecnológico do concreto",
+    "Técnico de segurança do trabalho - Quantidade",
+    "Serviço de monitoramento de alarme",
+    "Serviço terceirizado de segurança do trabalho",
+    "Remoção de entulhos e resíduos",
+    "Equipamentos de proteção individual - EPI",
+    "Engenheiro Civil",
+    "Arquiteto",
+    "Mestre De Obras",
+    "Técnico de qualidade",
+    "Apontador",
+    "Almoxarife",
+    "Auxiliar de engenharia",
+    "Estagiário",
+    "Guincheiro",
+    "Servente",
+    "Operador De Grua",
+    "Operador De Cremalheira",
+    "Tecnico Segurança Do Trabalho",
+    "Encarregado Instaladora"
   ]
 }

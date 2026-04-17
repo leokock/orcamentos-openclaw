@@ -6,59 +6,64 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 0,
-  "data_extracao": "2026-04-17T20:03:53",
+  "data_extracao": "2026-04-17T20:37:32",
   "duration_s": 0.0,
-  "n_itens_processados": 658,
-  "n_itens_classificados": 658,
-  "n_indicadores_extraidos": 22,
+  "n_itens_processados": 177,
+  "n_itens_classificados": 177,
+  "n_indicadores_extraidos": 16,
   "indicadores": {
+    "movimento_terra_m3_por_m2_ac": {
+      "id": "EST_05",
+      "valor": 0.0262,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 208.9,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Escavação mecanizada de valas - CTN",
+        "Reaterro de valas - CTN"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
+    },
     "concreto_m3_por_m2_ac": {
       "id": "EST_01",
-      "valor": 0.3343,
+      "valor": 0.0693,
       "unidade": "m³/m² AC",
-      "soma_bruta": 2660.7,
-      "n_itens": 15,
+      "soma_bruta": 551.92,
+      "n_itens": 3,
       "itens_fonte": [
+        "Lastro de Concreto 5cm",
         "Concreto usinado bombeável, para estacas, fck 30MPa, slump = 23 +/- 2, B0, inclu",
-        "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1, incluindo serviço d",
-        "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1, incluindo serviço d",
-        "Concreto usinado bombeável, para estacas, fck 30MPa, slump = 23 +/- 2, B0, inclu",
-        "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1, incluindo serviço d",
-        "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1, incluindo serviço d",
-        "Concreto usinado bombeável, para estacas, fck 30MPa, slump = 23 +/- 2, B0, inclu",
-        "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1, incluindo serviço d",
-        "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1, incluindo serviço d",
-        "Concreto usinado bombeável, para estacas, fck 30MPa, slump = 23 +/- 2, B0, inclu"
-      ]
+        "Concreto usinado bombeável, fck 30MPa, slump = 12 +/- 3, B1, incluindo serviço d"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "aco_kg_por_m2_ac": {
       "id": "EST_02",
-      "valor": 2.9453,
+      "valor": 0.4752,
       "unidade": "kg/m² AC",
-      "soma_bruta": 23442.59,
-      "n_itens": 32,
+      "soma_bruta": 3781.98,
+      "n_itens": 6,
       "itens_fonte": [
         "Fabricação, montagem e desmontagem de forma para blocos e baldrames, em compensa",
         "Tela Soldada CA-60, Q61, diâmetro 3,4mm - CTN",
         "Tela Soldada CA-60 diâmetro 4,2mm",
         "Furações previstas em concreto - CTN",
-        "Tela Soldada CA-60, Q61, diâmetro 3,4mm - CTN",
         "Bacia sanitária de louça com caixa acoplada - CTN",
-        "Bacia sanitária PNE de louça com caixa acoplada - CTN",
-        "Fabricação, montagem e desmontagem de forma para blocos e baldrames, em compensa",
-        "Tela Soldada CA-60, Q61, diâmetro 3,4mm - CTN",
-        "Tela Soldada CA-60 diâmetro 4,2mm"
-      ]
+        "Bacia sanitária PNE de louça com caixa acoplada - CTN"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "alvenaria_m2_por_m2_ac": {
       "id": "ALV_01",
-      "valor": 8.1957,
+      "valor": 2.8394,
       "unidade": "m²/m² AC",
-      "soma_bruta": 65233.49,
-      "n_itens": 84,
+      "soma_bruta": 22599.91,
+      "n_itens": 26,
       "itens_fonte": [
         "Alvenaria de vedação de blocos cerâmicos 14x19x29cm (espessura 14cm), com argama",
-        "Alvenaria de vedação de blocos cerâmicos 9x19x29cm (espessura 9cm), com argamass",
         "Alvenaria de vedação de blocos de concreto 14x19x29cm (espessura 14cm), com arga",
         "Alvenaria estrutural - Térreo - Torre 01",
         "Alvenaria estrutural - Tipo 01, 02 e 03 - Torre 01",
@@ -66,97 +71,32 @@
         "Alvenaria estrutural - Barrilete - Torre 01",
         "Alvenaria estrutural - Reservatório - Torre 01",
         "Alvenaria estrutural - Platibanda",
-        "Encunhamento de alvenaria de vedação com argamassa expansiva *"
-      ]
+        "Encunhamento de alvenaria de vedação com argamassa expansiva *",
+        "Mão de obra - Alvenaria vedação tijolo cerâmico furado *"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "reboco_m2_por_m2_ac": {
       "id": "REV_02",
-      "valor": 1.6753,
+      "valor": 0.4467,
       "unidade": "m²/m² AC",
-      "soma_bruta": 13334.3,
-      "n_itens": 14,
+      "soma_bruta": 3555.11,
+      "n_itens": 3,
       "itens_fonte": [
         "Fechamento de Shaft com tela estuque e reboco *",
         "Mão de obra para execução de reboco interno - CTN",
-        "Mão de obra para execução de reboco externo - CTN",
-        "Fechamento de Shaft com tela estuque e reboco *",
-        "Mão de obra para execução de reboco interno - CTN",
-        "Mão de obra para execução de reboco externo - CTN",
-        "Fechamento de Shaft com tela estuque e reboco *",
-        "Mão de obra para execução de reboco interno - CTN",
-        "Mão de obra para execução de reboco externo - CTN",
-        "Fechamento de Shaft com tela estuque e reboco *"
-      ]
-    },
-    "registros_por_ur": {
-      "id": "HID_04",
-      "valor": 493.0,
-      "unidade": "un/UR",
-      "soma_bruta": 493.0,
-      "n_itens": 9,
-      "itens_fonte": [
-        "Acabamento para Registro *",
-        "Abrigo com Registro Fecho Rápido 28x65cm *",
-        "Acabamento para Registro *",
-        "Abrigo com Registro Fecho Rápido 28x65cm *",
-        "Acabamento para Registro *",
-        "Abrigo com Registro Fecho Rápido 28x65cm *",
-        "Acabamento para Registro *",
-        "Abrigo com Registro Fecho Rápido 28x65cm *",
-        "Acabamento para Registro *"
-      ]
-    },
-    "ralos_caixas_sifonadas_por_ur": {
-      "id": "HID_05",
-      "valor": 666.0,
-      "unidade": "un/UR",
-      "soma_bruta": 666.0,
-      "n_itens": 10,
-      "itens_fonte": [
-        "Grelha Quadrada Para Ralo 100mm",
-        "Tratamento de ralo com argamassa polimérica e véu de poliéster - CTN",
-        "Grelha Quadrada Para Ralo 100mm",
-        "Tratamento de ralo com argamassa polimérica e véu de poliéster - CTN",
-        "Grelha Quadrada Para Ralo 100mm",
-        "Tratamento de ralo com argamassa polimérica e véu de poliéster - CTN",
-        "Grelha Quadrada Para Ralo 100mm",
-        "Tratamento de ralo com argamassa polimérica e véu de poliéster - CTN",
-        "Grelha Quadrada Para Ralo 100mm",
-        "Tratamento de ralo com argamassa polimérica e véu de poliéster - CTN"
-      ]
-    },
-    "hidrantes_por_pavimento": {
-      "id": "DIV_03",
-      "valor": 4.0,
-      "unidade": "un/pav",
-      "soma_bruta": 4.0,
-      "n_itens": 4,
-      "itens_fonte": [
-        "Hidrante de Recalque Embutido *",
-        "Hidrante de Recalque Embutido *",
-        "Hidrante de Recalque Embutido *",
-        "Hidrante de Recalque Embutido *"
-      ]
-    },
-    "elevadores_por_torre": {
-      "id": "DIV_02",
-      "valor": 4.0,
-      "unidade": "un/torre",
-      "soma_bruta": 4.0,
-      "n_itens": 4,
-      "itens_fonte": [
-        "Elevador Permanente *",
-        "Elevador Permanente *",
-        "Elevador Permanente *",
-        "Elevador Permanente *"
-      ]
+        "Mão de obra para execução de reboco externo - CTN"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "pintura_interna_m2_por_m2_ac": {
       "id": "PIN_01",
-      "valor": 8.4549,
+      "valor": 2.009,
       "unidade": "m²/m² AC",
-      "soma_bruta": 67296.17,
-      "n_itens": 36,
+      "soma_bruta": 15990.93,
+      "n_itens": 9,
       "itens_fonte": [
         "Pintura Impermeabilizante, 2 Demãos, aplicada em vigas baldrames *",
         "Pintura Sinalização Piso Extintor *",
@@ -165,180 +105,123 @@
         "Massa Corrida PVA teto, 2 Demãos *",
         "Pintura com tinta acrílica em teto, acabamento fosco, 3 demãos - CTN",
         "Mão de obra para pintura interna - CTN",
-        "Pintura Impermeabilizante, 2 Demãos, aplicada em vigas baldrames *",
-        "Pintura Sinalização Piso Extintor *",
-        "Pintura com tinta acrílica em paredes internas, acabamento fosco, 3 demãos - CTN"
-      ]
+        "Pintura epóxi em piso para demarcação de quadra poliesportiva - CTN",
+        "Mão de obra para pintura de demarcação de faixa - CTN"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "manta_asfaltica_m2_por_m2_ac": {
       "id": "IMP_01",
-      "valor": 1.8645,
+      "valor": 0.4205,
       "unidade": "m²/m² AC",
-      "soma_bruta": 14840.08,
-      "n_itens": 23,
+      "soma_bruta": 3346.69,
+      "n_itens": 5,
       "itens_fonte": [
-        "Regularização de superfície para impermeabilização - CTN",
-        "Impermeabilização com manta asfáltica - CTN",
-        "Impermeabilização com argamassa polimérica - CTN",
-        "Aplicação de Manta Asfáltica - Juntas de Dilatação *",
-        "Mão de obra para regularização de superfície para impermeabilização - CTN",
         "Regularização de superfície para impermeabilização - CTN",
         "Impermeabilização com manta asfáltica - CTN",
         "Impermeabilização com argamassa polimérica - CTN",
         "Aplicação de Manta Asfáltica - Juntas de Dilatação *",
         "Mão de obra para regularização de superfície para impermeabilização - CTN"
-      ]
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "contrapiso_m2_por_m2_ac": {
       "id": "REV_03",
-      "valor": 1.7297,
+      "valor": 0.4065,
       "unidade": "m²/m² AC",
-      "soma_bruta": 13767.78,
-      "n_itens": 11,
+      "soma_bruta": 3235.22,
+      "n_itens": 2,
       "itens_fonte": [
         "Contrapiso em Argamassa Pronta e=5cm *",
-        "Mão de obra para execução de contrapiso comum - CTN",
-        "Contrapiso em Argamassa Pronta e=5cm *",
-        "Mão de obra para execução de contrapiso comum - CTN",
-        "Contrapiso em Argamassa Pronta e=5cm *",
-        "Mão de obra para execução de contrapiso comum - CTN",
-        "Contrapiso em Argamassa Pronta e=5cm *",
-        "Mão de obra para execução de contrapiso comum - CTN",
-        "Contrapiso em Argamassa Pronta e=4cm *",
-        "Contrapiso em Argamassa Pronta e=5cm *"
-      ]
+        "Mão de obra para execução de contrapiso comum - CTN"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "forro_gesso_m2_por_m2_ac": {
       "id": "DIV_01",
-      "valor": 0.5259,
+      "valor": 0.1199,
       "unidade": "m²/m² AC",
-      "soma_bruta": 4185.48,
-      "n_itens": 10,
+      "soma_bruta": 954.16,
+      "n_itens": 2,
       "itens_fonte": [
         "Forro Placas de Gesso 60x60cm *",
-        "Instalação Forro de Gesso Linear *",
-        "Forro Placas de Gesso 60x60cm *",
-        "Instalação Forro de Gesso Linear *",
-        "Forro Placas de Gesso 60x60cm *",
-        "Instalação Forro de Gesso Linear *",
-        "Forro Placas de Gesso 60x60cm *",
-        "Instalação Forro de Gesso Linear *",
-        "Forro Placas de Gesso 60x60cm *",
         "Instalação Forro de Gesso Linear *"
-      ]
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "porcelanato_ceramica_m2_por_m2_ac": {
       "id": "REV_04",
-      "valor": 2.6418,
+      "valor": 0.6543,
       "unidade": "m²/m² AC",
-      "soma_bruta": 21027.24,
-      "n_itens": 25,
+      "soma_bruta": 5207.82,
+      "n_itens": 6,
       "itens_fonte": [
         "Revestimento interno de piso cerâmico, placa 60x60cm - CTN",
-        "Revestimento interno de piso cerâmico, placa 50x50cm - CTN",
         "Rejuntamento de Piso Cerâmico *",
         "Rodapé de cerâmica, altura de 7cm - CTN",
-        "Revestimento interno de piso cerâmico, placa 60x60cm - CTN",
-        "Revestimento interno de piso cerâmico, placa 50x50cm - CTN",
         "Revestimento interno de piso porcelanato, placa 62,5x62,5cm - CTN",
-        "Rejuntamento de Piso Cerâmico *",
-        "Rodapé de cerâmica, altura de 7cm - CTN",
-        "Revestimento interno de piso cerâmico, placa 60x60cm - CTN"
-      ]
+        "Revestimento interno de piso porcelanato amadeirado, placa 84x84cm - CTN",
+        "Revestimento em pastilha cerâmica antiderrapante em piscina - CTN"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
+    },
+    "rodape_m_por_m2_ac": {
+      "id": "DIV_08",
+      "valor": 0.2336,
+      "unidade": "m/m² AC",
+      "soma_bruta": 1859.69,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Mão de obra para execução de rodapé cerâmico - CTN"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "pintura_externa_m2_por_m2_ac": {
       "id": "PIN_02",
-      "valor": 0.9645,
+      "valor": 0.2302,
       "unidade": "m²/m² AC",
-      "soma_bruta": 7677.17,
-      "n_itens": 18,
+      "soma_bruta": 1832.53,
+      "n_itens": 4,
       "itens_fonte": [
         "Aplicação de textura acrílica em parede, 1 demão - CTN",
         "Aplicação de textura acrílica em teto, 1 demão - CTN",
         "Aplicação de textura em moldura de EPS, 1 demão - CTN",
-        "Textura acrilica, aplicada em paredes externas, 1 demão - CTN",
-        "Aplicação de textura acrílica em parede, 1 demão - CTN",
-        "Aplicação de textura acrílica em teto, 1 demão - CTN",
-        "Aplicação de textura em moldura de EPS, 1 demão - CTN",
-        "Textura acrilica, aplicada em paredes externas, 1 demão - CTN",
-        "Aplicação de textura acrílica em parede, 1 demão - CTN",
-        "Aplicação de textura acrílica em teto, 1 demão - CTN"
-      ]
-    },
-    "janelas_un_por_ur": {
-      "id": "ESQ_02",
-      "valor": 937.49,
-      "unidade": "un/UR",
-      "soma_bruta": 937.49,
-      "n_itens": 10,
-      "itens_fonte": [
-        "Esquadrias de alumínio - Janelas - CTN",
-        "Esquadrias de alumínio - Porta Janelas - CTN",
-        "Esquadrias de alumínio - Janelas - CTN",
-        "Esquadrias de alumínio - Porta Janelas - CTN",
-        "Esquadrias de alumínio - Janelas - CTN",
-        "Esquadrias de alumínio - Porta Janelas - CTN",
-        "Esquadrias de alumínio - Janelas - CTN",
-        "Esquadrias de alumínio - Porta Janelas - CTN",
-        "Esquadrias de alumínio - Janelas - CTN",
-        "Esquadrias de alumínio - Porta Janelas - CTN"
-      ]
-    },
-    "portas_un_por_ur": {
-      "id": "ESQ_01",
-      "valor": 1125.94,
-      "unidade": "un/UR",
-      "soma_bruta": 1125.94,
-      "n_itens": 18,
-      "itens_fonte": [
-        "Esquadrias de alumínio - Portas de alumínio - CTN",
-        "Porta Madeira Interna Leve/Media 70x210cm *",
-        "Porta Madeira Interna Leve/Media 80x210cm *",
-        "Mão de obra para instalação de porta de madeira - CTN",
-        "Esquadrias de alumínio - Portas de alumínio - CTN",
-        "Porta Madeira Interna Leve/Media 70x210cm *",
-        "Porta Madeira Interna Leve/Media 80x210cm *",
-        "Mão de obra para instalação de porta de madeira - CTN",
-        "Esquadrias de alumínio - Portas de alumínio - CTN",
-        "Porta Madeira Interna Leve/Media 70x210cm *"
-      ]
+        "Textura acrilica, aplicada em paredes externas, 1 demão - CTN"
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "guarda_corpo_m_por_m2_ac": {
       "id": "ESQ_04",
-      "valor": 0.1103,
+      "valor": 0.0684,
       "unidade": "m/m² AC",
-      "soma_bruta": 878.18,
-      "n_itens": 9,
+      "soma_bruta": 544.81,
+      "n_itens": 2,
       "itens_fonte": [
         "Corrimão de Escadas Ferro *",
-        "Guarda-Corpo em Ferro Galvanizado *",
-        "Corrimão de Escadas Ferro *",
-        "Guarda-Corpo em Ferro Galvanizado *",
-        "Corrimão de Escadas Ferro *",
-        "Guarda-Corpo em Ferro Galvanizado *",
-        "Corrimão de Escadas Ferro *",
-        "Guarda-Corpo em Ferro Galvanizado *",
         "Guarda-Corpo em Ferro Galvanizado *"
-      ]
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "revestimento_fachada_m2_por_m2_ac": {
       "id": "REV_05",
-      "valor": 0.2627,
+      "valor": 0.0627,
       "unidade": "m²/m² AC",
-      "soma_bruta": 2091.05,
-      "n_itens": 10,
+      "soma_bruta": 499.32,
+      "n_itens": 2,
       "itens_fonte": [
         "Fornecimento e Instalação Fachada Pele de Vidro *",
-        "Junta de dilatação de fachada - CTN",
-        "Fornecimento e Instalação Fachada Pele de Vidro *",
-        "Junta de dilatação de fachada - CTN",
-        "Fornecimento e Instalação Fachada Pele de Vidro *",
-        "Junta de dilatação de fachada - CTN",
-        "Fornecimento e Instalação Fachada Pele de Vidro *",
-        "Junta de dilatação de fachada - CTN",
-        "Fornecimento e Instalação Fachada Pele de Vidro *",
         "Junta de dilatação de fachada - CTN"
-      ]
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "escoramento_m2_por_m2_ac": {
       "id": "EST_04",
@@ -348,45 +231,22 @@
       "n_itens": 1,
       "itens_fonte": [
         "Locação de escoramento metálico - CTN"
-      ]
-    },
-    "cubas_por_ur": {
-      "id": "LOU_03",
-      "valor": 6.0,
-      "unidade": "un/UR",
-      "soma_bruta": 6.0,
-      "n_itens": 2,
-      "itens_fonte": [
-        "Cuba de louça de embutir - CTN",
-        "Cuba dupla de aço inóx - CTN"
-      ]
-    },
-    "lavatorios_por_ur": {
-      "id": "LOU_02",
-      "valor": 15.0,
-      "unidade": "un/UR",
-      "soma_bruta": 15.0,
-      "n_itens": 2,
-      "itens_fonte": [
-        "Lavatório de louça com coluna - CTN",
-        "Torneira de lavatório - CTN"
-      ]
+      ],
+      "divisor": 7959.45,
+      "norm_by": "ac"
     },
     "taxa_aco_kg_por_m3": {
       "id": "EST_03b",
-      "valor": 8.81,
+      "valor": 6.85,
       "unidade": "kg/m³",
-      "soma_bruta": 23442.594999999998,
-      "n_itens": 32,
+      "soma_bruta": 3781.9799999999996,
+      "n_itens": 6,
       "itens_fonte": [
         "(calculado: aço total / concreto total)"
       ]
     }
   },
   "nao_classificados_sample": [
-    "Escavação mecanizada de valas - CTN",
-    "Reaterro de valas - CTN",
-    "Lastro de Concreto 5cm",
     "Bota - Fora - CTN",
     "Perfuratriz Hélice Contínua d=600mm *",
     "Arrasamento Mecânico de Estacas de Concreto Armado - Diâmetro de 40 a 60 cm *",
@@ -394,15 +254,18 @@
     "Forma para estruturas em concreto armado, em compensado plastificado, e= 17mm - CTN",
     "Laje Pré-Moldada Convencional 12cm *",
     "Armadura CA-60 Diâmetro 5,00mm Cortada e Dobrada *",
-    "Armadura CA-50 Diâmetro 6,30mm Cortada e Dobrada *",
-    "Armadura CA-50 Diâmetro 8,00mm Cortada e Dobrada *",
-    "Armadura CA-50 Diâmetro 10,0mm Cortada e Dobrada *",
-    "Armadura CA-50 Diâmetro 12,5mm Cortada e Dobrada *",
-    "Armadura CA-50 Diâmetro 16,0mm Cortada e Dobrada *",
-    "Armadura CA-50 Diâmetro 20,0mm Cortada e Dobrada *",
     "Mão de obra para execução de estrutura em concreto armado - CTN",
-    "Armadura CA-50 Diâmetro 6,30mm Cortada e Dobrada *",
-    "Armadura CA-50 Diâmetro 10,0mm Cortada e Dobrada *",
-    "Armadura CA-50 Diâmetro 12,5mm Cortada e Dobrada *"
+    "Reservatório Polietileno 10.000 L *",
+    "Filtro para Reservatório de Reuso *",
+    "Hidrômetro individual - 5 m³/h - 3/4\" *",
+    "Tanque Plástico 15 Litros *",
+    "Barra de Apoio 80 cm *",
+    "Extintor Pó Químico Seco ABC 4kg *",
+    "Abrigo para Hidrante 90x70x20cm com 2 mangueiras 1.1/2\"x15m *",
+    "Suporte para Extintor de Parede *",
+    "Iluminação Emergência PL9W *",
+    "Abrigo com 4 Medidores Tipo Home Set - 1.1/2\" *",
+    "Interfone *",
+    "Antena Coletiva *"
   ]
 }

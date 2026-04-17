@@ -43,7 +43,7 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "gemma4:e4b"
 TIMEOUT = 600
 
-BATCH_SIZE = 150
+BATCH_SIZE = 15  # otimizado para gemma4:e4b local
 
 # Pré-filtro: descartar antes de mandar pro Gemma
 SKIP_KEYWORDS = [
@@ -66,19 +66,28 @@ SKIP_KEYWORDS = [
 # Keywords positivas: se bater, passa direto (pode ser indicador)
 KEEP_KEYWORDS = [
     "concreto", "aco ", "aço", "ca-50", "ca-60", "ca50", "ca60",
-    "forma", "escoramento",
+    "forma", "escoramento", "verga", "contraverga", "estucamento",
     "ponto", "tomada", "luminaria", "luminária", "eletroduto", "quadro",
     "agua", "água", "esgoto", "tubul", "registro", "ralo", "sifona",
     "alvenaria", "bloco", "tijolo",
     "chapisco", "reboco", "contrapiso", "porcelanato", "ceramica", "cerâmica",
     "fachada", "revestimento",
-    "pintura", "tinta", "massa ",
+    "pintura", "tinta", "massa ", "selador", "seladora",
     "porta", "janela", "vidro", "guarda-corpo", "guarda corpo", "corrimao", "corrimão",
+    "fechadura", "contramarco", "esquadria",
     "manta", "impermeab", "cristaliz",
     "bacia", "sanitari", "sanitári", "lavat", "cuba", "chuveiro", "ducha",
     "forro", "gesso", "drywall",
     "elevador", "hidrante", "sprinkler",
     "cobertura", "telha", "cumeeira",
+    # Novos
+    "reaterro", "escavacao", "escavação", "bota-fora", "bota fora",
+    "estaca", "perfuracao", "fundacao",
+    "rodape", "vinilico",
+    "ar condicionado", "climatiz",
+    "carro eletrico",
+    "motor basculante", "portao", "portão", "basculante",
+    "bocal", "coadeira", "piscina",
 ]
 
 INDICADORES = [
@@ -122,18 +131,53 @@ INDICADORES = [
     ("DIV_04", "sprinklers_m2_por_m2_ac", "m²/m² AC", "ac"),
     ("DIV_05", "cobertura_m2_por_m2_ac", "m²/m² AC", "ac"),
     ("DIV_06", "drywall_divisoria_m2_por_m2_ac", "m²/m² AC", "ac"),
+    # Novos indicadores descobertos pós-análise NAO_CLASSIFICAVEL
+    ("EST_05", "movimento_terra_m3_por_m2_ac", "m³/m² AC", "ac"),
+    ("EST_06", "estaca_m_por_m2_ac", "m/m² AC", "ac"),
+    ("ESQ_05", "contramarco_un_por_ur", "un/UR", "ur"),
+    ("DIV_07", "piso_vinilico_m2_por_m2_ac", "m²/m² AC", "ac"),
+    ("DIV_08", "rodape_m_por_m2_ac", "m/m² AC", "ac"),
+    ("DIV_09", "ar_condicionado_pontos_por_ur", "un/UR", "ur"),
+    ("DIV_10", "carro_eletrico_pontos_por_vaga", "un/vaga", "ur"),  # normaliza por UR na falta de vagas
+    ("DIV_11", "piscina_acessorios_un", "un", "torre"),  # total por torre
+    ("DIV_12", "portao_automacao_un", "un", "torre"),
+    ("DIV_13", "estucamento_m2_por_m2_ac", "m²/m² AC", "ac"),
+    ("DIV_14", "seladora_pintura_m2_por_m2_ac", "m²/m² AC", "ac"),
 ]
 
 # ─── Classificador local (fallback quando Gemma é lento demais) ─────
 # Ordem importa: primeiro match vence. Padrões mais específicos primeiro.
 # Cada regra: (lista de padrões que DEVEM estar em desc, lista de padrões que NÃO podem estar, categoria)
 LOCAL_RULES = [
+    # Movimentação de terra (antes do resto — "concreto" pode aparecer em descrições)
+    (["reaterro"], [], "MOVIMENTO_TERRA"),
+    (["escavacao"], [], "MOVIMENTO_TERRA"),
+    (["escavação"], [], "MOVIMENTO_TERRA"),
+    (["bota-fora"], [], "MOVIMENTO_TERRA"),
+    (["bota fora"], [], "MOVIMENTO_TERRA"),
+    (["movimentacao de terra"], [], "MOVIMENTO_TERRA"),
+    (["corte e aterro"], [], "MOVIMENTO_TERRA"),
+    # Estacas (antes de CONCRETO — muitas estacas são de concreto)
+    (["estaca helice"], [], "ESTACA"),
+    (["estaca tipo"], [], "ESTACA"),
+    (["estaca circular"], [], "ESTACA"),
+    (["perfuracao de estaca"], [], "ESTACA"),
+    (["corte e preparo de cabeca de estaca"], [], "ESTACA"),
     # Estrutural
+    (["verga"], [], "CONCRETO"),
+    (["contraverga"], [], "CONCRETO"),
+    (["estucamento de estrutura"], [], "CONCRETO"),
+    (["estucamento de teto"], [], "ESTUCAMENTO"),
+    (["estucamento"], [], "ESTUCAMENTO"),
+    (["supraestrutura de concreto"], [], "CONCRETO"),
+    (["execucao estrutura de concreto"], [], "CONCRETO"),
     (["concreto usinado"], [], "CONCRETO"),
     (["concreto estrutural"], [], "CONCRETO"),
     (["concreto magro"], [], "CONCRETO"),
     (["concreto fck"], [], "CONCRETO"),
+    (["concreto bombeavel"], [], "CONCRETO"),
     (["graute"], [], "CONCRETO"),
+    (["lastro de concreto"], [], "CONCRETO"),
     (["aco ca-50"], [], "ACO"),
     (["aco ca-60"], [], "ACO"),
     (["aco ca 50"], [], "ACO"),
@@ -192,12 +236,18 @@ LOCAL_RULES = [
     (["tinta acrilica externa"], [], "PINTURA_EXTERNA"),
     (["pintura"], [], "PINTURA_INTERNA"),
     # Esquadrias
+    (["contramarco"], [], "CONTRAMARCO"),
+    (["esquadrias de aluminio"], [], "JANELA"),
+    (["esquadria de aluminio"], [], "JANELA"),
     (["porta de madeira"], [], "PORTA"),
     (["porta corta-fogo"], [], "PORTA"),
     (["porta corta fogo"], [], "PORTA"),
+    (["porta pivotante"], [], "PORTA"),
+    (["porta pronta"], [], "PORTA"),
     (["janela de aluminio"], [], "JANELA"),
     (["janela"], ["contramarco"], "JANELA"),
-    (["porta"], ["contramarco", "portao"], "PORTA"),
+    (["porta"], ["portao", "contramarco", "porta de elevador", "porta elevador", "porta de alicate"], "PORTA"),
+    (["fechadura"], [], "PORTA"),
     (["vidro temperado"], [], "VIDRO"),
     (["vidro laminado"], [], "VIDRO"),
     (["vidro"], [], "VIDRO"),
@@ -215,10 +265,15 @@ LOCAL_RULES = [
     (["cuba"], [], "CUBA"),
     (["chuveiro"], [], "CHUVEIRO"),
     (["ducha higienica"], [], "CHUVEIRO"),
+    # Rodapé + piso vinílico (antes de FORRO)
+    (["rodape"], [], "RODAPE"),
+    (["piso vinilico"], [], "PISO_VINILICO"),
+    (["vinilico"], [], "PISO_VINILICO"),
     # Diversos
     (["forro de gesso"], [], "FORRO"),
     (["forro drywall"], [], "FORRO"),
     (["forro mineral"], [], "FORRO"),
+    (["gesso negativo"], [], "FORRO"),
     (["forro"], [], "FORRO"),
     (["elevador"], ["porta de elevador", "vao de elevador", "vaos de elevador", "area das porta", "fechamento", "contramarco", "piso ", "mureta", "instalacao"], "ELEVADOR"),
     (["caixa de hidrante"], [], "HIDRANTE"),
@@ -231,7 +286,28 @@ LOCAL_RULES = [
     (["cobertura"], ["pintura", "forro"], "COBERTURA"),
     (["divisoria drywall"], [], "DRYWALL"),
     (["parede drywall"], [], "DRYWALL"),
+    (["parede em gesso acartonado"], [], "DRYWALL"),
+    (["gesso acartonado"], [], "DRYWALL"),
     (["drywall"], ["forro"], "DRYWALL"),
+    # Infraestruturas especiais
+    (["infraestrutura para instalacao de ar condicionado"], [], "AR_CONDICIONADO"),
+    (["ar condicionado"], ["manutencao"], "AR_CONDICIONADO"),
+    (["infraestrutura para carro eletrico"], [], "CARRO_ELETRICO"),
+    (["carro eletrico"], [], "CARRO_ELETRICO"),
+    # Automação / portão
+    (["motor basculante"], [], "PORTAO_AUTOMACAO"),
+    (["no break portao"], [], "PORTAO_AUTOMACAO"),
+    (["portao basculante"], [], "PORTAO_AUTOMACAO"),
+    (["motor portao"], [], "PORTAO_AUTOMACAO"),
+    # Piscina
+    (["bocal"], ["agua", "esgoto"], "PISCINA_ACESSORIO"),
+    (["coadeira"], [], "PISCINA_ACESSORIO"),
+    (["gerador de cloro"], [], "PISCINA_ACESSORIO"),
+    # Pintura: seladora
+    (["fundo selador"], [], "SELADOR_PINTURA"),
+    (["massa latex"], [], "PINTURA_INTERNA"),
+    (["massa corrida pva"], [], "PINTURA_INTERNA"),
+    (["massa acrilica"], [], "PINTURA_INTERNA"),
 ]
 
 
@@ -292,6 +368,18 @@ GEMMA_CATEGORIES = {
     "COBERTURA": "DIV_05",
     "DRYWALL": "DIV_06",
     "NAO_CLASSIFICAVEL": None,
+    # Novos
+    "MOVIMENTO_TERRA": "EST_05",
+    "ESTACA": "EST_06",
+    "CONTRAMARCO": "ESQ_05",
+    "PISO_VINILICO": "DIV_07",
+    "RODAPE": "DIV_08",
+    "AR_CONDICIONADO": "DIV_09",
+    "CARRO_ELETRICO": "DIV_10",
+    "PISCINA_ACESSORIO": "DIV_11",
+    "PORTAO_AUTOMACAO": "DIV_12",
+    "ESTUCAMENTO": "DIV_13",
+    "SELADOR_PINTURA": "DIV_14",
 }
 
 IND_LOOKUP = {ind[0]: (ind[1], ind[2], ind[3]) for ind in INDICADORES}
@@ -325,6 +413,39 @@ def load_padroes() -> dict:
 
 SKIP_UNITS = {"vb", "verba", "gl", "global", "un-", "none", ""}
 
+# Abas que não contêm itens de obra realizados (auxiliares/duplicatas/totais)
+SKIP_ABAS = {
+    "dados_iniciais", "dados iniciais",
+    "opcao", "opção", "opcoes", "opções",
+    "planilha1", "planilha2", "planilha3", "plan1", "plan2",
+    "resumo", "orcamento resumo", "orcamento_resumo", "executivo_resumo",
+    "orcamento_parametrico", "parametrico", "paramétrico",
+    "cronograma",
+    "cpu", "composicoes", "composicao", "composição",
+    "insumos",
+    "bdi",
+    "canteiro", "canteiro de obra",
+    "epcs", "epc's", "epc s", "epc",
+    "obra", "obra ",
+    "ger_tec e adm", "ger tec e adm", "ger_tec", "ger_tec_adm",
+    "areas privativas",
+    "versoes", "versões",
+    "indices", "índices",
+    "controle", "acompanhamento",
+    "custos", "custo",
+    "apuracao", "apuração",
+    "anexos", "anexo",
+    "legenda",
+}
+
+
+def _canonical_desc(desc: str) -> str:
+    """Descrição canônica pra dedupe: lowercase, sem acentos, sem nums específicos."""
+    d = _normalize_text(desc)
+    d = re.sub(r"[\d,\.]+", "", d)
+    d = re.sub(r"\s+", " ", d).strip()
+    return d[:80]
+
 
 def _should_keep_item(desc: str, unidade: str, qtd) -> bool:
     """Filtra itens antes de mandar pro Gemma.
@@ -355,10 +476,14 @@ def collect_all_items(slug: str):
     items = []
     idx = 0
     skipped = 0
+    # Dedupe: (aba, canonical_desc, unidade) → pega MAX qty (assume mesma coisa)
+    seen = {}
     for aba in det.get("abas", []) or []:
         aba_nome = aba.get("nome", "")
-        nome_lower = _normalize_text(aba_nome)
-        if any(skip in nome_lower for skip in ["dados_iniciais", "opcao", "opção", "planilha1", "resumo", "bdi", "cronograma"]):
+        nome_lower = _normalize_text(aba_nome).strip()
+        if nome_lower in SKIP_ABAS:
+            continue
+        if any(skip in nome_lower for skip in ("resumo", "cpu", "insumo", "canteiro", "composicao", "composição")):
             continue
         for it in aba.get("itens", []) or []:
             desc = str(it.get("descricao", "")).strip()
@@ -369,15 +494,26 @@ def collect_all_items(slug: str):
             if not _should_keep_item(desc, u, q):
                 skipped += 1
                 continue
+            canon = _canonical_desc(desc)
+            u_norm = _normalize_text(u).strip()
+            # Dedupe cross-aba: se desc+un já visto, só substitui se qty maior
+            key = (canon, u_norm)
+            if key in seen:
+                old_idx = seen[key]
+                if q > items[old_idx]["qtd"]:
+                    items[old_idx]["qtd"] = q
+                    items[old_idx]["aba"] = aba_nome
+                continue
             items.append({
                 "id": idx,
                 "descricao": desc[:150],
-                "unidade": str(it.get("unidade", ""))[:12],
-                "qtd": it.get("qtd") if isinstance(it.get("qtd"), (int, float)) else None,
+                "unidade": u[:12],
+                "qtd": q,
                 "pu": it.get("pu") if isinstance(it.get("pu"), (int, float)) else None,
                 "total": it.get("total") if isinstance(it.get("total"), (int, float)) else None,
                 "aba": aba_nome,
             })
+            seen[key] = idx
             idx += 1
 
     ix = _load_json(IDX_DIR / f"{slug}.json")
@@ -443,7 +579,7 @@ Se o item não tem quantidade extraível, retorne qtd: null.
 Retorne APENAS o JSON array."""
 
 
-def call_gemma(prompt: str) -> dict:
+def call_gemma(prompt: str, timeout: int = 120) -> dict:
     r = requests.post(OLLAMA_URL, json={
         "model": MODEL,
         "prompt": prompt,
@@ -451,10 +587,10 @@ def call_gemma(prompt: str) -> dict:
         "options": {
             "temperature": 0.1,
             "top_p": 0.9,
-            "num_predict": 6000,
-            "num_ctx": 12288,
+            "num_predict": 2000,
+            "num_ctx": 8192,
         },
-    }, timeout=TIMEOUT)
+    }, timeout=timeout)
     r.raise_for_status()
     return r.json()
 
@@ -497,36 +633,57 @@ def process_project(slug: str, padroes: dict, retry: int = 1, use_gemma: bool = 
     if pad_info.get("ur") and not meta["ur"]:
         meta["ur"] = pad_info["ur"]
 
+    # Sempre começa com classificação local (instantânea)
     all_classified = []
-    if use_gemma:
-        n_batches = (len(items) + BATCH_SIZE - 1) // BATCH_SIZE
+    ambig = []  # items onde local retornou NAO_CLASSIFICAVEL
+    for it in items:
+        cat = classify_local(it["descricao"], it.get("unidade", ""))
+        if cat == "NAO_CLASSIFICAVEL" and use_gemma:
+            ambig.append(it)
+        else:
+            all_classified.append({"id": it["id"], "cat": cat, "qtd": it.get("qtd")})
+
+    # Gemma só pros ambíguos (e dedupe por descrição canônica antes)
+    if ambig and use_gemma:
+        # Dedupe ambíguos por canônica — só classifica descrições únicas
+        canon_map = {}  # canon_desc → first item
+        for it in ambig:
+            canon = _canonical_desc(it["descricao"])
+            if canon not in canon_map:
+                canon_map[canon] = it
+        unique_items = list(canon_map.values())
+        canon_to_cat = {}
+
+        n_batches = (len(unique_items) + BATCH_SIZE - 1) // BATCH_SIZE
         for batch_idx in range(n_batches):
-            batch = items[batch_idx * BATCH_SIZE:(batch_idx + 1) * BATCH_SIZE]
+            batch = unique_items[batch_idx * BATCH_SIZE:(batch_idx + 1) * BATCH_SIZE]
             prompt = build_gemma_prompt(batch)
-            last_err = None
-            success = False
-            for attempt in range(retry + 1):
-                try:
-                    r = call_gemma(prompt)
-                    raw = r.get("response", "")
-                    classified = parse_gemma_response(raw)
-                    all_classified.extend(classified)
-                    success = True
-                    break
-                except Exception as e:
-                    last_err = e
-                    time.sleep(2)
-            if not success:
-                print(f"  [warn] batch {batch_idx+1}/{n_batches} failed: {last_err}", flush=True)
-    else:
-        # Local keyword-based classification (fast)
-        for it in items:
-            cat = classify_local(it["descricao"], it.get("unidade", ""))
-            all_classified.append({
-                "id": it["id"],
-                "cat": cat,
-                "qtd": it.get("qtd"),
-            })
+            try:
+                r = call_gemma(prompt, timeout=90)
+                raw = r.get("response", "")
+                classified = parse_gemma_response(raw)
+                for cl in classified:
+                    if not isinstance(cl, dict):
+                        continue
+                    bid = cl.get("id")
+                    orig = next((b for b in batch if b["id"] == bid), None)
+                    if orig is None:
+                        continue
+                    canon = _canonical_desc(orig["descricao"])
+                    canon_to_cat[canon] = cl.get("cat") or cl.get("categoria") or "NAO_CLASSIFICAVEL"
+            except Exception as e:
+                # Silencioso pra não poluir o log; fallback NAO_CLASSIFICAVEL
+                pass
+
+        # Propaga classificação do Gemma pros itens originais
+        for it in ambig:
+            canon = _canonical_desc(it["descricao"])
+            cat = canon_to_cat.get(canon, "NAO_CLASSIFICAVEL")
+            all_classified.append({"id": it["id"], "cat": cat, "qtd": it.get("qtd")})
+    elif ambig:
+        # Sem Gemma, todos ambíguos viram NAO_CLASSIFICAVEL
+        for it in ambig:
+            all_classified.append({"id": it["id"], "cat": "NAO_CLASSIFICAVEL", "qtd": it.get("qtd")})
 
     item_by_id = {it["id"]: it for it in items}
 
@@ -565,18 +722,21 @@ def process_project(slug: str, padroes: dict, retry: int = 1, use_gemma: bool = 
     result_indicadores = {}
     for ind_id, agg in indicadores.items():
         name, unit, norm_by = IND_LOOKUP[ind_id]
-        divisor = 1
+        divisor = None
         if norm_by == "ac":
-            divisor = meta["ac"] or 1
+            divisor = meta["ac"] if meta["ac"] and meta["ac"] > 0 else None
         elif norm_by == "ur":
-            divisor = meta["ur"] or 1
+            divisor = meta["ur"] if meta["ur"] and meta["ur"] > 0 else None
         elif norm_by == "pav":
-            divisor = meta["n_pavimentos"] or 1
+            divisor = meta["n_pavimentos"] if meta["n_pavimentos"] and meta["n_pavimentos"] > 0 else None
         elif norm_by == "torre":
-            divisor = meta["n_torres"] or 1
+            divisor = meta["n_torres"] if meta["n_torres"] and meta["n_torres"] > 0 else None
 
-        valor = round(agg["soma_qtd"] / divisor, 4) if divisor > 0 else None
-        if valor is not None and valor > 0:
+        # Sem divisor válido: pula o indicador (evita outlier absurdo)
+        if divisor is None or divisor <= 0:
+            continue
+        valor = round(agg["soma_qtd"] / divisor, 4)
+        if valor > 0:
             result_indicadores[name] = {
                 "id": ind_id,
                 "valor": valor,
@@ -584,6 +744,8 @@ def process_project(slug: str, padroes: dict, retry: int = 1, use_gemma: bool = 
                 "soma_bruta": round(agg["soma_qtd"], 2),
                 "n_itens": agg["n_itens"],
                 "itens_fonte": agg["itens_fonte"][:10],
+                "divisor": round(divisor, 2),
+                "norm_by": norm_by,
             }
 
     conc = indicadores.get("EST_01")

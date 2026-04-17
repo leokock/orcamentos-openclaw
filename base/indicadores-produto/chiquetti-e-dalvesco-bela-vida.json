@@ -6,309 +6,18 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 0,
-  "data_extracao": "2026-04-17T20:03:51",
+  "data_extracao": "2026-04-17T20:37:30",
   "duration_s": 0.0,
-  "n_itens_processados": 245,
-  "n_itens_classificados": 245,
-  "n_indicadores_extraidos": 23,
+  "n_itens_processados": 208,
+  "n_itens_classificados": 208,
+  "n_indicadores_extraidos": 1,
   "indicadores": {
-    "forma_m2_por_m2_ac": {
-      "id": "EST_03",
-      "valor": 293.7,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 293.7,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Guarda-corpo vãos tela prolipopileno (fixado em fôrma de madeira)"
-      ]
-    },
-    "aco_kg_por_m2_ac": {
-      "id": "EST_02",
-      "valor": 148193.8,
-      "unidade": "kg/m² AC",
-      "soma_bruta": 148193.8,
-      "n_itens": 18,
-      "itens_fonte": [
-        "Guarda corpo em laje pós - desforma (cabo de aço e tela)",
-        "Linha de vida- cabo de aço junto ao piso",
-        "Aluguel De espaço  + Coffee Break Assembleia",
-        "Instalações provisória agua e esgoto",
-        "Instalações provisória energia",
-        "Aço CA 50/60",
-        "Aço CA 50/60",
-        "Impermeabilização com manta 3mm+4mm - Laje terraço cobertura",
-        "Painel em vidro temperado com portas Espaço kid - 250+700+540x230",
-        "Forro gesso em placas RU - Laje terraço cobertura"
-      ]
-    },
-    "portas_un_por_ur": {
-      "id": "ESQ_01",
-      "valor": 476.52,
-      "unidade": "un/UR",
-      "soma_bruta": 476.52,
-      "n_itens": 19,
-      "itens_fonte": [
-        "Fechamento removível de vãos de porta de elevador em madeira",
-        "Fechamento removível de vãos de porta de entrada dos aptos. em madeira",
-        "Porta madeira - Kit porta pronta abrir - 60x210 - P01",
-        "Porta madeira - Kit porta pronta abrir - 70x210 - P02",
-        "Porta madeira - Kit porta pronta abrir - 80x210 - P03",
-        "Porta madeira - Kit porta pronta abrir - 90x210 - P04",
-        "Porta madeira - Kit porta pronta correr - 60x210 - P06",
-        "Porta madeira - Kit porta pronta correr - 70x210 - P07",
-        "Porta madeira - Kit porta pronta correr - 100x210 - P08",
-        "Porta corta fogo ferro galvanizado, abrir - 90x210 - PCF"
-      ]
-    },
-    "cobertura_m2_por_m2_ac": {
-      "id": "DIV_05",
-      "valor": 180.0,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 180.0,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Tapume com telha metálica + Manutençãp"
-      ]
-    },
-    "elevadores_por_torre": {
-      "id": "DIV_02",
-      "valor": 19.0,
-      "unidade": "un/torre",
-      "soma_bruta": 19.0,
-      "n_itens": 5,
-      "itens_fonte": [
-        "Locação de elevador cremalheira",
-        "Montagem e desmontagem de elevador cremalheira",
-        "Elevador cremalheira",
-        "Laudos e teste - Elevador, bombas, SPDA, Elétrica",
-        "Elevador cabine inox 10 paradas"
-      ]
-    },
-    "manta_asfaltica_m2_por_m2_ac": {
-      "id": "IMP_01",
-      "valor": 906.4,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 906.4,
-      "n_itens": 6,
-      "itens_fonte": [
-        "Projeto complementares: estrutural, elétrico e telecom, hidrossanitário, prevent",
-        "Projeto Impermeabilização",
-        "Impermeabilização com manta 4mm - Piso garagem térreo",
-        "Impermeabilização com manta 4mm - Piscina",
-        "Impermeabilização com manta 4mm - Laje impermeabilizada",
-        "Impermeabilização com manta 4mm"
-      ]
-    },
-    "concreto_m3_por_m2_ac": {
-      "id": "EST_01",
-      "valor": 1580.0,
-      "unidade": "m³/m² AC",
-      "soma_bruta": 1580.0,
-      "n_itens": 3,
-      "itens_fonte": [
-        "Lastro de concreto magro",
-        "Concreto usinado 30MPa bombeado",
-        "Concreto usinado 40MPa bombeado"
-      ]
-    },
-    "alvenaria_m2_por_m2_ac": {
-      "id": "ALV_01",
-      "valor": 4199.0,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 4199.0,
-      "n_itens": 6,
-      "itens_fonte": [
-        "Alvenaria de tijolos furados esp=14cm",
-        "Alvenaria de tijolos furados esp=19cm",
-        "Alvenaria de tijolos furados esp=25cm",
-        "Alvenaria de tijolos furados esp=30cm",
-        "Alvenaria de bloco de concreto de vedação esp=14cm",
-        "Alvenaria de bloco de concreto de vedação esp=19cm"
-      ]
-    },
-    "vidros_m2_por_m2_ac": {
-      "id": "ESQ_03",
-      "valor": 344.96,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 344.96,
-      "n_itens": 3,
-      "itens_fonte": [
-        "Vidro laminado 4+4mm",
-        "Guarda corpo vidro H: 110cm - Cobertura",
-        "Guarda corpo vidro H: 110cm - Sacadas"
-      ]
-    },
-    "guarda_corpo_m_por_m2_ac": {
-      "id": "ESQ_04",
-      "valor": 243.7,
-      "unidade": "m/m² AC",
-      "soma_bruta": 243.7,
-      "n_itens": 5,
-      "itens_fonte": [
-        "Escada marinheiro com guarda corpo",
-        "Corrimão alumínio - Escada",
-        "Guarda corpo aço inox H: 110cm - Piscina e Hall",
-        "Guarda corpo metálico H: 110cm",
-        "Soleira e peitoril de granito - Guarda corpo cobertura"
-      ]
-    },
-    "janelas_un_por_ur": {
-      "id": "ESQ_02",
-      "valor": 172.0,
-      "unidade": "un/UR",
-      "soma_bruta": 172.0,
-      "n_itens": 18,
-      "itens_fonte": [
-        "Janela alumínio pintado com vidro - 54x74 - J01",
-        "Janela alumínio pintado com vidro - 60x80 - J02",
-        "Janela alumínio pintado com vidro - 80x70 - J03",
-        "Janela alumínio pintado com vidro - 94x114 - J04",
-        "Janela alumínio pintado com vidro, com persiana - 194x134 - J05",
-        "Janela alumínio pintado com vidro, com persiana - 154x204 - J06",
-        "Janela alumínio pintado com vidro, com persiana - 194x244 - J07",
-        "Janela alumínio pintado com vidro, com persiana - 244x244 - J08",
-        "Janela alumínio pintado com vidro, com persiana - 269x244 - J09",
-        "Janela alumínio pintado com vidro - 350x210 - J10"
-      ]
-    },
-    "chapisco_m2_por_m2_ac": {
-      "id": "REV_01",
-      "valor": 9273.3,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 9273.3,
-      "n_itens": 2,
-      "itens_fonte": [
-        "Chapisco argamassa de cimento e areia 1:3",
-        "Chapisco argamassa de cimento e areia 1:3"
-      ]
-    },
-    "reboco_m2_por_m2_ac": {
-      "id": "REV_02",
-      "valor": 9273.3,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 9273.3,
-      "n_itens": 2,
-      "itens_fonte": [
-        "Reboco argamassa de usinado 1:5",
-        "Reboco argamassa de usinado 1:5"
-      ]
-    },
-    "blocos_un_por_m2_ac": {
-      "id": "ALV_02",
-      "valor": 81.2,
-      "unidade": "un/m² AC",
-      "soma_bruta": 81.2,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Tijolo refratário"
-      ]
-    },
-    "porcelanato_ceramica_m2_por_m2_ac": {
-      "id": "REV_04",
-      "valor": 31767.1,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 31767.1,
-      "n_itens": 9,
-      "itens_fonte": [
-        "Cerâmica especial - Piscina",
-        "Cerâmica 90x90cm",
-        "Argamassa colante e rejunte para porcelanato",
-        "Piso porcelanato 90x90cm - Áreas comuns",
-        "Piso porcelanato 90x90cm - Escadas",
-        "Piso porcelanato 90x90cm - Garagens",
-        "Piso porcelanato 90x90cm - Apartamentos",
-        "Piso porcelanato 90x90cm - Hall externo e acesso alameda",
-        "Argamassa colante e rejunte para porcelanato"
-      ]
-    },
-    "forro_gesso_m2_por_m2_ac": {
-      "id": "DIV_01",
-      "valor": 3448.38,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 3448.38,
-      "n_itens": 2,
-      "itens_fonte": [
-        "Forro especial de madeira - Sacadas e marquises",
-        "Forro gesso em placas"
-      ]
-    },
-    "cubas_por_ur": {
-      "id": "LOU_03",
-      "valor": 47.0,
-      "unidade": "un/UR",
-      "soma_bruta": 47.0,
-      "n_itens": 3,
-      "itens_fonte": [
-        "Cuba oval de embutir L.59 Deca 40x30cm - banheiro zeladoria",
-        "Cuba de sobrepor L.730.17 Deca 42x42cm - banheiros das áreas comuns",
-        "Cuba redonda 30BL 30cm - bancada churrasqueiras"
-      ]
-    },
-    "lavatorios_por_ur": {
-      "id": "LOU_02",
-      "valor": 17.0,
-      "unidade": "un/UR",
-      "soma_bruta": 17.0,
-      "n_itens": 3,
-      "itens_fonte": [
-        "Lavatório canto suspenso branco L.76 Deca 49,5x49,5",
-        "Torneira cromada Link Deca 1197.C.LNK - lavatórios comuns e banheiro zeladoria",
-        "Sifão cromado com copo para lavatório"
-      ]
-    },
-    "chuveiros_por_ur": {
-      "id": "LOU_04",
-      "valor": 178.0,
-      "unidade": "un/UR",
-      "soma_bruta": 178.0,
-      "n_itens": 5,
-      "itens_fonte": [
-        "Chuveiro elétrico belo banho Lorenzetti - Zeladoria",
-        "Base misturador monocomando chuveiro 3/4\"",
-        "Acabamento cromado monocomando chuveiro",
-        "Chuveiro cromado",
-        "Base misturador monocomando chuveiro e ducha 3/4\""
-      ]
-    },
-    "registros_por_ur": {
-      "id": "HID_04",
-      "valor": 472.0,
-      "unidade": "un/UR",
-      "soma_bruta": 472.0,
-      "n_itens": 2,
-      "itens_fonte": [
-        "Acabamento e registro Link Deca - Áreas comuns",
-        "Registro de gaveta base Deca - banheiros apartamentos"
-      ]
-    },
-    "pintura_interna_m2_por_m2_ac": {
-      "id": "PIN_01",
-      "valor": 19427.42,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 19427.42,
-      "n_itens": 3,
-      "itens_fonte": [
-        "Massa corrida PVA",
-        "Pintura tinta acrílica 3 demãos com selador - Parede",
-        "Pintura tinta acrílica 3 demãos com selador - Teto"
-      ]
-    },
-    "luminarias_por_ur": {
-      "id": "ELE_04",
-      "valor": 1.0,
-      "unidade": "un/UR",
-      "soma_bruta": 1.0,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Luminárias - Área comum"
-      ]
-    },
     "taxa_aco_kg_por_m3": {
       "id": "EST_03b",
-      "valor": 93.79,
+      "valor": 73.08,
       "unidade": "kg/m³",
-      "soma_bruta": 148193.8,
-      "n_itens": 18,
+      "soma_bruta": 120793.8,
+      "n_itens": 17,
       "itens_fonte": [
         "(calculado: aço total / concreto total)"
       ]
@@ -321,6 +30,7 @@
     "Serviço de segurança do trabalho terceirizado (tecnico de segurança)",
     "Bandeja de proteção primária",
     "Bandeja de proteção secundária",
+    "Fechamento removível de vãos de porta de elevador em madeira",
     "Tela fachadeira reforçada com impressão digital",
     "Equipamentos de proteção individual",
     "Rede de proteção tipo SLQA leve (media)",
@@ -333,7 +43,6 @@
     "Locação de 2 banheiros químicos",
     "Contêiner [Quantidade para manutenção de equipamento próprio]",
     "bebedouro nos pavimentos",
-    "Água e esgoto",
-    "Luz/energia"
+    "Água e esgoto"
   ]
 }

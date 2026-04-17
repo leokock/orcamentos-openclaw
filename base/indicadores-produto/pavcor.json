@@ -6,365 +6,303 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 49360278.61,
-  "data_extracao": "2026-04-17T20:03:55",
+  "data_extracao": "2026-04-17T20:37:33",
   "duration_s": 0.1,
-  "n_itens_processados": 2189,
-  "n_itens_classificados": 2189,
+  "n_itens_processados": 191,
+  "n_itens_classificados": 191,
   "n_indicadores_extraidos": 22,
   "indicadores": {
-    "portas_un_por_ur": {
-      "id": "ESQ_01",
-      "valor": 2249.63,
-      "unidade": "un/UR",
-      "soma_bruta": 2249.63,
-      "n_itens": 99,
+    "movimento_terra_m3_por_m2_ac": {
+      "id": "EST_05",
+      "valor": 0.267,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 3812.94,
+      "n_itens": 4,
       "itens_fonte": [
-        "Vigilância / portaria 24h",
-        "Fechamento removível de vãos de porta de elevador em madeira",
-        "Fechamento removível de vãos de porta de entrada dos apartamentos em madeira",
-        "Mão de obra para assentamento de requadros em portas de elevador",
-        "Mão de obra para assentamento de requadros em portas de elevador",
-        "Mão de obra para assentamento de requadros em portas de elevador",
-        "Mão de obra para assentamento de requadros em portas de elevador",
-        "Mão de obra para assentamento de requadros em portas de elevador",
-        "Mão de obra para assentamento de requadros em portas de elevador",
-        "Mão de obra para assentamento de requadros em portas de elevador"
-      ]
-    },
-    "cobertura_m2_por_m2_ac": {
-      "id": "DIV_05",
-      "valor": 0.0248,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 354.48,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Tapume de telha metálica trapezoidal"
-      ]
-    },
-    "forma_m2_por_m2_ac": {
-      "id": "EST_03",
-      "valor": 0.0036,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 51.79,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Guarda-corpo de vãos, fixado em fôrma de madeira, em trama de madeira com tela d"
-      ]
-    },
-    "guarda_corpo_m_por_m2_ac": {
-      "id": "ESQ_04",
-      "valor": 0.0413,
-      "unidade": "m/m² AC",
-      "soma_bruta": 590.21,
-      "n_itens": 3,
-      "itens_fonte": [
-        "Guarda-corpo de laje pontalete de madeira, travessões e tela",
-        "Corrimão de Madeira - fornecimento e instalação",
-        "Corrimão de Madeira - fornecimento e instalação"
-      ]
-    },
-    "aco_kg_por_m2_ac": {
-      "id": "EST_02",
-      "valor": 25.2716,
-      "unidade": "kg/m² AC",
-      "soma_bruta": 360962.06,
-      "n_itens": 288,
-      "itens_fonte": [
-        "Linha de vida - Varal de segurança com cabo de aço",
-        "Armação aço CA-50 ø 6,3mm para estaca (corte e dobra em indústria)",
-        "Armação aço CA-50 ø 16,0mm para estaca (corte e dobra em indústria)",
-        "Armação Aço CA-50, Diâmetro de 6,3mm para Infraestrutura, Corte e Dobra em Indús",
-        "Armação Aço CA-50, Diâmetro de 8,0mm para Infraestrutura, Corte e Dobra em Indús",
-        "Armação Aço CA-50, Diâmetro de 10,0mm para Infraestrutura, Corte e Dobra em Indú",
-        "Armação Aço CA-50, Diâmetro de 12,5mm para Infraestrutura, Corte e Dobra em Indú",
-        "Armação Aço CA-50, Diâmetro de 16,0mm para Infraestrutura, Corte e Dobra em Indú",
-        "Armação Aço CA-50, Diâmetro de 20,0mm para Infraestrutura, Corte e Dobra em Indú",
-        "Armação Aço CA-50, Diâmetro de 25,0mm para Infraestrutura, Corte e Dobra em Indú"
-      ]
-    },
-    "elevadores_por_torre": {
-      "id": "DIV_02",
-      "valor": 1417.6888,
-      "unidade": "un/torre",
-      "soma_bruta": 1417.69,
-      "n_itens": 35,
-      "itens_fonte": [
-        "Aquisição de elevador cremalheira",
-        "Manuteção Periódica de elevador cremalheira",
-        "Montagem e Desmontagem de elevador cremalheira",
-        "Mobilização e Desmobilização de elevador cremalheira",
         "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevad",
-        "Elevadores",
-        "Revestimento de Marmore Preto em batente de elevador",
-        "Revestimento de Marmore Preto em batente de elevador",
-        "Revestimento de Marmore Preto em batente de elevador",
-        "Revestimento de Marmore Preto em batente de elevador"
-      ]
+        "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadei",
+        "Movimentação de terra para bota-fora - Escavação de Valas",
+        "Movimentação de terra para bota-fora - Estacas"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "concreto_m3_por_m2_ac": {
       "id": "EST_01",
-      "valor": 0.3914,
+      "valor": 0.2501,
       "unidade": "m³/m² AC",
-      "soma_bruta": 5589.82,
-      "n_itens": 39,
+      "soma_bruta": 3572.07,
+      "n_itens": 6,
       "itens_fonte": [
         "Lastro de Concreto Magro, Aplicado em Blocos de Fundação",
         "Concreto Usinado bombeável para estacas 40MPa  - incluindo serviço de bombeament",
         "Concreto Usinado bombeável 40MPa para infraestrutura- incluindo serviço de bombe",
         "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestrutura",
-        "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestrutura",
-        "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestrutura",
-        "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestrutura",
-        "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestrutura",
-        "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestrutura",
-        "Concreto Usinado FCK = 40MPa Bombeavel Para Supraestrutura"
-      ]
+        "Verga/contraverga de concreto, moldada in loco",
+        "Estucamento de estrutura de concreto em pilares e vigas"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
+    },
+    "estaca_m_por_m2_ac": {
+      "id": "EST_06",
+      "valor": 0.2275,
+      "unidade": "m/m² AC",
+      "soma_bruta": 3250.0,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Execucao Estaca Helice Continua Monitorada 050Cm",
+        "Corte e Preparo de Cabeça de Estaca"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
+    },
+    "aco_kg_por_m2_ac": {
+      "id": "EST_02",
+      "valor": 3.0762,
+      "unidade": "kg/m² AC",
+      "soma_bruta": 43938.18,
+      "n_itens": 5,
+      "itens_fonte": [
+        "Armação aço CA-50 ø 6,3mm para estaca (corte e dobra em indústria)",
+        "Armação Aço CA-50, Diâmetro de 6,3mm para Infraestrutura, Corte e Dobra em Indús",
+        "Armação Aço CA-60, Diâmetro de 5,0mm para Supraestrutura, Corte e Dobra em Indús",
+        "Tela soldada para ligacao alvenaria/estrutura",
+        "Proteção mecânica de superfície com argamassa de cimento e areia, traço 1:3 E=5c"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "escoramento_m2_por_m2_ac": {
       "id": "EST_04",
-      "valor": 1.0,
+      "valor": 0.0723,
       "unidade": "m²/m² AC",
-      "soma_bruta": 14283.29,
-      "n_itens": 24,
+      "soma_bruta": 1032.23,
+      "n_itens": 1,
       "itens_fonte": [
-        "Escoramento e travamaneto para supraestrutura",
-        "Escoramento e travamaneto para supraestrutura",
-        "Escoramento e travamaneto para supraestrutura",
-        "Escoramento e travamaneto para supraestrutura",
-        "Escoramento e travamaneto para supraestrutura",
-        "Escoramento e travamaneto para supraestrutura",
-        "Escoramento e travamaneto para supraestrutura",
-        "Escoramento e travamaneto para supraestrutura",
-        "Escoramento e travamaneto para supraestrutura",
         "Escoramento e travamaneto para supraestrutura"
-      ]
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "alvenaria_m2_por_m2_ac": {
       "id": "ALV_01",
-      "valor": 3.4031,
+      "valor": 0.1747,
       "unidade": "m²/m² AC",
-      "soma_bruta": 48607.19,
-      "n_itens": 201,
+      "soma_bruta": 2494.77,
+      "n_itens": 5,
       "itens_fonte": [
         "Alvenaria de vedacao de blocos ceramicos de 9x19x19cm com argamassa industrializ",
-        "Alvenaria de vedacao de blocos ceramicos de 11,5x19x19cm com argamassa industria",
-        "Alvenaria de vedacao de blocos ceramicos de 14x19x19cm com argamassa industriali",
-        "Alvenaria de vedacao de blocos ceramicos de 11,5x19x19cm com argamassa industria",
-        "Alvenaria de vedacao de blocos ceramicos de 14x19x19cm com argamassa industriali",
-        "Alvenaria de vedacao de blocos ceramicos de 11,5x19x19cm com argamassa industria",
-        "Alvenaria de vedacao de blocos ceramicos de 14x19x19cm com argamassa industriali",
-        "Alvenaria de vedacao de blocos ceramicos de 11,5x19x19cm com argamassa industria",
-        "Alvenaria de vedacao de blocos ceramicos de 14x19x19cm com argamassa industriali",
-        "Alvenaria de vedacao de blocos ceramicos de 11,5x19x19cm com argamassa industria"
-      ]
+        "Alvenaria de vedação de blocos de concreto de 09x19x39cm, com argamassa estabili",
+        "Alvenaria de vedação de Bloco concreto corta-fogo de 09x19x39cm, com argamassa e",
+        "Encunhamento De Alvenaria De Vedação Com Argamassa Expansiva",
+        "Chapisco aplicados em alvenaria, com argamassa estabilizada, aplicação convencio"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "blocos_un_por_m2_ac": {
       "id": "ALV_02",
-      "valor": 0.0237,
+      "valor": 0.0014,
       "unidade": "un/m² AC",
-      "soma_bruta": 338.21,
-      "n_itens": 19,
+      "soma_bruta": 19.58,
+      "n_itens": 1,
       "itens_fonte": [
-        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
-        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
-        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
-        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
-        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
-        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
-        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
-        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
-        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
         "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa"
-      ]
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "manta_asfaltica_m2_por_m2_ac": {
       "id": "IMP_01",
-      "valor": 1.2779,
+      "valor": 0.2042,
       "unidade": "m²/m² AC",
-      "soma_bruta": 18252.23,
-      "n_itens": 135,
+      "soma_bruta": 2915.98,
+      "n_itens": 8,
       "itens_fonte": [
         "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização"
-      ]
-    },
-    "ralos_caixas_sifonadas_por_ur": {
-      "id": "HID_05",
-      "valor": 681.0956,
-      "unidade": "un/UR",
-      "soma_bruta": 681.1,
-      "n_itens": 24,
-      "itens_fonte": [
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel"
-      ]
+        "Impermeabilização de Baldrames com Tinta Asfáltica (Neutrol)",
+        "Impermeabilização De Superfície Com Argamassa Polimérica / Membrana Acrílica, 3 ",
+        "Impermeabilização De Superfície Com Manta Asfáltica, Uma Camada, Inclusive Aplic",
+        "Impermeabilização com manta liquida em peitoris",
+        "Mão de obra impermeabilização de superfície com manta asfáltica",
+        "Mão de obra impermeabilização de argamassa polimérica",
+        "Mão de obra impermeabilização com manta liquida em peitoris"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "reboco_m2_por_m2_ac": {
       "id": "REV_02",
-      "valor": 2.1278,
+      "valor": 0.2096,
       "unidade": "m²/m² AC",
-      "soma_bruta": 30391.61,
-      "n_itens": 34,
+      "soma_bruta": 2993.72,
+      "n_itens": 2,
       "itens_fonte": [
         "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
-        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
-        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
-        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
-        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
-        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
-        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
-        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
-        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
-        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c"
-      ]
+        "Massa unica para reboco externo em argamassa estabilizada, espessura de 2,5cm, c"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "porcelanato_ceramica_m2_por_m2_ac": {
       "id": "REV_04",
-      "valor": 1.8422,
+      "valor": 0.1803,
       "unidade": "m²/m² AC",
-      "soma_bruta": 26312.9,
-      "n_itens": 163,
+      "soma_bruta": 2575.19,
+      "n_itens": 12,
       "itens_fonte": [
         "Revestimento de parede em porcelanato, placa 30x90cm",
-        "Revestimento de parede em porcelanato, placa 30x90cm",
-        "Revestimento de parede em porcelanato, placa 30x90cm",
-        "Revestimento de parede em porcelanato, placa 30x90cm",
-        "Revestimento de parede em porcelanato, placa 30x90cm",
-        "Revestimento de parede em porcelanato, placa 30x90cm",
-        "Revestimento de parede em porcelanato, placa 30x90cm",
-        "Revestimento de parede em porcelanato, placa 30x90cm",
-        "Revestimento de parede em porcelanato, placa 30x90cm",
-        "Revestimento de parede em porcelanato, placa 30x90cm"
-      ]
+        "Assentamento para revestimento de parede em porcelanato placa 30x90cm",
+        "Assentamento para revestiemnto de parede em porcelanato placa 30x90cm",
+        "Mão de obra para assentamento de revestimento cerâmico em parede",
+        "Revestimento de Piso Porcelanato Acetinado, Placa 90x90cm",
+        "Revestimento em Pastilhas Cerâmicas Para Piscinas , 20 x 20cm com Junta de 2mm",
+        "Assentamento para revestimento em piso porcelanato placa 90x90cm",
+        "Assentamento para revestimento em piso cerâmico placa 20x20cm",
+        "Mão de obra de rodapé Porcelanato",
+        "Mão de obra de colocação de soleira em porcelanato"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "chapisco_m2_por_m2_ac": {
       "id": "REV_01",
-      "valor": 4.2561,
+      "valor": 0.4192,
       "unidade": "m²/m² AC",
-      "soma_bruta": 60791.79,
-      "n_itens": 44,
+      "soma_bruta": 5987.44,
+      "n_itens": 3,
       "itens_fonte": [
         "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco"
-      ]
+        "Chapisco externo de argamassa pré-fabricada adesiva de cimento colante - aplicaç",
+        "Mao de obra para reboco externo - inclui chapisco"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
+    },
+    "estucamento_m2_por_m2_ac": {
+      "id": "DIV_13",
+      "valor": 0.128,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 1828.3,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Estucamento de teto",
+        "Mão de obra execução de estucamento em teto"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "forro_gesso_m2_por_m2_ac": {
       "id": "DIV_01",
-      "valor": 0.5069,
+      "valor": 0.0572,
       "unidade": "m²/m² AC",
-      "soma_bruta": 7240.78,
-      "n_itens": 32,
+      "soma_bruta": 817.29,
+      "n_itens": 3,
       "itens_fonte": [
         "Forro de gesso mineral em tetos - Material e Mão de Obra",
         "Forro de gesso acartonado - áreas úmidas - Material e Mão de Obra",
-        "Forro de gesso mineral em tetos - Material e Mão de Obra",
-        "Forro de gesso acartonado - áreas úmidas - Material e Mão de Obra",
-        "Forro de gesso mineral em tetos - Material e Mão de Obra",
-        "Forro de gesso mineral em tetos - Material e Mão de Obra",
-        "Forro de gesso mineral em tetos - Material e Mão de Obra",
-        "Forro de gesso mineral em tetos - Material e Mão de Obra",
-        "Forro de gesso acartonado - áreas úmidas - Material e Mão de Obra",
-        "Forro de gesso mineral em tetos - Material e Mão de Obra"
-      ]
+        "Forro de madeira - Material e Mão de Obra"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "contrapiso_m2_por_m2_ac": {
       "id": "REV_03",
-      "valor": 1.1919,
+      "valor": 0.1415,
       "unidade": "m²/m² AC",
-      "soma_bruta": 17023.71,
-      "n_itens": 75,
+      "soma_bruta": 2021.27,
+      "n_itens": 4,
       "itens_fonte": [
         "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 5cm",
         "Contrapiso acústico em argamassa estabilizada, não aderidom espessura 5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 5cm",
-        "Contrapiso acústico em argamassa estabilizada, não aderidom espessura 5cm"
-      ]
+        "Piso cimentado com argamassa de contrapiso usinada e acabamento vassourado",
+        "Mão de obra execução de contrapiso comum e Acústico"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
+    },
+    "piso_vinilico_m2_por_m2_ac": {
+      "id": "DIV_07",
+      "valor": 0.013,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 185.35,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Revestimento de piso vinilico, nas áreas comuns - Material e Mão de Obra",
+        "Revestimento de piso vinilico, nas áreas privativas - Material e Mão de Obra"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
+    },
+    "rodape_m_por_m2_ac": {
+      "id": "DIV_08",
+      "valor": 0.0661,
+      "unidade": "m/m² AC",
+      "soma_bruta": 943.67,
+      "n_itens": 5,
+      "itens_fonte": [
+        "Rodapé de cerâmico h=10cm",
+        "Rodapé de Poliestireno Santa Luzia h=5cm",
+        "Rodapé de invertido h=2cm",
+        "Rodapé de poliestireno h=10cm",
+        "Mão de obra de rodapé Poliestireno"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "pintura_interna_m2_por_m2_ac": {
       "id": "PIN_01",
-      "valor": 6.1707,
+      "valor": 0.5004,
       "unidade": "m²/m² AC",
-      "soma_bruta": 88137.93,
-      "n_itens": 240,
+      "soma_bruta": 7147.27,
+      "n_itens": 11,
       "itens_fonte": [
         "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Branco Gelo",
         "Pintura em Látex Acrilica para demarcação de vagas em parede, 2 demão",
         "Massa Corrida em Paredes Internas",
-        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Branco Gelo",
-        "Pintura em Látex Acrilica para demarcação de vagas em parede, 2 demão",
-        "Massa Corrida em Paredes Internas",
-        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Branco Gelo",
-        "Pintura em Látex Acrilica para demarcação de vagas em parede, 2 demão",
-        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Branco Gelo",
-        "Pintura em Látex Acrilica para demarcação de vagas em parede, 2 demão"
-      ]
+        "Pintura com tinta látex acrílica com selador em tetos, 3 demãos",
+        "Pintura em Epóxi em Piso, Aplicação Manual, 2 Demãos",
+        "Pintura em Acrilica em Piso, Aplicação Manual, 2 Demãos",
+        "Mão de obra para pintura em pisos , 2 demãos",
+        "Mão de obra para pintura em paredes internas, 3 demãos",
+        "Mão de obra para pintura em teto, 3 demãos",
+        "Pintura Com Tinta Latex Acrilica em Paredes Externas, 3 Demaos (Somente tinta e "
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "pintura_externa_m2_por_m2_ac": {
       "id": "PIN_02",
-      "valor": 0.6329,
+      "valor": 0.1722,
       "unidade": "m²/m² AC",
-      "soma_bruta": 9039.73,
-      "n_itens": 34,
+      "soma_bruta": 2459.28,
+      "n_itens": 2,
       "itens_fonte": [
         "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão"
-      ]
+        "Textura projetada, aplicação em paredes externas - 1 demão"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "vidros_m2_por_m2_ac": {
       "id": "ESQ_03",
       "valor": 0.0435,
       "unidade": "m²/m² AC",
-      "soma_bruta": 621.62,
-      "n_itens": 2,
+      "soma_bruta": 620.62,
+      "n_itens": 1,
       "itens_fonte": [
-        "Guarda Corpo de Vidro e Aluminio - fornecimento e instalação",
         "Guarda Corpo de Vidro e Aluminio - fornecimento e instalação"
-      ]
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "revestimento_fachada_m2_por_m2_ac": {
       "id": "REV_05",
-      "valor": 0.9503,
+      "valor": 0.3926,
       "unidade": "m²/m² AC",
-      "soma_bruta": 13572.95,
-      "n_itens": 12,
+      "soma_bruta": 5608.19,
+      "n_itens": 10,
       "itens_fonte": [
         "Brise de Alumínio - Decoração Fachada",
         "Iluminação da fachada",
@@ -376,39 +314,53 @@
         "Limpeza fachadas  - Esquerda - Torre",
         "Limpeza fachadas  - Posterior - Torre",
         "Limpeza fachadas  - Direita - Torre"
-      ]
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
+    },
+    "guarda_corpo_m_por_m2_ac": {
+      "id": "ESQ_04",
+      "valor": 0.0261,
+      "unidade": "m/m² AC",
+      "soma_bruta": 373.21,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Corrimão de Madeira - fornecimento e instalação"
+      ],
+      "divisor": 14283.29,
+      "norm_by": "ac"
     },
     "taxa_aco_kg_por_m3": {
       "id": "EST_03b",
-      "valor": 64.57,
+      "valor": 12.3,
       "unidade": "kg/m³",
-      "soma_bruta": 360962.0561029786,
-      "n_itens": 288,
+      "soma_bruta": 43938.17965062107,
+      "n_itens": 5,
       "itens_fonte": [
         "(calculado: aço total / concreto total)"
       ]
     }
   },
   "nao_classificados_sample": [
-    "Contabilidade",
-    "Advocacia",
-    "Serviço terceirizado de segurança do trabalho",
-    "Engenheiro Civil",
-    "Mestre de Obras",
-    "Almoxarife",
-    "Estagiário",
-    "Guincheiro",
-    "Operador de Grua",
-    "Sinaleiro",
-    "Equipe de apoio (4 serventes)",
-    "Prevision",
-    "Sienge",
-    "Clicksign",
-    "Drive",
-    "IPTU",
-    "Locação da obra",
-    "Locação de banheiro químico",
-    "Trama de madeira forrada em painel compensado - Primária",
-    "Trama de madeira forrada em painel compensado - Secundária"
+    "Rebaixamento de Lençol freático",
+    "Lastro de Brita, Aplicado em Piso sobre solo",
+    "Locação topográfica",
+    "Forma para infraestrutura em Tábuas de Madeira Serrada 2x reaproveitamento",
+    "Mão de obra para execução de fundação",
+    "Piso sobre o solo",
+    "Fabricação de Fôrma para Pilares, em Chapa de Madeira Compensada Plastificada, E=18mm",
+    "Fabricação de Fôrma para Vigas, em Chapa de Madeira Compensada Plastificada, E=18mm",
+    "Fabricação de Fôrma para Lajes, em Chapa de Madeira Compensada Plastificada, E=18mm",
+    "Montagem e Desmontagem de Fôrma de Pilares",
+    "Montagem e Desmontagem de Fôrma de Vigas",
+    "Montagem e Desmontagem de Fôrma de Lajes",
+    "Cobogó em cerâmico vazado 20x20cm",
+    "Mão de obra para assentamento de blocos cerâmicos",
+    "Mão de obra para assentamento de blocos concreto",
+    "Mão de obra para assentamento de blocos de Refratário",
+    "Pontos de climatização",
+    "Equipamento ar - condicionado 12.000 BTU",
+    "Instalação de equipamento de climatização",
+    "Exaustão de churrasqueiras"
   ]
 }

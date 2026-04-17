@@ -6,532 +6,541 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 0,
-  "data_extracao": "2026-04-17T20:03:52",
-  "duration_s": 0.3,
-  "n_itens_processados": 4718,
-  "n_itens_classificados": 4718,
-  "n_indicadores_extraidos": 30,
+  "data_extracao": "2026-04-17T20:37:31",
+  "duration_s": 0.1,
+  "n_itens_processados": 633,
+  "n_itens_classificados": 633,
+  "n_indicadores_extraidos": 33,
   "indicadores": {
-    "elevadores_por_torre": {
-      "id": "DIV_02",
-      "valor": 1894.7939,
-      "unidade": "un/torre",
-      "soma_bruta": 1894.79,
-      "n_itens": 3,
+    "portas_un_por_ur": {
+      "id": "ESQ_01",
+      "valor": 75.7463,
+      "unidade": "un/UR",
+      "soma_bruta": 2651.12,
+      "n_itens": 15,
+      "itens_fonte": [
+        "Custos de Vigilância e Portaria",
+        "Requadro de portas dos Elevadores Granito,Largura de 20cm",
+        "Mão de obra para assentamento de requadros em portas de elevador",
+        "Porta de madeira de abrir - 110x220cm (kit completo) - fixação com espuma expans",
+        "Ferragens para Portas - Maçaneta, fechadura, dobradiça.",
+        "Fechadura eletronica",
+        "Mão de obra para instalação de portas de madeira",
+        "Porta corta-fogo, 1 folha, 106x210 cm",
+        "Porta corta-fogo, 1 folha, 90x213cm",
+        "Mão de obra para instalação de portas corta-fogo"
+      ],
+      "divisor": 35,
+      "norm_by": "ur"
+    },
+    "movimento_terra_m3_por_m2_ac": {
+      "id": "EST_05",
+      "valor": 0.3929,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 5159.14,
+      "n_itens": 4,
       "itens_fonte": [
         "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevad",
-        "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevad",
-        "Quantidade de elevadores por pavimento"
-      ]
+        "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadei",
+        "Movimentação de terra para bota-fora - Escavação de Valas",
+        "Movimentação de terra para bota-fora - Estacas"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "concreto_m3_por_m2_ac": {
       "id": "EST_01",
-      "valor": 0.6293,
+      "valor": 1.1723,
       "unidade": "m³/m² AC",
-      "soma_bruta": 8263.93,
-      "n_itens": 17,
+      "soma_bruta": 15393.84,
+      "n_itens": 7,
       "itens_fonte": [
         "Lastro de Concreto Magro, Aplicado em Blocos de Fundação",
-        "Lastro de Concreto Magro, Aplicado em Blocos de Fundação",
-        "Lastro de Concreto Magro, Aplicado em Blocos de Fundação",
         "Concreto Usinado bombeável para estacas 40MPa  - incluindo serviço de bombeament",
-        "Concreto Usinado bombeável para estacas 40MPa  - incluindo serviço de bombeament",
-        "Concreto Usinado bombeável para estacas 40MPa  - incluindo serviço de bombeament",
-        "Concreto Usinado bombeável 50MPa para infraestrutura- incluindo serviço de bombe",
         "Concreto Usinado bombeável 50MPa para infraestrutura- incluindo serviço de bombe",
         "Concreto Usinado FCK = 50MPa Bombeavel Para Supraestrutura",
-        "Concreto Usinado FCK = 50MPa Bombeavel Para Supraestrutura"
-      ]
+        "Mão de obra para execução de supraestrutura de concreto armado",
+        "Verga/contraverga de concreto, moldada in loco",
+        "Vergalhão de cobre Ø3/8\"."
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "estaca_m_por_m2_ac": {
+      "id": "EST_06",
+      "valor": 0.2266,
+      "unidade": "m/m² AC",
+      "soma_bruta": 2976.0,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Perfuração de estaca hélice contínua Ø 60cm",
+        "Corte e Preparo de Cabeça de Estaca"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "aco_kg_por_m2_ac": {
       "id": "EST_02",
-      "valor": 97.2502,
+      "valor": 23.9917,
       "unidade": "kg/m² AC",
-      "soma_bruta": 1277075.15,
-      "n_itens": 120,
+      "soma_bruta": 315055.52,
+      "n_itens": 9,
       "itens_fonte": [
         "Armação aço CA-50 ø 6,3mm para estaca (corte e dobra em obra)",
-        "Armação aço CA-50 ø 6,3mm para estaca (corte e dobra em obra)",
-        "Armação aço CA-50 ø 6,3mm para estaca (corte e dobra em obra)",
-        "Armação aço CA-50 ø 16,0mm para estaca (corte e dobra em obra)",
-        "Armação aço CA-50 ø 16,0mm para estaca (corte e dobra em obra)",
-        "Armação aço CA-50 ø 16,0mm para estaca (corte e dobra em obra)",
-        "Armação aço CA-50 ø 20,0mm para estaca (corte e dobra em obra)",
-        "Armação aço CA-50 ø 20,0mm para estaca (corte e dobra em obra)",
-        "Armação aço CA-50 ø 20,0mm para estaca (corte e dobra em obra)",
-        "Armação aço CA-50 ø 5,0mm para infraestrutura (corte e dobra em obra)"
-      ]
+        "Armação aço CA-50 ø 5,0mm para infraestrutura (corte e dobra em obra)",
+        "Armação Aço CA-60, Diâmetro de 5,0mm para Supraestrutura, Corte e Dobra em Obra",
+        "Tela soldada para ligacao alvenaria/estrutura",
+        "Acústica para Contrapiso com malha de aço e manta polipropileno",
+        "Curva Horizontal 90°, para eletrocalha, chapa de aço carbono galvanizada, largur",
+        "Curva Vertical Interna 90°, para eletrocalha, chapa de aço carbono galvanizada, ",
+        "Emenda Interna, para eletrocalha, chapa de aço carbono galvanizada, largura de 2",
+        "Arruela lisa Ø3/8', de aço carbono, galvanizada"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "escoramento_m2_por_m2_ac": {
       "id": "EST_04",
-      "valor": 1.0001,
+      "valor": 0.5945,
       "unidade": "m²/m² AC",
-      "soma_bruta": 13132.85,
-      "n_itens": 4,
+      "soma_bruta": 7807.47,
+      "n_itens": 1,
       "itens_fonte": [
-        "Locação de escoramento metálico pe direito simples",
-        "Locação de escoramento metálico pe direito simples",
-        "Locação de escoramento metálico pe direito simples",
         "Locação de escoramento metálico pe direito simples"
-      ]
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "alvenaria_m2_por_m2_ac": {
       "id": "ALV_01",
-      "valor": 1.299,
+      "valor": 0.8093,
       "unidade": "m²/m² AC",
-      "soma_bruta": 17058.27,
-      "n_itens": 48,
+      "soma_bruta": 10627.49,
+      "n_itens": 8,
       "itens_fonte": [
         "Alvenaria de vedacao de blocos ceramicos de 9x19x29cm com argamassa industrializ",
-        "Alvenaria de vedacao de blocos ceramicos de 9x19x29cm com argamassa industrializ",
-        "Alvenaria de vedacao de blocos ceramicos de 11.5x19x29cm com argamassa industria",
-        "Alvenaria de vedacao de blocos ceramicos de 11.5x19x29cm com argamassa industria",
-        "Alvenaria de vedacao de blocos ceramicos de 14x19x29cm com argamassa industriali",
-        "Alvenaria de vedacao de blocos ceramicos de 14x19x29cm com argamassa industriali",
-        "Alvenaria de vedacao de blocos ceramicos de 19x19x19cm com argamassa industriali",
-        "Alvenaria de vedacao de blocos ceramicos de 19x19x19cm com argamassa industriali",
+        "Alvenaria em Bloco De Concreto Celular 60x30x10cm Sical com argamassa industrial",
+        "Encunhamento de alvenaria de vedação com argamassa expansiva",
         "Alvenaria de vedação de blocos de concreto de 11,5x19x39cm, com argamassa estabi",
-        "Alvenaria de vedação de blocos de concreto de 11,5x19x39cm, com argamassa estabi"
-      ]
-    },
-    "manta_asfaltica_m2_por_m2_ac": {
-      "id": "IMP_01",
-      "valor": 1.0636,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 13967.11,
-      "n_itens": 20,
-      "itens_fonte": [
-        "Regularização de superfície para impermeabilização",
-        "Regularização de superfície para impermeabilização",
-        "Impermeabilização De Superfície Com Argamassa Polimérica / Membrana Acrílica, 3 ",
-        "Impermeabilização De Superfície Com Aspersão de CWS e CWS100",
-        "Mão de obra impermeabilização de aspersão de CWS",
-        "Mão de obra impermeabilização de argamassa polimérica",
-        "IMPERMEABILIZAÇÃO E TRATAMENTOS",
-        "Regularização de superfície para impermeabilização",
-        "Impermeabilização De Superfície Com Aspersão de CWS e CWS100",
-        "Impermeabilização De Superfície Com Argamassa Polimérica / Membrana Acrílica, 3 "
-      ]
-    },
-    "ralos_caixas_sifonadas_por_ur": {
-      "id": "HID_05",
-      "valor": 110.517,
-      "unidade": "un/UR",
-      "soma_bruta": 3868.1,
-      "n_itens": 9,
-      "itens_fonte": [
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Mão de obra tratamento de ralo com manta de poliéster",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Mão de obra tratamento de ralo com manta de poliéster",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Mão de obra tratamento de ralo com manta de poliéster",
-        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
-        "Mão de obra tratamento de ralo com manta de poliéster"
-      ]
-    },
-    "revestimento_fachada_m2_por_m2_ac": {
-      "id": "REV_05",
-      "valor": 1.8518,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 24318.21,
-      "n_itens": 12,
-      "itens_fonte": [
-        "mpermeabilização de Fachadas (ULTRAVENT)",
-        "Mão de obra impermeabilização com manta liquida em Fachadas",
-        "Substrutura de alumínio para fachada ventilada",
-        "mpermeabilização de Fachadas (ULTRAVENT)",
-        "Mão de obra impermeabilização com manta liquida em Fachadas",
-        "mpermeabilização de Fachadas (ULTRAVENT)",
-        "Mão de obra impermeabilização com manta liquida em Fachadas",
-        "mpermeabilização de Fachadas (ULTRAVENT)",
-        "Mão de obra impermeabilização com manta liquida em Fachadas",
-        "Substrutura de alumínio para fachada ventilada"
-      ]
-    },
-    "reboco_m2_por_m2_ac": {
-      "id": "REV_02",
-      "valor": 0.7803,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 10246.26,
-      "n_itens": 6,
-      "itens_fonte": [
-        "Massa unica para reboco interno em argamassa estabilizada projetada, espessura 2",
-        "Massa unica para reboco Externas em argamassa estabilizada projetada, espessura ",
-        "Massa unica para reboco interno em argamassa estabilizada projetada, espessura 2",
-        "Massa unica para reboco Externas em argamassa estabilizada projetada, espessura ",
-        "Massa unica para reboco interno em argamassa estabilizada projetada, espessura 2",
-        "Massa unica para reboco interno em argamassa estabilizada projetada, espessura 2"
-      ]
-    },
-    "porcelanato_ceramica_m2_por_m2_ac": {
-      "id": "REV_04",
-      "valor": 2.1139,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 27758.94,
-      "n_itens": 113,
-      "itens_fonte": [
-        "Revestimento em Paredes,  Porcelanato Superquadra Cru 60X120 Nat Ret",
-        "Revestimento em Paredes,  Porcelanato Superquadra Cru 60X120 Nat Ret",
-        "Revestimento em Paredes,  Porcelanato Superquadra Cru 60X120 Nat Ret",
-        "Revestimento em Paredes,  Porcelanato Superquadra Cru 60X120 Nat Ret",
-        "Revestimento em Paredes,  Porcelanato Ártico Alpe 60X120Cm Ret. Ac. Eliane",
-        "Revestimento em Paredes,  Porcelanato Ártico Alpe 60X120Cm Ret. Ac. Eliane",
-        "Revestimento em Paredes,  Porcelanato Ártico Alpe 60X120Cm Ret. Ac. Eliane",
-        "Revestimento em Paredes,  Porcelanato Ártico Alpe 60X120Cm Ret. Ac. Eliane",
-        "Revestimento em Paredes,  Porcelanato Onyx Unique Ret. Acetinado 120X120Cm - Por",
-        "Revestimento em Paredes,  Porcelanato Onyx Unique Ret. Acetinado 120X120Cm - Por"
-      ]
-    },
-    "portas_un_por_ur": {
-      "id": "ESQ_01",
-      "valor": 99.4518,
-      "unidade": "un/UR",
-      "soma_bruta": 3480.81,
-      "n_itens": 63,
-      "itens_fonte": [
-        "Requadro de portas dos Elevadores Granito,Largura de 20cm",
-        "Requadro de portas dos Elevadores Granito,Largura de 20cm",
-        "Mão de obra para assentamento de requadros em portas de elevador",
-        "Porta de madeira de abrir - 60x220cm (kit completo) - fixação com espuma expansi",
-        "Porta de madeira de abrir - 60x220cm (kit completo) - fixação com espuma expansi",
-        "Porta de madeira de abrir - 70x210cm (kit completo) - fixação com espuma expansi",
-        "Porta de madeira de abrir - 70x210cm (kit completo) - fixação com espuma expansi",
-        "Porta de madeira de abrir - 80x210cm (kit completo) - fixação com espuma expansi",
-        "Porta de madeira de abrir - 80x210cm (kit completo) - fixação com espuma expansi",
-        "Porta de madeira de abrir - 87x210cm (kit completo) - fixação com espuma expansi"
-      ]
-    },
-    "chapisco_m2_por_m2_ac": {
-      "id": "REV_01",
-      "valor": 0.7774,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 10208.26,
-      "n_itens": 6,
-      "itens_fonte": [
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mao de obra para reboco externo - inclui chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mao de obra para reboco externo - inclui chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
-        "Mão de obra execução de massa única em paredes interna, incluindo chapisco"
-      ]
-    },
-    "forro_gesso_m2_por_m2_ac": {
-      "id": "DIV_01",
-      "valor": 0.4996,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 6560.64,
-      "n_itens": 18,
-      "itens_fonte": [
-        "Forro de gesso acartonado - áreas secas - Material e Mão de Obra",
-        "Forro de gesso acartonado - áreas úmidas - Material e Mão de Obra",
-        "FORRO DRYWALL 48 mm - PLACA ST - Material e Mão de obra",
-        "FORRO DRYWALL 48 mm - PLACA ST - Material e Mão de obra",
-        "FORRO DRYWALL 48 mm - PLACA ST - Material e Mão de obra",
-        "FORRO DRYWALL 48 mm - PLACA ST - Material e Mão de obra",
-        "FORRO DRYWALL 48 mm - PLACA ST - Material e Mão de obra",
-        "FORRO DRYWALL 48 mm - PLACA ST - Material e Mão de obra",
-        "FORRO DRYWALL 48 mm - PLACA ST - Material e Mão de obra",
-        "FORRO DRYWALL 48 mm - PLACA ST - Material e Mão de obra"
-      ]
+        "Chapisco externo de argamassa estabilizada projetada, em alvenaria, paredes Inte",
+        "Chapisco externo de argamassa estabilizada projetada, em alvenaria, Estrutura In",
+        "Chapisco externo de argamassa estabilizada projetada, em alvenaria, paredes Exte",
+        "Chapisco externo de argamassa estabilizada projetada, em alvenaria, Estrutura Ex"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "contrapiso_m2_por_m2_ac": {
       "id": "REV_03",
-      "valor": 1.257,
+      "valor": 0.892,
       "unidade": "m²/m² AC",
-      "soma_bruta": 16507.26,
-      "n_itens": 26,
-      "itens_fonte": [
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 2cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 2cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 2cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 3cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 3cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 3cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 3,5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 3,5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 3,5cm",
-        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 4cm"
-      ]
-    },
-    "pintura_interna_m2_por_m2_ac": {
-      "id": "PIN_01",
-      "valor": 6.7982,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 89272.62,
-      "n_itens": 107,
-      "itens_fonte": [
-        "Pintura em Epóxi em Piso, Aplicação Manual, 2 Demãos",
-        "Pintura em Epóxi em Piso, Aplicação Manual, 2 Demãos",
-        "Pintura em Epóxi em Piso, Aplicação Manual, 2 Demãos",
-        "Pintura em Epóxi em Piso, Aplicação Manual, 2 Demãos",
-        "Pintura em Acrilica em Piso, Aplicação Manual, 2 Demãos",
-        "Pintura em Acrilica em Piso, Aplicação Manual, 2 Demãos",
-        "Pintura em Acrilica em Piso, Aplicação Manual, 2 Demãos",
-        "Massa Corrida em Paredes Internas",
-        "Massa Corrida em Paredes Internas",
-        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Branco Gelo"
-      ]
-    },
-    "pintura_externa_m2_por_m2_ac": {
-      "id": "PIN_02",
-      "valor": 0.4811,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 6318.0,
-      "n_itens": 12,
-      "itens_fonte": [
-        "Textura acrílica aplicação em Escadas, 1 demão",
-        "Textura acrílica aplicação em Escadas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura Acrílica aplicação em tetos, 1 demão",
-        "Textura acrílica aplicação em Escadas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura Acrílica aplicação em tetos, 1 demão",
-        "Textura acrílica aplicação em Escadas, 1 demão",
-        "Textura acrílica aplicação em paredes internas, 1 demão",
-        "Textura Acrílica aplicação em tetos, 1 demão"
-      ]
-    },
-    "guarda_corpo_m_por_m2_ac": {
-      "id": "ESQ_04",
-      "valor": 0.064,
-      "unidade": "m/m² AC",
-      "soma_bruta": 840.7,
-      "n_itens": 4,
-      "itens_fonte": [
-        "Corrimão de Madeira - fornecimento e instalação",
-        "Corrimão de inox - fornecimento e instalação",
-        "Corrimão de inox - fornecimento e instalação",
-        "Corrimão de Madeira - fornecimento e instalação"
-      ]
-    },
-    "vidros_m2_por_m2_ac": {
-      "id": "ESQ_03",
-      "valor": 0.0725,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 952.31,
+      "soma_bruta": 11713.33,
       "n_itens": 2,
       "itens_fonte": [
-        "ESQUADRIAS, VIDROS E FERRAGENS",
-        "kit com 3 Isoladores suporte de pedestal com prensa cabo para barramento vidro o"
-      ]
+        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 2cm",
+        "Mão de obra execução de contrapiso comum e Acústico"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "reboco_m2_por_m2_ac": {
+      "id": "REV_02",
+      "valor": 0.4797,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 6299.21,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Massa unica para reboco interno em argamassa estabilizada projetada, espessura 2",
+        "Massa unica para reboco Externas em argamassa estabilizada projetada, espessura "
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "estucamento_m2_por_m2_ac": {
+      "id": "DIV_13",
+      "valor": 0.9645,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 12665.95,
+      "n_itens": 3,
+      "itens_fonte": [
+        "Estucamento de teto",
+        "Mão de obra execução de estucamento em teto",
+        "Mão de obra estucamento de paredes externas"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "chapisco_m2_por_m2_ac": {
+      "id": "REV_01",
+      "valor": 0.4797,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 6299.21,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Mão de obra execução de massa única em paredes interna, incluindo chapisco",
+        "Mao de obra para reboco externo - inclui chapisco"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "forro_gesso_m2_por_m2_ac": {
+      "id": "DIV_01",
+      "valor": 0.4923,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 6464.74,
+      "n_itens": 4,
+      "itens_fonte": [
+        "FORRO DRYWALL 48 mm - PLACA ST - Material e Mão de obra",
+        "Forro de gesso modular - material e mão de obra",
+        "Forro de gesso acartonado - áreas secas - Material e Mão de Obra",
+        "Forro de gesso acartonado - áreas úmidas - Material e Mão de Obra"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "piso_vinilico_m2_por_m2_ac": {
+      "id": "DIV_07",
+      "valor": 0.161,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 2114.16,
+      "n_itens": 4,
+      "itens_fonte": [
+        "Revestimento em Tetos ,  Vinilico - Material e Mão de obra",
+        "Revestimento de Piso Vinilico Linha Ambienta Series Cedro  Tarkett",
+        "Revestimento de Piso Vinilico Flamboyant Reguá 208X1230Mm Tarkett",
+        "Revestimento de Piso Vinilico Luz Do Dia Linha Vital 1219,2X228,6Mm Finotatto"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "porcelanato_ceramica_m2_por_m2_ac": {
+      "id": "REV_04",
+      "valor": 1.823,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 23939.11,
+      "n_itens": 22,
+      "itens_fonte": [
+        "Revestimento cerâmico em tetos",
+        "Revestimento de Piso, Porcelanato 160X320 Cm",
+        "Revestimento de Piso Porcelanato Acetinado, Placa 100x100cm",
+        "Revestimento em Piso,  Porcelanato Travertino Navona Bianco 120X120Cm Ret. Natur",
+        "Revestimento em Piso,  Porcelanato Onyx Unique Ret. Polido 120X120Cm - Portobell",
+        "Revestimento em Piso,  Porcelanato Onyx Unique Ret. Acetinado 120X120Cm - Portob",
+        "Revestimento em Piso,  Porcelanato Pp Pro Nude Gp 60X60Cm Retificado",
+        "Revestimento de Piso, Porcelanato Botanique Melisse Mate Portobello 29X30Cm",
+        "Rodapé de porcelanato h=10cm",
+        "Revestimento em Paredes,  Porcelanato Ártico Alpe 60X120Cm Ret. Ac. Eliane"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "manta_asfaltica_m2_por_m2_ac": {
+      "id": "IMP_01",
+      "valor": 0.9324,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 12243.5,
+      "n_itens": 5,
+      "itens_fonte": [
+        "Regularização de superfície para impermeabilização",
+        "Impermeabilização De Superfície Com Aspersão de CWS e CWS100",
+        "Impermeabilização De Superfície Com Argamassa Polimérica / Membrana Acrílica, 3 ",
+        "Mão de obra impermeabilização de aspersão de CWS",
+        "Mão de obra impermeabilização de argamassa polimérica"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "ralos_caixas_sifonadas_por_ur": {
+      "id": "HID_05",
+      "valor": 103.6571,
+      "unidade": "un/UR",
+      "soma_bruta": 3628.0,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Tratamento De Ralo Ou Ponto Emergente Com Argamassa Polimérica Reforçado Com Tel",
+        "Mão de obra tratamento de ralo com manta de poliéster"
+      ],
+      "divisor": 35,
+      "norm_by": "ur"
+    },
+    "revestimento_fachada_m2_por_m2_ac": {
+      "id": "REV_05",
+      "valor": 1.4759,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 19381.05,
+      "n_itens": 3,
+      "itens_fonte": [
+        "mpermeabilização de Fachadas (ULTRAVENT)",
+        "Mão de obra impermeabilização com manta liquida em Fachadas",
+        "Substrutura de alumínio para fachada ventilada"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "drywall_divisoria_m2_por_m2_ac": {
       "id": "DIV_06",
-      "valor": 0.4623,
+      "valor": 0.4348,
       "unidade": "m²/m² AC",
-      "soma_bruta": 6070.94,
+      "soma_bruta": 5709.89,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Tratamento De Alinhamento do Drywall com Martique e Tarucel"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "pintura_interna_m2_por_m2_ac": {
+      "id": "PIN_01",
+      "valor": 5.4634,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 71744.64,
+      "n_itens": 14,
+      "itens_fonte": [
+        "Pintura em Epóxi em Piso, Aplicação Manual, 2 Demãos",
+        "Massa Corrida em Paredes Internas",
+        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Branco",
+        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Branco Gelo",
+        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Anfora de Prata",
+        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Nevoeiro",
+        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos Ouro Branco",
+        "Pintura Com Tinta Epoxi em Paredes Internas, Faixas Preto e Amarelo h=30cm",
+        "Pintura com tinta látex acrílica com selador em tetos, 3 demãos",
+        "Pintura em Látex Acrilica para demarcação de vagas em parede, 2 demão"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "pintura_externa_m2_por_m2_ac": {
+      "id": "PIN_02",
+      "valor": 0.2897,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 3804.35,
+      "n_itens": 3,
+      "itens_fonte": [
+        "Textura acrílica aplicação em Escadas, 1 demão",
+        "Textura acrílica aplicação em paredes internas, 1 demão",
+        "Textura Acrílica aplicação em tetos, 1 demão"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "rodape_m_por_m2_ac": {
+      "id": "DIV_08",
+      "valor": 0.3965,
+      "unidade": "m/m² AC",
+      "soma_bruta": 5207.07,
+      "n_itens": 9,
+      "itens_fonte": [
+        "Rodapé de Poliestireno Santa Luzia h=5cm",
+        "Rodape Branco Zeus - 20Cm",
+        "Rodapé de MDF h=20cm",
+        "Rodapé de Cerâmico h=15cm",
+        "Rodapé de Pedra h=20cm",
+        "Mão de obra de rodapé Madeira/MDF",
+        "Mão de obra de rodapé Poliestireno",
+        "Mão de obra de rodapé Pedra/Granito",
+        "Rodape Madeira - 20Cm"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "contramarco_un_por_ur": {
+      "id": "ESQ_05",
+      "valor": 157.2506,
+      "unidade": "un/UR",
+      "soma_bruta": 5503.77,
       "n_itens": 2,
       "itens_fonte": [
-        "Tratamento De Alinhamento do Drywall com Martique e Tarucel",
-        "Tratamento De Alinhamento do Drywall com Martique e Tarucel"
-      ]
+        "Contramarco de Alumínio, Fixação com Argamassa",
+        "Contramarco de aço galvanizado Fixados com Argamassa"
+      ],
+      "divisor": 35,
+      "norm_by": "ur"
+    },
+    "janelas_un_por_ur": {
+      "id": "ESQ_02",
+      "valor": 136.1097,
+      "unidade": "un/UR",
+      "soma_bruta": 4763.84,
+      "n_itens": 5,
+      "itens_fonte": [
+        "Esquadrias de Alumínio - fornecimento e instalação",
+        "Atuador Para Janela de Desenfumagem - 24V - D+H CDC 200/600",
+        "Janela de Desenfumagem Basculante - 50x50cm",
+        "Atuador Para Janela de Desenfumagem - 24V - D+H CDC 200/600",
+        "Janela de Desenfumagem Basculante - 50x50cm"
+      ],
+      "divisor": 35,
+      "norm_by": "ur"
+    },
+    "guarda_corpo_m_por_m2_ac": {
+      "id": "ESQ_04",
+      "valor": 0.0639,
+      "unidade": "m/m² AC",
+      "soma_bruta": 838.7,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Corrimão de inox - fornecimento e instalação",
+        "Corrimão de Madeira - fornecimento e instalação"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "eletroduto_m_por_m2_ac": {
       "id": "ELE_05",
-      "valor": 0.9233,
+      "valor": 0.2724,
       "unidade": "m/m² AC",
-      "soma_bruta": 12124.32,
-      "n_itens": 166,
+      "soma_bruta": 3577.64,
+      "n_itens": 16,
       "itens_fonte": [
         "ELETRODUTO FLEXÍVEL TIPO LEVE 1\"",
         "ELETRODUTO FLEXÍVEL TIPO LEVE 3/4\"",
         "ELETRODUTO FLEXÍVEL TIPO LEVE 1\"",
         "ELETRODUTO FLEXÍVEL TIPO LEVE 3/4\"",
         "ELETRODUTO FLEXÍVEL TIPO MÉDIO 3/4\"",
-        "ELETRODUTO FLEXÍVEL TIPO LEVE 3/4\"",
-        "ELETRODUTO FLEXÍVEL TIPO LEVE 1\"",
-        "ELETRODUTO FLEXÍVEL TIPO LEVE 3/4\"",
         "ELETRODUTO FLEXÍVEL TIPO MÉDIO 1\"",
-        "ELETRODUTO FLEXÍVEL TIPO MÉDIO 1.1/4\""
-      ]
-    },
-    "quadros_eletricos_por_pavimento": {
-      "id": "ELE_03",
-      "valor": 38.0,
-      "unidade": "un/pav",
-      "soma_bruta": 38.0,
-      "n_itens": 26,
-      "itens_fonte": [
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - SEM BARRAMENTO 341x505x100mm - 36 módulos",
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - COM BARRAMENTO 500x600x150mm - 72 Módulos",
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - SEM BARRAMENTO 279x211x90mm - 12 módulos",
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - SEM BARRAMENTO 305x345x100mm - 24 módulos",
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - SEM BARRAMENTO 341x505x100mm - 36 módulos",
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - SEM BARRAMENTO 279x211x90mm - 12 módulos",
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - SEM BARRAMENTO 279x211x90mm - 12 módulos",
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - SEM BARRAMENTO 279x211x90mm - 12 módulos",
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - SEM BARRAMENTO 279x211x90mm - 12 módulos",
-        "QUADRO DE DISTRIBUIÇÃO EMBUTIR - SEM BARRAMENTO 341x505x100mm - 36 módulos"
-      ]
+        "Eletroduto de PVC Rígido, com Rosca BSP conforme NBR5598 Ø100",
+        "Eletroduto flexível corrugado PEAD, conforme NBR15715 Ø160",
+        "Eletroduto flexível corrugado Reforçado, em PVC na cor laranja antichamas, confo",
+        "ELETRODUTO FLEXÍVEL TIPO LEVE3/4\""
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "tomadas_por_ur": {
       "id": "ELE_02",
-      "valor": 19.6857,
+      "valor": 3.0286,
       "unidade": "un/UR",
-      "soma_bruta": 689.0,
-      "n_itens": 63,
+      "soma_bruta": 106.0,
+      "n_itens": 5,
       "itens_fonte": [
         "Módulo - Tomada 2P+T 10A",
-        "Módulo - Tomada 2P+T 20A",
-        "Módulo - Tomada 2P+T 10A",
-        "Módulo - Tomada 2P+T 20A",
-        "Módulo - Tomada 2P+T 20A",
-        "Módulo - Tomada 2P+T 20A",
-        "Módulo - Tomada 2P+T 20A",
-        "Módulo - Tomada 2P+T 10A",
-        "Módulo - Tomada 2P+T 20A",
-        "Módulo - Tomada 2P+T 10A"
-      ]
+        "TOMADA Módulo - Tomada 2P+T 10A",
+        "Tomada RJ11",
+        "Tomada p/ Antena de TV ( p/ cabo coaxial 9mm)",
+        "Tomada de Aspiração"
+      ],
+      "divisor": 35,
+      "norm_by": "ur"
     },
     "luminarias_por_ur": {
       "id": "ELE_04",
-      "valor": 5.4857,
+      "valor": 1.4571,
       "unidade": "un/UR",
-      "soma_bruta": 192.0,
-      "n_itens": 19,
+      "soma_bruta": 51.0,
+      "n_itens": 5,
       "itens_fonte": [
         "Luminária de Piscina",
         "Luminária completa, 100W, à prova de explosão.",
         "Luminária de Emergência, Bloco autônomo, 2h de funiconamento em emergência.",
         "Luminária de Emergência Centralizada - 24V - 7W",
-        "Luminária de Emergência Centralizada - 24V - 7W",
-        "Luminária de Emergência Centralizada - 24V - 7W",
-        "Luminária de Emergência Centralizada - 24V - 7W",
-        "Luminária de Emergência Centralizada - 24V - 7W",
-        "Luminária de Emergência Centralizada - 24V - 7W",
         "Luminária de Emergência Centralizada - 24V - 7W"
-      ]
+      ],
+      "divisor": 35,
+      "norm_by": "ur"
+    },
+    "vidros_m2_por_m2_ac": {
+      "id": "ESQ_03",
+      "valor": 0.0002,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 2.0,
+      "n_itens": 1,
+      "itens_fonte": [
+        "kit com 3 Isoladores suporte de pedestal com prensa cabo para barramento vidro o"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "registros_por_ur": {
       "id": "HID_04",
-      "valor": 11.3714,
+      "valor": 6.2,
       "unidade": "un/UR",
-      "soma_bruta": 398.0,
-      "n_itens": 44,
+      "soma_bruta": 217.0,
+      "n_itens": 13,
       "itens_fonte": [
         "Registro de Gaveta - 3/4\"",
         "Registro de Gaveta - 3/4\" ø25 mmxø25 mm",
         "Registro de pressão - 3/4\"  ø25 mmxø25 mm",
-        "Registro de Gaveta - 3/4\" ø25 mmxø25 mm",
-        "Registro de Gaveta - 3/4\" ø25 mmxø25 mm",
-        "Registro de Gaveta - 3/4\" ø25 mmxø25 mm",
-        "Registro de Gaveta - 3/4\" ø25 mmxø25 mm",
-        "Registro de Gaveta - 3/4\" ø25 mmxø25 mm",
-        "Registro de pressão - 3/4\"  ø25 mmxø25 mm",
-        "Registro de Gaveta - 3/4\" ø25 mmxø25 mm"
-      ]
+        "Registro de Gaveta - 1\" ø32 mmxø32 mm",
+        "Registro de Gaveta DocolBase - 1\" - Docol ø28 mmxø28 mm",
+        "Registro de pressão DocolBase 3/4\" - DocolBásicos ø25 mmxø25 mm",
+        "Registro de pressão 3/4\" ø25 mmxø25 mm",
+        "Adaptador Soldável Curto com Bolsa e Rosca para Registro  Soldável ø25xø25",
+        "ADAPTADOR SOLDÁVEL CURTO COM BOLSA E ROSCA PARA REGISTRO",
+        "Registro de Vazão (TROX) JN-B-1200x1665"
+      ],
+      "divisor": 35,
+      "norm_by": "ur"
     },
     "chuveiros_por_ur": {
       "id": "LOU_04",
-      "valor": 0.6571,
-      "unidade": "un/UR",
-      "soma_bruta": 23.0,
-      "n_itens": 5,
-      "itens_fonte": [
-        "Base misturador monocomando para chuveiro ø22 mmxø22 mmxø22 mm",
-        "Base misturador monocomando para chuveiro ø22 mmxø22 mmxø22 mm",
-        "Base misturador monocomando para chuveiro ø22 mmxø22 mmxø22 mm",
-        "Base misturador monocomando para chuveiro ø22 mmxø22 mmxø22 mm",
-        "Base misturador monocomando para chuveiro ø22 mmxø22 mmxø22 mm"
-      ]
-    },
-    "sprinklers_m2_por_m2_ac": {
-      "id": "DIV_04",
-      "valor": 0.0768,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 1009.0,
-      "n_itens": 14,
-      "itens_fonte": [
-        "Bico Sprinkler 25",
-        "Bico Sprinkler 25",
-        "Bico Sprinkler 25",
-        "Bico Sprinkler 25",
-        "Bico Sprinkler 25",
-        "Bico Sprinkler 25",
-        "Bico Sprinkler 25",
-        "Bico Sprinkler 25",
-        "Bico Sprinkler 25",
-        "Bico Sprinkler 25"
-      ]
-    },
-    "tubulacao_total_m_por_m2_ac": {
-      "id": "HID_03",
-      "valor": 0.2007,
-      "unidade": "m/m² AC",
-      "soma_bruta": 2635.0,
-      "n_itens": 14,
-      "itens_fonte": [
-        "Suporte p/ Tubulação de Sprinkler -",
-        "Suporte p/ Tubulação de Sprinkler -",
-        "Suporte p/ Tubulação de Sprinkler -",
-        "Suporte p/ Tubulação de Sprinkler -",
-        "Suporte p/ Tubulação de Sprinkler -",
-        "Suporte p/ Tubulação de Sprinkler -",
-        "Suporte p/ Tubulação de Sprinkler -",
-        "Suporte p/ Tubulação de Sprinkler -",
-        "Suporte p/ Tubulação de Sprinkler -",
-        "Suporte p/ Tubulação de Sprinkler -"
-      ]
-    },
-    "hidrantes_por_pavimento": {
-      "id": "DIV_03",
-      "valor": 1.0,
-      "unidade": "un/pav",
-      "soma_bruta": 1.0,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Hidrante de Recalque SHP - Parede 30x40x22cm"
-      ]
-    },
-    "janelas_un_por_ur": {
-      "id": "ESQ_02",
       "valor": 0.1714,
       "unidade": "un/UR",
       "soma_bruta": 6.0,
-      "n_itens": 6,
+      "n_itens": 1,
       "itens_fonte": [
-        "Atuador Para Janela de Desenfumagem - 24V - D+H CDC 200/600",
-        "Janela de Desenfumagem Basculante - 50x50cm",
-        "Atuador Para Janela de Desenfumagem - 24V - D+H CDC 200/600",
-        "Janela de Desenfumagem Basculante - 50x50cm",
-        "Atuador Para Janela de Desenfumagem - 24V - D+H CDC 200/600",
-        "Janela de Desenfumagem Basculante - 50x50cm"
-      ]
+        "Base misturador monocomando para chuveiro ø22 mmxø22 mmxø22 mm"
+      ],
+      "divisor": 35,
+      "norm_by": "ur"
+    },
+    "sprinklers_m2_por_m2_ac": {
+      "id": "DIV_04",
+      "valor": 0.0404,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 531.0,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Bico Sprinkler 25",
+        "Bico Sprinkler 25"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
+    },
+    "tubulacao_total_m_por_m2_ac": {
+      "id": "HID_03",
+      "valor": 0.0994,
+      "unidade": "m/m² AC",
+      "soma_bruta": 1305.0,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Suporte p/ Tubulação de Sprinkler -",
+        "Suporte p/ Tubulação de Sprinkler -"
+      ],
+      "divisor": 13131.85,
+      "norm_by": "ac"
     },
     "taxa_aco_kg_por_m3": {
       "id": "EST_03b",
-      "valor": 154.54,
+      "valor": 20.47,
       "unidade": "kg/m³",
-      "soma_bruta": 1277075.1486277017,
-      "n_itens": 120,
+      "soma_bruta": 315055.51999999996,
+      "n_itens": 9,
       "itens_fonte": [
         "(calculado: aço total / concreto total)"
       ]
     }
   },
   "nao_classificados_sample": [
+    "Laudo de higienização/limpeza da caixa d'agua",
+    "Tapume diferenciado (Obra Scenarium)",
+    "Portão de obra completo",
+    "Gabarito da obra",
+    "Sistema para tratamento de efluentes de tinta e argamassa",
+    "Consumo Mensal de Canteiro: Agua, Luz, Internet, telefone, Coleta de Lixo",
+    "Despesa de alimentação",
+    "Consumo Mensal de Canteiro: Material de Escritório e Higiêne e Limpeza",
+    "Manutenção Tapume e Calçada",
+    "Consumo Mensal de Canteiro: Limpeza Geral da Obra",
+    "Remoção de entulho",
+    "Plotagens e impressões",
+    "Manutenção provisória de canteiro",
+    "Manutenção provisória elétrica",
+    "Manutenção provisória hidrossanitária",
+    "Medicamentos preventivos e de emergência",
+    "Bandejas primarias",
     "Bandeja de proteção secundária",
-    "Bandeja de proteção secundária",
-    "Bandeja de proteção secundária",
-    "Bandeja de proteção secundária",
-    "Bandeja de proteção secundária",
-    "Tela fachadeira",
-    "Tela fachadeira",
-    "Tela fachadeira",
-    "Tela fachadeira",
-    "Linha de Vida",
-    "Linha de Vida",
-    "Linha de Vida",
-    "Limpeza Terreno Pernamente",
-    "Rebaixamento de Lençol freático",
-    "Rebaixamento de Lençol freático",
-    "Reaterro mecanizado de valas para blocos e vigas de fundação, com retroescavadeira",
-    "Movimentação de terra para bota-fora - Escavação de Valas",
-    "Movimentação de terra para bota-fora - Estacas",
-    "Perfuração de estaca hélice contínua Ø 60cm",
-    "Corte e Preparo de Cabeça de Estaca"
+    "Linha de vida",
+    "Tela fachadeira"
   ]
 }

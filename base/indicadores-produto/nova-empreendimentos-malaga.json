@@ -6,23 +6,23 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 23244532.72,
-  "data_extracao": "2026-04-17T20:03:54",
+  "data_extracao": "2026-04-17T20:37:32",
   "duration_s": 0.0,
-  "n_itens_processados": 7,
-  "n_itens_classificados": 7,
+  "n_itens_processados": 5,
+  "n_itens_classificados": 5,
   "n_indicadores_extraidos": 1,
   "indicadores": {
     "forro_gesso_m2_por_m2_ac": {
       "id": "DIV_01",
-      "valor": 0.0784,
+      "valor": 0.0354,
       "unidade": "m²/m² AC",
-      "soma_bruta": 347.45,
-      "n_itens": 3,
+      "soma_bruta": 156.79,
+      "n_itens": 1,
       "itens_fonte": [
-        "Execução de forro em ACM",
-        "Execução de forro em ACM",
         "Execução de forro em ACM"
-      ]
+      ],
+      "divisor": 4430.32,
+      "norm_by": "ac"
     }
   },
   "nao_classificados_sample": [

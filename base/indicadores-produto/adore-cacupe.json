@@ -6,167 +6,166 @@
   "n_pavimentos": 8,
   "n_torres": 0,
   "total_r$": 0,
-  "data_extracao": "2026-04-17T20:03:49",
+  "data_extracao": "2026-04-17T20:37:30",
   "duration_s": 0.0,
-  "n_itens_processados": 184,
-  "n_itens_classificados": 184,
-  "n_indicadores_extraidos": 18,
+  "n_itens_processados": 107,
+  "n_itens_classificados": 107,
+  "n_indicadores_extraidos": 22,
   "indicadores": {
-    "cobertura_m2_por_m2_ac": {
-      "id": "DIV_05",
-      "valor": 0.2353,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 1528.16,
-      "n_itens": 6,
-      "itens_fonte": [
-        "NÍVEL 7 - (PAVCOBERTURA)",
-        "COBERTURA",
-        "Cobertura para proteção de pedestres",
-        "Cobertura para proteção de pedestres",
-        "Estrutura de Madeira para Telhado",
-        "Telha Fibrocimento 8mm"
-      ]
-    },
-    "alvenaria_m2_por_m2_ac": {
-      "id": "ALV_01",
-      "valor": 2.2231,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 14438.5,
-      "n_itens": 6,
-      "itens_fonte": [
-        "ALVENARIA",
-        "Alvenaria de vedacao de blocos ceramicos furados na horizontal de 9x19x29cm (esp",
-        "Alvenaria de vedacao de blocos ceramicos furados na horizontal de 11.5x19x29cm (",
-        "Alvenaria de vedacao de blocos ceramicos furados na horizontal de 14x19x29cm (es",
-        "Alvenaria refratárias",
-        "Encunhamento para alvenaria de vedação com argamassa expansiva"
-      ]
-    },
     "aco_kg_por_m2_ac": {
       "id": "EST_02",
-      "valor": 21.8357,
+      "valor": 13.7718,
       "unidade": "kg/m² AC",
-      "soma_bruta": 141814.51,
-      "n_itens": 12,
+      "soma_bruta": 89442.94,
+      "n_itens": 9,
       "itens_fonte": [
-        "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
-        "ACABAMENTOS EM PISOS E PAVIMENTAÇÕES",
         "Varal de seguranca com cabo de aco com cabo de aço instalado junto ao piso",
         "Fabricação, montagem e desmontagem de forma para blocos e baldrames em madeira s",
-        "Armação",
         "Armação",
         "Fabricação forma (vigas, pilares e escadas) em madeira serrada (2 utilizações)",
         "Fabricação forma lajes em madeirite 17mm (3 utilizações)",
         "Tela soldada para ligação alvenaria/estrutura",
-        "Proteção mecânica com argamassa de cimento e areia, traço 1:3, espessura 5 cm, c"
-      ]
+        "Proteção mecânica com argamassa de cimento e areia, traço 1:3, espessura 5 cm, c",
+        "Mão de obra impermeabilizações com argamassa polimérica",
+        "Mão de obra impermeabilizações com manta asfáltica"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "movimento_terra_m3_por_m2_ac": {
+      "id": "EST_05",
+      "valor": 2.4998,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 16234.98,
+      "n_itens": 4,
+      "itens_fonte": [
+        "Escavação de subsolo",
+        "Escavação mecanizada para blocos e baldrames",
+        "Reaterro para blocos e baldrames",
+        "Movimentação de bota-fora  (30% de empolamento)"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "concreto_m3_por_m2_ac": {
+      "id": "EST_01",
+      "valor": 0.5584,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 3626.38,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Lastro de concreto magro",
+        "Verga/contraverga de concreto, moldada in loco"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "escoramento_m2_por_m2_ac": {
+      "id": "EST_04",
+      "valor": 2.1883,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 14212.03,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Escoramento (pontalete de madeira)"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "alvenaria_m2_por_m2_ac": {
+      "id": "ALV_01",
+      "valor": 4.8397,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 31431.81,
+      "n_itens": 4,
+      "itens_fonte": [
+        "Alvenaria de vedacao de blocos ceramicos furados na horizontal de 9x19x29cm (esp",
+        "Alvenaria refratárias",
+        "Encunhamento para alvenaria de vedação com argamassa expansiva",
+        "Alvenaria com blocos cerâmicos com argamassa usinada para assentamento"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "drywall_divisoria_m2_por_m2_ac": {
+      "id": "DIV_06",
+      "valor": 0.0094,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 60.73,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Parede Em Gesso Acartonado Com Montantes De 70mm"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
     },
     "manta_asfaltica_m2_por_m2_ac": {
       "id": "IMP_01",
-      "valor": 2.1151,
+      "valor": 2.5564,
       "unidade": "m²/m² AC",
-      "soma_bruta": 13736.51,
-      "n_itens": 7,
+      "soma_bruta": 16603.16,
+      "n_itens": 6,
       "itens_fonte": [
-        "IMPERMEABILIZAÇÃO",
         "Regularização de superfície para impermeabilização",
         "Impermeabilização de baldrames com tinta asfáltica",
         "Impermeabilização com manta asfáltica",
         "Impermeabilização com argamassa polimérica",
         "Impermeabilização Poço do Elevador",
         "Mão de obra para impermeabilização de poço e baldrames"
-      ]
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
     },
-    "pintura_interna_m2_por_m2_ac": {
-      "id": "PIN_01",
-      "valor": 2.8847,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 18734.81,
-      "n_itens": 4,
-      "itens_fonte": [
-        "PINTURA INTERNA",
-        "Pintura piso resina acrílica",
-        "Pintura parede (selador + massa + pintura)",
-        "Pintura teto (selador + massa + pintura)"
-      ]
-    },
-    "vidros_m2_por_m2_ac": {
-      "id": "ESQ_03",
-      "valor": 0.0503,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 326.52,
+    "ar_condicionado_pontos_por_ur": {
+      "id": "DIV_09",
+      "valor": 4.9783,
+      "unidade": "un/UR",
+      "soma_bruta": 229.0,
       "n_itens": 2,
       "itens_fonte": [
-        "ESQUADRIAS, VIDROS E FERRAGENS",
-        "Guarda-corpo - vidro"
-      ]
-    },
-    "portas_un_por_ur": {
-      "id": "ESQ_01",
-      "valor": 2.9633,
-      "unidade": "un/UR",
-      "soma_bruta": 136.31,
-      "n_itens": 5,
-      "itens_fonte": [
-        "Área das portas de elevadores",
-        "Área das portas de aptos",
-        "Fechamento removível de vãos de porta de entrada dos aptos. em madeira",
-        "Fechamento removivel de vaos de porta de elevador em madeira",
-        "Moldura porta elevador (pedra natural)"
-      ]
-    },
-    "elevadores_por_torre": {
-      "id": "DIV_02",
-      "valor": 10.0,
-      "unidade": "un/torre",
-      "soma_bruta": 10.0,
-      "n_itens": 3,
-      "itens_fonte": [
-        "Quantidade de elevadores",
-        "Quantidade de pavimentos de elevadores",
-        "Elevadores"
-      ]
-    },
-    "concreto_m3_por_m2_ac": {
-      "id": "EST_01",
-      "valor": 0.1408,
-      "unidade": "m³/m² AC",
-      "soma_bruta": 914.47,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Lastro de concreto magro"
-      ]
-    },
-    "escoramento_m2_por_m2_ac": {
-      "id": "EST_04",
-      "valor": 0.8163,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 5301.35,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Escoramento (pontalete de madeira)"
-      ]
+        "Infraestrutura para Instalação de Ar Condicionado",
+        "Instalação de Ar Condicionado"
+      ],
+      "divisor": 46,
+      "norm_by": "ur"
     },
     "chapisco_m2_por_m2_ac": {
       "id": "REV_01",
-      "valor": 3.3857,
+      "valor": 5.4143,
       "unidade": "m²/m² AC",
-      "soma_bruta": 21988.97,
+      "soma_bruta": 35163.93,
       "n_itens": 2,
       "itens_fonte": [
         "Chapisco rolado",
         "Chapisco e reboco"
-      ]
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
     },
     "reboco_m2_por_m2_ac": {
       "id": "REV_02",
-      "valor": 2.2834,
+      "valor": 4.2354,
       "unidade": "m²/m² AC",
-      "soma_bruta": 14829.85,
+      "soma_bruta": 27507.46,
       "n_itens": 1,
       "itens_fonte": [
         "Massa unica para reboco interno em argamassa estabilizada"
-      ]
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "estucamento_m2_por_m2_ac": {
+      "id": "DIV_13",
+      "valor": 1.587,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 10307.17,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Estucamento",
+        "Mão de obra estucamento"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
     },
     "forro_gesso_m2_por_m2_ac": {
       "id": "DIV_01",
@@ -177,83 +176,159 @@
       "itens_fonte": [
         "Forro de gesso acartonado - material e mão de obra",
         "Forro de madeira de lei - material  mão de obra"
-      ]
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
     },
     "contrapiso_m2_por_m2_ac": {
       "id": "REV_03",
-      "valor": 1.0769,
+      "valor": 1.2298,
       "unidade": "m²/m² AC",
-      "soma_bruta": 6994.15,
+      "soma_bruta": 7986.95,
       "n_itens": 1,
       "itens_fonte": [
         "Contrapiso convencional com argamassa usinada"
-      ]
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
     },
     "porcelanato_ceramica_m2_por_m2_ac": {
       "id": "REV_04",
-      "valor": 0.6122,
+      "valor": 1.2489,
       "unidade": "m²/m² AC",
-      "soma_bruta": 3976.25,
+      "soma_bruta": 8111.39,
       "n_itens": 2,
       "itens_fonte": [
         "Porcelanato",
         "Pastilha cerâmica"
-      ]
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "rodape_m_por_m2_ac": {
+      "id": "DIV_08",
+      "valor": 0.6067,
+      "unidade": "m/m² AC",
+      "soma_bruta": 3940.23,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Rodapé Poliestireno"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "pintura_interna_m2_por_m2_ac": {
+      "id": "PIN_01",
+      "valor": 5.1031,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 33142.91,
+      "n_itens": 4,
+      "itens_fonte": [
+        "Pintura piso resina acrílica",
+        "Pintura parede (selador + massa + pintura)",
+        "Pintura teto (selador + massa + pintura)",
+        "Pintura teto (selador +  pintura)"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "vidros_m2_por_m2_ac": {
+      "id": "ESQ_03",
+      "valor": 0.0453,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 294.47,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Guarda-corpo - vidro"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
     },
     "guarda_corpo_m_por_m2_ac": {
       "id": "ESQ_04",
-      "valor": 0.078,
+      "valor": 0.3158,
       "unidade": "m/m² AC",
-      "soma_bruta": 506.87,
-      "n_itens": 3,
+      "soma_bruta": 2051.0,
+      "n_itens": 4,
       "itens_fonte": [
         "Guarda-corpo - alumínio",
         "Corrimão de Alumínio escadas Anti-incêndio",
-        "Corrimão de Alumínio escadas Anti-incêndio"
-      ]
+        "Guarda corpo em laje pós - desforma",
+        "Corrimão metálico"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "cobertura_m2_por_m2_ac": {
+      "id": "DIV_05",
+      "valor": 0.2536,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 1646.97,
+      "n_itens": 2,
+      "itens_fonte": [
+        "Estrutura de Madeira para Telhado",
+        "Telha Fibrocimento 8mm"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
     },
     "pintura_externa_m2_por_m2_ac": {
       "id": "PIN_02",
-      "valor": 2.3207,
+      "valor": 2.9175,
       "unidade": "m²/m² AC",
-      "soma_bruta": 15071.83,
-      "n_itens": 2,
+      "soma_bruta": 18948.22,
+      "n_itens": 3,
       "itens_fonte": [
         "Pintura externa",
-        "Textura externa"
-      ]
+        "Textura externa",
+        "Textura escadas e garagem"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
+    },
+    "estaca_m_por_m2_ac": {
+      "id": "EST_06",
+      "valor": 0.2112,
+      "unidade": "m/m² AC",
+      "soma_bruta": 1371.96,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Estaca Hélice Continua Diâmetro 50"
+      ],
+      "divisor": 6494.63,
+      "norm_by": "ac"
     },
     "taxa_aco_kg_por_m3": {
       "id": "EST_03b",
-      "valor": 155.08,
+      "valor": 24.66,
       "unidade": "kg/m³",
-      "soma_bruta": 141814.5089668107,
-      "n_itens": 12,
+      "soma_bruta": 89442.93513839456,
+      "n_itens": 9,
       "itens_fonte": [
         "(calculado: aço total / concreto total)"
       ]
     }
   },
   "nao_classificados_sample": [
-    "MESES DE OBRA",
-    "ÁREA DO TERRENO",
-    "ÁREA CONSTRUÍDA",
-    "NÚMERO DE UNIDADES HABITACIONAIS",
-    "NÚMERO DE UNIDADES COMERCIAIS",
-    "ÁREA PRIVATIVA",
-    "ÁREA COMERCIAL",
-    "NÚMERO DE PAVIMENTOS",
-    "NÍVEL 1 - (PAV.01 e PAV. SUBSOLO 02)",
-    "NÍVEL 2 - (SL/MEZ e PAV. SUBSOLO 01)",
-    "NÍVEL 3 - (PAV02 e PAV01)",
-    "NÍVEL 4 - (PAV03 e PAV02)",
-    "NÍVEL 5 - (PAV04 e PAV03)",
-    "NÍVEL 6 - (PAV05 e PAV04)",
-    "RESERVATÓRIOS",
-    "ÁREA COMERCIAL",
-    "NUMERO DE VAGAS RESIDENCIAIS",
-    "NUMERO DE VAGAS COMERCIAIS",
-    "NÚMERO DE VAGAS BICICLETÁRIO",
-    "MOVIMENTAÇÃO DE TERRA"
+    "Serviço de segurança do trabalho terceirizados",
+    "Bandeja de protecao primaria",
+    "Fechamento removivel de vaos de porta de elevador em madeira",
+    "Tela fachadeira - Tela mosqueteira reforçada com impressão digital",
+    "Engenheiro",
+    "Mestre",
+    "Almoxarife",
+    "Estagiário",
+    "Operador de Grua",
+    "Vigilância Contratada",
+    "Locação de Banheiro químico",
+    "Tapume Metálico Trapezoidal com compensado em madeira",
+    "Limpeza mecanizada de camada vegetal",
+    "Locação cremalheira",
+    "Locação de mini grua",
+    "Locação de balancim motorizado",
+    "Montagem e desmontagem de balancim",
+    "Locação de Andaime",
+    "Aterro Material escavado",
+    "Concreto 40MPa"
   ]
 }

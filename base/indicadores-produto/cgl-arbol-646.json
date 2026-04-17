@@ -6,319 +6,43 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 0,
-  "data_extracao": "2026-04-17T20:03:50",
-  "duration_s": 0.1,
-  "n_itens_processados": 657,
-  "n_itens_classificados": 657,
-  "n_indicadores_extraidos": 17,
+  "data_extracao": "2026-04-17T20:37:30",
+  "duration_s": 0.0,
+  "n_itens_processados": 140,
+  "n_itens_classificados": 140,
+  "n_indicadores_extraidos": 1,
   "indicadores": {
-    "concreto_m3_por_m2_ac": {
-      "id": "EST_01",
-      "valor": 2196.36,
-      "unidade": "m³/m² AC",
-      "soma_bruta": 2196.36,
-      "n_itens": 27,
-      "itens_fonte": [
-        "Concreto usinado bombéavel, para estacas, fck 25MPa, com brita 1, slump = 12+/-3",
-        "Concreto usinado bombeável, para blocos e baldrames, Fck 30 MPa, com brita 1, SL",
-        "Concreto usinado bombéavel, para estacas, fck 25MPa, com brita 1, slump = 12+/-3",
-        "Concreto usinado bombeável, para blocos e baldrames, Fck 30 MPa, com brita 1, SL",
-        "Concreto usinado bombéavel, para estacas, fck 25MPa, com brita 1, slump = 12+/-3",
-        "Concreto usinado bombeável, para blocos e baldrames, Fck 30 MPa, com brita 1, SL",
-        "Concreto usinado bombéavel, para estacas, fck 25MPa, com brita 1, slump = 12+/-3",
-        "Concreto usinado bombeável, para blocos e baldrames, Fck 30 MPa, com brita 1, SL",
-        "Concreto usinado bombeável, para supraestrutura, fck 30MPa, com brita 0, slump 1",
-        "Concreto usinado bombeável, para supraestrutura, fck 30MPa, com aditivo cristali"
-      ]
-    },
-    "aco_kg_por_m2_ac": {
-      "id": "EST_02",
-      "valor": 131073.41,
-      "unidade": "kg/m² AC",
-      "soma_bruta": 131073.41,
-      "n_itens": 101,
-      "itens_fonte": [
-        "Armação aço CA - 60, diâmetro 5,0mm para estacas, corte e dobra em obra#",
-        "Armação aço CA - 50, diâmetro 8,0mm para estacas, corte e dobra em obra#",
-        "Armação aço CA-60, diâmetro 5,0mm para blocos e baldrames - corte e dobra em obr",
-        "Armação aço CA-50, diâmetro 6,3mm para blocos e baldrames - corte e dobra em obr",
-        "Armação aço CA-50, diâmetro 8,0mm para blocos e baldrames - corte e dobra em obr",
-        "Armação aço CA-50, diâmetro 10,0mm para blocos e baldrames - corte e dobra em ob",
-        "Armação aço CA-50, diâmetro 12,5mm para blocos e baldrames - corte e dobra em ob",
-        "Armação aço CA - 60, diâmetro 5,0mm para estacas, corte e dobra em obra#",
-        "Armação aço CA - 50, diâmetro 8,0mm para estacas, corte e dobra em obra#",
-        "Armação aço CA-60, diâmetro 5,0mm para blocos e baldrames - corte e dobra em obr"
-      ]
-    },
-    "alvenaria_m2_por_m2_ac": {
-      "id": "ALV_01",
-      "valor": 27399.335,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 27399.34,
-      "n_itens": 24,
-      "itens_fonte": [
-        "Alvenaria de vedação de blocos cerâmicos furados na horizontal de 11,5x19x19cm (",
-        "Alvenaria de vedação de blocos cerâmicos furados na horizontal de 11,5x19x19cm (",
-        "Alvenaria de vedação de blocos cerâmicos furados na horizontal de 11,5x19x19cm (",
-        "Alvenaria de vedação de blocos cerâmicos furados na horizontal de 11,5x19x19cm (",
-        "Alvenaria de vedação de blocos cerâmicos furados na horizontal de 11,5x19x19cm (",
-        "Alvenaria de vedação de blocos cerâmicos furados na horizontal de 11,5x19x19cm (",
-        "Alvenaria de vedação de blocos cerâmicos furados na horizontal de 11,5x19x19cm (",
-        "Alvenaria de vedação de blocos cerâmicos furados na horizontal de 11,5x19x19cm (",
-        "Chapisco interno argamassa cimento e areia (1:3), aplicado em alvenarias interna",
-        "Chapisco interno argamassa cimento e areia (1:3), aplicado em alvenarias interna"
-      ]
-    },
-    "manta_asfaltica_m2_por_m2_ac": {
-      "id": "IMP_01",
-      "valor": 4846.022,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 4846.02,
-      "n_itens": 43,
-      "itens_fonte": [
-        "Impermeabilização com argamassa polimérica, 3 demãos#",
-        "Impermeabilização com argamassa polimérica, 3 demãos#",
-        "Impermeabilização com argamassa polimérica, 3 demãos#",
-        "Impermeabilização com argamassa polimérica, 3 demãos#",
-        "Regularização de superfície para impermeabilização#",
-        "Regularização de superfície para impermeabilização#",
-        "Regularização de superfície para impermeabilização#",
-        "Regularização de superfície para impermeabilização#",
-        "Impermeabilização com argamassa polimérica em peitoris#",
-        "Impermeabilização com argamassa polimérica, 3 demãos#"
-      ]
-    },
-    "ralos_caixas_sifonadas_por_ur": {
-      "id": "HID_05",
-      "valor": 426.0,
-      "unidade": "un/UR",
-      "soma_bruta": 426.0,
-      "n_itens": 12,
-      "itens_fonte": [
-        "Tratamento de ralo com argamassa polimérica com fibras e véu de poliéster#",
-        "Tratamento de ralo com argamassa polimérica com fibras e véu de poliéster#",
-        "Tratamento de ralo com argamassa polimérica com fibras e véu de poliéster#",
-        "Tratamento de ralo com argamassa polimérica com fibras e véu de poliéster#",
-        "Mão de obra para tratamento de ralo#",
-        "Mão de obra para tratamento de ralo#",
-        "Mão de obra para tratamento de ralo#",
-        "Mão de obra para tratamento de ralo#",
-        "Tratamento de ralo com argamassa polimérica com fibras e véu de poliéster#",
-        "Mão de obra para tratamento de ralo#"
-      ]
-    },
-    "contrapiso_m2_por_m2_ac": {
-      "id": "REV_03",
-      "valor": 3569.758,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 3569.76,
-      "n_itens": 6,
-      "itens_fonte": [
-        "Regularização de piso em argamassa industrializada, espessura 2 cm#",
-        "Regularização de piso em argamassa industrializada, espessura 2 cm#",
-        "Regularização de piso em argamassa industrializada, espessura 2 cm#",
-        "Regularização de piso em argamassa industrializada, espessura 2 cm#",
-        "Regularização de piso em argamassa industrializada, espessura 2 cm#",
-        "Regularização de piso em argamassa industrializada, espessura 2 cm#"
-      ]
-    },
-    "chapisco_m2_por_m2_ac": {
-      "id": "REV_01",
-      "valor": 21845.983,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 21845.98,
-      "n_itens": 34,
-      "itens_fonte": [
-        "Chapisco interno argamassa cimento e areia (1:4), aplicado em estrutura de concr",
-        "Chapisco interno argamassa cimento e areia (1:3), aplicado em muros de fechament",
-        "Chapisco interno argamassa cimento e areia (1:4), aplicado em estrutura de concr",
-        "Chapisco interno argamassa cimento e areia (1:3), aplicado em muros de fechament",
-        "Chapisco interno argamassa cimento e areia (1:4), aplicado em estrutura de concr",
-        "Chapisco interno argamassa cimento e areia (1:3), aplicado em muros de fechament",
-        "Chapisco interno argamassa cimento e areia (1:4), aplicado em estrutura de concr",
-        "Chapisco interno argamassa cimento e areia (1:3), aplicado em muros de fechament",
-        "Mão de obra para execução de reboco interno em paredes, incluso chapisco#",
-        "Mão de obra para execução de reboco interno em paredes, incluso chapisco#"
-      ]
-    },
-    "forro_gesso_m2_por_m2_ac": {
-      "id": "DIV_01",
-      "valor": 807.507,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 807.51,
-      "n_itens": 6,
-      "itens_fonte": [
-        "Forro de gesso acartonado, aplicação em áreas secas - material e mão de obra#",
-        "Forro de gesso acartonado, aplicação em áreas secas - material e mão de obra#",
-        "Forro de gesso acartonado, aplicação em áreas secas - material e mão de obra#",
-        "Forro de gesso acartonado, aplicação em áreas secas - material e mão de obra#",
-        "Forro de gesso acartonado, aplicação em áreas secas - material e mão de obra#",
-        "Forro de gesso acartonado, aplicação em áreas secas - material e mão de obra#"
-      ]
-    },
-    "porcelanato_ceramica_m2_por_m2_ac": {
-      "id": "REV_04",
-      "valor": 9981.844,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 9981.84,
-      "n_itens": 42,
-      "itens_fonte": [
-        "Revestimento interno de piso porcelanato, placa 60x60, aplicação em áreas socias",
-        "Revestimento interno de piso porcelanato, placa 60x60, aplicação em áreas socias",
-        "Revestimento interno de piso porcelanato, placa 60x60, aplicação em áreas socias",
-        "Revestimento interno de piso porcelanato, placa 60x60, aplicação em áreas socias",
-        "Rodapé em porcelanato, altura 07 cm, com placa 60x60, aplicação em áreas sociais",
-        "Rodapé em porcelanato, altura 07 cm, com placa 60x60, aplicação em áreas sociais",
-        "Rodapé em porcelanato, altura 07 cm, com placa 60x60, aplicação em áreas sociais",
-        "Rodapé em porcelanato, altura 07 cm, com placa 60x60, aplicação em áreas sociais",
-        "Soleira em porcelanato#",
-        "Soleira em porcelanato#"
-      ]
-    },
-    "pintura_interna_m2_por_m2_ac": {
-      "id": "PIN_01",
-      "valor": 27348.5437,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 27348.54,
-      "n_itens": 27,
-      "itens_fonte": [
-        "Pintura com tinta látex PVA em paredes, acabamento fosco, 3 demãos#",
-        "Pintura com tinta látex PVA em paredes, acabamento fosco, 3 demãos#",
-        "Pintura com tinta látex PVA em paredes, acabamento fosco, 3 demãos#",
-        "Pintura com tinta látex PVA em paredes, acabamento fosco, 3 demãos#",
-        "Pintura com tinta látex PVA em teto, acabamento fosco, 3 demãos#",
-        "Pintura com tinta látex PVA em teto, acabamento fosco, 3 demãos#",
-        "Pintura com tinta látex PVA em teto, acabamento fosco, 3 demãos#",
-        "Pintura com tinta látex PVA em teto, acabamento fosco, 3 demãos#",
-        "Mão de obra para pintura com tinta latéx PVA em paredes, 2 demãos#",
-        "Mão de obra para pintura com tinta latéx PVA em teto, 2 demãos#"
-      ]
-    },
-    "pintura_externa_m2_por_m2_ac": {
-      "id": "PIN_02",
-      "valor": 10150.834,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 10150.83,
-      "n_itens": 18,
-      "itens_fonte": [
-        "Textura acrilica, aplicação em parede, acabamento granulado, 1 demão#",
-        "Textura acrilica, aplicação em muros de fechamento do sublote, acabamento granul",
-        "Textura acrilica, aplicação em parede, acabamento granulado, 1 demão#",
-        "Textura acrilica, aplicação em muros de fechamento do sublote, acabamento granul",
-        "Textura acrilica, aplicação em parede, acabamento granulado, 1 demão#",
-        "Textura acrilica, aplicação em muros de fechamento do sublote, acabamento granul",
-        "Textura acrilica, aplicação em parede, acabamento granulado, 1 demão#",
-        "Textura acrilica, aplicação em muros de fechamento do sublote, acabamento granul",
-        "Textura acrilica, aplicação em parede, acabamento granulado, 1 demão#",
-        "Textura acrilica, aplicação em parede, acabamento granulado, 1 demão#"
-      ]
-    },
-    "portas_un_por_ur": {
-      "id": "ESQ_01",
-      "valor": 1495.0,
-      "unidade": "un/UR",
-      "soma_bruta": 1495.0,
-      "n_itens": 29,
-      "itens_fonte": [
-        "Porta de madeira de abrir 70x210cm, fixação com espuma expansiva#",
-        "Porta de madeira de abrir 80x210cm, fixação com espuma expansiva#",
-        "Porta de madeira de abrir 90x210cm, fixação com espuma expansiva#",
-        "Porta de madeira de abrir 70x210cm, fixação com espuma expansiva#",
-        "Porta de madeira de abrir 80x210cm, fixação com espuma expansiva#",
-        "Porta de madeira de abrir 90x210cm, fixação com espuma expansiva#",
-        "Porta de madeira de abrir 70x210cm, fixação com espuma expansiva#",
-        "Porta de madeira de abrir 80x210cm, fixação com espuma expansiva#",
-        "Porta de madeira de abrir 90x210cm, fixação com espuma expansiva#",
-        "Porta de madeira de abrir 70x210cm, fixação com espuma expansiva#"
-      ]
-    },
-    "guarda_corpo_m_por_m2_ac": {
-      "id": "ESQ_04",
-      "valor": 423.655,
-      "unidade": "m/m² AC",
-      "soma_bruta": 423.66,
-      "n_itens": 4,
-      "itens_fonte": [
-        "Corrimão de inox#",
-        "Corrimão de inox#",
-        "Corrimão de inox#",
-        "Corrimão de inox#"
-      ]
-    },
-    "cobertura_m2_por_m2_ac": {
-      "id": "DIV_05",
-      "valor": 8931.412,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 8931.41,
-      "n_itens": 15,
-      "itens_fonte": [
-        "Trama de madeira para cobertura em telhas de fibrocimento#",
-        "Trama de madeira para cobertura em telhas de fibrocimento#",
-        "Trama de madeira para cobertura em telhas de fibrocimento#",
-        "Trama de madeira para cobertura em telhas de fibrocimento#",
-        "Telha fibrocimento ondulada 6mm#",
-        "Telha fibrocimento ondulada 6mm#",
-        "Telha fibrocimento ondulada 6mm#",
-        "Telha fibrocimento ondulada 6mm#",
-        "Mão de obra para execução de cobertura com estrutura de madeira e telhas de fibr",
-        "Mão de obra para execução de cobertura com estrutura de madeira e telhas de fibr"
-      ]
-    },
-    "blocos_un_por_m2_ac": {
-      "id": "ALV_02",
-      "valor": 122.507,
-      "unidade": "un/m² AC",
-      "soma_bruta": 122.51,
-      "n_itens": 5,
-      "itens_fonte": [
-        "Assentamento de tijolos refratários de 6,3 x 11,4 x 22,9 cm com argamassa refrat",
-        "Assentamento de tijolos refratários de 6,3 x 11,4 x 22,9 cm com argamassa refrat",
-        "Assentamento de tijolos refratários de 6,3 x 11,4 x 22,9 cm com argamassa refrat",
-        "Assentamento de tijolos refratários de 6,3 x 11,4 x 22,9 cm com argamassa refrat",
-        "Assentamento de tijolos refratários de 6,3 x 11,4 x 22,9 cm com argamassa refrat"
-      ]
-    },
-    "forma_m2_por_m2_ac": {
-      "id": "EST_03",
-      "valor": 131.25,
-      "unidade": "m²/m² AC",
-      "soma_bruta": 131.25,
-      "n_itens": 1,
-      "itens_fonte": [
-        "Guarda-corpo de vãos, fixado em forma de madeira, em trama de madeira com tela d"
-      ]
-    },
     "taxa_aco_kg_por_m3": {
       "id": "EST_03b",
-      "valor": 59.68,
+      "valor": 17.63,
       "unidade": "kg/m³",
-      "soma_bruta": 131073.40999999997,
-      "n_itens": 101,
+      "soma_bruta": 40192.007,
+      "n_itens": 9,
       "itens_fonte": [
         "(calculado: aço total / concreto total)"
       ]
     }
   },
   "nao_classificados_sample": [
-    "Escavação manual para blocos de fundação e vigas baldrames, com previsão de forma#",
-    "Reaterro manual de valas para blocos e baldrames#",
-    "Escavação manual para blocos de fundação e vigas baldrames, com previsão de forma#",
-    "Reaterro manual de valas para blocos e baldrames#",
-    "Escavação manual para blocos de fundação e vigas baldrames, com previsão de forma#",
-    "Reaterro manual de valas para blocos e baldrames#",
-    "Escavação manual para blocos de fundação e vigas baldrames, com previsão de forma#",
-    "Reaterro manual de valas para blocos e baldrames#",
-    "Lastro de material granular, espessura de 10 cm#",
-    "Lastro de material granular, espessura de 10 cm#",
-    "Lastro de material granular, espessura de 10 cm#",
     "Lastro de material granular, espessura de 10 cm#",
     "Serviço de limpeza e remoção de excedente de solo durante a perfuração das estacas, blocos e baldrames#",
-    "Serviço de limpeza e remoção de excedente de solo durante a perfuração das estacas, blocos e baldrames#",
-    "Serviço de limpeza e remoção de excedente de solo durante a perfuração das estacas, blocos e baldrames#",
-    "Serviço de limpeza e remoção de excedente de solo durante a perfuração das estacas, blocos e baldrames#",
-    "Perfuração de estaca escavada, diâmetro 30cm#",
-    "Perfuração de estaca escavada, diâmetro 30cm#",
-    "Perfuração de estaca escavada, diâmetro 30cm#",
-    "Perfuração de estaca escavada, diâmetro 30cm#"
+    "Fabricação de fôrma para blocos e baldrames, em chapas de madeira compensada resinada#",
+    "Montagem e desmontagem de fôrma de blocos e baldrames, em chapa de madeira resinada#",
+    "Mão de obra para execução de blocos e estacas#",
+    "Fabricação de fôrma para pilares, em chapas de madeira compensada plastificada, e = 18mm#",
+    "Fabricação de fôrma para vigas, em chapas de madeira compensada plastificada, e = 18mm#",
+    "Fabricação de fôrma para lajes, em chapas de madeira compensada plastificada, e = 18mm#",
+    "Montagem e desmontagem de fôrma de pilares, em chapa de madeira compensada plastificada#",
+    "Montagem e desmontagem de fôrma de vigas, em chapa de madeira compensada plastificada#",
+    "Montagem e desmontagem de fôrma de lajes, em chapa de madeira compensada plastificada#",
+    "Mão de obra para execução de estrutura de concreto armado em supraestrutura#",
+    "Mão de obra para regularização de superfície impermeabilizada#",
+    "Piso de concreto sobre solo, 8 cm#",
+    "Massa única interna em argamassa industrializada, aplicação manual em paredes, espessura de 2 cm#",
+    "Massa única interna em argamassa industrializada, aplicação em muros de fechamento do sublote, espessura de 2 cm#",
+    "Mão de obra para execução de piso de concreto#",
+    "Massa única interna em argamassa industrializada, aplicação manual em teto, espessura de 2 cm#",
+    "Piso intertravado, com bloco retangular de 20x10cm, espessura 6cm#",
+    "Placas pré - moldadas de concreto para calçadas#"
   ]
 }

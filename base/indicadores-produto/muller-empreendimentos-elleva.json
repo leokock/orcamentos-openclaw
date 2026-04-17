@@ -6,18 +6,18 @@
   "n_pavimentos": 0,
   "n_torres": 0,
   "total_r$": 12939593.12,
-  "data_extracao": "2026-04-17T20:03:53",
+  "data_extracao": "2026-04-17T20:37:32",
   "duration_s": 0.0,
-  "n_itens_processados": 515,
-  "n_itens_classificados": 515,
-  "n_indicadores_extraidos": 10,
+  "n_itens_processados": 82,
+  "n_itens_classificados": 82,
+  "n_indicadores_extraidos": 6,
   "indicadores": {
     "pintura_interna_m2_por_m2_ac": {
       "id": "PIN_01",
-      "valor": 6.7049,
+      "valor": 3.4872,
       "unidade": "m²/m² AC",
-      "soma_bruta": 19906.88,
-      "n_itens": 45,
+      "soma_bruta": 10353.43,
+      "n_itens": 14,
       "itens_fonte": [
         "PINTURA AZUL",
         "PINTURA CINZA MÉDIO",
@@ -28,187 +28,98 @@
         "PINTURA FAIXA PRETA GARAGEM",
         "PINTURA BRANCO TETO",
         "PINTURA ESCADA",
-        "PINTURA EPOXI"
-      ]
+        "PINTURA ANDIROBA"
+      ],
+      "divisor": 2969.0,
+      "norm_by": "ac"
     },
     "pintura_externa_m2_por_m2_ac": {
       "id": "PIN_02",
-      "valor": 0.0874,
+      "valor": 0.0437,
       "unidade": "m²/m² AC",
-      "soma_bruta": 259.46,
-      "n_itens": 5,
+      "soma_bruta": 129.73,
+      "n_itens": 1,
       "itens_fonte": [
-        "TEXTURA",
-        "TEXTURA",
-        "TEXTURA",
-        "TEXTURA",
         "TEXTURA"
-      ]
+      ],
+      "divisor": 2969.0,
+      "norm_by": "ac"
+    },
+    "rodape_m_por_m2_ac": {
+      "id": "DIV_08",
+      "valor": 0.0735,
+      "unidade": "m/m² AC",
+      "soma_bruta": 218.17,
+      "n_itens": 1,
+      "itens_fonte": [
+        "RODAPÉ ESCADA"
+      ],
+      "divisor": 2969.0,
+      "norm_by": "ac"
     },
     "reboco_m2_por_m2_ac": {
       "id": "REV_02",
-      "valor": 1.1839,
+      "valor": 0.6971,
       "unidade": "m²/m² AC",
-      "soma_bruta": 3514.91,
-      "n_itens": 17,
+      "soma_bruta": 2069.76,
+      "n_itens": 5,
       "itens_fonte": [
         "Reboco azulejo",
-        "Reboco branco",
         "Reboco branco",
         "Reboco + Pintura azul",
         "Pintura Epoxi sobre reboco",
-        "Reboco azulejo",
-        "Reboco branco",
-        "Reboco branco",
-        "Reboco + Pintura azul",
-        "Pintura Epoxi sobre reboco"
-      ]
+        "Reboco Pintura Andiroba"
+      ],
+      "divisor": 2969.0,
+      "norm_by": "ac"
     },
     "drywall_divisoria_m2_por_m2_ac": {
       "id": "DIV_06",
-      "valor": 0.0179,
+      "valor": 0.0123,
       "unidade": "m²/m² AC",
-      "soma_bruta": 53.24,
-      "n_itens": 3,
+      "soma_bruta": 36.6,
+      "n_itens": 1,
       "itens_fonte": [
-        "Azulejo sobre drywall",
-        "Azulejo sobre drywall",
         "Azulejo sobre drywall"
-      ]
+      ],
+      "divisor": 2969.0,
+      "norm_by": "ac"
     },
     "aco_kg_por_m2_ac": {
       "id": "EST_02",
-      "valor": 0.0532,
+      "valor": 0.0434,
       "unidade": "kg/m² AC",
-      "soma_bruta": 158.0,
-      "n_itens": 32,
+      "soma_bruta": 129.0,
+      "n_itens": 3,
       "itens_fonte": [
         "Bacia Sanitária com caixa acoplada",
-        "Bacia Sanitária com caixa acoplada",
-        "Bacia Sanitária com caixa acoplada",
-        "Bacia Sanitária com caixa acoplada",
-        "Bacia Sanitária com caixa acoplada",
-        "Bacia Sanitária com caixa acoplada",
-        "Bacia Sanitária com caixa acoplada",
-        "Bacia Sanitária com caixa acoplada",
-        "Bacia Sanitária com caixa acoplada",
-        "Bacia Sanitária com caixa acoplada"
-      ]
-    },
-    "registros_por_ur": {
-      "id": "HID_04",
-      "valor": 342.0,
-      "unidade": "un/UR",
-      "soma_bruta": 342.0,
-      "n_itens": 74,
-      "itens_fonte": [
-        "Acabamento de Registro",
-        "Acabamento de Registro",
-        "Acabamento de Registro",
-        "Acabamento de Registro  PNE",
-        "Acabamento de Registro",
-        "Acabamento de Registro",
-        "Acabamento de Registro",
-        "Acabamento de Registro",
-        "Acabamento de Registro  PNE",
-        "Acabamento de Registro"
-      ]
-    },
-    "lavatorios_por_ur": {
-      "id": "LOU_02",
-      "valor": 210.0,
-      "unidade": "un/UR",
-      "soma_bruta": 210.0,
-      "n_itens": 52,
-      "itens_fonte": [
-        "Torneira para lavatório",
-        "Lavatório de Louça Suspenso",
-        "Torneira para lavatório",
-        "Lavatório de Louça Suspenso - PNE",
-        "Torneira para lavatório",
-        "Torneira para lavatório",
-        "Torneira para lavatório",
-        "Lavatório de Louça Suspenso - PNE",
-        "Torneira para lavatório",
-        "Lavatório de Louça Suspenso - PNE"
-      ]
-    },
-    "cubas_por_ur": {
-      "id": "LOU_03",
-      "valor": 318.0,
-      "unidade": "un/UR",
-      "soma_bruta": 318.0,
-      "n_itens": 72,
-      "itens_fonte": [
-        "Tampo de Granito de 234x60 (cm), com cuba de 30 (cm) - Cozinha",
-        "Tampo de Granito com cuba -85 x50cm",
-        "Tampo de Granito de 120x60 (cm), com cuba de 30 (cm) - Cozinha",
-        "Tampo de Granito com cuba -85 x50cm",
-        "Tampo de Granito de 120x60 (cm), com cuba de 30 (cm) - Cozinha",
-        "Tampo de Granito de 120x60 (cm), com cuba de 30 (cm) - Cozinha",
-        "Tampo de Granito de 120x60 (cm), com cuba de 30 (cm) - Cozinha",
-        "Tampo de Granito de 120x60 (cm), com cuba de 30 (cm) - Cozinha",
-        "Tampo de Granito com cuba -85 x50cm",
-        "Tampo de Granito de 120x60 (cm), com cuba de 30 (cm) - Cozinha"
-      ]
-    },
-    "bacias_sanitarias_por_ur": {
-      "id": "LOU_01",
-      "valor": 144.0,
-      "unidade": "un/UR",
-      "soma_bruta": 144.0,
-      "n_itens": 8,
-      "itens_fonte": [
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Bacia Sanitária p/ PNE com Caixa Montana",
-        "Parafuso p/ Fixação de Vaso Sanitário",
-        "Parafuso p/ Fixação de Vaso Sanitário"
-      ]
-    },
-    "chuveiros_por_ur": {
-      "id": "LOU_04",
-      "valor": 95.0,
-      "unidade": "un/UR",
-      "soma_bruta": 95.0,
-      "n_itens": 32,
-      "itens_fonte": [
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico",
-        "Chuveiro Elétrico"
-      ]
+        "Bacia Sanitaria para PNE - com caixa acoplada",
+        "Bacia com caixa acoplada / Detalhe: Linha Izy, Bacia: P.111.17, caixa: CD.00IF.1"
+      ],
+      "divisor": 2969.0,
+      "norm_by": "ac"
     }
   },
   "nao_classificados_sample": [
     "APLICAÇÃO EM GARAGENS",
-    "RODAPÉ ESCADA",
-    "RODAPÉ ESCADA",
-    "RODAPÉ ESCADA",
-    "RODAPÉ ESCADA",
-    "RODAPÉ ESCADA",
-    "Chapa azul",
-    "Isolamento acustico",
-    "Azulejo",
-    "Azulejo",
-    "Chapa azul",
-    "Isolamento acustico",
-    "Azulejo",
     "Chapa azul",
     "Isolamento acustico",
     "Azulejo",
     "Bancada em Granito Siena - 85x50cm",
     "Torneira de Jardim",
     "Tampo de Granito de 160x60 (cm), com tanque inox  de 50x40 (cm)",
-    "Torneira de Bancada cromada para Tanque"
+    "Torneira de Bancada cromada para Tanque",
+    "Barra de apoio para deficiente",
+    "Torneira Bica Alta 1/4 de volta",
+    "Banqueta Articulavel para Banheiro Deficiente",
+    "Bucha Nylon C8",
+    "Anel de Borracha p/ Tubo 100 mm",
+    "Silicone",
+    "Cola Especial",
+    "Engate Flexível Trançado 1/2\"",
+    "Bucha S-8",
+    "Fita Veda Rosca",
+    "Valvula Metálica 1\"",
+    "Torneira de bancada para tanque"
   ]
 }
