@@ -1,0 +1,393 @@
+{
+  "slug": "ck-duo-praia-brava",
+  "padrao": "alto",
+  "ac_m2": 0,
+  "ur": 0,
+  "n_pavimentos": 0,
+  "n_torres": 0,
+  "total_r$": 0,
+  "data_extracao": "2026-04-17T20:03:51",
+  "duration_s": 0.1,
+  "n_itens_processados": 1639,
+  "n_itens_classificados": 1639,
+  "n_indicadores_extraidos": 20,
+  "indicadores": {
+    "revestimento_fachada_m2_por_m2_ac": {
+      "id": "REV_05",
+      "valor": 10017.0,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 10017.0,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Tela Poliester para Fachada"
+      ]
+    },
+    "aco_kg_por_m2_ac": {
+      "id": "EST_02",
+      "valor": 569725.27,
+      "unidade": "kg/m² AC",
+      "soma_bruta": 569725.27,
+      "n_itens": 170,
+      "itens_fonte": [
+        "Projeto Fundações",
+        "Aco CA-50 Diametro 6,30mm",
+        "Aco CA-50 Diametro 12,5 mm",
+        "Aco CA-50 Diametro 16,0mm",
+        "Aco CA-60 Diametro 5,0mm",
+        "Aco CA-50 Diametro 6,30mm",
+        "Aco CA-50 Diametro 8,00mm",
+        "Aço CA-50 Diametro 10,0mm",
+        "Aco CA-50 Diametro 12,5 mm",
+        "Aco CA-50 Diametro 16,0mm"
+      ]
+    },
+    "manta_asfaltica_m2_por_m2_ac": {
+      "id": "IMP_01",
+      "valor": 46309.64,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 46309.64,
+      "n_itens": 73,
+      "itens_fonte": [
+        "Projeto de Impermeabilização",
+        "Regularização de Superfície para Impermeabilização",
+        "Impermeabilização de Baldrame com Isol",
+        "Impermeabilização com Manta Asfáltica - M.O. e Material",
+        "Regularização de Superfície para Impermeabilização - M.O.*",
+        "Impermeabilização de Baldrame com Isol - M.O.",
+        "Regularização de Superfície para Impermeabilização",
+        "Impermeabilização com Argamassa Polimérica",
+        "Impermeabilização com Manta Asfáltica - M.O. e Material",
+        "Impermeabilização em Peitoril*"
+      ]
+    },
+    "elevadores_por_torre": {
+      "id": "DIV_02",
+      "valor": 36.0,
+      "unidade": "un/torre",
+      "soma_bruta": 36.0,
+      "n_itens": 3,
+      "itens_fonte": [
+        "Locação de Elevador Cremalheira",
+        "Elevador Social",
+        "Elevador de Serviço"
+      ]
+    },
+    "concreto_m3_por_m2_ac": {
+      "id": "EST_01",
+      "valor": 8512.29,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 8512.29,
+      "n_itens": 21,
+      "itens_fonte": [
+        "Concreto Usinado 40Mpa Slump 24+-2 Bombeado, Aplicação em Fundação*",
+        "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e= 5cm*",
+        "Concreto Usinado 35Mpa Slump 12+-2 Bombeado",
+        "Concreto Usinado 40Mpa Slump 12+-2 Bombeado, Aplicação em Fundação*",
+        "Concreto Usinado 45Mpa Slump 12+-2 Bombeado, Aplicação em Fundação*",
+        "Concreto Usinado 40Mpa Slump 12+-2 Bombeado, Aplicação em Supraestrutura*",
+        "Concreto Usinado 35Mpa Slump 12+-2 Bombeado",
+        "Concreto Usinado 35Mpa Slump 12+-2 Bombeado",
+        "Concreto Usinado 35Mpa Slump 12+-2 Bombeado",
+        "Concreto Usinado 35Mpa Slump 12+-2 Bombeado"
+      ]
+    },
+    "escoramento_m2_por_m2_ac": {
+      "id": "EST_04",
+      "valor": 39604.17,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 39604.17,
+      "n_itens": 28,
+      "itens_fonte": [
+        "Montagem e Desmontagem de Fôrma de Viga, Escoramento Metálico, Pé-direito Simple",
+        "Escoramento - G2",
+        "Montagem e Desmontagem de Fôrma de Viga, Escoramento Metálico, Pé-direito Simple",
+        "Escoramento - G3",
+        "Montagem e Desmontagem de Fôrma de Viga, Escoramento Metálico, Pé-direito Simple",
+        "Escoramento - G4",
+        "Montagem e Desmontagem de Fôrma de Viga, Escoramento Metálico, Pé-direito Simple",
+        "Escoramento - Lazer",
+        "Montagem e Desmontagem de Fôrma de Viga, Escoramento Metálico, Pé-direito Simple",
+        "Escoramento de Formas"
+      ]
+    },
+    "alvenaria_m2_por_m2_ac": {
+      "id": "ALV_01",
+      "valor": 25175.37,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 25175.37,
+      "n_itens": 69,
+      "itens_fonte": [
+        "Alvenaria com Tijolo Cerâmico 9x19x29 cm",
+        "Alvenaria com Tijolo Cerâmico 11,5x19x29 cm",
+        "Alvenaria com Tijolo Cerâmico 14x19x29 cm",
+        "Alvenaria com Tijolo Cerâmico 19x19x29 cm*",
+        "Alvenaria Bloco de Concreto Celular 12,5x30x60*",
+        "Alvenaria Bloco de Concreto Celular 15x30x60",
+        "Alvenaria com Tijolo Cerâmico 9x19x29 cm",
+        "Alvenaria com Tijolo Cerâmico 14x19x29 cm",
+        "Alvenaria Bloco de Concreto Celular 12,5x30x60*",
+        "Alvenaria Bloco de Concreto Celular 15x30x60"
+      ]
+    },
+    "blocos_un_por_m2_ac": {
+      "id": "ALV_02",
+      "valor": 18146.42,
+      "unidade": "un/m² AC",
+      "soma_bruta": 18146.42,
+      "n_itens": 15,
+      "itens_fonte": [
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O.",
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O.",
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O.",
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O.",
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O.",
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O.",
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O.",
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O.",
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O.",
+        "Assentamento de Tijolos Cerâmicos (em pé) - M.O."
+      ]
+    },
+    "portas_un_por_ur": {
+      "id": "ESQ_01",
+      "valor": 2468.0,
+      "unidade": "un/UR",
+      "soma_bruta": 2468.0,
+      "n_itens": 73,
+      "itens_fonte": [
+        "Colocação de Contramarcos Porta Corta Fogo - M.O.",
+        "Colocação de Contramarcos Porta Corta Fogo - M.O.",
+        "Colocação de Contramarcos Porta Corta Fogo - M.O.",
+        "Colocação de Contramarcos Porta Corta Fogo - M.O.",
+        "Colocação de Contramarcos Porta Corta Fogo - M.O.",
+        "Porta Corta Fogo 0,80x2,10 m",
+        "Porta Corta Fogo 0,90x2,10 m",
+        "Porta Corta Fogo 1,60x2,10 m",
+        "Porta Corta Fogo 0,90x2,10 m",
+        "Porta Corta Fogo 0,90x2,10 m"
+      ]
+    },
+    "ralos_caixas_sifonadas_por_ur": {
+      "id": "HID_05",
+      "valor": 1200.0,
+      "unidade": "un/UR",
+      "soma_bruta": 1200.0,
+      "n_itens": 30,
+      "itens_fonte": [
+        "Tratamento de Ralo com Manta Asfáltica*",
+        "Tratamento de Ralo com Manta Asfáltica - M.O*",
+        "Tratamento de Ralo com Manta Asfáltica*",
+        "Tratamento de Ralo com Manta Asfáltica - M.O*",
+        "Tratamento de Ralo com Manta Asfáltica*",
+        "Tratamento de Ralo com Manta Asfáltica - M.O*",
+        "Tratamento de Ralo com Manta Asfáltica*",
+        "Tratamento de Ralo com Manta Asfáltica - M.O*",
+        "Tratamento de Ralo com Manta Asfáltica*",
+        "Tratamento de Ralo com Manta Asfáltica - M.O*"
+      ]
+    },
+    "contrapiso_m2_por_m2_ac": {
+      "id": "REV_03",
+      "valor": 24161.94,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 24161.94,
+      "n_itens": 26,
+      "itens_fonte": [
+        "Contrapiso",
+        "Contrapiso - M.O.",
+        "Contrapiso",
+        "Contrapiso - M.O.",
+        "Contrapiso",
+        "Contrapiso - M.O.",
+        "Contrapiso",
+        "Contrapiso - M.O.",
+        "Contrapiso",
+        "Contrapiso - M.O."
+      ]
+    },
+    "chapisco_m2_por_m2_ac": {
+      "id": "REV_01",
+      "valor": 110062.4715,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 110062.47,
+      "n_itens": 73,
+      "itens_fonte": [
+        "Chapisco 1:3 Interno",
+        "Chapisco com Argamassa Pré-fabricada de Cimento Colante",
+        "Chapisco Interno - M.O.",
+        "Chapisco 1:3 Interno",
+        "Chapisco com Argamassa Pré-fabricada de Cimento Colante",
+        "Chapisco Interno - M.O.",
+        "Chapisco 1:3 Interno",
+        "Chapisco com Argamassa Pré-fabricada de Cimento Colante",
+        "Chapisco Interno - M.O.",
+        "Chapisco 1:3 Interno"
+      ]
+    },
+    "reboco_m2_por_m2_ac": {
+      "id": "REV_02",
+      "valor": 115452.481,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 115452.48,
+      "n_itens": 52,
+      "itens_fonte": [
+        "Reboco Interno CK",
+        "Reboco Interno CK - M.O.",
+        "Reboco Interno CK",
+        "Reboco Interno CK - M.O.",
+        "Reboco Interno CK",
+        "Reboco Interno CK - M.O.",
+        "Reboco Interno CK",
+        "Reboco Interno CK - M.O.",
+        "Reboco Interno CK",
+        "Reboco Interno CK - M.O."
+      ]
+    },
+    "porcelanato_ceramica_m2_por_m2_ac": {
+      "id": "REV_04",
+      "valor": 22835.96,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 22835.96,
+      "n_itens": 77,
+      "itens_fonte": [
+        "Piso Porcelanato - 60x60cm Interno",
+        "Colocação e Rejuntamento de Piso Porcelanato  - M.O.",
+        "Piso Porcelanato - 60x60cm Interno",
+        "Colocação e Rejuntamento de Piso Porcelanato  - M.O.",
+        "Piso Porcelanato - 60x60cm Interno",
+        "Colocação e Rejuntamento de Piso Porcelanato  - M.O.",
+        "Piso Porcelanato - 60x60cm Interno",
+        "Colocação e Rejuntamento de Piso Porcelanato  - M.O.",
+        "Piso Porcelanato - 60x60cm Interno",
+        "Piso Porcelanato - 60x60cm Antiderrapante*"
+      ]
+    },
+    "forro_gesso_m2_por_m2_ac": {
+      "id": "DIV_01",
+      "valor": 19937.04,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 19937.04,
+      "n_itens": 26,
+      "itens_fonte": [
+        "Colocação de Forro de Gesso Liso - Material e M.O.",
+        "Colocação de Forro de Gesso Liso - Material e M.O.",
+        "Colocação de Forro de Gesso Liso - Material e M.O.",
+        "Colocação de Forro de Gesso Liso - Material e M.O.",
+        "Colocação de Forro de Gesso Liso - Material e M.O.",
+        "Tinta Acrílica para Forro - 3 Demãos",
+        "Tinta Acrílica para Forro - 3 Demãos",
+        "Tinta Acrílica para Forro - 3 Demãos",
+        "Tinta Acrílica para Forro - 3 Demãos",
+        "Tinta Acrílica para Forro - 3 Demãos"
+      ]
+    },
+    "pintura_interna_m2_por_m2_ac": {
+      "id": "PIN_01",
+      "valor": 179757.65,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 179757.65,
+      "n_itens": 211,
+      "itens_fonte": [
+        "Pintura Epóxi em Piso Polido",
+        "Pintura Epóxi para Faixas de Demarcação Garagem*",
+        "Pintura Acrílica em Piso",
+        "Selador para Pintura",
+        "Massa Corrida para Pintura de Parede PVA 2 Demãos",
+        "Tinta para Pintura Acrílica em Parede 1 Demão",
+        "Tinta para Pintura Acrílica em Parede 3 Demãos",
+        "Pintura de Faixas de Garagem Parede com Tinta Preta",
+        "Pintura de Faixas de Garagem Parede com Tinta Amarela",
+        "Fundo Fosco para Pintura em Forro"
+      ]
+    },
+    "pintura_externa_m2_por_m2_ac": {
+      "id": "PIN_02",
+      "valor": 32163.65,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 32163.65,
+      "n_itens": 82,
+      "itens_fonte": [
+        "Textura Interna com 2 Demãos Tinta Acrílica",
+        "Textura com 2 Demãos Tinta PVA, Aplicada em Teto*",
+        "Aplicação de Textura Interna com 2 Demãos - M.O.",
+        "Textura com 2 Demãos Tinta PVA, Aplicada em Teto - M.O*",
+        "Textura Interna com 2 Demãos Tinta Acrílica",
+        "Textura com 2 Demãos Tinta PVA, Aplicada em Teto*",
+        "Aplicação de Textura Interna com 2 Demãos - M.O.",
+        "Textura com 2 Demãos Tinta PVA, Aplicada em Teto - M.O*",
+        "Textura Interna com 2 Demãos Tinta Acrílica",
+        "Textura com 2 Demãos Tinta PVA, Aplicada em Teto*"
+      ]
+    },
+    "janelas_un_por_ur": {
+      "id": "ESQ_02",
+      "valor": 88.0,
+      "unidade": "un/UR",
+      "soma_bruta": 88.0,
+      "n_itens": 15,
+      "itens_fonte": [
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m",
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m",
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m",
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m",
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m",
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m",
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m",
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m",
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m",
+        "Janela Fixa, Módulo com Tela - 1,20x0,70 m"
+      ]
+    },
+    "guarda_corpo_m_por_m2_ac": {
+      "id": "ESQ_04",
+      "valor": 342.72,
+      "unidade": "m/m² AC",
+      "soma_bruta": 342.72,
+      "n_itens": 13,
+      "itens_fonte": [
+        "Corrimão de Madeira Fixo em Parede",
+        "Corrimão de Madeira Fixo em Parede",
+        "Corrimão de Madeira Fixo em Parede",
+        "Corrimão de Madeira Fixo em Parede",
+        "Corrimão de Madeira Fixo em Parede",
+        "Corrimão de Madeira Fixo em Parede",
+        "Corrimão de Madeira Fixo em Parede",
+        "Corrimão de Madeira Fixo em Parede",
+        "Corrimão de Madeira Fixo em Parede",
+        "Corrimão de Madeira Fixo em Parede"
+      ]
+    },
+    "taxa_aco_kg_por_m3": {
+      "id": "EST_03b",
+      "valor": 66.93,
+      "unidade": "kg/m³",
+      "soma_bruta": 569725.27,
+      "n_itens": 170,
+      "itens_fonte": [
+        "(calculado: aço total / concreto total)"
+      ]
+    }
+  },
+  "nao_classificados_sample": [
+    "Limpeza de Entulho",
+    "Tapume de Obra com Chapa Metálica*",
+    "Locação da Obra",
+    "Bandejas Primárias*",
+    "Bandejas Secundárias*",
+    "Assistência e Orientação Técnica Segurança do Trabalho* - Contrato SPS - CT/642",
+    "Iptu",
+    "Engenheiro",
+    "Mestre",
+    "Apontador / Almoxarife",
+    "Estagiário",
+    "Vigilância",
+    "Limpeza Diária da Obra - M.O*",
+    "Despesas de Consumo - Água",
+    "Despesas de Consumo - Luz",
+    "Despesas de Consumo - Internet*",
+    "Despesas de Consumo - Telefone*",
+    "Despesas de Consumo - Alimentação*",
+    "Despesas de Consumo - Material de Expediente",
+    "Despesas de Consumo - Material de Limpeza"
+  ]
+}

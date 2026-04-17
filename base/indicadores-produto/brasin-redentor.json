@@ -1,0 +1,448 @@
+{
+  "slug": "brasin-redentor",
+  "padrao": "alto",
+  "ac_m2": 16727.83,
+  "ur": 40,
+  "n_pavimentos": 0,
+  "n_torres": 0,
+  "total_r$": 0,
+  "data_extracao": "2026-04-17T20:03:50",
+  "duration_s": 0.1,
+  "n_itens_processados": 1174,
+  "n_itens_classificados": 1174,
+  "n_indicadores_extraidos": 25,
+  "indicadores": {
+    "alvenaria_m2_por_m2_ac": {
+      "id": "ALV_01",
+      "valor": 2.9233,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 48900.9,
+      "n_itens": 24,
+      "itens_fonte": [
+        "ALVENARIA",
+        "Alvenaria de vedacao de blocos ceramicos furados na horizontal de 11,5x19x19cm (",
+        "Alvenaria de vedacao de blocos ceramicos furados na horizontal de 14x19x19cm (es",
+        "Alvenaria em Bloco De Concreto Celular 60x30x10cm Sical (espessura 10cm) com arg",
+        "Fechamento de Shaft em Alvenaria convencional de 9x19x19cm",
+        "Encunhamento de alvenaria de vedação com argamassa expansiva",
+        "Alvenaria de vedacao de blocos ceramicos furados na horizontal de 11,5x19x19cm (",
+        "Alvenaria de vedacao de blocos ceramicos furados na horizontal de 14x19x19cm (es",
+        "Alvenaria em Bloco De Concreto Celular 60x30x10cm Sical (espessura 10cm) com arg",
+        "Fechamento de Shaft em Alvenaria convencional de 9x19x19cm"
+      ]
+    },
+    "aco_kg_por_m2_ac": {
+      "id": "EST_02",
+      "valor": 63.5208,
+      "unidade": "kg/m² AC",
+      "soma_bruta": 1062565.67,
+      "n_itens": 71,
+      "itens_fonte": [
+        "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS",
+        "ACABAMENTOS EM PISOS E PAVIMENTAÇÕES",
+        "Varal de segurança com cabo de aço (linha de vida)",
+        "Armação Pronta para estaca Ø 50cm (5F 16,0 4MTS ESP75 PS20)",
+        "Armação Pronta para estaca Ø 60cm (5F 20,0 4MTS ESP75 PS20)",
+        "Armação Pronta para estaca Ø 60cm (7F 20,0 6MTS ESP75 PS20)",
+        "Armação Pronta para estaca Ø 60cm (9F 20,0 8MTS ESP75 PS20)",
+        "Armação aço CA-50 ø 6,3mm para infraestrutura (corte e dobra em obra)",
+        "Armação aço CA-50 ø 8,0mm para infraestrutura (corte e dobra em obra)",
+        "Armação aço CA-50 ø 10,0mm para infraestrutura (corte e dobra em obra)"
+      ]
+    },
+    "manta_asfaltica_m2_por_m2_ac": {
+      "id": "IMP_01",
+      "valor": 1.2283,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 20546.71,
+      "n_itens": 51,
+      "itens_fonte": [
+        "IMPERMEABILIZAÇÃO",
+        "Regularização de superfície para impermeabilização",
+        "Impermeabilização De Superfície Com Manta Asfáltica, Uma Camada, Inclusive Aplic",
+        "Impermeabilização De Superfície Com Manta Asfáltica, Uma Camada, Inclusive Aplic",
+        "Impermeabilização De Superfície Com Argamassa Polimérica / Membrana Acrílica, 3 ",
+        "Impermeabilização De Superfície Com Argamassa Polimérica / Membrana Acrílica, 3 ",
+        "Impermeabilização De Superfície Com Manta Asfáltica, Uma Camada, Inclusive Aplic",
+        "Impermeabilização De Superfície Com Argamassa Polimérica / Membrana Acrílica, 4 ",
+        "Impermeabilização De Superfície Com Manta Asfáltica, Uma Camada, Inclusive Aplic",
+        "Impermeabilização de Baldrames com Tinta Asfáltica (Neutrol)"
+      ]
+    },
+    "pintura_interna_m2_por_m2_ac": {
+      "id": "PIN_01",
+      "valor": 8.9793,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 150204.91,
+      "n_itens": 44,
+      "itens_fonte": [
+        "PINTURA INTERNA",
+        "Tratamento de piso em concreto + aplicação de pintura epóxi Material e Mão de ob",
+        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos (Somente tinta e ",
+        "Pintura Com Tinta Latex Acrilica em Paredes Internas, 3 Demaos (Incluso fundo e ",
+        "Pintura Com Tinta Latex Acrilica em Paredes Externas, 3 Demaos (Somente tinta e ",
+        "Pintura Com Tinta Latex Acrilica em Paredes Externas, 3 Demaos (Incluso fundo ) ",
+        "Pintura com tinta látex acrílica com selador em tetos, 3 demãos",
+        "Pintura em Látex Acrilica para demarcação de vagas em parede, 2 demão",
+        "Mão de obra para pintura em paredes internas, 3 demãos",
+        "Mão de obra para pintura em teto, 3 demãos"
+      ]
+    },
+    "revestimento_fachada_m2_por_m2_ac": {
+      "id": "REV_05",
+      "valor": 0.8207,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 13727.83,
+      "n_itens": 7,
+      "itens_fonte": [
+        "PINTURA E TEXTURA DE FACHADA",
+        "ACABAMENTOS DE FACHADA",
+        "Painel metálico, aplicação em Fachada - Material e  Mão de Obra",
+        "Painel metálico perfurado, aplicação em Fachada",
+        "Painel metálico, aplicação em Fachada - Material e  Mão de Obra",
+        "Painel metálico perfurado, aplicação em Fachada",
+        "Area da fachada coberta"
+      ]
+    },
+    "vidros_m2_por_m2_ac": {
+      "id": "ESQ_03",
+      "valor": 0.0619,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 1036.06,
+      "n_itens": 5,
+      "itens_fonte": [
+        "ESQUADRIAS, VIDROS E FERRAGENS",
+        "Isolamento de lã de vidro",
+        "Claraboia em vidro laminado",
+        "Isolamento de lã de vidro",
+        "Claraboia em vidro laminado"
+      ]
+    },
+    "cobertura_m2_por_m2_ac": {
+      "id": "DIV_05",
+      "valor": 0.0347,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 580.52,
+      "n_itens": 8,
+      "itens_fonte": [
+        "COBERTURA",
+        "Tapume em telha metálica*",
+        "Estrutura para cobertura em concreto",
+        "Telhamento para cobertura em Fribrocimento",
+        "Mão de obra coberturas",
+        "Estrutura para cobertura em concreto",
+        "Telhamento para cobertura em Fribrocimento",
+        "Mão de obra coberturas"
+      ]
+    },
+    "forma_m2_por_m2_ac": {
+      "id": "EST_03",
+      "valor": 0.0708,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 1184.77,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Guarda-corpo de vãos, fixado em forma de madeira, em trama de madeira com tela d"
+      ]
+    },
+    "guarda_corpo_m_por_m2_ac": {
+      "id": "ESQ_04",
+      "valor": 0.1104,
+      "unidade": "m/m² AC",
+      "soma_bruta": 1846.32,
+      "n_itens": 5,
+      "itens_fonte": [
+        "Guarda-corpo em laje pós-desforma com pontalete de madeira, travessões e tela",
+        "Corrimão de Madeira - fornecimento e instalação",
+        "Corrimão de Madeira - fornecimento e instalação",
+        "Corrimão de Madeira - fornecimento e instalação",
+        "Corrimão de Madeira - fornecimento e instalação"
+      ]
+    },
+    "portas_un_por_ur": {
+      "id": "ESQ_01",
+      "valor": 142.785,
+      "unidade": "un/UR",
+      "soma_bruta": 5711.4,
+      "n_itens": 39,
+      "itens_fonte": [
+        "Fechamento removível de vãos de porta de elevador em madeira",
+        "Requadro de portas dos Elevadores Granito,Largura de 20cm",
+        "Mão de obra para assentamento de requadros em portas de elevador",
+        "Requadro de portas dos Elevadores Granito,Largura de 20cm",
+        "Mão de obra para assentamento de requadros em portas de elevador",
+        "Porta de madeira de abrir - 80x210cm (kit completo) - fixação com espuma expansi",
+        "Porta de madeira de abrir - 90x210cm (kit completo) - fixação com espuma expansi",
+        "Porta de madeira de abrir - 100x210cm (kit completo) - fixação com espuma expans",
+        "Porta de madeira de abrir - 70x210cm (kit completo) - fixação com espuma expansi",
+        "Porta de madeira de abrir - 80x210cm (kit completo) - fixação com espuma expansi"
+      ]
+    },
+    "elevadores_por_torre": {
+      "id": "DIV_02",
+      "valor": 5603.133,
+      "unidade": "un/torre",
+      "soma_bruta": 5603.13,
+      "n_itens": 7,
+      "itens_fonte": [
+        "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevad",
+        "Elevadores Emergência",
+        "Elevadores Social",
+        "Escavação mecanizada para blocos de fundação, vigas de fundação e poço de elevad",
+        "Elevadores Emergência",
+        "Elevadores Social",
+        "Quantidade de elevadores"
+      ]
+    },
+    "concreto_m3_por_m2_ac": {
+      "id": "EST_01",
+      "valor": 0.9853,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 16482.5,
+      "n_itens": 15,
+      "itens_fonte": [
+        "Lastro de Concreto Magro, Aplicado em Blocos de Fundação",
+        "Concreto Usinado bombeável para estacas 40MPa  - incluindo serviço de bombeament",
+        "Concreto Usinado bombeável 50MPa para infraestrutura- incluindo serviço de bombe",
+        "Concreto Usinado bombeável 60MPa para infraestrutura- incluindo serviço de bombe",
+        "Concreto usinado bombeável, para supraestrutura, fck 50MPa, slump 14 +/- 2, incl",
+        "Concreto Usinado bombeável 60MPa para infraestrutura- incluindo serviço de bombe",
+        "Concreto usinado bombeável, para supraestrutura, fck 50MPa, slump 14 +/- 2, incl",
+        "Concreto usinado bombeável, para supraestrutura, fck 50MPa, slump 14 +/- 2, incl",
+        "Lastro de Concreto Magro, Aplicado em Blocos de Fundação",
+        "Concreto Usinado bombeável para estacas 40MPa  - incluindo serviço de bombeament"
+      ]
+    },
+    "blocos_un_por_m2_ac": {
+      "id": "ALV_02",
+      "valor": 0.0207,
+      "unidade": "un/m² AC",
+      "soma_bruta": 346.24,
+      "n_itens": 4,
+      "itens_fonte": [
+        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
+        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
+        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa",
+        "Tijolo refratário para churrasqueiras 2,5x11,5x23cm com argamassa"
+      ]
+    },
+    "contrapiso_m2_por_m2_ac": {
+      "id": "REV_03",
+      "valor": 2.7524,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 46042.26,
+      "n_itens": 15,
+      "itens_fonte": [
+        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 8cm",
+        "Piso cimentado com argamassa de contrapiso usinada e acabamento vassourado",
+        "Mão de obra execução de contrapiso comum e Acústico",
+        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 8cm",
+        "Piso cimentado com argamassa de contrapiso usinada e acabamento vassourado",
+        "Mão de obra execução de contrapiso comum e Acústico",
+        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 8cm",
+        "Piso cimentado com argamassa de contrapiso usinada e acabamento vassourado",
+        "Mão de obra execução de contrapiso comum e Acústico",
+        "Contrapiso comum em argamassa estabilizada, nao aderido, espessura 8cm"
+      ]
+    },
+    "chapisco_m2_por_m2_ac": {
+      "id": "REV_01",
+      "valor": 1.8642,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 31183.77,
+      "n_itens": 11,
+      "itens_fonte": [
+        "Chapisco aplicado em estruturas de concreto, de argamassa ACIII, com desempenade",
+        "Chapisco externo aplicado em estruturas de concreto, de argamassa ACIII, com des",
+        "Mao de obra para reboco externo - inclui chapisco",
+        "Chapisco aplicado em estruturas de concreto, de argamassa ACIII, com desempenade",
+        "Chapisco externo aplicado em estruturas de concreto, de argamassa ACIII, com des",
+        "Mao de obra para reboco externo - inclui chapisco",
+        "Chapisco aplicado em estruturas de concreto, de argamassa ACIII, com desempenade",
+        "Chapisco externo aplicado em estruturas de concreto, de argamassa ACIII, com des",
+        "Mao de obra para reboco externo - inclui chapisco",
+        "Mao de obra para reboco externo - inclui chapisco"
+      ]
+    },
+    "reboco_m2_por_m2_ac": {
+      "id": "REV_02",
+      "valor": 8.5092,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 142341.22,
+      "n_itens": 15,
+      "itens_fonte": [
+        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
+        "Massa unica para reboco externo em argamassa estabilizada, espessura de 2,5cm, c",
+        "Mão de obra para reboco interno",
+        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
+        "Massa unica para reboco externo em argamassa estabilizada, espessura de 2,5cm, c",
+        "Mão de obra para reboco interno",
+        "Massa unica para reboco interno em argamassa estabilizada, espessura de 2,5cm, c",
+        "Massa unica para reboco externo em argamassa estabilizada, espessura de 2,5cm, c",
+        "Mão de obra para reboco interno",
+        "Reboco interno"
+      ]
+    },
+    "forro_gesso_m2_por_m2_ac": {
+      "id": "DIV_01",
+      "valor": 3.3432,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 55924.12,
+      "n_itens": 22,
+      "itens_fonte": [
+        "Forro de gesso acartonado - áreas secas - Material e Mão de Obra",
+        "Forro de gesso acartonado - áreas úmidas - Material e Mão de Obra",
+        "Negativo de forro de gesso acartonado - área umida",
+        "Negativo de forro de gesso acartonado - área seca",
+        "Forro de placa cimenticia - Material e Mão de Obra",
+        "Forro de gesso mineral em tetos - Material e Mão de Obra",
+        "Forro de gesso acartonado - áreas secas - Material e Mão de Obra",
+        "Forro de gesso acartonado - áreas úmidas - Material e Mão de Obra",
+        "Negativo de forro de gesso mineral",
+        "Negativo de forro de gesso acartonado - área umida"
+      ]
+    },
+    "ralos_caixas_sifonadas_por_ur": {
+      "id": "HID_05",
+      "valor": 43.8,
+      "unidade": "un/UR",
+      "soma_bruta": 1752.0,
+      "n_itens": 6,
+      "itens_fonte": [
+        "Tratamento de ralo com manta de poliéster",
+        "Mão de obra tratamento de ralo com manta de poliéster",
+        "Tratamento de ralo com manta de poliéster",
+        "Mão de obra tratamento de ralo com manta de poliéster",
+        "Tratamento de ralo com manta de poliéster - Material e Mão de obra",
+        "Tratamento de ralo com manta de poliéster - Material e Mão de obra"
+      ]
+    },
+    "pintura_externa_m2_por_m2_ac": {
+      "id": "PIN_02",
+      "valor": 1.6294,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 27257.08,
+      "n_itens": 13,
+      "itens_fonte": [
+        "Textura acrílica aplicação em paredes internas, 1 demão",
+        "Textura Emborrachada, acabamento suave, aplicação em paredes externas - 1 demão ",
+        "Textura acrílica aplicação em paredes internas, 1 demão",
+        "Textura Emborrachada, acabamento suave, aplicação em paredes externas - 1 demão ",
+        "Textura Acrílica aplicação em tetos, 1 demão",
+        "Textura acrílica aplicação em paredes internas, 1 demão",
+        "Textura Emborrachada, acabamento suave, aplicação em paredes externas - 1 demão ",
+        "Textura Acrílica aplicação em tetos, 1 demão",
+        "Textura acrílica aplicação em paredes internas, 1 demão",
+        "Textura Emborrachada, acabamento suave, aplicação em paredes externas - 1 demão "
+      ]
+    },
+    "porcelanato_ceramica_m2_por_m2_ac": {
+      "id": "REV_04",
+      "valor": 2.2437,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 37531.88,
+      "n_itens": 42,
+      "itens_fonte": [
+        "Revestimento em Cerâmicas Pisos Externos, 60x 60cm com Junta de 3mm",
+        "Revestimento de Piso Interno de Porcelanato Polido, Placa 120x120cm",
+        "Revestimento de Piso Externo de Porcelanato Polido, Placa 90x90cm",
+        "Rodapé de porcelanato h=10cm",
+        "Rodapé de porcelanato h=15cm",
+        "Revestimento de parede em porcelanato, placa 30x60cm",
+        "Mão de obra de rodapé Porcelanato",
+        "Mão de obra para assentamento de revestimento cerâmico em parede",
+        "Revestimento de Piso Interno de Porcelanato Polido, Placa 90x90cm",
+        "Revestimento de Piso Externo de Porcelanato Polido, Placa 90x90cm"
+      ]
+    },
+    "registros_por_ur": {
+      "id": "HID_04",
+      "valor": 6.2,
+      "unidade": "un/UR",
+      "soma_bruta": 248.0,
+      "n_itens": 11,
+      "itens_fonte": [
+        "REGISTRO ESFERA 3/4",
+        "REGISTRO DE ESFERA 3",
+        "REGISTRO DE FECHO RAPIDO 1/8 X 1/8 - M X F",
+        "REGISTRO GAVETA 3\" - SR",
+        "REGISTRO GLOBO ANGULAR 2 1/2 X 45° PN16 COM ROSCA",
+        "REGISTRO ESFERA 1\" PASSAGEM PLENA",
+        "REGISTRO GLOBO ANGULAR 2 1/2 X 45° PN16 COM ROSCA",
+        "REGISTRO GAVETA 1\"",
+        "REGISTRO GAVETA 2 1/2",
+        "REGISTRO GAVETA 3\" - SR"
+      ]
+    },
+    "hidrantes_por_pavimento": {
+      "id": "DIV_03",
+      "valor": 1.0,
+      "unidade": "un/pav",
+      "soma_bruta": 1.0,
+      "n_itens": 1,
+      "itens_fonte": [
+        "PLACA HIDRANTE DE RECALQUE 15X20"
+      ]
+    },
+    "luminarias_por_ur": {
+      "id": "ELE_04",
+      "valor": 4.0,
+      "unidade": "un/UR",
+      "soma_bruta": 160.0,
+      "n_itens": 2,
+      "itens_fonte": [
+        "LUMINARIA DE EMERGENCIA 30 LEDS 110 LUMENS - MC",
+        "LUMINARIA DE EMERGENCIA 1200 LUMENS COMPACT - SEG / MC"
+      ]
+    },
+    "sprinklers_m2_por_m2_ac": {
+      "id": "DIV_04",
+      "valor": 0.0854,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 1429.0,
+      "n_itens": 8,
+      "itens_fonte": [
+        "SPRINKLER UPRIGHT SEM CANOPLA 68 1/2",
+        "CANOPLA PARA SPRINKLER AÇO INOX 1/2 75MM",
+        "SISTEMA DE REDE DE SPRINKLER PVC FIRE",
+        "SISTEMA DE REDE DE SPRINKLER VALVULA DE GOVERNO E ALARME 3\" FLANGEADA, UL/FM, WE",
+        "SISTEMA DE REDE DE SPRINKLER CHAVE DE FLUXO 3\" UL/FM, WEFLO F6001",
+        "SISTEMA DE REDE DE SPRINKLER VALVULA GAVETA HASTE ASCENDENTE, 3\" FLANGEADA, UL/F",
+        "SISTEMA DE REDE DE SPRINKLER CURVA 45° RANHURADA 1.1/4\" 300 PSI UL/FM",
+        "SISTEMA DE REDE DE SPRINKLER VALVULA REDUTORA DE PRESSAO FLANGEADA APROVADA FM, "
+      ]
+    },
+    "taxa_aco_kg_por_m3": {
+      "id": "EST_03b",
+      "valor": 64.47,
+      "unidade": "kg/m³",
+      "soma_bruta": 1062565.666242503,
+      "n_itens": 71,
+      "itens_fonte": [
+        "(calculado: aço total / concreto total)"
+      ]
+    }
+  },
+  "nao_classificados_sample": [
+    "MESES DE OBRA",
+    "ÁREA DO TERRENO",
+    "ÁREA CONSTRUÍDA",
+    "NÚMERO DE UNIDADES HABITACIONAIS",
+    "NÚMERO DE UNIDADES COMERCIAIS",
+    "ÁREA PRIVATIVA",
+    "NÚMERO DE PAVIMENTOS",
+    "Térreo",
+    "Mezanino Térreo",
+    "Garagem 1",
+    "Mezanino G1",
+    "Garagem 2",
+    "Mezanino G2",
+    "Lazer",
+    "Tipo01 e 02 (x6)",
+    "Tipo 03 Diferenciado",
+    "Tipo 04 (x7)",
+    "Duplex Inferior",
+    "Duplex Superior",
+    "Tipo (x19)"
+  ]
+}

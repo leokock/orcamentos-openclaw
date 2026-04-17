@@ -1,0 +1,374 @@
+{
+  "slug": "mussi-empreendimentos-soho",
+  "padrao": "alto",
+  "ac_m2": 12000.0,
+  "ur": 0,
+  "n_pavimentos": 0,
+  "n_torres": 0,
+  "total_r$": 29467078.29,
+  "data_extracao": "2026-04-17T20:03:53",
+  "duration_s": 0.1,
+  "n_itens_processados": 947,
+  "n_itens_classificados": 947,
+  "n_indicadores_extraidos": 20,
+  "indicadores": {
+    "revestimento_fachada_m2_por_m2_ac": {
+      "id": "REV_05",
+      "valor": 0.6347,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 7616.64,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Tela Poliester para Fachada"
+      ]
+    },
+    "elevadores_por_torre": {
+      "id": "DIV_02",
+      "valor": 57.0,
+      "unidade": "un/torre",
+      "soma_bruta": 57.0,
+      "n_itens": 4,
+      "itens_fonte": [
+        "Locação de Elevador Cremalheira",
+        "Manutenção de Elevador Cremalheira",
+        "Elevador Social",
+        "Elevador de Serviço"
+      ]
+    },
+    "concreto_m3_por_m2_ac": {
+      "id": "EST_01",
+      "valor": 0.4122,
+      "unidade": "m³/m² AC",
+      "soma_bruta": 4946.45,
+      "n_itens": 14,
+      "itens_fonte": [
+        "Lastro de Concreto Magro, Aplicado em Blocos de Fundação, e=5cm",
+        "Concreto Usinado Bombeável, para Estacas, FCK 40MPa, com Brita 0 e 1, SLUMP = 22",
+        "Concreto Usinado Bombeável, para Blocos, FCK 30MPa, com Brita 0 E 1, SLUMP = 14 ",
+        "Concreto Usinado Bombeável, para Baldrames, FCK 40 MPa, SLUMP = 14 +/- 2 B01, In",
+        "Concreto Usinado Bombeável, para Supraestrutura do Embasamento , FCK 30MPa, SLUM",
+        "Concreto Usinado Bombeável, para Supraestrutura do Embasamento , FCK 40MPa, SLUM",
+        "Concreto Usinado Bombeável, para Supraestrutura do Embasamento , FCK 40MPa, SLUM",
+        "Concreto Usinado Bombeável, para Supraestrutura do Embasamento , FCK 40MPa, SLUM",
+        "Concreto Usinado Bombeável, para Supraestrutura do Embasamento , FCK 40MPa, SLUM",
+        "Concreto Usinado Bombeável, para Supraestrutura Torre, FCK 40MPa, SLUMP = 14 +/-"
+      ]
+    },
+    "aco_kg_por_m2_ac": {
+      "id": "EST_02",
+      "valor": 31.7809,
+      "unidade": "kg/m² AC",
+      "soma_bruta": 381370.99,
+      "n_itens": 125,
+      "itens_fonte": [
+        "Armação Aço CA-50, Diâmetro 6,3mm para Estacas - Corte e Dobra em Obra",
+        "Armação Aço CA-50, Diâmetro 16,0mm para Estacas - Corte e Dobra em Obra",
+        "Armação Aço CA-60, Diâmetro de 5,0mm para Bloco e Baldrame, Corte e Dobra em Obr",
+        "Armação Aço CA-50, Diâmetro de 6,3mm para Bloco e Baldrame, Corte e Dobra em Obr",
+        "Armação Aço CA-50, Diâmetro de 8,0 mm para Bloco e Baldrame, Corte e Dobra em Ob",
+        "Armação Aço CA-50, Diâmetro de 10,0mm para Bloco e Baldrame, Corte e Dobra em Ob",
+        "Armação Aço CA-50, Diâmetro de 12,5mm para Bloco e Baldrame, Corte e Dobra em Ob",
+        "Armação Aço CA-50, Diâmetro de 16,0mm para Bloco e Baldrame, Corte e Dobra em Ob",
+        "Armação Aço CA-50, Diâmetro de 20,0mm para Bloco e Baldrame, Corte e Dobra em Ob",
+        "Armação Aço CA-50, Diâmetro de 25,0mm para Bloco e Baldrame, Corte e Dobra em Ob"
+      ]
+    },
+    "alvenaria_m2_por_m2_ac": {
+      "id": "ALV_01",
+      "valor": 3.666,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 43991.45,
+      "n_itens": 70,
+      "itens_fonte": [
+        "Alvenaria de Vedação de Blocos Cerâmicos Furados na Horizontal de 11x19x39cm (es",
+        "Alvenaria de Vedação de Blocos Cerâmicos Furados na Horizontal de 14x19x39cm (Es",
+        "Alvenaria de Vedação com Blocos de Concreto Celular Autoclavado de 12,5x30x60cm ",
+        "Encunhamento de Alvenaria de Vedação com Argamassa Expansiva",
+        "Mão de Obra para Acabamento em Alvenaria - Porta do Elevador",
+        "Alvenaria de Vedação de Blocos Cerâmicos Furados na Horizontal de 11x19x39cm (es",
+        "Alvenaria de Vedação de Blocos Cerâmicos Furados na Horizontal de 14x19x39cm (Es",
+        "Alvenaria de Vedação com Blocos de Concreto Celular Autoclavado de 12,5x30x60cm ",
+        "Encunhamento de Alvenaria de Vedação com Argamassa Expansiva",
+        "Mão de Obra para Acabamento em Alvenaria - Porta do Elevador"
+      ]
+    },
+    "janelas_un_por_ur": {
+      "id": "ESQ_02",
+      "valor": 1928.71,
+      "unidade": "un/UR",
+      "soma_bruta": 1928.71,
+      "n_itens": 18,
+      "itens_fonte": [
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento",
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento",
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento",
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento",
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento",
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento",
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento",
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento",
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento",
+        "Mão de Obra para Vãos de Janelas e Portas, Critério de Medição para Assentamento"
+      ]
+    },
+    "portas_un_por_ur": {
+      "id": "ESQ_01",
+      "valor": 1037.0,
+      "unidade": "un/UR",
+      "soma_bruta": 1037.0,
+      "n_itens": 48,
+      "itens_fonte": [
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo",
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo",
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo",
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo",
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo",
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo",
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo",
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo",
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo",
+        "Mão de Obra para Colocação de Contramarco de Alumínio em Porta Corta Fogo"
+      ]
+    },
+    "blocos_un_por_m2_ac": {
+      "id": "ALV_02",
+      "valor": 0.0271,
+      "unidade": "un/m² AC",
+      "soma_bruta": 325.0,
+      "n_itens": 8,
+      "itens_fonte": [
+        "Assentamento de Tijolos Refratários de 6,3 x 11,4 x 22,9cm com Argamassa Refratá",
+        "Mão de obra para Execução de Churrasqueira com Tijolos Refratários",
+        "Assentamento de Tijolos Refratários de 6,3 x 11,4 x 22,9cm com Argamassa Refratá",
+        "Mão de obra para Execução de Churrasqueira com Tijolos Refratários",
+        "Assentamento de Tijolos Refratários de 6,3 x 11,4 x 22,9cm com Argamassa Refratá",
+        "Mão de obra para Execução de Churrasqueira com Tijolos Refratários",
+        "Assentamento de Tijolos Refratários de 6,3 x 11,4 x 22,9cm com Argamassa Refratá",
+        "Mão de obra para Execução de Churrasqueira com Tijolos Refratários"
+      ]
+    },
+    "manta_asfaltica_m2_por_m2_ac": {
+      "id": "IMP_01",
+      "valor": 1.1163,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 13395.11,
+      "n_itens": 33,
+      "itens_fonte": [
+        "Impermeabilização de Baldrames com Tinta Asfáltica (Neutrol)",
+        "Regularização de Superfície para Impermeabilização",
+        "Regularização de Superfície para Impermeabilização",
+        "Mão de Obra para Impermeabilização com Tinta Asfáltica",
+        "Manta Asfáltica espessura 4mm, Uma Camada, Aplicação com Primer Asfáltico",
+        "Regularização de Superfície para Impermeabilização",
+        "Mão de Obra para Impermeabilização de Manta Asfáltica",
+        "Mão de Obra para Impermeabilização com Argamassa Polimérica",
+        "Manta Asfáltica espessura 4mm, Uma Camada, Aplicação com Primer Asfáltico",
+        "Impermeabilização com Manta Líquida em Peitoris"
+      ]
+    },
+    "chapisco_m2_por_m2_ac": {
+      "id": "REV_01",
+      "valor": 3.9186,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 47023.01,
+      "n_itens": 41,
+      "itens_fonte": [
+        "Chapisco em Estruturas de Concreto com Argamassa Industrializada",
+        "Mão de Obra para Execução de Chapisco e Reboco Interno em Paredes",
+        "Chapisco em Estruturas de Concreto com Argamassa Industrializada",
+        "Mão de Obra para Execução de Chapisco e Reboco Interno em Paredes",
+        "Chapisco em Estruturas de Concreto com Argamassa Industrializada",
+        "Mão de Obra para Execução de Chapisco e Reboco Interno em Paredes",
+        "Chapisco em Estruturas de Concreto com Argamassa Industrializada",
+        "Mão de Obra para Execução de Chapisco e Reboco Interno em Paredes",
+        "Chapisco em Estruturas de Concreto com Argamassa Industrializada",
+        "Mão de Obra para Execução de Chapisco e Reboco Interno em Paredes"
+      ]
+    },
+    "reboco_m2_por_m2_ac": {
+      "id": "REV_02",
+      "valor": 2.981,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 35771.56,
+      "n_itens": 21,
+      "itens_fonte": [
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur",
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur",
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur",
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur",
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur",
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur",
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur",
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur",
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur",
+        "Massa única para reboco interno em argamassa pronta e aplicação manual, espessur"
+      ]
+    },
+    "contrapiso_m2_por_m2_ac": {
+      "id": "REV_03",
+      "valor": 0.9355,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 11226.38,
+      "n_itens": 10,
+      "itens_fonte": [
+        "Mão de Obra para Execução de Contrapiso Comum",
+        "Mão de Obra para Execução de Contrapiso Comum",
+        "Mão de Obra para Execução de Contrapiso Comum",
+        "Mão de Obra para Execução de Contrapiso Comum",
+        "Mão de Obra para Execução de Contrapiso Comum",
+        "Mão de Obra para Execução de Contrapiso Comum",
+        "Mão de Obra para Execução de Contrapiso Comum",
+        "Mão de Obra para Execução de Contrapiso Comum",
+        "Mão de Obra para Execução de Contrapiso Comum",
+        "Mão de Obra para Execução de Contrapiso Comum"
+      ]
+    },
+    "forro_gesso_m2_por_m2_ac": {
+      "id": "DIV_01",
+      "valor": 0.9305,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 11165.74,
+      "n_itens": 18,
+      "itens_fonte": [
+        "Forro de Gesso Acartonado Aplicação em Áreas Secas",
+        "Mão de Obra para Colocação de Forro de Gesso",
+        "Forro de Gesso Acartonado Aplicação em Áreas Secas",
+        "Mão de Obra para Colocação de Forro de Gesso",
+        "Forro de Gesso Acartonado Aplicação em Áreas Secas",
+        "Mão de Obra para Colocação de Forro de Gesso",
+        "Forro de Gesso Acartonado Aplicação em Áreas Secas",
+        "Mão de Obra para Colocação de Forro de Gesso",
+        "Forro de Gesso Acartonado Aplicação em Áreas Secas",
+        "Mão de Obra para Colocação de Forro de Gesso"
+      ]
+    },
+    "porcelanato_ceramica_m2_por_m2_ac": {
+      "id": "REV_04",
+      "valor": 1.0868,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 13042.07,
+      "n_itens": 68,
+      "itens_fonte": [
+        "Revestimento de Piso Cerâmico, Placa 60x60cm, Aplicação em Escadas/Ante-Câmara",
+        "Revestimento de Piso Cerâmico, Placa 60x60cm, Aplicação em Áreas Comuns",
+        "Revestimento de Piso Porcelanato Polido, Placa 60x60cm, Aplicação em Áreas Comun",
+        "Mão de Obra para Colocação e Rejuntamento de Piso Porcelanato até 60x60cm",
+        "Revestimento de Piso Cerâmico, Placa 60x60cm, Aplicação em Escadas/Ante-Câmara",
+        "Revestimento de Piso Cerâmico, Placa 60x60cm, Aplicação em Áreas Comuns",
+        "Revestimento de Piso Cerâmico, Placa 60x60cm, Aplicação em Escadas/Ante-Câmara",
+        "Revestimento de Piso Cerâmico, Placa 60x60cm, Aplicação em Áreas Comuns",
+        "Revestimento de Piso Cerâmico, Placa 60x60cm, Aplicação em Escadas/Ante-Câmara",
+        "Revestimento de Piso Cerâmico, Placa 60x60cm, Aplicação em Áreas Comuns"
+      ]
+    },
+    "pintura_interna_m2_por_m2_ac": {
+      "id": "PIN_01",
+      "valor": 6.0055,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 72066.16,
+      "n_itens": 116,
+      "itens_fonte": [
+        "Pintura Epóxi em Piso, Aplicação Manual, 2 Demãos",
+        "Pintura Impermeabilizante Elástica à Base de Resina Acrílica em Piso, 2 Demãos",
+        "Pintura com Tinta Acrílica em Parede - Faixas de Demarcação Garagem, 2 demãos",
+        "Pintura com Tinta Látex Acrílica em Paredes, 3 Demãos",
+        "Pintura com Tinta Látex Acrílica em Paredes, 2 Demãos",
+        "Pintura com Tinta Látex Acrílica em Paredes, 1 Demão, Aplicação em Fossos e Duto",
+        "Pintura com Tinta Látex Acrílica em Teto, 3 Demãos",
+        "Pintura com Tinta Látex Acrílica em Teto, 2 Demãos",
+        "Mão de Obra para Aplicação de Pintura Epóxi em Piso, 2 Demãos",
+        "Mão de Obra para Aplicação de Pintura Impermeabilizante à Base de Resina Acrílic"
+      ]
+    },
+    "pintura_externa_m2_por_m2_ac": {
+      "id": "PIN_02",
+      "valor": 1.5031,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 18037.36,
+      "n_itens": 28,
+      "itens_fonte": [
+        "Textura Acrílica, em Parede Interna, 1 Demão",
+        "Textura Acrílica, em Teto, 1 Demão",
+        "Textura Acrílica, em Escadaria, 1 Demão",
+        "Textura Acrílica, em Parede Interna, 1 Demão",
+        "Textura Acrílica, em Teto, 1 Demão",
+        "Textura Acrílica, em Escadaria, 1 Demão",
+        "Textura Acrílica, em Parede Interna, 1 Demão",
+        "Textura Acrílica, em Teto, 1 Demão",
+        "Textura Acrílica, em Escadaria, 1 Demão",
+        "Textura Acrílica, em Parede Interna, 1 Demão"
+      ]
+    },
+    "vidros_m2_por_m2_ac": {
+      "id": "ESQ_03",
+      "valor": 0.0085,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 102.4,
+      "n_itens": 1,
+      "itens_fonte": [
+        "Pele de vidro - Fornecimento e Instalação - Térreo"
+      ]
+    },
+    "guarda_corpo_m_por_m2_ac": {
+      "id": "ESQ_04",
+      "valor": 0.0444,
+      "unidade": "m/m² AC",
+      "soma_bruta": 533.2,
+      "n_itens": 8,
+      "itens_fonte": [
+        "Corrimão de Escadas",
+        "Guarda Corpo em Escadaria, h=120cm",
+        "Corrimão de Escadas",
+        "Guarda Corpo em Escadaria, h=120cm",
+        "Corrimão de Escadas",
+        "Guarda Corpo em Escadaria, h=120cm",
+        "Corrimão de Escadas",
+        "Guarda Corpo em Escadaria, h=120cm"
+      ]
+    },
+    "cobertura_m2_por_m2_ac": {
+      "id": "DIV_05",
+      "valor": 0.0552,
+      "unidade": "m²/m² AC",
+      "soma_bruta": 662.28,
+      "n_itens": 3,
+      "itens_fonte": [
+        "Trama Metálica para Cobertura com Telha Metálica Trapezoidal",
+        "Cobertura com Telha Trapezoidal Simples",
+        "Mão de Obra para Execução de Cobertura em Telha Trapezoidal Simples e Estrutura "
+      ]
+    },
+    "taxa_aco_kg_por_m3": {
+      "id": "EST_03b",
+      "valor": 77.1,
+      "unidade": "kg/m³",
+      "soma_bruta": 381370.9899999999,
+      "n_itens": 125,
+      "itens_fonte": [
+        "(calculado: aço total / concreto total)"
+      ]
+    }
+  },
+  "nao_classificados_sample": [
+    "Bandejas Primárias",
+    "Bandejas Secundárias",
+    "Engenheiro",
+    "Estagiário",
+    "Locação da Obra",
+    "Despesas de Consumo - Água",
+    "Despesas de Consumo - Luz",
+    "Despesas De Consumo - Internet",
+    "Despesas de Consumo - Coleta de Lixo",
+    "Despesas de Consumo - Material de Expediente",
+    "Despesas de Consumo - Material de Limpeza",
+    "Remoção Ordinária de Entulhos, com Transporte para Bota-Fora",
+    "Esgotamento de Sistema Sanitário Temporário",
+    "Serviço de Vigilância",
+    "Controle de Acesso",
+    "Tapume de Compensado com Comunicação Visual",
+    "Minicarregadeira",
+    "Condutor de Entulho Vertical",
+    "Manutenção de grua",
+    "Locação de Balancim"
+  ]
+}
