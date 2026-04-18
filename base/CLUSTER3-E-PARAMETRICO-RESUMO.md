@@ -37,17 +37,22 @@ Agrupados por cliente, com % do total alocado em Gerenciamento:
 
 ### Interpretação
 
-**Hipótese mais forte:** Cluster 3 é a **assinatura de projetos EPCM/fee-based** da Cartesian — onde a empresa é remunerada com fee de gerenciamento (pacote executivo + gestão de obra), e esse fee é alocado integralmente em "Gerenciamento". Os custos diretos (material + MO direta) ficam com construtora/fornecedores ou em linhas macro.
+**Hipótese forte (a validar com contratos):** Cluster 3 tem **distribuição de custo consistente com projetos EPCM/fee-based** — onde a empresa é remunerada com fee de gerenciamento alto (pacote executivo + gestão de obra) e esse fee é alocado em "Gerenciamento". Os custos diretos ficam diluídos ou nas linhas macro.
 
-**Duas evidências:**
+**⚠ Ressalva (pós-revisão qwen):** essa é uma hipótese **baseada em padrão observado na distribuição % de MG**, não em evidência contratual. Para confirmar, precisaria consultar contratos reais dos 13 projetos. Padrão pode ser explicado também por:
+- Cartesian atuando como **consultora/coordenadora** (não EPCM) — cliente executa obra por conta, Cartesian só gerencia
+- **Orçamentos menos detalhados** — itens diretos mal segmentados caem em "gerenciamento"
+- **Modelo comercial do cliente** — cliente pediu pra concentrar custo indireto na linha Gerenciamento
 
-1. **Nova Empreendimentos: 4/4 projetos no cluster**. Essa consistência sugere padrão de contratação próprio do cliente — talvez Cartesian atenda Nova com escopo fechado ou gestão completa.
-2. **Inbrasul tem dois projetos com Ger% = 32.2% exatamente igual**. Quase certamente mesmo modelo de contrato, replicado.
+**Evidências circunstanciais:**
+
+1. **Nova Empreendimentos: 4/4 projetos no cluster**. Consistência sugere *padrão contratual recorrente* — pode ser EPCM, pode ser escopo fechado com consultoria, pode ser decisão do cliente. **Ação: consultar contrato de 1 projeto pra validar.**
+2. **Inbrasul tem dois projetos com Ger% = 32.2% exatamente igual**. Quase certamente mesmo modelo de contrato replicado — **forte evidência de contrato-padrão**, tipo ainda a confirmar.
 
 **Contraste dentro do cluster:**
 - **Nova + ALL + GDI** estão caros (R$ 4.3k–7.7k). Fee alto + escopo detalhado.
 - **Paludo** está eficiente (R$ 2.7k–3.7k). Mesma estrutura contratual, escopo mais enxuto.
-- **Grandezza Gran Royal** R$ 1.9k/m² com Ger 34% — projeto simples ou mal capturado.
+- **Grandezza Gran Royal** R$ 1.9k/m² com Ger 34% — **outlier que exige investigação dedicada antes de conclusão**. Possíveis causas (qwen apontou ambiguidade da 1ª versão): (a) escopo parcial (só algumas disciplinas orçadas), (b) localização com CUB baixo, (c) especificação simplificada, (d) erro no AC registrado. Não classificar como "simples" sem ver o memorial.
 
 ### Ações comerciais recomendadas
 
@@ -122,7 +127,7 @@ Agrupados por cliente, com % do total alocado em Gerenciamento:
 
 1. **Cluster 3 não é sobre tipo de obra — é sobre modo de contratação.** +23pp em gerenciamento = assinatura de EPCM/fee-based. Cartesian já tem 13 projetos nesse segmento, incluindo 100% dos projetos da Nova Empreendimentos.
 
-2. **Paludo é o benchmark de eficiência dentro do EPCM.** Mesma estrutura de contrato, R$/m² 2.7k–3.7k vs 5k–7.7k da Nova.
+2. **Paludo tem R$/m² 2.7k–3.7k vs 5k–7.7k da Nova — mesma assinatura de distribuição MG, resultado financeiro muito diferente.** A análise Paludo vs Nova v2 (18/abr) mostrou que a diferença é combinação de: escopo (Nova inclui terreno em Evora), qualidade de dados do cliente (Nova tem revisões e alertas, Paludo zero), e especificação premium em linhas específicas (Nova guarda-corpo vidro R$ 2.6k/m). **Não é "eficiência EPCM pura" — é contexto comercial e de escopo diferente.**
 
 3. **Paramétrico atual está bem calibrado para médio-alto e alto com projetos grandes** (arthen-arboris -2.7%, thozen-electra -0.8%). Ótimo sinal.
 

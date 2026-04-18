@@ -15,9 +15,15 @@
 | Médio-alto | R$ 3.443 | -18% | 31 |
 | Alto | R$ 4.188 | baseline | 19 |
 
-**Observação:** amostras de econômico e médio são pequenas (n=3 e n=2). Alto e médio-alto têm base estatística confiável.
+**⚠ Observação crítica:** amostras de econômico (n=3) e médio (n=2) são **pequenas demais para conclusão estatística**. Valores apresentados são **referência fraca**. Alto (n=19) e médio-alto (n=31) têm base estatística utilizável.
 
-**Correlação R$/m² × AC:** r = **-0.17** → economia de escala fraca. Projetos maiores tendem a R$/m² um pouco menor, mas variação é dominada pelo padrão e não pela escala.
+**Correlação R$/m² × AC:** r = **-0.17** (n=55) — correlação **muito tênue** estatisticamente. *Sugere* (não confirma) economia de escala leve. Não é significativa a 95% de confiança, e a variação dentro do mesmo padrão é 3-4× maior que a variação por escala.
+
+**⚠ Hipóteses alternativas não testadas nesta versão:**
+- **Localização geográfica** — CUB difere entre regiões (SC/RS vs SP/RJ)
+- **Tipo de empreendimento** — residencial vs misto vs comercial
+- **Estrutura de precificação do cliente** — margem e BDI variam entre contratantes
+- **Complexidade específica** — fck, taxa de aço podem justificar parte do R$/m²
 
 ---
 
@@ -168,7 +174,7 @@
 
 ## 9. Tendências identificadas
 
-1. **Padrão > Escala**: a diferença entre padrão alto (R$ 4.188/m²) e médio-alto (R$ 3.443/m²) é **maior** que a diferença gerada por escala (r = -0.17 fraco). Focar em padrão pra estimativa inicial.
+1. **Padrão > Escala (para alto e médio-alto, onde há amostra)**: delta alto vs médio-alto é 22% na mediana (n=50), maior que o efeito de escala (r=-0.17, n=55 — correlação tênue). Para **estimativa inicial**, usar padrão como variável principal — mas **validar localização + tipologia** antes de aplicar mediana diretamente.
 
 2. **Supraestrutura é piso fixo**: 19% do total, R$ 717/m² — essa é a base dura, qualquer padrão. Não dá pra reduzir muito.
 
@@ -186,7 +192,7 @@
 
 1. **Validar sanity de orçamento novo**: se novo executivo sai com R$/m² fora da faixa do padrão (alto: R$ 3.217–6.091 em p25–p75), checar escopo.
 
-2. **Abordagem comercial por padrão**: pra médio-alto oferecer **R$ 3.100–3.800/m²**; pra alto, **R$ 3.600–5.200/m²**. Valores consistentes com p25–p75 observados.
+2. **Abordagem comercial por padrão** (apenas referência inicial): médio-alto **R$ 3.100–3.800/m²** (p25-p75, n=31); alto **R$ 3.600–5.200/m²** (p25-p75, n=19). **Ajustar por localização + tipologia** antes de apresentar ao cliente.
 
 3. **Empreitada direta** nas disciplinas com MO > 50%: revestimento teto, mov terra, cobertura, climatização, impermeabilização, hidro.
 
@@ -198,11 +204,21 @@
 
 ---
 
-## 11. Limitações desta versão
+## 11. Limitações desta versão (atualizado pós-revisão qwen)
+
+**Estruturais (afetam todas as conclusões):**
+
+- **Sem dados de localização** por projeto — CUB varia ±25% entre regiões BR, e nossa base inclui SC, RS, SP, RJ sem estratificação
+- **Sem tipologia** (residencial/misto/comercial) — afeta especificação e R$/m² real
+- **Sem data_base** em 112/126 projetos — impossível comparar inflação ao longo do tempo
+- **Econômico e médio** têm amostra insuficiente (n=3 e n=2) pra benchmark confiável — valores apresentados são referência fraca
+- **Correlação AC × R$/m² (-0.17) é estatisticamente tênue** — não confirma nem refuta economia de escala; usar com cautela
+
+**Específicas:**
 
 1. **Fachada envidraçada**: detecção falhou (0 projetos). Precisa inspecionar JSONs de `fachada_detail` pra entender schema real.
 2. **Elevador PU**: só 1 amostra válida. Esperado ~R$ 200–400k/elevador. Regra de extração em `sistemas_especiais_detail` tá incompleta.
-3. **Canonicalização MG**: 147 variações viraram 20 canônicos. Alguns itens podem ter caído em "Outros" (13% no médio-alto). Melhorar mapeamento.
+3. **Canonicalização MG**: 147 variações viraram 20 canônicos. Alguns itens podem ter caído em "Outros" (13% no médio-alto na primeira versão; reduzido a 5% após canonização refinada em 18/abr). Melhoria contínua.
 4. **UR incompleto**: 51 projetos sem UR definido — correlação R$/m² × UR não foi computável.
 5. **Dados temporais**: não temos data dos orçamentos pra análise de inflação. `data_base` só existe em 14 projetos.
 

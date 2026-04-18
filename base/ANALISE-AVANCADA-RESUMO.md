@@ -19,7 +19,9 @@
 | **Mussi Empreendimentos** | 4 | 2 | **R$ 2.949** | 40.149 m² | médio-alto |
 | **Pass-e** | 6 | 4 | **R$ 3.429** | 54.980 m² | médio-alto |
 
-### Top CAROS (R$/m² alto — investigar margem/escopo)
+### Top CAROS (R$/m² alto — investigação caso-a-caso necessária)
+
+**⚠ Ressalva:** classificação baseada em **1-2 projetos válidos por cliente** — interpretar como sinal de atenção, não conclusão. A análise Paludo vs Nova v2 (gerada em 18/abr) mostrou que, mesmo com R$/m² 2× maior, Nova não é uniformemente mais cara no PU — diferença vem de escopo, especificação e qualidade de dados. **Valor alto ≠ margem inflada automaticamente.**
 
 | Cliente | N proj | N válidos | R$/m² mediana | AC total | Padrão dominante |
 |---|---:|---:|---:|---:|---|
@@ -102,7 +104,15 @@ Mix equilibrado, AC mediana 10.479 m². "Projeto grande sem peculiaridade" — s
 - **Detalhamento de itens varia enormemente**: alto padrão tem 1.736 itens vs econômico 38.
 - **Médio tem 2.602 itens** na mediana (só 4 amostras) — pode ser atípico.
 
-**Implicação:** projetos de **alto padrão demandam ~50× mais esforço de detalhamento** que econômico. Precificar serviço de orçamento proporcionalmente.
+**Hipóteses para a variação (qwen apontou que não consideramos causas):**
+- **Maturidade do cliente** — clientes alto padrão cobram orçamento detalhado; econômicos aceitam estimativa
+- **Escopo** — projetos grandes têm mais subdisciplinas, inerentemente mais itens
+- **Ferramenta usada** — orçamentos em Sienge/Vero geram mais itens que planilha Excel manual
+- **Estágio do pacote** — paramétrico tem poucos itens; executivo detalhado tem milhares
+
+**Ressalva:** Médio tem apenas n=4 amostras, a mediana 2.602 itens pode ser atípica (puxada por 1-2 projetos grandes). **Econômico com 38 itens (n=4) provavelmente são orçamentos parciais ou paramétricos** — não comparável com executivos de outros padrões.
+
+**Implicação (cautelosa):** parece haver relação escala/detalhamento com padrão, mas *não é linear* — mais amostras de médio e econômico necessárias.
 
 ---
 
@@ -178,9 +188,18 @@ Top 10 (cada aparece em 1 projeto):
 
 4. **Investigar "Outros" no Cluster 2** — categoria consumindo 18% do total é sintoma de classificação ruim. Mapear o que vai pra lá e criar MGs canônicos.
 
-5. **Preencher AC** para CK (8), Chiquetti (6), Amalfi (4) — clientes grandes sem AC correto limitam análise.
+5. **Preencher AC — em ordem de prioridade:**
+   1. CK (8 projetos sem AC válido) — **fazer primeiro**, maior impacto na amostra
+   2. Chiquetti & Dalvesco (6 projetos)
+   3. Amalfi (4 projetos), CN Brava (3 projetos)
+   4. Demais clientes com projetos sem AC (Cambert, Blue Heaven, Brasin, Eze)
+   - **Método sugerido:** extrair AC do memorial descritivo ou do formulário de briefing quando disponível. Não extrapolar a partir de UR × área média — introduz ruído.
 
-6. **Encorajar registro de "alertas"** — apenas 21 em 126 projetos (4% das observações). Orçamentistas estão subreportando riscos.
+6. **Encorajar registro de "alertas" — plano concreto:**
+   - Template de briefing com campo obrigatório "principais riscos/alertas" (min 2 itens)
+   - Reunião mensal de orçamentistas com leitura dos alertas da base — cria consciência coletiva
+   - Meta: dobrar em 3 meses (de 21 → 40 alertas, ainda razoavelmente baixo em 126 projetos)
+   - **Não inflar artificialmente** — qualidade > volume
 
 7. **Cross-reference paramétrico ↔ executivo** — tabela mantida no git mapeando slugs equivalentes. Habilita análise de erro paramétrico.
 

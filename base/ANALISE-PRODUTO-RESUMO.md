@@ -11,7 +11,7 @@
 
 ### 1. Padrões construtivos são bem diferentes do que se imagina
 
-A mediana de **concreto/m² AC** quase não muda entre `alto` (0.333) e `médio-alto` (0.361). Estrutura é comoditizada. **O que diferencia padrão é acabamento e instalação**, não estrutura.
+A mediana de **concreto/m² AC** varia pouco entre `alto` (0.333) e `médio-alto` (0.361) — diferença de ~8% na mediana. **Sugere** que, em alto e médio-alto (os padrões com amostra robusta, n=35 e n=26), a estrutura tem comportamento próximo ao comoditizado. **Ressalva (qwen):** isso não significa que "padrão é só acabamento" — apenas que a variação estrutural entre esses dois padrões é menor que a variação em indicadores de acabamento. Padrões extremos (econômico, alto-luxo) podem ter estrutura muito diferente, mas amostra insuficiente pra testar.
 
 **Ratio medianas max/min entre padrões — top 10:**
 
@@ -85,7 +85,13 @@ Top 3 custos agregados cross-projeto (alguns MGs):
 | nova-empreendimentos-malta | alto | 8 |
 | grupo-duo-colin | alto | 7 |
 
-**santo-andre-belle-ville** tem 15 desvios vs mediana do médio-alto — candidato a revisão: ou classificação de padrão errada, ou especificação não-convencional.
+**santo-andre-belle-ville** tem 15 desvios vs mediana do médio-alto — **merece análise dedicada** (qwen apontou corretamente que a v1 não fazia diagnóstico profundo). Hipóteses a investigar:
+- Classificação de padrão incorreta (pode ser alto ou econômico misclassificado)
+- Escopo parcial (só algumas disciplinas orçadas, distorcendo indicadores físicos)
+- Especificação não-convencional (uso de sistema construtivo diferente)
+- Erro de extração (aba do orçamento mal lida pelo pipeline)
+- Projeto de obra existente / retrofit (diferente de obra nova)
+- **Ação:** abrir o orçamento original do santo-andre-belle-ville, comparar com espelho de médio-alto tradicional, classificar.
 
 ### 6. Indicadores descobertos novos (não estavam na calibração V2)
 
