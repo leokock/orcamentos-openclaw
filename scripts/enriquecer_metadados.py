@@ -304,8 +304,18 @@ def main():
         }
         enriquecidos.append(record)
 
+        # Preserva campos de Fase 3 (tipologia) se já existem no arquivo individual
+        ind_path = OUT_DIR / f"{slug}.json"
+        if ind_path.exists():
+            try:
+                old = json.loads(ind_path.read_text(encoding="utf-8"))
+                for preservar in ("tipologia_canonica", "tipologia_confianca", "tipologia_motivo", "tipologia_em"):
+                    if old.get(preservar) and not record.get(preservar):
+                        record[preservar] = old[preservar]
+            except Exception:
+                pass
         # Salva individual
-        (OUT_DIR / f"{slug}.json").write_text(json.dumps(record, indent=2, ensure_ascii=False), encoding="utf-8")
+        ind_path.write_text(json.dumps(record, indent=2, ensure_ascii=False), encoding="utf-8")
 
     # Stats
     from collections import Counter

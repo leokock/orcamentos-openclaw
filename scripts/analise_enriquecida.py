@@ -96,6 +96,19 @@ def stats(values):
 def carregar_dados():
     enr = json.loads(ENR_FILE.read_text(encoding="utf-8"))
     projetos = enr["projetos"]
+    # Merge com arquivos individuais (que podem ter tipologia_canonica da Fase 3)
+    ENR_DIR = BASE / "projetos-enriquecidos"
+    for p in projetos:
+        indiv = ENR_DIR / f"{p['slug']}.json"
+        if indiv.exists():
+            try:
+                d = json.loads(indiv.read_text(encoding="utf-8"))
+                # Merge campos que só existem nos individuais (tipologia_*)
+                for k in ("tipologia_canonica", "tipologia_confianca", "tipologia_motivo"):
+                    if d.get(k) and not p.get(k):
+                        p[k] = d[k]
+            except Exception:
+                pass
     # Carrega indices-executivo pra puxar macrogrupos
     mg_por_projeto = {}
     for p in projetos:
