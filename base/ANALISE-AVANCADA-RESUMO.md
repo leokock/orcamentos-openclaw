@@ -28,7 +28,7 @@
 | **ALL** | 2 | 1 | **R$ 7.160** | 8.999 m² | médio-alto |
 | **Nova Empreendimentos** | 4 | 2 | **R$ 6.107** | 20.881 m² | alto |
 
-**Leitura:** Nova Empreendimentos paga **46% acima da mediana alto padrão** (R$ 4.188). Se o escopo justifica, ótimo. Se for margem inflada, pode estar perdendo competitividade.
+**Leitura (revisada após qwen R2):** Nova Empreendimentos tem mediana 46% acima da mediana do padrão alto. **⚠ Baseado em apenas 2 projetos válidos** (Evora, Malaga; outros 2 sem AC completo). A análise Paludo vs Nova V2 (com comparação PU por categoria) mostrou que **a diferença é combinação de escopo expandido + especificação premium pontual + qualidade de dados, NÃO margem inflada uniformemente**. Chamar de "margem inflada" sem o PU breakdown seria salto interpretativo.
 
 ### Clientes com muitos projetos mas sem R$/m² válido (AC incompleto)
 
@@ -182,7 +182,7 @@ Top 10 (cada aparece em 1 projeto):
 
 1. **Ficha de cliente Cartesian** — pra Nova, Paludo, Pass-e, Mussi, Santa Maria, F. Nogueira — com: padrão típico, R$/m² mediana histórica, top 3 peculiaridades dos orçamentos. **Usa em reunião comercial.**
 
-2. **Validar Nova Empreendimentos** — 46% acima da mediana alto padrão. Conversar com Patrícia ou quem atende: é escopo diferenciado ou margem?
+2. **Conversar com Nova Empreendimentos** — R$/m² alto já parcialmente explicado (ver PALUDO-VS-NOVA-V2): escopo expandido (terreno incluso em Evora) + especificação premium em itens localizados + qualidade de dados do cliente. **Agenda específica:** confirmar se terreno padrão é sempre incluso; validar especificação técnica de guarda-corpo + portas corta-fogo; avaliar se checklist de validação de planilha melhoraria qualidade de dados. Responsável comercial: quem atende Nova.
 
 3. **Template "Cluster 3"** — projetos alto-gerenciamento (40% em gerenciamento) têm assinatura distinta. Criar template de orçamento pra essa tipologia, com consultorias pré-especificadas.
 

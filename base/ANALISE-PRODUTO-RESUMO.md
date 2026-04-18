@@ -42,12 +42,14 @@ A mediana de **concreto/m² AC** varia pouco entre `alto` (0.333) e `médio-alto
 | Pintura interna m²/m² AC | 4.76 | 4.61 | 4–7 |
 | Rodapé m/m² AC | 0.54 | 0.58 | 0.4–0.8 |
 
-Todos dentro do esperado SBC. **Dá pra usar esses valores como sanity check em orçamento novo** — se paramétrico/executivo sai fora dessa faixa, tem algo errado.
+Todos dentro da faixa esperada pela bibliografia SBC (Sinduscon — ver tabelas de consumo em "Custos de Obra" publicação anual, e "Caderno de Consumos Unitários" Sinduscon-SP). **Sugestão de uso (após qwen R2):** usar esses valores como **sanity check inicial** em orçamento novo — se o novo orçamento sai fora dessa faixa, **é sinal pra investigar, não conclusão de erro**. Projetos podem ter especificações legítimas que justifiquem valores fora (alta resistência, uso em ambiente agressivo, etc).
 
-### 3. Correlações fortes que confirmam a estrutura do orçamento
+### 3. Correlações fortes — interpretar com cuidado (reescrito após qwen R2)
+
+**Método:** Pearson r sobre pares de indicadores onde ambos projetos têm valor válido (n≥10). Qwen R2 corretamente apontou que r=1.00 pode ser **artefato de fonte comum** (mesmo dado extraído de duas abas que somam equivalente), não relação causal independente.
 
 ```
-alvenaria   ~ porcelanato     r=1.00  (onde tem parede, tem piso — trivial mas valida extração)
+alvenaria   ~ porcelanato     r=1.00  (PROVÁVEL artefato: ambos da aba arquitetura, medem m² de área útil)
 pintura_int ~ porcelanato     r=0.98  (áreas acabadas crescem juntas)
 fachada_ext ~ pintura_externa r=0.83  (fachada pintada = mais pintura externa, óbvio)
 contrapiso  ~ manta_asfalt    r=0.67  (impermeabilização pede contrapiso)

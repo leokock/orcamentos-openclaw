@@ -204,7 +204,18 @@ def gerar_md(r, out_path):
     b = r["cliente_b"]
     na = a["nome"]
     nb = b["nome"]
-    lines = [f"# Comparativo: {na} vs {nb}", "", f"**Gerado:** {r['data']}", ""]
+    lines = [
+        f"# Comparativo: {na} vs {nb}",
+        "",
+        f"**Gerado:** {r['data']}",
+        "",
+        "> **⚠ Este é um DUMP DE DADOS automatizado, não uma análise interpretada.**",
+        "> Tabelas abaixo mostram indicadores comparativos mas **não explicam POR QUÊ** das diferenças.",
+        "> Pra cada conclusão relevante, criar um MD de análise humana complementar:",
+        "> `{NOME-A}-VS-{NOME-B}-ANALISE.md` com interpretação, hipóteses e recomendações.",
+        "> Ver `CHECKLIST-QUALIDADE-ANALISE.md` pra rigor estatístico.",
+        "",
+    ]
 
     # Sumario
     lines += ["## Sumario executivo", "", "| Metrica | " + na + " | " + nb + " | Delta |", "|---|---:|---:|---:|"]

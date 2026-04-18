@@ -118,10 +118,12 @@ def revisar_arquivo(md_path: Path) -> dict:
 
 
 def salvar_revisao(md_name: str, r: dict, suffix: str = "") -> Path:
-    # Se md_name termina em .md, inserir sufixo antes da extensao
-    if md_name.endswith(".md") and suffix:
-        md_name = md_name[:-3] + suffix + ".md"
-    out = OUT_DIR / f"revisao-{md_name}"
+    # Usar apenas basename (md_name pode ter "/" em path relativo)
+    from pathlib import PurePath
+    base_name = PurePath(md_name).name
+    if base_name.endswith(".md") and suffix:
+        base_name = base_name[:-3] + suffix + ".md"
+    out = OUT_DIR / f"revisao-{base_name}"
     lines = [
         f"# Revisao critica: {md_name}",
         "",

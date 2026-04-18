@@ -16,6 +16,9 @@
 | ANALISE-FINANCEIRA-RESUMO | 3 saltos | 3 saltos + 3 hipóteses + 4 dados + genéricas | **similar (não piorou, não resolveu)** |
 | CLUSTER3-E-PARAMETRICO-RESUMO | 3 saltos | 2 saltos + 2 hipóteses novas | **menos grave** |
 | SESSAO-18ABR-RESUMO | (não revisado R1) | 2 saltos + 2 hipóteses + 3 dados faltantes | — |
+| ANALISE-AVANCADA-RESUMO | 3 saltos | 3 saltos + 3 hipóteses + 3 dados | **similar** — crítica sobre Nova 46% resolvida ao referenciar PALUDO-VS-NOVA-V2 |
+| ANALISE-PRODUTO-RESUMO | 2 saltos | 3 saltos + 2 hipóteses | **similar** — mesma crítica de "r=1.00 artefato vs causal" |
+| mussi-vs-pass-e | — | 4 críticas (documento era dump de dados) | **revisão válida: criou-se MD interpretado** |
 
 **Padrão do Round 2:**
 - Críticas mais **cirúrgicas** e profundas, menos "salto genérico"
@@ -104,6 +107,52 @@ Mesmo com ressalva adicionada em R1, qwen volta a apontar:
 > "Observações qualitativas serão integradas com as fichas comerciais. Seria necessário um plano mais detalhado sobre a metodologia."
 
 **Status:** ✅ **JÁ IMPLEMENTADO** no commit posterior (seção "PONTOS DE ATENÇÃO" nas fichas com alertas/revisões/fora-curva destacados). SESSAO precisa atualização.
+
+---
+
+## MUSSI-VS-PASS-E — Round 2 (primeira revisão)
+
+**Achado do qwen (meta-observação útil):**
+> "O documento faz comparações diretas baseadas em dados quantitativos sem análise aprofundada das razões por trás desses números."
+
+**Status:** ✅ **APLICADO** — criado MD complementar `MUSSI-VS-PASS-E-ANALISE.md` com:
+- Interpretação das diferenças estruturais (indicadores estruturais praticamente idênticos)
+- Hipótese central: diferença +16% R$/m² é **método de orçamento** (guarda-chuva vs detalhado), não custo real
+- PUs sem conclusão (n=2-3, metodologias de composição diferem)
+- Recomendação: padronizar método de composição de PU
+
+**Melhoria do script `comparar_clientes.py`:** agora o MD gerado automaticamente traz disclaimer visível: "Este é DUMP DE DADOS, não análise interpretada. Criar MD separado com interpretação."
+
+---
+
+## ANALISE-AVANCADA-RESUMO — Round 2
+
+**Críticas R2:**
+
+### 1. Nova 46% acima sem contexto (amostra n=2)
+Qwen pediu: mais contexto pra distinguir "escopo diferenciado" de "margem inflada".
+**Status:** ✅ **APLICADO** — reescrita referenciando PALUDO-VS-NOVA-V2 com comparação PU detalhada. "Margem inflada" removida, "escopo expandido + especificação premium + dados" documentado.
+
+### 2. Outros no Cluster 2 (em versão anterior)
+**Status:** ✅ **JÁ RESOLVIDO** entre R1 e R2 (correção de canonização MG reduziu "Outros" de 18% pra 5%).
+
+### 3. Complexidade por padrão — amostra pequena no médio
+**Status:** ⚠️ Já declarado como limitação (n=4 em médio). Aceitar.
+
+---
+
+## ANALISE-PRODUTO-RESUMO — Round 2
+
+**Críticas R2:**
+
+### 1. "Esperado SBC" sem detalhes sobre fonte
+**Status:** ✅ **APLICADO** — agora cita Sinduscon "Custos de Obra" + "Caderno de Consumos Unitários". Posicionado como "sanity check pra investigar, não conclusão".
+
+### 2. Correlação r=1.00 como artefato — precisa justificar melhor
+**Status:** ✅ **APLICADO** — seção reescrita com método (Pearson, n≥10), avisando "PROVÁVEL artefato de fonte comum". Qwen R2 queria mais precisão.
+
+### 3. "Padrões bem diferentes do imaginado" vago
+**Status:** Removido nas correções anteriores R1. 
 
 ---
 
