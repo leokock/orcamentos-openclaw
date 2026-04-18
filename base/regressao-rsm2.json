@@ -1,0 +1,138 @@
+{
+  "gerado_em": "2026-04-18T15:10:57",
+  "n_projetos": 55,
+  "r2": 0.3885,
+  "rmse": 935.24,
+  "mae": 658.25,
+  "std_residuo": 935.24,
+  "features_usadas": [
+    "log_ac",
+    "cub_regiao_SC-BC",
+    "cub_regiao_SC-Floripa",
+    "cub_regiao_SC-Litoral-Norte",
+    "cub_regiao_SC-Oeste",
+    "cub_regiao_SC-Vale-Itajai",
+    "cub_regiao_SP-Capital",
+    "cub_regiao_outros-Outros",
+    "padrao_economico",
+    "padrao_medio",
+    "padrao_medio-alto",
+    "tipologia_canonica_residencial_vertical_alto",
+    "tipologia_canonica_residencial_vertical_economico",
+    "tipologia_canonica_residencial_vertical_medio",
+    "tipologia_canonica_residencial_vertical_medio_alto"
+  ],
+  "coeficientes": [
+    {
+      "feature": "intercept",
+      "coef": 6857.45,
+      "ic_95_low": 1499.37,
+      "ic_95_high": 13684.91
+    },
+    {
+      "feature": "log_ac",
+      "coef": -264.34,
+      "ic_95_low": -976.87,
+      "ic_95_high": 183.91,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_SC-BC",
+      "coef": -66.88,
+      "ic_95_low": -1832.4,
+      "ic_95_high": 1600.43,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_SC-Floripa",
+      "coef": 559.0,
+      "ic_95_low": -1219.13,
+      "ic_95_high": 2451.27,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_SC-Litoral-Norte",
+      "coef": -944.01,
+      "ic_95_low": -2729.72,
+      "ic_95_high": 569.51,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_SC-Oeste",
+      "coef": -939.29,
+      "ic_95_low": -3002.65,
+      "ic_95_high": 1945.97,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_SC-Vale-Itajai",
+      "coef": -310.45,
+      "ic_95_low": -1800.23,
+      "ic_95_high": 1376.68,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_SP-Capital",
+      "coef": -613.28,
+      "ic_95_low": -2099.58,
+      "ic_95_high": 825.82,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_outros-Outros",
+      "coef": -63.13,
+      "ic_95_low": -1128.51,
+      "ic_95_high": 1544.8,
+      "significativo": false
+    },
+    {
+      "feature": "padrao_economico",
+      "coef": -1068.87,
+      "ic_95_low": -2019.17,
+      "ic_95_high": 57.63,
+      "significativo": false
+    },
+    {
+      "feature": "padrao_medio",
+      "coef": -2430.12,
+      "ic_95_low": -3299.12,
+      "ic_95_high": 0.0,
+      "significativo": false
+    },
+    {
+      "feature": "padrao_medio-alto",
+      "coef": -456.97,
+      "ic_95_low": -1276.62,
+      "ic_95_high": 659.72,
+      "significativo": false
+    },
+    {
+      "feature": "tipologia_canonica_residencial_vertical_alto",
+      "coef": -416.18,
+      "ic_95_low": -2605.54,
+      "ic_95_high": 1274.89,
+      "significativo": false
+    },
+    {
+      "feature": "tipologia_canonica_residencial_vertical_economico",
+      "coef": -1068.87,
+      "ic_95_low": -2019.17,
+      "ic_95_high": 57.63,
+      "significativo": false
+    },
+    {
+      "feature": "tipologia_canonica_residencial_vertical_medio",
+      "coef": 313.79,
+      "ic_95_low": -1893.85,
+      "ic_95_high": 1619.35,
+      "significativo": false
+    },
+    {
+      "feature": "tipologia_canonica_residencial_vertical_medio_alto",
+      "coef": -501.4,
+      "ic_95_low": -3111.92,
+      "ic_95_high": 948.91,
+      "significativo": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "input": {
+    "cliente": "arthen",
+    "nome": "arboris",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "ac": 12500.0,
+    "ur": 48,
+    "padrao": "medio-alto",
+    "tipologia": "residencial_vertical_medio_alto",
+    "cub_regiao": null,
+    "n_torres": 1,
+    "n_pavimentos": 15
+  },
+  "slug": "arthen-arboris",
+  "cub_regiao": "PR-Litoral",
+  "predicao": {
+    "rsm2_regressao": 3405.43,
+    "rsm2_combinacao_mediana": null,
+    "rsm2_combinacao_p25": null,
+    "rsm2_combinacao_p75": null,
+    "rsm2_base_medio": 3405.43,
+    "ajuste_cliente": 0,
+    "ajuste_motivo": null,
+    "rsm2_final": 3405.43,
+    "faixa_rsm2": [
+      2778.82,
+      4032.04
+    ],
+    "total_estimado": 42567911.0
+  },
+  "combinacao_usada": {
+    "chave": "nenhuma",
+    "tipo": "sem combinacao",
+    "n_projetos": 0,
+    "top_clientes": null
+  },
+  "mg_esperado": {},
+  "projetos_comparaveis": [],
+  "alertas": [
+    "Predição usa combinação sem combinacao. N de projetos similares é pequeno; usar predição com cautela."
+  ],
+  "oportunidades": []
+}

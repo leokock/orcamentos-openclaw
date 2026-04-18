@@ -1,0 +1,277 @@
+{
+  "gerado_em": "2026-04-18T15:12:08",
+  "z_threshold": 1.0,
+  "outliers_positivos": [
+    {
+      "slug": "all-lago-di-garda",
+      "rsm2_real": 7159.7,
+      "rsm2_previsto": 4200.85,
+      "residuo_rs": 2958.85,
+      "residuo_pct": 41.33,
+      "z_score": 3.16
+    },
+    {
+      "slug": "colline-de-france-colline-de-france",
+      "rsm2_real": 5219.45,
+      "rsm2_previsto": 4154.83,
+      "residuo_rs": 1064.62,
+      "residuo_pct": 20.4,
+      "z_score": 1.14
+    },
+    {
+      "slug": "gdi-playa-negra",
+      "rsm2_real": 4346.61,
+      "rsm2_previsto": 3281.59,
+      "residuo_rs": 1065.02,
+      "residuo_pct": 24.5,
+      "z_score": 1.14
+    },
+    {
+      "slug": "nova-empreendimentos-domus",
+      "rsm2_real": 7668.2,
+      "rsm2_previsto": 4206.19,
+      "residuo_rs": 3462.01,
+      "residuo_pct": 45.15,
+      "z_score": 3.7
+    },
+    {
+      "slug": "nova-empreendimentos-evora",
+      "rsm2_real": 6123.12,
+      "rsm2_previsto": 4844.86,
+      "residuo_rs": 1278.26,
+      "residuo_pct": 20.88,
+      "z_score": 1.37
+    },
+    {
+      "slug": "nova-empreendimentos-malta",
+      "rsm2_real": 6091.07,
+      "rsm2_previsto": 4625.79,
+      "residuo_rs": 1465.28,
+      "residuo_pct": 24.06,
+      "z_score": 1.57
+    },
+    {
+      "slug": "pavcor",
+      "rsm2_real": 3455.81,
+      "rsm2_previsto": 2430.91,
+      "residuo_rs": 1024.9,
+      "residuo_pct": 29.66,
+      "z_score": 1.1
+    }
+  ],
+  "outliers_negativos": [
+    {
+      "slug": "f-nogueira-soberano",
+      "rsm2_real": 2634.07,
+      "rsm2_previsto": 3843.69,
+      "residuo_rs": -1209.62,
+      "residuo_pct": -45.92,
+      "z_score": -1.29
+    },
+    {
+      "slug": "f-nogueira-wpr",
+      "rsm2_real": 2549.1,
+      "rsm2_previsto": 3759.39,
+      "residuo_rs": -1210.29,
+      "residuo_pct": -47.48,
+      "z_score": -1.29
+    },
+    {
+      "slug": "hacasa-brisa-da-armacao",
+      "rsm2_real": 3296.1,
+      "rsm2_previsto": 4459.0,
+      "residuo_rs": -1162.9,
+      "residuo_pct": -35.28,
+      "z_score": -1.24
+    },
+    {
+      "slug": "lumis-live",
+      "rsm2_real": 2940.01,
+      "rsm2_previsto": 3918.24,
+      "residuo_rs": -978.23,
+      "residuo_pct": -33.27,
+      "z_score": -1.05
+    },
+    {
+      "slug": "mussi-empreendimentos-soho",
+      "rsm2_real": 2455.59,
+      "rsm2_previsto": 3647.98,
+      "residuo_rs": -1192.39,
+      "residuo_pct": -48.56,
+      "z_score": -1.27
+    },
+    {
+      "slug": "nm-empreendimentos",
+      "rsm2_real": 3217.76,
+      "rsm2_previsto": 5059.99,
+      "residuo_rs": -1842.23,
+      "residuo_pct": -57.25,
+      "z_score": -1.97
+    },
+    {
+      "slug": "paludo-volo-home",
+      "rsm2_real": 3134.37,
+      "rsm2_previsto": 4250.67,
+      "residuo_rs": -1116.3,
+      "residuo_pct": -35.61,
+      "z_score": -1.19
+    },
+    {
+      "slug": "sak-engenharia",
+      "rsm2_real": 3843.01,
+      "rsm2_previsto": 5033.93,
+      "residuo_rs": -1190.92,
+      "residuo_pct": -30.99,
+      "z_score": -1.27
+    },
+    {
+      "slug": "santa-maria-unimed",
+      "rsm2_real": 1604.02,
+      "rsm2_previsto": 2628.92,
+      "residuo_rs": -1024.9,
+      "residuo_pct": -63.9,
+      "z_score": -1.1
+    }
+  ],
+  "features_positivos": {
+    "n": 7,
+    "clientes": {
+      "nova": 3,
+      "all": 1,
+      "colline": 1,
+      "gdi": 1,
+      "pavcor": 1
+    },
+    "regioes": {
+      "SC-Floripa": 4,
+      "RS-Serra": 1,
+      "SC-Vale-Itajai": 1,
+      "SC-Oeste": 1
+    },
+    "padroes": {
+      "medio-alto": 4,
+      "alto": 3
+    },
+    "tipologias": {
+      "residencial_vertical_alto": 4,
+      "residencial_vertical_medio_alto": 2,
+      "residencial_misto": 1
+    },
+    "ur_media": null,
+    "ac_media": 10553.0
+  },
+  "features_negativos": {
+    "n": 9,
+    "clientes": {
+      "f": 2,
+      "hacasa": 1,
+      "lumis": 1,
+      "mussi": 1,
+      "nm": 1,
+      "paludo": 1,
+      "sak": 1,
+      "santa": 1
+    },
+    "regioes": {
+      "SC-Floripa": 6,
+      "SC-Vale-Itajai": 1,
+      "RS-Serra": 1,
+      "SC-Oeste": 1
+    },
+    "padroes": {
+      "alto": 5,
+      "medio-alto": 4
+    },
+    "tipologias": {
+      "residencial_vertical_alto": 7,
+      "residencial_misto": 1,
+      "residencial_vertical_medio_alto": 1
+    },
+    "ur_media": 117.0,
+    "ac_media": 18242.0
+  },
+  "features_normais": {
+    "n": 39,
+    "clientes": {
+      "pass": 6,
+      "paludo": 4,
+      "grandezza": 2,
+      "inbrasul": 2,
+      "macom": 2,
+      "muller": 2,
+      "neuhaus": 2,
+      "adore": 1,
+      "cota": 1,
+      "dimas": 1
+    },
+    "regioes": {
+      "SC-Floripa": 12,
+      "SC-Vale-Itajai": 12,
+      "SC-Litoral-Norte": 6,
+      "SC-BC": 4,
+      "SP-Capital": 2,
+      "RS-Serra": 2,
+      "outros-Outros": 1
+    },
+    "padroes": {
+      "medio-alto": 23,
+      "alto": 11,
+      "economico": 3,
+      "medio": 2
+    },
+    "tipologias": {
+      "residencial_vertical_alto": 18,
+      "residencial_vertical_medio_alto": 16,
+      "residencial_vertical_economico": 3,
+      "residencial_vertical_medio": 1,
+      "residencial_misto": 1
+    },
+    "ur_media": 81.4,
+    "ac_media": 9252.0
+  },
+  "regras_detectadas": [
+    {
+      "regra": "IF cliente = Nova Empreendimentos THEN somar ~R$ 2.000/m² à predição",
+      "evidencia": "3/4 projetos Nova são outliers positivos (z>=1). Resíduo médio ~R$ 2.291.",
+      "forca": "alta",
+      "slugs": [
+        "nova-empreendimentos-domus",
+        "nova-empreendimentos-evora",
+        "nova-empreendimentos-malta"
+      ]
+    },
+    {
+      "regra": "IF cliente = ALL THEN predição pode subestimar em R$ 2.000-3.000/m²",
+      "evidencia": "ALL Lago di Garda: z=+3.2, resíduo +R$ 2.959.",
+      "forca": "média (n=1 somente)",
+      "slugs": [
+        "all-lago-di-garda"
+      ]
+    },
+    {
+      "regra": "IF cliente = F Nogueira THEN subtrair ~R$ 1.200/m² da predição",
+      "evidencia": "2 projetos F Nogueira são outliers negativos consistentes (~-R$ 1.210 ambos)",
+      "forca": "alta",
+      "slugs": [
+        "f-nogueira-soberano",
+        "f-nogueira-wpr"
+      ]
+    },
+    {
+      "regra": "IF cliente = Paludo Volo Home THEN subtrair ~R$ 1.100/m²",
+      "evidencia": "paludo-volo-home tem z=-1.2",
+      "forca": "média",
+      "slugs": [
+        "paludo-volo-home"
+      ]
+    },
+    {
+      "regra": "IF cliente = Santa Maria THEN subtrair ~R$ 1.000/m² (Chapecó CUB menor + escopo enxuto)",
+      "evidencia": "1 projeto Santa Maria em outliers negativos",
+      "forca": "média",
+      "slugs": [
+        "santa-maria-unimed"
+      ]
+    }
+  ]
+}
