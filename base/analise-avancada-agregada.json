@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T01:15:58",
+  "generated_at": "2026-04-18T08:22:56",
   "n_projetos": 126,
   "analise_por_cliente": [
     {
@@ -1903,35 +1903,35 @@
   ],
   "clusters": {
     "cluster_0": {
-      "n_projetos": 27,
+      "n_projetos": 32,
       "padrao_dominante": "medio-alto",
       "padroes_mix": {
-        "medio-alto": 18,
-        "alto": 7,
+        "medio-alto": 21,
+        "alto": 9,
         "economico": 2
       },
-      "ac_mediano": 5788.0,
-      "rsm2_mediano": 3378.45,
+      "ac_mediano": 5183.0,
+      "rsm2_mediano": 3542.23,
       "top_mgs_centroide": [
         {
           "mg": "Supraestrutura",
-          "pct": 21.98
-        },
-        {
-          "mg": "Instalacoes Hidrossanitarias",
-          "pct": 11.37
+          "pct": 21.2
         },
         {
           "mg": "Gerenciamento",
-          "pct": 10.44
+          "pct": 11.14
+        },
+        {
+          "mg": "Instalacoes Hidrossanitarias",
+          "pct": 10.5
         },
         {
           "mg": "Pisos e Pavimentacoes",
-          "pct": 9.89
+          "pct": 9.46
         },
         {
           "mg": "Esquadrias",
-          "pct": 9.06
+          "pct": 9.02
         }
       ],
       "membros": [
@@ -1948,6 +1948,13 @@
           "cliente": "Amalfi",
           "ac": 396.6907974788741,
           "rsm2": 63489.581842382606
+        },
+        {
+          "slug": "amalfi-marine",
+          "padrao_original": "medio-alto",
+          "cliente": "Amalfi",
+          "ac": 521.7076950240738,
+          "rsm2": 27040.588413000176
         },
         {
           "slug": "amalfi-ravello",
@@ -1976,6 +1983,13 @@
           "cliente": "Brava Construtora",
           "ac": 563.1398278873736,
           "rsm2": 18550.44524055448
+        },
+        {
+          "slug": "caledonia-mowe-caledonia-mowe",
+          "padrao_original": "alto",
+          "cliente": "Caledonia",
+          "ac": 329.57,
+          "rsm2": 4864.662517782525
         },
         {
           "slug": "ck-artefacto",
@@ -2025,6 +2039,20 @@
           "cliente": "H Empreendimentos",
           "ac": 288.7994195755723,
           "rsm2": 139959.3689728762
+        },
+        {
+          "slug": "kirchner-kirchner",
+          "padrao_original": "medio-alto",
+          "cliente": "Kirchner",
+          "ac": 0,
+          "rsm2": 0
+        },
+        {
+          "slug": "mendes-empreendimentos-brava-mundo",
+          "padrao_original": "alto",
+          "cliente": "Mendes Empreendimentos",
+          "ac": 4811.54,
+          "rsm2": 4187.673322886229
         },
         {
           "slug": "mussi-empreendimentos-brookliin",
@@ -2090,6 +2118,13 @@
           "rsm2": 2758.48
         },
         {
+          "slug": "pavcor",
+          "padrao_original": "medio-alto",
+          "cliente": "Pavcor",
+          "ac": 14283.29,
+          "rsm2": 3455.81
+        },
+        {
           "slug": "rosner-reserva-sao-vicente",
           "padrao_original": "medio-alto",
           "cliente": "Rosner",
@@ -2126,35 +2161,35 @@
         }
       ]
     },
-    "cluster_3": {
-      "n_projetos": 13,
+    "cluster_1": {
+      "n_projetos": 9,
       "padrao_dominante": "medio-alto",
       "padroes_mix": {
-        "medio-alto": 9,
+        "medio-alto": 5,
         "alto": 4
       },
-      "ac_mediano": 4430.0,
-      "rsm2_mediano": 3799.28,
+      "ac_mediano": 3972.0,
+      "rsm2_mediano": 5246.69,
       "top_mgs_centroide": [
         {
           "mg": "Gerenciamento",
-          "pct": 39.55
+          "pct": 42.47
         },
         {
           "mg": "Supraestrutura",
-          "pct": 15.3
+          "pct": 12.11
         },
         {
           "mg": "Esquadrias",
-          "pct": 7.22
+          "pct": 7.98
         },
         {
-          "mg": "Outros",
-          "pct": 5.4
+          "mg": "Servicos Complementares",
+          "pct": 4.98
         },
         {
-          "mg": "Infraestrutura",
-          "pct": 5.15
+          "mg": "Pisos e Pavimentacoes",
+          "pct": 4.39
         }
       ],
       "membros": [
@@ -2164,34 +2199,6 @@
           "cliente": "ALL",
           "ac": 7055.73,
           "rsm2": 7159.696096568636
-        },
-        {
-          "slug": "gdi-playa-negra",
-          "padrao_original": "medio-alto",
-          "cliente": "GDI",
-          "ac": 8518.6,
-          "rsm2": 4346.61
-        },
-        {
-          "slug": "grandezza-gran-royal",
-          "padrao_original": "medio-alto",
-          "cliente": "Grandezza",
-          "ac": 5225.33,
-          "rsm2": 1917.5901911964672
-        },
-        {
-          "slug": "inbrasul-aguas-de-marco",
-          "padrao_original": "medio-alto",
-          "cliente": "Inbrasul",
-          "ac": 6538.41,
-          "rsm2": 3722.92
-        },
-        {
-          "slug": "inbrasul-opus",
-          "padrao_original": "medio-alto",
-          "cliente": "Inbrasul",
-          "ac": 4410.5,
-          "rsm2": 3799.28
         },
         {
           "slug": "nova-empreendimentos-domus",
@@ -2251,135 +2258,38 @@
         }
       ]
     },
-    "cluster_1": {
-      "n_projetos": 9,
-      "padrao_dominante": "medio-alto",
-      "padroes_mix": {
-        "medio-alto": 4,
-        "alto": 4,
-        "economico": 1
-      },
-      "ac_mediano": 10479.0,
-      "rsm2_mediano": 3455.81,
-      "top_mgs_centroide": [
-        {
-          "mg": "Gerenciamento",
-          "pct": 14.39
-        },
-        {
-          "mg": "Supraestrutura",
-          "pct": 14.03
-        },
-        {
-          "mg": "Infraestrutura",
-          "pct": 9.31
-        },
-        {
-          "mg": "Pisos e Pavimentacoes",
-          "pct": 9.14
-        },
-        {
-          "mg": "Esquadrias",
-          "pct": 9.0
-        }
-      ],
-      "membros": [
-        {
-          "slug": "amalfi-marine",
-          "padrao_original": "medio-alto",
-          "cliente": "Amalfi",
-          "ac": 521.7076950240738,
-          "rsm2": 27040.588413000176
-        },
-        {
-          "slug": "caledonia-mowe-caledonia-mowe",
-          "padrao_original": "alto",
-          "cliente": "Caledonia",
-          "ac": 329.57,
-          "rsm2": 4864.662517782525
-        },
-        {
-          "slug": "chiquetti-e-dalvesco-atlantis",
-          "padrao_original": "alto",
-          "cliente": "Chiquetti & Dalvesco",
-          "ac": 0,
-          "rsm2": 0
-        },
-        {
-          "slug": "estilo-condominios-estilo-condominios",
-          "padrao_original": "medio-alto",
-          "cliente": "Estilo Condominios",
-          "ac": 23967.18,
-          "rsm2": 358.35
-        },
-        {
-          "slug": "kirchner-kirchner",
-          "padrao_original": "medio-alto",
-          "cliente": "Kirchner",
-          "ac": 0,
-          "rsm2": 0
-        },
-        {
-          "slug": "lotisa-serenity",
-          "padrao_original": "economico",
-          "cliente": "Lotisa",
-          "ac": 13606.52,
-          "rsm2": 1519.6044072988536
-        },
-        {
-          "slug": "mendes-empreendimentos-brava-mundo",
-          "padrao_original": "alto",
-          "cliente": "Mendes Empreendimentos",
-          "ac": 4811.54,
-          "rsm2": 4187.673322886229
-        },
-        {
-          "slug": "pavcor",
-          "padrao_original": "medio-alto",
-          "cliente": "Pavcor",
-          "ac": 14283.29,
-          "rsm2": 3455.81
-        },
-        {
-          "slug": "terrassa-amaro",
-          "padrao_original": "alto",
-          "cliente": "Terrassa",
-          "ac": 10479.34,
-          "rsm2": 3100.1618606833445
-        }
-      ]
-    },
     "cluster_2": {
-      "n_projetos": 27,
+      "n_projetos": 28,
       "padrao_dominante": "medio-alto",
       "padroes_mix": {
-        "medio-alto": 15,
-        "alto": 9,
+        "medio-alto": 16,
+        "alto": 8,
         "medio": 2,
+        "economico": 1,
         "insuficiente": 1
       },
-      "ac_mediano": 12519.0,
-      "rsm2_mediano": 3296.1,
+      "ac_mediano": 12674.0,
+      "rsm2_mediano": 3290.71,
       "top_mgs_centroide": [
         {
           "mg": "Supraestrutura",
-          "pct": 18.97
-        },
-        {
-          "mg": "Outros",
-          "pct": 18.3
+          "pct": 17.52
         },
         {
           "mg": "Gerenciamento",
-          "pct": 11.45
+          "pct": 10.91
+        },
+        {
+          "mg": "Instalacoes Gerais",
+          "pct": 10.26
         },
         {
           "mg": "Esquadrias",
-          "pct": 9.9
+          "pct": 9.56
         },
         {
           "mg": "Servicos Complementares",
-          "pct": 7.48
+          "pct": 7.89
         }
       ],
       "membros": [
@@ -2410,6 +2320,13 @@
           "cliente": "Dimas",
           "ac": 21215.27,
           "rsm2": 4345.32
+        },
+        {
+          "slug": "estilo-condominios-estilo-condominios",
+          "padrao_original": "medio-alto",
+          "cliente": "Estilo Condominios",
+          "ac": 23967.18,
+          "rsm2": 358.35
         },
         {
           "slug": "etr-zion-meridian-tower",
@@ -2473,6 +2390,13 @@
           "cliente": "Libra Concept",
           "ac": 4338.77,
           "rsm2": 2271.01
+        },
+        {
+          "slug": "lotisa-serenity",
+          "padrao_original": "economico",
+          "cliente": "Lotisa",
+          "ac": 13606.52,
+          "rsm2": 1519.6044072988536
         },
         {
           "slug": "lumis-live",
@@ -2552,13 +2476,6 @@
           "rsm2": 2797.07
         },
         {
-          "slug": "neuhaus-origem",
-          "padrao_original": "alto",
-          "cliente": "Neuhaus",
-          "ac": 14559.12,
-          "rsm2": 4642.46
-        },
-        {
           "slug": "nm-empreendimentos",
           "padrao_original": "alto",
           "cliente": "Nm",
@@ -2571,6 +2488,89 @@
           "cliente": "Nobria",
           "ac": 12879.93,
           "rsm2": 3290.71
+        }
+      ]
+    },
+    "cluster_3": {
+      "n_projetos": 7,
+      "padrao_dominante": "medio-alto",
+      "padroes_mix": {
+        "alto": 3,
+        "medio-alto": 4
+      },
+      "ac_mediano": 7529.0,
+      "rsm2_mediano": 3761.1,
+      "top_mgs_centroide": [
+        {
+          "mg": "Gerenciamento",
+          "pct": 27.19
+        },
+        {
+          "mg": "Supraestrutura",
+          "pct": 21.79
+        },
+        {
+          "mg": "Esquadrias",
+          "pct": 8.34
+        },
+        {
+          "mg": "Infraestrutura",
+          "pct": 7.46
+        },
+        {
+          "mg": "Instalacoes Gerais",
+          "pct": 5.67
+        }
+      ],
+      "membros": [
+        {
+          "slug": "chiquetti-e-dalvesco-atlantis",
+          "padrao_original": "alto",
+          "cliente": "Chiquetti & Dalvesco",
+          "ac": 0,
+          "rsm2": 0
+        },
+        {
+          "slug": "gdi-playa-negra",
+          "padrao_original": "medio-alto",
+          "cliente": "GDI",
+          "ac": 8518.6,
+          "rsm2": 4346.61
+        },
+        {
+          "slug": "grandezza-gran-royal",
+          "padrao_original": "medio-alto",
+          "cliente": "Grandezza",
+          "ac": 5225.33,
+          "rsm2": 1917.5901911964672
+        },
+        {
+          "slug": "inbrasul-aguas-de-marco",
+          "padrao_original": "medio-alto",
+          "cliente": "Inbrasul",
+          "ac": 6538.41,
+          "rsm2": 3722.92
+        },
+        {
+          "slug": "inbrasul-opus",
+          "padrao_original": "medio-alto",
+          "cliente": "Inbrasul",
+          "ac": 4410.5,
+          "rsm2": 3799.28
+        },
+        {
+          "slug": "neuhaus-origem",
+          "padrao_original": "alto",
+          "cliente": "Neuhaus",
+          "ac": 14559.12,
+          "rsm2": 4642.46
+        },
+        {
+          "slug": "terrassa-amaro",
+          "padrao_original": "alto",
+          "cliente": "Terrassa",
+          "ac": 10479.34,
+          "rsm2": 3100.1618606833445
         }
       ]
     }
