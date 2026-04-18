@@ -1,0 +1,11 @@
+# Revisoes Qwen2.5:14b — Indice
+
+Gerado em 2026-04-18T09:41:21
+
+| Arquivo | Status | Tempo | Revisao |
+|---|---|---:|---|
+| PALUDO-VS-NOVA-RESUMO.md | ✓ | 160.0s | [revisao-PALUDO-VS-NOVA-RESUMO.md](revisao-PALUDO-VS-NOVA-RESUMO.md) |
+| CLUSTER3-E-PARAMETRICO-RESUMO.md | ✓ | 230.7s | [revisao-CLUSTER3-E-PARAMETRICO-RESUMO.md](revisao-CLUSTER3-E-PARAMETRICO-RESUMO.md) |
+| ANALISE-FINANCEIRA-RESUMO.md | ✓ | 237.5s | [revisao-ANALISE-FINANCEIRA-RESUMO.md](revisao-ANALISE-FINANCEIRA-RESUMO.md) |
+| ANALISE-AVANCADA-RESUMO.md | ✓ | 206.5s | [revisao-ANALISE-AVANCADA-RESUMO.md](revisao-ANALISE-AVANCADA-RESUMO.md) |
+| ANALISE-PRODUTO-RESUMO.md | ✓ | 177.1s | [revisao-ANALISE-PRODUTO-RESUMO.md](revisao-ANALISE-PRODUTO-RESUMO.md) |
