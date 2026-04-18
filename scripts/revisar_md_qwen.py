@@ -47,6 +47,13 @@ MDS_ROUND2 = [
     "SESSAO-18ABR-RESUMO.md",  # nunca revisado
 ]
 
+# Round 2b: MDs que ficaram sem revisao R2 no primeiro disparo
+MDS_ROUND2B = [
+    "ANALISE-AVANCADA-RESUMO.md",
+    "ANALISE-PRODUTO-RESUMO.md",
+    "comparacoes-clientes/mussi-vs-pass-e.md",
+]
+
 
 PROMPT_REVISAO = """Voce e um engenheiro senior de orcamento de obras civil atuando como revisor critico de uma analise quantitativa feita por um agente de IA.
 
@@ -134,7 +141,7 @@ def salvar_revisao(md_name: str, r: dict, suffix: str = "") -> Path:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", default=None)
-    ap.add_argument("--round", default="1", choices=["1", "2"], help="1=MDs prioritarios, 2=MDs corrigidos + novos")
+    ap.add_argument("--round", default="1", choices=["1", "2", "2b"], help="1=MDs prioritarios, 2=corrigidos, 2b=restantes")
     ap.add_argument("--suffix", default="", help="sufixo pra arquivo de saida (ex: -r2)")
     args = ap.parse_args()
 
@@ -142,6 +149,8 @@ def main():
         arquivos = [args.file]
     elif args.round == "2":
         arquivos = MDS_ROUND2
+    elif args.round == "2b":
+        arquivos = MDS_ROUND2B
     else:
         arquivos = MDS_PRIORITARIOS
 
