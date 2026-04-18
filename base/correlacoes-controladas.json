@@ -1,0 +1,737 @@
+{
+  "gerado_em": "2026-04-18T14:09:43",
+  "n_projetos": 131,
+  "correlacoes": {
+    "correlacoes_simples": {
+      "ac_m2 ~ ur": {
+        "r": 0.594,
+        "p": 0.0002,
+        "n": 34
+      },
+      "ac_m2 ~ total_rs": {
+        "r": 0.56,
+        "p": 0.0,
+        "n": 99
+      },
+      "ac_m2 ~ rsm2": {
+        "r": -0.274,
+        "p": 0.0061,
+        "n": 99
+      },
+      "ac_m2 ~ mg_pct_supraestrutura": {
+        "r": 0.212,
+        "p": 0.0946,
+        "n": 63
+      },
+      "ac_m2 ~ mg_pct_gerenciamento": {
+        "r": -0.201,
+        "p": 0.118,
+        "n": 62
+      },
+      "ac_m2 ~ mg_pct_esquadrias": {
+        "r": 0.214,
+        "p": 0.0947,
+        "n": 62
+      },
+      "ur ~ total_rs": {
+        "r": 0.278,
+        "p": 0.111,
+        "n": 34
+      },
+      "ur ~ concreto_m3_m2_ac": {
+        "r": -0.219,
+        "p": 0.2633,
+        "n": 28
+      },
+      "ur ~ forma_m2_m2_ac": {
+        "r": -0.257,
+        "p": 0.1963,
+        "n": 27
+      },
+      "total_rs ~ mg_pct_hidrossanitaria": {
+        "r": 0.297,
+        "p": 0.0627,
+        "n": 40
+      },
+      "concreto_m3_m2_ac ~ forma_m2_m2_ac": {
+        "r": 0.788,
+        "p": 0.0,
+        "n": 54
+      },
+      "concreto_m3_m2_ac ~ mg_pct_gerenciamento": {
+        "r": 0.276,
+        "p": 0.1728,
+        "n": 26
+      },
+      "concreto_m3_m2_ac ~ mg_pct_esquadrias": {
+        "r": -0.41,
+        "p": 0.0336,
+        "n": 27
+      },
+      "taxa_aco_kg_m3 ~ mg_pct_gerenciamento": {
+        "r": 0.228,
+        "p": 0.2345,
+        "n": 29
+      },
+      "taxa_aco_kg_m3 ~ mg_pct_fachada": {
+        "r": -0.357,
+        "p": 0.0572,
+        "n": 29
+      },
+      "forma_m2_m2_ac ~ mg_pct_gerenciamento": {
+        "r": 0.515,
+        "p": 0.0085,
+        "n": 25
+      },
+      "forma_m2_m2_ac ~ mg_pct_fachada": {
+        "r": -0.38,
+        "p": 0.0609,
+        "n": 25
+      },
+      "mg_pct_supraestrutura ~ mg_pct_gerenciamento": {
+        "r": -0.447,
+        "p": 0.0001,
+        "n": 67
+      },
+      "mg_pct_supraestrutura ~ mg_pct_hidrossanitaria": {
+        "r": 0.248,
+        "p": 0.1225,
+        "n": 40
+      },
+      "mg_pct_gerenciamento ~ mg_pct_esquadrias": {
+        "r": -0.315,
+        "p": 0.01,
+        "n": 66
+      },
+      "mg_pct_gerenciamento ~ mg_pct_fachada": {
+        "r": -0.445,
+        "p": 0.0002,
+        "n": 66
+      },
+      "mg_pct_gerenciamento ~ mg_pct_hidrossanitaria": {
+        "r": -0.685,
+        "p": 0.0,
+        "n": 35
+      },
+      "mg_pct_fachada ~ mg_pct_hidrossanitaria": {
+        "r": 0.215,
+        "p": 0.1946,
+        "n": 38
+      }
+    },
+    "correlacoes_stratificadas": {
+      "ac_m2 ~ rsm2": {
+        "SC-BC": {
+          "r": -0.347,
+          "p": 0.158,
+          "n": 18
+        },
+        "SP-Capital": {
+          "r": -0.796,
+          "p": 0.4135,
+          "n": 3
+        },
+        "SC-Floripa": {
+          "r": -0.098,
+          "p": 0.5873,
+          "n": 33
+        },
+        "SC-Litoral-Norte": {
+          "r": -0.516,
+          "p": 0.0861,
+          "n": 12
+        },
+        "SC-Vale-Itajai": {
+          "r": -0.151,
+          "p": 0.4824,
+          "n": 24
+        }
+      },
+      "ac_m2 ~ total_rs": {
+        "SC-BC": {
+          "r": -0.253,
+          "p": 0.3119,
+          "n": 18
+        },
+        "SP-Capital": {
+          "r": -0.606,
+          "p": 0.5858,
+          "n": 3
+        },
+        "SC-Floripa": {
+          "r": 0.74,
+          "p": 0.0,
+          "n": 33
+        },
+        "SC-Litoral-Norte": {
+          "r": -0.076,
+          "p": 0.8145,
+          "n": 12
+        },
+        "SC-Vale-Itajai": {
+          "r": 0.223,
+          "p": 0.294,
+          "n": 24
+        }
+      },
+      "mg_pct_gerenciamento ~ rsm2": {
+        "SC-BC": {
+          "r": -0.412,
+          "p": 0.3103,
+          "n": 8
+        },
+        "SC-Floripa": {
+          "r": 0.788,
+          "p": 0.0,
+          "n": 24
+        },
+        "SC-Litoral-Norte": {
+          "r": -0.481,
+          "p": 0.1589,
+          "n": 10
+        },
+        "SC-Vale-Itajai": {
+          "r": 0.324,
+          "p": 0.2039,
+          "n": 17
+        }
+      },
+      "mg_pct_supraestrutura ~ rsm2": {
+        "SC-BC": {
+          "r": -0.005,
+          "p": 0.9885,
+          "n": 12
+        },
+        "SC-Floripa": {
+          "r": -0.691,
+          "p": 0.0001,
+          "n": 25
+        },
+        "SC-Litoral-Norte": {
+          "r": 0.053,
+          "p": 0.8833,
+          "n": 10
+        },
+        "SC-Vale-Itajai": {
+          "r": -0.355,
+          "p": 0.1623,
+          "n": 17
+        }
+      },
+      "taxa_aco_kg_m3 ~ rsm2": {
+        "SC-BC": {
+          "r": -0.054,
+          "p": 0.8669,
+          "n": 12
+        },
+        "SC-Floripa": {
+          "r": -0.212,
+          "p": 0.3568,
+          "n": 21
+        },
+        "SC-Litoral-Norte": {
+          "r": -0.836,
+          "p": 0.1641,
+          "n": 4
+        },
+        "SC-Vale-Itajai": {
+          "r": 0.025,
+          "p": 0.9042,
+          "n": 25
+        }
+      }
+    },
+    "correlacoes_parciais": {
+      "ac_m2 ~ rsm2 | cub_regiao": {
+        "r_parcial": -0.317,
+        "p": 0.0014,
+        "n": 99,
+        "controle": "cub_regiao",
+        "r_simples_comparacao": -0.274,
+        "delta_r": -0.043
+      },
+      "ac_m2 ~ rsm2 | padrao": {
+        "r_parcial": -0.266,
+        "p": 0.0078,
+        "n": 99,
+        "controle": "padrao"
+      },
+      "ac_m2 ~ total_rs | cub_regiao": {
+        "r_parcial": 0.529,
+        "p": 0.0,
+        "n": 99,
+        "controle": "cub_regiao",
+        "r_simples_comparacao": 0.56,
+        "delta_r": -0.031
+      },
+      "ac_m2 ~ total_rs | padrao": {
+        "r_parcial": 0.586,
+        "p": 0.0,
+        "n": 99,
+        "controle": "padrao"
+      },
+      "mg_pct_gerenciamento ~ rsm2 | cub_regiao": {
+        "r_parcial": -0.095,
+        "p": 0.4389,
+        "n": 68,
+        "controle": "cub_regiao",
+        "r_simples_comparacao": -0.116,
+        "delta_r": 0.021
+      },
+      "mg_pct_gerenciamento ~ rsm2 | padrao": {
+        "r_parcial": -0.138,
+        "p": 0.2603,
+        "n": 68,
+        "controle": "padrao"
+      },
+      "mg_pct_supraestrutura ~ rsm2 | cub_regiao": {
+        "r_parcial": -0.039,
+        "p": 0.7387,
+        "n": 74,
+        "controle": "cub_regiao",
+        "r_simples_comparacao": 0.08,
+        "delta_r": -0.119
+      },
+      "mg_pct_supraestrutura ~ rsm2 | padrao": {
+        "r_parcial": 0.084,
+        "p": 0.4748,
+        "n": 74,
+        "controle": "padrao"
+      },
+      "taxa_aco_kg_m3 ~ rsm2 | cub_regiao": {
+        "r_parcial": -0.122,
+        "p": 0.3045,
+        "n": 73,
+        "controle": "cub_regiao",
+        "r_simples_comparacao": -0.107,
+        "delta_r": -0.015
+      },
+      "taxa_aco_kg_m3 ~ rsm2 | padrao": {
+        "r_parcial": -0.076,
+        "p": 0.5217,
+        "n": 73,
+        "controle": "padrao"
+      }
+    }
+  },
+  "pca": {
+    "n_projetos_usados": 36,
+    "n_variaveis": 30,
+    "variaveis_usadas": [
+      "ind_aco_kg_por_m2_ac",
+      "ind_movimento_terra_m3_por_m2_ac",
+      "ind_concreto_m3_por_m2_ac",
+      "ind_escoramento_m2_por_m2_ac",
+      "ind_alvenaria_m2_por_m2_ac",
+      "ind_drywall_divisoria_m2_por_m2_ac",
+      "ind_manta_asfaltica_m2_por_m2_ac",
+      "ind_chapisco_m2_por_m2_ac",
+      "ind_reboco_m2_por_m2_ac",
+      "ind_estucamento_m2_por_m2_ac",
+      "ind_forro_gesso_m2_por_m2_ac",
+      "ind_contrapiso_m2_por_m2_ac",
+      "ind_porcelanato_ceramica_m2_por_m2_ac",
+      "ind_rodape_m_por_m2_ac",
+      "ind_pintura_interna_m2_por_m2_ac",
+      "ind_vidros_m2_por_m2_ac",
+      "ind_guarda_corpo_m_por_m2_ac",
+      "ind_cobertura_m2_por_m2_ac",
+      "ind_pintura_externa_m2_por_m2_ac",
+      "ind_estaca_m_por_m2_ac",
+      "ind_taxa_aco_kg_por_m3",
+      "mg_pct_gerenciamento",
+      "mg_pct_mov_terra",
+      "mg_pct_infraestrutura",
+      "mg_pct_supraestrutura",
+      "mg_pct_alvenaria",
+      "mg_pct_hidrossanitaria",
+      "mg_pct_sist_especiais",
+      "mg_pct_impermeabilizacao",
+      "mg_pct_rev_parede"
+    ],
+    "componentes": [
+      {
+        "componente": "PC1",
+        "variancia_explicada": 0.281,
+        "variancia_acumulada": 0.281,
+        "top_variaveis": [
+          {
+            "variavel": "ind_taxa_aco_kg_por_m3",
+            "loading": 0.329
+          },
+          {
+            "variavel": "ind_cobertura_m2_por_m2_ac",
+            "loading": 0.329
+          },
+          {
+            "variavel": "ind_porcelanato_ceramica_m2_por_m2_ac",
+            "loading": 0.324
+          },
+          {
+            "variavel": "ind_alvenaria_m2_por_m2_ac",
+            "loading": 0.323
+          },
+          {
+            "variavel": "ind_pintura_interna_m2_por_m2_ac",
+            "loading": 0.309
+          },
+          {
+            "variavel": "ind_aco_kg_por_m2_ac",
+            "loading": 0.297
+          },
+          {
+            "variavel": "mg_pct_gerenciamento",
+            "loading": 0.274
+          },
+          {
+            "variavel": "ind_movimento_terra_m3_por_m2_ac",
+            "loading": 0.272
+          }
+        ]
+      },
+      {
+        "componente": "PC2",
+        "variancia_explicada": 0.168,
+        "variancia_acumulada": 0.45,
+        "top_variaveis": [
+          {
+            "variavel": "ind_pintura_externa_m2_por_m2_ac",
+            "loading": 0.31
+          },
+          {
+            "variavel": "ind_contrapiso_m2_por_m2_ac",
+            "loading": 0.309
+          },
+          {
+            "variavel": "ind_manta_asfaltica_m2_por_m2_ac",
+            "loading": 0.3
+          },
+          {
+            "variavel": "ind_chapisco_m2_por_m2_ac",
+            "loading": 0.294
+          },
+          {
+            "variavel": "ind_estucamento_m2_por_m2_ac",
+            "loading": 0.282
+          },
+          {
+            "variavel": "ind_reboco_m2_por_m2_ac",
+            "loading": 0.258
+          },
+          {
+            "variavel": "ind_guarda_corpo_m_por_m2_ac",
+            "loading": 0.245
+          },
+          {
+            "variavel": "ind_escoramento_m2_por_m2_ac",
+            "loading": 0.241
+          }
+        ]
+      },
+      {
+        "componente": "PC3",
+        "variancia_explicada": 0.097,
+        "variancia_acumulada": 0.547,
+        "top_variaveis": [
+          {
+            "variavel": "ind_drywall_divisoria_m2_por_m2_ac",
+            "loading": 0.346
+          },
+          {
+            "variavel": "mg_pct_impermeabilizacao",
+            "loading": -0.319
+          },
+          {
+            "variavel": "mg_pct_sist_especiais",
+            "loading": 0.306
+          },
+          {
+            "variavel": "ind_vidros_m2_por_m2_ac",
+            "loading": 0.301
+          },
+          {
+            "variavel": "mg_pct_alvenaria",
+            "loading": 0.258
+          },
+          {
+            "variavel": "mg_pct_rev_parede",
+            "loading": -0.253
+          },
+          {
+            "variavel": "mg_pct_hidrossanitaria",
+            "loading": 0.23
+          },
+          {
+            "variavel": "ind_manta_asfaltica_m2_por_m2_ac",
+            "loading": -0.23
+          }
+        ]
+      },
+      {
+        "componente": "PC4",
+        "variancia_explicada": 0.071,
+        "variancia_acumulada": 0.618,
+        "top_variaveis": [
+          {
+            "variavel": "ind_estaca_m_por_m2_ac",
+            "loading": 0.393
+          },
+          {
+            "variavel": "mg_pct_hidrossanitaria",
+            "loading": -0.371
+          },
+          {
+            "variavel": "mg_pct_rev_parede",
+            "loading": 0.358
+          },
+          {
+            "variavel": "ind_forro_gesso_m2_por_m2_ac",
+            "loading": 0.316
+          },
+          {
+            "variavel": "ind_rodape_m_por_m2_ac",
+            "loading": 0.282
+          },
+          {
+            "variavel": "ind_escoramento_m2_por_m2_ac",
+            "loading": -0.236
+          },
+          {
+            "variavel": "mg_pct_alvenaria",
+            "loading": -0.234
+          },
+          {
+            "variavel": "mg_pct_sist_especiais",
+            "loading": -0.226
+          }
+        ]
+      },
+      {
+        "componente": "PC5",
+        "variancia_explicada": 0.055,
+        "variancia_acumulada": 0.673,
+        "top_variaveis": [
+          {
+            "variavel": "mg_pct_mov_terra",
+            "loading": 0.395
+          },
+          {
+            "variavel": "ind_forro_gesso_m2_por_m2_ac",
+            "loading": -0.338
+          },
+          {
+            "variavel": "ind_guarda_corpo_m_por_m2_ac",
+            "loading": 0.318
+          },
+          {
+            "variavel": "ind_estucamento_m2_por_m2_ac",
+            "loading": 0.282
+          },
+          {
+            "variavel": "mg_pct_alvenaria",
+            "loading": 0.267
+          },
+          {
+            "variavel": "mg_pct_impermeabilizacao",
+            "loading": -0.261
+          },
+          {
+            "variavel": "mg_pct_rev_parede",
+            "loading": 0.242
+          },
+          {
+            "variavel": "ind_vidros_m2_por_m2_ac",
+            "loading": 0.224
+          }
+        ]
+      }
+    ]
+  },
+  "clustering": {
+    "n_projetos_usados": 67,
+    "metodo": "hierarquico ward",
+    "colunas_usadas": [
+      "mg_pct_gerenciamento",
+      "mg_pct_mov_terra",
+      "mg_pct_infraestrutura",
+      "mg_pct_supraestrutura",
+      "mg_pct_alvenaria",
+      "mg_pct_hidrossanitaria",
+      "mg_pct_sist_especiais",
+      "mg_pct_impermeabilizacao",
+      "mg_pct_rev_parede",
+      "mg_pct_rev_teto",
+      "mg_pct_pisos",
+      "mg_pct_pint_interna",
+      "mg_pct_esquadrias",
+      "mg_pct_cobertura",
+      "mg_pct_fachada",
+      "mg_pct_complementares",
+      "mg_pct_eletrica",
+      "mg_pct_preventiva",
+      "mg_pct_climatizacao",
+      "mg_pct_loucas",
+      "mg_pct_outros",
+      "mg_pct_instal_geral",
+      "mg_pct_pintura_geral"
+    ],
+    "clusters_4": {
+      "cluster_1": [
+        "adore-level-up",
+        "amalfi-maiori",
+        "amalfi-marine",
+        "amalfi-ravello",
+        "as-ramos-paessaggio",
+        "brasin-mario-lago",
+        "brava-construtora-mar-a-vista",
+        "ck-urbe",
+        "fonseca-empreendimentos-estoril",
+        "h-empreendimentos-atlantia",
+        "kirchner-kirchner",
+        "mussi-empreendimentos-brookliin",
+        "paludo-barbados",
+        "paludo-urban-life",
+        "paludo-volo-home",
+        "paludo-volo-ocean",
+        "parkside-trindade",
+        "pass-e-barao-de-albuquerque",
+        "pass-e-belissimo",
+        "pass-e-celebration",
+        "pass-e-connect",
+        "pass-e-passione",
+        "pass-e-vancouver",
+        "rosner-reserva-sao-vicente",
+        "sak-engenharia",
+        "santa-maria-feat",
+        "thozen-mirador-de-alicante"
+      ],
+      "cluster_3": [
+        "all-lago-di-garda",
+        "mendes-empreendimentos-brava-mundo",
+        "nova-empreendimentos-domus",
+        "nova-empreendimentos-evora",
+        "nova-empreendimentos-malaga",
+        "nova-empreendimentos-malta",
+        "pavcor",
+        "terrassa-amaro"
+      ],
+      "cluster_2": [
+        "caledonia-mowe-caledonia-mowe",
+        "chiquetti-e-dalvesco-atlantis",
+        "colline-de-france-colline-de-france",
+        "cota-365",
+        "etr-zion-meridian-tower",
+        "f-nogueira-soberano",
+        "f-nogueira-wpr",
+        "fg-scenarium",
+        "gdi-playa-negra",
+        "gmf-moradas-do-atalaia",
+        "grandezza-gran-tower",
+        "hacasa-brisa-da-armacao",
+        "holze-sense-106",
+        "inbrasul-aguas-de-marco",
+        "inbrasul-opus",
+        "libra-concept-libra-conecpt",
+        "lumis-live",
+        "mabrem-gran-torino",
+        "mabrem-san-marino",
+        "macom-adda",
+        "macom-villa-lobos",
+        "mtf-m-village-jardim",
+        "muller-empreendimentos-elleva",
+        "muller-empreendimentos-guanabara",
+        "mussi-empreendimentos-chelsea",
+        "mussi-empreendimentos-soho",
+        "neuhaus-botanico",
+        "neuhaus-origem",
+        "nm-empreendimentos",
+        "nobria",
+        "paludo-nassau"
+      ],
+      "cluster_4": [
+        "lotisa-serenity"
+      ]
+    },
+    "clusters_6": {
+      "cluster_2": [
+        "adore-level-up",
+        "as-ramos-paessaggio",
+        "brasin-mario-lago",
+        "brava-construtora-mar-a-vista",
+        "ck-urbe",
+        "fonseca-empreendimentos-estoril",
+        "h-empreendimentos-atlantia",
+        "mussi-empreendimentos-brookliin",
+        "paludo-barbados",
+        "paludo-urban-life",
+        "paludo-volo-home",
+        "paludo-volo-ocean",
+        "parkside-trindade",
+        "pass-e-barao-de-albuquerque",
+        "pass-e-belissimo",
+        "pass-e-celebration",
+        "pass-e-connect",
+        "pass-e-passione",
+        "pass-e-vancouver",
+        "rosner-reserva-sao-vicente",
+        "sak-engenharia",
+        "santa-maria-feat"
+      ],
+      "cluster_5": [
+        "all-lago-di-garda",
+        "mendes-empreendimentos-brava-mundo",
+        "nova-empreendimentos-domus",
+        "nova-empreendimentos-evora",
+        "nova-empreendimentos-malaga",
+        "nova-empreendimentos-malta",
+        "pavcor",
+        "terrassa-amaro"
+      ],
+      "cluster_1": [
+        "amalfi-maiori",
+        "amalfi-marine",
+        "amalfi-ravello",
+        "kirchner-kirchner",
+        "thozen-mirador-de-alicante"
+      ],
+      "cluster_4": [
+        "caledonia-mowe-caledonia-mowe",
+        "muller-empreendimentos-elleva"
+      ],
+      "cluster_3": [
+        "chiquetti-e-dalvesco-atlantis",
+        "colline-de-france-colline-de-france",
+        "cota-365",
+        "etr-zion-meridian-tower",
+        "f-nogueira-soberano",
+        "f-nogueira-wpr",
+        "fg-scenarium",
+        "gdi-playa-negra",
+        "gmf-moradas-do-atalaia",
+        "grandezza-gran-tower",
+        "hacasa-brisa-da-armacao",
+        "holze-sense-106",
+        "inbrasul-aguas-de-marco",
+        "inbrasul-opus",
+        "libra-concept-libra-conecpt",
+        "lumis-live",
+        "mabrem-gran-torino",
+        "mabrem-san-marino",
+        "macom-adda",
+        "macom-villa-lobos",
+        "mtf-m-village-jardim",
+        "muller-empreendimentos-guanabara",
+        "mussi-empreendimentos-chelsea",
+        "mussi-empreendimentos-soho",
+        "neuhaus-botanico",
+        "neuhaus-origem",
+        "nm-empreendimentos",
+        "nobria",
+        "paludo-nassau"
+      ],
+      "cluster_6": [
+        "lotisa-serenity"
+      ]
+    }
+  }
+}
