@@ -1,0 +1,239 @@
+{
+  "data": "2026-04-18T09:01:45",
+  "cliente_a": {
+    "nome": "Paludo",
+    "info": {
+      "n_projetos": 5,
+      "projetos": [
+        "paludo-barbados",
+        null,
+        "paludo-urban-life",
+        null,
+        "paludo-volo-ocean"
+      ],
+      "rsm2_mediana": 2781.34,
+      "ac_total": 17408.09,
+      "ac_mediana": 3264.0,
+      "total_acumulado_r$": 51388411.64,
+      "total_mediana_r$": 11915766.0,
+      "n_itens_mediana": 394
+    },
+    "dist_mg_pct": {
+      "Gerenciamento": 35.39,
+      "Mov Terra": 0.7,
+      "Infraestrutura": 3.37,
+      "Supraestrutura": 14.55,
+      "Alvenaria": 2.06,
+      "Hidrossanitaria": 5.55,
+      "Sist Especiais": 5.61,
+      "Impermeabilizacao": 2.22,
+      "Pisos": 7.01,
+      "Rev Teto": 1.73,
+      "Pint Interna": 4.24,
+      "Esquadrias": 10.26,
+      "Cobertura": 0.4,
+      "Fachada": 3.17,
+      "Complementares": 4.84,
+      "Instal Geral": 5.88,
+      "Rev Parede": 3.45,
+      "Pintura Geral": 4.44
+    },
+    "pus": {
+      "ceramica": {
+        "n": 2,
+        "mediana": 103.32
+      },
+      "contrapiso": {
+        "n": 2,
+        "mediana": 48.33
+      },
+      "chapisco": {
+        "n": 2,
+        "mediana": 10.82
+      },
+      "reboco": {
+        "n": 2,
+        "mediana": 15.95
+      },
+      "forro_gesso": {
+        "n": 2,
+        "mediana": 50.22
+      },
+      "porcelanato": {
+        "n": 2,
+        "mediana": 89.26
+      },
+      "rodape": {
+        "n": 2,
+        "mediana": 29.76
+      },
+      "pintura": {
+        "n": 2,
+        "mediana": 13.75
+      },
+      "laminado": {
+        "n": 2,
+        "mediana": 419.89
+      }
+    },
+    "estruturais": {
+      "concreto_m3_por_m2_ac": {
+        "n": 2,
+        "mediana": 0.3388
+      },
+      "taxa_aco_kg_por_m3": {
+        "n": 2,
+        "mediana": 68.7
+      },
+      "aco_kg_por_m2_ac": {
+        "n": 2,
+        "mediana": 23.2516
+      },
+      "forma_m2_por_m2_ac": {
+        "n": 2,
+        "mediana": 2.6924
+      }
+    },
+    "qualitativa": {
+      "categorias": {
+        "premissa": 5,
+        "outro": 5
+      },
+      "alertas": [],
+      "revisoes": [],
+      "fora_curva": [],
+      "padroes_top10": {
+        "Nomes de serviços e acabamentos aparecem em múltiplas seções (Executivo, Relatór": 1,
+        "Repetição de categorias de serviços entre as abas 'Executivo' e 'Auxiliar'.": 1,
+        "Custos Diretos de Obra - UC 2 (Materiais e Mão de Obra Aplicados)": 1,
+        "ESQUADRIAS, VIDROS E FERRAGENS": 1,
+        "SUPRAESTRUTURA": 1,
+        "INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS": 1,
+        "GERENCIAMENTO TÉCNICO E ADMINISTRATIVO": 1,
+        "SERVIÇOS COMPLEMENTARES": 1
+      }
+    }
+  },
+  "cliente_b": {
+    "nome": "Nova Empreendimentos",
+    "info": {
+      "n_projetos": 4,
+      "projetos": [
+        null,
+        "nova-empreendimentos-evora",
+        "nova-empreendimentos-malaga",
+        "nova-empreendimentos-malta"
+      ],
+      "rsm2_mediana": 6107.09,
+      "ac_total": 20880.91,
+      "ac_mediana": 4720.0,
+      "total_acumulado_r$": 131457478.56,
+      "total_mediana_r$": 30827265.0,
+      "n_itens_mediana": 4359.0
+    },
+    "dist_mg_pct": {
+      "Gerenciamento": 42.43,
+      "Mov Terra": 1.18,
+      "Infraestrutura": 4.68,
+      "Supraestrutura": 12.26,
+      "Alvenaria": 3.37,
+      "Instal Geral": 5.32,
+      "Climatizacao": 0.46,
+      "Sist Especiais": 1.29,
+      "Impermeabilizacao": 1.87,
+      "Rev Parede": 6.88,
+      "Rev Teto": 0.64,
+      "Pisos": 2.95,
+      "Pintura Geral": 0.66,
+      "Esquadrias": 6.65,
+      "Loucas": 0.43,
+      "Fachada": 0.66,
+      "Complementares": 4.42,
+      "Eletrica": 3.83,
+      "Hidrossanitaria": 3.31,
+      "Preventiva": 0.24,
+      "Pint Interna": 2.05
+    },
+    "pus": {},
+    "estruturais": {
+      "concreto_m3_por_m2_ac": {
+        "n": 3,
+        "mediana": 0.2794
+      },
+      "taxa_aco_kg_por_m3": {
+        "n": 3,
+        "mediana": 102.14
+      },
+      "aco_kg_por_m2_ac": {
+        "n": 3,
+        "mediana": 28.54
+      },
+      "forma_m2_por_m2_ac": {
+        "n": 3,
+        "mediana": 2.0065
+      }
+    },
+    "qualitativa": {
+      "categorias": {
+        "premissa": 6,
+        "justificativa": 8,
+        "outro": 10,
+        "revisao": 2,
+        "alerta": 1
+      },
+      "alertas": [
+        {
+          "slug": "nova-empreendimentos-malta",
+          "contexto": "Instrução",
+          "observacao": "QUANTIDADE RETIRA DO PROJETO"
+        }
+      ],
+      "revisoes": [
+        {
+          "slug": "nova-empreendimentos-evora",
+          "contexto": "Formulário",
+          "observacao": "Valor preenchido em formulário (custo aprorpiado de R$ 5.000,00)"
+        },
+        {
+          "slug": "nova-empreendimentos-malta",
+          "contexto": "Ajuste de cálculo",
+          "observacao": "Dividi por 2, pois, a Desforma não estava contabilizada na planilha \"MAT\""
+        }
+      ],
+      "fora_curva": [
+        {
+          "slug": "nova-empreendimentos-evora",
+          "item": "Valor Compra do Terreno",
+          "motivo": "Valor de R$4.820.633 é significativamente maior que a maioria dos demais itens orçamentários."
+        },
+        {
+          "slug": "nova-empreendimentos-evora",
+          "item": "Repetições de pavimentos**",
+          "motivo": "Item marcado com asterisco duplo (**) na seção EPC's."
+        },
+        {
+          "slug": "nova-empreendimentos-malaga",
+          "item": "Piso tátil Bolinha Alerta Inox, 1m",
+          "motivo": "Alerta"
+        },
+        {
+          "slug": "nova-empreendimentos-malta",
+          "item": "QUANTIDADE RETIRA DO PROJETO",
+          "motivo": "Instrução de retirada de quantidade"
+        }
+      ],
+      "padroes_top10": {
+        "Repetição de valores e PU para FUNDAÇÕES e CONTENÇÕES em diferentes blocos de an": 1,
+        "Repetição de custos e PU para DOMUS - ADM em diferentes blocos de análise (CONTR": 1,
+        "O valor de SUPRAESTRUTURA (R$1.366.517) e REVESTIMENTOS ARGAMASSADOS (R$453.477)": 1,
+        "O valor de MALAGA - ADM (pu=2629.42) é idêntico em ORÇAMENTO_EXECUTIVO e MÃO DE ": 1,
+        "Execução de forro em ACM": 1,
+        "Aquisição do terreno": 1,
+        "Administração de Obra": 1,
+        "Comissao Venda Unidades": 1,
+        "Consultorias de Advocacia": 1,
+        "ITBI / FRJ": 1
+      }
+    }
+  }
+}

@@ -42,6 +42,13 @@ CLIENTES_PRIORITARIOS = [
     ("Amalfi", ["amalfi"]),
     ("Chiquetti & Dalvesco", ["chiquetti"]),
     ("F. Nogueira", ["f-nogueira"]),
+    # Expandidos na sessao
+    ("CK", ["ck-"]),
+    ("CN Brava", ["cn-brava"]),
+    ("Grandezza", ["grandezza"]),
+    ("Inbrasul", ["inbrasul"]),
+    ("Muller Empreendimentos", ["muller"]),
+    ("Neuhaus", ["neuhaus"]),
 ]
 
 MG_CANON = [
@@ -308,9 +315,62 @@ def build_ficha(wb, cliente_nome: str, projs: list, af: dict):
            {3: "#,##0", 4: "#,##0", 5: "R$ #,##0", 6: "R$ #,##0"})
         row += 1
 
-    # Observacoes qualitativas
+    # Alertas + Revisões + Fora da curva (destacado)
     row += 2
-    ws.cell(row, 1, "OBSERVACOES DO ORCAMENTISTA").font = Font(bold=True, size=11, color=DARK, name="Arial")
+    ws.cell(row, 1, "PONTOS DE ATENCAO (alertas / revisoes / fora da curva)").font = Font(bold=True, size=11, color=RED, name="Arial")
+    row += 1
+    alertas_total = 0
+    revisoes_total = 0
+    fc_total = 0
+    for p in projs:
+        q = p.get("qualitative") or {}
+        for obs in q.get("observacoes_orcamentista") or []:
+            if isinstance(obs, dict):
+                cat = obs.get("categoria", "")
+                if cat == "alerta":
+                    alertas_total += 1
+                elif cat == "revisao":
+                    revisoes_total += 1
+        fc_total += len(q.get("fora_da_curva") or [])
+    ws.cell(row, 1, f"Total: {alertas_total} alertas | {revisoes_total} revisoes | {fc_total} fora-da-curva").font = Font(italic=True, size=9, color="666666", name="Arial")
+    row += 2
+
+    if alertas_total + revisoes_total + fc_total > 0:
+        wh(ws, row, ["Tipo", "Projeto", "Item / Contexto", "Observacao / Motivo"], [14, 28, 26, 65])
+        row += 1
+        # Alertas primeiro
+        for p in projs:
+            q = p.get("qualitative") or {}
+            for obs in q.get("observacoes_orcamentista") or []:
+                if isinstance(obs, dict) and obs.get("categoria") == "alerta":
+                    wr(ws, row, ["ALERTA", p["slug"], obs.get("contexto", "")[:60], obs.get("observacao", "")[:250]])
+                    ws.cell(row, 1).font = Font(size=9, bold=True, color=RED, name="Arial")
+                    ws.cell(row, 1).fill = RED_FILL
+                    row += 1
+        # Revisoes
+        for p in projs:
+            q = p.get("qualitative") or {}
+            for obs in q.get("observacoes_orcamentista") or []:
+                if isinstance(obs, dict) and obs.get("categoria") == "revisao":
+                    wr(ws, row, ["REVISAO", p["slug"], obs.get("contexto", "")[:60], obs.get("observacao", "")[:250]])
+                    ws.cell(row, 1).font = Font(size=9, bold=True, color=ORANGE, name="Arial")
+                    ws.cell(row, 1).fill = YELLOW_FILL
+                    row += 1
+        # Fora da curva
+        for p in projs:
+            q = p.get("qualitative") or {}
+            for fc in q.get("fora_da_curva") or []:
+                if isinstance(fc, dict):
+                    wr(ws, row, ["FORA CURVA", p["slug"], fc.get("item", "")[:60], fc.get("motivo", "")[:250]])
+                    ws.cell(row, 1).font = Font(size=9, bold=True, color=PURPLE, name="Arial")
+                    row += 1
+    else:
+        ws.cell(row, 1, "(sem alertas/revisoes/fora-da-curva registrados — bom sinal)").font = Font(italic=True, size=9, color=GREEN, name="Arial")
+        row += 1
+
+    # Observacoes qualitativas gerais
+    row += 2
+    ws.cell(row, 1, "OBSERVACOES GERAIS DO ORCAMENTISTA").font = Font(bold=True, size=11, color=DARK, name="Arial")
     row += 2
     wh(ws, row, ["Projeto", "Categoria", "Contexto", "Observacao"], [28, 14, 20, 60])
     row += 1
@@ -318,9 +378,12 @@ def build_ficha(wb, cliente_nome: str, projs: list, af: dict):
         q = p["qualitative"] or {}
         for obs in (q.get("observacoes_orcamentista") or [])[:10]:
             if isinstance(obs, dict):
+                cat = obs.get("categoria", "")
+                if cat in ("alerta", "revisao"):
+                    continue  # ja mostrado acima
                 wr(ws, row, [
                     p["slug"],
-                    obs.get("categoria", ""),
+                    cat,
                     obs.get("contexto", "")[:40],
                     obs.get("observacao", "")[:200],
                 ])
@@ -354,11 +417,19 @@ def build_leia_me(wb, dados_gerais):
 
     ws.cell(row, 1, "CLIENTES INCLUIDOS").font = Font(bold=True, size=11, color=DARK, name="Arial")
     row += 2
-    wh(ws, row, ["Cliente", "N projetos", "R$/m² mediana", "Padrao dominante"], [26, 12, 16, 18])
+    wh(ws, row, ["Cliente", "N projetos", "R$/m² mediana", "Padrao dominante",
+                 "Alertas", "Revisoes", "Fora curva"],
+       [26, 12, 16, 18, 10, 10, 12])
     row += 1
-    for nome, n_proj, med_rsm2, pad in dados_gerais:
+    for nome, n_proj, med_rsm2, pad, a, r, fc in dados_gerais:
         nf = {3: "R$ #,##0.00"} if isinstance(med_rsm2, (int, float)) else None
-        wr(ws, row, [nome, n_proj, med_rsm2 if med_rsm2 is not None else "N/D", pad], nf)
+        wr(ws, row, [nome, n_proj, med_rsm2 if med_rsm2 is not None else "N/D", pad, a, r, fc], nf)
+        # Destaca se tem alerta
+        if a > 0:
+            ws.cell(row, 5).fill = RED_FILL
+            ws.cell(row, 5).font = Font(size=9, bold=True, color=RED, name="Arial")
+        if fc > 0:
+            ws.cell(row, 7).fill = YELLOW_FILL
         row += 1
 
     row += 2
@@ -407,7 +478,17 @@ def main():
         pads = Counter(p["padrao"] for p in projs)
         pad_dom = pads.most_common(1)[0][0] if pads else "?"
         med_rsm2 = statistics.median(rsm2s) if rsm2s else None
-        dados_gerais.append((nome, len(projs), med_rsm2, pad_dom))
+        # Counts qualitativos
+        a_total = r_total = fc_total = 0
+        for p in projs:
+            q = p.get("qualitative") or {}
+            for obs in q.get("observacoes_orcamentista") or []:
+                if isinstance(obs, dict):
+                    cat = obs.get("categoria", "")
+                    if cat == "alerta": a_total += 1
+                    elif cat == "revisao": r_total += 1
+            fc_total += len(q.get("fora_da_curva") or [])
+        dados_gerais.append((nome, len(projs), med_rsm2, pad_dom, a_total, r_total, fc_total))
 
     # LEIA_ME (criado por ultimo mas movido pra primeiro)
     build_leia_me(wb, dados_gerais)
