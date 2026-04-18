@@ -30,7 +30,18 @@
 | 2 | 28 | 12.674 | 3.291 | Supra 17.5% + **Instalacoes Gerais 10.3%** | Grande, instalações não detalhadas |
 | 3 | 7 | 7.529 | 3.761 | **Ger 27% + Supra 22%** | Híbrido |
 
-O antigo Cluster 3 (13 projetos ger>30%) virou agora Cluster 1 (9 projetos ger 42%) + parte do Cluster 3 (7 projetos com ger menor mas ainda alto) — **refinamento**, não discrepância.
+O antigo Cluster 3 (13 projetos ger>30%) virou agora Cluster 1 (9 projetos ger 42%) + parte do Cluster 3 (7 projetos com ger menor mas ainda alto).
+
+**Por que chamar de "refinamento" e não de "mudança" (endereçando crítica qwen R2):**
+
+A redistribuição não foi arbitrária — resultou da melhoria da canonização MG que separou "Pintura" de "Pintura Interna", "Instalações" de "Instalações Hidrossanitárias/Elétricas/Preventivas", e expandiu "Revestimentos Parede" pra pegar "Rev.Int.Parede". Isso **aumentou a dimensionalidade** do vetor de assinatura MG usado pelo K-means, que passou a distinguir projetos com "Instal Geral" alto (guarda-chuva) dos com disciplinas específicas detalhadas.
+
+**Como a redistribuição ocorreu concretamente:**
+- Projetos com **Ger > 40%** ficaram concentrados no Cluster 1 (9 projetos, ger 42% mediana)
+- Projetos com **Ger 27–35% + estrutura completa** viraram Cluster 3 (7 projetos, ger 27%, supra 22%)
+- Os demais (Paludo Volo Home, Volo Ocean, Barbados, Inbrasul Opus e outros) redistribuíram entre clusters 0 e 2 onde encontram melhor similaridade de assinatura
+
+É refinamento porque **o grupo original "projetos com gerenciamento alto" continua visível**, agora em 2 clusters ao invés de 1, melhor separados por intensidade. Não perdemos sinal, ganhamos granularidade.
 
 ---
 

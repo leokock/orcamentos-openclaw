@@ -13,7 +13,7 @@
 | MD | R1 críticas | R2 críticas | Mudança |
 |---|---:|---:|---|
 | PALUDO-VS-NOVA-V2-APOS-REVISAO | (novo doc) | 3 saltos lógicos + 2 hipóteses + 3 dados faltantes | — |
-| ANALISE-FINANCEIRA-RESUMO | 3 saltos | re-rodando (R1 teve timeout, tratando com timeout maior) | — |
+| ANALISE-FINANCEIRA-RESUMO | 3 saltos | 3 saltos + 3 hipóteses + 4 dados + genéricas | **similar (não piorou, não resolveu)** |
 | CLUSTER3-E-PARAMETRICO-RESUMO | 3 saltos | 2 saltos + 2 hipóteses novas | **menos grave** |
 | SESSAO-18ABR-RESUMO | (não revisado R1) | 2 saltos + 2 hipóteses + 3 dados faltantes | — |
 
@@ -70,6 +70,23 @@ Mesmo com ressalva adicionada em R1, qwen volta a apontar:
 > "Esta recomendação é muito genérica e não especifica como garantir que os slugs sejam mantidos consistentes. É necessário um protocolo operacional detalhado, incluindo responsabilidades específicas de equipes e ferramentas para monitorar."
 
 **Status:** ⚠️ **VÁLIDA**. **Correção:** especificar responsável (orçamentista que fecha paramétrico) + ferramenta (script `check_slug_consistency.py` a criar).
+
+---
+
+## ANALISE-FINANCEIRA-RESUMO — Round 2
+
+**Críticas R2 (qwen foi persistente mesmo com correções R1):**
+
+### 1. Amostras pequenas ainda apresentadas (R1 marcou, R2 pede remoção)
+> "A análise afirma que as amostras econômico e médio são insuficientes para conclusões estatísticas (n=3 e n=2), mas ainda assim apresenta valores medianos e deltas. Esses dados não devem ser usados como referência fraca."
+
+**Status:** ⚠️ **VÁLIDA** — disclaimer do R1 não foi suficiente. **Correção aplicada:** medianas de econômico/médio movidas para **Apêndice** com aviso "NÃO usar como benchmark", tabela principal agora tem apenas alto (n=19) e médio-alto (n=31).
+
+### 2. Correlação r=-0.17 ainda sugere economia de escala
+**Status:** ⚠️ Persistente — mesmo com ressalva "tênue", qwen considera que dizer "sugere economia de escala leve" ainda é forte. Aceitar como limitação de escolha de linguagem.
+
+### 3. Recomendações sem considerar localização/tipologia
+**Status:** ⚠️ **VÁLIDA**. **Correção aplicada:** recomendações "Empreitada direta" e "Negociação com fornecedores" ganharam ressalvas sobre condições locais + diretrizes concretas (consolidar volume, comparar com PU de referência, 3 cotações acima de R$ 50k).
 
 ---
 

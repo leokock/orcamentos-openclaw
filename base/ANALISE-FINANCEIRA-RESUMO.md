@@ -8,14 +8,14 @@
 
 ## 1. Quanto custa construir na Cartesian? (Mediana R$/m²)
 
+**Padrões com base estatística (n ≥ 19):**
+
 | Padrão | Mediana R$/m² | Delta vs alto | N projetos válidos |
 |---|---:|---:|---:|
-| Econômico | R$ 1.983 | -54% | 3 |
-| Médio | R$ 2.534 | -42% | 2 |
 | Médio-alto | R$ 3.443 | -18% | 31 |
 | Alto | R$ 4.188 | baseline | 19 |
 
-**⚠ Observação crítica:** amostras de econômico (n=3) e médio (n=2) são **pequenas demais para conclusão estatística**. Valores apresentados são **referência fraca**. Alto (n=19) e médio-alto (n=31) têm base estatística utilizável.
+**⚠ Econômico (n=3) e Médio (n=2) — DADOS INSUFICIENTES para apresentar medianas. Ver apêndice "Amostras pequenas" no final do documento.** Qwen R2 alertou corretamente que exibir medianas com n<5 pode induzir uso indevido. Não usar como benchmark.
 
 **Correlação R$/m² × AC:** r = **-0.17** (n=55) — correlação **muito tênue** estatisticamente. *Sugere* (não confirma) economia de escala leve. Não é significativa a 95% de confiança, e a variação dentro do mesmo padrão é 3-4× maior que a variação por escala.
 
@@ -194,9 +194,13 @@
 
 2. **Abordagem comercial por padrão** (apenas referência inicial): médio-alto **R$ 3.100–3.800/m²** (p25-p75, n=31); alto **R$ 3.600–5.200/m²** (p25-p75, n=19). **Ajustar por localização + tipologia** antes de apresentar ao cliente.
 
-3. **Empreitada direta** nas disciplinas com MO > 50%: revestimento teto, mov terra, cobertura, climatização, impermeabilização, hidro.
+3. **Empreitada direta** nas disciplinas com MO > 50%: revestimento teto, mov terra, cobertura, climatização, impermeabilização, hidro. **⚠ Ressalva qwen R2:** decisão de empreitar depende de **condições locais** (mercado de MO na região do empreendimento, disponibilidade de empreiteiros qualificados). Recomendação serve como sinal inicial, não como ordem operacional automática.
 
-4. **Negociação agressiva com fornecedores** nas disciplinas com material > 90%: esquadrias, sistemas especiais, pisos. Essas são 25–30% do total — ganho de 3% aqui = 0.9% do orçamento direto.
+4. **Negociação com fornecedores** nas disciplinas com material > 90%: esquadrias, sistemas especiais, pisos. Essas são 25–30% do total — ganho de 3% aqui = 0.9% do orçamento direto. **Diretrizes concretas (endereçando crítica qwen R2):**
+   - Consolidar volume de esquadrias cross-projeto antes de negociar (fornecedor dá mais desconto em volume combinado)
+   - Comparar PU ativo com mediana da base Cartesian (aba `PUS_REFERENCIA`) — se acima do p75, renegociar
+   - Pedir 3 cotações por item acima de R$ 50k
+   - Revisão anual de fornecedores-padrão (quem entrega, prazo, qualidade)
 
 5. **Revisar orçamentos de Nova Empreendimentos** (3 dos 4 outliers caros em alto) — pode ter oportunidade de otimização.
 
@@ -221,6 +225,19 @@
 3. **Canonicalização MG**: 147 variações viraram 20 canônicos. Alguns itens podem ter caído em "Outros" (13% no médio-alto na primeira versão; reduzido a 5% após canonização refinada em 18/abr). Melhoria contínua.
 4. **UR incompleto**: 51 projetos sem UR definido — correlação R$/m² × UR não foi computável.
 5. **Dados temporais**: não temos data dos orçamentos pra análise de inflação. `data_base` só existe em 14 projetos.
+
+---
+
+## Apêndice — Amostras pequenas (NÃO usar como benchmark)
+
+**⚠ Aviso:** valores aqui têm N<5 e servem apenas como registro. Não derivar conclusões nem apresentar a clientes.
+
+| Padrão | N | R$/m² mediana | Faixa | Observação |
+|---|---:|---:|---|---|
+| Econômico | 3 | R$ 1.983 | R$ 1.520–2.625 | Amostra muito pequena, dispersão alta |
+| Médio | 2 | R$ 2.534 | R$ 2.271–2.797 | Só 2 pontos, sem confiança estatística |
+
+**Ação sugerida:** acumular mais projetos econômico e médio ao longo do tempo (meta: n≥10 de cada padrão em 12 meses) antes de oferecer benchmarks externos pra esses segmentos.
 
 ---
 
