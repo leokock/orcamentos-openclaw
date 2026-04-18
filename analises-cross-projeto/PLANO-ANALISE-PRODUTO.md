@@ -127,6 +127,70 @@ Em `~/orcamentos/projetos/` (Drive `_Projetos_IA/`) temos:
 
 ---
 
+### Fase 1c — Import de entregas em PDF (OCR + extração) ⚪ NOVO
+
+**Contexto:** auditor Fase 1b identificou **9 entregas no Drive sem par na base**, todas entregues apenas em PDF (não xlsx):
+- Essege/Dom, EZE/Canto Grande, Pavitec/Siena, Rosner/Alameda Jardins, Serati/Manhatan
+- Holze/Nouve, Inbrasul/Amber, Mabrem/Liberato, Santa Maria/We
+
+Também há **5 órfãos na base** (slug existe mas não aparece na pasta Drive): cambert-portal-da-brava, nm-empreendimentos, nobria, pavcor, sak-engenharia. Possíveis causas: projeto cancelado, pasta movida, slug errado.
+
+**Atividades Fase 1c:**
+
+1. **Import minimal (rápido):** criar `indices-executivo/{slug}.json` com metadados básicos extraídos dos nomes de pasta + Gemma lendo o PDF capa/apresentação:
+   ```json
+   {"projeto": "eze-canto-grande", "fonte": "pdf_entrega", "cidade": "...", "ur": "...", "ac": "..."}
+   ```
+2. **OCR de tabelas (custoso, opcional):** usar `pdfplumber.extract_tables()` pra tentar pegar planilha ABC/serviços do PDF. Sucesso variável.
+3. **Rodar Fase 1 + Fase 3** nos 9 slugs novos
+4. **Fase 1b re-auditar** pra garantir cobertura
+5. **Investigar órfãos:** verificar se cada um está em `/Serviços Concluídos/`, renomeado, ou deve ser removido da base
+
+**Prioridade:** baixa — esses 9 projetos são <7% da base e não têm dados estruturais. Deixar como "expand quando a base for re-processada com OCR robusto".
+
+**Script a criar:** `scripts/importar_pdf_entregas.py`
+
+---
+
+### Fase 1b — Expansão de cobertura: TODOS os entregues 🔵 NOVO
+
+**Contexto:** Leo pediu que a reclassificação (tipologia + cidade) se aplique a **todos os projetos em `_Entregas/Orçamento_executivo/`** (path local via symlink `~/orcamentos/executivos/entregues/`).
+
+**Estado atual:** base tem 126 projetos em `indices-executivo/`. Pasta entregues tem **130 obras em 73 clientes** (subpastas `cliente/obra/`). Diferença: ~4-6 entregas recentes ainda não importadas.
+
+**Atividades:**
+
+1. **Criar symlink** (se não existir): `~/orcamentos/executivos/entregues/ → _Entregas/Orçamento_executivo/` (conforme CLAUDE.md já define)
+
+2. **Script `scripts/auditar_entregues_vs_base.py`:**
+   - Lista todos os `cliente/obra/` em `entregues/`
+   - Mapeia pra slug canônico (ex: `Amalfi/Maiori` → `amalfi-maiori`)
+   - Compara com `base/indices-executivo/*.json`
+   - Gera: (a) lista de "faltantes" (entregues sem slug na base), (b) lista de "órfãos" (slugs na base sem entrega correspondente)
+
+3. **Script `scripts/importar_entregues_faltantes.py`** (se faltantes > 0):
+   - Pra cada entrega faltante, buscar orçamento executivo xlsx/pdf na pasta
+   - Extrair dados estruturados via pipeline existente (gerar_novos_indices ou manual)
+   - Criar `base/indices-executivo/{slug}.json` correspondente
+   - Disparar Fase 1 + Fase 3 pros novos slugs
+
+4. **Re-aplicar cidade + tipologia em TODOS:**
+   - Re-rodar `enriquecer_metadados.py` (Fase 1) — garantir cidade em 100%
+   - Re-rodar `classificar_tipologia.py` (Fase 3) nos novos slugs
+   - Validar que `projetos-enriquecidos/*.json` cobre 130/130 entregues
+
+5. **Relatório:** `FASE-1B-COBERTURA-ENTREGUES.md` com:
+   - Total entregues analisados
+   - Slugs novos importados
+   - Slugs sem match (órfãos antigos que não estão mais nas entregas)
+   - Cobertura final de cidade + tipologia
+
+**Prazo:** 1 dia (após Fase 3 terminar). Script de auditoria é rápido, importação depende do volume (máximo ~10 projetos novos).
+
+**Output:** base expande de 126 pra 130+ projetos com cidade + tipologia em 100%.
+
+---
+
 ### Fase 2 — Normalização de localização (manual + Gemma) 🔵
 
 **Objetivo:** todos os 126 projetos têm cidade/UF.
@@ -349,6 +413,7 @@ python scripts/analisar_produto_novo.py \
 |---|---|---|---|
 | **N1** | 1 | Gemma extrai metadados de ~20 projetos do `_Projetos_IA/` | 3-5h |
 | **N2** | 1 (cont) | Gemma extrai de `_Executivo_IA/` + `_Entregas/` | 4-6h |
+| **N2.5** | 1b | Auditar entregues vs base + importar faltantes + re-classificar | 4-8h |
 | **N3** | 2-3 | Normalização localização + classificação tipologia | 3-4h |
 | **N4** | 4 | Re-rodar 3 análises principais com metadados | 30min (CPU) |
 | **N5** | 5 | Correlações controladas + regressão + PCA | 1-2h |
