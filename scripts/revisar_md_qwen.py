@@ -39,6 +39,14 @@ MDS_PRIORITARIOS = [
     "ANALISE-PRODUTO-RESUMO.md",
 ]
 
+# Round 2: MDs corrigidos + MDs novos
+MDS_ROUND2 = [
+    "PALUDO-VS-NOVA-V2-APOS-REVISAO.md",  # novo doc, aplica criticas
+    "ANALISE-FINANCEIRA-RESUMO.md",  # corrigido
+    "CLUSTER3-E-PARAMETRICO-RESUMO.md",  # corrigido
+    "SESSAO-18ABR-RESUMO.md",  # nunca revisado
+]
+
 
 PROMPT_REVISAO = """Voce e um engenheiro senior de orcamento de obras civil atuando como revisor critico de uma analise quantitativa feita por um agente de IA.
 
@@ -68,7 +76,7 @@ DOCUMENTO PARA REVISAR:
 """
 
 
-def call_qwen(prompt: str, timeout: int = 600) -> str:
+def call_qwen(prompt: str, timeout: int = 1200) -> str:
     r = requests.post(OLLAMA_URL, json={
         "model": MODEL,
         "prompt": prompt,
@@ -102,7 +110,10 @@ def revisar_arquivo(md_path: Path) -> dict:
         return {"erro": str(e)[:300], "duration_s": round(time.time() - t0, 1)}
 
 
-def salvar_revisao(md_name: str, r: dict) -> Path:
+def salvar_revisao(md_name: str, r: dict, suffix: str = "") -> Path:
+    # Se md_name termina em .md, inserir sufixo antes da extensao
+    if md_name.endswith(".md") and suffix:
+        md_name = md_name[:-3] + suffix + ".md"
     out = OUT_DIR / f"revisao-{md_name}"
     lines = [
         f"# Revisao critica: {md_name}",
@@ -123,9 +134,16 @@ def salvar_revisao(md_name: str, r: dict) -> Path:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", default=None)
+    ap.add_argument("--round", default="1", choices=["1", "2"], help="1=MDs prioritarios, 2=MDs corrigidos + novos")
+    ap.add_argument("--suffix", default="", help="sufixo pra arquivo de saida (ex: -r2)")
     args = ap.parse_args()
 
-    arquivos = [args.file] if args.file else MDS_PRIORITARIOS
+    if args.file:
+        arquivos = [args.file]
+    elif args.round == "2":
+        arquivos = MDS_ROUND2
+    else:
+        arquivos = MDS_PRIORITARIOS
 
     resumos = []
     for fn in arquivos:
@@ -139,7 +157,7 @@ def main():
             print(f"  ERRO: {r['erro']}", flush=True)
             resumos.append({"arquivo": fn, "status": "erro", "erro": r["erro"]})
             continue
-        out = salvar_revisao(fn, r)
+        out = salvar_revisao(fn, r, args.suffix)
         print(f"  OK ({r['duration_s']}s, {r['tamanho_doc']} chars) → {out.name}", flush=True)
         # Print preview da revisao
         preview = r["revisao"][:600].replace("\n", " ").strip()

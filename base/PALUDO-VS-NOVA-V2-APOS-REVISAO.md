@@ -88,7 +88,19 @@ O qwen apontou corretamente que o R$/m² 2.2× pode ser explicado por:
 **Suporte agora explícito:** Nova tem guarda-corpo vidro/alumínio R$ 2.602/m (premium), alvenaria de bloco cerâmico R$ 52/m² (não aparece em Paludo). Paludo tem porta madeira R$ 1.517/un (2× Nova) — possivelmente porta massiça vs kit.
 
 ### H5 — Localização/custo regional
-**Suporte parcial:** Paludo é cliente do RS (Gramado, Itajaí) e SC; Nova tem obras em SP/RJ (observação). CUB varia entre regiões. Hipótese não descartada, precisaria `data_base` + localização pra validar.
+**Suporte parcial:** Paludo é cliente do RS (Gramado, Itajaí) e SC; Nova tem obras em SP/RJ (observação). CUB varia entre regiões. **⚠ Qwen R2 apontou** que essa hipótese precisa CUB regional específico por categoria universal, não só observação genérica. Sem `data_base` + localização por projeto, não validável.
+
+### H6 — Eficiência operacional interna do cliente (adicionada após qwen R2)
+**Suporte:** qwen R2 apontou que a diferença pode vir de práticas operacionais internas de cada cliente, não apenas escopo/estruturação. Paludo pode ter:
+- Processos de gestão mais eficientes
+- Equipe mais qualificada/produtiva
+- Fornecedores preferenciais com preços competitivos
+- Práticas contábeis que reduzem overhead
+
+**Não validável com dados atuais** — exigiria métricas de produtividade, custo/hora, tempo de execução por projeto. Mas é hipótese legítima que não pode ser descartada.
+
+### H4 — Ressalva (após qwen R2)
+A hipótese "especificação premium" foi inferida principalmente de 1 item (porta de madeira +2×). **Qwen R2 corretamente apontou** que isso é suporte fraco pra conclusão de "acabamento premium generalizado". Pra validar, precisaria **especificação técnica comparada** (tipo de porta, espessura, gramatura de tinta, guarda-corpo spec, etc).
 
 ### Síntese
 
@@ -143,7 +155,7 @@ Total estimado: +70-90% de explicação — **próximo dos +120% observados**.
 1. **PU regional:** Paludo RS/SC vs Nova SP/RJ — afeta quanto?
 2. **Margem embutida por cliente:** seria possível comparar custo real (após obra) vs orçado em alguns projetos?
 3. **Dados de satisfação do cliente:** Nova paga mais — está satisfeita? Paludo paga menos — recontrata?
-4. **Análise por projeto-pares de tamanho similar:** Paludo Volo Home (AC 3.972) vs Nova Malaga (AC 4.430) — obras muito próximas em escala, comparação quase direta possível.
+4. **Análise por projeto-pares de tamanho similar:** Paludo Volo Home (AC 3.972) vs Nova Malaga (AC 4.430) — obras próximas em escala. **Ressalva qwen R2:** comparação "quase direta" pressupõe semelhanças além de tamanho — tipologia, localização e especificação ainda precisariam ser controladas antes de concluir qualquer coisa.
 
 ---
 

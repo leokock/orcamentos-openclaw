@@ -39,10 +39,11 @@ Agrupados por cliente, com % do total alocado em Gerenciamento:
 
 **Hipótese forte (a validar com contratos):** Cluster 3 tem **distribuição de custo consistente com projetos EPCM/fee-based** — onde a empresa é remunerada com fee de gerenciamento alto (pacote executivo + gestão de obra) e esse fee é alocado em "Gerenciamento". Os custos diretos ficam diluídos ou nas linhas macro.
 
-**⚠ Ressalva (pós-revisão qwen):** essa é uma hipótese **baseada em padrão observado na distribuição % de MG**, não em evidência contratual. Para confirmar, precisaria consultar contratos reais dos 13 projetos. Padrão pode ser explicado também por:
+**⚠ Ressalva (pós-revisão qwen R1+R2):** essa é uma hipótese **baseada em padrão observado na distribuição % de MG**, não em evidência contratual. Para confirmar, precisaria consultar contratos reais dos 13 projetos. Padrão pode ser explicado também por:
 - Cartesian atuando como **consultora/coordenadora** (não EPCM) — cliente executa obra por conta, Cartesian só gerencia
 - **Orçamentos menos detalhados** — itens diretos mal segmentados caem em "gerenciamento"
 - **Modelo comercial do cliente** — cliente pediu pra concentrar custo indireto na linha Gerenciamento
+- **Eficiência operacional interna do cliente** (hipótese adicionada após qwen R2) — Paludo pode ter práticas internas que reduzem custos diretos (equipe mais produtiva, fornecedores preferenciais, processos mais enxutos), não necessariamente escopo menor
 
 **Evidências circunstanciais:**
 
@@ -135,7 +136,12 @@ Agrupados por cliente, com % do total alocado em Gerenciamento:
 
 5. **Sem par direto paramétrico↔executivo hoje.** Não dá pra medir erro real. Precisa protocolo de slug consistente.
 
-6. **Recomendação imediata:** próximo paramétrico→executivo (arthen-arboris será o primeiro candidato natural) manter slug idêntico pra criar o primeiro par rastreável.
+6. **Recomendação imediata — Protocolo de slug consistente** (qwen R2 pediu mais especificidade):
+   - **Responsável:** orçamentista que fecha o paramétrico
+   - **Ferramenta:** adicionar `scripts/check_slug_consistency.py` (a criar) que, ao detectar novo `indices-executivo/{slug}.json`, verifica se existe `base/pacotes/{slug}/` correspondente
+   - **Quando:** no momento de fechamento do paramétrico (`gate-validado.xlsx` gerado), registrar slug canônico em documento interno
+   - **Gatilho:** quando arthen-arboris passar de paramétrico→executivo (primeiro candidato natural), rodar `comparar_param_exec.py --slug arthen-arboris` imediatamente após fechamento
+   - **Métrica de sucesso:** 1º par rastreável até 30/jun/2026. 5 pares até 31/dez/2026.
 
 ---
 
