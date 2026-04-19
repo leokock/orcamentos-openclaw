@@ -1,8 +1,8 @@
 # Regras de Produto — Conhecimento Acionável Cartesian
 
-**Gerado:** 2026-04-19T01:34:06
+**Gerado:** 2026-04-19T09:32:04
 **Modelo narrativa:** qwen2.5:14b (local)
-**Base estatística:** 18 regras derivadas das Fases 5-7
+**Base estatística:** 20 regras derivadas das Fases 5-7
 
 **O que tem aqui:** regras if-then testáveis que emergem das análises quantitativas, traduzidas em linguagem acionável pra reunião comercial e orçamentação.
 
@@ -12,7 +12,7 @@
 
 ## 1. Regras de Cliente (ajustes aprendidos)
 
-*Derivadas da análise de 16 outliers da regressão multivariada*
+*Derivadas da análise de 15 outliers da regressão multivariada*
 
 ### 1.1 🟢 IF cliente = Nova Empreendimentos THEN somar ~R$ 2.000/m² à predição
 
@@ -22,7 +22,7 @@
 
 **Recomendação prática:**
 
-> Quando orçar um projeto para a Nova Empreendimentos, adicione R$ 2.000 por metro quadrado ao valor previsto inicialmente. Essa correção é necessária porque três quartos dos projetos da empresa são outliers positivos, com resíduos médios de aproximadamente R$ 2.291 acima do esperado. Esta regra tem uma força alta e ajuda a garantir que o orçamento seja mais preciso e realista para esse cliente específico.
+> Quando orçar um projeto para a Nova Empreendimentos, adicione R$ 2.000 por metro quadrado ao valor previsto inicialmente. Esta recomendação é baseada em dados que mostram que três quartos dos projetos da empresa são outliers positivos com resíduo médio de aproximadamente R$ 2.291, indicando que os custos tendem a ser significativamente mais altos do que o previsto inicialmente.
 
 ### 1.2 ⚪ IF cliente = ALL THEN predição pode subestimar em R$ 2.000-3.000/m²
 
@@ -32,19 +32,9 @@
 
 **Recomendação prática:**
 
-> Quando orçar um projeto de construção civil para qualquer cliente, especialmente se for uma obra do tipo residencial ou comercial com características similares ao Lago di Garda, é recomendado ajustar a previsão em +R$ 2.959 por metro quadrado. Este ajuste visa compensar uma tendência observada que pode levar à subestimação dos custos. Baseia-se em evidências de um único caso com forte indicativo de desvio (+R$ 2.959/m²), o que, embora seja um conjunto limitado de dados, sugere a necessidade de revisão adicional para garantir uma estimativa mais precisa e realista dos custos.
+> Quando orçar um projeto de construção civil para qualquer cliente, é importante ajustar a previsão inicial em cerca de R$ 2.000 a R$ 3.000 por metro quadrado para evitar subestimações. Este ajuste se baseia em evidências que mostram uma tendência de subestimar os custos em projetos semelhantes, como o caso específico do Lago di Garda, onde houve um desvio positivo de R$ 2.959 por metro quadrado. Embora seja baseada em apenas um exemplo, este ajuste pode ajudar a garantir uma estimativa mais precisa e realista dos custos totais do projeto.
 
-### 1.3 🟢 IF cliente = F Nogueira THEN subtrair ~R$ 1.200/m² da predição
-
-**Força:** alta
-
-**Evidência:** 2 projetos F Nogueira são outliers negativos consistentes (~-R$ 1.210 ambos)
-
-**Recomendação prática:**
-
-> Quando orçar um projeto para o cliente F Nogueira, subtraia aproximadamente R$ 1.200 por metro quadrado da estimativa inicial. Esta recomendação é baseada em evidências de dois projetos anteriores do mesmo cliente que apresentaram desvios consistentes e negativos de cerca de R$ 1.210 por metro quadrado, indicando uma tendência específica para esse contratante.
-
-### 1.4 🟡 IF cliente = Paludo Volo Home THEN subtrair ~R$ 1.100/m²
+### 1.3 🟡 IF cliente = Paludo Volo Home THEN subtrair ~R$ 1.100/m²
 
 **Força:** média
 
@@ -52,9 +42,9 @@
 
 **Recomendação prática:**
 
-> Quando orçar um projeto para o cliente Paludo Volo Home, subtraia aproximadamente R$ 1.100 por metro quadrado do valor total do orçamento. Esta recomendação é baseada em dados que indicam uma desviância negativa de z=-1.2 para esse tipo de cliente específico, sugerindo que os custos tendem a ser consistentemente mais baixos nesses projetos comparados à média geral.
+> Quando orçar um projeto residencial do tipo Paludo Volo Home, subtraia aproximadamente R$ 1.100 por metro quadrado do valor total do orçamento. Esta recomendação é baseada em uma análise que indica que este modelo específico tem um desempenho abaixo da média (z=-1.2), sugerindo custos mais baixos comparados a outros projetos similares. Ajuste o orçamento conforme essa diretriz para refletir melhor as características econômicas deste tipo de construção.
 
-### 1.5 🟡 IF cliente = Santa Maria THEN subtrair ~R$ 1.000/m² (Chapecó CUB menor + escopo enxuto)
+### 1.4 🟡 IF cliente = Santa Maria THEN subtrair ~R$ 1.000/m² (Chapecó CUB menor + escopo enxuto)
 
 **Força:** média
 
@@ -62,7 +52,7 @@
 
 **Recomendação prática:**
 
-> Quando orçar um projeto para a cidade de Santa Maria, subtraia aproximadamente R$ 1.000 por metro quadrado do valor padrão usado como referência, como o CUB (Custo Unitário Básico) de Chapecó. Essa redução é necessária porque há evidências de que os custos na região de Santa Maria são consistentemente menores em comparação com outras áreas, refletindo um escopo mais enxuto nos projetos locais. Esta recomendação baseia-se em um único projeto fora da média que apresentou resultados negativos em relação à previsão inicial, indicando a necessidade de ajustes para evitar sobreestimações futuras.
+> Quando orçar um projeto de construção civil para a cidade de Santa Maria, subtraia aproximadamente R$ 1.000 por metro quadrado do valor base comparável com Chapecó, considerando um escopo mais enxuto. Esta recomendação é baseada em uma única ocorrência fora da curva (outlier) que indicou custos significativamente menores para Santa Maria em relação a outros projetos semelhantes. Ajuste este valor conforme as especificidades do projeto, pois pode haver variações locais de mercado e demanda.
 
 ---
 
@@ -70,55 +60,95 @@
 
 *Derivadas dos coeficientes da regressão Fase 6 (baseline: SC-BC)*
 
-### 2.1 🟡 IF região = SC-Floripa THEN ajustar +559 R$/m² vs baseline (SC-BC)
+### 2.1 🟡 IF região = MT-Outros THEN ajustar +478 R$/m² vs baseline (SC-BC)
 
 **Força:** média
 
-**Evidência:** Coef regressão = R$ +559/m². Baseline é SC-BC.
+**Evidência:** Coef regressão = R$ +478/m². Baseline é SC-BC.
 
 **Recomendação prática:**
 
-> Quando orçar um projeto em Florianópolis (SC-Floripa), ajuste o valor de referência em +559 R$/m² em relação à baseline estabelecida para Balneario Camboriú (SC-BC). Este ajuste reflete a diferença nos custos locais, que incluem fatores como mão de obra especializada e materiais mais caros na região de Florianópolis.
+> Quando orçar um projeto de construção civil na região de Mato Grosso exceto Cuiabá e Várzea Grande, ajuste o valor por metro quadrado em +478 R$/m² em relação à base SC-BC. Este ajuste reflete a variação dos custos locais nesta área específica, que foi identificada através de um modelo de regressão linear com uma força média. Esta recomendação visa garantir maior precisão no orçamento ao considerar os desvios regionais nos custos da construção.
 
-### 2.2 🟢 IF região = SC-Litoral-Norte THEN ajustar -944 R$/m² vs baseline (SC-BC)
+### 2.2 🟢 IF região = RS-Serra THEN ajustar +1081 R$/m² vs baseline (SC-BC)
 
 **Força:** alta
 
-**Evidência:** Coef regressão = R$ -944/m². Baseline é SC-BC.
+**Evidência:** Coef regressão = R$ +1081/m². Baseline é SC-BC.
 
 **Recomendação prática:**
 
-> Quando orçar um projeto de construção civil na região do Litoral Norte de Santa Catarina, ajuste automaticamente o custo em -944 R$/m² em relação à baseline estabelecida para SC-BC. Este ajuste reflete uma diferença significativa e consistentemente observada nos custos dessa área específica, que é resultado de fatores locais como menor custo de mão de obra e materiais comparativamente ao baseline.
+> Quando orçar um projeto de construção civil na região da Serra do Rio Grande do Sul (RS-Serra), ajuste automaticamente o valor por metro quadrado em +1081 R$ comparado à base de cálculo de Santa Catarina - Baixada Continental (SC-BC). Este ajuste é necessário devido a diferenças significativas nos custos locais, como mão de obra especializada e materiais mais caros na região da Serra. A força alta dessa recomendação se deve à forte evidência estatística baseada em coeficientes de regressão que demonstram consistentemente essa variação regional.
 
-### 2.3 🟢 IF região = SC-Oeste THEN ajustar -939 R$/m² vs baseline (SC-BC)
+### 2.3 🟢 IF região = SC-BC THEN ajustar +1099 R$/m² vs baseline (SC-BC)
 
 **Força:** alta
 
-**Evidência:** Coef regressão = R$ -939/m². Baseline é SC-BC.
+**Evidência:** Coef regressão = R$ +1099/m². Baseline é SC-BC.
 
 **Recomendação prática:**
 
-> Quando você estiver orçamentando um projeto de construção civil na região do Oeste de Santa Catarina (SC-Oeste), ajuste automaticamente o valor por metro quadrado em -939 R$/m² em relação à baseline definida para SC-BC. Este ajuste é necessário porque a análise de regressão mostrou que os custos nesta área específica são consistentemente 939 R$ mais baixos por metro quadrado comparados ao padrão estabelecido para SC-BC, o que reflete uma diferença significativa e consistente na economia local.
+> Quando você estiver orçamentando um projeto na região de Santa Catarina, especificamente em Balneário Camboriú, ajuste automaticamente o valor base por metro quadrado em +1099 R$/m². Esta recomendação é fundamentada em análises recentes que demonstram uma variação significativa nos custos dessa localidade em comparação com a média da região (baseline SC-BC). A alta força desta regra indica que este ajuste é crucial para garantir a precisão do orçamento, refletindo corretamente os custos locais específicos.
 
-### 2.4 🟡 IF região = SC-Vale-Itajai THEN ajustar -310 R$/m² vs baseline (SC-BC)
+### 2.4 🟢 IF região = SC-Floripa THEN ajustar +1549 R$/m² vs baseline (SC-BC)
+
+**Força:** alta
+
+**Evidência:** Coef regressão = R$ +1549/m². Baseline é SC-BC.
+
+**Recomendação prática:**
+
+> Quando orçar um projeto em Florianópolis (SC-Floripa), ajuste automaticamente o valor por metro quadrado em +1549 R$/m² em relação à base de custos de Balneario Camboriú (SC-BC). Este ajuste é necessário devido a diferenças significativas nos custos locais, como mão de obra especializada e materiais mais caros na região de Florianópolis. A evidência baseia-se em análises de regressão que demonstram consistentemente essa variação.
+
+### 2.5 🟢 IF região = SC-Litoral-Norte THEN ajustar +904 R$/m² vs baseline (SC-BC)
+
+**Força:** alta
+
+**Evidência:** Coef regressão = R$ +904/m². Baseline é SC-BC.
+
+**Recomendação prática:**
+
+> Quando orçar um projeto de construção civil na região do Litoral Norte de Santa Catarina, ajuste automaticamente o custo em +R$ 904 por metro quadrado em relação à baseline definida para SC-BC. Este ajuste é baseado em uma forte evidência que demonstra uma diferença significativa nos custos de construção nesta região específica, refletindo fatores como materiais mais caros e mão de obra especializada.
+
+### 2.6 🟢 IF região = SC-Outros THEN ajustar +1126 R$/m² vs baseline (SC-BC)
+
+**Força:** alta
+
+**Evidência:** Coef regressão = R$ +1126/m². Baseline é SC-BC.
+
+**Recomendação prática:**
+
+> Quando orçar um projeto de construção civil em Santa Catarina fora das regiões metropolitanas de Blumenau e Chapecó (SC-Outros), ajuste automaticamente o valor por metro quadrado em R$ 1126,00 acima do baseline estabelecido para SC-BC. Essa recomendação é baseada em uma análise que identificou um aumento significativo nos custos na região devido a fatores como logística mais complexa e disponibilidade limitada de mão de obra especializada. A força alta da evidência indica que este ajuste deve ser aplicado consistentemente para refletir corretamente os custos locais.
+
+### 2.7 🟢 IF região = SC-Vale-Itajai THEN ajustar +772 R$/m² vs baseline (SC-BC)
+
+**Força:** alta
+
+**Evidência:** Coef regressão = R$ +772/m². Baseline é SC-BC.
+
+**Recomendação prática:**
+
+> Quando orçar um projeto de construção civil na região do Vale do Itajaí em Santa Catarina, ajuste automaticamente o valor por metro quadrado em +772 R$/m² em relação à baseline definida para SC-BC. Este ajuste é necessário devido a fatores locais específicos que aumentam os custos na região, como materiais mais caros e mão de obra especializada. A evidência baseia-se em análises estatísticas com coeficiente de regressão confirmado, indicando uma forte correlação entre localização e aumento nos custos de construção.
+
+### 2.8 🟡 IF região = SP-Capital THEN ajustar +362 R$/m² vs baseline (SC-BC)
 
 **Força:** média
 
-**Evidência:** Coef regressão = R$ -310/m². Baseline é SC-BC.
+**Evidência:** Coef regressão = R$ +362/m². Baseline é SC-BC.
 
 **Recomendação prática:**
 
-> Quando orçar um projeto de construção civil na região do Vale do Itajaí em Santa Catarina, ajuste automaticamente o custo por metro quadrado em R$ -310/m² em relação à baseline definida para SC-BC. Este ajuste reflete uma diferença média identificada através de análises de regressão que consideram variáveis locais como materiais específicos, mão de obra e custos regionais.
+> Quando orçar um projeto de construção civil na região da capital de São Paulo, ajuste o valor por metro quadrado em +362 R$/m² em relação à baseline estabelecida para Santa Catarina - Balneário Camboriú (SC-BC). Este ajuste é necessário porque os custos de mão de obra, materiais e logística na capital paulista são significativamente mais altos que na região de SC-BC, refletindo uma diferença comprovada por análise de regressão.
 
-### 2.5 🟡 IF região = SP-Capital THEN ajustar -613 R$/m² vs baseline (SC-BC)
+### 2.9 🟡 IF região = null-Outros THEN ajustar +638 R$/m² vs baseline (SC-BC)
 
 **Força:** média
 
-**Evidência:** Coef regressão = R$ -613/m². Baseline é SC-BC.
+**Evidência:** Coef regressão = R$ +638/m². Baseline é SC-BC.
 
 **Recomendação prática:**
 
-> Quando orçar um projeto de construção civil na região da capital de São Paulo (SP-Capital), ajuste o custo por metro quadrado em -613 R$/m² em relação à baseline estabelecida para Santa Catarina – Balneário Camboriú (SC-BC). Este ajuste é baseado em uma análise que identificou uma diferença significativa nos custos de construção entre essas duas regiões, com a capital paulista apresentando valores mais baixos. Ajustar o orçamento conforme essa regra ajudará a garantir um preços mais precisos e competitivos para projetos na região metropolitana de São Paulo.
+> Quando orçar projetos de construção civil em regiões fora do padrão definido como "null-Outros", ajuste automaticamente o valor por metro quadrado em +638 R$/m² em relação à baseline SC-BC. Este ajuste é baseado em uma análise que identificou essa variação média para áreas não especificadas no modelo original, refletindo custos operacionais e logísticos distintos nessas regiões.
 
 ---
 
@@ -126,35 +156,25 @@
 
 *Derivadas dos coeficientes da regressão Fase 6 (baseline: padrão alto)*
 
-### 3.1 🟡 IF padrão = economico THEN ajustar -1069 R$/m² vs baseline (alto)
+### 3.1 🟡 IF padrão = economico THEN ajustar -1022 R$/m² vs baseline (alto)
 
 **Força:** média
 
-**Evidência:** Coef regressão = R$ -1069/m². Baseline é padrão alto.
+**Evidência:** Coef regressão = R$ -1022/m². Baseline é padrão alto.
 
 **Recomendação prática:**
 
-> Quando orçar um projeto de construção civil com padrões econômicos, ajuste automaticamente o valor do orçamento em -1069 R$/m² em relação ao baseline que considera padrões altos. Essa recomendação é baseada em uma análise de regressão que identificou essa diferença média entre os padrões econômicos e os padrões mais elevados, fornecendo um ajuste preciso para garantir a precisão do orçamento sem sobrestimar custos.
+> Quando você estiver orçamentando um projeto de construção civil com um padrão econômico, ajuste automaticamente o valor por metro quadrado em R$ -1022/m² em relação ao baseline (padrão alto). Essa recomendação é baseada em uma análise que identificou essa diferença média entre os padrões econômicos e altos, com um coeficiente de regressão estabelecendo esse valor específico. Ajustar conforme indicado permitirá que seu orçamento seja mais preciso para projetos que seguem o padrão econômico.
 
-### 3.2 🟢 IF padrão = medio THEN ajustar -2430 R$/m² vs baseline (alto)
+### 3.2 🟢 IF padrão = medio THEN ajustar -2202 R$/m² vs baseline (alto)
 
 **Força:** alta
 
-**Evidência:** Coef regressão = R$ -2430/m². Baseline é padrão alto.
+**Evidência:** Coef regressão = R$ -2202/m². Baseline é padrão alto.
 
 **Recomendação prática:**
 
-> Quando você estiver orçamentando um projeto de construção civil com um padrão médio, ajuste automaticamente o valor por metro quadrado em R$ -2430/m² em relação ao baseline (padrão alto). Essa recomendação é baseada em uma forte evidência que mostra uma correlação significativa entre o padrão médio e a economia de custos em relação ao padrão mais elevado, com um coeficiente de regressão de R$ -2430/m².
-
-### 3.3 🟡 IF padrão = medio-alto THEN ajustar -457 R$/m² vs baseline (alto)
-
-**Força:** média
-
-**Evidência:** Coef regressão = R$ -457/m². Baseline é padrão alto.
-
-**Recomendação prática:**
-
-> Quando você estiver elaborando um orçamento para um projeto de construção civil com padrões médio-altos, ajuste automaticamente o valor em -457 R$/m² em relação ao baseline (padrão alto). Este ajuste é baseado em uma análise que identificou essa diferença como resultado de variáveis específicas associadas a projetos de padrão médio-alto. A aplicação dessa recomendação ajudará a otimizar o orçamento, refletindo mais precisamente os custos esperados para esse tipo específico de projeto.
+> Quando você estiver orçamentando um projeto de construção civil com um padrão médio, ajuste automaticamente o valor por metro quadrado em -2.202 R$ comparado ao baseline (padrão alto). Esta recomendação é baseada em uma análise que mostra uma correlação forte e direta entre o padrão médio e a redução de custos em 2.202 R$/m², quando comparado com projetos que seguem um padrão mais elevado. A aplicação desta regra ajudará a garantir que seu orçamento seja preciso e competitivo para projetos com padrões médios.
 
 ---
 
@@ -170,7 +190,7 @@
 
 **Recomendação prática:**
 
-> Quando orçar projetos de construção civil em uma mesma região, ajuste os custos para refletir a economia de escala real e ligeira observada. Para projetos maiores, reduza levemente o valor R$/m² conforme a evidência indica uma relação negativa entre tamanho do projeto e custo por metro quadrado (r parcial = -0.317 com base em 99 projetos). Esta recomendação visa melhorar a precisão orçamentária, refletindo que maiores obras tendem a ter menores custos unitários devido à eficiência operacional e compras em escala maior.
+> Quando orçar projetos de construção civil em uma mesma região, ajuste os custos por metro quadrado para baixo conforme o tamanho do projeto aumenta. Esta recomendação é baseada em evidências que mostram uma leve economia de escala: projetos maiores têm um custo R$/m² ligeiramente menor (coeficiente -0.317, n=99). Portanto, ao orçar grandes obras, reduza levemente o custo unitário para refletir essa tendência observada na prática.
 
 ### 4.2 🟢 Supraestrutura% ≠ preditor de R$/m² alto
 
@@ -180,7 +200,9 @@
 
 **Recomendação prática:**
 
-> Quando você estiver elaborando um orçamento para uma obra de construção civil e notar que a porcentagem da suposta "supraestrutura" parece influenciar significativamente o custo por metro quadrado (R$/m²), é importante não usar essa porcentagem como base para estimativas de preço. A evidência indica que há pouca correlação entre a proporção da supraestrutura e os custos unitários, com um coeficiente de correlação parcial (-0.039) sendo praticamente nulo e considerado um artefato regional não generalizável. Portanto, ajuste seu processo para evitar o uso desta métrica isolada ao estimar custos, garantindo assim uma melhor precisão no orçamento final.
+> Quando você estiver orçamentando um projeto de construção civil e notar que a porcentagem da suprapredial (estruturas acima do nível do solo) é significativamente alta em relação ao total do projeto, não use essa informação como base para estimar o preço final por metro quadrado. A evidência indica que há uma correlação nula entre a porcentagem de suprapredial e os custos unitários elevados, sendo que qualquer associação observada anteriormente era resultado de características regionais específicas e não pode ser generalizada.
+> 
+> Essa recomendação é baseada em análises estatísticas que mostram que fatores locais influenciavam erroneamente a percepção da relação entre suprapredial e custos, o que não se aplica consistentemente em todo o espectro de projetos. Portanto, para estimativas mais precisas, concentre-se em outros indicadores relevantes do projeto ao invés de depender dessa porcentagem específica.
 
 ### 4.3 🟢 Gerenciamento% alto ≠ projeto caro
 
@@ -190,9 +212,7 @@
 
 **Recomendação prática:**
 
-> Quando você observar um alto percentual de gerenciamento em um projeto de construção civil, é importante entender que isso não necessariamente indica que o orçamento do projeto será elevado. O ajuste a ser feito nesse caso é focar na análise detalhada das especificações técnicas, escopo do trabalho e condições geográficas da obra, já que esses são os fatores reais que influenciam o custo total.
-> 
-> A evidência indica claramente que projetos EPCM (Engineering, Procurement, Construction and Management), que tendem a ter uma estrutura de gerenciamento mais concentrada e detalhada, não estão intrinsecamente associados a orçamentos mais altos. Portanto, é crucial evitar o equívoco de supor automaticamente que um alto percentual de gerenciamento resultará em custos elevados para o projeto.
+> Quando você observar um alto percentual de gerenciamento em um projeto de construção civil, é importante não assumir automaticamente que isso significa que o orçamento será elevado. Este ajuste deve ser feito ao analisar projetos EPCM (Engineering, Procurement, Construction and Management), onde a concentração do gerenciamento pode estar mais presente sem necessariamente aumentar os custos totais. O preço final de um projeto é determinado principalmente pelo escopo, região e especificações técnicas, não pela estrutura de gerenciamento. Portanto, ao lidar com projetos EPCM, foque nas variáveis que realmente impactam o custo, como materiais e mão de obra, em vez de se preocupar excessivamente com os custos associados à gestão concentrada.
 
 ---
 
@@ -208,7 +228,7 @@
 
 **Recomendação prática:**
 
-> Quando você está orçamentando um projeto em Balneário Camboriú (SC), aumente a produtividade da mão de obra (AC) e reduza os custos por metro quadrado (R$/m²). Essa estratégia é baseada em uma forte economia de escala observada em 18 projetos, onde foi notada uma correlação negativa significativa (r = -0.35), indicando que aumentar a produtividade pode levar a um custo mais baixo por metro quadrado no local.
+> Quando você estiver orçamentando um projeto em Balneário Camboriú (SC), ajuste os custos para aumentar a quantidade de mão-de-obra e reduzir os custos por metro quadrado. Isso é necessário porque há uma forte economia de escala na região, com evidências que mostram uma correlação negativa significativa entre o tamanho do projeto e o custo por metro quadrado (r = -0.35). Essa estratégia ajudará a otimizar os custos e melhorar a eficiência no orçamento.
 
 ### 5.2 🟡 IF região = SC-Litoral-Norte THEN aumentar AC reduz R$/m²
 
@@ -218,7 +238,7 @@
 
 **Recomendação prática:**
 
-> Quando orçar um projeto na região do Litoral Norte de Santa Catarina, ajuste os custos para aumentar a quantidade de mão-de-obra e reduzir o valor por metro quadrado em materiais. Essa medida é baseada em uma forte economia de escala observada nesta área específica (r = -0.52 com 12 amostras), indicando que projetos maiores tendem a ter custos mais baixos por unidade devido à eficiência operacional e à disponibilidade de recursos especializados na região.
+> Quando orçar projetos na região do Litoral Norte de Santa Catarina, ajuste os custos para um valor mais baixo por metro quadrado (R$/m²) em comparação com outras regiões. Esta redução é justificada pela economia de escala forte/moderada observada nesta área específica, indicando que a relação custo-benefício tende a ser mais favorável devido a fatores locais como infraestrutura e disponibilidade de mão de obra.
 
 ---
 
