@@ -1,6 +1,6 @@
-# Benchmark — SC-Floripa | medio
+# Benchmark — SC-Floripa | medio | residencial_vertical_medio
 
-**Tipo de combinação:** Região × Padrão
+**Tipo de combinação:** Região × Padrão × Tipologia
 **N projetos:** 3
 **Gerado:** 2026-04-19T14:35:19
 
@@ -79,6 +79,6 @@
 
 ## Interpretação automática
 
-- Em `SC-Floripa`, empreendimentos medio custam tipicamente **R$ 2,534/m²** (faixa p25-p75: R$ 2,271–R$ 2,797).
+- Em `SC-Floripa`, empreendimentos medio residencial_vertical_medio custam tipicamente **R$ 2,534/m²** (faixa p25-p75: R$ 2,271–R$ 2,797).
 - CV 0.15 — variação **baixa**. Benchmark confiável.
 - ⚠️ Amostra pequena (n=3) — tratar como referência, não conclusão.

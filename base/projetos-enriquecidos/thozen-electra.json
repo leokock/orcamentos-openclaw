@@ -1,7 +1,7 @@
 {
   "slug": "thozen-electra",
   "cliente_inferido": "thozen",
-  "padrao": "desconhecido",
+  "padrao": "alto",
   "tipologia_gemma": "residencial_multifamiliar",
   "cidade": "Balneário Camboriú",
   "uf": "SC",
@@ -34,5 +34,10 @@
   "cub_referencia_memorial": null,
   "data_memorial": null,
   "tipologia_canonica": "residencial_vertical_alto",
-  "tipologia_confianca": "alta"
+  "tipologia_confianca": "alta",
+  "padrao_canonico": "alto",
+  "padrao_confianca": "alta",
+  "padrao_motivo": "A tipologia residencial_vertical_alto, localização em Balneário Camboriú/SC que é uma região valorizada e a presença de um sistema de exaustão centralizado com inversores de frequência indicam características típicas do padrão 'alto'.",
+  "padrao_fonte": "qwen_revisao",
+  "padrao_anterior": "alto"
 }

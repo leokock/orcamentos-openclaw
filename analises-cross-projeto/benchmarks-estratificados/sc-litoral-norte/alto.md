@@ -1,8 +1,8 @@
 # Benchmark — SC-Litoral-Norte | alto
 
 **Tipo de combinação:** Região × Padrão
-**N projetos:** 8
-**Gerado:** 2026-04-19T10:21:01
+**N projetos:** 9
+**Gerado:** 2026-04-19T14:35:19
 
 ---
 
@@ -75,7 +75,7 @@
 - **grandezza**: 1 projeto(s)
 - **nobria**: 1 projeto(s)
 
-## Projetos (8)
+## Projetos (9)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
@@ -85,6 +85,7 @@
 | `grandezza-gran-tower` | 6,245 | R$ 3,402 | rv_alto | Balneário Piçarras |
 | `nobria` | 12,880 | R$ 3,291 | rv_alto | Bombinhas |
 | `pass-e-passione` | 6,682 | R$ 3,785 | rv_alto | Porto Belo |
+| `san-fellice` | N/D | N/D | rv_alto | Bombinhas |
 | `wf-aquarius` | 16,789 | N/D | rv_alto | Porto Belo |
 | `xpcon-porto-cerro` | 13,189 | N/D | rv_alto | Piçarras |
 

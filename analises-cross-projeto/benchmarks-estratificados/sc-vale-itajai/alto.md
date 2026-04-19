@@ -2,7 +2,7 @@
 
 **Tipo de combinação:** Região × Padrão
 **N projetos:** 19
-**Gerado:** 2026-04-19T10:21:01
+**Gerado:** 2026-04-19T14:35:19
 
 ---
 

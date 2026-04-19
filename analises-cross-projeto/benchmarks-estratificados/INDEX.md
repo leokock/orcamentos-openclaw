@@ -1,7 +1,7 @@
 # Índice — Benchmarks Estratificados
 
-**Gerado:** 2026-04-19T10:21:01
-**Total de benchmarks:** 30
+**Gerado:** 2026-04-19T14:35:19
+**Total de benchmarks:** 31
 
 Benchmarks organizados por granularidade:
 - `regiao-{X}.md` — só região
@@ -23,20 +23,21 @@ Benchmarks organizados por granularidade:
 | Região | SC-BC | 22 | R$ 3,993 | [analises-cross-projeto\benchmarks-estratificados\regiao-sc-bc.md](analises-cross-projeto\benchmarks-estratificados\regiao-sc-bc.md) |
 | Rg × Pd | SC-BC | medio-alto | 13 | R$ 3,629 | [analises-cross-projeto\benchmarks-estratificados\sc-bc\medio-alto.md](analises-cross-projeto\benchmarks-estratificados\sc-bc\medio-alto.md) |
 | Rg × Pd × Tp | SC-BC | medio-alto | residencial_vertical_alto | 9 | R$ 3,993 | [analises-cross-projeto\benchmarks-estratificados\sc-bc\medio-alto\residencial_vertical_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-bc\medio-alto\residencial_vertical_alto.md) |
-| Rg × Pd | SC-BC | alto | 7 | R$ 4,865 | [analises-cross-projeto\benchmarks-estratificados\sc-bc\alto.md](analises-cross-projeto\benchmarks-estratificados\sc-bc\alto.md) |
-| Rg × Pd × Tp | SC-BC | alto | residencial_vertical_alto | 7 | R$ 4,865 | [analises-cross-projeto\benchmarks-estratificados\sc-bc\alto\residencial_vertical_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-bc\alto\residencial_vertical_alto.md) |
+| Rg × Pd | SC-BC | alto | 8 | R$ 4,865 | [analises-cross-projeto\benchmarks-estratificados\sc-bc\alto.md](analises-cross-projeto\benchmarks-estratificados\sc-bc\alto.md) |
+| Rg × Pd × Tp | SC-BC | alto | residencial_vertical_alto | 8 | R$ 4,865 | [analises-cross-projeto\benchmarks-estratificados\sc-bc\alto\residencial_vertical_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-bc\alto\residencial_vertical_alto.md) |
 | Rg × Pd × Tp | SC-BC | medio-alto | residencial_vertical_medio_alto | 4 | R$ 3,378 | [analises-cross-projeto\benchmarks-estratificados\sc-bc\medio-alto\residencial_vertical_medio_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-bc\medio-alto\residencial_vertical_medio_alto.md) |
 
-## SC-Floripa (6 benchmarks)
+## SC-Floripa (7 benchmarks)
 
 | Tipo | Combinação | N | R$/m² mediana | Arquivo |
 |---|---|---:|---:|---|
 | Região | SC-Floripa | 32 | R$ 3,799 | [analises-cross-projeto\benchmarks-estratificados\regiao-sc-floripa.md](analises-cross-projeto\benchmarks-estratificados\regiao-sc-floripa.md) |
-| Rg × Pd | SC-Floripa | alto | 14 | R$ 4,642 | [analises-cross-projeto\benchmarks-estratificados\sc-floripa\alto.md](analises-cross-projeto\benchmarks-estratificados\sc-floripa\alto.md) |
-| Rg × Pd × Tp | SC-Floripa | alto | residencial_vertical_alto | 14 | R$ 4,642 | [analises-cross-projeto\benchmarks-estratificados\sc-floripa\alto\residencial_vertical_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-floripa\alto\residencial_vertical_alto.md) |
+| Rg × Pd | SC-Floripa | alto | 16 | R$ 4,642 | [analises-cross-projeto\benchmarks-estratificados\sc-floripa\alto.md](analises-cross-projeto\benchmarks-estratificados\sc-floripa\alto.md) |
+| Rg × Pd × Tp | SC-Floripa | alto | residencial_vertical_alto | 15 | R$ 4,642 | [analises-cross-projeto\benchmarks-estratificados\sc-floripa\alto\residencial_vertical_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-floripa\alto\residencial_vertical_alto.md) |
 | Rg × Pd | SC-Floripa | medio-alto | 13 | R$ 3,484 | [analises-cross-projeto\benchmarks-estratificados\sc-floripa\medio-alto.md](analises-cross-projeto\benchmarks-estratificados\sc-floripa\medio-alto.md) |
 | Rg × Pd × Tp | SC-Floripa | medio-alto | residencial_vertical_medio_alto | 10 | R$ 3,620 | [analises-cross-projeto\benchmarks-estratificados\sc-floripa\medio-alto\residencial_vertical_medio_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-floripa\medio-alto\residencial_vertical_medio_alto.md) |
 | Rg × Pd | SC-Floripa | medio | 3 | R$ 2,534 | [analises-cross-projeto\benchmarks-estratificados\sc-floripa\medio.md](analises-cross-projeto\benchmarks-estratificados\sc-floripa\medio.md) |
+| Rg × Pd × Tp | SC-Floripa | medio | residencial_vertical_medio | 3 | R$ 2,534 | [analises-cross-projeto\benchmarks-estratificados\sc-floripa\medio\residencial_vertical_medio.md](analises-cross-projeto\benchmarks-estratificados\sc-floripa\medio\residencial_vertical_medio.md) |
 
 ## SC-Litoral-Norte (6 benchmarks)
 
@@ -44,8 +45,8 @@ Benchmarks organizados por granularidade:
 |---|---|---:|---:|---|
 | Região | SC-Litoral-Norte | 18 | R$ 3,346 | [analises-cross-projeto\benchmarks-estratificados\regiao-sc-litoral-norte.md](analises-cross-projeto\benchmarks-estratificados\regiao-sc-litoral-norte.md) |
 | Rg × Pd | SC-Litoral-Norte | medio-alto | 9 | R$ 2,878 | [analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\medio-alto.md](analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\medio-alto.md) |
-| Rg × Pd | SC-Litoral-Norte | alto | 8 | R$ 3,593 | [analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\alto.md](analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\alto.md) |
-| Rg × Pd × Tp | SC-Litoral-Norte | alto | residencial_vertical_alto | 8 | R$ 3,593 | [analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\alto\residencial_vertical_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\alto\residencial_vertical_alto.md) |
+| Rg × Pd | SC-Litoral-Norte | alto | 9 | R$ 3,593 | [analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\alto.md](analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\alto.md) |
+| Rg × Pd × Tp | SC-Litoral-Norte | alto | residencial_vertical_alto | 9 | R$ 3,593 | [analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\alto\residencial_vertical_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\alto\residencial_vertical_alto.md) |
 | Rg × Pd × Tp | SC-Litoral-Norte | medio-alto | residencial_vertical_medio_alto | 5 | R$ 2,781 | [analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\medio-alto\residencial_vertical_medio_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\medio-alto\residencial_vertical_medio_alto.md) |
 | Rg × Pd × Tp | SC-Litoral-Norte | medio-alto | residencial_vertical_alto | 4 | R$ 2,974 | [analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\medio-alto\residencial_vertical_alto.md](analises-cross-projeto\benchmarks-estratificados\sc-litoral-norte\medio-alto\residencial_vertical_alto.md) |
 

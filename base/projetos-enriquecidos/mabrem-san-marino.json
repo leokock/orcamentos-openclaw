@@ -1,7 +1,7 @@
 {
   "slug": "mabrem-san-marino",
   "cliente_inferido": "mabrem",
-  "padrao": "insuficiente",
+  "padrao": "medio",
   "tipologia_gemma": null,
   "cidade": "Itajaí",
   "uf": "SC",
@@ -37,5 +37,12 @@
   "data_base_fonte": "ground_truth_entrega",
   "data_entrega": "2020-11-12",
   "tipologia_canonica": "residencial_vertical_medio",
-  "tipologia_confianca": "media"
+  "tipologia_confianca": "alta",
+  "padrao_anterior": "insuficiente",
+  "padrao_canonico": "medio",
+  "padrao_confianca": "media",
+  "padrao_motivo": "O valor total do empreendimento não foi especificado para calcular o R$/m², mas a tipologia residencial_vertical_medio e a localização na região de Itajaí/SC sugerem um padrão médio. Além disso, a presença de sistemas como climatização separada e dois elevadores indica um nível de conforto acima do básico, mas não necessariamente luxuoso.",
+  "padrao_fonte": "qwen_revisao",
+  "tipologia_motivo": "O projeto San Marino Residence em Itajaí/SC é classificado como residencial_vertical_medio devido a vários fatores. Primeiramente, o padrão registrado e identificado no orçamento é 'medio', que direciona para esta categoria. Além disso, embora não seja especificado diretamente o valor R$/m², a tipologia anteriormente registrada como residencial_vertical_medio com confiança média sugere que os valores de custo estão dentro da faixa 2500-3500 R$/m² para esta categoria. A presença de dois elevadores (social e serviço) e climatização separada também é consistente com padrões médios de qualidade em edifícios residenciais verticais.",
+  "tipologia_fonte": "qwen_revisao"
 }

@@ -1,8 +1,8 @@
 # Benchmark — SC-BC | alto | residencial_vertical_alto
 
 **Tipo de combinação:** Região × Padrão × Tipologia
-**N projetos:** 7
-**Gerado:** 2026-04-19T10:21:01
+**N projetos:** 8
+**Gerado:** 2026-04-19T14:35:19
 
 ---
 
@@ -74,7 +74,7 @@
 - **caledonia**: 1 projeto(s)
 - **ck**: 1 projeto(s)
 
-## Projetos (7)
+## Projetos (8)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
@@ -85,6 +85,7 @@
 | `cambert-portal-da-brava` | N/D | N/D | rv_alto | Balneário Camboriú |
 | `ck-rooftop` | N/D | N/D | rv_alto | Balneário Camboriú |
 | `eze-bella-vivie` | N/D | N/D | rv_alto | Balneário Camboriú |
+| `thozen-electra` | N/D | N/D | rv_alto | Balneário Camboriú |
 
 ## Interpretação automática
 

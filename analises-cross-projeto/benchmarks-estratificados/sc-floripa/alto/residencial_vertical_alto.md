@@ -1,8 +1,8 @@
 # Benchmark — SC-Floripa | alto | residencial_vertical_alto
 
 **Tipo de combinação:** Região × Padrão × Tipologia
-**N projetos:** 14
-**Gerado:** 2026-04-19T10:21:01
+**N projetos:** 15
+**Gerado:** 2026-04-19T14:35:19
 
 ---
 
@@ -76,7 +76,7 @@
 - **dimas**: 1 projeto(s)
 - **grupo**: 1 projeto(s)
 
-## Projetos (14)
+## Projetos (15)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
@@ -92,6 +92,7 @@
 | `nova-empreendimentos-evora` | 3,477 | R$ 6,123 | rv_alto | Florianópolis |
 | `nova-empreendimentos-malaga` | 4,430 | R$ 5,247 | rv_alto | Florianópolis |
 | `nova-empreendimentos-malta` | 7,964 | R$ 6,091 | rv_alto | Florianópolis |
+| `placon-arminio-tavares` | N/D | N/D | rv_alto | Florianópolis |
 | `sak-engenharia` | 1,701 | R$ 3,843 | rv_alto | Florianópolis |
 | `somauma-virginia` | 10,108 | N/D | rv_alto | Florianópolis |
 
@@ -99,4 +100,4 @@
 
 - Em `SC-Floripa`, empreendimentos alto residencial_vertical_alto custam tipicamente **R$ 4,642/m²** (faixa p25-p75: R$ 3,843–R$ 6,091).
 - CV 0.23 — variação **moderada**. Bom benchmark mas considerar escopo.
-- ✓ Amostra razoável (n=14) — benchmark estatisticamente útil.
+- ✓ Amostra razoável (n=15) — benchmark estatisticamente útil.

@@ -2,43 +2,111 @@
   "input": {
     "cliente": "arthen",
     "nome": "arboris",
-    "cidade": "Morretes",
-    "uf": "PR",
-    "ac": 12500.0,
-    "ur": 48,
+    "cidade": "Porto Belo",
+    "uf": "SC",
+    "ac": 12000.0,
+    "ur": 180,
     "padrao": "medio-alto",
-    "tipologia": "residencial_vertical_medio_alto",
+    "tipologia": "residencial_misto",
     "cub_regiao": null,
-    "n_torres": null,
-    "n_pavimentos": null
+    "n_torres": 1,
+    "n_pavimentos": 20
   },
   "slug": "arthen-arboris",
-  "cub_regiao": "PR-Litoral",
+  "cub_regiao": "SC-Litoral-Norte",
   "predicao": {
-    "rsm2_regressao": 2669.4,
-    "rsm2_combinacao_mediana": null,
-    "rsm2_combinacao_p25": null,
-    "rsm2_combinacao_p75": null,
-    "rsm2_base_medio": 2669.4,
+    "rsm2_regressao": 3716.76,
+    "rsm2_combinacao_mediana": 2877.91,
+    "rsm2_combinacao_p25": 2662.81,
+    "rsm2_combinacao_p75": 3515.51,
+    "rsm2_base_medio": 3297.33,
     "ajuste_cliente": 0,
     "ajuste_motivo": null,
-    "rsm2_final": 2669.4,
+    "rsm2_final": 3297.33,
     "faixa_rsm2": [
-      2009.8,
-      3328.99
+      2636.61,
+      3958.06
     ],
-    "total_estimado": 33367480.0
+    "total_estimado": 39568014.0
   },
   "combinacao_usada": {
-    "chave": "nenhuma",
-    "tipo": "sem combinacao",
-    "n_projetos": 0,
-    "top_clientes": null
+    "chave": "SC-Litoral-Norte | medio-alto",
+    "tipo": "parcial (regiao+padrao, ignora tipologia)",
+    "n_projetos": 9,
+    "top_clientes": {
+      "paludo": 2,
+      "all": 1,
+      "amalfi": 1,
+      "by": 1,
+      "grandezza": 1
+    }
   },
-  "mg_esperado": {},
-  "projetos_comparaveis": [],
-  "alertas": [
-    "Predição usa combinação sem combinacao. N de projetos similares é pequeno; usar predição com cautela."
+  "mg_esperado": {
+    "Gerenciamento": 33.81,
+    "Mov Terra": 0.64,
+    "Infraestrutura": 5.48,
+    "Supraestrutura": 22.02,
+    "Alvenaria": 2.2,
+    "Impermeabilizacao": 1.44,
+    "Eletrica": 2.27,
+    "Hidrossanitaria": 5.73,
+    "Preventiva": 0.29,
+    "Sist Especiais": 5.2,
+    "Climatizacao": 0.65,
+    "Rev Parede": 3.45,
+    "Rev Teto": 1.75,
+    "Pisos": 4.69,
+    "Pint Interna": 4.6,
+    "Esquadrias": 7.79,
+    "Loucas": 0.93,
+    "Cobertura": 0.41,
+    "Fachada": 3.16,
+    "Complementares": 4.77,
+    "Instal Geral": 9.17,
+    "Pintura Geral": 4.44,
+    "Outros": 10.27
+  },
+  "projetos_comparaveis": [
+    {
+      "slug": "mabrem-gran-torino",
+      "ac": 12518.96,
+      "rsm2": 2974.48,
+      "distancia_ac_log": 0.042,
+      "tipologia": "residencial_vertical_alto"
+    },
+    {
+      "slug": "amalfi-tramonti",
+      "ac": 15602.85,
+      "rsm2": 0,
+      "distancia_ac_log": 0.263,
+      "tipologia": "residencial_vertical_medio_alto"
+    },
+    {
+      "slug": "holze-sense-106",
+      "ac": 8700.0,
+      "rsm2": 3515.51,
+      "distancia_ac_log": 0.322,
+      "tipologia": "residencial_vertical_medio_alto"
+    },
+    {
+      "slug": "all-lago-di-garda",
+      "ac": 7055.73,
+      "rsm2": 7159.696096568636,
+      "distancia_ac_log": 0.531,
+      "tipologia": "residencial_vertical_alto"
+    },
+    {
+      "slug": "by-seasons-by-seasons",
+      "ac": 6348.509999999999,
+      "rsm2": 0,
+      "distancia_ac_log": 0.637,
+      "tipologia": "residencial_vertical_medio_alto"
+    }
   ],
-  "oportunidades": []
+  "alertas": [
+    "Predição usa combinação parcial (regiao+padrao, ignora tipologia). N de projetos similares é pequeno; usar predição com cautela."
+  ],
+  "oportunidades": [
+    "Litoral-Norte tem economia de escala moderada (r=-0.52). Se viável, ampliar AC reduz R$/m² ~5-10%."
+  ]
 }

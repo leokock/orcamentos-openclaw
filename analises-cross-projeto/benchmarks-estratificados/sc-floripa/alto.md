@@ -1,8 +1,8 @@
 # Benchmark — SC-Floripa | alto
 
 **Tipo de combinação:** Região × Padrão
-**N projetos:** 14
-**Gerado:** 2026-04-19T10:21:01
+**N projetos:** 16
+**Gerado:** 2026-04-19T14:35:19
 
 ---
 
@@ -25,15 +25,15 @@
 | Percentil | AC (m²) |
 |---|---:|
 | mín | 1,541 |
-| mediana | 7,964 |
-| máx | 21,215 |
+| mediana | 8,354 |
+| máx | 22,728 |
 
 ### Total orçamento
 
 - **Mediana total:** R$ 23,244,533
 - Faixa: R$ 4,958,344 — R$ 92,187,221
 
-**UR mediana:** 37
+**UR mediana:** 59
 
 ## Perfil estrutural
 
@@ -73,13 +73,14 @@
 - **nova**: 3 projeto(s)
 - **blue**: 2 projeto(s)
 - **chiquetti**: 2 projeto(s)
+- **alto**: 1 projeto(s)
 - **dimas**: 1 projeto(s)
-- **grupo**: 1 projeto(s)
 
-## Projetos (14)
+## Projetos (16)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
+| `alto-ribeirao` | 22,728 | N/D | residencial_misto | Florianópolis |
 | `blue-heaven-aquos` | 9,522 | N/D | rv_alto | Florianópolis |
 | `blue-heaven-monolyt` | 14,693 | N/D | rv_alto | Florianópolis |
 | `chiquetti-e-dalvesco-bela-vida` | N/D | N/D | rv_alto | Florianópolis |
@@ -92,6 +93,7 @@
 | `nova-empreendimentos-evora` | 3,477 | R$ 6,123 | rv_alto | Florianópolis |
 | `nova-empreendimentos-malaga` | 4,430 | R$ 5,247 | rv_alto | Florianópolis |
 | `nova-empreendimentos-malta` | 7,964 | R$ 6,091 | rv_alto | Florianópolis |
+| `placon-arminio-tavares` | N/D | N/D | rv_alto | Florianópolis |
 | `sak-engenharia` | 1,701 | R$ 3,843 | rv_alto | Florianópolis |
 | `somauma-virginia` | 10,108 | N/D | rv_alto | Florianópolis |
 
@@ -99,4 +101,4 @@
 
 - Em `SC-Floripa`, empreendimentos alto custam tipicamente **R$ 4,642/m²** (faixa p25-p75: R$ 3,843–R$ 6,091).
 - CV 0.23 — variação **moderada**. Bom benchmark mas considerar escopo.
-- ✓ Amostra razoável (n=14) — benchmark estatisticamente útil.
+- ✓ Amostra razoável (n=16) — benchmark estatisticamente útil.

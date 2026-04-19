@@ -2,7 +2,7 @@
 
 **Tipo de combinação:** Região
 **N projetos:** 32
-**Gerado:** 2026-04-19T10:21:01
+**Gerado:** 2026-04-19T14:35:19
 
 ---
 
@@ -96,7 +96,7 @@
 | `grupo-duo-mosaico` | 7,672 | N/D | rv_alto | Florianópolis |
 | `hacasa-brisa-da-armacao` | 12,828 | R$ 3,296 | residencial_misto | Florianópolis |
 | `kirchner-kirchner` | N/D | N/D | rv_medio_alto | Florianópolis |
-| `libra-concept-libra-conecpt` | 4,339 | R$ 2,271 | rv_medio_alto | Florianópolis |
+| `libra-concept-libra-conecpt` | 4,339 | R$ 2,271 | rv_medio | Florianópolis |
 | `lumis-live` | 14,888 | R$ 2,940 | rv_medio_alto | Florianópolis |
 | `mz-central-park` | 8,744 | N/D | rv_alto | Florianópolis |
 | `neuhaus-botanico` | 12,954 | R$ 2,797 | rv_medio | Florianópolis |

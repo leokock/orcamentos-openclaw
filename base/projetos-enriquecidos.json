@@ -132,7 +132,9 @@
       "data_memorial": null,
       "data_base": "2025-08",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2911.91
+      "cub_valor_entrega": 2911.91,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "ajr-spot-one",
@@ -170,7 +172,9 @@
       "cub_referencia_memorial": "ajr-spot-one",
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2021-10",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "all-acacias-jk",
@@ -209,7 +213,9 @@
       "data_memorial": null,
       "data_base": "2024-05",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2024-08-05"
+      "data_entrega": "2024-08-05",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "all-lago-di-garda",
@@ -249,12 +255,14 @@
       "data_base": "2024-10",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2024-12-12",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "alto-ribeirao",
       "cliente_inferido": "alto",
-      "padrao": "medio_alto",
+      "padrao": "alto",
       "tipologia_gemma": "residencial_multifamiliar",
       "cidade": "Florianópolis",
       "uf": "SC",
@@ -287,7 +295,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "tipologia_canonica": "residencial_misto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "padrao_canonico": "alto",
+      "padrao_fonte": "qwen_revisao"
     },
     {
       "slug": "amalfi-maiori",
@@ -327,7 +337,9 @@
       "data_base": "2023-07",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2024-02-05",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "amalfi-marine",
@@ -367,7 +379,9 @@
       "data_base": "2023-07",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2024-02-05",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "amalfi-ravello",
@@ -407,7 +421,9 @@
       "data_base": "2024-02",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2024-05-07",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "amalfi-tramonti",
@@ -446,12 +462,14 @@
       "data_memorial": null,
       "data_base": "2025-06",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2934.53
+      "cub_valor_entrega": 2934.53,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "arthen-arboris",
       "cliente_inferido": "arthen",
-      "padrao": "desconhecido",
+      "padrao": "medio-alto",
       "tipologia_gemma": null,
       "cidade": "Morretes",
       "uf": "PR",
@@ -484,7 +502,11 @@
       "cub_referencia_memorial": "CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
       "data_memorial": null,
       "tipologia_canonica": "residencial_misto",
-      "tipologia_confianca": "media"
+      "tipologia_confianca": "alta",
+      "padrao_canonico": "medio-alto",
+      "padrao_fonte": "qwen_revisao",
+      "tipologia_motivo": "O projeto apresenta características de um empreendimento residencial misto, conforme indicado pela presença de pavimentos comerciais no térreo e nos níveis inferiores (RUA, MEIO FIO, TÉRREO, MEZ. DO TÉRREO - G1) combinados com apartamentos residenciais nos andares superiores (2° PAV - G2 até o 16º pavimento). A localização em Morretes/PR sugere um projeto que combina uso comercial e residencial, típico de áreas urbanas ou próximas ao centro da cidade. Além disso, a tipologia originalmente proposta como 'residencial_misto' indica uma consistência com as observações do memorial.",
+      "tipologia_fonte": "qwen_revisao"
     },
     {
       "slug": "arv-ingleses-spot",
@@ -522,7 +544,9 @@
       "cub_referencia_memorial": "arv-ingleses-spot",
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_medio_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2024-07",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "as-ramos-paessaggio",
@@ -561,7 +585,9 @@
       "data_memorial": null,
       "data_base": "2023-04",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2023-08-14"
+      "data_entrega": "2023-08-14",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "be-brave-meraki",
@@ -602,7 +628,9 @@
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "null",
       "cidade_fonte": "revisao_manual_leo",
-      "cub_valor_entrega": "null"
+      "cub_valor_entrega": "null",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "beco-castelo-chateau-de-versailes",
@@ -755,7 +783,9 @@
       "data_memorial": null,
       "data_base": "2022-09",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2623.42
+      "cub_valor_entrega": 2623.42,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "brasin-redentor",
@@ -796,7 +826,9 @@
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "null",
       "cidade_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": "null"
+      "cub_valor_entrega": "null",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "brava-construtora-mar-a-vista",
@@ -836,7 +868,9 @@
       "data_base": "2024-02",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2024-04-16",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "by-seasons-by-seasons",
@@ -876,7 +910,9 @@
       "data_base": "null",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "null",
-      "cidade_fonte": "revisao_manual_leo"
+      "cidade_fonte": "revisao_manual_leo",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "caledonia-mowe-caledonia-mowe",
@@ -916,7 +952,9 @@
       "data_base": "2025-08",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2025-08-29",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "cambert-engenharia-portal-da-brava",
@@ -955,7 +993,9 @@
       "data_memorial": null,
       "data_base": "2023-07",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2307.92
+      "cub_valor_entrega": 2307.92,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "cambert-portal-da-brava",
@@ -1031,7 +1071,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_medio_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2022-08",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "cgl-arbol-646",
@@ -1069,7 +1111,9 @@
       "cub_referencia_memorial": "cgl-arbol-646",
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_medio_alto",
-      "tipologia_confianca": "media"
+      "tipologia_confianca": "alta",
+      "tipologia_motivo": "O projeto apresenta padrão construtivo médio-alto, conforme registrado e confirmado pelas observações orçamentistas que incluem acabamentos em piso e parede. Além disso, a localização em Curitiba/PR sugere um mercado imobiliário com demanda para projetos de qualidade superior, mas não necessariamente premium ou luxo. O padrão econômico e médio são descartados pela especificação do padrão construtivo.",
+      "tipologia_fonte": "qwen_revisao"
     },
     {
       "slug": "chiquetti-e-dalvesco-atlantis",
@@ -1108,7 +1152,9 @@
       "data_memorial": null,
       "data_base": "2022-04",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2022-04-14"
+      "data_entrega": "2022-04-14",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "chiquetti-e-dalvesco-bela-vida",
@@ -1146,8 +1192,10 @@
       "cub_referencia_memorial": "chiquetti-e-dalvesco-bela-vida",
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "media",
-      "cidade_fonte": "revisao_manual_leo"
+      "tipologia_confianca": "alta",
+      "cidade_fonte": "revisao_manual_leo",
+      "tipologia_motivo": "O projeto é registrado como padrão 'alto', e a localização em Florianópolis/SC sugere um mercado imobiliário premium. Além disso, o custo ajustado mencionado nas observações orçamentistas indica que os valores de construção são elevados, compatíveis com o padrão alto. A presença de projetos complementares detalhados (estrutural, elétrico e telecom, hidrossanitário) também apóia a classificação de um empreendimento de alta qualidade.",
+      "tipologia_fonte": "qwen_revisao"
     },
     {
       "slug": "chiquetti-e-dalvesco-cielo",
@@ -1186,7 +1234,9 @@
       "data_memorial": null,
       "data_base": "2025-03",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2025-03-26"
+      "data_entrega": "2025-03-26",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "chiquetti-e-dalvesco-esmeralda",
@@ -1226,7 +1276,9 @@
       "data_base": "2025-03",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2025-04-24",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "chiquetti-e-dalvesco-nautilus",
@@ -1302,7 +1354,11 @@
       "cub_referencia_memorial": "chiquetti-e-dalvesco-santorini",
       "data_memorial": null,
       "data_entrega": "2022-08-03",
-      "cidade_fonte": "correcao_bug"
+      "cidade_fonte": "correcao_bug",
+      "data_base": "2022-06",
+      "data_base_fonte": "indices_executivo_pdf_metadata",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "ck-artefacto",
@@ -1341,7 +1397,9 @@
       "data_memorial": null,
       "data_base": "2022-11",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2403.54
+      "cub_valor_entrega": 2403.54,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "ck-duo-praia-brava",
@@ -1379,7 +1437,9 @@
       "cub_referencia_memorial": "ck-duo-praia-brava",
       "data_memorial": "2021-04-23",
       "data_base": "2021-04",
-      "data_base_fonte": "ground_truth_entrega"
+      "data_base_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "ck-habitah",
@@ -1418,7 +1478,9 @@
       "data_memorial": null,
       "data_base": "2022-08",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2572.55
+      "cub_valor_entrega": 2572.55,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "ck-rooftop",
@@ -1457,7 +1519,9 @@
       "data_memorial": null,
       "data_base": "2021-03",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "ck-smart-navegantes",
@@ -1497,7 +1561,9 @@
       "data_base": "2021-03",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "null",
-      "cub_valor_entrega": "null"
+      "cub_valor_entrega": "null",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "ck-smart-sao-joao",
@@ -1538,7 +1604,9 @@
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "null",
       "cidade_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": "null"
+      "cub_valor_entrega": "null",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "ck-unique",
@@ -1577,7 +1645,9 @@
       "data_memorial": null,
       "data_base": "2018-09",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "ck-urbe",
@@ -1653,7 +1723,9 @@
       "cub_referencia_memorial": "cln-porto-ruby",
       "data_memorial": null,
       "data_base": "2024-12",
-      "data_base_fonte": "ground_truth_entrega"
+      "data_base_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "cn-brava-garden",
@@ -1692,7 +1764,9 @@
       "data_memorial": null,
       "data_base": "2022-02",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2022-03-29"
+      "data_entrega": "2022-03-29",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "cn-brava-ocean",
@@ -1732,7 +1806,9 @@
       "data_base": "2023-11",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2023-11-22",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "cn-brava-valley",
@@ -1771,7 +1847,9 @@
       "data_memorial": null,
       "data_base": "2022-05",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2470.83
+      "cub_valor_entrega": 2470.83,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "colline-de-france-colline-de-france",
@@ -1810,7 +1888,9 @@
       "data_memorial": "2025-03-01",
       "data_base": "2025-03",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2303.36
+      "cub_valor_entrega": 2303.36,
+      "tipologia_canonica": "residencial_misto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "cota-365",
@@ -1848,7 +1928,11 @@
       "cub_referencia_memorial": "cota-365",
       "data_memorial": "2025-07-01",
       "tipologia_canonica": "residencial_vertical_medio_alto",
-      "tipologia_confianca": "media"
+      "tipologia_confianca": "alta",
+      "data_base": "2025-07",
+      "data_base_fonte": "indices_executivo_pdf_metadata",
+      "tipologia_motivo": "O projeto apresenta um R$/m² de R$ 3,483.98, que se enquadra na faixa de R$ 3500-4500/m² para a tipologia residencial_vertical_medio_alto. Além disso, o padrão registrado é 'medio-alto', e Florianópolis/SC é uma região onde projetos desse tipo são comuns em áreas urbanas desenvolvidas.",
+      "tipologia_fonte": "qwen_revisao"
     },
     {
       "slug": "dimas-pb2",
@@ -1886,7 +1970,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2025-07",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "estilo-condominios-estilo-condominios",
@@ -1926,7 +2012,9 @@
       "data_base": "2023-05",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2023-06-19",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "casa_condominio",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "etr-zion-meridian-tower",
@@ -1966,7 +2054,9 @@
       "data_base": "2024-11",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2025-01-06",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "exito-oiti",
@@ -2004,7 +2094,9 @@
       "cub_referencia_memorial": "exito-oiti",
       "data_memorial": "2022-09-26",
       "data_base": "2022-09",
-      "data_base_fonte": "ground_truth_entrega"
+      "data_base_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "eze-bella-vivie",
@@ -2043,7 +2135,9 @@
       "data_memorial": null,
       "data_base": "2022-06",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2544.17
+      "cub_valor_entrega": 2544.17,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "eze-eilat",
@@ -2083,7 +2177,9 @@
       "data_base": "2023-11",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2023-11-15",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "f-nogueira-soberano",
@@ -2122,7 +2218,9 @@
       "data_memorial": "2022-05-01",
       "data_base": "2022-03",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "f-nogueira-wpr",
@@ -2160,7 +2258,9 @@
       "cub_referencia_memorial": "f-nogueira-wpr",
       "data_memorial": "2022-05-01",
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2022-05",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "fg-blue-coast",
@@ -2199,7 +2299,9 @@
       "data_memorial": null,
       "data_base": "2021-04",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2171.33
+      "cub_valor_entrega": 2171.33,
+      "tipologia_canonica": "residencial_vertical_medio",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "fg-scenarium",
@@ -2239,7 +2341,9 @@
       "data_base": "2024-12",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2024-12-16",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "fonseca-empreendimentos-estoril",
@@ -2279,7 +2383,9 @@
       "data_base": "2025-12",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2026-01-15",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "gdi-playa-negra",
@@ -2320,7 +2426,9 @@
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "null",
       "cidade_fonte": "revisao_manual_leo",
-      "cub_valor_entrega": "null"
+      "cub_valor_entrega": "null",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "gmf-moradas-do-atalaia",
@@ -2360,7 +2468,9 @@
       "data_base": "2024-04",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2024-05-08",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "grandezza-gran-royal",
@@ -2399,7 +2509,9 @@
       "data_memorial": null,
       "data_base": "2024-07",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 3008.84
+      "cub_valor_entrega": 3008.84,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "grandezza-gran-tower",
@@ -2438,7 +2550,9 @@
       "data_memorial": "2024-07-01",
       "data_base": "2024-07",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2793.27
+      "cub_valor_entrega": 2793.27,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "grupo-duo-colin",
@@ -2516,7 +2630,9 @@
       "data_base": "2025-10",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2025-10-28",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "h-empreendimentos-atlantia",
@@ -2592,7 +2708,9 @@
       "cub_referencia_memorial": "hacasa-brisa-da-armacao",
       "data_memorial": "2024-11-01",
       "tipologia_canonica": "residencial_misto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2024-11",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "holze-sense-106",
@@ -2629,7 +2747,11 @@
       "observacoes_gemma": "Projeto: holze-sense-106. AC: 8700.0 m². Total: R$ 30,584,965. Data base: nov/2024.",
       "cub_referencia_memorial": null,
       "data_memorial": null,
-      "cidade_fonte": "revisao_manual_leo"
+      "cidade_fonte": "revisao_manual_leo",
+      "data_base": "2024-11",
+      "data_base_fonte": "indices_executivo_pdf_metadata",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "homeset-homeset",
@@ -2668,7 +2790,9 @@
       "data_memorial": null,
       "data_base": "2022-12",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2022-01-23"
+      "data_entrega": "2022-01-23",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "inbrasul-aguas-de-marco",
@@ -2707,7 +2831,9 @@
       "data_memorial": "2022-12-01",
       "data_base": "2020-02",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "inbrasul-opus",
@@ -2746,7 +2872,9 @@
       "data_memorial": "2022-12-01",
       "data_base": "2022-02",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "indepy-caio-prado",
@@ -2785,7 +2913,9 @@
       "data_memorial": null,
       "data_base": "2025-10",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2025-11-19"
+      "data_entrega": "2025-11-19",
+      "tipologia_canonica": "residencial_vertical_medio",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "indepy-stella-marina",
@@ -2824,7 +2954,9 @@
       "data_memorial": null,
       "data_base": "2022-10",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2276.34
+      "cub_valor_entrega": 2276.34,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "kirchner-kirchner",
@@ -2899,8 +3031,12 @@
       "observacoes_gemma": "Observações de orçamentista sobre revestimentos internos, acabamentos, esquadrias, vidros e ferragens. Cobertura merged with Fachada.",
       "cub_referencia_memorial": "libra-concept-libra-conecpt",
       "data_memorial": null,
-      "tipologia_canonica": "residencial_vertical_medio_alto",
-      "tipologia_confianca": "media"
+      "tipologia_canonica": "residencial_vertical_medio",
+      "tipologia_confianca": "alta",
+      "data_base": "2022-01",
+      "data_base_fonte": "indices_executivo_pdf_metadata",
+      "tipologia_motivo": "O projeto Libra Concept em Florianópolis/SC tem um R$/m² de R$ 2,271.01, que se enquadra na faixa do padrão médio (R$/m² 2500-3500). Além disso, as observações sobre os acabamentos e materiais utilizados indicam um projeto com características típicas de residências verticais no padrão médio. A localização em Florianópolis também é compatível com este tipo de empreendimento.",
+      "tipologia_fonte": "qwen_revisao"
     },
     {
       "slug": "lotisa-serenity",
@@ -2941,7 +3077,9 @@
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2021-10-18",
       "cidade_fonte": "revisao_manual_leo",
-      "cub_valor_entrega": "null"
+      "cub_valor_entrega": "null",
+      "tipologia_canonica": "residencial_vertical_economico",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "lumis-live",
@@ -2980,7 +3118,9 @@
       "data_memorial": null,
       "data_base": "2023-02",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2023-03-06"
+      "data_entrega": "2023-03-06",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mabrem-gran-torino",
@@ -3021,12 +3161,14 @@
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "null",
       "cidade_fonte": "revisao_manual_leo",
-      "cub_valor_entrega": "2757.56"
+      "cub_valor_entrega": "2757.56",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mabrem-san-marino",
       "cliente_inferido": "mabrem",
-      "padrao": "insuficiente",
+      "padrao": "medio",
       "tipologia_gemma": null,
       "cidade": "Itajaí",
       "uf": "SC",
@@ -3060,7 +3202,11 @@
       "data_memorial": null,
       "data_base": "2020-11",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2020-11-12"
+      "data_entrega": "2020-11-12",
+      "padrao_canonico": "medio",
+      "padrao_fonte": "qwen_revisao",
+      "tipologia_canonica": "residencial_vertical_medio",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "macom-adda",
@@ -3098,7 +3244,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_medio_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2023-06",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "macom-villa-lobos",
@@ -3136,7 +3284,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "data_base": "2023-07",
-      "data_base_fonte": "ground_truth_entrega"
+      "data_base_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mendes-empreendimentos-brava-mundo",
@@ -3214,7 +3364,9 @@
       "data_base": "2023-05",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2023-05-18",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mg3-la-vie",
@@ -3251,7 +3403,11 @@
       "observacoes_gemma": "O arquivo é um levantamento quantitativo arquitetônico (tabelas de alvenaria, revestimentos, pisos, fachadas), não um orçamento executivo. O valor AC (Área Construída) é 10125.0 m².",
       "cub_referencia_memorial": "mg3-la-vie",
       "data_memorial": null,
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "data_base": "2023-05",
+      "data_base_fonte": "indices_executivo_pdf_metadata",
+      "tipologia_canonica": "residencial_vertical_economico",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mtf-m-haus",
@@ -3290,7 +3446,9 @@
       "data_memorial": null,
       "data_base": "2023-04",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mtf-m-village-jardim",
@@ -3329,7 +3487,9 @@
       "data_memorial": null,
       "data_base": "2022-06",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "muller-empreendimentos-elleva",
@@ -3406,7 +3566,9 @@
       "data_memorial": null,
       "data_base": "2023-02",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mussi-empreendimentos-brookliin",
@@ -3521,7 +3683,9 @@
       "data_memorial": null,
       "data_base": "2021-02",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2021-02-26"
+      "data_entrega": "2021-02-26",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mussi-empreendimentos-velazquez",
@@ -3559,7 +3723,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "data_base": "2020-07",
-      "data_base_fonte": "ground_truth_entrega"
+      "data_base_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mz-central-park",
@@ -3635,7 +3801,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_medio",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2022-04",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "neuhaus-origem",
@@ -3711,7 +3879,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2023-01",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "nobria",
@@ -3749,7 +3919,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2024-01",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "nova-empreendimentos-domus",
@@ -3788,7 +3960,9 @@
       "data_memorial": null,
       "data_base": "2026-02",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2026-02-05"
+      "data_entrega": "2026-02-05",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "nova-empreendimentos-evora",
@@ -3827,7 +4001,9 @@
       "data_memorial": null,
       "data_base": "2024-07",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2024-08-01"
+      "data_entrega": "2024-08-01",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "nova-empreendimentos-malaga",
@@ -3943,7 +4119,9 @@
       "data_base": "2021-10",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2021-10-05",
-      "cidade_fonte": "revisao_manual_leo"
+      "cidade_fonte": "revisao_manual_leo",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "paludo-nassau",
@@ -3982,7 +4160,9 @@
       "data_memorial": null,
       "data_base": "2024-07",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2329.85
+      "cub_valor_entrega": 2329.85,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "paludo-urban-life",
@@ -4021,7 +4201,9 @@
       "data_memorial": null,
       "data_base": "2021-02",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_economico",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "paludo-volo-home",
@@ -4098,7 +4280,9 @@
       "data_memorial": null,
       "data_base": "2022-12",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "correcao_bug"
+      "cidade_fonte": "correcao_bug",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "parkside-trindade",
@@ -4136,7 +4320,9 @@
       "cub_referencia_memorial": "parkside-trindade",
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_medio_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2025-09",
+      "data_base_fonte": "qwen_inferencia"
     },
     {
       "slug": "pass-e-barao-de-albuquerque",
@@ -4174,7 +4360,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": "2021-04-01",
       "data_base": "2021-04",
-      "data_base_fonte": "ground_truth_entrega"
+      "data_base_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_misto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "pass-e-belissimo",
@@ -4212,7 +4400,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "data_base": "2021-04",
-      "data_base_fonte": "ground_truth_entrega"
+      "data_base_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_economico",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "pass-e-celebration",
@@ -4251,7 +4441,9 @@
       "data_memorial": null,
       "data_base": "2023-05",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2680.84
+      "cub_valor_entrega": 2680.84,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "pass-e-connect",
@@ -4290,7 +4482,9 @@
       "data_memorial": null,
       "data_base": "2025-03",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2025-04-04"
+      "data_entrega": "2025-04-04",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "pass-e-passione",
@@ -4329,7 +4523,9 @@
       "data_memorial": null,
       "data_base": "2021-06",
       "data_base_fonte": "ground_truth_entrega",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "pass-e-vancouver",
@@ -4368,7 +4564,9 @@
       "data_memorial": null,
       "data_base": "2022-03",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2444.3
+      "cub_valor_entrega": 2444.3,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "pavcor",
@@ -4411,7 +4609,7 @@
     {
       "slug": "placon-arminio-tavares",
       "cliente_inferido": "placon",
-      "padrao": "null",
+      "padrao": "alto",
       "tipologia_gemma": "null",
       "cidade": "Florianópolis",
       "uf": "SC",
@@ -4444,8 +4642,12 @@
       "cub_referencia_memorial": "null",
       "data_memorial": "null",
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "media",
-      "cidade_fonte": "revisao_manual_leo"
+      "tipologia_confianca": "alta",
+      "cidade_fonte": "revisao_manual_leo",
+      "padrao_canonico": "alto",
+      "padrao_fonte": "qwen_revisao",
+      "tipologia_motivo": "O projeto do Edifício Arminio Tavares em Florianópolis/SC é classificado como residencial_vertical_alto com alta confiança devido a vários fatores. Primeiramente, o uso de concreto protendido indica um padrão construtivo elevado, que é típico de edifícios residenciais de alto padrão no Brasil. Além disso, a localização em Florianópolis, uma cidade conhecida por seus projetos imobiliários de luxo e alta qualidade de vida, reforça essa classificação. Por fim, o memorial descrito menciona sistemas avançados de proteção contra incêndios e para-raios, que são características comuns em edifícios residenciais de alto padrão.",
+      "tipologia_fonte": "qwen_revisao"
     },
     {
       "slug": "rosner-reserva-sao-vicente",
@@ -4485,7 +4687,9 @@
       "data_base": "2024-12",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2024-12-13",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "sak-engenharia",
@@ -4523,12 +4727,14 @@
       "cub_referencia_memorial": "Edifício Austin",
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "data_base": "2023-04",
+      "data_base_fonte": "indices_executivo_pdf_metadata"
     },
     {
       "slug": "san-fellice",
       "cliente_inferido": "san",
-      "padrao": "desconhecido",
+      "padrao": "alto",
       "tipologia_gemma": null,
       "cidade": "Bombinhas",
       "uf": "SC",
@@ -4561,7 +4767,11 @@
       "cub_referencia_memorial": "522 Amalfi San felice",
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "media"
+      "tipologia_confianca": "alta",
+      "padrao_canonico": "alto",
+      "padrao_fonte": "qwen_revisao",
+      "tipologia_motivo": "O projeto apresenta características que indicam um padrão alto de construção, como a localização em Bombinhas/SC, uma área conhecida por projetos imobiliários de qualidade superior. Além disso, o custo estimado R$/m² é provavelmente acima de 4500, considerando os detalhes do projeto e as especificações premium mencionadas na análise crítica. A presença de pavimentos como Rooftop, Cobertura, Barrilete e Reservatório superior/Tampa também sugere um padrão elevado de construção.",
+      "tipologia_fonte": "qwen_revisao"
     },
     {
       "slug": "santa-maria-feat",
@@ -4600,7 +4810,9 @@
       "data_memorial": null,
       "data_base": "2019-01",
       "data_base_fonte": "ground_truth_entrega",
-      "cub_valor_entrega": 2752.32
+      "cub_valor_entrega": 2752.32,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "santa-maria-unimed",
@@ -4639,7 +4851,9 @@
       "data_memorial": null,
       "data_base": "2023-12",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2024-01-16"
+      "data_entrega": "2024-01-16",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "santa-maria-z",
@@ -4676,7 +4890,11 @@
       "observacoes_gemma": "Localização: RUA MARECHAL FLORIANO PEIXOTO, 148-O - CENTRO - Chapeco/SC",
       "cub_referencia_memorial": null,
       "data_memorial": "2022-08-18",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "data_base": "2022-08",
+      "data_base_fonte": "indices_executivo_pdf_metadata",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "santo-andre-belle-ville",
@@ -4754,7 +4972,9 @@
       "data_base": "2025-02",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2025-03-07",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "somauma-virginia",
@@ -4869,12 +5089,14 @@
       "data_memorial": null,
       "data_base": "2022-11",
       "data_base_fonte": "ground_truth_entrega",
-      "data_entrega": "2022-12-20"
+      "data_entrega": "2022-12-20",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "thozen-electra",
       "cliente_inferido": "thozen",
-      "padrao": "desconhecido",
+      "padrao": "alto",
       "tipologia_gemma": "residencial_multifamiliar",
       "cidade": "Balneário Camboriú",
       "uf": "SC",
@@ -4907,7 +5129,9 @@
       "cub_referencia_memorial": null,
       "data_memorial": null,
       "tipologia_canonica": "residencial_vertical_alto",
-      "tipologia_confianca": "alta"
+      "tipologia_confianca": "alta",
+      "padrao_canonico": "alto",
+      "padrao_fonte": "qwen_revisao"
     },
     {
       "slug": "thozen-mirador-de-alicante",
@@ -4947,7 +5171,9 @@
       "data_base": "2023-12",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2024-05-23",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "viva4-barra4",
@@ -4987,7 +5213,9 @@
       "data_base": "2024-12",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2025-01-22",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "viva4-pio4",
@@ -5027,7 +5255,9 @@
       "data_base": "2025-06",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2025-07-17",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "wf-aquarius",
@@ -5067,7 +5297,9 @@
       "data_base": "2025-07",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2025-10-07",
-      "cidade_fonte": "ground_truth_entrega"
+      "cidade_fonte": "ground_truth_entrega",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "xpcon-marena",
@@ -5145,7 +5377,10 @@
       "data_base": "null",
       "data_base_fonte": "ground_truth_entrega",
       "data_entrega": "2025-09-03",
-      "cidade_fonte": "revisao_manual_leo"
+      "cidade_fonte": "revisao_manual_leo",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     }
-  ]
+  ],
+  "pendencias_qwen_aplicado_em": "2026-04-19T14:35:09"
 }

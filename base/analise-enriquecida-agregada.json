@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-04-19T10:20:56",
+  "gerado_em": "2026-04-19T14:35:16",
   "n_projetos": 131,
   "combinacoes": {
     "regiao::SC-Vale-Itajai": {
@@ -1020,6 +1020,129 @@
         "mussi": 2
       }
     },
+    "regiao_padrao::SC-Floripa::alto": {
+      "nome": "SC-Floripa | alto",
+      "n_projetos": 16,
+      "slugs": [
+        "alto-ribeirao",
+        "blue-heaven-aquos",
+        "blue-heaven-monolyt",
+        "chiquetti-e-dalvesco-bela-vida",
+        "chiquetti-e-dalvesco-esmeralda",
+        "dimas-pb2",
+        "grupo-duo-mosaico",
+        "mz-central-park",
+        "neuhaus-origem",
+        "nm-empreendimentos",
+        "nova-empreendimentos-evora",
+        "nova-empreendimentos-malaga",
+        "nova-empreendimentos-malta",
+        "placon-arminio-tavares",
+        "sak-engenharia",
+        "somauma-virginia"
+      ],
+      "rsm2_stats": {
+        "n": 7,
+        "min": 3217.76,
+        "p25": 3843.01,
+        "mediana": 4642.46,
+        "media": 4787.0614,
+        "p75": 6091.07,
+        "max": 6123.12,
+        "cv": 0.23
+      },
+      "ac_stats": {
+        "n": 14,
+        "min": 1540.93,
+        "p25": 4430.32,
+        "mediana": 8354.275,
+        "media": 9566.8521,
+        "p75": 14559.12,
+        "max": 22728.0,
+        "cv": 0.694
+      },
+      "total_stats": {
+        "n": 7,
+        "min": 4958343.62,
+        "p25": 6535457.04,
+        "mediana": 23244532.72,
+        "media": 37759804.8971,
+        "p75": 67590131.02,
+        "max": 92187220.92,
+        "cv": 0.872
+      },
+      "ur_stats": {
+        "n": 6,
+        "min": 12,
+        "p25": 24,
+        "mediana": 59.0,
+        "media": 71.8333,
+        "p75": 117,
+        "max": 160,
+        "cv": 0.811
+      },
+      "concreto_stats": {
+        "n": 10,
+        "min": 0.0336,
+        "p25": 0.2081,
+        "mediana": 0.2566,
+        "media": 0.2626,
+        "p75": 0.2794,
+        "max": 0.5538,
+        "cv": 0.493
+      },
+      "taxa_aco_stats": {
+        "n": 11,
+        "min": 48.21,
+        "p25": 73.78,
+        "mediana": 92.19,
+        "media": 85.0845,
+        "p75": 102.14,
+        "max": 107.67,
+        "cv": 0.246
+      },
+      "forma_stats": {
+        "n": 10,
+        "min": 0.0052,
+        "p25": 0.4878,
+        "mediana": 1.5539,
+        "media": 1.412,
+        "p75": 2.0065,
+        "max": 2.4398,
+        "cv": 0.615
+      },
+      "mg_pct_med": {
+        "Gerenciamento": 20.3,
+        "Infraestrutura": 5.32,
+        "Supraestrutura": 17.48,
+        "Alvenaria": 3.66,
+        "Instal Geral": 9.99,
+        "Sist Especiais": 3.89,
+        "Impermeabilizacao": 2.04,
+        "Rev Parede": 6.39,
+        "Rev Teto": 1.24,
+        "Pisos": 4.07,
+        "Pintura Geral": 4.21,
+        "Esquadrias": 8.38,
+        "Fachada": 3.27,
+        "Complementares": 6.48,
+        "Climatizacao": 0.7,
+        "Loucas": 0.48,
+        "Mov Terra": 1.1,
+        "Eletrica": 3.83,
+        "Hidrossanitaria": 3.33,
+        "Preventiva": 0.23,
+        "Pint Interna": 2.21,
+        "Cobertura": 0.38
+      },
+      "top_clientes": {
+        "nova": 3,
+        "blue": 2,
+        "chiquetti": 2,
+        "alto": 1,
+        "dimas": 1
+      }
+    },
     "regiao_padrao::SC-Vale-Itajai::medio-alto": {
       "nome": "SC-Vale-Itajai | medio-alto",
       "n_projetos": 14,
@@ -1138,127 +1261,6 @@
         "mussi": 2,
         "amalfi": 1,
         "be": 1
-      }
-    },
-    "regiao_padrao::SC-Floripa::alto": {
-      "nome": "SC-Floripa | alto",
-      "n_projetos": 14,
-      "slugs": [
-        "blue-heaven-aquos",
-        "blue-heaven-monolyt",
-        "chiquetti-e-dalvesco-bela-vida",
-        "chiquetti-e-dalvesco-esmeralda",
-        "dimas-pb2",
-        "grupo-duo-mosaico",
-        "mz-central-park",
-        "neuhaus-origem",
-        "nm-empreendimentos",
-        "nova-empreendimentos-evora",
-        "nova-empreendimentos-malaga",
-        "nova-empreendimentos-malta",
-        "sak-engenharia",
-        "somauma-virginia"
-      ],
-      "rsm2_stats": {
-        "n": 7,
-        "min": 3217.76,
-        "p25": 3843.01,
-        "mediana": 4642.46,
-        "media": 4787.0614,
-        "p75": 6091.07,
-        "max": 6123.12,
-        "cv": 0.23
-      },
-      "ac_stats": {
-        "n": 13,
-        "min": 1540.93,
-        "p25": 4430.32,
-        "mediana": 7964.39,
-        "media": 8554.4562,
-        "p75": 10108.43,
-        "max": 21215.27,
-        "cv": 0.663
-      },
-      "total_stats": {
-        "n": 7,
-        "min": 4958343.62,
-        "p25": 6535457.04,
-        "mediana": 23244532.72,
-        "media": 37759804.8971,
-        "p75": 67590131.02,
-        "max": 92187220.92,
-        "cv": 0.872
-      },
-      "ur_stats": {
-        "n": 5,
-        "min": 12,
-        "p25": 24,
-        "mediana": 37,
-        "media": 54.2,
-        "p75": 81,
-        "max": 117,
-        "cv": 0.807
-      },
-      "concreto_stats": {
-        "n": 10,
-        "min": 0.0336,
-        "p25": 0.2081,
-        "mediana": 0.2566,
-        "media": 0.2626,
-        "p75": 0.2794,
-        "max": 0.5538,
-        "cv": 0.493
-      },
-      "taxa_aco_stats": {
-        "n": 11,
-        "min": 48.21,
-        "p25": 73.78,
-        "mediana": 92.19,
-        "media": 85.0845,
-        "p75": 102.14,
-        "max": 107.67,
-        "cv": 0.246
-      },
-      "forma_stats": {
-        "n": 10,
-        "min": 0.0052,
-        "p25": 0.4878,
-        "mediana": 1.5539,
-        "media": 1.412,
-        "p75": 2.0065,
-        "max": 2.4398,
-        "cv": 0.615
-      },
-      "mg_pct_med": {
-        "Gerenciamento": 20.3,
-        "Infraestrutura": 5.32,
-        "Supraestrutura": 17.48,
-        "Alvenaria": 3.66,
-        "Instal Geral": 9.99,
-        "Sist Especiais": 3.89,
-        "Impermeabilizacao": 2.04,
-        "Rev Parede": 6.39,
-        "Rev Teto": 1.24,
-        "Pisos": 4.07,
-        "Pintura Geral": 4.21,
-        "Esquadrias": 8.38,
-        "Fachada": 3.27,
-        "Complementares": 6.48,
-        "Climatizacao": 0.7,
-        "Loucas": 0.48,
-        "Mov Terra": 1.1,
-        "Eletrica": 3.83,
-        "Hidrossanitaria": 3.33,
-        "Preventiva": 0.23,
-        "Pint Interna": 2.21,
-        "Cobertura": 0.38
-      },
-      "top_clientes": {
-        "nova": 3,
-        "blue": 2,
-        "chiquetti": 2,
-        "dimas": 1,
-        "grupo": 1
       }
     },
     "regiao_padrao::SC-BC::medio-alto": {
@@ -1619,7 +1621,7 @@
     },
     "regiao_padrao::SC-Litoral-Norte::alto": {
       "nome": "SC-Litoral-Norte | alto",
-      "n_projetos": 8,
+      "n_projetos": 9,
       "slugs": [
         "brasin-redentor",
         "etr-zion-meridian-tower",
@@ -1627,6 +1629,7 @@
         "grandezza-gran-tower",
         "nobria",
         "pass-e-passione",
+        "san-fellice",
         "wf-aquarius",
         "xpcon-porto-cerro"
       ],
@@ -1731,7 +1734,7 @@
     },
     "regiao_padrao::SC-BC::alto": {
       "nome": "SC-BC | alto",
-      "n_projetos": 7,
+      "n_projetos": 8,
       "slugs": [
         "adore-cacupe",
         "beco-castelo-chateau-de-versailes",
@@ -1739,7 +1742,8 @@
         "cambert-engenharia-portal-da-brava",
         "cambert-portal-da-brava",
         "ck-rooftop",
-        "eze-bella-vivie"
+        "eze-bella-vivie",
+        "thozen-electra"
       ],
       "rsm2_stats": {
         "n": 1,
@@ -2141,7 +2145,7 @@
     },
     "reg_pad_tip::SC-Floripa::alto::residencial_vertical_alto": {
       "nome": "SC-Floripa | alto | residencial_vertical_alto",
-      "n_projetos": 14,
+      "n_projetos": 15,
       "slugs": [
         "blue-heaven-aquos",
         "blue-heaven-monolyt",
@@ -2155,6 +2159,7 @@
         "nova-empreendimentos-evora",
         "nova-empreendimentos-malaga",
         "nova-empreendimentos-malta",
+        "placon-arminio-tavares",
         "sak-engenharia",
         "somauma-virginia"
       ],
@@ -2609,7 +2614,7 @@
     },
     "reg_pad_tip::SC-Litoral-Norte::alto::residencial_vertical_alto": {
       "nome": "SC-Litoral-Norte | alto | residencial_vertical_alto",
-      "n_projetos": 8,
+      "n_projetos": 9,
       "slugs": [
         "brasin-redentor",
         "etr-zion-meridian-tower",
@@ -2617,6 +2622,7 @@
         "grandezza-gran-tower",
         "nobria",
         "pass-e-passione",
+        "san-fellice",
         "wf-aquarius",
         "xpcon-porto-cerro"
       ],
@@ -2721,7 +2727,7 @@
     },
     "reg_pad_tip::SC-BC::alto::residencial_vertical_alto": {
       "nome": "SC-BC | alto | residencial_vertical_alto",
-      "n_projetos": 7,
+      "n_projetos": 8,
       "slugs": [
         "adore-cacupe",
         "beco-castelo-chateau-de-versailes",
@@ -2729,7 +2735,8 @@
         "cambert-engenharia-portal-da-brava",
         "cambert-portal-da-brava",
         "ck-rooftop",
-        "eze-bella-vivie"
+        "eze-bella-vivie",
+        "thozen-electra"
       ],
       "rsm2_stats": {
         "n": 1,
@@ -3262,6 +3269,107 @@
         "amalfi": 1,
         "mussi": 1,
         "pass": 1
+      }
+    },
+    "reg_pad_tip::SC-Floripa::medio::residencial_vertical_medio": {
+      "nome": "SC-Floripa | medio | residencial_vertical_medio",
+      "n_projetos": 3,
+      "slugs": [
+        "fg-blue-coast",
+        "libra-concept-libra-conecpt",
+        "neuhaus-botanico"
+      ],
+      "rsm2_stats": {
+        "n": 2,
+        "min": 2271.01,
+        "p25": 2271.01,
+        "mediana": 2534.04,
+        "media": 2534.04,
+        "p75": 2797.07,
+        "max": 2797.07,
+        "cv": 0.147
+      },
+      "ac_stats": {
+        "n": 3,
+        "min": 4338.77,
+        "p25": 4338.77,
+        "mediana": 12953.8,
+        "media": 10141.4733,
+        "p75": 13131.85,
+        "max": 13131.85,
+        "cv": 0.496
+      },
+      "total_stats": {
+        "n": 2,
+        "min": 9853382.76,
+        "p25": 9853382.76,
+        "mediana": 23043025.0,
+        "media": 23043025.0,
+        "p75": 36232667.24,
+        "max": 36232667.24,
+        "cv": 0.809
+      },
+      "ur_stats": {
+        "n": 2,
+        "min": 35,
+        "p25": 35,
+        "mediana": 67.0,
+        "media": 67,
+        "p75": 99,
+        "max": 99,
+        "cv": 0.675
+      },
+      "concreto_stats": {
+        "n": 1,
+        "min": 0.6247,
+        "p25": 0.6247,
+        "mediana": 0.6247,
+        "media": 0.6247,
+        "p75": 0.6247,
+        "max": 0.6247,
+        "cv": 0
+      },
+      "taxa_aco_stats": {
+        "n": 1,
+        "min": 147.59,
+        "p25": 147.59,
+        "mediana": 147.59,
+        "media": 147.59,
+        "p75": 147.59,
+        "max": 147.59,
+        "cv": 0
+      },
+      "forma_stats": {
+        "n": 1,
+        "min": 3.7238,
+        "p25": 3.7238,
+        "mediana": 3.7238,
+        "media": 3.7238,
+        "p75": 3.7238,
+        "max": 3.7238,
+        "cv": 0
+      },
+      "mg_pct_med": {
+        "Gerenciamento": 10.62,
+        "Mov Terra": 1.22,
+        "Infraestrutura": 9.14,
+        "Supraestrutura": 18.95,
+        "Alvenaria": 5.14,
+        "Instal Geral": 10.8,
+        "Sist Especiais": 7.13,
+        "Impermeabilizacao": 2.02,
+        "Rev Parede": 5.61,
+        "Rev Teto": 1.83,
+        "Pisos": 6.13,
+        "Pintura Geral": 3.3,
+        "Esquadrias": 8.84,
+        "Fachada": 4.25,
+        "Complementares": 5.01
+      },
+      "top_clientes": {
+        "fg": 1,
+        "libra": 1,
+        "neuhaus": 1
       }
     },
     "reg_pad_tip::SP-Capital::medio-alto::residencial_vertical_medio_alto": {
