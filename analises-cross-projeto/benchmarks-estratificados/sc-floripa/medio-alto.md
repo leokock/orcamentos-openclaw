@@ -1,8 +1,8 @@
 # Benchmark — SC-Floripa | medio-alto
 
 **Tipo de combinação:** Região × Padrão
-**N projetos:** 12
-**Gerado:** 2026-04-19T09:15:41
+**N projetos:** 13
+**Gerado:** 2026-04-19T10:21:01
 
 ---
 
@@ -14,23 +14,23 @@
 |---|---:|
 | mín | R$ 2,549 |
 | p25 | R$ 2,940 |
-| **mediana** | R$ 3,390 |
-| p75 | R$ 3,756 |
+| **mediana** | R$ 3,484 |
+| p75 | R$ 4,347 |
 | máx | R$ 7,668 |
-| CV (coef. variação) | 0.47 |
-| N | 6 |
+| CV (coef. variação) | 0.43 |
+| N | 7 |
 
 ### Área construída
 
 | Percentil | AC (m²) |
 |---|---:|
 | mín | 1,943 |
-| mediana | 13,026 |
+| mediana | 12,828 |
 | máx | 37,483 |
 
 ### Total orçamento
 
-- **Mediana total:** R$ 43,027,888
+- **Mediana total:** R$ 42,283,516
 - Faixa: R$ 12,517,878 — R$ 95,548,670
 
 **UR mediana:** 108
@@ -39,34 +39,34 @@
 
 | Indicador | Mediana | n |
 |---|---:|---:|
-| Concreto (m³/m² AC) | 0.366 | 7 |
-| Taxa aço (kg/m³ concreto) | 55.9 | 8 |
-| Forma (m²/m² AC) | 3.005 | 6 |
+| Concreto (m³/m² AC) | 0.386 | 8 |
+| Taxa aço (kg/m³ concreto) | 58.5 | 9 |
+| Forma (m²/m² AC) | 3.252 | 7 |
 
 ## Distribuição % Macrogrupo (mediana)
 
 | Macrogrupo | % do total |
 |---|---:|
 | Supraestrutura | 19.4% |
-| Gerenciamento | 10.9% |
-| Instal Geral | 10.7% |
-| Esquadrias | 8.8% |
-| Pisos | 8.0% |
+| Gerenciamento | 11.2% |
+| Instal Geral | 10.3% |
+| Pisos | 7.9% |
+| Esquadrias | 7.9% |
 | Hidrossanitaria | 7.8% |
-| Complementares | 6.1% |
-| Rev Parede | 5.8% |
-| Infraestrutura | 5.4% |
+| Complementares | 6.0% |
+| Rev Parede | 6.0% |
 | Outros | 5.1% |
+| Infraestrutura | 4.9% |
 | Pint Interna | 4.7% |
-| Alvenaria | 4.5% |
+| Alvenaria | 4.4% |
 | Eletrica | 4.3% |
-| Sist Especiais | 4.0% |
+| Sist Especiais | 3.8% |
 | Fachada | 3.5% |
-| Pintura Geral | 2.5% |
+| Pintura Geral | 2.6% |
+| Impermeabilizacao | 2.1% |
 | Rev Teto | 1.9% |
-| Impermeabilizacao | 1.9% |
-| Loucas | 1.2% |
 | Mov Terra | 1.2% |
+| Loucas | 1.0% |
 
 ## Top clientes nesta combinação
 
@@ -76,7 +76,7 @@
 - **carraro**: 1 projeto(s)
 - **cota**: 1 projeto(s)
 
-## Projetos (12)
+## Projetos (13)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
@@ -85,6 +85,7 @@
 | `carraro-vertice` | N/D | N/D | rv_medio_alto | Florianópolis |
 | `cota-365` | 17,506 | R$ 3,484 | rv_medio_alto | Florianópolis |
 | `f-nogueira-wpr` | 37,483 | R$ 2,549 | rv_alto | Florianópolis |
+| `gdi-playa-negra` | 8,519 | R$ 4,347 | rv_alto | Florianópolis |
 | `hacasa-brisa-da-armacao` | 12,828 | R$ 3,296 | residencial_misto | Florianópolis |
 | `kirchner-kirchner` | N/D | N/D | rv_medio_alto | Florianópolis |
 | `lumis-live` | 14,888 | R$ 2,940 | rv_medio_alto | Florianópolis |
@@ -95,6 +96,6 @@
 
 ## Interpretação automática
 
-- Em `SC-Floripa`, empreendimentos medio-alto custam tipicamente **R$ 3,390/m²** (faixa p25-p75: R$ 2,940–R$ 3,756).
-- CV 0.47 — variação **alta**. Projetos nesta combinação são heterogêneos; usar com cuidado.
-- ✓ Amostra razoável (n=12) — benchmark estatisticamente útil.
+- Em `SC-Floripa`, empreendimentos medio-alto custam tipicamente **R$ 3,484/m²** (faixa p25-p75: R$ 2,940–R$ 4,347).
+- CV 0.43 — variação **alta**. Projetos nesta combinação são heterogêneos; usar com cuidado.
+- ✓ Amostra razoável (n=13) — benchmark estatisticamente útil.

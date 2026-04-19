@@ -1,8 +1,8 @@
 # Benchmark — SC-Vale-Itajai | alto | residencial_vertical_alto
 
 **Tipo de combinação:** Região × Padrão × Tipologia
-**N projetos:** 17
-**Gerado:** 2026-04-19T09:15:41
+**N projetos:** 18
+**Gerado:** 2026-04-19T10:21:01
 
 ---
 
@@ -40,7 +40,7 @@
 | Indicador | Mediana | n |
 |---|---:|---:|
 | Concreto (m³/m² AC) | 0.368 | 8 |
-| Taxa aço (kg/m³ concreto) | 78.9 | 13 |
+| Taxa aço (kg/m³ concreto) | 78.0 | 14 |
 | Forma (m²/m² AC) | 1.756 | 8 |
 
 ## Distribuição % Macrogrupo (mediana)
@@ -70,13 +70,13 @@
 
 ## Top clientes nesta combinação
 
+- **chiquetti**: 3 projeto(s)
 - **ck**: 3 projeto(s)
 - **amalfi**: 2 projeto(s)
-- **chiquetti**: 2 projeto(s)
 - **mendes**: 2 projeto(s)
 - **mussi**: 2 projeto(s)
 
-## Projetos (17)
+## Projetos (18)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
@@ -84,6 +84,7 @@
 | `amalfi-ravello` | 353 | R$ 111,266 | rv_alto | Itajaí |
 | `chiquetti-e-dalvesco-atlantis` | N/D | N/D | rv_alto | Itajaí |
 | `chiquetti-e-dalvesco-nautilus` | N/D | N/D | rv_alto | Itajaí |
+| `chiquetti-e-dalvesco-santorini` | N/D | N/D | rv_alto | Itajaí |
 | `ck-duo-praia-brava` | N/D | N/D | rv_alto | Itajaí |
 | `ck-smart-sao-joao` | N/D | N/D | rv_alto | Itajaí |
 | `ck-unique` | N/D | N/D | rv_alto | Itajaí |
@@ -102,4 +103,4 @@
 
 - Em `SC-Vale-Itajai`, empreendimentos alto residencial_vertical_alto custam tipicamente **R$ 3,644/m²** (faixa p25-p75: R$ 2,456–R$ 4,888).
 - CV 0.30 — variação **moderada**. Bom benchmark mas considerar escopo.
-- ✓ Amostra razoável (n=17) — benchmark estatisticamente útil.
+- ✓ Amostra razoável (n=18) — benchmark estatisticamente útil.

@@ -1,8 +1,8 @@
 # Benchmark — SC-Litoral-Norte | alto | residencial_vertical_alto
 
 **Tipo de combinação:** Região × Padrão × Tipologia
-**N projetos:** 7
-**Gerado:** 2026-04-19T09:15:41
+**N projetos:** 8
+**Gerado:** 2026-04-19T10:21:01
 
 ---
 
@@ -25,7 +25,7 @@
 | Percentil | AC (m²) |
 |---|---:|
 | mín | 1,767 |
-| mediana | 6,682 |
+| mediana | 9,781 |
 | máx | 16,789 |
 
 ### Total orçamento
@@ -33,15 +33,15 @@
 - **Mediana total:** R$ 23,266,450
 - Faixa: R$ 19,377,747 — R$ 42,384,127
 
-**UR mediana:** 40
+**UR mediana:** 62
 
 ## Perfil estrutural
 
 | Indicador | Mediana | n |
 |---|---:|---:|
-| Concreto (m³/m² AC) | 0.367 | 5 |
-| Taxa aço (kg/m³ concreto) | 71.7 | 5 |
-| Forma (m²/m² AC) | 1.413 | 5 |
+| Concreto (m³/m² AC) | 0.350 | 6 |
+| Taxa aço (kg/m³ concreto) | 79.8 | 6 |
+| Forma (m²/m² AC) | 1.472 | 6 |
 
 ## Distribuição % Macrogrupo (mediana)
 
@@ -75,7 +75,7 @@
 - **grandezza**: 1 projeto(s)
 - **nobria**: 1 projeto(s)
 
-## Projetos (7)
+## Projetos (8)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
@@ -86,6 +86,7 @@
 | `nobria` | 12,880 | R$ 3,291 | rv_alto | Bombinhas |
 | `pass-e-passione` | 6,682 | R$ 3,785 | rv_alto | Porto Belo |
 | `wf-aquarius` | 16,789 | N/D | rv_alto | Porto Belo |
+| `xpcon-porto-cerro` | 13,189 | N/D | rv_alto | Piçarras |
 
 ## Interpretação automática
 

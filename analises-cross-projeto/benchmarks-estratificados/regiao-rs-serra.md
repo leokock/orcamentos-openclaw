@@ -1,8 +1,8 @@
 # Benchmark — RS-Serra
 
 **Tipo de combinação:** Região
-**N projetos:** 4
-**Gerado:** 2026-04-19T01:24:47
+**N projetos:** 3
+**Gerado:** 2026-04-19T10:21:01
 
 ---
 
@@ -12,25 +12,25 @@
 
 | Percentil | R$/m² |
 |---|---:|
-| mín | R$ 2,625 |
-| p25 | R$ 2,625 |
-| **mediana** | R$ 3,392 |
+| mín | R$ 3,134 |
+| p25 | R$ 3,134 |
+| **mediana** | R$ 3,650 |
 | p75 | R$ 5,219 |
 | máx | R$ 5,219 |
-| CV (coef. variação) | 0.31 |
-| N | 4 |
+| CV (coef. variação) | 0.27 |
+| N | 3 |
 
 ### Área construída
 
 | Percentil | AC (m²) |
 |---|---:|
 | mín | 3,264 |
-| mediana | 5,506 |
+| mediana | 3,972 |
 | máx | 27,559 |
 
 ### Total orçamento
 
-- **Mediana total:** R$ 15,464,874
+- **Mediana total:** R$ 12,450,665
 - Faixa: R$ 11,915,766 — R$ 143,845,292
 
 ## Perfil estrutural
@@ -45,41 +45,40 @@
 
 | Macrogrupo | % do total |
 |---|---:|
-| Gerenciamento | 23.4% |
-| Supraestrutura | 14.5% |
-| Esquadrias | 13.1% |
+| Gerenciamento | 35.9% |
+| Supraestrutura | 13.8% |
+| Esquadrias | 13.0% |
 | Instal Geral | 9.1% |
-| Pisos | 7.2% |
-| Sist Especiais | 6.5% |
-| Complementares | 5.5% |
-| Hidrossanitaria | 5.4% |
-| Pint Interna | 3.9% |
+| Sist Especiais | 7.6% |
+| Pisos | 7.0% |
+| Complementares | 6.0% |
+| Hidrossanitaria | 5.3% |
+| Infraestrutura | 3.9% |
 | Rev Parede | 3.8% |
-| Fachada | 3.7% |
+| Fachada | 3.4% |
+| Pint Interna | 3.2% |
 | Pintura Geral | 3.2% |
-| Alvenaria | 3.0% |
-| Infraestrutura | 3.0% |
-| Rev Teto | 2.0% |
-| Impermeabilizacao | 1.8% |
+| Alvenaria | 2.3% |
+| Rev Teto | 1.7% |
+| Impermeabilizacao | 1.5% |
 | Mov Terra | 0.7% |
 | Cobertura | 0.4% |
 
 ## Top clientes nesta combinação
 
-- **paludo**: 3 projeto(s)
+- **paludo**: 2 projeto(s)
 - **colline**: 1 projeto(s)
 
-## Projetos (4)
+## Projetos (3)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
 | `colline-de-france-colline-de-france` | 27,559 | R$ 5,219 | residencial_misto | Gramado |
-| `paludo-urban-life` | 7,040 | R$ 2,625 | rv_economico | Gramado |
 | `paludo-volo-home` | 3,972 | R$ 3,134 | rv_alto | Gramado |
 | `paludo-volo-ocean` | 3,264 | R$ 3,650 | rv_alto | Gramado |
 
 ## Interpretação automática
 
-- Em `RS-Serra`, empreendimentos _misto_ custam tipicamente **R$ 3,392/m²** (faixa p25-p75: R$ 2,625–R$ 5,219).
-- CV 0.31 — variação **alta**. Projetos nesta combinação são heterogêneos; usar com cuidado.
-- ⚠️ Amostra pequena (n=4) — tratar como referência, não conclusão.
+- Em `RS-Serra`, empreendimentos _misto_ custam tipicamente **R$ 3,650/m²** (faixa p25-p75: R$ 3,134–R$ 5,219).
+- CV 0.27 — variação **moderada**. Bom benchmark mas considerar escopo.
+- ⚠️ Amostra pequena (n=3) — tratar como referência, não conclusão.

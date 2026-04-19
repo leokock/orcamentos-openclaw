@@ -1,8 +1,8 @@
 # Benchmark — SC-Vale-Itajai | medio-alto
 
 **Tipo de combinação:** Região × Padrão
-**N projetos:** 13
-**Gerado:** 2026-04-19T09:15:41
+**N projetos:** 14
+**Gerado:** 2026-04-19T10:21:01
 
 ---
 
@@ -25,23 +25,23 @@
 | Percentil | AC (m²) |
 |---|---:|
 | mín | 4,410 |
-| mediana | 7,013 |
-| máx | 15,149 |
+| mediana | 7,194 |
+| máx | 22,461 |
 
 ### Total orçamento
 
 - **Mediana total:** R$ 24,341,958
 - Faixa: R$ 14,107,283 — R$ 52,163,486
 
-**UR mediana:** 38
+**UR mediana:** 41
 
 ## Perfil estrutural
 
 | Indicador | Mediana | n |
 |---|---:|---:|
-| Concreto (m³/m² AC) | 0.329 | 4 |
-| Taxa aço (kg/m³ concreto) | 73.1 | 5 |
-| Forma (m²/m² AC) | 1.001 | 4 |
+| Concreto (m³/m² AC) | 0.336 | 5 |
+| Taxa aço (kg/m³ concreto) | 74.0 | 6 |
+| Forma (m²/m² AC) | 1.068 | 5 |
 
 ## Distribuição % Macrogrupo (mediana)
 
@@ -74,13 +74,14 @@
 - **inbrasul**: 2 projeto(s)
 - **mussi**: 2 projeto(s)
 - **amalfi**: 1 projeto(s)
-- **brasin**: 1 projeto(s)
+- **be**: 1 projeto(s)
 
-## Projetos (13)
+## Projetos (14)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
 | `amalfi-marine` | 522 | R$ 27,041 | rv_alto | Navegantes |
+| `be-brave-meraki` | 22,461 | N/D | rv_medio_alto | Itajaí |
 | `brasin-mario-lago` | N/D | N/D | rv_medio_alto | Itajaí |
 | `chiquetti-e-dalvesco-cielo` | 7,013 | N/D | rv_medio_alto | Itajaí |
 | `gmf-moradas-do-atalaia` | 7,374 | R$ 3,482 | rv_medio_alto | Itajaí |
@@ -98,4 +99,4 @@
 
 - Em `SC-Vale-Itajai`, empreendimentos medio-alto custam tipicamente **R$ 3,463/m²** (faixa p25-p75: R$ 3,232–R$ 3,723).
 - CV 0.10 — variação **baixa**. Benchmark confiável.
-- ✓ Amostra razoável (n=13) — benchmark estatisticamente útil.
+- ✓ Amostra razoável (n=14) — benchmark estatisticamente útil.

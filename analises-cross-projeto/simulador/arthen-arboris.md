@@ -1,6 +1,6 @@
 # Simulador de Produto — arthen / arboris
 
-**Gerado:** 2026-04-19T09:15:53
+**Gerado:** 2026-04-19T10:21:01
 **Cliente:** arthen
 **Empreendimento:** arboris
 **Localização:** Morretes/PR (região CUB: `PR-Litoral`)
@@ -8,8 +8,8 @@
 **Tipologia:** `residencial_vertical_medio_alto`
 **AC:** 12,500.0 m²
 **UR:** 48
-**N pavimentos:** 15
-**N torres:** 1
+**N pavimentos:** N/D
+**N torres:** N/D
 
 ---
 
@@ -17,11 +17,11 @@
 
 | Fonte | R$/m² |
 |---|---:|
-| Regressão multivariada (Fase 6) | R$ 2,609 |
-| Base médio (regr + combo)/2 | R$ 2,609 |
-| **Predição final R$/m²** | **R$ 2,609** |
-| Faixa provável (±0.67σ) | R$ 1,945 — R$ 3,273 |
-| **Total estimado** | **R$ 32,607,004** |
+| Regressão multivariada (Fase 6) | R$ 2,669 |
+| Base médio (regr + combo)/2 | R$ 2,669 |
+| **Predição final R$/m²** | **R$ 2,669** |
+| Faixa provável (±0.67σ) | R$ 2,010 — R$ 3,329 |
+| **Total estimado** | **R$ 33,367,480** |
 
 ---
 

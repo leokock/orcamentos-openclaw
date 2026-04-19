@@ -1,8 +1,8 @@
 # Benchmark — SC-Floripa | alto
 
 **Tipo de combinação:** Região × Padrão
-**N projetos:** 13
-**Gerado:** 2026-04-19T09:15:41
+**N projetos:** 14
+**Gerado:** 2026-04-19T10:21:01
 
 ---
 
@@ -40,7 +40,7 @@
 | Indicador | Mediana | n |
 |---|---:|---:|
 | Concreto (m³/m² AC) | 0.257 | 10 |
-| Taxa aço (kg/m³ concreto) | 91.9 | 10 |
+| Taxa aço (kg/m³ concreto) | 92.2 | 11 |
 | Forma (m²/m² AC) | 1.554 | 10 |
 
 ## Distribuição % Macrogrupo (mediana)
@@ -72,16 +72,17 @@
 
 - **nova**: 3 projeto(s)
 - **blue**: 2 projeto(s)
-- **chiquetti**: 1 projeto(s)
+- **chiquetti**: 2 projeto(s)
 - **dimas**: 1 projeto(s)
 - **grupo**: 1 projeto(s)
 
-## Projetos (13)
+## Projetos (14)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
 | `blue-heaven-aquos` | 9,522 | N/D | rv_alto | Florianópolis |
 | `blue-heaven-monolyt` | 14,693 | N/D | rv_alto | Florianópolis |
+| `chiquetti-e-dalvesco-bela-vida` | N/D | N/D | rv_alto | Florianópolis |
 | `chiquetti-e-dalvesco-esmeralda` | 5,580 | N/D | rv_alto | Florianópolis |
 | `dimas-pb2` | 21,215 | R$ 4,345 | rv_alto | Florianópolis |
 | `grupo-duo-mosaico` | 7,672 | N/D | rv_alto | Florianópolis |
@@ -98,4 +99,4 @@
 
 - Em `SC-Floripa`, empreendimentos alto custam tipicamente **R$ 4,642/m²** (faixa p25-p75: R$ 3,843–R$ 6,091).
 - CV 0.23 — variação **moderada**. Bom benchmark mas considerar escopo.
-- ✓ Amostra razoável (n=13) — benchmark estatisticamente útil.
+- ✓ Amostra razoável (n=14) — benchmark estatisticamente útil.
