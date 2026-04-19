@@ -1,8 +1,8 @@
 # Benchmark — SC-Vale-Itajai | medio-alto | residencial_vertical_alto
 
 **Tipo de combinação:** Região × Padrão × Tipologia
-**N projetos:** 4
-**Gerado:** 2026-04-19T01:24:47
+**N projetos:** 3
+**Gerado:** 2026-04-19T09:15:41
 
 ---
 
@@ -12,26 +12,26 @@
 
 | Percentil | R$/m² |
 |---|---:|
-| mín | R$ 2,974 |
-| p25 | R$ 2,974 |
+| mín | R$ 3,148 |
+| p25 | R$ 3,148 |
 | **mediana** | R$ 3,296 |
-| p75 | R$ 4,347 |
-| máx | R$ 4,347 |
-| CV (coef. variação) | 0.18 |
-| N | 4 |
+| p75 | R$ 3,443 |
+| máx | R$ 3,443 |
+| CV (coef. variação) | 0.06 |
+| N | 2 |
 
 ### Área construída
 
 | Percentil | AC (m²) |
 |---|---:|
 | mín | 7,956 |
-| mediana | 10,519 |
+| mediana | 11,553 |
 | máx | 15,149 |
 
 ### Total orçamento
 
-- **Mediana total:** R$ 37,132,227
-- Faixa: R$ 25,046,006 — R$ 52,163,486
+- **Mediana total:** R$ 25,046,006
+- Faixa: R$ 14,107,283 — R$ 52,163,486
 
 **UR mediana:** 41
 
@@ -39,53 +39,51 @@
 
 | Indicador | Mediana | n |
 |---|---:|---:|
-| Concreto (m³/m² AC) | 0.435 | 3 |
-| Taxa aço (kg/m³ concreto) | 74.4 | 3 |
-| Forma (m²/m² AC) | 2.487 | 3 |
+| Concreto (m³/m² AC) | 0.435 | 1 |
+| Taxa aço (kg/m³ concreto) | 71.6 | 1 |
+| Forma (m²/m² AC) | 2.444 | 1 |
 
 ## Distribuição % Macrogrupo (mediana)
 
 | Macrogrupo | % do total |
 |---|---:|
-| Supraestrutura | 22.8% |
-| Gerenciamento | 12.2% |
-| Hidrossanitaria | 9.9% |
+| Supraestrutura | 23.7% |
+| Gerenciamento | 13.1% |
+| Hidrossanitaria | 9.4% |
 | Instal Geral | 9.1% |
-| Esquadrias | 8.6% |
-| Rev Parede | 5.9% |
-| Pisos | 5.7% |
-| Complementares | 5.6% |
-| Infraestrutura | 5.1% |
-| Sist Especiais | 5.0% |
+| Esquadrias | 7.8% |
+| Complementares | 7.7% |
+| Infraestrutura | 7.5% |
+| Pisos | 6.2% |
+| Rev Parede | 5.6% |
+| Sist Especiais | 5.5% |
+| Pint Interna | 4.1% |
+| Alvenaria | 4.0% |
 | Pintura Geral | 3.9% |
-| Fachada | 3.6% |
-| Pint Interna | 3.6% |
-| Alvenaria | 3.6% |
-| Rev Teto | 2.0% |
+| Outros | 3.7% |
+| Fachada | 3.5% |
+| Rev Teto | 1.9% |
 | Impermeabilizacao | 1.5% |
 | Loucas | 0.7% |
-| Climatizacao | 0.7% |
 | Cobertura | 0.5% |
 | Mov Terra | 0.4% |
 
 ## Top clientes nesta combinação
 
-- **gdi**: 1 projeto(s)
-- **mabrem**: 1 projeto(s)
+- **amalfi**: 1 projeto(s)
 - **mussi**: 1 projeto(s)
 - **pass**: 1 projeto(s)
 
-## Projetos (4)
+## Projetos (3)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
-| `gdi-playa-negra` | 8,519 | R$ 4,347 | rv_alto | Itajaí |
-| `mabrem-gran-torino` | 12,519 | R$ 2,974 | rv_alto | Itajaí |
+| `amalfi-marine` | 522 | R$ 27,041 | rv_alto | Navegantes |
 | `mussi-empreendimentos-chelsea` | 15,149 | R$ 3,443 | rv_alto | Itajaí |
 | `pass-e-celebration` | 7,956 | R$ 3,148 | rv_alto | Itajaí |
 
 ## Interpretação automática
 
-- Em `SC-Vale-Itajai`, empreendimentos medio-alto residencial_vertical_alto custam tipicamente **R$ 3,296/m²** (faixa p25-p75: R$ 2,974–R$ 4,347).
-- CV 0.18 — variação **moderada**. Bom benchmark mas considerar escopo.
-- ⚠️ Amostra pequena (n=4) — tratar como referência, não conclusão.
+- Em `SC-Vale-Itajai`, empreendimentos medio-alto residencial_vertical_alto custam tipicamente **R$ 3,296/m²** (faixa p25-p75: R$ 3,148–R$ 3,443).
+- CV 0.06 — variação **baixa**. Benchmark confiável.
+- ⚠️ Amostra pequena (n=3) — tratar como referência, não conclusão.

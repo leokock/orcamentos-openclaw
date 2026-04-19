@@ -2,7 +2,7 @@
 
 **Tipo de combinação:** Região
 **N projetos:** 13
-**Gerado:** 2026-04-19T01:24:47
+**Gerado:** 2026-04-19T09:15:41
 
 ---
 
@@ -14,88 +14,88 @@
 |---|---:|
 | mín | R$ 1,918 |
 | p25 | R$ 2,663 |
-| **mediana** | R$ 3,036 |
-| p75 | R$ 3,402 |
-| máx | R$ 4,197 |
-| CV (coef. variação) | 0.26 |
-| N | 6 |
+| **mediana** | R$ 3,402 |
+| p75 | R$ 4,197 |
+| máx | R$ 7,160 |
+| CV (coef. variação) | 0.44 |
+| N | 7 |
 
 ### Área construída
 
 | Percentil | AC (m²) |
 |---|---:|
 | mín | 1,403 |
-| mediana | 4,921 |
-| máx | 15,603 |
+| mediana | 6,682 |
+| máx | 16,789 |
 
 ### Total orçamento
 
-- **Mediana total:** R$ 20,311,699
-- Faixa: R$ 3,735,761 — R$ 42,384,127
+- **Mediana total:** R$ 23,266,450
+- Faixa: R$ 3,735,761 — R$ 50,516,883
 
-**UR mediana:** 20
+**UR mediana:** 40
 
 ## Perfil estrutural
 
 | Indicador | Mediana | n |
 |---|---:|---:|
-| Concreto (m³/m² AC) | 0.367 | 5 |
-| Taxa aço (kg/m³ concreto) | 67.8 | 4 |
-| Forma (m²/m² AC) | 1.642 | 5 |
+| Concreto (m³/m² AC) | 0.344 | 7 |
+| Taxa aço (kg/m³ concreto) | 67.8 | 6 |
+| Forma (m²/m² AC) | 1.413 | 7 |
 
 ## Distribuição % Macrogrupo (mediana)
 
 | Macrogrupo | % do total |
 |---|---:|
-| Supraestrutura | 19.9% |
-| Gerenciamento | 14.4% |
-| Hidrossanitaria | 9.0% |
+| Supraestrutura | 19.0% |
+| Gerenciamento | 16.2% |
+| Outros | 10.3% |
 | Instal Geral | 8.9% |
-| Esquadrias | 8.8% |
-| Complementares | 6.0% |
-| Infraestrutura | 5.8% |
-| Sist Especiais | 5.5% |
-| Rev Parede | 5.0% |
-| Pisos | 4.9% |
-| Outros | 4.6% |
-| Pint Interna | 4.6% |
-| Fachada | 4.5% |
+| Hidrossanitaria | 8.3% |
+| Esquadrias | 7.6% |
+| Sist Especiais | 5.9% |
+| Infraestrutura | 5.9% |
+| Pisos | 5.1% |
+| Complementares | 5.1% |
+| Pint Interna | 4.7% |
 | Pintura Geral | 4.0% |
-| Impermeabilizacao | 2.1% |
-| Alvenaria | 2.1% |
-| Rev Teto | 1.8% |
-| Loucas | 0.8% |
-| Mov Terra | 0.6% |
-| Cobertura | 0.5% |
+| Fachada | 4.0% |
+| Rev Parede | 3.4% |
+| Alvenaria | 3.1% |
+| Eletrica | 2.3% |
+| Rev Teto | 1.9% |
+| Impermeabilizacao | 1.4% |
+| Mov Terra | 0.7% |
+| Loucas | 0.5% |
 
 ## Top clientes nesta combinação
 
-- **amalfi**: 4 projeto(s)
 - **grandezza**: 2 projeto(s)
-- **paludo**: 2 projeto(s)
+- **all**: 1 projeto(s)
+- **amalfi**: 1 projeto(s)
+- **brasin**: 1 projeto(s)
 - **etr**: 1 projeto(s)
-- **mendes**: 1 projeto(s)
 
 ## Projetos (13)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
-| `amalfi-maiori` | 397 | R$ 63,490 | rv_alto | Bombinhas |
-| `amalfi-marine` | 522 | R$ 27,041 | rv_alto | Bombinhas |
-| `amalfi-ravello` | 353 | R$ 111,266 | rv_alto | Bombinhas |
+| `all-lago-di-garda` | 7,056 | R$ 7,160 | rv_alto | Porto Belo |
 | `amalfi-tramonti` | 15,603 | N/D | rv_medio_alto | Bombinhas |
-| `etr-zion-meridian-tower` | 4,617 | R$ 4,197 | rv_alto | Porto Belo |
+| `brasin-redentor` | 16,728 | N/D | rv_alto | Itapema |
+| `etr-zion-meridian-tower` | 4,617 | R$ 4,197 | rv_alto | Itapema |
+| `eze-eilat` | 1,767 | N/D | rv_alto | Bombinhas |
 | `grandezza-gran-royal` | 5,225 | R$ 1,918 | rv_medio_alto | Balneário Piçarras |
 | `grandezza-gran-tower` | 6,245 | R$ 3,402 | rv_alto | Balneário Piçarras |
-| `mendes-empreendimentos-brava-sixteen` | 3,283 | N/D | rv_alto | Itapema |
 | `nobria` | 12,880 | R$ 3,291 | rv_alto | Bombinhas |
-| `paludo-barbados` | 1,728 | R$ 2,781 | rv_medio_alto | Bombinhas |
 | `paludo-nassau` | 1,403 | R$ 2,663 | rv_alto | Bombinhas |
+| `pass-e-passione` | 6,682 | R$ 3,785 | rv_alto | Porto Belo |
 | `san-fellice` | N/D | N/D | rv_alto | Bombinhas |
-| `thozen-mirador-de-alicante` | 475 | R$ 73,778 | rv_alto | Itapema |
+| `thozen-mirador-de-alicante` | 475 | R$ 73,778 | rv_alto | Porto Belo |
+| `wf-aquarius` | 16,789 | N/D | rv_alto | Porto Belo |
 
 ## Interpretação automática
 
-- Em `SC-Litoral-Norte`, empreendimentos _misto_ custam tipicamente **R$ 3,036/m²** (faixa p25-p75: R$ 2,663–R$ 3,402).
-- CV 0.26 — variação **moderada**. Bom benchmark mas considerar escopo.
+- Em `SC-Litoral-Norte`, empreendimentos _misto_ custam tipicamente **R$ 3,402/m²** (faixa p25-p75: R$ 2,663–R$ 4,197).
+- CV 0.44 — variação **alta**. Projetos nesta combinação são heterogêneos; usar com cuidado.
 - ✓ Amostra razoável (n=13) — benchmark estatisticamente útil.

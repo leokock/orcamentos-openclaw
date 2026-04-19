@@ -1,8 +1,8 @@
 # Benchmark — SC-Oeste
 
 **Tipo de combinação:** Região
-**N projetos:** 3
-**Gerado:** 2026-04-19T01:24:47
+**N projetos:** 4
+**Gerado:** 2026-04-19T09:15:41
 
 ---
 
@@ -38,7 +38,7 @@
 | Indicador | Mediana | n |
 |---|---:|---:|
 | Concreto (m³/m² AC) | 0.281 | 2 |
-| Taxa aço (kg/m³ concreto) | 76.9 | 2 |
+| Taxa aço (kg/m³ concreto) | 83.5 | 3 |
 | Forma (m²/m² AC) | 1.669 | 2 |
 
 ## Distribuição % Macrogrupo (mediana)
@@ -68,19 +68,20 @@
 
 ## Top clientes nesta combinação
 
-- **santa**: 2 projeto(s)
+- **santa**: 3 projeto(s)
 - **pavcor**: 1 projeto(s)
 
-## Projetos (3)
+## Projetos (4)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
 | `pavcor` | 14,283 | R$ 3,456 | rv_medio_alto | Chapecó |
 | `santa-maria-feat` | 398 | R$ 141,082 | rv_alto | Chapecó |
 | `santa-maria-unimed` | 52,516 | R$ 1,604 | rv_alto | Chapecó |
+| `santa-maria-z` | N/D | N/D | rv_alto | Chapecó |
 
 ## Interpretação automática
 
 - Em `SC-Oeste`, empreendimentos _misto_ custam tipicamente **R$ 2,530/m²** (faixa p25-p75: R$ 1,604–R$ 3,456).
 - CV 0.52 — variação **alta**. Projetos nesta combinação são heterogêneos; usar com cuidado.
-- ⚠️ Amostra pequena (n=3) — tratar como referência, não conclusão.
+- ⚠️ Amostra pequena (n=4) — tratar como referência, não conclusão.

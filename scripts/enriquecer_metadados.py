@@ -304,14 +304,23 @@ def main():
         }
         enriquecidos.append(record)
 
-        # Preserva campos de Fase 3 (tipologia) se já existem no arquivo individual
+        # Preserva campos de Fases 3+12 se já existem no arquivo individual
         ind_path = OUT_DIR / f"{slug}.json"
         if ind_path.exists():
             try:
                 old = json.loads(ind_path.read_text(encoding="utf-8"))
-                for preservar in ("tipologia_canonica", "tipologia_confianca", "tipologia_motivo", "tipologia_em"):
+                preservar_list = [
+                    "tipologia_canonica", "tipologia_confianca", "tipologia_motivo", "tipologia_em",
+                    "data_base", "data_base_fonte", "data_entrega", "cidade_fonte", "cub_valor_entrega",
+                ]
+                for preservar in preservar_list:
                     if old.get(preservar) and not record.get(preservar):
                         record[preservar] = old[preservar]
+                # Se ground_truth alterou cidade/uf/cub_regiao, preservar
+                if old.get("cidade_fonte") == "ground_truth_entrega":
+                    for k in ("cidade", "uf", "cub_regiao"):
+                        if old.get(k):
+                            record[k] = old[k]
             except Exception:
                 pass
         # Salva individual

@@ -2,7 +2,7 @@
 
 **Tipo de combinação:** Região × Padrão × Tipologia
 **N projetos:** 3
-**Gerado:** 2026-04-19T01:24:47
+**Gerado:** 2026-04-19T09:15:41
 
 ---
 
@@ -14,24 +14,24 @@
 |---|---:|
 | mín | R$ 2,663 |
 | p25 | R$ 2,663 |
-| **mediana** | R$ 2,663 |
-| p75 | R$ 2,663 |
-| máx | R$ 2,663 |
-| CV (coef. variação) | 0.00 |
-| N | 1 |
+| **mediana** | R$ 4,911 |
+| p75 | R$ 7,160 |
+| máx | R$ 7,160 |
+| CV (coef. variação) | 0.65 |
+| N | 2 |
 
 ### Área construída
 
 | Percentil | AC (m²) |
 |---|---:|
 | mín | 1,403 |
-| mediana | 1,403 |
-| máx | 1,403 |
+| mediana | 4,229 |
+| máx | 7,056 |
 
 ### Total orçamento
 
-- **Mediana total:** R$ 14,107,283
-- Faixa: R$ 3,735,761 — R$ 35,031,765
+- **Mediana total:** R$ 35,031,765
+- Faixa: R$ 3,735,761 — R$ 50,516,883
 
 **UR mediana:** 9
 
@@ -47,30 +47,30 @@
 
 | Macrogrupo | % do total |
 |---|---:|
-| Gerenciamento | 16.6% |
-| Supraestrutura | 15.4% |
-| Hidrossanitaria | 8.6% |
-| Infraestrutura | 8.1% |
-| Esquadrias | 7.6% |
-| Outros | 7.0% |
+| Gerenciamento | 35.4% |
+| Supraestrutura | 13.1% |
+| Outros | 10.3% |
+| Esquadrias | 6.3% |
 | Sist Especiais | 5.9% |
 | Instal Geral | 5.9% |
-| Complementares | 5.1% |
-| Pint Interna | 5.0% |
+| Hidrossanitaria | 4.9% |
+| Complementares | 4.5% |
 | Pintura Geral | 4.4% |
-| Pisos | 4.2% |
-| Fachada | 3.9% |
-| Rev Parede | 3.5% |
-| Impermeabilizacao | 2.1% |
-| Alvenaria | 1.8% |
+| Pint Interna | 3.8% |
+| Infraestrutura | 3.4% |
+| Pisos | 3.2% |
+| Fachada | 3.2% |
+| Eletrica | 2.3% |
+| Rev Parede | 2.1% |
+| Alvenaria | 2.0% |
 | Rev Teto | 1.4% |
-| Loucas | 0.8% |
-| Mov Terra | 0.6% |
-| Cobertura | 0.4% |
+| Impermeabilizacao | 1.3% |
+| Loucas | 0.7% |
+| Climatizacao | 0.4% |
 
 ## Top clientes nesta combinação
 
-- **amalfi**: 1 projeto(s)
+- **all**: 1 projeto(s)
 - **paludo**: 1 projeto(s)
 - **thozen**: 1 projeto(s)
 
@@ -78,12 +78,12 @@
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
-| `amalfi-marine` | 522 | R$ 27,041 | rv_alto | Bombinhas |
+| `all-lago-di-garda` | 7,056 | R$ 7,160 | rv_alto | Porto Belo |
 | `paludo-nassau` | 1,403 | R$ 2,663 | rv_alto | Bombinhas |
-| `thozen-mirador-de-alicante` | 475 | R$ 73,778 | rv_alto | Itapema |
+| `thozen-mirador-de-alicante` | 475 | R$ 73,778 | rv_alto | Porto Belo |
 
 ## Interpretação automática
 
-- Em `SC-Litoral-Norte`, empreendimentos medio-alto residencial_vertical_alto custam tipicamente **R$ 2,663/m²** (faixa p25-p75: R$ 2,663–R$ 2,663).
-- CV 0.00 — variação **baixa**. Benchmark confiável.
+- Em `SC-Litoral-Norte`, empreendimentos medio-alto residencial_vertical_alto custam tipicamente **R$ 4,911/m²** (faixa p25-p75: R$ 2,663–R$ 7,160).
+- CV 0.65 — variação **alta**. Projetos nesta combinação são heterogêneos; usar com cuidado.
 - ⚠️ Amostra pequena (n=3) — tratar como referência, não conclusão.

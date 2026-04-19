@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-04-18T13:34:49",
+  "gerado_em": "2026-04-19T09:15:02",
   "stats": {
     "n_projetos": 131,
     "cobertura": {
@@ -21,28 +21,29 @@
       "tem_piscina": "2/131 (2%)"
     },
     "por_uf": {
-      "SC": 116,
-      "SP": 5,
-      "RS": 4,
-      "PR": 2,
-      "null": 2,
-      "outros": 1,
-      "MG": 1
+      "SC": 107,
+      "null": 10,
+      "SP": 6,
+      "PR": 3,
+      "BA": 2,
+      "RS": 2,
+      "MT": 1
     },
     "por_cub_regiao": {
-      "SC-Floripa": 35,
       "SC-Vale-Itajai": 33,
-      "SC-BC": 29,
+      "SC-Floripa": 29,
+      "SC-BC": 22,
       "SC-Litoral-Norte": 13,
+      "null-Outros": 10,
+      "SC-Outros": 6,
       "SP-Capital": 5,
-      "RS-Serra": 4,
-      "SC-Outros": 3,
-      "SC-Oeste": 3,
-      "null-Outros": 2,
+      "SC-Oeste": 4,
+      "BA-Outros": 2,
+      "PR-Capital": 2,
+      "RS-Serra": 2,
       "PR-Litoral": 1,
-      "PR-Capital": 1,
-      "outros-Outros": 1,
-      "MG-Outros": 1
+      "MT-Outros": 1,
+      "SP-Interior": 1
     },
     "por_padrao": {
       "alto": 57,
@@ -90,7 +91,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Não há fundação profunda. O sistema estrutural utiliza hélice contínua.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "adore-level-up",
@@ -126,7 +129,10 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-08",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2911.91
     },
     {
       "slug": "ajr-spot-one",
@@ -162,7 +168,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Escopo/Detalhe: REVESTIMENTOS INTERNOS EM PISO E PAREDE; Escopo/Detalhe: REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO; Escopo/Detalhe: ACABAMENTOS EM PISO E PAREDE; Escopo/Detalhe: ESQUADRIAS, VIDROS E FERRAGENS; Escopo/Detalhe: REVESTIMENTOS E ACABAMENTOS DE FACHADA",
       "cub_referencia_memorial": "ajr-spot-one",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "all-acacias-jk",
@@ -198,16 +206,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-05",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-08-05"
     },
     {
       "slug": "all-lago-di-garda",
       "cliente_inferido": "all",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
+      "cidade": "Porto Belo",
       "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cub_regiao": "SC-Litoral-Norte",
       "ac_m2": 7055.73,
       "ur": null,
       "total_rs": 50516882.53944222,
@@ -234,7 +245,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: all-lago-di-garda",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-10",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-12-12",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "alto-ribeirao",
@@ -270,16 +285,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Potencial construtivo de 22.728 m² em terreno de 6.700 m² em Florianópolis/SC. Usos mistos (Residencial multifamiliar + comércio varejista). O padrão adotado é Médio-Alto. O projeto inclui 1 subsolo e 3 elevadores. A fachada é descrita como textura + pintura, sem pele de vidro ou concreto aparente.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_misto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "amalfi-maiori",
       "cliente_inferido": "amalfi",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Bombinhas",
+      "cidade": "Itajaí",
       "uf": "SC",
-      "cub_regiao": "SC-Litoral-Norte",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 396.6907974788741,
       "ur": null,
       "total_rs": 25185732.852655,
@@ -306,16 +323,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: amalfi-maiori. Observações de orçamentista: SÓ CONSIDERA UM POUCO DE MANTA E POLIMERICO. NÃO CONSIDERA TUDO OS INTEREIORES.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-02-05",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "amalfi-marine",
       "cliente_inferido": "amalfi",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Bombinhas",
+      "cidade": "Navegantes",
       "uf": "SC",
-      "cub_regiao": "SC-Litoral-Norte",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 521.7076950240738,
       "ur": null,
       "total_rs": 14107283.053041,
@@ -342,16 +363,20 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-02-05",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "amalfi-ravello",
       "cliente_inferido": "amalfi",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Bombinhas",
+      "cidade": "Itajaí",
       "uf": "SC",
-      "cub_regiao": "SC-Litoral-Norte",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 353.32967195394065,
       "ur": null,
       "total_rs": 39313735.22500839,
@@ -378,7 +403,11 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-05-07",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "amalfi-tramonti",
@@ -414,7 +443,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "amalfi-tramonti",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-06",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2934.53
     },
     {
       "slug": "arthen-arboris",
@@ -450,7 +482,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Pavimentos identificados: RUA, MEIO FIO, TÉRREO, MEZ. DO TÉRREO - G1, 2° PAV - G2, MEZ. DO 2PAV - G3, PAV. 3 a 16.",
       "cub_referencia_memorial": "CORTAFF_ARB_PEX_ARQ_MODELO FEDERADO_R02_16-03-26.ifc",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_misto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "arv-ingleses-spot",
@@ -486,7 +520,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto residencial multifamiliar. Área Construída (AC): 2618.24 m². Unidades Residenciais (UR): 49. Sistema estrutural predominante: Concreto Armado. Fck predominante: 35 MPa. Fundação: Estacas hélice contínua. Área de cobertura (mo_estrutural_rsm2): 1116.37 m².",
       "cub_referencia_memorial": "arv-ingleses-spot",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "as-ramos-paessaggio",
@@ -522,16 +558,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-04",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2023-08-14"
     },
     {
       "slug": "be-brave-meraki",
       "cliente_inferido": "be",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
-      "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cidade": "Null",
+      "uf": "null",
+      "cub_regiao": "null-Outros",
       "ac_m2": 22461.09,
       "ur": 104,
       "total_rs": 0,
@@ -558,7 +597,12 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Dados estruturais disponíveis: concreto total (7540.0 m³), aço total (760690.0 kg), fck predominante (45MPa), tipo de estaca (hélice contínua).",
       "cub_referencia_memorial": "be-brave-meraki",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "null",
+      "cidade_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": "null"
     },
     {
       "slug": "beco-castelo-chateau-de-versailes",
@@ -594,7 +638,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 32507.25 m²; UR: 142",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "blue-heaven-aquos",
@@ -630,7 +676,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto residencial multifamiliar. Detalhes estruturais: Concreto total 1857.74 m3, Aço total 91159.59 kg, Fck predominante 45MPa. Fundação com estacas hélice contínua.",
       "cub_referencia_memorial": "blue-heaven-aquos",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "blue-heaven-monolyt",
@@ -666,7 +714,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "blue-heaven-monolyt",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "brasin-mario-lago",
@@ -702,16 +752,19 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-09",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2623.42
     },
     {
       "slug": "brasin-redentor",
       "cliente_inferido": "brasin",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
+      "cidade": "Itapema",
       "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cub_regiao": "SC-Litoral-Norte",
       "ac_m2": 16727.83,
       "ur": 40,
       "total_rs": 0,
@@ -738,16 +791,21 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: brasin-redentor. Fundação: blocos, vigas de fundação, duto e cisterna (3,5x8m). Estrutura: Concreto total (5561.03 m³), Aço total (706042.56 kg), Fck predominante (60MPa). Estacas: Hélice contínua (16 estacas, 5275m de comprimento total).",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "null",
+      "cidade_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": "null"
     },
     {
       "slug": "brava-construtora-mar-a-vista",
       "cliente_inferido": "brava",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriú",
-      "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cidade": "Ilhéus",
+      "uf": "BA",
+      "cub_regiao": "BA-Outros",
       "ac_m2": 563.1398278873736,
       "ur": null,
       "total_rs": 10446494.54,
@@ -774,16 +832,20 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-04-16",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "by-seasons-by-seasons",
       "cliente_inferido": "by",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
-      "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cidade": "Null",
+      "uf": "null",
+      "cub_regiao": "null-Outros",
       "ac_m2": 6348.509999999999,
       "ur": 67,
       "total_rs": 0,
@@ -810,16 +872,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto estimado com base em índices históricos.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "null",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "null",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "caledonia-mowe-caledonia-mowe",
       "cliente_inferido": "caledonia",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
+      "cidade": "Camboriú",
       "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cub_regiao": "SC-BC",
       "ac_m2": 329.57,
       "ur": 1,
       "total_rs": 1603246.825985587,
@@ -846,7 +912,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "caledonia-mowe-caledonia-mowe",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-08",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-08-29",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "cambert-engenharia-portal-da-brava",
@@ -882,7 +952,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: 205 - EDIFICIO PORTAL DA BRAVA; Projeto: 2 - GERENCIAMENTO EXECUTIVO - EMBASAMENTO; Projeto: 3 - GERENCIAMENTO EXECUTIVO - TORRE AMORES",
       "cub_referencia_memorial": "cambert-engenharia-portal-da-brava",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2307.92
     },
     {
       "slug": "cambert-portal-da-brava",
@@ -918,7 +991,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "cambert-portal-da-brava",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "carraro-vertice",
@@ -954,7 +1029,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Observações de orçamentista sobre revestimentos internos, acabamentos, esquadrias, vidros e ferragens.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "cgl-arbol-646",
@@ -990,7 +1067,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Localização: Rua Amália Túlio Costa, 640 - Curitiba/PR",
       "cub_referencia_memorial": "cgl-arbol-646",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "chiquetti-e-dalvesco-atlantis",
@@ -1026,7 +1105,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Estimativa de área por contrapiso: ~7280m2. Climatização não discriminada.",
       "cub_referencia_memorial": "04/2022",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-04",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2022-04-14"
     },
     {
       "slug": "chiquetti-e-dalvesco-bela-vida",
@@ -1062,7 +1144,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "null",
       "cub_referencia_memorial": "chiquetti-e-dalvesco-bela-vida",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "chiquetti-e-dalvesco-cielo",
@@ -1098,16 +1182,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Considerado o volume de Terra so sub solo; Considerado blocos, vigas de fundação, pilares de subsolo, duto, elevador e laje em contato com o solo; Considerado sem indicação em projeto; Considerado empolamento 30% da escavação; Considerado 2 profissionais Valor informado em formulário em outubro/23 + reajuste; Elétrica: Quadros elétricos e disjuntores; Elétrica: Luminárias e lâmpadas e acessórios; Elétrica: Pontos de tomada e interruptores; Elétrica: Eletrodutos e eletrocalhas; Instalações: CD CONDOMÍNIO AUXILIAR (ESTAÇÕES DE CARREGAMENTO)",
       "cub_referencia_memorial": "chiquetti-e-dalvesco-cielo",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-03",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-03-26"
     },
     {
       "slug": "chiquetti-e-dalvesco-esmeralda",
       "cliente_inferido": "chiquetti",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
+      "cidade": "Florianópolis",
       "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cub_regiao": "SC-Floripa",
       "ac_m2": 5579.71,
       "ur": 37,
       "total_rs": 0,
@@ -1134,7 +1221,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Considerado blocos, vigas de fundação, duto e cisterna. Cisterna de 3,5x8m com espessura de 10cm. Escavação empolamento 30% da escavação. Quantidade projeto - 30% de perda.",
       "cub_referencia_memorial": "chiquetti-e-dalvesco-esmeralda",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-03",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-04-24",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "chiquetti-e-dalvesco-nautilus",
@@ -1170,16 +1261,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "chiquetti-e-dalvesco-nautilus",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "chiquetti-e-dalvesco-santorini",
       "cliente_inferido": "chiquetti",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
+      "cidade": "Santorini",
       "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cub_regiao": "SC-Outros",
       "ac_m2": null,
       "ur": null,
       "total_rs": 0,
@@ -1206,7 +1299,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "chiquetti-e-dalvesco-santorini",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_entrega": "2022-08-03",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "ck-artefacto",
@@ -1242,7 +1337,10 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-11",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2403.54
     },
     {
       "slug": "ck-duo-praia-brava",
@@ -1278,7 +1376,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Endereço: Rua Ariribá, 119 - Balneário Santa Clara - Itajaí/SC",
       "cub_referencia_memorial": "ck-duo-praia-brava",
-      "data_memorial": "2021-04-23"
+      "data_memorial": "2021-04-23",
+      "data_base": "2021-04",
+      "data_base_fonte": "ground_truth_entrega"
     },
     {
       "slug": "ck-habitah",
@@ -1314,16 +1414,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Observações de orçamentista sobre revestimentos internos, acabamentos, esquadrias, vidros, ferragens e fachada.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-08",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2572.55
     },
     {
       "slug": "ck-rooftop",
       "cliente_inferido": "ck",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriu",
+      "cidade": "Balneário Camboriú",
       "uf": "SC",
-      "cub_regiao": "SC-Outros",
+      "cub_regiao": "SC-BC",
       "ac_m2": null,
       "ur": null,
       "total_rs": 0,
@@ -1350,7 +1453,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Localização: Rua 2950, 369 - Centro - Balneário Camboriu/SC",
       "cub_referencia_memorial": "ck-rooftop",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2021-03",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "ck-smart-navegantes",
@@ -1386,16 +1492,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Localização: Rua Manoel Candido Couto, 77 - Esquina com Rua Honorato Coelho da Rocha - Centro",
       "cub_referencia_memorial": "ck-smart-navegantes",
-      "data_memorial": "2021-03-29"
+      "data_memorial": "2021-03-29",
+      "data_base": "2021-03",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "null",
+      "cub_valor_entrega": "null"
     },
     {
       "slug": "ck-smart-sao-joao",
       "cliente_inferido": "ck",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriú",
+      "cidade": "Itajaí",
       "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": null,
       "ur": null,
       "total_rs": 0,
@@ -1422,16 +1532,21 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "ck-smart-sao-joao",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2021-03",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "null",
+      "cidade_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": "null"
     },
     {
       "slug": "ck-unique",
       "cliente_inferido": "ck",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriú",
+      "cidade": "Itajaí",
       "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": null,
       "ur": null,
       "total_rs": 0,
@@ -1458,7 +1573,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Concreto Usinado 40Mpa Slump 24+-2 Bombeado, Aplicação em Fundação",
       "cub_referencia_memorial": "ck-unique",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2018-09",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "ck-urbe",
@@ -1494,7 +1612,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Observações de orçamentista sobre revestimentos internos, acabamentos, esquadrias, vidros e ferragens.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "cln-porto-ruby",
@@ -1530,7 +1650,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Considerado 1 bomba para execução dos blocos e vigas baldrames, no prazo de 4 meses. Considerado blocos, vigas de fundação, duto e cisterna. Arbitrado tamanho de cisterna de 3,5x8m com espessura de 10cm. Considerado sem indicação em projeto, consideração de 13% de perda. Considerado empolamento 30% da escavação. Estimado com base em índices históricos. Definido conforme aba \"Canteiro\". Consideração de 4 caçambas de 5m³ ao mês - prevendo custo de 400,00/caçamba. Previsão para o período da infraestrutura. Conforme estimativa da aba \"Canteiro\".",
       "cub_referencia_memorial": "cln-porto-ruby",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-12",
+      "data_base_fonte": "ground_truth_entrega"
     },
     {
       "slug": "cn-brava-garden",
@@ -1566,16 +1688,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Observações de orçamentista sobre revestimentos internos, acabamentos, esquadrias, vidros, ferragens e fachada.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2022-03-29"
     },
     {
       "slug": "cn-brava-ocean",
       "cliente_inferido": "cn",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriú",
+      "cidade": "Itajaí",
       "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 505.35308352799916,
       "ur": null,
       "total_rs": 0,
@@ -1602,7 +1727,11 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-11",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2023-11-22",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "cn-brava-valley",
@@ -1638,7 +1767,10 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-05",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2470.83
     },
     {
       "slug": "colline-de-france-colline-de-france",
@@ -1674,7 +1806,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto Hotel+Residencial. AC total de 27559.45 m² (Hotel 6049 m² + Residencial 21510 m²). Alto padrão (Gramado). CUB/RJ. Considerado blocos, vigas de fundação, duto e cisterna. Estrutura com tipo de estaca pré-moldada.",
       "cub_referencia_memorial": "colline-de-france",
-      "data_memorial": "2025-03-01"
+      "data_memorial": "2025-03-01",
+      "data_base": "2025-03",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2303.36
     },
     {
       "slug": "cota-365",
@@ -1710,7 +1845,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Memorial focado em custos estruturais. Concreto total: 6413.01 m³. Aço total: 110365.49 kg. Fundação: blocos, vigas de fundação, duto e cisterna (3,5x8m). Tipo de estaca: hélice contínua.",
       "cub_referencia_memorial": "cota-365",
-      "data_memorial": "2025-07-01"
+      "data_memorial": "2025-07-01",
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "dimas-pb2",
@@ -1746,16 +1883,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 21215.27 m²",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "estilo-condominios-estilo-condominios",
       "cliente_inferido": "estilo",
       "padrao": "medio-alto",
       "tipologia_gemma": "casa_condominio",
-      "cidade": "Balneário Camboriú",
-      "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cidade": "Curitiba",
+      "uf": "PR",
+      "cub_regiao": "PR-Capital",
       "ac_m2": 23967.18,
       "ur": null,
       "total_rs": 8588624.95,
@@ -1782,14 +1921,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Loteamento (91 lotes), não é edifício. Macrogrupos simplificados (infraestrutura urbana).",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-05",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2023-06-19",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "etr-zion-meridian-tower",
       "cliente_inferido": "etr",
       "padrao": "alto",
       "tipologia_gemma": "residencial_multifamiliar",
-      "cidade": "Porto Belo",
+      "cidade": "Itapema",
       "uf": "SC",
       "cub_regiao": "SC-Litoral-Norte",
       "ac_m2": 4617.34,
@@ -1818,7 +1961,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Nome interno: Mediterraneo Tower. Ajuste de orçamento realizado conforme apontamentos do dia 12/11/2024.",
       "cub_referencia_memorial": "Mediterraneo Tower",
-      "data_memorial": "2025-01-01"
+      "data_memorial": "2025-01-01",
+      "data_base": "2024-11",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-01-06",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "exito-oiti",
@@ -1854,7 +2001,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Rua Heitor Liberato, 2131 - São Judas - Itajaí/SC",
       "cub_referencia_memorial": "exito-oiti",
-      "data_memorial": "2022-09-26"
+      "data_memorial": "2022-09-26",
+      "data_base": "2022-09",
+      "data_base_fonte": "ground_truth_entrega"
     },
     {
       "slug": "eze-bella-vivie",
@@ -1890,16 +2039,19 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-06",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2544.17
     },
     {
       "slug": "eze-eilat",
       "cliente_inferido": "eze",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriú",
+      "cidade": "Bombinhas",
       "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cub_regiao": "SC-Litoral-Norte",
       "ac_m2": 1767.3,
       "ur": null,
       "total_rs": 0,
@@ -1926,16 +2078,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-11",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2023-11-15",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "f-nogueira-soberano",
       "cliente_inferido": "f",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
-      "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cidade": "Ilhéus",
+      "uf": "BA",
+      "cub_regiao": "BA-Outros",
       "ac_m2": 27247.73,
       "ur": null,
       "total_rs": 71772532.29,
@@ -1962,7 +2118,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Total de unidades: 73.",
       "cub_referencia_memorial": "f-nogueira-soberano",
-      "data_memorial": "2022-05-01"
+      "data_memorial": "2022-05-01",
+      "data_base": "2022-03",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "f-nogueira-wpr",
@@ -1998,7 +2157,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Total de unidades: 73. Observações de orçamentista sobre revestimentos internos, acabamentos, esquadrias e fachada.",
       "cub_referencia_memorial": "f-nogueira-wpr",
-      "data_memorial": "2022-05-01"
+      "data_memorial": "2022-05-01",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "fg-blue-coast",
@@ -2034,16 +2195,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Estrutura considerada blocos, vigas de fundação, duto e cisterna. Tipo de estaca: hélice contínua.",
       "cub_referencia_memorial": "fg-blue-coast",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2021-04",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2171.33
     },
     {
       "slug": "fg-scenarium",
       "cliente_inferido": "fg",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
+      "cidade": "Itajaí",
       "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 42277.77,
       "ur": null,
       "total_rs": 206674002.44,
@@ -2070,16 +2234,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Alto padrao (Itajai). Contencao agregada a Infraestrutura.",
       "cub_referencia_memorial": "R16-A",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-12",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-12-16",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "fonseca-empreendimentos-estoril",
       "cliente_inferido": "fonseca",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
+      "cidade": "Camboriú",
       "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cub_regiao": "SC-BC",
       "ac_m2": 14491.98,
       "ur": 110,
       "total_rs": 48960377.088515654,
@@ -2106,16 +2274,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-12",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2026-01-15",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "gdi-playa-negra",
       "cliente_inferido": "gdi",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
-      "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cidade": "Null",
+      "uf": "null",
+      "cub_regiao": "null-Outros",
       "ac_m2": 8518.6,
       "ur": null,
       "total_rs": 37027025.39,
@@ -2142,16 +2314,21 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: gdi-playa-negra. AC: 8518.6 m². 69 unidades. Contencao agregada a Infraestrutura. Climatizacao+Equipamentos agrupados em Sist.Especiais.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "null",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "null",
+      "cidade_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": "null"
     },
     {
       "slug": "gmf-moradas-do-atalaia",
       "cliente_inferido": "gmf",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Itajai",
-      "uf": "outros",
-      "cub_regiao": "outros-Outros",
+      "cidade": "Itajaí",
+      "uf": "SC",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 7374.18,
       "ur": null,
       "total_rs": 25675656.81,
@@ -2178,7 +2355,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: gmf-moradas-do-atalaia. Custo Direto. AC: 7374.18 m².",
       "cub_referencia_memorial": "gmf-moradas-do-atalaia",
-      "data_memorial": "2024-04"
+      "data_memorial": "2024-04",
+      "data_base": "2024-04",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-05-08",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "grandezza-gran-royal",
@@ -2214,7 +2395,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Escavação de volume do subsolo: estimado pelo corte e detalhes de contenção. Volume de subsolo: com 30% de empolamento. Volume de valas: com 30% de empolamento.",
       "cub_referencia_memorial": "grandezza-gran-royal",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 3008.84
     },
     {
       "slug": "grandezza-gran-tower",
@@ -2250,7 +2434,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "grandezza-gran-tower",
-      "data_memorial": "2024-07-01"
+      "data_memorial": "2024-07-01",
+      "data_base": "2024-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2793.27
     },
     {
       "slug": "grupo-duo-colin",
@@ -2286,16 +2473,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Considerados os três subsolos. Sistema estrutural baseado em concreto armado (fck=40 MPa).",
       "cub_referencia_memorial": "grupo-duo-colin",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "grupo-duo-mosaico",
       "cliente_inferido": "grupo",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
+      "cidade": "Florianópolis",
       "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cub_regiao": "SC-Floripa",
       "ac_m2": 7672.04,
       "ur": 81,
       "total_rs": 0,
@@ -2322,7 +2511,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Estrutura: Considerado blocos, vigas de fundação, lajes, pilares de arranque, dutos e cisternas",
       "cub_referencia_memorial": "grupo-duo-mosaico",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-10",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-10-28",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "h-empreendimentos-atlantia",
@@ -2358,7 +2551,9 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "hacasa-brisa-da-armacao",
@@ -2394,16 +2589,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Obra sheet summary. AC=12828.33. 117 un hab + 4 comerciais. 20 pavimentos. Separou Rev.Argamassados+Acabamentos em Rev.Int.Parede/Pisos/Teto. CUB/SC nov/2024.",
       "cub_referencia_memorial": "hacasa-brisa-da-armacao",
-      "data_memorial": "2024-11-01"
+      "data_memorial": "2024-11-01",
+      "tipologia_canonica": "residencial_misto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "holze-sense-106",
       "cliente_inferido": "holze",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
-      "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cidade": "Null",
+      "uf": "null",
+      "cub_regiao": "null-Outros",
       "ac_m2": 8700.0,
       "ur": null,
       "total_rs": 30584964.89,
@@ -2430,7 +2627,8 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: holze-sense-106. AC: 8700.0 m². Total: R$ 30,584,965. Data base: nov/2024.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "homeset-homeset",
@@ -2466,16 +2664,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Endereço: Rua Francisco José de Aviz, 551 - Murta - Itajaí/SC",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-12",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2022-01-23"
     },
     {
       "slug": "inbrasul-aguas-de-marco",
       "cliente_inferido": "inbrasul",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
+      "cidade": "Navegantes",
       "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 6538.41,
       "ur": null,
       "total_rs": 24341958.32,
@@ -2502,16 +2703,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Orcamento Resumo. Sem Imprevistos. Dados conferem com verificacao anterior.",
       "cub_referencia_memorial": null,
-      "data_memorial": "2022-12-01"
+      "data_memorial": "2022-12-01",
+      "data_base": "2020-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "inbrasul-opus",
       "cliente_inferido": "inbrasul",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Florianópolis",
+      "cidade": "Navegantes",
       "uf": "SC",
-      "cub_regiao": "SC-Floripa",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 4410.5,
       "ur": 36,
       "total_rs": 16756730.41,
@@ -2538,7 +2742,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Orcamento Resumo. Sem Imprevistos.",
       "cub_referencia_memorial": null,
-      "data_memorial": "2022-12-01"
+      "data_memorial": "2022-12-01",
+      "data_base": "2022-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "indepy-caio-prado",
@@ -2574,7 +2781,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "UR: 135",
       "cub_referencia_memorial": "indepy-caio-prado",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-10",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-11-19"
     },
     {
       "slug": "indepy-stella-marina",
@@ -2610,7 +2820,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Observações de orçamentista: Verificar consideração de custo para constrole téccnologico; Fazer comporativo de corpo de prova por caminhão; Verificar consideração de custo para segurança do trabalho de obra e demais itens acrescentados em vermelho. Considerar valor de empresa tercerizada para assessoria de segurança do trabalho.",
       "cub_referencia_memorial": "indepy-stella-marina",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-10",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2276.34
     },
     {
       "slug": "kirchner-kirchner",
@@ -2646,7 +2859,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "libra-concept-libra-conecpt",
@@ -2682,16 +2897,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Observações de orçamentista sobre revestimentos internos, acabamentos, esquadrias, vidros e ferragens. Cobertura merged with Fachada.",
       "cub_referencia_memorial": "libra-concept-libra-conecpt",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "lotisa-serenity",
       "cliente_inferido": "lotisa",
       "padrao": "economico",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
-      "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cidade": "Null",
+      "uf": "null",
+      "cub_regiao": "null-Outros",
       "ac_m2": 13606.52,
       "ur": null,
       "total_rs": 20676527.759999998,
@@ -2718,7 +2935,12 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2021-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2021-10-18",
+      "cidade_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": "null"
     },
     {
       "slug": "lumis-live",
@@ -2754,16 +2976,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Memorial focado em serviços de obra e acabamento (Nível 01 e Nível 02).",
       "cub_referencia_memorial": "lumis-live",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2023-03-06"
     },
     {
       "slug": "mabrem-gran-torino",
       "cliente_inferido": "mabrem",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
-      "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cidade": "Null",
+      "uf": "null",
+      "cub_regiao": "null-Outros",
       "ac_m2": 12518.96,
       "ur": null,
       "total_rs": 37237429.53,
@@ -2790,7 +3015,12 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: mabrem-gran-torino. AC: 12518.96 m². Estrutura: Concreto total 3479.52 m³, Aço total 258820.0 kg. Fck predominante: 40 MPa. Tipo de estaca: hélice contínua.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-04",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "null",
+      "cidade_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": "2757.56"
     },
     {
       "slug": "mabrem-san-marino",
@@ -2826,7 +3056,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "2 elevadores (social+servico). Climatizacao separada. Imprevistos R$170k extraidos de Complementares.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2020-11",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2020-11-12"
     },
     {
       "slug": "macom-adda",
@@ -2862,7 +3095,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 4358.27 m² (H3, was incorrectly 332 before). Total=R$13.43M. CUB/Estado R$2725.79 (jun/2023). Fachada merged with Cobertura. 16 MGs + Imprevistos.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "macom-villa-lobos",
@@ -2898,7 +3133,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 6001.7 m²",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-07",
+      "data_base_fonte": "ground_truth_entrega"
     },
     {
       "slug": "mendes-empreendimentos-brava-mundo",
@@ -2934,16 +3171,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Endereço: Rua Delfim Mario de Padua Peixoto, 900 - Praia Brava - Itajaí/SC. Projeto: mendes-empreendimentos-brava-mundo.",
       "cub_referencia_memorial": null,
-      "data_memorial": "2022-04-20"
+      "data_memorial": "2022-04-20",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mendes-empreendimentos-brava-sixteen",
       "cliente_inferido": "mendes",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Itapema",
+      "cidade": "Itajaí",
       "uf": "SC",
-      "cub_regiao": "SC-Litoral-Norte",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 3282.64,
       "ur": null,
       "total_rs": 0,
@@ -2970,16 +3209,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "mendes-empreendimentos-brava-sixteen",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-05",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2023-05-18",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "mg3-la-vie",
       "cliente_inferido": "mg3",
       "padrao": "economico",
       "tipologia_gemma": "null",
-      "cidade": "null",
-      "uf": "MG",
-      "cub_regiao": "MG-Outros",
+      "cidade": "Balneário Camboriú",
+      "uf": "SC",
+      "cub_regiao": "SC-BC",
       "ac_m2": 10125.0,
       "ur": null,
       "total_rs": 0,
@@ -3006,16 +3249,17 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "O arquivo é um levantamento quantitativo arquitetônico (tabelas de alvenaria, revestimentos, pisos, fachadas), não um orçamento executivo. O valor AC (Área Construída) é 10125.0 m².",
       "cub_referencia_memorial": "mg3-la-vie",
-      "data_memorial": null
+      "data_memorial": null,
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "mtf-m-haus",
       "cliente_inferido": "mtf",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
+      "cidade": "Biguaçu",
       "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cub_regiao": "SC-Outros",
       "ac_m2": null,
       "ur": null,
       "total_rs": 0,
@@ -3042,16 +3286,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-04",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "mtf-m-village-jardim",
       "cliente_inferido": "mtf",
       "padrao": "medio-alto",
       "tipologia_gemma": "residencial_multifamiliar",
-      "cidade": "Itajaí",
+      "cidade": "Biguaçu",
       "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cub_regiao": "SC-Outros",
       "ac_m2": 8852.83,
       "ur": null,
       "total_rs": 33040428.68,
@@ -3078,7 +3325,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: mtf-m-village-jardim. Custo por m² (CUB/SC) em junho/2022: R$ 2643.16.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-06",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "muller-empreendimentos-elleva",
@@ -3114,16 +3364,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 2969.0 m². O projeto inclui Climatização e Gerador. O sistema estrutural é baseado em concreto armado (concreto total: 743.73 m³, aço total: 38980.0 kg). O memorial não especifica o padrão, tipologia ou área de terreno/lazer.",
       "cub_referencia_memorial": "muller-empreendimentos-elleva",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "muller-empreendimentos-guanabara",
       "cliente_inferido": "muller",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriú",
-      "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cidade": "Sinop",
+      "uf": "MT",
+      "cub_regiao": "MT-Outros",
       "ac_m2": 4440.5,
       "ur": null,
       "total_rs": 14337198.41,
@@ -3150,7 +3402,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Has Embasamento + Torre A + Torre B.",
       "cub_referencia_memorial": "muller-empreendimentos-guanabara",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "mussi-empreendimentos-brookliin",
@@ -3186,7 +3441,9 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mussi-empreendimentos-chelsea",
@@ -3222,7 +3479,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Climatização inclusa em Sistemas Especiais. Fundação por blocos, vigas de fundação, duto e cisterna (3,5x8m). Estacas de hélice contínua. Total de 41 unidades em 36 pavimentos.",
       "cub_referencia_memorial": "mussi-empreendimentos-chelsea",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "mussi-empreendimentos-soho",
@@ -3258,7 +3517,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto residencial (SOHO 538 ART RESIDENCES) com área construída de 12000 m². Estrutura em concreto armado com fck predominante de 40 MPa. Fundações em hélice contínua.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2021-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2021-02-26"
     },
     {
       "slug": "mussi-empreendimentos-velazquez",
@@ -3294,7 +3556,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: mussi-empreendimentos-velazquez",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2020-07",
+      "data_base_fonte": "ground_truth_entrega"
     },
     {
       "slug": "mz-central-park",
@@ -3330,7 +3594,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "neuhaus-botanico",
@@ -3366,7 +3632,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 12953.8 m². 99 unidades. Total: R$ 36,232,667. CUB/SC R$2461.35 (abr/2022). Fachada includes Cobertura.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "neuhaus-origem",
@@ -3402,7 +3670,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "O projeto é uma torre de 35 andares (35-story tower in BC).",
       "cub_referencia_memorial": "neuhaus-origem",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "nm-empreendimentos",
@@ -3438,7 +3708,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Obra: Suíça Home (NM Empreendimentos). Instalações includes Elet+Hidro+Prev+Climatização from Apresentação.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "nobria",
@@ -3474,7 +3746,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Residencial Maison Beach. Observações de orçamentista: ÁREA CONSTRUÍDA PRIVATIVA. Sem Loucas e Climatizacao separados. Rev.Int.Parede = revestimentos base; Pisos = acabamentos em piso e parede.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "nova-empreendimentos-domus",
@@ -3510,7 +3784,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 5009.0 m². Fck predominante: 35 MPa. Estrutura em concreto armado. O orçamento inclui custos de terreno, ITBI, incorporação e outorgas. Não há menção de subsolo, piscina, churrasqueira ou gerador.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2026-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2026-02-05"
     },
     {
       "slug": "nova-empreendimentos-evora",
@@ -3546,7 +3823,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Detalhe técnico: Guarda - corpo de desforma; Fechamento removível de vãos em madeira.",
       "cub_referencia_memorial": "nova-empreendimentos-evora",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-08-01"
     },
     {
       "slug": "nova-empreendimentos-malaga",
@@ -3582,7 +3862,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "nova-empreendimentos-malta",
@@ -3618,16 +3900,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: nova-empreendimentos-malta. AC: 7964.39 m². Estrutura: concreto armado, fck predominante 35 MPa. Estacas tipo raiz. Total de concreto: 2225.45 m³. Total de aço: 227303.99 kg.",
       "cub_referencia_memorial": "nova-empreendimentos-malta",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "paludo-barbados",
       "cliente_inferido": "paludo",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Bombinhas",
-      "uf": "SC",
-      "cub_regiao": "SC-Litoral-Norte",
+      "cidade": "Null",
+      "uf": "null",
+      "cub_regiao": "null-Outros",
       "ac_m2": 1728.35,
       "ur": null,
       "total_rs": 4807136.02,
@@ -3654,7 +3938,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Detalhamento de Escopo: REVESTIMENTOS INTERNOS EM PISO E PAREDE; Detalhamento de Escopo: REVESTIMENTOS E ACABAMENTOS INTERNOS EM TETO; Detalhamento de Escopo: ACABAMENTOS EM PISO E PAREDE; Detalhamento de Escopo: ESQUADRIAS, VIDROS E FERRAGENS; Detalhamento de Escopo: REVESTIMENTOS E ACABAMENTOS DE FACHADA.",
       "cub_referencia_memorial": "out/2021",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2021-10",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2021-10-05",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "paludo-nassau",
@@ -3690,16 +3978,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto residencial em Bombinhas/SC. Área construída total de 1402.94 m². Possui 9 unidades residenciais. Estrutura predominantemente em concreto armado com fck de 30 MPa.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2329.85
     },
     {
       "slug": "paludo-urban-life",
       "cliente_inferido": "paludo",
       "padrao": "economico",
       "tipologia_gemma": null,
-      "cidade": "Gramado",
-      "uf": "RS",
-      "cub_regiao": "RS-Serra",
+      "cidade": "Joaçaba",
+      "uf": "SC",
+      "cub_regiao": "SC-Outros",
       "ac_m2": 7040.19,
       "ur": null,
       "total_rs": 18479084.15,
@@ -3726,7 +4017,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 7040.19 m²",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2021-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "paludo-volo-home",
@@ -3762,16 +4056,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto residencial em Gramado/RS. Área construída total de 3972.3 m². Estrutura predominantemente em concreto armado com fck de 30 MPa.",
       "cub_referencia_memorial": "paludo-volo-home",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "paludo-volo-ocean",
       "cliente_inferido": "paludo",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Gramado",
-      "uf": "RS",
-      "cub_regiao": "RS-Serra",
+      "cidade": "Sc",
+      "uf": "SC",
+      "cub_regiao": "SC-Outros",
       "ac_m2": 3264.31,
       "ur": null,
       "total_rs": 11915766.19,
@@ -3798,7 +4094,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 3264.31 m²",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-12",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "parkside-trindade",
@@ -3834,7 +4133,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 3332.96 m². Valores combinados MAT+MO. ENXOVAL (R$ 3.88M) excluído do total - mobiliário/decoração. CUB/SC R$ 2993.04 (set/2025).",
       "cub_referencia_memorial": "parkside-trindade",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "pass-e-barao-de-albuquerque",
@@ -3870,7 +4171,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Memorial descritivo de custos estruturais. Inclui 3 Unidades Comerciais (Ger.Técnico + Ger.Administrativo + Ger.Executivo).",
       "cub_referencia_memorial": null,
-      "data_memorial": "2021-04-01"
+      "data_memorial": "2021-04-01",
+      "data_base": "2021-04",
+      "data_base_fonte": "ground_truth_entrega"
     },
     {
       "slug": "pass-e-belissimo",
@@ -3906,7 +4209,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "180 unidades. Alvenaria Estrutural (não vedação).",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2021-04",
+      "data_base_fonte": "ground_truth_entrega"
     },
     {
       "slug": "pass-e-celebration",
@@ -3942,7 +4247,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC corrigido de 411.21 para 7956.14 m². Total: R$ 25,046,006",
       "cub_referencia_memorial": "R$ 2680.84",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-05",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2680.84
     },
     {
       "slug": "pass-e-connect",
@@ -3978,16 +4286,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Orçamento completo. Imprevistos inclui taxa ADM.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-03",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-04-04"
     },
     {
       "slug": "pass-e-passione",
       "cliente_inferido": "pass",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
+      "cidade": "Porto Belo",
       "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cub_regiao": "SC-Litoral-Norte",
       "ac_m2": 6681.54,
       "ur": null,
       "total_rs": 25287249.72,
@@ -4014,7 +4325,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Orçamento completo R05. CUB/SC R$ 2907.85 (mar/2025).",
       "cub_referencia_memorial": "pass-e-passione",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2021-06",
+      "data_base_fonte": "ground_truth_entrega",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "pass-e-vancouver",
@@ -4050,7 +4364,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "30 UH. CUB/SC R$ 2444.30 (mar/2022). Inclui Imprevistos.",
       "cub_referencia_memorial": "R$ 2444.30",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-03",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2444.3
     },
     {
       "slug": "pavcor",
@@ -4086,7 +4403,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Orçamento executivo R01. 90 UH. Projeto Cinque.",
       "cub_referencia_memorial": "pavcor",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "placon-arminio-tavares",
@@ -4122,16 +4441,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto de fundação e concreto protendido para o Edificio Arminio Tavares. Projetos de sistemas de proteção contra descarga atmosférica (Para-Raio), rede hidrossanitária e prevenção e combate a incêndio para Edifício Multifamiliar.",
       "cub_referencia_memorial": "null",
-      "data_memorial": "null"
+      "data_memorial": "null",
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "rosner-reserva-sao-vicente",
       "cliente_inferido": "rosner",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriú",
+      "cidade": "Itajaí",
       "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cub_regiao": "SC-Vale-Itajai",
       "ac_m2": 7007.86,
       "ur": null,
       "total_rs": 22650779.19,
@@ -4158,7 +4479,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Custo baseado em índices Alameda Jardins. Estrutura: Hélice contínua. Total de concreto: 1920.96 m³. Total de aço: 208796.61 kg.",
       "cub_referencia_memorial": "rosner-reserva-sao-vicente",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-12",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-12-13",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "sak-engenharia",
@@ -4194,7 +4519,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 1700.61 m². CUB/SC R$ 2680.84 (abr/2023).",
       "cub_referencia_memorial": "Edifício Austin",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "san-fellice",
@@ -4230,7 +4557,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "O projeto possui 18 pavimentos listados, mas a contagem de pavimentos distintos (Térreo/G01 a Rooftop) sugere 14 níveis funcionais (G01, G02, G03, Tipo X8, Tipo, Tipo, Tipo, Tipo, Tipo, Tipo, Rooftop, Cobertura, Barrilete, Reservatório superior/Tampa).",
       "cub_referencia_memorial": "522 Amalfi San felice",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "media"
     },
     {
       "slug": "santa-maria-feat",
@@ -4266,7 +4595,10 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2019-01",
+      "data_base_fonte": "ground_truth_entrega",
+      "cub_valor_entrega": 2752.32
     },
     {
       "slug": "santa-maria-unimed",
@@ -4302,16 +4634,19 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: santa-maria-unimed. Total: R$ 84,236,844.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-12",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-01-16"
     },
     {
       "slug": "santa-maria-z",
       "cliente_inferido": "santa",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Chapeco",
+      "cidade": "Chapecó",
       "uf": "SC",
-      "cub_regiao": "SC-Outros",
+      "cub_regiao": "SC-Oeste",
       "ac_m2": null,
       "ur": null,
       "total_rs": 0,
@@ -4338,7 +4673,8 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Localização: RUA MARECHAL FLORIANO PEIXOTO, 148-O - CENTRO - Chapeco/SC",
       "cub_referencia_memorial": null,
-      "data_memorial": "2022-08-18"
+      "data_memorial": "2022-08-18",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "santo-andre-belle-ville",
@@ -4374,16 +4710,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Fundação com estacas de hélice contínua. Concreto predominante: 40 MPa.",
       "cub_referencia_memorial": "santo-andre-belle-ville",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_medio_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "santo-andre-lausanne",
       "cliente_inferido": "santo",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Camboriú",
-      "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cidade": "Campinas",
+      "uf": "SP",
+      "cub_regiao": "SP-Interior",
       "ac_m2": 353.536954760314,
       "ur": null,
       "total_rs": 0,
@@ -4410,7 +4748,11 @@
       "tem_metadados_gemma": false,
       "observacoes_gemma": null,
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-02",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-03-07",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "somauma-virginia",
@@ -4446,7 +4788,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": null,
       "cub_referencia_memorial": "somauma-virginia",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "terrassa-amaro",
@@ -4482,7 +4826,9 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Dados estruturais disponíveis: Concreto total (3901.62 m³), Aço total (300906.0 kg), Fck predominante (40 MPa). Tipo de estaca: hélice contínua.",
       "cub_referencia_memorial": "terrassa-amaro",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "terrassa-dom-bosco",
@@ -4518,7 +4864,10 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Dados estruturais preliminares e estimativas de custo.",
       "cub_referencia_memorial": "terrassa-dom-bosco",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2022-11",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2022-12-20"
     },
     {
       "slug": "thozen-electra",
@@ -4554,14 +4903,16 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "O empreendimento possui 8 prumadas independentes de exaustão para churrasqueiras, totalizando 195 churrasqueiras. O sistema de exaustão é centralizado e requer inversores de frequência e botoeiras de comando.",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "thozen-mirador-de-alicante",
       "cliente_inferido": "thozen",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Itapema",
+      "cidade": "Porto Belo",
       "uf": "SC",
       "cub_regiao": "SC-Litoral-Norte",
       "ac_m2": 474.8275485666585,
@@ -4590,16 +4941,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Projeto: thozen-mirador-de-alicante",
       "cub_referencia_memorial": null,
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2023-12",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2024-05-23",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "viva4-barra4",
       "cliente_inferido": "viva4",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
+      "cidade": "Florianópolis",
       "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cub_regiao": "SC-Floripa",
       "ac_m2": 13223.259999999998,
       "ur": 99,
       "total_rs": 0,
@@ -4626,16 +4981,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Concreto total: 3769.28 m3; Aço total: 295209.57 kg; Fundação concreto: 1375.62 m3; Fundação aço: 85686.18 kg.",
       "cub_referencia_memorial": "viva4-barra4",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2024-12",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-01-22",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "viva4-pio4",
       "cliente_inferido": "viva4",
       "padrao": "medio-alto",
       "tipologia_gemma": null,
-      "cidade": "Itajaí",
+      "cidade": "Florianópolis",
       "uf": "SC",
-      "cub_regiao": "SC-Vale-Itajai",
+      "cub_regiao": "SC-Floripa",
       "ac_m2": 13540.93,
       "ur": 176,
       "total_rs": 0,
@@ -4662,16 +5021,20 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Considerado blocos e vigas de fundação.",
       "cub_referencia_memorial": "viva4-pio4",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-06",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-07-17",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "wf-aquarius",
       "cliente_inferido": "wf",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriú",
+      "cidade": "Porto Belo",
       "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cub_regiao": "SC-Litoral-Norte",
       "ac_m2": 16789.049999999996,
       "ur": 84,
       "total_rs": 0,
@@ -4698,7 +5061,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Considerado empolamento 30% da escavação. Profundidade média de 25m. Estrutura considerada: blocos, vigas de fundação, lajes, pilares de arranque, dutos e cisternas.",
       "cub_referencia_memorial": "wf-aquarius",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "2025-07",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-10-07",
+      "cidade_fonte": "ground_truth_entrega"
     },
     {
       "slug": "xpcon-marena",
@@ -4734,16 +5101,18 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "AC: 4174.83 m²; UR: 20",
       "cub_referencia_memorial": "xpcon-marena",
-      "data_memorial": null
+      "data_memorial": null,
+      "tipologia_canonica": "residencial_vertical_alto",
+      "tipologia_confianca": "alta"
     },
     {
       "slug": "xpcon-porto-cerro",
       "cliente_inferido": "xpcon",
       "padrao": "alto",
       "tipologia_gemma": null,
-      "cidade": "Balneário Camboriú",
-      "uf": "SC",
-      "cub_regiao": "SC-BC",
+      "cidade": "Null",
+      "uf": "null",
+      "cub_regiao": "null-Outros",
       "ac_m2": 13188.75,
       "ur": 86,
       "total_rs": 0,
@@ -4770,7 +5139,11 @@
       "tem_metadados_gemma": true,
       "observacoes_gemma": "Dados estruturais disponíveis: concreto total (2903.36 m³), aço total (255035.81 kg), fck predominante (40 MPa), tipo de estaca (hélice contínua).",
       "cub_referencia_memorial": "xpcon-porto-cerro",
-      "data_memorial": null
+      "data_memorial": null,
+      "data_base": "null",
+      "data_base_fonte": "ground_truth_entrega",
+      "data_entrega": "2025-09-03",
+      "cidade_fonte": "ground_truth_entrega"
     }
   ]
 }

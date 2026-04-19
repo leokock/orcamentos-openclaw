@@ -2,7 +2,7 @@
 
 **Tipo de combinação:** Região × Padrão
 **N projetos:** 3
-**Gerado:** 2026-04-19T01:24:47
+**Gerado:** 2026-04-19T09:15:41
 
 ---
 
@@ -12,20 +12,21 @@
 
 | Indicador | Mediana | n |
 |---|---:|---:|
-| Taxa aço (kg/m³ concreto) | 77.9 | 3 |
+| Taxa aço (kg/m³ concreto) | 69.0 | 3 |
 
 ## Top clientes nesta combinação
 
-- **ck**: 2 projeto(s)
-- **santa**: 1 projeto(s)
+- **chiquetti**: 1 projeto(s)
+- **ck**: 1 projeto(s)
+- **mtf**: 1 projeto(s)
 
 ## Projetos (3)
 
 | Projeto | AC (m²) | R$/m² | Tipologia | Cidade |
 |---|---:|---:|---|---|
-| `ck-rooftop` | N/D | N/D | rv_alto | Balneário Camboriu |
+| `chiquetti-e-dalvesco-santorini` | N/D | N/D | rv_alto | Santorini |
 | `ck-smart-navegantes` | N/D | N/D | rv_alto | Navegantes |
-| `santa-maria-z` | N/D | N/D | rv_alto | Chapeco |
+| `mtf-m-haus` | N/D | N/D | rv_alto | Biguaçu |
 
 ## Interpretação automática
 

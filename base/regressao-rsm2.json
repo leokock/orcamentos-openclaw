@@ -1,19 +1,22 @@
 {
-  "gerado_em": "2026-04-18T15:10:57",
+  "gerado_em": "2026-04-19T09:15:40",
   "n_projetos": 55,
-  "r2": 0.3885,
-  "rmse": 935.24,
-  "mae": 658.25,
-  "std_residuo": 935.24,
+  "r2": 0.3134,
+  "rmse": 990.98,
+  "mae": 668.99,
+  "std_residuo": 990.98,
   "features_usadas": [
     "log_ac",
+    "cub_regiao_MT-Outros",
+    "cub_regiao_RS-Serra",
     "cub_regiao_SC-BC",
     "cub_regiao_SC-Floripa",
     "cub_regiao_SC-Litoral-Norte",
     "cub_regiao_SC-Oeste",
+    "cub_regiao_SC-Outros",
     "cub_regiao_SC-Vale-Itajai",
     "cub_regiao_SP-Capital",
-    "cub_regiao_outros-Outros",
+    "cub_regiao_null-Outros",
     "padrao_economico",
     "padrao_medio",
     "padrao_medio-alto",
@@ -25,113 +28,134 @@
   "coeficientes": [
     {
       "feature": "intercept",
-      "coef": 6857.45,
-      "ic_95_low": 1499.37,
-      "ic_95_high": 13684.91
+      "coef": 3845.14,
+      "ic_95_low": -2826.58,
+      "ic_95_high": 11915.03
     },
     {
       "feature": "log_ac",
-      "coef": -264.34,
-      "ic_95_low": -976.87,
-      "ic_95_high": 183.91,
+      "coef": -64.5,
+      "ic_95_low": -777.13,
+      "ic_95_high": 460.29,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_MT-Outros",
+      "coef": 477.66,
+      "ic_95_low": -842.16,
+      "ic_95_high": 1299.17,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_RS-Serra",
+      "coef": 1081.49,
+      "ic_95_low": -1246.72,
+      "ic_95_high": 3632.84,
       "significativo": false
     },
     {
       "feature": "cub_regiao_SC-BC",
-      "coef": -66.88,
-      "ic_95_low": -1832.4,
-      "ic_95_high": 1600.43,
+      "coef": 1099.08,
+      "ic_95_low": -399.78,
+      "ic_95_high": 2209.23,
       "significativo": false
     },
     {
       "feature": "cub_regiao_SC-Floripa",
-      "coef": 559.0,
-      "ic_95_low": -1219.13,
-      "ic_95_high": 2451.27,
-      "significativo": false
+      "coef": 1549.14,
+      "ic_95_low": 195.13,
+      "ic_95_high": 3267.36,
+      "significativo": true
     },
     {
       "feature": "cub_regiao_SC-Litoral-Norte",
-      "coef": -944.01,
-      "ic_95_low": -2729.72,
-      "ic_95_high": 569.51,
+      "coef": 904.33,
+      "ic_95_low": -1144.27,
+      "ic_95_high": 2887.46,
       "significativo": false
     },
     {
       "feature": "cub_regiao_SC-Oeste",
-      "coef": -939.29,
-      "ic_95_low": -3002.65,
-      "ic_95_high": 1945.97,
+      "coef": -189.39,
+      "ic_95_low": -2410.38,
+      "ic_95_high": 1673.85,
+      "significativo": false
+    },
+    {
+      "feature": "cub_regiao_SC-Outros",
+      "coef": 1125.59,
+      "ic_95_low": -381.9,
+      "ic_95_high": 2226.03,
       "significativo": false
     },
     {
       "feature": "cub_regiao_SC-Vale-Itajai",
-      "coef": -310.45,
-      "ic_95_low": -1800.23,
-      "ic_95_high": 1376.68,
+      "coef": 771.87,
+      "ic_95_low": -545.99,
+      "ic_95_high": 1952.0,
       "significativo": false
     },
     {
       "feature": "cub_regiao_SP-Capital",
-      "coef": -613.28,
-      "ic_95_low": -2099.58,
-      "ic_95_high": 825.82,
+      "coef": 362.16,
+      "ic_95_low": -1127.86,
+      "ic_95_high": 1747.55,
       "significativo": false
     },
     {
-      "feature": "cub_regiao_outros-Outros",
-      "coef": -63.13,
-      "ic_95_low": -1128.51,
-      "ic_95_high": 1544.8,
+      "feature": "cub_regiao_null-Outros",
+      "coef": 637.96,
+      "ic_95_low": -968.49,
+      "ic_95_high": 1715.4,
       "significativo": false
     },
     {
       "feature": "padrao_economico",
-      "coef": -1068.87,
-      "ic_95_low": -2019.17,
-      "ic_95_high": 57.63,
+      "coef": -1022.5,
+      "ic_95_low": -2011.64,
+      "ic_95_high": 301.87,
       "significativo": false
     },
     {
       "feature": "padrao_medio",
-      "coef": -2430.12,
-      "ic_95_low": -3299.12,
+      "coef": -2201.83,
+      "ic_95_low": -3474.09,
       "ic_95_high": 0.0,
       "significativo": false
     },
     {
       "feature": "padrao_medio-alto",
-      "coef": -456.97,
-      "ic_95_low": -1276.62,
-      "ic_95_high": 659.72,
+      "coef": -246.85,
+      "ic_95_low": -1384.7,
+      "ic_95_high": 1299.92,
       "significativo": false
     },
     {
       "feature": "tipologia_canonica_residencial_vertical_alto",
-      "coef": -416.18,
-      "ic_95_low": -2605.54,
-      "ic_95_high": 1274.89,
+      "coef": -305.55,
+      "ic_95_low": -2352.34,
+      "ic_95_high": 2041.8,
       "significativo": false
     },
     {
       "feature": "tipologia_canonica_residencial_vertical_economico",
-      "coef": -1068.87,
-      "ic_95_low": -2019.17,
-      "ic_95_high": 57.63,
+      "coef": -1022.5,
+      "ic_95_low": -2011.64,
+      "ic_95_high": 301.87,
       "significativo": false
     },
     {
       "feature": "tipologia_canonica_residencial_vertical_medio",
-      "coef": 313.79,
-      "ic_95_low": -1893.85,
-      "ic_95_high": 1619.35,
+      "coef": 215.34,
+      "ic_95_low": -1669.83,
+      "ic_95_high": 1736.49,
       "significativo": false
     },
     {
       "feature": "tipologia_canonica_residencial_vertical_medio_alto",
-      "coef": -501.4,
-      "ic_95_low": -3111.92,
-      "ic_95_high": 948.91,
+      "coef": -381.27,
+      "ic_95_low": -2592.73,
+      "ic_95_high": 1602.45,
       "significativo": false
     }
   ]
