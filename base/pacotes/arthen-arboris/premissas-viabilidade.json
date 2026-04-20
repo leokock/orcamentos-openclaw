@@ -1,16 +1,16 @@
 {
-  "_gerado_em": "2026-04-14",
-  "_descricao": "Premissas da viabilidade financeira Arthen Arboris — editáveis; o script gerar_viabilidade_arthen_arboris.py consome este arquivo e produz viabilidade-arthen-arboris.xlsx",
+  "_gerado_em": "2026-04-20",
+  "_descricao": "Premissas da viabilidade financeira Arthen Arboris — editáveis. Atualizada em 2026-04-20 com base no paramétrico v00-final (R$ 39.379.139,40 / 36 meses de obra / Itapema). Consumida por gerar_viabilidade_arthen_arboris.py, produz viabilidade-arthen-arboris-v2.xlsx",
 
   "projeto": {
     "nome": "Arthen Arboris",
-    "cidade": "Porto Belo",
+    "cidade": "Itapema",
     "bairro": "Perequê",
     "estado": "SC",
     "cliente": "Arthen Engenharia e Construções",
     "area_construida_m2": 12472.98,
     "n_unidades": 98,
-    "prazo_obra_meses": 30,
+    "prazo_obra_meses": 36,
     "prazo_pre_lancamento_meses": 3,
     "prazo_pos_obra_meses": 12,
     "pct_area_privativa": 0.70,
@@ -18,7 +18,7 @@
   },
 
   "custo": {
-    "_fonte": "parametrico-arthen-arboris.xlsx CUSTOS_MACROGRUPO!D22 (lido em runtime)",
+    "_fonte": "arthen-arboris-parametrico-v00-final.xlsx CUSTOS_MACROGRUPO!D22 (lido em runtime) = R$ 39.379.139,40",
     "contingencia_pct": 0.05
   },
 
@@ -41,7 +41,8 @@
   "comercial": {
     "corretagem_pct": 0.06,
     "marketing_pct": 0.03,
-    "marketing_front_pct": 0.40,
+    "marketing_front_pct": 0.0,
+    "_marketing_nota": "Marketing 3% distribuído LINEARMENTE ao longo dos 36 meses da obra (sem front-load). Decisão pós v00-final (20/04/2026): o pré-lançamento usa estande que já é contabilizado no marketing base.",
     "ret_pct": 0.04,
     "_ret_fonte": "Regime Especial de Tributação — Lei 10.931/04 art. 4º, Patrimônio de Afetação, 4% sobre receita recebida",
     "adm_incorporadora_pct": 0.03
@@ -50,38 +51,47 @@
   "curva_vendas": {
     "_modelo": "logística cumulativa: %_acum(t) = 1/(1+exp(-k*(t-t50)))",
     "t_inicio": -2,
-    "t50": 14,
-    "k": 0.18
+    "t50": 17,
+    "_t50_nota": "t50 ajustado de 14 → 17 por aumento de prazo obra 30 → 36 meses (mesma proporção ~47% da obra)",
+    "k": 0.15
   },
 
   "curva_obra_por_macrogrupo": {
-    "_unidades": "mês_inicio..mês_fim (1..30 = obra). Distribuição uniforme dentro da janela. Custo total virá do parametrico xlsx.",
-    "Gerenciamento": [1, 30],
-    "Mov. Terra": [1, 3],
-    "Infraestrutura": [1, 8],
-    "Supraestrutura": [3, 18],
-    "Alvenaria": [8, 22],
-    "Impermeabilização": [5, 25],
-    "Instalações": [10, 28],
-    "Sist. Especiais": [18, 29],
-    "Climatização": [20, 29],
-    "Rev. Int. Parede": [15, 27],
-    "Teto": [18, 28],
-    "Pisos": [20, 29],
-    "Pintura": [22, 30],
-    "Esquadrias": [18, 28],
-    "Louças e Metais": [22, 29],
-    "Fachada": [15, 27],
-    "Complementares": [24, 30],
-    "Imprevistos": [1, 30]
+    "_unidades": "mês_inicio..mês_fim (1..36 = obra). Usado apenas para visualização Gantt e stacked. Distribuição mensal efetiva vem de curva_mensal_obra_pct (abaixo).",
+    "Gerenciamento": [1, 36],
+    "Mov. Terra": [1, 4],
+    "Infraestrutura": [1, 10],
+    "Supraestrutura": [4, 22],
+    "Alvenaria": [10, 26],
+    "Impermeabilização": [6, 30],
+    "Instalações": [12, 34],
+    "Sist. Especiais": [22, 35],
+    "Climatização": [24, 35],
+    "Rev. Int. Parede": [18, 32],
+    "Teto": [22, 34],
+    "Pisos": [24, 35],
+    "Pintura": [26, 36],
+    "Esquadrias": [22, 34],
+    "Louças e Metais": [26, 35],
+    "Fachada": [18, 32],
+    "Complementares": [29, 36],
+    "Imprevistos": [1, 36]
+  },
+
+  "curva_mensal_obra_pct": {
+    "_descricao": "Curva de desembolso mensal da obra — 36 meses. Usada no fluxo de caixa e Monte Carlo. Mesma curva da apresentação ppt arthen-arboris-apresentacao-v00-final (slide 18).",
+    "_soma": "100.0%",
+    "valores": [0.004, 0.006, 0.008, 0.010, 0.013, 0.017, 0.021, 0.025, 0.030, 0.035, 0.040, 0.045, 0.049, 0.053, 0.055, 0.057, 0.058, 0.057, 0.055, 0.053, 0.049, 0.045, 0.040, 0.035, 0.030, 0.025, 0.021, 0.017, 0.013, 0.010, 0.008, 0.006, 0.004, 0.003, 0.002, 0.001]
   },
 
   "monte_carlo": {
     "n_iter": 10000,
     "seed": 42,
+    "_base_nota": "A base do MC é o ORÇAMENTO PARAMÉTRICO DELIVERED (v00-final) = R$ 39.379.139,40. custo_obra_fator=1.00 representa executar o orçamento exatamente como entregue. Variações simulam desvios de execução (concorrência, aditivos, replanejamento).",
     "vgv_m2_tri": [11000, 15394, 22000],
-    "custo_obra_fator_tri": [0.90, 1.00, 1.15],
-    "t50_vendas_tri": [8, 14, 24],
+    "custo_obra_fator_tri": [0.95, 1.00, 1.12],
+    "_custo_fator_nota": "Range estreitado (antes 0.90-1.15): o paramétrico V2 Híbrido calibrado contra 126 projetos tem precisão típica ±10%. Assimetria para cima reflete risco maior de aditivos do que de economias.",
+    "t50_vendas_tri": [10, 17, 28],
     "cub_aa_tri": [0.04, 0.07, 0.11],
     "corr_vgv_t50": -0.4,
     "_correlacao_fonte": "preço alto ↔ venda mais lenta (modelagem conservadora)"
