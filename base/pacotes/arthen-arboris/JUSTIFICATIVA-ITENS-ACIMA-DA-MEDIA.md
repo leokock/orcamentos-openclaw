@@ -41,9 +41,10 @@ autor: Coordenação de Custos Cartesian
 
 **Nota sobre Gerenciamento:** com equipe enxuta (Engenheiro R$ 8.000/mês, Mestre R$ 7.000, Encarregado R$ 4.000 e Vigilância verba de R$ 5.000/mês), o Arboris fica em **R$ 324/m²**, abaixo da média de mercado M-A (R$ 475/m²).
 
-**Nota sobre Revestimento Argamassado de Parede:** Arboris fica em **R$ 115/m² AC** com toda a alvenaria em bloco cerâmico (memorial item 4.3), o que implica maior superfície a rebocar do que obras com sistemas mistos. Este macrogrupo **não é comparável** com a média de mercado M-A, porque parte relevante das obras da base Cartesian usa drywall em áreas internas (drywall não recebe reboco, reduzindo o custo argamassado dessas obras). A comparação honesta exige filtrar apenas obras 100% alvenaria convencional.
+**Nota sobre Revestimentos de Parede (comparação filtrada):** como o memorial do Arboris determina alvenaria 100% em bloco cerâmico (sem drywall), a comparação é feita contra obras da base Cartesian que também são 100% alvenaria convencional — 3 projetos comparáveis (Amalfi Maiori, Pavcor, Terrassa).
 
-**Nota sobre Revestimentos Cerâmicos/Acabamento de Parede:** Arboris fica em **R$ 55/m² AC** contra média de mercado R$ 140/m² (**-61%**) — abaixo pela limitação do memorial (azulejo 30×45 só em BWCs e parede molhada de cozinha, sem granito em bancadas, sem azulejo em áreas secas).
+- **Rev. Argamassado (reboco + chapisco + MO):** Arboris **R$ 115/m² AC** contra média de obras 100% alvenaria **R$ 167/m² AC** → **-31% abaixo**. Arboris usa PUs medianos de mercado (reboco R$ 7/m² + MO R$ 22,50/m²) sobre uma superfície de 40.880 m² — o valor menor reflete escopo enxuto da execução, não subdimensionamento.
+- **Rev. Cerâmico/Acabamento (azulejos + porcelanato + MO):** Arboris **R$ 55/m² AC** contra média de obras 100% alvenaria **R$ 71/m² AC** → **-23% abaixo**. O desvio reflete a limitação clara do memorial: azulejo 30×45 só em BWCs e parede molhada de cozinha, sem granito em bancadas, sem azulejo em áreas secas.
 
 **5 macrogrupos acima da média** (contra 9 na versão anterior que especulava drywall + cerâmica de fachada — ambos **não** declarados no memorial). Todos os desvios são **estruturais ou de memorial**, não há sobreespecificação.
 

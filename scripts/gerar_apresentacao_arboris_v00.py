@@ -547,8 +547,8 @@ comp = [
     ('Sist. Especiais', 119, 173, '-31%'),
     ('Climatização', 25, 31, '-19%'),
     ('Impermeabilização', 54, 60, '-10%'),
-    ('Rev. Argamassado de Parede', 115, None, '—*'),
-    ('Rev. Cerâmico / Acabamento Parede', 55, 140, '-61%'),
+    ('Rev. Argamassado de Parede*', 115, 167, '-31%'),
+    ('Rev. Cerâmico / Acabamento Parede*', 55, 71, '-23%'),
     ('Teto', 73, 60, '+22%'),
     ('Pisos', 184, 199, '-8%'),
     ('Pintura', 152, 125, '+22%'),
@@ -588,7 +588,7 @@ for i, (name, arb, med, var) in enumerate(comp):
     y += Inches(0.23)
 
 add_text(s, Inches(0.5), Inches(6.9), Inches(12), Inches(0.3),
-         '* Rev. Argamassado: não comparável com esta média — obras da base usam sistemas mistos (bloco + drywall). Arboris é 100% alvenaria conforme memorial (superfície de reboco maior).',
+         '* Rev. de Parede: média comparada somente com obras 100% alvenaria convencional (sem drywall), mesma configuração do Arboris.',
          size=9, color=CINZA_TXT)
 add_text(s, Inches(0.5), Inches(7.15), Inches(12), Inches(0.3),
          'Valores em R$/m² AC, indexados ao CUB/SC Mar/2026.',
