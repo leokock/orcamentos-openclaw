@@ -70,7 +70,7 @@ def add_footer(slide):
 AC = 12472.98
 UR = 98
 CUB = 3028.45
-TOTAL_V00 = 38784505  # após correção Pintura
+TOTAL_V00 = 39728474  # após correção reboco 100%
 
 # Macrogrupos v00 (ordem da planilha)
 MACROS = [
@@ -83,7 +83,7 @@ MACROS = [
     ('EQUIPAMENTOS E SISTEMAS ESPECIAIS', 1490000, 3.8, 119),
     ('CLIMATIZAÇÃO', 315930, 0.8, 25),
     ('IMPERMEABILIZAÇÃO', 669838, 1.7, 54),
-    ('REVESTIMENTOS INTERNOS DE PAREDE', 1182223, 3.0, 95),
+    ('REVESTIMENTOS INTERNOS DE PAREDE', 2112243, 5.3, 169),
     ('REVESTIMENTOS E ACABAMENTOS EM TETO', 905729, 2.3, 73),
     ('PISOS E PAVIMENTAÇÕES', 2293599, 5.9, 184),
     ('PINTURA INTERNA', 1902115, 4.9, 152),
@@ -91,7 +91,7 @@ MACROS = [
     ('LOUÇAS E METAIS', 191100, 0.5, 15),
     ('FACHADA', 1894634, 4.9, 152),
     ('SERVIÇOS COMPLEMENTARES', 1518921, 3.9, 122),
-    ('IMPREVISTOS E CONTINGÊNCIAS', 573244, 1.5, 46),
+    ('IMPREVISTOS E CONTINGÊNCIAS', 587120, 1.5, 47),
 ]
 
 # ============================================================
@@ -276,10 +276,10 @@ add_text(s, Inches(0.8), Inches(0.6), Inches(12), Inches(0.8),
          'VISÃO GERAL DO ORÇAMENTO', size=32, bold=True, color=AZUL_PRIM)
 
 cards = [
-    ('R$ 38,8 Mi', 'CUSTO TOTAL', 'Valor global do empreendimento'),
-    ('R$ 3.109/m²', 'CUSTO POR M²', 'Área construída: 12.473 m²'),
-    ('R$ 396 mil', 'CUSTO POR UNIDADE', 'Total de 98 unidades'),
-    ('1,03 CUB', 'FATOR CUB/SC', 'CUB Mar/2026: R$ 3.028,45'),
+    ('R$ 39,7 Mi', 'CUSTO TOTAL', 'Valor global do empreendimento'),
+    ('R$ 3.185/m²', 'CUSTO POR M²', 'Área construída: 12.473 m²'),
+    ('R$ 405 mil', 'CUSTO POR UNIDADE', 'Total de 98 unidades'),
+    ('1,05 CUB', 'FATOR CUB/SC', 'CUB Mar/2026: R$ 3.028,45'),
 ]
 xs = [Inches(0.8), Inches(7.0)]
 ys = [Inches(1.6), Inches(4.3)]
@@ -475,10 +475,10 @@ specs_blocos = [
          ['Bloco cerâmico 14cm — tijolo furado em todas as vedações (memorial)',
           'Vergas e contravergas em concreto armado',
           'Bloco de concreto celular na escada enclausurada (resistência ao fogo)']),
-        ('REV. INTERNO DE PAREDE', '3,0%', 'R$ 1.182.223  |  R$ 95/m²',
-         ['Reboco massa única + chapisco em todas as áreas',
+        ('REV. INTERNO DE PAREDE', '5,3%', 'R$ 2.112.243  |  R$ 169/m²',
+         ['Reboco em massa única + chapisco em todas as paredes internas (100% bloco cerâmico)',
           'Azulejo 30×45 em banheiros e parede molhada de cozinha (memorial)',
-          'Porcelanato em halls principais do edifício']),
+          'Porcelanato nos halls principais do edifício']),
     ],
     # Slide 12
     [
@@ -546,7 +546,7 @@ comp = [
     ('Sist. Especiais', 119, 173, '-31%'),
     ('Climatização', 25, 31, '-19%'),
     ('Impermeabilização', 54, 60, '-10%'),
-    ('Rev. Argamassado de Parede', 40, 90, '-56%'),
+    ('Rev. Argamassado de Parede', 115, 90, '+28%'),
     ('Rev. Cerâmico / Acabamento Parede', 55, 140, '-61%'),
     ('Teto', 73, 60, '+22%'),
     ('Pisos', 184, 199, '-8%'),
@@ -555,8 +555,8 @@ comp = [
     ('Louças e Metais', 15, 60, '-75%'),
     ('Fachada', 152, 117, '+29%'),
     ('Complementares', 122, 201, '-39%'),
-    ('Imprevistos', 46, 50, '-8%'),
-    ('TOTAL', 3109, 3349, '-7,2%'),
+    ('Imprevistos', 47, 50, '-6%'),
+    ('TOTAL', 3185, 3349, '-4,9%'),
 ]
 hdr_y = Inches(1.6)
 add_rect(s, Inches(1.8), hdr_y, Inches(9.7), Inches(0.4), AZUL_PRIM)
@@ -606,6 +606,14 @@ justificativas = [
          'Pé-direito padrão 3,00m em 19 pav. repetição amplifica dimensionamento estrutural',
          'Índices físicos na mediana da base (concreto 0,25 m³/m² AC, aço 106 kg/m² AC)',
      ]),
+    ('REV. ARGAMASSADO DE PAREDE', 115, 90, '+28%',
+     '100% alvenaria em bloco cerâmico — maior superfície para rebocar (memorial 4.3)',
+     [
+         'Memorial declara alvenaria em tijolos furados em todas as vedações',
+         'Todas as paredes (40.880 m²) recebem chapisco + reboco em massa única',
+         'Obras com sistemas mistos (bloco + drywall) reduzem superfície de reboco em 30-50%',
+         'PUs de mercado: reboco R$ 7/m² + chapisco R$ 5,50/m² + MO R$ 22,50/m²',
+     ]),
     ('INSTALAÇÕES', 394, 332, '+19%',
      'Tipologia 2 suítes + lavabo + cozinha (3 BWCs/apto, memorial)',
      [
@@ -640,7 +648,7 @@ justificativas = [
      ]),
 ]
 
-# Divide em 2 slides: 3 + 2
+# Divide em 2 slides: 3 + 3
 grupos = [justificativas[:3], justificativas[3:]]
 for idx, grupo in enumerate(grupos):
     s = add_blank_slide()
@@ -931,7 +939,7 @@ add_text(s, Inches(0.5), Inches(7.0), W - Inches(1.0), Inches(0.35),
 
 # ============ SALVAR ============
 import os
-output_path = 'C:/Users/leona/orcamentos/parametricos/arthen-arboris/arthen-arboris-apresentacao-v00d.pptx'
+output_path = 'C:/Users/leona/orcamentos/parametricos/arthen-arboris/arthen-arboris-apresentacao-v00-final.pptx'
 prs.save(output_path)
 print(f"\n✅ Apresentacao v00 salva: {output_path}")
 print(f"   Slides: {len(prs.slides)}")

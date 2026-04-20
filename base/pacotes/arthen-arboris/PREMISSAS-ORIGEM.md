@@ -162,7 +162,7 @@ Este documento apresenta, item a item, de onde vieram as premissas adotadas no p
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Reboco em massa única + chapisco em todas as áreas | Prática usual de execução | Cartesian |
+| Reboco em massa única + chapisco em todas as paredes internas (alvenaria 100% em bloco cerâmico) | Memorial item 4.3 (alvenaria convencional) | Memorial |
 | Azulejo 30×45 em banheiros | Memorial itens 5.3 e 6.3.2 | Memorial |
 | Azulejo 30×45 na parede molhada da cozinha (não em toda a parede) | Memorial item 6.4.2 | Memorial |
 | Azulejo 30×45 na parede molhada da área de serviço | Memorial item 6.5.2 | Memorial |

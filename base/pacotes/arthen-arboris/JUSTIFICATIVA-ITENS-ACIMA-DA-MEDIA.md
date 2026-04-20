@@ -12,7 +12,7 @@ autor: Coordenação de Custos Cartesian
 
 # Justificativa — Itens acima da média de mercado
 
-> **Contexto:** o paramétrico do Arboris totaliza **R$ 3.109/m² AC (1,03 CUB | R$ 395.760/UR)**, posicionado **-7,2% abaixo da mediana da base de obras Médio-Alto da Cartesian** (R$ 3.349/m²) e acima da mediana do padrão Médio (R$ 2.467/m²). Com o memorial declarando padrão "MÉDIO" e especificando acabamentos Médio-Alto (Portobello, Deca, Incepa), o resultado v00 fica **no entre-padrões**, compatível com o produto declarado.
+> **Contexto:** o paramétrico do Arboris totaliza **R$ 3.185/m² AC (1,05 CUB | R$ 405.393/UR)**, posicionado **-4,9% abaixo da mediana da base de obras Médio-Alto da Cartesian** (R$ 3.349/m²) e acima da mediana do padrão Médio (R$ 2.467/m²). Com o memorial declarando padrão "MÉDIO" e especificando acabamentos Médio-Alto (Portobello, Deca, Incepa), o resultado v00 fica **no entre-padrões**, compatível com o produto declarado.
 >
 > Este documento justifica **cada macrogrupo que está acima da média Médio-Alto** após aplicação do memorial, esclarecendo se o desvio é **estrutural** (geometria/tipologia), **operacional** (especificação do memorial) ou **dimensional** (escopo do empreendimento).
 
@@ -22,10 +22,10 @@ autor: Coordenação de Custos Cartesian
 
 | Métrica | Arboris v00 | Média Médio (n=4) | Média Médio-Alto (n=60) | Média Alto (n=57) |
 |---|---:|---:|---:|---:|
-| R$/m² AC | **3.109** | 2.467 | 3.349 | 4.156 |
-| Posição | Entre Médio e M-A | -21% | +7% abaixo | -25% |
+| R$/m² AC | **3.185** | 2.467 | 3.349 | 4.156 |
+| Posição | Entre Médio e M-A | -23% | +5% abaixo | -23% |
 
-**Arboris v00 está 7,2% abaixo da mediana Médio-Alto** — resultado esperado após aplicação do memorial, que reduz escopos (sem subsolo, sem drywall, sem cerâmica fachada, sem cubas/bancadas/metais) e equipe de gerenciamento enxuta.
+**Arboris v00 está 4,9% abaixo da mediana Médio-Alto** — resultado esperado após aplicação do memorial, que reduz escopos (sem subsolo, sem drywall, sem cerâmica fachada, sem cubas/bancadas/metais) e equipe de gerenciamento enxuta.
 
 ---
 
@@ -34,6 +34,7 @@ autor: Coordenação de Custos Cartesian
 | Macrogrupo | Arboris v00 | Média de mercado M-A | Desvio | Natureza do desvio |
 |---|---:|---:|---:|---|
 | Supraestrutura | R$ 728/m² | R$ 655/m² | +11% | Estrutural (torre 24 pav., laje maciça) |
+| Rev. Argamassado de Parede | R$ 115/m² | R$ 90/m² | +28% | Memorial (100% alvenaria em bloco — maior superfície para rebocar) |
 | Instalações | R$ 394/m² | R$ 332/m² | +19% | Estrutural (tipologia 2 suítes + lavabo) |
 | Esquadrias | R$ 325/m² | R$ 301/m² | +8% | Memorial (alumínio eletrostático + granito nas soleiras) |
 | Pintura Interna | R$ 152/m² | R$ 125/m² | +22% | Memorial (escopo amplo em áreas comuns, garagens e escadas) |
@@ -41,9 +42,7 @@ autor: Coordenação de Custos Cartesian
 
 **Nota sobre Gerenciamento:** com equipe enxuta (Engenheiro R$ 8.000/mês, Mestre R$ 7.000, Encarregado R$ 4.000 e Vigilância verba de R$ 5.000/mês), o Arboris fica em **R$ 324/m²**, abaixo da média de mercado M-A (R$ 475/m²).
 
-**Nota sobre Revestimentos Internos de Parede:** dividindo em argamassado (reboco + chapisco + MO) e cerâmico/acabamento (azulejos + porcelanato + MO), Arboris está abaixo da média de mercado nos dois:
-- Argamassado: R$ 40/m² (Arboris) vs R$ 90/m² (mercado) — **-56%**, por escopo mais enxuto (sem drywall para rebocar adicionalmente)
-- Cerâmico/acabamento: R$ 55/m² (Arboris) vs R$ 140/m² (mercado) — **-61%**, por escopo limitado ao memorial (azulejo 30×45 só em BWCs e parede molhada de cozinha, sem granito em bancadas, sem azulejo em áreas secas)
+**Nota sobre Revestimentos Cerâmicos/Acabamento de Parede:** Arboris fica em **R$ 55/m² AC** contra média de mercado R$ 140/m² (**-61%**) — abaixo pela limitação do memorial (azulejo 30×45 só em BWCs e parede molhada de cozinha, sem granito em bancadas, sem azulejo em áreas secas).
 
 **5 macrogrupos acima da média** (contra 9 na versão anterior que especulava drywall + cerâmica de fachada — ambos **não** declarados no memorial). Todos os desvios são **estruturais ou de memorial**, não há sobreespecificação.
 
@@ -103,7 +102,20 @@ autor: Coordenação de Custos Cartesian
 
 ---
 
-## 4. Pintura Interna — R$ 152/m² AC  (+22% vs média M-A R$ 125)
+## 4. Revestimento Argamassado de Parede — R$ 115/m² AC  (+28% vs média M-A R$ 90)
+
+**Desvio: memorial especifica alvenaria 100% em bloco cerâmico — maior superfície para rebocar.**
+
+**Razões técnicas:**
+- Memorial item 4.3 declara **alvenaria convencional em tijolos furados em todas as vedações** (paredes externas, internas e divisórias)
+- Todas as paredes recebem **chapisco + reboco em massa única** antes de qualquer acabamento
+- A superfície total de alvenaria a ser rebocada é de aproximadamente **40.880 m²** (3,28 m²/m² de AC)
+- Obras com sistemas mistos (parte em bloco, parte em drywall) reduzem a superfície de reboco em 30-50% — daí a média de mercado mais baixa
+- PUs aplicados estão na média de mercado: reboco R$ 7/m² + chapisco R$ 5,50/m² + MO R$ 22,50/m²
+
+**Conclusão:** desvio de +28% reflete a **escolha do sistema construtivo** declarada no memorial (100% alvenaria convencional). Se houvesse drywall em áreas internas, o custo cairia, mas perderia-se o isolamento acústico melhor entregue pela alvenaria de bloco.
+
+## 5. Pintura Interna — R$ 152/m² AC  (+22% vs média M-A R$ 125)
 
 **Desvio: escopo amplo (várias áreas) — o sistema de pintura em si é enxuto.**
 
@@ -120,7 +132,7 @@ autor: Coordenação de Custos Cartesian
 
 ---
 
-## 5. Fachada — R$ 152/m² AC  (+29% vs média M-A R$ 117)
+## 6. Fachada — R$ 152/m² AC  (+29% vs média M-A R$ 117)
 
 **Desvio: dimensional, pela altura do edifício.**
 
