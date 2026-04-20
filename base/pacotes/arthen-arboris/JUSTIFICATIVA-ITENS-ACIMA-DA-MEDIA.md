@@ -34,13 +34,14 @@ autor: Coordenação de Custos Cartesian
 | Macrogrupo | Arboris v00 | Média de mercado M-A | Desvio | Natureza do desvio |
 |---|---:|---:|---:|---|
 | Supraestrutura | R$ 728/m² | R$ 655/m² | +11% | Estrutural (torre 24 pav., laje maciça) |
-| Rev. Argamassado de Parede | R$ 115/m² | R$ 90/m² | +28% | Memorial (100% alvenaria em bloco — maior superfície para rebocar) |
 | Instalações | R$ 394/m² | R$ 332/m² | +19% | Estrutural (tipologia 2 suítes + lavabo) |
 | Esquadrias | R$ 325/m² | R$ 301/m² | +8% | Memorial (alumínio eletrostático + granito nas soleiras) |
 | Pintura Interna | R$ 152/m² | R$ 125/m² | +22% | Memorial (escopo amplo em áreas comuns, garagens e escadas) |
 | Fachada | R$ 152/m² | R$ 117/m² | +29% | Dimensional (torre 24 pav. × 1,55 m²/m² AC) |
 
 **Nota sobre Gerenciamento:** com equipe enxuta (Engenheiro R$ 8.000/mês, Mestre R$ 7.000, Encarregado R$ 4.000 e Vigilância verba de R$ 5.000/mês), o Arboris fica em **R$ 324/m²**, abaixo da média de mercado M-A (R$ 475/m²).
+
+**Nota sobre Revestimento Argamassado de Parede:** Arboris fica em **R$ 115/m² AC** com toda a alvenaria em bloco cerâmico (memorial item 4.3), o que implica maior superfície a rebocar do que obras com sistemas mistos. Este macrogrupo **não é comparável** com a média de mercado M-A, porque parte relevante das obras da base Cartesian usa drywall em áreas internas (drywall não recebe reboco, reduzindo o custo argamassado dessas obras). A comparação honesta exige filtrar apenas obras 100% alvenaria convencional.
 
 **Nota sobre Revestimentos Cerâmicos/Acabamento de Parede:** Arboris fica em **R$ 55/m² AC** contra média de mercado R$ 140/m² (**-61%**) — abaixo pela limitação do memorial (azulejo 30×45 só em BWCs e parede molhada de cozinha, sem granito em bancadas, sem azulejo em áreas secas).
 
@@ -102,20 +103,7 @@ autor: Coordenação de Custos Cartesian
 
 ---
 
-## 4. Revestimento Argamassado de Parede — R$ 115/m² AC  (+28% vs média M-A R$ 90)
-
-**Desvio: memorial especifica alvenaria 100% em bloco cerâmico — maior superfície para rebocar.**
-
-**Razões técnicas:**
-- Memorial item 4.3 declara **alvenaria convencional em tijolos furados em todas as vedações** (paredes externas, internas e divisórias)
-- Todas as paredes recebem **chapisco + reboco em massa única** antes de qualquer acabamento
-- A superfície total de alvenaria a ser rebocada é de aproximadamente **40.880 m²** (3,28 m²/m² de AC)
-- Obras com sistemas mistos (parte em bloco, parte em drywall) reduzem a superfície de reboco em 30-50% — daí a média de mercado mais baixa
-- PUs aplicados estão na média de mercado: reboco R$ 7/m² + chapisco R$ 5,50/m² + MO R$ 22,50/m²
-
-**Conclusão:** desvio de +28% reflete a **escolha do sistema construtivo** declarada no memorial (100% alvenaria convencional). Se houvesse drywall em áreas internas, o custo cairia, mas perderia-se o isolamento acústico melhor entregue pela alvenaria de bloco.
-
-## 5. Pintura Interna — R$ 152/m² AC  (+22% vs média M-A R$ 125)
+## 4. Pintura Interna — R$ 152/m² AC  (+22% vs média M-A R$ 125)
 
 **Desvio: escopo amplo (várias áreas) — o sistema de pintura em si é enxuto.**
 
@@ -132,7 +120,7 @@ autor: Coordenação de Custos Cartesian
 
 ---
 
-## 6. Fachada — R$ 152/m² AC  (+29% vs média M-A R$ 117)
+## 5. Fachada — R$ 152/m² AC  (+29% vs média M-A R$ 117)
 
 **Desvio: dimensional, pela altura do edifício.**
 

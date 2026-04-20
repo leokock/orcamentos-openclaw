@@ -72,27 +72,28 @@ UR = 98
 CUB = 3028.45
 TOTAL_V00 = 39728474  # após correção reboco 100%
 
-# Macrogrupos v00 (ordem da planilha)
-MACROS = [
-    ('GERENCIAMENTO TÉCNICO E ADMINISTRATIVO', 4039260, 10.4, 324),
-    ('MOVIMENTAÇÃO DE TERRA', 187095, 0.5, 15),
-    ('INFRAESTRUTURA', 2237313, 5.8, 179),
-    ('SUPRAESTRUTURA', 9074861, 23.4, 728),
-    ('ALVENARIA', 1336777, 3.4, 107),
-    ('INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS', 4918221, 12.7, 394),
-    ('EQUIPAMENTOS E SISTEMAS ESPECIAIS', 1490000, 3.8, 119),
-    ('CLIMATIZAÇÃO', 315930, 0.8, 25),
-    ('IMPERMEABILIZAÇÃO', 669838, 1.7, 54),
-    ('REVESTIMENTOS INTERNOS DE PAREDE', 2112243, 5.3, 169),
-    ('REVESTIMENTOS E ACABAMENTOS EM TETO', 905729, 2.3, 73),
-    ('PISOS E PAVIMENTAÇÕES', 2293599, 5.9, 184),
-    ('PINTURA INTERNA', 1902115, 4.9, 152),
-    ('ESQUADRIAS, VIDROS E FERRAGENS', 4053719, 10.5, 325),
-    ('LOUÇAS E METAIS', 191100, 0.5, 15),
-    ('FACHADA', 1894634, 4.9, 152),
-    ('SERVIÇOS COMPLEMENTARES', 1518921, 3.9, 122),
-    ('IMPREVISTOS E CONTINGÊNCIAS', 587120, 1.5, 47),
+# Macrogrupos v00 — % calculados dinamicamente para consistência
+_MACROS_RAW = [
+    ('GERENCIAMENTO TÉCNICO E ADMINISTRATIVO', 4039260, 324),
+    ('MOVIMENTAÇÃO DE TERRA', 187095, 15),
+    ('INFRAESTRUTURA', 2237313, 179),
+    ('SUPRAESTRUTURA', 9074861, 728),
+    ('ALVENARIA', 1336777, 107),
+    ('INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, GLP E PREVENTIVAS', 4918221, 394),
+    ('EQUIPAMENTOS E SISTEMAS ESPECIAIS', 1490000, 119),
+    ('CLIMATIZAÇÃO', 315930, 25),
+    ('IMPERMEABILIZAÇÃO', 669838, 54),
+    ('REVESTIMENTOS INTERNOS DE PAREDE', 2112243, 169),
+    ('REVESTIMENTOS E ACABAMENTOS EM TETO', 905729, 73),
+    ('PISOS E PAVIMENTAÇÕES', 2293599, 184),
+    ('PINTURA INTERNA', 1902115, 152),
+    ('ESQUADRIAS, VIDROS E FERRAGENS', 4053719, 325),
+    ('LOUÇAS E METAIS', 191100, 15),
+    ('FACHADA', 1894634, 152),
+    ('SERVIÇOS COMPLEMENTARES', 1518921, 122),
+    ('IMPREVISTOS E CONTINGÊNCIAS', 587120, 47),
 ]
+MACROS = [(n, v, round(v/TOTAL_V00*100, 1), r) for n, v, r in _MACROS_RAW]
 
 # ============================================================
 # SLIDE 1 — Capa Cartesian
@@ -546,7 +547,7 @@ comp = [
     ('Sist. Especiais', 119, 173, '-31%'),
     ('Climatização', 25, 31, '-19%'),
     ('Impermeabilização', 54, 60, '-10%'),
-    ('Rev. Argamassado de Parede', 115, 90, '+28%'),
+    ('Rev. Argamassado de Parede', 115, None, '—*'),
     ('Rev. Cerâmico / Acabamento Parede', 55, 140, '-61%'),
     ('Teto', 73, 60, '+22%'),
     ('Pisos', 184, 199, '-8%'),
@@ -578,15 +579,16 @@ for i, (name, arb, med, var) in enumerate(comp):
              name, size=10, color=txt_color, bold=is_total, anchor=MSO_ANCHOR.MIDDLE)
     add_text(s, Inches(5.4), y, Inches(2.0), Inches(0.23),
              f'R$ {arb:,}'.replace(',', '.'), size=10, color=txt_color, bold=is_total, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    med_txt = f'R$ {med:,}'.replace(',', '.') if med is not None else '—'
     add_text(s, Inches(7.4), y, Inches(2.0), Inches(0.23),
-             f'R$ {med:,}'.replace(',', '.'), size=10, color=txt_color, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
-    var_color = BRANCO if is_total else (AZUL_PRIM if var.startswith('-') else LARANJA)
+             med_txt, size=10, color=txt_color, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    var_color = BRANCO if is_total else (AZUL_PRIM if var.startswith('-') else (CINZA_TXT if var.startswith('—') else LARANJA))
     add_text(s, Inches(9.4), y, Inches(2.0), Inches(0.23),
              var, size=10, bold=True, color=var_color, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
     y += Inches(0.23)
 
 add_text(s, Inches(0.5), Inches(6.9), Inches(12), Inches(0.3),
-         'Rev. Argamassado = reboco + chapisco + MO  |  Rev. Cerâmico = azulejos + porcelanato + argamassa colante + MO assentamento',
+         '* Rev. Argamassado: não comparável com esta média — obras da base usam sistemas mistos (bloco + drywall). Arboris é 100% alvenaria conforme memorial (superfície de reboco maior).',
          size=9, color=CINZA_TXT)
 add_text(s, Inches(0.5), Inches(7.15), Inches(12), Inches(0.3),
          'Valores em R$/m² AC, indexados ao CUB/SC Mar/2026.',
@@ -605,14 +607,6 @@ justificativas = [
          'Laje convencional maciça amplia consumo de concreto em ~25% vs nervurada',
          'Pé-direito padrão 3,00m em 19 pav. repetição amplifica dimensionamento estrutural',
          'Índices físicos na mediana da base (concreto 0,25 m³/m² AC, aço 106 kg/m² AC)',
-     ]),
-    ('REV. ARGAMASSADO DE PAREDE', 115, 90, '+28%',
-     '100% alvenaria em bloco cerâmico — maior superfície para rebocar (memorial 4.3)',
-     [
-         'Memorial declara alvenaria em tijolos furados em todas as vedações',
-         'Todas as paredes (40.880 m²) recebem chapisco + reboco em massa única',
-         'Obras com sistemas mistos (bloco + drywall) reduzem superfície de reboco em 30-50%',
-         'PUs de mercado: reboco R$ 7/m² + chapisco R$ 5,50/m² + MO R$ 22,50/m²',
      ]),
     ('INSTALAÇÕES', 394, 332, '+19%',
      'Tipologia 2 suítes + lavabo + cozinha (3 BWCs/apto, memorial)',
@@ -648,7 +642,7 @@ justificativas = [
      ]),
 ]
 
-# Divide em 2 slides: 3 + 3
+# Divide em 2 slides: 3 + 2
 grupos = [justificativas[:3], justificativas[3:]]
 for idx, grupo in enumerate(grupos):
     s = add_blank_slide()
