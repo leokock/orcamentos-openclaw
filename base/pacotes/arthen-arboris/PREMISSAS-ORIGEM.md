@@ -1,45 +1,43 @@
 ---
 projeto: Arthen Arboris
 cliente: Arthen Empreendimentos
-local: **Itapema/SC** (Morretes — Ruas 418 e 420)
+local: Itapema/SC (Morretes — Ruas 418 e 420)
 data_base: Março/2026
 versao: v00 (primeira entrega ao cliente)
-data_analise: 2026-04-20
+data_analise: Abril/2026
 fonte_primaria: MORRETES - RUA 418 - MEMORIAL DESCRITIVO.pdf (07/08/2024)
 ---
 
 # Origem das Premissas — Arthen Arboris
 
-> Este documento rastreia **item a item** de onde vieram as premissas do paramétrico. Duas classificações possíveis:
->
-> - 📋 **[MEMORIAL]** — especificação explícita no memorial descritivo do cliente
-> - 📊 **[CARTESIAN]** — estimativa com base na média de mercado e base histórica Cartesian (126 obras)
-> - 🏗️ **[PROJETO]** — obtido dos projetos DWG/PDF no Drive (planta, corte, arquitetura)
+Este documento apresenta, item a item, de onde vieram as premissas adotadas no paramétrico:
+
+- **[MEMORIAL]** — especificação declarada explicitamente no memorial descritivo do cliente
+- **[CARTESIAN]** — estimativa Cartesian com base em média de mercado e em 126 obras comparáveis já orçadas
+- **[PROJETO]** — dado obtido dos projetos arquitetônicos (DWG/PDF) do Drive
 
 ---
 
-## Dados físicos e briefing
+## Dados físicos e premissas gerais
 
 | Campo | Valor | Fonte |
 |---|---|---|
-| Endereço | Ruas 418 e 420, Morretes — Itapema/SC | 📋 Memorial |
-| Área do terreno | 1.008,00 m² | 📋 Memorial |
-| Área construída total | 12.472,98 m² | 📋 Memorial |
-| Unidades residenciais | 90 | 📋 Memorial |
-| Unidades comerciais | 8 | 📋 Memorial |
-| Total de unidades | 98 | 📋 Memorial |
-| Vagas de estacionamento | 99 | 📋 Memorial |
-| Pavimentos | 24 (Térreo + G1 + G2 + G3 + Diferenciado + 14 Tipo + Rooftop + Cobertura) | 📋 Memorial + 🏗️ Projetos |
-| Apartamentos/andar tipo | 6 (2 suítes + lavabo + sala com cozinha + sacada c/ churrasq.) | 📋 Memorial |
-| Elevadores | 2 (1 social + 1 emergência), marca Atlas/Thyssen/Otis ou equivalente | 📋 Memorial |
-| Padrão declarado | **MÉDIO** (interesse social) | 📋 Memorial |
-| Padrão técnico (acabamentos) | Médio-Alto (Portobello, Deca, Incepa) | 📊 Cartesian inferido dos materiais |
-| Subsolos | **ZERO** (tudo acima do nível do solo) | 📋 Memorial |
-| Sistema estrutural | Concreto armado, estacas hélice contínua | 📋 Memorial |
-| fck mínimo concreto | 20 MPa (memorial) → 30 MPa (prática Cartesian) | 📋 + 📊 |
-| Aço | CA-50 e CA-60 | 📋 Memorial |
-| Prazo de execução | 36 meses | 📊 Cartesian (memorial não declara) |
-| CUB referência | R$ 3.028,45 (Mar/26) | 📊 Sinduscon-SC |
+| Endereço | Ruas 418 e 420, Morretes — Itapema/SC | Memorial |
+| Área do terreno | 1.008,00 m² | Memorial |
+| Área construída total | 12.472,98 m² | Memorial |
+| Unidades residenciais | 90 | Memorial |
+| Unidades comerciais | 8 | Memorial |
+| Total de unidades | 98 | Memorial |
+| Vagas de estacionamento | 99 | Memorial |
+| Pavimentos | 24 (Térreo + G1 + G2 + G3 + Diferenciado + 14 Tipo + Rooftop + Cobertura) | Memorial + Projetos |
+| Apartamentos por andar tipo | 6 (2 suítes + lavabo + living com cozinha + sacada com churrasqueira) | Memorial |
+| Elevadores | 2 (1 social + 1 de emergência) | Memorial |
+| Padrão declarado | Médio (Interesse Social) | Memorial |
+| Subsolos | Não há — tudo acima do nível do solo | Memorial |
+| Sistema estrutural | Concreto armado com estacas hélice contínua | Memorial |
+| Aço | CA-50 e CA-60 | Memorial |
+| Prazo de execução | 36 meses | Cartesian — prática usual para torres de 24 pavimentos |
+| CUB referência | R$ 3.028,45 (Março/2026) | Sinduscon-SC |
 
 ---
 
@@ -47,269 +45,229 @@ fonte_primaria: MORRETES - RUA 418 - MEMORIAL DESCRITIVO.pdf (07/08/2024)
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Prazo 36 meses | Cartesian (memorial não declara; 36m é mediana pra torres 24 pav.) | 📊 |
-| Engenheiro PJ | R$ 8.000/mês | 📊 Cartesian — padrão médio (v00) |
-| Mestre de obras | R$ 7.000/mês | 📊 Cartesian — padrão médio (v00) |
-| Encarregado | R$ 4.000/mês | 📊 Cartesian — padrão médio (v00) |
-| ~~Estagiário~~ | **NÃO INCLUSO** | Decisão projeto (v00) |
-| ~~Técnico de segurança~~ | **NÃO INCLUSO** | Decisão projeto (v00) |
-| Almoxarife | R$ 3.377/mês | 📊 Mediana Cartesian (n=4) |
-| Vigilância | R$ 5.000/mês (verba) | 📊 Cartesian — verba reduzida (v00) |
-| Limpeza obra (2) | R$ 2.500/mês cada | 📊 Cartesian |
-| EPI | R$ 908/mês | 📊 Mediana Cartesian (n=8) |
-| Placas de obra | 📋 Memorial declara | 📋 |
-| Canteiro + containers + instalações provisórias | Cartesian (memorial não dimensiona) | 📊 |
-| Cremalheira + minigrua | Cartesian (memorial não declara) | 📊 |
-| Projetos + consultorias (ATP, compat., BIM) | Cartesian | 📊 |
-| Taxas + seguros + ensaios + meio ambiente | Cartesian | 📊 |
+| Prazo de 36 meses | Prática usual Cartesian para torres de 24 pavimentos | Cartesian |
+| Engenheiro residente PJ | R$ 8.000/mês | Cartesian — padrão médio |
+| Mestre de obras | R$ 7.000/mês | Cartesian — padrão médio |
+| Encarregado | R$ 4.000/mês | Cartesian — padrão médio |
+| Almoxarife | R$ 3.377/mês | Cartesian — valor de mercado |
+| Vigilância (verba mensal) | R$ 5.000/mês | Cartesian — verba enxuta |
+| Limpeza de obra (2 auxiliares) | R$ 2.500/mês cada | Cartesian |
+| EPI coletivo | R$ 908/mês | Cartesian |
+| Placas de identificação da obra | Conforme normas | Memorial item 1 |
+| Canteiro + containers + instalações provisórias | Dimensionamento Cartesian | Cartesian |
+| Cremalheira e minigrua em regime de locação | Necessário para torre de 24 pav. | Cartesian |
+| Projetos e consultorias (arquitetura + ATP + compatibilização BIM) | Escopo padrão | Cartesian |
+| Taxas, seguros, ensaios tecnológicos e meio ambiente | Exigências legais | Cartesian |
 
 ## Macrogrupo 2 — Movimentação de Terra
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Escavação para fundações | 📋 Memorial item 2 | 📋 |
-| PU R$ 15/m² AC | Cartesian — **sem subsolo** (memorial) | 📊 |
-| ❌ Contenção, escoramento de subsolo, bota-fora profundo | **NÃO APLICÁVEL** — memorial confirma ausência de subsolo | 📋 |
+| Escavação para fundações | Memorial item 2 | Memorial |
+| R$ 15/m² AC | Valor de mercado para obra sem subsolo em solo típico do litoral norte SC | Cartesian + Memorial |
 
 ## Macrogrupo 3 — Infraestrutura
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Fundação hélice contínua Ø40cm | 📋 Memorial 4.1 | 📋 |
-| 190 estacas × 20m médio | 🏗️ Estimado do projeto + norma NBR 6122 | 🏗️ |
-| PU R$ 82/m perfuração | 📊 Base Cartesian (n=6) | 📊 |
-| PU R$ 632/m³ concreto estaca | 📊 Base Cartesian (n=6) | 📊 |
-| Aço fundação R$ 8,77/kg | 📊 Base Cartesian (n=7) | 📊 |
-| ❌ Contenção de subsolo | **ZERADO** — memorial: sem subsolo | 📋 |
+| Fundação em estacas hélice contínua Ø40cm | Memorial item 4.1 (NBR 6122) | Memorial |
+| 190 estacas × 20m de profundidade média | Estimado a partir do projeto arquitetônico e da sondagem | Projeto |
+| PU perfuração R$ 82/m | Valor de mercado para hélice contínua Ø40cm | Cartesian |
+| PU concreto de estaca R$ 632/m³ | Valor de mercado (inclui bombeamento em perfuração) | Cartesian |
+| PU aço de fundação R$ 8,77/kg | Valor de mercado | Cartesian |
+| Blocos, baldrames e formas | Dimensionamento padrão | Cartesian |
+| Mão de obra de fundação (empreitada) | Split padrão Cartesian (~35%) | Cartesian |
 
 ## Macrogrupo 4 — Supraestrutura
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Sistema concreto armado | 📋 Memorial 4.2 | 📋 |
-| Laje tipo "mista" (memorial) → premissa **maciça convencional** | 📋 + 📊 |
-| fck 30 MPa | 📋 Memorial mínimo 20 + 📊 Cartesian prática moderna | 📋 + 📊 |
-| Aço CA-50 | 📋 Memorial 4.2 | 📋 |
-| Formas compensado plastif. | 📋 Memorial (pinho/naval 17mm) + 📊 prática atual (plastif. 18mm) | 📋 + 📊 |
-| Índice concreto 0,25 m³/m² AC | 📊 Mediana base Cartesian (n=64) | 📊 |
-| Índice aço 106 kg/m² AC | 📊 Mediana base Cartesian (n=65) | 📊 |
-| Índice forma 7,12 m²/m² AC | 📊 Mediana base Cartesian (n=69) | 📊 |
-| PU concreto R$ 590/m³ (fck30) | 📊 Base Cartesian P75 (n=6) | 📊 |
-| PU aço R$ 8,67/kg | 📊 Mediana base (n=12) | 📊 |
-| PU forma R$ 88/m² | 📊 Entre mediana e P75 base (n=17) | 📊 |
-| MO estrutura empreitada R$ 185/m² AC | 📊 Mediana base (n=15) | 📊 |
-| Escoramento metálico R$ 20/m² | 📊 Base Cartesian — laje maciça | 📊 |
+| Sistema em concreto armado | Memorial item 4.2 | Memorial |
+| Laje maciça convencional | Memorial declara "laje mista conforme projeto estrutural" — premissa conservadora: maciça | Memorial + Cartesian |
+| fck 30 MPa | Memorial declara mínimo 20 MPa; Cartesian adota 30 MPa como prática moderna para torres altas | Memorial + Cartesian |
+| Aço CA-50 | Memorial item 4.2 | Memorial |
+| Formas em compensado plastificado 18mm | Memorial permite compensado naval 17mm; Cartesian usa 18mm plastificado (padrão atual) | Memorial + Cartesian |
+| Consumo de concreto 0,25 m³/m² AC | Valor de mercado para torres altas com laje maciça | Cartesian |
+| Consumo de aço 106 kg/m² AC | Valor de mercado para pé-direito 3,00m e 19 pav. tipo | Cartesian |
+| Consumo de forma 7,12 m²/m² AC | Valor de mercado | Cartesian |
+| PU concreto fck30 R$ 590/m³ | Valor de mercado atual — bombeamento e usinagem | Cartesian |
+| PU aço CA-50 R$ 8,67/kg | Valor de mercado — corte, dobra e entrega | Cartesian |
+| PU forma (fabricação) R$ 88/m² | Valor de mercado — compensado plastificado | Cartesian |
+| Mão de obra estrutural empreitada R$ 185/m² AC | Valor de mercado para empreitada de estrutura em concreto armado | Cartesian |
+| Escoramento metálico em locação R$ 20/m² de forma | Valor de mercado para laje maciça convencional | Cartesian |
 
 ## Macrogrupo 5 — Alvenaria
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| **Tijolo furado (bloco cerâmico 14cm)** em TODAS as vedações | 📋 Memorial 4.3 | 📋 |
-| Encunhamento c/ argamassa aditivo expansor | 📋 Memorial 4.3 | 📋 |
-| Vergas e contravergas em concreto armado | 📋 Memorial 4.3 | 📋 |
-| Escada enclausurada em bloco de concreto celular | 📋 Memorial 4.3 | 📋 |
-| PU bloco cerâmico R$ 32,95/m² | 📊 Cartesian (bloco + MO separada) | 📊 |
-| PU argamassa R$ 3,80/m² | 📊 Cartesian | 📊 |
-| PU MO alvenaria R$ 28,50/m² | 📊 Split 35,7% Cartesian | 📊 |
-| ❌ Drywall ST/RU | **REMOVIDO** — memorial não especifica drywall | 📋 |
+| Alvenaria em bloco cerâmico 14cm (tijolo furado) em todas as vedações | Memorial item 4.3 | Memorial |
+| Encunhamento com argamassa + aditivo expansor | Memorial item 4.3 | Memorial |
+| Vergas e contravergas em concreto armado | Memorial item 4.3 | Memorial |
+| Escada enclausurada em bloco de concreto celular (resistência ao fogo) | Memorial item 4.3 | Memorial |
+| PU bloco cerâmico R$ 32,95/m² | Valor de mercado | Cartesian |
+| Argamassa de assentamento R$ 3,80/m² | Valor de mercado | Cartesian |
+| Mão de obra de alvenaria (empreitada) R$ 28,50/m² | Valor de mercado | Cartesian |
 
 ## Macrogrupo 6 — Impermeabilização
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Manta asfáltica 4mm + argamassa polimérica | 📋 Memorial 4.5 (normas vigentes + cada ambiente) | 📋 |
-| BWCs, terraços, sacadas, caixa d'água, lajes, piscinas, forro casa de máquinas | 📋 Memorial 4.5 | 📋 |
-| **Vigas de fundação** (memorial explicitamente) | 📋 Memorial 4.5 | 📋 |
-| Índice impermeab. 0,30 m²/m² AC | 📊 Base Cartesian **sem subsolo** (reduzido de 0,45) | 📊 + 📋 |
-| PU manta R$ 82,11/m² | 📊 Mediana Cartesian | 📊 |
-| PU MO imperm. R$ 68/m² + regulariz. R$ 19,50/m² | 📊 Split 56,5% Cartesian | 📊 |
-| ❌ Impermeab. de piso enterrado de subsolo | **REMOVIDO** — memorial: sem subsolo | 📋 |
+| Manta asfáltica 4mm em áreas externas, terraços, sacadas, caixa d'água, lajes, piscinas e forro de casa de máquinas | Memorial item 4.5 | Memorial |
+| Argamassa polimérica em BWCs, lavabos e áreas técnicas | Memorial item 4.5 | Memorial |
+| Vigas de fundação | Memorial item 4.5 | Memorial |
+| Índice de 0,30 m²/m² AC | Valor de mercado para obra sem subsolo, com piscina e áreas molhadas completas | Cartesian |
+| PU manta R$ 82,11/m² + MO R$ 68/m² + regularização R$ 19,50/m² | Valor de mercado | Cartesian |
 
 ## Macrogrupo 7 — Instalações
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Água fria, quente, esgoto, pluvial em PVC Tigre/Amanco | 📋 Memorial 8.4 | 📋 |
-| Captação água da chuva + cisterna | 📋 Memorial 8.4 | 📋 |
-| Medidor individual de água por apto | 📋 Memorial 8.4 | 📋 |
-| 12 pontos água fria/quente (cozinha + BWCs + A.S.) | 📋 Memorial 8.4.1 | 📋 |
-| Gás GLP com central no térreo | 📋 Memorial 8.1 + 8.2 | 📋 |
-| Sistema preventivo (extintores + hidrantes + alarme + iluminação) | 📋 Memorial 8.5 | 📋 |
-| Elétrica com condutores Pirelli/Conduspar + Tramontina/Pial | 📋 Memorial 8.6 | 📋 |
-| Pontos ar-condicionado split (dreno+eletro) em suítes+sala | 📋 Memorial 8.3 | 📋 |
-| Sensor de presença em áreas comuns | 📋 Memorial 8.7 | 📋 |
-| Índice elétrica 1,77 m/m² × fator tipologia 1,15 | 📊 Mediana Cartesian | 📊 |
-| Índice hidro 1,08 m/m² × fator BWC 1,15 | 📊 Mediana Cartesian | 📊 |
-| PUs elétrica/hidro/PPCI/gás/telecom | 📊 Cartesian | 📊 |
+| Água, esgoto e pluvial em PVC rígido Tigre/Amanco | Memorial item 8.4 | Memorial |
+| Captação de água da chuva + cisterna | Memorial item 8.4 | Memorial |
+| Medidor individual de água por apartamento | Memorial item 8.4 | Memorial |
+| 12 pontos de água fria e quente por apartamento | Memorial item 8.4.1 | Memorial |
+| Gás GLP com central no térreo (comodato) e medidor por andar | Memorial itens 8.1 e 8.2 | Memorial |
+| Sistema de preventivos: extintores + hidrantes + alarme + iluminação de emergência + sinalização | Memorial item 8.5 | Memorial |
+| Para-raios (SPDA) | Memorial itens 8.5 | Memorial |
+| Elétrica com condutores Pirelli/Conduspar + interruptores Tramontina/Pial | Memorial item 8.6 | Memorial |
+| Pontos de espera para ar-condicionado split (dreno + eletroduto) em suítes e sala | Memorial item 8.3 | Memorial |
+| Sensores de presença em áreas comuns | Memorial item 8.7 | Memorial |
+| Dimensionamento de pontos elétricos e hidráulicos | Valor de mercado para tipologia 2 suítes + lavabo | Cartesian |
+| PUs materiais (elétrica, hidro, preventivas, gás e telecom) | Valor de mercado | Cartesian |
 
 ## Macrogrupo 8 — Sistemas Especiais
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| 2 elevadores (1 social + 1 serviço/emergência) p/ 8 pessoas | 📋 Memorial 8.8 | 📋 |
-| Marca Atlas/Thyssen/Otis/Boxtop/Lgtech ou equivalente | 📋 Memorial 8.8 | 📋 |
-| PU elevador social R$ 260.000 | 📊 Entre P25 e mediana Cartesian (n=7) | 📊 |
-| PU elevador serviço R$ 250.000 | 📊 Entre P25 e mediana Cartesian (n=4) | 📊 |
-| Gerador dedicado R$ 180.000 | 📊 Cartesian (memorial não declara) | 📊 |
-| **Piscina adulto + piscina infantil + ofurô** no Rooftop | 📋 Memorial (18º Pavto Rooftop) | 📋 |
-| PU piscinas R$ 220.000 | 📊 Cartesian — memorial confirma | 📊 |
-| SPDA (para-raios) | 📋 Memorial 8.5 | 📋 |
-| CFTV + interfonia + automação + bombas + quadros | 📊 Cartesian (memorial não detalha) | 📊 |
+| 2 elevadores (1 social + 1 de serviço/emergência) para 8 pessoas | Memorial item 8.8 | Memorial |
+| Marca Atlas / Thyssen Krupp / Otis / Boxtop / Lgtech ou equivalente | Memorial item 8.8 | Memorial |
+| PU elevador social R$ 260.000 | Valor de mercado para torre de 19 pavimentos tipo | Cartesian |
+| PU elevador de serviço R$ 250.000 | Valor de mercado para torre de 19 pavimentos tipo | Cartesian |
+| Gerador dedicado R$ 180.000 | Valor de mercado (memorial não detalha o equipamento) | Cartesian |
+| Piscina adulto + piscina infantil + ofurô no Rooftop | Memorial (18º Pavto Rooftop) | Memorial |
+| Equipamentos de piscina R$ 220.000 | Valor de mercado | Cartesian |
+| SPDA (para-raios) | Memorial item 8.5 | Memorial |
+| CFTV + interfonia + automação + bombas + quadros de comando | Dimensionamento Cartesian (memorial não detalha) | Cartesian |
 
 ## Macrogrupo 9 — Climatização
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Só infraestrutura (dreno + eletroduto + recuo drywall) | 📋 Memorial 8.3 — entrega só infra | 📋 |
-| ❌ Aparelhos splits dentro dos aptos | **REMOVIDO** — memorial 12: "Aparelhos de ar condicionados" não fornecidos | 📋 |
-| Exaustão mecânica BWCs enclausurados | 📊 Cartesian (memorial implícito no projeto) | 📊 |
-| Exaustão churrasqueiras sacadas | 📋 Memorial (sacada com churrasq.) + 📊 Cartesian |
-| Infra AR geral R$ 10/m² AC | 📊 Cartesian | 📊 |
+| Infraestrutura de ar-condicionado (dreno + eletroduto + recuo drywall) em suítes e sala | Memorial item 8.3 — somente infraestrutura | Memorial |
+| Exaustão mecânica de BWCs enclausurados | Projeto arquitetônico | Cartesian + Projeto |
+| Exaustão de churrasqueiras (sacadas dos apartamentos) | Memorial (sacada com churrasqueira) | Memorial |
+| Infraestrutura geral de ar-condicionado R$ 10/m² AC | Valor de mercado | Cartesian |
 
 ## Macrogrupo 10 — Revestimentos Internos de Parede
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Reboco massa única R$ 7/m² + chapisco R$ 5,50 | 📊 Cartesian | 📊 |
-| **Azulejo 30×45 em BWCs** (não 30×60) | 📋 Memorial 5.3 + 6.3.2 | 📋 |
-| PU azulejo R$ 38/m² | 📊 Cartesian (30×45 é mais barato que 30×60) | 📊 |
-| Azulejo cozinha **só parede molhada** (não toda) | 📋 Memorial 6.4.2 | 📋 |
-| Azulejo área de serviço só parede molhada | 📋 Memorial 6.5.2 | 📋 |
-| Sala/suítes/circulação: **pintura PVA sobre acrílica** (sem cerâmica) | 📋 Memorial 6.1.2 + 6.2.2 | 📋 |
-| Porcelanato áreas comuns (halls edifício) R$ 85/m² | 📊 Cartesian (memorial 7.1.1) | 📊 |
-| ❌ **Granito em bancadas** | **REMOVIDO** — memorial 12: "Bancadas de granito" não fornecidas pelo cliente | 📋 |
+| Reboco em massa única + chapisco em todas as áreas | Prática usual de execução | Cartesian |
+| Azulejo 30×45 em banheiros | Memorial itens 5.3 e 6.3.2 | Memorial |
+| Azulejo 30×45 na parede molhada da cozinha (não em toda a parede) | Memorial item 6.4.2 | Memorial |
+| Azulejo 30×45 na parede molhada da área de serviço | Memorial item 6.5.2 | Memorial |
+| Paredes de sala, suítes, circulação e lavabos: pintura (sem azulejo) | Memorial itens 6.1.2, 6.2.2, 6.6.2 | Memorial |
+| Porcelanato nas paredes dos halls principais do edifício | Memorial item 7.1.1 | Memorial |
+| Marcas de acabamento: Eliane, Cecrisa, Itagres, Portobello, Pettra ou equivalente | Memorial item 5.3 | Memorial |
+| PU azulejo 30×45 R$ 38/m² | Valor de mercado para o formato especificado | Cartesian |
+| PU porcelanato de parede R$ 85/m² | Valor de mercado | Cartesian |
+| Argamassa colante + rejunte flexível | Prática usual | Cartesian |
+| Mão de obra de reboco R$ 22,50/m² + MO cerâmica R$ 35/m² | Valor de mercado (empreitada) | Cartesian |
 
 ## Macrogrupo 11 — Revestimentos e Acabamentos em Teto
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Forro gesso acartonado liso (sem moldura, negativo no perímetro) | 📋 Memorial 6.1.3 a 6.6.3 (todas áreas privativas) | 📋 |
-| Forro RU em BWCs e áreas molhadas | 📊 Cartesian (memorial não especifica RU, mas é prática) | 📊 |
-| Teto estacionamento/comuns: reboco + pintura acrílica (sem forro) | 📋 Memorial 7.1.3 + 7.3.4 | 📋 |
-| PU forro ST R$ 28/m² + RU R$ 35/m² | 📊 Mediana Cartesian | 📊 |
+| Forro de gesso acartonado liso (sem moldura, com negativo no perímetro) em todas as áreas privativas | Memorial itens 6.1.3 a 6.6.3 | Memorial |
+| Forro resistente à umidade em BWCs e áreas molhadas | Prática de execução | Cartesian |
+| Teto de estacionamento e áreas comuns: reboco com pintura acrílica | Memorial itens 7.1.3 e 7.3.4 | Memorial |
+| PU forro ST R$ 28/m² + RU R$ 35/m² | Valor de mercado | Cartesian |
 
 ## Macrogrupo 12 — Pisos e Pavimentações
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| **Sala/circulação: porcelanato 60×60 Portobello/Eliane** | 📋 Memorial 6.1.1 | 📋 |
-| **Suítes: piso LAMINADO** Eucafloor/Durafloor/Duratex | 📋 Memorial 5.1.3 + 6.2.1 | 📋 |
-| **BWCs/Cozinha/A.S./Lavabos: porcelanato 60×60** | 📋 Memorial 6.3.1 a 6.6.1 | 📋 |
-| PU porcelanato R$ 81/m² | 📊 Mediana Cartesian (n=60) | 📊 |
-| PU laminado R$ 65/m² | 📊 Mediana Cartesian | 📊 |
-| PU médio ponderado R$ 73/m² (mix de suítes+demais) | 📊 Calculado com base no memorial | 📊 |
-| **Estacionamento: cimento alisado** | 📋 Memorial 7.3.1 | 📋 |
-| Halls comuns: granito polido/flameado (Andorinha/Ubatuba/Samoa) | 📋 Memorial 5.1.1 | 📋 |
-| Contrapiso autonivelante | 📊 Cartesian (memorial não detalha) | 📊 |
-| Rodapé poliestireno/madeira/cerâmica | 📋 Memorial 6.1.4, 6.2.4 etc | 📋 |
+| Sala e circulação: porcelanato 60×60 Portobello/Eliane | Memorial itens 6.1.1 | Memorial |
+| Suítes: piso laminado Eucafloor/Durafloor/Duratex | Memorial itens 5.1.3 e 6.2.1 | Memorial |
+| Banheiros, cozinha, área de serviço e lavabos: porcelanato 60×60 | Memorial itens 6.3.1 a 6.6.1 | Memorial |
+| Estacionamento: cimento alisado | Memorial item 7.3.1 | Memorial |
+| Halls comuns do edifício: granito polido (Andorinha / Ubatuba / Samoa) | Memorial item 5.1.1 | Memorial |
+| Contrapiso autonivelante | Prática de execução | Cartesian |
+| Rodapé em poliestireno, madeira ou cerâmica | Memorial itens 6.1.4 e seguintes | Memorial |
+| PU porcelanato R$ 81/m² | Valor de mercado | Cartesian |
+| PU laminado R$ 65/m² | Valor de mercado | Cartesian |
 
 ## Macrogrupo 13 — Pintura Interna
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Paredes privativas: **tinta PVA sobre massa acrílica** — sistema único (emassamento + acabamento) | 📋 Memorial 5.4 + 6.1.2 (reboco + massa acrílica nivelante + tinta PVA de acabamento) | 📋 |
-| Tetos: tinta acrílica | 📋 Memorial 7.1.3 | 📋 |
-| Estacionamento/escadaria: textura ou pintura látex | 📋 Memorial 7.3 + 7.6.3 | 📋 |
-| PU massa acrílica R$ 6/m² (material) | 📊 Cartesian | 📊 |
-| PU tinta PVA R$ 3/m² (material, 2 demãos) | 📊 Cartesian | 📊 |
-| PU acrílica teto R$ 3,83/m² + selador R$ 2,50/m² | 📊 Cartesian | 📊 |
-| MO pintura R$ 15/m² + lixamento R$ 8/m² | 📊 Cartesian split 66,2% | 📊 |
+| Paredes privativas: tinta PVA aplicada sobre massa acrílica (sistema único: emassamento como base + acabamento em PVA) | Memorial itens 5.4 e 6.1.2 | Memorial |
+| Marcas de tinta: Suvinil ou Coral | Memorial item 5.4 | Memorial |
+| Tetos: tinta acrílica em 2 demãos | Memorial item 7.1.3 | Memorial |
+| Estacionamento, escadaria e áreas técnicas: pintura látex ou textura | Memorial itens 7.3 e 7.6.3 | Memorial |
+| Demarcação de vagas em cores amarelo e preto conforme norma | Memorial item 7.3.5 | Memorial |
+| PU massa acrílica R$ 6/m² | Valor de mercado | Cartesian |
+| PU tinta PVA R$ 3/m² (2 demãos) | Valor de mercado | Cartesian |
+| PU acrílica teto R$ 3,83/m² + selador R$ 2,50/m² | Valor de mercado | Cartesian |
+| Mão de obra de pintura R$ 15/m² + lixamento R$ 8/m² (empreitada) | Valor de mercado | Cartesian |
 
 ## Macrogrupo 14 — Esquadrias, Vidros e Ferragens
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| **Janelas alumínio com pintura eletrostática preta** | 📋 Memorial 5.7 | 📋 |
-| **Soleiras em granito** | 📋 Memorial 5.7 | 📋 |
-| **Guarda-corpo sacadas: alvenaria + esquadria alumínio envidraçada** | 📋 Memorial 5.7.1 | 📋 |
-| **Portas apartamentos: folhas laminadas semi-ocas brancas** | 📋 Memorial 5.6 | 📋 |
-| **Ferragens zamac Papaiz/Arouca/Pado** | 📋 Memorial 5.9 | 📋 |
-| PU esquadrias R$ 280/m² AC × padrão × entrega | 📊 Cartesian | 📊 |
-| PU serralheria R$ 45/m² AC × fator padrão | 📊 Cartesian (corrimãos + portões + grades técnicas) | 📊 |
+| Janelas de alumínio com pintura eletrostática preta | Memorial item 5.7 | Memorial |
+| Soleiras em granito nas janelas | Memorial item 5.7 | Memorial |
+| Guarda-corpo de sacadas em alvenaria + esquadria de alumínio envidraçada | Memorial item 5.7.1 | Memorial |
+| Portas dos apartamentos: folhas laminadas semi-ocas brancas + caixilhos em madeira de reflorestamento | Memorial item 5.6 | Memorial |
+| Ferragens em zamac com acabamento acetinado ou cromado — Papaiz, Arouca, Pado ou equivalente | Memorial item 5.9 | Memorial |
+| Serralheria interna: corrimãos, guarda-corpos, portões de garagem e grades técnicas | Escopo usual para o padrão | Cartesian |
+| PUs esquadria alumínio + serralheria | Valor de mercado | Cartesian |
 
 ## Macrogrupo 15 — Louças e Metais
 
-**⚠️ ESCOPO MUITO REDUZIDO por determinação do memorial** (item 12):
+O memorial define um escopo reduzido para este macrogrupo. **Serão fornecidas pela construtora apenas:**
 
-| Item | Incluso? | Fonte |
-|---|:---:|---|
-| **Bacias sanitárias com caixa acoplada** Deca/Incepa/Celite | ✅ SIM | 📋 Memorial 5.5 + 6.3.4 |
-| Lavatórios (cubas e pias) | ❌ NÃO | 📋 Memorial 12 |
-| **Bancadas de granito** | ❌ NÃO | 📋 Memorial 12 |
-| Torneiras | ❌ NÃO | 📋 Memorial 12 |
-| Chuveiros (duchas e elétricos) | ❌ NÃO | 📋 Memorial 12 |
-| Acabamentos hidráulicos (metais sanitários) | ❌ NÃO | 📋 Memorial 12 |
-| Assentos sanitários | ❌ NÃO | 📋 Memorial 12 |
-| Box dos banheiros | ❌ NÃO | 📋 Memorial 12 |
-| Luminárias | ❌ NÃO | 📋 Memorial 12 |
-| Tanques de roupa | ❌ NÃO | 📋 Memorial 12 |
-| Aparelhos de ar condicionados | ❌ NÃO | 📋 Memorial 12 |
-| Olho mágico / mobílias | ❌ NÃO | 📋 Memorial 12 |
+| Item | Premissa adotada | Fonte |
+|---|---|---|
+| Bacias sanitárias com caixas de descarga acopladas | Memorial itens 5.5 e 6.3.4 | Memorial |
+| Marca Deca, Incepa, Celite ou equivalente | Memorial item 5.5 | Memorial |
+| Quantidade: 3 bacias por apartamento (2 suítes + 1 lavabo) × 98 unidades = 294 bacias | Projeto arquitetônico | Memorial + Projeto |
+| PU unitário R$ 650 (bacia + caixa acoplada + MO de instalação) | Valor de mercado | Cartesian |
 
-**Escopo Louças e Metais v00:** **só bacias sanitárias**.
-- 3 bacias/apto × 98 aptos = **294 bacias**
-- PU R$ 650 (bacia Deca/Incepa com caixa acoplada + MO de instalação)
-- Total: **R$ 191.100 (R$ 15/m² AC)**
+**Itens que ficarão por conta do comprador ou de terceiros, conforme memorial item 12:** cubas e pias, bancadas de granito, torneiras, chuveiros (duchas e elétricos), acabamentos hidráulicos (metais sanitários), assentos sanitários, box dos banheiros, luminárias, tanques de roupa, aparelhos de ar condicionado, olho mágico e mobílias.
 
 ## Macrogrupo 16 — Fachada
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| **Tinta premium acrílica com 2 a 4 cores + texturas** | 📋 Memorial 9.1 | 📋 |
-| **Muros: tinta premium acrílica lisa ou textura** | 📋 Memorial 9.2 | 📋 |
-| PU material textura R$ 50/m² | 📊 Cartesian (textura projetada acrílica premium) | 📊 |
-| PU MO textura R$ 30/m² | 📊 Cartesian | 📊 |
-| PU balancim R$ 18/m² | 📊 Cartesian | 📊 |
-| Índice fachada/AC 1,55 m²/m² | 📊 Cartesian (torre vertical de 24 pav.) | 📊 |
-| ❌ Cerâmica de fachada | **REMOVIDO** — memorial especifica textura premium | 📋 |
+| Tinta premium acrílica em 2 a 4 cores, aplicada com textura | Memorial item 9.1 | Memorial |
+| Muros: tinta premium acrílica lisa ou com textura | Memorial item 9.2 | Memorial |
+| PU material (textura premium) R$ 50/m² | Valor de mercado | Cartesian |
+| PU mão de obra de aplicação R$ 30/m² | Valor de mercado | Cartesian |
+| PU balancim fachadeiro R$ 18/m² | Necessário para torre de 24 pavimentos | Cartesian |
+| Índice fachada/AC de 1,55 m²/m² | Valor usual para torre vertical de 24 andares | Cartesian |
 
 ## Macrogrupo 17 — Serviços Complementares
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| **Central de lixo** (piso cerâmico, paredes azulejadas até o teto, portas venezianas alumínio) | 📋 Memorial 7.4 | 📋 |
-| **Central de gás** (piso cerâmico antiderrapante, portas venezianas alumínio) | 📋 Memorial 7.5 | 📋 |
-| **Caixas d'água fibra de vidro** Fortlev/Bakof | 📋 Memorial 7.6 | 📋 |
-| **Cobertura: laje impermeabilizada OU telha fibrocimento 6mm** (madeira de lei ou metálica) | 📋 Memorial 4.6 + 7.7 | 📋 |
-| **Rooftop 18º Pavto** (sala jogos + coworking + kids + 2 gourmets + ofurô + 2 piscinas + academia + 2 lavabos) | 📋 Memorial (18º Pavto) | 📋 |
-| Paisagismo | 📊 Cartesian (memorial não detalha) | 📊 |
-| Mobiliário áreas comuns | 📊 Cartesian | 📊 |
-| Comunicação visual + limpeza final + ligações definitivas | 📊 Cartesian | 📊 |
-| **Pintura de muros premium acrílica** | 📋 Memorial 9.2 | 📋 |
-| Pavimentação externa + desmobilização | 📊 Cartesian | 📊 |
+| Central de lixo (piso cerâmico, paredes azulejadas, portas de alumínio) | Memorial item 7.4 | Memorial |
+| Central de gás (piso antiderrapante, portas de alumínio) | Memorial item 7.5 | Memorial |
+| Caixas d'água em fibra de vidro Fortlev / Bakof Tec | Memorial item 7.6 | Memorial |
+| Cobertura: laje impermeabilizada ou telha fibrocimento 6mm com estrutura em madeira de lei ou metálica | Memorial itens 4.6 e 7.7 | Memorial |
+| Rooftop (18º Pavto): sala de jogos + coworking + espaço kids + 2 áreas gourmet + ofurô + 2 piscinas + academia + 2 lavabos | Memorial (descrição do 18º Pavto) | Memorial |
+| Pintura dos muros: tinta premium acrílica | Memorial item 9.2 | Memorial |
+| Paisagismo, mobiliário de áreas comuns e comunicação visual | Escopo usual para o padrão | Cartesian |
+| Limpeza final, ligações definitivas e desmobilização | Prática de entrega | Cartesian |
 
 ## Macrogrupo 18 — Imprevistos e Contingências
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Percentual 1,5% sobre subtotal | 📊 Cartesian — padrão para paramétrico | 📊 |
+| 1,5% sobre o subtotal do orçamento | Padrão Cartesian para orçamentos paramétricos | Cartesian |
 
 ---
 
-## Resumo da origem das premissas
+## Resumo
 
-| Classificação | Quantidade de itens | Observação |
-|---|:---:|---|
-| 📋 **[MEMORIAL]** — declarado pelo cliente | ~55 itens | Define acabamentos, sistemas, marcas |
-| 📊 **[CARTESIAN]** — estimativa Cartesian | ~45 itens | PUs, mão-de-obra, índices físicos, gerenciamento |
-| 🏗️ **[PROJETO]** — projetos DWG/PDF | ~5 itens | Dimensões estruturais confirmadas |
-| 📋 + 📊 — híbrido | ~10 itens | Memorial declara tipo, Cartesian estima PU |
-
-**Áreas onde o memorial é omisso e dependemos 100% de média de mercado Cartesian:**
-- Prazo de execução (36 meses — padrão Cartesian pra torre 24 pav.)
-- Gerenciamento: todos os PUs de equipe técnica, vigilância, EPI, consumos
-- Sistemas Especiais: CFTV, interfonia, automação, bombas, quadros de comando
-- PUs materiais de concreto, aço, forma (memorial dá fck mínimo e material mas não PU)
-- Índices físicos (m²/m² AC, kg/m² AC, m³/m² AC) — base 126 obras Cartesian
-- Percentual de imprevistos (1,5% padrão Cartesian)
-
-**Áreas onde o memorial é CLARO e foi seguido rigorosamente:**
-- Alvenaria em bloco cerâmico (sem drywall)
-- Fachada em textura premium acrílica (sem cerâmica)
-- Pisos: porcelanato 60×60 + laminado em suítes
-- Paredes: pintura PVA+acrílica nas áreas secas, azulejo 30×45 só em molhadas
-- Sem subsolo (mov. terra, contenção, impermeab. piso enterrado zerados)
-- Louças: SÓ bacias sanitárias (sem cubas, bancadas, metais, box, luminárias, ar)
-- Elevadores: 2 unidades, marcas específicas
-
-**Este documento acompanha o paramétrico v00 como transparência ao cliente.**
+O paramétrico do Arboris foi construído com **forte aderência ao memorial descritivo do cliente**. Todas as especificações de acabamento (pisos, paredes, tetos, pintura, louças, esquadrias, fachada) seguem literalmente o que foi declarado no memorial de agosto/2024. Os valores de mercado Cartesian (PUs e mão de obra) foram aplicados em itens onde o memorial não traz detalhe quantitativo — principalmente em gerenciamento, dimensionamentos físicos (m³ de concreto, kg de aço, m² de forma), mão de obra especializada e imprevistos.

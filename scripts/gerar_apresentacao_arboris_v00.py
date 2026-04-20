@@ -546,7 +546,8 @@ comp = [
     ('Sist. Especiais', 119, 173, '-31%'),
     ('Climatização', 25, 31, '-19%'),
     ('Impermeabilização', 54, 60, '-10%'),
-    ('Rev. Parede', 95, 238, '-60%*'),
+    ('Rev. Argamassado de Parede', 40, 90, '-56%'),
+    ('Rev. Cerâmico / Acabamento Parede', 55, 140, '-61%'),
     ('Teto', 73, 60, '+22%'),
     ('Pisos', 184, 199, '-8%'),
     ('Pintura', 152, 125, '+22%'),
@@ -585,7 +586,7 @@ for i, (name, arb, med, var) in enumerate(comp):
     y += Inches(0.23)
 
 add_text(s, Inches(0.5), Inches(6.9), Inches(12), Inches(0.3),
-         '* Rev. Parede: mediana baseada em 3 obras que reportam o macrogrupo completo (Maiori R$196, Pavcor R$238, Terrassa R$496) — valor real de mercado.',
+         'Rev. Argamassado = reboco + chapisco + MO  |  Rev. Cerâmico = azulejos + porcelanato + argamassa colante + MO assentamento',
          size=9, color=CINZA_TXT)
 add_text(s, Inches(0.5), Inches(7.15), Inches(12), Inches(0.3),
          'Valores em R$/m² AC, indexados ao CUB/SC Mar/2026.',
@@ -930,7 +931,7 @@ add_text(s, Inches(0.5), Inches(7.0), W - Inches(1.0), Inches(0.35),
 
 # ============ SALVAR ============
 import os
-output_path = 'C:/Users/leona/orcamentos/parametricos/arthen-arboris/arthen-arboris-apresentacao-v00c.pptx'
+output_path = 'C:/Users/leona/orcamentos/parametricos/arthen-arboris/arthen-arboris-apresentacao-v00d.pptx'
 prs.save(output_path)
 print(f"\n✅ Apresentacao v00 salva: {output_path}")
 print(f"   Slides: {len(prs.slides)}")

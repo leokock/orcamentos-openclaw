@@ -31,17 +31,19 @@ autor: Coordenação de Custos Cartesian
 
 ## Resumo dos macrogrupos acima da média Médio-Alto
 
-| Macrogrupo | Arboris v00 | Média MA | Desvio | Natureza do desvio |
+| Macrogrupo | Arboris v00 | Média de mercado M-A | Desvio | Natureza do desvio |
 |---|---:|---:|---:|---|
 | Supraestrutura | R$ 728/m² | R$ 655/m² | +11% | Estrutural (torre 24 pav., laje maciça) |
 | Instalações | R$ 394/m² | R$ 332/m² | +19% | Estrutural (tipologia 2 suítes + lavabo) |
-| Esquadrias | R$ 325/m² | R$ 301/m² | +8% | Memorial (alumínio eletrostático + granito soleiras) |
-| Pintura Interna | R$ 152/m² | R$ 125/m² | +22% | Memorial (PVA sobre massa acrílica + textura garagens + escadas) |
+| Esquadrias | R$ 325/m² | R$ 301/m² | +8% | Memorial (alumínio eletrostático + granito nas soleiras) |
+| Pintura Interna | R$ 152/m² | R$ 125/m² | +22% | Memorial (escopo amplo em áreas comuns, garagens e escadas) |
 | Fachada | R$ 152/m² | R$ 117/m² | +29% | Dimensional (torre 24 pav. × 1,55 m²/m² AC) |
 
-> **Gerenciamento** saiu da lista (R$ 324/m² em v00 contra média M-A R$ 475/m²) após ajustes da equipe técnica: Engenheiro PJ R$ 8.000/mês, Mestre R$ 7.000, Encarregado R$ 4.000, Vigilância R$ 5.000 (verba), sem estagiário e sem técnico de segurança. **R$ 4,04 Mi total (10,4% do orçamento)** — abaixo da média e da v4 interna.
+**Nota sobre Gerenciamento:** com equipe enxuta (Engenheiro R$ 8.000/mês, Mestre R$ 7.000, Encarregado R$ 4.000 e Vigilância verba de R$ 5.000/mês), o Arboris fica em **R$ 324/m²**, abaixo da média de mercado M-A (R$ 475/m²).
 
-> **Revestimento Interno de Parede** também saiu da lista: a "média M-A" agregada de R$ 61/m² estava **artificialmente baixa** porque diversas obras da base alocam essa rubrica em outras categorias (ex: "Acabamentos em Piso e Parede" ou separam em "Revestimentos Argamassados Parede" + "Revestimentos Cerâmicos" + "Revestimentos Complementares"). Olhando as 3 obras comparáveis que reportam o macrogrupo completo, a **mediana real é R$ 238/m² AC** (Maiori R$ 196, Pavcor R$ 238, Terrassa R$ 496). Arboris v00 com **R$ 95/m² está -60% abaixo** da mediana real — NÃO acima.
+**Nota sobre Revestimentos Internos de Parede:** dividindo em argamassado (reboco + chapisco + MO) e cerâmico/acabamento (azulejos + porcelanato + MO), Arboris está abaixo da média de mercado nos dois:
+- Argamassado: R$ 40/m² (Arboris) vs R$ 90/m² (mercado) — **-56%**, por escopo mais enxuto (sem drywall para rebocar adicionalmente)
+- Cerâmico/acabamento: R$ 55/m² (Arboris) vs R$ 140/m² (mercado) — **-61%**, por escopo limitado ao memorial (azulejo 30×45 só em BWCs e parede molhada de cozinha, sem granito em bancadas, sem azulejo em áreas secas)
 
 **5 macrogrupos acima da média** (contra 9 na versão anterior que especulava drywall + cerâmica de fachada — ambos **não** declarados no memorial). Todos os desvios são **estruturais ou de memorial**, não há sobreespecificação.
 
