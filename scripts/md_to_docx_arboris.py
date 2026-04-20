@@ -367,8 +367,8 @@ if __name__ == '__main__':
     OUT = Path('C:/Users/leona/orcamentos/parametricos/arthen-arboris')
     OUT.mkdir(parents=True, exist_ok=True)
     files = [
-        ('PREMISSAS-ORIGEM.md', 'arthen-arboris-PREMISSAS-ORIGEM-v2.docx'),
-        ('JUSTIFICATIVA-ITENS-ACIMA-DA-MEDIA.md', 'arthen-arboris-JUSTIFICATIVA-ITENS-ACIMA-MEDIA-v2.docx'),
+        ('PREMISSAS-ORIGEM.md', 'arthen-arboris-PREMISSAS-ORIGEM-v3.docx'),
+        ('JUSTIFICATIVA-ITENS-ACIMA-DA-MEDIA.md', 'arthen-arboris-JUSTIFICATIVA-ITENS-ACIMA-MEDIA-v3.docx'),
     ]
     for src, dst in files:
         out = convert(SRC / src, OUT / dst)

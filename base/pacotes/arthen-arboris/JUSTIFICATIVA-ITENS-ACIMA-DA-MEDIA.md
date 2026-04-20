@@ -12,7 +12,7 @@ autor: Coordenação de Custos Cartesian
 
 # Justificativa — Itens acima da média de mercado
 
-> **Contexto:** o paramétrico do Arboris totaliza **R$ 3.112/m² AC (1,03 CUB | R$ 396.037/UR)**, posicionado **-7,1% abaixo da mediana da base de obras Médio-Alto da Cartesian** (R$ 3.349/m²) e acima da mediana do padrão Médio (R$ 2.467/m²). Com o memorial declarando padrão "MÉDIO" e especificando acabamentos Médio-Alto (Portobello, Deca, Incepa), o resultado v00 fica **no entre-padrões**, compatível com o produto declarado.
+> **Contexto:** o paramétrico do Arboris totaliza **R$ 3.109/m² AC (1,03 CUB | R$ 395.760/UR)**, posicionado **-7,2% abaixo da mediana da base de obras Médio-Alto da Cartesian** (R$ 3.349/m²) e acima da mediana do padrão Médio (R$ 2.467/m²). Com o memorial declarando padrão "MÉDIO" e especificando acabamentos Médio-Alto (Portobello, Deca, Incepa), o resultado v00 fica **no entre-padrões**, compatível com o produto declarado.
 >
 > Este documento justifica **cada macrogrupo que está acima da média Médio-Alto** após aplicação do memorial, esclarecendo se o desvio é **estrutural** (geometria/tipologia), **operacional** (especificação do memorial) ou **dimensional** (escopo do empreendimento).
 
@@ -22,10 +22,10 @@ autor: Coordenação de Custos Cartesian
 
 | Métrica | Arboris v00 | Média Médio (n=4) | Média Médio-Alto (n=60) | Média Alto (n=57) |
 |---|---:|---:|---:|---:|
-| R$/m² AC | **3.112** | 2.467 | 3.349 | 4.156 |
+| R$/m² AC | **3.109** | 2.467 | 3.349 | 4.156 |
 | Posição | Entre Médio e M-A | -21% | +7% abaixo | -25% |
 
-**Arboris v00 está 7,1% abaixo da mediana Médio-Alto** — resultado esperado após aplicação do memorial, que reduz escopos (sem subsolo, sem drywall, sem cerâmica fachada, sem cubas/bancadas/metais) e equipe de gerenciamento enxuta.
+**Arboris v00 está 7,2% abaixo da mediana Médio-Alto** — resultado esperado após aplicação do memorial, que reduz escopos (sem subsolo, sem drywall, sem cerâmica fachada, sem cubas/bancadas/metais) e equipe de gerenciamento enxuta.
 
 ---
 
@@ -36,10 +36,12 @@ autor: Coordenação de Custos Cartesian
 | Supraestrutura | R$ 728/m² | R$ 655/m² | +11% | Estrutural (torre 24 pav., laje maciça) |
 | Instalações | R$ 394/m² | R$ 332/m² | +19% | Estrutural (tipologia 2 suítes + lavabo) |
 | Esquadrias | R$ 325/m² | R$ 301/m² | +8% | Memorial (alumínio eletrostático + granito soleiras) |
-| Pintura Interna | R$ 155/m² | R$ 125/m² | +24% | Memorial (PVA + acrílica + textura garagens) |
+| Pintura Interna | R$ 152/m² | R$ 125/m² | +22% | Memorial (PVA sobre massa acrílica + textura garagens + escadas) |
 | Fachada | R$ 152/m² | R$ 117/m² | +29% | Dimensional (torre 24 pav. × 1,55 m²/m² AC) |
 
 > **Gerenciamento** saiu da lista (R$ 324/m² em v00 contra média M-A R$ 475/m²) após ajustes da equipe técnica: Engenheiro PJ R$ 8.000/mês, Mestre R$ 7.000, Encarregado R$ 4.000, Vigilância R$ 5.000 (verba), sem estagiário e sem técnico de segurança. **R$ 4,04 Mi total (10,4% do orçamento)** — abaixo da média e da v4 interna.
+
+> **Revestimento Interno de Parede** também saiu da lista: a "média M-A" agregada de R$ 61/m² estava **artificialmente baixa** porque diversas obras da base alocam essa rubrica em outras categorias (ex: "Acabamentos em Piso e Parede" ou separam em "Revestimentos Argamassados Parede" + "Revestimentos Cerâmicos" + "Revestimentos Complementares"). Olhando as 3 obras comparáveis que reportam o macrogrupo completo, a **mediana real é R$ 238/m² AC** (Maiori R$ 196, Pavcor R$ 238, Terrassa R$ 496). Arboris v00 com **R$ 95/m² está -60% abaixo** da mediana real — NÃO acima.
 
 **5 macrogrupos acima da média** (contra 9 na versão anterior que especulava drywall + cerâmica de fachada — ambos **não** declarados no memorial). Todos os desvios são **estruturais ou de memorial**, não há sobreespecificação.
 
@@ -99,20 +101,20 @@ autor: Coordenação de Custos Cartesian
 
 ---
 
-## 4. Pintura Interna — R$ 155/m² AC  (+24% vs média M-A R$ 125)
+## 4. Pintura Interna — R$ 152/m² AC  (+22% vs média M-A R$ 125)
 
-**Desvio: memorial especifica acabamento completo em todas as áreas.**
+**Desvio: escopo amplo (várias áreas) — o sistema de pintura em si é enxuto.**
 
 **Razões técnicas:**
-- **Paredes privativas: pintura PVA sobre acrílica** (memorial 5.4 + 6.x) — 2 sistemas superpostos em todas as áreas
+- **Paredes privativas: tinta PVA aplicada sobre massa acrílica** (memorial 5.4 + 6.1.2) — **sistema único**: a massa acrílica serve como nivelamento/base e recebe a tinta PVA como acabamento (não são "2 sistemas superpostos")
 - **Marcas premium: Suvinil ou Coral** (memorial 5.4)
-- **Tetos: pintura acrílica** completa (memorial 7.1.3)
+- **Tetos: pintura acrílica em 2 demãos** (memorial 7.1.3)
 - **Estacionamento: pintura de pilares, tetos e paredes** (memorial 7.3) — concreto aparente com micro textura ou pintura + reboco com textura ou pintura
 - **Escadaria: pintura látex ou textura** (memorial 7.6.3)
 - **Demarcação de vagas** em cores amarelo/preto conforme norma (memorial 7.3.5)
 - **MO empreitada representa 66,2%** do custo da disciplina — mão de obra especializada
 
-**Conclusão:** desvio de +24% reflete o **escopo amplo de pintura** declarado no memorial (privativa + comum + garagem + escadas + muros). Esse escopo completo puxa o custo para cima. Valor alinhado com entrega completa do memorial.
+**Conclusão:** o sistema de pintura em si (PVA sobre massa acrílica) é **mais econômico** que o padrão Médio-Alto típico (3 demãos de acrílica sobre massa PVA). O desvio de +22% **não vem da especificação**, vem do **escopo amplo de áreas** declarado no memorial (privativa + comum + garagem + escadas + muros + tetos), além da **MO empreitada elevada** (66% do custo). Valor alinhado com entrega completa do memorial.
 
 ---
 

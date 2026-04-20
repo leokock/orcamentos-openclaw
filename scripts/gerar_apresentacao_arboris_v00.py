@@ -70,7 +70,7 @@ def add_footer(slide):
 AC = 12472.98
 UR = 98
 CUB = 3028.45
-TOTAL_V00 = 38811650  # calculado após ajustes gerenciamento
+TOTAL_V00 = 38784505  # após correção Pintura
 
 # Macrogrupos v00 (ordem da planilha)
 MACROS = [
@@ -86,12 +86,12 @@ MACROS = [
     ('REVESTIMENTOS INTERNOS DE PAREDE', 1182223, 3.0, 95),
     ('REVESTIMENTOS E ACABAMENTOS EM TETO', 905729, 2.3, 73),
     ('PISOS E PAVIMENTAÇÕES', 2293599, 5.9, 184),
-    ('PINTURA INTERNA', 1928859, 5.0, 155),
-    ('ESQUADRIAS, VIDROS E FERRAGENS', 4053719, 10.4, 325),
+    ('PINTURA INTERNA', 1902115, 4.9, 152),
+    ('ESQUADRIAS, VIDROS E FERRAGENS', 4053719, 10.5, 325),
     ('LOUÇAS E METAIS', 191100, 0.5, 15),
     ('FACHADA', 1894634, 4.9, 152),
     ('SERVIÇOS COMPLEMENTARES', 1518921, 3.9, 122),
-    ('IMPREVISTOS E CONTINGÊNCIAS', 573634, 1.5, 46),
+    ('IMPREVISTOS E CONTINGÊNCIAS', 573244, 1.5, 46),
 ]
 
 # ============================================================
@@ -277,7 +277,7 @@ add_text(s, Inches(0.8), Inches(0.6), Inches(12), Inches(0.8),
 
 cards = [
     ('R$ 38,8 Mi', 'CUSTO TOTAL', 'Valor global do empreendimento'),
-    ('R$ 3.112/m²', 'CUSTO POR M²', 'Área construída: 12.473 m²'),
+    ('R$ 3.109/m²', 'CUSTO POR M²', 'Área construída: 12.473 m²'),
     ('R$ 396 mil', 'CUSTO POR UNIDADE', 'Total de 98 unidades'),
     ('1,03 CUB', 'FATOR CUB/SC', 'CUB Mar/2026: R$ 3.028,45'),
 ]
@@ -452,9 +452,9 @@ specs_blocos = [
          ['Fundação em estacas hélice contínua (memorial — NBR 6122)',
           'Blocos, baldrames, contenção e infraestrutura de serviço',
           'Contrata MO de fundação em regime empreitada']),
-        ('PINTURA INTERNA', '4,8%', 'R$ 1.928.859  |  R$ 155/m²',
-         ['Áreas privativas: pintura PVA sobre acrílica (memorial — Suvinil/Coral)',
-          'Estacionamento e áreas técnicas: textura ou látex',
+        ('PINTURA INTERNA', '4,9%', 'R$ 1.902.115  |  R$ 152/m²',
+         ['Áreas privativas: tinta PVA sobre massa acrílica (memorial — Suvinil/Coral)',
+          'Estacionamento, escadas e áreas técnicas: textura ou látex',
           'Demarcação epóxi de vagas conforme norma']),
         ('FACHADA', '4,8%', 'R$ 1.894.634  |  R$ 152/m²',
          ['Tinta premium acrílica com texturas em 2 a 4 cores (memorial)',
@@ -546,16 +546,16 @@ comp = [
     ('Sist. Especiais', 119, 173, '-31%'),
     ('Climatização', 25, 31, '-19%'),
     ('Impermeabilização', 54, 60, '-10%'),
-    ('Rev. Parede', 95, 61, '+56%*'),
+    ('Rev. Parede', 95, 238, '-60%*'),
     ('Teto', 73, 60, '+22%'),
     ('Pisos', 184, 199, '-8%'),
-    ('Pintura', 155, 125, '+24%'),
+    ('Pintura', 152, 125, '+22%'),
     ('Esquadrias', 325, 301, '+8%'),
     ('Louças e Metais', 15, 60, '-75%'),
     ('Fachada', 152, 117, '+29%'),
     ('Complementares', 122, 201, '-39%'),
     ('Imprevistos', 46, 50, '-8%'),
-    ('TOTAL', 3112, 3349, '-7,1%'),
+    ('TOTAL', 3109, 3349, '-7,2%'),
 ]
 hdr_y = Inches(1.6)
 add_rect(s, Inches(1.8), hdr_y, Inches(9.7), Inches(0.4), AZUL_PRIM)
@@ -585,7 +585,7 @@ for i, (name, arb, med, var) in enumerate(comp):
     y += Inches(0.23)
 
 add_text(s, Inches(0.5), Inches(6.9), Inches(12), Inches(0.3),
-         '* Rev. Parede: amostra pequena na base (n=15), valores inconsistentes entre obras. Média não é estável.',
+         '* Rev. Parede: mediana baseada em 3 obras que reportam o macrogrupo completo (Maiori R$196, Pavcor R$238, Terrassa R$496) — valor real de mercado.',
          size=9, color=CINZA_TXT)
 add_text(s, Inches(0.5), Inches(7.15), Inches(12), Inches(0.3),
          'Valores em R$/m² AC, indexados ao CUB/SC Mar/2026.',
@@ -621,10 +621,10 @@ justificativas = [
          'Guarda-corpo de sacadas: alvenaria + esquadria alumínio envidraçada',
          'Ferragens zamac Papaiz/Arouca/Pado (memorial 5.9)',
      ]),
-    ('PINTURA INTERNA', 155, 125, '+24%',
-     'Entrega completa: PVA + acrílica em todas as áreas (memorial)',
+    ('PINTURA INTERNA', 152, 125, '+22%',
+     'Escopo amplo de áreas — sistema de pintura em si é enxuto (memorial)',
      [
-         'Áreas privativas: pintura PVA sobre acrílica (memorial — Suvinil/Coral)',
+         'Áreas privativas: tinta PVA sobre massa acrílica (sistema único — memorial 6.1.2)',
          'Estacionamento + escadas + áreas técnicas: textura ou látex completa',
          'Demarcação epóxi de vagas e pintura de pisos técnicos',
          'MO empreitada representa 66,2% do custo — mão de obra especializada',
@@ -930,7 +930,7 @@ add_text(s, Inches(0.5), Inches(7.0), W - Inches(1.0), Inches(0.35),
 
 # ============ SALVAR ============
 import os
-output_path = 'C:/Users/leona/orcamentos/parametricos/arthen-arboris/arthen-arboris-apresentacao-v00b.pptx'
+output_path = 'C:/Users/leona/orcamentos/parametricos/arthen-arboris/arthen-arboris-apresentacao-v00c.pptx'
 prs.save(output_path)
 print(f"\n✅ Apresentacao v00 salva: {output_path}")
 print(f"   Slides: {len(prs.slides)}")

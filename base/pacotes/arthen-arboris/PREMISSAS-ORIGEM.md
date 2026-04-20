@@ -207,10 +207,12 @@ fonte_primaria: MORRETES - RUA 418 - MEMORIAL DESCRITIVO.pdf (07/08/2024)
 
 | Item | Premissa adotada | Fonte |
 |---|---|---|
-| Paredes privativas: **pintura PVA sobre acrílica** (Suvinil/Coral) | 📋 Memorial 5.4 + 6.x | 📋 |
-| Tetos: acrílica | 📋 Memorial 7.1.3 | 📋 |
+| Paredes privativas: **tinta PVA sobre massa acrílica** — sistema único (emassamento + acabamento) | 📋 Memorial 5.4 + 6.1.2 (reboco + massa acrílica nivelante + tinta PVA de acabamento) | 📋 |
+| Tetos: tinta acrílica | 📋 Memorial 7.1.3 | 📋 |
 | Estacionamento/escadaria: textura ou pintura látex | 📋 Memorial 7.3 + 7.6.3 | 📋 |
-| PU acrílica R$ 5,40/m² + PVA R$ 4,29/m² + selador R$ 2,50 | 📊 Cartesian | 📊 |
+| PU massa acrílica R$ 6/m² (material) | 📊 Cartesian | 📊 |
+| PU tinta PVA R$ 3/m² (material, 2 demãos) | 📊 Cartesian | 📊 |
+| PU acrílica teto R$ 3,83/m² + selador R$ 2,50/m² | 📊 Cartesian | 📊 |
 | MO pintura R$ 15/m² + lixamento R$ 8/m² | 📊 Cartesian split 66,2% | 📊 |
 
 ## Macrogrupo 14 — Esquadrias, Vidros e Ferragens
