@@ -302,6 +302,7 @@ Breakdown: Estudos + projetos R$ 1,26M · Taxas R$ 541k · Segurança + EPCs R$ 
 ## Esquadrias
 
 - Qual a unidade de contramarco? un ou m²
+- verificar a composição do brise (está m2 na composição e linear na extração)
 
 ## Pintura
 
