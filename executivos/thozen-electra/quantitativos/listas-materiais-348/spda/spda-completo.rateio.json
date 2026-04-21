@@ -1,0 +1,1719 @@
+{
+  "pdf_origem": "348_LM - SPDA - rev.00_ELC - COMPLETO.pdf",
+  "sistema": "SPDA",
+  "model": "gemma4:e4b",
+  "fonte_flat": "spda-completo.gemma.json",
+  "total_itens_orig": 61,
+  "total_rateios": 61,
+  "rateios": [
+    {
+      "numero": 4,
+      "codigo": "8502",
+      "qtd_total": 30,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø10mmX3,00m (80mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 30,
+          "pct": 1.0,
+          "justificativa": "Barras de reforço estrutural para a laje de cobertura (captadores e descidas)."
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "codigo": "8506",
+      "qtd_total": 180,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 10 A 16mm",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 60,
+          "pct": 0.333,
+          "justificativa": "Clips para descidas verticais da Torre A (prumada principal)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 60,
+          "pct": 0.333,
+          "justificativa": "Clips para descidas verticais da Torre B (prumada principal)."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 60,
+          "pct": 0.334,
+          "justificativa": "Clips para fixação e conexão das barras no nível do subsolo (aterramento e quadros)."
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "codigo": "8507",
+      "qtd_total": 60,
+      "unidade": "pc",
+      "descricao": "EMENDA (L) EM AÇO G.F.200X200mm - ø 3/8\"",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 30,
+          "pct": 0.5,
+          "justificativa": "Cotovelos estruturais para a Torre A (mudanças de direção principais)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 30,
+          "pct": 0.5,
+          "justificativa": "Cotovelos estruturais para a Torre B (mudanças de direção principais)."
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "codigo": "8506",
+      "qtd_total": 360,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 10 A 16mm",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 120,
+          "pct": 0.333,
+          "justificativa": "Clips para descidas verticais e conexões estruturais na Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 120,
+          "pct": 0.333,
+          "justificativa": "Clips para descidas verticais e conexões estruturais na Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 120,
+          "pct": 0.334,
+          "justificativa": "Clips para conexão da malha de aterramento e barras equipotenciais no subsolo."
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "codigo": "8502",
+      "qtd_total": 150,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø10mmX3,00m (80mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 75,
+          "pct": 0.5,
+          "justificativa": "Reforço estrutural para a laje de cobertura (captadores e descidas)."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 75,
+          "pct": 0.5,
+          "justificativa": "Reforço estrutural para a malha de aterramento e conexões no subsolo."
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "codigo": "8506",
+      "qtd_total": 450,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 10 A 16mm",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 150,
+          "pct": 0.333,
+          "justificativa": "Clips para descidas e conexões estruturais em toda a Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 150,
+          "pct": 0.333,
+          "justificativa": "Clips para descidas e conexões estruturais em toda a Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 150,
+          "pct": 0.334,
+          "justificativa": "Clips para conexão da malha de aterramento e barras equipotenciais no subsolo."
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "codigo": "8506",
+      "qtd_total": 150,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 10 A 16mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.333,
+          "justificativa": "Clips para conexões em nível de subsolo (aterramento)."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.333,
+          "justificativa": "Clips para conexões em áreas sociais e piscina (plano equipotencial)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.334,
+          "justificativa": "Clips para conexões em casa de máquinas e reservatórios."
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "codigo": "8500",
+      "qtd_total": 30,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø8mmX3,00m (50mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 15,
+          "pct": 0.5,
+          "justificativa": "Reforço secundário para o sistema de aterramento no subsolo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 15,
+          "pct": 0.5,
+          "justificativa": "Reforço secundário para conexões em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "codigo": "8505",
+      "qtd_total": 90,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 45,
+          "pct": 0.5,
+          "justificativa": "Clips para conexão de barras de aterramento no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 45,
+          "pct": 0.5,
+          "justificativa": "Clips para conexão de barras equipotenciais em áreas sociais."
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "codigo": "8507",
+      "qtd_total": 30,
+      "unidade": "pc",
+      "descricao": "EMENDA (L) EM AÇO G.F.200X200mm - ø 3/8\"",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 15,
+          "pct": 0.5,
+          "justificativa": "Cotovelos estruturais para a Torre A (conexões secundárias)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 15,
+          "pct": 0.5,
+          "justificativa": "Cotovelos estruturais para a Torre B (conexões secundárias)."
+        }
+      ]
+    },
+    {
+      "numero": 19,
+      "codigo": "8505",
+      "qtd_total": 180,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 60,
+          "pct": 0.333,
+          "justificativa": "Clips para descidas e conexões secundárias na Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 60,
+          "pct": 0.333,
+          "justificativa": "Clips para descidas e conexões secundárias na Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 60,
+          "pct": 0.334,
+          "justificativa": "Clips para conexão de barras de aterramento e equipotenciais no subsolo."
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "codigo": "8508",
+      "qtd_total": 30,
+      "unidade": "pc",
+      "descricao": "CONECTORES DUPLO-CLIPS P/ FERRAGENS - 8 a 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 15,
+          "pct": 0.5,
+          "justificativa": "Conectores para barras de aterramento no subsolo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 15,
+          "pct": 0.5,
+          "justificativa": "Conectores para barras equipotenciais em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 24,
+      "codigo": "8500",
+      "qtd_total": 150,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø8mmX3,00m (50mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 37.5,
+          "pct": 0.25,
+          "justificativa": "Barras estruturais para malha de aterramento e suporte em nível térreo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 37.5,
+          "pct": 0.25,
+          "justificativa": "Barras estruturais para suporte do sistema em áreas sociais (Lazer)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 37.5,
+          "pct": 0.25,
+          "justificativa": "Barras estruturais para suporte em casa de máquinas e reservatórios."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 37.5,
+          "pct": 0.25,
+          "justificativa": "Barras estruturais para suporte da malha de captadores e descidas na cobertura."
+        }
+      ]
+    },
+    {
+      "numero": 25,
+      "codigo": "8505",
+      "qtd_total": 450,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 100,
+          "pct": 0.222,
+          "justificativa": "Clips para fixação de descidas e malha na Torre A (pavimentos tipo)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 100,
+          "pct": 0.222,
+          "justificativa": "Clips para fixação de descidas e malha na Torre B (pavimentos tipo)."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 150,
+          "pct": 0.333,
+          "justificativa": "Clips para fixação da malha de aterramento e descidas no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 100,
+          "pct": 0.222,
+          "justificativa": "Clips para fixação de descidas e malha em áreas sociais (Lazer)."
+        }
+      ]
+    },
+    {
+      "numero": 26,
+      "codigo": "8507",
+      "qtd_total": 150,
+      "unidade": "pc",
+      "descricao": "EMENDA (L) EM AÇO G.F.200X200mm - ø 3/8\"",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.333,
+          "justificativa": "Conexões estruturais em pontos de entrada e saída do sistema no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.333,
+          "justificativa": "Conexões estruturais em pontos de transição em áreas sociais."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.333,
+          "justificativa": "Conexões estruturais em pontos de transição na casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 27,
+      "codigo": "8505",
+      "qtd_total": 900,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 200,
+          "pct": 0.222,
+          "justificativa": "Clips para fixação de descidas e malha na Torre A (pavimentos tipo)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 200,
+          "pct": 0.222,
+          "justificativa": "Clips para fixação de descidas e malha na Torre B (pavimentos tipo)."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 300,
+          "pct": 0.333,
+          "justificativa": "Clips para fixação da malha de aterramento e descidas no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 200,
+          "pct": 0.222,
+          "justificativa": "Clips para fixação de descidas e malha em áreas sociais (Lazer)."
+        }
+      ]
+    },
+    {
+      "numero": 28,
+      "codigo": "8508",
+      "qtd_total": 150,
+      "unidade": "pc",
+      "descricao": "CONECTORES DUPLO-CLIPS P/ FERRAGENS - 8 a 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.333,
+          "justificativa": "Conectores em pontos críticos de junção da malha de aterramento no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.333,
+          "justificativa": "Conectores em pontos críticos de junção da malha em áreas sociais."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.333,
+          "justificativa": "Conectores em pontos críticos de junção da malha na casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 30,
+      "codigo": "8507",
+      "qtd_total": 6,
+      "unidade": "pc",
+      "descricao": "EMENDA (L) EM AÇO G.F.200X200mm - ø 3/8\"",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 3,
+          "pct": 0.5,
+          "justificativa": "Emendas estruturais em pontos de acesso principal no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 3,
+          "pct": 0.5,
+          "justificativa": "Emendas estruturais em pontos de transição em áreas sociais."
+        }
+      ]
+    },
+    {
+      "numero": 31,
+      "codigo": "8500",
+      "qtd_total": 2,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø8mmX3,00m (50mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Barras de ancoragem em pontos críticos de inspeção no subsolo."
+        }
+      ]
+    },
+    {
+      "numero": 32,
+      "codigo": "8505",
+      "qtd_total": 2,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Fixação de descidas em pontos de inspeção no subsolo."
+        }
+      ]
+    },
+    {
+      "numero": 37,
+      "codigo": "8500",
+      "qtd_total": 22,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø8mmX3,00m (50mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 10,
+          "pct": 0.455,
+          "justificativa": "Suporte estrutural para malha de aterramento no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 10,
+          "pct": 0.455,
+          "justificativa": "Suporte estrutural para descidas em áreas sociais."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.091,
+          "justificativa": "Suporte estrutural em pontos de conexão na casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 38,
+      "codigo": "8500",
+      "qtd_total": 160,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø8mmX3,00m (50mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 50,
+          "pct": 0.3125,
+          "justificativa": "Suporte estrutural para descidas e malha na Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 50,
+          "pct": 0.3125,
+          "justificativa": "Suporte estrutural para descidas e malha na Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 40,
+          "pct": 0.25,
+          "justificativa": "Suporte estrutural para malha de aterramento no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 20,
+          "pct": 0.125,
+          "justificativa": "Suporte estrutural para descidas em áreas sociais."
+        }
+      ]
+    },
+    {
+      "numero": 39,
+      "codigo": "8505",
+      "qtd_total": 480,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 150,
+          "pct": 0.3125,
+          "justificativa": "Clips para fixação de descidas e malha na Torre A (pavimentos tipo)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 150,
+          "pct": 0.3125,
+          "justificativa": "Clips para fixação de descidas e malha na Torre B (pavimentos tipo)."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 150,
+          "pct": 0.3125,
+          "justificativa": "Clips para fixação da malha de aterramento e descidas no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 30,
+          "pct": 0.0625,
+          "justificativa": "Clips para fixação de descidas em áreas sociais."
+        }
+      ]
+    },
+    {
+      "numero": 40,
+      "codigo": "8505",
+      "qtd_total": 160,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 50,
+          "pct": 0.3125,
+          "justificativa": "Clips para fixação de descidas e malha na Torre A (pavimentos tipo)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 50,
+          "pct": 0.3125,
+          "justificativa": "Clips para fixação de descidas e malha na Torre B (pavimentos tipo)."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 30,
+          "pct": 0.1875,
+          "justificativa": "Clips para fixação de descidas e malha no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 30,
+          "pct": 0.1875,
+          "justificativa": "Clips para fixação de descidas em áreas sociais."
+        }
+      ]
+    },
+    {
+      "numero": 41,
+      "codigo": "8507",
+      "qtd_total": 22,
+      "unidade": "pc",
+      "descricao": "EMENDA (L) EM AÇO G.F.200X200mm - ø 3/8\"",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 11,
+          "pct": 0.5,
+          "justificativa": "Conexões estruturais de emenda em aço no nível do subsolo (TERREO)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 11,
+          "pct": 0.5,
+          "justificativa": "Conexões estruturais de emenda em aço na casa de máquinas (C_MAQ)."
+        }
+      ]
+    },
+    {
+      "numero": 42,
+      "codigo": "8505",
+      "qtd_total": 132,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 66,
+          "pct": 0.5,
+          "justificativa": "Fixação de barras de equipotencialização no subsolo (TERREO)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 40,
+          "pct": 0.3,
+          "justificativa": "Fixação de barras de equipotencialização na casa de máquinas (C_MAQ)."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 26,
+          "pct": 0.2,
+          "justificativa": "Fixação de barras de equipotencialização na laje de cobertura (COBERTURA)."
+        }
+      ]
+    },
+    {
+      "numero": 43,
+      "codigo": "8508",
+      "qtd_total": 22,
+      "unidade": "pc",
+      "descricao": "CONECTORES DUPLO-CLIPS P/ FERRAGENS - 8 a 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 11,
+          "pct": 0.5,
+          "justificativa": "Conexão de ferragens de equipotencialização no subsolo (TERREO)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 7,
+          "pct": 0.32,
+          "justificativa": "Conexão de ferragens de equipotencialização na casa de máquinas (C_MAQ)."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.18,
+          "justificativa": "Conexão de ferragens de equipotencialização na laje de cobertura (COBERTURA)."
+        }
+      ]
+    },
+    {
+      "numero": 44,
+      "codigo": "8523",
+      "qtd_total": 17,
+      "unidade": "pc",
+      "descricao": "BARRA CHATA EM ALUMÍNIO - 7/8\" x 1/8\" x 3m (70mm²) COM FUROS ø7mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 6,
+          "pct": 0.35,
+          "justificativa": "Barras horizontais de equipotencialização no subsolo (TERREO)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 6,
+          "pct": 0.35,
+          "justificativa": "Barras horizontais de equipotencialização na casa de máquinas (C_MAQ)."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 5,
+          "pct": 0.29,
+          "justificativa": "Barras horizontais de equipotencialização na laje de cobertura (COBERTURA)."
+        }
+      ]
+    },
+    {
+      "numero": 45,
+      "codigo": "8528",
+      "qtd_total": 0,
+      "unidade": "pc",
+      "descricao": "CURVA HORIZINTAL 90° EM ALUMINIO - 7/8\" x 1/8\" x 300mm (70mm²) - SEM FUROS",
+      "distribuicao": []
+    },
+    {
+      "numero": 46,
+      "codigo": "8531",
+      "qtd_total": 0,
+      "unidade": "pc",
+      "descricao": "CURVAS VERTICAL 90° DE BARRA CHATA - 7/8\" x 1/8\" x 300mm (70mm²) - EM ALUMÍNIO",
+      "distribuicao": []
+    },
+    {
+      "numero": 47,
+      "codigo": "8515",
+      "qtd_total": 12,
+      "unidade": "pc",
+      "descricao": "CONECTOR ATERRINSERT P/ REBARS ø8-10mm COM DISCO EM LATÃO E ROSCA FÊMEA M12",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.33,
+          "justificativa": "Conexão de barras de aterramento no subsolo (TERREO)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.33,
+          "justificativa": "Conexão de barras de aterramento na casa de máquinas (C_MAQ)."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.33,
+          "justificativa": "Conexão de barras de aterramento na laje de cobertura (COBERTURA)."
+        }
+      ]
+    },
+    {
+      "numero": 48,
+      "codigo": "8517",
+      "qtd_total": 12,
+      "unidade": "pc",
+      "descricao": "REDUTOR PRISIONEIRO M12 x 1/4\" EM LATÃO ZINCADO COM PARAFUSO INOX",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 6,
+          "pct": 0.5,
+          "justificativa": "Redutores de transição de aterramento no subsolo (TERREO)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 6,
+          "pct": 0.5,
+          "justificativa": "Redutores de transição de aterramento na casa de máquinas (C_MAQ)."
+        }
+      ]
+    },
+    {
+      "numero": 49,
+      "codigo": "8550",
+      "qtd_total": 3,
+      "unidade": "pc",
+      "descricao": "PLACA ADVERTENCIA (CUIDADO, COM CHUVA OU RÁIOS SE ABRIGUE DENTRO DA EDIFICAÇÃO COBERTA.)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.67,
+          "justificativa": "Placas de advertência em áreas de acesso principal (TERREO)."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 1,
+          "pct": 0.33,
+          "justificativa": "Placa de advertência em área social de lazer (LAZER)."
+        }
+      ]
+    },
+    {
+      "numero": 52,
+      "codigo": "8500",
+      "qtd_total": 528,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø8mmX3,00m (50mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 264,
+          "pct": 0.5,
+          "justificativa": "Barras de equipotencialização no subsolo (TERREO)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 264,
+          "pct": 0.5,
+          "justificativa": "Barras de equipotencialização na casa de máquinas (C_MAQ)."
+        }
+      ]
+    },
+    {
+      "numero": 53,
+      "codigo": "8505",
+      "qtd_total": 1584,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 792,
+          "pct": 0.5,
+          "justificativa": "Fixação de barras de equipotencialização no subsolo (TERREO)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 475,
+          "pct": 0.3,
+          "justificativa": "Fixação de barras de equipotencialização na casa de máquinas (C_MAQ)."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.2,
+          "justificativa": "Fixação de barras de equipotencialização na laje de cobertura (COBERTURA)."
+        }
+      ]
+    },
+    {
+      "numero": 54,
+      "codigo": "8507",
+      "qtd_total": 528,
+      "unidade": "pc",
+      "descricao": "EMENDA (L) EM AÇO G.F.200X200mm - ø 3/8\"",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 176,
+          "pct": 0.33,
+          "justificativa": "Conexões estruturais de emenda em aço no subsolo (TERREO)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 176,
+          "pct": 0.33,
+          "justificativa": "Conexões estruturais de emenda em aço na casa de máquinas (C_MAQ)."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 176,
+          "pct": 0.33,
+          "justificativa": "Conexões estruturais de emenda em aço na laje de cobertura (COBERTURA)."
+        }
+      ]
+    },
+    {
+      "numero": 55,
+      "codigo": "8505",
+      "qtd_total": 3168,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas em nível de subsolo (terreno)."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 1."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 2."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 3."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 4."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 5."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões em áreas sociais e equipamentos de lazer."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 316,
+          "pct": 0.1,
+          "justificativa": "Conexões de descidas e malha em todos os pavimentos tipo (24 pavs)."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 316,
+          "pct": 0.1,
+          "justificativa": "Conexões em casa de máquinas e reservatórios."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 316,
+          "pct": 0.1,
+          "justificativa": "Conexões de descidas e malha na laje de cobertura."
+        }
+      ]
+    },
+    {
+      "numero": 56,
+      "codigo": "8508",
+      "qtd_total": 528,
+      "unidade": "pc",
+      "descricao": "CONECTORES DUPLO-CLIPS P/ FERRAGENS - 8 a 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 53,
+          "pct": 0.1,
+          "justificativa": "Conexões em nível de subsolo (terreno)."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "AMBAS",
+          "qtd_rateada": 53,
+          "pct": 0.1,
+          "justificativa": "Conexões na garagem 1."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "AMBAS",
+          "qtd_rateada": 53,
+          "pct": 0.1,
+          "justificativa": "Conexões na garagem 2."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "AMBAS",
+          "qtd_rateada": 53,
+          "pct": 0.1,
+          "justificativa": "Conexões na garagem 3."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "AMBAS",
+          "qtd_rateada": 53,
+          "pct": 0.1,
+          "justificativa": "Conexões na garagem 4."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "AMBAS",
+          "qtd_rateada": 53,
+          "pct": 0.1,
+          "justificativa": "Conexões na garagem 5."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 53,
+          "pct": 0.1,
+          "justificativa": "Conexões em áreas sociais e equipamentos de lazer."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 52,
+          "pct": 0.1,
+          "justificativa": "Conexões de descidas e malha em pavimentos tipo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 52,
+          "pct": 0.1,
+          "justificativa": "Conexões em casa de máquinas e reservatórios."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 52,
+          "pct": 0.1,
+          "justificativa": "Conexões na laje de cobertura."
+        }
+      ]
+    },
+    {
+      "numero": 59,
+      "codigo": "8500",
+      "qtd_total": 536,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø8mmX3,00m (50mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 0.1,
+          "justificativa": "Malha de aterramento principal no subsolo."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 0.1,
+          "justificativa": "Malha de aterramento principal na garagem 1."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 0.1,
+          "justificativa": "Malha de aterramento principal na garagem 2."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 0.1,
+          "justificativa": "Malha de aterramento principal na garagem 3."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 0.1,
+          "justificativa": "Malha de aterramento principal na garagem 4."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 0.1,
+          "justificativa": "Malha de aterramento principal na garagem 5."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 0.1,
+          "justificativa": "Malha de aterramento em áreas sociais e lazer."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 0.1,
+          "justificativa": "Malha de aterramento em pavimentos tipo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 0.1,
+          "justificativa": "Malha de aterramento em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 60,
+      "codigo": "8505",
+      "qtd_total": 536,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas em nível de subsolo (terreno)."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 1."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 2."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 3."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 4."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões de malha e descidas na garagem 5."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 317,
+          "pct": 0.1,
+          "justificativa": "Conexões em áreas sociais e equipamentos de lazer."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 316,
+          "pct": 0.1,
+          "justificativa": "Conexões de descidas e malha em pavimentos tipo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 316,
+          "pct": 0.1,
+          "justificativa": "Conexões em casa de máquinas e reservatórios."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 316,
+          "pct": 0.1,
+          "justificativa": "Conexões de descidas e malha na laje de cobertura."
+        }
+      ]
+    },
+    {
+      "numero": 64,
+      "codigo": "8500",
+      "qtd_total": 12,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø8mmX3,00m (50mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 12,
+          "pct": 1.0,
+          "justificativa": "Reforço de aterramento em pontos críticos do térreo (entradas/quadros)."
+        }
+      ]
+    },
+    {
+      "numero": 65,
+      "codigo": "8500",
+      "qtd_total": 175,
+      "unidade": "pc",
+      "descricao": "RE-BARS - BARRAS REDONDAS DE AÇO GALVANIZADAS A FOGO - ø8mmX3,00m (50mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.286,
+          "justificativa": "Reforço de malha de aterramento no subsolo."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 100,
+          "pct": 0.571,
+          "justificativa": "Reforço de malha de aterramento nos pavimentos tipo."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 25,
+          "pct": 0.143,
+          "justificativa": "Reforço de malha de aterramento na laje de cobertura."
+        }
+      ]
+    },
+    {
+      "numero": 66,
+      "codigo": "8505",
+      "qtd_total": 36,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 18,
+          "pct": 0.5,
+          "justificativa": "Conexões em nível de subsolo (terreno)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 18,
+          "pct": 0.5,
+          "justificativa": "Conexões de descidas e malha nos pavimentos tipo."
+        }
+      ]
+    },
+    {
+      "numero": 67,
+      "codigo": "8505",
+      "qtd_total": 175,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 100,
+          "pct": 0.571,
+          "justificativa": "Conexões de descidas e malha nos pavimentos tipo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 50,
+          "pct": 0.286,
+          "justificativa": "Conexões em áreas sociais e equipamentos de lazer."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 25,
+          "pct": 0.143,
+          "justificativa": "Conexões em casa de máquinas e reservatórios."
+        }
+      ]
+    },
+    {
+      "numero": 68,
+      "codigo": "8507",
+      "qtd_total": 12,
+      "unidade": "pc",
+      "descricao": "EMENDA (L) EM AÇO G.F.200X200mm - ø 3/8\"",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 12,
+          "pct": 1.0,
+          "justificativa": "Curvas e emendas em barras de aterramento no subsolo."
+        }
+      ]
+    },
+    {
+      "numero": 69,
+      "codigo": "8505",
+      "qtd_total": 72,
+      "unidade": "pc",
+      "descricao": "CLIPS GALVANIZADOS PARA CONEXÃO DE BARRAS DE 8 A 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 36,
+          "pct": 0.5,
+          "justificativa": "Conexões em nível de subsolo (terreno)."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 36,
+          "pct": 0.5,
+          "justificativa": "Conexões em áreas sociais e equipamentos de lazer."
+        }
+      ]
+    },
+    {
+      "numero": 70,
+      "codigo": "8508",
+      "qtd_total": 12,
+      "unidade": "pc",
+      "descricao": "CONECTORES DUPLO-CLIPS P/ FERRAGENS - 8 a 10mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 12,
+          "pct": 1.0,
+          "justificativa": "Conexão de barras de aterramento em pontos críticos do térreo."
+        }
+      ]
+    },
+    {
+      "numero": 71,
+      "codigo": "8523",
+      "qtd_total": 67,
+      "unidade": "pc",
+      "descricao": "BARRA CHATA EM ALUMÍNIO - 7/8\" x 1/8\" x 3m (70mm²) COM FUROS ø7mm",
+      "distribuicao": [
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 67,
+          "pct": 1.0,
+          "justificativa": "Barras de captação ou condutores horizontais na laje de cobertura."
+        }
+      ]
+    },
+    {
+      "numero": 72,
+      "codigo": "8528",
+      "qtd_total": 30,
+      "unidade": "pc",
+      "descricao": "CURVA HORIZINTAL 90° EM ALUMINIO - 7/8\" x 1/8\" x 300mm (70mm²) - SEM FUROS",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 15,
+          "pct": 0.5,
+          "justificativa": "Curvas para descidas e ramais horizontais na Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 15,
+          "pct": 0.5,
+          "justificativa": "Curvas para descidas e ramais horizontais na Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 73,
+      "codigo": "8515",
+      "qtd_total": 30,
+      "unidade": "pc",
+      "descricao": "CONECTOR ATERRINSERT P/ REBARS ø8-10mm COM DISCO EM LATÃO E ROSCA FÊMEA M12",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 30,
+          "pct": 1.0,
+          "justificativa": "Conectores para fixação da malha de aterramento no nível do térreo."
+        }
+      ]
+    },
+    {
+      "numero": 74,
+      "codigo": "8517",
+      "qtd_total": 30,
+      "unidade": "pc",
+      "descricao": "REDUTOR PRISIONEIRO M12 x 1/4\" EM LATÃO ZINCADO COM PARAFUSO INOX",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 30,
+          "pct": 1.0,
+          "justificativa": "Redutores para conexão de cabos de descida e equipotencialização nos pontos de entrada das torres."
+        }
+      ]
+    },
+    {
+      "numero": 75,
+      "codigo": "8543",
+      "qtd_total": 24,
+      "unidade": "pc",
+      "descricao": "MINICAPTOR EM BARRA CHATA DE ALUMINIO - 7/8\" x 1/8\" x 300mm",
+      "distribuicao": [
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 24,
+          "pct": 1.0,
+          "justificativa": "Captadores instalados na laje de cobertura, distribuídos entre as duas torres."
+        }
+      ]
+    },
+    {
+      "numero": 76,
+      "codigo": "8545",
+      "qtd_total": 5,
+      "unidade": "pc",
+      "descricao": "CONECTOR TIPO SPLIT-BOLT BIMETALICO (16mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 5,
+          "pct": 1.0,
+          "justificativa": "Conectores para equipotencialização em áreas sociais (Lazer)."
+        }
+      ]
+    },
+    {
+      "numero": 80,
+      "codigo": "8537",
+      "qtd_total": 12,
+      "unidade": "pc",
+      "descricao": "CAIXA DE EQUALIZAÇÃO DE POTENCIA (210x210x90mm) - C/ 9 TERMINAIS (08 PARA CABOS 16mm - 01 PARA CABO 50mm)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "A",
+          "qtd_rateada": 6,
+          "pct": 0.5,
+          "justificativa": "Caixas de equalização para o quadro geral da Torre A."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "B",
+          "qtd_rateada": 6,
+          "pct": 0.5,
+          "justificativa": "Caixas de equalização para o quadro geral da Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 81,
+      "codigo": "6025",
+      "qtd_total": 60,
+      "unidade": "m",
+      "descricao": "CABO 50mm² FLEXÍVEL (750V) PVC VERDE",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 30,
+          "pct": 0.5,
+          "justificativa": "Descida principal de aterramento (50mm²) na Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 30,
+          "pct": 0.5,
+          "justificativa": "Descida principal de aterramento (50mm²) na Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 82,
+      "codigo": "6010",
+      "qtd_total": 180,
+      "unidade": "m",
+      "descricao": "CABO 16mm² FLEXÍVEL (750V) PVC VERDE",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 90,
+          "pct": 0.5,
+          "justificativa": "Cabos de equipotencialização (16mm²) distribuídos verticalmente na Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 90,
+          "pct": 0.5,
+          "justificativa": "Cabos de equipotencialização (16mm²) distribuídos verticalmente na Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 83,
+      "codigo": "8535",
+      "qtd_total": 180,
+      "unidade": "m",
+      "descricao": "FITA PERFURADA DE LATÃO NIQUELADO P/ USO INTERNO 20 x 0,8mm",
+      "distribuicao": [
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 180,
+          "pct": 1.0,
+          "justificativa": "Fita equipotencializadora em áreas sociais e de circulação (Lazer)."
+        }
+      ]
+    },
+    {
+      "numero": 84,
+      "codigo": "5107",
+      "qtd_total": 60,
+      "unidade": "pc",
+      "descricao": "TERMINAL PRÉ ISOLADO TIPO OLHAL - 16mm²",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 30,
+          "pct": 0.5,
+          "justificativa": "Terminais de conexão para o sistema de equipotencialização na Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 30,
+          "pct": 0.5,
+          "justificativa": "Terminais de conexão para o sistema de equipotencialização na Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 90,
+      "codigo": "8545",
+      "qtd_total": 4,
+      "unidade": "pc",
+      "descricao": "CONECTOR TIPO SPLIT-BOLT BIMETALICO (16mm²)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Conectores adicionais para equipotencialização na Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Conectores adicionais para equipotencialização na Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 91,
+      "codigo": "8499",
+      "qtd_total": 2,
+      "unidade": "m",
+      "descricao": "TELA PARA EQUIPOTENCIALIZAÇÃO EM INOX (TIPO MOEDA) - 245mmX1,5mm",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Tela de equipotencialização na malha de aterramento sob a edificação."
+        }
+      ]
+    },
+    {
+      "numero": 94,
+      "codigo": "8515",
+      "qtd_total": 33,
+      "unidade": "pc",
+      "descricao": "CONECTOR ATERRINSERT P/ REBARS ø8-10mm COM DISCO EM LATÃO E ROSCA FÊMEA M12",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 17,
+          "pct": 0.515,
+          "justificativa": "Conectores para a malha de aterramento principal (rebar) sob a edificação, servindo ambas as torres."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 16,
+          "pct": 0.485,
+          "justificativa": "Conectores para o sistema de aterramento e equipotencialização na casa de máquinas, servindo ambas as torres."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "numero": "59",
+      "erro": "soma_diverge",
+      "qtd_total": 536,
+      "soma": 603
+    },
+    {
+      "numero": "60",
+      "erro": "soma_diverge",
+      "qtd_total": 536,
+      "soma": 3167
+    }
+  ]
+}

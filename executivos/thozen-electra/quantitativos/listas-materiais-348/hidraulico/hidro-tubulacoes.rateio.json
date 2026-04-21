@@ -1,0 +1,940 @@
+{
+  "pdf_origem": "348_LM - HIDRO - rev.00_ELC - TUBULAÇÕES.pdf",
+  "sistema": "HIDRO-TUBOS",
+  "model": "gemma4:e4b",
+  "fonte_flat": "hidro-tubulacoes.gemma.json",
+  "total_itens_orig": 18,
+  "total_rateios": 18,
+  "rateios": [
+    {
+      "numero": 1,
+      "codigo": null,
+      "qtd_total": 535,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor branca, linha Esgoto Série Normal (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 214,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 214,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 53.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 53.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "codigo": null,
+      "qtd_total": 995,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor branca, linha Esgoto Série Normal (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 398,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 398,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 99.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 99.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "codigo": null,
+      "qtd_total": 10,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor branca, linha Esgoto Série Normal (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 8,
+          "pct": 0.8,
+          "justificativa": "Maior parte do material para ramais e prumadas tipo."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 1,
+          "pct": 0.1,
+          "justificativa": "Ramal de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 1,
+          "pct": 0.1,
+          "justificativa": "Ventilação ou ramal de inspeção em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "codigo": null,
+      "qtd_total": 465,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor branca, linha Esgoto Série Normal (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 186,
+          "pct": 0.399,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 186,
+          "pct": 0.399,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 46.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 46.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "codigo": null,
+      "qtd_total": 250,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor branca, linha Esgoto Série Reforçada (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 100,
+          "pct": 0.2,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 100,
+          "pct": 0.2,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 25,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 25,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "codigo": null,
+      "qtd_total": 35,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor branca, linha Esgoto Série Reforçada (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 14,
+          "pct": 0.2,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 14,
+          "pct": 0.2,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 3.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 3.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "codigo": null,
+      "qtd_total": 1280,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor branca, linha Esgoto Série Reforçada (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 512,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 512,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 128,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 128,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "codigo": null,
+      "qtd_total": 335,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor branca, linha Esgoto Série Reforçada (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 134,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 134,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 33.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 33.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "codigo": null,
+      "qtd_total": 3085,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor marrom, linha soldável (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 1234,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 1234,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 308.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 308.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "codigo": null,
+      "qtd_total": 1060,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor marrom, linha soldável (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 424,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 424,
+          "pct": 0.4,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 106,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 106,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "codigo": null,
+      "qtd_total": 40,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor marrom, linha soldável (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 16,
+          "pct": 0.2,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 16,
+          "pct": 0.2,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "codigo": null,
+      "qtd_total": 65,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor marrom, linha soldável (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 26,
+          "pct": 0.2,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 26,
+          "pct": 0.2,
+          "justificativa": "80% do total de esgoto para a prumada vertical da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 6.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para caixas de inspeção e ramais de ligação no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 6.5,
+          "pct": 0.1,
+          "justificativa": "10% do total para ventilação e medição em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "codigo": null,
+      "qtd_total": 10,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor marrom, linha soldável (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 8.0,
+          "pct": 0.8,
+          "justificativa": "Rateio de esgoto principal (80% do total) para os pavimentos tipo."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 1.0,
+          "pct": 0.1,
+          "justificativa": "Rateio de esgoto para caixas de inspeção e ramais no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 1.0,
+          "pct": 0.1,
+          "justificativa": "Rateio de esgoto para ventilação de prumadas em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "codigo": null,
+      "qtd_total": 10,
+      "unidade": null,
+      "descricao": "Tubo PVC rígido, cor marrom, linha soldável (Tubo de 6m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 8.0,
+          "pct": 0.8,
+          "justificativa": "Rateio de esgoto principal (80% do total) para os pavimentos tipo."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 1.0,
+          "pct": 0.1,
+          "justificativa": "Rateio de esgoto para caixas de inspeção e ramais no térreo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 1.0,
+          "pct": 0.1,
+          "justificativa": "Rateio de esgoto para ventilação de prumadas em casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "codigo": null,
+      "qtd_total": 205,
+      "unidade": null,
+      "descricao": "Tubo CPVC FlowGuard, cor branca, linha soldável (Tubo de 3m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 71.75,
+          "pct": 0.35,
+          "justificativa": "Prumada vertical de água fria (70% do total) para a Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 71.75,
+          "pct": 0.35,
+          "justificativa": "Prumada vertical de água fria (70% do total) para a Torre B."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "A",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G1, Torre A."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "A",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G2, Torre A."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "A",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G3, Torre A."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "A",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G4, Torre A."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "A",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G5, Torre A."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "B",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G1, Torre B."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "B",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G2, Torre B."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "B",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G3, Torre B."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "B",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G4, Torre B."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "B",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G5, Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 20.5,
+          "pct": 0.1,
+          "justificativa": "Alimentação e ramais de água fria no térreo (10% do total)."
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "codigo": null,
+      "qtd_total": 2555,
+      "unidade": null,
+      "descricao": "Tubo CPVC FlowGuard, cor branca, linha soldável (Tubo de 3m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 894.25,
+          "pct": 0.35,
+          "justificativa": "Prumada vertical de água fria (70% do total) para a Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 894.25,
+          "pct": 0.35,
+          "justificativa": "Prumada vertical de água fria (70% do total) para a Torre B."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "A",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G1, Torre A."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "A",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G2, Torre A."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "A",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G3, Torre A."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "A",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G4, Torre A."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "A",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G5, Torre A."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "B",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G1, Torre B."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "B",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G2, Torre B."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "B",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G3, Torre B."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "B",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G4, Torre B."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "B",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G5, Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 255.5,
+          "pct": 0.1,
+          "justificativa": "Alimentação e ramais de água fria no térreo (10% do total)."
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "codigo": null,
+      "qtd_total": 1120,
+      "unidade": null,
+      "descricao": "Tubo CPVC FlowGuard, cor branca, linha soldável (Tubo de 3m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 392.0,
+          "pct": 0.35,
+          "justificativa": "Prumada vertical de água fria (70% do total) para a Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 392.0,
+          "pct": 0.35,
+          "justificativa": "Prumada vertical de água fria (70% do total) para a Torre B."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "A",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G1, Torre A."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "A",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G2, Torre A."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "A",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G3, Torre A."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "A",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G4, Torre A."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "A",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G5, Torre A."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "B",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G1, Torre B."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "B",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G2, Torre B."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "B",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G3, Torre B."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "B",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G4, Torre B."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "B",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Ramal vertical de água fria (20% do total) para a garagem G5, Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 112.0,
+          "pct": 0.1,
+          "justificativa": "Alimentação e ramais de água fria no térreo (10% do total)."
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "codigo": null,
+      "qtd_total": 130,
+      "unidade": null,
+      "descricao": "Tubo PPR PN 25, linha soldável (Tubo de 3m)",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 39.0,
+          "pct": 0.3,
+          "justificativa": "Distribuição de água quente (60% do total) para a Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 39.0,
+          "pct": 0.3,
+          "justificativa": "Distribuição de água quente (60% do total) para a Torre B."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "A",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G1, Torre A."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "A",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G2, Torre A."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "A",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G3, Torre A."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "A",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G4, Torre A."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "A",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G5, Torre A."
+        },
+        {
+          "pavimento": "G1",
+          "torre": "B",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G1, Torre B."
+        },
+        {
+          "pavimento": "G2",
+          "torre": "B",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G2, Torre B."
+        },
+        {
+          "pavimento": "G3",
+          "torre": "B",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G3, Torre B."
+        },
+        {
+          "pavimento": "G4",
+          "torre": "B",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G4, Torre B."
+        },
+        {
+          "pavimento": "G5",
+          "torre": "B",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente (20% do total) para a garagem G5, Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Ramal de água quente no térreo (20% do total)."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 13.0,
+          "pct": 0.1,
+          "justificativa": "Distribuição de água quente para áreas sociais e lazer."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "numero": "15",
+      "erro": "soma_diverge",
+      "qtd_total": 205,
+      "soma": 369.0
+    },
+    {
+      "numero": "16",
+      "erro": "soma_diverge",
+      "qtd_total": 2555,
+      "soma": 4599.0
+    },
+    {
+      "numero": "17",
+      "erro": "soma_diverge",
+      "qtd_total": 1120,
+      "soma": 2016.0
+    },
+    {
+      "numero": "18",
+      "erro": "soma_diverge",
+      "qtd_total": 130,
+      "soma": 234.0
+    }
+  ]
+}

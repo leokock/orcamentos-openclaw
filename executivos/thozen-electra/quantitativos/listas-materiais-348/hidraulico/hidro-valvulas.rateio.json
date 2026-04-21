@@ -1,0 +1,318 @@
+{
+  "pdf_origem": "348_LM - HIDRO - rev.00_ELC - VÁLVULAS, MOTOBOMBAS.pdf",
+  "sistema": "HIDRO-VALVULAS",
+  "model": "gemma4:e4b",
+  "fonte_flat": "hidro-valvulas.gemma.json",
+  "total_itens_orig": 17,
+  "total_rateios": 17,
+  "rateios": [
+    {
+      "numero": 1,
+      "codigo": null,
+      "qtd_total": 144,
+      "unidade": null,
+      "descricao": "Hidrômetro Unijato",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 72,
+          "pct": 0.5,
+          "justificativa": "Distribuição de medidores por apartamento (4 aptos/pav x 18 pav)"
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 72,
+          "pct": 0.5,
+          "justificativa": "Distribuição de medidores por apartamento (4 aptos/pav x 18 pav)"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "codigo": null,
+      "qtd_total": 48,
+      "unidade": null,
+      "descricao": "Hidrômetro Multijato",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 24,
+          "pct": 0.5,
+          "justificativa": "Medição de consumo em áreas comuns e shafts no subsolo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 24,
+          "pct": 0.5,
+          "justificativa": "Medição de consumo em áreas sociais e lazer."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": null,
+      "descricao": "Filtro Pluvial Fabricante - Modelo: VF1",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Filtros de drenagem pluvial no nível do subsolo."
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": null,
+      "descricao": "Chave de Fluxo - Modelo com Palheta",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Instalação em pontos de medição ou controle de fluxo no subsolo."
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": null,
+      "descricao": "Skid com 02 Pressurizadores da Schneider (CA PLUS-H02 - 1.1/2 HP)",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Equipamento de pressurização principal na casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "codigo": null,
+      "qtd_total": 1,
+      "unidade": null,
+      "descricao": "Skid com 01 Pressurizador da Schneider (SP 12 C - 1/2cv)",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 1,
+          "pct": 1.0,
+          "justificativa": "Pressurizador auxiliar ou específico na casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": null,
+      "descricao": "Skid com 02 Motobombas de recalque da Schneider (135/18 (C1) - AQUA-UP H02 - 12,5CV)",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Sistema principal de recalque de água na casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": null,
+      "descricao": "Válvula Redutora de Pressão de Ação Direta (42 LP de 1 1/4\")",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Controle de pressão na entrada principal do edifício."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Controle de pressão na saída do sistema de bombeamento."
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "codigo": null,
+      "qtd_total": 12,
+      "unidade": null,
+      "descricao": "Válvula Redutora de Pressão - Modelo: Pilotada 420 - 2\"",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.333,
+          "justificativa": "Controle de pressão em ramais principais no subsolo."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 8,
+          "pct": 0.667,
+          "justificativa": "Controle de pressão em shafts verticais de distribuição por pavimento."
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": null,
+      "descricao": "Válvula Controladora de Bomba (740Q de 2\")",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Controle de acionamento das bombas na casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": null,
+      "descricao": "Válvula Controladora de Nível (210-3W de 1 1/2\") + Controladora + Micro Chave Bóia",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Monitoramento de nível em reservatórios e caixas d'água na casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "codigo": null,
+      "qtd_total": 8,
+      "unidade": null,
+      "descricao": "Válvula de Alívio e Segurança (430 de 2\")",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.5,
+          "justificativa": "Dispositivos de segurança em pontos de alta pressão no subsolo."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.5,
+          "justificativa": "Dispositivos de segurança e alívio no sistema de bombeamento."
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": null,
+      "descricao": "Filtro tipo \"T\" Compact de 2\"",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 1.0,
+          "justificativa": "Filtros de linha principal, localizados na casa de máquinas (C_MAQ) para tratamento de água."
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "codigo": null,
+      "qtd_total": 6,
+      "unidade": null,
+      "descricao": "Ventosa Tríplice Função (C30 de 1\")",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 6,
+          "pct": 1.0,
+          "justificativa": "Dispositivos de proteção e controle de fluxo instalados na casa de máquinas (C_MAQ) ou shafts principais."
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": null,
+      "descricao": "Ventosa Tríplice Função (C30 de 2\")",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 1.0,
+          "justificativa": "Dispositivos de proteção e controle de fluxo instalados na casa de máquinas (C_MAQ) ou shafts principais."
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": null,
+      "descricao": "Válvula de Retenção (VA 407-W de 2 1/2\")",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 1.0,
+          "justificativa": "Válvulas de retenção em pontos críticos de interconexão ou na casa de máquinas (C_MAQ) para evitar refluxo."
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": null,
+      "descricao": "Válvula Pé de Crivo (3\")",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 1.0,
+          "justificativa": "Válvulas de proteção e filtragem de grandes diâmetros, localizadas na casa de máquinas (C_MAQ) ou subsolo."
+        }
+      ]
+    }
+  ],
+  "issues": []
+}

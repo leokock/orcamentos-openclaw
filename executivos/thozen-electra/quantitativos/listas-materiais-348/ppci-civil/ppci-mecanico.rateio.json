@@ -1,0 +1,571 @@
+{
+  "pdf_origem": "348_LM - PPCI - rev.00_ELC - SISTEMA MECÂNICO.pdf",
+  "sistema": "UNKNOWN",
+  "model": "gemma4:e4b",
+  "fonte_flat": "ppci-mecanico.gemma.json",
+  "total_itens_orig": 21,
+  "total_rateios": 21,
+  "rateios": [
+    {
+      "numero": 1,
+      "codigo": null,
+      "qtd_total": 50,
+      "unidade": "unid.",
+      "descricao": "BOTOEIRA DE DESENFUMAGEM PARA ACIONAMENTO MANUAL, MODELO RT 45, TIPO QUEBRA VIDRO. SINALIZAÇÃO DE FUNCIONAMENTO (ALARME, DEFEITO E FUNCIONAMENTO NORMAL), COR LARANJA.",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 8,
+          "pct": 0.16,
+          "justificativa": "Instalação em áreas comuns de acesso e circulação no térreo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 8,
+          "pct": 0.16,
+          "justificativa": "Instalação em áreas sociais e de lazer."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.08,
+          "justificativa": "Instalação em pontos estratégicos da laje de cobertura."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 16,
+          "pct": 0.32,
+          "justificativa": "Distribuição em pavimentos tipo da Torre A (aproximadamente 1 a cada 3 pavimentos)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 14,
+          "pct": 0.28,
+          "justificativa": "Distribuição em pavimentos tipo da Torre B (aproximadamente 1 a cada 3 pavimentos)."
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "codigo": null,
+      "qtd_total": 25,
+      "unidade": "unid.",
+      "descricao": "DAMPER DE LAMELAS MOTORIZADO PARA ENTRADA DE AR, EM ALUMÍNIO COM ABERTURA AUTOMÁTICA/MANUAL, PARA MONTAGEM EM POSIÇÃO VERTICAL, COM ATUADOR ELÉTRICO ALIMENTADO A 24VDC, 0,7A. ATUADOR CERTIFICADO DE ACORDO COM A EN 12101-2, PARA MONTAGEM EM ALVENARIA. ÁREA ÚTIL MÍNIMA DE PASSAGEM DE AR: 0,44 m2. - (1000x840 mm) MONTADO À 20 CM DO PISO",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 8,
+          "pct": 0.32,
+          "justificativa": "Intake principal em áreas comuns do térreo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 8,
+          "pct": 0.32,
+          "justificativa": "Intake em áreas comuns de lazer."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 5,
+          "pct": 0.2,
+          "justificativa": "Intake em salas mecânicas e shafts verticais."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.16,
+          "justificativa": "Distribuição em pavimentos tipo (2 por torre)."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "codigo": null,
+      "qtd_total": 25,
+      "unidade": "unid.",
+      "descricao": "DAMPER DE LAMELAS MOTORIZADO PARA ENTRADA DE AR, EM ALUMÍNIO COM ABERTURA AUTOMÁTICA/MANUAL, PARA MONTAGEM EM POSIÇÃO VERTICAL, COM ATUADOR ELÉTRICO ALIMENTADO A 24VDC, 0,7A. ATUADOR CERTIFICADO DE ACORDO COM A EN 12101-2, PARA MONTAGEM EM ALVENARIA. ÁREA ÚTIL MÍNIMA DE PASSAGEM DE AR: 0,44 m2. - (600x1500 mm) MONTADO À 20 CM DO PISO",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 10,
+          "pct": 0.4,
+          "justificativa": "Intake principal em áreas comuns do térreo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 10,
+          "pct": 0.4,
+          "justificativa": "Intake em áreas comuns de lazer."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 5,
+          "pct": 0.2,
+          "justificativa": "Intake em salas mecânicas e shafts verticais."
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": "unid.",
+      "descricao": "DAMPER SOBRE PRESSÃO SÉRIE KUL-1197x1215(LxH)",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Controle de pressão em salas mecânicas."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Controle de pressão na laje de cobertura."
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": "unid.",
+      "descricao": "DAMPER SOBRE PRESSÃO SÉRIE KUL-597x1615 (LxH)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Controle de pressão em shafts verticais do térreo."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 1,
+          "pct": 0.25,
+          "justificativa": "Controle de pressão em áreas comuns de lazer."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 1,
+          "pct": 0.25,
+          "justificativa": "Controle de pressão em salas mecânicas."
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "codigo": null,
+      "qtd_total": 3,
+      "unidade": "unid.",
+      "descricao": "DETECTOR DE FUMAÇA PARA DUTO: LKM 593X e LKM-SET",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 3,
+          "pct": 1.0,
+          "justificativa": "Instalação em dutos principais e shafts mecânicos."
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": "unid.",
+      "descricao": "DETECTOR DE INCÊNDIO MULTICRITÉRIO COM DOIS NÍVEIS PROGRAMÁVEIS PARA AVISO AVISO DE DETECÇÃO DE FUMAÇA E TEMPERATURA, MODELO MCD 573X",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Instalação em áreas comuns de circulação e recepção."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Instalação em áreas comuns de lazer."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "codigo": null,
+      "qtd_total": 133,
+      "unidade": "unid.",
+      "descricao": "DETECTOR DE INCÊNDIO MULTICRITÉRIO COM DOIS NÍVEIS PROGRAMÁVEIS PARA AVISO DE DETECÇÃO DE FUMAÇA E TEMPERATURA, MODELO MCD 573X.",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 58,
+          "pct": 0.435,
+          "justificativa": "Distribuição em unidades habitacionais da Torre A."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 57,
+          "pct": 0.429,
+          "justificativa": "Distribuição em unidades habitacionais da Torre B."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 5,
+          "pct": 0.038,
+          "justificativa": "Instalação em áreas comuns do térreo (hall, elevadores)."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 5,
+          "pct": 0.038,
+          "justificativa": "Instalação em áreas comuns de lazer."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 5,
+          "pct": 0.038,
+          "justificativa": "Instalação em salas de equipamentos e shafts."
+        },
+        {
+          "pavimento": "COBERTURA",
+          "torre": "AMBAS",
+          "qtd_rateada": 3,
+          "pct": 0.022,
+          "justificativa": "Instalação em pontos de equipamentos de cobertura."
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "codigo": null,
+      "qtd_total": 126,
+      "unidade": "unid.",
+      "descricao": "GRELHA DE INSUFLAMENTO DE AR, MODELO AH-15/AG-425x425",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 63,
+          "pct": 0.5,
+          "justificativa": "Distribuição em unidades habitacionais da Torre A (1 por unidade)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 63,
+          "pct": 0.5,
+          "justificativa": "Distribuição em unidades habitacionais da Torre B (1 por unidade)."
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": "unid.",
+      "descricao": "JANELA DE LAMELAS (\"SMOKE VENT\") PARA SAÍDA DE FUMAÇA, MODELO D+H S9i-05, EM ALUMÍNIO DUPLO ISOLADO, PARA MONTAGEM EM POSIÇÃO HORIZONTAL, COM ATUADOR ELÉTRICO ALIMENTADO A 24VDC, 0,7A, SENDO O CONJUNTO (JANELA + ATUADOR) CERTIFICADO DE ACORDO COM A EN 12101-2. ÁREA ÚTIL MÍNIMA DE PASSAGEM DE AR: 0,44 m2. - (1100x746 mm) MONTADO NO ΤΕΤΟ.",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 1.0,
+          "justificativa": "Instalação em áreas comuns de circulação vertical (hall/escadas)."
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "codigo": null,
+      "qtd_total": 24,
+      "unidade": "unid.",
+      "descricao": "JANELA DE LAMELAS (\"SMOKE VENT\") PARA SAÍDA DE FUMAÇA, MODELO D+H S9i-05, EM ALUMÍNIO DUPLO ISOLADO, PARA MONTAGEM EM POSIÇÃO VERTICAL, COM ATUADOR ELÉTRICO ALIMENTADO A 24VDC, 0,7A, SENDO O CONJUNTO (JANELA + ATUADOR) CERTIFICADO DE ACORDO COM A EN 12101-2. MONTAGEM EM ALVENARIA. ÁREA ÚTIL MÍNIMA DE PASSAGEM DE AR: 0,44 m2. - (1100x761 mm) MONTADO RENTE AO TETO.",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 8,
+          "pct": 0.333,
+          "justificativa": "Distribuição em pavimentos tipo da Torre A (em shafts ou áreas de circulação)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 8,
+          "pct": 0.333,
+          "justificativa": "Distribuição em pavimentos tipo da Torre B (em shafts ou áreas de circulação)."
+        },
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.167,
+          "justificativa": "Instalação em áreas comuns de lazer."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.167,
+          "justificativa": "Instalação em salas mecânicas e shafts verticais."
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "codigo": null,
+      "qtd_total": 24,
+      "unidade": "unid.",
+      "descricao": "JANELA DE LAMELAS (\"SMOKE VENT\") PARA SAÍDA DE FUMAÇA, MODELO D+H S9i-05, EM ALUMÍNIO DUPLO ISOLADO, PARA MONTAGEM EM POSIÇÃO VERTICAL, COM ATUADOR ELÉTRICO ALIMENTADO A 24VDC, 0,7A, SENDO O CONJUNTO (JANELA + ATUADOR) CERTIFICADO DE ACORDO COM A EN 12101-2. MONTAGEM EM ALVENARIA. ÁREA ÚTIL MÍNIMA DE PASSAGEM DE AR: 0,44 m2. - (700x1164 mm) MONTADO RENTE AO TETO.",
+      "distribuicao": [
+        {
+          "pavimento": "TIPO",
+          "torre": "A",
+          "qtd_rateada": 12,
+          "pct": 0.5,
+          "justificativa": "Distribuição em unidades habitacionais da Torre A (em shafts ou áreas de circulação)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "B",
+          "qtd_rateada": 12,
+          "pct": 0.5,
+          "justificativa": "Distribuição em unidades habitacionais da Torre B (em shafts ou áreas de circulação)."
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": "unid.",
+      "descricao": "MONITORAMENTO DE DEFEITOS (FIAÇÃO, BATERIA, FALTA DE ENERGIA, FUGA TERRA, ETC.), ENTRADA DE SINAL PARA PAINEL DE ALARME DE INCÊNDIO, BATERIA PARA 72 HORAS DE AUTONOMIA, GABINETE IP-54. DIMENSOES: (310 x 310 x 104) mm, APROVAÇÃO VDS 2581/2593 E DIN EN 12101-10",
+      "distribuicao": [
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Painel de monitoramento centralizado na casa de máquinas."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "AMBAS",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Ponto de monitoramento de serviço no térreo."
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": "unid.",
+      "descricao": "REGISTRO DE VAZÃO SÉRIE JN-B-600x1665 (LxH)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "A",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Instalação de medição de vazão na entrada principal da Torre A."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "B",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Instalação de medição de vazão na entrada principal da Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "codigo": null,
+      "qtd_total": 8,
+      "unidade": "unid.",
+      "descricao": "SENSOR DE FLUXO DE AR (FLUXOSTATO)",
+      "distribuicao": [
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.5,
+          "justificativa": "Sensores de fluxo em áreas comuns de lazer (piscina, academia)."
+        },
+        {
+          "pavimento": "TIPO",
+          "torre": "AMBAS",
+          "qtd_rateada": 4,
+          "pct": 0.5,
+          "justificativa": "Sensores de fluxo em áreas de circulação e shafts dos pavimentos tipo."
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": "unid.",
+      "descricao": "VENEZIANA EXTERIOR EM ALUMÍNIO, MODELO AWG-1185x1980",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "A",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Proteção solar em fachada comum da Torre A."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "B",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Proteção solar em fachada comum da Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": "unid.",
+      "descricao": "VENEZIANA EXTERIOR EM ALUMÍNIO, MODELO AWG-785x1980",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "A",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Proteção solar em fachada comum da Torre A."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "B",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Proteção solar em fachada comum da Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": "unid.",
+      "descricao": "VENEZIANA EXTERIOR, MODELO AWG-585x1650 (LxH)",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "A",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Proteção solar em fachada comum da Torre A."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "B",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Proteção solar em fachada comum da Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 19,
+      "codigo": null,
+      "qtd_total": 4,
+      "unidade": "unid.",
+      "descricao": "VENTILADOR CENTRIFUGO, \"IN LINE\", MODELO TCNS 630, POSIÇÃO HAH (VIDE ESPECIFICAÇÃO)",
+      "distribuicao": [
+        {
+          "pavimento": "LAZER",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Ventilação de grande porte para áreas sociais e piscina."
+        },
+        {
+          "pavimento": "C_MAQ",
+          "torre": "AMBAS",
+          "qtd_rateada": 2,
+          "pct": 0.5,
+          "justificativa": "Ventilação de equipamentos e reservatórios na casa de máquinas."
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": "unid.",
+      "descricao": "VENTILADOR CENTRIFUGO, \"LIMITED LOAD - DA\", MODELO GTD 710, POSIÇÃO LG 90°/BR 270°",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "A",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Ventilação localizada em área comum da Torre A."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "B",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Ventilação localizada em área comum da Torre B."
+        }
+      ]
+    },
+    {
+      "numero": 21,
+      "codigo": null,
+      "qtd_total": 2,
+      "unidade": "unid.",
+      "descricao": "VENTILADOR CENTRIFUGO, \"LIMITED LOAD - DA\", MODELO GTD 710, POSIÇÃO RD 90°/BR 270°",
+      "distribuicao": [
+        {
+          "pavimento": "TERREO",
+          "torre": "A",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Ventilação localizada em área comum da Torre A."
+        },
+        {
+          "pavimento": "TERREO",
+          "torre": "B",
+          "qtd_rateada": 1,
+          "pct": 0.5,
+          "justificativa": "Ventilação localizada em área comum da Torre B."
+        }
+      ]
+    }
+  ],
+  "issues": []
+}

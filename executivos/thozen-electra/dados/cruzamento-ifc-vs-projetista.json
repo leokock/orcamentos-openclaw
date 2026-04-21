@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "ifc": "1203 - THOZEN - RUBENS ALVES - BLOCOS+RAMPAS DE ACESSO - R26.ifc",
+    "gerado_em": "2026-04-20"
+  },
+  "ifc_counts": {
+    "IfcFooting": 70,
+    "IfcSlab": 1527,
+    "IfcBeam": 3531,
+    "IfcColumn": 1531,
+    "IfcStair": 62
+  },
+  "ifc_sample_vols": {
+    "IfcColumn": {
+      "n_total": 1531,
+      "n_sample": 100,
+      "mean_vol": 1.6779969479402834,
+      "total_est_m3": 2569.0
+    },
+    "IfcBeam": {
+      "n_total": 3531,
+      "n_sample": 100,
+      "mean_vol": 1.0860270581605034,
+      "total_est_m3": 3834.8
+    },
+    "IfcSlab": {
+      "n_total": 1527,
+      "n_sample": 100,
+      "mean_vol": 5.689273902784573,
+      "total_est_m3": 8687.5
+    }
+  },
+  "projetista_totals": {
+    "estacas_sem_sobre": 2953.3,
+    "estacas_com_sobre": 3544.0,
+    "blocos_fund_rasa": 2066.36,
+    "supra_torre_a": 5357.61,
+    "supra_torre_b": 5973.73,
+    "total_obra": 15597.7
+  },
+  "comparacoes": {
+    "fund_profunda": {
+      "ifc": 0,
+      "projetista": 3544.0,
+      "flag": "🔴 IFC não modela estacas"
+    },
+    "fund_rasa": {
+      "ifc_bbox": 125.87,
+      "projetista": 2066.36,
+      "delta_pct": 93.90861224568808,
+      "flag": "🔴 IFC cobre só baldrames"
+    },
+    "supra": {
+      "ifc_bbox": 15091.3,
+      "projetista": 11331.34,
+      "delta_pct": 33.18195376716257,
+      "flag": "🔴 CRÍTICO"
+    },
+    "total_obra_sem_estacas": {
+      "ifc_bbox": 15217.17,
+      "projetista": 15597.7,
+      "delta_pct": 2.43965456445502,
+      "flag": "✅ OK"
+    }
+  }
+}
