@@ -316,6 +316,8 @@ Breakdown: Estudos + projetos R$ 1,26M · Taxas R$ 541k · Segurança + EPCs R$ 
 ## Geral / EAP
 
 - Criar a lógica de exportar composição do Visus e insumos e colocar na planilha Excel
+- confirmar o prazo da obra
+- procurar endereço correto da obra
 
 ---
 

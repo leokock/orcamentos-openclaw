@@ -1,0 +1,495 @@
+{
+  "projeto": {
+    "nome": "Electra Towers",
+    "codigo": "CTN-TZN_ELT",
+    "tipo": "Residencial multifamiliar e comercial",
+    "cliente": "Thozen Empreendimentos",
+    "proprietario": "Rubens Alves Empreendimentos Imobiliários LTDA",
+    "cnpj_proprietario": "43.339.082/0001-06",
+    "endereco": {
+      "rua": "Rua 254",
+      "numero": "215",
+      "bairro": "Meia Praia",
+      "cidade": "Itapema",
+      "municipio_legal": "Porto Belo",
+      "uf": "SC"
+    },
+    "arquitetas": [
+      {
+        "nome": "Grayce Suelen de Lima",
+        "cau": "A66076-0"
+      },
+      {
+        "nome": "Anne Elza Geremias",
+        "cau": "A115914-3"
+      }
+    ],
+    "rrts": [
+      "11610153",
+      "14044074"
+    ],
+    "prazo_obra_meses": 48,
+    "numero_torres": 2,
+    "torres": [
+      {
+        "id": "A",
+        "nome": "Torre A"
+      },
+      {
+        "id": "B",
+        "nome": "Torre B"
+      }
+    ]
+  },
+  "revisao": "R00",
+  "data_atualizacao": "2026-04-21",
+  "areas": {
+    "terreno_m2": 2095.43,
+    "construida_total_m2": 37893.89,
+    "construida_computada_m2": 25612.8,
+    "construida_nao_computada_m2": 12281.09,
+    "privativa_total_m2": 22778.64,
+    "lazer_m2": 1736.27,
+    "comercial_m2": 500.04,
+    "permeavel_m2": 105.63,
+    "ocupacao_m2": 1763.0
+  },
+  "indices_urbanisticos": {
+    "zoneamento": "SEMI EIXO",
+    "categoria_uso": "RESIDENCIAL MULTIFAMILIAR E COMERCIAL",
+    "taxa_ocupacao_pct": 84.14,
+    "taxa_ocupacao_pct_max": 95.0,
+    "taxa_permeabilidade_pct": 5.04,
+    "taxa_permeabilidade_pct_min": 5.0,
+    "area_comercial_pct": 31.64,
+    "area_comercial_pct_min": 30.0,
+    "ca_basico": 3.0,
+    "ca_basico_m2": 6286.29,
+    "ca_utilizado": 12.19,
+    "ca_utilizado_m2": 25533.36,
+    "ca_a_pagar": 9.19,
+    "ca_a_pagar_m2": 19247.07,
+    "ca_pago_reais": 5324009.0,
+    "gabarito_embasamento_m": 19.5,
+    "gabarito_embasamento_m_max": 19.5,
+    "gabarito_torre_m": 77.76,
+    "gabarito_torre_m_max": 84.0
+  },
+  "outorga_onerosa": {
+    "hipotese_aplicada": "primeira",
+    "primeira_hipotese": {
+      "ca_basico": 3.0,
+      "ca_basico_m2": 6286.29,
+      "ca_utilizado": 12.19,
+      "ca_utilizado_m2": 25533.36,
+      "ca_a_pagar": 9.19,
+      "ca_a_pagar_m2": 19247.07
+    },
+    "segunda_hipotese": {
+      "ca_1_8_pavto_tipo": 4.0633,
+      "ca_1_8_pavto_tipo_m2": 8511.12,
+      "ca_utilizado": 12.19,
+      "ca_utilizado_m2": 25533.36,
+      "ca_9_24_pavto_tipo": 8.1266,
+      "ca_9_24_pavto_tipo_m2": 17022.24
+    }
+  },
+  "pavimentos": [
+    {
+      "id": "TERREO",
+      "nome": "Térreo",
+      "quantidade": 1,
+      "area_m2": 1565.91,
+      "tipo": "embasamento",
+      "computada": false,
+      "pe_direito_m": 4.3,
+      "notas": "Térreo + garagem + salas comerciais + halls"
+    },
+    {
+      "id": "G1",
+      "nome": "Garagem 01",
+      "quantidade": 1,
+      "area_m2": 1736.27,
+      "tipo": "garagem",
+      "computada": false,
+      "pe_direito_m": null
+    },
+    {
+      "id": "G2",
+      "nome": "Garagem 02",
+      "quantidade": 1,
+      "area_m2": 1736.27,
+      "tipo": "garagem",
+      "computada": false,
+      "pe_direito_m": null
+    },
+    {
+      "id": "G3",
+      "nome": "Garagem 03",
+      "quantidade": 1,
+      "area_m2": 1736.27,
+      "tipo": "garagem",
+      "computada": false,
+      "pe_direito_m": null
+    },
+    {
+      "id": "G4",
+      "nome": "Garagem 04",
+      "quantidade": 1,
+      "area_m2": 1736.27,
+      "tipo": "garagem",
+      "computada": false,
+      "pe_direito_m": null
+    },
+    {
+      "id": "G5",
+      "nome": "Garagem 05",
+      "quantidade": 1,
+      "area_m2": 1736.27,
+      "tipo": "garagem",
+      "computada": false,
+      "pe_direito_m": null
+    },
+    {
+      "id": "LAZER",
+      "nome": "Pavimento diferenciado — Lazer",
+      "quantidade": 1,
+      "area_m2": 1736.27,
+      "tipo": "lazer",
+      "computada": false,
+      "pe_direito_m": 3.6
+    },
+    {
+      "id": "TIPO_A",
+      "nome": "Pavimento tipo — Torre A",
+      "torre": "A",
+      "quantidade": 24,
+      "area_pavto_m2": 530.02,
+      "area_total_m2": 12720.48,
+      "tipo": "tipo",
+      "computada": true,
+      "pe_direito_m": 3.24
+    },
+    {
+      "id": "TIPO_B",
+      "nome": "Pavimento tipo — Torre B",
+      "torre": "B",
+      "quantidade": 24,
+      "area_pavto_m2": 537.18,
+      "area_total_m2": 12892.32,
+      "tipo": "tipo",
+      "computada": true,
+      "pe_direito_m": 3.24
+    },
+    {
+      "id": "CASA_MAQ",
+      "nome": "Casa de Máquinas",
+      "quantidade": 1,
+      "area_m2": 176.26,
+      "tipo": "tecnico",
+      "computada": false,
+      "pe_direito_m": null
+    },
+    {
+      "id": "RESERVATORIO",
+      "nome": "Reservatórios",
+      "quantidade": 1,
+      "area_m2": 121.3,
+      "tipo": "tecnico",
+      "computada": false,
+      "pe_direito_m": null
+    }
+  ],
+  "resumo": {
+    "total_pavtos_distintos": 11,
+    "total_pavtos_fisicos": 53,
+    "total_area_construida_m2": 37893.89,
+    "pavtos_computados": 48,
+    "pavtos_nao_computados": 5
+  },
+  "apartamentos": {
+    "total_unidades": 192,
+    "total_dormitorios": 576,
+    "vagas_por_apto": 2,
+    "tipologias": [
+      {
+        "id": "AP-TIPO-01-A",
+        "torre": "A",
+        "quantidade": 24,
+        "area_privativa_m2": 123.72,
+        "area_util_total_m2": 103.6,
+        "area_util_fechada_m2": 91.8,
+        "vagas": 2,
+        "dormitorios": 3
+      },
+      {
+        "id": "AP-TIPO-02-A",
+        "torre": "A",
+        "quantidade": 24,
+        "area_privativa_m2": 122.32,
+        "area_util_total_m2": 101.65,
+        "area_util_fechada_m2": 90.25,
+        "vagas": 2,
+        "dormitorios": 3
+      },
+      {
+        "id": "AP-TIPO-03-A",
+        "torre": "A",
+        "quantidade": 24,
+        "area_privativa_m2": 115.0,
+        "area_util_total_m2": 94.5,
+        "area_util_fechada_m2": 82.3,
+        "vagas": 2,
+        "dormitorios": 3
+      },
+      {
+        "id": "AP-TIPO-04-A",
+        "torre": "A",
+        "quantidade": 24,
+        "area_privativa_m2": 113.24,
+        "area_util_total_m2": 94.95,
+        "area_util_fechada_m2": 85.15,
+        "vagas": 2,
+        "dormitorios": 3
+      },
+      {
+        "id": "AP-TIPO-01-B",
+        "torre": "B",
+        "quantidade": 24,
+        "area_privativa_m2": 121.0,
+        "area_util_total_m2": 100.55,
+        "area_util_fechada_m2": 87.35,
+        "vagas": 2,
+        "dormitorios": 3
+      },
+      {
+        "id": "AP-TIPO-02-B",
+        "torre": "B",
+        "quantidade": 24,
+        "area_privativa_m2": 123.17,
+        "area_util_total_m2": 102.45,
+        "area_util_fechada_m2": 87.35,
+        "vagas": 2,
+        "dormitorios": 3
+      },
+      {
+        "id": "AP-TIPO-03-B",
+        "torre": "B",
+        "quantidade": 24,
+        "area_privativa_m2": 116.4,
+        "area_util_total_m2": 94.85,
+        "area_util_fechada_m2": 86.55,
+        "vagas": 2,
+        "dormitorios": 3
+      },
+      {
+        "id": "AP-TIPO-04-B",
+        "torre": "B",
+        "quantidade": 24,
+        "area_privativa_m2": 114.31,
+        "area_util_total_m2": 92.05,
+        "area_util_fechada_m2": 83.75,
+        "vagas": 2,
+        "dormitorios": 3
+      }
+    ]
+  },
+  "salas_comerciais": {
+    "total": 7,
+    "total_lavabos_pne": 7,
+    "unidades": [
+      {
+        "id": "SALA-01",
+        "lavabos_pne": 1
+      },
+      {
+        "id": "SALA-02",
+        "lavabos_pne": 1
+      },
+      {
+        "id": "SALA-03",
+        "lavabos_pne": 1
+      },
+      {
+        "id": "SALA-04",
+        "lavabos_pne": 1
+      },
+      {
+        "id": "SALA-05",
+        "lavabos_pne": 1
+      },
+      {
+        "id": "SALA-06",
+        "lavabos_pne": 1
+      },
+      {
+        "id": "SALA-07",
+        "lavabos_pne": 1
+      }
+    ]
+  },
+  "agregados_calculados": {
+    "area_privativa_total_m2": 22778.64,
+    "area_util_total_m2": 18871.2,
+    "area_util_fechada_m2": 17008.8,
+    "area_ambientes_nomeados_m2": 830.75,
+    "area_circulacao_e_demais_m2": 905.52,
+    "porcentagem_ambientes_uso": 47.85
+  },
+  "lazer": {
+    "area_total_pavto_m2": 1736.27,
+    "pe_direito_m": 3.6,
+    "ambientes": [
+      {
+        "nome": "Academia",
+        "area_m2": 81.68
+      },
+      {
+        "nome": "Sala de Jogos",
+        "area_m2": 53.44
+      },
+      {
+        "nome": "Brinquedoteca",
+        "area_m2": 39.83
+      },
+      {
+        "nome": "Salão de Festas",
+        "area_m2": 93.61
+      },
+      {
+        "nome": "Salão de Festas Kids",
+        "area_m2": 85.53
+      },
+      {
+        "nome": "Playground",
+        "area_m2": 68.24
+      },
+      {
+        "nome": "Piscinas",
+        "area_m2": 276.65
+      },
+      {
+        "nome": "Espaço Gourmet",
+        "area_m2": 120.13
+      },
+      {
+        "nome": "Guarita",
+        "area_m2": 4.24
+      },
+      {
+        "nome": "Área de Serviço",
+        "area_m2": 7.4
+      }
+    ]
+  },
+  "infraestrutura_comum": {
+    "lavabos_comuns": 14,
+    "bwcs_pne": 2,
+    "elevadores": {
+      "sociais": 4,
+      "emergencia": 2,
+      "total": 6
+    }
+  },
+  "vagas": {
+    "total_geral": 399,
+    "vagas_simples": 125,
+    "vagas_duplas": 137,
+    "vagas_triplas": 0,
+    "vagas_simples_em_duplas_equivalente": 274,
+    "por_pavimento": [
+      {
+        "pavimento": "Térreo",
+        "simples": 2,
+        "duplas": 18,
+        "triplas": 0,
+        "total": 38,
+        "veiculos_em_duplas": 36
+      },
+      {
+        "pavimento": "G1",
+        "simples": 25,
+        "duplas": 23,
+        "triplas": 0,
+        "total": 71
+      },
+      {
+        "pavimento": "G2",
+        "simples": 24,
+        "duplas": 24,
+        "triplas": 0,
+        "total": 72
+      },
+      {
+        "pavimento": "G3",
+        "simples": 24,
+        "duplas": 24,
+        "triplas": 0,
+        "total": 72
+      },
+      {
+        "pavimento": "G4",
+        "simples": 24,
+        "duplas": 24,
+        "triplas": 0,
+        "total": 72
+      },
+      {
+        "pavimento": "G5",
+        "simples": 26,
+        "duplas": 24,
+        "triplas": 0,
+        "total": 74
+      }
+    ]
+  },
+  "resumo_existentes_e_necessarias": {
+    "necessarias": 393,
+    "existentes": 399,
+    "saldo": 6,
+    "necessarias_detalhe": {
+      "residenciais_privativas": 384,
+      "pcd_residenciais_uso_comum": 7,
+      "comerciais_uso_publico": 1,
+      "pcd_uso_publico": 1,
+      "idosos_uso_publico": 1
+    },
+    "existentes_detalhe": {
+      "residenciais_privativas": 384,
+      "pcd_residenciais_uso_comum": 7,
+      "comerciais_privativas": 6,
+      "pcd_comercial_uso_publico": 1,
+      "idosos_uso_publico": 1
+    }
+  },
+  "por_categoria": {
+    "residenciais": {
+      "simples_privativas": 110,
+      "duplas_privativas": 137,
+      "pne_simples_comuns": 7,
+      "veiculos_residenciais_estimado": 384
+    },
+    "comerciais": {
+      "simples_privativas": 6,
+      "pne_simples_publicas": 1,
+      "idosos_simples_publicas": 1,
+      "total": 8
+    }
+  },
+  "fontes": [
+    "DXF ventilação RA_EVM_LEGAL_PROJETO_R05.dxf (ANEXO I Projeto Legal)",
+    "IFC arquitetura (storeys)",
+    "IFC arquitetura RA_ARQ_EXE_MODELAGEM EMBASAMENTO + COBERTURA_R08.ifc (IFCPOSTALADDRESS)",
+    "PROJETO.md de ~/orcamentos/projetos/thozen-electra/",
+    "Quadro de Informações - Salas Comerciais (print 2026-04-21)",
+    "Quadro de Informações - Área Comum (print 2026-04-21)",
+    "Quadro de Vagas para Automóveis (print 2026-04-21)",
+    "Quadro de Áreas e Informações - Apartamentos (print 2026-04-21)",
+    "Quadro de Áreas oficial (print 2026-04-21)",
+    "Quadro de Áreas oficial — print enviado pelo Leo em 2026-04-21",
+    "Quadro de áreas oficial (print enviado pelo Leo em 2026-04-21)",
+    "Resumo - Vagas Existentes (print 2026-04-21)",
+    "Resumo - Vagas Existentes (print 2026-04-21) — elevadores",
+    "Índices Urbanísticos oficiais — print enviado pelo Leo em 2026-04-21"
+  ]
+}
