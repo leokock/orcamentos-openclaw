@@ -1,10 +1,10 @@
 # Audit V2 — placon-arminio-tavares
 
-_Gerado em 13/04/2026 22:58 — revisão com base enriquecida (Fases 8-15)_
+_Gerado em 22/04/2026 22:25 — revisão com base enriquecida (Fases 8-15)_
 
 ## 🎯 Contexto
 
-- **AC**: 4.077 m²
+- **AC**: 4.090 m²
 - **UR**: 55
 - Fontes novas consultadas:
   - `itens-pus-agregados.json` — 4.525 PUs cross-projeto (Fase 10)
@@ -48,16 +48,16 @@ Faixas P10-P90 da base de 126 projetos:
 
 | Índice derivado | Mediana base | Valor esperado × AC | n projetos |
 |---|---|---|---|
-| custo_concreto_rsm2 | R$ 228.90/m² | R$ 933.278 | 64 |
-| custo_aco_rsm2 | R$ 231.82/m² | R$ 945.178 | 65 |
-| custo_forma_rsm2 | R$ 164.98/m² | R$ 672.665 | 69 |
-| custo_escoramento_rsm2 | R$ 47.67/m² | R$ 194.382 | 57 |
-| custo_impermeabilizacao_rsm2 | R$ 264.88/m² | R$ 1.079.978 | 95 |
-| custo_elevador_rsm2 | R$ 213.33/m² | R$ 869.805 | 70 |
-| custo_esquadrias_rsm2 | R$ 1154.33/m² | R$ 4.706.548 | 96 |
-| custo_pintura_rsm2 | R$ 594.46/m² | R$ 2.423.779 | 96 |
-| custo_loucas_rsm2 | R$ 109.76/m² | R$ 447.516 | 76 |
-| ci_total_rsm2 | R$ 305.56/m² | R$ 1.245.875 | 55 |
+| custo_concreto_rsm2 | R$ 228.90/m² | R$ 936.123 | 64 |
+| custo_aco_rsm2 | R$ 231.82/m² | R$ 948.059 | 65 |
+| custo_forma_rsm2 | R$ 164.98/m² | R$ 674.716 | 69 |
+| custo_escoramento_rsm2 | R$ 47.67/m² | R$ 194.975 | 57 |
+| custo_impermeabilizacao_rsm2 | R$ 264.88/m² | R$ 1.083.271 | 95 |
+| custo_elevador_rsm2 | R$ 213.33/m² | R$ 872.456 | 70 |
+| custo_esquadrias_rsm2 | R$ 1154.33/m² | R$ 4.720.896 | 96 |
+| custo_pintura_rsm2 | R$ 594.46/m² | R$ 2.431.168 | 96 |
+| custo_loucas_rsm2 | R$ 109.76/m² | R$ 448.880 | 76 |
+| ci_total_rsm2 | R$ 305.56/m² | R$ 1.249.673 | 55 |
 
 ## 📋 Recomendações
 
