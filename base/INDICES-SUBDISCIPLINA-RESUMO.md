@@ -1,1 +1,0 @@
-/Users/leokock/clawd/orcamento-parametrico/INDICES-SUBDISCIPLINA-RESUMO.md

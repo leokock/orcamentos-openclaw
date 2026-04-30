@@ -1,0 +1,40 @@
+{
+  "project": "thozen-electra",
+  "template_rel": "G:/Drives compartilhados/03 CTN Projetos/2. Projetos em Andamento/_Executivo_IA/thozen-electra/orcamento/CTN-TZN_ELT - Orçamento Executivo_R00  - Copia.xlsx",
+  "destination_rel": "G:/Drives compartilhados/03 CTN Projetos/2. Projetos em Andamento/_Executivo_IA/thozen-electra/orcamento/04-disciplinas",
+  "extras_destination_rel": "G:/Drives compartilhados/03 CTN Projetos/2. Projetos em Andamento/_Executivo_IA/thozen-electra/orcamento/05-extras",
+  "projeto_json": "G:/Drives compartilhados/03 CTN Projetos/2. Projetos em Andamento/_Executivo_IA/thozen-electra/orcamento/00-projeto/projeto.json",
+  "xlsx_filename": "extracao.xlsx",
+  "filename_prefix": "CTN-TZN_ELT_",
+  "infra_tabs": ["PROJETOS", "Orçamento", "Composições", "Insumos (2)", "Insumos", "CPU", "Ger_Tec e Adm", "Ger_Executivo_Cartesian", "Ger_Executivo_Manual"],
+  "dados_base_source": "CAPA",
+  "eap_tab": "EAP",
+  "hidden_infra": true,
+  "disciplinas": [
+    { "order":  1, "folder": "EPCs",                     "slug": "EPCs",                "source_tabs": ["EPCs"] },
+    { "order":  2, "folder": "Canteiro",                 "slug": "Canteiro",            "source_tabs": ["CANTEIRO"] },
+    { "order":  3, "folder": "Controle tecnológico",     "slug": "Controle_Tecnologico","source_tabs": ["Cont.Tecnol."] },
+    { "order":  4, "folder": "Esquadrias",               "slug": "Esquadrias",          "source_tabs": ["ESQUADRIAS"] },
+    { "order":  5, "folder": "Estacas",                  "slug": "Estacas",             "source_tabs": ["Estacas"] },
+    { "order":  6, "folder": "Infrarestrutura",          "slug": "Infrarestrutura",     "source_tabs": ["Fund. Rasa | Contenção"] },
+    { "order":  7, "folder": "Contenção",                "slug": "Contencao",           "source_tabs": ["Fund. Rasa | Contenção"] },
+    { "order":  8, "folder": "Estrutura e Escoramento",  "slug": "Estrutura_Escoramento","source_tabs": ["Resumo Estrutura", "Cálculo de apoio", "Escoramento"] },
+    { "order":  9, "folder": "Impermeabilização",        "slug": "Impermeabilizacao",   "source_tabs": ["IMPERMEABILIZAÇÃO"] },
+    { "order": 10, "folder": "Louças e metais",          "slug": "Loucas_Metais",       "source_tabs": ["LOUÇAS E METAIS"] },
+    { "order": 11, "folder": "Piscina",                  "slug": "Piscina",             "source_tabs": ["PISCINA"] },
+    { "order": 12, "folder": "Equipamentos especiais",   "slug": "Equipamentos_Especiais","source_tabs": ["Equipamentos Especiais"] },
+    { "order": 13, "folder": "Elétrico",                 "slug": "Eletrico",            "source_tabs": ["ELÉTRICO", "MÃO DE OBRA ELETRICA"] },
+    { "order": 14, "folder": "Hidrossanitário",          "slug": "Hidrossanitario",     "source_tabs": ["HIDROSSANITÁRIO v3", "MÃO DE OBRA HIDRO"] },
+    { "order": 15, "folder": "PPCI",                     "slug": "PPCI",                "source_tabs": ["PPCI"] },
+    { "order": 16, "folder": "Sprinklers",               "slug": "Sprinklers",          "source_tabs": ["SPRINKLERS"] },
+    { "order": 17, "folder": "Telecomunicação",          "slug": "Telecomunicacao",     "source_tabs": ["TELECOMUNICAÇÃO (2)"] },
+    { "order": 18, "folder": "Gás",                      "slug": "Gas",                 "source_tabs": ["GÁS"] },
+    { "order": 19, "folder": "Automação",                "slug": "Automacao",           "source_tabs": ["AUTOMAÇÃO"] },
+    { "order": 20, "folder": "Climatização",             "slug": "Climatizacao",        "source_tabs": ["CLIMATIZAÇÃO"] },
+    { "order": 21, "folder": "Iluminação",               "slug": "Iluminacao",          "source_tabs": ["ILUMINAÇÃO"] },
+    { "order": 22, "folder": "Mobiliário",               "slug": "Mobiliario",          "source_tabs": ["MOBILIÁRIO"] }
+  ],
+  "extras": [
+    { "order": 23, "folder": "Bombeamento",              "slug": "Bombeamento",         "source_tabs": ["Bombeamento - Extra"] }
+  ]
+}

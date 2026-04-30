@@ -30,11 +30,6 @@ credentials*
 # Apresentacoes (pptx pode passar de 100MB — GitHub bloqueia)
 *.pptx
 
-# Symlinks pro ~/clawd (só funcionam no Mac, Obsidian Git corrompe no Windows)
-base/calibration-data.json
-base/calibration-stats.json
-base/indices-subdisciplina.json
-
 # Symlinks pro Google Drive (arquivos vivem no Drive, nao no git)
 executivos/entregues/
 executivos/*/entregas/

@@ -2678,7 +2678,7 @@ def gerar_planilha(output_path, dados_projeto=None, briefing_respostas=None, cal
 
 if __name__ == "__main__":
     # Cria diretório se não existir
-    output_dir = os.path.expanduser("~/clawd/orcamento-parametrico/parametricos")
+    output_dir = os.path.expanduser("~/orcamentos-openclaw/archive/v1-pre-fase19/parametricos")
     os.makedirs(output_dir, exist_ok=True)
     
     print("=" * 70)

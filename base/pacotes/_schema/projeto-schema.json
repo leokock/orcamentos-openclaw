@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schema do projeto.json — orçamento executivo Cartesian",
+  "description": "Estrutura consolidada dos 6 mds em 00-projeto/. Gerado por consolidar_projeto.py.",
+  "type": "object",
+  "required": ["projeto", "areas", "indices_urbanisticos", "pavimentos", "apartamentos", "lazer", "vagas"],
+  "properties": {
+    "projeto": {
+      "type": "object",
+      "required": ["nome", "codigo", "cliente", "endereco"],
+      "properties": {
+        "nome": { "type": "string" },
+        "codigo": { "type": "string" },
+        "tipo": { "type": "string" },
+        "cliente": { "type": "string" },
+        "proprietario": { "type": "string" },
+        "cnpj_proprietario": { "type": "string" },
+        "endereco": {
+          "type": "object",
+          "required": ["rua", "numero", "bairro", "cidade", "uf"],
+          "properties": {
+            "rua": { "type": "string" },
+            "numero": { "type": "string" },
+            "bairro": { "type": "string" },
+            "cidade": { "type": "string" },
+            "municipio_legal": { "type": "string" },
+            "uf": { "type": "string" }
+          }
+        },
+        "arquitetas": { "type": "array" },
+        "rrts": { "type": "array", "items": { "type": "string" } },
+        "prazo_obra_meses": { "type": "number" },
+        "numero_torres": { "type": "integer", "minimum": 1 },
+        "torres": { "type": "array" }
+      }
+    },
+    "revisao": { "type": "string" },
+    "data_atualizacao": { "type": "string" },
+    "areas": {
+      "type": "object",
+      "required": ["terreno_m2", "construida_total_m2"],
+      "properties": {
+        "terreno_m2": { "type": "number" },
+        "construida_total_m2": { "type": "number" },
+        "construida_computada_m2": { "type": "number" },
+        "construida_nao_computada_m2": { "type": "number" },
+        "privativa_total_m2": { "type": "number" },
+        "lazer_m2": { "type": "number" },
+        "comercial_m2": { "type": "number" },
+        "permeavel_m2": { "type": "number" },
+        "ocupacao_m2": { "type": "number" }
+      }
+    },
+    "indices_urbanisticos": {
+      "type": "object",
+      "properties": {
+        "zoneamento": { "type": "string" },
+        "categoria_uso": { "type": "string" },
+        "taxa_ocupacao_pct": { "type": "number" },
+        "taxa_permeabilidade_pct": { "type": "number" },
+        "ca_basico": { "type": "number" },
+        "ca_utilizado": { "type": "number" },
+        "ca_a_pagar": { "type": "number" },
+        "ca_pago_reais": { "type": "number" },
+        "gabarito_torre_m": { "type": "number" }
+      }
+    },
+    "outorga_onerosa": { "type": "object" },
+    "pavimentos": { "type": "array" },
+    "pavimentos_resumo": { "type": "object" },
+    "apartamentos": {
+      "type": "object",
+      "required": ["total_unidades", "tipologias"],
+      "properties": {
+        "total_unidades": { "type": "integer" },
+        "total_dormitorios": { "type": "integer" },
+        "vagas_por_apto": { "type": "number" },
+        "tipologias": { "type": "array" }
+      }
+    },
+    "salas_comerciais": { "type": "object" },
+    "lazer": {
+      "type": "object",
+      "properties": {
+        "area_total_pavto_m2": { "type": "number" },
+        "ambientes": { "type": "array" }
+      }
+    },
+    "infraestrutura_comum": {
+      "type": "object",
+      "properties": {
+        "elevadores": {
+          "type": "object",
+          "properties": {
+            "sociais": { "type": "integer" },
+            "emergencia": { "type": "integer" },
+            "total": { "type": "integer" }
+          }
+        }
+      }
+    },
+    "vagas": {
+      "type": "object",
+      "required": ["total_geral"],
+      "properties": {
+        "total_geral": { "type": "integer" },
+        "vagas_simples": { "type": "integer" },
+        "vagas_duplas": { "type": "integer" }
+      }
+    },
+    "fontes": { "type": "array" }
+  }
+}

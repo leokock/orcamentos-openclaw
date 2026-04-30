@@ -34,7 +34,7 @@ INDICES_DIR = os.path.join(BASE_DIR, 'indices-executivo')
 METADADOS_PATH = os.path.join(BASE_DIR, 'projetos-metadados.json')
 CALIBRATION_PATH = os.path.join(BASE_DIR, 'calibration-data.json')
 MANIFEST_PATH = os.path.expanduser(
-    '~/clawd/orcamento-parametrico/executivos-manifest.json'
+    '~/orcamentos-openclaw/archive/v1-pre-fase19/raiz-mar-2026/executivos-manifest.json'
 )
 
 # === DISCIPLINE MAPPING (from extract_indices.py) ===
