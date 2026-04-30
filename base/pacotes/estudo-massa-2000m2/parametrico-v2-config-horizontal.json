@@ -1,0 +1,53 @@
+{
+  "_gerado_em": "2026-04-30",
+  "_fonte": "Estudo de massa interno — briefing definido por Leo (CLAUDE.md, 30/04/26)",
+  "_descricao": "Cenário H (horizontal) — 4 aptos/pavimento, 6 pavimentos tipo + térreo pilotis. Footprint maior, torre mais baixa.",
+  "_disclaimer_vagas": "Modelagem com vag=11 (cabe no pilotis). 24 vagas (1/apto) exigiriam subsolo ou pilotis duplo — fora do escopo deste estudo. Foco do paramétrico é o trade-off geométrico Vertical × Horizontal, não dimensionamento de garagem.",
+
+  "nome": "Estudo de Massa 2000m² — Horizontal (4 aptos/pav)",
+  "cidade": "Brusque",
+  "estado": "SC",
+  "regiao": "Norte SC",
+  "uso_declarado": "Residencial multifamiliar — térreo pilotis garagem",
+
+  "area_terreno": 800.00,
+  "ac": 2000.00,
+  "area_privativa": 1320.00,
+  "area_comum": 680.00,
+  "ur": 24,
+  "area_privativa_media_por_ur": 55.00,
+
+  "np": 7,
+  "npt": 6,
+  "elev": 1,
+  "vag": 11,
+  "prazo": 18,
+  "cub": 2870.00,
+
+  "pe_direito_m_real": 2.80,
+
+  "geometria": {
+    "footprint_torre_m2": 315,
+    "perimetro_torre_m": 71,
+    "altura_total_aprox_m": 20,
+    "area_fachada_total_m2": 1213,
+    "area_cobertura_m2": 315
+  },
+
+  "briefing": {
+    "laje": "Convencional",
+    "subsolos": "0",
+    "fundacao": "Hélice",
+    "padrao_acabamento": "Médio",
+    "fachada": "Textura",
+    "pressurizacao": "Não",
+    "n_torres": "1",
+    "gerador": "Não",
+    "entrega": "Completa",
+    "tipologia": "1-2 Dormitórios",
+    "pe_direito": "Baixo (2.80)",
+    "n_banheiros": "1",
+    "tipo_piso": "Porcelanato",
+    "piscina": "Não"
+  }
+}
