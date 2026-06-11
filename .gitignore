@@ -31,10 +31,21 @@ credentials*
 *.pptx
 
 # Symlinks pro Google Drive (arquivos vivem no Drive, nao no git)
+executivos
+executivos/
 executivos/entregues/
 executivos/*/entregas/
+executivos/*/_tmp/
 projetos/
 parametricos/
+planejamento/
+
+# Pastas locais de arquivo/backup/saida da aposentadoria do workspace legado
+archive/
+executivos_PRE-SYMLINK-bak/
+output/
+temp/
+_tmp/
 
 # Obsidian (estado visual e local por maquina)
 .obsidian/workspace.json
