@@ -16,7 +16,9 @@ import argparse
 import json
 import mimetypes
 import os
+import socket
 import sys
+import time
 import urllib.request
 import urllib.error
 from pathlib import Path
@@ -42,13 +44,33 @@ def slack_api_post(method, token, data=None):
             "Content-Type": "application/json; charset=utf-8",
         },
     )
-    with urllib.request.urlopen(req) as resp:
+    with urlopen_with_retry(req) as resp:
         result = json.loads(resp.read().decode())
     if not result.get("ok"):
         error = result.get("error", "unknown")
         detail = result.get("response_metadata", {}).get("messages", [])
         raise RuntimeError(f"Slack API error ({method}): {error} {detail}")
     return result
+
+
+def urlopen_with_retry(req, attempts=4, timeout=45):
+    """Open URL with short retries for transient WSL DNS/network failures."""
+    retryable = (urllib.error.URLError, TimeoutError, socket.timeout)
+    last_error = None
+    for attempt in range(1, attempts + 1):
+        try:
+            return urllib.request.urlopen(req, timeout=timeout)
+        except retryable as exc:
+            last_error = exc
+            if attempt == attempts:
+                break
+            delay = min(2 ** (attempt - 1), 8)
+            print(
+                f"  Rede/DNS temporario ({attempt}/{attempts}): {exc}; tentando de novo em {delay}s",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+    raise last_error
 
 
 def upload_file(token, channel, filepath, thread_ts=None, comment=None, title=None):
@@ -73,7 +95,7 @@ def upload_file(token, channel, filepath, thread_ts=None, comment=None, title=No
         f"{url}?{query}",
         headers={"Authorization": f"Bearer {token}"},
     )
-    with urllib.request.urlopen(req) as resp:
+    with urlopen_with_retry(req) as resp:
         result = json.loads(resp.read().decode())
     if not result.get("ok"):
         error = result.get("error", "unknown")
@@ -97,7 +119,7 @@ def upload_file(token, channel, filepath, thread_ts=None, comment=None, title=No
         headers={"Content-Type": content_type},
         method="POST",
     )
-    with urllib.request.urlopen(req) as resp:
+    with urlopen_with_retry(req) as resp:
         resp.read()  # Consumir resposta
 
     # Passo 3: Completar upload e compartilhar no canal
@@ -168,8 +190,8 @@ def mirror_file(config, filepath, comment=None, title=None):
 
 def main():
     parser = argparse.ArgumentParser(description="Upload de arquivo para o Slack")
-    parser.add_argument("--bot", required=True, choices=["cartesiano", "parametrico-openai", "parametrico-gemini"],
-                        help="Nome do bot (define qual token usar)")
+    parser.add_argument("--bot", required=True,
+                        help="Nome do bot em slack_config.json (ex: parametrico) ou alias cartesiano")
     parser.add_argument("--file", required=True, help="Caminho do arquivo para upload")
     parser.add_argument("--channel", help="Channel ID (default: slack_config.json)")
     parser.add_argument("--thread", help="Thread timestamp para enviar na thread")
@@ -180,9 +202,15 @@ def main():
 
     config = load_config()
 
-    bot_config = config["bots"].get(args.bot)
+    bot_name = "parametrico" if args.bot == "cartesiano" else args.bot
+    bot_config = config["bots"].get(bot_name)
     if not bot_config:
-        print(f"ERRO: Bot '{args.bot}' não encontrado em slack_config.json", file=sys.stderr)
+        available = ", ".join(sorted(config.get("bots", {}).keys()))
+        print(
+            f"ERRO: Bot '{args.bot}' não encontrado em slack_config.json "
+            f"(disponíveis: {available}; alias: cartesiano -> parametrico)",
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     token = bot_config["token"]

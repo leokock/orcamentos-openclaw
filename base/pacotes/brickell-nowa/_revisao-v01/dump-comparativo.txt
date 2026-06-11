@@ -1,0 +1,198 @@
+
+===== SHEET [FORMULA]: COMPARATIVO (dims A1:P7) =====
+A1='Empreendimento' | B1='Cliente' | C1='Cidade/UF' | D1='Padrão' | E1='Tipologia' | F1='Data base' | G1='AC (m²)' | H1='UR' | I1='R$/m²' | J1='Total original' | K1='Total normalizado na AC Brickell' | L1='Dif. R$/m² vs Brickell' | M1='Dif. % R$/m² vs Brickell' | N1='Dif. total norm. vs Brickell' | O1='Uso no comparativo' | P1='Pasta Drive'
+A2='Brickell Modern Home' | B2='Nowa' | C2='Itajaí/SC' | D2='alto' | E2='residencial_vertical_alto' | F2='2026-05' | G2=10840.31 | H2=38 | I2=4017.96673289786 | J2=43556004.9543 | K2=43556004.9543 | L2=0 | M2=0 | N2=0 | O2='Base Brickell' | P2='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Nowa\\04. Custo\\04.1 Custo - Paramétrico\\01 - Projetos'
+A3='adore-level-up' | B3='adore' | C3='Balneário Camboriú/SC' | D3='medio-alto' | E3='residencial_vertical_alto' | F3='2025-08' | G3=11102.72 | I3=3628.647366742739 | J3=40287855.69168194 | K3=39335662.33617498 | L3=-389.3193661551213 | M3=-0.09689462159243267 | N3=-4220342.618125021 | O3='Comparável direto' | P3='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Adore Incorporações\\Level Up'
+A4='terrassa-amaro' | B4='terrassa' | C4='Itajaí/SC' | D4='alto' | E4='residencial_vertical_alto' | F4='2024-04' | G4=10479.34 | I4=3100.161860683344 | J4=32487650.1931334 | K4=33606715.61998426 | L4=-917.8048722145163 | M4=-0.228425204395003 | N4=-9949289.33431574 | O4='Comparável direto' | P4='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Terrassa\\Amaro'
+A5='mussi-empreendimentos-chelsea' | B5='mussi' | C5='Itajaí/SC' | D5='medio-alto' | E5='residencial_vertical_alto' | F5='2024-11' | G5=15149.39 | H5=41 | I5=3443.27 | J5=52163485.94 | K5=37326114.2137 | L5=-574.6967328978603 | M5=-0.1430317300022478 | N5=-6229890.740600005 | O5='Comparável direto' | P5='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Mussi Empreendimentos\\Chelsea Residence 11.2022'
+A6='gdi-playa-negra' | B6='gdi' | C6='Florianópolis/SC' | D6='medio-alto' | E6='residencial_vertical_alto' | F6='2024-08' | G6=8518.6 | I6=4346.61 | J6=37027025.39 | K6=47118599.84909999 | L6=328.6432671021394 | M6=0.08179342661334421 | N6=3562594.894799992 | O6='Comparável direto' | P6='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\GDI Empreendimentos\\Playa Negra'
+A7='neuhaus-origem' | B7='neuhaus' | C7='Florianópolis/SC' | D7='alto' | E7='residencial_vertical_alto' | F7='2025-03' | G7=14559.12 | I7=4642.46 | J7=67590131.02 | K7=50325705.5626 | L7=624.4932671021397 | M7=0.1554251960298685 | N7=6769700.6083 | O7='Limite superior' | P7='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Neuhaus\\2023.08 - Origem 3300'
+
+===== SHEET [FORMULA]: COMPARATIVO_CUB (dims A1:Q7) =====
+A1='Empreendimento' | B1='Cliente' | C1='Cidade/UF' | D1='Data base consolidado' | E1='Data CUB / entrega orçamento' | F1='CUB origem' | G1='CUB atual' | H1='Fator atualização' | I1='R$/m² original' | J1='CUB ratio origem' | K1='R$/m² valor presente' | L1='Total VP na AC original' | M1='Total VP na AC Brickell' | N1='Dif. R$/m² VP vs Brickell' | O1='Dif. % VP vs Brickell' | P1='Fonte CUB' | Q1='Observação'
+A2='Brickell Modern Home' | B2='Nowa' | C2='Itajaí/SC' | D2='2026-05' | E2='2026-05' | F2=3850 | G2=3850 | H2=1 | I2=4017.96673289786 | J2=1.043627722830613 | K2=4017.96673289786 | L2=43556004.95429999 | M2=43556004.95429999 | N2=0 | O2=0 | P2='CUB atual adotado no pacote Brickell v00 / Supabase Ampli SC' | Q2='Base atual do próprio Brickell; fator de atualização igual a 1,00.'
+A3='adore-level-up' | B3='adore' | C3='Balneário Camboriú/SC' | D3='2025-08' | E3='2025-08' | F3=2911.91 | G3=3850 | H3=1.32215624796096 | I3=3628.647366742739 | J3=1.246139944827532 | K3=4797.638787585998 | L3=53266840.11970681 | M3=52007891.72545637 | N3=779.6720546881384 | O3=0.1940464186287125 | P3='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\adore-level-up-indices.md' | Q3='Arquivo de índices: Data-base Ago/2025 | CUB R$ 2.911,91.'
+A4='terrassa-amaro' | B4='terrassa' | C4='Itajaí/SC' | D4='2024-04' | E4='2024-04' | F4=2757.56 | G4=3850 | H4=1.396161824221413 | I4=3100.161860683344 | J4=1.124240945141119 | K4=4328.327638793308 | L4=45358016.95831227 | M4=46920413.38608748 | N4=310.3609058954485 | O4=0.07724327415513677 | P4='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\terrassa-amaro-indices.md' | Q4='Arquivo de índices: Data-base abr/2024 | CUB/SC R$ 2.757,56.'
+A5='mussi-empreendimentos-chelsea' | B5='mussi' | C5='Itajaí/SC' | D5='2024-11' | E5='2024-11' | F5=2846.12 | G5=3850 | H5=1.352718789088303 | I5=3443.27 | J5=1.20981195452054 | K5=4657.77602490408 | L5=70562465.53392161 | M5=50491736.02052795 | N5=639.8092920062204 | O5=0.1592370804784573 | P5='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\Mussi Empreendimentos\\Chelsea\\CTN_MSS_CLS - Orçamento R02.xlsx' | Q5='Aba Obra: C48 = CUB/SC R$ 2.846,12 e D48 = nov/2024.'
+A6='gdi-playa-negra' | B6='gdi' | C6='Florianópolis/SC' | D6='2024-08' | E6='2024-08' | F6=2841.51 | G6=3850 | H6=1.354913408715788 | I6=4346.61 | J6=1.529683161417697 | K6=5889.280171458132 | L6=50168422.06858324 | M6=63841622.7354593 | N6=1871.313438560272 | O6=0.4657364191790192 | P6='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\gdi-playanegra-indices.md' | Q6='Arquivo de índices: Data-base Agosto/2024 | CUB/SC R$ 2.841,51.'
+A7='neuhaus-origem' | B7='neuhaus' | C7='Florianópolis/SC' | D7='2025-03' | E7='2025-03' | F7=2916.12 | G7=3850 | H7=1.320247452093878 | I7=4642.46 | J7=1.591998957518895 | K7=6129.195986447746 | L7=89235699.87021111 | M7=66442384.54384936 | N7=2111.229253549886 | O7=0.5254471711435036 | P7='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\origem-indices.md' | Q7='Arquivo de índices: Data-base Mar/2025 | CUB/SC R$ 2.916,12.'
+
+===== SHEET [FORMULA]: LEITURA_CUB (dims A1:C13) =====
+A1='Métrica' | B1='Valor' | C1='Leitura'
+A2='CUB atual adotado' | B2=3850 | C2='CUB atual adotado no pacote Brickell v00 / Supabase Ampli SC'
+A3='Brickell CUB ratio' | B3=1.043627722830613 | C3='R$/m² do Brickell dividido pelo CUB atual adotado.'
+A4='Média VP dos 5 comparáveis R$/m²' | B4=5160.443721837853 | C4='Valores trazidos para o CUB atual.'
+A5='Mediana VP dos 5 comparáveis R$/m²' | B5=4797.638787585998 | C5='Centro da amostra após correção temporal.'
+A6='Média VP sem limite superior R$/m²' | B6=4918.25565568538 | C6='Exclui Neuhaus Origem para ler comparáveis diretos.'
+A7='Dif. Brickell vs média VP 5' | B7=-0.2213912311658944 | C7='Brickell está acima da média em valor presente se positivo.'
+A8='Dif. Brickell vs mediana VP 5' | B8=-0.1625116206550518 | C8='Posição contra o centro da amostra em valor presente.'
+A9='Dif. Brickell vs média VP sem limite' | B9=-0.1830504523990754 | C9='Leitura conservadora contra comparáveis diretos corrigidos.'
+A10='Total VP médio na AC Brickell' | B10=55940809.68227609 | C10='Média dos 5 aplicada à área construída do Brickell.'
+A11='Dif. total Brickell vs VP médio' | B11=-12384804.72797609 | C11='Delta entre o v00 Brickell e a média corrigida por CUB.'
+A12='Total VP médio sem limite na AC Brickell' | B12=53315415.96688277 | C12='Média direta corrigida aplicada à área construída do Brickell.'
+A13='Dif. total Brickell vs VP sem limite' | B13=-9759411.012582779 | C13='Delta entre o v00 Brickell e a média direta corrigida por CUB.'
+
+===== SHEET [FORMULA]: LEITURA (dims A1:C8) =====
+A1='Métrica' | B1='Valor' | C1='Leitura'
+A2='Brickell R$/m²' | B2=4017.96673289786 | C2='Base v00 calculada no paramétrico Brickell.'
+A3='Média dos 5 comparáveis R$/m²' | B3=3832.229845485217 | C3='Inclui Neuhaus Origem como limite superior.'
+A4='Mediana dos 5 comparáveis R$/m²' | B4=3628.647366742739 | C4='Ponto central da amostra selecionada.'
+A5='Média sem limite superior R$/m²' | B5=3629.672306856521 | C5='Exclui Neuhaus Origem para ler comparáveis diretos.'
+A6='Dif. Brickell vs média 5' | B6=0.04846705310002797 | C6='Brickell está acima da média completa se positivo.'
+A7='Dif. Brickell vs mediana 5' | B7=0.1072904933456222 | C7='Mostra posição contra o centro da amostra.'
+A8='Dif. Brickell vs média sem limite' | B8=0.1069778187159882 | C8='Leitura conservadora contra comparáveis diretos.'
+
+===== SHEET [FORMULA]: JUSTIFICATIVAS (dims A1:C7) =====
+A1='Empreendimento' | B1='Por que entrou' | C1='Risco / uso'
+A2='Brickell Modern Home' | B2='Projeto-base desta comparação. Paramétrico v00 gerado a partir dos projetos Brickell/Nowa.' | C2='Base do comparativo.'
+A3='adore-level-up' | B3='Balneário Camboriú, SC, área praticamente igual ao Brickell e tipologia vertical alto/médio-alto. Bom comparável de porte e mercado litorâneo.' | C3='Comparável direto'
+A4='terrassa-amaro' | B4='Itajaí, SC, área muito próxima e padrão alto. Entra como referência local direta, mesmo com data-base não informada no consolidado.' | C4='Comparável direto'
+A5='mussi-empreendimentos-chelsea' | B5='Itajaí, SC, 41 UR contra 38 UR do Brickell. Área maior, mas produto e escala de unidades são muito próximos.' | C5='Comparável direto'
+A6='gdi-playa-negra' | B6='Florianópolis, SC, residencial vertical alto/médio-alto, R$/m² próximo ao Brickell. Funciona como comparável de patamar superior operacional.' | C6='Comparável direto'
+A7='neuhaus-origem' | B7='Florianópolis, SC, padrão alto e área maior. Usei como limite superior para entender se Brickell está perto do teto premium.' | C7='Limite superior de padrão alto'
+
+===== SHEET [FORMULA]: CRITERIOS_E_FONTES (dims A1:B17) =====
+A1='Item' | B1='Descrição'
+A2='Fonte principal' | B2='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Parametrico_IA\\REVISAO-OBRAS-131.xlsx'
+A3='Fonte Brickell' | B3='C:\\Users\\leona\\orcamentos-openclaw\\base\\pacotes\\brickell-nowa\\brickell-nowa-parametrico-v00-final.xlsx'
+A4='Critério 1' | B4='Residencial vertical em SC/litoral, priorizando Itajaí, Balneário Camboriú e Florianópolis.'
+A5='Critério 2' | B5='Padrão médio-alto/alto e tipologia residencial vertical alto quando disponível.'
+A6='Critério 3' | B6='Área construída próxima de 10.840,31 m² e R$/m² válido no consolidado.'
+A7='Critério 4' | B7='Mussi Chelsea entrou por UR muito próxima: 41 UR vs 38 UR do Brickell.'
+A8='Normalização' | B8='Comparei também o total que cada R$/m² geraria se aplicado à AC do Brickell.'
+A9='Correção temporal' | B9='Apliquei correção por CUB: R$/m² VP = (R$/m² original / CUB origem) x CUB atual (R$ 3.850,00, 2026-05).'
+A10='Fonte CUB atual' | B10='CUB atual adotado no pacote Brickell v00 / Supabase Ampli SC'
+A12='Slug' | B12='Pasta Drive validada'
+A13='adore-level-up' | B13='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Adore Incorporações\\Level Up'
+A14='terrassa-amaro' | B14='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Terrassa\\Amaro'
+A15='mussi-empreendimentos-chelsea' | B15='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Mussi Empreendimentos\\Chelsea Residence 11.2022'
+A16='gdi-playa-negra' | B16='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\GDI Empreendimentos\\Playa Negra'
+A17='neuhaus-origem' | B17='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Neuhaus\\2023.08 - Origem 3300'
+
+===== SHEET [FORMULA]: DADOS_BRUTOS (dims A1:Y6) =====
+A1='slug' | B1='cliente' | C1='cidade' | D1='uf' | E1='padrao' | F1='tipologia' | G1='data_base' | H1='cub_data_base' | I1='ac' | J1='ur' | K1='rsm2' | L1='total' | M1='cub_origem' | N1='cub_atual' | O1='cub_fator_atualizacao' | P1='cub_ratio' | Q1='rsm2_valor_presente' | R1='total_valor_presente' | S1='total_vp_normalizado' | T1='diff_ac_pct' | U1='diff_rsm2_pct' | V1='diff_rsm2_vp_pct' | W1='total_normalizado' | X1='pasta_existe' | Y1='cub_fonte'
+A2='adore-level-up' | B2='adore' | C2='Balneário Camboriú' | D2='SC' | E2='medio-alto' | F2='residencial_vertical_alto' | G2='2025-08' | H2='2025-08' | I2=11102.72 | K2=3628.647366742739 | L2=40287855.69168194 | M2=2911.91 | N2=3850 | O2=1.32215624796096 | P2=1.246139944827532 | Q2=4797.638787585998 | R2=53266840.11970681 | S2=52007891.72545637 | T2=0.02420687231269225 | U2=-0.09689462159243267 | V2=0.1940464186287125 | W2=39335662.33617498 | X2=True | Y2='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\adore-level-up-indices.md'
+A3='terrassa-amaro' | B3='terrassa' | C3='Itajaí' | D3='SC' | E3='alto' | F3='residencial_vertical_alto' | G3='2024-04' | H3='2024-04' | I3=10479.34 | K3=3100.161860683344 | L3=32487650.1931334 | M3=2757.56 | N3=3850 | O3=1.396161824221413 | P3=1.124240945141119 | Q3=4328.327638793308 | R3=45358016.95831227 | S3=46920413.38608748 | T3=-0.03329886322439113 | U3=-0.228425204395003 | V3=0.07724327415513677 | W3=33606715.61998426 | X3=True | Y3='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\terrassa-amaro-indices.md'
+A4='mussi-empreendimentos-chelsea' | B4='mussi' | C4='Itajaí' | D4='SC' | E4='medio-alto' | F4='residencial_vertical_alto' | G4='2024-11' | H4='2024-11' | I4=15149.39 | J4=41 | K4=3443.27 | L4=52163485.94 | M4=2846.12 | N4=3850 | O4=1.352718789088303 | P4=1.20981195452054 | Q4=4657.77602490408 | R4=70562465.53392161 | S4=50491736.02052795 | T4=0.3975052373963475 | U4=-0.1430317300022478 | V4=0.1592370804784573 | W4=37326114.2137 | X4=True | Y4='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\Mussi Empreendimentos\\Chelsea\\CTN_MSS_CLS - Orçamento R02.xlsx'
+A5='gdi-playa-negra' | B5='gdi' | C5='Florianópolis' | D5='SC' | E5='medio-alto' | F5='residencial_vertical_alto' | G5='2024-08' | H5='2024-08' | I5=8518.6 | K5=4346.61 | L5=37027025.39 | M5=2841.51 | N5=3850 | O5=1.354913408715788 | P5=1.529683161417697 | Q5=5889.280171458132 | R5=50168422.06858324 | S5=63841622.7354593 | T5=-0.2141737644034164 | U5=0.08179342661334421 | V5=0.4657364191790192 | W5=47118599.84909999 | X5=True | Y5='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\gdi-playanegra-indices.md'
+A6='neuhaus-origem' | B6='neuhaus' | C6='Florianópolis' | D6='SC' | E6='alto' | F6='residencial_vertical_alto' | G6='2025-03' | H6='2025-03' | I6=14559.12 | K6=4642.46 | L6=67590131.02 | M6=2916.12 | N6=3850 | O6=1.320247452093878 | P6=1.591998957518895 | Q6=6129.195986447746 | R6=89235699.87021111 | S6=66442384.54384936 | T6=0.3430538425561631 | U6=0.1554251960298685 | V6=0.5254471711435036 | W6=50325705.5626 | X6=True | Y6='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\origem-indices.md'
+
+===== SHEET [FORMULA]: BRICKELL_MACROGRUPOS (dims A1:D19) =====
+A1='Macrogrupo' | B1='R$/m²' | C1='%' | D1='Total'
+A2='Gerenciamento' | B2=468.4604038076402 | C2=0.1165914092747539 | D2=5078256
+A3='Mov. Terra' | B3=17 | C3=0.00423099570755758 | D3=184285.27
+A4='Infraestrutura' | B4=153.5201723935939 | C4=0.03820842296592915 | D4=1664206.26
+A5='Supraestrutura' | B5=785.8531074203598 | C5=0.1955847720156664 | D5=8518891.2989
+A6='Alvenaria' | B6=181.573405188597 | C6=0.04519037046820983 | D6=1968312
+A7='Impermeabilização' | B7=71.09012380642251 | C7=0.0176930593338065 | D7=770638.98
+A8='Instalações' | B8=476.49 | C8=0.1185898320408301 | D8=5165299.3119
+A9='Sist. Especiais' | B9=221.3287258390212 | C9=0.05508475817553454 | D9=2399272
+A10='Climatização' | B10=89.94443701333265 | C10=0.02238556040718197 | D10=975025.58
+A11='Rev. Int. Parede' | B11=131.6731578709465 | C11=0.03277109210308977 | D11=1427377.85
+A12='Teto' | B12=72.61563553071822 | C12=0.01807273189600203 | D12=787176
+A13='Pisos' | B13=203.5078038358682 | C13=0.05064944967553107 | D13=2206087.681
+A14='Pintura' | B14=154.6434410086059 | C14=0.03848798441819678 | D14=1676382.84
+A15='Esquadrias' | B15=373.75 | C15=0.09301968504115561 | D15=4051565.8625
+A16='Louças e Metais' | B16=75.00000461241422 | C16=0.0186661586812896 | D16=813023.2999999999
+A17='Fachada' | B17=237.143218228999 | C17=0.05902070225901677 | D17=2570706
+A18='Complementares' | B18=244.994259389261 | C18=0.06097468587365951 | D18=2655813.72
+A19='Imprevistos' | B19=59.37883695207979 | C19=0.01477832966258888 | D19=643685
+
+===== SHEET [VALUE]: COMPARATIVO (dims A1:P7) =====
+A1='Empreendimento' | B1='Cliente' | C1='Cidade/UF' | D1='Padrão' | E1='Tipologia' | F1='Data base' | G1='AC (m²)' | H1='UR' | I1='R$/m²' | J1='Total original' | K1='Total normalizado na AC Brickell' | L1='Dif. R$/m² vs Brickell' | M1='Dif. % R$/m² vs Brickell' | N1='Dif. total norm. vs Brickell' | O1='Uso no comparativo' | P1='Pasta Drive'
+A2='Brickell Modern Home' | B2='Nowa' | C2='Itajaí/SC' | D2='alto' | E2='residencial_vertical_alto' | F2='2026-05' | G2=10840.31 | H2=38 | I2=4017.96673289786 | J2=43556004.9543 | K2=43556004.9543 | L2=0 | M2=0 | N2=0 | O2='Base Brickell' | P2='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Nowa\\04. Custo\\04.1 Custo - Paramétrico\\01 - Projetos'
+A3='adore-level-up' | B3='adore' | C3='Balneário Camboriú/SC' | D3='medio-alto' | E3='residencial_vertical_alto' | F3='2025-08' | G3=11102.72 | I3=3628.647366742739 | J3=40287855.69168194 | K3=39335662.33617498 | L3=-389.3193661551213 | M3=-0.09689462159243267 | N3=-4220342.618125021 | O3='Comparável direto' | P3='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Adore Incorporações\\Level Up'
+A4='terrassa-amaro' | B4='terrassa' | C4='Itajaí/SC' | D4='alto' | E4='residencial_vertical_alto' | F4='2024-04' | G4=10479.34 | I4=3100.161860683344 | J4=32487650.1931334 | K4=33606715.61998426 | L4=-917.8048722145163 | M4=-0.228425204395003 | N4=-9949289.33431574 | O4='Comparável direto' | P4='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Terrassa\\Amaro'
+A5='mussi-empreendimentos-chelsea' | B5='mussi' | C5='Itajaí/SC' | D5='medio-alto' | E5='residencial_vertical_alto' | F5='2024-11' | G5=15149.39 | H5=41 | I5=3443.27 | J5=52163485.94 | K5=37326114.2137 | L5=-574.6967328978603 | M5=-0.1430317300022478 | N5=-6229890.740600005 | O5='Comparável direto' | P5='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Mussi Empreendimentos\\Chelsea Residence 11.2022'
+A6='gdi-playa-negra' | B6='gdi' | C6='Florianópolis/SC' | D6='medio-alto' | E6='residencial_vertical_alto' | F6='2024-08' | G6=8518.6 | I6=4346.61 | J6=37027025.39 | K6=47118599.84909999 | L6=328.6432671021394 | M6=0.08179342661334421 | N6=3562594.894799992 | O6='Comparável direto' | P6='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\GDI Empreendimentos\\Playa Negra'
+A7='neuhaus-origem' | B7='neuhaus' | C7='Florianópolis/SC' | D7='alto' | E7='residencial_vertical_alto' | F7='2025-03' | G7=14559.12 | I7=4642.46 | J7=67590131.02 | K7=50325705.5626 | L7=624.4932671021397 | M7=0.1554251960298685 | N7=6769700.6083 | O7='Limite superior' | P7='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Neuhaus\\2023.08 - Origem 3300'
+
+===== SHEET [VALUE]: COMPARATIVO_CUB (dims A1:Q7) =====
+A1='Empreendimento' | B1='Cliente' | C1='Cidade/UF' | D1='Data base consolidado' | E1='Data CUB / entrega orçamento' | F1='CUB origem' | G1='CUB atual' | H1='Fator atualização' | I1='R$/m² original' | J1='CUB ratio origem' | K1='R$/m² valor presente' | L1='Total VP na AC original' | M1='Total VP na AC Brickell' | N1='Dif. R$/m² VP vs Brickell' | O1='Dif. % VP vs Brickell' | P1='Fonte CUB' | Q1='Observação'
+A2='Brickell Modern Home' | B2='Nowa' | C2='Itajaí/SC' | D2='2026-05' | E2='2026-05' | F2=3850 | G2=3850 | H2=1 | I2=4017.96673289786 | J2=1.043627722830613 | K2=4017.96673289786 | L2=43556004.95429999 | M2=43556004.95429999 | N2=0 | O2=0 | P2='CUB atual adotado no pacote Brickell v00 / Supabase Ampli SC' | Q2='Base atual do próprio Brickell; fator de atualização igual a 1,00.'
+A3='adore-level-up' | B3='adore' | C3='Balneário Camboriú/SC' | D3='2025-08' | E3='2025-08' | F3=2911.91 | G3=3850 | H3=1.32215624796096 | I3=3628.647366742739 | J3=1.246139944827532 | K3=4797.638787585998 | L3=53266840.11970681 | M3=52007891.72545637 | N3=779.6720546881384 | O3=0.1940464186287125 | P3='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\adore-level-up-indices.md' | Q3='Arquivo de índices: Data-base Ago/2025 | CUB R$ 2.911,91.'
+A4='terrassa-amaro' | B4='terrassa' | C4='Itajaí/SC' | D4='2024-04' | E4='2024-04' | F4=2757.56 | G4=3850 | H4=1.396161824221413 | I4=3100.161860683344 | J4=1.124240945141119 | K4=4328.327638793308 | L4=45358016.95831227 | M4=46920413.38608748 | N4=310.3609058954485 | O4=0.07724327415513677 | P4='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\terrassa-amaro-indices.md' | Q4='Arquivo de índices: Data-base abr/2024 | CUB/SC R$ 2.757,56.'
+A5='mussi-empreendimentos-chelsea' | B5='mussi' | C5='Itajaí/SC' | D5='2024-11' | E5='2024-11' | F5=2846.12 | G5=3850 | H5=1.352718789088303 | I5=3443.27 | J5=1.20981195452054 | K5=4657.77602490408 | L5=70562465.53392161 | M5=50491736.02052795 | N5=639.8092920062204 | O5=0.1592370804784573 | P5='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\Mussi Empreendimentos\\Chelsea\\CTN_MSS_CLS - Orçamento R02.xlsx' | Q5='Aba Obra: C48 = CUB/SC R$ 2.846,12 e D48 = nov/2024.'
+A6='gdi-playa-negra' | B6='gdi' | C6='Florianópolis/SC' | D6='2024-08' | E6='2024-08' | F6=2841.51 | G6=3850 | H6=1.354913408715788 | I6=4346.61 | J6=1.529683161417697 | K6=5889.280171458132 | L6=50168422.06858324 | M6=63841622.7354593 | N6=1871.313438560272 | O6=0.4657364191790192 | P6='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\gdi-playanegra-indices.md' | Q6='Arquivo de índices: Data-base Agosto/2024 | CUB/SC R$ 2.841,51.'
+A7='neuhaus-origem' | B7='neuhaus' | C7='Florianópolis/SC' | D7='2025-03' | E7='2025-03' | F7=2916.12 | G7=3850 | H7=1.320247452093878 | I7=4642.46 | J7=1.591998957518895 | K7=6129.195986447746 | L7=89235699.87021111 | M7=66442384.54384936 | N7=2111.229253549886 | O7=0.5254471711435036 | P7='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\origem-indices.md' | Q7='Arquivo de índices: Data-base Mar/2025 | CUB/SC R$ 2.916,12.'
+
+===== SHEET [VALUE]: LEITURA_CUB (dims A1:C13) =====
+A1='Métrica' | B1='Valor' | C1='Leitura'
+A2='CUB atual adotado' | B2=3850 | C2='CUB atual adotado no pacote Brickell v00 / Supabase Ampli SC'
+A3='Brickell CUB ratio' | B3=1.043627722830613 | C3='R$/m² do Brickell dividido pelo CUB atual adotado.'
+A4='Média VP dos 5 comparáveis R$/m²' | B4=5160.443721837853 | C4='Valores trazidos para o CUB atual.'
+A5='Mediana VP dos 5 comparáveis R$/m²' | B5=4797.638787585998 | C5='Centro da amostra após correção temporal.'
+A6='Média VP sem limite superior R$/m²' | B6=4918.25565568538 | C6='Exclui Neuhaus Origem para ler comparáveis diretos.'
+A7='Dif. Brickell vs média VP 5' | B7=-0.2213912311658944 | C7='Brickell está acima da média em valor presente se positivo.'
+A8='Dif. Brickell vs mediana VP 5' | B8=-0.1625116206550518 | C8='Posição contra o centro da amostra em valor presente.'
+A9='Dif. Brickell vs média VP sem limite' | B9=-0.1830504523990754 | C9='Leitura conservadora contra comparáveis diretos corrigidos.'
+A10='Total VP médio na AC Brickell' | B10=55940809.68227609 | C10='Média dos 5 aplicada à área construída do Brickell.'
+A11='Dif. total Brickell vs VP médio' | B11=-12384804.72797609 | C11='Delta entre o v00 Brickell e a média corrigida por CUB.'
+A12='Total VP médio sem limite na AC Brickell' | B12=53315415.96688277 | C12='Média direta corrigida aplicada à área construída do Brickell.'
+A13='Dif. total Brickell vs VP sem limite' | B13=-9759411.012582779 | C13='Delta entre o v00 Brickell e a média direta corrigida por CUB.'
+
+===== SHEET [VALUE]: LEITURA (dims A1:C8) =====
+A1='Métrica' | B1='Valor' | C1='Leitura'
+A2='Brickell R$/m²' | B2=4017.96673289786 | C2='Base v00 calculada no paramétrico Brickell.'
+A3='Média dos 5 comparáveis R$/m²' | B3=3832.229845485217 | C3='Inclui Neuhaus Origem como limite superior.'
+A4='Mediana dos 5 comparáveis R$/m²' | B4=3628.647366742739 | C4='Ponto central da amostra selecionada.'
+A5='Média sem limite superior R$/m²' | B5=3629.672306856521 | C5='Exclui Neuhaus Origem para ler comparáveis diretos.'
+A6='Dif. Brickell vs média 5' | B6=0.04846705310002797 | C6='Brickell está acima da média completa se positivo.'
+A7='Dif. Brickell vs mediana 5' | B7=0.1072904933456222 | C7='Mostra posição contra o centro da amostra.'
+A8='Dif. Brickell vs média sem limite' | B8=0.1069778187159882 | C8='Leitura conservadora contra comparáveis diretos.'
+
+===== SHEET [VALUE]: JUSTIFICATIVAS (dims A1:C7) =====
+A1='Empreendimento' | B1='Por que entrou' | C1='Risco / uso'
+A2='Brickell Modern Home' | B2='Projeto-base desta comparação. Paramétrico v00 gerado a partir dos projetos Brickell/Nowa.' | C2='Base do comparativo.'
+A3='adore-level-up' | B3='Balneário Camboriú, SC, área praticamente igual ao Brickell e tipologia vertical alto/médio-alto. Bom comparável de porte e mercado litorâneo.' | C3='Comparável direto'
+A4='terrassa-amaro' | B4='Itajaí, SC, área muito próxima e padrão alto. Entra como referência local direta, mesmo com data-base não informada no consolidado.' | C4='Comparável direto'
+A5='mussi-empreendimentos-chelsea' | B5='Itajaí, SC, 41 UR contra 38 UR do Brickell. Área maior, mas produto e escala de unidades são muito próximos.' | C5='Comparável direto'
+A6='gdi-playa-negra' | B6='Florianópolis, SC, residencial vertical alto/médio-alto, R$/m² próximo ao Brickell. Funciona como comparável de patamar superior operacional.' | C6='Comparável direto'
+A7='neuhaus-origem' | B7='Florianópolis, SC, padrão alto e área maior. Usei como limite superior para entender se Brickell está perto do teto premium.' | C7='Limite superior de padrão alto'
+
+===== SHEET [VALUE]: CRITERIOS_E_FONTES (dims A1:B17) =====
+A1='Item' | B1='Descrição'
+A2='Fonte principal' | B2='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Parametrico_IA\\REVISAO-OBRAS-131.xlsx'
+A3='Fonte Brickell' | B3='C:\\Users\\leona\\orcamentos-openclaw\\base\\pacotes\\brickell-nowa\\brickell-nowa-parametrico-v00-final.xlsx'
+A4='Critério 1' | B4='Residencial vertical em SC/litoral, priorizando Itajaí, Balneário Camboriú e Florianópolis.'
+A5='Critério 2' | B5='Padrão médio-alto/alto e tipologia residencial vertical alto quando disponível.'
+A6='Critério 3' | B6='Área construída próxima de 10.840,31 m² e R$/m² válido no consolidado.'
+A7='Critério 4' | B7='Mussi Chelsea entrou por UR muito próxima: 41 UR vs 38 UR do Brickell.'
+A8='Normalização' | B8='Comparei também o total que cada R$/m² geraria se aplicado à AC do Brickell.'
+A9='Correção temporal' | B9='Apliquei correção por CUB: R$/m² VP = (R$/m² original / CUB origem) x CUB atual (R$ 3.850,00, 2026-05).'
+A10='Fonte CUB atual' | B10='CUB atual adotado no pacote Brickell v00 / Supabase Ampli SC'
+A12='Slug' | B12='Pasta Drive validada'
+A13='adore-level-up' | B13='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Adore Incorporações\\Level Up'
+A14='terrassa-amaro' | B14='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Terrassa\\Amaro'
+A15='mussi-empreendimentos-chelsea' | B15='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Mussi Empreendimentos\\Chelsea Residence 11.2022'
+A16='gdi-playa-negra' | B16='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\GDI Empreendimentos\\Playa Negra'
+A17='neuhaus-origem' | B17='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Neuhaus\\2023.08 - Origem 3300'
+
+===== SHEET [VALUE]: DADOS_BRUTOS (dims A1:Y6) =====
+A1='slug' | B1='cliente' | C1='cidade' | D1='uf' | E1='padrao' | F1='tipologia' | G1='data_base' | H1='cub_data_base' | I1='ac' | J1='ur' | K1='rsm2' | L1='total' | M1='cub_origem' | N1='cub_atual' | O1='cub_fator_atualizacao' | P1='cub_ratio' | Q1='rsm2_valor_presente' | R1='total_valor_presente' | S1='total_vp_normalizado' | T1='diff_ac_pct' | U1='diff_rsm2_pct' | V1='diff_rsm2_vp_pct' | W1='total_normalizado' | X1='pasta_existe' | Y1='cub_fonte'
+A2='adore-level-up' | B2='adore' | C2='Balneário Camboriú' | D2='SC' | E2='medio-alto' | F2='residencial_vertical_alto' | G2='2025-08' | H2='2025-08' | I2=11102.72 | K2=3628.647366742739 | L2=40287855.69168194 | M2=2911.91 | N2=3850 | O2=1.32215624796096 | P2=1.246139944827532 | Q2=4797.638787585998 | R2=53266840.11970681 | S2=52007891.72545637 | T2=0.02420687231269225 | U2=-0.09689462159243267 | V2=0.1940464186287125 | W2=39335662.33617498 | X2=True | Y2='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\adore-level-up-indices.md'
+A3='terrassa-amaro' | B3='terrassa' | C3='Itajaí' | D3='SC' | E3='alto' | F3='residencial_vertical_alto' | G3='2024-04' | H3='2024-04' | I3=10479.34 | K3=3100.161860683344 | L3=32487650.1931334 | M3=2757.56 | N3=3850 | O3=1.396161824221413 | P3=1.124240945141119 | Q3=4328.327638793308 | R3=45358016.95831227 | S3=46920413.38608748 | T3=-0.03329886322439113 | U3=-0.228425204395003 | V3=0.07724327415513677 | W3=33606715.61998426 | X3=True | Y3='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\terrassa-amaro-indices.md'
+A4='mussi-empreendimentos-chelsea' | B4='mussi' | C4='Itajaí' | D4='SC' | E4='medio-alto' | F4='residencial_vertical_alto' | G4='2024-11' | H4='2024-11' | I4=15149.39 | J4=41 | K4=3443.27 | L4=52163485.94 | M4=2846.12 | N4=3850 | O4=1.352718789088303 | P4=1.20981195452054 | Q4=4657.77602490408 | R4=70562465.53392161 | S4=50491736.02052795 | T4=0.3975052373963475 | U4=-0.1430317300022478 | V4=0.1592370804784573 | W4=37326114.2137 | X4=True | Y4='G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\Mussi Empreendimentos\\Chelsea\\CTN_MSS_CLS - Orçamento R02.xlsx'
+A5='gdi-playa-negra' | B5='gdi' | C5='Florianópolis' | D5='SC' | E5='medio-alto' | F5='residencial_vertical_alto' | G5='2024-08' | H5='2024-08' | I5=8518.6 | K5=4346.61 | L5=37027025.39 | M5=2841.51 | N5=3850 | O5=1.354913408715788 | P5=1.529683161417697 | Q5=5889.280171458132 | R5=50168422.06858324 | S5=63841622.7354593 | T5=-0.2141737644034164 | U5=0.08179342661334421 | V5=0.4657364191790192 | W5=47118599.84909999 | X5=True | Y5='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\gdi-playanegra-indices.md'
+A6='neuhaus-origem' | B6='neuhaus' | C6='Florianópolis' | D6='SC' | E6='alto' | F6='residencial_vertical_alto' | G6='2025-03' | H6='2025-03' | I6=14559.12 | K6=4642.46 | L6=67590131.02 | M6=2916.12 | N6=3850 | O6=1.320247452093878 | P6=1.591998957518895 | Q6=6129.195986447746 | R6=89235699.87021111 | S6=66442384.54384936 | T6=0.3430538425561631 | U6=0.1554251960298685 | V6=0.5254471711435036 | W6=50325705.5626 | X6=True | Y6='C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\origem-indices.md'
+
+===== SHEET [VALUE]: BRICKELL_MACROGRUPOS (dims A1:D19) =====
+A1='Macrogrupo' | B1='R$/m²' | C1='%' | D1='Total'
+A2='Gerenciamento' | B2=468.4604038076402 | C2=0.1165914092747539 | D2=5078256
+A3='Mov. Terra' | B3=17 | C3=0.00423099570755758 | D3=184285.27
+A4='Infraestrutura' | B4=153.5201723935939 | C4=0.03820842296592915 | D4=1664206.26
+A5='Supraestrutura' | B5=785.8531074203598 | C5=0.1955847720156664 | D5=8518891.2989
+A6='Alvenaria' | B6=181.573405188597 | C6=0.04519037046820983 | D6=1968312
+A7='Impermeabilização' | B7=71.09012380642251 | C7=0.0176930593338065 | D7=770638.98
+A8='Instalações' | B8=476.49 | C8=0.1185898320408301 | D8=5165299.3119
+A9='Sist. Especiais' | B9=221.3287258390212 | C9=0.05508475817553454 | D9=2399272
+A10='Climatização' | B10=89.94443701333265 | C10=0.02238556040718197 | D10=975025.58
+A11='Rev. Int. Parede' | B11=131.6731578709465 | C11=0.03277109210308977 | D11=1427377.85
+A12='Teto' | B12=72.61563553071822 | C12=0.01807273189600203 | D12=787176
+A13='Pisos' | B13=203.5078038358682 | C13=0.05064944967553107 | D13=2206087.681
+A14='Pintura' | B14=154.6434410086059 | C14=0.03848798441819678 | D14=1676382.84
+A15='Esquadrias' | B15=373.75 | C15=0.09301968504115561 | D15=4051565.8625
+A16='Louças e Metais' | B16=75.00000461241422 | C16=0.0186661586812896 | D16=813023.2999999999
+A17='Fachada' | B17=237.143218228999 | C17=0.05902070225901677 | D17=2570706
+A18='Complementares' | B18=244.994259389261 | C18=0.06097468587365951 | D18=2655813.72
+A19='Imprevistos' | B19=59.37883695207979 | C19=0.01477832966258888 | D19=643685

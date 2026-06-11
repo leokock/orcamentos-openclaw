@@ -1,0 +1,91 @@
+{
+  "output": "C:\\Users\\leona\\orcamentos-openclaw\\base\\pacotes\\brickell-nowa\\brickell-nowa-comparativo-similares-v00.xlsx",
+  "source_review": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Parametrico_IA\\REVISAO-OBRAS-131.xlsx",
+  "brickell": {
+    "slug": "brickell-nowa",
+    "cliente": "Nowa",
+    "empreendimento": "Brickell Modern Home",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "padrao": "alto",
+    "tipologia": "residencial_vertical_alto",
+    "data_base": "2026-05",
+    "ac": 10840.31,
+    "ur": 38,
+    "rsm2": 4017.9667328978603,
+    "total": 43556004.9543,
+    "fonte": "C:\\Users\\leona\\orcamentos-openclaw\\base\\pacotes\\brickell-nowa\\brickell-nowa-parametrico-v00-final.xlsx",
+    "pasta_drive": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\Nowa\\04. Custo\\04.1 Custo - Paramétrico\\01 - Projetos",
+    "justificativa": "Projeto-base desta comparação. Paramétrico v00 gerado a partir dos projetos Brickell/Nowa.",
+    "cub_data_base": "2026-05",
+    "cub_origem": 3850.0,
+    "cub_atual": 3850.0,
+    "cub_fator_atualizacao": 1.0,
+    "cub_ratio": 1.043627722830613,
+    "rsm2_valor_presente": 4017.96673289786,
+    "total_valor_presente": 43556004.954299994,
+    "total_vp_normalizado_brickell_ac": 43556004.954299994,
+    "cub_fonte": "CUB atual adotado no pacote Brickell v00 / Supabase Ampli SC",
+    "cub_observacao": "Base atual do próprio Brickell; fator de atualização igual a 1,00."
+  },
+  "candidatos": [
+    "adore-level-up",
+    "terrassa-amaro",
+    "mussi-empreendimentos-chelsea",
+    "gdi-playa-negra",
+    "neuhaus-origem"
+  ],
+  "cub_atual": {
+    "valor": 3850.0,
+    "data_base": "2026-05",
+    "fonte": "CUB atual adotado no pacote Brickell v00 / Supabase Ampli SC"
+  },
+  "cub_fontes": {
+    "adore-level-up": {
+      "data_base": "2025-08",
+      "cub": 2911.91,
+      "fonte": "C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\adore-level-up-indices.md",
+      "observacao": "Arquivo de índices: Data-base Ago/2025 | CUB R$ 2.911,91."
+    },
+    "terrassa-amaro": {
+      "data_base": "2024-04",
+      "cub": 2757.56,
+      "fonte": "C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\terrassa-amaro-indices.md",
+      "observacao": "Arquivo de índices: Data-base abr/2024 | CUB/SC R$ 2.757,56."
+    },
+    "mussi-empreendimentos-chelsea": {
+      "data_base": "2024-11",
+      "cub": 2846.12,
+      "fonte": "G:\\Drives compartilhados\\03 CTN Projetos\\2. Projetos em Andamento\\_Entregas\\Orçamento_executivo\\Mussi Empreendimentos\\Chelsea\\CTN_MSS_CLS - Orçamento R02.xlsx",
+      "observacao": "Aba Obra: C48 = CUB/SC R$ 2.846,12 e D48 = nov/2024."
+    },
+    "gdi-playa-negra": {
+      "data_base": "2024-08",
+      "cub": 2841.51,
+      "fonte": "C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\gdi-playanegra-indices.md",
+      "observacao": "Arquivo de índices: Data-base Agosto/2024 | CUB/SC R$ 2.841,51."
+    },
+    "neuhaus-origem": {
+      "data_base": "2025-03",
+      "cub": 2916.12,
+      "fonte": "C:\\Users\\leona\\orcamentos-openclaw\\archive\\v1-pre-fase19\\indices\\origem-indices.md",
+      "observacao": "Arquivo de índices: Data-base Mar/2025 | CUB/SC R$ 2.916,12."
+    }
+  },
+  "stats": {
+    "media_5": 3832.2298454852166,
+    "mediana_5": 3628.647366742739,
+    "media_sem_limite": 3629.6723068565207,
+    "cub_media_5": 5160.4437218378525,
+    "cub_mediana_5": 4797.638787585998,
+    "cub_media_sem_limite": 4918.25565568538,
+    "diff_media_5_pct": 0.04846705310002797,
+    "diff_mediana_5_pct": 0.10729049334562224,
+    "diff_media_sem_limite_pct": 0.10697781871598822,
+    "cub_diff_media_5_pct": -0.22139123116589443,
+    "cub_diff_mediana_5_pct": -0.16251162065505176,
+    "cub_diff_media_sem_limite_pct": -0.18305045239907536,
+    "cub_total_norm_media_5": 55940809.682276085,
+    "cub_total_norm_media_sem_limite": 53315415.96688277
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "_gerado_em": "2026-04-23",
+  "_descricao": "Premissas da viabilidade financeira Placon Armínio Tavares — editáveis. Base de custo: paramétrico V2 Híbrido com cenário MODERADO de Gerenciamento (23/04 — 9 overrides adicionais na aba Gerenciamento). Grand Total atualizado: R$ 17.347.024. Prazo obra 24 meses, 55 UR, AC 4.077,29 m² (privativa 2.083,94 m²).",
+
+  "projeto": {
+    "nome": "Placon Armínio Tavares",
+    "cidade": "Florianópolis",
+    "bairro": "Centro",
+    "estado": "SC",
+    "cliente": "Placon Empreendimentos Imobiliários Ltda.",
+    "area_construida_m2": 4077.29,
+    "area_privativa_m2": 2083.94,
+    "n_unidades": 55,
+    "prazo_obra_meses": 24,
+    "prazo_pre_lancamento_meses": 3,
+    "prazo_pos_obra_meses": 12,
+    "pct_area_privativa": 0.5111,
+    "_pct_area_privativa_fonte": "area_privativa 2.083,94 / AC 4.077,29 = 51,11% (PL_R05). Acima da média (70% do arthen) porque aqui AC inclui térreo comercial mín 577 m² + áreas comuns robustas de empreendimento Médio-Alto.",
+    "permuta_pct_unidades": 0.0,
+    "_permuta_nota": "Sem permuta física assumida — cliente Placon adquire terreno via pagamento direto. Ajustar se houver estrutura de permuta no contrato final."
+  },
+
+  "custo": {
+    "_fonte": "paramétrico-placon-arminio-tavares.xlsx CUSTOS_MACROGRUPO!D22 (lido em runtime) = R$ 17.347.024 (Grand Total pós-cenário MODERADO Gerenciamento V2 Híbrido, 23/04). RSM² R$ 4.254,55.",
+    "contingencia_pct": 0.05
+  },
+
+  "receita": {
+    "vgv_m2_base": 15000,
+    "_vgv_m2_fonte": "Padrão Médio-Alto Centro Florianópolis — referência R$ 14.000-17.000/m² (comparáveis centro 2026). Ajuste livre para alinhar com pesquisa Placon. Considerar ticket de studios (maior R$/m²) vs 1-2 dorm.",
+    "entrada_pct": 0.20,
+    "obra_pct": 0.40,
+    "repasse_pct": 0.40,
+    "inadimplencia_pct": 0.03
+  },
+
+  "financeiras": {
+    "cub_aa": 0.07,
+    "_cub_fonte": "CUB/SC Sinduscon — indexador padrão SC (NÃO INCC) para parcelas obra. Média histórica 2020-2025 ≈ 7% a.a.",
+    "tma_aa": 0.14,
+    "_tma_fonte": "Selic ~10,5% + spread 3,5% (custo de capital incorporadora média porte SC 2026)"
+  },
+
+  "comercial": {
+    "corretagem_pct": 0.05,
+    "_corretagem_nota": "5% é benchmark para empreendimentos médio-alto centro Floripa (arthen usava 6%).",
+    "marketing_pct": 0.03,
+    "marketing_front_pct": 0.0,
+    "_marketing_nota": "3% linear na obra — sem front-load (estande contido no marketing base).",
+    "ret_pct": 0.04,
+    "_ret_fonte": "Regime Especial de Tributação — Lei 10.931/04 art. 4º, Patrimônio de Afetação, 4% sobre receita recebida.",
+    "adm_incorporadora_pct": 0.02,
+    "_adm_nota": "2% admin incorporadora (Placon é operação enxuta; arthen usava 3%)."
+  },
+
+  "curva_vendas": {
+    "_modelo": "logística cumulativa: %_acum(t) = 1/(1+exp(-k*(t-t50)))",
+    "t_inicio": -2,
+    "t50": 12,
+    "_t50_nota": "t50=12 (metade da obra de 24 meses) — mesma proporção ~50% usada no arthen (t50 17 / obra 36 = 47%). Picos naturais em meses 6, 12, 18 do modelo.",
+    "k": 0.18,
+    "_k_nota": "k=0.18 ligeiramente acima do arthen (0.15) porque prazo menor concentra vendas."
+  },
+
+  "curva_obra_por_macrogrupo": {
+    "_unidades": "mês_inicio..mês_fim (1..24 = obra). Janelas escaladas proporcionalmente do arthen (36 meses → 24 meses, fator 24/36 = 0.667).",
+    "Gerenciamento": [1, 24],
+    "Mov. Terra": [1, 3],
+    "Infraestrutura": [1, 7],
+    "Supraestrutura": [3, 15],
+    "Alvenaria": [7, 17],
+    "Impermeabilização": [4, 20],
+    "Instalações": [8, 23],
+    "Sist. Especiais": [15, 23],
+    "Climatização": [16, 23],
+    "Rev. Int. Parede": [12, 21],
+    "Teto": [15, 23],
+    "Pisos": [16, 23],
+    "Pintura": [17, 24],
+    "Esquadrias": [15, 23],
+    "Louças e Metais": [17, 23],
+    "Fachada": [12, 21],
+    "Complementares": [19, 24],
+    "Imprevistos": [1, 24]
+  },
+
+  "curva_mensal_obra_pct": {
+    "_descricao": "Curva de desembolso mensal da obra — 24 meses. Curva S típica com pico no meio da obra. Soma = 100%. Usada no fluxo de caixa e Monte Carlo.",
+    "_soma": "100.0%",
+    "valores": [0.008, 0.012, 0.018, 0.025, 0.033, 0.042, 0.050, 0.057, 0.063, 0.068, 0.070, 0.070, 0.068, 0.065, 0.060, 0.055, 0.048, 0.040, 0.032, 0.025, 0.018, 0.013, 0.008, 0.003]
+  },
+
+  "monte_carlo": {
+    "n_iter": 10000,
+    "seed": 42,
+    "_base_nota": "A base do MC é o ORÇAMENTO PARAMÉTRICO V2 HÍBRIDO = R$ 17.865.737,68 (pós-override Gerenciamento). custo_obra_fator=1.00 representa executar o orçamento exatamente como entregue. Range estreitado (0.95-1.12) porque V2 calibrado contra 126 projetos tem precisão típica ±10%.",
+    "vgv_m2_tri": [12000, 15000, 19000],
+    "_vgv_tri_nota": "Range refletindo variação Médio-Alto Centro Floripa: pessimista R$ 12k (desaceleração), base R$ 15k, otimista R$ 19k (studios premium + centro aquecido).",
+    "custo_obra_fator_tri": [0.95, 1.00, 1.12],
+    "t50_vendas_tri": [7, 12, 20],
+    "cub_aa_tri": [0.04, 0.07, 0.11],
+    "corr_vgv_t50": -0.4,
+    "_correlacao_fonte": "preço alto ↔ venda mais lenta (modelagem conservadora)"
+  },
+
+  "tornado": {
+    "variacao_pct": 0.20,
+    "variaveis": [
+      "vgv_m2_base", "custo_obra_fator", "t50_vendas", "entrada_pct",
+      "corretagem_pct", "ret_pct", "cub_aa", "tma_aa"
+    ]
+  },
+
+  "cenarios": {
+    "pessimista": {"vgv_fator": 0.85, "custo_fator": 1.10, "t50_delta": 6},
+    "base": {"vgv_fator": 1.00, "custo_fator": 1.00, "t50_delta": 0},
+    "otimista": {"vgv_fator": 1.10, "custo_fator": 0.95, "t50_delta": -3}
+  }
+}

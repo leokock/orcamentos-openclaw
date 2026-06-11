@@ -1,5 +1,21 @@
 # CLAUDE.md — Orcamentos Cartesian
 
+> **Nota 2026-06-10:** este repo virou legado/dados/scripts. O bot `@Cartesiano` e a equipe devem usar `~/cartesian` como workspace e fonte canonica de documentacao. Regras antigas abaixo ficam apenas como referencia historica enquanto nao forem portadas.
+
+> **Conhecimento canonico atual:** `~/cartesian/docs/orcamento/`.
+> Workspace operacional do bot mudou para `~/cartesian`. Este repo continua apenas como legado/dados/scripts.
+> - Paramétrico V2 Híbrido completo → `~/cartesian/docs/orcamento/PARAMETRICO.md`
+> - Executivo (copiloto, disciplinas, lições) → `~/cartesian/docs/orcamento/EXECUTIVO.md`
+> - Quantitativos + Precificação 3 fontes → `~/cartesian/docs/orcamento/QUANTITATIVOS-E-PRECIFICACAO.md`
+> - Memorial (Word + Cartesiano Supabase) → `~/cartesian/docs/orcamento/MEMORIAL.md`
+> - Operação (fluxos A/B, kickoff, Drive paths) → `~/cartesian/docs/orcamento/OPERACAO.md`
+> - Índice + árvore de decisão → `~/cartesian/docs/orcamento/README.md`
+>
+> Modelagem BIM canônica → `~/openclaw/docs/modelagem/` (PROCESSO-REVIT, VISUS-INTEGRACAO, BIM-COORDENACAO, REVIT-MCP-AUTOMACAO).
+>
+> Docs antigos em `docs/` viraram stubs-redirect; originais preservados em `archive/2026-05-cleanup/docs-pre-fusao/`.
+> Esta seção e regras abaixo sao historicas; o bot nao opera mais a partir deste repo.
+
 ## O que e este workspace
 
 Workspace de orcamentacao (parametrica + executiva) da **Cartesian Engenharia**, acessado por bots no Slack. O bot principal e o **Cartesiano** — assistente tecnico que gera orcamentos, processa IFCs, extrai quantitativos e interage com a equipe via canais Slack.

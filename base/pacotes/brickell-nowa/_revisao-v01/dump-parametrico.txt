@@ -1,0 +1,882 @@
+
+===== SHEET [FORMULA]: PAINEL (dims A1:C14) =====
+A1='BRICKELL MODERN HOME - NOWA — PARAMÉTRICO V2'
+A2='Bottom-up + Dropdowns interativos | 75 executivos calibrados'
+A4='Custo Total' | B4='=CUSTOS_MACROGRUPO!D22'
+A5='R$/m² AC' | B5='=CUSTOS_MACROGRUPO!D22/DADOS_PROJETO!B5'
+A6='CUB Ratio' | B6='=B5/DADOS_PROJETO!B12'
+A7='Custo/UR' | B7='=CUSTOS_MACROGRUPO!D22/DADOS_PROJETO!B6'
+A8='AC' | B8='=DADOS_PROJETO!B5'
+A9='UR' | B9='=DADOS_PROJETO!B6'
+A10='CUB' | B10='=DADOS_PROJETO!B12'
+A11='Laje' | B11='=BRIEFING!B4'
+A12='Subsolos' | B12='=BRIEFING!B5'
+A13='Padrão' | B13='=BRIEFING!B7'
+A14='Fachada' | B14='=BRIEFING!B8'
+
+===== SHEET [FORMULA]: DADOS_PROJETO (dims A1:D12) =====
+A1='BRICKELL MODERN HOME - NOWA — ORÇAMENTO PARAMÉTRICO V2'
+A3='Projeto' | B3='Brickell Modern Home - Nowa'
+A4='Cidade/UF' | B4='Itajaí'
+A5='AC Total (m²)' | B5=10840.31
+A6='UR' | B6=38
+A7='Pavimentos' | B7=29
+A8='Pav. Tipo' | B8=18
+A9='Elevadores' | B9=2
+A10='Vagas' | B10=76
+A11='Prazo (meses)' | B11=36
+A12='CUB Atual (R$)' | B12=3850
+
+===== SHEET [FORMULA]: BRIEFING (dims A1:D17) =====
+A1='BRIEFING — ALTERE OS DROPDOWNS PARA RECALCULAR'
+A2='Cada alteração muda automaticamente os índices e custos nas abas de detalhe'
+A3='Pergunta' | B3='Resposta' | C3='Impacto'
+A4='Tipo de Laje' | B4='Convencional' | C4='Muda: concreto, aço, forma, escoramento, cordoalha'
+A5='Subsolos' | B5='0' | C5='Muda: contenção, mov.terra, impermeabilização, fundação'
+A6='Fundação' | B6='Hélice' | C6='Muda: custo infraestrutura, tipo de perfuração'
+A7='Padrão Acabamento' | B7='Alto' | C7='Muda: pisos, rev.parede, esquadrias, louças, fachada'
+A8='Fachada' | B8='Textura' | C8='Muda: custo fachada (R$/m²)'
+A9='Pressurização' | B9='Sim' | C9='Muda: custo sist.especiais (+R$ 80k)'
+A10='Nº Torres' | B10='1' | C10='Muda: gerador, elevadores, equipamentos'
+A11='Gerador Dedicado' | B11='Sim' | C11='Muda: sist.especiais (R$ 120-350k)'
+A12='Entrega' | B12='Completa' | C12='Shell desconta ~R$ 200/m² (pisos, pintura, rev.parede, louças, alvenaria)'
+A13='Tipologia' | B13='Misto' | C13='Muda: pontos elétricos, louças, alvenaria interna'
+A14='Pé-Direito' | B14='Padrão (3.00)' | C14='Muda: fachada, alvenaria, estrutura (+2-8%)'
+A15='Nº Banheiros/Apto' | B15='2' | C15='Muda: hidro, louças, impermeab., rev.parede'
+A16='Tipo Piso Predominante' | B16='Porcelanato' | C16='Muda: PU pisos (porcelanato ~R$ 81 vs laminado ~R$ 65)'
+A17='Piscina' | B17='Sim' | C17='Muda: sist.especiais (R$ 0 / R$ 220k / R$ 320k)'
+
+===== SHEET [FORMULA]: INDICES (dims A1:F35) =====
+A1='ÍNDICES CALIBRADOS — HÍBRIDO: BRIEFING + OVERRIDE MANUAL'
+A2='B=calculado via BRIEFING (não editar) | C=override manual (edite para sobrescrever) | D=valor efetivo usado nas abas de macrogrupo (= Override se preenchido, senão B)'
+A4='Índice' | B4='Valor calc' | C4='Override' | D4='Efetivo' | E4='Unidade' | F4='Fonte'
+A5='Concreto (m³/m² AC)' | B5='=IF(BRIEFING!B4="Protendida",0.22,IF(BRIEFING!B4="Nervurada",0.2,0.25))' | D5='=IF(C5="",B5,C5)' | E5='m³/m²' | F5='Master 7p exec | IF Laje'
+A6='Aço convenc. (kg/m³)' | B6='=IF(BRIEFING!B4="Protendida",70,IF(BRIEFING!B4="Nervurada",90,106))' | D6='=IF(C6="",B6,C6)' | E6='kg/m³' | F6='Master 7p+11p narr | IF Laje'
+A7='Cordoalha (kg/m² laje)' | B7='=IF(BRIEFING!B4="Protendida",8,0)' | D7='=IF(C7="",B7,C7)' | E7='kg/m²' | F7='Master protendida | IF Laje=Protendida'
+A8='Forma (m²/m³)' | B8='=IF(BRIEFING!B4="Protendida",6.05,IF(BRIEFING!B4="Nervurada",6.5,7.12))' | D8='=IF(C8="",B8,C8)' | E8='m²/m³' | F8='Master 7p exec | IF Laje'
+A9='Escoramento (R$/m²)' | B9='=IF(BRIEFING!B4="Protendida",50,IF(BRIEFING!B4="Nervurada",35,0))' | D9='=IF(C9="",B9,C9)' | E9='R$/m²' | F9='PU base 7p | IF Laje'
+A10='fck Laje' | B10='=IF(BRIEFING!B4="Protendida",40,30)' | D10='=IF(C10="",B10,C10)' | E10='MPa' | F10='IF Laje'
+A11='Nº estacas (base AC)' | B11='=ROUND(DADOS_PROJETO!B5/75,0)*(1+VALUE(BRIEFING!B5)*0.15)' | D11='=IF(C11="",B11,C11)' | E11='un' | F11='~1 est/75m² + sub | AC/75 × (1+sub×15%)'
+A12='Comp. estaca (m)' | B12='=IF(BRIEFING!B6="Hélice",18,IF(BRIEFING!B6="Tubulão",12,0))+VALUE(BRIEFING!B5)*2' | D12='=IF(C12="",B12,C12)' | E12='m' | F12='Tipo + prof.sub | IF Fundação + sub×2m'
+A13='Alvenaria (m²/m² AC)' | B13='=2.25*IF(BRIEFING!B12="Shell",0.75,1)*IF(BRIEFING!B14="Duplo",1.15,IF(BRIEFING!B14="Alto (3.20)",1.05,1))' | D13='=IF(C13="",B13,C13)' | E13='m²/m²' | F13='2,25 × shell × pé-dir | IF Entrega + Pé-Direito'
+A14='Pisos (m²/m² AC)' | B14='=1.7*IF(BRIEFING!B12="Shell",0.4,1)' | D14='=IF(C14="",B14,C14)' | E14='m²/m²' | F14='1,70 × shell | IF Entrega (shell = 40%)'
+A15='Rev. Parede (m²/m² AC)' | B15='=2.85*IF(BRIEFING!B12="Shell",0.5,1)*IF(VALUE(BRIEFING!B15)>=2,1.15,IF(VALUE(BRIEFING!B15)>=1,1,0.85))' | D15='=IF(C15="",B15,C15)' | E15='m²/m²' | F15='2,85 × shell × bwc | IF Entrega + BWC/apto'
+A16='Forro (m²/m² AC)' | B16='=1.16*IF(BRIEFING!B12="Shell",0.45,1)' | D16='=IF(C16="",B16,C16)' | E16='m²/m²' | F16='1,16 × shell | IF Entrega (shell = 45%)'
+A17='Pintura (m² sup/m² AC)' | B17='=5.65*IF(BRIEFING!B12="Shell",0.4,1)' | D17='=IF(C17="",B17,C17)' | E17='m²/m²' | F17='5,65 × shell | IF Entrega (shell = 40%)'
+A18='Fachada (m²/m² AC)' | B18='=IF(BRIEFING!B8="Pele de vidro",1.8,IF(BRIEFING!B8="ACM",1.7,1.55))*IF(BRIEFING!B14="Duplo",1.12,IF(BRIEFING!B14="Alto (3.20)",1.05,1))' | D18='=IF(C18="",B18,C18)' | E18='m²/m²' | F18='Tipo fachada × pé-dir | IF Fachada + Pé-Direito'
+A19='Impermeab. (m²/m² AC)' | B19='=0.37+VALUE(BRIEFING!B5)*0.05+IF(VALUE(BRIEFING!B15)>=3,0.04,IF(VALUE(BRIEFING!B15)>=2,0.03,0))' | D19='=IF(C19="",B19,C19)' | E19='m²/m²' | F19='Base + sub + bwc | IF Sub + BWC'
+A20='Fator padrão acabamento' | B20='=IF(BRIEFING!B7="Luxo",1.35,IF(BRIEFING!B7="Alto",1.15,IF(BRIEFING!B7="Médio-Alto",1,0.85)))' | D20='=IF(C20="",B20,C20)' | E20='fator' | F20='IF Padrão'
+A21='PU fachada (R$/m²)' | B21='=IF(BRIEFING!B8="Pele de vidro",350,IF(BRIEFING!B8="ACM",280,IF(BRIEFING!B8="Cerâmica",180,100)))' | D21='=IF(C21="",B21,C21)' | E21='R$/m²' | F21='PU base + briefing | IF Fachada tipo'
+A22='Pressurização (R$)' | B22='=IF(BRIEFING!B9="Sim",80000,0)' | C22=180000 | D22='=IF(C22="",B22,C22)' | E22='R$' | F22='Override v00 | PPCI: escada pressurizada/exaustão e controle de fumaça em torre alta'
+A23='Gerador (R$)' | B23='=IF(BRIEFING!B11="Não",0,IF(BRIEFING!B10="3",350000,IF(BRIEFING!B10="2",250000,180000)))' | C23=350000 | D23='=IF(C23="",B23,C23)' | E23='R$' | F23='Override v00 | Gerador dedicado com sala/posicionamento indicado nos PDFs'
+A24='Contenção (R$)' | B24='=IF(VALUE(BRIEFING!B5)>0,VALUE(BRIEFING!B5)*3.5*120*350,0)' | D24='=IF(C24="",B24,C24)' | E24='R$' | F24='Sub×prof×perim×R$ | IF Sub>0'
+A25='Mov. Terra PU (R$/m²)' | B25='=IF(VALUE(BRIEFING!B5)>0,17+VALUE(BRIEFING!B5)*15,17)' | D25='=IF(C25="",B25,C25)' | E25='R$/m²' | F25='Base + sub×15 | IF Sub>0'
+A26='Fator tipologia louças' | B26='=IF(BRIEFING!B13="Studios",0.65,IF(BRIEFING!B13="1-2 Dormitórios",0.85,IF(BRIEFING!B13="3-4 Dormitórios",1.2,1)))' | D26='=IF(C26="",B26,C26)' | E26='fator' | F26='Studios menos louças | IF Tipologia'
+A27='Fator tipologia elétrica' | B27='=IF(BRIEFING!B13="Studios",0.8,IF(BRIEFING!B13="3-4 Dormitórios",1.15,1))' | D27='=IF(C27="",B27,C27)' | E27='fator' | F27='Studios menos pontos | IF Tipologia'
+A28='Fator entrega (shell)' | B28='=IF(BRIEFING!B12="Shell",0.85,1)' | D28='=IF(C28="",B28,C28)' | E28='fator' | F28='Shell desconta ~15% total | IF Entrega'
+A29='PU piso predominante' | B29='=IF(BRIEFING!B16="Porcelanato",81.21,IF(BRIEFING!B16="Laminado",65,73))*INDICES!D20' | D29='=IF(C29="",B29,C29)' | E29='R$/m²' | F29='Tipo piso × padrão | IF Tipo Piso × Padrão (usa D20=efetivo)'
+A30='Piscina (R$)' | B30='=IF(BRIEFING!B17="Aquecida",320000,IF(BRIEFING!B17="Sim",220000,0))' | D30='=IF(C30="",B30,C30)' | E30='R$' | F30='Param. base | IF Piscina'
+A31='Fator pé-direito estrutura' | B31='=IF(BRIEFING!B14="Duplo",1.12,IF(BRIEFING!B14="Alto (3.20)",1.05,IF(BRIEFING!B14="Baixo (2.80)",0.97,1)))' | D31='=IF(C31="",B31,C31)' | E31='fator' | F31='Pé-dir afeta estrutura | IF Pé-Direito'
+A32='Fator BWC louças' | B32='=IF(VALUE(BRIEFING!B15)>=4,1.8,IF(VALUE(BRIEFING!B15)>=3,1.5,IF(VALUE(BRIEFING!B15)>=2,1.2,1)))' | D32='=IF(C32="",B32,C32)' | E32='fator' | F32='Mais bwc = mais louças | IF BWC/apto'
+A33='Fator viga protendida' | B33='=IF(BRIEFING!B4="Protendida",0.08,0.3)' | D33='=IF(C33="",B33,C33)' | E33='fator' | F33='Peso viga/m² conforme laje | IF Laje (0.08 prot / 0.30 conv)'
+A34='Fator laje protendida' | B34='=IF(BRIEFING!B4="Protendida",0.6,0.35)' | D34='=IF(C34="",B34,C34)' | E34='fator' | F34='Peso laje/m² conforme tipo | IF Laje (0.60 prot / 0.35 conv)'
+A35='Fator hidro BWC' | B35='=IF(VALUE(BRIEFING!B15)>=2,1.15,1)' | D35='=IF(C35="",B35,C35)' | E35='fator' | F35='Mais bwc = mais hidro | IF BWC>=2 (1.15 / 1.0)'
+
+===== SHEET [FORMULA]: CUSTOS_MACROGRUPO (dims A1:E22) =====
+A1='CUSTOS POR MACROGRUPO — BOTTOM-UP COM BRIEFING'
+A3='Macrogrupo' | B3='R$/m²' | C3='% Total' | D3='Custo Total (R$)' | E3='Aba'
+A4='Gerenciamento' | B4='=D4/DADOS_PROJETO!B5' | C4='=D4/D22' | D4='=Gerenciamento!G2' | E4='Gerenciamento'
+A5='Mov. Terra' | B5='=D5/DADOS_PROJETO!B5' | C5='=D5/D22' | D5="='Mov. Terra'!G2" | E5='Mov. Terra'
+A6='Infraestrutura' | B6='=D6/DADOS_PROJETO!B5' | C6='=D6/D22' | D6='=Infraestrutura!G2' | E6='Infraestrutura'
+A7='Supraestrutura' | B7='=D7/DADOS_PROJETO!B5' | C7='=D7/D22' | D7='=Supraestrutura!G2' | E7='Supraestrutura'
+A8='Alvenaria' | B8='=D8/DADOS_PROJETO!B5' | C8='=D8/D22' | D8='=Alvenaria!G2' | E8='Alvenaria'
+A9='Impermeabilização' | B9='=D9/DADOS_PROJETO!B5' | C9='=D9/D22' | D9='=Impermeabilização!G2' | E9='Impermeabilização'
+A10='Instalações' | B10='=D10/DADOS_PROJETO!B5' | C10='=D10/D22' | D10='=Instalações!G2' | E10='Instalações'
+A11='Sist. Especiais' | B11='=D11/DADOS_PROJETO!B5' | C11='=D11/D22' | D11="='Sist. Especiais'!G2" | E11='Sist. Especiais'
+A12='Climatização' | B12='=D12/DADOS_PROJETO!B5' | C12='=D12/D22' | D12='=Climatização!G2' | E12='Climatização'
+A13='Rev. Int. Parede' | B13='=D13/DADOS_PROJETO!B5' | C13='=D13/D22' | D13="='Rev. Int. Parede'!G2" | E13='Rev. Int. Parede'
+A14='Teto' | B14='=D14/DADOS_PROJETO!B5' | C14='=D14/D22' | D14='=Teto!G2' | E14='Teto'
+A15='Pisos' | B15='=D15/DADOS_PROJETO!B5' | C15='=D15/D22' | D15='=Pisos!G2' | E15='Pisos'
+A16='Pintura' | B16='=D16/DADOS_PROJETO!B5' | C16='=D16/D22' | D16='=Pintura!G2' | E16='Pintura'
+A17='Esquadrias' | B17='=D17/DADOS_PROJETO!B5' | C17='=D17/D22' | D17='=Esquadrias!G2' | E17='Esquadrias'
+A18='Louças e Metais' | B18='=D18/DADOS_PROJETO!B5' | C18='=D18/D22' | D18="='Louças e Metais'!G2" | E18='Louças e Metais'
+A19='Fachada' | B19='=D19/DADOS_PROJETO!B5' | C19='=D19/D22' | D19='=Fachada!G2' | E19='Fachada'
+A20='Complementares' | B20='=D20/DADOS_PROJETO!B5' | C20='=D20/D22' | D20='=Complementares!G2' | E20='Complementares'
+A21='Imprevistos' | B21='=D21/DADOS_PROJETO!B5' | C21='=D21/D22' | D21='=Imprevistos!G2' | E21='Imprevistos'
+A22='TOTAL' | B22='=D22/DADOS_PROJETO!B5' | D22='=SUM(D4:D21)'
+
+===== SHEET [FORMULA]: Supraestrutura (dims A1:G14) =====
+A1='SUPRAESTRUTURA' | G1='Total:'
+G2='=F14'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Concreto Pilares' | B4='fck30' | C4='=ROUND(INDICES!D5*DADOS_PROJETO!B5*0.22*INDICES!D31,0)' | D4='m³' | E4=590 | F4='=C4*E4' | G4='Índ×AC×22% × pé-dir (7p)'
+A5='Concreto Vigas' | B5='fck30' | C5='=ROUND(INDICES!D5*DADOS_PROJETO!B5*INDICES!D33,0)' | D5='m³' | E5=590 | F5='=C5*E5' | G5='Índ conc × AC × fator viga (D33)'
+A6='Concreto Lajes' | B6='fck conforme laje' | C6='=ROUND(INDICES!D5*DADOS_PROJETO!B5*INDICES!D34,0)' | D6='m³' | E6='=IF(INDICES!D10=40,690,590)' | F6='=C6*E6' | G6='Índ conc × AC × fator laje (D34)'
+A7='Concreto Escadas' | B7='fck30' | C7='=ROUND(INDICES!D5*DADOS_PROJETO!B5*0.05,0)' | D7='m³' | E7=590 | F7='=C7*E7' | G7='Índ×AC×5%'
+A8='Concreto Blocos' | B8='Baldrame fck30' | C8='=ROUND(INDICES!D5*DADOS_PROJETO!B5*0.05,0)' | D8='m³' | E8=590 | F8='=C8*E8' | G8='Índ×AC×5%'
+A9='Aço CA-50' | B9='Convencional' | C9='=ROUND(INDICES!D6*INDICES!D5*DADOS_PROJETO!B5,0)' | D9='kg' | E9=8.67 | F9='=C9*E9' | G9='Índ aço×conc×AC'
+A10='Cordoalha CP-190' | B10='Protensão' | C10='=ROUND(INDICES!D7*DADOS_PROJETO!B5*0.65,0)' | D10='kg' | E10=22 | F10='=C10*E10' | G10='IF Prot→8kg/m² laje'
+A11='Forma' | B11='Compensado plastif.' | C11='=ROUND(INDICES!D8*INDICES!D5*DADOS_PROJETO!B5,0)' | D11='m²' | E11=88.07 | F11='=C11*E11' | G11='Índ forma×conc×AC'
+A12='Escoramento' | B12='Metálico' | C12='=ROUND(DADOS_PROJETO!B5*0.65,0)' | D12='m²' | E12='=INDICES!D9' | F12='=C12*E12' | G12='IF Laje→PU escor'
+A13='MO Estrutura' | B13='Empreitada (32,6%)' | C13='=DADOS_PROJETO!B5' | D13='m²' | E13='=ROUND((SUM(F4:F12)*0.326/0.674)/DADOS_PROJETO!B5,2)' | F13='=C13*E13' | G13='Split 32,6% MO (10p)'
+A14='TOTAL' | F14='=SUM(F4:F13)'
+
+===== SHEET [FORMULA]: Infraestrutura (dims A1:G13) =====
+A1='INFRAESTRUTURA' | G1='Total:'
+G2='=F13'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Perfuração hélice' | B4='Ø40cm' | C4='=ROUND(INDICES!D11*INDICES!D12,0)' | D4='m' | E4=82 | F4='=C4*E4' | G4='PU base R$ 82/m (6p)'
+A5='Concreto estacas' | B5='fck30' | C5='=ROUND(INDICES!D11*3.14159*0.04*INDICES!D12,0)' | D5='m³' | E5=632 | F5='=C5*E5' | G5='PU base R$ 632 (6p)'
+A6='Concreto blocos' | B6='Baldrames' | C6='=ROUND(0.02*DADOS_PROJETO!B5,0)' | D6='m³' | E6=590 | F6='=C6*E6' | G6='Índ 0,02 m³/m²'
+A7='Aço CA-50' | B7='Fundação' | C7='=ROUND(90*(C5+C6),0)' | D7='kg' | E7=8.77 | F7='=C7*E7' | G7='PU base R$ 8,77 (7p)'
+A8='Forma' | B8='Blocos/baldrames' | C8='=ROUND(0.1*DADOS_PROJETO!B5,0)' | D8='m²' | E8=45.64 | F8='=C8*E8' | G8='PU base R$ 45,64 (8p)'
+A9='Arrasamento' | B9='Estacas' | C9='=INDICES!D11' | D9='un' | E9=65 | F9='=C9*E9' | G9='PU base R$ 65 (2p)'
+A10='Limpeza/remoção' | B10='Solo perfuração' | C10=1 | D10='vb' | E10=35000 | F10='=C10*E10' | G10='PU base R$ 35k (2p)'
+A11='MO fundação' | B11='Empreitada (35,5%)' | C11=1 | D11='vb' | E11='=ROUND(SUM(F4:F10)*0.355/0.645,0)' | F11='=C11*E11' | G11='Split 35,5% (7p)'
+A12='Contenção' | B12='Se houver subsolo' | C12=1 | D12='vb' | E12='=INDICES!D24' | F12='=C12*E12' | G12='IF Sub>0'
+A13='TOTAL' | F13='=SUM(F4:F12)'
+
+===== SHEET [FORMULA]: Mov. Terra (dims A1:G5) =====
+A1='MOV. TERRA' | G1='Total:'
+G2='=F5'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Terraplanagem' | B4='Corte+aterro+bota-fora' | C4='=DADOS_PROJETO!B5' | D4='m²' | E4='=INDICES!D25' | F4='=C4*E4' | G4='Param. base + IF sub'
+A5='TOTAL' | F5='=SUM(F4:F4)'
+
+===== SHEET [FORMULA]: Gerenciamento (dims A1:G24) =====
+A1='GERENCIAMENTO' | G1='Total:'
+G2='=F24'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Projetos' | B4='Arq+compl+compat' | C4=1 | D4='vb' | E4=650000 | F4='=C4*E4' | G4='Param. base'
+A5='Consultorias' | B5='ATP+compat BIM' | C5=1 | D5='vb' | E5=180000 | F5='=C5*E5' | G5='Param. base'
+A6='Ensaios' | B6='Ctrl tecnol.' | C6=1 | D6='vb' | E6=130000 | F6='=C6*E6' | G6='Param. base'
+A7='Taxas e seguros' | B7='Incorp+licenças' | C7=1 | D7='vb' | E7=380000 | F7='=C7*E7' | G7='Param. base'
+A8='Engenheiro PJ' | B8='1×prazo' | C8='=DADOS_PROJETO!B11' | D8='mês' | E8=10500 | F8='=C8*E8' | G8='Master R$ 10,5k (5p)'
+A9='Mestre obras' | B9='1×prazo' | C9='=DADOS_PROJETO!B11' | D9='mês' | E9=9940 | F9='=C9*E9' | G9='Master R$ 9,9k (4p)'
+A10='Encarregado' | B10='1×prazo' | C10='=DADOS_PROJETO!B11' | D10='mês' | E10=8000 | F10='=C10*E10' | G10='Narrativo R$ 8k'
+A11='Estagiário' | B11='2×prazo' | C11='=DADOS_PROJETO!B11*2' | D11='mês' | E11=1580 | F11='=C11*E11' | G11='Master R$ 1,6k (3p)'
+A12='Téc.segurança' | B12='1×prazo' | C12='=DADOS_PROJETO!B11' | D12='mês' | E12=6000 | F12='=C12*E12' | G12='PJ R$ 6k/mês'
+A13='Almoxarife' | B13='1×prazo' | C13='=DADOS_PROJETO!B11' | D13='mês' | E13=3377 | F13='=C13*E13' | G13='Master R$ 3,4k (4p)'
+A14='Limpeza obra' | B14='2×prazo' | C14='=DADOS_PROJETO!B11*2' | D14='mês' | E14=2500 | F14='=C14*E14' | G14='PJ R$ 2,5k/mês'
+A15='Vigilância' | B15='1×prazo' | C15='=DADOS_PROJETO!B11' | D15='mês' | E15=15261 | F15='=C15*E15' | G15='Narrativo R$ 15,3k'
+A16='EPCs' | B16='Fixo por porte' | C16=1 | D16='vb' | E16='=IF(DADOS_PROJETO!B5<5000,150000,IF(DADOS_PROJETO!B5<15000,300000,500000))' | F16='=C16*E16' | G16='Master 75 exec'
+A17='EPI' | B17='Individual' | C17='=DADOS_PROJETO!B11' | D17='mês' | E17=908 | F17='=C17*E17' | G17='PU base R$ 908 (8p)'
+A18='Meio ambiente' | B18='PCMAT+PCMSO' | C18=1 | D18='vb' | E18=45000 | F18='=C18*E18' | G18='Param. base'
+A19='Op. inicial' | B19='Mobilização' | C19=1 | D19='vb' | E19=55000 | F19='=C19*E19' | G19='Param. base'
+A20='Inst. provisórias' | B20='Canteiro+containers' | C20=1 | D20='vb' | E20=160000 | F20='=C20*E20' | G20='Param. base'
+A21='Desp. consumo' | B21='Água+en+internet+IPTU' | C21='=DADOS_PROJETO!B11' | D21='mês' | E21=11500 | F21='=C21*E21' | G21='PU base (9p)'
+A22='Equipamentos' | B22='Grua+cremalheira' | C22=1 | D22='vb' | E22=480000 | F22='=C22*E22' | G22='Narrativo'
+A23='Comunic.visual' | B23='Placas+tapume' | C23=1 | D23='vb' | E23=47000 | F23='=C23*E23' | G23='PU base R$ 47k (17p)'
+A24='TOTAL' | F24='=SUM(F4:F23)'
+
+===== SHEET [FORMULA]: Alvenaria (dims A1:G9) =====
+A1='ALVENARIA' | G1='Total:'
+G2='=F9'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Bloco cerâm.' | B4='Vedação 14cm' | C4='=ROUND(INDICES!D13*DADOS_PROJETO!B5*0.4,0)' | D4='m²' | E4=32.95 | F4='=C4*E4' | G4='Índ 2,25×40%'
+A5='Drywall ST' | B5='Internas' | C5='=ROUND(INDICES!D13*DADOS_PROJETO!B5*0.25,0)' | D5='m²' | E5=156 | F5='=C5*E5' | G5='Índ 2,25×25%'
+A6='Drywall RU' | B6='Molhadas' | C6='=ROUND(INDICES!D13*DADOS_PROJETO!B5*0.08,0)' | D6='m²' | E6=195 | F6='=C6*E6' | G6='Índ 2,25×8%'
+A7='Argamassa' | B7='Assentamento' | C7='=ROUND(INDICES!D13*DADOS_PROJETO!B5*0.4,0)' | D7='m²' | E7=3.8 | F7='=C7*E7' | G7='PU base'
+A8='MO Alvenaria' | B8='Empreitada' | C8='=ROUND(INDICES!D13*DADOS_PROJETO!B5*0.4,0)' | D8='m²' | E8=28.5 | F8='=C8*E8' | G8='Split 35,7% (9p)'
+A9='TOTAL' | F9='=SUM(F4:F8)'
+
+===== SHEET [FORMULA]: Impermeabilização (dims A1:G9) =====
+A1='IMPERMEABILIZAÇÃO' | G1='Total:'
+G2='=F9'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Manta 4mm' | B4='Material' | C4='=ROUND(INDICES!D19*DADOS_PROJETO!B5,0)' | D4='m²' | E4=82.11 | F4='=C4*E4' | G4='Índ impermeab×AC'
+A5='Arg.polim.' | B5='BWC' | C5='=ROUND(INDICES!D19*DADOS_PROJETO!B5*0.3,0)' | D5='m²' | E5=8.5 | F5='=C5*E5' | G5='PU base'
+A6='Regulariz.' | B6='Superfície' | C6='=ROUND(INDICES!D19*DADOS_PROJETO!B5,0)' | D6='m²' | E6=5.57 | F6='=C6*E6' | G6='PU base (15p)'
+A7='MO imper.' | B7='Empreitada' | C7='=ROUND(INDICES!D19*DADOS_PROJETO!B5,0)' | D7='m²' | E7=68 | F7='=C7*E7' | G7='Split 56,5% (6p)'
+A8='MO regul.' | B8='Empreitada' | C8='=ROUND(INDICES!D19*DADOS_PROJETO!B5,0)' | D8='m²' | E8=19.5 | F8='=C8*E8' | G8='PU base (7p)'
+A9='TOTAL' | F9='=SUM(F4:F8)'
+
+===== SHEET [FORMULA]: Instalações (dims A1:G11) =====
+A1='INSTALAÇÕES' | G1='Total:'
+G2='=F11'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Elétricas mat.' | B4='IF Tipologia' | C4='=DADOS_PROJETO!B5' | D4='m²' | E4='=ROUND(130*(DADOS_PROJETO!B12/2752.67)/1.1*0.618*INDICES!D27,2)' | F4='=C4*E4' | G4='Índ 1,77m/m² × fator tipol (D27)'
+A5='Elétricas MO' | B5='Empreitada' | C5='=DADOS_PROJETO!B5' | D5='m²' | E5='=ROUND(130*(DADOS_PROJETO!B12/2752.67)/1.1*0.382*INDICES!D27,2)' | F5='=C5*E5' | G5='Split 38,2% × fator tipol (D27)'
+A6='Hidro mat.' | B6='IF BWC/apto' | C6='=DADOS_PROJETO!B5' | D6='m²' | E6='=ROUND(145*(DADOS_PROJETO!B12/2752.67)/1.1*0.66*INDICES!D35,2)' | F6='=C6*E6' | G6='Índ 1,08m/m² × fator hidro (D35)'
+A7='Hidro MO' | B7='Empreitada' | C7='=DADOS_PROJETO!B5' | D7='m²' | E7='=ROUND(145*(DADOS_PROJETO!B12/2752.67)/1.1*0.34*INDICES!D35,2)' | F7='=C7*E7' | G7='Split 34,0% × fator hidro (D35)'
+A8='Preventivas' | B8='Mat+MO' | C8='=DADOS_PROJETO!B5' | D8='m²' | E8='=ROUND(45*(DADOS_PROJETO!B12/2752.67)/1.1,2)' | F8='=C8*E8' | G8='Param.'
+A9='Gás' | B9='Mat+MO' | C9='=DADOS_PROJETO!B5' | D9='m²' | E9='=ROUND(18*(DADOS_PROJETO!B12/2752.67)/1.1,2)' | F9='=C9*E9' | G9='Param. base'
+A10='Telecom' | B10='Mat+MO' | C10='=DADOS_PROJETO!B5' | D10='m²' | E10='=ROUND(15*(DADOS_PROJETO!B12/2752.67)/1.1,2)' | F10='=C10*E10' | G10='Param. base'
+A11='TOTAL' | F11='=SUM(F4:F10)'
+
+===== SHEET [FORMULA]: Sist. Especiais (dims A1:G16) =====
+A1='SIST. ESPECIAIS' | G1='Total:'
+G2='=F16'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Elevador social' | B4='N-1 elevadores' | C4='=MAX(1,DADOS_PROJETO!B9-1)' | D4='un' | E4=480000 | F4='=C4*E4' | G4='Torre 29 níveis; v00 ajusta PU de elevador para faixa de torre alta.'
+A5='Elevador serv.' | B5='1un' | C5=1 | D5='un' | E5=480000 | F5='=C5*E5' | G5='Inclui menção a elevador de emergência; validar com cálculo de tráfego.'
+A6='Gerador' | B6='IF Gerador+Torres' | C6=1 | D6='vb' | E6='=INDICES!D23' | F6='=C6*E6' | G6='IF Gerador B11 + Torres B10'
+A7='Automação' | B7='BMS+sensores' | C7=1 | D7='vb' | E7=120000 | F7='=C7*E7' | G7='Param. base'
+A8='Piscina' | B8='IF Piscina B17' | C8=1 | D8='vb' | E8='=INDICES!D30' | F8='=C8*E8' | G8='IF Piscina (Sim/Não/Aquecida)'
+A9='CFTV' | B9='Câmeras+DVR' | C9=1 | D9='vb' | E9=120000 | F9='=C9*E9' | G9='Param. base'
+A10='Pressurização' | B10='IF Pressurização B9' | C10=1 | D10='vb' | E10='=INDICES!D22' | F10='=C10*E10' | G10='IF Pressurização'
+A11='SPDA' | B11='Para-raios+malha' | C11=1 | D11='vb' | E11=55000 | F11='=C11*E11' | G11='Param. base'
+A12='Interfonia' | B12='Ctrl acesso' | C12=1 | D12='vb' | E12=130000 | F12='=C12*E12' | G12='Param. base'
+A13='Bombas' | B13='Recalque+incêndio' | C13=1 | D13='vb' | E13=95000 | F13='=C13*E13' | G13='Param. base'
+A14='Quadros comando' | B14='Bombas+sist' | C14=1 | D14='vb' | E14=60000 | F14='=C14*E14' | G14='Param. base'
+A15='Ventilação garagens' | B15='Alternativa mecânica G1-G4' | C15=4 | D15='pav' | E15=27318 | F15='=C15*E15' | G15='PDFs G1/G2/G4: ventilação mecânica R$ 27.318/pavimento se área natural não atender.'
+A16='TOTAL' | F16='=SUM(F4:F15)'
+
+===== SHEET [FORMULA]: Climatização (dims A1:G8) =====
+A1='CLIMATIZAÇÃO' | G1='Total:'
+G2='=F8'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Split' | B4='Equipamentos HW/K7/CND por aptos e áreas comuns' | C4='=ROUND(DADOS_PROJETO!B6*4.5,0)' | D4='un' | E4=3500 | F4='=C4*E4' | G4='Projeto CLI: múltiplos equipamentos HW/K7/CND; v00 = 4,5 un/UR.'
+A5='Exaust.BWC' | B5='4/pav enclaus.' | C5='=4*DADOS_PROJETO!B8' | D5='un' | E5=1200 | F5='=C5*E5' | G5='4 bwc/pav'
+A6='Exaust.churr.' | B6='2/pav+lazer' | C6='=2*DADOS_PROJETO!B8+2' | D6='un' | E6=2500 | F6='=C6*E6' | G6='2/pav+lazer'
+A7='Infra AR' | B7='Dutos+tub' | C7='=DADOS_PROJETO!B5' | D7='m²' | E7=18 | F7='=C7*E7' | G7='Projeto CLI: infraestrutura frigorígena, dreno e elétrica de climatização.'
+A8='TOTAL' | F8='=SUM(F4:F7)'
+
+===== SHEET [FORMULA]: Rev. Int. Parede (dims A1:G15) =====
+A1='REV. INT. PAREDE' | G1='Total:'
+G2='=F15'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Reboco' | B4='Massa única' | C4='=ROUND(INDICES!D15*DADOS_PROJETO!B5*0.35,0)' | D4='m²' | E4=7 | F4='=C4*E4' | G4='Índ 2,85×35%'
+A5='Chapisco' | B5='Rolado+colante' | C5='=ROUND(INDICES!D15*DADOS_PROJETO!B5*0.35,0)' | D5='m²' | E5=5.5 | F5='=C5*E5' | G5='PU base'
+A6='Cerâm.BWC' | B6='30×60' | C6='=ROUND(INDICES!D15*DADOS_PROJETO!B5*0.14,0)' | D6='m²' | E6='=48*INDICES!D20' | F6='=C6*E6' | G6='PU×fator padrão'
+A7='Cerâm.cozinha' | B7='30×60' | C7='=ROUND(INDICES!D15*DADOS_PROJETO!B5*0.06,0)' | D7='m²' | E7='=42*INDICES!D20' | F7='=C7*E7' | G7='PU×fator padrão'
+A8='Porcel.parede' | B8='Comuns' | C8='=ROUND(INDICES!D15*DADOS_PROJETO!B5*0.04,0)' | D8='m²' | E8='=85*INDICES!D20' | F8='=C8*E8' | G8='PU×fator padrão'
+A9='Granito bancadas' | B9='Lavat+coz' | C9='=ROUND(DADOS_PROJETO!B6*3.5,0)' | D9='m' | E9='=180*INDICES!D20' | F9='=C9*E9' | G9='R$ 180×fator padrão'
+A10='Arg.colante' | B10='AC-II/III' | C10='=ROUND(INDICES!D15*DADOS_PROJETO!B5*0.24,0)' | D10='m²' | E10=12 | F10='=C10*E10' | G10='PU base'
+A11='Rejunte' | B11='Flexível' | C11='=ROUND(INDICES!D15*DADOS_PROJETO!B5*0.24,0)' | D11='m²' | E11=5 | F11='=C11*E11' | G11='PU base'
+A12='MO reboco' | B12='Empreitada' | C12='=ROUND(INDICES!D15*DADOS_PROJETO!B5*0.35,0)' | D12='m²' | E12=22.5 | F12='=C12*E12' | G12='Split 54,4%'
+A13='MO cerâmica' | B13='Assentamento' | C13='=ROUND(INDICES!D15*DADOS_PROJETO!B5*0.24,0)' | D13='m²' | E13=35 | F13='=C13*E13' | G13='Split 54,4%'
+A14='MO granito' | B14='Instalação' | C14='=ROUND(DADOS_PROJETO!B6*3.5,0)' | D14='m' | E14=35.9 | F14='=C14*E14' | G14='PU base R$ 36'
+A15='TOTAL' | F15='=SUM(F4:F14)'
+
+===== SHEET [FORMULA]: Teto (dims A1:G8) =====
+A1='TETO' | G1='Total:'
+G2='=F8'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Forro ST' | B4='Acartonado' | C4='=ROUND(INDICES!D16*DADOS_PROJETO!B5*0.7,0)' | D4='m²' | E4=28 | F4='=C4*E4' | G4='Índ 1,16×70%'
+A5='Forro RU' | B5='BWC' | C5='=ROUND(INDICES!D16*DADOS_PROJETO!B5*0.15,0)' | D5='m²' | E5=35 | F5='=C5*E5' | G5='PU base'
+A6='Perfis' | B6='Estrutura' | C6='=ROUND(INDICES!D16*DADOS_PROJETO!B5*0.85,0)' | D6='m²' | E6=15 | F6='=C6*E6' | G6='PU base'
+A7='MO forro' | B7='Empreitada' | C7='=ROUND(INDICES!D16*DADOS_PROJETO!B5,0)' | D7='m²' | E7=25 | F7='=C7*E7' | G7='Split 79,1%'
+A8='TOTAL' | F8='=SUM(F4:F7)'
+
+===== SHEET [FORMULA]: Pisos (dims A1:G11) =====
+A1='PISOS' | G1='Total:'
+G2='=F11'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Contrapiso' | B4='Autonivelante' | C4='=ROUND(INDICES!D14*DADOS_PROJETO!B5,0)' | D4='m²' | E4=12.1 | F4='=C4*E4' | G4='Índ piso×AC (IF shell)'
+A5='Piso principal' | B5='IF Tipo Piso' | C5='=ROUND(INDICES!D14*DADOS_PROJETO!B5*0.5,0)' | D5='m²' | E5='=INDICES!D29' | F5='=C5*E5' | G5='PU IF Tipo Piso × Padrão'
+A6='Cimentado' | B6='Garagem 20%' | C6='=ROUND(INDICES!D14*DADOS_PROJETO!B5*0.2,0)' | D6='m²' | E6=32 | F6='=C6*E6' | G6='PU base'
+A7='Granito' | B7='Halls 5%' | C7='=ROUND(INDICES!D14*DADOS_PROJETO!B5*0.05,0)' | D7='m²' | E7='=180*INDICES!D20' | F7='=C7*E7' | G7='PU×fator padrão'
+A8='Rodapé' | B8='Poliestireno' | C8='=ROUND(INDICES!D14*DADOS_PROJETO!B5*0.35,0)' | D8='m' | E8=10.77 | F8='=C8*E8' | G8='PU base (10p)'
+A9='MO contrapiso' | B9='Empreitada' | C9='=ROUND(INDICES!D14*DADOS_PROJETO!B5,0)' | D9='m²' | E9=18 | F9='=C9*E9' | G9='Split 54%'
+A10='MO pisos' | B10='Assentamento' | C10='=ROUND(INDICES!D14*DADOS_PROJETO!B5*0.7,0)' | D10='m²' | E10=32 | F10='=C10*E10' | G10='Split 54%'
+A11='TOTAL' | F11='=SUM(F4:F10)'
+
+===== SHEET [FORMULA]: Pintura (dims A1:G10) =====
+A1='PINTURA' | G1='Total:'
+G2='=F10'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Massa PVA' | B4='Paredes 2dem' | C4='=ROUND(INDICES!D17*DADOS_PROJETO!B5*0.55,0)' | D4='m²' | E4=4.29 | F4='=C4*E4' | G4='Índ pintura×55%'
+A5='Acrílica par.' | B5='3 demãos' | C5='=ROUND(INDICES!D17*DADOS_PROJETO!B5*0.55,0)' | D5='m²' | E5=5.4 | F5='=C5*E5' | G5='PU base (6p)'
+A6='Acrílica teto' | B6='2 demãos' | C6='=ROUND(INDICES!D17*DADOS_PROJETO!B5*0.2,0)' | D6='m²' | E6=3.83 | F6='=C6*E6' | G6='PU base'
+A7='Selador' | B7='Base' | C7='=ROUND(INDICES!D17*DADOS_PROJETO!B5*0.75,0)' | D7='m²' | E7=2.5 | F7='=C7*E7' | G7='PU base'
+A8='MO pintura' | B8='Empreitada' | C8='=ROUND(INDICES!D17*DADOS_PROJETO!B5,0)' | D8='m²' | E8=15 | F8='=C8*E8' | G8='Split 66,2%'
+A9='MO lixamento' | B9='Preparação' | C9='=ROUND(INDICES!D17*DADOS_PROJETO!B5*0.55,0)' | D9='m²' | E9=8 | F9='=C9*E9' | G9='Split 66,2%'
+A10='TOTAL' | F10='=SUM(F4:F9)'
+
+===== SHEET [FORMULA]: Esquadrias (dims A1:G6) =====
+A1='ESQUADRIAS' | G1='Total:'
+G2='=F6'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Esquadrias Al' | B4='Jan+portas' | C4='=DADOS_PROJETO!B5' | D4='m²' | E4='=280*INDICES!D20*INDICES!D28' | F4='=C4*E4' | G4='R$280 × padrão × entrega'
+A5='Serralheria' | B5='GC+corrimão' | C5='=DADOS_PROJETO!B5' | D5='m²' | E5='=45*INDICES!D20' | F5='=C5*E5' | G5='R$45 × fator padrão'
+A6='TOTAL' | F6='=SUM(F4:F5)'
+
+===== SHEET [FORMULA]: Louças e Metais (dims A1:G5) =====
+A1='LOUÇAS E METAIS' | G1='Total:'
+G2='=F5'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Louças+metais' | B4='Louças, metais, bancadas e acessórios - padrão alto v00' | C4='=DADOS_PROJETO!B6' | D4='apto' | E4='=ROUND(75*DADOS_PROJETO!B5/DADOS_PROJETO!B6,2)' | F4='=C4*E4' | G4='Sem memorial de acabamentos; v00 adota R$ 75/m² AC, acima do médio-alto e abaixo da mediana alto.'
+A5='TOTAL' | F5='=SUM(F4:F4)'
+
+===== SHEET [FORMULA]: Fachada (dims A1:G7) =====
+A1='FACHADA' | G1='Total:'
+G2='=F7'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Revestimento' | B4='Conforme briefing' | C4='=ROUND(INDICES!D18*DADOS_PROJETO!B5,0)' | D4='m²' | E4='=INDICES!D21' | F4='=C4*E4' | G4='IF tipo fachada'
+A5='MO fachada' | B5='Empreitada' | C5='=ROUND(INDICES!D18*DADOS_PROJETO!B5,0)' | D5='m²' | E5=35 | F5='=C5*E5' | G5='PU base'
+A6='Balancim' | B6='Fachadeiro' | C6='=ROUND(INDICES!D18*DADOS_PROJETO!B5,0)' | D6='m²' | E6=18 | F6='=C6*E6' | G6='PU base'
+A7='TOTAL' | F7='=SUM(F4:F6)'
+
+===== SHEET [FORMULA]: Complementares (dims A1:G14) =====
+A1='COMPLEMENTARES' | G1='Total:'
+G2='=F14'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Mobiliário' | B4='Áreas comuns' | C4=1 | D4='vb' | E4=900000 | F4='=C4*E4' | G4='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A5='Ambientação' | B5='Decoração halls' | C5=1 | D5='vb' | E5='=650000*INDICES!D20' | F5='=C5*E5' | G5='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A6='Paisagismo' | C6=1 | D6='vb' | E6=200000 | F6='=C6*E6' | G6='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A7='Equip. lazer' | B7='Acad+playground' | C7=1 | D7='vb' | E7=400000 | F7='=C7*E7' | G7='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A8='Limpeza final' | C8='=DADOS_PROJETO!B5' | D8='m²' | E8=12 | F8='=C8*E8' | G8='PU base R$ 12/m² (10p)'
+A9='Comunic.visual' | B9='Sinalização' | C9=1 | D9='vb' | E9=80000 | F9='=C9*E9' | G9='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A10='Cobertura' | B10='Telhado+estrutura' | C10='=ROUND(DADOS_PROJETO!B5*0.04,0)' | D10='m²' | E10=95 | F10='=C10*E10' | G10='PU base'
+A11='Ligações def.' | B11='Água+energia+gás' | C11=1 | D11='vb' | E11=90000 | F11='=C11*E11' | G11='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A12='Desmobilização' | B12='Pessoal+equip' | C12=1 | D12='vb' | E12=15000 | F12='=C12*E12' | G12='PU base (6p)'
+A13='Paviment.ext.' | B13='Calçadas' | C13='=ROUND(DADOS_PROJETO!B5*0.06,0)' | D13='m²' | E13=80 | F13='=C13*E13' | G13='PU base'
+A14='TOTAL' | F14='=SUM(F4:F13)'
+
+===== SHEET [FORMULA]: Imprevistos (dims A1:G5) =====
+A1='IMPREVISTOS' | G1='Total:'
+G2='=F5'
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Imprevistos' | B4='1,5% do subtotal' | C4=1 | D4='vb' | E4='=ROUND(SUM(CUSTOS_MACROGRUPO!D4:D20)*0.015,0)' | F4='=C4*E4' | G4='Percentual padrão'
+A5='TOTAL' | F5='=SUM(F4:F4)'
+
+===== SHEET [FORMULA]: PREMISSAS (dims A2:A26) =====
+A2='PARAMÉTRICO V2 — Brickell Modern Home - Nowa'
+A3='18/18 macrogrupos bottom-up | 14 dropdowns interativos'
+A4='Altere os dropdowns na aba BRIEFING para recalcular automaticamente'
+A6='FONTES: calibration-indices.json (75 exec + 79 narrativos + IFC + curva ABC)'
+A7='PUs: base-pus-cartesian.json (1.504 itens, medianas de 75 executivos)'
+A8='Splits MO/Material: medianas reais de 38 executivos detalhados'
+A10='14 DROPDOWNS ATIVOS:'
+A11='  1. Laje: Convencional/Protendida/Nervurada → concreto, aço, forma, escoramento'
+A12='  2. Subsolos: 0-3 → contenção, mov.terra, impermeabilização, fundação'
+A13='  3. Fundação: Hélice/Tubulão/Sapata → infraestrutura'
+A14='  4. Padrão: Médio/Médio-Alto/Alto/Luxo → acabamentos, esquadrias, louças (×0.85-1.35)'
+A15='  5. Fachada: Textura/Cerâmica/Pele de vidro/ACM → PU fachada R$ 100-350/m²'
+A16='  6. Pressurização: Sim/Não → +R$ 80k'
+A17='  7. Torres: 1/2/3 → gerador proporcional'
+A18='  8. Gerador dedicado: Sim/Não → R$ 0-350k'
+A19='  9. Entrega: Completa/Shell → Shell desconta ~15% (pisos, pintura, rev, louças, esq)'
+A20='  10. Tipologia: Studios/1-2D/3-4D/Misto → pontos elétricos, louças (×0.65-1.20)'
+A21='  11. Pé-Direito: Baixo/Padrão/Alto/Duplo → estrutura (×0.97-1.12), fachada'
+A22='  12. BWC/apto: 1-4 → hidro, louças (×1.0-1.80), rev.parede, impermeab'
+A23='  13. Tipo Piso: Porcelanato/Laminado/Misto → PU pisos R$ 65-81/m²'
+A24='  14. Piscina: Sim/Não/Aquecida → R$ 0/220k/320k'
+A26='Baseado revisão Patricia (coord. custos) + calibração 75 exec — 24/mar/2026'
+
+===== SHEET [FORMULA]: FONTES_PROJETO (dims A1:C18) =====
+A1='Campo' | B1='Valor adotado' | C1='Fonte / evidência'
+A2='Área construída' | B2='10.840,31 m²' | C2='PDFs ELE/HID/PCI - pranchas VOF'
+A3='Unidades residenciais' | B3='38 UR' | C3='Marcadores de tipologia em ELE/HID/PCI'
+A4='Pavimentos' | B4='29 níveis' | C4='IFC estrutural EST/AP R00'
+A5='Pavimentos tipo' | B5='18' | C5='IFC: Tipo 1 a Tipo 5b'
+A6='Altura descendente PPCI' | B6='67,32 m' | C6='PDFs ELE/HID/PCI - VOF'
+A7='Garagens' | B7='4 níveis' | C7='IFC: Garagem 1 a Garagem 4'
+A8='Subsolos' | B8='0' | C8='IFC não indica subsolo; Fundação abaixo do Térreo'
+A9='Vagas' | B9='76, a confirmar' | C9='Premissa v00: 2 vagas por UR; ARQ está em DWG'
+A10='Elevadores' | B10='2, a confirmar' | C10='PDFs citam elevador de emergência; torre alta'
+A11='Gerador' | B11='Sim' | C11='PDFs DRYWALL/PCI citam sala e posicionamento do gerador'
+A12='Pressurização / fumaça' | B12='Sim' | C12='PPCI cita escada pressurizada/exaustão e IN10/IN12'
+A13='Piscina' | B13='Sim' | C13='PDFs de lazer citam acesso à piscina'
+A14='Climatização' | B14='Completa' | C14='Projeto CLI com equipamentos HW/K7/CND e condensadoras'
+A15='Alvenaria' | B15='Mista' | C15='ALV com bloco cerâmico + DRYWALL ST/RU em várias pranchas'
+A16='Fachada' | B16='Textura, a confirmar' | C16='Projeto de fachada não encontrado em PDF legível'
+A17='Fundação' | B17='Hélice, a confirmar' | C17='IFC não tem IfcFooting/IfcPile; sem SPT legível'
+A18='CUB base' | B18='R$ 3.850,00/m²' | C18='Supabase specifications.ampli_indexers, SC, 2026-05'
+
+===== SHEET [FORMULA]: BENCHMARK_SUPABASE (dims A1:F19) =====
+A1='Macrogrupo' | B1='Alto mediana R$/m²' | C1='Alto P25' | D1='Alto P75' | E1='n' | F1='Médio-Alto mediana R$/m²'
+A2='Gerenciamento' | B2=640.41 | C2=535.79 | D2=1715.95 | E2=22 | F2=474.74
+A3='Mov. Terra' | B3=124.19 | C3=91.9 | D3=178.15 | E3=23 | F3=114.52
+A4='Infraestrutura' | B4=230.4 | C4=156.8 | D4=276 | E4=23 | F4=196.14
+A5='Supraestrutura' | B5=718.24 | C5=659.32 | D5=854.66 | E5=23 | F5=654.62
+A6='Alvenaria' | B6=181.9 | C6=128.63 | D6=219.79 | E6=21 | F6=139.7
+A7='Impermeabilização' | B7=74.35 | C7=61.39 | D7=128.04 | E7=20 | F7=60
+A8='Instalações' | B8=320.13 | C8=185.17 | D8=453.78 | E8=21 | F8=332.12
+A9='Sist. Especiais' | B9=211.02 | C9=126.25 | D9=304.34 | E9=21 | F9=172.54
+A10='Climatização' | B10=36.21 | C10=28.24 | D10=78.09 | E10=9 | F10=30.59
+A11='Rev. Int. Parede' | B11=82.02 | C11=59.02 | D11=212.73 | E11=12 | F11=60.62
+A12='Teto' | B12=62.23 | C12=52.54 | D12=85.03 | E12=12 | F12=60.1
+A13='Pisos' | B13=237.05 | C13=187.44 | D13=638.25 | E13=16 | F13=199.02
+A14='Pintura' | B14=159.16 | C14=114.05 | D14=252.13 | E14=16 | F14=124.55
+A15='Esquadrias' | B15=395.49 | C15=285.86 | D15=553.96 | E15=23 | F15=301.24
+A16='Louças e Metais' | B16=141.98 | C16=56.79 | D16=222.16 | E16=17 | F16=59.73
+A17='Fachada' | B17=206.67 | C17=142.31 | D17=252.97 | E17=10 | F17=117.38
+A18='Complementares' | B18=262.06 | C18=153.72 | D18=365.34 | E18=15 | F18=201.06
+A19='Imprevistos' | B19=72.24 | C19=48.03 | D19=75.44 | E19=7 | F19=49.98
+
+===== SHEET [FORMULA]: AMPLI_REFERENCIAS (dims A1:G4) =====
+A1='Referência' | B1='UF/Cidade' | C1='Área' | D1='Base R$/m²' | E1='Indexado R$/m²' | F1='Trend R$/m²' | G1='Comprometido R$/m²'
+A2='Blue Coast FG' | B2='SC/Itajaí' | C2=13818.15 | D2=3982 | E2=5930 | F2=6380 | G2=5889
+A3='Live' | B3='SP/São Paulo' | C3=14888.46 | D3=2913 | E3=3326 | F3=4054 | G3=3607
+A4='Voss' | B4='PR/Curitiba' | C4=14770.83 | D4=3011 | E4=3316 | F4=3268 | G4=1857
+
+===== SHEET [FORMULA]: AJUSTES_V00 (dims A1:D8) =====
+A1='Local' | B1='Item' | C1='Ajuste' | D1='Justificativa'
+A2='INDICES!C22' | B2='Pressurização' | C2='R$ 80.000 -> R$ 180.000' | D2='Torre alta com escada pressurizada/exaustão e controle de fumaça nos PDFs PPCI.'
+A3='INDICES!C23' | B3='Gerador' | C3='R$ 180.000 -> R$ 350.000' | D3='PDFs citam sala/posicionamento do gerador; v00 adota allowance de torre alta.'
+A4='Sist. Especiais' | B4='Elevadores' | C4='PUs ajustados para R$ 480.000/un' | D4='2 elevadores em torre de 29 níveis, incluindo menção a elevador de emergência.'
+A5='Sist. Especiais' | B5='Ventilação garagens' | C5='4 pavimentos x R$ 27.318' | D5='PDFs G1/G2/G4 citam ventilação mecânica alternativa a área natural mínima.'
+A6='Climatização' | B6='Equipamentos e infra' | C6='4,5 un/UR + infra R$ 18/m²' | D6='Projeto CLI traz múltiplos equipamentos HW/K7/CND; default 1,5 un/UR ficaria baixo.'
+A7='Louças e Metais' | B7='Escopo alto sem memorial' | C7='R$ 75/m² AC' | D7='Default V2 por UR ficava artificialmente baixo para padrão alto; usa referência entre médio-alto e alto.'
+A8='Complementares' | B8='Lazer e áreas comuns' | C8='Mobiliário/ambientação/equipamentos reforçados' | D8='PDFs indicam piscina, coworking, gourmet, festas, sala comercial e lazer de cobertura.'
+
+===== SHEET [FORMULA]: PREMISSAS_V00 (dims A1:B19) =====
+A1='Macrogrupo' | B1='Premissa adotada'
+A2='Gerenciamento' | B2='36 meses, torre alta, equipe técnica e canteiro do V2; benchmark alto Supabase.'
+A3='Mov. Terra' | B3='Sem subsolo no IFC; movimentação de terra base por AC.'
+A4='Infraestrutura' | B4='Fundação hélice assumida por ausência de SPT/projeto de fundação legível.'
+A5='Supraestrutura' | B5='IFC estrutural com 29 níveis, 762 lajes, 1.410 vigas, 876 pilares; laje convencional v00.'
+A6='Alvenaria' | B6='Bloco cerâmico ALV + drywall ST/RU em PDFs de vedação.'
+A7='Impermeabilização' | B7='Índice V2 para torre com áreas molhadas, lazer e cobertura.'
+A8='Instalações' | B8='ELE/HID/PCI completos, gás, preventivo, medições e prumadas de torre alta.'
+A9='Sist. Especiais' | B9='Elevadores, gerador, piscina, pressurização, SPDA, bombas e ventilação de garagens.'
+A10='Climatização' | B10='Projeto CLI com equipamentos; v00 reforça quantidade e infra.'
+A11='Rev. Int. Parede' | B11='Acabamento alto com áreas molhadas e paredes internas por índice V2.'
+A12='Teto' | B12='DRYWALL/FORRO com gesso acartonado ST/RU e forro em áreas comuns/privativas.'
+A13='Pisos' | B13='Porcelanato como premissa v00 para padrão alto.'
+A14='Pintura' | B14='Sistema acrílico/PVA por índice V2.'
+A15='Esquadrias' | B15='Alumínio/vidro por benchmark alto; quadro não localizado em PDF.'
+A16='Louças e Metais' | B16='2 banheiros/UR como premissa v00, padrão alto.'
+A17='Fachada' | B17='Textura como premissa conservadora; projeto de fachada não localizado.'
+A18='Complementares' | B18='Lazer com piscina, áreas comuns, comunicação visual e paisagismo por índice.'
+A19='Imprevistos' | B19='1,5% padrão Cartesian aplicado pelo V2.'
+
+===== SHEET [FORMULA]: LIMITACOES_V00 (dims A1:B5) =====
+A1='Limitação' | B1='Tratamento na v00'
+A2='Arquitetura principal está em DWG; sem conversor DWG disponível nesta sessão. A v00 usa ARQ como limitação explícita.' | B2='Documentado para validação na v01'
+A3='Vagas, fachada e quadro de esquadrias não foram encontrados em PDF legível e devem ser validados na v01.' | B3='Documentado para validação na v01'
+A4='Sem SPT/fundação em PDF legível; fundação hélice é premissa Cartesian de v00.' | B4='Documentado para validação na v01'
+A5='Não houve escrita no Supabase nem sincronização ao Drive _Parametrico_IA; esta é a versão local para validação do Leo.' | B5='Documentado para validação na v01'
+
+===== SHEET [VALUE]: PAINEL (dims A1:C14) =====
+A1='BRICKELL MODERN HOME - NOWA — PARAMÉTRICO V2'
+A2='Bottom-up + Dropdowns interativos | 75 executivos calibrados'
+A4='Custo Total' | B4=43556004.9543
+A5='R$/m² AC' | B5=4017.9667328978603
+A6='CUB Ratio' | B6=1.043627722830613
+A7='Custo/UR' | B7=1146210.6566921053
+A8='AC' | B8=10840.31
+A9='UR' | B9=38
+A10='CUB' | B10=3850
+A11='Laje' | B11='Convencional'
+A12='Subsolos' | B12='0'
+A13='Padrão' | B13='Alto'
+A14='Fachada' | B14='Textura'
+
+===== SHEET [VALUE]: DADOS_PROJETO (dims A1:D12) =====
+A1='BRICKELL MODERN HOME - NOWA — ORÇAMENTO PARAMÉTRICO V2'
+A3='Projeto' | B3='Brickell Modern Home - Nowa'
+A4='Cidade/UF' | B4='Itajaí'
+A5='AC Total (m²)' | B5=10840.31
+A6='UR' | B6=38
+A7='Pavimentos' | B7=29
+A8='Pav. Tipo' | B8=18
+A9='Elevadores' | B9=2
+A10='Vagas' | B10=76
+A11='Prazo (meses)' | B11=36
+A12='CUB Atual (R$)' | B12=3850
+
+===== SHEET [VALUE]: BRIEFING (dims A1:D17) =====
+A1='BRIEFING — ALTERE OS DROPDOWNS PARA RECALCULAR'
+A2='Cada alteração muda automaticamente os índices e custos nas abas de detalhe'
+A3='Pergunta' | B3='Resposta' | C3='Impacto'
+A4='Tipo de Laje' | B4='Convencional' | C4='Muda: concreto, aço, forma, escoramento, cordoalha'
+A5='Subsolos' | B5='0' | C5='Muda: contenção, mov.terra, impermeabilização, fundação'
+A6='Fundação' | B6='Hélice' | C6='Muda: custo infraestrutura, tipo de perfuração'
+A7='Padrão Acabamento' | B7='Alto' | C7='Muda: pisos, rev.parede, esquadrias, louças, fachada'
+A8='Fachada' | B8='Textura' | C8='Muda: custo fachada (R$/m²)'
+A9='Pressurização' | B9='Sim' | C9='Muda: custo sist.especiais (+R$ 80k)'
+A10='Nº Torres' | B10='1' | C10='Muda: gerador, elevadores, equipamentos'
+A11='Gerador Dedicado' | B11='Sim' | C11='Muda: sist.especiais (R$ 120-350k)'
+A12='Entrega' | B12='Completa' | C12='Shell desconta ~R$ 200/m² (pisos, pintura, rev.parede, louças, alvenaria)'
+A13='Tipologia' | B13='Misto' | C13='Muda: pontos elétricos, louças, alvenaria interna'
+A14='Pé-Direito' | B14='Padrão (3.00)' | C14='Muda: fachada, alvenaria, estrutura (+2-8%)'
+A15='Nº Banheiros/Apto' | B15='2' | C15='Muda: hidro, louças, impermeab., rev.parede'
+A16='Tipo Piso Predominante' | B16='Porcelanato' | C16='Muda: PU pisos (porcelanato ~R$ 81 vs laminado ~R$ 65)'
+A17='Piscina' | B17='Sim' | C17='Muda: sist.especiais (R$ 0 / R$ 220k / R$ 320k)'
+
+===== SHEET [VALUE]: INDICES (dims A1:F35) =====
+A1='ÍNDICES CALIBRADOS — HÍBRIDO: BRIEFING + OVERRIDE MANUAL'
+A2='B=calculado via BRIEFING (não editar) | C=override manual (edite para sobrescrever) | D=valor efetivo usado nas abas de macrogrupo (= Override se preenchido, senão B)'
+A4='Índice' | B4='Valor calc' | C4='Override' | D4='Efetivo' | E4='Unidade' | F4='Fonte'
+A5='Concreto (m³/m² AC)' | B5=0.25 | D5=0.25 | E5='m³/m²' | F5='Master 7p exec | IF Laje'
+A6='Aço convenc. (kg/m³)' | B6=106 | D6=106 | E6='kg/m³' | F6='Master 7p+11p narr | IF Laje'
+A7='Cordoalha (kg/m² laje)' | B7=0 | D7=0 | E7='kg/m²' | F7='Master protendida | IF Laje=Protendida'
+A8='Forma (m²/m³)' | B8=7.12 | D8=7.12 | E8='m²/m³' | F8='Master 7p exec | IF Laje'
+A9='Escoramento (R$/m²)' | B9=0 | D9=0 | E9='R$/m²' | F9='PU base 7p | IF Laje'
+A10='fck Laje' | B10=30 | D10=30 | E10='MPa' | F10='IF Laje'
+A11='Nº estacas (base AC)' | B11=145 | D11=145 | E11='un' | F11='~1 est/75m² + sub | AC/75 × (1+sub×15%)'
+A12='Comp. estaca (m)' | B12=18 | D12=18 | E12='m' | F12='Tipo + prof.sub | IF Fundação + sub×2m'
+A13='Alvenaria (m²/m² AC)' | B13=2.25 | D13=2.25 | E13='m²/m²' | F13='2,25 × shell × pé-dir | IF Entrega + Pé-Direito'
+A14='Pisos (m²/m² AC)' | B14=1.7 | D14=1.7 | E14='m²/m²' | F14='1,70 × shell | IF Entrega (shell = 40%)'
+A15='Rev. Parede (m²/m² AC)' | B15=3.2775 | D15=3.2775 | E15='m²/m²' | F15='2,85 × shell × bwc | IF Entrega + BWC/apto'
+A16='Forro (m²/m² AC)' | B16=1.16 | D16=1.16 | E16='m²/m²' | F16='1,16 × shell | IF Entrega (shell = 45%)'
+A17='Pintura (m² sup/m² AC)' | B17=5.65 | D17=5.65 | E17='m²/m²' | F17='5,65 × shell | IF Entrega (shell = 40%)'
+A18='Fachada (m²/m² AC)' | B18=1.55 | D18=1.55 | E18='m²/m²' | F18='Tipo fachada × pé-dir | IF Fachada + Pé-Direito'
+A19='Impermeab. (m²/m² AC)' | B19=0.4 | D19=0.4 | E19='m²/m²' | F19='Base + sub + bwc | IF Sub + BWC'
+A20='Fator padrão acabamento' | B20=1.15 | D20=1.15 | E20='fator' | F20='IF Padrão'
+A21='PU fachada (R$/m²)' | B21=100 | D21=100 | E21='R$/m²' | F21='PU base + briefing | IF Fachada tipo'
+A22='Pressurização (R$)' | B22=80000 | C22=180000 | D22=180000 | E22='R$' | F22='Override v00 | PPCI: escada pressurizada/exaustão e controle de fumaça em torre alta'
+A23='Gerador (R$)' | B23=180000 | C23=350000 | D23=350000 | E23='R$' | F23='Override v00 | Gerador dedicado com sala/posicionamento indicado nos PDFs'
+A24='Contenção (R$)' | B24=0 | D24=0 | E24='R$' | F24='Sub×prof×perim×R$ | IF Sub>0'
+A25='Mov. Terra PU (R$/m²)' | B25=17 | D25=17 | E25='R$/m²' | F25='Base + sub×15 | IF Sub>0'
+A26='Fator tipologia louças' | B26=1 | D26=1 | E26='fator' | F26='Studios menos louças | IF Tipologia'
+A27='Fator tipologia elétrica' | B27=1 | D27=1 | E27='fator' | F27='Studios menos pontos | IF Tipologia'
+A28='Fator entrega (shell)' | B28=1 | D28=1 | E28='fator' | F28='Shell desconta ~15% total | IF Entrega'
+A29='PU piso predominante' | B29=93.39149999999998 | D29=93.39149999999998 | E29='R$/m²' | F29='Tipo piso × padrão | IF Tipo Piso × Padrão (usa D20=efetivo)'
+A30='Piscina (R$)' | B30=220000 | D30=220000 | E30='R$' | F30='Param. base | IF Piscina'
+A31='Fator pé-direito estrutura' | B31=1 | D31=1 | E31='fator' | F31='Pé-dir afeta estrutura | IF Pé-Direito'
+A32='Fator BWC louças' | B32=1.2 | D32=1.2 | E32='fator' | F32='Mais bwc = mais louças | IF BWC/apto'
+A33='Fator viga protendida' | B33=0.3 | D33=0.3 | E33='fator' | F33='Peso viga/m² conforme laje | IF Laje (0.08 prot / 0.30 conv)'
+A34='Fator laje protendida' | B34=0.35 | D34=0.35 | E34='fator' | F34='Peso laje/m² conforme tipo | IF Laje (0.60 prot / 0.35 conv)'
+A35='Fator hidro BWC' | B35=1.15 | D35=1.15 | E35='fator' | F35='Mais bwc = mais hidro | IF BWC>=2 (1.15 / 1.0)'
+
+===== SHEET [VALUE]: CUSTOS_MACROGRUPO (dims A1:E22) =====
+A1='CUSTOS POR MACROGRUPO — BOTTOM-UP COM BRIEFING'
+A3='Macrogrupo' | B3='R$/m²' | C3='% Total' | D3='Custo Total (R$)' | E3='Aba'
+A4='Gerenciamento' | B4=468.4604038076402 | C4=0.11659140927475391 | D4=5078256 | E4='Gerenciamento'
+A5='Mov. Terra' | B5=17 | C5=0.00423099570755758 | D5=184285.27 | E5='Mov. Terra'
+A6='Infraestrutura' | B6=153.52017239359392 | C6=0.03820842296592915 | D6=1664206.26 | E6='Infraestrutura'
+A7='Supraestrutura' | B7=785.8531074203598 | C7=0.19558477201566637 | D7=8518891.2989 | E7='Supraestrutura'
+A8='Alvenaria' | B8=181.573405188597 | C8=0.04519037046820983 | D8=1968312 | E8='Alvenaria'
+A9='Impermeabilização' | B9=71.09012380642251 | C9=0.017693059333806504 | D9=770638.98 | E9='Impermeabilização'
+A10='Instalações' | B10=476.49 | C10=0.11858983204083008 | D10=5165299.3119 | E10='Instalações'
+A11='Sist. Especiais' | B11=221.32872583902122 | C11=0.05508475817553454 | D11=2399272 | E11='Sist. Especiais'
+A12='Climatização' | B12=89.94443701333265 | C12=0.022385560407181974 | D12=975025.58 | E12='Climatização'
+A13='Rev. Int. Parede' | B13=131.67315787094648 | C13=0.032771092103089774 | D13=1427377.8499999999 | E13='Rev. Int. Parede'
+A14='Teto' | B14=72.61563553071822 | C14=0.018072731896002028 | D14=787176 | E14='Teto'
+A15='Pisos' | B15=203.50780383586817 | C15=0.05064944967553107 | D15=2206087.681 | E15='Pisos'
+A16='Pintura' | B16=154.64344100860586 | C16=0.03848798441819678 | D16=1676382.84 | E16='Pintura'
+A17='Esquadrias' | B17=373.75 | C17=0.09301968504115561 | D17=4051565.8625 | E17='Esquadrias'
+A18='Louças e Metais' | B18=75.00000461241422 | C18=0.018666158681289603 | D18=813023.2999999999 | E18='Louças e Metais'
+A19='Fachada' | B19=237.143218228999 | C19=0.059020702259016775 | D19=2570706 | E19='Fachada'
+A20='Complementares' | B20=244.99425938926103 | C20=0.060974685873659513 | D20=2655813.72 | E20='Complementares'
+A21='Imprevistos' | B21=59.37883695207979 | C21=0.014778329662588881 | D21=643685 | E21='Imprevistos'
+A22='TOTAL' | B22=4017.9667328978603 | D22=43556004.9543
+
+===== SHEET [VALUE]: Supraestrutura (dims A1:G14) =====
+A1='SUPRAESTRUTURA' | G1='Total:'
+G2=8518891.2989
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Concreto Pilares' | B4='fck30' | C4=596 | D4='m³' | E4=590 | F4=351640 | G4='Índ×AC×22% × pé-dir (7p)'
+A5='Concreto Vigas' | B5='fck30' | C5=813 | D5='m³' | E5=590 | F5=479670 | G5='Índ conc × AC × fator viga (D33)'
+A6='Concreto Lajes' | B6='fck conforme laje' | C6=949 | D6='m³' | E6=590 | F6=559910 | G6='Índ conc × AC × fator laje (D34)'
+A7='Concreto Escadas' | B7='fck30' | C7=136 | D7='m³' | E7=590 | F7=80240 | G7='Índ×AC×5%'
+A8='Concreto Blocos' | B8='Baldrame fck30' | C8=136 | D8='m³' | E8=590 | F8=80240 | G8='Índ×AC×5%'
+A9='Aço CA-50' | B9='Convencional' | C9=287268 | D9='kg' | E9=8.67 | F9=2490613.56 | G9='Índ aço×conc×AC'
+A10='Cordoalha CP-190' | B10='Protensão' | C10=0 | D10='kg' | E10=22 | F10=0 | G10='IF Prot→8kg/m² laje'
+A11='Forma' | B11='Compensado plastif.' | C11=19296 | D11='m²' | E11=88.07 | F11=1699398.72 | G11='Índ forma×conc×AC'
+A12='Escoramento' | B12='Metálico' | C12=7046 | D12='m²' | E12=0 | F12=0 | G12='IF Laje→PU escor'
+A13='MO Estrutura' | B13='Empreitada (32,6%)' | C13=10840.31 | D13='m²' | E13=256.19 | F13=2777179.0189 | G13='Split 32,6% MO (10p)'
+A14='TOTAL' | F14=8518891.2989
+
+===== SHEET [VALUE]: Infraestrutura (dims A1:G13) =====
+A1='INFRAESTRUTURA' | G1='Total:'
+G2=1664206.26
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Perfuração hélice' | B4='Ø40cm' | C4=2610 | D4='m' | E4=82 | F4=214020 | G4='PU base R$ 82/m (6p)'
+A5='Concreto estacas' | B5='fck30' | C5=328 | D5='m³' | E5=632 | F5=207296 | G5='PU base R$ 632 (6p)'
+A6='Concreto blocos' | B6='Baldrames' | C6=217 | D6='m³' | E6=590 | F6=128030 | G6='Índ 0,02 m³/m²'
+A7='Aço CA-50' | B7='Fundação' | C7=49050 | D7='kg' | E7=8.77 | F7=430168.5 | G7='PU base R$ 8,77 (7p)'
+A8='Forma' | B8='Blocos/baldrames' | C8=1084 | D8='m²' | E8=45.64 | F8=49473.76 | G8='PU base R$ 45,64 (8p)'
+A9='Arrasamento' | B9='Estacas' | C9=145 | D9='un' | E9=65 | F9=9425 | G9='PU base R$ 65 (2p)'
+A10='Limpeza/remoção' | B10='Solo perfuração' | C10=1 | D10='vb' | E10=35000 | F10=35000 | G10='PU base R$ 35k (2p)'
+A11='MO fundação' | B11='Empreitada (35,5%)' | C11=1 | D11='vb' | E11=590793 | F11=590793 | G11='Split 35,5% (7p)'
+A12='Contenção' | B12='Se houver subsolo' | C12=1 | D12='vb' | E12=0 | F12=0 | G12='IF Sub>0'
+A13='TOTAL' | F13=1664206.26
+
+===== SHEET [VALUE]: Mov. Terra (dims A1:G5) =====
+A1='MOV. TERRA' | G1='Total:'
+G2=184285.27
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Terraplanagem' | B4='Corte+aterro+bota-fora' | C4=10840.31 | D4='m²' | E4=17 | F4=184285.27 | G4='Param. base + IF sub'
+A5='TOTAL' | F5=184285.27
+
+===== SHEET [VALUE]: Gerenciamento (dims A1:G24) =====
+A1='GERENCIAMENTO' | G1='Total:'
+G2=5078256
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Projetos' | B4='Arq+compl+compat' | C4=1 | D4='vb' | E4=650000 | F4=650000 | G4='Param. base'
+A5='Consultorias' | B5='ATP+compat BIM' | C5=1 | D5='vb' | E5=180000 | F5=180000 | G5='Param. base'
+A6='Ensaios' | B6='Ctrl tecnol.' | C6=1 | D6='vb' | E6=130000 | F6=130000 | G6='Param. base'
+A7='Taxas e seguros' | B7='Incorp+licenças' | C7=1 | D7='vb' | E7=380000 | F7=380000 | G7='Param. base'
+A8='Engenheiro PJ' | B8='1×prazo' | C8=36 | D8='mês' | E8=10500 | F8=378000 | G8='Master R$ 10,5k (5p)'
+A9='Mestre obras' | B9='1×prazo' | C9=36 | D9='mês' | E9=9940 | F9=357840 | G9='Master R$ 9,9k (4p)'
+A10='Encarregado' | B10='1×prazo' | C10=36 | D10='mês' | E10=8000 | F10=288000 | G10='Narrativo R$ 8k'
+A11='Estagiário' | B11='2×prazo' | C11=72 | D11='mês' | E11=1580 | F11=113760 | G11='Master R$ 1,6k (3p)'
+A12='Téc.segurança' | B12='1×prazo' | C12=36 | D12='mês' | E12=6000 | F12=216000 | G12='PJ R$ 6k/mês'
+A13='Almoxarife' | B13='1×prazo' | C13=36 | D13='mês' | E13=3377 | F13=121572 | G13='Master R$ 3,4k (4p)'
+A14='Limpeza obra' | B14='2×prazo' | C14=72 | D14='mês' | E14=2500 | F14=180000 | G14='PJ R$ 2,5k/mês'
+A15='Vigilância' | B15='1×prazo' | C15=36 | D15='mês' | E15=15261 | F15=549396 | G15='Narrativo R$ 15,3k'
+A16='EPCs' | B16='Fixo por porte' | C16=1 | D16='vb' | E16=300000 | F16=300000 | G16='Master 75 exec'
+A17='EPI' | B17='Individual' | C17=36 | D17='mês' | E17=908 | F17=32688 | G17='PU base R$ 908 (8p)'
+A18='Meio ambiente' | B18='PCMAT+PCMSO' | C18=1 | D18='vb' | E18=45000 | F18=45000 | G18='Param. base'
+A19='Op. inicial' | B19='Mobilização' | C19=1 | D19='vb' | E19=55000 | F19=55000 | G19='Param. base'
+A20='Inst. provisórias' | B20='Canteiro+containers' | C20=1 | D20='vb' | E20=160000 | F20=160000 | G20='Param. base'
+A21='Desp. consumo' | B21='Água+en+internet+IPTU' | C21=36 | D21='mês' | E21=11500 | F21=414000 | G21='PU base (9p)'
+A22='Equipamentos' | B22='Grua+cremalheira' | C22=1 | D22='vb' | E22=480000 | F22=480000 | G22='Narrativo'
+A23='Comunic.visual' | B23='Placas+tapume' | C23=1 | D23='vb' | E23=47000 | F23=47000 | G23='PU base R$ 47k (17p)'
+A24='TOTAL' | F24=5078256
+
+===== SHEET [VALUE]: Alvenaria (dims A1:G9) =====
+A1='ALVENARIA' | G1='Total:'
+G2=1968312
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Bloco cerâm.' | B4='Vedação 14cm' | C4=9756 | D4='m²' | E4=32.95 | F4=321460.2 | G4='Índ 2,25×40%'
+A5='Drywall ST' | B5='Internas' | C5=6098 | D5='m²' | E5=156 | F5=951288 | G5='Índ 2,25×25%'
+A6='Drywall RU' | B6='Molhadas' | C6=1951 | D6='m²' | E6=195 | F6=380445 | G6='Índ 2,25×8%'
+A7='Argamassa' | B7='Assentamento' | C7=9756 | D7='m²' | E7=3.8 | F7=37072.799999999996 | G7='PU base'
+A8='MO Alvenaria' | B8='Empreitada' | C8=9756 | D8='m²' | E8=28.5 | F8=278046 | G8='Split 35,7% (9p)'
+A9='TOTAL' | F9=1968312
+
+===== SHEET [VALUE]: Impermeabilização (dims A1:G9) =====
+A1='IMPERMEABILIZAÇÃO' | G1='Total:'
+G2=770638.98
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Manta 4mm' | B4='Material' | C4=4336 | D4='m²' | E4=82.11 | F4=356028.96 | G4='Índ impermeab×AC'
+A5='Arg.polim.' | B5='BWC' | C5=1301 | D5='m²' | E5=8.5 | F5=11058.5 | G5='PU base'
+A6='Regulariz.' | B6='Superfície' | C6=4336 | D6='m²' | E6=5.57 | F6=24151.52 | G6='PU base (15p)'
+A7='MO imper.' | B7='Empreitada' | C7=4336 | D7='m²' | E7=68 | F7=294848 | G7='Split 56,5% (6p)'
+A8='MO regul.' | B8='Empreitada' | C8=4336 | D8='m²' | E8=19.5 | F8=84552 | G8='PU base (7p)'
+A9='TOTAL' | F9=770638.98
+
+===== SHEET [VALUE]: Instalações (dims A1:G11) =====
+A1='INSTALAÇÕES' | G1='Total:'
+G2=5165299.3119
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Elétricas mat.' | B4='IF Tipologia' | C4=10840.31 | D4='m²' | E4=102.15 | F4=1107337.6665 | G4='Índ 1,77m/m² × fator tipol (D27)'
+A5='Elétricas MO' | B5='Empreitada' | C5=10840.31 | D5='m²' | E5=63.14 | F5=684457.1734 | G5='Split 38,2% × fator tipol (D27)'
+A6='Hidro mat.' | B6='IF BWC/apto' | C6=10840.31 | D6='m²' | E6=139.93 | F6=1516884.5783 | G6='Índ 1,08m/m² × fator hidro (D35)'
+A7='Hidro MO' | B7='Empreitada' | C7=10840.31 | D7='m²' | E7=72.09 | F7=781477.9479 | G7='Split 34,0% × fator hidro (D35)'
+A8='Preventivas' | B8='Mat+MO' | C8=10840.31 | D8='m²' | E8=57.22 | F8=620282.5382 | G8='Param.'
+A9='Gás' | B9='Mat+MO' | C9=10840.31 | D9='m²' | E9=22.89 | F9=248134.6959 | G9='Param. base'
+A10='Telecom' | B10='Mat+MO' | C10=10840.31 | D10='m²' | E10=19.07 | F10=206724.71169999999 | G10='Param. base'
+A11='TOTAL' | F11=5165299.3119
+
+===== SHEET [VALUE]: Sist. Especiais (dims A1:G16) =====
+A1='SIST. ESPECIAIS' | G1='Total:'
+G2=2399272
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Elevador social' | B4='N-1 elevadores' | C4=1 | D4='un' | E4=480000 | F4=480000 | G4='Torre 29 níveis; v00 ajusta PU de elevador para faixa de torre alta.'
+A5='Elevador serv.' | B5='1un' | C5=1 | D5='un' | E5=480000 | F5=480000 | G5='Inclui menção a elevador de emergência; validar com cálculo de tráfego.'
+A6='Gerador' | B6='IF Gerador+Torres' | C6=1 | D6='vb' | E6=350000 | F6=350000 | G6='IF Gerador B11 + Torres B10'
+A7='Automação' | B7='BMS+sensores' | C7=1 | D7='vb' | E7=120000 | F7=120000 | G7='Param. base'
+A8='Piscina' | B8='IF Piscina B17' | C8=1 | D8='vb' | E8=220000 | F8=220000 | G8='IF Piscina (Sim/Não/Aquecida)'
+A9='CFTV' | B9='Câmeras+DVR' | C9=1 | D9='vb' | E9=120000 | F9=120000 | G9='Param. base'
+A10='Pressurização' | B10='IF Pressurização B9' | C10=1 | D10='vb' | E10=180000 | F10=180000 | G10='IF Pressurização'
+A11='SPDA' | B11='Para-raios+malha' | C11=1 | D11='vb' | E11=55000 | F11=55000 | G11='Param. base'
+A12='Interfonia' | B12='Ctrl acesso' | C12=1 | D12='vb' | E12=130000 | F12=130000 | G12='Param. base'
+A13='Bombas' | B13='Recalque+incêndio' | C13=1 | D13='vb' | E13=95000 | F13=95000 | G13='Param. base'
+A14='Quadros comando' | B14='Bombas+sist' | C14=1 | D14='vb' | E14=60000 | F14=60000 | G14='Param. base'
+A15='Ventilação garagens' | B15='Alternativa mecânica G1-G4' | C15=4 | D15='pav' | E15=27318 | F15=109272 | G15='PDFs G1/G2/G4: ventilação mecânica R$ 27.318/pavimento se área natural não atender.'
+A16='TOTAL' | F16=2399272
+
+===== SHEET [VALUE]: Climatização (dims A1:G8) =====
+A1='CLIMATIZAÇÃO' | G1='Total:'
+G2=975025.58
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Split' | B4='Equipamentos HW/K7/CND por aptos e áreas comuns' | C4=171 | D4='un' | E4=3500 | F4=598500 | G4='Projeto CLI: múltiplos equipamentos HW/K7/CND; v00 = 4,5 un/UR.'
+A5='Exaust.BWC' | B5='4/pav enclaus.' | C5=72 | D5='un' | E5=1200 | F5=86400 | G5='4 bwc/pav'
+A6='Exaust.churr.' | B6='2/pav+lazer' | C6=38 | D6='un' | E6=2500 | F6=95000 | G6='2/pav+lazer'
+A7='Infra AR' | B7='Dutos+tub' | C7=10840.31 | D7='m²' | E7=18 | F7=195125.58 | G7='Projeto CLI: infraestrutura frigorígena, dreno e elétrica de climatização.'
+A8='TOTAL' | F8=975025.58
+
+===== SHEET [VALUE]: Rev. Int. Parede (dims A1:G15) =====
+A1='REV. INT. PAREDE' | G1='Total:'
+G2=1427377.8499999999
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Reboco' | B4='Massa única' | C4=12435 | D4='m²' | E4=7 | F4=87045 | G4='Índ 2,85×35%'
+A5='Chapisco' | B5='Rolado+colante' | C5=12435 | D5='m²' | E5=5.5 | F5=68392.5 | G5='PU base'
+A6='Cerâm.BWC' | B6='30×60' | C6=4974 | D6='m²' | E6=55.199999999999996 | F6=274564.8 | G6='PU×fator padrão'
+A7='Cerâm.cozinha' | B7='30×60' | C7=2132 | D7='m²' | E7=48.3 | F7=102975.59999999999 | G7='PU×fator padrão'
+A8='Porcel.parede' | B8='Comuns' | C8=1421 | D8='m²' | E8=97.74999999999999 | F8=138902.74999999997 | G8='PU×fator padrão'
+A9='Granito bancadas' | B9='Lavat+coz' | C9=133 | D9='m' | E9=206.99999999999997 | F9=27530.999999999996 | G9='R$ 180×fator padrão'
+A10='Arg.colante' | B10='AC-II/III' | C10=8527 | D10='m²' | E10=12 | F10=102324 | G10='PU base'
+A11='Rejunte' | B11='Flexível' | C11=8527 | D11='m²' | E11=5 | F11=42635 | G11='PU base'
+A12='MO reboco' | B12='Empreitada' | C12=12435 | D12='m²' | E12=22.5 | F12=279787.5 | G12='Split 54,4%'
+A13='MO cerâmica' | B13='Assentamento' | C13=8527 | D13='m²' | E13=35 | F13=298445 | G13='Split 54,4%'
+A14='MO granito' | B14='Instalação' | C14=133 | D14='m' | E14=35.9 | F14=4774.7 | G14='PU base R$ 36'
+A15='TOTAL' | F15=1427377.8499999999
+
+===== SHEET [VALUE]: Teto (dims A1:G8) =====
+A1='TETO' | G1='Total:'
+G2=787176
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Forro ST' | B4='Acartonado' | C4=8802 | D4='m²' | E4=28 | F4=246456 | G4='Índ 1,16×70%'
+A5='Forro RU' | B5='BWC' | C5=1886 | D5='m²' | E5=35 | F5=66010 | G5='PU base'
+A6='Perfis' | B6='Estrutura' | C6=10689 | D6='m²' | E6=15 | F6=160335 | G6='PU base'
+A7='MO forro' | B7='Empreitada' | C7=12575 | D7='m²' | E7=25 | F7=314375 | G7='Split 79,1%'
+A8='TOTAL' | F8=787176
+
+===== SHEET [VALUE]: Pisos (dims A1:G11) =====
+A1='PISOS' | G1='Total:'
+G2=2206087.681
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Contrapiso' | B4='Autonivelante' | C4=18429 | D4='m²' | E4=12.1 | F4=222990.9 | G4='Índ piso×AC (IF shell)'
+A5='Piso principal' | B5='IF Tipo Piso' | C5=9214 | D5='m²' | E5=93.39149999999998 | F5=860509.2809999998 | G5='PU IF Tipo Piso × Padrão'
+A6='Cimentado' | B6='Garagem 20%' | C6=3686 | D6='m²' | E6=32 | F6=117952 | G6='PU base'
+A7='Granito' | B7='Halls 5%' | C7=921 | D7='m²' | E7=206.99999999999997 | F7=190646.99999999997 | G7='PU×fator padrão'
+A8='Rodapé' | B8='Poliestireno' | C8=6450 | D8='m' | E8=10.77 | F8=69466.5 | G8='PU base (10p)'
+A9='MO contrapiso' | B9='Empreitada' | C9=18429 | D9='m²' | E9=18 | F9=331722 | G9='Split 54%'
+A10='MO pisos' | B10='Assentamento' | C10=12900 | D10='m²' | E10=32 | F10=412800 | G10='Split 54%'
+A11='TOTAL' | F11=2206087.681
+
+===== SHEET [VALUE]: Pintura (dims A1:G10) =====
+A1='PINTURA' | G1='Total:'
+G2=1676382.84
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Massa PVA' | B4='Paredes 2dem' | C4=33686 | D4='m²' | E4=4.29 | F4=144512.94 | G4='Índ pintura×55%'
+A5='Acrílica par.' | B5='3 demãos' | C5=33686 | D5='m²' | E5=5.4 | F5=181904.40000000002 | G5='PU base (6p)'
+A6='Acrílica teto' | B6='2 demãos' | C6=12250 | D6='m²' | E6=3.83 | F6=46917.5 | G6='PU base'
+A7='Selador' | B7='Base' | C7=45936 | D7='m²' | E7=2.5 | F7=114840 | G7='PU base'
+A8='MO pintura' | B8='Empreitada' | C8=61248 | D8='m²' | E8=15 | F8=918720 | G8='Split 66,2%'
+A9='MO lixamento' | B9='Preparação' | C9=33686 | D9='m²' | E9=8 | F9=269488 | G9='Split 66,2%'
+A10='TOTAL' | F10=1676382.84
+
+===== SHEET [VALUE]: Esquadrias (dims A1:G6) =====
+A1='ESQUADRIAS' | G1='Total:'
+G2=4051565.8625
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Esquadrias Al' | B4='Jan+portas' | C4=10840.31 | D4='m²' | E4=322 | F4=3490579.82 | G4='R$280 × padrão × entrega'
+A5='Serralheria' | B5='GC+corrimão' | C5=10840.31 | D5='m²' | E5=51.74999999999999 | F5=560986.0424999999 | G5='R$45 × fator padrão'
+A6='TOTAL' | F6=4051565.8625
+
+===== SHEET [VALUE]: Louças e Metais (dims A1:G5) =====
+A1='LOUÇAS E METAIS' | G1='Total:'
+G2=813023.2999999999
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Louças+metais' | B4='Louças, metais, bancadas e acessórios - padrão alto v00' | C4=38 | D4='apto' | E4=21395.35 | F4=813023.2999999999 | G4='Sem memorial de acabamentos; v00 adota R$ 75/m² AC, acima do médio-alto e abaixo da mediana alto.'
+A5='TOTAL' | F5=813023.2999999999
+
+===== SHEET [VALUE]: Fachada (dims A1:G7) =====
+A1='FACHADA' | G1='Total:'
+G2=2570706
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Revestimento' | B4='Conforme briefing' | C4=16802 | D4='m²' | E4=100 | F4=1680200 | G4='IF tipo fachada'
+A5='MO fachada' | B5='Empreitada' | C5=16802 | D5='m²' | E5=35 | F5=588070 | G5='PU base'
+A6='Balancim' | B6='Fachadeiro' | C6=16802 | D6='m²' | E6=18 | F6=302436 | G6='PU base'
+A7='TOTAL' | F7=2570706
+
+===== SHEET [VALUE]: Complementares (dims A1:G14) =====
+A1='COMPLEMENTARES' | G1='Total:'
+G2=2655813.72
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Mobiliário' | B4='Áreas comuns' | C4=1 | D4='vb' | E4=900000 | F4=900000 | G4='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A5='Ambientação' | B5='Decoração halls' | C5=1 | D5='vb' | E5=747500 | F5=747500 | G5='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A6='Paisagismo' | C6=1 | D6='vb' | E6=200000 | F6=200000 | G6='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A7='Equip. lazer' | B7='Acad+playground' | C7=1 | D7='vb' | E7=400000 | F7=400000 | G7='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A8='Limpeza final' | C8=10840.31 | D8='m²' | E8=12 | F8=130083.72 | G8='PU base R$ 12/m² (10p)'
+A9='Comunic.visual' | B9='Sinalização' | C9=1 | D9='vb' | E9=80000 | F9=80000 | G9='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A10='Cobertura' | B10='Telhado+estrutura' | C10=434 | D10='m²' | E10=95 | F10=41230 | G10='PU base'
+A11='Ligações def.' | B11='Água+energia+gás' | C11=1 | D11='vb' | E11=90000 | F11=90000 | G11='Ajuste v00: lazer/coworking/gourmet/festas/piscina e áreas comuns de padrão alto.'
+A12='Desmobilização' | B12='Pessoal+equip' | C12=1 | D12='vb' | E12=15000 | F12=15000 | G12='PU base (6p)'
+A13='Paviment.ext.' | B13='Calçadas' | C13=650 | D13='m²' | E13=80 | F13=52000 | G13='PU base'
+A14='TOTAL' | F14=2655813.72
+
+===== SHEET [VALUE]: Imprevistos (dims A1:G5) =====
+A1='IMPREVISTOS' | G1='Total:'
+G2=643685
+A3='Item' | B3='Descrição' | C3='Qtd' | D3='Un' | E3='PU (R$)' | F3='Total (R$)' | G3='Fonte'
+A4='Imprevistos' | B4='1,5% do subtotal' | C4=1 | D4='vb' | E4=643685 | F4=643685 | G4='Percentual padrão'
+A5='TOTAL' | F5=643685
+
+===== SHEET [VALUE]: PREMISSAS (dims A2:A26) =====
+A2='PARAMÉTRICO V2 — Brickell Modern Home - Nowa'
+A3='18/18 macrogrupos bottom-up | 14 dropdowns interativos'
+A4='Altere os dropdowns na aba BRIEFING para recalcular automaticamente'
+A6='FONTES: calibration-indices.json (75 exec + 79 narrativos + IFC + curva ABC)'
+A7='PUs: base-pus-cartesian.json (1.504 itens, medianas de 75 executivos)'
+A8='Splits MO/Material: medianas reais de 38 executivos detalhados'
+A10='14 DROPDOWNS ATIVOS:'
+A11='  1. Laje: Convencional/Protendida/Nervurada → concreto, aço, forma, escoramento'
+A12='  2. Subsolos: 0-3 → contenção, mov.terra, impermeabilização, fundação'
+A13='  3. Fundação: Hélice/Tubulão/Sapata → infraestrutura'
+A14='  4. Padrão: Médio/Médio-Alto/Alto/Luxo → acabamentos, esquadrias, louças (×0.85-1.35)'
+A15='  5. Fachada: Textura/Cerâmica/Pele de vidro/ACM → PU fachada R$ 100-350/m²'
+A16='  6. Pressurização: Sim/Não → +R$ 80k'
+A17='  7. Torres: 1/2/3 → gerador proporcional'
+A18='  8. Gerador dedicado: Sim/Não → R$ 0-350k'
+A19='  9. Entrega: Completa/Shell → Shell desconta ~15% (pisos, pintura, rev, louças, esq)'
+A20='  10. Tipologia: Studios/1-2D/3-4D/Misto → pontos elétricos, louças (×0.65-1.20)'
+A21='  11. Pé-Direito: Baixo/Padrão/Alto/Duplo → estrutura (×0.97-1.12), fachada'
+A22='  12. BWC/apto: 1-4 → hidro, louças (×1.0-1.80), rev.parede, impermeab'
+A23='  13. Tipo Piso: Porcelanato/Laminado/Misto → PU pisos R$ 65-81/m²'
+A24='  14. Piscina: Sim/Não/Aquecida → R$ 0/220k/320k'
+A26='Baseado revisão Patricia (coord. custos) + calibração 75 exec — 24/mar/2026'
+
+===== SHEET [VALUE]: FONTES_PROJETO (dims A1:C18) =====
+A1='Campo' | B1='Valor adotado' | C1='Fonte / evidência'
+A2='Área construída' | B2='10.840,31 m²' | C2='PDFs ELE/HID/PCI - pranchas VOF'
+A3='Unidades residenciais' | B3='38 UR' | C3='Marcadores de tipologia em ELE/HID/PCI'
+A4='Pavimentos' | B4='29 níveis' | C4='IFC estrutural EST/AP R00'
+A5='Pavimentos tipo' | B5='18' | C5='IFC: Tipo 1 a Tipo 5b'
+A6='Altura descendente PPCI' | B6='67,32 m' | C6='PDFs ELE/HID/PCI - VOF'
+A7='Garagens' | B7='4 níveis' | C7='IFC: Garagem 1 a Garagem 4'
+A8='Subsolos' | B8='0' | C8='IFC não indica subsolo; Fundação abaixo do Térreo'
+A9='Vagas' | B9='76, a confirmar' | C9='Premissa v00: 2 vagas por UR; ARQ está em DWG'
+A10='Elevadores' | B10='2, a confirmar' | C10='PDFs citam elevador de emergência; torre alta'
+A11='Gerador' | B11='Sim' | C11='PDFs DRYWALL/PCI citam sala e posicionamento do gerador'
+A12='Pressurização / fumaça' | B12='Sim' | C12='PPCI cita escada pressurizada/exaustão e IN10/IN12'
+A13='Piscina' | B13='Sim' | C13='PDFs de lazer citam acesso à piscina'
+A14='Climatização' | B14='Completa' | C14='Projeto CLI com equipamentos HW/K7/CND e condensadoras'
+A15='Alvenaria' | B15='Mista' | C15='ALV com bloco cerâmico + DRYWALL ST/RU em várias pranchas'
+A16='Fachada' | B16='Textura, a confirmar' | C16='Projeto de fachada não encontrado em PDF legível'
+A17='Fundação' | B17='Hélice, a confirmar' | C17='IFC não tem IfcFooting/IfcPile; sem SPT legível'
+A18='CUB base' | B18='R$ 3.850,00/m²' | C18='Supabase specifications.ampli_indexers, SC, 2026-05'
+
+===== SHEET [VALUE]: BENCHMARK_SUPABASE (dims A1:F19) =====
+A1='Macrogrupo' | B1='Alto mediana R$/m²' | C1='Alto P25' | D1='Alto P75' | E1='n' | F1='Médio-Alto mediana R$/m²'
+A2='Gerenciamento' | B2=640.41 | C2=535.79 | D2=1715.95 | E2=22 | F2=474.74
+A3='Mov. Terra' | B3=124.19 | C3=91.9 | D3=178.15 | E3=23 | F3=114.52
+A4='Infraestrutura' | B4=230.4 | C4=156.8 | D4=276 | E4=23 | F4=196.14
+A5='Supraestrutura' | B5=718.24 | C5=659.32 | D5=854.66 | E5=23 | F5=654.62
+A6='Alvenaria' | B6=181.9 | C6=128.63 | D6=219.79 | E6=21 | F6=139.7
+A7='Impermeabilização' | B7=74.35 | C7=61.39 | D7=128.04 | E7=20 | F7=60
+A8='Instalações' | B8=320.13 | C8=185.17 | D8=453.78 | E8=21 | F8=332.12
+A9='Sist. Especiais' | B9=211.02 | C9=126.25 | D9=304.34 | E9=21 | F9=172.54
+A10='Climatização' | B10=36.21 | C10=28.24 | D10=78.09 | E10=9 | F10=30.59
+A11='Rev. Int. Parede' | B11=82.02 | C11=59.02 | D11=212.73 | E11=12 | F11=60.62
+A12='Teto' | B12=62.23 | C12=52.54 | D12=85.03 | E12=12 | F12=60.1
+A13='Pisos' | B13=237.05 | C13=187.44 | D13=638.25 | E13=16 | F13=199.02
+A14='Pintura' | B14=159.16 | C14=114.05 | D14=252.13 | E14=16 | F14=124.55
+A15='Esquadrias' | B15=395.49 | C15=285.86 | D15=553.96 | E15=23 | F15=301.24
+A16='Louças e Metais' | B16=141.98 | C16=56.79 | D16=222.16 | E16=17 | F16=59.73
+A17='Fachada' | B17=206.67 | C17=142.31 | D17=252.97 | E17=10 | F17=117.38
+A18='Complementares' | B18=262.06 | C18=153.72 | D18=365.34 | E18=15 | F18=201.06
+A19='Imprevistos' | B19=72.24 | C19=48.03 | D19=75.44 | E19=7 | F19=49.98
+
+===== SHEET [VALUE]: AMPLI_REFERENCIAS (dims A1:G4) =====
+A1='Referência' | B1='UF/Cidade' | C1='Área' | D1='Base R$/m²' | E1='Indexado R$/m²' | F1='Trend R$/m²' | G1='Comprometido R$/m²'
+A2='Blue Coast FG' | B2='SC/Itajaí' | C2=13818.15 | D2=3982 | E2=5930 | F2=6380 | G2=5889
+A3='Live' | B3='SP/São Paulo' | C3=14888.46 | D3=2913 | E3=3326 | F3=4054 | G3=3607
+A4='Voss' | B4='PR/Curitiba' | C4=14770.83 | D4=3011 | E4=3316 | F4=3268 | G4=1857
+
+===== SHEET [VALUE]: AJUSTES_V00 (dims A1:D8) =====
+A1='Local' | B1='Item' | C1='Ajuste' | D1='Justificativa'
+A2='INDICES!C22' | B2='Pressurização' | C2='R$ 80.000 -> R$ 180.000' | D2='Torre alta com escada pressurizada/exaustão e controle de fumaça nos PDFs PPCI.'
+A3='INDICES!C23' | B3='Gerador' | C3='R$ 180.000 -> R$ 350.000' | D3='PDFs citam sala/posicionamento do gerador; v00 adota allowance de torre alta.'
+A4='Sist. Especiais' | B4='Elevadores' | C4='PUs ajustados para R$ 480.000/un' | D4='2 elevadores em torre de 29 níveis, incluindo menção a elevador de emergência.'
+A5='Sist. Especiais' | B5='Ventilação garagens' | C5='4 pavimentos x R$ 27.318' | D5='PDFs G1/G2/G4 citam ventilação mecânica alternativa a área natural mínima.'
+A6='Climatização' | B6='Equipamentos e infra' | C6='4,5 un/UR + infra R$ 18/m²' | D6='Projeto CLI traz múltiplos equipamentos HW/K7/CND; default 1,5 un/UR ficaria baixo.'
+A7='Louças e Metais' | B7='Escopo alto sem memorial' | C7='R$ 75/m² AC' | D7='Default V2 por UR ficava artificialmente baixo para padrão alto; usa referência entre médio-alto e alto.'
+A8='Complementares' | B8='Lazer e áreas comuns' | C8='Mobiliário/ambientação/equipamentos reforçados' | D8='PDFs indicam piscina, coworking, gourmet, festas, sala comercial e lazer de cobertura.'
+
+===== SHEET [VALUE]: PREMISSAS_V00 (dims A1:B19) =====
+A1='Macrogrupo' | B1='Premissa adotada'
+A2='Gerenciamento' | B2='36 meses, torre alta, equipe técnica e canteiro do V2; benchmark alto Supabase.'
+A3='Mov. Terra' | B3='Sem subsolo no IFC; movimentação de terra base por AC.'
+A4='Infraestrutura' | B4='Fundação hélice assumida por ausência de SPT/projeto de fundação legível.'
+A5='Supraestrutura' | B5='IFC estrutural com 29 níveis, 762 lajes, 1.410 vigas, 876 pilares; laje convencional v00.'
+A6='Alvenaria' | B6='Bloco cerâmico ALV + drywall ST/RU em PDFs de vedação.'
+A7='Impermeabilização' | B7='Índice V2 para torre com áreas molhadas, lazer e cobertura.'
+A8='Instalações' | B8='ELE/HID/PCI completos, gás, preventivo, medições e prumadas de torre alta.'
+A9='Sist. Especiais' | B9='Elevadores, gerador, piscina, pressurização, SPDA, bombas e ventilação de garagens.'
+A10='Climatização' | B10='Projeto CLI com equipamentos; v00 reforça quantidade e infra.'
+A11='Rev. Int. Parede' | B11='Acabamento alto com áreas molhadas e paredes internas por índice V2.'
+A12='Teto' | B12='DRYWALL/FORRO com gesso acartonado ST/RU e forro em áreas comuns/privativas.'
+A13='Pisos' | B13='Porcelanato como premissa v00 para padrão alto.'
+A14='Pintura' | B14='Sistema acrílico/PVA por índice V2.'
+A15='Esquadrias' | B15='Alumínio/vidro por benchmark alto; quadro não localizado em PDF.'
+A16='Louças e Metais' | B16='2 banheiros/UR como premissa v00, padrão alto.'
+A17='Fachada' | B17='Textura como premissa conservadora; projeto de fachada não localizado.'
+A18='Complementares' | B18='Lazer com piscina, áreas comuns, comunicação visual e paisagismo por índice.'
+A19='Imprevistos' | B19='1,5% padrão Cartesian aplicado pelo V2.'
+
+===== SHEET [VALUE]: LIMITACOES_V00 (dims A1:B5) =====
+A1='Limitação' | B1='Tratamento na v00'
+A2='Arquitetura principal está em DWG; sem conversor DWG disponível nesta sessão. A v00 usa ARQ como limitação explícita.' | B2='Documentado para validação na v01'
+A3='Vagas, fachada e quadro de esquadrias não foram encontrados em PDF legível e devem ser validados na v01.' | B3='Documentado para validação na v01'
+A4='Sem SPT/fundação em PDF legível; fundação hélice é premissa Cartesian de v00.' | B4='Documentado para validação na v01'
+A5='Não houve escrita no Supabase nem sincronização ao Drive _Parametrico_IA; esta é a versão local para validação do Leo.' | B5='Documentado para validação na v01'

@@ -1,6 +1,6 @@
 # Audit V2 — arthen-arboris
 
-_Gerado em 13/04/2026 22:58 — revisão com base enriquecida (Fases 8-15)_
+_Gerado em 22/04/2026 22:25 — revisão com base enriquecida (Fases 8-15)_
 
 ## 🎯 Contexto
 

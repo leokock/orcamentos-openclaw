@@ -1,0 +1,150 @@
+[
+  {
+    "disciplina": "ARQ",
+    "arquivos": 28,
+    "tamanho_mb": 894.4,
+    "extensoes": {
+      ".dwg": 19,
+      ".ifc": 1,
+      ".pdf": 8
+    },
+    "nota": "Arquitetura com IFC e pranchas PDF/DWG. A prancha de cortes/tabelas forneceu áreas, níveis e vagas. O IFC não traz IfcSpace útil para contagem automática de unidades."
+  },
+  {
+    "disciplina": "CLI",
+    "arquivos": 29,
+    "tamanho_mb": 36.54,
+    "extensoes": {
+      ".dwg": 14,
+      ".pdf": 15
+    },
+    "nota": "Climatização com PDF/DWG. Entrou como climatização básica residencial/comercial."
+  },
+  {
+    "disciplina": "ELETRICA",
+    "arquivos": 22,
+    "tamanho_mb": 279.09,
+    "extensoes": {
+      ".dwg": 10,
+      ".ifc": 2,
+      ".pdf": 10
+    },
+    "nota": "Elétrica com PDF/DWG/IFC. Usado para confirmar disciplina completa; gerador dedicado não identificado na leitura inicial."
+  },
+  {
+    "disciplina": "EST",
+    "arquivos": 94,
+    "tamanho_mb": 392.75,
+    "extensoes": {
+      ".dwg": 54,
+      ".ifc": 6,
+      ".pdf": 28,
+      ".rvt": 6
+    },
+    "nota": "Estrutura com modelos RVT/IFC e pranchas. O IFC R06 possui pavimentos estruturais, lajes, vigas e pilares; usado para enquadrar laje convencional/maciça-mista."
+  },
+  {
+    "disciplina": "ETE",
+    "arquivos": 5,
+    "tamanho_mb": 15.73,
+    "extensoes": {
+      ".pdf": 5
+    },
+    "nota": ""
+  },
+  {
+    "disciplina": "FUND",
+    "arquivos": 16,
+    "tamanho_mb": 4.55,
+    "extensoes": {
+      ".dwg": 8,
+      ".pdf": 8
+    },
+    "nota": "Fundações com PDF/DWG. Sem IFC quantitativo; fundação em hélice foi mantida como premissa V1 até validar memorial/sondagem."
+  },
+  {
+    "disciplina": "HID",
+    "arquivos": 37,
+    "tamanho_mb": 602.41,
+    "extensoes": {
+      ".dwg": 17,
+      ".ifc": 2,
+      ".jpg": 1,
+      ".pdf": 17
+    },
+    "nota": "Hidrossanitário com PDF/DWG/IFC. Usado para confirmar complexidade de instalações e muitas áreas molhadas."
+  },
+  {
+    "disciplina": "INTERIORES",
+    "arquivos": 74,
+    "tamanho_mb": 918.71,
+    "extensoes": {
+      ".dwg": 42,
+      ".ifc": 2,
+      ".pdf": 30
+    },
+    "nota": "Interiores com PDF/DWG/IFC. Reforça entrega completa e padrão médio-alto."
+  },
+  {
+    "disciplina": "PAISAGISMO",
+    "arquivos": 4,
+    "tamanho_mb": 14.91,
+    "extensoes": {
+      ".dwg": 1,
+      ".pdf": 3
+    },
+    "nota": "Paisagismo com PDF/DWG. Entrou em complementares/urbanização."
+  },
+  {
+    "disciplina": "PCI",
+    "arquivos": 24,
+    "tamanho_mb": 107.94,
+    "extensoes": {
+      ".dwg": 10,
+      ".ifc": 2,
+      ".pdf": 12
+    },
+    "nota": "Prevenção contra incêndio com PDF/DWG/IFC. Entrou em sistemas/instalações e premissa de pressurização = Não por baixa altura do conjunto."
+  },
+  {
+    "disciplina": "PISCINA",
+    "arquivos": 5,
+    "tamanho_mb": 25.57,
+    "extensoes": {
+      ".dwg": 2,
+      ".ifc": 1,
+      ".pdf": 2
+    },
+    "nota": "Projeto específico de piscina presente; briefing V2 marcado como Piscina = Sim."
+  },
+  {
+    "disciplina": "SPDA",
+    "arquivos": 7,
+    "tamanho_mb": 11.81,
+    "extensoes": {
+      ".dwg": 3,
+      ".ifc": 1,
+      ".pdf": 3
+    },
+    "nota": "SPDA com PDF/DWG/IFC. Entrou em sistemas especiais."
+  },
+  {
+    "disciplina": "TEL",
+    "arquivos": 20,
+    "tamanho_mb": 54.63,
+    "extensoes": {
+      ".dwg": 10,
+      ".pdf": 10
+    },
+    "nota": "Telecom com PDF/DWG. Entrou em sistemas especiais/instalações."
+  },
+  {
+    "disciplina": "_Compactadas",
+    "arquivos": 15,
+    "tamanho_mb": 1167.79,
+    "extensoes": {
+      ".zip": 15
+    },
+    "nota": "Backups ZIP das disciplinas. Mantidos no inventário, mas não usados como fonte primária quando havia arquivos abertos."
+  }
+]

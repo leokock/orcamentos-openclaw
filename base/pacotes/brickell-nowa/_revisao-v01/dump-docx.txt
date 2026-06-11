@@ -1,0 +1,175 @@
+
+########## brickell-nowa-PREMISSAS-ORIGEM-v00-final.docx ##########
+P: Premissas de Origem - Brickell Modern Home - Nowa v00
+P: Gerado: 2026-06-09T20:46:14-03:00 BRT
+P: Total estimado: R$ 43.556.004,95 | R$/m² AC: 4.018 | CUB ratio: 1,04 | Custo/UR: R$ 1.146.210,66
+P: Dados físicos adotados
+T: Campo | Valor | Fonte
+T: Área construída | 10.840,31 m² | PDFs ELE/HID/PCI - pranchas VOF
+T: Unidades residenciais | 38 UR | Marcadores de tipologia em ELE/HID/PCI
+T: Pavimentos | 29 níveis | IFC estrutural EST/AP R00
+T: Pavimentos tipo | 18 | IFC: Tipo 1 a Tipo 5b
+T: Altura descendente PPCI | 67,32 m | PDFs ELE/HID/PCI - VOF
+T: Garagens | 4 níveis | IFC: Garagem 1 a Garagem 4
+T: Subsolos | 0 | IFC não indica subsolo; Fundação abaixo do Térreo
+T: Vagas | 76, a confirmar | Premissa v00: 2 vagas por UR; ARQ está em DWG
+T: Elevadores | 2, a confirmar | PDFs citam elevador de emergência; torre alta
+T: Gerador | Sim | PDFs DRYWALL/PCI citam sala e posicionamento do gerador
+T: Pressurização / fumaça | Sim | PPCI cita escada pressurizada/exaustão e IN10/IN12
+T: Piscina | Sim | PDFs de lazer citam acesso à piscina
+T: Climatização | Completa | Projeto CLI com equipamentos HW/K7/CND e condensadoras
+T: Alvenaria | Mista | ALV com bloco cerâmico + DRYWALL ST/RU em várias pranchas
+T: Fachada | Textura, a confirmar | Projeto de fachada não encontrado em PDF legível
+T: Fundação | Hélice, a confirmar | IFC não tem IfcFooting/IfcPile; sem SPT legível
+T: CUB base | R$ 3.850,00/m² | Supabase specifications.ampli_indexers, SC, 2026-05
+P: Briefing V2 adotado
+T: Campo | Valor
+T: laje | Convencional
+T: subsolos | 0
+T: fundacao | Hélice
+T: padrao_acabamento | Alto
+T: fachada | Textura
+T: pressurizacao | Sim
+T: n_torres | 1
+T: gerador | Sim
+T: entrega | Completa
+T: tipologia | Misto
+T: pe_direito | Padrão (3.00)
+T: n_banheiros | 2
+T: tipo_piso | Porcelanato
+T: piscina | Sim
+P: Macrogrupos e origem
+T: Macrogrupo | R$/m² | % | Total | Premissa
+T: Gerenciamento | 468 | 11,7% | R$ 5.078.256,00 | 36 meses, torre alta, equipe técnica e canteiro do V2; benchmark alto Supabase.
+T: Mov. Terra | 17 | 0,4% | R$ 184.285,27 | Sem subsolo no IFC; movimentação de terra base por AC.
+T: Infraestrutura | 154 | 3,8% | R$ 1.664.206,26 | Fundação hélice assumida por ausência de SPT/projeto de fundação legível.
+T: Supraestrutura | 786 | 19,6% | R$ 8.518.891,30 | IFC estrutural com 29 níveis, 762 lajes, 1.410 vigas, 876 pilares; laje convencional v00.
+T: Alvenaria | 182 | 4,5% | R$ 1.968.312,00 | Bloco cerâmico ALV + drywall ST/RU em PDFs de vedação.
+T: Impermeabilização | 71 | 1,8% | R$ 770.638,98 | Índice V2 para torre com áreas molhadas, lazer e cobertura.
+T: Instalações | 476 | 11,9% | R$ 5.165.299,31 | ELE/HID/PCI completos, gás, preventivo, medições e prumadas de torre alta.
+T: Sist. Especiais | 221 | 5,5% | R$ 2.399.272,00 | Elevadores, gerador, piscina, pressurização, SPDA, bombas e ventilação de garagens.
+T: Climatização | 90 | 2,2% | R$ 975.025,58 | Projeto CLI com equipamentos; v00 reforça quantidade e infra.
+T: Rev. Int. Parede | 132 | 3,3% | R$ 1.427.377,85 | Acabamento alto com áreas molhadas e paredes internas por índice V2.
+T: Teto | 73 | 1,8% | R$ 787.176,00 | DRYWALL/FORRO com gesso acartonado ST/RU e forro em áreas comuns/privativas.
+T: Pisos | 204 | 5,1% | R$ 2.206.087,68 | Porcelanato como premissa v00 para padrão alto.
+T: Pintura | 155 | 3,8% | R$ 1.676.382,84 | Sistema acrílico/PVA por índice V2.
+T: Esquadrias | 374 | 9,3% | R$ 4.051.565,86 | Alumínio/vidro por benchmark alto; quadro não localizado em PDF.
+T: Louças e Metais | 75 | 1,9% | R$ 813.023,30 | 2 banheiros/UR como premissa v00, padrão alto.
+T: Fachada | 237 | 5,9% | R$ 2.570.706,00 | Textura como premissa conservadora; projeto de fachada não localizado.
+T: Complementares | 245 | 6,1% | R$ 2.655.813,72 | Lazer com piscina, áreas comuns, comunicação visual e paisagismo por índice.
+T: Imprevistos | 59 | 1,5% | R$ 643.685,00 | 1,5% padrão Cartesian aplicado pelo V2.
+P: Ajustes manuais v00
+T: Local | Item | Ajuste | Justificativa
+T: INDICES!C22 | Pressurização | R$ 80.000 -> R$ 180.000 | Torre alta com escada pressurizada/exaustão e controle de fumaça nos PDFs PPCI.
+T: INDICES!C23 | Gerador | R$ 180.000 -> R$ 350.000 | PDFs citam sala/posicionamento do gerador; v00 adota allowance de torre alta.
+T: Sist. Especiais | Elevadores | PUs ajustados para R$ 480.000/un | 2 elevadores em torre de 29 níveis, incluindo menção a elevador de emergência.
+T: Sist. Especiais | Ventilação garagens | 4 pavimentos x R$ 27.318 | PDFs G1/G2/G4 citam ventilação mecânica alternativa a área natural mínima.
+T: Climatização | Equipamentos e infra | 4,5 un/UR + infra R$ 18/m² | Projeto CLI traz múltiplos equipamentos HW/K7/CND; default 1,5 un/UR ficaria baixo.
+T: Louças e Metais | Escopo alto sem memorial | R$ 75/m² AC | Default V2 por UR ficava artificialmente baixo para padrão alto; usa referência entre médio-alto e alto.
+T: Complementares | Lazer e áreas comuns | Mobiliário/ambientação/equipamentos reforçados | PDFs indicam piscina, coworking, gourmet, festas, sala comercial e lazer de cobertura.
+P: Limitações para v01
+P: Arquitetura principal está em DWG; sem conversor DWG disponível nesta sessão. A v00 usa ARQ como limitação explícita.
+P: Vagas, fachada e quadro de esquadrias não foram encontrados em PDF legível e devem ser validados na v01.
+P: Sem SPT/fundação em PDF legível; fundação hélice é premissa Cartesian de v00.
+P: Não houve escrita no Supabase nem sincronização ao Drive _Parametrico_IA; esta é a versão local para validação do Leo.
+
+########## brickell-nowa-JUSTIFICATIVA-ITENS-ACIMA-MEDIA-v00-final.docx ##########
+P: Justificativa de Itens Acima da Média - Brickell Modern Home - Nowa v00
+P: Gerado: 2026-06-09T20:46:14-03:00 BRT
+P: Comparação interna filtrada por obras residenciais verticais de padrão alto/médio-alto. Nomes de obras da base Cartesian foram omitidos por confidencialidade.
+P: Total estimado: R$ 43.556.004,95 | R$/m² AC: 4.018 | CUB ratio: 1,04 | Custo/UR: R$ 1.146.210,66
+P: Maiores macrogrupos
+T: Macrogrupo | R$/m² v00 | Ref. alto | Ref. alto P75 | Leitura técnica
+T: Supraestrutura | 786 | 718 | 855 | IFC estrutural com 29 níveis, 762 lajes, 1.410 vigas, 876 pilares; laje convencional v00.
+T: Instalações | 476 | 320 | 454 | ELE/HID/PCI completos, gás, preventivo, medições e prumadas de torre alta.
+T: Gerenciamento | 468 | 640 | 1.716 | 36 meses, torre alta, equipe técnica e canteiro do V2; benchmark alto Supabase.
+T: Esquadrias | 374 | 395 | 554 | Alumínio/vidro por benchmark alto; quadro não localizado em PDF.
+T: Complementares | 245 | 262 | 365 | Lazer com piscina, áreas comuns, comunicação visual e paisagismo por índice.
+T: Fachada | 237 | 207 | 253 | Textura como premissa conservadora; projeto de fachada não localizado.
+T: Sist. Especiais | 221 | 211 | 304 | Elevadores, gerador, piscina, pressurização, SPDA, bombas e ventilação de garagens.
+T: Pisos | 204 | 237 | 638 | Porcelanato como premissa v00 para padrão alto.
+T: Alvenaria | 182 | 182 | 220 | Bloco cerâmico ALV + drywall ST/RU em PDFs de vedação.
+P: Referências Ampli
+T: Referência | Local | Área | Base | Indexado | Trend | Comprometido
+T: Blue Coast FG | SC/Itajaí | 13.818 | 3.982 | 5.930 | 6.380 | 5.889
+T: Live | SP/São Paulo | 14.888 | 2.913 | 3.326 | 4.054 | 3.607
+T: Voss | PR/Curitiba | 14.771 | 3.011 | 3.316 | 3.268 | 1.857
+P: Validações pendentes
+P: Vagas reais e quadro de áreas da arquitetura em DWG.
+P: Fachada real: textura, cerâmica, ACM ou pele de vidro.
+P: Sistema estrutural final: confirmar se é convencional ou protendido.
+P: Quantidade de elevadores/paradas e orçamento TKE/Atlas/Schindler, se existir.
+P: Memorial de acabamentos de pisos, louças, metais e esquadrias.
+
+########## brickell-nowa-ANALISE-DETALHADA-COMPARATIVO-SIMILARES-v00.docx ##########
+P: Análise detalhada - Brickell vs empreendimentos semelhantes v00
+P: Conclusão executiva
+P: Brickell: R$ 43.556.004,95, 4.018 R$/m².
+P: Média dos 5 comparáveis: 3.832 R$/m²; Brickell 4,8% acima.
+P: Mediana dos 5 comparáveis: 3.629 R$/m²; Brickell 10,7% acima.
+P: Sem Neuhaus Origem, média direta: 3.630 R$/m²; Brickell 10,7% acima.
+P: CUB atual adotado: R$ 3.850,00 (2026-05).
+P: Média corrigida por CUB dos 5 comparáveis: 5.160 R$/m² VP; Brickell -22,1% contra essa média.
+P: Mediana corrigida por CUB: 4.798 R$/m² VP; Brickell -16,3% contra a mediana.
+P: Sem Neuhaus Origem, média direta corrigida: 4.918 R$/m² VP; Brickell -18,3% contra os comparáveis diretos corrigidos.
+P: Leitura: após correção por CUB, Brickell fica competitivo contra a base histórica trazida a valor presente.
+P: Comparáveis
+T: Empreendimento | Cidade | Padrão | AC | R$/m² | CUB | R$/m² VP | Leitura VP
+T: adore-level-up | Balneário Camboriú/SC | medio-alto | 11.103 m² | 3.629 | 1,25 | 4.798 | Acima do Brickell
+T: terrassa-amaro | Itajaí/SC | alto | 10.479 m² | 3.100 | 1,12 | 4.328 | Acima do Brickell
+T: mussi-empreendimentos-chelsea | Itajaí/SC | medio-alto | 15.149 m² | 3.443 | 1,21 | 4.658 | Acima do Brickell
+T: gdi-playa-negra | Florianópolis/SC | medio-alto | 8.519 m² | 4.347 | 1,53 | 5.889 | Acima do Brickell
+T: neuhaus-origem | Florianópolis/SC | alto | 14.559 m² | 4.642 | 1,59 | 6.129 | Acima do Brickell
+P: Leitura por empreendimento
+P: adore-level-up
+P: Local/padrão: Balneário Camboriú/SC, medio-alto, residencial_vertical_alto.
+P: Porte: AC 11.102,72 m²; UR n/d; total original R$ 40.287.855,69.
+P: Custo: 3.629 R$/m². Brickell está 10,7% acima desse comparável.
+P: CUB/data: 2.911,91 em 2025-08; CUB ratio 1,25; R$/m² em valor presente 4.798.
+P: Total normalizado na AC do Brickell: R$ 39.335.662,34.
+P: Total em valor presente normalizado na AC do Brickell: R$ 52.007.891,73.
+P: Por que entra: Balneário Camboriú, SC, área praticamente igual ao Brickell e tipologia vertical alto/médio-alto. Bom comparável de porte e mercado litorâneo.
+P: terrassa-amaro
+P: Local/padrão: Itajaí/SC, alto, residencial_vertical_alto.
+P: Porte: AC 10.479,34 m²; UR n/d; total original R$ 32.487.650,19.
+P: Custo: 3.100 R$/m². Brickell está 29,6% acima desse comparável.
+P: CUB/data: 2.757,56 em 2024-04; CUB ratio 1,12; R$/m² em valor presente 4.328.
+P: Total normalizado na AC do Brickell: R$ 33.606.715,62.
+P: Total em valor presente normalizado na AC do Brickell: R$ 46.920.413,39.
+P: Por que entra: Itajaí, SC, área muito próxima e padrão alto. Entra como referência local direta, mesmo com data-base não informada no consolidado.
+P: mussi-empreendimentos-chelsea
+P: Local/padrão: Itajaí/SC, medio-alto, residencial_vertical_alto.
+P: Porte: AC 15.149,39 m²; UR 41; total original R$ 52.163.485,94.
+P: Custo: 3.443 R$/m². Brickell está 16,7% acima desse comparável.
+P: CUB/data: 2.846,12 em 2024-11; CUB ratio 1,21; R$/m² em valor presente 4.658.
+P: Total normalizado na AC do Brickell: R$ 37.326.114,21.
+P: Total em valor presente normalizado na AC do Brickell: R$ 50.491.736,02.
+P: Por que entra: Itajaí, SC, 41 UR contra 38 UR do Brickell. Área maior, mas produto e escala de unidades são muito próximos.
+P: gdi-playa-negra
+P: Local/padrão: Florianópolis/SC, medio-alto, residencial_vertical_alto.
+P: Porte: AC 8.518,60 m²; UR n/d; total original R$ 37.027.025,39.
+P: Custo: 4.347 R$/m². Esse comparável está 8,2% acima do Brickell.
+P: CUB/data: 2.841,51 em 2024-08; CUB ratio 1,53; R$/m² em valor presente 5.889.
+P: Total normalizado na AC do Brickell: R$ 47.118.599,85.
+P: Total em valor presente normalizado na AC do Brickell: R$ 63.841.622,74.
+P: Por que entra: Florianópolis, SC, residencial vertical alto/médio-alto, R$/m² próximo ao Brickell. Funciona como comparável de patamar superior operacional.
+P: neuhaus-origem
+P: Local/padrão: Florianópolis/SC, alto, residencial_vertical_alto.
+P: Porte: AC 14.559,12 m²; UR n/d; total original R$ 67.590.131,02.
+P: Custo: 4.642 R$/m². Esse comparável está 15,5% acima do Brickell.
+P: CUB/data: 2.916,12 em 2025-03; CUB ratio 1,59; R$/m² em valor presente 6.129.
+P: Total normalizado na AC do Brickell: R$ 50.325.705,56.
+P: Total em valor presente normalizado na AC do Brickell: R$ 66.442.384,54.
+P: Por que entra: Florianópolis, SC, padrão alto e área maior. Usei como limite superior para entender se Brickell está perto do teto premium.
+P: Por que o Brickell aparece acima da média direta
+P: O Brickell foi modelado como padrão alto, não médio-alto puro.
+P: A torre tem 29 níveis, altura descendente PPCI de 67,32 m e 4 níveis de garagem.
+P: O projeto tem climatização com pacote CLI real, gerador, pressurização/controle de fumaça, piscina e lazer de cobertura.
+P: Complementares e louças foram corrigidos no v00 porque o default V2 ficava baixo para o padrão do produto.
+P: Na leitura nominal, comparáveis antigos puxavam a média para baixo; na leitura por CUB, esse efeito é removido.
+P: Riscos e próximos passos
+P: Correção CUB aplicada com o mesmo CUB atual do pacote Brickell v00.
+P: Comparação usa consolidado de R$/m², não abertura item a item completa de cada obra.
+P: Se o CUB atual for substituído por outro índice oficial/Sinduscon, os valores presentes mudam proporcionalmente.
+P: Validar fachada, vagas, fundação, esquadrias e acabamentos para a v01 do Brickell.
+P: Para versão de apresentação externa, anonimizar os nomes dos empreendimentos.

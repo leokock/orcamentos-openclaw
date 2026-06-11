@@ -1,5 +1,78 @@
 # Guia de Identidade Visual Cartesian
-## Baseado no Manual de Marca Kugnharski Studio (Set/2021)
+## Baseado no Manual de Marca Kugnharski Studio (Set/2021) — atualizado com Brand Guide V2
+
+> **🎨 Padrão obrigatório** — sempre que produzir documento institucional Cartesian (ata, proposta, planilha, slide, dashboard, relatório, peça de marketing), aplicar esta paleta. Não inventar tons aproximados; usar os hex exatos abaixo.
+>
+> **Fonte oficial V2:** `Kg-Apresentação-CARTESIAN-V2.pdf` (156 páginas, distribuído internamente). Cópia local em `referencias/cartesian/branding/cartesian-brand-guide-v2.pdf` quando disponível.
+>
+> **Última atualização:** 13/05/2026 — paleta V2 oficial extraída direto do PDF (página 7 "PALETA DE CORES"). Substituiu valores aproximados que vinham do manual V1 de 2021.
+
+---
+
+## Paleta Oficial V2 (USAR ESTA)
+
+Extraída direto dos retângulos da página 7 do brand guide V2 — são os valores RGB exatos que a Kugnharski Studio definiu.
+
+| Cor | Hex | RGB | Uso |
+|---|---|---|---|
+| **Azul Cartesian** | `#245AE4` | (36, 90, 228) | Cor principal da marca — headers, títulos, destaques, fundos chamativos |
+| **Laranja Cartesian** | `#FD3400` | (253, 52, 0) | Acentos, KPIs, alertas, CTAs |
+| **Preto** | `#111111` | (17, 17, 17) | Texto principal, headers escuros |
+| **Preto puro** | `#000000` | (0, 0, 0) | Quando precisa máximo contraste |
+| **Cinza claro** | `#F4F4F4` | (244, 244, 244) | Fundos neutros, divisores |
+| **Cinza médio** | `#E7E7E9` | (231, 231, 233) | Linhas sutis, bordas suaves |
+| **Branco** | `#FFFFFF` | (255, 255, 255) | Texto sobre azul/preto, fundos limpos |
+
+### Snippet Python (openpyxl/python-pptx/matplotlib)
+
+```python
+CORES_CARTESIAN_V2 = {
+    'azul':         '245AE4',  # cor principal
+    'laranja':      'FD3400',
+    'preto':        '111111',
+    'preto_puro':   '000000',
+    'cinza_claro':  'F4F4F4',
+    'cinza_medio':  'E7E7E9',
+    'branco':       'FFFFFF',
+}
+
+# RGB tuple version
+CORES_CARTESIAN_V2_RGB = {
+    'azul':         (36, 90, 228),
+    'laranja':      (253, 52, 0),
+    'preto':        (17, 17, 17),
+    'preto_puro':   (0, 0, 0),
+    'cinza_claro':  (244, 244, 244),
+    'cinza_medio':  (231, 231, 233),
+    'branco':       (255, 255, 255),
+}
+```
+
+### Exemplo de aplicação — tabela formal (atas, relatórios)
+
+- Header da tabela: fundo `#245AE4` + texto branco bold
+- Labels meta (REUNIÃO, OBRA, etc.): fundo `#245AE4` + texto branco bold
+- Bordas das células: `#808080` finas
+- Texto do corpo: `#111111` regular
+- Fundo das linhas: branco
+
+Veja referência prática em `~/clawd/clientes/thozen/atas/2026-04-30_entrega-parcial-orcamento.md` (ata Electra Towers, gerada 13/05/2026).
+
+---
+
+## Paleta V1 — Legado (NÃO USAR em documentos novos)
+
+Mantida só pra rastreabilidade de documentos antigos. Valores estavam próximos da V2 mas não eram os hex exatos do brand guide.
+
+```python
+# DEPRECATED — use CORES_CARTESIAN_V2
+CORES_PRIMARIAS_V1 = {
+    'azul_primario':    '#2F54EB',  # V2 oficial: #245AE4
+    'vermelho_laranja': '#FF3300',  # V2 oficial: #FD3400
+    'preto':            '#231F20',  # V2 oficial: #111111
+    'cinza_claro':      '#E6E6E6',  # V2 oficial: #E7E7E9
+}
+```
 
 ---
 
@@ -64,8 +137,8 @@ CORES_EXPANDIDAS = {
 - Grafismo: Branco com 20-30% opacidade
 
 **AMPLI (Plataforma):**
-- Primária: Roxo #9333EA
-- Secundária: Azul #2F54EB
+- Primária: Roxo `#9333EA`
+- Secundária: Azul `#2F54EB`
 - Fundo: Branco
 - Grafismo: Roxo ou Azul com baixa opacidade
 

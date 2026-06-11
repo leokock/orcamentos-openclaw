@@ -1,0 +1,223 @@
+{
+  "_gerado_em": "2026-05-29",
+  "_descricao": "Premissas viabilidade Placon Hermann Blumenau - adaptado do Arminio. Obra 32 meses, 35 UR, AC 5877.96 m2 (privativa 3564.73 m2). Custo base lido em runtime do parametrico (Grand Total ~R$ 24,45 mi).",
+  "projeto": {
+    "nome": "Placon Hermann Blumenau",
+    "cidade": "Florianópolis",
+    "bairro": "Centro",
+    "estado": "SC",
+    "cliente": "Placon Empreendimentos Imobiliários Ltda",
+    "area_construida_m2": 5877.96,
+    "area_privativa_m2": 3564.73,
+    "n_unidades": 35,
+    "prazo_obra_meses": 32,
+    "prazo_pre_lancamento_meses": 3,
+    "prazo_pos_obra_meses": 12,
+    "pct_area_privativa": 0.6065,
+    "_pct_area_privativa_fonte": "3564.73/5877.96 (PL R05; inclui vagas na privativa pela definicao PMF).",
+    "permuta_pct_unidades": 0.0,
+    "_permuta_nota": "Sem permuta fisica assumida - ajustar se contrato final tiver permuta."
+  },
+  "custo": {
+    "_fonte": "parametrico-placon-hermann-blumenau.xlsx CUSTOS_MACROGRUPO!D22 (runtime) ~R$ 24.445.536; RSM2 ~R$ 4.159.",
+    "contingencia_pct": 0.05
+  },
+  "receita": {
+    "vgv_m2_base": 16000,
+    "_vgv_m2_fonte": "PREMISSA Leo R$ 16.000/m2 (centro Floripa M-A, apto ~82 m2). VALIDAR com Placon/pesquisa. Sensibilidade -15%/+10%.",
+    "entrada_pct": 0.2,
+    "obra_pct": 0.4,
+    "repasse_pct": 0.4,
+    "inadimplencia_pct": 0.03
+  },
+  "financeiras": {
+    "cub_aa": 0.07,
+    "_cub_fonte": "CUB/SC indexador padrao SC ~7% a.a.",
+    "tma_aa": 0.14,
+    "_tma_fonte": "custo de capital incorporadora media porte SC 2026 (~14%)."
+  },
+  "comercial": {
+    "corretagem_pct": 0.05,
+    "marketing_pct": 0.03,
+    "marketing_front_pct": 0.0,
+    "ret_pct": 0.04,
+    "_ret_fonte": "RET Patrimonio de Afetacao 4%.",
+    "adm_incorporadora_pct": 0.02
+  },
+  "curva_vendas": {
+    "_modelo": "logistica cumulativa",
+    "t_inicio": -2,
+    "t50": 16,
+    "k": 0.16,
+    "_t50_nota": "t50=16 (~metade da obra de 32 meses)."
+  },
+  "curva_obra_por_macrogrupo": {
+    "Gerenciamento": [
+      1,
+      32
+    ],
+    "Mov. Terra": [
+      1,
+      4
+    ],
+    "Infraestrutura": [
+      1,
+      9
+    ],
+    "Supraestrutura": [
+      4,
+      20
+    ],
+    "Alvenaria": [
+      9,
+      23
+    ],
+    "Impermeabilização": [
+      5,
+      27
+    ],
+    "Instalações": [
+      11,
+      31
+    ],
+    "Sist. Especiais": [
+      20,
+      31
+    ],
+    "Climatização": [
+      21,
+      31
+    ],
+    "Rev. Int. Parede": [
+      16,
+      28
+    ],
+    "Teto": [
+      20,
+      31
+    ],
+    "Pisos": [
+      21,
+      31
+    ],
+    "Pintura": [
+      23,
+      32
+    ],
+    "Esquadrias": [
+      20,
+      31
+    ],
+    "Louças e Metais": [
+      23,
+      31
+    ],
+    "Fachada": [
+      16,
+      28
+    ],
+    "Complementares": [
+      25,
+      32
+    ],
+    "Imprevistos": [
+      1,
+      32
+    ]
+  },
+  "curva_mensal_obra_pct": {
+    "_descricao": "Curva S 32 meses, soma 1.0.",
+    "_soma": "100%",
+    "valores": [
+      0.00479,
+      0.00627,
+      0.00818,
+      0.01062,
+      0.0137,
+      0.01755,
+      0.02227,
+      0.0279,
+      0.03443,
+      0.04169,
+      0.04934,
+      0.05685,
+      0.06349,
+      0.0685,
+      0.0712,
+      0.0712,
+      0.06851,
+      0.06349,
+      0.05685,
+      0.04934,
+      0.04169,
+      0.03443,
+      0.0279,
+      0.02227,
+      0.01755,
+      0.0137,
+      0.01062,
+      0.00818,
+      0.00627,
+      0.00479,
+      0.00365,
+      0.00278
+    ]
+  },
+  "monte_carlo": {
+    "n_iter": 10000,
+    "seed": 42,
+    "_base_nota": "Base MC = Grand Total parametrico V2 (~R$ 24,45 mi). Range estreito (V2 calibrado ~+/-10%).",
+    "vgv_m2_tri": [
+      13600,
+      16000,
+      19000
+    ],
+    "_vgv_tri_nota": "Pessimista R$13,6k (-15%), base R$16k, otimista R$19k.",
+    "custo_obra_fator_tri": [
+      0.95,
+      1.0,
+      1.12
+    ],
+    "t50_vendas_tri": [
+      10,
+      16,
+      27
+    ],
+    "cub_aa_tri": [
+      0.04,
+      0.07,
+      0.11
+    ],
+    "corr_vgv_t50": -0.4
+  },
+  "tornado": {
+    "variacao_pct": 0.2,
+    "variaveis": [
+      "vgv_m2_base",
+      "custo_obra_fator",
+      "t50_vendas",
+      "entrada_pct",
+      "corretagem_pct",
+      "ret_pct",
+      "cub_aa",
+      "tma_aa"
+    ]
+  },
+  "cenarios": {
+    "pessimista": {
+      "vgv_fator": 0.85,
+      "custo_fator": 1.1,
+      "t50_delta": 6
+    },
+    "base": {
+      "vgv_fator": 1.0,
+      "custo_fator": 1.0,
+      "t50_delta": 0
+    },
+    "otimista": {
+      "vgv_fator": 1.1,
+      "custo_fator": 0.95,
+      "t50_delta": -3
+    }
+  }
+}

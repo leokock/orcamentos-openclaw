@@ -1,0 +1,85 @@
+{
+  "_gerado_em": "2026-05-13",
+  "_fonte": "Estudo de viabilidade Zermiani Schäfer — 72-MG3-3198 COM 3144 - 1 POR PAVIMENTO.pdf (PDF + 2 renders) recebido do Gustavo (MG3) via Leo",
+  "_status": "PRELIMINAR PARA DISCUSSAO — todas as premissas marcadas a confirmar com Gustavo em 14/mai/2026",
+  "_obs": "Padrão Alto preliminar (aprovado por Leo). Fachada Textura é placeholder conservador — alta probabilidade de virar Cerâmica/Pele de vidro/ACM em alto padrão BC com 132m de altura.",
+
+  "nome": "MG3 Rua 3198 com Rua 3144",
+  "cidade": "Balneário Camboriú",
+  "estado": "SC",
+  "regiao": "Litoral Norte SC",
+  "endereco": "Esquina Rua 3198 com Rua 3144, Balneário Camboriú - SC",
+  "arquiteto": "Zermiani Schäfer Arquitetura e Consultoria",
+
+  "area_terreno": 935.00,
+  "ac": 13392.02,
+  "area_coberta": 12836.94,
+  "area_descoberta": 650.00,
+  "area_privativa": 3584.00,
+  "area_privativa_icon": 3097.52,
+  "area_comum": 6506.50,
+  "pct_area_comum": 0.4858,
+  "pct_area_privativa": 0.2676,
+  "pct_area_privativa_icon": 0.2313,
+
+  "ur": 31,
+  "ur_status": "30 tipos + 1 duplex cobertura — confirmar se duplex conta como 1 ou 2 UH",
+  "salas_comerciais": 4,
+  "salas_status": "4 salas no térreo (240 m² total) — confirmar escopo de entrega (cruas vs prontas)",
+
+  "np": 41,
+  "np_observacao": "41 pavimentos contando técnicos: térreo (1) + mezanino (1) + G1-G4 (4) + lazer (1) + tipo dif (1) + 29 tipo + duplex inf/sup (2) + 2 casa máq + reservatório. Sem subsolos.",
+  "npt": 30,
+  "npt_observacao": "29 TIPO + 1 TIPO DIFERENCIADO (pav. 7, 374 m²)",
+  "pavtos_garagem_sobre_solo": 4,
+  "pavto_lazer": 1,
+  "pavtos_tecnicos_topo": 3,
+
+  "altura_total": 132.74,
+  "altura_ppci": 121.78,
+  "pe_direito_tipo_real": 3.24,
+  "esbeltez": "Alta (#DIV/0! no PDF — terreno 935 m² × 132 m de altura)",
+
+  "elev": 3,
+  "elev_status": "Premissa: 2 social + 1 serviço. 3 casas de máquina no topo (pavs 39-41 incluem reservatório). Confirmar com Gustavo.",
+  "vag": 110,
+  "vag_minimo": 76,
+  "vag_extra": 34,
+
+  "prazo": 38,
+  "prazo_status": "Premissa: 38 meses para torre 132m. Confirmar com Gustavo — pode subir pra 42 dependendo da fundação.",
+  "cub": 3028.45,
+  "cub_status": "CUB-SC referência (data-base Placon abr/26). Atualizar para mai/2026 quando rodar paramétrico oficial.",
+
+  "briefing": {
+    "laje": "Protendida",
+    "subsolos": "0",
+    "fundacao": "Hélice",
+    "padrao_acabamento": "Alto",
+    "fachada": "Textura",
+    "pressurizacao": "Sim",
+    "n_torres": "1",
+    "gerador": "Sim",
+    "entrega": "Completa",
+    "tipologia": "3-4 Dormitórios",
+    "pe_direito": "Alto (3.20)",
+    "n_banheiros": "3",
+    "tipo_piso": "Porcelanato",
+    "piscina": "Sim"
+  },
+
+  "_premissas_pendentes_briefing": [
+    "Laje Protendida (placeholder — pavtos tipo 245 m² com 1 apto/pavto sugerem vãos longos)",
+    "Subsolos 0 (PDF confirma G1-G4 sobressolo — risco: cisterna/fosso elevador conta como meio-subsolo)",
+    "Fundação Hélice (premissa BC default — sondagem decide; raiz/tubulão se for o caso)",
+    "Padrão Alto (aprovado Leo — Gustavo pode subir pra Luxo)",
+    "Fachada Textura (placeholder — risco grande: pele de vidro/ACM/cerâmica premium dobra o R$/m² fachada)",
+    "Pressurização Sim (NBR 14880 obriga para altura ≥30 m)",
+    "Gerador Sim (premissa alto padrão + carga elevada)",
+    "Tipologia 3-4 Dorms (199 m² priv + duplex topo → consistente; confirmar nº suítes)",
+    "Pé-direito 3.20 (real 3,24 mapeado pro bucket 'Alto (3.20)')",
+    "3 banheiros/apto (premissa alto padrão; pode ser 4 no duplex e nos tipos premium)",
+    "Piscina Sim (lazer 820 m² em BC sem piscina é raro)",
+    "Prazo 38 meses (132m torre — calibrar com Gustavo)"
+  ]
+}

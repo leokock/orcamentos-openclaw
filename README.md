@@ -1,5 +1,7 @@
 # Orcamentos Cartesian Engenharia
 
+> **Nota 2026-06-10:** este repo nao e mais o workspace oficial do bot `@Cartesiano` nem a fonte canonica de documentacao da equipe. O bot agora le `C:\Users\leona\cartesian` (`github.com/cartesian-engenharia/cartesian`). Mantenha este repo como legado operacional, dados, scripts historicos e backend de junctions; novas regras/workflows entram primeiro em `~/cartesian`.
+
 Workspace centralizado de orcamentacao parametrica e executiva.
 
 ---
