@@ -15,7 +15,7 @@ E faz UPSERT idempotente nas TABELAS NOVAS (jamais nas antigas):
     - ingest_runs                1 linha de controle (status running -> done)
 
 Regras:
-    - fonte_leva = "drive-53-pastas-2026-06"
+    - fonte_leva = --fonte-leva (default "drive-53-pastas-2026-06")
     - vintage calculado em Python a partir de data_base (YYYY + 'Q' + trimestre, ex 2026Q2).
     - Reusa a credencial service_role do .env.indices-cartesian (mesmo padrão do
       scripts/ingestar_indices_supabase.py).
@@ -61,7 +61,9 @@ STAGING_ROOT = Path(
     r"C:\Users\leona\openclaw\_local\base-custos-historica\staging"
 )
 
-FONTE_LEVA = "drive-53-pastas-2026-06"
+FONTE_LEVA_DEFAULT = "drive-53-pastas-2026-06"
+# Levas do Memorial (`memorial-<fonte>@<trimestre>`) têm semântica de REPLACE por safra.
+MEMORIAL_FONTE_PREFIX = "memorial-"
 SCRIPT_VERSION = "carregar_fato_supabase.py@v1"
 
 BATCH_SIZE = 500
@@ -170,7 +172,7 @@ def chunked(iterable: Iterable, size: int):
 # Transformadores staging -> linha das tabelas novas
 # ----------------------------------------------------------------------------
 
-def build_fato_projeto(projeto: dict, run_id: int | None) -> dict:
+def build_fato_projeto(projeto: dict, run_id: int | None, fonte_leva: str) -> dict:
     data_base = to_date(projeto.get("data_base"))
     vintage = vintage_from_data_base(projeto.get("data_base")) or to_text(projeto.get("vintage"))
     return {
@@ -187,12 +189,12 @@ def build_fato_projeto(projeto: dict, run_id: int | None) -> dict:
         "disciplinas": projeto.get("disciplinas") or {},
         "data_base": data_base,
         "vintage": vintage,
-        "fonte_leva": FONTE_LEVA,
+        "fonte_leva": fonte_leva,
         "run_id": run_id,
     }
 
 
-def build_fato_item(item: dict, projeto: dict, run_id: int | None) -> dict:
+def build_fato_item(item: dict, projeto: dict, run_id: int | None, fonte_leva: str) -> dict:
     data_base = to_date(item.get("data_base") or projeto.get("data_base"))
     vintage = (
         vintage_from_data_base(item.get("data_base") or projeto.get("data_base"))
@@ -224,12 +226,12 @@ def build_fato_item(item: dict, projeto: dict, run_id: int | None) -> dict:
         "revisao": to_text(item.get("revisao")),
         "completeness_tier": to_text(completude.get("tier")),
         "completeness_score": to_numeric(completude.get("score")),
-        "fonte_leva": FONTE_LEVA,
+        "fonte_leva": fonte_leva,
         "run_id": run_id,
     }
 
 
-def build_fato_insumo(insumo: dict, item_id: int, projeto: dict, run_id: int | None) -> dict:
+def build_fato_insumo(insumo: dict, item_id: int, projeto: dict, run_id: int | None, fonte_leva: str) -> dict:
     data_base = to_date(insumo.get("data_base") or projeto.get("data_base"))
     vintage = (
         vintage_from_data_base(insumo.get("data_base") or projeto.get("data_base"))
@@ -249,7 +251,7 @@ def build_fato_insumo(insumo: dict, item_id: int, projeto: dict, run_id: int | N
         "total": to_numeric(insumo.get("total")),
         "data_base": data_base,
         "vintage": vintage,
-        "fonte_leva": FONTE_LEVA,
+        "fonte_leva": fonte_leva,
         "run_id": run_id,
     }
 
@@ -263,7 +265,12 @@ def carregar_slug(
     slug: str,
     run_id: int | None,
     dry_run: bool,
+    fonte_leva: str = FONTE_LEVA_DEFAULT,
 ) -> dict:
+    """`slug` aqui é o NOME DO DIRETÓRIO de staging. No Drive ele é o próprio slug;
+    nas levas do Memorial é `<slug>@<fonte_leva>`, porque a mesma obra pode ter dois
+    lotes (fonte cliente e fonte Cartesian) na mesma safra e eles não podem dividir
+    a mesma pasta. O slug que vai pro banco é sempre o de `projeto.json`."""
     base = STAGING_ROOT / slug
     projeto_path = base / "projeto.json"
     itens_path = base / "itens.jsonl"
@@ -273,11 +280,14 @@ def carregar_slug(
         raise FileNotFoundError(f"projeto.json não encontrado para slug={slug} em {projeto_path}")
 
     projeto = read_json(projeto_path)
-    print(f"\n=== {slug} ===")
+    slug_real = to_text(projeto.get("slug")) or slug
+    cabecalho = slug_real if slug_real == slug else f"{slug_real} (staging {slug})"
+    print(f"\n=== {cabecalho} ===")
     print(f"  data_base={projeto.get('data_base')} vintage(calc)={vintage_from_data_base(projeto.get('data_base'))}")
 
     stats = {
-        "slug": slug,
+        "slug": slug_real,
+        "staging_dir": slug,
         "projeto_upserted": 0,
         "itens_lidos": 0,
         "itens_upserted": 0,
@@ -287,7 +297,7 @@ def carregar_slug(
     }
 
     # --- 1) fato_projetos (upsert por slug,fonte_leva) ---
-    proj_row = build_fato_projeto(projeto, run_id)
+    proj_row = build_fato_projeto(projeto, run_id, fonte_leva)
     if dry_run:
         print(f"  [dry-run] fato_projetos upsert: {json.dumps({k: proj_row[k] for k in ('slug','ac_m2','total_rs','data_base','vintage','fonte_leva')}, ensure_ascii=False)}")
     else:
@@ -297,7 +307,32 @@ def carregar_slug(
     # --- 2) fato_itens (upsert por source_sha1,source_sheet,source_row) ---
     itens_raw = list(read_jsonl(itens_path))
     stats["itens_lidos"] = len(itens_raw)
-    item_rows = [build_fato_item(it, projeto, run_id) for it in itens_raw]
+    item_rows = [build_fato_item(it, projeto, run_id, fonte_leva) for it in itens_raw]
+
+    # --- 2a) levas do Memorial: REPLACE, não acúmulo ---
+    # Recarregar a MESMA safra do Memorial (mesma obra, mesmo trimestre) é revisão do
+    # mesmo orçamento: os itens antigos daquele (slug, fonte_leva) saem antes do upsert,
+    # senão uma versão com menos linhas deixaria órfãos somando no total da obra.
+    # Fontes do Drive não passam por aqui — comportamento inalterado.
+    # O filtro usa `slug_real` (o de projeto.json), nunca o nome do diretório.
+    if str(fonte_leva).startswith(MEMORIAL_FONTE_PREFIX):
+        if dry_run:
+            n = "N=? (sem cliente)"
+            if client is not None:
+                resp = (
+                    client.table("fato_itens")
+                    .select("id", count="exact")
+                    .eq("slug", slug_real)
+                    .eq("fonte_leva", fonte_leva)
+                    .execute()
+                )
+                n = str(resp.count if resp.count is not None else len(resp.data or []))
+            print(f"  [dry-run] fato_itens: apagaria {n} linhas de ({slug_real}, {fonte_leva}) antes do upsert")
+        else:
+            # insumos primeiro (apontam pra fato_itens.id)
+            client.table("fato_composicao_insumos").delete().eq("slug", slug_real).eq("fonte_leva", fonte_leva).execute()
+            client.table("fato_itens").delete().eq("slug", slug_real).eq("fonte_leva", fonte_leva).execute()
+            print(f"  fato_itens/fato_composicao_insumos: linhas anteriores de ({slug_real}, {fonte_leva}) removidas (REPLACE da safra)")
 
     # Conjunto de chaves naturais existentes ANTES do upsert (pra saber quais são novos).
     chaves = [(r["source_sha1"], r["source_sheet"], r["source_row"]) for r in item_rows]
@@ -310,7 +345,7 @@ def carregar_slug(
                 client.table("fato_itens")
                 .select("source_sha1,source_sheet,source_row")
                 .eq("source_sha1", sha)
-                .eq("fonte_leva", FONTE_LEVA)
+                .eq("fonte_leva", fonte_leva)
                 .execute()
             )
             for row in (resp.data or []):
@@ -357,7 +392,7 @@ def carregar_slug(
             .eq("source_sha1", sha_anchor)
             .eq("source_sheet", sheet_anchor)
             .eq("source_row", row_anchor)
-            .eq("fonte_leva", FONTE_LEVA)
+            .eq("fonte_leva", fonte_leva)
             .limit(1)
             .execute()
         )
@@ -365,7 +400,7 @@ def carregar_slug(
             raise RuntimeError(f"Não achei item âncora pra insumos do slug={slug}")
         anchor_item_id = resp.data[0]["id"]
 
-        insumo_rows = [build_fato_insumo(ins, anchor_item_id, projeto, run_id) for ins in insumos_raw]
+        insumo_rows = [build_fato_insumo(ins, anchor_item_id, projeto, run_id, fonte_leva) for ins in insumos_raw]
         enviados = 0
         for batch in chunked(insumo_rows, BATCH_SIZE):
             client.table("fato_composicao_insumos").insert(batch).execute()
@@ -380,12 +415,12 @@ def carregar_slug(
 # ingest_runs
 # ----------------------------------------------------------------------------
 
-def abrir_run(client: Client, slugs: list[str]) -> int:
+def abrir_run(client: Client, slugs: list[str], fonte_leva: str) -> int:
     resp = (
         client.table("ingest_runs")
         .insert(
             {
-                "fonte_leva": FONTE_LEVA,
+                "fonte_leva": fonte_leva,
                 "status": "running",
                 "script_version": SCRIPT_VERSION,
                 "params": {"slugs": slugs, "staging_root": str(STAGING_ROOT)},
@@ -434,6 +469,11 @@ def main() -> int:
     parser.add_argument("slugs", nargs="*", help="Slugs a carregar (subpastas de staging).")
     parser.add_argument("--all", action="store_true", help="Carrega todos os slugs em staging.")
     parser.add_argument("--dry-run", action="store_true", help="Só lê e imprime; não escreve no Supabase.")
+    parser.add_argument(
+        "--fonte-leva",
+        default=FONTE_LEVA_DEFAULT,
+        help="Rótulo da leva/fonte (chave de upsert junto com slug). Default = leva do Drive.",
+    )
     args = parser.parse_args()
 
     if args.all:
@@ -455,19 +495,19 @@ def main() -> int:
         return 1
 
     print(f"> Conectando no Supabase: {url}")
-    print(f"> fonte_leva = {FONTE_LEVA}")
+    print(f"> fonte_leva = {args.fonte_leva}")
     print(f"> slugs = {slugs}")
     client = create_client(url, key)
 
     run_id = None
     if not args.dry_run:
-        run_id = abrir_run(client, slugs)
+        run_id = abrir_run(client, slugs, args.fonte_leva)
 
     all_stats = []
     status_final = "done"
     try:
         for slug in slugs:
-            st = carregar_slug(client, slug, run_id, args.dry_run)
+            st = carregar_slug(client, slug, run_id, args.dry_run, fonte_leva=args.fonte_leva)
             all_stats.append(st)
     except Exception as e:
         status_final = "error"

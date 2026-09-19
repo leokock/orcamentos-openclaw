@@ -27,6 +27,8 @@ scripts/slack_config.json
 scripts/test_channel_access.py
 scripts/upload_*.py
 *.env
+.env.*
+.env.memorial
 credentials*
 
 # Apresentacoes (pptx pode passar de 100MB — GitHub bloqueia)
