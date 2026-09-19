@@ -90,6 +90,9 @@ class Lote:
     # ordenação entre lotes concorrentes do mesmo (slug, fonte, vintage) — ruling C1
     version_number: int | None = None
     criado_em: str | None = None
+    # avisos não-bloqueantes sobre como o lote foi montado (ex.: fonte B caiu no fallback
+    # "sem_filhos" por não ter nenhum is_leaf=True) — vai pro registro em memorial_obras.json
+    flags: list[str] = field(default_factory=list)
 
 
 # ----------------------------------------------------------------------------
@@ -246,6 +249,13 @@ def folhas(itens: list[dict], modo: str) -> list[dict]:
             return []
         lmax = max(niveis)
         return [i for i in itens if i.get("level") == lmax]
+    if modo == "sem_filhos":
+        # folha = item que nenhum outro item do MESMO lote referencia como parent_id —
+        # independente do nível. Um lote pode juntar workbooks de profundidades diferentes
+        # (bug real do Estreito): "nível máximo do lote inteiro" descarta as folhas do
+        # workbook mais raso e mantém subtotais intermediários do mais fundo.
+        pais = {i["parent_id"] for i in itens if i.get("parent_id")}
+        return [i for i in itens if i["item_id"] not in pais]
     raise ValueError(f"modo invalido: {modo}")
 
 
@@ -558,7 +568,10 @@ def montar_lotes(extratos: dict[str, list[dict]], hoje: date) -> list[Lote]:
             brutos.extend(normalizar_itens_cliente(itens_por_import.get(im["id"], [])))
         com_macro = atribuir_macrogrupo(brutos)
         nivel1 = [i for i in com_macro if i.get("level") == 1]
-        folhas_a = folhas(com_macro, "nivel_max")
+        # folha = item sem filhos no lote (não "nível máximo do lote"): um lote pode juntar
+        # vários workbooks do cliente com profundidades diferentes (Florença: 3 workbooks no
+        # mesmo import_batch_id) e "nível máximo do lote inteiro" descartava as folhas rasas.
+        folhas_a = folhas(com_macro, "sem_filhos")
         imported_at = min(str(im["imported_at"])[:10] for im in ims)
         data_base, origem, conf = escolher_data_base([], (imported_at, "budget_client_reference_imports.imported_at"), hoje)
         project_id_a = ims[0].get("project_id") or ""
@@ -580,7 +593,15 @@ def montar_lotes(extratos: dict[str, list[dict]], hoje: date) -> list[Lote]:
         proj = projects.get(bud.get("project_id"), {})
         cli = clients.get(bud.get("client_id") or proj.get("client_id"), {})
         itens_b = atribuir_macrogrupo(normalizar_itens_snapshot(snap.get("items") or [], version_id=v.get("version_id")))
-        folhas_b = [i for i in folhas(itens_b, "is_leaf") if i.get("total")]
+        folhas_is_leaf = folhas(itens_b, "is_leaf")
+        flags_b: list[str] = []
+        if not folhas_is_leaf and itens_b:
+            # snapshot sem nenhum is_leaf=True (contrato quebrado) mas com itens: cai no
+            # mesmo critério robusto da fonte A em vez de zerar o lote inteiro.
+            folhas_b = [i for i in folhas(itens_b, "sem_filhos") if i.get("total")]
+            flags_b.append("folhas_por_sem_filhos")
+        else:
+            folhas_b = [i for i in folhas_is_leaf if i.get("total")]
         if not bud.get("project_id"):
             # sem project_id nao ha chave de identidade confiavel: nunca elegivel, mesmo com folhas suficientes
             quarentena = "sem_project_id"
@@ -599,7 +620,7 @@ def montar_lotes(extratos: dict[str, list[dict]], hoje: date) -> list[Lote]:
             revisao=str(v.get("version_number")) if v.get("version_number") is not None else None,
             ac=_ac_do_projeto(bud.get("project_id") or "", ex), quarentena=quarentena,
             version_number=int(v["version_number"]) if v.get("version_number") is not None else None,
-            criado_em=str(v.get("created_at") or ""),
+            criado_em=str(v.get("created_at") or ""), flags=flags_b,
         ))
     return lotes
 
@@ -826,7 +847,7 @@ def _parser() -> argparse.ArgumentParser:
             g = s.add_mutually_exclusive_group()
             g.add_argument("--dry-run", action="store_true", default=True)
             g.add_argument("--apply", action="store_true")
-            s.add_argument("--strict", action="store_true", help="com --apply: recusa (exit 3) se houver pendência ou quarentena")
+            s.add_argument("--strict", action="store_true", help="com --apply: recusa (exit 3) se houver lote pendente de decisão; quarentena não bloqueia")
     return p
 
 
@@ -918,8 +939,8 @@ def run(argv: list[str] | None = None) -> int:
     if not args.apply:
         print("> dry-run: staging escrito; nada enviado ao Supabase do CUB.")
         return 0
-    if args.strict and (pendentes or quarentena):
-        print("RECUSADO (--strict): há pendências/quarentena; resolva antes de --apply.", file=sys.stderr)
+    if args.strict and pendentes:
+        print("RECUSADO (--strict): há lotes pendentes de identidade/data-base; resolva em memorial_slug_overrides.json antes de --apply.", file=sys.stderr)
         return 3
 
     # I8/F1: mesmo snapshot E mesmo plano já aplicados -> no-op (o equivalente local

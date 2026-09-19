@@ -413,6 +413,33 @@ def test_run_listar_e_coletar_dry_run(tmp_path, monkeypatch):
     assert rc == 3
 
 
+def test_apply_strict_nao_bloqueia_por_quarentena(tmp_path, monkeypatch):
+    """Quarentena é informativa (SPEC: 'listado com motivo; nunca carregado; nunca
+    apagado') e não pode bloquear --apply --strict — só pendente de identidade/data-base
+    bloqueia. Cenário: P1 (fonte cliente) decidido no De-Para -> pronto; P2 (fonte
+    Cartesian) cai em quarentena por poucas_folhas (sem decisão nenhuma pendente)."""
+    ex = _extratos_basicos()
+    ex["versions"][0]["snapshot"]["items"] = ex["versions"][0]["snapshot"]["items"][:10]  # força poucas_folhas em P2
+    chamadas = []
+    import subprocess
+
+    monkeypatch.setattr(fm, "carregar_env", lambda env_file=None: ("https://x", "k"))
+    monkeypatch.setattr(fm, "MemorialClient", lambda url, key: object())
+    monkeypatch.setattr(fm, "extrair", lambda client, desde=None: ex)
+    monkeypatch.setattr(fm, "STAGING_ROOT", tmp_path / "staging")
+    monkeypatch.setattr(fm, "SNAPSHOT_ROOT", tmp_path / "snap")
+    monkeypatch.setattr(subprocess, "call", lambda cmd: chamadas.append(cmd) or 0)
+    regras = tmp_path / "q.json"
+    regras.write_text(json.dumps(REGRAS), encoding="utf-8")
+    ov = tmp_path / "ov.json"
+    ov.write_text(json.dumps({"rows": [{"memorial_project_id": "P1", "slug_cub": "NOVO",
+                                        "data_base_confirmada": "2026-09-01"}]}), encoding="utf-8")
+
+    rc = fm.run(["coletar", "--apply", "--strict", "--quarentena", str(regras), "--overrides", str(ov)])
+    assert rc == 0
+    assert len(chamadas) == 1        # loader chamado uma vez (só a fonte pronta, P1)
+
+
 def test_coletar_zero_prontos_sobrescreve_memorial_obras_com_lista_vazia(tmp_path, monkeypatch):
     """Fix round 1 (Important): memorial_obras.json não pode ficar stale quando um `coletar`
     não resulta em nenhum lote pronto (override removido / nova regra de quarentena) — a aba
@@ -816,3 +843,74 @@ def test_staging_separa_fontes_distintas_da_mesma_obra(tmp_path, monkeypatch):
     por_fonte = {c[c.index("--fonte-leva") + 1]: c[c.index("--fonte-leva") + 2:] for c in chamadas}
     assert por_fonte["memorial-referencia-cliente@2026Q3"] == [dir_a.name]
     assert por_fonte["memorial-versao-cartesian@2026Q3"] == [dir_b.name]
+
+
+# ------------------------------------------------------------------ fix round 3 (folha = sem filhos)
+
+
+def test_folhas_sem_filhos_mistura_de_profundidades():
+    """Bug real (Estreito, 2026-09-18): um lote fonte A junta workbooks de profundidades
+    diferentes. `nivel_max` olha o nível máximo do LOTE INTEIRO e descarta as folhas do
+    workbook mais raso — `sem_filhos` não depende do nível, só de não ter filho no lote."""
+    itens = [
+        {"item_id": "a", "parent_id": None, "level": 1, "descricao": "workbook 1", "total": None},
+        {"item_id": "b", "parent_id": "a", "level": 2, "descricao": "folha rasa 1", "total": Decimal("10")},
+        {"item_id": "c", "parent_id": "a", "level": 2, "descricao": "folha rasa 2", "total": Decimal("20")},
+        {"item_id": "x", "parent_id": None, "level": 1, "descricao": "workbook 2", "total": None},
+        {"item_id": "y", "parent_id": "x", "level": 2, "descricao": "intermediario", "total": None},
+        {"item_id": "z1", "parent_id": "y", "level": 3, "descricao": "folha funda 1", "total": Decimal("5")},
+        {"item_id": "z2", "parent_id": "y", "level": 3, "descricao": "folha funda 2", "total": Decimal("5")},
+    ]
+    assert [i["item_id"] for i in fm.folhas(itens, "sem_filhos")] == ["b", "c", "z1", "z2"]
+    # documenta o bug antigo: nivel_max só pega o nível mais fundo do lote inteiro
+    assert [i["item_id"] for i in fm.folhas(itens, "nivel_max")] == ["z1", "z2"]
+
+
+def test_montar_lotes_fonte_a_usa_sem_filhos():
+    """Mesma mistura de profundidades, agora dentro de um lote fonte A de verdade
+    (dois imports do mesmo import_batch_id): a soma das folhas tem que reconciliar
+    com a soma do nível 1 — o que falhava com `nivel_max` (Estreito: R$153,2 M vs R$201,3 M)."""
+    ex = {
+        "imports": [
+            {"id": "i1", "project_id": "P1", "client_id": "C1", "import_batch_id": "BX",
+             "imported_at": "2026-09-10T12:00:00+00:00"},
+            {"id": "i2", "project_id": "P1", "client_id": "C1", "import_batch_id": "BX",
+             "imported_at": "2026-09-10T12:01:00+00:00"},
+        ],
+        "import_items": [
+            # workbook 1: raso (level1 'a' -> folhas level2 'b','c')
+            {"id": "a", "import_id": "i1", "parent_id": None, "level": 1, "sort_order": 1, "line_code": "01",
+             "description": "01. SUPRAESTRUTURA", "unit": None, "quantity": None, "client_unit_cost": None,
+             "client_total_price": "100"},
+            {"id": "b", "import_id": "i1", "parent_id": "a", "level": 2, "sort_order": 1, "line_code": "01.01",
+             "description": "Concreto", "unit": "m3", "quantity": "10", "client_unit_cost": "6",
+             "client_total_price": "60"},
+            {"id": "c", "import_id": "i1", "parent_id": "a", "level": 2, "sort_order": 2, "line_code": "01.02",
+             "description": "Aço", "unit": "kg", "quantity": "100", "client_unit_cost": "0.4",
+             "client_total_price": "40"},
+            # workbook 2: fundo (level1 'x' -> level2 'y' -> folhas level3 'z1','z2')
+            {"id": "x", "import_id": "i2", "parent_id": None, "level": 1, "sort_order": 1, "line_code": "02",
+             "description": "02. ESQUADRIAS", "unit": None, "quantity": None, "client_unit_cost": None,
+             "client_total_price": "40"},
+            {"id": "y", "import_id": "i2", "parent_id": "x", "level": 2, "sort_order": 1, "line_code": "02.01",
+             "description": "Janelas", "unit": None, "quantity": None, "client_unit_cost": None,
+             "client_total_price": "40"},
+            {"id": "z1", "import_id": "i2", "parent_id": "y", "level": 3, "sort_order": 1, "line_code": "02.01.01",
+             "description": "Vidro", "unit": "m2", "quantity": "10", "client_unit_cost": "3",
+             "client_total_price": "30"},
+            {"id": "z2", "import_id": "i2", "parent_id": "y", "level": 3, "sort_order": 2, "line_code": "02.01.02",
+             "description": "Esquadria", "unit": "un", "quantity": "5", "client_unit_cost": "2",
+             "client_total_price": "10"},
+        ],
+        "versions": [],
+        "budgets": [],
+        "projects": [{"id": "P1", "project_name": "Teste", "client_id": "C1", "city": "Itajaí", "state": "SC", "status": "new"}],
+        "clients": [{"id": "C1", "name": "Cliente X", "city": "Itajaí", "state": "SC"}],
+        "project_towers": [], "tower_floors": [], "project_building_data": [],
+    }
+    lotes = fm.montar_lotes(ex, hoje=date(2026, 9, 18))
+    a = [l for l in lotes if l.fonte == fm.FONTE_CLIENTE][0]
+    assert sorted(i["item_id"] for i in a.itens) == ["b", "c", "z1", "z2"]           # não perde as folhas rasas
+    assert fm._soma(a.itens) == a.total_declarado == Decimal("140")                  # reconcilia com o nível 1
+    pct, ok = fm.reconciliar(fm._soma(a.itens), a.total_declarado)
+    assert ok is True
